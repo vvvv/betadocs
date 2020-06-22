@@ -1,0 +1,357 @@
+!Ableton Live
+{SPLIT()}
+
+[https://www.ableton.com/|Ableton Live]
+[https://www.ableton.com/en/live/max-for-live/|Max for Live]
+[http://cycling74.com/docs/max5/refpages/m4l-ref/m4l_live_api_overview.html|Live API Overview]
+[http://cycling74.com/docs/max5/refpages/m4l-ref/m4l_live_object_model.html|Live Object Model]
+[http://cycling74.com/wiki/index.php?title=Category:Programming_In_Max_for_Live|Programming Max for Live: video Tutorials]
+
+!!!!Related nodes
+((node:OSCEncoder (Network)))
+((node:OSCDecoder (Network)))
+
+~~~
+
+The official way for vvvv to talk to Ableton Live is to communicate via the OSC protocol to Max4Live patches running inside Live. Max4Live patches have almost full access to the software via Live API.
+
+Examples in your vvvv\girlpower\ directory:
+* IO\Networking\2_Advanced (OSC)\04_Remote Player
+
+__See also:__
+* ((/contributions/1353+1351+2439+1352+7934+2438+1354+1355/8112+3419|Related Contributions))
+
+{SPLIT}
+
+!Adobe Photoshop
+{SPLIT()}
+
+[http://www.adobe.com/uk/products/photoshop.html|Adobe Photoshop]
+[http://www.adobe.com/devnet/photoshop/sdk.html|Photoshop SDK]
+[http://www.adobe.com/devnet/photoshop/scripting.html|Photoshop Scripting Documentation]
+[https://github.com/adobe-photoshop/generator-core/wiki/Photoshop-Kevlar-API-Additions-for-Generator|Photoshop Kevlar API]
+
+!!!!Related nodes
+((node:Photoshop (EX9.Texture)))
+((node:Photoshop (Network Sender)))
+((node:Photoshop (Network Receiver)))
+((node:AsRaw (EX9.Texture Photoshop)))
+((node:AsString (Photoshop)))
+...and many more
+~~~
+
+vvvv can talk to Photoshop running on any networked machine. Images can be sent to and requested from Photoshop. 
+
+Photoshop understands JavaScript (manipulate Layers, Groups, SmartObjects, Filters, Adjustment and Text layers; Open/Save/Export documents, ... you name it), vvvv offers a simple way to send these commands and receive responses.
+
+The convenient ((node:Photoshop (EX9.Texture))) automatically pulls an image from Photoshop when any change was made to a document.
+
+__Nodes in this category are coming with the ((downloads|addonpack)).__
+
+Examples in your vvvv\addonpack\girlpower\ directory:
+* Photoshop
+
+{SPLIT}
+
+
+!Databases
+{SPLIT()}
+
+[http://dev.mysql.com/downloads/mysql|MySQL] 
+[http://www.postgresql.org/download/windows/|PostgreSQL]
+[http://www.sqlite.org/download.html|SQLite] 
+[http://www.microsoft.com/en-us/sqlserver/editions/2012-editions/express.aspx|SQL Server] 
+[http://en.wikipedia.org/wiki/ODBC|ODBC] 
+[http://en.wikipedia.org/wiki/OLE_DB|OLE DB]
+
+Convenient installers (MySQL + PHP + Apache): 
+[http://www.wampserver.com/en/|WAMP]
+[http://www.apachefriends.org/en/xampp.html|XAMPP]
+[http://www.easyphp.org/|EasyPHP]
+
+!!!!Related nodes
+((node:Database (MySQL Network)))
+((node:Select (MySQL Network)))
+((node:Update (MySQL Network)))
+((node:Insert (MySQL Network)))
+((node:Delete (MySQL Network)))
+...for each database
+
+~~~
+
+vvvv is able to communicate with a range of databases.  
+
+You must have access to a database, which can be on your local computer, in a LAN or somewhere in the depth of the internet. If you do not have access yet, the easiest thing would be setting up a mysql database (server) on a local computer.
+
+__Nodes in this category are contributed by ((user:vux)) and are coming with the ((downloads|addonpack)).__
+
+Examples in your vvvv\girlpower\ directory:
+* IO\Databases
+
+
+{SPLIT}
+
+
+!EyesWeb
+{SPLIT()}
+
+[http://www.infomus.org/eyesweb_ita.php|EyesWeb]
+
+!!!!Related nodes
+((node:MoCapDecoder (Network EyesWeb)))
+((node:ScalarDecoder (Network EyesWeb)))
+
+~~~
+
+vvvv can receive and decode EyesWeb data. Check the helppatches of the EyesWeb nodes for more info.
+
+__These nodes are contributed by ((user:vux)) and are coming with the ((downloads|addonpack)).__
+
+{SPLIT}
+
+!Flash
+{SPLIT()}
+
+[http://www.adobe.com/products/flash.html|Adobe Flash]
+
+~~~
+
+Using Flash with vvvv:
+((flash|An Overview)).
+
+{SPLIT}
+
+!Grasshopper
+{SPLIT()}
+
+[http://www.grasshopper3d.com/|Grasshopper]
+
+~~~
+
+Using Grashopper with vvvv:
+[http://www.grasshopper3d.com/video/video/listTagged?tag=vvvv|Examples]
+
+{SPLIT}
+
+!HTML
+{SPLIT()}
+
+[http://en.wikipedia.org/wiki/HTML|HTML]
+
+!!!!Related nodes
+((node:HTMLTexture (EX9.Texture URL)))
+((node:Element (XElement Join)))
+((node:Attribute(XElement Join)))
+((node:Cons(XElement)))
+((node:AsString(Object)))
+...and many more
+~~~
+
+HTML websites can be loaded, navigated, created, parsed or used as textures in vvvv. From the web or locally.
+
+__HTMLTexture nodes are coming with the ((downloads|addonpack)).__
+
+Examples in your vvvv\girlpower\ directory:
+* IO\Networking\Web
+
+{SPLIT}
+
+!JavaScript
+{SPLIT()}
+
+[http://en.wikipedia.org/wiki/JavaScript|JavaScript]
+
+!!!!Related nodes
+((node:HTMLTexture (EX9.Texture URL)))
+((node:HTMLTexture (EX9.Texture String)))
+~~~
+
+HTML websites loaded as textures using the ((node:HTMLTexture (EX9.Texture))) can be modified by invoking JavaScript functions. These functions can be parts of the HTML documents or provided by vvvv on the fly.
+
+__HTMLTexture nodes are coming with the ((downloads|addonpack)).__
+
+{SPLIT}
+
+!Kontrolleur
+{SPLIT()}
+
+[https://play.google.com/store/apps/details?id=processing.test.kontrolleur&hl=en|Google Play]
+[https://github.com/vvvv/Kontrolleur|Source Code]
+[http://vimeo.com/22041214|Demo Video]
+
+
+!!!!Related nodes
+((node:Kontrolleur (Network)))
+((node:Server (VVVV)))
+
+~~~
+
+Kontrolleur is an open source general purpose remote controlling app for Android written in Processing. It displays (using simple autolayout) interface elements (slider, button,...) that are being pushed to it via OSC by vvvv (or any other host) and sends back values to given OSC addresses.
+
+Check the helppatch for the ((node:Kontrolleur (Network))) node to learn how to use it. 
+
+Read ((blog:remoting-vvvv-exposing-pins-kontrolleur|this blog post)) about remoting vvvv and exposing pins.
+
+{SPLIT}
+
+
+!Max/MSP
+{SPLIT()}
+
+[http://cycling74.com/products/max/|Max/MSP]
+~~~
+
+For realtime texture sharing check ((software#spout|Spout)).
+
+vvvv can also talk to Max/MSP via the ((protocols#osc|OSC protocol)) or directly via ((protocols#udp-tcp|UDP or TCP)).
+
+Examples in your vvvv\girlpower\ directory:
+* IO\Networking\2_Advanced (OSC)
+{SPLIT}
+
+
+!Node.js
+{SPLIT()}
+
+[http://nodejs.org/|Node.js]
+~~~
+
+The ((contribution:Venode)) contribution by ((user:sanch)), ((user:joreg)) and ((user:tmp)) is demonstrating interaction between node.js and vvvv.
+
+{SPLIT}
+
+!Processing
+{SPLIT()}
+
+[http://processing.org/|Processing]
+~~~
+
+For realtime texture sharing check ((software#spout|Spout)).
+
+vvvv can also talk to Processing sketches via the ((protocols#osc|OSC protocol)) or directly via ((protocols#udp-tcp|UDP or TCP)).
+
+Examples in your vvvv\girlpower\ directory:
+* IO\Networking\
+
+{SPLIT}
+
+
+!Pure Data
+{SPLIT()}
+
+[http://puredata.info/downloads|Download PureData]
+[http://en.flossmanuals.net/pure-data/introduction/graphical-programming/|Pd Tutorials]
+[http://mitpress.mit.edu/books/designing-sound|'Designing Sound' book] ([http://dm.ncl.ac.uk/courseblog/files/2011/02/pd_intro.pdf|free excerpt])
+[http://en.wikipedia.org/wiki/Pure_Data|About Pd]
+
+~~~
+
+vvvv can talk to Pd via the FUDI and ((protocols#osc|OSC)) protocols or directly via ((protocols#udp-tcp|UDP or TCP)).
+
+Examples in your vvvv\girlpower\ directory:
+* IO\Networking\1_Simple (FUDI)
+* IO\Networking\2_Advanced (OSC)
+
+{SPLIT}
+
+
+!Python
+{SPLIT()}
+
+[http://www.python.org/|Python]
+[https://pypi.python.org/pypi/python-osc|Python OSC library]
+
+~~~
+
+vvvv can talk to Python via the ((protocols#osc|OSC protocol)) or directly via ((protocols#udp-tcp|UDP or TCP)).
+
+
+{SPLIT}
+
+
+!Quartz Composer
+{SPLIT()}
+
+[http://en.wikipedia.org/wiki/Quartz_Composer|Quartz Composer]
+
+~~~
+
+vvvv can talk to QC via the ((protocols#osc|OSC protocol)) or directly via ((protocols#udp-tcp|UDP)).
+
+As a side note, check this: ((quartz-composer-for-vvvv-users|Quartz Composer for vvvv users)).
+
+Examples in your vvvv\girlpower\ directory:
+* IO\Networking\
+
+{SPLIT}
+
+
+!Resolume
+{SPLIT()}
+
+[http://resolume.com/|Resolume]
+
+~~~
+
+For realtime texture sharing check ((software#spout|Spout)).
+
+vvvv can also talk to Resolume via the ((protocols#osc|OSC protocol)).
+
+Examples in your vvvv\girlpower\ directory:
+* IO\Networking\
+
+Also check ((contribution:directx-freeframegl-bridge|the freeframegl-bridge contribution)) by ((user:elio)) for a way to send vvvv-rendered output over to resolume.
+
+
+{SPLIT}
+
+
+
+!RSH (Remote Shell)
+{SPLIT()}
+
+[http://en.wikipedia.org/wiki/Remote_Shell|RSH]
+~~~
+
+Here is how to ((rsh-howto|use vvvv with RSH))
+
+{SPLIT}
+
+!Spout
+{SPLIT()}
+
+[http://spout.zeal.co/|Spout]
+[http://techlife.sg/TCPSpout/|TCPSpout]
+
+!!!!Related nodes
+((node:Spout (EX9.Texture Sender)))
+((node:Spout (EX9.Texture Receiver)))
+((node:SpoutSenderNames (System)))
+~~~
+
+Spout is a realtime video sharing framework for Windows similar to [http://www.syphon.v002.info/|Syphon] for OSX.
+After installing Spout, textures can be shared between vvvv and Resolume, TouchDesigner, Processing, OF, ... you name it. 
+
+For streaming Spout via the Network use [http://techlife.sg/TCPSpout/|TCPSpout].
+
+__Spout for DX11__
+* See ((contribution:spout-dx11|this contribution))
+
+{SPLIT}
+
+
+!TouchDesigner
+{SPLIT()}
+
+[http://www.derivative.ca/|TouchDesigner]
+
+~~~
+
+For realtime texture sharing check ((software#spout|Spout)).
+
+vvvv can also talk to TouchDesigner via the ((protocols#osc|OSC protocol)) or directly via ((protocols#udp-tcp|TCP or UDP)).
+
+Examples in your vvvv\girlpower\ directory:
+* IO\Networking\2_Advanced (OSC)
+
+{SPLIT}

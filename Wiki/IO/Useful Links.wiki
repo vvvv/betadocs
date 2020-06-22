@@ -1,0 +1,122 @@
+!Electronics
+
+!!Links
+*[https://www.allaboutcircuits.com/|All About Circuits] an extremely active electrical engineering online community that provides both interesting content and useful resources for Electrical Engineers.
+*[http://www.nastypixel.com/instantsoup/|InstantSoup] from IVREA introduces electronic prototyping in a playful, non-technical way. It was developed following the experience gained in teaching physical interaction design at Interaction-Ivrea.
+*[http://www.rohm.com/web/global/en_index/| Rohm Fundamentals] A collection of resources from Rohm detailing the history and fundamentals of basic electronic components.
+*[https://maker.pro| Maker Pro] is an active, open source platform for maker projects much like Hack A Day. These projects are centered around Arduino, Raspberry Pi, Intel Edison, home automation and more.
+*[http://arcadecontrols.com/|arcadecontrols.com] large fan page with hints on how to connect diverse arcade controllers to a PC
+*[http://itp.nyu.edu/physcomp/|Physical Computing] A collection of resources, examples, and lecture notes for the physical computing courses at ITP, English
+*[http://sound.westhost.com/articles.htm|Elliot Audio Pages] Mostly audio, but very good introduction to analog components and circuitery
+*[http://www.epanorama.net/index.php|ePanorama.net] (was Tomi Engdahl's Electronics Pages), English
+*[http://www.xs4all.nl/~ganswijk/chipdir/|ChipDir] contains Numerically and functionally ordered chip lists, chip pinouts and lists of manufacturers, English
+*[http://www.discovercircuits.com/index.htm|Discover Circuits] a resource for engineers, hobbyists, inventors & consultants,  is a collection of  8000+ electronic circuits or schematics cross-referenced into 500+ categories. Complied by David A. Johnson, P.E.
+*[http://www.seattlerobotics.org/encoder/index.php|Encoder, The Newsletter of the Seattle Robotics Society]
+*[http://www.mtechnologies.com/build/atoz.htm|Electronic Construction from A-Z]
+*[http://www.elektronik-kompendium.de/|Das Elko] Elektronik Kompendium
+*[http://ee.cleversoul.com/|the Electronic Compendium] The home of Electronic Engineering and Embedded System Programming
+*[https://www.eaton.com/us/en-us/products/electronic-components/supercapacitors.html|Eaton Supercapacitors] are unique, ultra-high capacitance devices utilizing electrochemical double layer capacitor (EDLC) construction combined with new, high performance materials.
+*[http://www.shop.robotikhardware.de/shop/catalog/index.php|robotikhardware.de]
+*[http://artbots.org/2004/|ArtBots] the robot talent show
+*[http://www.roboternetz.de/phpBB2/index.php|roboternetz.de]
+*[http://www.procosound.com/education/99-white-papers|Engineering White Papers on Cable Anatomy] Excellent clear written tutorials on audio cables, laying good groundwork for other cabling projects]
+*[http://www.lvr.com/parport.htm|Parallel Port Central]
+*[http://retired.beyondlogic.org/spp/parallel.htm|Interfacing the standart parallel port]
+*[http://www.geekhideout.com/iodll.shtml|io.dll]
+*[http://www.franksteinberg.de/erel.htm|How to build a cheap relais card] (german)
+*[http://lowtech.propositions.org.uk|Low tech sensors and actuators for artists and architects]
+*[http://www.electronicproducts.com|Electronic Products Magazine] Electrical, design engineers & hi-tech lovers! Electronic Products features the ultimate in electronic information hot tips, trends, gizmos & gadgets.
+*[https://eepower.com/|EE Power] A digital publication focused on the power electronics industry.
+*[https://electronicspoint.com/forums/|Electronics Point] an extremely active electrical engineering online community that provides useful resources for Electrical Engineers.
+*[https://www.peigenesis.com/|PEI-Genesis General Connector Distributor] is a global leader in the design and assembly of custom engineered connectors and cable solutions for harsh environments.
+
+!!Hardware Suppliers: Microcontrollers, Interfaces and sensor/actuator kits.
+''In recent years, the market for such devices has opened up very much to an amateur audience, with very user-friendly kits to make physical devices that include digital control. And VVVV is an ideal software toolkit to couble them with high-performance PC applications. Here are a few links.''
+
+*[http://www.billbuxton.com/InputSources.html#anchor678822| A directory of sources for input technologies]
+!!!Kits
+*[http://phidgets.com|Phidgets] a modular microcontroller-sensor-actuator system, competitive pricing, large range of modules (even a nifty mini joystick), but closed source.
+*[http://www.tinkersoup.de/prototyping-interfaces-starter-kit/kits/a-882/|Convenient starter kits] for the ((books#prototyping-interfaces-interaktives-skizzieren-mit-vvvv|Prototyping Interfaces)) book.
+*[https://www.sparkfun.com/products/12001|Sparkfun Inventor's Kit].
+*[http://www.arduino.cc|Arduino] possibly the cheapest microcontroller with a usb port on the market. Open Source, with a friendly community. Read more about ((hardware#arduino|vvvv and Arduino)).
+*[http://www.c-control.de/|C-Control] by [http://www.conrad.com|Conrad], rather old project, but keeps developing.
+*[http://www.makingthings.com|MakingThings] develop the Teleo Board and the new, rather powerful MAKE controller.
+*[http://www.parallax.com|Parallax] maker of the basic stamp, one of the first microcontroller kits geared at beginners.
+*[http://www.interface-z.com/ |Interface Z] is selling midi I/O cards, sensors, and giving on its site a full documentation on how do yourself a lot of things ( sensor carpet, etc...)
+!!!Interfaces
+*[http://www.cinetix.de|Cinetix] is a small company from Frankfurt, Germany. They make USB Interfaces and are very helpful with custom projects. VVVV supported: ((node:IO (Devices Cinetix Sensorbox) ))
+*[http://www.wut.de|Wiesemann & Theis] Ethernet-based IO interfaces, industrial-grade systems, priced accordingly. VVVV supported: ((node:IO (Devices Wiesemann+Theis Digital-EA)))
+*[http://www.codemercs.com|Code Mercenaries] Makers of cheap, versatile interfaces JoyWarrior, KeyWarrior and IOWarrior. VVVV supported: ((node:GameController (Devices JoyWarrior) )), ((node:IO (Devices IOWarrior40) ))
+!!Other Stuff
+*[http://www.tinkersoup.de|tinkersoup.de]
+*[http://www.roboter-teile.de|roboter-teile.de]
+*[http://www.shop.robotikhardware.de/shop/catalog/index.php|robotikhardware.de]
+!!Books
+*((books#prototyping-interfaces-interaktives-skizzieren-mit-vvvv|Prototyping Interfaces)) book
+*Arduino Cookbook, Michael Margolis, ISBN 1449313876, English
+*Making Things Talk, Tom Igoe, ISBN 1449392431, English
+*Programming Interactivity, Joshua Noble, ISBN 144931144X, English
+*Physical Computing by Dan O'Sullivan, Tom Igoe, ISBN 159200346X, English
+*Practical Electronics for Inventors, Paul Scherz, ISBN 0070580782, English
+*Bauelemente (Elektronik, Bd.2), Klaus Beuth, ISBN 3802319575, German
+*Digitaltechnik (Elektronik, Bd.4) Klaus Beuth, Olaf Beuth, ISBN 3802317556, German
+
+!IO
+
+!!Hardware Diagnosis Tools
+!!!General Purpose
+!!!USB
+* [http://msdn.microsoft.com/en-us/library/windows/hardware/ff560019%28v=vs.85%29.aspx|USBview] (Universal Serial Bus Viewer, Usbview.exe) is a Windows graphical user interface application that enables you to browse all USB controllers and connected USB devices on your computer. USBView works on all versions of Windows. USBView can enumerate USB host controllers, USB hubs, and attached USB devices. It can also query information about the devices from the registry and through USB requests to the devices. The main USBView window contains two panes. The left pane displays a connection-oriented tree view, enabling you to select any USB device.
+
+
+!!MIDI
+* [http://www.midiox.com/|MIDI-OX] is a multi-purpose tool: it is both a diagnostic tool and a System Exclusive librarian. It can perform filtering and mapping of MIDI data streams. It displays incoming MIDI streams, and passes the data to a MIDI output driver or the MIDI Mapper. You can generate MIDI data using the computer keyboard or the built-in control panel.
+* [http://www.bome.com/midi/translator/|Bome's Midi Translator] lets you translate MIDI messages (e.g. from a keyboard or a control surface) to different MIDI messages, or to emulated keystrokes for controlling other programs.
+* [http://www.nicolasfournel.com/| some amazing midi tools]
+
+!!MIDI Loopback Devices
+virtual midi ports/cables, to connect different software via midi:
+* [http://www.maplemidi.com/Maple_driver.html|Maple Virtual Midi Cable]
+* [http://www.midiox.com/myoke.htm|MIDI Yoke Junction]
+* [http://www.nerds.de/en/loopbe1.html|LoopBe1]
+
+!!Lighting Tools
+*[http://www.le-chat-noir-numerique.fr/index_eng.html | WhiteCat ] a free open source lighting board enabling to work with DMX devices, midi devices. Cues, performance structure, ArtNet IN and OUT ( remoting VVVV is very easy using WhiteCat Cuelist and recording habilities, or getting data in Artnet from VVVV). WhiteCat is dedicated to traditionnal lights (dimmers). Coded in C-C++, searching for new coders :)
+* [http://karistouf.free.fr/developpement%20logiciel.html | Schwartzpeter] is a free lighting desk, ancestor of WhiteCat. It is remotable in midi (hardware and udp). Cues, patch, dimmer laws, chasers, midi receiving / sending, ascii import/export.
+*[http://moicestpilou.free.fr/|free ascii transcoding tool]
+*[http://www.chamsys.co.uk/magicq|MagicQ] Pc lighting software fully featured pc editor for their consoles. Supports Entec, pepperoni, artnet outputs, 16 universes, cues stacks, media server support.
+
+!!Networking
+* [http://www.tightvnc.org|TightVNC] is better than RealVNC, because it allows multiple clients to connect simultaneously.
+* [http://www.inputdirector.com/|Input Director] is a Windows application that lets you control multiple Windows systems using the keyboard/mouse attached to one computer. You can
+**share a single keyboard/mouse across a set of systems. You switch which system receives the input by moving the cursor.
+**Input Director also supports a "shared" clipboard, in which you can copy data onto the clipboard on one system, transition across to another and paste.
+** since vvvv_beta20 you even can __copy a selection of nodes__ on one PC __and paste__ them into a patch __on a second PC__.
+** you even can use a whole KVM-cluster of PCs (each running ID as Master) and your laptop besides as ID-slave. __no matter which PC is selected by KVM__ you can __sweep over to your laptop and back__. Input Director is definetely very addictive and always will be free for personal non-commercial use.
+
+* [http://synergy2.sourceforge.net|Synergy] allows you to use your main mouse and keyboard to control other computers. You can configure the topology, eg, "I have another computer to the right of my main one" and control is transferred seamlessly when your mouse moves off the righthand side of the screen. Works reliably, it's free and will help prevent RSI!
+* [http://beyondcopy.sourceforge.net/|BeyondCopy] is a LAN hosts clipboard synchronism tool. BeyondCopy allows you to copy something in one computer, and paste it in another computer directly. It is useful if you have to work using two or more computers at the same time. File Copying feature works under Windows 2000/XP/2003. It is an open source software under GNU General Public License 3.0.
+* [http://www.netsetman.com/|NetSetMan]  is a network settings manager which can easily switch between 6 different, visually structured profiles including: IP Address, Subnet Mask, Default Gateway, DNS Server, Computer Name, Workgroup, DNS Domain, WINS Server, Default Printer,  Network Drives, Run Scripts. a "must have" for laptops.
+* [http://technet.microsoft.com/en-us/sysinternals/bb896644.aspx|PortMon] is a utility that monitors and displays all serial and parallel port activity on a system. It has advanced filtering and search capabilities that make it a powerful tool for exploring the way Windows works, seeing how applications use ports, or tracking down problems in system or application configurations. Debug output from any computer accessible via TCP/IP - even across the Internet. You can monitor multiple remote computers simultaneously. Portmon will even install its client software itself if you are running it on a Windows NT/2K system and are capturing from another Windows NT/2K system in the same Network Neighborhood.
+*[http://home.cs.tum.edu/~jain/software.php#Mirror|Mirror], a commandline tool of Dominik Jain, makes exact copies of directories (or entire directory structures). It will overwrite existing files only if necessary and delete files in the destination that are no longer present in the source (unidirectional synchronization). Mirror can ignore files that match regular expressions or file masks. ((user:kalle|kalle)) made some handy ((kalle.modules.file|modules)) integrating this tool into vvvv.
+* [http://technet.microsoft.com/en-us/sysinternals/bb896649.aspx|PsTools] is a simple and light network management process.Usefull for boygroup. Allow kills,starts, copy... from one computer to other computers over networks.
+
+!!Graphiccards Tools/Drivers
+* [http://www.laptopvideo2go.com/|laptopvideo2go] allows you to install the newest nvidia-drivers on any laptop with nvidia graphiccard
+* [http://www.entechtaiwan.com/util/ps.shtm|Powerstrip] allows you to precisely set a graphiccards refresh frequency independent of the driver
+
+!!EventGhost
+*[http://www.eventghost.de/|EventGhost] is an open-source automation tool for MS Windows, that can be extended through plugins. It can use different input devices like infrared or wireless remotes to trigger macros, that on their part control a computer and its attached hardware. After the user has configured everything to its needs, the program will run silently in the system tray and waits for an event to arrive. So it can be used to control a Media-PC with a normal consumer remote for example.
+
+!!Programmable Input Emulator
+* [http://glovepie.org/glovepie.php|GlovePIE] allows to connect several things to vvvv via MIDI or OSC
+**P5 DataGlove
+**Microsofts Speech Recognition
+**Text to Speech
+**ForceFeedback
+**Multiple Mice
+**Nintendo Wii
+* [http://www.autohotkey.com/|AutoHotkey] is a free, open-source utility for Windows.
+**Automate almost anything by sending keystrokes and mouse clicks.
+** You can write a mouse or keyboard macro by hand or use the macro recorder.
+** Create hotkeys for keyboard, joystick, and mouse. Virtually any key, button, or combination can become a hotkey.

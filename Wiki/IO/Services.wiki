@@ -1,0 +1,15 @@
+!Twitter
+{SPLIT()}
+
+[https://dev.twitter.com/overview/documentation|Twitter Docs]
+
+~~~
+
+vvvv can authorize, search, publish, favourite or retweet tweets and even spam twitter with batch actions that can send hundreds of tweets in one click.
+
+__The ((contribution:evvvvil-tweet-engine|Tweet engine)) is a contribution by ((user:evvvvil)).__
+
+__See also:__
+* [https://vimeo.com/111038984|Video Tutorial]
+
+{SPLIT}
