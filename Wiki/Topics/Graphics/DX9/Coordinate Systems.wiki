@@ -1,0 +1,112 @@
+!Left-handed system
+{SPLIT()}
+{img src = "LeftHandedSystem2.png" }
+~~~
+
+vvvv is using a left-handed coordinate system with:
+* positive X going right
+* positive Y going up 
+* positive Z going forward (ie. into the screen). 
+This corresponds to the DirectX default. 
+{SPLIT}
+
+!Rotation
+{SPLIT()}
+{img src = "Cycles1.png" }
+~~~
+
+In vvvv rotations are specified in fractions of full counter-clockwise cycles (turns). 
+
+ 0° = 0 cycles
+ 90° = 0.25 cycles
+ 180° = 0.5 cycles
+ 270° = 0.75 cycles
+ 360° = 1 cycle
+ 720° = 2 cycles
+ ...
+
+Search the NodeBrowser for ''Cycles'', ''Degrees'' or ''Radians'' to find nodes that convert between the different scales.
+
+For more about angles and cyclic animations check:
+* ((angles-in-2d|Angles in 2d))
+
+{SPLIT}
+
+!Renderer's space
+{SPLIT()}
+{img src = "RendererCoordinateSystem3.png" }
+~~~
+
+The window area has a default range of -1 to +1 in both dimensions. The origin with coordinate 0 is in the middle of the window.
+
+A standard quad has width and height of 1 with its center at (0, 0). Therefore the quad extends from -0.5 to +0.5 in both dimensions.
+
+Resizing the window stretches the coordinate system in the same way as the window.
+
+See ((rendering-overview#aspect-ratio|Aspect Ratio)) on how to avoid stretching.
+
+{SPLIT}
+
+!Object Space
+{SPLIT()}
+
+{img src = "ObjectSpace2.png" } 
+
+~~~
+
+The coordinate space in which the vertices of a mesh are specified is called the object space. When preparing meshes for use in vvvv it makes sense to think about the object-spaces dimensions. If you need realistic scaling from between different meshes you'd best think of one unit in object space being equal to 1 meter in real life.
+
+Otherwise if you're just dealing with a bunch of objects that need no special size it's often useful to keep their vertices within a 1 unit cube.
+
+{SPLIT}
+
+!World Space
+{SPLIT()}
+
+{img src = "WorldSpace3.png" } 
+
+~~~
+
+The coordinate system of the 3d scene is called World space (aka Model space). 
+
+When placing a Mesh into World space it first sits with its own center at the worlds center. To position a Mesh in the scene its vertex positions are multiplied with a so called WorldMatrix. The WorldMatrix is the ((pin:Transform)) of any ((Shader|Effect)) node.
+
+{SPLIT}
+
+!View Space
+{SPLIT()}
+
+{img src = "ViewSpace2.png" }
+~~~
+
+View space (aka camera space) is the coordinate system relative to the camera. To place a Mesh into View space its vertex positions (in World space) are multiplied by the ViewMatrix. The ViewMatrix is specified via the ((pin:View)) on the ((node:Renderer (EX9))). It defines position and rotation of the camera.
+
+{SPLIT}
+
+!Projection Space
+{SPLIT()}
+
+And this is what the camera sees:
+{img src = "CameraImage4.png" }
+
+~~~
+
+Projection space (aka Screen space, Clip space, Image space) finally is the 2d space of the screen. To project a Mesh onto the screen its vertex positions (in View space) are multiplied by the ProjectionMatrix. The ProjectionMatrix is specified via the ((pin:Projection Transform)) on the ((node:Renderer (EX9))).
+
+{SPLIT}
+
+
+!Texture Space
+{SPLIT()}
+
+[http://msdn.microsoft.com/en-us/library/bb206245%28VS.85%29.aspx|MSDN on Texture Coordinates]
+
+~~~
+
+Texture space is the 2d coordinate system of a texture, ranging from 0/0 (topleft) to 1/1 (bottomright). It is used by the sampler to lookup for pixels at a particular position in a texture. 
+
+__See also:__ 
+* ((texture-transformation|Texture Transformation))
+
+{SPLIT}
+

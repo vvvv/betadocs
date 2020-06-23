@@ -1,0 +1,280 @@
+!DMX & Art-Net
+{SPLIT()}
+
+[http://en.wikipedia.org/wiki/DMX512|DMX]
+[http://en.wikipedia.org/wiki/Art-Net|Art-Net]
+[http://www.artisticlicence.com/WebSiteMaster/User%20Guides/art-net.pdf|Art-Net spicification]
+
+!!!!Related nodes
+((node:ArtNet (Network Sender))
+((node:ArtNet (Network Receiver))
+...and many more
+
+
+~~~
+
+The DMX-protocol transmits up to 512 channels per universe, this is equivalent to a spread of 512 slices.
+
+DMX values are Integers in the range (0..255) but from vvvv you set them in a range of (0..1) instead. Keep in mind that the resolution is still 8-bit though, so only 256 steps (including 0 and 1) are possible.
+
+Art-Net is a standard for transmission of DMX over Ethernet.
+
+vvvv supports the Art-Net II specification with a total number of 256 universes: 16 subnets with 16 universes each. 
+
+As defined in the protocol, Art-Net talks over UDP on port 6454 (0x1936). This port number can be changed: just start vvvv from a command line with an option '/artnetport nnnn' (nnnn - your port number).
+
+Examples in your vvvv\girlpower\ directory:
+* IO\DMX
+
+__See also:__
+* ((/contributions/1353+1351+2439+1352+7934+2438+1354+1355/7414+2187|Related Contributions))
+* ((kalle.Modules.DMX|A range of DMX Modules)) by ((user:kalle))
+* ((dmx.hardware|List of DMX Hardware))
+* ((node08.workshop.DMX|node08 DMX workshop material))
+
+{SPLIT}
+
+
+!HID
+{SPLIT()}
+
+[http://en.wikipedia.org/wiki/Human_interface_device|HID]
+[http://www.usb.org/developers/devclass_docs/HID1_11.pdf|HID Specification]
+
+!!!!Related nodes
+((node:HID (Devices)))
+((node:HIDDecode (Devices)))
+((node:HIDEncode (Devices)))
+~~~
+
+vvvv can talk to any generic HID-Device (Human Interface Device). These can be joysticks, game pads and button panels, data gloves and other things connected via USB.
+
+For more information check HID-nodes helppatches and the ((hid-nodes|wiki-page on the HID nodes)).
+{SPLIT}
+
+
+!HTTP
+{SPLIT()}
+
+[http://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol|HTTP]
+[http://en.wikipedia.org/wiki/Representational_state_transfer|REST]
+
+!!!!Related nodes
+((node:HTTP (Network Get)))
+((node:HTTP (Network Post)))
+((node:HTTP (Network Receiver)))
+((node:HTTP (Network Server)))
+...and many more
+
+
+~~~
+
+vvvv is able to send GET and POST requests to retrieve/send data from/to webservers.
+
+vvvv can also be a webserver itself by using the ((node:HTTP (Network Server))) node.
+
+Examples in your vvvv\girlpower\ directory:
+* IO\Web
+
+__See also__
+* ((contribution:restful-http-node|RESTful HTTP Node)) by ((user:korriander))
+
+{SPLIT}
+
+!ILDA
+{SPLIT()}
+
+[http://en.wikipedia.org/wiki/International_Laser_Display_Association|International Laser Display Association]
+[http://www.laserfx.com/Backstage.LaserFX.com/Standards/ILDAframes.html|ILDA Image Data Transfer Format]
+[http://www.lichtbastler.de/lumax|Minilumax Light Interface]
+
+!!!!Related nodes
+((node:Lumax (Devices)))
+~~~
+
+vvvv can talk to ILDA-compatible lasers via the ((node:Lumax (Devices))). For more information check its helppatch.
+
+{SPLIT}
+
+
+
+!MIDI
+{SPLIT()}
+
+[http://en.wikipedia.org/wiki/MIDI|MIDI protocol]
+[http://www.midi.org/about-midi/table1.shtml|MIDI specification]
+[http://www.midiox.com/|Very helpful MIDI Utility]
+[http://www.nerds.de/en/loopbe1.html|MIDI Virtual Driver]
+[http://www.tobias-erichsen.de/|Multi MIDI Virtual Driver]
+[http://www.copperlan.org/index.php/download|MIDI Virtual Network Driver]
+
+!!!!Related nodes
+((node:MidiNote (Devices)))
+((node:MidiController (Devices)))
+((node:MidiProgram (Devices)))
+((node:MidiBend (Devices)))
+((node:MidiClock (Devices)))
+((node:TodoMap (TodoMap)))
+MidiIn (VAudio)
+MidiNode (VAudio)
+MidiFilePlayer (VAudio)
+...and many more
+~~~
+
+In MIDI slang controllers are: volume knob, modulation wheel, pan fader, pedal, etc. The instrument as a whole is called a device and sends its data on a specified channel number. 
+
+vvvv counts midi channels from 0 to 15 and notes from 0 to 127. Note's velocities and control values are defined in the range (0..1).
+
+The ((pin:Buffer Length)) of the Midi input nodes sets the maximum number of incoming midi-messages that get queued for output in the patch. Only one message per vvvv-frame will be returned in the patch while within a frame's timespan more than one message could arrive.
+
+- If you want fast responses (messing around with a faderbox cause a lot of control messages): set the 'Buffer Length' low, even 0.
+
+- If you want to make sure that you receive every single midi-message: set the 'Buffer Length' to a high value (ie. 999).
+
+A handy patch to receive and understand what your midi device is sending:
+* IO\Midi\02_KnowYourDevice.v4p
+
+An example on how to receive different notes and control values on different channels:
+* IO\Midi\03_ReceivingNoteAndControl.v4p
+
+Check all other examples about Midi:
+* IO\Midi\
+
+!!!VAudio
+VAudio Pack supports MIDI events. This has a big advantage because the midi events happen as the occur and do not get quantized by the vvvv mainloop.
+__((/contribution/vvvv.audio-pack-alpha|VAudio Pack)) is contributed by ((user:tonfilm)).__
+
+
+!!!TodoMap
+There is also a useful MIDI & OSC mapper for vvvv called TodoMap. Check the video-tutorials from ((contribution:launchpad-(todomap-launchpad)-todomap-tutorials|this contribution)) by ((user:vux)) & ((user:antokhio)).
+
+__The TodoMap nodes are contributed by ((user:vux)) and are coming with the ((downloads|addonpack)).__
+
+
+__Useful MIDI-Modules:__
+* ((/contributions/all/3075|Midi-related contributions))
+* ((kalle.Modules.MIDI|A range of Midi modules)) by ((user:kalle))
+
+__Virtual Midi Ports use:__
+keep in mind that some virtual midi ports like loopBe or loopMidi need 
+the same architecture at both ends 32 OR 64 bits.
+if you need to communicate between x86 and x64 softwares have a look at copperlan.
+
+
+{SPLIT}
+
+!MQTT
+{SPLIT()}
+
+[http://mqtt.org/|MQTT protocol]
+
+~~~
+
+MQTT is short for Message Queue Telemetry Transport, is a light weight open Source messaging protocol for the Internet of Things.
+
+It is a great and easy way to exchange low frequency messages like sensor readings, or program states etc. between multiple machines and services. It's very robust with a small footprint.
+
+__Contributions:__
+
+* ((contribution:mqtt-sender-receiver|MQTT Sender & Receiver)) by ((user:korriander))
+* ((contribution:mqtt-revamped|MQTT Revamped)) by ((user:woei))
+
+{SPLIT}
+
+
+!OSC
+{SPLIT()}
+
+[http://opensoundcontrol.org/introduction-osc|OSC]
+((hardware#mobile-devices|OSC Apps )) for mobile devices.
+
+!!!!Related nodes
+((node:OSCEncoder (Network)))
+((node:OSCDecoder (Network)))
+((node:TodoMap (TodoMap)))
+...and many more
+~~~
+
+The OSC protocol can be used to communicate between vvvv and other software like Ableton Live, Pure Data, Max/MSP, Resolume... you name it.
+
+OSC is useful when you want to send different parameters via one udp-port. OSC adds an "address" to your data that you can conveniently filter for on the receiving end.
+
+Examples in your vvvv\girlpower\ directory:
+* IO\Networking\2_Advanced (OSC)
+
+There is also a useful MIDI & OSC mapper for vvvv called TodoMap. Check the video-tutorials from ((contribution:launchpad-(todomap-launchpad)-todomap-tutorials|this contribution)) by ((user:vux)) & ((user:antokhio)).
+
+__The TodoMap nodes are contributed by ((user:vux)) and are coming with the ((downloads|addonpack)).__
+
+{SPLIT}
+
+
+!TUIO
+{SPLIT()}
+
+[http://tuio.org/|TUIO protocol]
+[https://play.google.com/store/apps/details?id=tuioDroid.impl&hl=en|TUIODroid at Google Play] 
+[https://itunes.apple.com/us/app/tuiopad/id412446962|TUIOPad at Apple Store]
+
+!!!!Related nodes
+((node:TUIODecoder (Network 1.0)))
+
+~~~
+
+TUIO is a common protocol and API for tangible multitouch surfaces. This protocol encodes control data from a tracker application (e.g. based on computer vision) and sends it to any client application that is capable of decoding the protocol.
+
+You can easily test communication via TUIO by using one of [http://tuio.org/?software|these software simulators (scroll to bottom)].
+
+__The ((node:TUIODecoder (Network 1.0))) node is contributed by ((user:Abomb)) and is coming with the ((downloads|addonpack)).__
+
+Examples in your vvvv\girlpower\ directory:
+* IO\TUIO
+
+{SPLIT}
+
+!UDP & TCP
+{SPLIT()}
+
+[http://en.wikipedia.org/wiki/User_Datagram_Protocol|UDP]
+[http://en.wikipedia.org/wiki/Transmission_Control_Protocol|TCP]
+
+!!!!Related nodes
+
+((node:UDP (Network Client)))
+((node:UDP (Network Server)))
+((node:TCP (Network Client)))
+((node:TCP (Network Server)))
+
+((node:Tokenizer (Raw FixedLength)))
+((node:Tokenizer (Raw LengthPrefix)))
+((node:Tokenizer (Raw Postfix)))
+((node:Tokenizer (Raw Frame)))
+
+((node:PrefixLength (Raw)))
+((node:PostfixBytes (Raw)))
+((node:FrameBytes (Raw)))
+~~~
+
+The main difference between the UDP and TCP protocols is the fact that while UDP transmits faster, it does not guarantee all data to arrive. TCP tends to be a bit slower but it does guarantee the arrival of all data sent. Therefore UDP is generally used for streams of data where it does not matter if a single data is missing whereas TCP is used when every single data sent needs to arrive on the other side. Also UDP allows you to send broadcasts to a range of listeners. This can easily be done by using a broadcast IP like x.y.z.255 (where x.y.z is your subnet, like e.g. 192.168.0) for the ((pin:Remote Host)).
+
+Note that choosing TCP requires you to take care of [http://blog.stephencleary.com/2009/04/message-framing.html|message framing] for which vvvv offers the Tokenizer nodes. 
+
+More infos in your vvvv\girlpower\ directory:
+* IO\Networking
+
+{SPLIT}
+
+!ZeroMQ
+{SPLIT()}
+
+[http://zeromq.org/|ZeroMQ]
+[https://en.wikipedia.org/wiki/%C3%98MQ|Wikipedia on ZeroMQ]
+~~~
+
+ØMQ (also spelled ZeroMQ, 0MQ or ZMQ) is a high-performance asynchronous messaging library, aimed at use in distributed or concurrent applications.
+
+__Contributions:__
+
+* ((contribution:vvvv-zeromq|vvvv-ZeroMQ)) by ((user:velcrome))
+
+{SPLIT}

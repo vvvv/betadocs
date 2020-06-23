@@ -1,0 +1,158 @@
+!Introduction
+{SPLIT()}
+
+vvvv offers different approaches to animate objects in ''interactive ''environments.
+
+In many cases, it's not enough to just place static keyframes on a timeline and let the playhead do the job. The animation may need to react to actions or events coming from sensors, networks, input devices or beat-detectors. So in these cases __the direction of movement needs to change spontaneously__ and you often want the transition to the new movement to occur as smoothly as possible. Time- and frame-based approaches can do this trick.
+
+Still, often you also want to timeline some behavior and even ((animation#mixed-approaches|combine)) the different techniques.
+
+
+^
+
+So here are the three basic approaches:
+
+* ((animation#timebased-animation|Time-based Animation))
+* ((animation#framebased-animation|Frame-based Animation))
+* ((animation#timeline|Timeline))
+
+^
+~~~
+
+__Time-based__ vs. __frame-based__ approaches:
+
+''Time-based:''
+* most time-based filters are parameterized in a way that they __animate towards a target point__ within a specified certain time. The target can be changed at any point in time.
+* the animation's speed is independent of the framerate.
+
+''Frame-based:''
+* typically you think about __events and reaction to those events at the current moment__, not so much about reaching a target in the future.
+* the main idea is to change the value each frame just a bit
+* the animation's speed depends on the framerate and extra care should be taken to avoid it.
+
+Interested in particle systems?
+* ((Particles))
+{SPLIT}
+
+
+!Time-based Animation
+{SPLIT()}
+
+!!!!Related nodes
+Generators:
+((node:LFO (Animation)))
+
+Filters:
+((node:Damper (Animation)))
+((node:Oscillator (Animation)))
+((node:Newton (Animation))) - accelerates & decelerates
+((node:OneEuroFilter (Animation)))
+((node:LinearFilter (Animation)))
+((node:Tweener (Animation)))
+((node:ADSR (Animation)))
+((node:Decay (Animation)))
+((node:DeNiro (Animation))) - accelerates, drives with constant speed, decelerates (just like a taxi driver)
+
+...and many more, see the Animation category.
+~~~
+
+When there must be a transition between a starting point (A) and a target point (B) and the animation of the value depends only on time, then the nodes from the Animation category do the tweening for you.
+
+These nodes are building a function curve to animate from A to B and sample this curve as the time goes (independent from the framerate), returning a new value every frame.
+
+If point B changes during the animation, the node builds a new curve and smoothly animates to the new target.
+
+If you just want to smoothen (filter) input values, besides ((node:Damper (Value))) or ((node:Newton (Value))) there is also ((node:OneEuroFilter (Animation))) worth checking out.
+
+__See also:__
+* ((Clock Sources))
+* ((/contributions/1353+1351+2439+1352+7934+2438+1354+1355/3311+3812+2492|Related Contributions))
+
+{SPLIT}
+
+!Frame-based Animation
+{SPLIT()}
+!!!!Related nodes
+to built up your loops:
+((node:FrameDelay (Value)))
+
+to accumulate values over time or get changes between frames:
+((node:Integrate (Differential)))
+((node:FrameVelocity (Animation)))
+((node:FrameDifference (Animation)))
+
+to measure time itself:
+((node:StopWatch (Value)))
+
+nodes that are frame-based implementations of some algorithm:
+((node:ADSR (Value Framebased)))
+((node:Spray (Animation)))
+((node:Wanderer (Animation 2d)))
+((node:Wanderer (Animation 3d)))
+
+~~~
+
+Scenario: an object shall react to events by applying forces.
+There are different famous examples of this way of doing animations:
+* BOIDS
+* Physics engines, like ((contribution:box2d|Box2D)) or Bullet (included in ((contribution:directx11-nodes|DX11))).
+
+But you also can do your own frame-based animation, simply by patching.
+
+{img src = "FeedbackLoops_Understanding2_0.png" }
+
+The basic idea here is that the current value of the animation is simply calculated based upon the value of the last frame and tweaked a bit in a certain way. See more about ((patching-concepts#loops|Loops)).
+
+When doing this naively, higher frame rates will result in faster animations. To avoid that, here is a simple trick:
+
+* measure how much time has passed between the last frame and the current frame. A combination of ((node:Stopwatch (Animation))) and ((node: FrameDifference (Animation))) can help you out.
+* scale your velocity and acceleration by this amount
+
+As a result your animation will be framerate independent.
+
+__See also:__
+* ((/contributions/1353+1351+2439+1352+7934+2438+1354+1355/3402+3400+2492+7216|Related Contributions))
+
+{SPLIT}
+
+!Timeline
+{SPLIT()}
+
+!!!!Related nodes
+((node:Timeliner (Animation)))
+
+~~~
+
+If you have static predefined animations, the Timeliner is the easy way to animate properties in time. Check ((timelinersa|this dedicated page)) on how to use it.
+
+!!!!Automata
+The Timeliner has an ((timelinersa#automata|Automata)) built in. You can define states (and animations for them) then jump between these states upon the arrival of the events. Every event gets its own input pin.
+
+__See also:__
+
+* ((/contribution/automata-ui| Automata UI)) contributed by ((user:u7angel))
+* ((TimelinerSA)) - Timeliner's standalone version
+* ((/blog/timelinersa-next-generation-alpha-grade-release|TimelinerSA NG)) - web-based Timeliner
+* ((/contributions/1353+1351+2439+1352+7934+2438+1354+1355/3217+4122+2768+9309|Related Contributions))
+
+__Thirdparty OSC Timelines__
+If the above don't suffice your needs, try one of these third party timelines that can talk to vvvv via ((protocols#osc|OSC)):
+* [https://github.com/YCAMInterlab/Duration|Duration] - Timeline for creative code
+* [https://imimot.com/vezer|VEZÉR] - Timeline based MIDI/OSC/DMX sequencer for audiovisual artists
+* [https://www.iannix.org/en/|IanniX] - A graphical open-source sequencer for digital art
+* [http://oscseq.com|OSCSeq] - Open Sound Control recording and playback
+* [http://ktl.klingt.org/|KluppeTimeLine] - KluppeTimeLine is a graphical, animated score system
+* [https://ossia.io/|ossia score] - A free and open-source intermedia sequencer
+* [https://github.com/kuflex/KuStudio|KuStudio] is an open source OSC editor, recorder and player, aimed to create a timeline on an audiotrack
+
+{SPLIT}
+
+!Mixed Approaches
+{SPLIT()}
+~~~
+
+* You can use the Timeliner to define some crucial states of the values in time and let the ((animation#time-based-animation|Time-based Nodes)) do the job to smoothen the transitions.
+
+* The other way around: you can have several nicely animated timelines (or several animation states on one timeline) and trigger them when a certain condition is met. This condition can depend on a time- or frame-based animation.
+
+{SPLIT}

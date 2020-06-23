@@ -1,0 +1,155 @@
+!Basic structure
+{SPLIT()}
+
+{img src = "Basics2.png" } 
+
+~~~
+
+In most situations when you render something you have basically the same patch structure:
+
+#some primitives (like the ((node:Quad (DX9))) ) or meshes with their effects (like the ((node:Sphere (EX9.Geometry))) and ((node:PhongDirectional (EX9.Effect))) ) 
+#are placed using the Transformation nodes (like the ((node:Translate (Transform))) or ((node:UniformScale (Transform))) ) 
+#grouped together 
+#and rendered to a window.
+
+Working with a 3d scene? You need a ((rendering-overview#depthbuffer|Depthbuffer)).
+
+Seeing jagged and ugly edges? Turn on ((rendering-overview#antialiasing|Antialiasing)).
+
+Want to set a renderer to fullscreen?
+* move it to the desired monitor
+* change its ((pin:Fullscreen Dimensions)) using the ((the-gui#herr-inspektor|Inspektor))
+* press ALT+Enter to toggle it to/from fullscreen
+
+See the Renderer (EX9)'s helppatch for details.
+
+Examples in your vvvv\girlpower\ directory:
+* Graphics\DX9\Geometry
+* Graphics\DX9\Shader
+
+__See also:__
+* ((geometry#primitives|Primitives))
+* ((geometry#primitives|Geometries))
+* ((shader#built-in-effects|Built-in effects))
+* ((transformation|Transformations))
+
+
+{SPLIT}
+
+!Cameras
+{SPLIT()}
+
+{img src = "Basics-Camera.png" } 
+
+~~~
+
+The same scene but rendered from another point of view. Note the ((node:Camera (Transform Softimage))) connected to the Renderer.
+
+There are some cameras in vvvv ready to use:
+Check their helppatches.
+
+* ((node:Camera (Transform 2d)))
+* ((node:Camera (Transform Softimage)))
+* ((node:Camera (Transform Orbit))) is available in ((downloads|Addonpack)).
+
+__See also:__
+* ((coordinate-systems|Coordinate Systems))
+
+{SPLIT}
+
+!Spreading
+{SPLIT()}
+
+{img src = "Basics-Spreading.png" } 
+
+~~~
+
+And now the objects are spreaded.
+There are 12 spheres whose spreaded in a circle by the ((node:CircularSpread (Spreads))).
+And 16 quads arranged in a line by the ((node:LinearSpread (Spreads))).
+
+__See also:__
+* ((Spreads))
+
+{SPLIT}
+
+
+!Aspect Ratio
+{SPLIT()}
+
+{img src = "Basics-AspectRatio3.png" } 
+
+~~~
+
+The ((pin:Aspect Ratio)) transformation on the Renderer (hidden by default) is used to sqeeze/stretch the coordinate system of the renderer so that the proportions of the window have no effect on the image.
+
+The coordinate system of the Renderer is stretched vertically as a countermeasure to its horizontally stretched window.
+
+Check the helppatch of the ((node:AspectRatio (Transform))).
+
+__See also:__
+* ((transformation|Transformations))
+
+{SPLIT}
+
+!Texturing
+{SPLIT()}
+
+{img src = "Basics-Texturing3.png" } 
+
+~~~
+
+An image is applied to the effect via its ((pin:Texture)). Primitives like Quad (DX9) have the 'Texture' pin as well.
+
+__See also:__
+* ((texture#images|Textures))
+* ((texture-transformation|Texture transformations))
+* ((howto-prepare-textures|How to prepare textures))
+
+{SPLIT}
+
+!Depthbuffer
+{SPLIT()}
+
+!!!!Related nodes
+((node:Renderer (EX9)))
+((node:ZWriteEnable (EX9.RenderState)))
+((node:AlphaTest (EX9.Renderstate)))
+((node:Cull (EX9.Renderstate)))
+
+{img src = "Basics-Depthbuffer2.png" } 
+
+~~~
+
+A Depthbuffer stores the depth information of the scene, ie. a single z-value per pixel.
+
+If depth buffering is off (which is the default) objects (and their faces) are just drawn in the order of their priority and their slice index - which looks weird as soon as they are seen in the wrong order. 
+
+Turn on depth buffering by selecting the ((node:Renderer (EX9))) in an ((the-gui#herr-inspektor|Inspektor)). There you'll see a "Windowed Depthbuffer" and a "Fullscreen Depthbuffer" pin. Change their default "None" values to D16, D24 (or similar, where 16 or 24 denote the number of bits available for the depth buffer). Typically choose D24X8.
+
+The classic name for drawing without the depth-buffer is painters algorithm: start with the things in the background and then paint all things after another on top of it.
+
+Using the depthbuffer enables a test which is done for each pixel drawn: if a pixel nearer to the camera was already drawn, the new pixel gets rejected. Or to put it the other way round: If the current object to be drawn is nearer to the camera than the stuff already drawn, the object is just drawn on top of the existing color buffer.
+
+__See also:__
+* ((transparency|Transparency and Depthbuffer))
+
+{SPLIT}
+
+!Antialiasing
+{SPLIT()}
+
+[http://mathworld.wolfram.com/Antialiasing.html|Antialiasing at Mathworld]
+[http://en.wikipedia.org/wiki/Multisample_anti-aliasing|Antialiasing at Wikipedia]
+
+{img src = "Basics-Antialiasing.png" }
+
+~~~
+
+Rotated or curved objects always look jagged if Antialiasing is turned off (which is the default). That's because pixels are squares and there are (still) not so many of them to represent curves or diagonals in a way that the eye will not notice squares. 
+
+Use the 'Fullscreen / Windowed Antialiasing Quality' settings of the ((node:Renderer (DX9))) to specify the desired quality. Usually a value of 4 is a good choice.
+
+This setting is available via ((the-gui#herr-inspektor|Inspektor)). 
+
+{SPLIT}
