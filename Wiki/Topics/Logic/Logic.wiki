@@ -1,0 +1,55 @@
+!Separate Logic from Content
+{SPLIT()}
+
+~~~
+
+To program interaction logic, sequences or any other more complex tasks, you should NOT start to weave the logic part deep into your patches but rather have a central command station where you handle all the logical states in an abstract way and send them as needed to other places in your patch.
+
+{SPLIT}
+
+!Basic logic programming
+{SPLIT()}
+
+!!!!Related nodes
+*((node:FlipFlop (Animation)))
+*((node:MonoFlop (Animation)))
+*((node:Toggle (Animation)))
+*((node:TogEdge (Animation)))
+*((node:Change (Animation)))
+*((node:OR (Boolean)))
+*((node:AND (Boolean)))
+*((node:NOT (Boolean)))
+* See also ((FUN|Frequently Used Nodes))
+...
+
+~~~
+
+Note, if you see too many of these nodes in your patch and the logic gets more and more confusing it's time to switch to __State Machine__. 
+
+!!!Conditions
+Wondering how to control data flow in manner of if-else statements? See ((Conditions)).
+
+{SPLIT}
+
+!State Machine
+{SPLIT()}
+
+!!!!Related nodes
+* ((node:Automata (Animation)))
+* ((node:Timeliner (Animation)))
+
+~~~
+
+!!!Automata
+Use ((node:Automata (Animation))) for complex logical structures. Automata allows you to distill complex logic into a textual description. See it's extensive helppatch.
+
+((GraphicalAutomata|Qfsm graphical tool)) is good for drawing State Machines, it allows you to export state machine statements for the ((node:Automata (Animation))).
+
+!!!Automata UI
+There is also a much more convenient ((contribution:automata-ui|Automata UI)) contributed by ((user:u7angel)) which enables you to design your program logic with states and transitions as well as giving them a duration within a visual editor.
+
+!!!Sequence based logic
+Use ((node:Timeliner (Animation))) for more sequence based logic. It has an Automata track to jump in the timeline. ((timelinersa|How to use Timeliner)).
+
+{SPLIT}
+

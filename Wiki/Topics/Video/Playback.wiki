@@ -1,0 +1,102 @@
+__There are 4 ways for playing back video files:__
+
+!DirectShow-based media player
+{SPLIT()}
+
+!!!!Related nodes
+((node:FileStream (DShow9)))
+((node:FileStream (DShow9 Boygroup)))
+
+((node:FileStream2 (DShow9)))
+((node:FileStream2 (DShow9 Boygroup)))
+
+((node:VideoTexture (EX9.Texture VMR9)))
+
+~~~
+
+This native node and its variations plays back all different kinds of videos Windows Mediaplayer plays as well. If a specific DirectShow codec is installed on a system the ((node:FileStream (DShow9))) can playback files encoded with that codec.
+
+It can also handle [https://en.wikipedia.org/wiki/AviSynth|AviSynth] scripts. The script mimics itself as an AVI file and allows joining and editing several videos. Check the ((elektromeier-AVSAVIJoiner|AVIJoiner)) from ((user:elektromeier)).
+
+Try the __FileStream2 (DShow9)__ for hickupfree file switching.
+The __FileStream (DShow9 Boygroup)__'s special power is to syncronize several players on the same or several machines (in a ((boygrouping-basics|Boygroup)) setup).
+
+Their ((pin:Filename)) pin is not spreadable, therefore only one file can be played at a time.
+
+However it's possible to have several ((node:FileStream (DShow9))) connected to their own ((node:VideoTexture (EX9.Texture VMR9))) and ((AudioOut (DShow9))) in the same patch in order to play several files in parallel. Beware though that those streams will not run in sync by default.
+
+!!!!Synchronization
+Multiple players can by synchronized locally or in a network scenario, see ((video-synchronization|Video Synchronization)).
+
+!!!!Note
+
+With all directshow pins (of type audio / midi / video) you can connect __each output to only one input__ pin. Therefore it is not possible with the DShow9 system to play a file and analyse it at the same time using nodes like ((node:Contour (FreeFrame DShow9))) or ((node:Trautner (FreeFrame DShow9))). 
+
+Examples in your vvvv\girlpower\ directory:
+* Video
+
+{SPLIT}
+
+!Image Sequences
+{SPLIT()}
+
+!!!!Related nodes
+((node:Player (EX9.Texture)))
+((node:Player (EX9.Texture Timebased)))
+
+~~~
+
+The ((node:Player (EX9.Texture))) accesses individual frames stored in a directory by frameindices. It has been optimized for high bandwidth texture throughput. Textures are kept in RAM and are only transferred to the GPU as needed.
+
+It accepts a variety of formats, also some that are not supported by ((node:FileTexture (EX9.Texture))) such as TIFFs.
+
+Several sequences (stored in different folders) can be played in parallel.
+
+Examples in your vvvv\girlpower\ directory:
+* Video
+
+__DX11 Versions:__
+* Free: ((contribution:Player (DX11.Texture))) contribution by ((user:woei))
+* Pro: ((/store/#dx11-imagesequence-player|DX11 Imagesequence Player)) by NSYNK
+
+{SPLIT}
+
+!VLC-based media player
+{SPLIT()}
+
+[http://www.videolan.org/vlc/index.html|The VLC Media Player]
+
+!!!!Related nodes
+((node:FileStream (EX9.Texture VLC)))
+
+~~~
+The ((node:FileStream (EX9.Texture VLC))) plays back all the codecs the VLC Media Player does.
+
+Its ((pin:Filename)) pin is spreadable, so the node can read several videos at the same time and return their frames as a spread of textures.
+
+__The VLC node is contributed by ((user:ft)) and is coming with the ((downloads|addonpack)).__
+
+^note:
+The [http://www.videolan.org/vlc/index.html|VLC Player] has to be installed on the system in order for the node to work.
+^
+
+Examples in your vvvv\girlpower\ directory:
+* Video
+
+__DX11 Version:__
+* ((contribution:Filestream (VLC) for DX11)) contribution by ((user:Lrinke))
+
+{SPLIT}
+
+!Hap Media Player 
+{SPLIT()}
+
+[https://github.com/vidvox/hap|Hap video codec]
+
+~~~
+
+Hap is a video codec that performs decompression using a computer's graphics hardware, substantially reducing the CPU usage necessary to play video.
+
+* ((/contribution/demolition-media-hap-player|Demolition Media Hap Player)) by ((user:lev))
+
+{SPLIT}

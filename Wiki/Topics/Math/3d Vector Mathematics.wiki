@@ -1,0 +1,153 @@
+{maketoc}
+
+! Definition
+a vector is an element of vector space. a vector contains the same number of elements than the vector space has dimensions. 
+
+vvvv's vector space is (a numerical approximation to) R3, a 3-dimensional euclidean space of real numbers. so a vvvvector is a set of three numbers (x, y, z) of 3d vvvvector space of vvvv numbers.
+
+
+! Representation
+a vector __v__ can be interpreted as:
+
+direction (x, y, z) and length |__v__|, arrow, a translation, connection between two points (see Subtrcation), as point (if the vector is a bounded vector to the origin), force, speed, velocity ....
+
+as symbol: 
+letters, often bold or underlined __v__, __v__
+
+as three numbers (x, y, z):
+the vvvvector space is build up by combination of three orthogonal 1-dimensional directions, the x-, y- and z-axis. every direction that is not parallel to the axes could be described as a linear combination of three directions (vectors) that are parallel to the axes. a linear combination here is adding three vectors (see Addition). to include the second aspect of a vector (the length) the three (axis) vectors __n1__, __n2__, __n3__ are set to length one, this is a orthonormal base. to build all other vectors with this base, the three base vectors length gets scaled with the numbers x, y, z and then the vectors are added together:
+
+__v__ = x*__n1__ ~43~ y*__n2__ ~43~ z*__n3__ =
+
+because the __n__ vectors are (1, 0, 0), (0, 1, 0) and (0, 0, 1) the result is:
+
+__v__ = ( 1*x, 0*x, 0*x ) ~43~ ( 0*y, 1*y, 0*y ) ~43~ ( 0*z, 0*z, 1*z ) =
+
+= ( x, 0, 0 ) ~43~ ( 0, y, 0 ) ~43~ ( 0, 0, z ) = (x, y, z)
+
+
+! Operations
+!! Absolute value |__v__| (length)
+---
+
+!!! mathematical
+one real number defined by:
+
+|__v__| = |(x, y, z)| = sqrt( x~178~ ~43~ y~178~ ~43~ z~178~ )
+
+!!! vvvv node
+use ((node:Normalize (3d) )). outputs at first output pin a vector with same direction but length one, the input length on the second output pin. multiplication of them with ((node:* (Value) )) is the original vector.
+
+
+!! Multiplication with scalar s
+---
+!!! mathematical
+multiply a vector with a scalar is multiply every vector element with the scalar.
+
+__v__*s = ( x*s, y*s, z*s ) ( = s*__v__ )
+
+!!! vvvvnode 
+((node:* (Value) ))
+
+
+!!! geometrical
+scaling the length, the direction is invariant but gets negative if the scalar is negative. 
+
+imortant result:
+|__v__*s| = |__v__|*|s|
+
+
+!! Addition
+---
+!!! mathematical
+vector addition is adding the elements of same dimension.
+
+__v__ ~43~ __w__ = ( x, y, z ) ~43~ ( a, b, c ) =
+
+= ( x ~43~ a, y ~43~ b, z ~43~ c ) ( = __w__ ~43~ __v__ )
+
+!!! vvvv node 
+((node:+ (Value) ))
+
+
+!!! geometrical
+take vector __v__ and place the start of vector __w__ at the tip of __v__. now the vector from the start of __v__ to the tip of __w__ is the result of adding __v__ and __w__ (or __w__ and __v__). 
+
+
+!! Subtraction
+---
+!!! mathematical
+by analogy to the addition the subtraction is the subtraction of the elements of same dimension. but here __v__ - __w__ is NOT __w__ - __v__ but -(__w__ - __v__).
+
+__v__ - __w__ = ( x, y, z ) - ( a, b, c ) =
+
+= ( x - a, y - b, z - c )  = - ( __w__ - __v__ )
+
+!!! vvvv node 
+((node:- (Value)))
+!!! geometrical
+place the start of __v__ and __w__ at the same point. now the vector from the tip of __w__ to the tip of __v__ is the result of subtracting __w__ from __v__. subtracting __v__ from __w__ (__w__ - __v__ ) ist the same, but the resulting vector starts at the tip of __v__ and ends at the tip of __w__.
+
+!! Dot product
+---
+aka inner product or scalar product
+!!! mathematical
+one real number defined (in every space) by the multiplication of elements at same dimension an adding the results. OR (in euclidean space) multiplication of the absolute values and the cosine of the angle phi between the vectors.
+
+
+__v__ * __w__ = ( x, y, z ) * ( a, b, c ) =
+
+= x*a ~43~ y*b ~43~ z*c  ( = __w__ * __v__ )
+
+or:
+
+__v__ * __w__ = ( x, y, z ) * ( a, b, c ) =
+
+= |__v__| * |__w__| * cos(phi)
+
+!!! vvvv node 
+
+ ((node:* (3d Dot)))
+
+
+{img src = "dotproduct3dvectorhelp_3.jpg" }
+!!! geometrical
+start __v__ and __w__ at a common start point, then the length of __v__ is multiplied with the length of the projection (shadow) of __w__ onto __v__ (or vice versa). geometrically not really interesting, but with the two formulas the angle between two vectors  can be calculated. if the result is zero the vectors are orthogonal (angle 90°).
+
+!! Angle phi between two vectors
+---
+!!! mathematical
+the two formulas of the dot product are used to get the cosine of phi.
+
+x*a ~43~ y*b ~43~ z*c = |__v__| * |__w__| * cos(phi)
+
+cos(phi) = ( x*a ~43~ y*b ~43~ z*c ) / ( |__v__| * |__w__| )
+
+!!! vvvv nodes
+use ((node:* (Value))) and ((node:+ (Value Spectral))) to get the dot product. use two ((node:Normalize (3d Vector))) nodes to get the absolute values (lengths) from the vectors and multiply them with another ((node:* (Value) )). now divide the dot product by the multiplication of the lengths using the ((node:/ (Value) )) node, this is the cosine of phi. the term arccos(A) in ((node:Expr (Value) )) node gives phi in radian (from 0 to Pi).
+
+!! Cross product 
+---
+!!! mathematical
+the multiplication of: the legth of __v__ and __w__, the sine of the angle phi between __v__ and __w__ and a unit vector __n__ (length = one) that is orthogonal (perpendicular) to __v__ AND __w__. 
+
+__v__ x __w__ = ( x, y, z ) x ( a, b, c ) =
+
+= |__v__| * |__w__| * sin(phi) * __n__ 
+
+there is simpler formula in the euclidean space:
+
+__v__ x __w__ = ( x, y, z ) x ( a, b, c ) =
+
+= ( y*c - z*b, z*a - x*c, x*b - y*a )
+
+!!! vvvv node
+ * (3d Cross)
+
+{img src = "crossproduct3dvectorhelp_3.jpg" }
+
+!!! geometrical
+a vector that is orthogonal to __v__ an __w__. the value of the length is the area size of a parallelogram with __v__ and __w__ as sides.
+
+
+''by ((user:tonfilm|tf))''

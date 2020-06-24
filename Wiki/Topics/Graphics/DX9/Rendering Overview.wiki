@@ -77,7 +77,7 @@ __See also:__
 !Aspect Ratio
 {SPLIT()}
 
-{img src = "Basics-AspectRatio3.png" } 
+{img src = "Basics-AspectRatio4.png" } 
 
 ~~~
 

@@ -1,0 +1,41 @@
+In order to apply physical behaviour (gravity, collision, ..) to geometry you have the choice between different [http://en.wikipedia.org/wiki/Physics_engine|physics engines] implemented in vvvv.
+
+!Box2d
+{SPLIT()}
+
+[http://box2d.org/|Box2D]
+~~~
+
+Use the nodes in the ''Box2d'' category for animating 2d geometry.
+
+__Those nodes are contributed by ((user:vux)) and are coming with the ((glossary:addonpack)).__
+
+__See also:__
+* ((/contributions/1353+1351+2439+1352+2438+1354+1355/2597|Related contributions))
+{SPLIT}
+
+!Bullet
+{SPLIT()}
+
+[http://www.bulletphysics.com/|Bullet Physics]
+~~~
+
+Use the nodes in the ''Bullet'' category for animating 3d geometry. 
+
+__Those nodes are contributed by ((user:vux)) and are coming with the ((glossary:addonpack)).__
+
+Examples in your vvvv\addonpack\ directory:
+* girlpower\BulletPhysics
+
+__See also:__
+* ((/contributions/1353+1351+2439+1352+2438+1354+1355/2617|Related contributions))
+{SPLIT}
+
+!ODE
+{SPLIT()}
+
+[http://www.ode.org/|Open Dynamics Engine]
+~~~
+
+If for whatever reason none of the above works for you have a look at vvvvs native (but rather legacy) implementation of the ''Open Dynamics Engine'' in the ''ODE'' category of nodes. For those nodes check their ((glossary:helppatches)). 
+{SPLIT}
