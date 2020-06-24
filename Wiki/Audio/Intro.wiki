@@ -1,0 +1,42 @@
+{SPLIT()}
+
+When dealing with audio in vvvv you have to choose between the nodes in the categories listed to the right.
+
+All worlds have their advantages and drawbacks and they don’t interoperate.
+
+Frankly speaking, vvvv is not focused on audio processing. For maximum flexibility in handling sound you'd probably want to get dirty with [http://puredata.info/|Pure Data].
+
+~~~
+
+*__DShow9:__ Native audio processing nodes in the DShow9 category are based on ((glossary:DirectShow)).
+---
+*__VAudio:__ The ((contribution:vvvv.audio-pack-alpha|VVVV.Audio pack)) gives the most flexible and transparent routing options along with strong ((glossary:VST)) and ((glossary:ASIO)) driver support.
+---
+*__Bass:__ Nodes of this category are based on the ((glossary:Bass)) audio library. The Bass nodes are contributed by ((user:vux)) and are coming with the ((downloads|addonpack)).
+---
+*__irrKlang:__ vvvv support of the [http://www.ambiera.com/irrklang/|irrKlang] 2d/3d sound library. The Irrklang node is contributed by ((user:sanch)) and is coming with the ((downloads|addonpack)).
+
+{SPLIT}
+
+{SPLIT()}
+
+!Content
+*((Audio File Playback|File Playback))
+*((Audio Input|Input))
+*((Generating sound|Generating Sound))
+*((Audio Effects|Effects))
+*((Audio Analysis|Analysis))
+*((Audio Output|Multichannel Output))
+
+~~~
+
+!Related
+*((ASIO))
+*((VST))
+*((Accessing Stereo Mix))
+*((protocols#MIDI|MIDI))
+*((protocols#OSC|OSC))
+*((Audio Links))
+*((/contributions/1353+1351+2439+1352+7934+2438+1354+1355/2579+3812+7127+2238|Audio Contributions))
+
+{SPLIT}

@@ -1,7 +1,7 @@
 !Introduction
 {SPLIT()}
 
-vvvv offers different approaches to animate objects in ''interactive ''environments.
+vvvv offers different approaches to animate objects in ''interactive ''environments. 
 
 In many cases, it's not enough to just place static keyframes on a timeline and let the playhead do the job. The animation may need to react to actions or events coming from sensors, networks, input devices or beat-detectors. So in these cases __the direction of movement needs to change spontaneously__ and you often want the transition to the new movement to occur as smoothly as possible. Time- and frame-based approaches can do this trick.
 
@@ -92,7 +92,7 @@ nodes that are frame-based implementations of some algorithm:
 
 ~~~
 
-Scenario: an object shall react to events by applying forces.
+Scenario: an object shall react to events by applying forces. 
 There are different famous examples of this way of doing animations:
 * BOIDS
 * Physics engines, like ((contribution:box2d|Box2D)) or Bullet (included in ((contribution:directx11-nodes|DX11))).
@@ -103,7 +103,7 @@ But you also can do your own frame-based animation, simply by patching.
 
 The basic idea here is that the current value of the animation is simply calculated based upon the value of the last frame and tweaked a bit in a certain way. See more about ((patching-concepts#loops|Loops)).
 
-When doing this naively, higher frame rates will result in faster animations. To avoid that, here is a simple trick:
+When doing this naively, higher frame rates will result in faster animations. To avoid that, here is a simple trick: 
 
 * measure how much time has passed between the last frame and the current frame. A combination of ((node:Stopwatch (Animation))) and ((node: FrameDifference (Animation))) can help you out.
 * scale your velocity and acceleration by this amount

@@ -1,0 +1,63 @@
+!DShow9
+{SPLIT()}
+!!!!Related nodes
+((node:SourceBuffer (DShow9)))
+~~~
+The ((node:SourceBuffer (DShow9))) is able to write Spreads of values to a multichannel soundcard.
+
+{SPLIT}
+
+!VAudio
+{SPLIT()}
+!!!!Related nodes
+Osc (VAudio Source)
+IFFT (VAudio Source)
+MultiSine (VAudio Source)
+WaveTable (VAudio Source)
+BufferRead (VAudio Source)
+Granulator (VAudio Source)
+
+~~~
+* __Osc (VAudio Source)__ is a high quality anti-aliased digital oscillator
+* __IFFT (VAudio Source)__ is an inverse FFT that can synthesize a waveform from its spectrum
+* __MultiSine (VAudio Source)__ generates many sine waves at once
+* __WaveTable (VAudio Source)__ plays a waveform given as spread in the desired frequency
+* __BufferRead (VAudio Source)__ reads audio from a live generated audio buffer
+* __Granulator (VAudio Source)__ reads audio in grains from a wave file
+
+__((/contribution/vvvv.audio-pack-alpha|VAudio Pack)) is contributed by ((user:tonfilm)).__
+
+Examples:
+* \girlpower folder in the VVVV.Audio pack directory
+
+{SPLIT}
+
+!VST Instruments
+{SPLIT()}
+[http://en.wikipedia.org/wiki/Virtual_Studio_Technology|Wikipedia on VST]
+~~~
+__VAudio__
+The ((/contribution/vvvv.audio-pack-alpha|VAudio pack)) has a newer VST integration which also works with 64bit vvvv.
+
+__Legacy__
+See the ((VST|VST-guide)) about VST Instruments in vvvv.
+
+Examples:
+* \girlpower\Audio folder in your vvvv directory
+* \girlpower folder in the VVVV.Audio pack directory
+
+{SPLIT}
+
+!Beeps
+{SPLIT()}
+!!!!Related nodes
+((node:Beep (Windows)))
+((node:MessageBeep (Windows)))
+~~~
+
+These shy annoying beeps are useful for debugging. Sometimes.
+
+* ((node:Beep (Windows))) calls the windows-api function Beep.
+* ((node:MessageBeep (Windows))) calls the windows-api function MessageBeep.
+
+{SPLIT}

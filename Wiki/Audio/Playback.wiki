@@ -1,0 +1,165 @@
+!Introduction
+
+!!!!There are five ways for playing back audio files:
+
+* ((audio-file-playback#filestream-dshow9|FileStream (DShow9)))
+* ((audio-file-playback#waveplayer-dshow9|WavePlayer (DShow9)))
+* ((audio-file-playback#filestream-vaudio|FileStream (VAudio)))
+* ((audio-file-playback#filestream-bass|FileStream (Bass)))
+* ((audio-file-playback#filestream-irrklang|FileStream (Irrklang)))
+
+
+!FileStream (DShow9)
+{SPLIT()}
+!!!!Related nodes
+((node:FileStream (DShow9)))
+((node:FileStream (DShow9 Boygroup)))
+((node:FileStream2 (DShow9)))
+((node:FileStream2 (DShow9 Boygroup)))
+((node:AudioOut (DShow9)))
+
+~~~
+This node and its variations plays back the following formats:
+* mp3
+* wav
+* wma
+* aif
+* mid.
+
+Try the __FileStream2 (DShow9)__ for hickupfree file switching.
+The __FileStream (DShow9 Boygroup)__'s special power is to syncronize several players on the same or several machines (in a ((boygrouping-basics|Boygroup)) setup).
+
+Their ((pin:Filename)) pin is not spreadable, therefore only one file can be played at a time.
+
+However it's possible to have several ((node:FileStream (DShow9))) connected to their own ((AudioOut (DShow9))) in the same patch in order to play several files in parallel. Beware though that those streams will not run in sync by default.
+
+See the ((audio-output|Multichannel Output)) section for more about playing back multichannel audio files.
+
+
+!!!!Note
+
+With all directshow pins (of type audio / midi / video) you can connect __each output to only one input__ pin. Therefore it is not possible with the DShow9 system to play a file and analyse it at the same time using nodes like ((node:FFT (DShow9))) or ((node:RMS (DShow9))). However some sound cards have an option to access the '''Stereo Mix''' of all sound that's being played on it. In that case it’s possible to listen to the sound via separate ((node:AudioIn (DShow9))) and ((node:AudioOut (DShow9))). 
+
+Please check ((Accessing Stereo Mix)).
+
+Examples in your vvvv\girlpower\ directory:
+* Audio
+
+{SPLIT}
+!WavePlayer (DShow9)
+{SPLIT()}
+!!!!Related nodes
+((node:WavePlayer (DShow9)))
+
+~~~
+It plays back only one format:
+* 16-bit, 44kHz (multichannel) wav files
+
+Its ((pin:Filename)) is spreadable, so __any number__ of audiostreams can be played in parallel. This feature can be misused for the seamless switching between the files. Just feed all the files you want to play to the ((pin:Filename)) pin, spread the ((pin:Play)) pin and turn on its corresponding slice.
+
+WavePlayer also has some special powers, like routing channels to several outputs and fading towards the end of a loop to prevent clicks.
+
+By default WavePlayer routes channels as defined in the wavefile (in the most simple case it’s just the left speaker). But a custom routing table can be defined. See its helppatch for details on that.
+
+Examples in your vvvv\girlpower\ directory:
+* Audio
+
+{SPLIT}
+
+!FileStream (VAudio)
+{SPLIT()}
+__Download:__
+((/contribution/vvvv.audio-pack-alpha|VAudio Pack))
+
+!!!!Related nodes
+FileStream (VAudio)
+Granulator (VAudio)
+AudioOut (VAudio)
+
+~~~
+
+FileStream (VAudio) plays media formats supported in [https://msdn.microsoft.com/en-us/library/windows/desktop/dd757927(v=vs.85).aspx|Media Foundation]. It is fully spreadable, deals correctly with multichannel audio files and also retains good audio quality when changing the playback speed:
+
+* .3g2, .3gp, .3gp2, .3gpp
+* .asf, .wma, .wmv
+* .aac, .adts
+* .avi
+* .mp3
+* .m4a, .m4v, .mov, .mp4
+* .sami, .smi
+* .wav
+
+
+__((/contribution/vvvv.audio-pack-alpha|VAudio Pack)) is contributed by ((user:tonfilm)).__
+
+Examples:
+* Check the \girlpower directory in the VVVV.Audio pack
+* ((contribution:vvvv.audio-node15-workshop-patches|VAudio NODE15 Workshop Patches))
+
+{SPLIT}
+
+!FileStream (Bass)
+{SPLIT()}
+
+[http://www.un4seen.com/bass.html|The BASS website]
+
+!!!!Related nodes
+((node:FileStream (Bass)))
+((node:AudioOut (Bass)))
+
+~~~
+
+^note:
+The BASS library is free only for non-commercial use. Check their [http://www.un4seen.com/bass.html|website] for more information about licensing.
+^
+
+__The ((glossary:BASS)) series of plugins is contributed by ((user:vux)) and is coming with the ((downloads|addonpack)).__
+
+((node:FileStream (Bass))) plays back the following formats:
+* mp3
+* wav
+* aif
+* ogg
+
+Its ((pin:Filename )) pin is not spreadable, therefore only one file can be played back at a time.
+
+Other than with DShow9 there are no restrictions as of how many output pins can be linked to from an input. So the sound can be analyzed and mixed at the time of playing it back.
+
+Multiple audiostreams (from different ((node:FileStream (Bass))) nodes) can be mixed using a ((node:Mixer (Bass))) and there are some built-in effects available (open the nodebrowser and type 'bass dsp' to find them).
+
+Examples in your vvvv\girlpower\ directory:
+* Audio
+
+{SPLIT}
+
+!FileStream (Irrklang)
+{SPLIT()}
+
+[http://www.ambiera.com/irrklang/|The irrKlang website]
+
+!!!!Related nodes
+((node:FileStream (Irrklang)))
+
+~~~
+
+^note:
+The irrKlang library is free only for non-commercial use. Check their [http://www.ambiera.com/irrklang/irrklang_pro.html|website] for more information about licensing.
+^
+
+__This node is contributed by ((user:sanch)), ((user:phlegma)) and ((user:readme)) and is coming with the ((downloads|addonpack)).__
+
+As stated in the [http://www.ambiera.com/irrklang/features.html|irrKlang documentation] it plays back the following formats:
+* RIFF WAVE (*.wav)
+* Ogg Vorbis (*.ogg)
+* Free Lossless Audio Codec (*.flac)
+* Amiga Modules (*.mod)
+* Impulse Tracker (*.it)
+* Scream Tracker 3 (*.s3d)
+* Fast Tracker 2 (*.xm)
+
+Its ((pin:Filename)), ((pin:Play)), ((pin:Volume)) and many other pins are spreadable, so __any number__ of audiostreams can be played in parallel. ((node:FileStream (Irrklang))) is able to position and move sounds in 3d space and has a decent list of effects built-in right into the node (check Inspektor for enabling them).
+
+Examples in your vvvv\girlpower\ directory:
+* Audio
+
+{SPLIT}

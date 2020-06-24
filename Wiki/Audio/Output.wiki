@@ -1,0 +1,37 @@
+{SPLIT()}
+!!!!Related nodes
+((node:AudioOut (DShow9)))
+AudioOut (VAudio)
+((node:AudioOut (BASS Asio)))
+
+((node:FileStream (DShow9)))
+((node:WavePlayer (DShow9)))
+FileStream (VAudio)
+((node:FileStream (BASS)))
+~~~
+
+There are 2 different types of multichannel audio hardware:
+
+# real multichannel hardware typically comes as external USB or FireWire devices and has 4/8/16 channels of input and output
+# cheabo built-in 5.1 or 7.1 surround sound cards coming on most modern mainboards.
+
+
+__1. External MultiChannel Audio Hardware__
+
+These cards can be addressed in vvvv only using their WDM drivers which always only offer to use their channels in pairs of stereo. These pairs (like 'Channel 1-2', 'Channel 3-4', ...) are exposed via the ((pin:Driver)) pin of the ((node:AudioOut (DShow9))).
+
+Addressing the channels of such a hardware individually only works using ((glossary:ASIO)) drivers which are not supported by vvvv's native DShow9 nodes.
+
+The ((contribution:vvvv.audio-pack-alpha|VVVV.Audio.Pack)) or the BASS plugins provided by ((user:vux)) supports ((glossary:ASIO)) drivers. 
+
+If you have the ((\downloads\|addonpack)) installed look out for a node called ((node:AudioOut (BASS Asio))) and check its helpfile for further instructions.
+
+
+__2. Built-in 5.1 or 7.1 Surround Sound Cards__
+
+Multiple channels of a built-in 5.1 or 7.1 surround card can be addressed using the ((node:FileStream (DShow9))) and ((node:WavePlayer (DShow9))).
+
+Examples in your vvvv\girlpower\ directory:
+* Audio
+
+{SPLIT}
