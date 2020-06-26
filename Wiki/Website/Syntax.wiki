@@ -1,0 +1,258 @@
+!Table of Content
+Creates a table of content of the pages top-level headings
+~np~{maketoc}~/np~
+{maketoc}
+
+!Heading
+By starting a line with one (or more) exclamation marks you create a heading:
+~np~!!2nd level heading~/np~
+!!2nd level heading
+~np~!!!3rd level heading~/np~
+!!!3d level heading
+~np~!!!4th level heading~/np~
+!!!!4th level heading 
+
+!Links 
+The descriptive text after the "|" (pipe) is always optional. If you leave it and the pipe out, the link will simply show up as itself. 
+
+__an external link__
+~np~[http://www.wikipedia.org|external link to wikipedia]~/np~
+[http://www.wikipedia.org|external link to wikipedia]
+
+__an external link to a specific anchor on the page__
+~np~[http://en.wikipedia.org/wiki/Anchor_text#Overview|external link with anchor]~/np~
+[http://en.wikipedia.org/wiki/Anchor_text#Overview|external link with anchor]
+
+__an internal link to a documentation/wiki page__
+~np~((Spreads|internal link to the Spreads page))~/np~
+((Spreads|internal link to the Spreads page))
+
+__an internal link to a specific anchor on a documentation/wiki page__
+~np~((of-spreads-and-slices#spreads-in-the-inspector|internal link with anchor))~/np~
+((of-spreads-and-slices#spreads-in-the-inspector|internal link with anchor))
+
+__link to a userpage__
+~np~((user:joreg|joregs page))~/np~
+((user:joreg|joregs page))
+
+__link to a nodes reference page__
+~np~((node:Devices (EX9 Auto)))~/np~
+((node:Devices (EX9 Auto)))
+
+__link to a glossary item__
+~np~((glossary:Patch))~/np~
+((glossary:Patch))
+
+__link to a blog post__
+~np~((blog:release-vvvv40beta23))~/np~
+((blog:release-vvvv40beta23))
+
+__link to a forum thread__
+~np~((forum:MultiTouch stack))~/np~
+((forum:MultiTouch stack))
+
+__link to a contribution__
+~np~((contribution:mrwiggle))~/np~
+((contribution:mrwiggle))
+
+__links to toplevel pages__
+~np~((/Users)) and ((/Blog)) and ((/Contributions)) and ((/forums|Forum)) and ((/Search))~/np~
+((/users)) and ((/blog)) and ((/contributions)) and ((/forums|Forum)) and ((/search))
+
+!Bold, Italic, Pin
+You can mark text to show __bold__ like this:
+~np~__bold__~/np~
+or to show ''italic'' like this:
+~np~''italic''~/np~
+If you're referring to a pins name in a text you can mark it like this:
+~np~((pin:Filename))~/np~
+to show up like this:
+((pin:Filename))
+
+!Center stuff
+You can easily center content by marking it like show here. Note that the dual-colon can also be in the same line as the content to be centered: 
+~np~::~/np~
+~np~and centered it is~/np~
+~np~::~/np~
+
+::
+and centered it is
+::
+
+
+!Definition lists
+~np~;term:definition~/np~
+;term:definition
+
+!Bulleted lists
+~np~* bullet 1~/np~
+~np~* bullet 2~/np~
+~np~* bullet 3~/np~
+~np~** bullet 3.1~/np~
+* bullet 1
+* bullet 2
+* bullet 3
+** bullet 3.1
+
+!Numbered lists
+~np~# number 1~/np~
+~np~# number 2~/np~
+~np~# number 3~/np~
+~np~## number 3.1~/np~
+# number 1
+# number 2
+# number 3
+## subnumber
+
+!Box
+~np~^a simple box^~/np~
+^a simple box^
+
+!Nota Bene
+~np~^note:~/np~
+~np~nota bene~/np~
+~np~^~/np~
+
+^note:
+nota bene
+^
+
+!Quote
+~np~^quote:Shakespeare:~/np~
+~np~To be or not to be..~/np~
+~np~^~/np~
+
+^quote:Shakespeare:
+To be or not to be..
+^
+
+!Code
+sourcecode can be rendered with syntax highlighting. 
+__default is without line-numbering and c# highlighting:__
+~np~ ^code: ~/np~
+~np~ for (int i = 0; i < SpreadMax; i++) ~/np~
+~np~   FOutput[i] = FInput[i] * 2;^ ~/np~
+
+^code:
+for (int i = 0; i < SpreadMax; i++)
+  FOutput[i] = FInput[i] * 2;^
+
+__highlighting with line-numbers starting at 34:__
+~np~ ^code(line=34): ~/np~
+~np~ for (int i = 0; i < SpreadMax; i++) ~/np~
+~np~   FOutput[i] = FInput[i] * 2;^ ~/np~
+
+^code(line=34):
+for (int i = 0; i < SpreadMax; i++)
+  FOutput[i] = FInput[i] * 2;^
+
+~np~ ^code(lang=hlsl): ~/np~
+~np~ struct vs2ps ~/np~
+~np~ { ~/np~
+~np~     float4 PosWVP: POSITION; ~/np~
+~np~     float4 TexCd : TEXCOORD0; ~/np~
+~np~ }^ ~/np~
+
+^code(lang=hlsl):
+struct vs2ps
+{
+    float4 PosWVP: POSITION;
+    float4 TexCd : TEXCOORD0;
+}^
+Syntax for many languages is available. Most notably csharp (default) and hlsl. Find a full list of supported languages in the the [http://qbnz.com/highlighter/examples.php|geshi examples]
+ 
+!Not parsed content
+~np~ ~np~this ((willnotbe)) [parsed] ~/np~ ~/np~
+~np~this ((willnotbe)) [parsed] ~/np~
+
+!Simple separators
+~np~ --- ~/np~
+---
+
+!Monospaced line
+Just indent the line by one space
+~np~ like this~/np~
+to make it render
+ like this
+
+!Content folding
+a header followed by a hyphen, like so:
+~np~ !!-popdown ~/np~
+makes for the content (until the next heading) to be foldable, see:
+!!-popdown
+* this is only visible on popdown
+* and this
+* and that
+
+!Thumbnails for pictures
+~np~{img src = "abstracts_005_1.jpg" thumb}~/np~
+{img src = "abstracts_005_1.jpg" thumb}
+
+~np~{img src = "abstracts_005_1.jpg" thumb=300} - size in px~/np~
+{img src = "abstracts_005_1.jpg" thumb=300}
+
+!Split pages
+~np~
+{SPLIT()} 
+__col 1__ 
+hjsk
+ghfdkghdf
+dfdfsdfs
+fsdfsfsf
+~~~
+__und zwei__ 
+foo bar test
+~~~
+__drei oder auch mehr__ 
+blabla 
+{SPLIT}
+~/np~
+
+{SPLIT()} 
+__col 1__ 
+hjsk
+ghfdkghdf
+dfdfsdfs
+fsdfsfsf
+~~~
+__und zwei__ 
+foo bar test
+~~~
+__drei oder auch mehr__ 
+blabla 
+{SPLIT}
+
+!Tables
+~np~
+||
+r1c1|r1c2|r1c3
+-
+r2c1|r2c2|r2c3
+||
+~/np~
+
+||
+r1c1|r1c2|r1c3
+-
+r2c1|r2c2|r2c3
+||
+
+!Embed Youtube Videos
+~np~{youtube:TG66tyefuiw}~/np~
+{youtube:TG66tyefuiw}
+
+!Embed Vimeo Videos
+~np~{vimeo:18053849}~/np~
+{vimeo:18053849}
+
+!Embed movs
+~np~{mov:https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4}~/np~
+{mov:https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4}
+
+!Include Pages
+To include one tiki page into another: ~np~{~/np~INCLUDE:tutorials~np~}~/np~
+//START INCLUDE of page ((tutorials))
+{INCLUDE:tutorials}
+//END INCLUDE
+
+
