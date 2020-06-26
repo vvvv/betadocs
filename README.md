@@ -16,4 +16,4 @@ These are text files with the copy-paste content from the wiki.
 Each `.wiki` is an input for the converter: `Patches\WikiConverter.vl`.
 
 The converter takes a `.wiki` and generates `.md` files out of it, and also the `toc.yml` with the TOC for these `.md` files.
-Images are downloaded into the `img\` folder and should be manually copied flat into the general image folder: `betadocs\img\`.
+Images are downloaded into the `betadocs\img\`.
