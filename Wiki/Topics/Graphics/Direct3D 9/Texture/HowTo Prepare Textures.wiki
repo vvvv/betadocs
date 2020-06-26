@@ -1,0 +1,34 @@
+!How To Prepare Textures
+The FileTexture node can load BMP or JPG, TIF and TGA files into memory. Prepare your textures in either 16x16, 32x32, 64x64, 128x128, 256x256, 512x512, 1024x1024, 2048x2048 or 4096x4096 pixels size to get optimal results in terms of speed and quality. Try to make your textures as small as possible to get maximum speed
+
+Tip: In case you work with rectangular images, squish them in your image processing application to a square format, and stretch them to the original aspect ratio during display - this will speed up load time.
+
+!!How can I create a texture with alpha channel? 
+Use .png for preparing your textures.  If you work with photoshop the .png format is also quite handy, because you dont have to create a special alpha-channel. it uses the transparency from the layers automatically as alpha. 
+.tga is also an option. If you use .tga make sure you create the alpha channel as a separate channel in photoshop and flatten all layers. 
+.jpg and .bmp doesnt support an alpha channel at all
+
+!!Is there anyway to maintain the resolution of the textures brought into vvvv? It seems vvvv scales the images somehow.
+That is true. Textures need to be scaled to powers of two, so DirectX can handle them efficiently. The FileTexture node does that while loading the texture. The FileTexture node has configuration pins to set the internal resolution, but there are limitations of which sizes and which aspect ratios your graphic card can handle.  For using extremely nonsquare formats you need to split your images in parts and use a spread of quads, each with its own texture fragment. 
+
+Note also that the resizing of textures can significantly increase load time and will degrade image quality. Therefore its a good practice to prepare all textures in widths and heights of powers of two (32, 64, 128, 256, 512, 1024) so the graphics card can use the textures right away. 
+
+!!Compressed Texture Formats
+If you want to load a very large number of textures its recommended to choose a compressed texture memory format to save RAM space. You select the texture memory format with Herr Inspector at the FileTexture (EX9.Texture) node.
+
+The DXT compression formats are made up of DXT1, DXT2, DXT3, DXT4 and DXT5. DXT1 gives us the most compression by using 4-bits for each pixel but does not require an alpha channel (if it has one then it is 1-bit). DXT2/3 is the same as DXT1 but it uses an additional 4-bits for the alpha channel, thus doubling the size of the image. In the DXT2 format the data is pre-multiplied by the alpha channel while in the DXT3 it is not. The DXT4/5 formats are similar to the DXT2/3 formats with the exception of interpolating the alpha data when compressing the images. DXT2 / 3 / 4 / 5 can give us a compression ratio of 4:1 while DXT1 can give us a ratio of 8:1 / 6:1 (8:1 if we are not using the alpha).
+
+Format Comparison
+||FOURCC|Description|Alpha premultiplied|Compression ratio|Picture Type
+-
+DXT1|Opaque / 1-bit Alpha|N/A|8:1 / 6:1|Simple non-alpha
+-
+DXT2|Explicit alpha|Yes|4:1|Sharp alpha
+-
+DXT3|Explicit alpha|No|4:1|Sharp alpha
+-
+DXT4|Interpolated alpha|Yes|4:1|Gradient alpha
+-
+DXT5|Interpolated alpha|No|4:1|Gradient alpha||
+
+see how it works: [http://en.wikipedia.org/wiki/DXT_%28file_format%29|Wikipedia DXT file format]

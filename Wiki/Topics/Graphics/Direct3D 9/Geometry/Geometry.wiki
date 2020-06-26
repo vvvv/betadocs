@@ -1,0 +1,142 @@
+!Primitives
+{SPLIT()}
+
+!!!!Related nodes
+((node:Quad (DX9)))
+((node:Segment (DX9)))
+((node:Sphere (DX9)))
+((node:Rope (DX9)))
+...and many more
+
+
+~~~
+
+Primitives in the 'DX9' category combine a 3d geometry and a drawing effect (ie. shader) in one node. They are always only drawn with constant shading, no lighting.
+
+These nodes return a 'Layer' which can be directly plugged into the Renderer or a Group.
+
+Primitives can be colored using ((pin:Color)) and textured using ((pin:Texture)).
+
+DX9 nodes internally use the direct3d fixed function pipeline (to whom this may mean something).
+
+Examples in your vvvv\girlpower\ directory:
+* Graphics\DX9\Geometry
+
+{SPLIT}
+
+!Geometries
+{SPLIT()}
+
+!!!!Related nodes
+((node:Box (EX9.Geometry)))
+((node:Grid (EX9.Geometry)))
+((node:Torus (EX9.Geometry)))
+((node:Sphere (EX9.Geometry)))
+((node:Teapot (EX9.Geometry)))
+...and many more
+
+
+~~~
+
+Geometries from the 'EX9.Geometry' category are only 3d meshes, they need an Effect (from the 'EX9.Effect' category) to be drawn.
+
+Effects are containers for user-programmable vertex- and pixelshader, which in turn represent the two steps in which drawing is performed. See the ((Shader)) section for more on those. 
+
+Examples in your vvvv\girlpower\ directory:
+* Graphics\DX9\Geometry
+
+{SPLIT}
+
+!Meshes
+
+{SPLIT()}
+
+!!!!Related nodes
+((node:Xfile (EX9.Geometry load)))
+((node:ColladaFile (EX9.Geometry)))
+((node:Scene (Assimp)))
+
+~~~
+
+!!!Loading Meshes
+
+vvvv can natively load meshes exported from 3D Modelling Software (like Blender, Maya, Cinema4D) in the __XFile__ (*.x) or __Collada__ (*.dae) formats. Skeletons, Animations, Cameras are also available in the Collada format.
+
+Via the ''Assimp'' category of nodes a [http://assimp.sourceforge.net/main_features_formats.html|large list of 3d-formats] can be imported alternatively. 
+
+__The Assimp-nodes are contributed by ((user:vux)) and are coming with the ((downloads|addonpack)).__
+
+Examples in your vvvv\girlpower\ directory:
+* Graphics\DX9\Geometry
+
+__See also:__
+* ((collada|How to work with Collada))
+* ((HowTo prepare X Files|How to work with XFiles))
+* ((/contributions/1353+1351+2439+1352+7934+2438+1354+1355/8106+5207+2063+1679+3453|Related Contributions))
+
+{SPLIT}
+
+{SPLIT()}
+
+!!!!Related nodes
+((node:Mesh (EX9.Geometry Join)))
+((node:Mesh (EX9.Geometry Split)))
+((node:VertexBuffer (EX9.Geometry Join)))
+((node:VertexBuffer (EX9.Geometry Split)))
+((node:Normals (EX9.Geometry Mesh)))
+((node:MeshEditor (EX9)))
+((node:GridEditor (EX9)))
+((node:PickPoints (3d Vector)))
+~~~
+
+!!!Dynamic Meshes
+
+You can use the basic built-in geometries from the 'EX9.Geometry' category as a starting point and then manipulate / add / remove vertices and indices or create everything from scratch.
+
+A __Mesh__ is a data container with two distinct parts: IndexBuffer and VertexBuffer
+
+* the IndexBuffer is a list of integer number triplets where each triplet defines a triangle of the Mesh and each integer number referes to a vertex in the VertexBuffer.
+* the VertexBuffer is a list of all vertices in the Mesh.
+
+A __Vertex__ is a container itself for data like position, orientation (normal), texture coordinates and so on. But vertex is also often used as a synonym for a 3d position, as the position data is the most important part of it, because with it the shape of the Mesh is defined.
+
+Examples in your vvvv\girlpower\ directory:
+* Graphics\DX9\Geometry
+
+__See also:__
+* ((/contributions/1353+1351+2439+1352+7934+2438+1354+1355/8106+5207+2063+1679+3453|Related Contributions))
+
+{SPLIT}
+
+!Lines
+{SPLIT()}
+
+!!!!Related nodes
+((node:Line (EX9)))
+((node:Line (EX9 FromTo)))
+((node:PointEditor (2d)))
+((node:PointEditor (3d)))
+
+~~~
+
+Lines are pretty straight forward to draw: create a spread of their points and plug it into the Line (EX9) or Line (EX9 FromTo).
+
+Or use one of the PointEditors to edit points in the Renderer.
+
+Examples in your vvvv\girlpower\ directory:
+* Graphics\DX9\Geometry
+
+__See also:__
+* ((/contributions/1353+1351+2439+1352+7934+2438+1354+1355/1624+3805+3807+2406|Related Contributions))
+
+{SPLIT}
+
+!Curves
+{SPLIT()}
+
+~~~
+
+__See a special page on Curves:__
+* ((curves|Curves))
+
+{SPLIT}

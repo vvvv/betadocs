@@ -1,0 +1,48 @@
+!Using Flash movies in vvvv
+{SPLIT()}
+
+!!!!Related nodes
+((node:HTMLTexture (EX9.Texture String)))
+((node:HTMLTexture (EX9.Texture URL)))
+((node:Flash (EX9.Layer)))
+((node:Renderer (Flash)))
+
+~~~
+
+There are 3 ways to use [http://www.adobe.com/de/products/flash.html|Flash] in vvvv, each of the options has its pros and cons:
+
+---
+
+!!!!HTMLTexture (EX9.Texture)
+This node is wrapping [http://en.wikipedia.org/wiki/Google_Chrome|google's chrome webbrowser] and as such returns everything chrome can display as a ready-to-use texture.
+
+__HTMLTexture node is coming with the ((downloads|addonpack)).__
+
+__Known problems:__
+# Mouse interaction is not always working properly.
+# Use of semi-transparent Flash movies as textures with alpha-channel is broken (in the underlying library).
+
+If you encounter these problems, stick to the old ((/blog/vvvv45beta32.1|beta32.1 version)) for now and check the 'IO\Web\07_Transparent Flash' example from its 'girlpower' directory.
+
+---
+
+!!!!Flash (EX9.Layer)
+Returns the flash content as a vvvv layer. Takes mouse and keyboard as inputs. 
+
+Requires the (old) Flash Activex Control 10.0 to be installed. If you have a newer one see 
+((forum:drawflash-plugin-not-working))
+for how to downgrade to 10.
+
+---
+
+!!!!Renderer (Flash)
+Renders the flash content in its own window. ((node:GDITexture (EX9.Texture))) can be connected to get the content as a texture. This option allows you to directly set/get variables to/from the flash movie.
+
+The Renderer uses the Flash ActiveX control to embed the flash player into the flash renderer node. This means VVVV can use the latest flash versions and all its features. In order to get the latest ActiveX control you need to open Internet Explorer and upgrade flash from there.
+
+For an alternative ways of passing variables to flash see: 
+* [http://benchun.net/projects/flosc/|flosc] 
+* [http://blog.derhess.de/2011/08/16/flash-talks-to-max-msp-via-osc/|Flash talks to MAX/MSP via OSC] (the same technique can be used for vvvv).
+* ((protocols#osc|Using OSC in vvvv))
+
+{SPLIT}

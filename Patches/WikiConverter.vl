@@ -3845,7 +3845,7 @@
               <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Bang</p:buttonmode>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="DqC6SCifNn9MCWAGzVTES9" Comment="File Path" Bounds="476,300,258,15" ShowValueBox="true" isIOBox="true" Value="..\Wiki\Topics\Graphics\Direct3D 9\Text Rendering\Text Rendering.wiki">
+          <Pad Id="DqC6SCifNn9MCWAGzVTES9" Comment="File Path" Bounds="476,300,258,15" ShowValueBox="true" isIOBox="true" Value="..\Wiki\Topics\Logic\Logic.wiki">
             <p:TypeAnnotation LastCategoryFullName="IO" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="Path" />
             </p:TypeAnnotation>
@@ -3892,7 +3892,7 @@
               <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Bang</p:buttonmode>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="KFLnRVvzLsDPycPLVHk29e" Comment="Directory" Bounds="897,328,64,11" ShowValueBox="true" isIOBox="true" Value="..\Wiki\Topics\Graphics\Direct3D 9\">
+          <Pad Id="KFLnRVvzLsDPycPLVHk29e" Comment="Directory" Bounds="897,328,64,11" ShowValueBox="true" isIOBox="true" Value="..\Wiki\Topics\IO\">
             <p:TypeAnnotation LastCategoryFullName="IO" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="Path" />
             </p:TypeAnnotation>

@@ -1,0 +1,41 @@
+!__DX11__ Particle Systems
+{SPLIT()}
+
+~~~
+__DX11__ opens the doors for a much easier ways of working with particles for example due to its [http://en.wikipedia.org/wiki/Geometry_instancing|Geometry instancing] feature. 
+
+Check these amazing contributions:
+
+* ((/store#dx11.particles|DX11.Particles)) contribution by ((user:tmp)).
+* Particle Madness: [http://node13.vvvv.org/program/particle-madness/|Workshop] and ((/contribution/particle-madness|Patches)) by ((user:vux)) and ((user:dottore)).
+
+
+{SPLIT}
+
+!__DX9__ Particle Systems
+{SPLIT()}
+
+!!!Related nodes
+
+Native:
+((node:Particles (Spreads)))
+
+Addonpack:
+((node:Particles (2d Field)))
+((node:Particles (2d ForceField)))
+((node:Particles (3d Field)))
+
+~~~
+
+Besides the nodes from the ((/downloads|Addonpack)) contributed by ((user:vux)) (see left column) there are two powerful particle system contributions:
+
+* ((/contribution/particlesgpu-shader-library|ParticlesGPU Shader Library)) by ((user:dottore))
+* ((/contribution/particles-unplugged|Particles Unplugged)) by ((user:Martin Zrcek))
+
+There is also ((/contribution/particlesgpu-library-guide|this very comprehensive guide)) written by ((user:dottore)) about DX9 GPU particles.
+
+((/forum/vvvv-particles-library|This forum thread)) is an interesting read about CPU-based particles. And vvvv's c#-utility library comes with a simple ((/pluginspecs/html/AllMembers_T_VVVV_Utils_Animation_Particle.htm|Particle Class)) which should be a good start for simple CPU particles.
+
+And don't forget the related contributions by other users:
+* ((/contributions/1353+1351+2439+1352+7934+2438+1354+1355/1606+5286|Particles related Contributions))
+{SPLIT}

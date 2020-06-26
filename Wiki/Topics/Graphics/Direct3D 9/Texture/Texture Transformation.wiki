@@ -1,0 +1,37 @@
+!!Primitives
+Note that all of the primitives like ((node:Quad (DX9))), ((node:Segment (DX9))),... have a ((pin:Texture Transform)) next to the ((pin:Transform)). If you want to position/scale/rotate the texture on a primitive (instead of the primitive itself) you best connect a ((node:Transform (Transform 2d))) node to the ((pin:Texture Transform)). Like this you can achieve all desired transformations. 
+
+Also note the ((pin:Sampler State)) which accepts ((node:Filter (EX9.SamplerState))) and ((node:Address (EX9.SamplerState))) the latter of which is also interesting in connection with texture transformations. It allows you to specify how a texture is drawn outside of its own borders, ie. when a texture is scaled smaller. The address mode can be specified for U and V (ie. horizontal and vertical direction) separately and take one of 5 options:
+* Wrap - simple repeat
+* Mirror - repeating with every second version being flipped
+* Clamp - repeating only the last pixel
+* Border - allows to specify a border color via ((pin:Border Color))
+* MirrorOnce - mirrors once, then clamps
+
+
+!!Effects
+Most effects have a ((pin:Texture Transform)) as well but they don't have a ((pin:Sampler State)). If you want to use a special sampler state on an effect you can only do that in its code, which is easy. First rightclick an effect and save a local copy via Ctrl+S. Now locate the sampler state block, which typically looks something like this:
+
+^code:
+sampler Samp = sampler_state
+{
+    Texture   = (Tex); 
+    MipFilter = LINEAR;
+    MinFilter = LINEAR;
+    MagFilter = LINEAR;
+};
+^
+
+Here you can now add addressmodes and a bordercolor, like
+^code:
+sampler Samp = sampler_state 
+{
+    Texture   = (Tex);          
+    MipFilter = LINEAR;         
+    MinFilter = LINEAR;
+    MagFilter = LINEAR;
+    AddressU = BORDER;
+    AddressV = MIRROR;
+    BorderColor = float4(1, 0, 0, 1); //red border
+};
+^

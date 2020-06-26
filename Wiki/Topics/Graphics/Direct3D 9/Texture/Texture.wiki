@@ -1,0 +1,166 @@
+!Images
+{SPLIT()}
+
+!!!!Related nodes
+((node:FileTexture (EX9.Texture)))
+((node:Preloader (EX9.Texture)))
+((node:Writer (EX9.Texture)))
+((node:DX9Texture (EX9.Texture)))
+((node:Filter (EX9.SamplerState)))
+
+~~~
+
+The ((node:FileTexture (EX9.Texture))) can load images of different formats:  *.bmp, *.dds, *.jpg, *.png, *.tga, *.tif. To render the texture it must be applied to a ((geometry)). 
+
+Want to preload a large number of textures? See the helppatch of ((node:Preloader (EX9.Texture))) to learn how. 
+
+Examples in your vvvv\girlpower\ directory:
+* Graphics\DX9\Textures
+
+__See also:__
+* ((howto-prepare-textures|How to prepare Textures))
+* ((capturing-output|Capturing output))
+* ((/contributions/7934/3304|Related Packs))
+* ((/contributions/1353+1351+2439+1352+2438+1354+1355/3303+3304+3254+4175|Related Contributions))
+
+{SPLIT}
+
+!Videos
+{SPLIT()}
+
+!!!!Related nodes
+
+Playback:
+((node:FileStream (DShow9)))
+((node:FileStream (EX9.Texture VLC)))
+((node:VideoTexture (EX9.Texture VMR9)))
+((node:Player (EX9.Texture)))
+
+Video Input:
+((node:VideoIn (Dshow9)))
+((node:VideoIn (EX9.Texture)))
+
+Output:
+((node:DX9Texture (EX9.Texture)))
+((node:Writer (EX9.Texture)))
+((node:Writer (EX9.Texture AVI)))
+((node:Writer (EX9.Texture NRT)))
+
+~~~
+
+There are many different options to play
+* videos 
+* stacks of images
+* live streams
+in vvvv. See the ((video)) section for details on the different options. In any case at some point the video will finally be available as texture which you can place on a ((geometry)) in order to render it. 
+
+Examples in your vvvv\girlpower\ directory:
+* Graphics\DX9\Textures\
+
+__See also:__
+* ((video|Video Documentation Topic))
+* ((capturing-output|Capturing output))
+* ((/contributions/7934/3304|Related Packs))
+* ((/contributions/1353+1351+2439+1352+7934+2438+1354+1355/3303+3304+3346+3345+3254+4175+1745+1744+5537+4939+2698|Related Contributions))
+
+{SPLIT}
+
+!HTML & Flash
+{SPLIT()}
+
+[https://code.google.com/p/chromiumembedded/|Chromium Embedded Framework]
+
+!!!!Related nodes
+((node:HTMLTexture (EX9.Texture String)))
+((node:HTMLTexture (EX9.Texture URL)))
+((node:HTMLTexture (DX11.Texture String CEF)))
+((node:HTMLTexture (DX11.Texture URL CEF)))
+((node:HTMLView (Image String)))
+((node:HTMLView (Image Url)))
+~~~
+
+Webpages (incl. js, canvas, webGL, 3D css, flash... everything the [https://code.google.com/p/chromiumembedded/wiki/GeneralUsage|CEF 3.0] can display) can be used and handled as textures. Interactive ones.
+
+The Chromium comes with tons of [http://peter.sh/experiments/chromium-command-line-switches/|command line switches]. Just start the vvvv.exe with these switches and they will be handed over to Chromium.
+
+__HTMLTexture nodes are coming with the ((downloads|addonpack)).__
+
+Examples in your vvvv\girlpower\ directory:
+* Graphics\DX9\Textures
+
+__See also:__
+* ((software#html|Using HTML in vvvv))
+* ((flash|Using Flash in vvvv))
+* ((contribution:htmltexture-%28dx11%29|HTMLTexture (DX11) Contribution))
+
+{SPLIT}
+
+!Dynamic Textures
+{SPLIT()}
+
+!!!!Related nodes
+((node:DynamicTexture (EX9.Texture Color)))
+((node:DynamicTexture (EX9.Texture Raw)))
+((node:DynamicTexture (EX9.Texture Value)))
+((node:DX9Texture (EX9.Texture)))
+((node:FrameDelay (EX9.Texture)))
+
+~~~
+
+In order to create textures on the fly use one of the DynamicTexture nodes and supply data for each pixel.
+
+Or render a scene (first pass) and using the ((node:DX9Texture (EX9.Texture))) feed it as a texture into another scene (second pass).
+
+Examples in your vvvv\girlpower\ directory:
+* Graphics\DX9\Textures
+
+__See also:__
+* ((transparency-overview|Rendering on transparent background))
+
+{SPLIT}
+
+
+!Video Effects (TextureFX)
+{SPLIT()}
+
+!!!!Related nodes:
+((node:Glow (EX9.Texture Filter)))
+((node:Blur (EX9.Texture Filter)))
+((node:Stripes (EX9.Texture Filter)))
+((node:Tunnels (EX9.Texture Filter)))
+((node:ShiftRGB (EX9.Texture Filter)))
+((node:Polygonize (EX9.Texture Filter)))
+
+((node:Perlin (EX9.Texture Source)))
+((node:Pillow (EX9.Texture Source)))
+((node:Lava (EX9.Texture Source)))
+((node:Elektricity (EX9.Texture Source)))
+
+((node:Mix (EX9.Texture Mixer)))
+((node:Blend (EX9.Texture Mixer)))
+((node:Blood (EX9.Texture Mixer)))
+
+...and many __many__ more.
+
+~~~
+
+TextureFX is essentially vvvvs answer to [http://freeframe.svn.sourceforge.net/viewvc/freeframe/trunk/docs/specification.html|freeframeGL], i.e. a specification for modules that do GPU-based texture-generation, -manipulation and -analysis.
+
+It's like using filters and layers in Photoshop or AfterEffects, but interactively and in real-time (ie. GPU-based).
+
+Every video is just a sequence of textures, so there is no difference whether the effects are applied to the static images or to the video streams (represented as textures).
+
+The whole series of modules/effects is now part of the ((downloads|Addonpack)). Type 'fx' in the ((the-gui#node-browser|NodeBrowser)) to get the full list of available nodes.
+
+The idea was triggered by ((user:karistouf)) in his thread with the almost poetic title ((forum:pure-image-treatment-question-wich-evolution-for-vvvv)) and implementation is expertly lead by ((user:unc)).
+
+Examples in your vvvv\girlpower\ directory:
+* Graphics\DX9\Textures
+
+__See also:__
+* ((texturefx|TextureFX Specification))
+* ((/contribution/video-effects-and-compositing-tutorials|Video Effects and Compositing Tutorials))
+* ((/contributions/1353+1351+2439+1352+7934+2438+1354+1355/5693+1584+2750+1583+2399+4175|Related Contributions))
+
+
+{SPLIT}

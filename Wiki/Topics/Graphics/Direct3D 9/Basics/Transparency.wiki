@@ -1,0 +1,48 @@
+!Transparent objects
+{SPLIT()}
+
+!!!!Related nodes
+((node:Blend (EX9.RenderState Advanced)))
+((node:ZWriteEnable (EX9.RenderState)))
+((node:AlphaTest (EX9.Renderstate)))
+((node:Group (EX9)))
+((node:Group (EX9 Priority)))
+
+~~~
+
+If you first (high priority) drew a transparent object near the camera and after that (lower priority) draw a solid object behind it, the depth buffer check would just reject the drawing of the solid object behind the transparent one - because it knows nothing about semitransparent objects. 
+
+Make sure to draw all objects with alpha textures ''after everything else'' (that last sentence exactly describes the problem). 
+
+Using a ((node:Group (EX9) )) or the drawing order is determined by the order of inputs on the group node: left (first drawn) to right (last drawn). A ((node:Group (EX9 Priority) )) node allows you to change the drawing order/priority programmatically via the "Priority" pins that are associated with each "Layer" input pins.
+
+If this turns out to be difficult, DirectX supports one classic computer graphics hack for dealing with transparent objects drawn in arbitrary order -- vvvv exposes this hack with the ((node:AlphaTest (EX9.Renderstate) )) node. 
+
+Basically it allows one to skip processing for all pixels whose alpha value is below a given reference value. This means these pixels are neither rendered nor written into the depth buffer. Connect the AlphaTest node to the render node in question, enable it, set the compare function to less (or was it greater?), and play with the "reference alpha" pin. this should cut out all transparent areas in your objects. Consult the Microsoft [http://msdn.microsoft.com/library/en-us/directx9_m/directx/ref/ns/microsoft.directx.direct3d/c/renderstates/p/alphatestenable.asp|DirectX] documentation for details. 
+
+Obviously this method will not give you smooth antialiased borders, but it is somehow better than nothing. 
+
+__See also:__
+* ((transparency#where-drawing-order-matters...|Transparency and Depthbuffer))
+
+{SPLIT}
+
+
+!Transparent background
+{SPLIT()}
+
+!!!!Related nodes
+((node:DX9Texture (EX9.Texture)))
+((node:SetAlpha (Color)))
+
+~~~
+
+The image rendered by a Renderer can be retrieved as a texture via the ((node:DX9Texture (EX9.Texture))). This is useful if you need to write it to disk, post-process the image (aka ((texture#video-effects-texturefx|TextureFX))) or use it in a feedback-loop.
+
+In order to render on a transparent background the alpha in ((pin:Background Color)) of the ((node:Renderer (DX9))) must be <1 and the ((pin:Format)) of the Renderer or the ((node:DX9Texture (EX9.Texture))) must contain an alpha channel as well. Typically choose A8R8G8B8.
+
+Examples in your vvvv\girlpower\ directory:
+* Graphics\DX9\Texture\TransparentTexture.v4p
+
+
+{SPLIT}

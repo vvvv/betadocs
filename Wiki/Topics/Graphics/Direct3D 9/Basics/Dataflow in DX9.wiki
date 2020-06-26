@@ -1,0 +1,16 @@
+The overall dataflow of the 3d rendering pipeline in vvvv looks as follows:
+
+{img src = "ex9_pipeline_1_0.png" } 
+
+vvvv passes several data to the graphics card:
+* Mesh
+* Texture
+* User defined variables
+* Render Sates
+* Transform matrices
+
+First the vertexshader programm is applied to each vertex. Its major task is to project the geometry onto the screen. The output is the vertex position in screenspace for the rasterizer and other data for the pixel shader.
+
+Between vertexshader and pixelshader the conversion from vector graphics to pixel graphics happens. This is done by the rasterizer, that calculates which screen pixels belong to the geometry. It also interpolates per-vertex data sent from the vertex shader to per-pixel data for pixels which lie between the vertices.
+
+Then the pixelshader programm is executed for every visible pixel, as defined by the rasterizer. It calculates the final color of the pixel.

@@ -1,0 +1,109 @@
+!Text as a layer
+{SPLIT()}
+
+!!!!Related nodes
+((node:Text (EX9)))
+((node:Billboard (Transform)))
+((node:TypoSpread (Spreads)))
+((node:TextMetrics (String)))
+((node:GlyphInfo (String)))
+
+~~~
+
+The simplest way to draw text is using ((node:Text (EX9))) which returns a layer that can be directly connected to the Renderer. Note how the nodes ((pin:Size)) by default does not actually change the texts size but rather its resolution. See the nodes helppatch in order to learn how to specify the size in pixels.
+
+Examples in your vvvv\girlpower\ directory:
+* Graphics\DX9\Text
+
+__See also:__
+* ((/contribution/parasitic-design-a-vvvv-beginners-cookbook|The 'Typo' (P.3) chapter)) of the vvvv take on the ((books#generative-design|'Generative Gestaltung' book))
+
+{SPLIT}
+
+!Text as a texture
+{SPLIT()}
+
+!!!!Related nodes
+((node:Text (EX9.Texture)))
+((node:Text (EX9.Texture Source)))
+
+~~~
+
+The ((node:Text (EX9.Texture))) has almost the same functionality as the native ((node:Text (EX9))) but returns texture with a text drawn on transparent background. This texture can then be applied to any geometry or primitives like ((node:Quad (DX9))) in order to be rendered.
+
+The ((node:Text (EX9.Texture Source))) is also a simple text to texture renderer.
+
+__These nodes are contributed by ((user:woei)) and ((user:unc)) and are coming with the ((downloads|addonpack)).__
+
+Examples in your vvvv\girlpower\ directory:
+* Graphics\DX9\Text
+
+{SPLIT}
+
+!Text as 3d geometry
+{SPLIT()}
+
+!!!!Related nodes
+((node:Text (EX9.Geometry)))
+
+~~~
+
+((node:Text (EX9.Geometry))) returns text as geometry. But note that since ((/blog/vvvv45beta32|45beta32)) this node is no longer available by default. 
+
+Read more about the ((/blog/updates-regarding-windows-8.1#dx9ex|/dx9ex commandline parameter)) to understand why and learn how to make the node work again.
+
+{SPLIT}
+
+
+!Rendering HTML & Flash text
+{SPLIT()}
+
+!!!!Related nodes
+((node:HTMLTexture (EX9.Texture String)))
+((node:HTMLTexture (EX9.Texture URL)))
+((node:Renderer (Flash)))
+
+~~~
+
+A text layout made in HTML or Flash can be rendered to a texture using ((node:HTMLTexture (EX9.Texture URL))). Note that you don't need the Renderer (Flash) because ((node:HTMLTexture (EX9.Texture URL))) renders it all..
+
+__HTMLTexture nodes are coming with the ((downloads|addonpack)).__
+
+Examples in your vvvv\girlpower\ directory:
+* Graphics\DX9\Text
+* IO\Web\07_Transparent Flash
+
+__See also:__
+* ((software#html|Using HTML in vvvv))
+* ((flash|Using Flash in vvvv))
+
+
+{SPLIT}
+
+!Rendering SVG text as a texture
+{SPLIT()}
+
+[https://en.wikipedia.org/wiki/Scalable_Vector_Graphics|Scalable Vector Graphics]
+[http://www.inkscape.org|Inkscape] a free vector graphics editor
+
+!!!!Related nodes
+((node:Text (SVG)))
+((node:Renderer (SVG)))
+((node:SVGTexture (EX9.Texture)))
+((node:Reader (SVG)))
+((node:Join (SVG)))
+((node:AsDocument (SVG)))
+
+~~~
+
+Another way to layout and render the text is to use SVG.
+
+SVGs can be created on the fly using the nodes from the SVG category or be prepared beforehand in your favorite Vector-based editing program and then just loaded as SVG-files using the ((node:Reader (SVG))).
+
+Examples in your vvvv\girlpower\ directory:
+* Graphics\SVG
+
+__See also:__
+* ((SVG))
+
+{SPLIT}

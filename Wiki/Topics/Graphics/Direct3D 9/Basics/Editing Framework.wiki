@@ -1,0 +1,177 @@
+The vvvv editing framework consists of a series of nodes that are useful for editing geometry (points, lines, grids..) directly in a renderer. They've been designed with the following aspects in mind:
+
+{SPLIT()}
+__Persistence__
+Editing state can be saved to and loaded from files
+
+__Boygrouping__
+Editors can be used in boygrouping scenarios by simply putting a halfboygrouped module (provided) between Editor and View
+
+__Undo/Redo__
+Editing steps can be undone/redone
+~~~
+__Modularity__
+A clear line between Model and View allows for:
+* easy reuse of individual parts in custom editors 
+* a simple way to adapt the look of an editor by simply providing an alternative View module
+* DX9 and DX11 versions of the View modules
+{SPLIT}
+
+!Common Shortcuts
+{SPLIT()}
+
+!!!General
+;Ctrl+Z:Undo
+;Ctrl+Shift+Z:Redo
+;G: Turn On/Off a Gizmo
+;Doubleclick: Add new point (in 2D editors)
+
+!!!Selection
+;Ctrl+A: Select All
+;Ctrl+select: Add to Selection
+;Shift+select: Remove from Selection
+;Space: Select/Deselect hovered point
+;Q: Hover next Point
+;Shift+Q: Hover previous Point
+
+~~~
+!!!Translation
+;Arrow Keys: Nudge on XY
+;PageUp / PageDown: Nudge on Z
+
+!!!Scale
+;Shift: Uniform scaling
+
+!!!Rotation
+;Shift: Set stepsize 0.1°
+;Shift+Ctrl: Set stepsize 0.01°
+;Ctrl: Set Stepsize 5°
+{SPLIT}
+
+
+!PointEditor
+{SPLIT()}
+{img src = "vvvv_PointEditor.png" } 
+
+~~~
+!!!!Related nodes:
+((node:PointEditor (2d)))
+((node:PointEditor (3d)))
+
+{SPLIT}
+
+
+!BézierEditor
+{SPLIT()}
+{img src = "vvvv_BezierEditor.png" } 
+
+~~~
+
+!!!!Related nodes:
+((node:BézierEditor (2d)))
+((node:BézierEditor (3d)))
+
+;i+Doubleclick: Insert point on curve
+;W: Hover one or another control point
+;F: Force marquee-selection to include individual control points
+
+__Point modes:__
+;1: Corner point without handles
+;2: Corner point with handles
+;3: Smooth point
+;4: Smooth point with symmetric handles
+
+{SPLIT}
+
+!BézierPatchEditor
+{SPLIT()}
+{img src = "vvvv_BezierPatchEditor.png" } 
+
+~~~
+
+!!!!Related nodes:
+((node:BézierPatchEditor (2d)))
+((node:BézierPatchEditor (3d)))
+{SPLIT}
+
+!MeshEditor
+{SPLIT()}
+{img src = "vvvv_MeshEditor_0.png" } 
+
+
+
+~~~
+!!!!Related nodes:
+((node:MeshEditor (EX9)))
+(only available for DX9)
+{SPLIT}
+
+!PolygonEditor
+{SPLIT()}
+{img src = "vvvv_PolygonEditor.png" } 
+
+~~~
+
+!!!!Related nodes:
+((node:PolygonEditor (2d)))
+(only available for DX9)
+
+Note, this editor works without a Gizmo.
+
+{SPLIT}
+
+!Cameras
+{SPLIT()}
+{img src = "vvvv_CameraCone2_0.png" } 
+
+
+~~~
+;R:Reset View to default
+
+
+
+!!!2D
+*((node:Camera (Transform 2d)))
+
+;Pan:Right drag
+;Zoom:Mouse wheel
+
+!!!3D
+* ((node:Camera (Transform 3d Softimage)))
+
+;Orbit:O + Left drag
+;Distance (Dolly):P + Left drag
+;Pan:Z + Left drag
+;Zoom (FOV):Z + Right drag
+
+* ((node:Camera (Transform 3d Orbit)))
+
+;Orbit:Left drag
+;Distance (Dolly):Right drag
+;Pan:Middle drag
+;Zoom (FOV):Ctrl + Mouse Wheel
+
+{SPLIT}
+
+
+!Helper
+{SPLIT()}
+
+__DX9__
+((node: Cursor (DX9)))
+((node: AxisAndGrid (DX9)))
+((node: AxisAndGrid (DX9 2d)))
+((node: Axis (DX9)))
+((node: CameraPreview (DX9)))
+~~~
+
+__DX11__
+((node: AxisAndGrid (DX11)))
+((node: AxisAndGrid (DX11 2d)))
+((node: Axis (DX11)))
+((node: CameraPreview (DX11)))
+
+
+
+
+{SPLIT}

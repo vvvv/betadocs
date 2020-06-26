@@ -1,0 +1,11 @@
+Incoming...
+
+__table of contents__
+{maketoc}
+
+!!Can i deal with DX9 and DX11 at the same time?
+Generally it is possible to render with the old DX9 pipeline and new DX11 pipeline in the same patch. 
+
+You just have to handle the rendered result over to the other pipeline as shared texture (see the modules ((node:DX9ToDX11 (DX11.Texture 2d))) in the dx11 pack or ((forum:As shared Texture, DX11-> DX9)) for the other way round). 
+
+But be aware that the performance might not be good, when both pipelines have to wait for eachother. Depending hardly on what you do, you migth have noticeable framedrops at random while ((node:PerfMeter (Debug))) tells you vvvv is only waiting for the mainloop! In some cases using ((commandline-parameters#allowmultiple|multiple instances of vvvv)) can increase your framerate massively, as both pipelines then render asynchronously via an individual cpu thread.

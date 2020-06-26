@@ -1,0 +1,23 @@
+!!3D Modelling
+*[http://www.blender3d.com|Blender3D] THE open source 3D modelling/animation package with LOTS of features. Saves .x files directly. some featurehighlights: UV mapping/mesh unwrapping, subdivision modelling, game engine (can create standalones!).the gui is a bit special and takes a while to learn but it seems to be quite productive.
+*[http://www.wings3d.com|Wings 3D] open source 3D subdivision modeller. small, fast, easy to use and looks clear.
+*[http://www.micromouse.ca/file_formats.html|AccuTrans 3D] 3D-file format converter. full working version downloadable, licence 20USD. can write .x (Ascii or binary) but not read. has a good function to create 3 different styles of texture coordinates for the models.
+*[http://shape.cs.princeton.edu/search.html|3D Model Search Engine] more than 30000 3D models free to download.
+*[http://www.andytather.co.uk/Panda/directxmax_downloads.aspx|XFile exporter for 3D Studio]
+*[http://www.deep-shadows.com/hax/3DRipperDX.htm|3DRipperDX] lets you:
+**capture all geometry, textures and shaders, rendered during single frame;
+**import captured geometry into 3D Studio Max or Maya;
+**see what exactly has been drawn by each individual draw call;
+**see renderstate, textures, vertex streams, index stream, vertex declaration, vertex and pixel shaders (including HLSL source code if available) of each individual draw call.
+* [http://www.righthemisphere.com/products/dexp/|Deep  Exploration] 3D-file format converter. Commercial, 30-day trial available. 
+
+!!Texture Tools
+*[http://www.xnview.com/en/|XnView] view and convert graphic files, supports more than 400 graphics formats
+*[http://www.amnoid.de/ddsview/index.html|ddsview 0.663a] tiled image viewing, alpha channel display, viewing cubemaps and reading (and writing) dds files
+*[http://developer.nvidia.com/object/photoshop_dds_plugins.html|Nvidia Photoshop Plugins] allow to save dds-textures directly out of photoshop
+*[http://developer.amd.com/gpu/cubemapgen/pages/default.aspx|CubeMapGen] converts CubeCross maps (as generated with ((node:Writer (EX9.Texture CubeCross) )) to regular cubemaps.
+
+!!Image Manipulation & Graphic Tools
+*[http://www.imagemagick.org|Image Magick] free multi-plattform command line tool for a plethora of image calculation tasks (including stitching, compositing, conversion etc.)
+*[http://www.inkscape.org/|Inkscape] free vector-based drawing application similar to Adobe Illustrator. Saves .SVG natively.
+*[http://www.gimp.org/|The Gimp] free image manipulation software for photo retouching, image composition & image authoring; similar to Adobe Photoshop.

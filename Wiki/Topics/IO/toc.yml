@@ -1,0 +1,12 @@
+- name: Files
+  href: Files/toc.yml
+- name: Hardware
+  href: Hardware/toc.yml
+- name: Protocols
+  href: Protocols/toc.yml
+- name: Services
+  href: Services/toc.yml
+- name: Software
+  href: Software/toc.yml
+- name: Useful Links
+  href: Useful Links/toc.yml

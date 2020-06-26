@@ -1,0 +1,6 @@
+- name: Separate Logic from Content
+  href: Separate Logic from Content.md
+- name: Basic logic programming
+  href: Basic logic programming.md
+- name: State Machine
+  href: State Machine.md
