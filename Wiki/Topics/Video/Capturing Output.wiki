@@ -1,0 +1,101 @@
+!Still Screenshots
+{SPLIT()}
+
+~~~
+
+__Ctrl+1__ / __Ctrl+2__
+Screenshot of the active vvvv-window with / without the window border.
+
+__Shift+Ctrl+1__ / __Shift+Ctrl+2__
+The same as above, but the file-save dialog is invoked.
+
+__Ctrl+3__
+Make a screenshot name it and post directly to the "Screenshots of the Days" on vvvv.org (as seen on the front page).
+
+* If you shoot a patch, the file is placed in the patchs directory. Press ALT+E to open an explorer window to this path. 
+* If you shoot any other vvvv-window the file is placed in the directory in which its parent patch is placed in (e.g. shoot a renderer and search the image in the directory of the patch in which the Renderer node is placed in).
+* If a patch is not yet saved (shows something like 0.v4p//// in its windowtitle) you'll find the the .png in vvvvs root directory.
+* Pressing one of the shortcuts also copies the image to the clipboard which allows you to paste (Ctrl+V) it into other programs like Photoshop, Word etc.
+
+{SPLIT}
+
+!Screen Recorder
+{SPLIT()}
+
+!!!!Related nodes
+((node:Rekorder (Windows)))
+((node:ScreenShot (EX9.Texture)))
+((node:Writer (EX9.Texture)))
+
+~~~
+
+* Use ((node:Rekorder (Windows))) to capture ANY window into an animated GIF. The ((pin:Progress)) output helps to create seamless animated loops. Use __Ctrl+4__ to capture an active window. 
+
+* There are also several screen capture tools listed on the ((video software links)) page that can record portions of the screen to a movie file. 
+
+* Alternatively you can also use ((node:ScreenShot (EX9.Texture))) in connection with a ((node:Writer (EX9.Texture))) and patch your own screen recorder. 
+
+{SPLIT}
+
+
+!Capture DirectX Backbuffer
+{SPLIT()}
+
+!!!!Special tools:
+[http://www.fraps.com/|Fraps]
+[http://www.exkode.com/home-en.html|Dxtory]
+[http://obsproject.com/|Open Broadcaster Software (OBS)]
+
+~~~
+
+These tools directly capture the backbuffer of any directx application. On their website they claim to record at high framerates and high resolution directly to .avi files.
+
+There's also the promising nvidia shadowplay software (no vvvv support yet).
+
+{SPLIT}
+
+!Texture Writer
+{SPLIT()}
+
+!!!!Related nodes
+((node:Writer (EX9.Texture)))
+((node:Writer (EX9.Texture NRT)))
+((node:Writer (EX9.Texture AVI)))
+
+~~~
+
+* The ((node:Writer (EX9.Texture))) lets you save textures to files of different graphic formats. Best used in connection with ((node:DX9Texture (EX9.Texture))) which converts the output of a Renderer (EX9) node to a texture. 
+
+* For high resolution output try the non-realtime renderer ((node:Writer (EX9.Texture NRT))) which renders a still image sequence of any resolution your graphic card supports (typically up to 4096x4096 or 8192x8192). Use [http://www.virtualdub.org/|VirtualDub] or another video software to convert the images into your favourite movie format. Best quality, but non-realtime, meaning this is not suitable if you want to record animations with live-interaction. 
+
+* Quite similar to the previous node, but ((node:Writer (EX9.Texture AVI))) saves the uncompressed .avi files with a given framerate. Make sure to use it similarly to the Writer (EX9.Texture NRT) module with a MainLoop (VVVV) node with "Time Mode" set to 'Increment'.
+
+{SPLIT}
+
+!Writing a DirectShow Video Stream
+{SPLIT()}
+
+!!!!Related nodes
+((node:Writer (DShow9)))
+((node:VideoIn (DShow9)))
+((node:FileStream (DShow9)))
+
+~~~
+
+This should work well when connected directly to a ((node:VideoIn (DShow9) )) or ((node:FileStream (DShow9) )) but not so well when connected to an ((node:AsVideo (EX9.Texture))).
+In the latter case the rendered image has to be transferred back from the graphiccards memory to cpu memory which is traditionally a slow process. 
+
+((node:Writer (DShow9))) writes .avis with a fixed 25 frames per second. For your resulting .avi to be kind of smooth (as smooth as 25fps can be...) you'll therefore have to make sure that your patch is running at exactly 25fps. Use the ((node:Timing (Debug) )) to check this and the ((node:MainLoop (VVVV))) to limit the framerate. Good luck.
+
+{SPLIT}
+
+!Record Monitor Output
+{SPLIT()}
+
+~~~
+
+Simply connect a video recording device to the video output of your graphics card. Then switch to fullscreen and press record. 
+
+This method has the very advantage, that you don't need additional pc performance.
+
+{SPLIT}

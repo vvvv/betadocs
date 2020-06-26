@@ -1,0 +1,67 @@
+!FreeFrame plugins
+{SPLIT()}
+
+!!!!Related nodes
+((node:ARTK+ (FreeFrame DShow9)))
+((node:CamShiftTracker (FreeFrame DShow9))) 
+((node:ColorTracker (FreeFrame DShow9)))
+((node:Contour (FreeFrame DShow9)))
+((node:DetectObject (FreeFrame DShow9)))
+((node:FiducialTracker (FreeFrame DShow9)))
+((node:Trautner (FreeFrame DShow9)))
+
+~~~
+
+vvvv ships with a range of video tracking nodes, all implementated as ((glossary:FreeFrame)) plugins.
+
+These nodes have pretty good helppatches and speak for themselves.
+
+{SPLIT}
+
+!CV.Image-based
+{SPLIT()}
+
+!!!!Related nodes
+Canny (CV.Image)
+OpticalFlow (CV.Image Horn-Schunk)
+DetectObject (CV.Image)
+Perspective (CV.Transform)
+Erode (CV.Image)
+Sobel (CV.Image)
+Delauney (CV.Image)
+...and many more
+
+~~~
+
+The ((/contribution/vvvv.packs.image|Image Pack)) provides plenty of nodes which offer computer vision and image manipulation algorithms defined in the ((glossary:OpenCV)) library.
+
+{SPLIT}
+
+!FaceTracking
+{SPLIT()}
+
+!!!!Related nodes
+FaceData (Kinect Microsoft)
+DetectObject (Freeframe DShow9)
+FaceTracker (Freeframe DShow9)
+DetectObject (CV.Image)
+
+~~~
+
+These are the options vvvv offers for tracking faces. Look at their helppatches for details:
+* via Kinect: FaceData (Kinect Microsoft). Kinect1 tracks a maximum of 2 faces. Not sure about the limits of Kinect2. 
+* via Freeframe: 
+** DetectObject (Freeframe DShow9) and a corresponding haarcascade file. Tracks multiple faces.
+** FaceTracker (Freeframe DShow9)
+* via CV.Image: DetectObject (CV.Image) and a corresponding haarcascade file. Tracks multiple faces.
+
+{SPLIT}
+
+!External tracking tools
+{SPLIT()}
+
+~~~
+
+Check the external ((video software links#tracking-tools|Tracking Tools)) that can communicate with vvvv.
+
+{SPLIT}

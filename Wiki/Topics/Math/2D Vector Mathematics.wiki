@@ -1,0 +1,18 @@
+most operations are defined by analogy of ((3d Vector Mathematics))
+
+this site is about some special problems in 2d space.
+
+{maketoc}
+
+! Intersection point between two lines
+
+
+
+''by ((user:tonfilm|tf))''
+
+
+
+
+
+
+

@@ -1,0 +1,9 @@
+!!Basics
+* ((Coordinate Systems))
+* todo: wikify this workshop: ((contribution:vectors-transformations))
+
+!!Skeletons
+* ((skeleton-animation-nodes-tutorial|Skeleton Animation Nodes))
+* ((skinningwithskeletonnodes|Skinning with Skeleton Nodes))
+
+

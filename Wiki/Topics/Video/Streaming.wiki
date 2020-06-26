@@ -1,0 +1,29 @@
+!Network Streaming
+{SPLIT()}
+!!!!Related nodes
+((node:MJpegStream (EX9.Texture Sender)))
+((node:MJpegStream (EX9.Texture Receiver)))
+
+((node:AsRaw (EX9.Texture)))
+((node:DynamicTexture (EX9.Texture Raw)))
+
+~~~
+
+A texture can be sent over the network using either the MJpegStream nodes or ((software#spout|Spout)) in connection with [http://techlife.sg/TCPSpout/|TCPSpout].
+
+Alternatively you can convert a texture to a byte-spread using AsRaw (EX9.Texture) and send it over the network, eg. via ((protocols#udp-tcp|TCP)) and convert the byte-spread back to a texture using DynamicTexture (EX9.Texture Raw).
+
+{SPLIT}
+
+!Texture Sharing
+{SPLIT()}
+
+!!!!Related nodes
+((node:SharedTexture (EX9.Texture)))
+((node:Info (EX9.Texture)))
+
+~~~
+
+For local texture sharing between different instances of vvvv or even other softwares you can ((software#spout|Spout)) or simple texture sharing via SharedTexture (EX9.Texture). See its helppatch for a demo.
+
+{SPLIT}

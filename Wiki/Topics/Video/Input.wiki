@@ -1,0 +1,75 @@
+!Cameras with a WDM driver
+{SPLIT()}
+!!!!Related nodes
+((node:VideoIn (DShow9)))
+((node:VideoIn (EX9.Texture)))
+
+((node:VideoTexture (EX9.Texture VMR9)))
+((node:VideoTexture (EX9.Texture VMR9 YUVMixingMode)))
+
+~~~
+
+Standard cameras (those with a WDM driver) can be simply accessed via the the ((pin:Driver)) pin of the ((node:VideoIn (DShow9))).
+
+Use the ((node:VideoTexture (EX9.Texture VMR9))) connected to the VideoIn's  ((pin:Video)) output pin to retrieve the video texture which can be:
+* processed by the ((texture#video-effects-texturefx|TextureFX)),
+* analyzed by the ((/contribution/vvvv.packs.image|Image Pack)),
+* applied to a 3d object (like a ((node:Quad (DX9))) ) and rendered.
+
+Examples in your vvvv\girlpower\ directory:
+* Video
+
+__See also:__
+* ((video-hardware-links#cameras|List of the Cameras))
+{SPLIT}
+
+!Cameras with a proprietary API
+{SPLIT()}
+
+!!!!Related nodes
+((node:uEyeCam (Devices)))
+
+~~~
+
+Professional cameras can typically be accessed via a propietary API. Those can be implemented in a ((plugins|plugin)) like it was done for the ((node:uEyeCam (Devices))).
+
+The ((/contribution/vvvv.packs.image|Image Pack)) provides support for some more cameras (including Canon EOS, Point Grey, PlayStation Eye).
+
+__See also:__
+* ((video-hardware-links#cameras|List of Cameras))
+
+{SPLIT}
+
+
+!Capture Cards
+{SPLIT()}
+
+~~~
+
+Capture Cards either come with a WDM driver or a proprietary API. In the first case simply use the ((node: VideoIn (DShow9))) to access them, in the second case you'll have to write your own ((plugins|plugin)) in order to to implement the API.
+
+__Blackmagic Design DeckLink__
+
+* ((/store#dx11-blackmagicdesign-decklink-videoin|DX11 BlackmagicDesign Decklink VideoIn)) by [http://nsynk.de/|NSYNK]
+
+__Legacy__
+
+For (legacy) analog capture cards based on a bt878 or compatible chip this common WDM driver is available:
+http://btwincap.sourceforge.net/
+
+__See also:__
+* ((video-hardware-links#capture-cards|List of Capture Cards))
+
+{SPLIT}
+
+!Deinterlacing
+{SPLIT()}
+
+!!!!Related nodes
+((node:VideoTexture (EX9.Texture VMR9 YUVMixingMode)))
+((node:Cheater (DShow9)))
+~~~
+
+The ((node:VideoTexture (EX9.Texture VMR9 YUVMixingMode))) provides  deinterlacing functionality. If it does not work have a look at the helppatch of ((node:Cheater (DShow9))) that may be able to do some magic for you. 
+
+{SPLIT}

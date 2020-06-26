@@ -1,0 +1,50 @@
+To keep this list in a human-readable size, please add only the best tools you know.
+
+{SPLIT()}
+!!Capture Cards
+* [http://www.hauppauge.com/site/products/prods.html|Hauppauge]
+* [http://www.ospreyvideo.com/|Osprey]
+* [http://www.winnov.de/|Winnov]
+* [http://www.pixelmagicsystems.com/products/sdi/capture_card.htm|PixelMagic] 
+* [http://www.blackmagicdesign.com/products/decklink|Blackmagic Design]
+* [http://www.voxtechnologies.com/Industrial_PC_Peripherals/#vcc|VoxTechnologies]
+* [http://www.ituner.com/spectra.htm|ITuner Spectra8]
+* [http://www.pixelsmart.com/product_summary.html|PixelSmart]
+* [http://www.theimagingsource.com/en_US/products/grabbers/|The Imaging Source] 
+* [http://www.ems-imaging.com/index.php/products-by-function|EMS Imaging]
+* [http://www.bluefish444.com/products/retail/|bluefish444]
+* [http://de.ids-imaging.com/store/produkte/framegrabber.html|ids imaging]
+* [http://www.datapath.co.uk/products/video-capture-cards|Datapath]
+* [http://gamerzone.avermedia.com/game_capture/live_gamer_portable|Avermedia]
+
+* [http://btwincap.sourceforge.net|btwincap] universal wdm-capture-driver that may be better than the one that comes with your card
+~~~
+!!Cameras
+* [http://www.theimagingsource.com|The Imaging Source]
+* [http://www.unibrain.com/|Unibrain]
+* [http://ww2.ptgrey.com/|Point grey]
+* [http://www.eyespectorus.com/eyespectorhome.html|EyeSpector]
+* [http://www.everfocus.de/index.php/de/produkte/kameras|Everfocus]
+* [http://www.svs-vistek.com/de/en/|SVS Vistek]
+* [http://www.ids-imaging.de|ids Imaging]
+* [http://www.alliedvisiontec.com/emea/home.html|Allied Vision]
+* [http://www.logitech.com/en-gb/product/hd-pro-webcam-c920?crid=34|Logitech] (c920 HD Pro)
+~~~
+!!IR-Lighting
+* [http://www.videosysteme.de/shop/gruppe-150-na1.htm|ViSiTec]
+* [http://www.audex.com/spotlight.html|Audex]
+* [http://www.edmundoptics.com/onlinecatalog/search/index.cfm?sb=cat&criteria=infrared&start=1|A broad variety of IR-pass and block filters in all sizes and qualities]
+
+!!Multi-Touch kits
+* [http://www.zaagtech.com/|Zaagtech]
+{SPLIT}
+
+---
+{SPLIT()}
+!!Video History
+* [http://www.experimentaltvcenter.org/history/index.html|The Video History Project]
+* [http://www.vasulka.org/Kitchen/PDF_Eigenwelt/Eigenwelt.htm|Eigenwelt der Apparate] 
+* [http://www.audiovisualizers.com/toolshak/vsynths.htm|Video Synthesizer History]
+~~~
+
+{SPLIT}

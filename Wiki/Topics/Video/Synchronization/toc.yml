@@ -1,0 +1,6 @@
+- name: General advices
+  href: General advices.md
+- name: Network-Many machines
+  href: Network-Many machines.md
+- name: Locally-Same machine
+  href: Locally-Same machine.md

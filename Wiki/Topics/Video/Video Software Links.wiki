@@ -1,0 +1,42 @@
+!!DirectShow Filters
+* [http://dsp-worx.de|dsp-worx] collection of interesting audio and video directshow filters
+* [http://forum.slysoft.com/showthread.php?t=19931|ReClock] Audio Renderer that provides a reference clock that is locked to the video card hardware clock
+* [http://deinterlace.sourceforge.net/|DScaler Filter] DirectShow filter needed for the ((node:DScaler (DShow9))).
+
+!!Video Tools
+* [http://mpc-hc.org/| MPC-HC Lightweight Mediaplayer] does away with the clutter of Quicktime or Windows MPlayer2.
+* [http://virtualdub.sourceforge.net/| VirtualDub] - the swiss army knife of video converters. Does not do Quicktime, though, unless you use AviSynth. There is also [VirtualDubMod] that supports MPEG-2, but is slow, does not do frame-accurate editing, and will require a separate AC3 codec (see below)
+* [http://www.womble.com|MPEG Video Wizard] - (Trialware, about 100€). 90% of all users will never need another video editor. Ever tried editing a VOB file with AC-3 in Premiere, Vegas, or Avid? Womble does it. Smart recompression avoidance, superb MPEG2 scrubbing. Looks ugly, but so does final cut.
+* [http://www.ndrw.co.uk/download/free/jpgvideo/jpgvideo.zip|JPGVideo] easy little tool to convert a sequence of jpg's into an avi file with a codec of your choice. Useful with ((node:Writer (EX9.Texture NRT)))
+* [http://www.splitcamera.com|SplitCamera] DirectShow Camera driver splitter
+* [http://www.soundmorning.com|VirtualCamera] simulates a DirectShow camera from non realtime media like images or videos.
+* [http://www.dvbviewer.tv/forum/topic/2543-radlight-filter-manager-v16/page-2#entry139116|RadLight filter manager] is a nice little tool for setting the merit of codecs and for getting the big picture of what's installed on your system. It helped me to regain power over my explorer's thumbnail view- after installing the k-lite codec pack the ffwdshow codec took over all MP1, MP2 and MP4 files and would not show me any thumbnails in explorer any more. Unregistering ffwdshow did the trick immediately. So would (I presume) setting the merit to DO_NOT_USE.
+* [http://www.avisynth.nl/users/qwerpoi/|AvsP] script editor for [http://www.avisynth.org/|avisynth]
+* [http://www.debugmode.com/wax/|WAX] free video compositing software
+* [http://www.mediacoderhq.com/|MediaCoder] free all-around video encoder tool (MPEG-1, MPEG-2, MPEG-4, MJPEG, DivX and more)
+* [http://www.cycling74.com|Max/Msp/Jitter]
+* [http://www.ventuz.com|Ventuz]
+* [http://www.audiovisualizers.com/toolshak/vjprgpix/softmain.htm|VJ Software List]
+
+!!Screen Capture Tools
+* [http://www.fraps.com|fraps] - worth every euro.
+* [http://exkode.com/dxtory-features-en.html|Dxtory] is a capture tool for DirectX and OpenGL Applications.
+* [http://www.bandicam.com/|Bandicam]
+* [http://www.manycam.com/|ManyCam] - use your webcam with multiple applications at the same time and add cool graphics to your webcam video window. Allows capturing your Renderer and streaming it e.g. to Skype. It also allows to feed processed Webcam and more to your ((node:VideoIn (DShow9))).
+* [http://www.splitmedialabs.com/media-toolkits/vh-video-sdk/vh-screen-capture|VH Screen Capture Driver] is a DirectShow filter, which emulates Video Capture card and captures screen activity. Want to capture screen content, but your favorite capture software doesn't support capture from screen? Now, with VH Screen Capture Driver, you can select capture for screen as a virtual device in any DirectShow-based capture application.
+* [http://www.techsmith.com/camtasia.html|Camtasia] (commercial license!) has a streaming function which may be useful for some.
+* [http://www.hyperionics.com/ | Hypercam]
+* [http://www.e2esoft.cn/vcam/ | VCam] (commercial license!) is a virtual software camera, which simulates a webcam in your system and works just like a real webcam. It can be used to capture your render output and stream the content e.g. to Skype etc. 
+* [https://obsproject.com/ | Open Broadcaster Software] is free and open source software for video recording and live streaming. Will do what fraps does but records down to mp4 so no massive uncompressed video files.
+
+!!Tracking Tools
+*[http://en.wikibooks.org/wiki/SwisTrack|SwisTrack] is a powerful tool for tracking robots, humans, animals and objects using a camera or a recorded video as input source. It uses Intel's OpenCV library for fast image processing and contains interfaces for USB, FireWire and GigE cameras, as well as AVI files.
+*[http://www.frieder-weiss.de/eyecon/|Eyecon] Eyecon's main use has been to facilitate interactive performances and installations in which the motion of human bodies is used to trigger or control various other media (music, sounds, photos, films, lighting changes, etc.).
+* [http://ccv.nuigroup.com/|Community Core Vision], CCV for short (aka tbeta), is a open source/cross-platform solution  for computer vision  and machine sensing
+* [http://opentsps.com|A cross-platform Toolkit for Sensing People in Spaces]
+* [http://www.infomus.org/eyesweb_ita.php| The EyesWeb Project]
+* [http://cavi.au.dk/research-areas/bullseye/|BullsEye] A computer vision application developed by CAVI for optical fiducial tracking on tangible tabletops.
+* [http://reactivision.sourceforge.net/|reacTIVision] An open source, cross-platform computer vision framework for the fast and robust tracking of fiducial markers attached onto physical objects, as well as for multi-touch finger tracking.]
+
+!!Codecs
+*[http://www.free-codecs.com/|Free-Codecs] have a good list of up-to-date freeware codecs.

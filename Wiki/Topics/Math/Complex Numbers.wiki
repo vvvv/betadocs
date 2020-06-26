@@ -1,0 +1,57 @@
+{maketoc}
+
+work in progress
+
+! Definition
+
+Real numbers have a property specifying that for any real number r, 
+
+__r__ ~178~ > 0
+
+Complex number is an extention of the real numbers, adding a number i satisfying the equation i ^ 2 = -1
+
+A complex number is usually written in the form: a + bi
+
+a and b are real numbers, a being call the real part, and b the imaginary part.
+
+Two complex numbers a + bi and c + di are considered equal if :
+a=c AND b=d
+
+
+! Operations
+
+!! Addition
+
+Adding two complex numbers is simply done by adding the real parts together and the imaginary parts together.
+
+(a+bi) + (c+di) = (a+b) + (c+d)i
+
+((node:+ (Complex) ))
+
+
+!! Subtraction
+
+Subtracting two complex numbers is simply done by adding the real parts together and the imaginary parts together.
+
+(a+bi) - (c+di) = (a-b) + (c-d)i
+
+((node:- (Complex) ))
+
+
+!! Multiplication
+
+To process multiplication, we use standard algebra rules:
+
+(a + bi) * (c + di) = (a*c - b*d) + (a*d + b*c)i
+
+decomposition:
+(a + bi) * (c + di) = a*c + a*di + c * bi  + bi * di = a*c + (a*d + b*c)i + b*d i~178~ = (a*c - b*d) + (a*d + b*c)i
+
+((node:* (Complex) ))
+
+
+!! Division
+
+(a + bi) / (c + di) = ( (ac + bd + (bc - ad)i  ) / (c~178~ + d~178~)
+
+((node:/ (Complex) ))
