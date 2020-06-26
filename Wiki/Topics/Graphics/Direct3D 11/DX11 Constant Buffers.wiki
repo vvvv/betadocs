@@ -1,0 +1,233 @@
+! Introduction
+
+Constant buffers are the most basic way to provide your data to Shaders. Even if you don't see them, they are all implicitly created and updated under the hood.
+
+Even tho, knowing how to use them and organize them can lead to significant performance improvements.
+
+So let's get started.
+
+! Simple shader example
+
+^code:
+float4x4 tW : WORLD;
+float4x4 tVP : VIEWPROJECTION;
+float4x4 tWVP : WORLDVIEWPROJECTION;
+float4x4 tP : PROJECTION;
+float Alpha <float uimin=0.0; float uimax=1.0;> = 1; 
+float4 cAmb <bool color=true;String uiname="Color";>;
+float4x4 tTex <string uiname="Texture Transform"; >;
+float4x4 tColor <string uiname="Color Transform";>;
+^
+
+This is a basic example (I only show the shader variables to keep things compact).
+
+Since we don't explicitly manage our data, all of it will automatically be integrated into one of those Constant buffers for you, so this is equivalent to :
+
+^code:
+cbuffer cbGlobal : register( b0 )
+{
+	float4x4 tW : WORLD;
+	float4x4 tVP : VIEWPROJECTION;
+	float4x4 tWVP : WORLDVIEWPROJECTION;
+	float4x4 tP : PROJECTION;
+	float Alpha <float uimin=0.0; float uimax=1.0;> = 1; 
+	float4 cAmb <bool color=true;String uiname="Color";>;
+	float4x4 tTex <string uiname="Texture Transform"; >;
+	float4x4 tColor <string uiname="Color Transform";>;
+};
+^
+
+Now let's see what we have here:
+* tW : provided by the "Transform In" pin
+* tVP and tP : provided by the Renderer
+* tWVP : which auto combines tW and tVP
+* All the rest will just be input pins.
+
+Now what we can also notice:
+* tW, tVP, tTex, tP, tWVP will be generally used by vertex shader (let's keep it simple)
+* Rest is used by pixel shader
+
+But also (and that's the most important):
+* tVP and tP are provided per render. That means that if you draw 1 object or 512 it will stay the same.
+* Rest is on a per slice basis, but...
+* tWVP will be per slice, and will cost you a Matrix Multiply
+
+Ok so now what happens when we draw our objects (in this scenario):
+Create a structure (in CPU) that is same size of our buffer (with some potential differences, see below)
+
+Now, for each slice
+* Update structure with pin data
+* Upload constant buffer to your graphics card
+* Assign constant buffer to both Vertex/Pixel shader
+* Draw
+* Repeat
+
+Now the line that will attract our interest is 
+* Upload constant buffer to your graphics card
+
+Here we have a buffer with a size of:
+64(transform)* 6 + 16 (float4) + 4 (float) = 404 bytes
+
+Now let's say we draw 512 objects, we need the  to upload:
+404*512 = 206848 bytes
+
+In our little simple scenario that's not much, but start to think when you need to start loading more complex structures, skinning transforms...
+
+So let's modify that a little:
+
+! Splitting buffers
+
+So as we said, and since we are allowed to use several of those buffers, we now split all of those in that way:
+
+^code:
+cbuffer cbPerRender : register( b0 )
+{
+	float4x4 tVP : VIEWPROJECTION;
+	float4x4 tP : PROJECTION;
+};
+
+cbuffer cbPerObject : register (b1)
+{
+	float4x4 tW : WORLD;
+	float4x4 tWVP : WORLDVIEWPROJECTION;
+	float Alpha <float uimin=0.0; float uimax=1.0;> = 1; 
+	float4 cAmb <bool color=true;String uiname="Color";>;
+	float4x4 tTex <string uiname="Texture Transform"; >;
+	float4x4 tColor <string uiname="Color Transform";>;
+};
+^
+
+Now shader node will react like that:
+* Notice that everything in cbPerRender is provided by renderer
+* Update buffer once
+* Then run the same loop as above, but only updating b1
+
+So that gives us a total of:
+64 * 2 (once) 
+64 * 4 + 16 + 4 = 276 (per element)
+
+For he same amount of calls, we end up with 141440 bytes uploaded instead.
+
+Compared to the above version that's a decent gain.
+
+Please note that also, normally the effects runtime will notice that cbPerRender is not used by pixel shader and in that case will no bind it (saves you an API call as well).
+
+! Constant buffer packing
+
+You remember when I shown you constant buffer size with all that primary school level calculations... well technically they are all wrong ;)
+
+GPU wants Constant buffer elements to be aligned on a 16 bytes boundary (yes you know same as when we bitch about using SSE, so yes this is important and yes we want faster transforms ! ;)
+
+So let's decompose our structure (i'll remove semantic /annotation for clarity)
+^code:
+cbuffer cbPerObject : register (b1)
+{
+	float4x4 tW; //Offset = 0
+	float4x4 tWVP; //Offset = 64
+	float Alpha; //Offset = 128
+	float4 cAmb; //Offset = 132
+	float4x4 tTex; //Offset = 148
+	float4x4 tColor; //Offset = 212
+};
+
+Total size : 276
+^
+
+Actually it is not, let's look at cAmb, offset is 84, which is not a multiple of 16. So your cbuffer will instead be like:
+
+^code:
+cbuffer cbPerObject : register (b1)
+{
+	float4x4 tW; //Offset = 0
+	float4x4 tWVP; //Offset = 64
+	float Alpha; //Offset = 128
+	float3 SomeRandomDataAdded ; //Offset = 132
+	float4 cAmb; //Offset = 144
+	float4x4 tTex; //Offset = 160
+	float4x4 tColor; //Offset = 224
+};
+
+Total size : 288
+^
+
+So technically we got 12 bytes added by runtime. 
+
+This is mostly done for the same reasons as when using SIMD (which I will not cover here), you need your reads to start as 16 bytes boundaries.
+
+Another way to pack is :
+
+^code:
+cbuffer cbPerObject : register (b1)
+{
+	float4x4 tW; 
+	float4x4 tWVP; 
+	float4 cAmb;
+	float4x4 tTex;
+	float4x4 tColor;
+	float Alpha; 
+};
+^
+
+Which will be... exactly same size (since Constant Buffer size also needs to be a multiple of 16).
+
+But at least in this case our data is organized in a way that all elements got their start point which is not modified.
+
+There's also a few other parts that would need to be covered, but let's say that they become more situational (for people interested about manual packing, google packoffset hlsl and you'll be presented with tons of info).
+
+! To Spread or not to Spread?
+
+Now another important thing is that the shader node will also check if your input pin is spreaded or not.
+
+If pin is not spreaded that part of the buffer will be only updated once (same as PROJECTION for example)
+
+So now let's say tColor is always the same, so is cAmb (eg: always single spread count).
+
+You can modify your buffers like this:
+
+
+^code:
+cbuffer cbPerRender : register( b0 )
+{
+	float4x4 tVP : VIEWPROJECTION;
+	float4x4 tP : PROJECTION;
+	float4x4 tColor;
+	float4 cAmb;
+};
+
+cbuffer cbPerObject : register (b1)
+{
+	float4x4 tW : WORLD;
+	float4x4 tWVP : WORLDVIEWPROJECTION;	
+	float4x4 tTex;
+	float Alpha;
+};
+^
+
+Here since the shader node will know that tColor and cAmb are single spread,  buffer will be uploaded only once.
+
+BUT (and this is IMPORTANT):
+If now you spread cAmb pin, cbPerRender will be updated EVERY frame again. So you go back to point 0.
+
+So make sure that you always only combine elements which will have a single count.
+
+Please note that in next major release(s) for dx11 nodes that fact will become even more important (and please bitch about .NET 4.5 framework support :)
+
+! Other considerations
+
+
+!! tWVP or mul(tW,tVP)
+
+tWVP will multiply your transform in CPU, using mul (tV,TVP) will do it in GPU.
+
+Once big difference is when you do it in CPU it's only once per model, whereas mul(tW,TVP) is once per vertex.
+
+So it's also situational (please note that pre transform hardly works in instancing scenario by the way, unless you do it in Compute Shader).
+
+But generally I just keep 2 versions of the shader and use the fastest one (if i run into perf issues, if not, I don't care ;)
+
+!! Clean up 
+
+If you don't use color transform (or anything else, texture sampling probably being the most important), get rid of it, or do a version with/without it.
+
+Operations at pixel level can add up very quickly, so if you don't need them get rid of them (and it's so simple to have 2 versions of shader with/without texture that it should be in your toolkit).
+

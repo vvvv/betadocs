@@ -3,6 +3,10 @@
 - name: DX11 FAQ
   href: DX11 FAQ.md
 - name: DX11 Pipeline
-  href: DX11 Pipeline.md 
+  href: DX11 Pipeline.md
+- name: DX11 VVVV Pipeline
+  href: DX11 VVVV Pipeline/toc.yml
+- name: DX11 Constant Buffers
+  href: DX11 Constant Buffers/toc.yml  
 - name: DX11 Userful Links
   href: DX11 Userful Links.md

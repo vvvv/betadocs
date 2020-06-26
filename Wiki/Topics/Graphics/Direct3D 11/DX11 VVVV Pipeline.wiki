@@ -1,0 +1,125 @@
+! Overview
+
+VVVV Pipeline in DirectX 11 is somehow similar to the one in DirectX9 (with some differences).
+
+From the time that your patch is evaluated to the time you finally have something on the screen, a lot of different processing (happening magically under the hood) happens.
+
+This processing is divided in different stages:
+* Evaluate : Each node is evaluated and process it's own logic.
+* Update : This is called for every node that owns/process a DirectX resource (please note that there are some optimizations behind, but we'll speak about that in another topic). Update stage makes sure that any resource gets updated properly to your GPU prior to issue rendering commands.
+* Render : This is when you really issue render commands.
+* Present : For any render window which is visible, we send a Present command (which basically means show the result on the screen).
+
+So now GPU pipeline is Asynchronous, let's see what it means using this simple example:
+
+{img src = "01_Sync_Pipeline_2013.10.18-13.39.46.png" } 
+
+Now let's consider for a minute that we have a synchronous pipeline:
+
+Update stage uploads Quad/Sphere and DynamicBuffer to your GPU (if not already).
+
+Now the rendering goes to constant, which issue a draw command. Since we imagine our pipeline as synchronous that means (CPU wise)
+-Set Shader Stages
+-Send Draw command for Quad.
+-Wait for Draw Command to be completed.
+-Set shader stages for sphere
+-Send Draw Command for Sphere 0
+-Wait 
+-Send Draw Command for Sphere 1
+....
+
+our GPU would work like that:
+-Wait
+-Receive command for Quad
+-Process quad
+-Notify that you're done
+-Wait for next command
+....
+
+As you can clearly see this would be totally inefficient, both of your processing units would permanently wait for each other. This is called idle time.
+
+So instead pipeline works this way, calls to the Pipeline are asynchronous, which means when you send a graphics command, it is not processed right away. Instead this is stored in a command buffer. Your GPU will then consume commands from this buffer when it feels it needs too.
+
+What it now means, if we take our previous example, that your CPU is immediately free to make more work once commands are sent. And your GPU gets commands and process them at some point.
+
+Now that means your GPU might effectively draw you Quad while your CPU is issuing draw calls for Sphere number 5.
+
+So an important aspect is: you don't know when the GPU is processing commands (please note that order is of course preserved). And technically you don't really want to know, letting both units do their job is much easier.
+
+There are a few ways to instruct your GPU to immediately process commands in his buffer:
+* When you call present (since you ask for result on the screen we need our graphics card to complete the job).
+* When you issue a Flush command (basically never do that unless you know what you do, this is useful in a few cases, but mostly for cleanup).
+* When you Map a resource for read (more on that later).
+
+! Resource synchronization
+
+Now you have both of your units running happily in parallel. There is an issue.
+
+If we look at the ConstantInstanced, which is fed by a Dynamic buffer.
+
+We need to upload our transformations to the buffer. Which is done in 3 stages:
+* Issue a Map Command, indicating we want to write to the resource
+* Upload Data from CPU to GPU
+* Issue a Unmap command, indicating that we are done updating the resource.
+
+One very important part is that Map command will also instruct the GPU that it's not allowed to use this resource (since we are currently writing on it).
+
+What it means is that if your GPU's next command is a draw call using that buffer, it will wait until Unmap is called before to proceed.
+
+This is called a stall. It means your GPU will go idle until upload is done.
+
+Now please note that this works both ways, if your GPU is currently using the resource for a draw call and you call Map, your CPU will wait for the GPU to instruct that it is done with it before to proceed. This is also a stall, but this time on the CPU side.
+
+Now since most time we upload resources during update stage, this generally minimizes the risks of having it happening (at the cost of an extra stage).
+
+Now we have a few nodes which create an exception : Data Retrievers.
+
+! What is a Data retriever?
+
+Sometimes let's say we need to access a GPU resource and bring it back to our CPU (Simple Readback).
+
+What we need to do is:
+* Create a resource that we can read in CPU (this is called a staging resource)
+* Copy our GPU resource to the staging resource.
+* Indicate to our GPU that we are gonna read that resource.
+
+This is also done, using Map, but this time we tells that we want to read.
+
+What now happens is:
+* Since we tell we want to read, the GPU but execute ALL remaining commands (you flush the gpu).
+* Your CPU needs to wait for the GPU to execute (so your CPU will go idle until this is done).
+* You copy your data back, then do some other processing.
+* Since you just emptied the command buffer, your GPU will do nothing until it receives new commands.
+
+Let's take this simple (but oh so common) example:
+
+{img src = "02_Early_Render_2013.10.18-14.47.54.png" } 
+
+Now what happens in there.
+
+We have an Info node. To output it's data, the node needs to have all the above fully evaluated (which is handled by vvvv graph), but also fully updated and rendered. And we are still at evaluation stage, since we need to output data as output pins.
+
+So here we create what is called an "Early Render"
+
+Basically our info node (during evaluate), will instruct the DX11 pipeline that it needs this resource ready. 
+
+Our vvvv pipeline will call Update/Render using Info as a starting point. So all of the above will be processed. Since we also need the runtime to fully complete the draw calls, our Info node (which doesn't do much), will actually under the hood provoke quite a big chain of actions.
+
+By doing this, and since our node still need to wait for that data, we lose the benefit of having our CPU and GPU work concurrently.
+
+That's why your node will suddenly appear to eat a lot of CPU when you run in Debug Mode, which is misleading since thispart would have been rendered anyway.
+
+Please of course note that the dx11 rendering knows that this part has already been rendered, so when you reach update/render it will not process it a second time. This means that performance loss can be fairly minimal or very bad (it can really depend on lot of factors). But mostly it also makes rendering path unpredictable (which removes opportunities for internal optimization).
+
+So to make it simple, reading back resources has a lot of implications, it needs to be handled with care. Please note in some cases this is needed and not avoidable.
+
+In the case of Info, this should never be needed anymore in dx11 (except for debug purposes).
+* TextureFX will inherit resource size.
+* You have access to GetDimensions in hlsl to query resource size.
+* Semantics are provided to shader if you need render target size.
+
+In some cases, reading back data for CPU usage is unavoidable (send some stream compaction results via network for example, export model/texture).
+
+Please note that retrieving average brightness of a texture to connect to a Damper is NOT a use case ;)
+
+If data is not needed within the same frame, write a node that waits for presentation stage, and Map your resource after that (since your pipeline will be fully executed, so you will minimize the chance of a big fat stall).
