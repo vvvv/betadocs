@@ -1,0 +1,152 @@
+For better readability and standardization of VVVV related code we should all conform to the coding styles below:
+
+{maketoc}
+
+!Casing
+!!Definitions
+
+^__Pascal Casing__
+ RedHotChilliPeppers
+__Camel Casing__
+ redHotChilliPeppers^
+
+!!Classes
+* Pascal Casing
+^code(line=0):
+//good
+class RedHot
+
+//bad
+class TRedHot
+class redhot
+^
+
+!!Interfaces
+* start with an I (for Interface) and then Pascal Casing
+^code(line=0):
+//good
+interface IRedHot
+
+//bad
+interface RedHotInterface
+interface Iredhot
+^
+
+!!Class Variables
+* start with an F (for Field) and then Pascal Casing
+^code(line=0):
+//good
+int FChilliPepper
+
+//bad
+int ChilliPepper 
+int FchilliPepper
+^
+
+!!Local Variables, Function Arguments
+* Camel Casing
+^code(line=0):
+//good
+int redPepper;
+void Foo(int barCode);
+
+//bad
+int Redpepper;
+int RedPepper;
+void Foo(int BarCode);
+^
+
+!!Global Variables
+* start with a G and then Pascal Casing
+^code(line=0):
+//good
+int GChilliPepper;
+
+//bad
+int ChilliPepperGlobal;
+int GchilliPepper;
+^
+
+!!Functions
+* Pascal Casing
+^code(line=0):
+//good
+PlayMusic();
+
+//bad
+playMusic();
+^
+
+!!Events
+* start with On.. and then Pascal Casing
+^code(line=0):
+//good
+OnExplode
+
+//bad
+Explode
+Onexplode
+^
+
+!!Events Callbacks
+* are named like their corresponding Events
+* end with ..CB 
+^code(line=0):
+//good
+ExplodeCB()
+
+//bad
+ExplosionCB()
+explodeCB()
+^
+
+!Braces
+* braces are always in a new line
+^code(line=0):
+//good
+if true then
+{ 
+ ...
+};
+
+//bad
+if true then { ... };
+if true then {
+   ...
+ };
+^
+
+!Indenting
+* always use 4 spaces
+
+!Spacing
+* there is always a single space after a comma or a semicolon, never before
+^code(line=0):
+//good
+MyFunction(a, b);
+
+//bad
+MyFunction( a , b );
+^
+
+* single spaces surround operators (except unary operators like increment or logical not)
+^code(line=0):
+//good
+a = b;                       
+for (int i = 0; i < 10; ++i) 
+
+//bad
+a=b;                             
+for (int i=0; i<10; ++i)
+^
+
+!Other Coding Guidlines
+Note that certain incompatibilities to the similar guides listed below (which differ among themselves aswell) are deliberate.
+
+[http://www.mono-project.com/Coding_Guidelines|Mono Coding Guidlines]
+
+[http://msdn.microsoft.com/en-us/library/ms229042.aspx|.Net Design Guidlines]
+
+[http://www.icsharpcode.net/TechNotes/SharpDevelopCodingStyle03.pdf|Sharp Develop Coding Guidlines]
+
+

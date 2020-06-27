@@ -1,0 +1,14 @@
+- name: About Addons
+  href: About Addons.md
+- name: About the Addonpack
+  href: About the Addonpack.md
+- name: HowTo Release a Pack
+  href: HowTo Release a Pack.md
+- name: Conventions CodingStyle
+  href: Conventions CodingStyle.md  
+- name: Conventions Node and Pin Naming
+  href: Conventions Node and Pin Naming.md
+- name: Conventions HelpPatch
+  href: Conventions HelpPatch.md
+- name: Conventions Node Reference
+  href: Conventions Node Reference.md

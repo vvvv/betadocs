@@ -1,0 +1,110 @@
+!!Extending FreeFrame
+^note:
+__Disclaimer:__ The following extensions to the freeframe specification are not official. Based on the [http://freeframe.sourceforge.net/spec.html|official freeframe system specification] they are a proposal how we could use spreaded inputs and outputs (i.e. lists of inputs and outputs). Naming is not so cool yet...
+^
+
+Even though they are only proposals they are used with some of the ((video-analysistracking|video tracking freeframe plugins)) that ship with vvvv.
+
+!ad 3. Enumerated and derived types
+__NumOutputs__ (32-bit unsigned integer)
+Definition:
+Specifies the number of outputs that the plugin implements.
+
+---
+
+__ParameterType__ (32-bit unsigned integer)
+adding the following types:
+
+||
+Value|Type|Description
+-
+20|valuespread|A spread/list/array of floats
+-
+21|colorspread|A spread/list/array of colors
+-
+22|stringspread|A spread/list/array of strings||
+
+!ad 4. Structures
+__SetInputStruct__ (size = 16 bytes)
+ SetInputStruct {
+   DWORD Index;
+   DWORD SliceCount;
+   double* Spread;
+ }
+Fields:
+* Index: Index of the parameter to set.
+* SliceCount: Number of elements in the spread.
+* Spread: Pointer to the first slice (element) in the spread.
+
+---
+
+__GetOutputStruct__ (size = 8 bytes)
+ GetOutputStruct {
+   DWORD SliceCount;
+   float* Spread;
+ }
+Fields:
+* SliceCount: Number of elements in the spread.
+* Spread: Pointer to the first slice (element) in the spread.
+
+!ad 5. Functions
+__Function Code Table__
+Global functions:
+adding the following functions
+||
+Code|Function|Input value type|Output value type
+-
+20|getNumOutputs|none|NumOutputs
+-
+21|getOutputName|OutputNumber|Pointer to ParameterName
+-
+22|getOutputType|OutputNumber|ParameterType||
+
+Instance specific functions:
+adding the following functions
+
+||Code|Function|Input value type|Output value type
+-
+19|setThreadLock|boolean|Success/error code
+-
+23|getOutputSliceCount|none|Integer
+-
+24|getOutput|OutputNumber|Pointer to float of first slice/element in spread
+-
+30|setInput|Pointer to InputStruct|Success/error code||
+
+
+!ad 5.1. Global functions
+__getNumOutputs__ (function code = 20)
+*Input value: none
+*Return value: NumOutputs indicating the number of outputs in plugin or FF_FAIL on error.
+
+__getOutputName__ (function code = 21)
+*Input value: index: OutputNumber
+*Return value: 32-bit pointer to ParameterName (16 byte char array) containing the name of parameter specified by index. Returns FF_FAIL on error.
+
+__getParameterType__ (function code = 22)
+*Input value: index: OutputNumber
+*Return value: ParameterType value which tells the host what kind of data the parameter index is. Returns FF_FAIL on error.
+
+
+!ad 5.2. Instance specific functions
+__setThreadLock__ (function code = 19, needs valid instanceID!)
+*Input value: doSet: boolean 
+*Return value: Success/error code
+
+^note:
+This is useful for applications that use the DSFreeFrameWrapper that have the video running in a different thread than the video processing. you can set the threadlock before starting to set all parameters and remove it when finished. use the same threadlock in processFrameCopy before manipulating the image!
+^
+
+__getOutputSliceCount__ (function code = 23, needs valid instanceID!)
+*Input value: index: OutputNumber
+*Return value: Integer specifying the number of slices/elements in the spread
+
+__getOutput__ (function code = 24, needs valid instanceID!)
+*Input value: index: OutputNumber
+*Return value: Pointer to float of first slice/element in spread
+
+__setInput__ (function code = 30, needs valid instanceID!)
+*Input value: index: Pointer to InputStruct
+*Return value: Success/error code

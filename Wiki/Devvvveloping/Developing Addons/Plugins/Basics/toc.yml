@@ -1,0 +1,4 @@
+- name: Dynamic Plugins
+  href: Dynamic Plugins/toc.yml
+- name: Dynamic Plugins Tutorials
+  href: Dynamic Plugins Tutorials.md

@@ -1,0 +1,19 @@
+Developers looking to extend vvvv with their own nodes start here:
+*((Addons)) stuff common to all addon development
+* ((Dynamic VL Plugin Reference)): quick VL coding reference
+* ((Dynamic Plugins Reference|Dynamic C# Plugins Reference)): quick C# coding reference
+*((vvvv sdk)) provides convenient access to alpha builds and allows for contributions to the addonpack 
+
+* ((How to release a pack))
+* ((Test Framework))
+
+!!!Information on developing specific types of addons
+*((Modules))
+*((Effects))
+*((Freeframes))
+*((DirectShow Filter))
+*((Plugins))
+
+!!!vvvv supports diplomates
+*((Diplomas))
+

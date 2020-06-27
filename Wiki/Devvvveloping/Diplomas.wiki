@@ -1,0 +1,18 @@
+If you're interested in realizing a specific project for vvvv as your bachelor or diploma thesis or as an internship at vvvv please contact us via: groupӘvvvv.org. If your idea fits with our future plans we'll be able to provide some funding...try us!
+
+The following diploma thesis were realized in cooperation with the vvvv group over the last years:
+
+!2009
+Matthias Zauner: ((Diploma.CharacterAnimation|Character Animation in vvvv))
+Nils Buhlert: ((WebBasedConfigurationInterface|Webbased configuration Interface for vvvv))
+
+!2008
+Jens Röhner: ((node:BeatTracker (DShow9))) [http://people.f4.htw-berlin.de/people/tj/da/roehner.htm|Entwicklung einer Komponente zur Ermittlung regelmässiger Betonungsmuster in einem Audiostream]
+
+!2007
+Ingolf Heinsch: ((Diploma.Timeline))
+
+!2005
+David Brüll, Björn Schwarzer: ((diplom-graphical-web-server-programming|Graphical Web Server Programming with vvvv))
+Thomas Hitthaler: ((ampop - Diploma|High-Resolution Export with vvvv))
+

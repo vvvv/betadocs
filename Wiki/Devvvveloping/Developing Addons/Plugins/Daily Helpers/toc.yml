@@ -1,0 +1,16 @@
+- name: Addonpack Plugins
+  href: Addonpack Plugins.md
+- name: Code Snippets
+  href: Code Snippets.md
+- name: CodeEditor Shortcuts
+  href: CodeEditor Shortcuts.md
+- name: Debugging Plugins
+  href: Debugging Plugins.md
+- name: Learn CSharp
+  href: Learn CSharp.md
+- name: Namespaces
+  href: Namespaces.md
+- name: Pin Attributes
+  href: Pin Attributes.md
+- name: PluginInfo Attributes
+  href: PluginInfo Attributes.md

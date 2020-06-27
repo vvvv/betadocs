@@ -1,0 +1,11 @@
+vvvv itself is not open source, but it offers different open interfaces for people to write their own nodes:
+
+;((Plugins)):most general interface for writing multipurpose nodes 
+;((Freeframes)):video effects/analysis nodes
+;((Effects)):vertex- and pixelshader
+;((Modules)):reusable vvvv-patches
+;((VST)):audio effects/analysis nodes
+
+Many users share their work mostly under the [http://www.gnu.org/licenses/lgpl.html|LGPL] opensource license. Those nodes, not being part of the main executable are called ''addons'' and their sources are being hosted on [https://github.com/vvvv/vvvv-sdk|github]
+
+All contributed addons are available via a separately downloadable ((About the Addonpack|addonpack)) in order to allow independent release cycles of the main vvvv application and user submitted content. 

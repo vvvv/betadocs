@@ -1,0 +1,36 @@
+!The Basics
+* ((Dynamic VL Plugin Reference)): quick VL coding reference
+* ((Dynamic Plugins Reference|Dynamic C# Plugins Reference)): quick C# coding reference
+* ((Dynamic Plugins)): details on how to code plugins with C# using vvvvs built in CodeEditor
+* ((Dynamic Plugin Tutorials)): Things you can try out to get into C# programming
+
+!Daily Helpers
+* ((conventions.CodingStyle|Conventions.CondingStyle)): for better readability and standardization of VVVV related code
+* ((PluginInfo Attributes)): specify name, tags, author, autoevaluate, ... of plugins
+* ((Pin Attributes)): specify subtypes, visibility, spreading behaviour, ... of pins
+* Complete ((/pluginspecs|vvvv Plugin Specification))
+
+* ((Learn C#)): links to sources for learning the c# language
+* ((Namespaces)): an overview of available namespaces (libraries, classes)
+
+* ((AddonPack.Plugins)): how to prepare plugins for the addonpack
+* ((CodeEditor Shortcuts))
+* ((Debug vvvv Plugins using Visual Studio 2005))
+* ((Code Snippets))
+
+!Advanced Topics
+* ((blog:NuGet-development-packages|NuGet development packages))
+* ((Generic Nodes)): basic nodes which every developer can easily add for his own data type
+* ((blog:Creating-and-deleting-pins-at-runtime|Creating and deleting pins at runtime))
+* ((blog:ISpread-vs-IStream|ISpread vs IStream))
+* ((blog:plugins-targeting-.net-4.5|Targeting .net4.5))
+* ((blog:keyboard-mouse-and-touch-news|Keyboard, Mouse and Touch news))
+* ((blog:update-to-mouse-keyboard-nodes|Update to Mouse & Keyboard nodes))
+* ((blog:keyboardstate-mousestate|Keyboardstate, Mousestate))
+* ((blog:ISynchronizable-and-IFlushable|ISynchronizable and IFlushable))
+* ((blog:IDXDeviceservice-and-IMainloop|IDXDeviceservice and IMainloop))
+* ((blog:patch-conversions-pack-versioning|Pack versioning and diffffing))
+* ((blog:go-back-in-time-now|Adjust Time))
+* ((blog:mixed-data-over-that-same-ol-pin|Access different data types on one input))
+
+
