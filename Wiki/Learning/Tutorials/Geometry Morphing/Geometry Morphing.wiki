@@ -1,0 +1,18 @@
+TOC: ((Tutorial - Of Effects and Shaders|Of Effects and Shaders))
+Back: ((Tutorial Effects - Vertex Data|Normals))
+---
+be it image or geometry. morphing is cool. since morphing/blending geometry is actually quite simple to achieve with vvvv if you understand the basics here comes a little tutorial.
+
+there are basically 2 approaches. 
+* the slower ((Tutorial Geometry Morphing CPU|cpu based)) way (good enough for simple things)
+* the cooler gpu based way (cool for many other things)
+** varianta 1: using ((Tutorial Geometry Morphing GPU1|basic vertex shading))
+** varianta 2: using ((Tutorial Geometry Morphing GPU2|advanced vertex shading))
+
+for a basic understanding best start with the ((Tutorial Geometry Morphing CPU|cpu based)) approach!
+
+
+__don't be fooled by the boring screenshots! load your own meshes with ((node:XFile (EX9.Geometry Load) )) to have more fun during the tutorials!!__
+
+
+

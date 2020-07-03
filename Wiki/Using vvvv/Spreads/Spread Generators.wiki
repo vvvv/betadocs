@@ -1,0 +1,26 @@
+(()){SPLIT()}
+
+There are a couple of nodes that create a spread for a specific data-type, given a SpreadCount and some parameters that describe the desired form of the spread. Here is a listing of the most popular:
+~~~
+{SPLIT}
+
+{SPLIT()}
+!!!Values
+((node:LinearSpread (Spreads)))
+((node:CircularSpread (Spreads)))
+((node:RandomSpread (Spreads)))
+((node:GaussianSpread (Spreads)))
+((node:I (Spreads)))
+((node:TypoSpread (Spreads)))
+((node:BarSpread (Spreads)))
+((node:PeakSpread (Spreads)))
+~~~
+!!!Strings
+((node:Dir (File)))
+((node:SubDir (File)))
+((node:Separate (String)))
+((node:RegExpr (String)))
+((node:Split (String)))
+{SPLIT}
+
+{INCLUDE:spreadstoc}

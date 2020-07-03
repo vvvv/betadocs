@@ -1,0 +1,15 @@
+{SPLIT()}
+
+The following 4 nodes interpret incoming spreads as sets in the sense of [http://en.wikipedia.org/wiki/Set_theory|Set Theory].
+~~~
+{SPLIT}
+
+{SPLIT()}
+{img src="MinusSet4.png"}
+{img src="UnifySet3.png"}
+~~~
+{img src="IntersectSet4.png"}
+{img src="EqSet4.png"}
+{SPLIT}
+
+{INCLUDE:spreadstoc}

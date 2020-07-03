@@ -1,0 +1,303 @@
+{INCLUDE:patchingtoc}
+
+!Introduction
+Programming with vvvv is commonly referred to as __''patching''__. 
+The editors canvas is called the __''Patch''__. 
+The building blocks that make your programs are called __''Nodes''__. 
+Nodes have input and output parameters called __''Pins''__ which are connected by __''Links''__. 
+
+The following reference goes into details about those 4 main components.
+
+!Patch
+{SPLIT()}
+~~~
+!!!Opening a patch
+To open a patch middle-click in the Patch Editor to open the Main Menu and choose: 
+* Open (CTRL+O)
+* Open in Patch (CTRL+SHIFT+O)
+
+!!!Saving a patch
+To save a patch middle-click in the Patch Editor to open the Main Menu and choose: 
+* Save (CTRL+S)
+* Save As... (CTRL+SHIFT+S)
+Everytime you save a patch its previous version is backed up under the same filename but ending in ~.xml. So if ever you need to go back to that previous version just rename it to .v4p and you can open it again. 
+{SPLIT}
+
+{SPLIT()}
+{img src = "patchingBasics_mouse4.png" } 
+~~~
+!!!Using the mouse
+When patching always remember:
+
+* __Changing the position__ of a node or a window is done intuitively using a __left button drag__
+* If you want to __change any values__ of a pin (or in an IOBox) you will do it with a __right button drag__
+* You can always emulate a __middle mouseclick__ with a __SPACE + rightlick__ in case you don't have a middle mousebutton
+{SPLIT}
+
+{SPLIT()}
+~~~
+!!!Hiding vs. Closing a patch
+* If you __Close__ a patch (CTRL+W), the patch will be __removed from the system__. The node containing this patch is deleted.
+
+* If you __Hide__ a patch (ALT+3), the patch will still be __part of the system__ and __continue working__. Only it is no longer visible. 
+
+See also: ((the-gui#window-modes|Window Modes)).
+{SPLIT}
+
+{SPLIT()}
+{img src = "BasicPatching_Locking2.png" } 
+~~~
+!!!Locking a patch
+
+To lock a patch press CTRL+E. A locked shows a '#' symbol in its topleft corner. 
+
+In a locked patch:
+* all nodes still work 
+* it is still possible to change values of the visible IOBoxes
+* nodes can no longer be moved
+* ((patching-basics#hiding nodes|hidden nodes)) and links are invisible
+
+To unlock, use CTRL+E again.
+{SPLIT}
+
+{SPLIT()}
+~~~
+!!!Scrolling
+You can scroll in a patch by __right clicking on an empty space__ and start __dragging__. 
+
+Alternatively or while making a ((patching-basics#link|link)) you can:
+* use the mousewheel to scroll vertically
+* press ALT while using the wheel to scroll horizontally
+* press CTRL in addition to speed up scrolling
+{SPLIT}
+
+{SPLIT()}
+{img src = "BasicPatching_Comments2.png" } 
+~~~
+!!!Comments
+Double click with the left button to bring up the ((the-gui#node-browser|Node Browser)). Then enter the text you want to have as a comment in the patch. Make sure the text is not matching any node before pressing ENTER to create a comment. 
+
+A comment is essentially an ((node:IOBox (String))) with its input and output pins hidden. So you can always just doubleclick to change it. 
+{SPLIT}
+
+{SPLIT()}
+~~~
+!!!Making a Module
+If you want to make a patch into a reusable module, see:
+* ((subpatches#modules|Modules))
+* ((subpatches|Detailed info about SubPatches))
+{SPLIT}
+
+!Node
+{SPLIT()}
+{img src = "BasicPatching_NodeCategory3.png" } 
+~~~
+
+Nodes are the building blocks of your patches and each represents a specific functionality. A nodes identifier is structured in the form:
+ Name (Category Version)
+The combination of name, category and version is unique for each node in vvvv. Versions are optional an can be any number of space-separated strings.
+
+While in a patch you always only see the nodes name. Hover a node to see its full identifier in the tooltip.
+{SPLIT}
+
+{SPLIT()}
+{img src = "BasicPatching_NodeIcons5.png" } 
+~~~
+
+!!!Icons
+Nodes can have different icons:
+* has vvvv nodes
+* has VL nodes
+* has code (hlsl or c# code editor)
+* has a renderer/window
+
+__Every node with an icon__ can be rightclicked to show its editor or window. Nodes without an icon are built-in native nodes and can not be manipulated.
+
+To get an overview of all the pins of a node, select it and press CTRL+I to open the ((the-gui#herr-inspektor|Inspektor)).
+
+To find out more about a nodes functionality, select it and press F1 to open its ((glossary:helppatch)).
+{SPLIT}
+
+{SPLIT()}
+{img src = "BasicPatching_NodeBrowser.png" } 
+
+~~~
+!!!Adding nodes to a patch
+You can browse a list of available nodes by __double-clicking anywhere in a patch__ to pop up the ((the-gui#node-browser|Node Browser)). 
+
+There you can start typing tags (separated by space) to search for a node with specific functionality or you can get to a category-sorted view by rightclicking in its text-area. 
+
+When you found a node you want to use in your patch press enter or select it with a left click and see it inserted in the patch.
+
+!!!Deleting nodes
+Select a node and press the Delete or BackSpace keys to remove it from the patch. 
+
+!!!Moving a selection of nodes
+Press the cursor keys to move them by 1px.
+Press SHIFT and the cursor keys to move them by 10px.
+{SPLIT}
+
+{SPLIT()}
+{img src = "BasicPatching_GroupingNodes3.png" } 
+~~~
+!!!Grouping nodes
+Select a group of nodes and press CTRL+G to replace them with a ((subpatches|subpatch)) of the same functionality and keeping their connections to other nodes. 
+
+Note that the created subpatch still needs to be saved. Therefore it is good practice to rightclick the new node immediately and press CTRL+SHIFT+S to save it under a specific name. 
+{SPLIT}
+
+{SPLIT()}
+~~~
+!!!Hiding nodes
+Press CTRL+H to mark a selection of nodes/links as hidden.
+
+Hidden nodes/links are not visible or accessible anymore when a patch is ((patching-basics#Locking-a-patch|locked)). In an unlocked patch they will stand out with a lighter shade of grey.
+{SPLIT}
+
+{SPLIT()}
+{img src = "BasicPatching_ColorOfTheNodes4.png" } 
+
+~~~
+!!!Colors of nodes
+*__Red__: the node has a problem, see ((debugging#red-nodes|Red Nodes))
+*__Pink__: same as red, only the node is also marked as hidden
+*__Blue__: the node is ((boygrouping|boygrouped))
+*__Light blue__: same as blue, only the node is also marked as hidden
+*__Light blue & Grey border__: the ((subpatches|subpatch)) contains some Boygrouped nodes
+
+!!!More
+* Align a selction of nodes by pressing CTRL+L
+* Reset all of a nodes inputs to their defaults: ALT+Rightclick on the node
+{SPLIT}
+
+!Pin
+{SPLIT()}
+{img src = "BasicPatching_PinTypes3.png" } 
+~~~
+
+On its top and bottom a node can have any number of inputs and outputs, called pins. 
+
+* __Inputs__ are where you specify the parameters feeding the functionality of the node
+* __Outputs__ are the results of the nodes function. 
+* __Configuration pins__ are only visible via the ((the-gui#herr-inspektor|Inspektor)) and are used to define parameters of a node that are not supposed to change at runtime. 
+{SPLIT}
+
+{SPLIT()}
+~~~
+!!!Data Types
+Every pin in vvvv is of a specific type of data. 
+The most common of those types are:
+
+__Primitive__
+* Value (numeric values: boolean, integer or double)
+* String (text)
+* Color
+* Enumeration (ordered listing of items)
+__Non-Primitive__
+* Node (collective name for all other datatypes, like: Texture, Transformation, Mesh,...)
+
+You can introduce your own custom data-types using ((plugins)).
+{SPLIT}
+
+{SPLIT()}
+{img src = "BasicPatching_Subtype.png" } 
+~~~
+!!!Subtypes
+All primitive datatypes can have subtypes which more precisely specify a value-range a pin is looking for. Examples
+* a number subtype specifies: whole number (integer) in the range of 1 to 10
+* a text subtype specifies: a filename
+
+Subtypes are only used for the user interface to offer more suitable means for entering the desired data to a pin but they do not influence the calculation a node is doing. 
+{SPLIT}
+
+{SPLIT()}
+{img src = "BasicPatching_ChangingPinsValue.png" } 
+~~~
+!!!Inspecting a pin's value
+Move the mouse over any pin to see a tool tip showing its name and current value.
+
+!!!Changing a pin's value
+Values of inputs that have one of the primitive data types can be changed directly on the pin. Changing the value of a pin is like editing an IOBox:
+
+*__Value pins__: Right-drag on the pin vertically to change its value. See ((ioboxes#value|Value IBOxes)).
+
+*__Color pins__: Right-drag on the pin to change its color. See ((ioboxes#color|Color IOBoxes)).
+
+*__String pins__: Right click the pin to invoke the operation according to its subtype. See ((ioboxes#string|String IOBoxes)).
+
+*__Enumeration pins__: Right click to invoke the pull-down menu with all possible values. See ((ioboxes#enumeration|Enumeration IOBoxes)).
+
+!!!Resetting a pin's value
+* Alt+Rightclick an unconnected pin to reset it to its default.
+* Alt+Rightclick a node to reset all of its unconnected pins to their defaults.
+{SPLIT}
+
+!Link
+{SPLIT()}
+{img src = "BasicPatching_Links1.png" } 
+
+
+~~~
+!!!Connecting pins
+Two pins that have the same data type can be connected by a link. 
+
+# Do a left click on one of the pins you want to connect (input or output) 
+# You will see a link following the mouse cursor. All pins you can now connect to will grow to larger gray squares (Note: Hidden pins will not show up but can be connected as well). 
+# Do a left-click on the second pin. Your connection is made.
+
+* To cancel a link while making it, simply do a right click.
+{SPLIT}
+
+{SPLIT()}
+~~~
+__Every input pin can only take one link!__ 
+Therefore, when you try to add another link to an input that already has a link, the existing link will be replaced by the new link. 
+
+__Outputs can have any number of links going from them.__ Except for the rare '' Video'', ''Audio'' and ''Midi'' outputs of nodes in the ''DShow9'' category that also can only handle one link!
+
+To create multiple links from the same output pin, start with a right click on it and then simply left-click on all input pins you want to connect to.
+
+While making a link you can middle click somewhere to create an IOBox that will contain the data that's in the pin you're coming from. Middle click that IOBox once again to automagically give it the name of a this pin. See also: ((IOBoxes#descriptive-name|Descriptive Name)).
+{SPLIT}
+
+{SPLIT()}
+{img src = "BasicPatching_Links_Feedback.png" } 
+ 
+~~~
+!!!Feedback Loops
+__Creating a loop is not a valid connection!__
+If you really need to do so, you better understand what you're doing. 
+
+For details, see ((Creating Feedback Loops)). 
+{SPLIT}
+
+{SPLIT()}
+{img src = "BasicPatching_Links_Segmented.png" } 
+~~~
+!!!Segmented links
+While making a link, just do occasional left clicks. For each click, an anchor point is added. If you later want to edit the shape of a link, select it and drag the little blue squares. To remove anchor points, align them in a straight line.
+{SPLIT}
+
+{SPLIT()}
+{img src = "BasicPatching_Links_Styles2.png" } 
+~~~
+!!!Link styles
+There are 3 different styles for links: 
+* Straight
+* Bezier
+* Vertical-Horizontal-Vertical
+Press CTRL+Y on a selected link to cycle through the styles. 
+{SPLIT}
+
+{SPLIT()}
+{img src = "BasicPatching_RemovingLinksAndKeepingValues.png" } 
+~~~
+
+!!!Removing Links
+To remove an existing link, first select it (left-click) and then do a right-click on it. (or pressing the BackSpace or Delete key).
+
+Note that when removing a link, pins with a primitive datatype behave different from Node pins:
+
+* Primitive data types: __keep their value__ when they get disconnected
+* Node pins: __don't keep their value__ when they get disconnected. Instead they return to their default
+{SPLIT}

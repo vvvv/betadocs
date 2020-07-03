@@ -1,0 +1,105 @@
+!Problems
+
+
+{SPLIT()}
+
+__vvvv takes ages to open__
+~~~
+As ((user:antokhio)) reported in [https://discourse.vvvv.org/t/dx11-pack-stops-beta5-from-starting-up/14718/10|this thread] there seems to be an issue with Windows Defender causing those delays on some PCs. Go to ''Windows Defender > Settings > Exceptions'' and add your vvvv directory as an exception. 
+{SPLIT}
+
+{SPLIT()}
+
+__A virus scanner says that vvvv is a virus. Is that so?__
+~~~
+
+Almost certainly not! Most likely your scanner complains about WinLockDLL.dll which is used by ((node:Styx (Windows))). 
+{SPLIT}
+
+{SPLIT()}
+
+__Error Message: "The application failed to initialize because d3dx9_30.dll is missing. Reinstalling the software might solve the problem"__
+~~~
+
+Sorry for that ugly error-message. 
+Please run setup.exe where you should be notified of a missing DirectX9 installation. Best download and run the WebInstaller which should solve the problem. 
+^note:
+Even if you have DirectX 10/11 (on Vista/Windows7) you'll have to install DirectX9.^
+{SPLIT}
+
+{SPLIT()}
+
+__vvvv shows up in the task bar, there may be a DirectX Renderer, but there is no patch window__
+~~~
+
+* Have you run setup.exe at least once as Administrator? Even if you are admin try to rightclick setup.exe and "Run as Administrator".
+
+* Are you using Windows 7 and running VVVV out of the c:\Program Files folder? There might be a user rights issue with registering Plugins (at least in Beta 24.1) - try putting your VVVV folder at an ''unprotected ''location like your desktop and try running as administrator again.
+{SPLIT}
+
+{SPLIT()}
+
+__The Renderer's Window is gray__
+~~~
+
+This is almost certainly a graphic driver problem. Make sure you have its latest version installed or even cosider a graphic card upgrade if the problem persists.
+{SPLIT}
+
+{SPLIT()}
+
+__Cannot start VVVV: OMP abort__
+~~~
+
+Read ((/tiki-view_forum_thread.php?forumId=4&comments_parentId=23077#threadId28724|this thread)).
+{SPLIT}
+
+{SPLIT()}
+
+__My patch has some bugs and/or Red Nodes__
+~~~
+
+Read ((Debugging)).
+{SPLIT}
+
+{SPLIT()}
+
+__I have dropped frames when writing to external USB drive__
+~~~
+
+Try disabling "USB selective Suspend " in advanced power settings in Control Panel -> Power Options -> Change plan settings -> Change advanced power settings -> USB settings
+{SPLIT}
+
+!Helpful Methods
+
+{SPLIT()}
+
+__/logstartup__
+~~~
+
+Start vvvv with the ((Commandline Parameters|Commandline Argument)) __/logstartup__.
+
+Use this if you have troubles starting vvvv. With this flag vvvv logs all steps it does on startup into a .txt file, placed next to vvvv.exe. You can then post that textfile to the forum and we'll see what we can do.
+{SPLIT}
+
+{SPLIT()}
+
+__Renderer (TTY)__
+~~~
+
+Always use a ((node:Renderer (TTY))). This is also vvvvs error console so it may provide some information you could post in the forums.
+{SPLIT}
+
+{SPLIT()}
+
+__Config.exe__
+{img src = "vvvv_Config.png" thumb=200} 
+
+~~~
+
+Use __Config.exe__ for:
+- checking whether all dependencies are properly installed (all boxes are green)
+- setting FileType Associations (.v4p, .vl) and some other parameters.
+
+Running config.exe will ask you for administrative rights which you'll have to accept. If it doesn't ask you, you'll have to run config.exe as administrator manually by rightclicking on it and selecting "Run as..."
+
+{SPLIT}

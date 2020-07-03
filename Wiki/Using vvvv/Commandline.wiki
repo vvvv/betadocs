@@ -1,0 +1,191 @@
+!For vvvv.exe
+{SPLIT()}
+
+!!!!/o "path to patch"
+!!!!/r "path to patch"
+~~~
+
+__/o__ opens the patch given by path. This argument followed by a path can be specified any number of times.
+
+__/r__ opens the patch given by path as ((root)) patch. This argument can only be specified once, since there can only be one root-patch.
+
+__Note__ 
+The path can be relative to vvvv.exe or absolute. 
+If there is a space in the path you have to use quotes: /o "my project/patch.v4p"
+{SPLIT}
+
+{SPLIT()}
+
+!!!!/allowmultiple
+~~~
+
+Allows multiple instances of vvvv to run.
+{SPLIT}
+
+{SPLIT()}
+
+!!!!/dontregister 
+~~~
+
+Prohibits registration of addflow, directshowfilter and .v4p filetype.
+{SPLIT}
+
+{SPLIT()}
+
+!!!!/shutup
+~~~
+
+Finishes your project in a clean way: starts vvvv without patch windows. Only renderers are displayed. Only the ALT-F4 shortcut works.
+{SPLIT}
+
+{SPLIT()}
+
+!!!!/client ServerIP:PortNr
+~~~
+
+Start vvvv as boygroup client connecting to the pc specified via [[ServerIP]. Specifying a port is optional. The default (if omitted) is 3333. Note that if you specify a different port here you need to specify the same port via ((node:Boygroup (VVVV Server))) ((pin:Network Port)). Also see ((glossary:Boygrouping)) and ((MultiBoygrouping)).
+{SPLIT}
+
+{SPLIT()}
+
+!!!!/server
+~~~
+
+Start vvvv as boygroup server. Also see ((glossary:Boygrouping)) and ((MultiBoygrouping)).
+{SPLIT}
+
+{SPLIT()}
+
+!!!!/clockport PortNr
+~~~
+
+Changes the default port 3334 of the boygroup time synchronization system to the specified port. This can be used to avoid port conflicts with multiple vvvv instance on the same machine.
+{SPLIT}
+
+{SPLIT()}
+
+!!!!/dda DeviceID 
+~~~
+
+Short for "dummy device adapter". Only needed if you're having troubles with a renderer that is supposed to go fullscreen on a monitor other than the primary immediately after starting up a patch. 
+Specify as DeviceID the device ID of the monitor a renderer is supposed to go fullscreen on. The device ID can be found by using the graphic-drivers "Identify" option where it prints large numbers on all connected monitors for identifying their order. Take this number minus 1 (i.e. the primary monitor is 0, which you'd never have to specify since this is the default anyway.)
+{SPLIT}
+
+{SPLIT()}
+
+!!!!/dx9
+~~~
+
+Since beta32 vvvv defaults to [http://msdn.microsoft.com/en-us/library/windows/desktop/ee890072%28v=vs.85%29.aspx|Direct3D 9Ex] mode. use this flag to run the legacy dx9 mode, see ((blog:cross-process-texture-sharing-depth-rendering))
+{SPLIT}
+
+{SPLIT()}
+
+!!!!/debug
+~~~
+
+Starts vvvv in ((Debug Mode)).
+{SPLIT}
+
+{SPLIT()}
+
+!!!!/logstartup
+~~~
+
+Use this if you have troubles starting vvvv. With this flag vvvv logs all steps it does on startup into a .txt file, placed next to vvvv.exe. You can then post that textfile to the forums bug-section and hope that we can help you identify your problem.
+{SPLIT}
+
+{SPLIT()}
+
+!!!!/nodelist "path"
+~~~
+
+Generates a path/nodelist.xml file for all nodes found beneath the specified path.
+{SPLIT}
+
+{SPLIT()}
+
+!!!!/showexceptions true OR false
+~~~
+
+Enables or disables the exception dialog. By default the exception dialog is disabled in beta releases and enabled in alpha releases.
+{SPLIT}
+
+{SPLIT()}
+
+!!!!/artnetsendport PortNr
+!!!!/artnetreceiveport PortNr
+~~~
+
+To specify a different than the default port (6454) for ((node:DMX (Network Artnet Sender))) and ((node:DMX (Network Artnet Receiver))).
+{SPLIT}
+
+!For setup.exe
+
+{SPLIT()}
+
+!!!!/unregister
+~~~
+
+Same as pressing the "Uninstall" button.
+{SPLIT}
+
+{SPLIT()}
+
+!!!!/silent
+~~~
+
+Just do it, don't show the window.
+{SPLIT}
+
+{SPLIT()}
+
+!!!!/log
+~~~
+
+Use this if you have troubles starting setup. With this flag vvvv logs all steps it does on startup into a .log file, placed next to setup.exe. You can then post that textfile to the forums bug-section and hope that we can help you identify your problem.
+{SPLIT}
+
+!Using your own Commandline Parameters
+{SPLIT()}
+~~~
+
+Note that you can also specify your very own commandline parameters and read their values from within a patch via the node ((node:Args (VVVV) )). See its help-patch for further information.
+{SPLIT}
+
+!Automation
+
+{SPLIT()}
+
+!!!!args.txt
+~~~
+
+In vvvvs main program directory, just next to vvvv.exe you can create a file called args.txt. If present this file is parsed and its content is concatenated to the parameters specified via commandline. This is a simple way to specify commandline parameters. A # on the beginning of a line in that file denotes a comment. Comments are not being interpreted by vvvv. 
+{SPLIT}
+
+{SPLIT()}
+
+!!!!Registry
+~~~
+
+For what ever reason, you may want to add additional startup options for .v4p-files on rightclicking them in explorer. Open (/o) and Open As Root (/r) are allready there. Search the registry for 
+ HKEY_CLASSES_ROOT\VVVV\Shell
+and see what you can do. 
+{SPLIT}
+
+{SPLIT()}
+
+!!!!Batch Files
+~~~
+
+It may be handy to use different [http://en.wikipedia.org/wiki/.bat|.bat files] for calling vvvv.exe with different parameters. 
+{SPLIT}
+
+{SPLIT()}
+
+!!!!Shortcuts
+~~~
+
+Make a shortcut to vvvv.exe and rightclick it to edit its properties. There in the ''Target'' field you can simply add commandline parameters.  
+{SPLIT}
+

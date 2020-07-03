@@ -1,0 +1,25 @@
+{SPLIT()}
+
+There are a couple of nodes that apply an operation between the slices of a spread. 
+They are also referred to as "spectral operations". Below is a listing of the most popular.
+~~~
+
+More such operations are available and can be found by querying the ((the-gui#node-browser|NodeBrowser)) for the term "spectral".
+{SPLIT}
+
+{SPLIT()}
+{img src="PlusProductAndOrSpectral5.png"}
+{img src="Bounds4.png"}
+~~~
+{img src="Mean4.png"}
+{SPLIT}
+
+!How spectral nodes work with Bin and Vector Size
+
+{SPLIT()}
+{img src="SpectralBinSize2.png"}
+~~~
+{img src="SpectralVectorSize2.png"}
+{SPLIT}
+
+{INCLUDE:spreadstoc}

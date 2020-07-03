@@ -1,0 +1,154 @@
+{INCLUDE:patchingtoc}
+
+---
+{SPLIT()}
+
+You are familiar with textual programming and are missing some of the basic concepts of your mother tongue in vvvv?
+
+Here is collection of common programming concepts and some hints to where you can find them in vvvv.
+
+If you're not a coder, check ((Patching Concepts)).
+~~~
+
+^note:
+If you're missing a specific concept you can always implement a little plugin using the built-in VL or c# editors.
+
+*((dynamic-vl-plugin-reference|Dynamic VL Plugin Reference))
+*((dynamic-plugins-reference|Dynamic C# Plugin Reference))
+^
+{SPLIT}
+
+!Classes, Custom Datatypes, Functions
+{SPLIT()}
+{img src = "patching-subpatches.png" } 
+
+~~~
+
+There is no concept of classes in vvvv. For basic structuring of your programs have a look at ((Subpatches)).
+
+Subpatches can be understood as functions that take Inputs and return Outputs.
+
+There've been attempts to add further ways of structuring data into vvvv, see:
+* ((/contribution/message-2.0|Message)) by ((user:velcrome))
+* ((/contribution/vobjects|VObjects)) by ((user:microdee))
+* [https://github.com/woeishi/VVVV.Struct|VVVV.Struct] by ((user:woei)) & ((user:tonfilm))
+{SPLIT}
+
+!Conditions
+{SPLIT()}
+{img src = "Conditions-SwitchSimple.png" } 
+
+~~~
+
+Looking for an ''if'', ''switch'', ...?
+
+See ((conditions|Conditions)).
+{SPLIT}
+
+!Loops
+{SPLIT()}
+
+{img src = "patching-spectral2.png" }
+~~~
+
+Where in textual programming you’d use a __for, while__ or __repeat__ construct to execute some lines of code multiple times before going on executing the rest of the program, this is not possible with vvvv. 
+
+Basically vvvv avoids the concept of such sequential loops. Instead it often allows you to calculate all desired iterations at the same time using __spectral operations__.
+
+See ((spread-sinks|Spread Sinks)).
+{SPLIT}
+
+!Variables
+{SPLIT()}
+{img src = "patching-send-receive2.png" }
+~~~
+
+!!!!Global Variables
+Values can be sent from one part of a patch to another (or between patches) using the S (=send) and R (=receive) nodes without making any direct links.
+
+The most common use case for S/R nodes is to deliver global constants to different parts of a project. 
+
+See ((send-receive|Send / Receive)).
+{SPLIT}
+
+
+{SPLIT()}
+{img src = "patching-var-loop4.png" } 
+~~~
+
+!!!!Local Variables
+In order to save the result of a computation in one frame to use it for further calculation in the next you have to use a node called ''FrameDelay''. Essentially by setting its input you write a local variable which you can read from in the next frame by connecting to its output.
+
+FrameDelay nodes are therefore creating feedback-loops in a patch.
+
+See ((creating-feedback-loops|Creating Feedback Loops)).
+{SPLIT}
+
+
+{SPLIT()}
+{img src = "patching-constants.png" } 
+~~~
+
+!!!!Constants
+IOBoxes can be used as constants, which are feeding manually adjusted Values (Colors, Strings...) for Inputs of the nodes and subpatches.
+
+See ((ioboxes|IOBoxes)).
+{SPLIT}
+
+
+{SPLIT()}
+
+{img src = "patching-parameters.png"}
+~~~
+
+!!!!Input/Output Parameters
+Named IOBoxes are used to create Inputs and Outputs for subpatches. They can therefore be understood as __input__ and __output parameters__ of __functions__.
+
+See ((subpatches|Subpatches)).
+{SPLIT}
+
+
+!Collections
+{SPLIT()}
+{img src = "Spreads_ColsAndRows_Output2.png" } 
+~~~
+
+Looking for an ''Array'', ''List'', ...?
+
+See ((Spreads)).
+{SPLIT}
+
+!Data Storages
+{SPLIT()}
+{img src = "patching-SpreadCollections.png" } 
+
+
+~~~
+
+Looking for a ''Buffer'', ''Stack'' or ''Queue''?
+
+See ((spread-collections|Spread Collections)).
+{SPLIT}
+
+!Null
+{SPLIT()}
+{img src = "patching-nil.png" }
+~~~
+
+An empty Array or List in textual language is Nil in vvvv.
+
+See ((spread-definitions#nil|NIL)).
+{SPLIT}
+
+!State Automatas
+{SPLIT()}
+{img src = "patching-automata.png" }
+~~~
+
+When patching anything that can be separated into a series of states and events that cause transition from one state to another you are likely looking for ((node:Automata (Animation))). Also the ((timelinersa#automata|Timerliner)) has an automata built in.
+
+__See also:__
+* ((graphicalautomata|Graphic Automata))
+
+
+{SPLIT}

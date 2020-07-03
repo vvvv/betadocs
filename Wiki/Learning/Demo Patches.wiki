@@ -1,0 +1,10 @@
+A big pack of demo-patches comes with vvvv itself. Go to the
+ \girlpower
+directory and browse through the various patches you find there.
+
+Other great packs of demo patches are:
+* ((contribution:parasitic-design-a-vvvv-beginners-cookbook))
+* ((contribution:video-effects-and-compositing-tutorials))
+* [http://prototypinginterfaces.com/category/patches/|Prototyping Interfaces patches]
+
+Additional user provided demos can be found in the ((/contributions/1353/all|contributions)).

@@ -1,0 +1,25 @@
+In this tutorial we'll take you step by step through your first pixel- and vertexshaders. The good thing with shaders is that the basics are really simple. There are actually not many things you need to know about. And even for realizing more advanced stuff (like lighting) the principles are the same and you only need a better understanding of the ((math)) involved, which is a different story.
+
+So lets start with getting the vocabulary straight:
+
+In ((glossary:Direct3D)) (which vvvvs render engine is based on) pixel- and vertexshaders are dealt with in so called ((glossary:Effects)). Before reading any further we'd recommend you to check the ((Graphics)) section of the documentation and read through the EX9... links you find there to get a basic overview of the topic. Or at least if you're not in the mood to read that now make sure to check back there as soon as specific questions arise.
+
+And now please dive into the following pages one after the other:
+
+!!Pixelshading
+((Tutorial Effects - Pixelshader Preparations|Pixelshader Preparations))
+((Tutorial Effects - Manipulating Colors|Manipulating Colors))
+((Tutorial Effects - Texture Coordinates|Texture Coordinates))
+((Tutorial Effects - Neighbouring Pixels|Neighbouring Pixels))
+((Tutorial Effects - Multiple Textures|Multiple Textures))
+((Tutorial Effects - Multiple Passes|Multiple Passes))
+
+!!Vertexshading
+((Tutorial Effects - Vertexshader Preparations|Vertexshader Preparations))
+((Tutorial Effects - Mr. Wiggle|Mr. Wiggle))
+((Tutorial Effects - Function Printing|Function Printing))
+((Tutorial Effects - Vertex Data|Vertex Data))
+((Tutorial Effects - Normals|Normals))
+((tutorial Geometry Morphing|Geometry Morphing))
+
+All patches and effects of this tutorial in a pack: ((contribution:of-effects-and-shaders))

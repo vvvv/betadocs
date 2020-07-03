@@ -24,7 +24,10 @@
       "default",
 	  "custom_templates/vvvv"
     ],
-    "postProcessors": [],
+    "postProcessors": [ "ExtractSearchIndex" ],
+	"globalMetadata": {
+	  "_enableSearch": "true"
+	},
     "markdownEngineName": "markdig",
     "noLangKeyword": false,
     "keepFileLink": false,

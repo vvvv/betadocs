@@ -1,0 +1,123 @@
+!An Overview
+{SPLIT()}
+
+This is an overview of the most used 
+Spread Operations. 
+~~~
+
+More operations are available and can be found by querying the ((the-gui#node-browser|NodeBrowser)) for terms describing the desired operation.
+{SPLIT}
+
+
+! 
+__Datatype independent operations__
+{SPLIT()}
+((/documentation/setslice-%28Spreads%29|SetSlice)){img src="SetSlice2.png" thumb="90"}
+~~~
+((/documentation/getslice-%28Spreads%29|GetSlice)){img src="GetSlice2.png" thumb="90"}
+~~~
+((/documentation/setspread-%28Spreads%29|SetSpread)){img src="SetSpread.png" thumb="90"}
+~~~
+((/documentation/getspread-%28Spreads%29|GetSpread)){img src="GetSpread.png" thumb="90"}
+~~~
+((/documentation/insertslice-%28Spreads%29|InsertSlice)){img src="InsertSlice.png" thumb="90"}
+~~~
+((/documentation/deleteslice-%28Spreads%29|DeleteSlice)){img src="DeleteSlice.png" thumb="90"}
+{SPLIT}
+
+{SPLIT()}
+((/documentation/reverse-%28Spreads%29|Reverse)){img src="Reverse.png" thumb="90"}
+~~~
+((/documentation/shift-%28Spreads%29|Shift)){img src="Shift.png" thumb="90"}
+~~~
+((/documentation/swap-%28Spreads%29|Swap)){img src="Swap.png" thumb="90"}
+~~~
+((/documentation/swapdim-%28Spreads%29|SwapDim)){img src="SwapDim.png" thumb="90"}
+~~~
+((/documentation/select-%28Value%29|Select)){img src="Select.png" thumb="90"}
+~~~
+{SPLIT}
+
+{SPLIT()}
+! 
+__Combining Spreads__
+~~~
+!  
+__Splitting Spreads__
+{SPLIT}
+
+{SPLIT()}
+((/documentation/cons-%28Spreads%29|Cons)){img src="Cons.png" thumb="90"}
+~~~
+((/documentation/zip-%28Value%29|Zip)){img src="Zip.png" thumb="90"}
+~~~
+((/documentation/cross-%282d%29|Cross)){img src="Cross.png" thumb="90"}
+~~~
+((/documentation/SplitAt-%28Value%29|SplitAt)){img src="SplitAt.png" thumb="90"}
+~~~
+((/documentation/Unzip-%28Value%29|UnZip)){img src="Unzip.png" thumb="90"}
+~~~
+((/documentation/Pairwise-%282d%29|Pairwise)){img src="Pairwise.png" thumb="90"}
+{SPLIT}
+
+
+
+!Datatype independent operations
+{SPLIT()}
+
+Most spread operations are independent of a datatype in that they only shuffle slices around but do not care what data each slice holds. Therefore the nodes mentioned in this section are available in the category of most datatypes.  
+
+Here is a listing of the most common slice operations in their simplest form. 
+~~~
+
+__Pro tip:__
+Any ((pin:Index)) pin is also spreadable! See the helppatches of the respective nodes for more complex usage scenarios.
+{SPLIT}
+
+{SPLIT()}
+{img src="SetSlice2.png"}
+{img src="SetSpread.png"}
+{img src="InsertSlice.png"}
+{img src="Reverse.png"}
+{img src="Swap.png"}
+{img src="Select.png"}
+~~~
+{img src="GetSlice2.png"}
+{img src="GetSpread.png"}
+{img src="DeleteSlice.png"}
+{img src="Shift.png"}
+{img src="SwapDim.png"}
+{SPLIT}
+
+!!Combining Spreads
+{SPLIT()}
+{img src="Cons.png"}
+{img src="Cross.png"}
+~~~
+{img src="Zip.png"}
+{SPLIT}
+
+!!Splitting Spreads
+{SPLIT()}
+{img src="SplitAt.png"}
+{img src="Pairwise.png"}
+~~~
+{img src="Unzip.png"}
+{SPLIT}
+
+!Datatype dependent slice operations
+{SPLIT()}
+
+Spread operations are datatype specific when they operate on the actual data the spread holds. Most common examples:
+~~~
+{SPLIT}
+
+{SPLIT()}
+((node:Sort (String)))
+((node:Sift (String)))
+~~~
+((node:Integral (Spreads)))
+((node:Differential (Spreads)))
+{SPLIT}
+
+{INCLUDE:spreadstoc}

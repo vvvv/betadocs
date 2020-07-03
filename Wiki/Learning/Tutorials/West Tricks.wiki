@@ -1,0 +1,290 @@
+----
+!Some Tips, Hints and Tricks we learned using VVVV...
+
+This page is created for users that are past the new-bee status, and are ready to learn some nice hints, pointers and tricks to make their patching life a little easier.
+
+The contributions come from our proud members, and are maintained by West. So feel free to send in your clever ideas using ((/tiki-view_forum_thread.php?comments_parentId=10623&topics_threshold=0&topics_offset=0&topics_sort_mode=lastPost_desc&topics_find=&forumId=7|this thread)) in the forum.  
+----
+
+{maketoc}
+
+----
+
+----
+
+! Keep Clean Structure In Patches
+
+The biggest trap a VVVV user can step into when creating big and complicated patches is that they can become rather messy pretty quick.
+
+((user:kalle|Kalle)) has made a nice patch with great tips that will help to make your patches keep looking nice and clean. Things like marking not very important nodes white, or hiding, stretching nodes, and aligning them will be demonstrated. The usage of these methods is personal, some people hate to hide pins, others are very pleased with it.
+
+__Advantage:__ You (and others) might understand the patch easier when they get opened a day later.
+
+__ Download:__ ((/tiki-download_file.php?fileId=931|Examples on how to keep clean structure in your patches.))
+----
+
+! Difference between LFO and Integrate
+
+The ((node:LFO (Animation) )) node is very often used as the heart, or engine, for movement in Patches, most users overlook the similar, and in some cases even more powerful ((node:Integrate (Differential) )) node.
+
+The ((node:LFO (Animation) )) has some nice configuration pins that allows you to stop, reverse or even phase shift the output, which are very useful for time related events. On the other hand, ((node:Integrate (Differential) )) lacks all these sweet pins, but has one very clear advantage over the LFO, and that is when you want to smoothly stop and reverse the output. 
+
+The Position Time pin of the ((node:Integrate (Differential) )) is the reciprocal (1/x) of the Period pin of the ((node:LFO (Animation) )), just be careful in using a time of 0, the LFO will go super fast, while the integral will come to a stop. Using the ((node:Frac (Value) )) node, you can separate the Integrate output to make it look like LFO, or use a simple ((node:+ (Value) )) to make an LFO output look like the Integrate output.
+
+__ Download:__ ((/tiki-download_file.php?fileId=1871|Demonstration of the LFO and Integrate nodes.))
+
+----
+
+! Getting Highest Value of A Spread
+
+When you have a spread of values and want to figure out what value is the highest, or the lowest, there is only one node you want to worry about, ((node:Bounds (Spectral) )). 
+
+If you are also interested in what slice goes with that lowest, or highest value, there are a few ways to do that, but after examination of the ((/tiki-index.php?page=performance|performance with CTRL + SHIFT + F9)), the sort/car method was the most efficient. How ever, when you have a always changing spread, the bounds/sift combo is the way to go.
+
+__Advantage:__ Clean and fast way to get the highest or lowest value from a spread.
+
+__ Download:__ ((/tiki-download_file.php?fileId=1864|Example Patch To Get Highest Value.))
+
+----
+
+!High Speed Counter
+
+Sometimes you want a counter that counts very fast, you could use an ((node:LFO (Animation) )), ((node:Change (Animation) )) and ((node:Counter (Animation) )) combination, and set the period to an extreme low value. 
+
+But by simply mapping, with the ((node:Map (Value) )) node, the ((node:LFO (Animation) )) node, you get a precise control about the length of time a counter needs to count from 1 to 100 (for example).  
+
+__Advantage:__ you can now count from 1 to 100 in exactly 2.1 seconds.
+
+__ Download:__ ((/tiki-download_file.php?fileId=920|Example Patch HighSpeedCounter.))
+----
+
+!Using Colors As Values
+
+VVVV does not have that many nodes to deal with color. For example a simple __Switch (Color)__ isn't there. (There is a ((node:InputMorph (Color) )), but this is just an example) To deal with this problem, I used  to use the ((HSV (Color) Split)) node, to split the color in its 4 values, than I would Applied 4 ((Switch (Value) Input)) nodes, and than I would combine the output again using the ((HSV (Color) Join)) node. Works great, but I do not like to use the same node 4 times. 
+
+Using ((Vector (4d) Join)), just ONE switch, and a ((Vector (4d) Split)) node, I instantly used one node less. 
+
+__Advantage:__ you can now also do more complex stuff with colors, without copying the patch 4 times. 
+
+__ Download:__ ((/tiki-download_file.php?fileId=921|Example Patch Using 4D Vector for colors.))
+----
+
+! Switching direct with LFO
+
+If you think that a ((Switch (Value) Input)) or any other switch only  switches when you set the switch pin to a correct value read on.
+
+Connecting the Cycles pin of an ((node:LFO (Animation) )) node directly to a switch will also switch, on a time interval.
+
+__Advantage:__ easy switch between values, and it saves some patching
+
+__ Download:__ ((/tiki-download_file.php?fileId=927|Example Patch using LFO cycle to switch.))
+----
+
+! Using a Gamma node to correct a Damper output
+
+Using a filter, like the ((node:Damper (Animation) )) node, to create a 'fading tail' on a color spread is a very nice and easy way. Sometimes the results are not what you had in mind, and you spend much time to correct it and to make it look better.
+
+Using the ((node:Gamma (Value) )) node, you can easy compensate and play with the tail, lower value gives a longer tail.
+
+__Advantage:__ quick way to compensate the values after a filter.
+
+__ Download:__ ((/tiki-download_file.php?fileId=928|Example Patch to Use a Gamma Node to correct the Damper output.))
+----
+
+! Create your graphical user interface using the intersect node.
+
+Most people who are building patches soon want to create something like a GUI so also 'non VVVV people' can use their work.
+
+There are some ready to go buttons here on the website, like the ones user ((user:Woei|Woei)) has made. The secret of all these patches is that the X and Y location of the mouse is compared with the transform data of the object that is representing the button using the ((Intersect (3d) Quad Line)) node.
+
+There are 2 nodes in the current VVVV release,  Button (3d Quad) and Button (3d Mesh), created by ((user:tonfilm|Tonfilm)), it is worth it to check the helpfiles.
+
+__Advantage:__ Anyone who can handle your interface can control your patches.
+
+__Download:__ Check out the button patches off ((user:woei|Woei)) and the  Button (3d Quad) and Button (3d Mesh) nodes. 
+
+----
+
+! Force awareness of pressing a button
+
+Sometimes a user isn't sure what button to press, so he presses all of them, very fast. Of course you only want your patch to react on buttons that the user seems to be aware of when pressing.
+
+((user:tonfilm|Tonfilm)) has written a way to make a button press only count when it is pressed a certain amount of time. And don't forget to check the very cool helpfile that comes with the patch.
+
+__Advantage:__  it switches to 1 only if the user made a decision longer than a certain time.
+
+__ Download:__ ((/tiki-download_file.php?fileId=932|Force user awareness when pressing a button.))
+((/tiki-download_file.php?fileId=933|The Helpfile.)) (place both in same folder)
+----
+
+! Measure the time between two events
+
+It can be very handy sometimes to measure the time that is passed between two events (e.g. mouseclicks).
+
+((user:elektromeier|Elektromeier)) has made a nice solution, using a ((node:Stopwatch (Animation) )) and ((node:S+H (Animation) )) node. The trick is now to let the stopwatch run one vvvv frame longer before being reset, so the s+h node can get the latest time before this reset. This is where the ((node:FrameDelay (Animation) )) is used for.
+
+__Advantage:__ Get the time passed between two events.
+
+__ Download:__ ((/tiki-download_file.php?fileId=934|Measure the time between two events.))
+----
+
+! Get your Values back after a Boolean operation.
+
+After doing a [http://en.wikipedia.org/wiki/Boolean|boolean] operation, like ((node:AND (Boolean) )), ((node:OR (Boolean) )), ((node:< (Value) )) or ((node:= (Value) )) with 2 spreads, you end up with a spread filled with '0' or/and '1'. Now, let us assume you are more interested in the values where these zeros and ones originated from.
+
+The ((node:Select (Value) )) node is used for this. 
+
+__Advantage:__ Use the actual values from boolean operations.
+
+__ Download:__ ((/tiki-download_file.php?fileId=939|Example file on how to use the Select node after a Boolean.))
+
+----
+
+! Have a Clipboard module
+
+Collect Items you often need 
+*IOboxes configured as fader
+*IOboxes with standard descriptive names like "Width" "Height" "SpreadCount" etc.
+*combinations of e.g. renderer,camera,group,axis and grid
+
+and put them all together in a patch.
+save this patch e.g. as Clipboard (VVVV) somewhere in your modules folder.
+
+now you are able to copy and paste your favourite "patchlets" wherever you want.
+just doubleclick for new node, 
+start typing C-L-I- ,
+select clipboardpatch, 
+copy all you need, 
+CTRL-W to close clipboardpatch (there is no dialog because you didn't change anything), 
+paste inside your patch.
+
+
+__Advantage:__ saves a lot of time.
+
+__ Download:__ ((/tiki-download_file.php?fileId=948|Example for ClipboardPatch.))
+
+^you could also use the "very basic help"-patch assuming that you don't need it anymore.
+
+__Advantage:__ even faster! just hit F1 when nothing is selected.
+
+__Disadvantage:__ when migrating with all your files between those fast changing beta versions you will for sure forget to copy that helpfile...^
+
+----
+
+! Make helppatches not only for Modules
+
+When you stick to the ((Conventions.NodeAndPinNaming)) you can make helppatches for almost everything:
+^a subpatch named __foobar.v4p__ can have a patch __foobar help.v4p__ located in the same folder.
+
+with F1 on that __foobar__ node the helppatch is started.
+
+same for shaders and freeframe.dlls:
+__FooFoo.fx__ can have a helpfile __FooFoo help.v4p__
+__FreeFree.dll__ can have a helpfile __FreeFree help.v4p__
+
+
+----
+! Random Shuffle your Spreads
+
+This is a nice little trick that lets you Shuffle the sequence of the slices in a spread at random.
+
+The trick that is used makes smart use of the 'former index' pin of the ((node:Sort (Spreads) )) node. It sorts a random generated spread, and uses that former index to get the slices from the spread you want to shuffle (or mix), this results with your original spread, but now shuffled.
+
+__Advantage:__ makes the outcome of most patches less predictable.
+
+__ Download:__ ((/tiki-download_file.php?fileId=978|Download the random shuffle module.))
+----
+! Make your Random Spread more Random
+I know that most of us, when they want to generate a random spread, connect the Cycles pin of an ((node:LFO (Animation) )) node to the Random Seed pin of the ((node:RandomSpread (Spreads) )) node.
+
+Most of us should have noticed that the outcome of two upcoming cycles is less random than we hoped. So why not make the Random Seed input random using a ((node:Random (Value) )) node!!
+
+__Advantage:__ The outcome of 2 random spreads is way more random.
+
+__ Download:__ ((/tiki-download_file.php?fileId=994|Small example on how to get a spread be less predictable.))
+----
+! Rounding your Values Up or Down
+
+One of the nodes that vvvv misses is a decent way to round your values up or down, in other words, make an integer out of a fraction that the fraction is closest to.
+
+Using the ((node:Frac (Value) )) node, and a simple ((node:< (Value) )) boolean operation, you can decide to what integer your fraction is closest to. In this demonstration module I also added a way to decide ho many decimals we want to use. How ever, the more easy way to do this, is by simply adding 0.5, using the ((node:+ (Value) )) node before using the ((node:Frac (Value) )) node. But this only works for rounding to an integer value.
+
+__Advantage:__ Rounding up or down is useful for selecting slices with fractions in the slice index, sending data over using artnet, and much more I am sure.
+
+__ Download:__ ((/tiki-download_file.php?fileId=979|Rounding (Values).v4p (6.05 Kb) module.))
+((/tiki-download_file.php?fileId=980|Rounding (Values) help.v4p (5.21 Kb) helpfile.))
+----
+! Build a simple Timeline for movement
+
+Letting an object move along a path that you pre-directed was always high on my wishlist. I remember difficult patching with an ((IOBox (Value) Advanced)) that need to be filled with values, ((node:GetSlice (Spreads) )) nodes and dampers to make it smooth.
+
+The node ((node:B-Spline (Value) )) is not designed for this, but works great, with an LFO and some values. Don't forget to change the 'input room' pin to 'normal 0..1'. Thanks to ((user:gregsn|Gregsn)) for the idea. 
+
+__Advantage:__ This is the most easy and simple time-line I have come across.
+
+__ Download:__ ((/tiki-download_file.php?fileId=995|Example for a "Stupid" Timeline)).
+----
+! Make an LFO only run once
+
+The ((node:LFO (animation) )) is the motor for most patches. But sometimes you want that motor to run only once. I tried doing this with a complex way using a framedelay, and a toggle to set the LFO on pause when a cycle is passed. How ever, a framedelay gives a one frame delay, so the pause was always too late.
+
+Now I decided to let the LFO run just and switch to zero (or one if you desire) on a cycle change, works way better. You can start a 1 time run with simple bang.
+
+__Advantage:__ Run an LFO exactly one time, and let it stop at exactly 0.0000 or 1.0000.
+
+__ Download:__ ((/tiki-download_file.php?fileId=996|Download an example to run an LFO for only one cycle.))
+----
+! Don't confuse Change and TogEdge
+
+When doing an action that depends on the change of a value, you can choose between the ((node:Change (Animation) )) and ((node:TogEdge (Animation) )) nodes.
+
+In most cases ((node:Change (Animation) )) is the node of choice, however, in some cases it is better to pick the ((node:TogEdge (Animation) )) node, especially when working with the ((Keyboard (System) Global)). The TogEdge will only work for values that range from 0.0000 to 1.0000, and even worse, it rounds off the values internally to 0 or 1, whatever is closed. So a change from 0.3 to 0.4 will not produce a Bang, while a Change will.
+
+__Advantage:__ Just Nice to know I thought.
+
+__ Download:__ ((/tiki-download_file.php?fileId=1009|A patch that makes the difference a bit more clear.))
+----
+! Use the Decay to Visualize a Bang
+
+When you have something that looks nice, and you want to give it something extra, or make it react to a beat, I had always a hard time  to that. Look at ((tonfilm-Modules|Tonfilm Modules)) for a simple beatdetector.
+
+Since most events produce a bang, most filters are not use able, so I always patched loads of complex stuff to generate something that I could use. But now I discovered a new trick, using the ((node:Decay (Animation) )) node, sometimes combined with a ((node:Map (Value) )) and a ((node:+ (Value) )) or ((node:- (Value) )), and setting the attack time to 0 sec and the Decay time to whatever looks nice. I work with beatbangs, anything lower than 0.5 sec (=120 Beats per Minute) looks nice.
+
+__Advantage:__ Nice and fast way to make patches Bang-reactive.
+
+__ Download:__ ((/tiki-download_file.php?fileId=1485|Example how you can use this trick.))
+----
+! Make a One Pixel thick line or Point
+
+When you want a small point or indicator, people tend to Scale down their Quads to very low values. The trouble with this begins when you have the ((node:Renderer (EX9) )) in NOT full screen mode, or when you change the screen size. Size of an object is always relative to the actual renderer size. 
+
+By using a small trick, you can make a ((node:Quad (DX9) )) a point, or line with the size of 1 pixel, regardless of the screensize you are using.
+The node ((node:Fill (EX9.RenderState) )) set to Point or Wireframe, depending if you need a point or a line, connected to a ((node:Quad (DX9) )) with an X or Y scale of 0.0000 will make a nice 1 pixel point, or line.
+
+__Advantage:__ The size of the ((node:Renderer (EX9) )) doesn't matter, it is always 1 pixel.
+
+__ Download:__ ((/tiki-download_file.php?fileId=1277|An example to create a 1 pixel point or line.))
+----
+! Quickest Way to make a spread with same values
+
+To generate a spread, with all the same values, I know that most of us use a ((node:LinearSpread (Spreads) )) and set the Input pin to the value they need, Width to 0, and the Spread Count to what they need. Well, using the ((node:Select (Value) )) node, it saves you exactly one extra click, and we all want to patch faster. 
+
+The only thing to worry about is connecting the correct outlet pin. This is also an easy way to create a Color ((node:Select (Color) )) or String ((node:Select (String) )) spread, with the same colors and strings.
+
+__Advantage:__ Save patching time, and the node is smaller.
+
+__ Download:__ ((/tiki-download_file.php?fileId=1486|Quick Example on how to use select node another way than is mentioned in the Helpfile.))
+
+---
+
+! Get Transparency out of the Renderer.
+
+A lot of people are not aware that the ((node:renderer (EX9))) has a background, with a non transparent color, black by default. If you want to use the renderer as a texture on some other object, you can use ((node:DX9Texture (EX9.Texture))) for that. 
+
+The Default texture format, "non specific", does not output an alpha. This node comes with a pin that is hidden, so you have to use Herr Inspector for that. When you change the "format"pin to another type off texture, any one that begins with an A (for alpha) will work.
+
+The next step is to make the background of the renderer transparent, use can use a ((node:Setalpha (Color))) for that.
+
+When you want to save a renderer as PNG file, this is the only correct way to do it. The node ((node:Writer (EX9.Texture))) is used for this purpose.
+ 
+__Advantage:__ You can re use complicated renderers very easy. Or save them with transparency enabled.

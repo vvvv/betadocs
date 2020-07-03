@@ -1,0 +1,18 @@
+- name: Overview
+  href: Overview.md
+- name: Patching Basics
+  href: Patching Basics.md
+- name: Patching Concepts
+  href: Patching Concepts.md
+- name: Subpatches
+  href: Subpatches.md
+- name: Debugging
+  href: Debugging.md
+- name: Using Addons
+  href: Using Addons.md
+- name: IOBoxes
+  href: IOBoxes.md
+- name: Software Engineering Patterns
+  href: Software Engineering Patterns.md
+- name: Programming Concepts
+  href: Programming Concepts.md

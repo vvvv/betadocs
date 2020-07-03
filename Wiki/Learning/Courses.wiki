@@ -1,0 +1,36 @@
+!!Upcoming
+
+__vvvv gamma workshops in Berlin__
+* ((blog:vvvv-gamma-webinars-in-may|vvvv gamma webinars in May 2020))
+* [https://nodeforum.org/announcements/node-forum-for-digital-arts-2020/|NODE20 in October]
+
+For upcoming workshops also keep an eye on the ((/blog/25|dates)) where anyone is free to announce courses involving vvvv. 
+
+!!Previous
+
+!!!!Node17
+* ((blog:node17-workshop-material|Collection of materials)) from the [https://17.nodeforum.org/|node17] workshops
+
+!!!!Node15
+* ((blog:node15-workshop-material|Collection of materials)) from the [http://node15.vvvv.org|node15] workshops
+* ((blog:node15-documentation-videos|Documentation videos)) shot by different users
+
+!!!!Node13
+* ((blog:node13-workshop-material|Collection of materials)) from the [http://node13.vvvv.org|node13] workshops
+
+!!!!Node10
+*((node10.workshop.VVVVAsALanguage))
+*((node10.workshop.VideoTracking))
+*((contribution:advanced-programming-node10-workshop.|node10.workshop.AdvancedPluginCodingTopicsAndPatterns))
+
+
+!!!!Node08
+*((node08.workshop.VVVVBeginners))
+*((node08.workshop.FrameBasedAnimations))
+*((node08.workshop.DMX))
+*((node08.workshop.ShaderApplications))
+
+
+!!Past
+
+*((Workshops)) listing of past workshops

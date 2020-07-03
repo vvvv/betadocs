@@ -1,0 +1,179 @@
+{INCLUDE:patchingtoc}
+
+!Creating IOBoxes
+{SPLIT()}
+~~~
+
+IOBoxes can be used to input (edit) and output (display) data.
+
+There are 3 ways to create an IOBox:
+* via the ((the-gui#node-browser|Node Browser)) (open it and type IOBox)
+* via a double right-click in a patch
+* via a middle-click while making a connection
+{SPLIT}
+
+!IOBox flavors
+{SPLIT()}
+{img src = "BasicPatching_IOBoxTypes3.png" } 
+~~~
+
+There is an IOBox for each of the 4 primitive data-types:
+* ((node:IOBox (Value Advanced)))
+* ((node:IOBox (String)))
+* ((node:IOBox (Color)))
+* ((node:IOBox (Enumerations)))
+All other data-types (like Transform, Texture,...) share one IOBox:
+* ((node:IOBox (Node)))
+{SPLIT}
+
+!Configuring IOBoxes
+{SPLIT()}
+{img src = "BasicPatching_Inlets_Outlets.png" } 
+~~~
+
+
+All IOBoxes have some settings available via config-pins in the ((the-gui#herr-inspektor|Inspektor)) in common:
+
+!!!!Name, Pin Visibility
+* Descriptive Name
+* Pin Visibility
+are used when creating ((subpatches|SubPatches)).
+
+!!!!Tag
+* Tag
+is a string that is not used by vvvv but users can write ((plugins)) that access this information. 
+{SPLIT}
+
+{SPLIT()}
+{img src = "BasicPatching-IOBoxSpreading3.png" } 
+{img src = "BasicPatching-SliceOffset3.png" } 
+~~~
+
+!!!!Spreading
+* SliceCount Mode
+* Columns
+* Rows 
+* Pages
+are for spreading IOBoxes.
+
+Depending on the ((pin:SliceCount Mode)) setting the IOBox has its SliceCount determined by: 
+* __Input:__ whatever is connected to its input
+* __ColsRowsPages:__ the product of ''Columns'', ''Rows'' and ''Pages''
+* __Maximum:__ whatever of the above is more
+
+If set to ''ColsRowsPages'' the product of ''Columns'' by ''Rows'' determines how many slices are visible in the IOBox. 
+
+The actual number of slices represented by the IOBox is further determined by the number of visible slices taken by the number of ''Pages''. 
+
+If there is more than one page you can use the ((pin:SliceOffset)) to "scroll" through all the available slices.
+{SPLIT}
+
+{SPLIT()}
+{img src = "BasicPatching_IOBoxConfig2.png" } 
+~~~
+!!!!Visual properties
+
+* Font 
+* Size
+* Show Grid
+* Show SliceIndex 
+are used for modifying the display.
+{SPLIT}
+
+!Displaying Data
+{SPLIT()}
+{img src = "BasicPatching_OutputIOBox3.png" } 
+~~~
+
+In order to display the current value of any output pin in a patch, connect it to an IOBox. 
+{SPLIT}
+
+!Editing Data
+{SPLIT()}
+{img src = "patching_InputIOBox.png" } 
+~~~
+
+In order to specify a constant value for a pin that can easily be tweaked, connect it to an IOBox. 
+{SPLIT}
+
+{SPLIT()}
+{img src = "patching-valueIOBoxValueAndStepSize2.png" } 
+{img src = "BasicPatching_IOBoxValueTypes.png" } 
+
+~~~
+!!!Value
+
+* Left-doubleclick to enter a new value (also try math formulas).
+* Alt+Rightclick to reset to default value.
+
+__Real and Integer Values__
+
+Right-drag in the IOBox vertically to change its value and optionally modify the stepsize by pressing:
+* SHIFT to divide by 10
+* CTRL to divide by 10
+* CTRL+SHIFT to divide by 100
+* ALT+SHIFT to multiply by 10
+* ALT+CTRL to multiply by 10
+* ALT+CTRL+SHIFT to multiply by 100
+
+__Boolean values__
+
+* 'Toggle': right-click to switch between 0 and 1.
+* 'Bang': right-click to set 1 for one frame, else 0.
+* 'Press':  right-press to set 1 as long as mouse is pressed, else 0.
+
+__Slider__
+* Right-drag to change it.
+
+Press F1 on an IOBox to get different readily configured options that you can copy-paste into your patches as needed. 
+
+{SPLIT}
+
+{SPLIT()}
+{img src = "BasicPatching_ColorIOBox3.png" } 
+~~~
+!!!Color
+Right-drag:
+
+* horizontally to change hue
+* vertically to change brightness 
+* vertically and press CTRL to change saturation
+* vertically and press SHIFT to change alpha
+
+The Color IOBox has several 'Chooser Styles', see ((the-gui#herr-inspektor|Inspektor)):
+* HSVA Field (default)
+* RGBA Slider
+* HSVA Slider
+
+{SPLIT}
+
+{SPLIT()}
+{img src = "BasicPatching_StringIOBox.png" } 
+~~~
+!!!String
+Right click in the IOBox to invoke the operation according to its subtype, see ((the-gui#herr-inspektor|Inspektor)):
+* most cases simply open a field to enter text 
+* ''filename'' - open dialog will pop up
+* ''directory'' - open dialog will pop up
+
+Note that no matter what subtype the string is if you press CTRL while right clicking the file-open dialog will appear. Pressing SHIFT will invoke the directory-open dialog.
+{SPLIT}
+
+{SPLIT()}
+{img src = "BasicPatching_IOBoxEnum.png" } 
+~~~
+!!!Enumeration
+
+Right-click in the IOBox to open up the pull-down menu, choose an item with a left- or right-click.
+
+The enumeration IOBox can also be switched into a 'List' mode. Open the Inspektor and change the ((pin:Style)) configuration pin.
+{SPLIT}
+
+!Green IOBoxes
+{SPLIT()}
+{img src = "BasicPatching_Kontrolleur.png" } 
+~~~
+
+IOBoxes tinted green are exposed for being controlled from the outside. Use __CTRL+K__ to toggle exposing. See ((software#kontrolleur|Kontrolleur)) for more information. 
+
+{SPLIT}

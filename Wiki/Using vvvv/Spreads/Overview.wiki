@@ -1,0 +1,85 @@
+{SPLIT()}
+{img src = "SpreadsLandingDefinitionsSmall4_0.png"} 
+
+
+~~~
+ 
+ 
+((Spread-Definitions|Spread Definitions))
+Here are the basics.
+~~~
+~~~
+{SPLIT}
+
+!
+
+{SPLIT()}{img src = "SpreadsLandingPatchingSmall.png" } 
+
+
+
+
+~~~
+ 
+ 
+((Viewing-Spreads|Viewing Spreads))
+How to look at Spreads.
+~~~
+{img src = "SpreadsLandingPatchingSmall5_0.png"}
+~~~
+
+((Patching-With-Spreads|Patching with Spreads))
+How to deal with Spreads in your Patch.
+{SPLIT}
+
+
+!
+
+{SPLIT()}
+{img src = "SpreadsLandingOpsSmall_0.png" } 
+
+
+~~~
+ 
+ 
+((Spread-Operations|Spread Operations))
+Insert, Delete, Select, Get, Set, ...
+~~~
+ 
+ 
+{img src = "SpreadsLandingCollectionsSmall2_0.png"}
+~~~
+ 
+ 
+((Spread-Collections|Spread Collections))
+How to store Slices into Spreads.
+{SPLIT}
+
+
+{SPLIT()}
+{img src = "SpreadsLandingGensSmall_0.png"}
+~~~
+ 
+ 
+((Spread-Generators|Spread Generators))
+Integer, Linear, Random, ...
+~~~
+{img src = "SpreadsLandingSetsSmall_0.png"}
+~~~
+ 
+ 
+((Set-Theory-Nodes|Set Theory Nodes))
+Intersect, Unity, ...
+{SPLIT}
+
+{SPLIT()}
+{img src = "SpreadsLandingSpectral_0.png"}
+~~~
+ 
+ 
+((spread-sinks|Spread Sinks))
++, *, Bounds, Mean, AND, OR (Spectral)
+~~~
+
+~~~
+
+{SPLIT}

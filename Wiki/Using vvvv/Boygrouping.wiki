@@ -1,0 +1,285 @@
+{INCLUDE:boygroupingtoc}
+
+---
+
+{img src = "Boygrouping-Header3.png" } 
+
+Boygrouping denotes vvvvs built-in client-server architecture. It allows you to control any number of render computers (i.e. clients) from a single server. While you do all the patching only on the server vvvv takes care of all the connected clients to run [http://en.wikipedia.org/wiki/'N_Sync|n'sync]. Applications of boygrouping are usually multi-screen systems or seamless multi-projection setups.
+
+In advanced setups it may be necessary that a client listens to multiple servers which can be achieved using ((MultiBoygrouping)). But first make sure you understand the classic setup.
+
+!Hardware Setup
+{SPLIT()}
+
+{img src="boygroup.png" thumb=280}
+
+~~~
+
+A boygroup typically consists of a dedicated server PC and any number of client PCs connected via ethernet. Gigabit connections are of course recommended these days but we've been using boygrouping with vvvv also back when 100baseT was still top of the pops. Wireless works but is not recommended as it will typically see considerable lag and even dropouts.
+
+The simplest boygroup would consist of only a server and one client pc. In such a setup you could even use the servers fullscreen output as one of the main outputs. However, depending on your patches power consumption (so to speak), this may not be an option. Often the server runs at a lower framerate than the clients, as it has some more work to do. 
+{SPLIT}
+
+!Directory Structure
+{SPLIT()}
+{img src = "Boygrouping-ProjectFolder.png" } 
+
+
+~~~
+
+It is generally good practice to create a directory structure like the following when working on a specific project with vvvv. 
+
+In a boygroup-setup specifically it is necessary to __create an identical directory structure on the server and all clients__. 
+
+^C:\MYPROJECT\patches
+C:\MYPROJECT\resources
+C:\MYPROJECT\vvvv^
+
+__The clients won't need the .v4p files in the \patches directory.__
+They will receive all their nodes magically from the server! Still you may want to place .fx or .dll files in this directory on the clients, if they are also there on the server. Also it is no problem if the clients also get all the .v4p files mirrored as long as you understand that they will not be used.
+
+__Boygrouping doesn't transmit any resources (textures, videos, effect files, ..) over the network.__ 
+Only ((patching-basics#data-types|primitive data)) (values, strings, colors, enums) is being taken care of automatically. Therefore all resources the server patch accesses have to be available on the clients file system as well. Synchronizing the directory structure of a server with multiple clients can easily be achieved with additional tools. Have a look at ((RemoterSA)) or ((user:kalle|kalles)) ((kalle.modules.file|file modules)).
+{SPLIT}
+
+!Preparations on the Clients
+{SPLIT()}
+{img src = "Boygrouping-ClientWindow.png" } 
+
+
+~~~
+
+The client side of patching is rather transparent. Actually __no patching needs to be done at all on the clients__. 
+
+All you have to do is to start vvvv.exe with the following ((Commandline Parameters|commandline parameter)):
+
+ vvvv.exe /client ''ServerIP''
+
+Example:
+
+ vvvv.exe /client 192.168.0.100
+
+Assuming that 192.168.0.100 is the ip-address of your server. You'll see that vvvv is indeed in client-mode as it pops up a default patch with the title __//CLIENT of 192.168.0.100__
+
+Note that the patch is ((patching-basics#locking-a-patch|locked)) by default.
+{SPLIT}
+
+!Preparations on the Server
+{SPLIT()}
+{img src = "Boygouping_ServerTaskbar.png" } 
+~~~
+
+On the server start vvvv with the following ((Commandline Parameters|commandline parameter)):
+
+ vvvv.exe /server
+
+Note that vvvvs button in the taskbar now displays __SERVER__ to indicate its mode.
+
+If your server PC has more than one network adapter that are assigned to different networks you need to specify which one to use for the udp broadcasts. You do this via the (hidden) ((pin:Broadcast IP)) on the ((node:Boygroup (VVVV Server))) by specifying a broadcast address on the subnet you want the boygroup to operate on, like: 192.168.178.255 (ie. with the last byte set to 255).
+{SPLIT}
+
+{SPLIT()}
+{img src = "Boygrouping-Setup.png" } 
+
+
+~~~
+
+To tell the server which clients it has to deal with, create a ((node:Boygroup (VVVV Server))) node. To the ((pin:Clients)) of this node connect a spread of IP-addresses of all your clients. 
+
+Note that the Boygroup nodes' output carries a spread of booleans indicating the connected-state of the individual clients. If everything is setup correctly a few seconds (<10) after starting the clients they should show up as being connected.
+
+^note:
+If you don't get a connection the first thing you should try is to disable the firewall on the server/clients or define a rule to allow vvvv and/or ((boygrouping#faq|the ports it uses for boygrouping)) through the firewall.
+^
+{SPLIT}
+
+!Boygroup Patching
+!!!The blue nodes
+{SPLIT()}
+On a vvvv instance running in __server-mode__ the keyboard-shortcut __CTRL+B__ allows you to boygroup individual nodes. 
+
+Boygrouped nodes are dipped in blue which indicates that they have been mirrored to the clients (even if you can't see them there) and are now being calculated over there.
+
+See the ((patching-basics#colors-of-nodes|Colors of Nodes)).
+
+~~~
+Usually you would start with boygrouping a Renderer and then look upstream and decide what else needs to be boygrouped. Most notably make sure to always have both nodes that are connected via a ((patching-basics#data-types|node-connection)) (like transforms, textures, audio, video, layers,...) boygrouped because those connections are not being transmitted automatically. 
+
+{SPLIT}
+
+---
+
+!!!What to Boygroup?
+{SPLIT()}
+
+There is no general rule like "boygroup manually as much you can" or "less boygroup is good boygroup". 
+
+Instead be aware that all data running on connections between boygrouped (blue) and normal (gray) nodes is being transferred over the network every frame (only if they are changed, of course). 
+
+~~~
+
+Therefore you should take care of those connections not to carry too high spreadcounts and rather boygroup nodes that create spreadcounts. 
+
+__Lets have a look at 3 different boygrouping scenarios you'll be confronted with while patching:__
+ 
+
+{SPLIT}
+
+{SPLIT()}
+{img src = "Boygrouping-Scenario1.png" } 
+~~~
+---
+__The sending node (gray) exists only on the server while the receiving node (blue) is on the client.__
+
+Now as they change all values are transmitted via UDP every frame. As UDP can not guarantee a fixed data rate or latency, you will notice a small delay or roughness in the animation of your objects. With animation parameters being transmitted from server to clients it is therefore good practice to have a boygrouped ((node:Damper (Animation) ))as the first node on a client. 
+{SPLIT}
+
+{SPLIT()}
+{img src = "Boygrouping-Scenario2.png" } 
+~~~
+---
+__Both nodes exist on the client.__
+
+Here no data is transmitted. The nodes on the client have connected locally (on the clients) and data is transferred internally. So you will get smooth animations as usual.  
+{SPLIT}
+
+{SPLIT()}
+{img src = "Boygrouping-Scenario3.png" } 
+~~~
+---
+__The sending node (blue) is boygrouped while the receiving node (gray) is not.__ 
+
+Here no data is transmitted. On the server you will always see the values which were locally calculated but nothing happens on the clients. A scenario like this typically does not make sense. 
+{SPLIT}
+
+Finding the best nodes to boygroup takes a bit of practice but in general you can't do much wrong. If your results are slow or jerky try boygrouping different nodes or spend your animations a blue ((node:Damper (Animation))) node.
+
+---
+!!!Bridges
+{SPLIT()}
+{img src = "0_2010_3.05" }
+~~~
+
+Bridges are connections between gray and blue nodes, ie. links that transmit data via the network.
+
+The ((node:BoyGroup (VVVV Server))) node has two outputs that give you informations about Bridges
+*Bridge Count
+*Active Bridges
+
+Active bridges are those transmitting data in ''exactly'' this frame.
+
+The display of the bridges is mainly for debug purposes. It helps you roughly understand how many connections there are transmitting data. Typically you want to keep them at a low count.
+{SPLIT}
+
+---
+!!!Warnings
+{SPLIT()}
+If the ((node:BoyGroup (VVVV Server) ))'s __Warning__ pin outputs something like
+ msg too big for UDP; 
+ was sent via TCP: /4/14/139/ Scale XYZ
+
+means:
+ /4/14/139
+is the path to the pin
+ Scale XYZ
+given in node-ids as seen from the ROOT. 
+
+Like this you can identify the location in your patch where this too big message had to be sent via TCP and check if it is really necessary like this or if you can improve your patch. 
+
+The reason for this warning is that vvvv by default won't risk to fragment UDP packages and thus keeps them under the [http://en.wikipedia.org/wiki/Maximum_transmission_unit|MTU size] which seems to default to 1472 bytes but may vary on different network/hardware setups. 
+~~~
+To check for the mtu size on your setup open a console on your server and ping one of the clients like so:
+ ping 192.168.2.104 -l 1472 -f
+This should not return any error. Now increase that 1472 number and see when you get an error mentioning fragmentation. If you find a number different to 1472 that works for you, you can safely set that via the ((pin:Maximum UDP Packet Size)) on ((node:Boygroup (VVVV Server))) and vvvv will only switch to TCP for messages larger than that. 
+
+Now you can even increase the ((pin:Maximum UDP Packet Size)) if the ping test fails for higher numbers. Just be aware that this increases the chances for packet loss which may (depending on the needs of your project) not be a problem at all and gain you some performance.
+{SPLIT}
+
+---
+!!!ClientID
+{SPLIT()}
+ 
+__So far all clients would really always do everything in complete sync__ which isn't of much use. 
+
+Consider Justin, Lance, JC, Joey and Chris performing their dancemovements all __at the very same position on stage__. While this would cause interesting artefacts it just wouldn't work in our limited 3 dimensions. 
+
+Therefore boygrouping introduces a ''ClientID'' which is the only feature that lets you distinguish between the clients (and indeed the server) from a patchs view. 
+
+The ((node:Boygroup (VVVV Client))) node returns a different ID from 0 up to ClientsCount – 1 on each client. The order depends on the spread of IP-addresses you entered on the ((node:Boygroup (VVVV Server))) node. IP in slice 0 will be ClientID 0, IP in slice 1 will be ClientID 1 and so on. 
+
+~~~
+ 
+Note that on the server ((node:Boygroup (VVVV Client))) returns whatever value you set on its ''ServerID'' input and whatever value you choose for the ServerID has no effect on the clients. Changing the ServerID simply lets you simulate any of the clients on the server. 
+
+This example shows the ((node:Boygroup (VVVV Client))) in action, it sets the camera to a different offset on each client:
+
+* girlpower\Boygrouping\takethat.v4p 
+
+{SPLIT}
+
+
+!Fullscreen on Clients
+{SPLIT()}
+{img src = "boygroupfullscreen.jpg" }
+~~~
+
+The standard boygrouping scenario is that you still want to be patching on the server while your clients already are in fullscreen. 
+
+Therefore you'll want the Renderers ((pin:Fullscreen)) be set to 1 on the clients but 0 on the server. 
+
+Remember that the only way to distinguish the server from all the clients (and the clients from each other) is the ClientID. Depending on this value you can set a renderer on the server in windowed mode while it is fullscreen on all clients. 
+{SPLIT}
+
+!Synchronized Video Playback
+{SPLIT()}
+~~~
+
+See ((video synchronization)).
+{SPLIT}
+
+!Remoting Clients
+{SPLIT()}
+~~~
+
+When having to deal with a large number of clients it is often useful to start/stop vvvv.exe or other processes on all of them with just one click from the server. 
+
+Also you may want to reboot/shutdown/WakeOnLAN individual clients or establish a VNC connection to one of them for debugging. 
+
+All this and some more can conveniently be done with our separate tool: ((RemoterSA)).
+
+Alternatively some of those features could be even patched using the Remote Shell node ((node:RSh (Network) )). Also see ((RSH HowTo)).
+{SPLIT}
+
+!FAQ
+{SPLIT()}
+
+__Why does CTRL-B not work?__
+~~~
+
+This shortcut only works in server-mode. 
+Start vvvv with the /server flag to enable boygrouping.
+
+{SPLIT}
+
+{SPLIT()}
+__It seems that bangs are not arriving on clients randomly?!__
+
+{img src = "Boygrouping-TransmittingValues2.png" } 
+
+
+~~~
+Yep, that is very likely so. The solution to this problem is simple: Instead of having a bang between a blue and a gray node patch it so you have only a changing value (e.g. counting up a value) being transmitted via the network. The first blue node is then a ((node:Change (Animation) )) to convert the valuechange to your desired bang. 
+
+For an explanation read on: server and clients are not framesynced. It is most likely that clients run faster than the server, which usually has some overhead. Even though the ''bang'' will definitely be sent from the server it may just arrive on clients in between frames and be discarded. A bang is essentially a change to 1 followed by a change back to 0 in the next frame. If both those messages arrive on the client in the same frame only the last message is taken resulting in a loss of the bang. 
+{SPLIT}
+
+{SPLIT()}
+__Which network ports does Boygrouping use?__
+~~~
+Per default vvvv establishes a TCP connection on port 3333 to every client for transmitting all graph changes.
+
+All value changes are being broadcast on UDP port 3333. 
+
+You can change that default port via the ((node:Boygroup (VVVV Server))) nodes ((pin:Network Port)). Note though, that if you do so you also have to start your clients with a modified startup command like this:
+ /client 192.168.0.100:4444
+{SPLIT}

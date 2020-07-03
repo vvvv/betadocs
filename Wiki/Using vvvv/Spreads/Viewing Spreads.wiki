@@ -1,0 +1,95 @@
+!Spreads in the Tooltip
+
+{SPLIT()}
+::{img src = "patching_pin1value.png" }::
+~~~
+
+!!!!A pin holding a single value
+Hovering a pin with the mouse displays the pins name and its current value.
+{SPLIT}
+
+{SPLIT()}
+::{img src = "patching_pinspread.png"}:: 
+~~~
+!!!!A pin holding a spread of values
+If a pin holds a spread the tooltip also shows a number in round brackets that tells you its ''Slice Count''. 
+
+__Note:__ A tooltip will always show only the first slice. If you want to explore other slices open an ((the-gui#herr-inspektor|Inspektor)).
+{SPLIT}
+
+{SPLIT()}
+::{img src = "patching_nil.png" }:: 
+~~~
+
+!!!!A pin holding an empty spread
+
+More about ((spread-definitions#nil|empty spreads)) (aka nil).
+{SPLIT}
+
+
+!Spreads in the Inspektor
+{SPLIT()}
+{img src = "Inspektor_OneSlice3.png" }
+~~~
+
+!!!!First slice of all pins
+The Inspector by default shows only the first slice of a pin.
+{SPLIT}
+
+{SPLIT()}
+{img src = "Inspektor_ManySlices_Label.png" }
+~~~
+
+!!!!All slices of one pin
+If you want to see all slices of a pin, click on the double arrow __>>__ icon in the middle of the Inspector. This brings up a new view that shows all the slices of the selected pin.
+
+Click the __>>__ icon again to hide this view.
+{SPLIT}
+
+{SPLIT()}
+{img src = "Inspektor_ManySlices_Scroll2.png" }
+~~~
+
+!!!!Scroll through
+Changing the __''Slice Offset''__ allows you to scroll through a long list of slices. 
+{SPLIT}
+
+{SPLIT()}
+{img src = "Inspektor_EditingSlices2.png" }
+~~~
+
+!!!!Editing Slices and Slice Count
+__Note:__ If pins slices appear __dark__ it means that they __cannot be edited__. This is true for __output pins__ or __input pins that are connected__. 
+
+Individual slice values can be changed and setting the ''Slice Count'' sets the the number of slices in this spread.
+{SPLIT}
+
+
+
+
+!Spreads in IOBoxes
+{SPLIT()}
+{img src = "Inspektor_ColsRowsNarrowBlue6.png" }
+~~~
+
+__By default an IOBox shows only one slice__. 
+Using the Inspektor you can configure an IOBox to show multiple slices. First scale the IOBox to size, then have a look at its configuration pins in the ((the-gui#herr-inspektor|Inspektor)).
+{SPLIT}
+
+{SPLIT()}
+{img src = "Spreads_ColsAndRows_Input2.png" }
+~~~
+
+!!!!Viewing multiple slices
+An IOBox that has its __input connected__ is used for displaying data. In this case we use the ((pin:Columns)) and ((pin:Rows)) to create a grid of slices that suits our needs to display all or only a subset of the incoming slices. If the spread is too big to be viewed at once use the ((pin:Slice Offset)) to scroll through the spread. Also consider enabling ((pin:Show SliceIndex)) in order to display the slices index number in each slice-cell.
+{SPLIT}
+
+{SPLIT()}
+{img src = "Spreads_ColsAndRows_Output2.png" }
+~~~
+
+!!!!Editing multiple slices
+An IOBox that has its __output connected__ is used for entering data. In order to create a spread from scratch in the IOBox first set its ((pin:SliceCount Mode)) to ''ColsRowsPages''. Then you can use the ((pin:Columns)) and ((pin:Rows)) to create a grid of slices. Each of these slices can now be edited. 
+{SPLIT}
+
+{INCLUDE:spreadstoc}

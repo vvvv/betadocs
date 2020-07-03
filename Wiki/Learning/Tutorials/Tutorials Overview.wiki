@@ -1,0 +1,52 @@
+{SPLIT()}
+!!Basic Tutorials
+!!!in written form
+*((Tutorial Introduction|Introduction))
+*((Tutorial Hello World|Hello World))
+*((Tutorial Inspektor|Herr Inspektor))
+*((Tutorial Spreads|Spread them Data I))
+*((Tutorial IOBoxes|IOBoxes))
+*((Tutorial SpreadsII|Spread them Data II))
+
+!!!samesame but different
+*((Video Tutorials|English Video Tutorials))
+* [https://www.youtube.com/channel/UCa8Vqigdbq5Gam_6dcGdNBw|vveekend vvorkshops]
+* [http://www.youtube.com/playlist?list=PLqjkdWFcBMk8gVdbGuSqwi4q1ihr7LcaW|Japanese Video Tutorials]
+* [http://vvvv-jp.tumblr.com/tutorial|Japanese Written Tutorials]
+* [https://www.manamana.net/peopleCenter/138/video#!zh|Chinese Video Tutorials I]
+* [https://www.youtube.com/playlist?list=PLlC309TWKG850GrgeuB5YHe5AqTZ_L8NY|Chinese Video Tutorials II]
+* [http://everyware.kr/home/?cat=11|Korean Video Tutorials]
+* [http://www.youtube.com/playlist?list=PLGIKE8Bjn-b0SPIGWO7gBnKjbB5wHJwm3|German Teen Video Tutorials]
+~~~
+!!VL Tutorials
+* [https://www.youtube.com/channel/UCu-xqv-TLwv6L0An7MJJA5A/playlists?view=50&sort=dd&shelf_id=4|vvvv gamma Tutorials]
+* vl for vvvv users: [https://discourse.vvvv.org/t/vl-for-vvvv-users-key-differences-1-5/15919|part 1] | [https://discourse.vvvv.org/t/vl-for-vvvv-users-how-to-patch-2-5/15948|part 2] | [https://discourse.vvvv.org/t/vl-for-vvvv-users-spreads-vs-spreading-pt-1-3-5/15956|part 3] | [https://discourse.vvvv.org/t/vl-for-vvvv-users-spreads-vs-spreading-pt-2-4-5/16027|part 4] | [https://discourse.vvvv.org/t/vl-for-vvvv-users-spread-of-spread-5-5/16028|part 5]
+* [https://vimeo.com/197956686|Spreads vs. Single Values]
+* [https://vimeo.com/198615170|Custom Datatypes - think ParticleSystem]
+* [https://vimeo.com/200604809|Some Basics]
+* [https://www.youtube.com/playlist?list=PLG540xv6kfGFIXYVV_hmOZ4U0lGgDuA11|VL Workshop] recorded by ((/businesses/schnellebuntebilder|schnellebuntebilder))
+* [https://www.youtube.com/playlist?list=PLqjkdWFcBMk_z0kG5-D8VfPfNjjRDdWRV|Japanese VL Tutorials]
+
+!!More vvvv Tutorials
+* [https://www.youtube.com/playlist?list=PLK3HDkvkLePS9UKCVw1o_eb09Ocws6Wcr|Advanced Graphics Tutorials] by ((user:takuma))
+* ((blog:node17-workshop-video-captures|NODE17 workshops video captures))
+* [http://prototypinginterfaces.com/category/patches/|Examples] of the [http://prototypinginterfaces.com/|Prototyping Interfaces] book
+* ((contribution:parasitic-design-a-vvvv-beginners-cookbook|Parasitic Design)) examples of the [http://www.generative-gestaltung.de|Generative Design] book 
+*((tutorial-of-effects-and-shaders|Of Effects and Shaders))
+*((contribution:video-effects-and-compositing-tutorials|Video Effects and Compositing))
+*((contribution:particlesgpu-library-guide|Particles on the GPU))
+*((Tutorial Geometry Morphing|Geometry Morphing))
+*((westtricks|Tips, Hints and Tricks))
+*((How To Project On 3D Geometry))
+*((SkinningWithSkeletonNodes|Skinning With Skeleton Nodes))
+*((Skeleton Animation Nodes Tutorial))
+*((Wave Simulation))
+*((Writing Freeframe Plugins))
+*[http://wiring.org.co/learning/tutorials/vvvv/|Interfacing the Wiring hardware and VVVV]
+*((tutorial-how-to-make-high-quality-3d-scenes|How to make high quality 3D scenes))
+*((Projection Mapping Primer))
+{SPLIT}
+
+
+!More
+See ((/contributions/1355/all|Tutorials)) in the contribution section for more.

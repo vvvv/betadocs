@@ -1,0 +1,61 @@
+TOC: ((Tutorial - Of Effects and Shaders|Of Effects and Shaders))
+Back: ((Tutorial Effects - Vertexshader Preparations|Vertexshader Preparations))
+Next: ((Tutorial Effects - Function Printing|Function Printing))
+---
+Lets start with the famous MrWiggle effect, it distorts a mesh by sine waves:
+
+The vertex shader is called for each vertex of the mesh. As you have learned ((tutorial effects vertexshader preparations|here)), the input of the vertex shader is the data stored in the vertex of the mesh which is now processed:
+
+^code ((lang=hlsl, line=0):
+vs2ps VS(
+    float4 PosO  : POSITION,
+    float4 TexCd : TEXCOORD0)
+{
+...
+}
+^
+
+Here we are interested in the PosO vector, which is the position of the current vertex. We will add an offset to the x coordinate of the vertex depending on its vertical position (y coordinate):
+
+^code(lang=hlsl):
+PosO.x += sin(PosO.y);
+^
+
+To control the waves we add some parameters:
+
+^code(lang=hlsl):
+PosO.x += sin(PosO.y * Frequency + Phase) * Amplitude;
+^
+Then the vertex shader with its inputs looks like:
+^code(lang=hlsl):
+float Frequency = 10;
+float Phase = 0;
+float Amplitude = 0.01;
+
+vs2ps VS(
+    float4 PosO  : POSITION,
+    float4 TexCd : TEXCOORD0)
+{
+    //declare output struct
+    vs2ps Out;
+    
+    //offset x coordinate
+    PosO.x += sin(PosO.y * Frequency + Phase) * Amplitude;
+
+    //transform position
+    Out.Pos = mul(PosO, tWVP);
+    
+    //transform texturecoordinates
+    Out.TexCd = mul(TexCd, tTex);
+
+    return Out;
+}
+^
+And the patch accordingly:
+
+{img src = "Basic_2010.11.26-17.09.16.png" title = "mr wiggle patch"} 
+---
+Next: ((Tutorial Effects - Function Printing|Function Printing))
+Back: ((Tutorial Effects - Vertexshader Preparations|Vertexshader Preparations))
+TOC: ((Tutorial - Of Effects and Shaders|Of Effects and Shaders))
+

@@ -1,0 +1,342 @@
+!Mouse & Keyboard
+{SPLIT()}
+
+~~~
+
+The user interface of vvvv has been designed to be used with a three-button mouse. If you don't have a middle mousebutton in vvvv you can always simulate a middle-click using SPACE+rightclick.
+
+{SPLIT}
+
+{SPLIT()}
+
+{img src = "vvvv_shortcut_2.png" } 
+~~~
+
+Also vvvv's ease of use heavily relies on shortcuts. Here is how you can learn about them: 
+
+* ((ui-reference|A listing of all shortcuts)) online
+* ((/contribution/dont-panic-the-noobs-guide-to-vvvv|Don't panic! cheatsheet)) for print
+* as listed in the ((the-gui#main-menu|Main Menu))
+
+{SPLIT}
+
+
+!Patch Editor
+{SPLIT()}
+
+{img src = "vvvv_patch.png" } 
+
+~~~
+
+When vvvv starts all you see is a virgin gray window, a so called patch. Welcome to vvvv.
+
+__How to open:__
+* __Ctrl+P__ to create a new patch
+* __Ctrl+Shift+P__ to create a new subpatch
+
+__Symbols in the title bar__
+* * the patch has changes
+* ~ the patch has only layout changes
+* + the patch is readonly
+* # the patch is ((patching-basics#locking-a-patch|locked))
+* ° the patch is always the topmost window (toggle via CTRL+T)
+
+For more info on how to operate in the patch editor see:
+* ((patching|Patching))
+* ((/contribution/dont-panic-the-noobs-guide-to-vvvv|Don't panic! cheatsheet))
+* ((video-tutorials#tutorial-1-starting-vvvv-for-the-first-time|Video Tutorial: Starting vvvv for the first time))
+* ((tutorials|Getting Started tutorials))
+
+{SPLIT}
+
+
+!Main Menu
+{SPLIT()}
+
+{img src = "vvvv_MainMenu.png" thumb=280}
+
+~~~
+
+vvvv's main menu is not visible by default in order to save precious screen-estate. Also we save you from doing a lot of mouse-meters moving the cursor to and from the menu as it is always at your finger tip and can easily invoked:
+
+__How to open:__
+* __Middle mouse button click__ in an empty area in a patch
+* __SPACE key + Rightclick__ in an empty area in a patch
+
+If you have a middle button, but it doesn’t invoke the menu, then your system may have assigned the middle mouse button to a different function. Go to Settings > Control Panel > Mouse and look for the "middle button assignment" to fix that. 
+
+{SPLIT}
+
+!Node Browser
+{SPLIT()}
+
+{img src = "vvvv_NodeBrowser.png" thumb=280}
+
+{img src = "vvvv_NodeBrowser2.png" thumb=280}
+
+{img src = "vvvv_NodeBrowser3.png" thumb=280}
+
+~~~
+
+The NodeBrowser is the central access point to all nodes that exist within vvvv. This is from where you create the nodes with which you build your patches. 
+
+__How to open:__
+* __Double Left Click__ inside an empty area in a patch
+* __Double Left Click__ an existing node to replace it (and keep valid connections)
+* __Ctrl+N__ to open it in a separate window
+
+By typing into the text field at the top you can filter the list to find what you want. Then:
+
+* __Leftclick__ a node to create it.
+* __Rightlick__ a node to show its helppatch
+* __Middleclick__ a node it to open its online reference page..
+* __Ctrl+Leftclick__ a 'Template' node to clone it and write your own ((dynamic-plugins|Dynamic Plugin)) or an ((glossary:Effect)).
+
+The NodeBrowser has three buttons (__T__, __C__, __F__) in top right corner:
+
+!!!T
+Search the nodes by their Tags.
+Just start typing one or more words and the list will be filtered to match your search tags. 
+
+Or type:
+
+* __'m '__ (M followed by Space) to filter modules
+* __'v '__ to filter vl plugins
+* __'d '__ to filter dynamic c# plugins
+* __'p '__ to filter binary .net plugins
+* __'t '__ to filter patches
+* __'f '__ to filter FreeFrame plugins
+* __'x '__ to filter effect nodes
+* __'i '__ to filter nodes with an internal version
+
+!!!C
+Categorized tree view of the node list.
+
+!!!F
+Filter which categories are visible in the NodeBrowser. By default all categories are on.
+
+These three modes can also be switched by a __Rightclick__ in the text field.
+
+{SPLIT}
+
+!Herr Inspektor
+{SPLIT()}
+
+{img src = "vvvv_HerrInspektor.png" thumb=280}
+
+~~~
+
+Herr Inspektor is giving you an overview of the settings of all the pins of a selected node. If you want to view or edit multiple and/or normally invisible parameters, it is often necessary to open an Inspektor.
+
+!!!!How to open
+* __Ctrl+I__ 
+* __Ctrl+Shift+I__ for additional Inspektor Windows
+
+When an Inspektor is already open pressing Ctrl+I will just bring that (or any) Inspektor to the front and not create a new instance. To create multiple instances use Ctrl+Shift+I.
+
+!!!!Structure
+The Inspektor's view is structured into 3 sections:
+* Configuration Pins: only visible in the Inspektor
+* Input Pins: editable input pins
+* Output Pins: readonly output pins
+
+!!!!Editing values
+Values in the Inspektor are changed the same way as in IOBoxes. Basically that means: __rightclick__ (strings, enums) or __rightclick+drag__ (values, colors). For details see ((ioboxes#editing-data|Editing IOBoxes)).
+
+!!!!Pin Visibility
+The narrow column of quads on the very left indicates the visibility of a pin in the patch. By clicking the quads you can toggle the respective pins between ''Visible'', ''Hidden'' and ''OnlyInspektor''.
+
+!!!!Attaching Inspektor
+Usually all Inspektors always adapt to the currently selected node. If you want to permanently edit a specific node with a specific Inspektor, you can attach an Inspektor to the current selection by pressing the __'Attach to Selection'__ button. You can create additional Inspektors for editing other nodes by pressing Ctrl+Shift+I.
+
+!!!!Multiple nodes at once
+When selecting multiple nodes at once the Inspektor only shows pins that all those nodes have in common. 
+
+__See also:__
+* ((tutorial-inspektor|Inspektor Tutorial))
+* ((video-tutorials#tutorial-8-herr-inspektor|Video Tutorial))
+
+{SPLIT}
+
+!Finder
+{SPLIT()}
+
+{img src = "vvvv_Finder2.png" thumb=280} 
+
+~~~
+
+The Finder gives you an overview of the currently loaded patch hierarchy and quickly lets you find nodes in your patches. 
+
+__How to open:__
+* __Ctrl+F__ 
+* __Ctrl+Shift+F__ for additional Finder Windows
+
+It's not necessary to click on the text field, its active as soon as the finder window is active. 
+
+Move the mouse over the text field to see the tag list that allows for some quick filtering. Note that all those tags come into effect only when followed by a space.
+
+
+!!!!Search Scope
+By default only nodes in the active patch are searched. 
+Via the following tags you can expand the scope:
+;<:search globally in the whole graph
+;>:search in patches within the active patch
+
+Check ((finder#filter-nodes|the complete list of tags)) to filter particular nodes.
+
+If you also want to search inside ((subpatches#modules|modules)) activate the __M__ checkbox in the topright corner of the finder.
+
+
+!!!!Mouse Interaction
+* __Leftclick__ a node to focus and select it in the patch (if the patch is visible)
+* __Doubleclick__ a node: same as above but opens patch if hidden
+* __Rightclick__ a node to show its GUI/Editor (in local scope RightClicking the active patch goes one level up)
+* __RightDrag__ to scroll canvas
+* __MouseWheeel__ to zoom canvas
+* __Rightclick__ the tag-textfield to clear it
+{SPLIT}
+
+!Window Switcher
+{SPLIT()}
+~~~
+The WindowSwitcher is invoked by pressing Ctrl+TAB and shows a graphical visualisation of the complete running graph. 
+
+Use Ctrl+TAB or Ctrl+Shift+TAB to cycle through the open windows or select a window with the mouse to jumpt to it.
+{SPLIT}
+
+!Timeliner
+{SPLIT()}
+{img src = "vvvv_Timeliner.png" thumb=280}
+
+~~~
+
+The Timeliner allows you to define keyframes of values, strings and colors over time and then get the values of a specific point in time via its output pins.
+
+__How to open:__
+* Create the ((node:Timeliner (Animation))) node.
+
+For detailed informations on how to operate the timeline see
+* ((timelinersa|Timeliner in detail))
+
+{SPLIT}
+
+!Code Editor
+{SPLIT()}
+{img src = "CodeEditor.png" } 
+
+~~~
+
+If you're missing a spefic node you can write your own:
+* ((dynamic-plugins|Dynamic Plugins)) in [http://en.wikipedia.org/wiki/C_Sharp_%28programming_language%29|c#] 
+* ((effects|Rendering Effect)) in [http://en.wikipedia.org/wiki/High-level_shader_language|hlsl].
+
+Custom syntax highlighting can be defined in the lib/thirdparty/*.xshd files.
+
+__How to open:__
+* __Rightclick__ on a ((dynamic-plugins|Dynamic Plugin)) or an ((glossary:Effect)).
+
+__See also:__
+* ((tutorial-of-effects-and-shaders|Of Effects and Shaders: Tutorial))
+* ((dynamic-plugins-reference|Dynamic Plugins Reference))
+* ((codeeditor-shortcuts|CodeEditor shortcuts))
+{SPLIT}
+
+!Project Explorer
+{SPLIT()}
+{img src = "TheGui-ProjectExplorer2.png" } 
+~~~
+Press __CTRL+J__ to bring up the ProjectExplorer window. Here you see a treeview of all your projects and this is where you can add/remove
+* documents
+* references 
+to/from projects.
+
+!!!!Documents
+While you can define multiple plugin-classes within a document (just put them one after the other) with a bigger set of nodes it may be a good idea to split them into multiple documents. Just right-click your project in the explorer and select ''Add..'' to add an existing or new document. 
+
+!!!!References
+Here you you will usually either:
+* reference libraries from the [http://msdn.microsoft.com/en-us/library/yf1d93sz%28v=vs.110%29.aspx|GAC]
+* or reference a thirdparty managed library (eg. a device driver)
+{SPLIT}
+
+!TTY Renderer
+{SPLIT()}
+{img src = "vvvv_TTYRenderer.png" thumb=280} 
+
+~~~
+
+The ((node:Renderer (TTY))) has 3 main purposes:
+* mostly it is used as vvvvs error console so it is good practice to have a tty open to be informed of things that go wrong. 
+* use it to write your own logs.
+* render your ASCII-art. 
+
+__How to open:__
+* Create the ((node:Renderer (TTY))) node.
+
+__See also:__
+* ((strings#tty-renderer|More about TTY Renderer))
+
+{SPLIT}
+
+!Kommunikator
+{SPLIT()}
+{img src = "vvvv_kommunikator.png" thumb=280}
+
+~~~
+
+The Kommunikator allows you to preview, crop, save and upload screenshots to vvvv.org. If you provide your login you can even add images to the pool of site-headers.
+
+__How to open:__
+* __Ctrl+3__ 
+
+__See also:__
+* ((ui-reference#window-menu|Other shortcuts for making snapshots))
+
+{SPLIT}
+
+!Window Modes
+{SPLIT()}
+{img src = "BasicPatching_WindowModes_0.png"  thumb=304} 
+~~~
+
+Each window in vvvv also has a node associated. In other words: some nodes in vvvv have an associated window. You can identify those nodes by their ((patching-basics#node|icons)). 
+
+Nodes with windows can be displayed in four modes:
+* Hidden: only the node is visible
+* InABox: node as box, containing the window
+* Windowed: node with separate window
+* Fullscreen: window visible fullscreen
+
+Use the following shortcuts to switch to the respective modes:
+* Hidden __Alt+3__ 
+* InABox __Alt+2__ 
+* Windowed __Alt+1__ 
+* Full Screen __Alt+Enter__
+
+As an alternative quick shortcut to toggle between the ''hidden'' and ''windowed'' modes simply rightclick a node.
+
+^note:
+There is a difference between hiding and closing a patch (or any window) in vvvv:
+* if you __hide__ a window (ALT+3), its associated node will still be part of the system and continue working
+* if you __close__ a window (CTRL+W), its associated node will be removed from its patch and thus no longer be part of the program
+^
+{SPLIT}
+
+!Docking
+{SPLIT()}
+{img src = "BasicPatching_Docking.png" } 
+
+~~~
+
+When working with multiple windows, docking can be useful to stack windows on top of each other to save precious screenspace. 
+
+!!!!Dock
+Dock one window to another by pressing __ALT__ while clicking inside it. Then drag it onto another window and release the mouse button when a gray border appears inside the target window. 
+Dock a stack of docked windows onto another window by doing the same while pressing __ALT+SHIFT__.
+
+!!!!Undock
+Undock windows by pressing __ALT__ while leftclicking inside of it. 
+
+!!!!Tabs 
+Use the tabs to navigate between the different patches. Rightclick a tab to find the patchs node in its parentpatch.
+{SPLIT}

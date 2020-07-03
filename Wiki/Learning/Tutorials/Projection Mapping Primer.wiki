@@ -1,0 +1,40 @@
+When talking [http://en.wikipedia.org/wiki/Projection_mapping|Projection Mapping] you have to essentially distinguish between two different types. Depending on your prerequisites and desired visual effects you'll have to choose between:
+
+{SPLIT()}
+! Homography Approach
+If you only need to project flat content onto flat surfaces, ie  texturing some real-world flat geometry with some animated wallpaper, go for this simplest of approaches. It is named after [http://en.wikipedia.org/wiki/Homography_%28computer_vision%29|the math behind it] and essentially allows you to throw an image onto a flat surface from an arbitrary projector-position as if it was thrown on the surface head-on. 
+
+{img src = "badMapperV3.jpg" thumb=300} 
+::''badMapper''::
+
+On OSX there is a software called [http://www.madmapper.com/|MadMapper] that uses this appoach and lets you pipe any flat content through onto arbitrary flat real-world surfaces. In vvvv you have the ((node:Homography (Transform))) that would be the basis of any such mapping tool. See ((contribution:badMapper)) for an example that establishes a basic workflow.
+~~~
+! Re-Projection Approach
+If you have a more arbitrary or even curved surface to project onto you need two things:
+# a virtual copy of the surface/geometry you want to project onto
+# the projectors lens characteristics and its position/rotation in respect to the surface
+
+ad 1) Regarding the virtual copy of the surface you can either:
+* create a model using a 3d-modelling software
+* use [http://reconstructme.net/|ReconstructMe] 
+* in vvvv use ((node:GridEditor (EX9))) or start from a ((node:Grid (EX9.Geometry))) and modify it using ((node:MeshEditor (EX9))).
+
+ad 2) In order to get the projectors lens/position/rotation you have 3 options:
+* manual: take manual measurements of its position/rotation and look up the lens characteristics in its manual
+* semi-automatic: use CalibrateProjector (CV.Transform) from the ((contribution:vvvv.packs.image|Image Pack)). Check ((/contribution/calibrate-and-re-project|this contribution)) to see the workflow.
+* automatic: use a solution like ((blog:bsm-auto-alignment-with-vvvv|BSM Auto Alignment))
+
+With those two things at hand you can now setup a scene to project a virtual copy of the geometry on its real counterpart. Now any visual effect that plays on the surface of the virtual geometry, like light/shadow/texture animations will seemingly be part of the real-world geometry.
+
+Examples of this approach are ((Lightstrive)) and Pablo Valbuena's [http://www.pablovalbuena.com/selectedwork/augmented-sculpture-v1/|Augmented Sculpture Series].
+
+For the basic setup of a 360° projection on a cylindrical screen, including soft-edging, see: ((/tiki-download_file.php?fileId=1698|small 360 degree setup.zip))
+{SPLIT}
+
+--- 
+
+!Further Reading: Achieving 3d-Illusion effects
+One very popular thing with projection mappings is 3d-illusion kind of effects like seen in Pablo Valbuena's [http://www.pablovalbuena.com/selectedwork/n-520437-e-041900|The Hague City Hall] projection or AntiVJ's [http://blog.antivj.com/2008/nuit-blanche-bruxelles|Nuit Blanche Bruxelles projection]. It is to keep in mind though that these effects only work for the audience when they stand in the right spot because when creating the effect a perspective has to be chosen for which the illusion is created. 
+
+So here is what you do:
+You capture the virtual scene from a position which corresponds to the desired position of the audience. Then from that same position project the captured image onto the virtual geometry. This results in a scene where your desired 3d-effects are now a flat texture on the surface of the virtual geometry. Once you have that you go with the Re-Projection Approach as mentioned above. 

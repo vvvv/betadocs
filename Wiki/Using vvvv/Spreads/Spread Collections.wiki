@@ -1,0 +1,16 @@
+{SPLIT()}
+
+Spread Collections are a range of nodes that help you collect slices at runtime. 
+~~~
+{SPLIT}
+{SPLIT()}
+{img src="Queue2.png"}
+{img src="Buffer2.png"}
+~~~
+{img src="Stack2.png"}
+{img src="RingBuffer2.png"}
+{SPLIT}
+
+Also check the power of ((node:Store (Spreads))).
+
+{INCLUDE:spreadstoc}

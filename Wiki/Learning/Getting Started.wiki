@@ -1,0 +1,80 @@
+!0. Checklist
+
+* Can vvvv do what you want? See the ((/propaganda|Propaganda)) page for an overview of vvvv's main capabilities and where to find info about them.
+* Needs Windows 7/8/10
+* 3 button mouse (recommended)
+
+!1. Download
+
+vvvv is available in two different forms:
+* ((downloads|Beta)) - stable releases. __Production grade__
+* ((/downloads/previews|Previews)) - has more features, but maybe unstable. __Don't use for production__
+
+Take the __64bit__ version.
+
+!2. Install
+Run the installer.
+
+If you have problems, see an illustrated ((installation|Installation Guide)) for more info.
+
+!3. First start
+Just started vvvv.exe?
+* You see a __grey window__ with instructions. __Welcome to vvvv!__
+* Doesn't seem to work? See ((Troubleshooting))
+
+* Check the ((the-gui|User Interface Overview))
+* Dive into ((patching|The Patching Guide)), it explains __everything__ you need to get going
+* Coming from textual coding? Here is how we patch it: ((programming-concepts|Programming Concepts))
+
+!4. Examples and tutorials
+Tired to read?
+Check some real examples.
+
+__Girlpower__
+
+* vvvv is coming with a large number of example-patches with detailed explanations for almost every topic. We call it Girlpower. Check the __/girlpower__ folder in your vvvv directory. It's a good place to start learning how to patch or get an overview of available features.
+
+__Other resources__
+
+* Our take on the ((books#generative-design|'Generative Design')) book examples - we call it ((/contribution/parasitic-design-a-vvvv-beginners-cookbook|'Parasitic Design Cookbook'))
+* Patches from the ((books#Prototyping-Interfaces---Interaktives-Skizzieren-mit-vvvv|'Prototyping Interfaces')) book
+* Check all the ((tutorials|Tutorials))
+* Follow the episodes of our own [https://www.youtube.com/channel/UCu-xqv-TLwv6L0An7MJJA5A|vvvvTv]
+* There are [https://www.youtube.com/channel/UCa8Vqigdbq5Gam_6dcGdNBw|vveekend vvorkshops] videos offered by ((user:microdee))
+* The Official: ((contribution:dont panic - the noobs guide to vvvv|Don't panic - the noobs guide to vvvv))
+* The Inofficial: ((contribution:illustrated guide to vvvv for newbies in computer arts|Illustrated guide to vvvv for newbies in computer arts))
+
+!5. Documentation
+The written ((Documentation)) is structured in three main parts:
+
+* ((learning|Learning)): written and video tutorials, books...
+* ((using-vvvv|Using vvvv)): all you need to know about the main features
+* ((topics|Topics)): covers specific usage scenarios like: Graphics, Audio, Video, IO...
+
+Not sure about a certain term? Try the ((/glossary|glossary)).
+
+!6. Tons of amazing Contributions
+Here is a listing of ((/contributions/|Contributions)) provided by our ever-growing community.
+See the ((using-addons|Using Addons Guide)) on how to install them.
+
+!7. Join our community!
+
+* Share some screenshots using ((the-gui#kommunikator|the Kommunikator))
+* Share your projects in the ((/blog/24+126+124|gallery section of our blog)) 
+* Share your patches and plugins in ((/contributions/|the Contributions)) or ((/store|the Store))
+* Follow [https://mastodon.xyz/@vvvv|vvvv on Mastodon] for latest news bits
+* Subscribe to the [https://www.youtube.com/channel/UCu-xqv-TLwv6L0An7MJJA5A|vvvvTv youtube channel] for tutorials, howtos and more
+* Join the [https://vimeo.com/groups/vvvv/|vimeo group vvvv] for a stream of projects by fellow patchers
+
+* Help us ((about-the-documentation|improve the documentation))
+* Join or start a [https://www.meetup.com/de-DE/find/?allMeetups=false&keywords=vvvv&radius=Infinity|vvvv meetup]
+* Meet real people at a [https://nodeforum.org/activities/node-forum/|NODE festival] or the [http://link-summercamp.de/|LINK summer camp] 
+
+!8. Looking for help?
+
+* Never hesitate to ask questions in ((/forums|the forum)) or ((/chat|the chat))
+* More options here: ((howto-find-help|How To Find Help))
+
+!9. The bigger picture
+
+Interested in how this all began and where it is all going? Check our ((roadmap)).
