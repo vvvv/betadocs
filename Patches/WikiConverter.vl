@@ -4558,7 +4558,7 @@
               <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Bang</p:buttonmode>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="DqC6SCifNn9MCWAGzVTES9" Comment="File Path" Bounds="475,219,323,-12" ShowValueBox="true" isIOBox="true" Value="..\Wiki\Using vvvv\VL.wiki">
+          <Pad Id="DqC6SCifNn9MCWAGzVTES9" Comment="File Path" Bounds="475,219,323,-12" ShowValueBox="true" isIOBox="true" Value="..\Wiki\Using vvvv\HowTo Find Help.wiki">
             <p:TypeAnnotation LastCategoryFullName="IO" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="Path" />
             </p:TypeAnnotation>
@@ -4657,62 +4657,6 @@
               <Choice Kind="TypeFlag" Name="Boolean" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="EzgukogcpnSO7llHmjQRBu" Bounds="105,646,172,62" ShowValueBox="true" isIOBox="true" Value="^code(lang=c)&#xD;&#xA;class plugClass&#xD;&#xA;{&#xD;&#xA;  public:   //leave code in this section as is&#xD;&#xA;  private:  //your variables and functions here&#xD;&#xA;}^">
-            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
-              <Choice Kind="TypeFlag" Name="String" />
-            </p:TypeAnnotation>
-          </Pad>
-          <Node Bounds="247,919,65,19" Id="KKAiVDuLj3CLc4jstxwp6X">
-            <p:NodeReference LastCategoryFullName="Text.RegularExpressions" LastSymbolSource="VL.Regex.vl">
-              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <Choice Kind="ProcessAppFlag" Name="Replace" />
-              <CategoryReference Kind="Category" Name="RegularExpressions" NeedsToBeDirectParent="true" />
-            </p:NodeReference>
-            <Pin Id="GgSpsuZijvYLDSzsCH3i0u" Name="Input" Kind="InputPin" />
-            <Pin Id="Al7x2cb2nVQOThBbRtWx2z" Name="Pattern" Kind="InputPin" />
-            <Pin Id="AYHyfngTpzAQTUT9mt7vFG" Name="Replacement" Kind="InputPin" />
-            <Pin Id="OpkGbSlSJw9OssxGBhGR5l" Name="Options" Kind="InputPin" DefaultValue="Singleline">
-              <p:TypeAnnotation LastCategoryFullName="Text.RegularExpressions" LastSymbolSource="VL.Regex.vl">
-                <Choice Kind="TypeFlag" Name="RegexOptions" />
-              </p:TypeAnnotation>
-            </Pin>
-            <Pin Id="NghXbJGT7OXL3dhvVyf1hI" Name="Output" Kind="OutputPin" />
-          </Node>
-          <Pad Id="C2KGet8gAr9QANwhDp2g2I" Comment="Pattern" Bounds="267,785,298,15" ShowValueBox="true" isIOBox="true" Value="^\^code(\(line=\d+?\))?(\(lang=(.+?)\))?:?\n?\r?(.*?)\^">
-            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
-              <Choice Kind="TypeFlag" Name="String" />
-            </p:TypeAnnotation>
-          </Pad>
-          <Pad Id="EwlK8JsSaYDO3Q9GyV3MRU" Comment="Replacement" Bounds="497,809,45,43" ShowValueBox="true" isIOBox="true" Value="```$3$4&#xD;&#xA;```">
-            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
-              <Choice Kind="TypeFlag" Name="String" />
-            </p:TypeAnnotation>
-          </Pad>
-          <Node Bounds="307,852,165,19" Id="R5NuFbnjZC1NGudKlKsHOZ">
-            <p:NodeReference LastCategoryFullName="Text.RegularExpressions" LastSymbolSource="VL.Regex.vl">
-              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <Choice Kind="OperationCallFlag" Name="RegexOptions" />
-            </p:NodeReference>
-            <Pin Id="JbVa1ukTG15QYC3uz4ZGK0" Name="Ignore Case" Kind="InputPin" />
-            <Pin Id="T9AnpZia83ONFDgpEBCy7t" Name="Culture Invariant" Kind="InputPin" />
-            <Pin Id="Ef3LuDQI5lKMlwPHwWp8cT" Name="Singleline" Kind="InputPin" DefaultValue="True">
-              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
-                <Choice Kind="TypeFlag" Name="Boolean" />
-              </p:TypeAnnotation>
-            </Pin>
-            <Pin Id="A68fObEIM3iPIKL0lse0zP" Name="Multiline" Kind="InputPin" DefaultValue="True">
-              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
-                <Choice Kind="TypeFlag" Name="Boolean" />
-              </p:TypeAnnotation>
-            </Pin>
-            <Pin Id="JHu0ChaXEpFOltn3VtNRHd" Name="Ignore Pattern Whitespace" Kind="InputPin" />
-            <Pin Id="Eso4CwWsemfQCkpMSK1H3E" Name="Compiled" Kind="InputPin" />
-            <Pin Id="PSlfmTCvwJWLXYfU4cbnm4" Name="Explicit Capture" Kind="InputPin" />
-            <Pin Id="FJ0SdJRMBB0OfxIY0SNB9P" Name="Right To Left" Kind="InputPin" />
-            <Pin Id="K8TLgH3vSmwLOMZXUJ9UAU" Name="ECMAScript" Kind="InputPin" />
-            <Pin Id="P0X7NxKEM90MqiF5BNdaGm" Name="Output" Kind="OutputPin" />
-          </Node>
-          <Pad Id="LJIvxUpng2hQTK0WjE1gBk" Comment="" Bounds="254,1009,185,21" ShowValueBox="true" isIOBox="true" />
         </Canvas>
         <Patch Id="GSedt8PLNiBPQkkKwaMqT8" Name="Create" />
         <Patch Id="RuMOLwrey91OnLJeird8LE" Name="Update" />
@@ -4732,11 +4676,6 @@
         <Link Id="BYZux9NXl91NiErZMKHEEb" Ids="ICMsULu6hAZOf1zja4dZxB,Le8mr1YtAZFL9yUqG6Z3jf" />
         <Link Id="Qmax1ajc833MomCwM206QX" Ids="ACX2pQsAfLcLgxnBklo9xM,VdFjzcKWDW0MauOoPXlKtI" />
         <Link Id="SqEiwYMmq6LOVx3HAqsbzk" Ids="KMMvY7whY9EPzajjKfSzSz,D5PUf5XRITCP3eC4mtpEMp" />
-        <Link Id="OU2QX0nGtxyMG1bSbuV6bZ" Ids="C2KGet8gAr9QANwhDp2g2I,Al7x2cb2nVQOThBbRtWx2z" />
-        <Link Id="NuIQBE2VXzYN2Gj7sLjLLw" Ids="EwlK8JsSaYDO3Q9GyV3MRU,AYHyfngTpzAQTUT9mt7vFG" />
-        <Link Id="V3lS511XfO3PQOgNh7XaR9" Ids="P0X7NxKEM90MqiF5BNdaGm,OpkGbSlSJw9OssxGBhGR5l" />
-        <Link Id="Em59GOYivcWPVTW0eoTW2C" Ids="EzgukogcpnSO7llHmjQRBu,GgSpsuZijvYLDSzsCH3i0u" />
-        <Link Id="P8NPJONBFJ7MHus1X4hBt7" Ids="NghXbJGT7OXL3dhvVyf1hI,LJIvxUpng2hQTK0WjE1gBk" />
       </Patch>
     </Node>
   </Patch>
