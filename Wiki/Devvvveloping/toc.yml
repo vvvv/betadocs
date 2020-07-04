@@ -5,7 +5,7 @@
 - name: Dynamic VL Plugin Reference
   href: Dynamic VL Plugin Reference.md
 - name: Dynamic C# Plugin Reference
-  href: Dynamic Csharp Plugin Reference.md
+  href: Dynamic CSharp Plugin Reference.md
 - name: VVVV SDK
   href: VVVV SDK.md
 - name: Test Framework

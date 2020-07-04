@@ -1,7 +1,6 @@
-# Dynamic CSharp Plugin Reference
+# Dynamic C# Plugin Reference
 
-
-# Cloning a Template
+## Cloning a Template
 
 ![](~/img/clone-d.png "")   
 
@@ -16,9 +15,9 @@ Press *Clone* to see your ready plugin appear in the patch. Rightclick the node 
 Use the [Project Explorer](TODO INTERNALLINK:the-gui#project-explorer) to add/remove documents or references to a plugin.   
 
 
-# PluginInfo
+## PluginInfo
 
-```  
+```csharp
 [PluginInfo(Name = "Template",  
             Category = "Value",
             Help = "A Template",
@@ -37,9 +36,9 @@ Here is a [listing of all available PluginInfos](TODO INTERNALLINK:/pluginspecs/
 Regarding the **AutoEvaluate** setting see the Evaluate() section below.  
 
 
-# Defining Pins
+## Defining Pins
 
-```  
+```csharp
 [Config("My Config Value")]  
 public ISpread<double> FConfig;  
 
@@ -136,9 +135,9 @@ In the unlikely case that you need to react to pin connect/disconnect events use
 
 
 
-# Evaluate
+## Evaluate
 
-```  
+```csharp
 public void Evaluate(int SpreadMax)  
 {   
   FOutput.SliceCount = SpreadMax;
@@ -165,9 +164,9 @@ SpreadMax = SpreadUtils.SpreadMax(FInput1, FInput2 /* state ALL your inputs here
 
 ```   
 
-# The Constructor: Initializing stuff
+## The Constructor: Initializing stuff
 
-```  
+```csharp
 public MyNodeClassname()  
 {   
   //initialize stuff
@@ -195,9 +194,9 @@ If you need to access any of the variables you defined as in- or outputs you'll 
 
 
 
-# The Destructor: Disposing stuff
+## The Destructor: Disposing stuff
 
-```  
+```csharp
 public class MyNodeClassname:   
 IPluginEvaluate,   
 IDisposable  
@@ -217,9 +216,9 @@ public void Dispose()
 In case your plugin makes use of resources which need to be released when the plugin gets deleted you need to implement the <a href="http://msdn.microsoft.com/en-us/library/system.idisposable%28v=vs.110%29.aspx" class="extURL" target="_blank">IDisposable</a> interface. In its Dispose method you can do all the necessary clean-up tasks.  
 
 
-# Accessing Internals: The HDEHost
+## Accessing Internals: The HDEHost
 
-```  
+```csharp
 [Import()]  
 public IPluginHost2 FPluginHost;  
 
@@ -233,9 +232,9 @@ There are two entry points if you want to access some of the internals of vvvv:
 * want access to the whole of vvvv, have a look at [IHDEHost](TODO INTERNALLINK:/pluginspecs/html/AllMembers_T_VVVV_PluginInterfaces_V2_IHDEHost.htm)  
 
 
-# Usings
+## Usings
 
-```  
+```csharp 
 using System;  
 ..  
 using VVVV.PluginInterfaces.V2;
@@ -246,9 +245,9 @@ All entities in .NET can be reached via a global path, which is a combination of
 The using statements are there to be able to shorten your code by only saying ISpread<bool>. For that to work it is necessary to use the namespace (VVVV.PluginInterfaces.V2) once at the beginning of the code.  
 
 
-# Debugging
+## Debugging
 
-```  
+```csharp
 [Import()]  
 public ILogger Flogger;  
 ...  
@@ -267,7 +266,7 @@ If you want to set breakpoints and step through your code line by line you'll ne
 Now when a breakpoint is hit the IDE stops vvvv and you can step through your lines of code.  
 
 
-# Further optional interfaces to implement
+## Further optional interfaces to implement
 
 
 
@@ -281,4 +280,4 @@ Now when a breakpoint is hit the IDE stops vvvv and you can step through your li
 
 
 
-
+
