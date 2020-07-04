@@ -22,7 +22,7 @@
     "fileMetadataFiles": [],
     "template": [
       "default",
-	  "custom_templates/vvvv"
+	    "custom_templates/vvvv"
     ],
     "postProcessors": [ "ExtractSearchIndex" ],
 	"globalMetadata": {
