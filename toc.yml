@@ -1,3 +1,8 @@
-- name: Wiki
-  href: Wiki/
-  homepage: Wiki/index.md
+- name: Learning
+  href: Wiki/Learning/
+- name: Using vvvv
+  href: Wiki/Using vvvv/
+- name: Topics
+  href: Wiki/Topics/
+- name: Devvvveloping
+  href: Wiki/Devvvveloping/
