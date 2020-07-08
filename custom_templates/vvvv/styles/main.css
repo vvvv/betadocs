@@ -31,3 +31,25 @@ body {
     padding-left: 1em;
     background-color: #d1e8f1;
 }
+
+.sidetoc 
+{
+    position: relative;
+}
+
+.sidefilter {
+    position: relative;
+}
+
+header{
+    position: inherit;
+    top: inherit;
+    left: inherit;
+    right: inherit;
+    z-index: 1000;
+}
+
+#wrapper {
+    /* min-height: 100%; */
+    /* position: relative; */
+  }

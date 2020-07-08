@@ -8,10 +8,10 @@
 <!--[if IE]><![endif]-->
 <html>
   {{>partials/head}}
-  <body data-spy="scroll" data-target="#affix" data-offset="120">
+  <body data-spy="scroll" data-target="#affix" data-offset="0">
     <div id="wrapper">
-      <header>
-        {{>partials/vvvvheader}}
+      {{>partials/vvvvheader}}
+      <header class="sticky-top">
         {{^_disableNavbar}}
         {{>partials/navbar}}
         {{/_disableNavbar}}
@@ -20,7 +20,7 @@
         {{/_disableBreadcrumb}}
       </header>
       {{#_enableSearch}}
-      <div class="container body-content">
+      <div class="container body-content sticky-top">
         {{>partials/searchResults}}
       </div>
       {{/_enableSearch}}
