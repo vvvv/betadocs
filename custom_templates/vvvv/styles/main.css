@@ -49,7 +49,16 @@ header{
     z-index: 1000;
 }
 
-#wrapper {
+#wrapper
+{
+    width:100%;
+}
+
+.content {
     /* min-height: 100%; */
     /* position: relative; */
+    min-width:1120px;
+    max-width:1170px;
+    margin:0 auto;
+    padding:0;
   }
