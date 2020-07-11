@@ -4,6 +4,8 @@
   href: Geometries.md
 - name: Meshes
   href: Meshes.md
+- name: Collada
+  href: Collada.md
 - name: Lines
   href: Lines.md
 - name: Curves

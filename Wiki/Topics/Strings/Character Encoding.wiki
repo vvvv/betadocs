@@ -1,0 +1,35 @@
+!String encodings in vvvv
+Using vvvv we mostly don't have to worry about the mess of character encodings at all, since it simply uses unicode. Only when reading/writing to/from files or sending/receiving a string via the network you'll have to specify an encoding. Still here is a bit of history:
+
+!Before Unicode
+In the beginning there was [https://en.wikipedia.org/wiki/Ascii|ASCII], a 7bit encoding that includes definitions for 128 characters (33 of which are non-printing [https://en.wikipedia.org/wiki/Control_character|control characters]). But those 128 symbols were obviously not enough to represent all of the worlds languages and therefore different organizations started to define their own (mostly 8bit) character encodings (also referred to as [https://en.wikipedia.org/wiki/Code_page|code pages]) that allowed them to represent more different symbols each. 
+
+This lead to a big naming-mess which is hard to grasp in its entirety as this attempt to compile a [http://www.firstobject.com/character-set-name-alias-code-page.htm|listing of codepages and their aliases] shows. One popular codepage for example runs by the following names:
+
+^__Western European (Windows)__, 1252, Windows-1252, x-ansi, CP1252, MS-ANSI^
+not to be confused with:
+^__Western European (ISO)__, 28591, iso-8859-1, cp819, Latin1, ibm819, iso_8859-1, iso_8859-1:1987, iso8859-1, iso-ir-100, l1, csISOLatin1^
+which basically defines the same, but some less characters. 
+
+To add to the confusion Microsoft now calls the "Windows Code Pages" what were formerly know as the [https://en.wikipedia.org/wiki/Windows_code_page#ANSI_code_page|ANSI Code Pages]. And the simple term ''ANSI'' is still often used synonymously for "single-byte encoding" which can be interpreted (for display) by applications as any single-byte codepage, typically the one that is specified via the [https://en.wikipedia.org/wiki/Locale|locale setting]) of the operating system.
+
+This had to be sorted. Enter ''Unicode'' the one-fits-all universal character set.
+
+!Unicode
+A simple idea but another naming-fiasco. Talking "unicode" is only half of the story. The term itself only denotes the character set which holds all the characters you can imagine and assigns a unique [https://en.wikipedia.org/wiki/Codepoint|code point] to each of them. So instead of the incomprehensible number of different 8bit codepages there is now one large character set that can uniquely address 1.114.112 different code points in 17 [https://en.wikipedia.org/wiki/Plane_%28Unicode%29|planes] of 2^16 characters each (only a fraction of which is actually assigned by now). The first plane goes by the name [https://en.wikipedia.org/wiki/Plane_%28Unicode%29|Basic Multilingual Plane (BMP)] and consists of code points in the range of U+0000 to U+​FFFF (just so you have heard about that, nothing to worry about really).
+
+Nothing has been said so far about how a series of such code points can be made into a sequence of bytes for saving strings or sending them via the network. This is what __encoding schemes__ are for. Different [https://en.wikipedia.org/wiki/Utf|Unicode Transformation Formats (UTF)] exist that describe the ordering of bytes that make up a unicode string. So when facing a unicode string the relevant question is the one after its encoding. Luckily nowadays the answer most likely is: UTF-8.
+
+While at first glance that name may give the impression that it uses 8bits to encode characters, UTF-8 is actually a [https://en.wikipedia.org/wiki/Variable-width_encoding|variable width encoding] scheme that uses up to 4 code units (with a size of 8bits each) to encode any character. One speciality of UTF-8 is that it encodes all of the ASCII characters using one byte only therefore being compatible to plain ASCII encoding. 
+
+Still the question remains how, given a string, one could find out about its encoding. While there is the concept of the [https://en.wikipedia.org/wiki/Byte_order_mark|Byte Order Mark (BOM)], a series of leading bytes in a string to signify its encoding is used for [https://en.wikipedia.org/wiki/UTF-16|UTF-16] (formerly known as UCS-2) encodings, its use is [https://en.wikipedia.org/wiki/Byte_order_mark#cite_note-2#cite_note-2|neither required or recommended] for UTF-8. Leaving a parser to guess at a string that has none of the UTF-16 BOMs but still contains bytes higher than the ASCII range to be UTF-8 encoded. 
+
+For xml-documents e.g the encoding is supposed to be specified in the first tag of its content, like:
+ <?xml version="1.0" encoding="UTF-8"?>
+
+
+!Links
+[http://www.joelonsoftware.com/articles/Unicode.html|The Absolute Minimum Every Software Developer Absolutely, Positively Must Know About Unicode and Character Sets (No Excuses!)] by Joel Spolsky
+[https://en.wikipedia.org/wiki/Unicode|Wikipedia on Unicode]
+http://www.unicode.org
+[http://notepad-plus-plus.org/|Nodepad++] free text editor with flexible encoding options

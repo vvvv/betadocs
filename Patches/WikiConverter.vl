@@ -4755,7 +4755,7 @@
               <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Bang</p:buttonmode>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="DqC6SCifNn9MCWAGzVTES9" Comment="File Path" Bounds="475,219,323,-12" ShowValueBox="true" isIOBox="true" Value="..\Wiki\Topics\Math\Overview.wiki">
+          <Pad Id="DqC6SCifNn9MCWAGzVTES9" Comment="File Path" Bounds="475,219,323,-12" ShowValueBox="true" isIOBox="true" Value="..\Wiki\Devvvveloping\Effects\Shader Snippets.wiki">
             <p:TypeAnnotation LastCategoryFullName="IO" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="Path" />
             </p:TypeAnnotation>
@@ -4794,7 +4794,7 @@
             <Pin Id="AowgEBlQXiHQRoOuTwvELi" Name="Directory" Kind="InputPin" />
             <Pin Id="P2WwSFeja2cO4nRdi5ML1h" Name="Merge" Kind="InputPin" />
           </Node>
-          <Pad Id="QaJsaEg39IZNb8XRFX4lhA" Comment="Directory" Bounds="873,500,35,15" ShowValueBox="true" isIOBox="true" Value="..\Wiki\Topics\Audio\Output">
+          <Pad Id="QaJsaEg39IZNb8XRFX4lhA" Comment="Directory" Bounds="873,500,35,15" ShowValueBox="true" isIOBox="true" Value="..\Wiki\Topics\Video\Synchronization">
             <p:TypeAnnotation LastCategoryFullName="IO" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="Path" />
             </p:TypeAnnotation>
@@ -4815,7 +4815,7 @@
             <Pin Id="Le8mr1YtAZFL9yUqG6Z3jf" Name="Directory" Kind="InputPin" />
             <Pin Id="VdFjzcKWDW0MauOoPXlKtI" Name="Make" Kind="InputPin" />
           </Node>
-          <Pad Id="ICMsULu6hAZOf1zja4dZxB" Comment="Directory" Bounds="1085,325,375,-5" ShowValueBox="true" isIOBox="true" Value="..\Wiki\Using vvvv\Spreads\\">
+          <Pad Id="ICMsULu6hAZOf1zja4dZxB" Comment="Directory" Bounds="1085,325,375,-5" ShowValueBox="true" isIOBox="true" Value="..\Wiki\Devvvveloping\Effects\">
             <p:TypeAnnotation LastCategoryFullName="IO" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="Path" />
             </p:TypeAnnotation>

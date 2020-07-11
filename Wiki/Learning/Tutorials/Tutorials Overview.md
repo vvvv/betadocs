@@ -48,7 +48,6 @@ uid: c5008f4e-f136-4cf5-915e-dbf32e4e5a70
 * [Wave Simulation](TODO INTERNALLINK:Wave Simulation)  
 * [Writing Freeframe Plugins](TODO INTERNALLINK:Writing Freeframe Plugins)  
 * <a href="http://wiring.org.co/learning/tutorials/vvvv/" class="extURL" target="_blank">Interfacing the Wiring hardware and VVVV</a>  
-* [How to make high quality 3D scenes](TODO INTERNALLINK:tutorial-how-to-make-high-quality-3d-scenes)  
 * [Projection Mapping Primer](TODO INTERNALLINK:Projection Mapping Primer)  
 
 

@@ -6,8 +6,8 @@
   href: Capturing Output/toc.yml
 - name: Analysis - Tracking
   href: Analysis - Tracking/toc.yml
-- name: Synchronization
-  href: Synchronization/toc.yml
+- name: Video Synchronization
+  href: Synchronization.md
 - name: Streaming
   href: Streaming/toc.yml
 - name: Video Software Links

@@ -1,0 +1,12 @@
+- name: EX9 Effect File
+  href: EX9 Effect File.md
+- name: EX9 Effect Node
+  href: EX9 Effect Node.md
+- name: EX9 Effect Template
+  href: EX9 Effect Template.md
+- name: EX9 HLSL Introduction
+  href: EX9 HLSL Introduction.md
+- name: EX9 HLSL Semantics
+  href: EX9 HLSL Semantics.md
+- name: EX9 HLSL Annotations
+  href: EX9 HLSL Annotations.md

@@ -13,7 +13,7 @@
 - name: Directshow Filter
   href: Directshow Filter.md
 - name: Effects
-  href: Effects.md
+  href: Effects/toc.yml
 - name: Freeframes
   href: Freeframes/toc.yml
 - name: Modules
