@@ -10,7 +10,15 @@
   href: VVVV SDK.md
 - name: Test Framework
   href: Test Framework.md
-- name: Developing Addons
-  href: Developing Addons/toc.yml
+- name: Directshow Filter
+  href: Directshow Filter.md
+- name: Effects
+  href: Effects.md
+- name: Freeframes
+  href: Freeframes/toc.yml
+- name: Modules
+  href: Modules.md
+- name: Plugins
+  href: Plugins/toc.yml
 - name: Diplomas
   href: Diplomas.md  

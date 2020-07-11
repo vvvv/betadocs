@@ -1,0 +1,15 @@
+!!ASIO
+Audio Stream Input/Output (ASIO) is a computer sound card driver protocol for digital audio specified by Steinberg, providing a low-latency and high fidelity interface between a software application and a computer's sound card. Whereas Microsoft's DirectSound is commonly used as an intermediary signal path for non-professional users, ASIO allows musicians and sound engineers to access external hardware directly.
+
+While most consumer sound cards do not come with ASIO drivers, there is a generic ASIO driver available that works with most sound cards [http://www.asio4all.com/|ASIO4ALL].
+
+{SPLIT()}
+!VAudio
+The ((contribution:vvvv.audio-pack-alpha|VVVV.Audio pack)) is fully built on ASIO.
+~~~
+!Bass
+There are two nodes in the ((glossary:BASS)) category for working with ASIO:
+
+* ((node:AudioIn (Bass Asio)))
+* ((node:AudioOut (Bass Asio))).
+{SPLIT}

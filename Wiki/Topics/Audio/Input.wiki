@@ -1,0 +1,30 @@
+!Microphone / Line-In
+{SPLIT()}
+!!!!Related nodes
+((node:AudioIn (DShow9)))
+AudioIn (VAudio)
+((node:AudioIn (Bass Asio)))
+
+~~~
+To get sound from a microphone or Line-In into vvvv, use ((node:AudioIn (DShow9))), AudioIn (VAudio) or ((node:AudioIn (Bass Asio))) and select the corresponding option on its ((pin:Driver)) pin.
+
+Examples in your vvvv\girlpower\ directory:
+* Audio
+
+{SPLIT}
+
+!Stereo Mix
+{SPLIT()}
+!!!!Related nodes
+((node:AudioIn (DShow9)))
+((node:AudioIn (Bass Asio)))
+
+~~~
+To get a sound that you're playing on your PC into vvvv, use ((node:AudioIn (DShow9))) or ((node:AudioIn (Bass Asio))) nodes. Select the '''Stereo Mix''' (sometimes called '''Rec. Playback''' or similar) option on its ((pin:Driver)) pin.
+
+Problems getting sound into vvvv? See ((accessing stereo mix)).
+
+Examples in your vvvv\girlpower\ directory:
+* Audio
+
+{SPLIT}

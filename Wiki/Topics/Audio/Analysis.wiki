@@ -1,0 +1,80 @@
+!RMS
+{SPLIT()}
+!!!!Related nodes
+((node:RMS (DShow9)))
+((node:RMS (Bass)))
+Gist (VAudio)
+
+~~~
+The Gist (VAudio) tracks several features of the incoming audio: 
+* RMS
+* PeakEnergy
+* ZeroCrossingRate
+* SpectralCentroid
+* SpectralCrest
+* SpectralFlatness
+* EnergyDifference
+* SpectralDifference
+* SpectralDifferenceHWR
+* HighFrequencyContent
+* PitchYin
+
+There are ((node:RMS (DShow9))) and ((node:RMS (Bass))) simple envelope followers. They return the current volume for the left and the right channel.
+
+!!!!Note
+
+With all DShow9 pins (of type audio / midi / video) you can connect __each output to only one input__ pin. Therefore it is not possible with the DShow9 system to play a file and analyse it at the same time. The ((glossary:BASS)) and VAudio doesn't have this restriction.
+
+Examples in your vvvv\girlpower\ directory:
+* Audio
+
+{SPLIT}
+
+!FFT
+{SPLIT()}
+!!!!Related nodes
+((node:FFT (DShow9)))
+FFT (VAudio Sink)
+((node:FFT (BASS)))
+((node:FFT (Bass NRT)))
+((node:FFT (DShow9 4Channels)))
+
+~~~
+
+There are several nodes performing a Fast Fourier transform:
+* ((node:FFT (DShow9))), ((node:FFT (Bass))), FFT (VAudio Sink) return current volumes for a spread of frequencies
+* ((node:FFT (Bass NRT))) processes files without playing them (Non-RealTime version)
+* ((node:FFT (DShow9 4Channels))) returns four volumes on Bass, LoMid, HighMid and High frequency bands.
+
+An FFT returns a spread of amplitudes of a linearly distributed scale of frequencies. But based on experiments on human hearing perception it is known that the scale of frequencies is approximately logarithmic at the high-frequency end, and nearly linear at the low-frequency end.
+
+That means that human meatbags can very good distinguish between low frequencies but the high frequencies sounds almost all the same. Music producers of course make use of that fact, see [http://en.wikipedia.org/wiki/Psychoacoustics|Psychoacoustics].
+
+That’s not all. Amplitudes should be scaled in a way, that higher frequencies have a bigger scaling factor. Despite the fact that low frequencies carry high energies (resulting in big values coming from FFT), humans perceive low frequencies dull. That is why mid and high frequencies have to be scaled up (nonlinearly).
+
+The FFT Nodes have the ((pin:Frequency Scaling)) exactly for that.
+
+For more info on perception check: [http://en.wikipedia.org/wiki/Equal-loudness_contour|Equal-loudness contour].
+
+Examples in your vvvv\girlpower\ directory:
+* Audio
+
+{SPLIT}
+
+!Beat trackers
+{SPLIT()}
+!!!!Related nodes
+((node:BeatDetector (Value)))
+((node:BeatDetector (BASS)))
+((node:BeatScanner (Bass)))
+
+~~~
+
+There are some useful modules to track beats:
+* ((node:BeatDetector (Value))) / ((node:BeatDetector (Bass))) are looking for beats in a stream.
+* ((node:BeatScanner (Bass))) performs beat detection on a file.
+
+Examples in your vvvv\girlpower\ directory:
+* Audio
+
+{SPLIT}

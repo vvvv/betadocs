@@ -1,0 +1,9 @@
+*[http://www.download.com/SoundCapture/3000-2168_4-10079089.html|SoundCapture] records stream audio. Record what your sound card plays back. Mp3 real-time encoding, CD quality. Line-in support LP/MD/Tape audio backup. freeware, should be remotable via ((node:ShellExecute (Windows) )) and Hotkey
+* [http://www.plogue.com/index.php?option=content&task=view&id=21&Itemid=35|Bidule]
+* [http://cps.bonneville.nl/|cps]
+* [http://audacity.sourceforge.net/|Audacity]
+* [http://puredata.info/ | PureData]
+* [http://software.muzychenko.net/eng/vac.html|Virtual Audio Cable]
+* [http://www.audiograbber.org|AudioGrabber]
+*[http://hapax84.free.fr/telecharg.html | seqcon] a free multi source player suite, based on asio, midi remotable.
+* [http://www.asio4all.com/|ASIO4ALL] - Universal ASIO Driver For WDM Audio (generic ASIO driver)
