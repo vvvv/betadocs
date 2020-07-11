@@ -69,7 +69,7 @@ Understand that vvvv and all addons come in two flavours: x86 (=32bit) and x64 (
 A node may be perfectly running for some time and only experience an occasional runtime error, in which case it turns red to indicate its problem and lead you to it. You have different options to deal with such red nodes:  
 * ignore them if they don't do your program any harm. vvvv may still be running fine and only hint to you that this could be a problem under certain circumstances  
 * sometimes it may help to re-initialize a node using ALT+rightclick on the node. But beware that even though this may help temporarily the problem may return at some later point   
-* open <span class="node">Renderer (TTY)</span> and see if there is an error message which you could post on the [forum](TODO INTERNALLINK:/forums) to ask for help  
+* open <span class="node">Renderer (TTY)</span> and see if there is an error message which you could post on the [forum](https://vvvv.org/forums) to ask for help  
 
 
 

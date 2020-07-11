@@ -59,7 +59,7 @@ Any pack (apart from the Addonpack) has to be placed inside a directory called \
 
 
 
-[/Contributions](TODO INTERNALLINK:/Contributions) are a simple way for anyone to share modules, effects, plugins...   
+[/Contributions](https://vvvv.org/Contributions) are a simple way for anyone to share modules, effects, plugins...   
 
 If you want to use any contribution you downloaded you best do it like this:  
 * create a directory anywhere called e.g. "vvvvContributions"  

@@ -4,7 +4,7 @@ uid: 87a427cb-b546-44ab-91a5-a4d12abe1b7f
 
 # 0. Checklist
 
-* Can vvvv do what you want? See the [Propaganda](TODO INTERNALLINK:/propaganda) page for an overview of vvvv's main capabilities and where to find info about them.  
+* Can vvvv do what you want? See the [Propaganda](https://vvvv.org/propaganda) page for an overview of vvvv's main capabilities and where to find info about them.  
 * Needs Windows 7/8/10  
 * 3 button mouse (recommended)  
 
@@ -12,7 +12,7 @@ uid: 87a427cb-b546-44ab-91a5-a4d12abe1b7f
 
 vvvv is available in two different forms:  
 * [Beta](TODO INTERNALLINK:downloads) - stable releases. **Production grade**  
-* [Previews](TODO INTERNALLINK:/downloads/previews) - has more features, but maybe unstable. **Don't use for production**  
+* [Previews](https://vvvv.org/downloads/previews) - has more features, but maybe unstable. **Don't use for production**  
 
 Take the **64bit** version.  
 
@@ -55,7 +55,7 @@ The written [Documentation](TODO INTERNALLINK:Documentation) is structured in th
 * [Using vvvv](TODO INTERNALLINK:using-vvvv): all you need to know about the main features  
 * [Topics](TODO INTERNALLINK:topics): covers specific usage scenarios like: Graphics, Audio, Video, IO...  
 
-Not sure about a certain term? Try the [glossary](TODO INTERNALLINK:/glossary).  
+Not sure about a certain term? Try the [glossary](https://vvvv.org/glossary).  
 
 # 6. Tons of amazing Contributions
 Here is a listing of <a href="https://vvvv.org/contributions/" class="extURL" target="_blank">Contributions</a> provided by our ever-growing community.  
@@ -65,7 +65,7 @@ See the [Using Addons Guide](TODO INTERNALLINK:using-addons) on how to install t
 
 * Share some screenshots using [the Kommunikator](TODO INTERNALLINK:the-gui#kommunikator)  
 * Share your projects in the <a href="https://vvvv.org/blog/24+126+124" class="extURL blog" target="_blank">gallery section of our blog</a>   
-* Share your patches and plugins in <a href="https://vvvv.org/contributions/" class="extURL" target="_blank">the Contributions</a> or [the Store](TODO INTERNALLINK:/store)  
+* Share your patches and plugins in <a href="https://vvvv.org/contributions/" class="extURL" target="_blank">the Contributions</a> or [the Store](https://vvvv.org/store)  
 * Follow <a href="https://mastodon.xyz/@vvvv" class="extURL" target="_blank">vvvv on Mastodon</a> for latest news bits  
 * Subscribe to the <a href="https://www.youtube.com/channel/UCu-xqv-TLwv6L0An7MJJA5A" class="extURL" target="_blank">vvvvTv youtube channel</a> for tutorials, howtos and more  
 * Join the <a href="https://vimeo.com/groups/vvvv/" class="extURL" target="_blank">vimeo group vvvv</a> for a stream of projects by fellow patchers  
@@ -76,7 +76,7 @@ See the [Using Addons Guide](TODO INTERNALLINK:using-addons) on how to install t
 
 # 8. Looking for help?
 
-* Never hesitate to ask questions in [the forum](TODO INTERNALLINK:/forums) or [the chat](TODO INTERNALLINK:/chat)  
+* Never hesitate to ask questions in [the forum](https://vvvv.org/forums) or [the chat](https://vvvv.org/chat)  
 * More options here: [How To Find Help](TODO INTERNALLINK:howto-find-help)  
 
 # 9. The bigger picture

@@ -8,7 +8,7 @@ uid: 09f00508-01d4-4eac-b6d3-4dace5b00d99
 
 Our brave member **<span class="user"><a href="https://vvvv.org/users/west" class="extURL" target="_blank">west</a></span>** made a bunch of tutorial videos for beginners  
 
-There is also a project page with more advanced tutorials and projects. [Bonus Video Tutorials](TODO INTERNALLINK:/documentation/bonus-video-tutorials)  
+There is also a project page with more advanced tutorials and projects. [Bonus Video Tutorials](https://vvvv.org/documentation/bonus-video-tutorials)  
 
 There is also a <a href="https://www.youtube.com/watch?v=BMX9dEG9SFA&list=PLBTgwgsWWcT-gfWArw2iI_rHvm9Uszfak" class="extURL" target="_blank">playlist on YouTube</a>.  
 

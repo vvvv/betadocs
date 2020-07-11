@@ -40,7 +40,7 @@ There is also another way to represent a color in RGB space, which is typically 
 * **HSL** (Hue, Saturation, Lightness)  
 * **HSV** (Hue, Saturation, Value) aka HSB.  
 
-The <span class="node">IOBox (Color)</span> uses the HSV representation by default, see [Color IOBoxes](TODO INTERNALLINK:/documentation/ioboxes#color).  
+The <span class="node">IOBox (Color)</span> uses the HSV representation by default, see [Color IOBoxes](https://vvvv.org/documentation/ioboxes#color).  
 
 Note, other software packages can specify individual components in another ranges:  
 * RGB: 0..255 for the Color channels and 0..100% for the Alpha  

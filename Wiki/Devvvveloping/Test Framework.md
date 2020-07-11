@@ -5,7 +5,7 @@ uid: c8c5354b-da7f-4dad-842c-f4ea775f6026
 # Test Framework
 In order to prevent certain bugs from resurfacing again after they've been fixed, vvvv has a test framework. The framework consists of a couple of nodes and a simple template that test-patches have to follow to test for a specific known bug. If the bug persists, the patch returns an error-, otherwise a success-code.   
 
-Everytime the vvvv build-server creates a new [alpha-vvvversion](TODO INTERNALLINK:/downloads/alphas) it also runs all available test-patches. If any of the test-patches fails, the build is not being released and the devvvvs are being informed about the problem.  
+Everytime the vvvv build-server creates a new [alpha-vvvversion](https://vvvv.org/downloads/alphas) it also runs all available test-patches. If any of the test-patches fails, the build is not being released and the devvvvs are being informed about the problem.  
 
 Therefore the more test-patches we collect about known issues the less likely it is that our build-server lets a buggy build slip through. Here is how you can help us to improve the release-quality of vvvv by creating and sending us test-patches for issues you find:  
 

@@ -11,7 +11,7 @@ Capture Cards either come with a WDM driver or a proprietary API. In the first c
 
 **Blackmagic Design DeckLink**  
 
-* [DX11 BlackmagicDesign Decklink VideoIn](TODO INTERNALLINK:/store#dx11-blackmagicdesign-decklink-videoin) by <a href="http://nsynk.de/" class="extURL" target="_blank">NSYNK</a>  
+* [DX11 BlackmagicDesign Decklink VideoIn](https://vvvv.org/store#dx11-blackmagicdesign-decklink-videoin) by <a href="http://nsynk.de/" class="extURL" target="_blank">NSYNK</a>  
 
 **Legacy**  
 

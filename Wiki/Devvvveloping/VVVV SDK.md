@@ -3,7 +3,7 @@ uid: 51377b2d-17a4-4b5f-b0c1-eb2cc11fe251
 ---
 
 # VVVV SDK
-The vvvv-sdk is the one-stop solution that allows you to contribute stuff to the [addonpack](TODO INTERNALLINK:About the Addonpack). It includes all of vvvv's open source code and the source code of all contributed addons. As it comes as a <a href="http://git-scm.com/" class="extURL" target="_blank">git</a> repository it allows you to conveniently stay uptodate with latest developments and always build your addons against the latest [alpha builds](TODO INTERNALLINK:/downloads/alphas).   
+The vvvv-sdk is the one-stop solution that allows you to contribute stuff to the [addonpack](TODO INTERNALLINK:About the Addonpack). It includes all of vvvv's open source code and the source code of all contributed addons. As it comes as a <a href="http://git-scm.com/" class="extURL" target="_blank">git</a> repository it allows you to conveniently stay uptodate with latest developments and always build your addons against the latest [alpha builds](https://vvvv.org/downloads/alphas).   
 
 If you just want to browse through the code you can do so at the <a href="https://github.com/vvvv/vvvv-sdk" class="extURL" target="_blank">vvvv-sdk github page</a>. There are 3 reasons that would make you want to follow the instructions below:  
 * you want to improve help patches/modules/effects/freeframes/plugins  

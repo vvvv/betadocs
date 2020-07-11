@@ -22,7 +22,7 @@ Examples in your vvvv\girlpower\ directory:
 
 **DX11 Versions:**  
 * Free: <a href="https://vvvv.org/contribution/Player (DX11.Texture" class="extURL contribution" target="_blank">Player (DX11.Texture</a>) contribution by <span class="user"><a href="https://vvvv.org/users/woei" class="extURL" target="_blank">woei</a></span>  
-* Pro: [DX11 Imagesequence Player](TODO INTERNALLINK:/store/#dx11-imagesequence-player) by NSYNK  
+* Pro: [DX11 Imagesequence Player](https://vvvv.org/store/#dx11-imagesequence-player) by NSYNK  
 
 
 

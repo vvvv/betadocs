@@ -8,18 +8,18 @@ The [Documentation](TODO INTERNALLINK:Documentation) page collects all known mat
 
 # Help from other People
 #### vvvvorums
-The [forum](TODO INTERNALLINK:/forums) is the place for asking questions and sharing ideas. All vvvv developers are regularily reading the forum so you're very likely to get an answer soon.    
+The [forum](https://vvvv.org/forums) is the place for asking questions and sharing ideas. All vvvv developers are regularily reading the forum so you're very likely to get an answer soon.    
 
 Although we encourage you to register, you can post to the forum by loging in as "guest" with password "guest".    
 
 #### Chat
-We encourage everybody to join us for a [chat](TODO INTERNALLINK:/chat).  
+We encourage everybody to join us for a [chat](https://vvvv.org/chat).  
 
 #### Shoutbox 
 To get some short time attention of the community (resulting in fast answers) place a SOS signal into the shoutbox.   
 
 #### Screenshots of the Day
-You can post a screenshot on the [blog](TODO INTERNALLINK:/blog) directly out of vvvv by selecting a window and pressing CRTL+3.  
+You can post a screenshot on the [blog](https://vvvv.org/blog) directly out of vvvv by selecting a window and pressing CRTL+3.  
 Pressing CTRL+3 works with any vvvv-window. So make sure to have the renderer selected when you want to show us your results and not your patches.   
 <a href="https://vvvv.org/blog/26" class="extURL blog" target="_blank">All Screenshots of all the Days</a>   
 

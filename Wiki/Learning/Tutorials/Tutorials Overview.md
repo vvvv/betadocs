@@ -29,7 +29,7 @@ uid: c5008f4e-f136-4cf5-915e-dbf32e4e5a70
 * <a href="https://vimeo.com/197956686" class="extURL" target="_blank">Spreads vs. Single Values</a>  
 * <a href="https://vimeo.com/198615170" class="extURL" target="_blank">Custom Datatypes - think ParticleSystem</a>  
 * <a href="https://vimeo.com/200604809" class="extURL" target="_blank">Some Basics</a>  
-* <a href="https://www.youtube.com/playlist?list=PLG540xv6kfGFIXYVV_hmOZ4U0lGgDuA11" class="extURL" target="_blank">VL Workshop</a> recorded by [schnellebuntebilder](TODO INTERNALLINK:/businesses/schnellebuntebilder)  
+* <a href="https://www.youtube.com/playlist?list=PLG540xv6kfGFIXYVV_hmOZ4U0lGgDuA11" class="extURL" target="_blank">VL Workshop</a> recorded by [schnellebuntebilder](https://vvvv.org/businesses/schnellebuntebilder)  
 * <a href="https://www.youtube.com/playlist?list=PLqjkdWFcBMk_z0kG5-D8VfPfNjjRDdWRV" class="extURL" target="_blank">Japanese VL Tutorials</a>  
 
 ## More vvvv Tutorials
