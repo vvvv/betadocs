@@ -1,3 +1,7 @@
+---
+uid: d13e2b9c-8f5f-4db8-93f6-362a457d8c29
+---
+
 # DX11 Overview
 **table of contents**  
 

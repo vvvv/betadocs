@@ -1,3 +1,7 @@
+---
+uid: 721e9e4b-dec5-4786-878e-3efc4f09c5e7
+---
+
 # Project Explorer
 
 ![](~/img/TheGui-ProjectExplorer2.png "")   

@@ -1,3 +1,7 @@
+---
+uid: d377780f-4761-4137-8c5c-cdf890882d74
+---
+
 # Plain Text files
 
 <a href="http://en.wikipedia.org/wiki/Plain_text" class="extURL" target="_blank">Wikipedia on Plain Text</a>  

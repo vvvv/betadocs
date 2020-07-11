@@ -1,3 +1,7 @@
+---
+uid: 885fd223-4131-4564-ad86-0206c38aaa81
+---
+
 # Texture Transformation
 ## Primitives
 Note that all of the primitives like <span class="node">Quad (DX9)</span>, <span class="node">Segment (DX9)</span>,... have a <span class="pin">Texture Transform</span> next to the <span class="pin">Transform</span>. If you want to position/scale/rotate the texture on a primitive (instead of the primitive itself) you best connect a <span class="node">Transform (Transform 2d)</span> node to the <span class="pin">Texture Transform</span>. Like this you can achieve all desired transformations.   

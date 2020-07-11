@@ -1,3 +1,7 @@
+---
+uid: b29c34aa-3195-4abd-98ac-4d5b997c825e
+---
+
 # FileStream (DShow9)
 
 #### Related nodes

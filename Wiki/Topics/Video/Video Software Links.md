@@ -1,3 +1,7 @@
+---
+uid: dd9d3502-6b19-4cc3-8084-4153676de9d4
+---
+
 # Video Software Links
 ## DirectShow Filters
 * <a href="http://dsp-worx.de" class="extURL" target="_blank">dsp-worx</a> collection of interesting audio and video directshow filters  

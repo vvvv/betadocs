@@ -1,3 +1,7 @@
+---
+uid: 6477d5f6-4272-4cde-8fe5-5d22dea308fc
+---
+
 # Adobe Photoshop
 
 

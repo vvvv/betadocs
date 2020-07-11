@@ -1,3 +1,7 @@
+---
+uid: 0f0f3bcc-cf68-44bb-804c-66a86c1e84ec
+---
+
 # Neighbouring Pixels
 
 There is a series of image processing filters that are based on the idea that from the point of view of one pixel in the image you take its neighbouring pixels (left, top, right, bottom and possibly the diagonal neighbours as well) into account when deciding on the color of the current pixel.  

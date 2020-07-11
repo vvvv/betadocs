@@ -1,3 +1,7 @@
+---
+uid: 3454bd11-2ab3-4aea-946f-74b715eb3b4f
+---
+
 # Geometry Morphing
  
 be it image or geometry. morphing is cool. since morphing/blending geometry is actually quite simple to achieve with vvvv if you understand the basics here comes a little tutorial.  

@@ -1,3 +1,7 @@
+---
+uid: 435355ec-58d2-4381-8e1f-a2b5821cb18e
+---
+
 # Skinning With Skeleton Nodes
 
 

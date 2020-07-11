@@ -1,3 +1,7 @@
+---
+uid: 068e0370-b538-4d72-b9dd-98c4effdfeb3
+---
+
 # Freeframe Extended Specification
 ## Extending FreeFrame
 >note:  

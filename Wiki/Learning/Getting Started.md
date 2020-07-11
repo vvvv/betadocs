@@ -1,3 +1,7 @@
+---
+uid: 87a427cb-b546-44ab-91a5-a4d12abe1b7f
+---
+
 # 0. Checklist
 
 * Can vvvv do what you want? See the [Propaganda](TODO INTERNALLINK:/propaganda) page for an overview of vvvv's main capabilities and where to find info about them.  

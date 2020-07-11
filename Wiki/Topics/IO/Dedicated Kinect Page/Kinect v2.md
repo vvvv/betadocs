@@ -1,3 +1,7 @@
+---
+uid: 30b021e0-d4a0-4611-9718-38c76d1a1860
+---
+
 # Kinect v2
 
 ![](~/img/300px-Xbox-One-Kinect.jpg "")  

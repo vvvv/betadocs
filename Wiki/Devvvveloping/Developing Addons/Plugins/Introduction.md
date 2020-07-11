@@ -1,3 +1,7 @@
+---
+uid: 766d8ac2-5145-417d-b2df-37d24e3b2b6f
+---
+
 # The Basics
 * [Dynamic VL Plugin Reference](TODO INTERNALLINK:Dynamic VL Plugin Reference): quick VL coding reference  
 * [Dynamic C# Plugins Reference](TODO INTERNALLINK:Dynamic Plugins Reference): quick C# coding reference  

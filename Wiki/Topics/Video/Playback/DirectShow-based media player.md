@@ -1,3 +1,7 @@
+---
+uid: fe20c5bb-6f12-4ab0-a617-3766cccd352c
+---
+
 # DirectShow-based media player
 
 

@@ -1,3 +1,7 @@
+---
+uid: 2da366b8-602a-41dd-baf5-7e99a3e487e6
+---
+
 # Network Streaming
 
 #### Related nodes

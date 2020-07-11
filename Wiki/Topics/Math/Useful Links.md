@@ -1,3 +1,7 @@
+---
+uid: 021a5137-e894-44c8-afd6-0a489fe9d8bf
+---
+
 # Useful Links
 ## Useful Resources
 * http://paulbourke.net/  

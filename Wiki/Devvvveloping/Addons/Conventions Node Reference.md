@@ -1,3 +1,7 @@
+---
+uid: fac8d916-e9f4-4948-8c50-b6589854e2ea
+---
+
 # Conventions Node Reference
 In contrast to a Help Patch, the Node Reference Page on the Wiki should contain reference material and discussions. Node Reference and Help Patch are complementary, they are not supposed to replace each other.  
 A good node reference page should contain  

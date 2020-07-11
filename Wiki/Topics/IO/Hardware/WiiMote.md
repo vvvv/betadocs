@@ -1,3 +1,7 @@
+---
+uid: e22a0a2a-175b-4420-97b6-5fbe11c6f075
+---
+
 # WiiMote
 
 <a href="http://en.wikipedia.org/wiki/Wii_Remote" class="extURL" target="_blank">WiiMote</a>  

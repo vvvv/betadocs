@@ -1,3 +1,7 @@
+---
+uid: be2a7b95-9a02-4bdf-8506-e10292de80f4
+---
+
 # Addonpack Modules
 Here is how you prepare modules for the addonpack:  
 

@@ -1,3 +1,7 @@
+---
+uid: 98242e9a-e52a-4557-a9be-9550d3a1396e
+---
+
 # Installer
 
 * Running the installer prompts you with "User Account Control" confirming its authenticity  

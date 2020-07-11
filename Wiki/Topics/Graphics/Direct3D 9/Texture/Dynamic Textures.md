@@ -1,3 +1,7 @@
+---
+uid: f7cd915a-6a5f-453d-b562-10d13b2f5b8a
+---
+
 # Dynamic Textures
 
 

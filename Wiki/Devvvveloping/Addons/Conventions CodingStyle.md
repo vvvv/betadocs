@@ -1,3 +1,7 @@
+---
+uid: dfa9f04a-bfbb-41b9-b475-36031d9085ed
+---
+
 # Conventions CodingStyle
 For better readability and standardization of VVVV related code we should all conform to the coding styles below:  
 

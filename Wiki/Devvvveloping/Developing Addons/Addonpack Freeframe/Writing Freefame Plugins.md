@@ -1,3 +1,7 @@
+---
+uid: ba0e897c-3be4-42c6-b340-5509519d15cf
+---
+
 # Writing Freefame Plugins
 The following tutorial guides you step by step to create your own video effect plugins based on the <a href="http://www.freeframe.org" class="extURL" target="_blank">freeframe</a> 1.0 standard and vvvv.org’s extended freeframe specification, which allows you to return values from video plugins.   
 

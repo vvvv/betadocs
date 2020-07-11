@@ -1,3 +1,7 @@
+---
+uid: 89e664e5-1274-4966-a7cd-82255eea4483
+---
+
 # VL
 
 VL is a new visual programming language supported in vvvv that combines dataflow paradigms with features from object-oriented programming. It builds directly to the <a href="https://en.wikipedia.org/wiki/Common_Intermediate_Language" class="extURL" target="_blank">.NET Intermediate Language</a> and can also consume .NET libraries.  

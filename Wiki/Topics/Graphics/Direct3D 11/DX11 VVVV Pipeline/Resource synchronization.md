@@ -1,3 +1,7 @@
+---
+uid: 1f0eb4dc-a1fe-4f91-abd7-7cec51fd4d55
+---
+
 #  Resource synchronization
 
 Now you have both of your units running happily in parallel. There is an issue.  

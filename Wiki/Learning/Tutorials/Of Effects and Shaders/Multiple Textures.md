@@ -1,3 +1,7 @@
+---
+uid: 28981d7f-9b61-4d05-8bd6-7b1e87010a34
+---
+
 # Multiple Textures
 
 ## Textures and Samplers

@@ -1,3 +1,7 @@
+---
+uid: 4c4a36ab-7a01-45dc-a4f9-9ed88c319918
+---
+
 # Skeleton Animation Nodes Tutorial
 
 

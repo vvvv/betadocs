@@ -1,3 +1,7 @@
+---
+uid: 936eb901-86da-45fb-b38c-466989f5c15f
+---
+
 # Writing a DirectShow Video Stream
 
 

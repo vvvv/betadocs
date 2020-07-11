@@ -1,3 +1,7 @@
+---
+uid: d42a6b02-6d4b-4c6b-881f-2c4694a25721
+---
+
 # The Shortest Way To Another Angle / The Cyclic Pin
 
 ![](~/img/cyclicanimation_2007.04.2016.21.59.jpg "")  

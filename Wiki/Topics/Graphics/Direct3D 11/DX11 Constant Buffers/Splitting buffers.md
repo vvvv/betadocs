@@ -1,3 +1,7 @@
+---
+uid: 9c3d6ba1-935b-4109-b6ae-6967953970db
+---
+
 #  Splitting buffers
 
 So as we said, and since we are allowed to use several of those buffers, we now split all of those in that way:  

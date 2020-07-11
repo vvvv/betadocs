@@ -1,3 +1,7 @@
+---
+uid: 12c13306-f4f1-49f6-84b0-f7808f4214e6
+---
+
 # Separate Logic from Content
 
 

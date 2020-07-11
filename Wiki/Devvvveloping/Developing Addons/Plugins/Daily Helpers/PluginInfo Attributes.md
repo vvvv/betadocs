@@ -1,3 +1,7 @@
+---
+uid: 29a92e37-7494-441d-93f7-36beeb1a0f2e
+---
+
 # PluginInfo Attributes
 PluginInfo Attributes describe the plugin to vvvv.  
 

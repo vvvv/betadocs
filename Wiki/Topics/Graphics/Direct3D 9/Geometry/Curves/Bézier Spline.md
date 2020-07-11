@@ -1,3 +1,7 @@
+---
+uid: 79944d59-7eb6-4b9e-ad4b-7673909b74c7
+---
+
 # Bézier Spline
 
 ![](~/img/BezierQuadratic.png "")   

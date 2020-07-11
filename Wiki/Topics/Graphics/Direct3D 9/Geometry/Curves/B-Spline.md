@@ -1,3 +1,7 @@
+---
+uid: bb64ed8a-0e2b-4278-bb2d-2c65dc0dce34
+---
+
 # B-Spline
 
 ![](~/img/B-Spline-Open.png "")   

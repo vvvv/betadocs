@@ -1,3 +1,7 @@
+---
+uid: 117e3ffc-1547-4470-8c49-f966d99bc031
+---
+
 # CodeEditor Shortcuts
 save document | CTRL s | saves the document  
 --- | --- | ---  

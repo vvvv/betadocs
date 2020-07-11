@@ -1,3 +1,7 @@
+---
+uid: 533cd233-704f-4388-b292-a3a15a356bf8
+---
+
 #  Operations
 ##  Absolute value |**v**| (length)
 ---  

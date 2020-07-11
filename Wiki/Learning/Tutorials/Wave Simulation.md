@@ -1,3 +1,7 @@
+---
+uid: 8d503cd3-0df3-4acd-b521-ac99e96f633b
+---
+
 # Wave Simulation
 This page explains the algorithm behind grid based wave simulations.  
 

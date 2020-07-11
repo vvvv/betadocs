@@ -1,3 +1,7 @@
+---
+uid: f1f338cd-6e39-4c39-bf95-3fd2fd5920f0
+---
+
 #  Constant buffer packing
 
 You remember when I shown you constant buffer size with all that primary school level calculations... well technically they are all wrong ;)  

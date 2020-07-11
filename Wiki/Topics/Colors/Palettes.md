@@ -1,3 +1,7 @@
+---
+uid: d7bf6966-e318-42b2-97e3-c82f33eed7d4
+---
+
 # Palettes
 
 

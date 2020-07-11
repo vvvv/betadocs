@@ -1,3 +1,7 @@
+---
+uid: b99ee79d-7cbd-4dc5-94ab-94927b18dcd0
+---
+
 # Directory Structure
 
 ![](~/img/Boygrouping-ProjectFolder.png "")   

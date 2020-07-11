@@ -1,3 +1,7 @@
+---
+uid: c201a678-d827-4b21-92b3-432203d15dd7
+---
+
 # Texture Coordinates
 
 As we've seen before, the displaying of a texture involves texture coordinates:  

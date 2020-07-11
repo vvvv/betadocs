@@ -1,3 +1,7 @@
+---
+uid: 49cb48e0-2b31-413b-a388-758a0efd2e57
+---
+
 # Cameras
 
 ![](~/img/vvvv_CameraCone2_0.png "")   

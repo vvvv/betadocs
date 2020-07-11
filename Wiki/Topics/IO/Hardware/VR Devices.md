@@ -1,3 +1,7 @@
+---
+uid: c15aa274-012d-4387-9e1e-180baa3ae4d4
+---
+
 # VR Devices
 
 <a href="https://en.wikipedia.org/wiki/OpenVR" class="extURL" target="_blank">OpenVR</a>  

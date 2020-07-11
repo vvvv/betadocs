@@ -1,3 +1,7 @@
+---
+uid: 70baa0ef-afe7-40d0-8f9f-2675e36f1c2e
+---
+
 # CV.Image-based
 
 

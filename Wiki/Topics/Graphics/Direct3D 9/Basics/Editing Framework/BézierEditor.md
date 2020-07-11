@@ -1,3 +1,7 @@
+---
+uid: bd5f667c-49b5-4b1f-bac2-94aa8f39e648
+---
+
 # BézierEditor
 
 ![](~/img/vvvv_BezierEditor.png "")   

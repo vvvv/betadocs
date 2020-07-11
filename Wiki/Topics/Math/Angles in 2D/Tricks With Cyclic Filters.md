@@ -1,3 +1,7 @@
+---
+uid: c83d235b-d906-4986-92dc-b309f4bb5da0
+---
+
 # Tricks With Cyclic Filters
 
 ![](~/img/lazy_quad_2007.04.2017.47.19.jpg "")  

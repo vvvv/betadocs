@@ -1,3 +1,7 @@
+---
+uid: 87d944e5-aeae-451e-839d-58932488ed6e
+---
+
 # Programming Concepts
 
 You are familiar with textual programming and are missing some of the basic concepts of your mother tongue in vvvv?  

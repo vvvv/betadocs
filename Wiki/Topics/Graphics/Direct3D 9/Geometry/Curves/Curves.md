@@ -1,3 +1,7 @@
+---
+uid: 6b7607ae-e850-42fc-84f7-34ba766c793e
+---
+
 # Curves
 In mathematics a *Curve* is "a line that does not need to be straight". With that definition a large number of <a href="https://en.wikipedia.org/wiki/List_of_curves" class="extURL" target="_blank">different curves exist</a> each of which can be described by a mathematical formula.  
 

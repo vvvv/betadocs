@@ -1,3 +1,7 @@
+---
+uid: 81d33bbf-eb76-41d3-8ad4-f544af50d050
+---
+
 # NuGet packages development
 When writing a plugin for vvvv the developer needs to at least add a reference to the VVVV.PluginInterfaces assembly. In order to do so there've been two choices up till now:  
 1. Reference the assembly directly (e.g. from a vvvv-release)

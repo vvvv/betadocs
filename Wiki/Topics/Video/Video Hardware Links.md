@@ -1,3 +1,7 @@
+---
+uid: 02abbea9-3a49-401d-bd74-aa89704b87b0
+---
+
 # Video Hardware Links
 To keep this list in a human-readable size, please add only the best tools you know.  
 

@@ -1,3 +1,7 @@
+---
+uid: ffeb8063-6b1e-4ade-b3fc-082db2ed0aae
+---
+
 # Phidgets
 
 <a href="http://www.phidgets.com" class="extURL" target="_blank">Phidgets</a>  

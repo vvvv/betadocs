@@ -1,3 +1,7 @@
+---
+uid: 4b5c9fc8-e910-4145-9c58-028ac8301e59
+---
+
 # Bonus Video Tutorials
 
 ![](~/img/smartvvvv.jpg "")  

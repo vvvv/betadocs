@@ -1,3 +1,7 @@
+---
+uid: 9f4b87bf-29a2-4bc1-ab95-86e2842b4db4
+---
+
 # IO
 
 ## Hardware Diagnosis Tools

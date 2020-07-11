@@ -1,3 +1,7 @@
+---
+uid: a23ae4b6-0c26-4b40-bfba-5b9b21b912a0
+---
+
 # FreeFrame plugins
 
 

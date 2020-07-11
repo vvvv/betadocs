@@ -1,3 +1,7 @@
+---
+uid: 2599751f-0a56-437e-90d9-366baf6b9ae8
+---
+
 # WavePlayer (DShow9)
 
 #### Related nodes

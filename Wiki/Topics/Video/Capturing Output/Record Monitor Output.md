@@ -1,3 +1,7 @@
+---
+uid: 1571d11f-2715-4280-a9b4-1c3ed5921b0d
+---
+
 # Record Monitor Output
 
 

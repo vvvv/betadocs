@@ -1,3 +1,7 @@
+---
+uid: ea0f3ad0-5bec-47ae-864b-dbb4a44d0d68
+---
+
 # VLC-based media player
 
 

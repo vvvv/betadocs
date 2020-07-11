@@ -1,3 +1,7 @@
+---
+uid: be2dcaef-c3cb-4f96-80a1-fd861c7f640c
+---
+
 # Pixelshader Preparations
 
 For all the pixelshader examples we are using the same basic patch setup featuring a 2x2 <span class="node">Grid (EX9.Geometry)</span> and a <span class="node">FileTexture (EX9.Texture)</span> connected to an effect and the renderers <span class="pin">View Transform</span> scaled by two so that the grid fills the whole view:  

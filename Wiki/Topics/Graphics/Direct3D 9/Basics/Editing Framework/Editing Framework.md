@@ -1,3 +1,7 @@
+---
+uid: f08a1468-aab9-4228-bb07-e69b316bcd18
+---
+
 # Editing Framework
 The vvvv editing framework consists of a series of nodes that are useful for editing geometry (points, lines, grids..) directly in a renderer. They've been designed with the following aspects in mind:  
 

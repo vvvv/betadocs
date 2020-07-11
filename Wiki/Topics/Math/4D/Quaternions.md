@@ -1,3 +1,7 @@
+---
+uid: 2247b116-4e66-4233-b2ce-3ea892135910
+---
+
 # Quaternions
 
 quaternions are a class of hypercomplex numbers with one real part 1 and three imaginary parts i, j, k. with these base elements every quaternion **q** can be described by four real numbers a, b, c, d using the linear combination:  

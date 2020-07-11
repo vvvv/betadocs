@@ -1,3 +1,7 @@
+---
+uid: 01c08860-192e-436e-bed4-b58e00e4c211
+---
+
 # Rendering SVG text as a texture
 
 

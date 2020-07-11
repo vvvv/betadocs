@@ -1,3 +1,7 @@
+---
+uid: a2b935e8-17cd-4c26-b701-4919803792d1
+---
+
 # Terms
 
 **Spread** -  A one dimensional list (array) of data  

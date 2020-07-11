@@ -1,3 +1,7 @@
+---
+uid: ec339941-5cdf-4e4e-b43c-5ce31f177967
+---
+
 # Diplomas
 If you're interested in realizing a specific project for vvvv as your bachelor or diploma thesis or as an internship at vvvv please contact us via: groupӘvvvv.org. If your idea fits with our future plans we'll be able to provide some funding...try us!  
 

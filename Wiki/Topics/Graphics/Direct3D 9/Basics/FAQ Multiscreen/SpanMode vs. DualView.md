@@ -1,3 +1,7 @@
+---
+uid: 373b8cb9-a6d5-4d6d-837e-0062fd2673f3
+---
+
 # SpanMode vs. DualView
 On Windows XP graphic card drivers offer two different modes to use multiple monitors on 1 card:  
 * SpanMode treats multiple monitors together as one DirectX device.   

@@ -1,3 +1,7 @@
+---
+uid: 5aa4e8e0-fc2c-4112-a985-7f4f0208bf48
+---
+
 # Window Modes
 
 ![](~/img/BasicPatching_WindowModes_0.png "")   

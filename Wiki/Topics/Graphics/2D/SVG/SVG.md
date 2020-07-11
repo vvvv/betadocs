@@ -1,3 +1,7 @@
+---
+uid: 2600b4fc-ebee-492b-a395-bc3c93af2785
+---
+
 # SVG
 As of beta27 vvvv ships with a set of nodes for reading, writing and displaying <a href="https://en.wikipedia.org/wiki/Scalable_Vector_Graphics" class="extURL" target="_blank">SVG</a> documents.   
 

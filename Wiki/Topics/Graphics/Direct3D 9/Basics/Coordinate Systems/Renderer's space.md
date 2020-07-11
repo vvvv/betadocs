@@ -1,3 +1,7 @@
+---
+uid: 5187685e-632c-4606-b4bb-fe4e827d7e24
+---
+
 # Renderer's space
 
 ![](~/img/RendererCoordinateSystem3.png "")  

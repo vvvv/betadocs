@@ -1,3 +1,7 @@
+---
+uid: 00ca71e9-5863-43f2-be90-c5f0f4e9365d
+---
+
 # Rotation
 
 ![](~/img/Cycles1.png "")  

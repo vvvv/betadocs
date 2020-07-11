@@ -1,3 +1,7 @@
+---
+uid: 85fd8196-7e14-4ae7-8c53-c41589b72c14
+---
+
 # Transparent objects
 
 

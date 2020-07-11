@@ -1,3 +1,7 @@
+---
+uid: 8c8ad666-b5b1-4fb6-a0e1-5dccccdbf9f6
+---
+
 # Arduino & Firmata
 
 <a href="http://arduino.cc/" class="extURL" target="_blank">Arduino</a>  

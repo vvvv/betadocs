@@ -1,3 +1,7 @@
+---
+uid: e906876e-778c-4d40-90f9-560e12c1cbb1
+---
+
 # Normals
 
 Besides the position and the texture coodinates, the surface normals are the third important and most commonly used data field of the vertex. The normal is a 3d vector which is perpendicular to the surface curvature at the vertex position.  

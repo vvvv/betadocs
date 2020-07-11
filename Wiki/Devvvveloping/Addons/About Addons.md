@@ -1,3 +1,7 @@
+---
+uid: e1161303-b566-408c-86f2-1cf6cb8137b7
+---
+
 # About Addons
 vvvv itself is not open source, but it offers different open interfaces for people to write their own nodes:  
 

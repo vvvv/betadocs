@@ -1,3 +1,7 @@
+---
+uid: ff6669d5-b3da-454d-90f7-4d7f5c2915dc
+---
+
 # Cameras with a proprietary API
 
 

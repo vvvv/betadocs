@@ -1,3 +1,7 @@
+---
+uid: e1554948-8a15-4e39-8289-59216c388376
+---
+
 # The idea
 
 [Addons](TODO INTERNALLINK:About Addons) are shipping as a separate download in the form of addonpacks. They include the following types of contents:  

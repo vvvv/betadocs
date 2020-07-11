@@ -1,3 +1,7 @@
+---
+uid: 99e5e04c-8746-4cbb-87eb-d96a9b553f34
+---
+
 #  Definition
 a vector is an element of vector space. a vector contains the same number of elements than the vector space has dimensions.   
 

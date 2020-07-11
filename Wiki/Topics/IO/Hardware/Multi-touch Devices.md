@@ -1,3 +1,7 @@
+---
+uid: 896a918a-77fa-4ebd-9145-1566db672b09
+---
+
 # Multi-touch Devices
 
 #### Related nodes

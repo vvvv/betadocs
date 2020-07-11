@@ -1,3 +1,7 @@
+---
+uid: 03e13962-02b4-40e2-be54-31e416028212
+---
+
 # Debugging Plugins
 This document shows how to use visual studio 2005 to debug plugins within vvvv itself, instead of using the Plugin Hoster.  
 

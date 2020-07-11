@@ -1,3 +1,7 @@
+---
+uid: 7e7c8e2f-29e2-4327-98ac-ce5b18583a6e
+---
+
 # **DX11** Particle Systems
 
 

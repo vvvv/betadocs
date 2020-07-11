@@ -1,3 +1,7 @@
+---
+uid: 1765bb2b-f698-405a-b207-a995995fb52b
+---
+
 # Kommunikator
 
 ![](~/img/vvvv_kommunikator.png "")  

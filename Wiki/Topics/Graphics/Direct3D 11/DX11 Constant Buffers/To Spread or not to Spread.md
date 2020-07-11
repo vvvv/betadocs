@@ -1,3 +1,7 @@
+---
+uid: 585532e3-3a74-45f0-8925-293b6ba4e868
+---
+
 #  To Spread or not to Spread?
 
 Now another important thing is that the shader node will also check if your input pin is spreaded or not.  

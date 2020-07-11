@@ -1,3 +1,7 @@
+---
+uid: d19c0f1e-5133-4901-bdf6-fe62607cf45d
+---
+
 # Dynamic Plugins Tutorials
 ***under construction***  
 

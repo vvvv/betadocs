@@ -1,3 +1,7 @@
+---
+uid: c6239046-75c8-479d-9add-8cd4e38cc917
+---
+
 # Learn CSharp
 <a href="http://channel9.msdn.com/Series/C-Sharp-Fundamentals-Development-for-Absolute-Beginners" class="extURL" target="_blank">C# Fundamentals: Development for Absolute Beginners</a> Series of video tutorials  
 <a href="http://msdn.microsoft.com/en-us/library/aa288436.aspx" class="extURL" target="_blank">Microsoft Tutorials I</a>  

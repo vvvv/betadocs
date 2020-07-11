@@ -1,3 +1,7 @@
+---
+uid: 01f7b911-8fbf-4285-bc78-38ea4bedacf8
+---
+
 #  Representation
 a vector **v** can be interpreted as:  
 

@@ -1,3 +1,7 @@
+---
+uid: be4d1a0f-7227-4494-bf83-459bab468dcf
+---
+
 # Kinect
 
 <a href="http://www.microsoft.com/en-us/kinectforwindows/" class="extURL" target="_blank">Kinect for windows</a>  

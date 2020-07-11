@@ -1,3 +1,7 @@
+---
+uid: b494f311-3e27-4580-af91-3d1436ec9ccf
+---
+
 # GDI Rendering
 GDI Rendering is designed to be quick and simple. Some simple nodes will create text and rectangles, as well as lines and Bézier curves. The coordinate system is a square going from (-1, -1) in the lower left corner to (1, 1) in the upper right corner.  
 

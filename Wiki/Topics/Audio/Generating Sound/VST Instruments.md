@@ -1,3 +1,7 @@
+---
+uid: c0b9636c-1fdb-405b-bf37-666a6a7fc22d
+---
+
 # VST Instruments
 
 <a href="http://en.wikipedia.org/wiki/Virtual_Studio_Technology" class="extURL" target="_blank">Wikipedia on VST</a>  

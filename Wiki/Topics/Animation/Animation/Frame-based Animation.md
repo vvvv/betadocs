@@ -1,3 +1,7 @@
+---
+uid: 9c02c139-5b21-45bb-a135-b7d613370c64
+---
+
 # Frame-based Animation
 
 #### Related nodes

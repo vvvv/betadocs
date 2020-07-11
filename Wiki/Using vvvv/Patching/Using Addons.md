@@ -1,3 +1,7 @@
+---
+uid: 772e8696-25d4-4d8b-a31b-db4dd1ce1f3f
+---
+
 # Using Addons
 
 When downloading vvvv it comes with a large library of native/built-in nodes ready to be used.   

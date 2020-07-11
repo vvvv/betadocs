@@ -1,3 +1,7 @@
+---
+uid: d09ac451-f613-447d-afaa-5a32cdc1ce8c
+---
+
 # Projection Mapping Primer
 When talking <a href="http://en.wikipedia.org/wiki/Projection_mapping" class="extURL" target="_blank">Projection Mapping</a> you have to essentially distinguish between two different types. Depending on your prerequisites and desired visual effects you'll have to choose between:  
 

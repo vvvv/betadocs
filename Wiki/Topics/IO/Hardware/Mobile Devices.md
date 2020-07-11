@@ -1,3 +1,7 @@
+---
+uid: 3e1b5846-6bfc-4704-923b-d2d1e740cac5
+---
+
 # Mobile Devices
 
 

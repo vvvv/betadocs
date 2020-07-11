@@ -1,3 +1,7 @@
+---
+uid: b36fb6d0-734d-4f7f-b213-d47dc9d90169
+---
+
 # Vertex Data
 
 Of course you can also define your own vertex data in a patch. Create a new patch with Mesh join/split and VertexBuffer join/split like this:  

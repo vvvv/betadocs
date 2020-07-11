@@ -1,3 +1,7 @@
+---
+uid: 1882bd49-3082-443c-80ff-d88fae692c96
+---
+
 # FileStream (VAudio)
 
 **Download:**  

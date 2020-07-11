@@ -1,3 +1,7 @@
+---
+uid: 93b2f838-bbd4-423c-81cb-09820d98537d
+---
+
 # Video Effects (TextureFX)
 
 

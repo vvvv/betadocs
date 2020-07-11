@@ -1,3 +1,7 @@
+---
+uid: 9bb57a97-95b8-44b0-935b-1a8671e58880
+---
+
 # Preparations on the Server
 
 ![](~/img/Boygouping_ServerTaskbar.png "")   

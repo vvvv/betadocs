@@ -1,3 +1,7 @@
+---
+uid: ac57e3df-29a2-4f3b-a98a-3c0057a3308c
+---
+
 # Preparations on the Clients
 
 ![](~/img/Boygrouping-ClientWindow.png "")   

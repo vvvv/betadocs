@@ -1,3 +1,7 @@
+---
+uid: 1f40bd64-bc93-4263-98c8-50616b9f5c5c
+---
+
 # Introduction
 In this tutorial we'll take you step by step through your first pixel- and vertexshaders. The good thing with shaders is that the basics are really simple. There are actually not many things you need to know about. And even for realizing more advanced stuff (like lighting) the principles are the same and you only need a better understanding of the [math](TODO INTERNALLINK:math) involved, which is a different story.  
 

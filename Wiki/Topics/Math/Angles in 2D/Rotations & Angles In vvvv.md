@@ -1,3 +1,7 @@
+---
+uid: b6b57a8e-98c9-4746-8519-ad0d9c651647
+---
+
 # Rotations & Angles In vvvv
 
 ![](~/img/fraction_2007.04.2015.14.54.jpg "")  

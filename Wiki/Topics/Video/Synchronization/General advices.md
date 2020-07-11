@@ -1,3 +1,7 @@
+---
+uid: 75aad9ef-ba8c-4fa4-a846-03ae5fed5670
+---
+
 # General advices
 * Make sure videos you want to sync all have equal length and the same codec.   
 

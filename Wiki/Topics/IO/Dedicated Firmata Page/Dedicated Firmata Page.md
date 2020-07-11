@@ -1,3 +1,7 @@
+---
+uid: 75bf6f61-3797-468a-9cc5-2b0ec1f54954
+---
+
 # Dedicated Firmata Page
 
 Firmata is a protocol for communicating with microcontrollers from software on a computer (or smartphone/tablet, etc).  

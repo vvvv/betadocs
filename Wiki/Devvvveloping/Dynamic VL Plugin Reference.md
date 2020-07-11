@@ -1,3 +1,7 @@
+---
+uid: 2879ae37-9e84-42ee-8e2e-8444d274bb6b
+---
+
 # Cloning a Template
 
 ![](~/img/clone_v.png "")   

@@ -1,3 +1,7 @@
+---
+uid: 547f6fd3-8a05-4a07-8555-0166541dbc1c
+---
+
 # How To Prepare Textures
 The FileTexture node can load BMP or JPG, TIF and TGA files into memory. Prepare your textures in either 16x16, 32x32, 64x64, 128x128, 256x256, 512x512, 1024x1024, 2048x2048 or 4096x4096 pixels size to get optimal results in terms of speed and quality. Try to make your textures as small as possible to get maximum speed  
 

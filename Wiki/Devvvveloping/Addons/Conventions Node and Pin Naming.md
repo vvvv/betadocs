@@ -1,3 +1,7 @@
+---
+uid: db8592a2-03c3-4e8c-a540-d11df5e83078
+---
+
 # Conventions Node and Pin Naming
 When writing a new node and you are not sure about naming come here and find a solution.   
 

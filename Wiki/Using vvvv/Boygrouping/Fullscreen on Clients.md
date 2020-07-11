@@ -1,3 +1,7 @@
+---
+uid: 3da47c95-1873-4846-81f6-3617982efc11
+---
+
 # Fullscreen on Clients
 
 ![](~/img/boygroupfullscreen.jpg "")  

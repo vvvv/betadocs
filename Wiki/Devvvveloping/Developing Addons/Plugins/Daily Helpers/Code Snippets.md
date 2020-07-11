@@ -1,3 +1,7 @@
+---
+uid: 307796da-69f5-46b0-a50b-8ae875f93b72
+---
+
 # Examples for declaring Pins using attributes
 This is an Input Pin of type bool (ie. 0 or 1) with a hint to the GUI that it should be operated as a Bang. And it is Single which means it is not spreadeable.   
 ```  

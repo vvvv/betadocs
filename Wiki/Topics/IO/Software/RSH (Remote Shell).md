@@ -1,3 +1,7 @@
+---
+uid: cfce21fd-7439-4ca5-b2b9-d601dfae8bd6
+---
+
 # RSH (Remote Shell)
 
 

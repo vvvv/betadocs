@@ -1,3 +1,7 @@
+---
+uid: 28283ff4-e390-41ea-91c3-8fc5375c0722
+---
+
 # Namespaces
 
 Libraries of classes are categorized using Namespaces. vvvv provides a small collection of useable classes, .net itself comes with a huge collection of ready to use classes.  

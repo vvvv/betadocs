@@ -1,3 +1,7 @@
+---
+uid: 30427ce4-8987-4acc-af12-cd36d5df247f
+---
+
 # Links
 ## related vvvviki-pages
 * <span class="node">Device (EX9 Auto)</span>  

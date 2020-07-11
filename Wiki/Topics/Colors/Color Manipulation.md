@@ -1,3 +1,7 @@
+---
+uid: 17eb7643-4290-4309-a445-29ce0df2f756
+---
+
 # Color Manipulation
 
 #### Related nodes

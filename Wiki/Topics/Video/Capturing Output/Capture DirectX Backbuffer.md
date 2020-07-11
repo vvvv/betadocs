@@ -1,3 +1,7 @@
+---
+uid: e70f4e94-83c2-47d9-9d19-454ff763fb4c
+---
+
 # Capture DirectX Backbuffer
 
 

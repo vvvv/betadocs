@@ -1,3 +1,7 @@
+---
+uid: 1c894dd2-1e4a-4233-8efd-988dff37e7a2
+---
+
 #  Overview
 
 VVVV Pipeline in DirectX 11 is somehow similar to the one in DirectX9 (with some differences).  

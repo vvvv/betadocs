@@ -1,3 +1,7 @@
+---
+uid: 6fd8256d-cde8-4456-a5e3-495873fb4fe4
+---
+
 # Deinterlacing
 
 

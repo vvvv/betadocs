@@ -1,3 +1,7 @@
+---
+uid: 40d7b16c-c61f-41c1-8345-62e0b729f6a0
+---
+
 # Electronics
 
 ## Links

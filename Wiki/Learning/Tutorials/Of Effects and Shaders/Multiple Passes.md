@@ -1,3 +1,7 @@
+---
+uid: 39838eb2-c610-47d7-ad8f-79c7bdb2cda4
+---
+
 # Multiple Passes
  
 While effects can have multiple passes per technique as outlined in [EX9.Effect.File](TODO INTERNALLINK:EX9.Effect.File) there is no way (in vvvv) to access the color returned in the pixelshader of pass 1 in pass 2. For such kind of multipass effects we need to go the round via <span class="node">Renderer (EX9)</span> and using its output as a texture via <span class="node">DXTexture (EX9.Texture)</span> as an input to another effect.  

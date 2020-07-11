@@ -1,3 +1,7 @@
+---
+uid: 0ef810fa-20ca-44b1-a7e1-8150dac0b95f
+---
+
 # Addons Directshow Filter
 Any of the directshow filters coded for use with vvvv are opensource and may be used as they are in any other application that supports directshow. They are written in delphi or c++.  
 

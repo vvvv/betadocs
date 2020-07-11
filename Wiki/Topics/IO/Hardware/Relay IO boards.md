@@ -1,3 +1,7 @@
+---
+uid: c5dd2dad-1e89-4c0b-bdce-5e11ef90b059
+---
+
 # Relay IO boards
 
 #### Related nodes

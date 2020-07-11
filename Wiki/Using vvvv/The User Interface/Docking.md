@@ -1,3 +1,7 @@
+---
+uid: 9a57949a-03e4-43ae-a929-bffe3ca409c9
+---
+
 # Docking
 
 ![](~/img/BasicPatching_Docking.png "")   

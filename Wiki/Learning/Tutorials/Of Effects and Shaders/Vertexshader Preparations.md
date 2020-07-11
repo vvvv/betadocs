@@ -1,3 +1,7 @@
+---
+uid: efe56243-ca3e-4980-a8cb-8b4e086fdf25
+---
+
 # Vertexshader Preparations
  
 ## Mesh and Vertex

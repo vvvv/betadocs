@@ -1,3 +1,7 @@
+---
+uid: d179d3ab-5d93-4627-afa4-23385ad46cbb
+---
+
 # Graphics Tablets
 
 <a href="http://en.wikipedia.org/wiki/Graphics_tablet" class="extURL" target="_blank">About Graphics Tablets</a>  

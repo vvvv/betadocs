@@ -1,3 +1,7 @@
+---
+uid: ae5a322d-dd07-4173-9850-808f134f2837
+---
+
 # Checking Angles For Equality
 
 ![](~/img/test_2007.04.2015.45.47.jpg "")  

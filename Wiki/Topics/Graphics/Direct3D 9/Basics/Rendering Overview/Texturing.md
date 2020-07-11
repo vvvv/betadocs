@@ -1,3 +1,7 @@
+---
+uid: f331dd75-afc6-4fba-8ef3-0cf0788fd92a
+---
+
 # Texturing
 
 

@@ -1,3 +1,7 @@
+---
+uid: 59d087cb-4622-4fda-9ed9-4b50b34dd573
+---
+
 # Intro
 Developers looking to extend vvvv with their own nodes start here:  
 * [Addons](TODO INTERNALLINK:Addons) stuff common to all addon development  

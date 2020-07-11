@@ -1,3 +1,7 @@
+---
+uid: cfb2b22c-59c5-4223-b0bd-fee23893ef0d
+---
+
 # Manipulating Colors
 
 The code we have to concentrate on now is the actual pixelshader function:  

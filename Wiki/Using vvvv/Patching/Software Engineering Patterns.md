@@ -1,3 +1,7 @@
+---
+uid: 3eb927ab-9bda-4f94-8481-2cdc7ae67f0d
+---
+
 # Software Engineering Patterns
 
 The following text is an updated transcript of the Workshop Software Engineering Patterns with vvvv at Node13 hosted by Sebastian Oschatz and Nils Buhlert.     

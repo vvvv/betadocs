@@ -1,3 +1,7 @@
+---
+uid: e205c6d4-04a8-41b1-b818-6dc4d6d555d9
+---
+
 # Lasers
 
 <a href="http://www.lichtbastler.de/lumax" class="extURL" target="_blank">Minilumax Light Interface</a>  

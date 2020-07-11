@@ -1,3 +1,7 @@
+---
+uid: 96af9665-1d88-4d4e-b8d0-e1e50a6eb2bc
+---
+
 # Kinect v1
 
 ![](~/img/300px-Xbox-360-Kinect-Standalone.png "")   

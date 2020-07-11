@@ -1,3 +1,7 @@
+---
+uid: a54399c8-3a29-4e88-90c7-5fd9c061eb98
+---
+
 # NURBS
 
 ![](~/img/NURBS.png "")   

@@ -1,3 +1,7 @@
+---
+uid: d3699ca5-7f10-434e-a0be-e6ac93ddc1bb
+---
+
 #  Simple shader example
 
 ```  

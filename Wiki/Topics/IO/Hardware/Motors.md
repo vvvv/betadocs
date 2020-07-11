@@ -1,3 +1,7 @@
+---
+uid: 44b50162-f6d7-4348-a403-ef77fff3c381
+---
+
 # Motors
 
 <a href="http://en.wikipedia.org/wiki/DC_motor" class="extURL" target="_blank">DC Motors</a>  

@@ -1,3 +1,7 @@
+---
+uid: 9f1e8368-4c7b-4dc0-a305-06aebe6c11dd
+---
+
 # DX11 Userful Links
 **table of contents**  
 

@@ -1,3 +1,7 @@
+---
+uid: 8d9059b9-e075-4b42-91ef-7599f6879028
+---
+
 # Pin Attributes
 Pin Attributes describe the appearance of a data field in vvvv.  
 

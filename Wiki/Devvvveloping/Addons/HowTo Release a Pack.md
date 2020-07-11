@@ -1,3 +1,7 @@
+---
+uid: b5cb6815-294b-44ff-94cf-365b2e4d6a81
+---
+
 # HowTo Release a Pack
 <a href="https://vvvv.org/contributions/7934/all" class="extURL" target="_blank">Packs</a> are topical collections of plugins/modules/effects. Here is how you create a pack for sharing it as a contribution.  
 

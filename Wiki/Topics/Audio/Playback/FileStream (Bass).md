@@ -1,3 +1,7 @@
+---
+uid: c9e3b406-9c82-4f87-8656-ab9a910f30b4
+---
+
 # FileStream (Bass)
 
 

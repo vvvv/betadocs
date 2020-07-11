@@ -1,3 +1,7 @@
+---
+uid: e8930bcb-0d6e-4dcd-8043-307641808fd9
+---
+
 # Creating Spreads
 
 ![](~/img/Spreads_ColsAndRows_Output2.png "")  

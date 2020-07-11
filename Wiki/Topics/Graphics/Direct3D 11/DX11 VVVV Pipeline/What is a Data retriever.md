@@ -1,3 +1,7 @@
+---
+uid: f121aba1-f3d8-42ab-8ce8-f5ba984494cd
+---
+
 #  What is a Data retriever?
 
 Sometimes let's say we need to access a GPU resource and bring it back to our CPU (Simple Readback).  

@@ -1,3 +1,7 @@
+---
+uid: b6b63f97-b084-414f-a298-8784c92e19fd
+---
+
 # USB / HID
 
 <a href="http://en.wikipedia.org/wiki/USB" class="extURL" target="_blank">USB</a>  

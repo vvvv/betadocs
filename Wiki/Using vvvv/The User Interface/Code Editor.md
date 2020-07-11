@@ -1,3 +1,7 @@
+---
+uid: 5e6fa810-9ef8-4416-912b-96f3d6a23a05
+---
+
 # Code Editor
 
 ![](~/img/CodeEditor.png "")   

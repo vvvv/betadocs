@@ -1,3 +1,7 @@
+---
+uid: 2ce3c55f-42d9-4e4c-8f44-cd4942e7c405
+---
+
 # Cameras with a WDM driver
 
 #### Related nodes

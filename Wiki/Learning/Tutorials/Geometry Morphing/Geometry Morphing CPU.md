@@ -1,3 +1,7 @@
+---
+uid: 772f4282-a62a-467a-938a-d3f69bf3f57b
+---
+
 # the cpu based approach
 
 as you may have already heard already. when morphing geometry it is necessary to have two 3d models that do not only consist of the same number of vertices. those vertices should also be indexed (ordered) the same way. if one of those prerequisites is not met you can still morph the models and may even get more interesting results.   

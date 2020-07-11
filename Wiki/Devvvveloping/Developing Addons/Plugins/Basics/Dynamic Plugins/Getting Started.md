@@ -1,3 +1,7 @@
+---
+uid: 0e08269e-26d9-414d-bd0c-e608d8b1884c
+---
+
 # Getting Started
 For *patching* a new node you would use CTRL-SHIFT-P to place a fresh empty patch inside your current patch, start placing some ioboxes for inputs and outputs, name them and connect them to nodes doing the actual work inside your subpatch / module.  
 

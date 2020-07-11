@@ -1,3 +1,7 @@
+---
+uid: 41bbf427-2244-4aee-bcfb-010f4e4c456b
+---
+
 # Rotations & Angles In General
 
 ![](~/img/circlecopy.jpg "")  

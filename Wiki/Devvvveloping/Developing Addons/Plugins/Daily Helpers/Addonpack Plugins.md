@@ -1,3 +1,7 @@
+---
+uid: 16491d30-9b16-48d5-8ad1-74ca43a2c1dd
+---
+
 # Addonpack Plugins
 Here is how you prepare your plugins for the addonpack:  
 

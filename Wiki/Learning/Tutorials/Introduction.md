@@ -1,3 +1,7 @@
+---
+uid: e87fb3bc-1512-456a-9529-8b901f459dc6
+---
+
 # Introduction
 So you have just started vvvv for the first time and wonder how to proceed in learning, how to achieve some useful things with it. Take your time and read on. Within 20 minutes you should be through the first tutorial and have a basic understanding of vvvv.   
 

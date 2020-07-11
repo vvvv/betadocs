@@ -1,3 +1,7 @@
+---
+uid: 667098f9-f169-458c-b7b5-2b283581fef0
+---
+
 # Graphics Links
 ## 3D Modelling
 * <a href="http://www.blender3d.com" class="extURL" target="_blank">Blender3D</a> THE open source 3D modelling/animation package with LOTS of features. Saves .x files directly. some featurehighlights: UV mapping/mesh unwrapping, subdivision modelling, game engine (can create standalones!).the gui is a bit special and takes a while to learn but it seems to be quite productive.  

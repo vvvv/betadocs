@@ -1,3 +1,7 @@
+---
+uid: fe316c6e-bcd0-44e0-bde8-9e987e56bc5c
+---
+
 # Mr Wiggle
 
 Lets start with the famous MrWiggle effect, it distorts a mesh by sine waves:  

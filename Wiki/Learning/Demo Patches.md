@@ -1,3 +1,7 @@
+---
+uid: 5ab251ae-36c8-4d43-9d3d-c2c54109a51e
+---
+
 # Demo Patches
 A big pack of demo-patches comes with vvvv itself. Go to the  
  \girlpower

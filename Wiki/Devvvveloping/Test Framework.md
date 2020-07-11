@@ -1,3 +1,7 @@
+---
+uid: c8c5354b-da7f-4dad-842c-f4ea775f6026
+---
+
 # Test Framework
 In order to prevent certain bugs from resurfacing again after they've been fixed, vvvv has a test framework. The framework consists of a couple of nodes and a simple template that test-patches have to follow to test for a specific known bug. If the bug persists, the patch returns an error-, otherwise a success-code.   
 

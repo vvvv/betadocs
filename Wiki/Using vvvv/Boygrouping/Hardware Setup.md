@@ -1,3 +1,7 @@
+---
+uid: 10a90163-6f93-4c60-b7e1-741c27c461a1
+---
+
 # Hardware Setup
 
 

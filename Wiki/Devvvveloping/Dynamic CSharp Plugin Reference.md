@@ -1,3 +1,7 @@
+---
+uid: 9fb98fc4-377b-49be-87ee-2c4741183b7c
+---
+
 # Dynamic C# Plugin Reference
 
 ## Cloning a Template

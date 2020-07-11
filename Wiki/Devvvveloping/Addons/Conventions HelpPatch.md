@@ -1,3 +1,7 @@
+---
+uid: 07824e2d-da59-4df0-9f49-a143dc0f7625
+---
+
 # Conventions HelpPatch
 A HelpPatch demonstrates the functionality of a node. Ideally a novice should quickly get an idea of what the node is about and an expert should get detailed information on its usage.   
 

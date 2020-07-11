@@ -1,3 +1,7 @@
+---
+uid: 3b3da64e-2043-4d8d-9e1d-c901343599f8
+---
+
 # Sensors
 
 #### Related nodes
