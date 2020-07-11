@@ -29,7 +29,7 @@ Addressing the channels of such a hardware individually only works using ASIO dr
 
 The <a href="https://vvvv.org/contribution/vvvv.audio-pack-alpha" class="extURL contribution" target="_blank">VVVV.Audio.Pack</a> or the BASS plugins provided by <span class="user"><a href="https://vvvv.org/users/vux" class="extURL" target="_blank">vux</a></span> supports ASIO drivers.   
 
-If you have the [addonpack](TODO INTERNALLINK:\downloads\) installed look out for a node called <span class="node">AudioOut (BASS Asio)</span> and check its helpfile for further instructions.  
+If you have the [addonpack](https://vvvv.org/downloads/) installed look out for a node called <span class="node">AudioOut (BASS Asio)</span> and check its helpfile for further instructions.  
 
 
 **2. Built-in 5.1 or 7.1 Surround Sound Cards**  
