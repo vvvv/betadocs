@@ -35,7 +35,7 @@ The PluginInfo attribute written above your plugin-class is used to describe a v
 
 Inside the () brackets in the attribute statement there is a comma separated list of Name=Value pairs. Only the **Name** and **Category** ones are mandatory, all others are optional.   
 
-Here is a [listing of all available PluginInfos](TODO INTERNALLINK:/pluginspecs/html/Properties_T_VVVV_PluginInterfaces_V2_PluginInfoAttribute.htm).  
+Here is a [listing of all available PluginInfos](https://vvvv.org/pluginspecs/html/Properties_T_VVVV_PluginInterfaces_V2_PluginInfoAttribute.htm).  
 
 Regarding the **AutoEvaluate** setting see the Evaluate() section below.  
 
@@ -112,7 +112,7 @@ The PinInfo attribute is used to describe a pin. The attribute immediately prece
 
 Inside the () brackets in the attribute statement the first string argument is mandatory and specifies the pin's name. A further comma separated list of Name=Value pairs (that is optional) allows you to describe a subtype of the pins value by setting a Default-, Min-, MaxValue and more.  
 
-Here is a [listing of all available PinInfos](TODO INTERNALLINK:/pluginspecs/html/Properties_T_VVVV_PluginInterfaces_V2_IOAttribute.htm).  
+Here is a [listing of all available PinInfos](https://vvvv.org/pluginspecs/html/Properties_T_VVVV_PluginInterfaces_V2_IOAttribute.htm).  
 
 #### Variable declarations
 In most scenarios you'll want to declare your in- and outputs of the generic type ISpread<T> where for T you can specify any type like:  
@@ -135,7 +135,7 @@ There are 2 ways to do this at runtime:
 * flexible: have a look at the code of the Template (Value DynamicPins).  
 
 #### Connection callbacks
-In the unlikely case that you need to react to pin connect/disconnect events use Pin<T> instead of ISpread<T>, see [Pin(T) Events](TODO INTERNALLINK:/pluginspecs/html/Events_T_VVVV_PluginInterfaces_V2_Pin_1.htm).  
+In the unlikely case that you need to react to pin connect/disconnect events use Pin<T> instead of ISpread<T>, see [Pin(T) Events](https://vvvv.org/pluginspecs/html/Events_T_VVVV_PluginInterfaces_V2_Pin_1.htm).  
 
 
 
@@ -232,8 +232,8 @@ public IHDEHost FHDEHost;
 ```  
 
 There are two entry points if you want to access some of the internals of vvvv:  
-* want to get/set information on the plugin you're working at, have a look at: [IPluginHost2](TODO INTERNALLINK:/pluginspecs/html/AllMembers_T_VVVV_PluginInterfaces_V2_IPluginHost2.htm)  
-* want access to the whole of vvvv, have a look at [IHDEHost](TODO INTERNALLINK:/pluginspecs/html/AllMembers_T_VVVV_PluginInterfaces_V2_IHDEHost.htm)  
+* want to get/set information on the plugin you're working at, have a look at: [IPluginHost2](https://vvvv.org/pluginspecs/html/AllMembers_T_VVVV_PluginInterfaces_V2_IPluginHost2.htm)  
+* want access to the whole of vvvv, have a look at [IHDEHost](https://vvvv.org/pluginspecs/html/AllMembers_T_VVVV_PluginInterfaces_V2_IHDEHost.htm)  
 
 
 ## Usings
@@ -276,10 +276,10 @@ Now when a breakpoint is hit the IDE stops vvvv and you can step through your li
 
 
 * IBackgroundColor allows a GUI plugin to specify the background color for the window it is hosted in (mostly to prevent flickering when the window goes fullscreen).  
-* [IQueryDelete](TODO INTERNALLINK:/pluginspecs/html/AllMembers_T_VVVV_PluginInterfaces_V2_IQueryDelete.htm) provides a plugin with the possibility to prohibit its own deletion.   
-* [IMainLoop](TODO INTERNALLINK:/pluginspecs/html/AllMembers_T_VVVV_PluginInterfaces_V2_IMainLoop.htm) allows to subscribe to mainloop events.   
-* [IDXDeviceService](TODO INTERNALLINK:/pluginspecs/html/AllMembers_T_VVVV_PluginInterfaces_V2_EX9_IDXDeviceService.htm) provides access to Direct3D9 devices created by vvvv.   
-* [IStartable](TODO INTERNALLINK:/pluginspecs/html/AllMembers_T_VVVV_PluginInterfaces_V2_IStartable.htm) allows some code to be executed on startup.   
+* [IQueryDelete](https://vvvv.org/pluginspecs/html/AllMembers_T_VVVV_PluginInterfaces_V2_IQueryDelete.htm) provides a plugin with the possibility to prohibit its own deletion.   
+* [IMainLoop](https://vvvv.org/pluginspecs/html/AllMembers_T_VVVV_PluginInterfaces_V2_IMainLoop.htm) allows to subscribe to mainloop events.   
+* [IDXDeviceService](https://vvvv.org/pluginspecs/html/AllMembers_T_VVVV_PluginInterfaces_V2_EX9_IDXDeviceService.htm) provides access to Direct3D9 devices created by vvvv.   
+* [IStartable](https://vvvv.org/pluginspecs/html/AllMembers_T_VVVV_PluginInterfaces_V2_IStartable.htm) allows some code to be executed on startup.   
 
 
 

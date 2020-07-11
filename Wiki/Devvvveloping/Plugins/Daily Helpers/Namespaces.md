@@ -13,7 +13,7 @@ If you use a namespace which is documented in one of the following class referen
 
 # The VVVV namespace
 
-[Complete vvvv class library reference](TODO INTERNALLINK:/pluginspecs)  
+[Complete vvvv class library reference](https://vvvv.org/pluginspecs)  
 
 Especially useful are:  
 * **VVVV.Utils.VMath**: for all stuff not found in System.Math  

@@ -16,4 +16,4 @@ PluginInfo Attributes describe the plugin to vvvv.
 
 Within the () brackets in the statement above there is a comma seperated list of properties. Only the **Name** and **Category** property are mandatory, all others are optional.   
 
-All available properties [are listed here](TODO INTERNALLINK:/pluginspecs/html/AllMembers_T_VVVV_PluginInterfaces_V2_INodeInfo.htm).  
+All available properties [are listed here](https://vvvv.org/pluginspecs/html/AllMembers_T_VVVV_PluginInterfaces_V2_INodeInfo.htm).  

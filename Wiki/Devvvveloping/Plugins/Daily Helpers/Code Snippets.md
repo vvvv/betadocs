@@ -24,7 +24,7 @@ This is an Input pin called *My Input* with Variable name FInput of type int wit
 IDiffSpread<int> FInput;  
 
 ```  
-Using [IDiffSpread](TODO INTERNALLINK:/pluginspecs/html/AllMembers_T_VVVV_PluginInterfaces_V2_IDiffSpread_1.htm) instead of ISpread allows you to check if the pins data has changed using the .IsChanged property:  
+Using [IDiffSpread](https://vvvv.org/pluginspecs/html/AllMembers_T_VVVV_PluginInterfaces_V2_IDiffSpread_1.htm) instead of ISpread allows you to check if the pins data has changed using the .IsChanged property:  
 
 ```  
 if (FInput.IsChanged)   

@@ -12,7 +12,7 @@ uid: 766d8ac2-5145-417d-b2df-37d24e3b2b6f
 * [Conventions.CondingStyle](TODO INTERNALLINK:conventions.CodingStyle): for better readability and standardization of VVVV related code  
 * [PluginInfo Attributes](TODO INTERNALLINK:PluginInfo Attributes): specify name, tags, author, autoevaluate, ... of plugins  
 * [Pin Attributes](TODO INTERNALLINK:Pin Attributes): specify subtypes, visibility, spreading behaviour, ... of pins  
-* Complete [vvvv Plugin Specification](TODO INTERNALLINK:/pluginspecs)  
+* Complete [vvvv Plugin Specification](https://vvvv.org/pluginspecs)  
 
 * [Learn C#](TODO INTERNALLINK:Learn C#): links to sources for learning the c# language  
 * [Namespaces](TODO INTERNALLINK:Namespaces): an overview of available namespaces (libraries, classes)  
