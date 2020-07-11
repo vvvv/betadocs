@@ -109,7 +109,7 @@ that's it!
 
 a patch, which works with a 1-d spread and does exactly the stuff described above is downloadable here:   
 
-[/tiki-download_file.php?fileId=559](TODO INTERNALLINK:/tiki-download_file.php?fileId=559)wave 1d.v4p (18.35 Kb)</a>  
+[/tiki-download_file.php?fileId=559](https://vvvv.org/tiki-download_file.php?fileId=559)wave 1d.v4p (18.35 Kb)</a>  
 
 some tricks:  
 - to modulate the wave we just need a spread of values.  
@@ -139,8 +139,8 @@ v_lastframe = p_lastframe - p_beforelastframe
 
 
 download the wave simulation:  
-[/tiki-download_file.php?fileId=578](TODO INTERNALLINK:/tiki-download_file.php?fileId=578)wave01.zip (6.50 Kb)</a>  
-[/tiki-download_file.php?fileId=1200](TODO INTERNALLINK:/tiki-download_file.php?fileId=1200)wave02.zip (13.71 Kb)</a>  
+[/tiki-download_file.php?fileId=578](https://vvvv.org/tiki-download_file.php?fileId=578)wave01.zip (6.50 Kb)</a>  
+[/tiki-download_file.php?fileId=1200](https://vvvv.org/tiki-download_file.php?fileId=1200)wave02.zip (13.71 Kb)</a>  
 
 
 ![](~/img/pixwave05directxrendererpass_117.jpg "")  

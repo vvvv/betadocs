@@ -33,7 +33,7 @@ With those two things at hand you can now setup a scene to project a virtual cop
 
 Examples of this approach are [Lightstrive](TODO INTERNALLINK:Lightstrive) and Pablo Valbuena's <a href="http://www.pablovalbuena.com/selectedwork/augmented-sculpture-v1/" class="extURL" target="_blank">Augmented Sculpture Series</a>.  
 
-For the basic setup of a 360° projection on a cylindrical screen, including soft-edging, see: [small 360 degree setup.zip](TODO INTERNALLINK:/tiki-download_file.php?fileId=1698)  
+For the basic setup of a 360° projection on a cylindrical screen, including soft-edging, see: [small 360 degree setup.zip](https://vvvv.org/tiki-download_file.php?fileId=1698)  
 
 
 - --   

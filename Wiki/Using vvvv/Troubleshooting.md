@@ -54,7 +54,7 @@ This is almost certainly a graphic driver problem. Make sure you have its latest
 **Cannot start VVVV: OMP abort**  
 
 
-Read [this thread](TODO INTERNALLINK:/tiki-view_forum_thread.php?forumId=4&comments_parentId=23077#threadId28724).  
+Read [this thread](https://vvvv.org/tiki-view_forum_thread.php?forumId=4&comments_parentId=23077#threadId28724).  
 
 
 

@@ -10,7 +10,7 @@ To see an example of what a vvvv project looks like, open the start_with_demo.ba
 
 Start vvvv again, this time using vvvv.exe. All you see is a virgin gray window, a so called Patch. Welcome to vvvv.  
 
-Also see the video tutorial: [Starting](TODO INTERNALLINK:/tiki-index.php?page=Video+Tutorials#Tutorial_1_Starting_vvvv_for_the_first_time) vvvv for the first time]  
+Also see the video tutorial: [Starting](https://vvvv.org/tiki-index.php?page=Video+Tutorials#Tutorial_1_Starting_vvvv_for_the_first_time) vvvv for the first time]  
 
 ![](~/img/virgin_1.png "")  
 

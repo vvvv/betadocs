@@ -191,7 +191,7 @@ This is more a demonstration than a tutorial, but a cool one for that, see how e
 
 We generate a colorspread, or gradient, to black, next we lower the alpha and saturation a bit, and with the Blend (render state) node, we set to blend mode to add, to make it look spectacular.  
 
-The patch can be downloaded here: [/tiki-download_file.php?fileId=2046](TODO INTERNALLINK:/tiki-download_file.php?fileId=2046)WickedSegmentNr2.v4p (7.08 Kb)</a>  
+The patch can be downloaded here: [/tiki-download_file.php?fileId=2046](https://vvvv.org/tiki-download_file.php?fileId=2046)WickedSegmentNr2.v4p (7.08 Kb)</a>  
 
 <a href="https://www.youtube.com/watch?v=1JUw8-EUan8" class="extURL youtube" target="_blank">Video</a>  
 
@@ -205,7 +205,7 @@ The Circularspread multiplied by a Randomspread is what generates the freaky spi
 
 In the next tutorial I am going to connect the beat detector so the change occurs with some sound.  
 
-The patch can be downloaded here: [/tiki-download_file.php?fileId=2098](TODO INTERNALLINK:/tiki-download_file.php?fileId=2098)RopeFun.v4p (10.07 Kb)</a>  
+The patch can be downloaded here: [/tiki-download_file.php?fileId=2098](https://vvvv.org/tiki-download_file.php?fileId=2098)RopeFun.v4p (10.07 Kb)</a>  
 
 <a href="https://www.youtube.com/watch?v=kp32U_Ov_tM" class="extURL youtube" target="_blank">Video</a>  
 

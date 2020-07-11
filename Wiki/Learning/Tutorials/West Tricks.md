@@ -8,7 +8,7 @@ uid: 0bfe3503-857a-490b-832b-1359a25dba1b
 
 This page is created for users that are past the new-bee status, and are ready to learn some nice hints, pointers and tricks to make their patching life a little easier.  
 
-The contributions come from our proud members, and are maintained by West. So feel free to send in your clever ideas using [this thread](TODO INTERNALLINK:/tiki-view_forum_thread.php?comments_parentId=10623&topics_threshold=0&topics_offset=0&topics_sort_mode=lastPost_desc&topics_find=&forumId=7) in the forum.    
+The contributions come from our proud members, and are maintained by West. So feel free to send in your clever ideas using [this thread](https://vvvv.org/tiki-view_forum_thread.php?comments_parentId=10623&topics_threshold=0&topics_offset=0&topics_sort_mode=lastPost_desc&topics_find=&forumId=7) in the forum.    
 
 #  Keep Clean Structure In Patches
 
@@ -18,7 +18,7 @@ The biggest trap a VVVV user can step into when creating big and complicated pat
 
 **Advantage:** You (and others) might understand the patch easier when they get opened a day later.  
 
-**Download:** [Examples on how to keep clean structure in your patches.](TODO INTERNALLINK:/tiki-download_file.php?fileId=931)  
+**Download:** [Examples on how to keep clean structure in your patches.](https://vvvv.org/tiki-download_file.php?fileId=931)  
 
 #  Difference between LFO and Integrate
 
@@ -28,18 +28,18 @@ The <span class="node">LFO (Animation)</span> has some nice configuration pins t
 
 The Position Time pin of the <span class="node">Integrate (Differential)</span> is the reciprocal (1/x) of the Period pin of the <span class="node">LFO (Animation)</span>, just be careful in using a time of 0, the LFO will go super fast, while the integral will come to a stop. Using the <span class="node">Frac (Value)</span> node, you can separate the Integrate output to make it look like LFO, or use a simple <span class="node">+ (Value)</span> to make an LFO output look like the Integrate output.  
 
-**Download:** [Demonstration of the LFO and Integrate nodes.](TODO INTERNALLINK:/tiki-download_file.php?fileId=1871)  
+**Download:** [Demonstration of the LFO and Integrate nodes.](https://vvvv.org/tiki-download_file.php?fileId=1871)  
 
 
 #  Getting Highest Value of A Spread
 
 When you have a spread of values and want to figure out what value is the highest, or the lowest, there is only one node you want to worry about, <span class="node">Bounds (Spectral)</span>.   
 
-If you are also interested in what slice goes with that lowest, or highest value, there are a few ways to do that, but after examination of the [performance with CTRL + SHIFT + F9](TODO INTERNALLINK:/tiki-index.php?page=performance), the sort/car method was the most efficient. How ever, when you have a always changing spread, the bounds/sift combo is the way to go.  
+If you are also interested in what slice goes with that lowest, or highest value, there are a few ways to do that, but after examination of the [performance with CTRL + SHIFT + F9](https://vvvv.org/tiki-index.php?page=performance), the sort/car method was the most efficient. How ever, when you have a always changing spread, the bounds/sift combo is the way to go.  
 
 **Advantage:** Clean and fast way to get the highest or lowest value from a spread.  
 
-**Download:** [Example Patch To Get Highest Value.](TODO INTERNALLINK:/tiki-download_file.php?fileId=1864)  
+**Download:** [Example Patch To Get Highest Value.](https://vvvv.org/tiki-download_file.php?fileId=1864)  
 
 # High Speed Counter
 
@@ -49,7 +49,7 @@ But by simply mapping, with the <span class="node">Map (Value)</span> node, the 
 
 **Advantage:** you can now count from 1 to 100 in exactly 2.1 seconds.  
 
-**Download:** [Example Patch HighSpeedCounter.](TODO INTERNALLINK:/tiki-download_file.php?fileId=920)  
+**Download:** [Example Patch HighSpeedCounter.](https://vvvv.org/tiki-download_file.php?fileId=920)  
 
 # Using Colors As Values
 
@@ -59,7 +59,7 @@ Using [Vector (4d) Join](TODO INTERNALLINK:Vector (4d) Join), just ONE switch, a
 
 **Advantage:** you can now also do more complex stuff with colors, without copying the patch 4 times.   
 
-**Download:** [Example Patch Using 4D Vector for colors.](TODO INTERNALLINK:/tiki-download_file.php?fileId=921)  
+**Download:** [Example Patch Using 4D Vector for colors.](https://vvvv.org/tiki-download_file.php?fileId=921)  
 
 #  Switching direct with LFO
 
@@ -69,7 +69,7 @@ Connecting the Cycles pin of an <span class="node">LFO (Animation)</span> node d
 
 **Advantage:** easy switch between values, and it saves some patching  
 
-**Download:** [Example Patch using LFO cycle to switch.](TODO INTERNALLINK:/tiki-download_file.php?fileId=927)  
+**Download:** [Example Patch using LFO cycle to switch.](https://vvvv.org/tiki-download_file.php?fileId=927)  
 
 #  Using a Gamma node to correct a Damper output
 
@@ -79,7 +79,7 @@ Using the <span class="node">Gamma (Value)</span> node, you can easy compensate 
 
 **Advantage:** quick way to compensate the values after a filter.  
 
-**Download:** [Example Patch to Use a Gamma Node to correct the Damper output.](TODO INTERNALLINK:/tiki-download_file.php?fileId=928)  
+**Download:** [Example Patch to Use a Gamma Node to correct the Damper output.](https://vvvv.org/tiki-download_file.php?fileId=928)  
 
 #  Create your graphical user interface using the intersect node.
 
@@ -101,8 +101,8 @@ Sometimes a user isn't sure what button to press, so he presses all of them, ver
 
 **Advantage:**  it switches to 1 only if the user made a decision longer than a certain time.  
 
-**Download:** [Force user awareness when pressing a button.](TODO INTERNALLINK:/tiki-download_file.php?fileId=932)  
-[The Helpfile.](TODO INTERNALLINK:/tiki-download_file.php?fileId=933) (place both in same folder)  
+**Download:** [Force user awareness when pressing a button.](https://vvvv.org/tiki-download_file.php?fileId=932)  
+[The Helpfile.](https://vvvv.org/tiki-download_file.php?fileId=933) (place both in same folder)  
 
 #  Measure the time between two events
 
@@ -112,7 +112,7 @@ It can be very handy sometimes to measure the time that is passed between two ev
 
 **Advantage:** Get the time passed between two events.  
 
-**Download:** [Measure the time between two events.](TODO INTERNALLINK:/tiki-download_file.php?fileId=934)  
+**Download:** [Measure the time between two events.](https://vvvv.org/tiki-download_file.php?fileId=934)  
 
 #  Get your Values back after a Boolean operation.
 
@@ -122,7 +122,7 @@ The <span class="node">Select (Value)</span> node is used for this.
 
 **Advantage:** Use the actual values from boolean operations.  
 
-**Download:** [Example file on how to use the Select node after a Boolean.](TODO INTERNALLINK:/tiki-download_file.php?fileId=939)  
+**Download:** [Example file on how to use the Select node after a Boolean.](https://vvvv.org/tiki-download_file.php?fileId=939)  
 
 #  Have a Clipboard module
 
@@ -145,7 +145,7 @@ paste inside your patch.
 
 **Advantage:** saves a lot of time.  
 
-**Download:** [Example for ClipboardPatch.](TODO INTERNALLINK:/tiki-download_file.php?fileId=948)  
+**Download:** [Example for ClipboardPatch.](https://vvvv.org/tiki-download_file.php?fileId=948)  
 
 >you could also use the "very basic help"-patch assuming that you don't need it anymore.  
 
@@ -173,7 +173,7 @@ The trick that is used makes smart use of the 'former index' pin of the <span cl
 
 **Advantage:** makes the outcome of most patches less predictable.  
 
-**Download:** [Download the random shuffle module.](TODO INTERNALLINK:/tiki-download_file.php?fileId=978)  
+**Download:** [Download the random shuffle module.](https://vvvv.org/tiki-download_file.php?fileId=978)  
 
 
 #  Make your Random Spread more Random
@@ -183,7 +183,7 @@ Most of us should have noticed that the outcome of two upcoming cycles is less r
 
 **Advantage:** The outcome of 2 random spreads is way more random.  
 
-**Download:** [Small example on how to get a spread be less predictable.](TODO INTERNALLINK:/tiki-download_file.php?fileId=994)  
+**Download:** [Small example on how to get a spread be less predictable.](https://vvvv.org/tiki-download_file.php?fileId=994)  
 
 
 #  Rounding your Values Up or Down
@@ -194,8 +194,8 @@ Using the <span class="node">Frac (Value)</span> node, and a simple <span class=
 
 **Advantage:** Rounding up or down is useful for selecting slices with fractions in the slice index, sending data over using artnet, and much more I am sure.  
 
-**Download:** [Rounding (Values).v4p (6.05 Kb) module.](TODO INTERNALLINK:/tiki-download_file.php?fileId=979)  
-[Rounding (Values) help.v4p (5.21 Kb) helpfile.](TODO INTERNALLINK:/tiki-download_file.php?fileId=980)  
+**Download:** [Rounding (Values).v4p (6.05 Kb) module.](https://vvvv.org/tiki-download_file.php?fileId=979)  
+[Rounding (Values) help.v4p (5.21 Kb) helpfile.](https://vvvv.org/tiki-download_file.php?fileId=980)  
 
 
 #  Build a simple Timeline for movement
@@ -206,7 +206,7 @@ The node <span class="node">B-Spline (Value)</span> is not designed for this, bu
 
 **Advantage:** This is the most easy and simple time-line I have come across.  
 
-**Download:** [Example for a "Stupid" Timeline](TODO INTERNALLINK:/tiki-download_file.php?fileId=995).  
+**Download:** [Example for a "Stupid" Timeline](https://vvvv.org/tiki-download_file.php?fileId=995).  
 
 
 #  Make an LFO only run once
@@ -217,7 +217,7 @@ Now I decided to let the LFO run just and switch to zero (or one if you desire) 
 
 **Advantage:** Run an LFO exactly one time, and let it stop at exactly 0.0000 or 1.0000.  
 
-**Download:** [Download an example to run an LFO for only one cycle.](TODO INTERNALLINK:/tiki-download_file.php?fileId=996)  
+**Download:** [Download an example to run an LFO for only one cycle.](https://vvvv.org/tiki-download_file.php?fileId=996)  
 
 
 #  Don't confuse Change and TogEdge
@@ -228,7 +228,7 @@ In most cases <span class="node">Change (Animation)</span> is the node of choice
 
 **Advantage:** Just Nice to know I thought.  
 
-**Download:** [A patch that makes the difference a bit more clear.](TODO INTERNALLINK:/tiki-download_file.php?fileId=1009)  
+**Download:** [A patch that makes the difference a bit more clear.](https://vvvv.org/tiki-download_file.php?fileId=1009)  
 
 
 #  Use the Decay to Visualize a Bang
@@ -239,7 +239,7 @@ Since most events produce a bang, most filters are not use able, so I always pat
 
 **Advantage:** Nice and fast way to make patches Bang-reactive.  
 
-**Download:** [Example how you can use this trick.](TODO INTERNALLINK:/tiki-download_file.php?fileId=1485)  
+**Download:** [Example how you can use this trick.](https://vvvv.org/tiki-download_file.php?fileId=1485)  
 
 
 #  Make a One Pixel thick line or Point
@@ -251,7 +251,7 @@ The node <span class="node">Fill (EX9.RenderState)</span> set to Point or Wirefr
 
 **Advantage:** The size of the <span class="node">Renderer (EX9)</span> doesn't matter, it is always 1 pixel.  
 
-**Download:** [An example to create a 1 pixel point or line.](TODO INTERNALLINK:/tiki-download_file.php?fileId=1277)  
+**Download:** [An example to create a 1 pixel point or line.](https://vvvv.org/tiki-download_file.php?fileId=1277)  
 
 
 #  Quickest Way to make a spread with same values
@@ -262,7 +262,7 @@ The only thing to worry about is connecting the correct outlet pin. This is also
 
 **Advantage:** Save patching time, and the node is smaller.  
 
-**Download:** [Quick Example on how to use select node another way than is mentioned in the Helpfile.](TODO INTERNALLINK:/tiki-download_file.php?fileId=1486)  
+**Download:** [Quick Example on how to use select node another way than is mentioned in the Helpfile.](https://vvvv.org/tiki-download_file.php?fileId=1486)  
 
 
  

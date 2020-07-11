@@ -39,7 +39,7 @@ read [About Tags](TODO INTERNALLINK:About Tags)
 * pin names start with capital letter   
 * instead of using CamelCaps separate the words here, like: "Transform Mesh" instead of "TransformMesh"  
 * keep names generic. If they have no special meaning name them: Input, Output (this helps vvvv to automatically reconnect pins when exchanging similar nodes)  
-* make use of the [AutoName (VVVV DescriptiveName)](TODO INTERNALLINK:/tiki-download_file.php?fileId=1783")-module to stick really to the conventions.  
+* make use of the [AutoName (VVVV DescriptiveName)](https://vvvv.org/tiki-download_file.php?fileId=1783")-module to stick really to the conventions.  
 
 ### Configuration Pins:
 Configuration pins are primarily pins that must not be changed programmatically in a running patch (e.g. since they would add/remove pins on their nodes)  

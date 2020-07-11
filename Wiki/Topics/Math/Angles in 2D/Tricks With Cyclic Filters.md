@@ -5,10 +5,10 @@ uid: c83d235b-d906-4986-92dc-b309f4bb5da0
 # Tricks With Cyclic Filters
 
 ![](~/img/lazy_quad_2007.04.2017.47.19.jpg "")  
-[lazy_quad.v4p](TODO INTERNALLINK:/tiki-download_file.php?fileId=1128)  
+[lazy_quad.v4p](https://vvvv.org/tiki-download_file.php?fileId=1128)  
 
 ![](~/img/laziest_quad_ever2_2007.04.2018.10.28.jpg "")  
-[laziest_quad_ever2.v4p](TODO INTERNALLINK:/tiki-download_file.php?fileId=1129)  
+[laziest_quad_ever2.v4p](https://vvvv.org/tiki-download_file.php?fileId=1129)  
 
 Often basic geometric shapes are rotational symmetric.  
 A plain quad e.g. can be rotated around 90°, 180°, 270°, ... and seems to haven't been touched.  

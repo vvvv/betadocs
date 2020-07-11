@@ -43,7 +43,7 @@ When using an IOBox to display spreads you can leave the *SliceCount Mode* at it
 
 The screenshot shows an <span class="node">IOBox (Color)</span> receiving 100 slices of random color and displaying them in 4 columns of 25 rows each.  
 
-There are two video tutorials on [creating](TODO INTERNALLINK:/tiki-index.php?page=Video+Tutorials#Tutorial_10_IObox_Columns_Rows_and_Slicecount) IOBoxes], and [entering](TODO INTERNALLINK:/tiki-index.php?page=Video+Tutorials#Tutorial_11_Entering_Values_Strings_and_Colors_in_an_IOBox) some data] in them.   
+There are two video tutorials on [creating](https://vvvv.org/tiki-index.php?page=Video+Tutorials#Tutorial_10_IObox_Columns_Rows_and_Slicecount) IOBoxes], and [entering](https://vvvv.org/tiki-index.php?page=Video+Tutorials#Tutorial_11_Entering_Values_Strings_and_Colors_in_an_IOBox) some data] in them.   
 
 # Sliders, Buttons, Lists,...
 If you've been looking for interface elements like sliders and buttons the whole day, IOBoxes are also all that you want.   

@@ -64,7 +64,7 @@ Creating a virtual copy of your real world setup includes three steps:
 
 At this point you have a basic setup where the virtual scene matches the real world. Take your time to fiddle with the parameters of the <span class="node">Projector (EX9)</span> module or slightly adapt your mesh using the <span class="node">PointEditor (3D Persistent)</span> module until you are satisfied with the overlapping of your virtual and real world scene.  
 
-[ProjectionMapping_SimpleSetup.v4p](TODO INTERNALLINK:/tiki-download_file.php?fileId=1842) (27.74 Kb)]  
+[ProjectionMapping_SimpleSetup.v4p](https://vvvv.org/tiki-download_file.php?fileId=1842) (27.74 Kb)]  
 
 ### Flat textures aligned to the surface
 With this basic setup it is now simple to achieve an effect like in dotdotdot's <a href="http://www.dotdotdot.it/newdot/?p=603" class="extURL" target="_blank">Valcucine’s skyscraper</a> project. Here it is the goal to project images in a way that they feel like a property of the target surface, ie. like they where a texture of the object. The textures should look exactly the same, from whatever position you view the surface/sculpture and certainly independent of the projectors position.   
@@ -106,7 +106,7 @@ In this setup the idea was to project (among others) 3d-illusion effects onto th
 Knowing that those effects only work from one perspective a spectators view was chosen from which both sides of the facade can be seen. That is in the middle of the two real projectors to be used.   
 
 Here is a patch that demonstrates the basic setup:  
-[ProjectionMapping_2ProjectorSetup.zip](TODO INTERNALLINK:/tiki-download_file.php?fileId=1843) (12.11 Kb)]  
+[ProjectionMapping_2ProjectorSetup.zip](https://vvvv.org/tiki-download_file.php?fileId=1843) (12.11 Kb)]  
 
 ![](~/img/advancedsetup3dillusion.jpg "")  
 
@@ -117,4 +117,4 @@ The above picture demonstrates that the 3d-illusion only works from the specifie
 In a 360° projection the virtual cameras all need to be placed in the same position, with only different rotations. While this is possible in a virtual scene you cannot put several physical projectors at exactly the same place in the real world.  
 
 For an extensive demo of a 360° projection setup, including soft-edging, see:  
-[small](TODO INTERNALLINK:/tiki-download_file.php?fileId=1698) 360 degree setup.zip (35.95 Kb)]
+[small](https://vvvv.org/tiki-download_file.php?fileId=1698) 360 degree setup.zip (35.95 Kb)]

@@ -53,12 +53,12 @@ Now put the Enable-Pin to 1 and select a midi-device in the Midi Input Port of t
 **Nice free instruments**   
 
 * <a href="http://www.geocities.jp/sam_kb/VOPM/" class="extURL" target="_blank">VOPM</a>  
-* <a href="http://www.geocities.jp/daichi1969/softsynth/index.html#down" class="extURL" target="_blank">Synth1 VST</a> | [ Demopatch](TODO INTERNALLINK:/tiki-download_file.php?fileId=1731)  
+* <a href="http://www.geocities.jp/daichi1969/softsynth/index.html#down" class="extURL" target="_blank">Synth1 VST</a> | [ Demopatch](https://vvvv.org/tiki-download_file.php?fileId=1731)  
 * <a href="http://e-phonic.com/plugins/drumatic3.php" class="extURL" target="_blank">Drumatic 3</a>  
-* <a href="http://aswave.altervista.org/vst.html" class="extURL" target="_blank">Polykeys</a> | [ Demopatch](TODO INTERNALLINK:/tiki-download_file.php?fileId=1729)  
+* <a href="http://aswave.altervista.org/vst.html" class="extURL" target="_blank">Polykeys</a> | [ Demopatch](https://vvvv.org/tiki-download_file.php?fileId=1729)  
 * <a href="http://www.kvraudio.com/news/kotkas-sets-paax-3-pro-vsti-sampler-for-windows-free-19926" class="extURL" target="_blank">Paax</a>  
 * <a href="http://glenstegner.com/softsynths.html" class="extURL" target="_blank">MiniMogueVA / Arp2600VA</a>  
-* <a href="http://bicycle-for-slugs.org/" class="extURL" target="_blank">Oameal</a> | [Demopatch](TODO INTERNALLINK:/tiki-download_file.php?fileId=1732)  
+* <a href="http://bicycle-for-slugs.org/" class="extURL" target="_blank">Oameal</a> | [Demopatch](https://vvvv.org/tiki-download_file.php?fileId=1732)  
 * <a href="http://www.ugoaudio.com/" class="extURL" target="_blank">Texture1</a>  
 * <a href="http://www.bostreammail.net/ers/iblit.html" class="extURL" target="_blank">iblit</a>  
 * <a href="http://www.bostreammail.net/ers/polyiblit.html" class="extURL" target="_blank">polyblit</a>  
@@ -71,7 +71,7 @@ Now put the Enable-Pin to 1 and select a midi-device in the Midi Input Port of t
 * <a href="http://www.audjoo.com/Helix.html" class="extURL" target="_blank">Audjoo Helix</a>  
 * <a href="http://sourceforge.net/project/showfiles.php?group_id=133137" class="extURL" target="_blank">Buffer Synth</a>  
 * <a href="http://ag-works.net/default.asp?page=plugins.ch2" class="extURL" target="_blank">Chorus</a>  
-* <a href="http://bram.smartelectronix.com/plugins.php?id=1" class="extURL" target="_blank">SupaPhaser</a>  |[ Demopatch](TODO INTERNALLINK:/tiki-download_file.php?fileId=1730)  
+* <a href="http://bram.smartelectronix.com/plugins.php?id=1" class="extURL" target="_blank">SupaPhaser</a>  |[ Demopatch](https://vvvv.org/tiki-download_file.php?fileId=1730)  
 
 If you find problems with any vst-plugin in vvvv please report them to <span class="user"><a href="https://vvvv.org/users/MEanimal" class="extURL" target="_blank">MEanimal</a></span>  
 

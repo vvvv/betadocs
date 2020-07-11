@@ -43,7 +43,7 @@ Get that? The <span class="node">Point (GDI)</span> receives 5 values on the *X*
 
 That's it. That is the way every node deals with spreads from its inputs. If the input understands spreads. If it doesn't all slices but the first will be discarded. To find out if a pin understands spreads watch it in the Inspektor. A > or >> left to its name indicates that it does understand spreads.   
 
-It can never hurt to watch [the](TODO INTERNALLINK:/tiki-index.php?page=Video+Tutorials#Tutorial_9_Spreads_and_Slices) video tutorial] about spreads.  
+It can never hurt to watch [the](https://vvvv.org/tiki-index.php?page=Video+Tutorials#Tutorial_9_Spreads_and_Slices) video tutorial] about spreads.  
 
 # Accessing individual Slices
 If you do it right, in most cases you'll not need to deal with individual slices, since almost every node can deal with spreads natively. But of course there are good reasons to access individual slices. Suppose we have such a reason and want to manipulate the 3rd slice that comes out of our first <span class="node">LinearSpread (Spreads)</span> manually. Therefore we insert a <span class="node">SetSlice (Spreads)</span> node as shown below.  
