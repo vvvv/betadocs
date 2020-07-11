@@ -27,7 +27,7 @@ When running Git Extensions for the first time you'll have to enter your name an
 If at some point you need/want to know more about working with git your best starting point is the <a href="http://git-scm.com/" class="extURL" target="_blank">official git website</a> with all its documentation and reference material.   
 
 ## Fork vvvv-sdk on github
-The vvvv-sdk git repository is hosted on [http://github.com] (which is just one of many git-repository hosting services). In order to be able to contribute back to that repository one day you'll have to fork it. Here are the steps to do so:  
+The vvvv-sdk git repository is hosted on <a href="http://github.com" class="extURL" target="_blank">http://github.com</a>(which is just one of many git-repository hosting services). In order to be able to contribute back to that repository one day you'll have to fork it. Here are the steps to do so:  
 * create a free account on <a href="http://github.com" class="extURL" target="_blank">github</a>  
 * navigate to https://github.com/vvvv/vvvv-sdk and press the fork button (top right!).   
 * if interested <a href="http://help.github.com/fork-a-repo/" class="extURL" target="_blank">read more about forking on github</a>  

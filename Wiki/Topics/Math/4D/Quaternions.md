@@ -43,6 +43,6 @@ vvvv node: [axisangle-(quaternion-set):](TODO INTERNALLINK:axisangle-(quaternion
 this is a much simpler representation of a rotation than the usual 3x3 matrices. rotate a vector by a quaternion and the combination of many rotations can be computed with quaternions also faster than with 3x3 matrices. thats why they are used in 3-d computer graphics.  
 
 for more mathmatical information go:  
-[http://www.gamedev.net/reference/articles/article1095.asp]    
+<a href="http://www.gamedev.net/reference/articles/article1095.asp" class="extURL" target="_blank">http://www.gamedev.net/reference/articles/article1095.asp</a>   
 
 *by <span class="user"><a href="https://vvvv.org/users/tonfilm" class="extURL" target="_blank">tonfilm</a></span>*

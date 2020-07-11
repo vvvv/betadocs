@@ -39,7 +39,7 @@ BNN, Inc.
 
 (japanese only)  
 なんでもできるツールキット「vvvv」の日本初の入門解説書。vvvvは様々な機能を持った〈部品〉を線で繋ぐことで、表現のアイデアを素早く形にできるビジュアルプログラミング環境のWindowsアプリケーションです。インタラクション・2D/3Dアニメーション・リアルタイムグラフィックス・オーディオビジュアル・データビジュアライゼーション・フィジカルコンピューティングなどなど、あらゆるメディアコンテンツを制作できるドイツ生まれのvvvvをぜひ体験してください。  
-**[http://www.bnn.co.jp/books/6211/]**  
+**<a href="http://www.bnn.co.jp/books/6211/" class="extURL" target="_blank">http://www.bnn.co.jp/books/6211/</a>*  
 
 Order the book:  
 * print <a href="http://www.amazon.co.jp/dp/486100800X" class="extURL" target="_blank">Amazon</a>  
@@ -56,7 +56,7 @@ Erschienen im Verlag Hermann Schmidt Mainz
 
 (german only for now)  
 Das Buch »Prototyping Interfaces« führt Sie allgemeinverständlich in vvvv, Arduino, Tracking-Verfahren und Display-Technologien ein. Auf dieser Grundlage eröffnet es Ihnen anhand unzähliger Praxisbeispiele die Möglichkeiten des Prototyping und erschließt Ihrer Kreativität damit vollkommen neue Dimensionen.  
-**[http://prototypinginterfaces.com]**  
+**<a href="http://prototypinginterfaces.com" class="extURL" target="_blank">http://prototypinginterfaces.com</a>*  
 
 download <a href="http://ocoire.net/PrototypingInterfaces/PrototypingInterfaces_AllPatches_latest.zip" class="extURL" target="_blank">all patches for beta31.2</a>  
 
@@ -76,7 +76,7 @@ Erschienen im Verlag Hermann Schmidt Mainz
 
 The book »Generative Design« describes the creation of images by using codes. An image is not created manually, but instead by translating a visual idea into a set of rules and then implementing it in a programming language. Such a program can not only create a single image but also design complete visual worlds when parameters are changed.  
 We, the authors, want this book to provide a solid foundation for the use of this process. The book section “Basic Principles” illustrates generative techniques in relation to four foundation areas of design: color, shape, typography, and image. The designer’s repertoire is further expanded in the section “Complex Methods” by combining a number of principles on the basis of six larger-scaled examples. In this section you will also find explanations of advanced techniques.  
-**[http://www.generative-gestaltung.de]**  
+**<a href="http://www.generative-gestaltung.de" class="extURL" target="_blank">http://www.generative-gestaltung.de</a>*  
 
 Note this is not exactly a book on vvvv but **most of the examples described are available as vvvv patches**, see:  
 * <a href="https://vvvv.org/contribution/parasitic-design-a-vvvv-beginners-cookbook" class="extURL contribution" target="_blank">Parasitic Design - a vvvv beginners cookbook</a>  

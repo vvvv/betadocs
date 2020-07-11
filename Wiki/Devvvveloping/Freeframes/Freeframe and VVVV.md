@@ -5,7 +5,7 @@ uid: 4b398d22-e01e-44f7-bd95-678ced634860
 # Freeframe and VVVV
 ## About FreeFrame
 The official source for information about freeframe is its hompage at:  
-[http://www.freeframe.org]  
+<a href="http://www.freeframe.org" class="extURL" target="_blank">http://www.freeframe.org</a> 
 
 FreeFrame is a specification of how you have to write a videoplugin so that it can be used in a large number of applications. It is designed to be crossplatform and independent of a programming language. Therefore plugins can be written in any language as long as the result is a .dll (for windows, and something else for linux and osx).  
 
@@ -19,7 +19,7 @@ Actually this is not important for you who just wants to write a freeframe video
 There is a stepbystep guide to [writing freeframe plugins](TODO INTERNALLINK:writing freeframe plugins) available which is the documentation of the freeframe workshop held during node08.  
 
 Also the freeframe sourceforge site offers sample code for writing plugins in VisualStudio and Delphi:  
-[http://sourceforge.net/projects/freeframe]  
+<a href="http://sourceforge.net/projects/freeframe" class="extURL" target="_blank">http://sourceforge.net/projects/freeframe</a> 
 
 ## Extended FreeFrame Specification
 The current freeframe specification has two shortcommings: You cannot have spreaded inputs and you cannot have outputs. Therefore the official freeframe specification has been extended to allow us having both. Bear in mind that those additions are not official. Version 2.0 of the freeframe specification is supposed to include something like this but its not yet sure if the extensions proposed here will make it into the specification. Anyway it is not that dramatic. For now those plugins will run within vvvv and later it will probably not be very hard to upgrade plugins to the final specification.  

@@ -50,7 +50,7 @@ Running the graph will now simply show the source video. Rightclick DSFreeFrameW
 ## 4. Version Control
 If you are not familiar with the practice of Version Control, please read a short introduction to [Version Control with Subversion](TODO INTERNALLINK:Version Control with Subversion) before continuing, as you else may miss some concepts/terms we'll be referring to below.  
 
-All code you need to develop freeframe plugins is available from public subversion repositories on [http://sourceforge.net]. So this is where we now get a basic template from to start coding.  
+All code you need to develop freeframe plugins is available from public subversion repositories on <a href="http://sourceforge.net" class="extURL" target="_blank">http://sourceforge.net</a> So this is where we now get a basic template from to start coding.  
 
 ## 5. A simple Template
 Assuming you have TortoiseSVN already installed create a new directory called something like:  
