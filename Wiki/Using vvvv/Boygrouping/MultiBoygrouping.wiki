@@ -1,0 +1,50 @@
+{INCLUDE:boygroupingtoc}
+
+!Introduction
+{SPLIT()}
+
+{img src = "Multiboygrouping-65Projectors.png" thumb=300}
+::''Click to enlarge'':: 
+
+~~~
+
+Simply put, clients cannot only obey to one master but receive patches and values from any number of servers you want them to. 
+
+!!!!Examples
+* Imagine the following setup: You have [http://www.checksum5.com/459/intro|65 projectors] showing one continuous visual, but also at times they are supposed to show special content in 5 clusters of around 12 projectors each. Here, instead of having one server that needs to compute all the patches of the master-visual and the individual area contents at once you can make use of MultiBoygrouping. Specify one master server that has all the clients connected and provides the master-visual and dedicate 5 area-servers to provide individual area contents that are only connected to the individual areas clients. 
+
+* Also imagine a live collaborative event where you have some clients connected to projectors and multiple operators connected to them at the same time with their own server...
+{SPLIT}
+
+!How to
+{SPLIT()}
+~~~
+
+Practically the only thing you need to do to assign a client to multiple servers, is starting it with additional /client commandline parameters, like:
+ /client 192.168.0.100 /client 192.168.0.200:5555
+Note that here it is necessary to use a different port for every connection as described in the ((boygrouping#faq|FAQ)).
+
+^note:It is important to make sure all servers were started before any of the clients did startup. Otherwise the behavior maybe quite random.^
+{SPLIT}
+
+
+!Features
+{SPLIT()}
+{img src = "Boygrouping-Server1.png" } 
+::''Server1''::
+{img src = "Boygrouping-Server2.png" } 
+::''Server2''::
+~~~
+
+Using Send / Receive nodes on __''Server1''__ and __''Server2''__ respectively allows to transfer Layers or any other data of the ((patching-basics#data-types|Node Datatype))!
+
+__How to do this__
+On ''Server1'' you want a boygrouped ((node:S (Node))), on ''Server2'' you want a boygrouped ((node: R (Node))).
+
+#Boygrouping S on ''Server1'' is easy. 
+#Now on ''Server2'' you create a S with the same SendString, but don't boygroup it. Like this you can select that SendString on the boygrouped R (on ''Server2''). 
+
+__See also:__
+* ((/tiki-view_forum_thread.php?comments_parentId=31271&topics_threshold=0&topics_offset=7&topics_sort_mode=lastPost_desc&topics_find=&forumId=7|MultiBoygrouping forum-thread))
+
+{SPLIT}

@@ -134,7 +134,7 @@
     <Value Original_Link="AddonPack.Effects" Path="" Text="AddonPack.Effects" UID="557d6915-5069-483e-8175-2834225be56b" />
   </Item>
   <Item Key="About Tags">
-    <Value Original_Link="About Tags" Path="" Text="About Tags" UID="" />
+    <Value Original_Link="About Tags" Path="" Text="About Tags" UID="9ba99c9e-2f8c-4987-a028-95bd35b88ec9" />
   </Item>
   <Item Key="node:ArtNet (Network Sender)">
     <Value Original_Link="node:ArtNet (Network Sender)" Path="" Text="node:ArtNet (Network Sender)" UID="" />
@@ -155,109 +155,109 @@
     <Value Original_Link="programming-concepts" Path="" Text="Programming Concepts" UID="87d944e5-aeae-451e-839d-58932488ed6e" />
   </Item>
   <Item Key="How to release a pack">
-    <Value Original_Link="How to release a pack" Path="" Text="How to release a pack" UID="" />
+    <Value Original_Link="How to release a pack" Path="" Text="How to release a pack" UID="b5cb6815-294b-44ff-94cf-365b2e4d6a81" />
   </Item>
   <Item Key="video-tutorials#tutorial-1-starting-vvvv-for-the-first-time">
-    <Value Original_Link="video-tutorials#tutorial-1-starting-vvvv-for-the-first-time" Path="" Text="Video Tutorial: Starting vvvv for the first time" UID="" />
+    <Value Original_Link="video-tutorials#tutorial-1-starting-vvvv-for-the-first-time" Path="" Text="Video Tutorial: Starting vvvv for the first time" UID="09f00508-01d4-4eac-b6d3-4dace5b00d99#tutorial-1-starting-vvvv-for-the-first-time" />
   </Item>
   <Item Key="patching-basics#hiding nodes">
-    <Value Original_Link="patching-basics#hiding nodes" Path="" Text="hidden nodes" UID="" />
+    <Value Original_Link="patching-basics#hiding nodes" Path="" Text="hidden nodes" UID="10b82e0c-720a-48e1-91e4-d8c65d2c3be1#hiding nodes" />
   </Item>
   <Item Key="AddonPack.Modules">
-    <Value Original_Link="AddonPack.Modules" Path="" Text="AddonPack.Modules" UID="" />
+    <Value Original_Link="AddonPack.Modules" Path="" Text="AddonPack.Modules" UID="be2a7b95-9a02-4bdf-8506-e10292de80f4" />
   </Item>
   <Item Key="about-addons">
-    <Value Original_Link="about-addons" Path="" Text="addons" UID="" />
+    <Value Original_Link="about-addons" Path="" Text="addons" UID="e1161303-b566-408c-86f2-1cf6cb8137b7" />
   </Item>
   <Item Key="video-tutorials#tutorial-3-inlets-outlets-and-connections">
-    <Value Original_Link="video-tutorials#tutorial-3-inlets-outlets-and-connections" Path="" Text="Video Tutorial" UID="" />
+    <Value Original_Link="video-tutorials#tutorial-3-inlets-outlets-and-connections" Path="" Text="Video Tutorial" UID="09f00508-01d4-4eac-b6d3-4dace5b00d99#tutorial-3-inlets-outlets-and-connections" />
   </Item>
   <Item Key="VL">
-    <Value Original_Link="VL" Path="" Text="VL" UID="" />
+    <Value Original_Link="VL" Path="" Text="VL" UID="89e664e5-1274-4966-a7cd-82255eea4483" />
   </Item>
   <Item Key="audio-file-playback#waveplayer-dshow9">
-    <Value Original_Link="audio-file-playback#waveplayer-dshow9" Path="" Text="WavePlayer (DShow9)" UID="" />
+    <Value Original_Link="audio-file-playback#waveplayer-dshow9" Path="" Text="WavePlayer (DShow9)" UID="ebe5bc2b-8945-43e5-90fb-5b08c1040347#waveplayer-dshow9" />
   </Item>
   <Item Key="capturing-output">
-    <Value Original_Link="capturing-output" Path="" Text="Capturing output" UID="" />
+    <Value Original_Link="capturing-output" Path="" Text="Capturing output" UID="9a69e819-8ea6-4c5d-807e-b283863abc4c" />
   </Item>
   <Item Key="animation#time-based-animation">
-    <Value Original_Link="animation#time-based-animation" Path="" Text="Time-based Nodes" UID="" />
+    <Value Original_Link="animation#time-based-animation" Path="" Text="Time-based Nodes" UID="f03b2df4-e4b6-45c4-a48e-ac50b7b810b4" />
   </Item>
   <Item Key="using-addons">
-    <Value Original_Link="using-addons" Path="" Text="Using Addons Guide" UID="" />
+    <Value Original_Link="using-addons" Path="" Text="Using Addons Guide" UID="772e8696-25d4-4d8b-a31b-db4dd1ce1f3f" />
   </Item>
   <Item Key="Tutorial Spreads">
-    <Value Original_Link="Tutorial Spreads" Path="" Text="Spread them Data" UID="" />
+    <Value Original_Link="Tutorial Spreads" Path="" Text="Spread them Data" UID="e9d19f29-9c2b-4afb-9386-f98318d4bfba" />
   </Item>
   <Item Key="Software Engineering Patterns with vvvv">
-    <Value Original_Link="Software Engineering Patterns with vvvv" Path="" Text="Software Engineering Patterns" UID="" />
+    <Value Original_Link="Software Engineering Patterns with vvvv" Path="" Text="Software Engineering Patterns" UID="3eb927ab-9bda-4f94-8481-2cdc7ae67f0d" />
   </Item>
   <Item Key="ex9.hlsl.annotations">
-    <Value Original_Link="ex9.hlsl.annotations" Path="" Text="annotation" UID="" />
+    <Value Original_Link="ex9.hlsl.annotations" Path="" Text="annotation" UID="c1f1412a-9d7c-48d0-911a-bea5d78ca373" />
   </Item>
   <Item Key="Set-Theory-Nodes">
-    <Value Original_Link="Set-Theory-Nodes" Path="" Text="Set Theory Nodes" UID="" />
+    <Value Original_Link="Set-Theory-Nodes" Path="" Text="Set Theory Nodes" UID="9834d1df-09b0-4cb7-a0c6-a626b72ba349" />
   </Item>
   <Item Key="subpatches">
-    <Value Original_Link="subpatches" Path="" Text="SubPatches" UID="" />
+    <Value Original_Link="subpatches" Path="" Text="SubPatches" UID="b66f153a-f7c3-4867-a8c9-bce69861d759" />
   </Item>
   <Item Key="Audio File Playback">
-    <Value Original_Link="Audio File Playback" Path="" Text="File Playback" UID="" />
+    <Value Original_Link="Audio File Playback" Path="" Text="File Playback" UID="ebe5bc2b-8945-43e5-90fb-5b08c1040347" />
   </Item>
   <Item Key="strings#plain-text">
-    <Value Original_Link="strings#plain-text" Path="" Text="String category" UID="" />
+    <Value Original_Link="strings#plain-text" Path="" Text="String category" UID="12388a90-72f1-415d-892d-a63403ffedd3" />
   </Item>
   <Item Key="protocols#tuio">
-    <Value Original_Link="protocols#tuio" Path="" Text="TUIO protocol" UID="" />
+    <Value Original_Link="protocols#tuio" Path="" Text="TUIO protocol" UID="ea63b7e1-542d-41a0-bbc4-1914a82c0db0" />
   </Item>
   <Item Key="MultiBoygrouping">
-    <Value Original_Link="MultiBoygrouping" Path="" Text="MultiBoygrouping" UID="" />
+    <Value Original_Link="MultiBoygrouping" Path="" Text="MultiBoygrouping" UID="511c5e9e-a4b0-4f82-914b-2231cea23cfe" />
   </Item>
   <Item Key="animation#mixed-approaches">
-    <Value Original_Link="animation#mixed-approaches" Path="" Text="combine" UID="" />
+    <Value Original_Link="animation#mixed-approaches" Path="" Text="combine" UID="0cc9f485-467f-41ef-8239-749baae656f4" />
   </Item>
   <Item Key="Performance">
-    <Value Original_Link="Performance" Path="" Text="Performance" UID="" />
+    <Value Original_Link="Performance" Path="" Text="Performance" UID="026ac8ca-9bcc-45e4-abf3-ac079a44065b" />
   </Item>
   <Item Key="dmx.hardware">
-    <Value Original_Link="dmx.hardware" Path="" Text="List of DMX Hardware" UID="" />
+    <Value Original_Link="dmx.hardware" Path="" Text="List of DMX Hardware" UID="1c796b9b-c238-4ebd-be0b-3350f9f1c5aa" />
   </Item>
   <Item Key="Subpatches">
-    <Value Original_Link="Subpatches" Path="" Text="Subpatches" UID="" />
+    <Value Original_Link="Subpatches" Path="" Text="Subpatches" UID="b66f153a-f7c3-4867-a8c9-bce69861d759" />
   </Item>
   <Item Key="multiboygrouping">
-    <Value Original_Link="multiboygrouping" Path="" Text="multi server boygrouping" UID="" />
+    <Value Original_Link="multiboygrouping" Path="" Text="multi server boygrouping" UID="511c5e9e-a4b0-4f82-914b-2231cea23cfe" />
   </Item>
   <Item Key="faq-regexpr">
-    <Value Original_Link="faq-regexpr" Path="" Text="Regular Expressions in detail" UID="" />
+    <Value Original_Link="faq-regexpr" Path="" Text="Regular Expressions in detail" UID="ff589b7b-2a76-4cee-a4ca-139db9933828" />
   </Item>
   <Item Key="node08.workshop.DMX">
-    <Value Original_Link="node08.workshop.DMX" Path="" Text="node08.workshop.DMX" UID="" />
+    <Value Original_Link="node08.workshop.DMX" Path="" Text="node08.workshop.DMX" UID="086375e6-a403-472b-84dd-7b95a13bdde2" />
   </Item>
   <Item Key="Installation">
-    <Value Original_Link="Installation" Path="" Text="Installation" UID="" />
+    <Value Original_Link="Installation" Path="" Text="Installation" UID="98242e9a-e52a-4557-a9be-9550d3a1396e" />
   </Item>
   <Item Key="Video Tutorials">
-    <Value Original_Link="Video Tutorials" Path="" Text="English Video Tutorials" UID="" />
+    <Value Original_Link="Video Tutorials" Path="" Text="English Video Tutorials" UID="09f00508-01d4-4eac-b6d3-4dace5b00d99" />
   </Item>
   <Item Key="SkinningWithSkeletonNodes">
-    <Value Original_Link="SkinningWithSkeletonNodes" Path="" Text="skinning tutorial" UID="" />
+    <Value Original_Link="SkinningWithSkeletonNodes" Path="" Text="skinning tutorial" UID="435355ec-58d2-4381-8e1f-a2b5821cb18e" />
   </Item>
   <Item Key="Generic Nodes">
-    <Value Original_Link="Generic Nodes" Path="" Text="Generic Nodes" UID="" />
+    <Value Original_Link="Generic Nodes" Path="" Text="Generic Nodes" UID="a4ee0097-c57b-4788-822f-a7b07953e5a1" />
   </Item>
   <Item Key="node:(S+H) animation">
     <Value Original_Link="node:(S+H) animation" Path="" Text="node:(S+H) animation" UID="" />
   </Item>
   <Item Key="Conventions.HelpPatch">
-    <Value Original_Link="Conventions.HelpPatch" Path="" Text="Conventions.HelpPatch" UID="" />
+    <Value Original_Link="Conventions.HelpPatch" Path="" Text="Conventions.HelpPatch" UID="07824e2d-da59-4df0-9f49-a143dc0f7625" />
   </Item>
   <Item Key="patching-basics#node">
-    <Value Original_Link="patching-basics#node" Path="" Text="icons" UID="" />
+    <Value Original_Link="patching-basics#node" Path="" Text="icons" UID="10b82e0c-720a-48e1-91e4-d8c65d2c3be1#node" />
   </Item>
   <Item Key="angles-in-2d">
-    <Value Original_Link="angles-in-2d" Path="" Text="Angles in 2d" UID="" />
+    <Value Original_Link="angles-in-2d" Path="" Text="Angles in 2d" UID="6cdb7263-e6b9-4adf-bb31-5a9b958d42c7" />
   </Item>
   <Item Key="flash">
     <Value Original_Link="flash" Path="" Text="Using Flash in vvvv" UID="" />

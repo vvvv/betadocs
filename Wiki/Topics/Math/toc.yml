@@ -3,7 +3,7 @@
 - name: 2D Vector Mathematics
   href: 2D Vector Mathematics/toc.yml
 - name: Angles in 2D
-  href: Angles in 2D/toc.yml
+  href: Angles in 2D.md
 - name: 3D Vector Mathematics
   href: 3D Vector Mathematics/toc.yml
 - name: 4D
