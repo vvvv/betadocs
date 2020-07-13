@@ -1,0 +1,43 @@
+! RSH-HowTo
+!! Aufbau eines RSH-Netzwerks mit v4
+
+!!! Abstract RSH in v4
+* RSH ist ein tcp-basiertes Protokoll, mit dem auf einem Remote-Rechner Befehle ausgeführt werden können
+** Ist mit einer Hostliste(.rhosts-datei) erweiterbar, auf der alle Rechner (name oder IP) vermerkt sind, die Befehle ausführen dürfen.
+*** Geht bis auf einzelne Befehle für einzelne Rechner  zu konfigurieren
+*** .rhosts ist auch abschaltbar
+** RSH gilt als extrem unsicher, wird daher nicht mehr verwendet oder nur in genau abgeschirmten internen Netzwerken.
+* Auf den Rechnern, auf denen ein Programm ausgeführt werden soll muss der __RSH-Daemon__ laufen
+* Der Rechner, der die Ausführung steuert wird als __RSH-Client__ bezeichnet
+* Der __RSH-Client__ ist als v4-Knoten implementiert
+* Der __RSH-Daemon__ läuft als eigenständiges Programm auf den Remote-Rechnern (Written by Silviu C. Marghescu (http://www.cs.umd.edu/~silviu)).
+
+!!! Setup
+* Setup eines __RSH-Daemons__ (Standalone)
+** Das Programm __rshd.exe__ (Written by Silviu C. Marghescu (http://www.cs.umd.edu/~silviu)) starten.
+*** Optionen -d (nicht als Dienst) -r(keine .rhosts-datei, Zugriff von jedem Host möglich
+**** __rshd -d -r__
+** Anmerkung: Das Starten als Dienst (Nach erfolgreichem Installieren als Dienst mittels rshd.exe -install) funktioniert nicht bei xp und 2000.
+
+* Typischerweise  hat man einen vvvv-Server, von dem aus man zb. die vvvv-Clients starten möchte. Dies ist der __RSH-Client__.
+** RSH-Knoten anlegen
+
+** Input-Pins
+*** Spread mit anzusteuernden __RSH-Daemons__(Name oder IP) festlegen
+*** Spread mit Befehlen festlegen
+**** Befehle sind alles, was man über die DOS-Kommandozeile ausführen kann
+*** Execute-Spread zum Ausführen
+**** beim RSH-knoten handelt es sich um einen __ThreadedNetworkNode__, d.h. das Execute eines jeden Slices wird in einem eigenen Thread ausgeführt
+**** Alle Befehle geben irgendwann über den __RSH-Daemon__ einen Wert zurück. Es gibt hierbei im vvvv__RSH-Client__ keinen Timeout
+**** Bei interaktiven Programmen wie v4 kommt i.d.r. erst eine Rückgabe wenn das Programm beendet ist.
+*** Cancel-Spread zum Beenden
+**** Hiermit wird eine wartende Verbindung zum __RSH-Daemon__ beendet.
+***** (ACHTUNG): Das Programm wird nicht beendet, nur die Verbindung. Dadurch ist es möglich, einen neuen Befehl an den entsprechenden __RSH-Daemon__ abzuschicken
+
+** Output-Pins
+*** ResultCode -1: Fehler, 0: wait, 1: ready bzw ok
+*** ResultValue: ausführlichere Beschreibung
+
+!!! aktueller windows rsh daemon
+* http://sourceforge.net/projects/rshd
+

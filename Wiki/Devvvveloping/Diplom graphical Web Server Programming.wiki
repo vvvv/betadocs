@@ -1,0 +1,133 @@
+!!Ergebnis
+^note:
+Die Diplomarbeit gibt es hier zum [tiki-download_file.php?fileId=861|download]. 
+^
+
+
+!!Offizielle Beschreibung:
+Bei VVVV ( sprich Vau Vier ) handelt es sich um eine graphische Programmiersprache, deren Kernmetapher ein Datenflussgraph aus Knoten und Kanten ist, der während der Laufzeit jederzeit über ein intuitives, graphisches Interface manipuliert werden kann. VVVV wird seit einigen Jahren äußerst erfolgreich im Bereich interaktive Installationen für Ausstellungen und Messen, Audio- und Videoproduktion, Datenvisualisierung und Experimente zur parametrischen Ästhetik eingesetzt.
+Beispiel für ein solches Multimedia-Projekt ist der Fifa-Fußball-Globus, ein Teil des begleitenden Kunst- und Kulturprogramms der Fifa WM 2006, der 3 Jahre durch die 12 WM-Städte Deutschlands tourt, um seinen Besuchern das Thema Fußballkultur auf emotionale spielerische Weise nahe zu bringen.
+VVVV ist in Delphi entwickelt und für nichtkommerziellen Einsatz lizenzfrei nutzbar. Weitere Informationen unter [http://vvvv.org].
+
+Ziel der Diplomarbeit ist es, zu überprüfen, inwieweit sich ein graphisch manipulierbarer Datenflussgraph dazu eignet, in intuitiver Weise komplexe Web-Server-Applikationen zu entwickeln. 
+Ausgehend von den Recherche-Ergebnissen soll die Arbeit in einer exemplarischen Anwendung ihren Abschluss finden.
+Die Diplomarbeit wird in Zusammenarbeit mit David Brüll/Björn Schwarzer geschrieben.
+An einem Beispiel (ähnlich Fußball-Globus) sollen Möglichkeiten geschaffen werden, ein in VVVV realisiertes Programm ( einen sog. „Patch“ ) über externe Schnittstellen (exemplarisch das WWW) zu manipulieren.
+ 
+Es wird eine XML-Beschreibung einer Selektion eines Patches generiert. Daraus werden die In- und Output Werte der einzelnen Knoten der Auswahl ausgelesen. Aus diesen wiederum generiert ein HTTP-Server dynamisch HTML-Formulare, die die Manipulation dieser Werte ermöglichen. Die neuen Werte werden mittels des Servers wieder über XML an den Patch zurückgegeben.
+Die diesbezüglichen Vorgänge sollen für den Nutzer transparent ablaufen und weitestgehend durch ihn beeinflussbar sein.
+
+Für die Implementierung steht bereits ein umfassendes Framework zur Verfügung. Dieses Framework muss jedoch um weitere geeignete Knoten ergänzt werden, wobei der genaue Umfang der Implementierung noch festzulegen ist. Notwendig sind:
+
+*HTTP Server-Knoten 
+Analyse der Anforderungen und der existierenden Knoten (HTTP Client-Knoten für HTTP/GET und HTTP/POST existieren bereits). Implementation des HTTP-Standards in verschiedenen Knoten. 
+--> Björn Schwarzer
+
+*Graphical String Parsing
+Analyse. Parsing von XML-Strukturen mittels Datenflussgraph. Transformation von XML-Strukturen. Generierung von XML und HTML Strukturen. Beispielhafte Implementation zur Generierung von Webformularen und der internen VVVV -XML-Messages. 
+-->David Brüll
+
+Subthemen als einzelne Knoten
+*Kommunikation mit SQL Datenbanken
+*Umrechnung von Bildern in Binärdaten und zurück
+*Generierung von PDFs
+*XML-RPC
+*XLST
+*((Unicode))
+
+!!Quellen
+
+!!!Allgemein
+*[http://citeseer.ist.psu.edu|Citeseer]
+*[http://dict.leo.org|Leo Dictionary]
+*[http://de.wikipedia.org|Wikipedia de]
+*[http://en.wikipedia.org|Wikipedia en]
+
+!!!HTTP
+*[http://www.jmarshall.com/easy/http/|HTTP Made Really Easy]
+
+!!!Delphi
+*Allgemein
+**[http://docs.indyproject.org/|http://docs.indyproject.org/]
+**[http://www.delphi-forum.de/|http://www.delphi-forum.de/]
+**[http://www.dsdt.info/|http://www.dsdt.info/]
+**[http://www.howtodothings.com/ViewSubCategory.aspx?SubCategory=41&PageNumber=0|How to do Things in Delphi (Viele Helferlein)]
+
+* Delphi & WWW
+**[http://www.prestwood.com/community/delphi/info/delphi_web_servers.asp|Developing Web Servers with Delphi(Tutorial)]
+**[http://www.adug.org.au/PastMeetings/Presentations/GlennLawrenceFeb98/Default.html|Writing Server-side Web Applications in Delphi with CGI Expert]
+
+*Delphi & Web Services
+**[http://www.howtodothings.com/ViewArticle.aspx?Article=312|HTDTID -Web Services - Made Simple in Delphi 6 Part I]
+**[http://www.howtodothings.com/ViewArticle.aspx?Article=276|HTDTID -Web Services - Made Simple in Delphi 6 Part II]
+
+* Delphi & XML
+**[http://community.borland.com/article/0,1410,27106,00.html/|Using XML and XSLT with Delphi 5 and WebBroker]
+**[http://www.destructor.de/xmlparser/download.htm|Free XML Parser for Delphi]
+**[http://www.philo.de/xml/dom/index_de.shtml|Extended Document Object Model v.3.1.22]
+**[http://www.firstobject.com/dn_markdelphi.htm|CMarkup for Delphi]
+**[http://xml.defined.net/sax/expat/|Expat Wrapper and XML Processing Library]
+
+
+!!!Visuelles Programmieren
+*Allgemein
+**[http://citeseer.ist.psu.edu/63891.html| C. M. Holt - Comparing Visual and Textual Languages (citeseer)]
+**[http://citeseer.ist.psu.edu/narayanan97visual.html|N. Hari Narayanan, Roland Hübscher - VL Theory: Towards a Human-Computer Interaction Perspective (1997) (citeseer)]
+**[http://citeseer.ist.psu.edu/whitley96visual.html|K. N. Whitley - VPL and the Empirical Evidence For and Against (1996) (citeseer)]
+**[http://citeseer.ist.psu.edu/375325.html| Alan F. Blackwell, et al. - Cognitive Factors in Programming with Diagrams (citeseer)]
+**[http://citeseer.ist.psu.edu/burnett99visual.html|Margaret M. Burnett - Visual Programming (1999) (citeseer)]
+**[http://www2-data.informatik.unibw-muenchen.de/Lectures/WT2001/VL/VL.html|Prof. Dr. Andy Schürr - Visuelle Programmiersprachen]
+**[http://www.schiffer.at/vp/html/index.html|Schiffer - VP Grundlagen und Einsatmöglichkeiten]
+**[http://citeseer.ist.psu.edu/405810.html|Dorian Gorgan - Visual Programming Techniques (citeseer)]
+**[http://rw4.cs.uni-sb.de/~kerren/lehre/seminar/ss99/2/Uebersicht.html|Konzepte visueller Programmiersysteme]
+**[http://www-sfb288.math.tu-berlin.de/~armin/study/stud.html|Modellierung von Abhängigkeitsgraphen]
+**[http://citeseer.ist.psu.edu/boshernitsan97visual.html| Marat Boshernitsan, Michael Downes - Visual Programming Languages: A Survey (1997) (citeseer)]
+**[http://citeseer.ist.psu.edu/burnett94classification.html|Margaret Burnett, Marla Baker - A Classification System for Visual Programming Languages (1994)  (citeseer)]
+**[http://web.engr.oregonstate.edu/~burnett/vpl.html|Visual Language Research Bibliography]
+
+*VP und WWW
+**[http://citeseer.ist.psu.edu/idini98programming.html| Roberto Idini, Mauro Mosconi, M. Porta - Programming Web-Based Applications within a Data-Flow VL (1998) (citeseer)]
+**[http://citeseer.ist.psu.edu/mosconi99visual.html| Mauro Mosconi, Marco Porta - A Visual Approach to Internet Applications Development (1999) (citeseer)]
+**[http://citeseer.ist.psu.edu/573237.html| Kang Zhang, Mao Lin Huang - An Integrated Visual Framework for the Human-Web Interface (citeseer)]
+**[http://citeseer.ist.psu.edu/baumgartner03visual.html|Robert Baumgartner - Visual Programming of Web Data Aggregation Applications (2003) (citeseer)]
+**[http://citeseer.ist.psu.edu/chung02reverse.html| Christina Yip Chung, Michael Gertz - Reverse Engineering for Web Data: From Visual to Semantic Structures (2002) (citeseer)]
+
+*VP und XML
+**[http://citeseer.ist.psu.edu/erwig00visual.html|Martin Erwig - A Visual Language for XML (2000) (citeseer)]
+**[http://citeseer.ist.psu.edu/zhang01visual.html| Kang Zhang, Da-Qian Zhang, Yi Deng - A Visual Approach to XML Document Design and Transformation (2001) (citeseer)]
+**[http://citeseer.ist.psu.edu/erwig03xing.html|Martin Erwig - Xing: A Visual XML Query Language (2003) (citeseer)]
+
+*VP und Web Services
+**[http://www.iks.inf.ethz.ch/publications/bio03v.html|Visual Composition of Web Services]
+
+!!!Web Services
+*[http://de.wikipedia.org/wiki/Web_Service|Webservices - Einführung de]
+*[http://en.wikipedia.org/wiki/Web_service|Webservices - Einführung en]
+*[http://msdn.microsoft.com/webservices/webservices/understanding/default.aspx| Unterstanding Webservices]
+*[http://www-306.ibm.com/software/solutions/webservices/pdf/WSCA.pdf|Web Service Architekur]
+
+*SOAP
+**[http://www.w3schools.com/soap/default.asp|W3Schools- SOAP]
+**[http://de.wikipedia.org/wiki/Simple_Object_Access_Protocol|SOAP - Einführung]
+**[http://webservices.xml.com/pub/a/ws/2002/04/16/soap.html|SOAP - Vor- und Nachteile]
+
+*Rest
+**[http://www.oio.de/public/xml/rest-webservices.htm|REST Web Services -  Einführung]
+**[http://www.xmlmagazin.de/itr/online_artikel/show.php3?id=209&nodeid=69|Der ganze REST]
+**[http://www.int-x.org/lib/exe/fetch.php?cache=cache&media=uni%3Arest.pdf|Seminararbeit zu REST (pdf)]
+**[http://webservices.xml.com/pub/a/ws/2002/02/06/rest.html?page=1|REST - Second Genaratiion Webservices]
+**[http://webservices.xml.com/pub/a/ws/2002/02/20/rest.html?page=1|REST and the Real World]
+**[http://www.xml.com/pub/a/2004/12/01/restful-web.html|How to Create a REST Protocol]
+**[http://www.xml.com/pub/a/2004/08/11/rest.html|Implementing REST Web Services: Best Practices and Guidelines]
+**[http://hinchcliffe.org/archive/2005/04/05/192.aspx|Can REST be considered a web service?]
+
+*REST vs SOAP
+**[http://webservices.sys-con.com/read/79282.htm|REST vs. SOAP: The Battle of the Web Service Titans]
+**[http://hinchcliffe.org/archive/2005/04/27/201.aspx|It's all about real interoperability: REST vs. SOAP redux]
+**[http://hinchcliffe.org/archive/2005/02/12/171.aspx|The hidden battle between web services: REST versus SOAP]
+**[http://webservices.xml.com/pub/a/ws/2003/09/30/soa.html|Kurze Gegenüberstellung von REST und SOAP]
+**[http://www.bawsug.org/archives/000003.html|Linksammlung Rest vs. SOAP]
+**[http://www.petefreitag.com/item/431.cfm|Rest vs. SOAP]
+
+!!((DiplomGTP.Konzeption))
+!!((DiplomGTP.Quellen))

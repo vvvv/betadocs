@@ -260,46 +260,43 @@
     <Value Original_Link="angles-in-2d" Path="" Text="Angles in 2d" UID="6cdb7263-e6b9-4adf-bb31-5a9b958d42c7" />
   </Item>
   <Item Key="flash">
-    <Value Original_Link="flash" Path="" Text="Using Flash in vvvv" UID="" />
+    <Value Original_Link="flash" Path="" Text="Using Flash in vvvv" UID="25f07df4-a292-4f0e-8282-b3112d9007f3" />
   </Item>
   <Item Key="howto-rs232">
-    <Value Original_Link="howto-rs232" Path="" Text="How To RS232" UID="" />
-  </Item>
-  <Item Key="howto use irc">
-    <Value Original_Link="howto use irc" Path="" Text="contact us on irc" UID="" />
+    <Value Original_Link="howto-rs232" Path="" Text="How To RS232" UID="ea70034f-a39c-4ecb-910d-07a93956b6c2" />
   </Item>
   <Item Key="the-gui#main-menu">
-    <Value Original_Link="the-gui#main-menu" Path="" Text="Main Menu" UID="" />
+    <Value Original_Link="the-gui#main-menu" Path="" Text="Main Menu" UID="d04109d8-2d18-4c01-b319-74f249d010f6" />
   </Item>
   <Item Key="animation#framebased-animation">
-    <Value Original_Link="animation#framebased-animation" Path="" Text="Frame-based Animation" UID="" />
+    <Value Original_Link="animation#framebased-animation" Path="" Text="Frame-based Animation" UID="46a08b79-6346-4803-8bd0-d6666570b5c8" />
   </Item>
   <Item Key="spread-definitions#bins-and-bin-sizes">
-    <Value Original_Link="spread-definitions#bins-and-bin-sizes" Path="" Text="Bins and Bin Sizes" UID="" />
+    <Value Original_Link="spread-definitions#bins-and-bin-sizes" Path="" Text="Bins and Bin Sizes" UID="a2b935e8-17cd-4c26-b701-4919803792d1#bins-and-bin-sizes" />
   </Item>
   <Item Key="audio-output">
-    <Value Original_Link="audio-output" Path="" Text="Multichannel Output" UID="" />
+    <Value Original_Link="audio-output" Path="" Text="Multichannel Output" UID="909206b2-99b1-40a4-b477-826b7fbfef9d" />
   </Item>
   <Item Key="ioboxes#editing-data">
-    <Value Original_Link="ioboxes#editing-data" Path="" Text="Editing IOBoxes" UID="" />
+    <Value Original_Link="ioboxes#editing-data" Path="" Text="Editing IOBoxes" UID="86693dba-d049-4027-874d-d53f0437ad66#editing-data" />
   </Item>
   <Item Key="HowTo Find Help">
-    <Value Original_Link="HowTo Find Help" Path="" Text="helppatches" UID="" />
+    <Value Original_Link="HowTo Find Help" Path="" Text="helppatches" UID="d226aa5e-55b1-4cb3-b016-cd958051fc4a" />
   </Item>
   <Item Key="Effect Compiler Changes">
-    <Value Original_Link="Effect Compiler Changes" Path="" Text="Effect Compiler Changes" UID="" />
+    <Value Original_Link="Effect Compiler Changes" Path="" Text="Effect Compiler Changes" UID="f86bc304-0644-46b2-bf51-e265e840babf" />
   </Item>
   <Item Key="IOBoxes#descriptive-name">
-    <Value Original_Link="IOBoxes#descriptive-name" Path="" Text="Descriptive Name" UID="" />
+    <Value Original_Link="IOBoxes#descriptive-name" Path="" Text="Descriptive Name" UID="86693dba-d049-4027-874d-d53f0437ad66#descriptive-name" />
   </Item>
   <Item Key="Debug Mode">
-    <Value Original_Link="Debug Mode" Path="" Text="Debug Mode" UID="" />
+    <Value Original_Link="Debug Mode" Path="" Text="Debug Mode" UID="36621302-10e7-47fe-a8d0-b609c758974d" />
   </Item>
   <Item Key="Complex Numbers">
-    <Value Original_Link="Complex Numbers" Path="" Text="Complex Numbers" UID="" />
+    <Value Original_Link="Complex Numbers" Path="" Text="Complex Numbers" UID="74754989-6505-4575-abce-da0835decf5c" />
   </Item>
   <Item Key="patching-concepts#loops">
-    <Value Original_Link="patching-concepts#loops" Path="" Text="Loops" UID="" />
+    <Value Original_Link="patching-concepts#loops" Path="" Text="Loops" UID="11e284ec-b6b0-47b2-bed3-f90a91e55e91#loops" />
   </Item>
   <Item Key="downloads">
     <Value Original_Link="downloads" Path="" Text="Beta" UID="" />
@@ -431,103 +428,103 @@
     <Value Original_Link="Addons" Path="" Text="Addons" UID="" />
   </Item>
   <Item Key="texture#video-effects-texturefx">
-    <Value Original_Link="texture#video-effects-texturefx" Path="" Text="TextureFX" UID="" />
+    <Value Original_Link="texture#video-effects-texturefx" Path="" Text="TextureFX" UID="93b2f838-bbd4-423c-81cb-09820d98537d" />
   </Item>
   <Item Key="rsh-howto">
-    <Value Original_Link="rsh-howto" Path="" Text="use vvvv with RSH" UID="" />
+    <Value Original_Link="rsh-howto" Path="" Text="use vvvv with RSH" UID="669aa8be-27ac-4727-acb4-c66dbc20a1c4" />
   </Item>
   <Item Key="The GUI">
     <Value Original_Link="The GUI" Path="" Text="The User Interface" UID="" />
   </Item>
   <Item Key="diplom-graphical-web-server-programming">
-    <Value Original_Link="diplom-graphical-web-server-programming" Path="" Text="Graphical Web Server Programming with vvvv" UID="" />
+    <Value Original_Link="diplom-graphical-web-server-programming" Path="" Text="Graphical Web Server Programming with vvvv" UID="ea8efa0f-acbf-419f-83db-e54abdd66613" />
   </Item>
   <Item Key="conventions.CodingStyle">
-    <Value Original_Link="conventions.CodingStyle" Path="" Text="Conventions.CondingStyle" UID="" />
+    <Value Original_Link="conventions.CodingStyle" Path="" Text="Conventions.CondingStyle" UID="dfa9f04a-bfbb-41b9-b475-36031d9085ed" />
   </Item>
   <Item Key="howto-find-help">
-    <Value Original_Link="howto-find-help" Path="" Text="How To Find Help" UID="" />
+    <Value Original_Link="howto-find-help" Path="" Text="How To Find Help" UID="d226aa5e-55b1-4cb3-b016-cd958051fc4a" />
   </Item>
   <Item Key="Tutorial Hello World">
-    <Value Original_Link="Tutorial Hello World" Path="" Text="Hello World" UID="" />
+    <Value Original_Link="Tutorial Hello World" Path="" Text="Hello World" UID="eb717348-39dc-4687-a8d4-44db6c491c76" />
   </Item>
   <Item Key="Patching Concepts">
-    <Value Original_Link="Patching Concepts" Path="" Text="Patching Concepts" UID="" />
+    <Value Original_Link="Patching Concepts" Path="" Text="Patching Concepts" UID="11e284ec-b6b0-47b2-bed3-f90a91e55e91" />
   </Item>
   <Item Key="Spread-Operations">
-    <Value Original_Link="Spread-Operations" Path="" Text="Spread Operations" UID="" />
+    <Value Original_Link="Spread-Operations" Path="" Text="Spread Operations" UID="e911d2aa-cf59-4d41-a11a-f14ed76e9131" />
   </Item>
   <Item Key="Wave Simulation">
-    <Value Original_Link="Wave Simulation" Path="" Text="Wave Simulation" UID="" />
+    <Value Original_Link="Wave Simulation" Path="" Text="Wave Simulation" UID="8d503cd3-0df3-4acd-b521-ac99e96f633b" />
   </Item>
   <Item Key="node08.workshop.ShaderApplications">
-    <Value Original_Link="node08.workshop.ShaderApplications" Path="" Text="node08.workshop.ShaderApplications" UID="" />
+    <Value Original_Link="node08.workshop.ShaderApplications" Path="" Text="node08.workshop.ShaderApplications" UID="8d4e12a8-26df-460e-9267-f9b15513a1f3" />
   </Item>
   <Item Key="ex9.dataflow">
-    <Value Original_Link="ex9.dataflow" Path="" Text="ex9.dataflow" UID="" />
+    <Value Original_Link="ex9.dataflow" Path="" Text="ex9.dataflow" UID="81d9855b-ba1a-41d6-86d8-236258054aa5" />
   </Item>
   <Item Key="books#Prototyping-Interfaces---Interaktives-Skizzieren-mit-vvvv">
-    <Value Original_Link="books#Prototyping-Interfaces---Interaktives-Skizzieren-mit-vvvv" Path="" Text="'Prototyping Interfaces'" UID="" />
+    <Value Original_Link="books#Prototyping-Interfaces---Interaktives-Skizzieren-mit-vvvv" Path="" Text="'Prototyping Interfaces'" UID="f8237df9-396a-42e9-bbee-3b6088c58565#Prototyping-Interfaces---Interaktives-Skizzieren-mit-vvvv" />
   </Item>
   <Item Key="Quaternions">
-    <Value Original_Link="Quaternions" Path="" Text="Quaternions" UID="" />
+    <Value Original_Link="Quaternions" Path="" Text="Quaternions" UID="2247b116-4e66-4233-b2ce-3ea892135910" />
   </Item>
   <Item Key="tutorials">
-    <Value Original_Link="tutorials" Path="" Text="Tutorials" UID="" />
+    <Value Original_Link="tutorials" Path="" Text="Tutorials" UID="c5008f4e-f136-4cf5-915e-dbf32e4e5a70" />
   </Item>
   <Item Key="how-to-make-a-ftir-multitouch-surface">
-    <Value Original_Link="how-to-make-a-ftir-multitouch-surface" Path="" Text="How to make a FTIR Multi-touch surface" UID="" />
+    <Value Original_Link="how-to-make-a-ftir-multitouch-surface" Path="" Text="How to make a FTIR Multi-touch surface" UID="d4880eb8-90f1-4722-ba35-a8d092416411" />
   </Item>
   <Item Key="video-hardware-links#capture-cards">
-    <Value Original_Link="video-hardware-links#capture-cards" Path="" Text="List of Capture Cards" UID="" />
+    <Value Original_Link="video-hardware-links#capture-cards" Path="" Text="List of Capture Cards" UID="02abbea9-3a49-401d-bd74-aa89704b87b0#capture-cards" />
   </Item>
   <Item Key="tutorial-introduction">
-    <Value Original_Link="tutorial-introduction" Path="" Text="Everything is fine" UID="" />
+    <Value Original_Link="tutorial-introduction" Path="" Text="Everything is fine" UID="e87fb3bc-1512-456a-9529-8b901f459dc6" />
   </Item>
   <Item Key="strings#xml">
-    <Value Original_Link="strings#xml" Path="" Text="XElement nodes" UID="" />
+    <Value Original_Link="strings#xml" Path="" Text="XElement nodes" UID="e340b940-5084-40c4-899c-ed1021135b81" />
   </Item>
   <Item Key="3d Vector Mathematics">
     <Value Original_Link="3d Vector Mathematics" Path="" Text="3d Vector Mathematics" UID="" />
   </Item>
   <Item Key="PluginInfo Attributes">
-    <Value Original_Link="PluginInfo Attributes" Path="" Text="PluginInfo Attributes" UID="" />
+    <Value Original_Link="PluginInfo Attributes" Path="" Text="PluginInfo Attributes" UID="29a92e37-7494-441d-93f7-36beeb1a0f2e" />
   </Item>
   <Item Key="books#prototyping-interfaces-interaktives-skizzieren-mit-vvvv">
-    <Value Original_Link="books#prototyping-interfaces-interaktives-skizzieren-mit-vvvv" Path="" Text="Prototyping Interfaces" UID="" />
+    <Value Original_Link="books#prototyping-interfaces-interaktives-skizzieren-mit-vvvv" Path="" Text="Prototyping Interfaces" UID="f8237df9-396a-42e9-bbee-3b6088c58565#prototyping-interfaces-interaktives-skizzieren-mit-vvvv" />
   </Item>
   <Item Key="3d-vector-mathematics#dot-product">
-    <Value Original_Link="3d-vector-mathematics#dot-product" Path="" Text="dot product" UID="" />
+    <Value Original_Link="3d-vector-mathematics#dot-product" Path="" Text="dot product" UID="533cd233-704f-4388-b292-a3a15a356bf8#dot-product" />
   </Item>
   <Item Key="effects">
-    <Value Original_Link="effects" Path="" Text="effects" UID="" />
+    <Value Original_Link="effects" Path="" Text="effects" UID="7aa93595-ec96-4758-8076-0e00e4cf8bf6" />
   </Item>
   <Item Key="Effects">
-    <Value Original_Link="Effects" Path="" Text="Effects" UID="" />
+    <Value Original_Link="Effects" Path="" Text="Effects" UID="7aa93595-ec96-4758-8076-0e00e4cf8bf6" />
   </Item>
   <Item Key="protocols#dmx">
-    <Value Original_Link="protocols#dmx" Path="" Text="DMX / Art-Net" UID="" />
+    <Value Original_Link="protocols#dmx" Path="" Text="DMX / Art-Net" UID="268ce39d-8d40-41ed-bc01-e9e0a1e2587b" />
   </Item>
   <Item Key="Audio Input">
-    <Value Original_Link="Audio Input" Path="" Text="Input" UID="" />
+    <Value Original_Link="Audio Input" Path="" Text="Input" UID="b7494a45-c60f-48fc-80a1-fe8343ad5f37" />
   </Item>
   <Item Key="video-tutorials#vvvv-tutorial-2-menu-moving-and-scaling-and-node-creation.">
-    <Value Original_Link="video-tutorials#vvvv-tutorial-2-menu-moving-and-scaling-and-node-creation." Path="" Text="Video Tutorial" UID="" />
+    <Value Original_Link="video-tutorials#vvvv-tutorial-2-menu-moving-and-scaling-and-node-creation." Path="" Text="Video Tutorial" UID="09f00508-01d4-4eac-b6d3-4dace5b00d99#vvvv-tutorial-2-menu-moving-and-scaling-and-node-creation." />
   </Item>
   <Item Key="Inspektor">
-    <Value Original_Link="Inspektor" Path="" Text="Inspektor" UID="" />
+    <Value Original_Link="Inspektor" Path="" Text="Inspektor" UID="9666611a-6f15-4b33-8300-69f56d9ec7d4" />
   </Item>
   <Item Key="Tutorial - Of Effects and Shaders">
-    <Value Original_Link="Tutorial - Of Effects and Shaders" Path="" Text="Of Effects and Shaders" UID="" />
+    <Value Original_Link="Tutorial - Of Effects and Shaders" Path="" Text="Of Effects and Shaders" UID="1f40bd64-bc93-4263-98c8-50616b9f5c5c" />
   </Item>
   <Item Key="GraphicalAutomata">
-    <Value Original_Link="GraphicalAutomata" Path="" Text="Qfsm graphical tool" UID="" />
+    <Value Original_Link="GraphicalAutomata" Path="" Text="Qfsm graphical tool" UID="250959b9-c2b3-420e-ad36-0b7c6b784fb6" />
   </Item>
   <Item Key="Programming Concepts">
-    <Value Original_Link="Programming Concepts" Path="" Text="Programming Concepts" UID="" />
+    <Value Original_Link="Programming Concepts" Path="" Text="Programming Concepts" UID="87d944e5-aeae-451e-839d-58932488ed6e" />
   </Item>
   <Item Key="quartz-composer-for-vvvv-users">
-    <Value Original_Link="quartz-composer-for-vvvv-users" Path="" Text="Quartz Composer for vvvv users" UID="" />
+    <Value Original_Link="quartz-composer-for-vvvv-users" Path="" Text="Quartz Composer for vvvv users" UID="754035b5-77f5-4818-9de3-bfa7c1b185a9" />
   </Item>
   <Item Key="Tutorial Geometry Morphing GPU2">
     <Value Original_Link="Tutorial Geometry Morphing GPU2" Path="" Text="advanced vertex shading" UID="" />
@@ -571,20 +568,20 @@
   <Item Key="ioboxes#string">
     <Value Original_Link="ioboxes#string" Path="" Text="String IOBoxes" UID="86693dba-d049-4027-874d-d53f0437ad66#string" />
   </Item>
-   <Item Key="texture#images">
-    <Value Original_Link="texture#images" Path="" Text="Textures" UID="" />
+  <Item Key="texture#images">
+    <Value Original_Link="texture#images" Path="" Text="Textures" UID="8116d432-c3f5-4918-95cd-7404e8d3312c" />
   </Item>
   <Item Key="Audio Effects">
-    <Value Original_Link="Audio Effects" Path="" Text="Effects" UID="" />
+    <Value Original_Link="Audio Effects" Path="" Text="Effects" UID="b27d2408-4af0-4384-ba30-a6faecb81e5f" />
   </Item>
   <Item Key="node08.workshop.VVVVBeginners">
-    <Value Original_Link="node08.workshop.VVVVBeginners" Path="" Text="node08.workshop.VVVVBeginners" UID="" />
+    <Value Original_Link="node08.workshop.VVVVBeginners" Path="" Text="node08.workshop.VVVVBeginners" UID="c518462e-bca3-48d5-98fd-2113adf5789e" />
   </Item>
   <Item Key="skinningwithskeletonnodes">
-    <Value Original_Link="skinningwithskeletonnodes" Path="" Text="Skinning with Skeleton Nodes" UID="" />
+    <Value Original_Link="skinningwithskeletonnodes" Path="" Text="Skinning with Skeleton Nodes" UID="435355ec-58d2-4381-8e1f-a2b5821cb18e" />
   </Item>
   <Item Key="Creating Feedback Loops">
-    <Value Original_Link="Creating Feedback Loops" Path="" Text="Creating Feedback Loops" UID="" />
+    <Value Original_Link="Creating Feedback Loops" Path="" Text="Creating Feedback Loops" UID="4a3a1653-5c09-4102-a148-8f014f3d9a2e" />
   </Item>
   <Item Key="ui-reference">
     <Value Original_Link="ui-reference" Path="" Text="A listing of all shortcuts" UID="" />

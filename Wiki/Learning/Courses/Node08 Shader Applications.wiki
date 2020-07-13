@@ -1,0 +1,5 @@
+the patches:
+[http://vvvv.org/tiki-download_file.php?fileId=1606|workshop_shader_applications_patches.zip (3.70 Mb)]
+
+the pdf:
+[http://www.vvvv.org/tiki-download_file.php?fileId=1607|shader applications.pdf (5.23 Mb)]

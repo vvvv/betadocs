@@ -108,7 +108,7 @@ The second one contains mixed managed/unmanaged plugins that can only be built o
 * update nugets: Project -> Restore Packages  
 * build it (F8)  
 
-Building may take a while and is supposed to return with "Build Successfull. 0 Errors" in which case you're done and can close the solution. If the build fails, you best [contact us on irc](TODO INTERNALLINK:howto use irc).  
+Building may take a while and is supposed to return with "Build Successfull. 0 Errors" in which case you're done and can close the solution.
 
 ## Integrate your plugins to the Addonpack.sln
 Now you're ready to work on your own code. For this open the Addonpack.sln and add your project. Now in order to get your project built from within that solution you need to do one step manually:  
