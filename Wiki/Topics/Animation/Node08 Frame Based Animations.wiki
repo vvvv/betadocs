@@ -1,0 +1,24 @@
+!Abstract
+
+We will discuss in which cases frame based animations are needed and compare  them with time based animations. We'll also compare the feedback / Framedelay concept with similar concepts like global variables or states (in other languages) and have a look at examples for frame based algorithms. We'll then dive into how feedback systems in vvvv should look like and how they can be controlled and kept easy - even when the demands / outcome are getting more complex. 
+
+!Requirements
+
+Basic vvvv knowledge and interest in reducing complex behaviour into small patches.
+
+!Hosts
+
+((user:gregsn|gregsn)) & ((user:tonfilm|tonfilm))
+
+Sebastian Gregor (aka gregsn) is a member of the vvvv group and went the way along most of the incarnations of “vvvv” as an active developer.
+
+Tebjan Halm (aka tonfilm) is closely related to the vvvv group since 2004 as an active developer.
+
+!Main Topics
+
+
+!Resources
+
+[http://vvvv.org/tiki-download_file.php?fileId=1600|framebased_and_feedback.pdf (60.88 Kb)]
+
+[http://www.vvvv.org/tiki-download_file.php?fileId=1701|feedback_patches.zip (24.26 Kb)]

@@ -1,5 +1,7 @@
-- name: Mouse  Keyboard
-  href: Mouse  Keyboard.md
+- name: Overview
+  href: Overview.md
+- name: Mouse Keyboard
+  href: Mouse Keyboard.md
 - name: Patch Editor
   href: Patch Editor.md
 - name: Main Menu

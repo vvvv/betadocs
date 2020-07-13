@@ -6,6 +6,8 @@
   href: HTTP.md
 - name: ILDA
   href: ILDA.md
+- name: Firmata
+  href: Firmata.md
 - name: MIDI
   href: MIDI.md
 - name: MQTT

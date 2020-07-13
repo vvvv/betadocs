@@ -4,8 +4,12 @@
   href: Patching Basics.md
 - name: Patching Concepts
   href: Patching Concepts.md
+- name: Conditions
+  href: Conditions.md
 - name: Subpatches
   href: Subpatches.md
+- name: Root
+  href: Root.md
 - name: Debugging
   href: Debugging.md
 - name: Using Addons

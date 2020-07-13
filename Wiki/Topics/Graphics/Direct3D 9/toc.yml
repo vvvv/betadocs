@@ -3,7 +3,7 @@
 - name: Geometry
   href: Geometry/toc.yml
 - name: Shader
-  href: Shader/toc.yml
+  href: Shader/Shader.md
 - name: Texture
   href: Texture/toc.yml
 - name: Particles

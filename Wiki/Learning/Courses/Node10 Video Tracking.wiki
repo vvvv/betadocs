@@ -1,0 +1,19 @@
+!! Abstract
+
+The VideoTracking Workshop at node10 was split into two parts:
+* First was theory of Video Tracking covering Lighting, Camera, Capture and finally Analysis.
+* Second part was practical patching. Giving you insights into all tracking nodes step by step with patches.
+
+!! Requirements
+
+For beginners as well as for advanced patchers, who will hopefully got some more in theory part
+
+!! Hosts
+
+Chris Engler ((user:wirmachenbunt|wirmachenbunt))
+Frank Langer ((user:frank|frank))
+
+!! Theory & Patches
+
+((contribution:workshop-videotracking-slides))
+

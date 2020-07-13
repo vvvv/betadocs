@@ -1,0 +1,84 @@
+{INCLUDE:patchingtoc}
+
+!Switch
+{SPLIT()}
+{img src = "Conditions-SwitchSimple.png" }
+~~~
+
+!!!!Basic usage
+In the most simplest scenario you want to switch between two inputs according to the result of some boolean operation (0 and 1).
+
+This is what the ((node: Switch (Value Input))) is for.
+
+By default the Switch node has 2 inputs to switch between: in case of 0 ((pin:Input 1)) and in case of 1 ((pin:Input 2)).
+{SPLIT}
+
+{SPLIT()}
+
+{img src = "Conditions-SwitchAdvanced.png" } 
+~~~
+!!!!More Inputs
+
+The Switch node can accept any number of inputs to switch between by setting the ((pin:Input Count)) via the Inspektor. The ((pin:Switch)) input then takes an integer value ranging from 0 to Count-1 to switch between the inputs.
+
+!!!!See also
+* If you want to apply a LERP (linear interpolation) between the inputs instead of switching between them have a look at ((node: InputMorph (Value))).
+* In order to switch Values according to a String, have a look at ((node: Case (Value Input))).
+
+{SPLIT}
+
+{SPLIT()}
+{img src = "Conditions-Spreads.png" } 
+~~~
+
+!!!!Spreads
+Alternatively to switching between multiple individual values you can use the ((node:GetSlice (Spreads))) as shown to switch between the slices of a spread.
+
+{SPLIT}
+
+
+!Boolean operations
+{SPLIT()}
+{img src = "Conditions-Booleans.png" } 
+~~~
+
+!!!!Boolean operations
+There is no special Boolean datatype in vvvv. Boolean values are simply represented by 0 (false, off) and 1 (true, on). Use the following nodes for basic boolean operations: 
+* ((node:AND (Boolean)))
+* ((node:OR (Boolean)))
+* ((node:NOT (Boolean)))
+* ((node:XOR (Boolean)))
+
+!!!!Relational operators
+>, <, =,... return 0 or 1.
+
+!!!!State conditions
+There are some special nodes that return a Boolean according to a change in state. 
+
+Examples:
+* Detect if a value was changed: ((node:Change (Animation)))
+* Detect a change from 0 to 1 or 1 to 0: ((node:TogEdge (Animation)))
+* Toggle the output on and off by every bang on the input: ((node:Toggle (Animation)))
+* Set the output to 1 until there is a bang on Reset: ((node:FlipFlop (Animation)))
+* Set the output to 1 for a specified amount of time: ((node:MonoFlop (Animation)))
+
+See the helppatches of these nodes for details.
+
+{SPLIT}
+
+
+!State Automatas
+{SPLIT()}
+{img src = "patching-automata.png" }
+~~~
+
+When patching anything that can be separated into a series of states and events that cause transition from one state to another you are likely looking for ((node:Automata (Animation))). Also the ((timelinersa#automata|Timerliner)) has an automata built in.
+
+__See also:__
+* ((graphicalautomata|Graphic Automata))
+
+
+{SPLIT}
+
+
+
