@@ -1,0 +1,6 @@
+((TimelinerSA|Timeliner)) is an advancement of the Diploma Thesis from [http://vvvv.org/tiki-index.php?page=UserPagemilo] Milo </a>(Ingolf Heinsch).
+If you want to read some stuff about:
+ 
+"__Entwurf und Implementierung einer zeitleistenbasierten Parametersteuerung in eine datenstromorientierte Echtzeitprogrammierumgebung__" 
+
+you can easily download the thesis [http://vvvv.org/tiki-download_file.php?fileId=1474|here] (PDF GERMAN 4.06 Mb).

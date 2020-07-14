@@ -1,0 +1,141 @@
+^feel free to use this site for linking to your own DMXmodules.
+
+and don't miss 
+*__((node08.workshop.DMX))__
+*__((howto dmx|HowTo DMX))__ 
+*__((howto dmx advanced|HowTo DMX Advanced))__^
+
+!+ ^DMX fixtures and DMX simulations^
+!!+ Definition
+
+{BOX(bg=>#F0F0FF)}
+
+All modulesets here consist of each minimal one 
+__DMXfixture__module and a __DMXsimulation__module 
+with helppatches and subpatches.
+
+{BOX}
+
+
+{BOX(title=>DMXfixtures, bg=>#F0F0FF)}
+
+__DMXfixture__modules
+ 
+combine the necessary data for direct output to DMX interfaces. 
+Connect your fixtures and let them move.
+
+{img src = "coemarcf1200washdmxfixtures_2007.08.3014.58.23.jpg" thumb=448}
+
+{BOX}
+
+{BOX(title=>DMXsimulation, bg=>#F0F0FF)}
+
+__DMXsimulation__-modules 
+have a spread input for "raw" DMXdata and get exactly the same informations like the real world fixture.
+
+{img src = "coemarcf1200washdmxsimulation_2007.08.3015.10.34.jpg" thumb=444}
+
+{BOX}
+
+With ((DMX (Network) Artnet Sender)) and ((DMX (Network) ArtNet Receiver)) you can run the simulation on any other computer in the network.
+
+!!+ Modules
+!!!+ Coemar CF1200 Wash
+ 30.08.2007
+{SPLIT()}
+__[http://vvvv.org/tiki-download_file.php?fileId=1254|download Coemar CF1200 Wash modules]__
+~~~
+{img src = "coemarcf1200washdmxfixtures_2007.08.3014.58.23.jpg" thumb} {img src = "coemarcf1200washdmxsimulation_2007.08.3015.10.34.jpg" thumb} {img src = "coemarcf1200washdmxfixtureshelp_2007_1.08" thumb}{SPLIT}
+----
+!!!+ Martin MAC300
+ 30.08.2007
+{SPLIT()}
+__[http://vvvv.org/tiki-download_file.php?fileId=1253|download Martin MAC 300 modules]__
+~~~
+{img src = "martinmac300dmxfixtures_2007.08.3015.16.19.jpg" thumb} {SPLIT}
+----
+!!!+
+!!! Pulsar ChromaFlood 200
+!!! Pulsar ChromaBatten 200
+!!! Pulsar ChromaBankIP
+ 05.09.2007
+{SPLIT()}
+__[http://vvvv.org/tiki-download_file.php?fileId=1260|download Pulsar modules]__
+~~~
+{SPLIT}
+----
+!!!+ Ayrton ModuLED 318C
+ 06.09.2007
+{SPLIT()}
+__[http://vvvv.org/tiki-download_file.php?fileId=1262|download Ayrton.zip]__
+~~~
+{SPLIT}
+----
+!+ ^DMX general purpose^
+----
+!!+ Monitor (Network Artnet Receiver).v4p
+ 18.09.2007 
+{SPLIT()}monitor your Artnet and see active subnets and universes. 
+be careful: this module "eats" performance.
+intended use is debugging.
+
+__[http://vvvv.org/tiki-download_file.php?fileId=1283|download Monitor (Network Artnet Receiver).zip]__
+
+~~~
+{img src = "monitornetworkartnetreceiver_2007.09.1817.27.01.jpg" thumb} {img src = "monitornetworkartnetreceiverhelp_2007.09.1817.28.36.jpg" thumb}{SPLIT}
+
+----
+!!+ Address (DMX).v4p
+ 15.05.2007 updated
+{SPLIT()}lets you easily calculate settings of the DIPswitch on your DMXdevice
+
+__[http://vvvv.org/tiki-download_file.php?fileId=1133|download AddressDMX.zip]__
+
+~~~
+{img src = "addressdmx_2007.06.1517.29.11.jpg" thumb} {img src = "addressdmxhelp_2007.06.1517.29.14.jpg" thumb}{SPLIT}
+----
+!!+ AsValue (DMX Value).v4p
+ 20.03.2007
+{SPLIT()}convert DMX Integer to floating Value
+
+__[http://vvvv.org/tiki-download_file.php?fileId=1068|download AsValue (DMX Value).v4p]__
+
+~~~
+{img src = "asvaluedmxvalue_2007.03.2100.23.38.jpg" thumb} {SPLIT}
+----
+!!+ AsDMX (DMX Value).v4p
+ 20.03.2007
+{SPLIT()}convert floating Value to DMX Integer
+
+__[http://vvvv.org/tiki-download_file.php?fileId=1069|download AsValue (DMX Value).v4p]__
+
+~~~
+{img src = "asdmxdmxvalue_2007.03.2100.23.35.jpg" thumb} {SPLIT}
+----
+
+!!+ 16bit (DMX Split Value).v4p
+ 20.03.2007
+{SPLIT()}MovingLights often use 2 DMXchannel combined to have a 16bit Resolution e.g. for Pan/Tilt. With this module you can split up a single float value into coarse and fine value to have access to the full resolution.
+
+__[http://vvvv.org/tiki-download_file.php?fileId=1072|download 16bit (DMX Split Value).v4p]__
+
+~~~
+{img src = "16bitdmxsplitvalue_2007.03.2112.29.38.jpg" thumb} {SPLIT}
+----
+!!+ 16bit (DMX Join Value).v4p
+ 20.03.2007
+{SPLIT()}MovingLights often use 2 DMXchannel combined to have a 16bit Resolution e.g. for Pan/Tilt. With this module you can use the full resolution in the simulation of your MovingLight.
+
+__[http://vvvv.org/tiki-download_file.php?fileId=1071|download 16bit (DMX Join Value).v4p]__
+
+~~~
+{img src = "16bitdmxjoinvalue_2007.03.2112.29.36.jpg" thumb} {SPLIT}
+----
+
+!- ^DMX spreads^
+nothing here
+!- ^PanTilt spreads^
+nothing here
+
+!+
+{INCLUDE:kalle.info}

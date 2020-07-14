@@ -1,0 +1,16 @@
+{img src = "videoswitch.gif" }
+
+{img src = "http://www.kramerelectronics.com/images/VS-88V.gif" }
+
+
+Manufacturer: [http://www.kramerelectronics.com/products/default.asp?s=vs#filters?freetextli=|Kramer Electronics]
+
+The Kramer 8x8 Videoswitch switchs between 8 incoming video sources and 8 outgoing destinations. It will be controlled by ASCI Code over a RS232 Port.
+
+__Download the Patch:__ ((/tiki-download_file.php?fileId=820|VideoSwitch.zip (4.27 Kb)))
+
+{img src = "videoswitchpatch.jpg" }
+
+{img src = "videoswitchjpg.jpg" }
+
+
