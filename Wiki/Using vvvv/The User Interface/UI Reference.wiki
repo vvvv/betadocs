@@ -1,0 +1,174 @@
+!Code Editor
+see ((codeeditor shortcuts))
+
+!Main Menu
+!!!Window
+||
+Snapshot    |Ctrl 1 	|Takes a screenshot of the active window (including the cursor). If the window was a patch a .jpg with the name of the patch<br> and a successive number is placed in the directory the patch lays. Else you’ll be prompted to choose a filename to save.
+-
+Snapshot Client 	|Ctrl 2 	|Same as above but takes the screenshot without window border.
+-
+...   |Ctrl Shift 1 | same as Ctrl 1 but you are prompted to choose a filename to save.
+-
+...   |Ctrl Shift 2 | same as Ctrl 2 but you are prompted to choose a filename to save.
+-
+Snapshot to Wiki        |Ctrl 3  |opens ((the gui#Kommunikator|Kommunikator)) that allows you to preview, crop and upload images to vvvv.org. if you provide your login you can even add images to the pool of site-headers
+-
+Windowed		|Alt 1 	|See section about Subpatching
+-
+In a Box |Alt 2 	|See section about Subpatching
+-
+Hide 	|Alt 3 	|Close the current window, but leave the patch running. See section about Subpatching
+-
+FullScreen 	|Alt Enter 	|Switch current Window to full screen. See section about Subpatching
+-
+Save All 	|Alt S 	|Saves all unsaved patches
+-
+Always on top       |Ctrl T  |Set the active window allways on top
+-
+Close 	|Ctrl W 	|Close the current window and delete its node representation from the patch
+-
+Close All 	|Ctrl Shift W 	|Close all windows and open a default root patch. See section about Subpatching
+||
+
+
+!!!Main
+||
+New Patch |Ctrl P, Ctrl N | Opens a new patch window in the root
+-
+New Inspektor 	|CTRL I 	|Opens a new ((glossary:Inspektor)) window. this is assumed to be the ''most important'' Shortcut.
+-
+Finder |Ctrl F 	|Opens ((the-gui#finder|Finder)) offering a search into your patches
+-
+ProjectExplorer    |Ctrl J 	|Opens ((the-gui#projectexplorer|ProjectExplorer )) (especially useful for adding .NET libraries to your Dynamic Plugins).
+-
+Help 	|F1 	|Opens the help patch for the selected node. If no node is selected a generic help patch is opened
+-
+Online Help 	|Alt F1 |Brings up the corresponding post from the ‘online node reference’ (vvvv.org/reference.php) <br>for the selected node in your default browser
+-
+Fanclub 	|Ctrl F1 	|Opens the IRC online help patch
+-
+About 		|Alt A |Shows credits and info about the computer
+-
+ASCII Table |Alt T |Shows an ASCII table
+-
+Show Root 	|Alt R 	|Shows the root patch of vvvv. See section about Subpatching
+-
+Minimize 	|	|Minimizes vvvv to the taskbar
+-
+Quit 	|Alt F4 	|Exits vvvv
+||
+
+
+!!!Patch
+||
+Open 	|Ctrl O, Ctrl Q 	|Opens an existing patch in the root
+-
+Save Patch 	|Ctrl S 	|Save patch
+-
+Save Patch as.. 	|Shift Ctrl S 	|Save current patch under a different name
+-
+Lock 	|CTRL-E 	|Disables all patching functionality. Only IOBoxes are enabled. Use this for performances etc. where you don’t want to accidentally change your patch. See ((Hide on Lock)).
+-
+Open in Explorer |Alt E|Shows the selected node/patch in explorer
+- 
+Open in Texteditor |Alt Shift E|Opens the selected node/patch in the default text editor
+-
+Revert to saved 	|Ctrl R 	|Closes the active patch unsaved and loads the last version from disk
+||
+
+
+!!!Edit
+||
+Undo 	|Ctrl Z 	|Undo the last step. The Undo-history can be of arbitrary length  <br>Configure the behaviour with the ((node:Undo (VVVV) )) node.
+-
+Redo 	|Ctrl Shift Z 	|Do the last undone step again.
+-
+Cut 	|Ctrl X 	|Copy and delete selected nodes
+-
+Copy 	|Ctrl C 	|Copy selected nodes
+-
+Paste 	|Ctrl V 	|Insert copied nodes
+-
+Paste modified values 	| 	|Apply the copied values to the selected node
+-
+Duplicate 	|Ctrl D 	|Copy and Paste selected nodes
+-
+Duplicate nodes and links 	|Ctrl Shift D 	|Copy and Paste selected nodes and respective links
+-
+Align 	|Ctrl L 	|Align the currently selected group of nodes either horizontally or vertically, depending on their existing orientation
+-
+Select All 	|Ctrl A 	|Selects all nodes in the active patch
+-
+Deselect 	|Ctrl Shift A 	|Deselects all nodes in the active patch
+-
+Boygroup 	|Ctrl B 	|Toggle Boygroup status of a node. See Boygrouping section
+-
+((Hide on Lock)) 	|CTRL H 	|Nodes and connections can be marked, so that they are not drawn, when the patch is locked.
+-
+Debug Mode 	|Ctrl F9 	|Toggles global Debug Mode on/off
+-
+Debug Mode 	|Ctrl Shift F9 	|Toggles Debug Mode of selected Nodes on/off
+-
+Debug Mode 	|Ctrl F10 	|Visualizes spreadcounts
+-
+Expose IObox 	|Ctrl K 	|Exposes selected IOBox for being controlled from the outside
+
+-
+Alter Linktype 	|Ctrl Y 	|Cycle through several line styles for drawing links: straight, segmented, or Bezier.
+-
+Make Relative 	|Alt Shift P 	|Tries to find a relative path for the selected sub patch nodes
+||
+
+
+!Additional Shortcuts
+||
+Snapshot Patch as .emf  |Ctrl 4 	|Saves a .emf file of the whole patchwindow (all IOBoxes only display IO)
+-
+Open 	|Ctrl Shift O, Ctrl Shift Q 	|Opens an existing patch in the active patch
+-
+New Patch 	|Ctrl Shift P, Ctrl Shift N 	|Opens a new patch window in the active patch
+-
+Group 	|Ctrl G 	|Creates a Subpatch from selected nodes 
+-
+Jump to parent  |ctrl+ the key below ESCAPE	|Jumps to parent patch
+-
+Toggle Windows 	|Ctrl Tab 	|Lets you switch through vvvv's windows (similar to MS Windows Alt-Tab)
+-
+Lighten Patch 	|Ctrl 7 	|Lightens the active patch’s background __''in versions >Beta8.3''__
+-
+Darken Patch 	|Ctrl 6 	|Darkens the active patch’s background __''in versions >Beta8.3''__
+-
+Toggle Window Frame	|Ctrl 8 	|Toggles the frame of the active window on/off
+-
+Zoom In  	|Ctrl+ 	|Enlarges the active patch __''Careful: BUGGY''__
+-
+Zoom Out 	|Ctrl- 	|Scales the active patch down __''Careful: BUGGY''__
+||
+
+!and more Shortcuts
+||
+Scroll Patch 	|Right click+Drag in patch |to move the patch inside the window
+- 
+Create IOBox with values | start link from inputpin and end with middleclick | Creates IOBox containing values of connected Inputpin
+-
+AutoName IOBox | Middleclick on linked IOBox | copies Pinnames of connected Nodes into Descriptive Name of IOBox
+-
+AutoCreate send node| start link from output pin and end with CTRL+Middleclick | Creates Send node with the 'Send String' set to the name of the output pin
+-
+Reset Node    | ALT+Rightclick on Node 	| Resets Node, resets all Pins to default value
+-
+Reset Pin    | ALT+Rightclick on InputPin | Resets Pin to default value
+-
+Scroll Vertical    | Mousewheel 	| scrolls up/down
+-
+Scroll Vertical Fast   | CTRL-Mousewheel 	|  
+-
+Scroll Horizontal    | ALT-Mousewheel 	| scrolls left/right
+-
+Scroll Horizontal Fast   | CTRL-ALT-Mousewheel 	|  
+-
+move selected nodes by 1 px| CursorKeys | moves nodes
+-
+move selected nodes by 10 px| SHIFT+CursorKeys| moves nodes faster...
+||

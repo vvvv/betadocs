@@ -1,0 +1,36 @@
+If you want to organize a workshop for your institute, university, ...hood too and are interested in having one of the vvvv developers around please contact us at: [mailto:group@vvvv.org|group@vvvv.org]
+
+__If you are planning a workshop please announce it in the ((/blog/25|dates)) blog!__
+
+!Old listing of past workshops
+*20-26 March 2010, Mannheim, [http://jetztkultur.de/bseite/workshops/de/|Jetztkultur festival]
+*15-16 November 08, Mannheim, [http://jetztkultur.de/bseite/programme/12th-wednesday/en/|Jetztkultur festival]
+*1-3rd August 08 vvvv workshop at the Tokyo National University of Fine Arts & Music
+*23-24th June 08 ,BBK-Etxea, Bilbao Arte eta Kultura.
+*21-25th April 08 Diseño interactivo con "vvvv" Universidad de Sevilla.
+*7-8th February 08 Arduino-vvvv Facultad de Bellas Artes de la Universidad del Pais Vasco.
+*8-9th December 07, Munich, [http://www.t-u-b-e.de]
+*13-22th November 07, [http://www.transmedia.be/|transmedians], brussel, page ((WorkshopBrussel2))
+*10-11th August 07, Sheffield, "Digital Summer School 01: Emergent languages and systems for interactive and algorithmic art" ((WorkshopSheffield))
+*13-14 12 06 [http://antville.medien.uni-weimar.de/ezlab/|Bauhaus Universität Weimar], Germany - 2-Day "Kick-off" Workshop
+*Winter Semester 06 - Hochschule Darmstadt, FB Media
+*July - [http://www.hfg-offenbach.de|Hochschule für Gestaltung Offenbach], Germany [http://edu.meso.net/tiki-index.php?page=S06.hfgof|workshop page]
+*February-April-Oktober ((WorkshopChisinau|Centrul pentru Arta Contemporana)) .EDU, Chisinau, Moldova, ((WorkshopChisinau))
+*03-04 07 06 [http://www.khm.de|KHM] Cologne, Germany ((workshop_köln_0706|workshop page))
+* May - ((raumstaben|Raumstaben)) at Typo Berlin, Germany
+* May - [http://www.hyperwerk.ch|Hyperwerk], Basel, Switzerland ((Translearn06))
+* April - [http://www.visomat.com|BildMusik by Visomat], [http://M12.visomat.com|M12], Berlin, Germany
+* March - [http://mtd.fh-hagenberg.at/|FHS Hagenberg], Austria
+* Winter Semster 05 [http://www.fh-darmstadt.de|FH Darmstadt], Germany
+* 21-25 11 05 ((workshop_hfg_schwaebisch_gmuend_2005|HFG Schwäbisch Gmünd)), Germany
+* 22-24 06 05 [http://www.khm.de|Kunsthochschule für Medien], Köln, Germany
+* Summer Semester 2005 [http://www.kunsthochschulekassel.de|Kunsthochschule Kassel], Germany
+* 11-12 05 05 [http://edu.meso.net/tiki-index.php?page=SS+2005+Weimar|Bauhaus Universität Weimar], Germany - 2-Day "Kick-off" Workshop
+* 14-18 03 05 [http://www.hyperwerk.ch|Hyperwerk], Basel, Swizerland  - ((Nomadics Project Basel|workshop material))
+* 22 11 & 22 12 04 [http://www.unibz.it/design-art/index2.html?LanguageID=DE|Free University of Bozen, Faculty of Design and Art], Italy - [http://www.unibz.it/design-art/portfolio/netzwerke/index.html?LanguageID=DE&trigMenu=#block7|final exhibition] (with some vvvv powered works)
+* 23 10 04 [http://www.h1arch.tuwien.ac.at/hb1/index.php3|TU-Wien, Department of Architectural Design and Construction], Vienna, Austria
+* Winter Semester 2003 [http://www.hfg-offenbach.de/intro.hfg|HFG Offenbach], [http://www.fh-wiesbaden.de|FH Wiesbaden] Germany  - [http://edu.meso.net/tiki-index.php?page=W04.Nehmengeben|course homepage] - [http://edu.meso.net/tiki-index.php?page=W04.Processes|final exhibition] 
+* 08 09 03 [http://futurelab.aec.at/pixelspaces_03|AEC Pixelspaces], Linz, Austria (Presentation only)
+* 06 06 03 [http://www.kunsthochschulekassel.de|Kunsthochschule Kassel], Germany
+* 14-15 06 03 [http://www.timesup.org/laboratory/dorkbot/2/index.html|Time's Up], Linz, Austria
+* 01 02 03 [http://www.transmediale.de/03/en/03/schedule.php?filter=2#|Transmediale03], Berlin, Germany 

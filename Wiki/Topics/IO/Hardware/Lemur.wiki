@@ -1,0 +1,27 @@
+''The Lemur device from [http://www.jazzmutant.com/|jazzmutant] is a tangible multitouch interface, that allows you to create your own interface and send your data via midi or osc. ''
+
+{img src = "if.jpg" }{img src = "touch.jpg" }
+
+This short Tutorial will show you how to connect your Lemur device to VVVV via the [http://cnmat.berkeley.edu/OpenSoundControl/|osc] protocol.
+
+
+{img src = "ip.jpg" }
+
+fisrt step is to set up an ip adress for your lemur device (settings->ip settings). then you have to create your personal interface within the lemur editor.
+
+
+{img src = "osc_message.jpg" }
+
+next step is to select a controller and set up a name for the osc message. the shown name for the message is "/room". don´t forget the slash in front of the messagename!
+
+
+{img src = "osc.jpg" }
+
+it´s important to set up every network client with a specific ip adress inside the lemur osc settings. otherwise it wouldn´t work. thats all on the lemur side. next step is to open VVVV.
+
+
+{img src = "patch.jpg" }
+
+as you can see, only a few nodes are needed to get the controller values from the leumr device. just create an udp(server) and an osc decoder to get the message strings from the network. use the same settings for the messagename (Slash!) and the port (avoid port 8001 and 8002 used by the jazz editor software otherwise your patch won't work when the jazz editor is connected to the lemur (green arrow)). as on the lemur device (check that your firewall don´t block it).
+ 
+That´s it. Now have a lot of fun with the lemur and of course with VVVV.

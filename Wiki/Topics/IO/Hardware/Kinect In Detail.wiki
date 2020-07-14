@@ -1,0 +1,87 @@
+!Kinect v2
+{SPLIT()}
+{img src = "300px-Xbox-One-Kinect.jpg" }
+
+~~~
+
+Nodes for using the [https://en.wikipedia.org/wiki/Kinect_for_Xbox_One|Kinect2] are provided by ((user:vux)). They are coming with the __64bit version__ of the ((contribution:directx11-nodes|DX11 pack)) and require the [https://www.microsoft.com/en-us/download/details.aspx?id=44559|Kinect for Windows Runtime v2.0].
+
+__Related Links__
+[http://support.xbox.com/en-US/xbox-on-other-devices/kinect-for-windows/kinect-for-windows-v2-setup|System Requirements]
+[http://support.xbox.com/en-US/xbox-on-other-devices/kinect-for-windows/kinect-for-windows-v2-known-issues|Known Issues]
+[http://www.microsoft.com/en-us/kinectforwindows/develop/downloads-docs.aspx|Technical documentation and tools]
+[http://go.microsoft.com/fwlink/?LinkID=403900&clcid=0x409|Human Interface Guidelines (PDF)] including info on tracking ranges
+
+!!Skeletal Data
+{SPLIT}
+{img src = "kinectskeleton-map2.png" thumb=640} 
+::''via [http://glitchbeam.com/2015/04/02/kinect-v2-joint-map|Kinect v2 Joint Map]'':: 
+
+
+!Kinect v1
+{SPLIT()}
+{img src = "300px-Xbox-360-Kinect-Standalone.png" } 
+~~~
+Nodes for using the original [http://en.wikipedia.org/wiki/Kinect|Kinect] are shipping with vvvvs ((glossary:addonpack)).
+
+With the addonpack installed type ''kinect'' in the ((nodelist|nodebrowser)) to see a list of all available nodes dealing with it. Note that most nodes come in two versions:
+* Microsoft
+* OpenNI
+Those relate to two different drivers they are based on. Depending on which version you want to use you need to install the following:
+
+!!Microsoft
+The Microsoft Kinect nodes by ((user:vux)) require you to install the [http://www.microsoft.com/en-us/download/details.aspx?id=40277|Kinect for Windows Runtime v1.8].
+
+If the ((node:Kinect (Devices Microsoft)))'s ((pin:Kinect Status)) tells you that ''the device is not genuine'' you may have either of two problems:
+* the date is not set correctly on your PC (!)
+* you are using a "Kinect for XBox" in which case you need the  [https://www.microsoft.com/en-us/download/details.aspx?id=40278|Kinect SDK] installed (as those are not allowed to be used on windows PC for end-usage, but development only).
+
+!!OpenNI
+The OpenNI Kinect nodes are now considered legacy since the drivers are no longer being developed any further. In case you still need them, here is what you need to get them running:
+* get [http://reconstructme.net/?wpdmdl=26|OpenNI Sensor Driver Package x86 1.5.2.zip] as comfortably provided by [http://reconstructme.net]
+* from that .zip install: OpenNI-win32-1.5.2.23-redist.msi
+* now depending on your hardware install either:
+** __Asus Xtion__: SensorPrimesense-win32-5.1.0.41-redist.msi
+** __Kinect__: SensorKinect-Bin-Win32-v5.1.0.25.msi
+* also get [http://www.openni.org/wp-content/uploads/2012/12/NITE-Win32-1.5.2.21-Dev.zip|NITE 1.5.2.21] and install it
+
+The current version of the OpenNI plugins was tested to run with:
+* OpenNI 1.5.2.23 (32bit, stable, redist edition)
+* NITE 1.5.2.21 (32bit, stable, redist edition)
+* SensorKinect091 5.1.0.25 (32bit)
+
+These are also the drivers needed to use the kinect nodes that come with the ((contribution:vvvv.packs.image|Image Pack)) by ((user:elliotwoods))
+
+^note:
+If for some reason you need to have both Microsoft & OpenNI drivers installed check out [http://code.google.com/p/kinect-mssdk-openni-bridge/|kinect-mssdk-openni-bridge]
+^
+
+!!Skeletal Data
+The following graphic shows the skeletal joints the kinect returns. Below are the joints names next to their slice index as they are returned by ((node:Skeleton (Kinect Microsoft)))
+{SPLIT}
+
+{SPLIT()}
+{img src = "http://www.codeproject.com/KB/dotnet/KinectGettingStarted/7.png"} 
+~~~
+
+ 0  HipCenter
+ 1  Spine
+ 2  ShoulderCenter
+ 3  Head
+ 4  ShoulderLeft
+ 5  ElbowLeft
+ 6  WristLeft
+ 7  HandLeft
+ 8  ShoulderRight
+ 9  ElbowRight
+ 10 WristRight
+ 11 HandRight
+ 12 HipLeft
+ 13 KneeLeft
+ 14 AnkleLeft
+ 15 FootLeft
+ 16 HipRight
+ 17 KneeRight
+ 18 AnkleRight
+ 19 FootRight
+{SPLIT}

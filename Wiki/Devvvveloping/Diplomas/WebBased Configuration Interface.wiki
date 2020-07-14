@@ -1,0 +1,667 @@
+__under construction__
+
+{maketoc}
+
+!Welcome
+
+on this site you will find some informations about Webbased Configguration Interface
+
+
+!Introduction
+
+The Webinterface gives the VVVV Users the possibility to create Webpages based on HTML, CSS and Javascript (JQuery) and communicate over Http between a browser and VVVV.
+For Informations how to use the Webinterface see the Manual Page. 
+
+
+!Download & Requirements
+
+(Filelink)
+
+Requirements:
+* ((Downloads|VVVV  > beta21))
+* [http://www.microsoft.com/downloads/details.aspx?displaylang=en&FamilyID=0856eacb-4362-4b0d-8edd-aab15c5e04f5|.Net Framework 2.0]
+*Webinterface.dll
+
+Install:
+Just unpack the File to the VVVV Plugin Folder. 
+
+
+!Roadmap
+
+!!Framework
+* Expand HTTP GUI base class| Have a output pin that spits out all post data as raw xml | Add output pins for ID and class
+* Rewrite the Saving mechanism with all the new raw data
+* Deleting WebinterfaceSingelton if all Nodes s are deleted
+* Switching to jQuery 1.4
+
+
+!!Server
+* Standardized communication protocol
+* Polling / Comet Communication 
+
+!!Node Changes
+* Rewrite existing javascript generation with our new library (Button, Slider, Textfield)
+* CSS Rule node
+
+!!New Nodes
+* File Upload / Pool
+* Image (DynamicImage (Streaming); SVG embed)
+* Combobox (Dropdown)
+* Button (grafik)
+* Tabboxen
+* Splitpanes
+* Html Tables
+* XML Page (oder Pins an der HTML page)
+* Abstraktes XML Tag
+* Datepicker
+* Accordoin
+* Dialog
+* Resizable
+
+
+
+!!Documentation
+* How to use wiki page
+* XML Comment Source Code
+* How to write my own Http Node
+* Complete Helppatches
+
+!Nodelist
+!!-HTTP
+
+Renderer (Http)
+
+__Config Pins__
+
+||
+Name| Description | Type | 
+-
+Port|
+-
+Pagecount|
+||
+
+
+
+
+__Input Pins__
+
+||
+Name| Description | Type | 
+-
+Directories|
+-
+Page|
+-
+Enable|
+-
+Save|
+-
+Enable|
+-
+POST Filename|
+-
+POST Message|
+-
+Open Browser|
+-
+Link|
+||
+
+
+__Output Pins__
+
+||
+Name| Description | Type | 
+-
+Files|
+-
+Get|
+-
+POST|
+||
+
+
+
+Page
+
+__Input Pins__
+
+||
+Name| Description | Type | 
+-
+Input|
+-
+Titel|
+-
+Url|
+-
+CSS|
+-
+Browser Width|
+-
+Browser Height|
+-
+Reload Browser|
+-
+Communication|
+-
+HTML Head|
+-
+HTML Body|
+-
+File Path|
+||
+
+
+__Output Pins__
+
+||
+Name| Description | Type | 
+-
+Output|
+||
+
+
+---
+
+
+!!-GUI
+
+BaseNode
+
+__Input Pins__
+
+||
+Name| Description | Type | 
+-
+GUI|
+-
+Transform|
+-
+Send|
+-
+PositionType|
+-
+BasingPoint|
+-
+CSS|
+-
+JQuery|
+-
+Save Posted Properties|
+||
+
+
+__Output Pins__
+
+||
+Name| Description | Type | 
+-
+Output|
+||
+
+
+
+Button
+
+__Input Pins__
+
+||
+Name| Description | Type | 
+-
+Default|
+-
+Default Color|
+-
+OnPress Color|
+-
+Mode||
+-
+__Output Pins__
+||
+Response|||
+
+
+Button(Texture)
+
+__Input Pins__
+
+||
+Name| Description | Type | 
+-
+Default|
+-
+Released|
+-
+Press|
+-
+Mode|
+-
+Reload|
+||
+
+
+__Output Pins__
+
+||
+Name| Description | Type | 
+-
+Response|
+||
+
+
+
+Checkbox
+
+__Input Pins__
+
+||
+Name| Description | Type | 
+-
+Default|
+-
+Look|
+||
+
+
+__Output Pins__
+
+||
+Name| Description | Type | 
+-
+Response|
+||
+
+
+
+Colorpicker
+
+__Input Pins__
+
+||
+Name| Description | Type | 
+-
+Default Color|
+-
+Update Continuous|
+||
+
+
+__Output Pins__
+
+||
+Name| Description | Type | 
+-
+Output|
+-
+Response|
+||
+
+
+
+Container
+
+
+
+Group
+
+__Config Pins__
+
+||
+Name| Description | Type | 
+-
+Pin Count|
+||
+
+
+__Input Pins__
+
+||
+Name| Description | Type | 
+-
+Input|
+||
+
+
+__Output Pins__
+
+||
+Name| Description | Type | 
+-
+Output|
+||
+
+
+
+Image
+
+__Input Pins__
+
+||
+Name| Description | Type | 
+-
+Source|
+-
+Alt|
+-
+Reload|
+||
+
+
+
+Link
+
+__Input Pins__
+
+||
+Name| Description | Type | 
+-
+Link|
+-
+Text|
+-
+Target|
+-
+Key|
+||
+
+
+
+Radiobutton
+
+__Input Pins__
+
+||
+Name| Description | Type | 
+-
+Default|
+-
+Look
+||
+
+
+__Output Pins__
+
+||
+Name| Description | Type | 
+-
+Response|
+||
+
+
+
+Slider
+
+__Input Pins__
+
+||
+Name| Description | Type | 
+-
+Label|
+-
+Orientation|
+-
+Min|
+-
+Max|
+-
+Dafault|
+-
+StepSize|
+||
+
+
+__Output Pins__
+
+||
+Name| Description | Type | 
+-
+Response|
+||
+
+
+
+Text
+
+__Input Pins__
+
+||
+Name| Description | Type | 
+-
+Text|
+-
+TagType|
+||
+
+
+Textfield
+
+_Input Pins__
+
+||
+Name| Description | Type | 
+-
+Default|
+||
+
+
+
+__Output Pins__
+
+||
+Name| Description | Type | 
+-
+Response|
+||
+
+
+
+---
+!!-CSS
+
+Background
+
+__Input Pins__
+
+||
+Name| Description | Type | 
+-
+Color|
+-
+Path|
+-
+Repeat|
+-
+Postion
+||
+
+
+
+Border
+
+__Input Pins__
+
+||
+Name| Description | Type | 
+-
+Width|
+-
+Color|
+-
+Border
+-
+OutlineStyle|
+||
+
+
+
+
+
+Property
+
+__Input Pins__
+
+||
+Name| Description | Type | 
+-
+Count|
+-
+Name|
+-
+Value|
+||
+
+
+
+
+
+Font
+
+__Input Pins__
+
+||
+Name| Description | Type | 
+-
+Size|
+-
+Color|
+-
+Familiy|
+-
+Style|
+-
+Weight|
+-
+Decoration|
+-
+WordSpacing|
+-
+LetterSpacing|
+-
+Stretch|
+||
+
+
+
+
+
+Padding
+
+__Input Pins__
+
+||
+Name| Description | Type | 
+-
+Top|
+-
+Left|
+-
+Right|
+-
+Bottom|
+||
+
+
+
+
+
+---
+
+
+!!-JQuery
+Attr
+
+__Input Pins__
+
+||
+Name| Description | Type | 
+-
+Attribute|
+-
+Value|
+||
+
+
+
+Css
+
+__Input Pins__
+
+||
+Name| Description | Type | 
+-
+Css.Property|
+-
+Value|
+||
+
+
+
+
+Draggable
+
+__Input Pins__
+
+||
+Name| Description | Type | 
+-
+Axis|
+-
+Revert|
+-
+OnStop|
+-
+On Stop Apply To|
+-
+On Stop Selector|
+||
+
+
+
+Droppable
+
+__Input Pins__
+
+||
+Name| Description | Type | 
+-
+Accept|
+||
+
+
+
+
+---
+
+
+
+!Change Log
+Initial Release
+
+
+!Relatet Links
+((WebBasedConfigurationInterface TheTask))
+[http://jquery.com/]
+[http://jqueryui.com/]
+[http://jqueryui.com/themeroller/]
+[http://www.eyecon.ro/colorpicker/]
+[http://www.microsoft.com/downloads/details.aspx?displaylang=en&FamilyID=0856eacb-4362-4b0d-8edd-aab15c5e04f5]
+
+
+
+!!! Question 
+
+
+Send an PM to Phlegma or contact me with Skype (nils.buhlert)
+
+
+
+!!! Credits 
+
+
+Josh Samberg
+Christain Moldenhauer
+vvvv Group
+Meso
+

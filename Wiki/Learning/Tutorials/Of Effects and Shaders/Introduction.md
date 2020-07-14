@@ -27,4 +27,4 @@ And now please dive into the following pages one after the other:
 [Normals](TODO INTERNALLINK:Tutorial Effects - Normals)  
 [Geometry Morphing](TODO INTERNALLINK:tutorial Geometry Morphing)  
 
-All patches and effects of this tutorial in a pack: <a href="https://vvvv.org/contribution/of-effects-and-shaders" class="extURL contribution" target="_blank">of-effects-and-shaders</a>  
+All patches and effects of this tutorial in a pack: <a href="https://vvvv.org/contribution/of-effects-and-shaders" class="extURL contribution" target="_blank">of-effects-and-shaders</a>  

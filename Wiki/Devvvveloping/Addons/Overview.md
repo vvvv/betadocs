@@ -1,3 +1,7 @@
+---
+uid: 20ebd5d5-2c26-4852-b3fb-b6a866b3802f
+---
+
 # Addons
 - [About Addons](xref:e1161303-b566-408c-86f2-1cf6cb8137b7)
 - [About the Addonpack](xref:e1554948-8a15-4e39-8289-59216c388376)

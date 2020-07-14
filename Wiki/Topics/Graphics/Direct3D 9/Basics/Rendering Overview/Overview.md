@@ -1,3 +1,7 @@
+---
+uid: fd599c0f-1876-459c-a28e-24616cee5542
+---
+
 # Rendering Overview
 - [Basic structure](xref:555a9b26-208f-43ef-a7dc-f5893200df65)
 - [Cameras](xref:44969bb7-ec99-4df9-b203-255f695cc29a)

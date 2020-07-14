@@ -1,0 +1,6 @@
+JointAVIPlayer uses AVISynth to play AVISynth Scripts with jointed AVIS. This way you can switch between AVIs on the fly without the usual freezes you get with the Filestream - Getslice combo.
+
+Download:
+[http://vvvv.org/tiki-download_file.php?fileId=1660|AVS AVI Joiner.zip (7.36 Kb)]
+
+- edit by tonfilm: great patches, this just saved me 2 hours of work!

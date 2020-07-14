@@ -1,3 +1,7 @@
+---
+uid: f63e83e8-88d2-4eeb-818f-5bfed4060a77
+---
+
 # The User Interface
 
 - [Mouse  Keyboard](xref:0eba8ae6-32fc-4dcd-a96a-9161121a0480)

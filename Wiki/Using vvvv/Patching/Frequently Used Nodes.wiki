@@ -1,0 +1,60 @@
+! Frequently Used Nodes
+
+yea, this is FUN!
+this site is about all the lovely nodes a vvvv programmer uses all days. if you are missing one, add it:
+
+^note:
+If you add a node, let us know a little about why it's important or what's special/cool/convenient about using it... of course, generalized usage info should go on the corresponding node reference page. But your special trick could go here as well
+^
+
+Basics:
+((node:IOBox (Value Advanced) )) - create with double right click
+((node:Inspektor (VVVV) )) - create with ctrl+i
+((node:Renderer (TTY) )) - console, logs errors and infos
+
+Rendering:
+((node:Renderer (EX9) ))
+((node:Quad (DX9) ))
+((node:FileTexture (EX9.Texture) ))
+((node:Group (EX9) ))
+((node:Transform (Transform 3d) ))
+((node:Blend (EX9.RenderState) ))
+((node:DX9Texture (EX9.Texture) ))
+((node:Homography (Transform 2d) )) - correction of projection in general
+
+
+Creation:
+((node:Random (Value) ))
+((node:Map (Value) ))
+((node:LFO (Animation) ))
+((node:Damper (Animation) ))
+((node:LinearSpread (Spreads) ))
+((node:RandomSpread (Spreads) ))
+((node:CircularSpread (Spreads) ))
+((node:GetSlice (Spreads) ))
+((node:Count (Value) ))
+((node:I (Spreads) ))
+((node:Select (Value) ))
+((node:Vector (3d Join) ))
+((node:Vector (3d Split) ))
+
+Logic:
+((node:Change (Animation) ))
+((node:TogEdge (Animation) ))
+((node:Toggle (Animation)))
+((node:FlipFlop (Animation)))
+((node:AND (Boolean) ))
+((node:OR (Boolean) ))
+((node:= (Value) ))
+((node:Switch (Value Input) ))
+((node:MonoFlop (Animation) ))
+
+Strings:
+((node:+ (String) ))
+((node:+ (String Spectral) ))
+((node:Separate (String) ))
+((node:Dir (File) ))
+((node:AsValue (String) ))
+((node:FormatValue (String) ))
+
+he cracks, please continue...

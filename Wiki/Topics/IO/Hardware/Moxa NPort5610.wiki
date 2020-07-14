@@ -1,0 +1,8 @@
+^NPort 5610 Series ^
+{img src = "portserver.gif" }
+{img src = "http://www.moxa.com/product/image/NPort_5610.jpg" }
+
+Manufacturer: [http://www.moxa.com/product/NPort_5600.htm|Moxa]
+
+The portswitch has 16 RS232 Ports. These Ports can be connectet over ethernet by a TCP Port.
+Up to 4 PC's can be simultanous connectet to one of the portservers RS232 Port.
