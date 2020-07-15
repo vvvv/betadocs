@@ -139,9 +139,9 @@ hm... sorry for that...
    = C2 * C1
 
 
-# Where Drawing Order Matters...
+## Where Drawing Order Matters
 
-## Transparency and Depthbuffer
+### Transparency and Depthbuffer
 
 So here is the interesting part.  
 If you want to use transparency and the default blend mode, then you should at first draw all the opaque shapes, where the drawing order doesn't matter.  
@@ -156,7 +156,7 @@ There are papers about it, but i know of no vvvv user, who tried that yet. I als
 
 Hacks which should be faster but not so precise:  
 
-## Sort a Spread of Shapes in Projection Space
+### Sort a Spread of Shapes in Projection Space
 
 If you have all your transparent shapes in one big spread, and know that these shapes normally don't intersect each other, then you can sort all the slices in zorder and draw them from back to front.  
 
@@ -166,7 +166,7 @@ The multiplication can be done with *** (3d Vector)**.
 Sort the outcoming Z value with a **Sort** node, **Reverse** the former indices to get the indices of the shapes from big Z to small Z (far to near), and then use a **GetSlice (Node)** to sort the transformations. Note that you should then also sort all the other parameters going to the shader (like textures, colors,   
 ...) to get all consistent again.  
 
-## A single 3d shape
+### A single 3d shape
 
 Note that even a such a simple shape like a transparent sphere causes problems.  
 It has front and back side and if you want to draw it from back to front you have to take care that you first draw the back side (inner side) and then the front side.  

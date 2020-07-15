@@ -1,5 +1,5 @@
-- name: Playback
-  href: Playback.md
+- name: Overview
+  href: Overview.md
 - name: DirectShow-based media player
   href: DirectShow-based media player.md
 - name: Image Sequences

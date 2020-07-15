@@ -2,7 +2,7 @@
 uid: 74099114-2128-4ce8-8935-42a669c0d52f
 ---
 
-# Spreads in the Tooltip
+## Spreads in the Tooltip
 
 
 ![](~/img/patching_pin1value.png "")  
@@ -31,7 +31,7 @@ More about [empty spreads](TODO INTERNALLINK:spread-definitions#nil) (aka nil).
 
 
 
-# Spreads in the Inspektor
+## Spreads in the Inspektor
 
 ![](~/img/Inspektor_OneSlice3.png "")  
 
@@ -71,7 +71,7 @@ Individual slice values can be changed and setting the *Slice Count* sets the th
 
 
 
-# Spreads in IOBoxes
+## Spreads in IOBoxes
 
 ![](~/img/Inspektor_ColsRowsNarrowBlue6.png "")  
 
