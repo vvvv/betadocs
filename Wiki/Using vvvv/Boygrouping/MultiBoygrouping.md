@@ -3,9 +3,8 @@ uid: 511c5e9e-a4b0-4f82-914b-2231cea23cfe
 ---
 
 # MultiBoygrouping
-<span class="include">TODO INCLUDE boygroupingtoc</span>  
 
-# Introduction
+## Introduction
 
 
 ![](~/img/Multiboygrouping-65Projectors.png "")  
@@ -21,7 +20,7 @@ Simply put, clients cannot only obey to one master but receive patches and value
 * Also imagine a live collaborative event where you have some clients connected to projectors and multiple operators connected to them at the same time with their own server...  
 
 
-# How to
+## How to
 
 
 
@@ -33,7 +32,7 @@ Note that here it is necessary to use a different port for every connection as d
 
 
 
-# Features
+## Features
 
 ![](~/img/Boygrouping-Server1.png "")   
 *Server1*  
@@ -52,4 +51,4 @@ On *Server1* you want a boygrouped <span class="node">S (Node)</span>, on *Serve
 **See also:**  
 * [MultiBoygrouping forum-thread](https://vvvv.org/tiki-view_forum_thread.php?comments_parentId=31271&topics_threshold=0&topics_offset=7&topics_sort_mode=lastPost_desc&topics_find=&forumId=7)  
 
-
+

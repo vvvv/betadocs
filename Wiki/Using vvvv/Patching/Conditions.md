@@ -3,9 +3,8 @@ uid: 69bdb72a-3e21-4b27-a4a6-c15e7c0ec56e
 ---
 
 # Conditions
-<span class="include">TODO INCLUDE patchingtoc</span>  
 
-# Switch
+## Switch
 
 ![](~/img/Conditions-SwitchSimple.png "")  
 
@@ -42,7 +41,7 @@ Alternatively to switching between multiple individual values you can use the <s
 
 
 
-# Boolean operations
+## Boolean operations
 
 ![](~/img/Conditions-Booleans.png "")   
 
@@ -72,7 +71,7 @@ See the helppatches of these nodes for details.
 
 
 
-# State Automatas
+## State Automatas
 
 ![](~/img/patching-automata.png "")  
 
@@ -86,4 +85,4 @@ When patching anything that can be separated into a series of states and events 
 
 
 
-
+

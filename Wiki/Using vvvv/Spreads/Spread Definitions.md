@@ -54,8 +54,3 @@ If you want to provide a <span class="pin">Bin Size</span> as an input to your o
 
 
 Note that you can also specify a spread of positive (not negative!) BinSizes which essentially means that you can have a "spread of spreads" where each "inner" spread can have a different count.  
-
-
-
-
-<span class="include">TODO INCLUDE spreadstoc</span>

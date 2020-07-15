@@ -141,6 +141,3 @@ MovingLights often use 2 DMXchannel combined to have a 16bit Resolution e.g. for
 nothing here  
 #  >PanTilt spreads
 nothing here  
-
-# +
-<span class="include">TODO INCLUDE kalle.info</span>

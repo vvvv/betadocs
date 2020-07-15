@@ -3,8 +3,6 @@ uid: 32b954be-83f1-4b75-951f-f64e7fdd7c1b
 ---
 
 # Send-Receive
-<span class="include">TODO INCLUDE patchingtoc</span>  
-
 ---  
 
 ![](~/img/patching-send-receive2.png "")   
