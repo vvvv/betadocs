@@ -4,7 +4,7 @@ uid: 86693dba-d049-4027-874d-d53f0437ad66
 
 # IOBoxes
 
-# Creating IOBoxes
+## Creating IOBoxes
 
 IOBoxes can be used to input (edit) and output (display) data.  
 
@@ -14,7 +14,7 @@ There are 3 ways to create an IOBox:
 * via a middle-click while making a connection  
 
 
-# IOBox flavors
+## IOBox flavors
 
 ![](~/img/BasicPatching_IOBoxTypes3.png "")   
 
@@ -28,7 +28,7 @@ All other data-types (like Transform, Texture,...) share one IOBox:
 * <span class="node">IOBox (Node)</span>  
 
 
-# Configuring IOBoxes
+## Configuring IOBoxes
 
 ![](~/img/BasicPatching_Inlets_Outlets.png "")   
 
@@ -82,7 +82,7 @@ If there is more than one page you can use the <span class="pin">SliceOffset</sp
 are used for modifying the display.  
 
 
-# Displaying Data
+## Displaying Data
 
 ![](~/img/BasicPatching_OutputIOBox3.png "")   
 
@@ -90,7 +90,7 @@ are used for modifying the display.
 In order to display the current value of any output pin in a patch, connect it to an IOBox.   
 
 
-# Editing Data
+## Editing Data
 
 ![](~/img/patching_InputIOBox.png "")   
 
@@ -171,7 +171,7 @@ Right-click in the IOBox to open up the pull-down menu, choose an item with a le
 The enumeration IOBox can also be switched into a 'List' mode. Open the Inspektor and change the <span class="pin">Style</span> configuration pin.  
 
 
-# Green IOBoxes
+## Green IOBoxes
 
 ![](~/img/BasicPatching_Kontrolleur.png "")   
 

@@ -4,7 +4,7 @@ uid: b66f153a-f7c3-4867-a8c9-bce69861d759
 
 # Subpatches
 
-# The Concept
+## The Concept
 
 
 
@@ -55,7 +55,7 @@ In order to get an overview of all the nodes in a patch or even the whole hierar
 
 
 
-# Creating a Subpatch
+## Creating a Subpatch
 
 ![](~/img/BasicPatching_GroupingNodes3_0.png "")   
 
@@ -112,7 +112,7 @@ Use it to only make a subpatch calculate its outputs when any of its inputs has 
 If you want your subpatch to expose a <span class="pin">Bin Size</span> for an input then make sure to use one of the handy NormalizeBinSize nodes (available for many categories). It simplifies working with [Bins and Bin Sizes](TODO INTERNALLINK:spread-definitions#bins-and-bin-sizes) within a subpatch in that it translates a given bin size (positive or negative) into the actual bins you'll have to calculate with.   
 
 
-# Instantiating a Subpatch
+## Instantiating a Subpatch
 
 ![](~/img/SubPatches-Instancing.png "")   
 
@@ -133,7 +133,7 @@ A subpatch can not include an instance of itself! vvvv will not allow you to pat
 
 
 
-# Closing vs. Hiding Windows of Patches
+## Closing vs. Hiding Windows of Patches
 
 
 
@@ -143,7 +143,7 @@ When handling the windows of patches make sure you understand the difference bet
 Also note that you can stack windows on top of each other to save precious screenspace. Please refer to [Docking](TODO INTERNALLINK:the-gui#docking) for details.   
 
 
-# Controlling Evaluation
+## Controlling Evaluation
 
 ![](~/img/SubPatches-Evaluation2.png "")   
 *3 scenes with the [Timing Debug-Mode](TODO INTERNALLINK:debugging#debug-timing) turned on.*  
@@ -160,7 +160,7 @@ Never put nodes that receive inputs from a physical device (like the mouse-nodes
 
 
 
-# Modules
+## Modules
 
 ![](~/img/SubPatches-Modules.png "")   
 
