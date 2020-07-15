@@ -1,0 +1,114 @@
+{SPLIT()}
+
+Depending on where you come from you can approach vvvv in different ways. The following provides an overview of vvvvs main capabilities and features conveniently grouped by buzzwords.
+~~~
+
+__vvvv is your favorite multipurpose toolkit.__ 
+__It is a hybrid visual/textual development environment.__
+__Free for non-commercial use.__
+__Commercial use requires a ((licensing|license)).__
+
+{SPLIT}
+
+!!Hybrid Visual/Textual Development Environment
+::{img src = "vvvv_Propaganda_NEU_00_1.png" } 
+
+::
+
+ 
+{SPLIT()}
+Above all vvvv is targeted at the lazy developer and offers four things in one:
+* a topnotch development environment
+* a nextgeneration visual programming language 
+* an extensive node/code library
+* a runtime environment
+Besides its own visual language, the environment is also host to our new visual language ((VL)) and the two textual languages [http://en.wikipedia.org/wiki/High-level_shader_language|hlsl] and [http://en.wikipedia.org/wiki/C_Sharp_%28programming_language%29|c#].
+~~~
+Regardless of the language used, vvvv knows only one mode: ''runtime''. Thus turning the notion of ''stopping a program to recompile it'' into a footnote of the early days of programming. Where necessary compilation happens behind the scenes and doesn't interrupt your flow of work.
+
+Extending vvvv with your own nodes is a breeze, see ((Devvvveloping|developing plugins)). In fact many parts of vvvvs node library are contributed by users via the ((glossary:addonpack)) and ((/contributions|Contributions)).
+{SPLIT}
+
+{SPLIT()}
+!!2D/3D Animation
+{img src = "3d_1.png" title = "dottore: Partitura #000"}
+Interactive realtime 2d/3d animated cyber particles. vvvv has it all. Featuring 3 distinct fully blown industry standard rendering engines 
+SVG, DirectX9 and DirectX11* vvvv leaves no eyes dry. Load/animate/generate 3D models and apply textures/shaders/lightning to your liking. A built-in timeline and the worlds smoothest filters animate your creations over time. Top that with topofthepops physics engines Box2D/Bullet* and you be the next multimedia rockgod. 
+
+Entry points:
+((graphics|Documentation on Graphics))
+((Animation|Documentation on Animation))
+~~~
+!!Multiscreen Setups
+{img src = "boygroup_1.png" title = "TAMSCHICK: IFA Berlin 2012"}
+Designed from the ground up to handle massive multiprojection installations vvvv drastically lightens the effort involved in such setups. Using a technique dubbed ((glossary:boygrouping))™ you can make a cluster of client PCs render to the beat of a server PC and distribute content to them n'sync. Synchronized video playback, softedge, warping and blending are all just limited by your imagination. 
+
+Entry points:
+((Boygrouping|Documentation on Boygrouping))
+{SPLIT}
+
+{SPLIT()}
+!!Motion Graphics
+{img src = "motiongraphics_0.png" title = "unc: TextureFX"}
+Loving the likes of Photoshop and AfterEffects but loathing their rendering times and lack of interactivity? vvvv is just for you. With its plethora of professional grade texture effects* and a timeline that has no rival you shop your compositions at any resolution. In realtime. 
+
+Entry points:
+((contribution:video-effects-and-compositing-tutorials|Video effects and Compositing Tutorial))
+((Animation|Documentation on Animation))
+~~~
+!!Projection Mapping
+{img src = "mapping_0.png" title = "Michael Höpfel: Lightstrive"} 
+Need to project on an irregular surface while preserving the intrinsic shape of your content? By providing tools that let you load/create meshes resembling your projection surface and ways to place textures on them vvvv is extremely versatile when it comes to the needs of any projectionist. 
+
+Entry points:
+((projection-mapping-primer|Projection Mapping Primer))
+((/contributions/1353+1351+2439+1352+7934+2438+1354+1355/2104|Projection Mapping Contributions))
+{SPLIT}
+
+{SPLIT()}
+!!Data Visualisation
+{img src = "dataviz_0.png" title = "tekcor: Human Genome"}
+Need to get a better view on endless lists of data? vvvv is a pro in helping you do just that. Read from disk, database (MySQL, PostgreSQL/SQLite/SQL/Odbc/OleDb*) or the network (HTTP, UDP,..), parse (xml, json, csv, regexpr,...), transform and draw (SVG, DirectX) large amounts of data with just a few clicks. Export your visualisations as vector graphics, still images, movies or just lists of even more data. With its paradigm called ((glossary:spreads))™ vvvv makes it a childs play to handle large amounts of data. 
+
+Entry points:
+((spreads|Documentation on Spreads))
+((contribution:parasitic-design-a-vvvv-beginners-cookbook|Parasitic Design Tutorials))
+~~~
+!!Physical Computing
+{img src = "physical_0.png" title = "Prototyping Interfaces"} 
+Wii*, Leap, Kinect*, Oculus Rift*, Arduino*,... vvvv does them all. And even more by offering readers/writers for most common standard protocols like MIDI, OSC, TUIO, DMX, HTTP, TCP, UDP to name only the hottest. Plug and Play at its finest. And also multitouch. 
+
+Entry points:
+book: http://prototypinginterfaces.com
+((IO|Documentation on Inputs and Outputs))
+{SPLIT}
+
+{SPLIT()}
+!!Sound
+{img src = "sound.png" } 
+Multichannel audio playback, FFT analysis, ASIO and whatnot. While vvvvs audiocapabilities can not compete with the likes of [http://puredata.info/|PD] and [http://cycling74.com/max|MaxMSP] it covers a wide range of applications that you'll come across in your daily multimedia needs. 
+
+Entry points:
+((audio|Documentation on Audio))
+~~~
+!!Computer Vision
+{img src = "vision_0.png" }  
+Motion and face detection, color, blob, face and skeleton tracking, gesture recognition... you choose. With easy access to devices like the Kinect* and the Leap and libraries like OpenCV* vvvv is your perfect companion when it comes to quickly prototyping computer vision applications. 
+
+Entry points:
+((/contribution/vvvv.packs.image|The Image Pack))
+((video|Documentation on Video))
+
+{SPLIT}
+---
+~np~*~/np~ several parts of vvvvs node/code library are user contributed: 
+((user:vux)): DirectX11 (via DX11 pack), Box2d, Bullet, Bass, PostgreSQL, SQLite, SQL, Odbc, OleDb (via addonpack)
+((user:elliotwoods)): OpenCV (via ImagePack)
+((user:unc)), ((user:lecloneur)): texture effects (via addonpack)
+((user:woei)): advanced spread operations (via addonpack), GPU splines (via contributions)
+((user:dottore)): MRE - Multipass Render Engine (via contributions)
+These are only the biggest contributors, many more are contributing smaller bits. 
+
+---
+
+You might also want to check the ((/blog/24|Galleria)) to get an impression of what people do with vvvv. 

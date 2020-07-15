@@ -1,0 +1,69 @@
+{SPLIT()}
+!!Software
+*((software#ableton-live|Ableton Live))
+*((software#adobe-photoshop|Adobe Photoshop))
+*((software#databases|Databases))
+*((software#eyesweb|EyesWeb))
+*((software#flash|Flash))
+*((software#grasshopper|Grasshopper))
+*((software#html|HTML))
+*((software#javascript|JavaScript))
+*((software#kontrolleur|Kontrolleur))
+*((software#maxmsp|Max/MSP))
+*((software#node.js|Node.js))
+*((software#processing|Processing))
+*((software#pure-data|Pure Data))
+*((software#python|Python))
+*((software#quartz-composer|Quartz Composer))
+*((software#resolume|Resolume))
+*((software#rsh-remote-shell|RSH))
+*((software#spout|Spout))
+*((software#touchdesigner|TouchDesigner))
+
+~~~
+
+!!Protocols
+*((protocols#dmx-art-net|DMX & Art-Net))
+*((hardware#arduino-firmata|Firmata))
+*((protocols#hid|HID))
+*((protocols#http|HTTP))
+*((protocols#ilda|ILDA))
+*((protocols#midi|MIDI))
+*((protocols#mqtt|MQTT))
+*((protocols#osc|OSC))
+*((protocols#tuio|TUIO))
+*((protocols#udp-tcp|UDP & TCP))
+*((protocols#zeromq|ZeroMQ))
+
+!!Files
+*((files#plain-text-files|Plain Text))
+*((files#raw-binary-files|Raw Binary))
+
+!!Services
+*((services#twitter|Twitter))
+
+~~~
+!!Hardware
+*((hardware#arduino-firmata|Arduino))
+*((hardware#graphics-tablets|Graphics tablets))
+*((hardware#kinect|Kinect))
+*((hardware#kinect|Lasers))
+*((hardware#leap|Leap))
+*((hardware#lights|Lights))
+*((hardware#motors|Motors))
+*((hardware#mobile-devices|Mobile devices))
+*((hardware#multi-touch-devices|Multi-touch devices))
+*((hardware#phidgets|Phidgets))
+*((hardware#relay-io-boards|Relay IO Boards))
+*((hardware#rs232|RS232))
+*((hardware#sensors|Sensors))
+*((hardware#usb-hid|USB/HID))
+*((hardware#vr-devices|VR Devices))
+*((hardware#wiimote|WiiMote))
+*((hardware#odd-hardware|Odd Hardware))
+
+{SPLIT}
+!
+!!Useful links
+*((Electronics Links))
+*((IO Links))

@@ -553,6 +553,9 @@
   <Item Key="3d Vector Mathematics">
     <Value Original_Link="3d Vector Mathematics" Path="" Text="3d Vector Mathematics" UID="d7b17d70-42b3-4b01-8488-3406aef4f42f" />
   </Item>
+  <Item Key="Animation">
+    <Value Original_Link="Animation" Path="" Text="Documentation on Animation" UID="cfc19801-b2d5-438f-a7f6-0b40e128a236" />
+  </Item>
   <Item Key="PluginInfo Attributes">
     <Value Original_Link="PluginInfo Attributes" Path="" Text="PluginInfo Attributes" UID="29a92e37-7494-441d-93f7-36beeb1a0f2e" />
   </Item>
@@ -655,6 +658,9 @@
   <Item Key="texture#images">
     <Value Original_Link="texture#images" Path="" Text="Textures" UID="8116d432-c3f5-4918-95cd-7404e8d3312c" />
   </Item>
+  <Item Key="IO">
+    <Value Original_Link="IO" Path="" Text="Documentation on Inputs and Outputs" UID="dc061415-349d-405b-9df8-03c10b60aa30" />
+  </Item>
   <Item Key="Audio Effects">
     <Value Original_Link="Audio Effects" Path="" Text="Effects" UID="b27d2408-4af0-4384-ba30-a6faecb81e5f" />
   </Item>
@@ -700,6 +706,9 @@
   <Item Key="dynamic-plugins">
     <Value Original_Link="dynamic-plugins" Path="" Text="Dynamic Plugins" UID="dc107197-be10-4608-90ee-e5a8f856c146" />
   </Item>
+  <Item Key="spreads">
+    <Value Original_Link="spreads" Path="" Text="Documentation on Spreads" UID="00327d1e-65ba-4424-997d-615d9a469503" />
+  </Item>
   <Item Key="Spreads">
     <Value Original_Link="Spreads" Path="" Text="Spreads" UID="00327d1e-65ba-4424-997d-615d9a469503" />
   </Item>
@@ -739,6 +748,9 @@
   <Item Key="WebBasedConfigurationInterface">
     <Value Original_Link="WebBasedConfigurationInterface" Path="" Text="Webbased configuration Interface for vvvv" UID="aab49eac-b551-4c7b-81f4-09f6f0f48176" />
   </Item>
+  <Item Key="Devvvveloping">
+    <Value Original_Link="Devvvveloping" Path="" Text="developing plugins" UID="59d087cb-4622-4fda-9ed9-4b50b34dd573" />
+  </Item>
   <Item Key="shader#built-in-effects">
     <Value Original_Link="shader#built-in-effects" Path="" Text="Built-in effects" UID="4ae45235-b247-4d0d-8c5b-9d0688f99b3f#built-in-effects" />
   </Item>
@@ -765,6 +777,9 @@
   </Item>
   <Item Key="best-practices-when-using-bootcamp">
     <Value Original_Link="best-practices-when-using-bootcamp" Path="" Text="Best practices with Bootcamp" UID="be87c353-6012-4044-8a1e-5ed0afb1c799" />
+  </Item>
+  <Item Key="projection-mapping-primer">
+    <Value Original_Link="projection-mapping-primer" Path="" Text="Projection Mapping Primer" UID="d09ac451-f613-447d-afaa-5a32cdc1ce8c" />
   </Item>
   <Item Key="Video File Playback">
     <Value Original_Link="Video File Playback" Path="" Text="Playback" UID="0eb075e3-f550-4d47-a2d8-69edd2fcb0ce" />
@@ -1108,6 +1123,9 @@
   <Item Key="Translearn06">
     <Value Original_Link="Translearn06" Path="" Text="Translearn06" UID="f47af066-c611-4357-bfbd-ad2dc3519df9" />
   </Item>
+  <Item Key="audio">
+    <Value Original_Link="audio" Path="" Text="Documentation on Audio" UID="0308fa48-014f-4c08-8618-fe047611a3c6" />
+  </Item>
   <Item Key="video-tutorials#tutorial-6-move-and-color-some-text">
     <Value Original_Link="video-tutorials#tutorial-6-move-and-color-some-text" Path="" Text="more advanced" UID="09f00508-01d4-4eac-b6d3-4dace5b00d99#tutorial-6-move-and-color-some-text" />
   </Item>
@@ -1182,6 +1200,9 @@
   </Item>
   <Item Key="Dynamic Plugins Reference">
     <Value Original_Link="Dynamic Plugins Reference" Path="" Text="Dynamic C# Plugins Reference" UID="9fb98fc4-377b-49be-87ee-2c4741183b7c" />
+  </Item>
+  <Item Key="graphics">
+    <Value Original_Link="graphics" Path="" Text="Documentation on Graphics" UID="853423af-e6ba-4908-935b-5154fd0e3f3f" />
   </Item>
   <Item Key="Graphics">
     <Value Original_Link="Graphics" Path="" Text="Graphics" UID="853423af-e6ba-4908-935b-5154fd0e3f3f" />
