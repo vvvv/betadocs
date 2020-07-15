@@ -23,7 +23,7 @@ For Informations how to use the Webinterface see the Manual Page.
 (Filelink)  
 
 Requirements:  
-* [VVVV  > beta21](TODO INTERNALLINK:Downloads)  
+* [VVVV  > beta21](https://vvvv.org/downloads)
 * <a href="http://www.microsoft.com/downloads/details.aspx?displaylang=en&FamilyID=0856eacb-4362-4b0d-8edd-aab15c5e04f5" class="extURL" target="_blank">.Net Framework 2.0</a>  
 * Webinterface.dll  
 
@@ -523,4 +523,4 @@ Josh Samberg
 Christain Moldenhauer  
 vvvv Group  
 Meso  
-
+

@@ -8,7 +8,7 @@ Here is how you prepare your plugins for the addonpack:
 ## Provide a Node Info
 Make sure to provide a meaningful description for your nodes via the [plugininfo attributes](TODO INTERNALLINK:plugininfo attributes)  
 
-This information will help users find/choose nodes in the NodeBrowser and in the [node reference](TODO INTERNALLINK:node reference).  
+This information will help users find/choose nodes in the NodeBrowser and in the [node reference](https://vvvv.org/documentation/node-reference).  
 
 ## Follow the conventions
 * [Coding style guidlines](TODO INTERNALLINK:Conventions.CodingStyle)  
@@ -21,4 +21,4 @@ and place it in your plugins directory. from there the buildprocess will automat
 
 ## Help patch
 Please make sure to consult [Conventions.HelpPatch](TODO INTERNALLINK:Conventions.HelpPatch) and place a correctly named help patch in the lib\nodes\plugins directory.   
-
+

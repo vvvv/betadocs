@@ -11,7 +11,7 @@ uid: 87a427cb-b546-44ab-91a5-a4d12abe1b7f
 # 1. Download
 
 vvvv is available in two different forms:  
-* [Beta](TODO INTERNALLINK:downloads) - stable releases. **Production grade**  
+* [Beta](https://vvvv.org/downloads) - stable releases. **Production grade**  
 * [Previews](https://vvvv.org/downloads/previews) - has more features, but maybe unstable. **Don't use for production**  
 
 Take the **64bit** version.  

@@ -37,7 +37,7 @@ The **FileStream (DShow9 Boygroup)**'s special power is to syncronize several pl
 
 Their <span class="pin">Filename</span> pin is not spreadable, therefore only one file can be played at a time.  
 
-However it's possible to have several <span class="node">FileStream (DShow9)</span> connected to their own [AudioOut (DShow9)](TODO INTERNALLINK:AudioOut (DShow9)) in the same patch in order to play several files in parallel. Beware though that those streams will not run in sync by default.  
+However it's possible to have several <span class="node">FileStream (DShow9)</span> connected to their own <span class="node">AudioOut (DShow9)</span> in the same patch in order to play several files in parallel. Beware though that those streams will not run in sync by default.  
 
 See the [Multichannel Output](TODO INTERNALLINK:audio-output) section for more about playing back multichannel audio files.  
 

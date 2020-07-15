@@ -32,7 +32,7 @@ It's like using filters and layers in Photoshop or AfterEffects, but interactive
 
 Every video is just a sequence of textures, so there is no difference whether the effects are applied to the static images or to the video streams (represented as textures).  
 
-The whole series of modules/effects is now part of the [Addonpack](TODO INTERNALLINK:downloads). Type 'fx' in the [NodeBrowser](TODO INTERNALLINK:the-gui#node-browser) to get the full list of available nodes.  
+The whole series of modules/effects is now part of the [Addonpack](https://vvvv.org/downloads). Type 'fx' in the [NodeBrowser](TODO INTERNALLINK:the-gui#node-browser) to get the full list of available nodes.  
 
 The idea was triggered by <span class="user"><a href="https://vvvv.org/users/karistouf" class="extURL" target="_blank">karistouf</a></span> in his thread with the almost poetic title <a href="https://discourse.vvvv.org/t/pure-image-treatment-question-wich-evolution-for-vvvv)) and implementation is expertly lead by <span class="user"><a href="https://vvvv.org/users/unc" class="extURL forum" target="_blank">pure-image-treatment-question-wich-evolution-for-vvvv" class="extURL" target="_blank">unc" class="extURL forum" target="_blank">pure-image-treatment-question-wich-evolution-for-vvvv</a></span> and implementation is expertly lead by ((user:unc</a>.  
 

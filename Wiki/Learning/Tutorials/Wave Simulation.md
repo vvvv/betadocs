@@ -109,7 +109,7 @@ that's it!
 
 a patch, which works with a 1-d spread and does exactly the stuff described above is downloadable here:   
 
-[/tiki-download_file.php?fileId=559](https://vvvv.org/tiki-download_file.php?fileId=559)wave 1d.v4p (18.35 Kb)</a>  
+[wave 1d.v4p (18.35 Kb)](https://vvvv.org/tiki-download_file.php?fileId=559) 
 
 some tricks:  
 - to modulate the wave we just need a spread of values.  
@@ -139,8 +139,8 @@ v_lastframe = p_lastframe - p_beforelastframe
 
 
 download the wave simulation:  
-[/tiki-download_file.php?fileId=578](https://vvvv.org/tiki-download_file.php?fileId=578)wave01.zip (6.50 Kb)</a>  
-[/tiki-download_file.php?fileId=1200](https://vvvv.org/tiki-download_file.php?fileId=1200)wave02.zip (13.71 Kb)</a>  
+[wave01.zip (6.50 Kb)](https://vvvv.org/tiki-download_file.php?fileId=578)
+[wave02.zip (13.71 Kb)](https://vvvv.org/tiki-download_file.php?fileId=1200) 
 
 
 ![](~/img/pixwave05directxrendererpass_117.jpg "")  
@@ -158,4 +158,4 @@ download the wave simulation:
 
 #  3-Dimensional Case
 
-a plugin that extends this algorithm to 3 dimensions can be found in the addonpack at the [downloads](TODO INTERNALLINK:downloads) site.
+a plugin that extends this algorithm to 3 dimensions can be found in the addonpack at the [Downloads](https://vvvv.org/downloads) site.

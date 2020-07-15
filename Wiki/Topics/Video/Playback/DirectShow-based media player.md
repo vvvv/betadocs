@@ -25,7 +25,7 @@ The **FileStream (DShow9 Boygroup)**'s special power is to syncronize several pl
 
 Their <span class="pin">Filename</span> pin is not spreadable, therefore only one file can be played at a time.  
 
-However it's possible to have several <span class="node">FileStream (DShow9)</span> connected to their own <span class="node">VideoTexture (EX9.Texture VMR9)</span> and [AudioOut (DShow9)](TODO INTERNALLINK:AudioOut (DShow9)) in the same patch in order to play several files in parallel. Beware though that those streams will not run in sync by default.  
+However it's possible to have several <span class="node">FileStream (DShow9)</span> connected to their own <span class="node">VideoTexture (EX9.Texture VMR9)</span> and <span class="node">AudioOut (DShow9)</span> in the same patch in order to play several files in parallel. Beware though that those streams will not run in sync by default.  
 
 #### Synchronization
 Multiple players can by synchronized locally or in a network scenario, see [Video Synchronization](TODO INTERNALLINK:video-synchronization).  

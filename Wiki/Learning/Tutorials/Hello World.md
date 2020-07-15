@@ -16,7 +16,7 @@ For now just create a *New Patch CTRL+P* and notice that this patch appears with
 # Creating a Node
 Now left double-click anywhere in the patch. The [Node Browser](TODO INTERNALLINK:the-gui#node-browser) appears with a seemingly endless list of nodes you can choose from. By starting to type a name the list gets filtered for your input helping you to look for specific functionality. If instead of an alphabetical listing you want to get an overview sorted by categories, simply right-click the text field. Now you're in the category-view of the nodebrowser. Here you can click any of the categories to see which nodes belong to it. Press the T button in the nodebrowsers topright corner to go back to its tag-view.  
 
-For now simply press *+* to filter for all nodes that have a *+* character in their name and then click on the one named: <span class="node">+ (Value)</span> (the word “Value” preceded by the sign “+”). Note: do not confuse it with [+ (Value Spectral) ](TODO INTERNALLINK:+ (Value Spectral) )!  
+For now simply press *+* to filter for all nodes that have a *+* character in their name and then click on the one named: <span class="node">+ (Value)</span> (the word “Value” preceded by the sign “+”). Note: do not confuse it with <span class="node">+ (Value Spectral)</span>!  
 
 Also see this [Video Tutorial](TODO INTERNALLINK:video-tutorials#vvvv-tutorial-2-menu-moving-and-scaling-and-node-creation.).   
 # Node Names and Categories

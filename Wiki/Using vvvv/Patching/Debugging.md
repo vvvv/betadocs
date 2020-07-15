@@ -60,7 +60,7 @@ If a node is missing, hovering it with the mouse will bring up a tooltip with th
 ![](~/img/Debugging_RedNodes_Architecture.png "")   
 
 #### Wrong CPU architecture
-Understand that vvvv and all addons come in two flavours: x86 (=32bit) and x64 (=64bit) and you cannot mix them! On modern PCs you'd typically use the x64 build. Only note that some nodes are [missing in 64bit builds](TODO INTERNALLINK:missing-in-64bit-builds) which would be a reason to still use the x86 builds.   
+Understand that vvvv and all addons come in two flavours: x86 (=32bit) and x64 (=64bit) and you cannot mix them! On modern PCs you'd typically use the x64 build. Only note that some nodes are [missing in 64bit builds](https://vvvv.org/documentation/missing-in-64bit-builds) which would be a reason to still use the x86 builds.   
 
 
  

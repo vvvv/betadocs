@@ -21,7 +21,7 @@ it will always be obvious which vvvv-release a specific pack is supposed to work
 
 # Download
 
-The latest pack will always be available from the [Downloads](TODO INTERNALLINK:Downloads) page.   
+The latest pack will always be available from the [Downloads](https://vvvv.org/downloads) page.   
 
 
 # Installation

@@ -63,7 +63,7 @@ VL embraces observables to do event handling. This approach works well together 
 
 
 VL is included with vvvv since version beta35. Here is what should get you going:  
-* [Download](TODO INTERNALLINK:downloads) vvvv + addonpack  
+* [Download](https://vvvv.org/downloads) vvvv + addonpack  
 * Check the demo patches in the \girlpower\VL directory  
 * <a href="https://discourse.vvvv.org/c/tutorials" class="extURL" target="_blank">Video Tutorials</a>  
 * [Quick Reference](TODO INTERNALLINK:dynamic-vl-plugin-reference)  

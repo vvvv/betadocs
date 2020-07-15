@@ -38,7 +38,7 @@ Pressing F1 with a node selected opens a helppatch explaining the node in some d
 Also see the [video tutorial on Helppatches](TODO INTERNALLINK:video-tutorials#tutorial-12-helpfiles-f1-and-comments).  
 
 #### Node Reference
-vvvv brings up a page from the [Node Reference](TODO INTERNALLINK:Node Reference), when pressing Alt-F1 with a node selected. a nodereference page exists for every native node and nodes that come with the addonpack. the pages are user-editable and thus can contain additional information concerning that node provided by other users.  
+vvvv brings up a page from the [Node Reference](https://vvvv.org/documentation/node-reference), when pressing Alt-F1 with a node selected. a nodereference page exists for every native node and nodes that come with the addonpack. the pages are user-editable and thus can contain additional information concerning that node provided by other users.  
 
 #### The Girlpower directory
 These tutorials, examples and demo patches try to explain several (sometimes advanced) topics. However they are good to see how some nodes can be used together in an elegant way.  

@@ -10,8 +10,8 @@ uid: 268ce39d-8d40-41ed-bc01-e9e0a1e2587b
 <a href="http://www.artisticlicence.com/WebSiteMaster/User%20Guides/art-net.pdf" class="extURL" target="_blank">Art-Net spicification</a>  
 
 #### Related nodes
-[node:ArtNet (Network Sender)](TODO INTERNALLINK:node:ArtNet (Network Sender))  
-[node:ArtNet (Network Receiver)](TODO INTERNALLINK:node:ArtNet (Network Receiver))  
+<span class="node">ArtNet (Network Sender)</span>
+<span class="node">ArtNet (Network Receiver)</span> 
 ...and many more  
 
 

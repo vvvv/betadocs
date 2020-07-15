@@ -25,7 +25,7 @@ For unpacking any download we recommend using <a href="http://www.7-zip.org/" cl
 
 The Addonpack is a highly recommended collection of useful nodes provided and maintained by members of the vvvv community.   
 
-[Download](TODO INTERNALLINK:downloads) the Addonpack matching the exact version of vvvv you're using. Then unzip and place it inside the vvvv directory so your directory structure looks like this:  
+[Download](https://vvvv.org/downloads) the Addonpack matching the exact version of vvvv you're using. Then unzip and place it inside the vvvv directory so your directory structure looks like this:  
 
  \addonpack\ (including: girlpower, lib,...)
  \girlpower

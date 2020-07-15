@@ -27,7 +27,7 @@ Still missing features:
 
 ## User Guide
 ### Installation
-The collada plugin is shipped with the vvvv addon pack. For instructions how to install the addon pack see [Downloads](TODO INTERNALLINK:Downloads).  
+The collada plugin is shipped with the vvvv addon pack. For instructions how to install the addon pack see [Downloads](https://vvvv.org/downloads).  
 
 ### Quickstart
 Use node ColladaFile (EX9.Geometry) to load a *.dae file and use node Mesh (EX9.Geometry Collada) to work on that loaded Collada model. See help patch of node Mesh (EX9.Geometry Collada) for an example.  

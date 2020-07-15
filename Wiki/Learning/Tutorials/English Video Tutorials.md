@@ -344,9 +344,9 @@ Next I will make spread of different, random LFO's, to rotate some quads in a ci
 
 # Tutorial 39: Framedelay, create Loops or Delay a Value 
 
-In this vvvv tutorial I will introduce the <span class="node">FrameDelay (animation)</span>. We can use it to make feedback or a loop. The helpfile (F1) will give an example of a feedback loop.  
+In this vvvv tutorial I will introduce the <span class="node">FrameDelay (Animation)</span>. We can use it to make feedback or a loop. The helpfile (F1) will give an example of a feedback loop.  
 
-I will show you how to use the <span class="node">Max (value)</span> with a framedelay, so we can figure out what the highest value is the max ever received on one pin. Next I will show how and why, you want to delay a Bang for 1 frame, while resetting an <span class="node">LFO (animation)</span> and sample and holding [node:(S+H) animation](TODO INTERNALLINK:node:(S+H) animation), it at the same time.  
+I will show you how to use the <span class="node">Max (Value)</span> with a framedelay, so we can figure out what the highest value is the max ever received on one pin. Next I will show how and why, you want to delay a Bang for 1 frame, while resetting an <span class="node">LFO (Animation)</span> and sample and holding <span class="node">S+H (Animation)</span>, it at the same time.  
 
 <a href="https://www.youtube.com/watch?v=3lHFaibBquQ" class="extURL youtube" target="_blank">Video</a>  
 

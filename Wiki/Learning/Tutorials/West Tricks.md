@@ -53,9 +53,9 @@ But by simply mapping, with the <span class="node">Map (Value)</span> node, the 
 
 # Using Colors As Values
 
-VVVV does not have that many nodes to deal with color. For example a simple **Switch (Color)** isn't there. (There is a <span class="node">InputMorph (Color)</span>, but this is just an example) To deal with this problem, I used  to use the [HSV (Color) Split](TODO INTERNALLINK:HSV (Color) Split) node, to split the color in its 4 values, than I would Applied 4 [Switch (Value) Input](TODO INTERNALLINK:Switch (Value) Input) nodes, and than I would combine the output again using the [HSV (Color) Join](TODO INTERNALLINK:HSV (Color) Join) node. Works great, but I do not like to use the same node 4 times.   
+VVVV does not have that many nodes to deal with color. For example a simple **Switch (Color)** isn't there. (There is a <span class="node">InputMorph (Color)</span>, but this is just an example) To deal with this problem, I used  to use the <span class="node">HSV (Color Split)</span> node, to split the color in its 4 values, than I would Applied 4 <span class="node">Switch (Value Input)</span>, and than I would combine the output again using the <span class="node">HSV (Color Join)</span>. Works great, but I do not like to use the same node 4 times.   
 
-Using [Vector (4d) Join](TODO INTERNALLINK:Vector (4d) Join), just ONE switch, and a [Vector (4d) Split](TODO INTERNALLINK:Vector (4d) Split) node, I instantly used one node less.   
+Using <span class="node">Vector (4d Join)</span>, just ONE switch, and a <span class="node">Vector (4d Split)</span>, I instantly used one node less.   
 
 **Advantage:** you can now also do more complex stuff with colors, without copying the patch 4 times.   
 
@@ -63,7 +63,7 @@ Using [Vector (4d) Join](TODO INTERNALLINK:Vector (4d) Join), just ONE switch, a
 
 #  Switching direct with LFO
 
-If you think that a [Switch (Value) Input](TODO INTERNALLINK:Switch (Value) Input) or any other switch only  switches when you set the switch pin to a correct value read on.  
+If you think that a <span class="node">Switch (Value Input)</span> or any other switch only  switches when you set the switch pin to a correct value read on.  
 
 Connecting the Cycles pin of an <span class="node">LFO (Animation)</span> node directly to a switch will also switch, on a time interval.  
 
@@ -200,7 +200,7 @@ Using the <span class="node">Frac (Value)</span> node, and a simple <span class=
 
 #  Build a simple Timeline for movement
 
-Letting an object move along a path that you pre-directed was always high on my wishlist. I remember difficult patching with an [IOBox (Value) Advanced](TODO INTERNALLINK:IOBox (Value) Advanced) that need to be filled with values, <span class="node">GetSlice (Spreads)</span> nodes and dampers to make it smooth.  
+Letting an object move along a path that you pre-directed was always high on my wishlist. I remember difficult patching with an <span class="node">IOBox (Value Advanced)</span> that need to be filled with values, <span class="node">GetSlice (Spreads)</span> nodes and dampers to make it smooth.  
 
 The node <span class="node">B-Spline (Value)</span> is not designed for this, but works great, with an LFO and some values. Don't forget to change the 'input room' pin to 'normal 0..1'. Thanks to <span class="user"><a href="https://vvvv.org/users/gregsn" class="extURL" target="_blank">gregsn</a></span> for the idea.   
 
@@ -224,7 +224,7 @@ Now I decided to let the LFO run just and switch to zero (or one if you desire) 
 
 When doing an action that depends on the change of a value, you can choose between the <span class="node">Change (Animation)</span> and <span class="node">TogEdge (Animation)</span> nodes.  
 
-In most cases <span class="node">Change (Animation)</span> is the node of choice, however, in some cases it is better to pick the <span class="node">TogEdge (Animation)</span> node, especially when working with the [Keyboard (System) Global](TODO INTERNALLINK:Keyboard (System) Global). The TogEdge will only work for values that range from 0.0000 to 1.0000, and even worse, it rounds off the values internally to 0 or 1, whatever is closed. So a change from 0.3 to 0.4 will not produce a Bang, while a Change will.  
+In most cases <span class="node">Change (Animation)</span> is the node of choice, however, in some cases it is better to pick the <span class="node">TogEdge (Animation)</span> node, especially when working with the <span class="node">Keyboard (System Global)</span>. The TogEdge will only work for values that range from 0.0000 to 1.0000, and even worse, it rounds off the values internally to 0 or 1, whatever is closed. So a change from 0.3 to 0.4 will not produce a Bang, while a Change will.  
 
 **Advantage:** Just Nice to know I thought.  
 

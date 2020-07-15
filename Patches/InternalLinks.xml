@@ -61,9 +61,6 @@
   <Item Key="timelinersa#automata">
     <Value Original_Link="timelinersa#automata" Path="" Text="Automata" UID="76f3717c-5da9-4a2a-9d53-4c5b982291a6#automata" />
   </Item>
-  <Item Key="Switch (Value) Input">
-    <Value Original_Link="Switch (Value) Input" Path="" Text="Switch (Value) Input" UID="" />
-  </Item>
   <Item Key="software-engineering-patterns-with-vvvv">
     <Value Original_Link="software-engineering-patterns-with-vvvv" Path="" Text="Software Engineering Patterns with vvvv" UID="3eb927ab-9bda-4f94-8481-2cdc7ae67f0d" />
   </Item>
@@ -100,12 +97,6 @@
   <Item Key="Audio Output">
     <Value Original_Link="Audio Output" Path="" Text="Multichannel Output" UID="909206b2-99b1-40a4-b477-826b7fbfef9d" />
   </Item>
-  <Item Key="node reference">
-    <Value Original_Link="node reference" Path="" Text="node reference" UID="" />
-  </Item>
-  <Item Key="node:ArtNet (Network Receiver)">
-    <Value Original_Link="node:ArtNet (Network Receiver)" Path="" Text="node:ArtNet (Network Receiver)" UID="" />
-  </Item>
   <Item Key="tutorial effects vertexshader preparations">
     <Value Original_Link="tutorial effects vertexshader preparations" Path="" Text="here" UID="efe56243-ca3e-4980-a8cb-8b4e086fdf25" />
   </Item>
@@ -135,12 +126,6 @@
   </Item>
   <Item Key="About Tags">
     <Value Original_Link="About Tags" Path="" Text="About Tags" UID="9ba99c9e-2f8c-4987-a028-95bd35b88ec9" />
-  </Item>
-  <Item Key="node:ArtNet (Network Sender)">
-    <Value Original_Link="node:ArtNet (Network Sender)" Path="" Text="node:ArtNet (Network Sender)" UID="" />
-  </Item>
-  <Item Key="Vector (4d) Join">
-    <Value Original_Link="Vector (4d) Join" Path="" Text="Vector (4d) Join" UID="" />
   </Item>
   <Item Key="xml">
     <Value Original_Link="xml" Path="" Text="XML Nodes explained in detail" UID="3ffb0984-339d-4d17-8d70-822d6032744e" />
@@ -247,9 +232,6 @@
   <Item Key="Generic Nodes">
     <Value Original_Link="Generic Nodes" Path="" Text="Generic Nodes" UID="a4ee0097-c57b-4788-822f-a7b07953e5a1" />
   </Item>
-  <Item Key="node:(S+H) animation">
-    <Value Original_Link="node:(S+H) animation" Path="" Text="node:(S+H) animation" UID="" />
-  </Item>
   <Item Key="Conventions.HelpPatch">
     <Value Original_Link="Conventions.HelpPatch" Path="" Text="Conventions.HelpPatch" UID="07824e2d-da59-4df0-9f49-a143dc0f7625" />
   </Item>
@@ -298,10 +280,7 @@
   <Item Key="patching-concepts#loops">
     <Value Original_Link="patching-concepts#loops" Path="" Text="Loops" UID="11e284ec-b6b0-47b2-bed3-f90a91e55e91#loops" />
   </Item>
-  <Item Key="downloads">
-    <Value Original_Link="downloads" Path="" Text="Beta" UID="" />
-  </Item>
-  <Item Key="Spread-Generators">
+   <Item Key="Spread-Generators">
     <Value Original_Link="Spread-Generators" Path="" Text="Spread Generators" UID="fe02ed4b-7090-486b-9a1d-95067a5671d2" />
   </Item>
   <Item Key="Boygrouping">
@@ -312,9 +291,6 @@
   </Item>
   <Item Key="Shader">
     <Value Original_Link="Shader" Path="" Text="Effect" UID="4ae45235-b247-4d0d-8c5b-9d0688f99b3f" />
-  </Item>
-  <Item Key="Downloads">
-    <Value Original_Link="Downloads" Path="" Text="Downloads" UID="" />
   </Item>
   <Item Key="rendering-overview#depthbuffer">
     <Value Original_Link="rendering-overview#depthbuffer" Path="" Text="Depthbuffer" UID="59a77510-fda1-499a-9686-461a2ab446c9" />
@@ -376,9 +352,6 @@
   <Item Key="patching-basics#data-types">
     <Value Original_Link="patching-basics#data-types" Path="" Text="node-connection" UID="10b82e0c-720a-48e1-91e4-d8c65d2c3be1#data-types" />
   </Item>
-  <Item Key="axisangle-(quaternion-set-vector):">
-    <Value Original_Link="axisangle-(quaternion-set-vector):" Path="" Text="axisangle-(quaternion-set-vector):" UID="" />
-  </Item>
   <Item Key="root">
     <Value Original_Link="root" Path="" Text="root" UID="5eea935d-c82d-4b89-8403-1fbc1d79fb93" />
   </Item>
@@ -390,9 +363,6 @@
   </Item>
   <Item Key="geometry#primitives">
     <Value Original_Link="geometry#primitives" Path="" Text="Primitives" UID="3c360048-ceb5-4e96-86d6-5e8ef7ff43e9" />
-  </Item>
-  <Item Key="Node Reference">
-    <Value Original_Link="Node Reference" Path="" Text="Node Reference" UID="" />
   </Item>
   <Item Key="video-hardware-links#cameras">
     <Value Original_Link="video-hardware-links#cameras" Path="" Text="List of Cameras" UID="02abbea9-3a49-401d-bd74-aa89704b87b0#cameras" />
@@ -535,14 +505,8 @@
   <Item Key="Skeleton Animation Nodes Tutorial">
     <Value Original_Link="Skeleton Animation Nodes Tutorial" Path="" Text="a previous tutorial" UID="4c4a36ab-7a01-45dc-a4f9-9ed88c319918" />
   </Item>
-  <Item Key="+ (Value Spectral) ">
-    <Value Original_Link="+ (Value Spectral) " Path="" Text="+ (Value Spectral) " UID="" />
-  </Item>
   <Item Key="dynamic-vl-plugin-reference#think-slice-wise">
     <Value Original_Link="dynamic-vl-plugin-reference#think-slice-wise" Path="" Text="Think slice-wise" UID="2879ae37-9e84-42ee-8e2e-8444d274bb6b#think-slice-wise" />
-  </Item>
-  <Item Key="HSV (Color) Join">
-    <Value Original_Link="HSV (Color) Join" Path="" Text="HSV (Color) Join" UID="" />
   </Item>
   <Item Key="EX9.HLSL.Semantics">
     <Value Original_Link="EX9.HLSL.Semantics" Path="" Text="EX9.HLSL.Semantics" UID="39f956cd-59d0-4445-b87c-57c56affb57c" />
@@ -591,9 +555,6 @@
   </Item>
   <Item Key="RemoterSA">
     <Value Original_Link="RemoterSA" Path="" Text="RemoterSA" UID="71ad560c-5f5e-4f02-9573-22583a992ac4" />
-  </Item>
-  <Item Key="AudioOut (DShow9)">
-    <Value Original_Link="AudioOut (DShow9)" Path="" Text="AudioOut (DShow9)" UID="" />
   </Item>
   <Item Key="Audio Links">
     <Value Original_Link="Audio Links" Path="" Text="Audio Links" UID="69767712-96d4-4dd6-860a-b6b97a7fcd2f" />
@@ -739,17 +700,11 @@
   <Item Key="Code Snippets">
     <Value Original_Link="Code Snippets" Path="" Text="Code Snippets" UID="307796da-69f5-46b0-a50b-8ae875f93b72" />
   </Item>
-  <Item Key="Vector (4d) Split">
-    <Value Original_Link="Vector (4d) Split" Path="" Text="Vector (4d) Split" UID="" />
-  </Item>
   <Item Key="texture#video-effects-TextureFX">
     <Value Original_Link="texture#video-effects-TextureFX" Path="" Text="TextureFX nodes" UID="93b2f838-bbd4-423c-81cb-09820d98537d" />
   </Item>
   <Item Key="timelinersa">
     <Value Original_Link="timelinersa" Path="" Text="this dedicated page" UID="76f3717c-5da9-4a2a-9d53-4c5b982291a6" />
-  </Item>
-  <Item Key="Keyboard (System) Global">
-    <Value Original_Link="Keyboard (System) Global" Path="" Text="Keyboard (System) Global" UID="" />
   </Item>
   <Item Key="Using vvvv">
     <Value Original_Link="Using vvvv" Path="" Text="Using vvvv" UID="76d606f7-a11d-4298-9c57-8364d3d83826" />
@@ -829,9 +784,6 @@
   <Item Key="Debugging">
     <Value Original_Link="Debugging" Path="" Text="Debugging" UID="36621302-10e7-47fe-a8d0-b609c758974d" />
   </Item>
-  <Item Key="missing-in-64bit-builds">
-    <Value Original_Link="missing-in-64bit-builds" Path="" Text="missing in 64bit builds" UID="" />
-  </Item>
   <Item Key="video-tutorials#tutorial-8-herr-inspektor">
     <Value Original_Link="video-tutorials#tutorial-8-herr-inspektor" Path="" Text="Video Tutorial" UID="09f00508-01d4-4eac-b6d3-4dace5b00d99#tutorial-8-herr-inspektor" />
   </Item>
@@ -877,10 +829,7 @@
   <Item Key="Coordinate Systems">
     <Value Original_Link="Coordinate Systems" Path="" Text="Coordinate Systems" UID="" />
   </Item>
-  <Item Key="IOBox (Value) Advanced">
-    <Value Original_Link="IOBox (Value) Advanced" Path="" Text="IOBox (Value) Advanced" UID="" />
-  </Item>
-  <Item Key="rendering-overview#aspect-ratio">
+   <Item Key="rendering-overview#aspect-ratio">
     <Value Original_Link="rendering-overview#aspect-ratio" Path="" Text="Aspect Ratio" UID="" />
   </Item>
   <Item Key="texture-transformation">
@@ -894,9 +843,6 @@
   </Item>
   <Item Key="ioboxes#color">
     <Value Original_Link="ioboxes#color" Path="" Text="Color IOBoxes" UID="" />
-  </Item>
-  <Item Key="axisangle-(quaternion-set):">
-    <Value Original_Link="axisangle-(quaternion-set):" Path="" Text="axisangle-(quaternion-set):" UID="" />
   </Item>
   <Item Key="Clock Sources">
     <Value Original_Link="Clock Sources" Path="" Text="Clock Sources" UID="" />
@@ -1086,9 +1032,6 @@
   </Item>
   <Item Key="About the Addonpack">
     <Value Original_Link="About the Addonpack" Path="" Text="addonpack" UID="" />
-  </Item>
-  <Item Key="HSV (Color) Split">
-    <Value Original_Link="HSV (Color) Split" Path="" Text="HSV (Color) Split" UID="" />
   </Item>
   <Item Key="books#generative-design">
     <Value Original_Link="books#generative-design" Path="" Text="'Generative Design'" UID="f8237df9-396a-42e9-bbee-3b6088c58565#generative-design" />

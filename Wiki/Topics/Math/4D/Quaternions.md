@@ -38,7 +38,7 @@ the easiest formula to set up a vvvv quaternion **q** = ( x, y, z, w) that repre
 
 **q** = ( nx * sin(phi/2), ny * sin(phi/2), nz * sin(phi/2), cos(phi/2) )  
 
-vvvv node: [axisangle-(quaternion-set):](TODO INTERNALLINK:axisangle-(quaternion-set):) or [axisangle-(quaternion-set-vector):](TODO INTERNALLINK:axisangle-(quaternion-set-vector):)  
+vvvv node: <span class="node">AxisAngle (Quaternion Set)</span> or <span class="node">AxisAngle (Quaternion Set Vector)</span>.
 
 this is a much simpler representation of a rotation than the usual 3x3 matrices. rotate a vector by a quaternion and the combination of many rotations can be computed with quaternions also faster than with 3x3 matrices. thats why they are used in 3-d computer graphics.  
 
