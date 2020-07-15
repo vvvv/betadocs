@@ -50,7 +50,7 @@ Bestandteile des Grundaufbaus (ohne Details)
 --- Markierungen, die dem Betrachter angeben, wo der begehbare Bereich endet, und wo die Sensorpositionen sind.  
 
 
-[http://vvvv.org/tiki-download_file.php?fileId=793]typeandspace03_05.swf (60.13 Kb)</a>  
+[typeandspace03_05.swf (60.13 Kb)](http://vvvv.org/tiki-download_file.php?fileId=793)
 
 also see:aufbau-von-oben02.swf  
 
@@ -73,4 +73,4 @@ Unabhängig davon, welches Konzept zum Zuge kommt, wird das Bild, das die Instal
 
 Die durch die unklaren Raumverhältnisse erzeugte Irritation soll Spannung erzeugen, die über einen rein funktionalen oder ästhetischen Ansatz hinausgeht. Am Ende steht ein raumtypografisches Erlebnis zum Angebot, durch das dann wieder neue Ideen generiert werden können.  
 Der funktionelle Ansatz des gesamten Projektes ist letztlich die Lesbarkeit von Typografie im Raum. Die Anwendungsmöglichkeiten im Alltagsleben wären vielfältig.  
-
+

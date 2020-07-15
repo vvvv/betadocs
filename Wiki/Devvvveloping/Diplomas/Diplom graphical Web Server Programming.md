@@ -66,7 +66,7 @@ Subthemen als einzelne Knoten
   * <a href="http://www.howtodothings.com/ViewArticle.aspx?Article=276" class="extURL" target="_blank">HTDTID -Web Services - Made Simple in Delphi 6 Part II</a>  
 
 * Delphi & XML  
-  * [http://community.borland.com/article/0,1410,27106,00.html/|Using XML and XSLT with Delphi 5 and WebBroker]  
+  * <a href="http://community.borland.com/article/0,1410,27106,00.html/" class="extURL" target="_blank">Using XML and XSLT with Delphi 5 and WebBroker</a>  
   * <a href="http://www.destructor.de/xmlparser/download.htm" class="extURL" target="_blank">Free XML Parser for Delphi</a>  
   * <a href="http://www.philo.de/xml/dom/index_de.shtml" class="extURL" target="_blank">Extended Document Object Model v.3.1.22</a>  
   * <a href="http://www.firstobject.com/dn_markdelphi.htm" class="extURL" target="_blank">CMarkup for Delphi</a>  

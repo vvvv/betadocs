@@ -45,7 +45,8 @@ Ein denkbarer**Ort für die Installation**wäre das Dach des Auswärtigen Amtes 
 *******Die Kugel betritt das Haus des Quadrates "von oben", eine Richtung, die für das Quadrat nicht existiert.  
 
 
-**Die zugehörigen Dateien liegen in:**[http://vvvv.org/tiki-list_file_gallery.php?galleryId=24]  
+**Die zugehörigen Dateien liegen in:**
+[http://vvvv.org/tiki-list_file_gallery.php?galleryId=24]  
 
 
 ******__  

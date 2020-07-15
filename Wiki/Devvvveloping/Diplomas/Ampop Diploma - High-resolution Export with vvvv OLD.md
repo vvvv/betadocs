@@ -14,7 +14,9 @@ Furthermore, there exists a short english abstract and a longer german version:
 
 #  Design studies 
 For printer friendlyness, I would prefer the book to be A4, but in landscape format as this is a typical format for a manual.  
-[http://vvvv.org/tiki-download_file.php?fileId=396]First Text Style tests for a book 21x21cm as pdf (30.68 Kb)</a> **NEW**  
+[First Text Style tests for a book 21x21cm as pdf (30.68 Kb)](http://vvvv.org/tiki-download_file.php?fileId=396)
+
+**NEW**  
 
 And some first sketches of a poosible Look:  
 

@@ -5,7 +5,7 @@ uid: ba05fafc-2e9d-4bc0-a042-9913265285cd
 # Draw
 ![](~/img/drawblend_2007_1.04 "")  
 
-[http://vvvv.org/tiki-download_file.php?fileId=1130]draw.v4p (27.69 Kb)</a>  
+[draw.v4p (27.69 Kb)](http://vvvv.org/tiki-download_file.php?fileId=1130)
 
 
 there are some topics to cover. i will try to do that soon.  

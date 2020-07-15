@@ -19,22 +19,22 @@ Students are receiving an about two day basic hardcore vvvv treatment. The remai
 Below you find a listing of topics we've been discussing and some of the patches that emerged thereby. Fairly undocumented, but if you are looking for an intro to a newbie you should have a look at the [Documentation](xref:fbc5a2de-2925-4242-90d1-1fa3b080140b) anyway.  
 
 ## Day One
-* Simple Spreads Sample: [http://vvvv.org/tiki-download_file.php?fileId=425]SpreadSelector.v4p (7.79 Kb)</a>  
-* Filtering and Morphing Spreads: [http://vvvv.org/tiki-download_file.php?fileId=429]TypoDeformer.v4p (8.29 Kb)</a>  
-* Transformation Hierarchies: [http://vvvv.org/tiki-download_file.php?fileId=427]SolarSystem.v4p (14.40 Kb)</a>   
+* Simple Spreads Sample: [SpreadSelector.v4p (7.79 Kb)](http://vvvv.org/tiki-download_file.php?fileId=425)  
+* Filtering and Morphing Spreads: [TypoDeformer.v4p (8.29 Kb)](http://vvvv.org/tiki-download_file.php?fileId=429)  
+* Transformation Hierarchies: [SolarSystem.v4p (14.40 Kb)](http://vvvv.org/tiki-download_file.php?fileId=427)   
 * Refactoring patches, IOBoxes as pins  
-* <span class="node">FileTexture (EX9.Texture)</span>, <span class="node">DynamicTexture (EX9.Texture Value)</span>, <span class="node">ScreenShot (EX9.Texture)</span>, <span class="node">GDITexture (EX9.Texture)</span>,  <span class="node">DX9Texture (EX9.Texture)</span>: [http://vvvv.org/tiki-download_file.php?fileId=426]ScreenShot.v4p (3.43 Kb)</a>  
-* Texture Transformations: [http://vvvv.org/tiki-download_file.php?fileId=428]TextureTransformer.v4p (9.14 Kb)</a>  
+* <span class="node">FileTexture (EX9.Texture)</span>, <span class="node">DynamicTexture (EX9.Texture Value)</span>, <span class="node">ScreenShot (EX9.Texture)</span>, <span class="node">GDITexture (EX9.Texture)</span>,  <span class="node">DX9Texture (EX9.Texture)</span>: (http://vvvv.org/tiki-download_file.php?fileId=426)ScreenShot.v4p (3.43 Kb)</a>  
+* Texture Transformations: [TextureTransformer.v4p (9.14 Kb)](http://vvvv.org/tiki-download_file.php?fileId=428)
 
 ## Day Two
-* Shade your Teapot: [http://vvvv.org/tiki-download_file.php?fileId=430]Teapot.zip (5.46 Kb)</a>  
-* Animating a Camera: [http://vvvv.org/tiki-download_file.php?fileId=431]RandomCamera.zip (6.27 Kb)</a>  
+* Shade your Teapot: [Teapot.zip (5.46 Kb)](http://vvvv.org/tiki-download_file.php?fileId=430)
+* Animating a Camera: [RandomCamera.zip (6.27 Kb)](http://vvvv.org/tiki-download_file.php?fileId=431)  
 * Prototyping a Nomad:   
 --file missing--  
-[http://vvvv.org/tiki-download_file.php?fileId=432]Prototype.zip (43.19 Kb)</a>  
+[Prototype.zip (43.19 Kb)](http://vvvv.org/tiki-download_file.php?fileId=432)  
 
 ## Day Three
-* Spreading the Nomad: [http://vvvv.org/tiki-download_file.php?fileId=437]day_threeee.zip (45.15 Kb)</a>  
+* Spreading the Nomad: [day_threeee.zip (45.15 Kb)](http://vvvv.org/tiki-download_file.php?fileId=437)  
 Additionally mounting a virtual camera in front of the nomads always facing their front. The resulting view is what the projector in the nomad will finally project into the cone. A nomad thus becomes a looking-glass into a "parallel world" which, besides the nomads will eventually host icons representing the all the diploma projects videos.  
 
 ## Day Four

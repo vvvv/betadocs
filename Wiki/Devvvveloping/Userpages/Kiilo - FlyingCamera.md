@@ -17,21 +17,21 @@ i think having a flying camera would be fine in vvvv. It should have he followin
 
 # try & errors
 i build the following patch to get i touch with quaternions ..  
-* v0.2 [http://vvvv.org/tiki-download_file.php?fileId=202]quaternion02.zip (4.12 Kb)</a>  
+* v0.2 [quaternion02.zip (4.12 Kb)](http://vvvv.org/tiki-download_file.php?fileId=202)  
 
 object axis rotation using quaternions *by <span class="user"><a href="https://vvvv.org/users/tonfilm" class="extURL" target="_blank">tonfilm</a></span>*:  
-* [http://vvvv.org/tiki-download_file.php?fileId=203]ObjectAxisAlgorithm2.v4p (41.92 Kb)</a>  
+* [ObjectAxisAlgorithm2.v4p (41.92 Kb)](http://vvvv.org/tiki-download_file.php?fileId=203)</a>  
 
 ![](~/img/objectaxisalgorithm0.jpg "")  
 
 FlyingCam module by [UserPagetofilm|tf] + [UserPagekiilo|kiilo]  
-* [http://vvvv.org/tiki-download_file.php?fileId=204]flyingCam.zip (4.89 Kb)</a>  
+* [flyingCam.zip (4.89 Kb)](http://vvvv.org/tiki-download_file.php?fileId=204)</a>  
 simple Gamepad Version by [Userpagephl|phl]  
-* [http://vvvv.org/tiki-download_file.php?fileId=945]FlyingGamepadCam.v4p (53.84 Kb)</a>  
+* [FlyingGamepadCam.v4p (53.84 Kb)](http://vvvv.org/tiki-download_file.php?fileId=945)</a>  
 
 ![](~/img/flyingcam.jpg "")  
 # todo
 * joystick  
 * find a different reset point not (0, 0, 0)  
 * store + recall of intressting points  
-
+
