@@ -11,10 +11,9 @@ how we did it..
 [Port Server](TODO INTERNALLINK:Devices-Moxa NPort 5610)  
 [Video Camera](TODO INTERNALLINK:Devices-SonyFCBIX45AP)  
 [Video Switcher](TODO INTERNALLINK:Devices-KramerVS-88V)  
-[Servos with Tierchen](TODO INTERNALLINK:Devices-PololuServoboard)  
-[Motors](TODO INTERNALLINK:Devices-FaulhaberMCDC2805)  
-[DMX Interface and Dimmers](TODO INTERNALLINK:Devices-DMX4ALL)  
-[Behringer Fader Box](TODO INTERNALLINK:Devices-Behringer)  
+Servos with Tierchen: PololuServoboard  
+Motors: FaulhaberMCDC2805  
+[DMX Interface and Dimmers](TODO INTERNALLINK:Devices-DMX4ALL)
 [OSCGlue to connect Ableton Live with VVVV](TODO INTERNALLINK:OSCGlue)  
 
 

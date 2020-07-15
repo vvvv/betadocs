@@ -37,8 +37,7 @@ Subthemen als einzelne Knoten
 * Umrechnung von Bildern in Binärdaten und zurück  
 * Generierung von PDFs  
 * XML-RPC  
-* XLST  
-* [Unicode](TODO INTERNALLINK:Unicode)  
+* XLST 
 
 ## Quellen
 

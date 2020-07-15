@@ -1,0 +1,5 @@
+{img src = "http://www.kirchersociety.org/blog/wp-content/uploads/2006/02/catpiano.jpg" thumb=400}
+{img src = "translearnstageunderconstruction1.jpg" thumb=355} {img src = "translearnstageunderconstruction2.jpg" thumb=355}
+
+^The Schema^
+{img src = "schema.gif" }

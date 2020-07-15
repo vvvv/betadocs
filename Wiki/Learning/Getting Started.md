@@ -70,7 +70,6 @@ See the [Using Addons Guide](TODO INTERNALLINK:using-addons) on how to install t
 * Subscribe to the <a href="https://www.youtube.com/channel/UCu-xqv-TLwv6L0An7MJJA5A" class="extURL" target="_blank">vvvvTv youtube channel</a> for tutorials, howtos and more  
 * Join the <a href="https://vimeo.com/groups/vvvv/" class="extURL" target="_blank">vimeo group vvvv</a> for a stream of projects by fellow patchers  
 
-* Help us [improve the documentation](TODO INTERNALLINK:about-the-documentation)  
 * Join or start a <a href="https://www.meetup.com/de-DE/find/?allMeetups=false&keywords=vvvv&radius=Infinity" class="extURL" target="_blank">vvvv meetup</a>  
 * Meet real people at a <a href="https://nodeforum.org/activities/node-forum/" class="extURL" target="_blank">NODE festival</a> or the <a href="http://link-summercamp.de/" class="extURL" target="_blank">LINK summer camp</a>   
 

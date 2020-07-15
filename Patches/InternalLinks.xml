@@ -37,6 +37,9 @@
   <Item Key="Conventions.CodingStyle">
     <Value Original_Link="Conventions.CodingStyle" Path="" Text="Conventions.CodingStyle" UID="dfa9f04a-bfbb-41b9-b475-36031d9085ed" />
   </Item>
+  <Item Key="ampop_diploma_abstract">
+    <Value Original_Link="ampop_diploma_abstract" Path="" Text="vvvv Manual Abstract (english) " UID="2e7508e9-8fa7-45d9-8bd4-4394e45c119b" />
+  </Item>
   <Item Key="topics">
     <Value Original_Link="topics" Path="" Text="Topics" UID="706e5586-9621-4eb2-ae86-7f4357e11555" />
   </Item>
@@ -87,6 +90,9 @@
   </Item>
   <Item Key="the-gui#kommunikator">
     <Value Original_Link="the-gui#kommunikator" Path="" Text="the Kommunikator" UID="1765bb2b-f698-405a-b207-a995995fb52b" />
+  </Item>
+  <Item Key="Devices-SonyFCBIX45AP">
+    <Value Original_Link="Devices-SonyFCBIX45AP" Path="" Text="Video Camera" UID="6a37d344-3bf8-4592-82ee-c7802fd0c07b" />
   </Item>
   <Item Key="hardware#arduino">
     <Value Original_Link="hardware#arduino" Path="" Text="vvvv and Arduino" UID="8c8ad666-b5b1-4fb6-a0e1-5dccccdbf9f6" />
@@ -151,6 +157,9 @@
   <Item Key="texture#html-and-flash">
     <Value Original_Link="texture#html-and-flash" Path="" Text="HTML &amp; Flash" UID="bd2ccd00-3f5b-4b35-b93b-52248b6b99d4" />
   </Item>
+  <Item Key="msberger.Modules.Devices.DMX4allUSBNANO">
+    <Value Original_Link="msberger.Modules.Devices.DMX4allUSBNANO" Path="" Text="DMX USB-interface DMX4ALL NanoDMX " UID="9bb31572-2835-44aa-aafd-0cbc6a194cf8" />
+  </Item>
   <Item Key="programming-concepts">
     <Value Original_Link="programming-concepts" Path="" Text="Programming Concepts" UID="87d944e5-aeae-451e-839d-58932488ed6e" />
   </Item>
@@ -180,6 +189,9 @@
   </Item>
   <Item Key="particles#dx11-particle-systems">
     <Value Original_Link="particles#dx11-particle-systems" Path="" Text="DX11 Particle Systems" UID="7e7c8e2f-29e2-4327-98ac-ce5b18583a6e" />
+  </Item>
+  <Item Key="ampop_diploma_first_thoughts">
+    <Value Original_Link="ampop_diploma_first_thoughts" Path="" Text="Read it here" UID="6a2c4675-0f16-425e-9b07-b687ce9cc2d4" />
   </Item>
   <Item Key="capturing-output">
     <Value Original_Link="capturing-output" Path="" Text="Capturing output" UID="9a69e819-8ea6-4c5d-807e-b283863abc4c" />
@@ -280,6 +292,9 @@
   <Item Key="howto-rs232">
     <Value Original_Link="howto-rs232" Path="" Text="How To RS232" UID="ea70034f-a39c-4ecb-910d-07a93956b6c2" />
   </Item>
+  <Item Key="Translearn06Stage">
+    <Value Original_Link="Translearn06Stage" Path="" Text="TheStage" UID="db425cb0-63ad-4dd1-8346-4e285e5ba47e" />
+  </Item>
   <Item Key="COLLADA#Meshes in COLLADA and vvvv">
     <Value Original_Link="COLLADA#Meshes in COLLADA and vvvv" Path="" Text="Meshes" UID="c9f8e059-dcf9-4712-a877-a200b17d7f76#Meshes-in-COLLADA-and-vvvv" />
   </Item>
@@ -306,6 +321,9 @@
   </Item>
   <Item Key="Effect Compiler Changes">
     <Value Original_Link="Effect Compiler Changes" Path="" Text="Effect Compiler Changes" UID="f86bc304-0644-46b2-bf51-e265e840babf" />
+  </Item>
+  <Item Key="ampop_diploma_design studies">
+    <Value Original_Link="ampop_diploma_design studies" Path="" Text="View bigger images" UID="6dfbdd72-bb7a-4f5d-9aa3-74d8b5f5209b" />
   </Item>
   <Item Key="IOBoxes#descriptive-name">
     <Value Original_Link="IOBoxes#descriptive-name" Path="" Text="Descriptive Name" UID="86693dba-d049-4027-874d-d53f0437ad66#descriptive-name" />
@@ -427,8 +445,8 @@
   <Item Key="codeeditor-shortcuts">
     <Value Original_Link="codeeditor-shortcuts" Path="" Text="CodeEditor shortcuts" UID="001a81bb-ce39-47cf-8de4-780df86b4ba5" />
   </Item>
-  <Item Key="Unicode">
-    <Value Original_Link="Unicode" Path="" Text="Unicode" UID="" />
+  <Item Key="msberger.Modules.Devices.BarcoImageProHD">
+    <Value Original_Link="msberger.Modules.Devices.BarcoImageProHD" Path="" Text="BarcoImageProHD" UID="721ecc9e-b41e-4fb7-9a4e-0b2deff06320" />
   </Item>
   <Item Key="graphicalautomata">
     <Value Original_Link="graphicalautomata" Path="" Text="Graphic Automata" UID="250959b9-c2b3-420e-ad36-0b7c6b784fb6" />
@@ -448,10 +466,7 @@
   <Item Key="shader#custom-effects">
     <Value Original_Link="shader#custom-effects" Path="" Text="Shader" UID="4ae45235-b247-4d0d-8c5b-9d0688f99b3f#custom-effects" />
   </Item>
-  <Item Key="about-the-documentation">
-    <Value Original_Link="about-the-documentation" Path="" Text="improve the documentation" UID="" />
-  </Item>
-  <Item Key="video">
+   <Item Key="video">
     <Value Original_Link="video" Path="" Text="video" UID="7712d732-0b2e-4a27-bfb3-ef02f85f0794" />
   </Item>
   <Item Key="text-rendering">
@@ -544,6 +559,9 @@
   <Item Key="subpatches#evaluation">
     <Value Original_Link="subpatches#evaluation" Path="" Text="control evaluation" UID="b66f153a-f7c3-4867-a8c9-bce69861d759#evaluation" />
   </Item>
+  <Item Key="OSCGlue">
+    <Value Original_Link="OSCGlue" Path="" Text="OSCGlue to connect Ableton Live with VVVV" UID="1556ed54-663e-49a6-bef7-0d068eb961e6" />
+  </Item>
   <Item Key="3d-vector-mathematics#dot-product">
     <Value Original_Link="3d-vector-mathematics#dot-product" Path="" Text="dot product" UID="533cd233-704f-4388-b292-a3a15a356bf8#dot-product" />
   </Item>
@@ -552,6 +570,9 @@
   </Item>
   <Item Key="Effects">
     <Value Original_Link="Effects" Path="" Text="Effects" UID="7aa93595-ec96-4758-8076-0e00e4cf8bf6" />
+  </Item>
+  <Item Key="ampop_diploma_part1">
+    <Value Original_Link="ampop_diploma_part1" Path="" Text="All about the Manual Part (Part #1) " UID="082d8e0a-3f65-4afd-bcd2-77ba762f9500" />
   </Item>
   <Item Key="protocols#dmx">
     <Value Original_Link="protocols#dmx" Path="" Text="DMX / Art-Net" UID="268ce39d-8d40-41ed-bc01-e9e0a1e2587b" />
@@ -579,9 +600,6 @@
   </Item>
   <Item Key="quartz-composer-for-vvvv-users">
     <Value Original_Link="quartz-composer-for-vvvv-users" Path="" Text="Quartz Composer for vvvv users" UID="754035b5-77f5-4818-9de3-bfa7c1b185a9" />
-  </Item>
-  <Item Key="Tutorial Geometry Morphing GPU2">
-    <Value Original_Link="Tutorial Geometry Morphing GPU2" Path="" Text="advanced vertex shading" UID="" />
   </Item>
   <Item Key="Tutorial Geometry Morphing GPU1">
     <Value Original_Link="Tutorial Geometry Morphing GPU1" Path="" Text="gpu based" UID="a1af3b44-af68-4ce5-8a46-57a0561596f9" />
@@ -627,6 +645,9 @@
   </Item>
   <Item Key="ioboxes#string">
     <Value Original_Link="ioboxes#string" Path="" Text="String IOBoxes" UID="86693dba-d049-4027-874d-d53f0437ad66#string" />
+  </Item>
+  <Item Key="de.ampop_diploma_abstract">
+    <Value Original_Link="de.ampop_diploma_abstract" Path="" Text="vvvv Manual Abstract (german) " UID="c472e632-dbf0-44b3-9289-03d2b6faf35f" />
   </Item>
   <Item Key="texture#images">
     <Value Original_Link="texture#images" Path="" Text="Textures" UID="8116d432-c3f5-4918-95cd-7404e8d3312c" />
@@ -703,6 +724,9 @@
   <Item Key="geometry">
     <Value Original_Link="geometry" Path="" Text="geometry" UID="7f070901-fd09-4087-a326-9e2e084ae8d5" />
   </Item>
+  <Item Key="ampop_diploma_xml research">
+    <Value Original_Link="ampop_diploma_xml research" Path="" Text="First tests of InDesign's xml im- and export functions" UID="0e5de704-3c07-4e42-8ce8-6ab665ebccf6" />
+  </Item>
   <Item Key="EX9.Effect.Template">
     <Value Original_Link="EX9.Effect.Template" Path="" Text="EX9.Effect.Template" UID="ba63da26-1207-4876-839d-512b0c34de87" />
   </Item>
@@ -714,9 +738,6 @@
   </Item>
   <Item Key="shader#built-in-effects">
     <Value Original_Link="shader#built-in-effects" Path="" Text="Built-in effects" UID="4ae45235-b247-4d0d-8c5b-9d0688f99b3f#built-in-effects" />
-  </Item>
-  <Item Key="Version Control with Subversion">
-    <Value Original_Link="Version Control with Subversion" Path="" Text="Version Control with Subversion" UID="" />
   </Item>
   <Item Key="protocols#OSC">
     <Value Original_Link="protocols#OSC" Path="" Text="OSC" UID="5c4b731d-1e09-44ab-8bc9-8e4bae97bc75" />
@@ -865,6 +886,9 @@
   <Item Key="msberger.Modules.Devices">
     <Value Original_Link="msberger.Modules.Devices" Path="" Text="module" UID="93a5016b-ee04-4358-8a18-5060c4761131" />
   </Item>
+  <Item Key="Type and Space AK">
+    <Value Original_Link="Type and Space AK" Path="" Text="Type and Space AK" UID="b1008eb5-ba14-40a3-8fcd-f346f9f0fb52" />
+  </Item>
   <Item Key="dx11-pipeline">
     <Value Original_Link="dx11-pipeline" Path="" Text="DX11 Pipeline" UID="8a7ee1b7-c2d7-49bf-9923-72ad77a21b60" />
   </Item>
@@ -903,6 +927,9 @@
   </Item>
   <Item Key="tutorial-of-effects-and-shaders">
     <Value Original_Link="tutorial-of-effects-and-shaders" Path="" Text="Tutorial of Effects and Shaders" UID="1f40bd64-bc93-4263-98c8-50616b9f5c5c" />
+  </Item>
+  <Item Key="kalle.modules.dmx">
+    <Value Original_Link="kalle.modules.dmx" Path="" Text="kalle.Modules.DMX" UID="" />
   </Item>
   <Item Key="rendering-overview">
     <Value Original_Link="rendering-overview" Path="" Text="Rendering Overview" UID="fd599c0f-1876-459c-a28e-24616cee5542" />
@@ -975,6 +1002,9 @@
   </Item>
   <Item Key="transparency#where-drawing-order-matters...">
     <Value Original_Link="transparency#where-drawing-order-matters..." Path="" Text="Transparency and Depthbuffer" UID="2f516214-4f5a-4d2c-af84-2a3dc96dc0c4#where-drawing-order-matters..." />
+  </Item>
+  <Item Key="Devices-Moxa NPort 5610">
+    <Value Original_Link="Devices-Moxa NPort 5610" Path="" Text="Port Server" UID="befad19f-fe21-4a8c-a766-0dc2926c4ef5" />
   </Item>
   <Item Key="EX9.HLSL.Introduction">
     <Value Original_Link="EX9.HLSL.Introduction" Path="" Text="EX9.HLSL.Introduction" UID="986274a6-3432-428a-9d0a-19ce06e696ff" />
@@ -1111,6 +1141,9 @@
   <Item Key="freeframeartk tracker">
     <Value Original_Link="freeframeartk tracker" Path="" Text="ARTK+Tracker" UID="82e19d60-1c44-46ba-bb39-d79e38ca4bbb" />
   </Item>
+  <Item Key="Devices-KramerVS-88V">
+    <Value Original_Link="Devices-KramerVS-88V" Path="" Text="Video Switcher" UID="bd5dd483-0e68-4e7a-8a3e-f5cf284a2b79" />
+  </Item>
   <Item Key="protocols#osc">
     <Value Original_Link="protocols#osc" Path="" Text="OSC" UID="5c4b731d-1e09-44ab-8bc9-8e4bae97bc75" />
   </Item>
@@ -1153,6 +1186,9 @@
   <Item Key="audio-file-playback#filestream-irrklang">
     <Value Original_Link="audio-file-playback#filestream-irrklang" Path="" Text="FileStream (Irrklang)" UID="ebe5bc2b-8945-43e5-90fb-5b08c1040347#filestream-irrklang" />
   </Item>
+  <Item Key="Devices-DMX4ALL">
+    <Value Original_Link="Devices-DMX4ALL" Path="" Text="DMX Interface and Dimmers" UID="e005d101-02a4-4d9d-9d18-3f30f50586dd" />
+  </Item>
   <Item Key="strings#regular-expressions">
     <Value Original_Link="strings#regular-expressions" Path="" Text="Regular Expressions" UID="899eb389-4a32-4633-a0dd-be489220b0b3" />
   </Item>
@@ -1167,6 +1203,9 @@
   </Item>
   <Item Key="ShaderSnippets">
     <Value Original_Link="ShaderSnippets" Path="" Text="ShaderSnippets" UID="df17e4b0-784e-4d81-bcc7-bd88f50e1cb5" />
+  </Item>
+  <Item Key="Flatland PE">
+    <Value Original_Link="Flatland PE" Path="" Text="Flatland PE" UID="fad58c52-169e-4a37-9525-e6e13d8e12ad" />
   </Item>
   <Item Key="Tutorial Effects - Function Printing">
     <Value Original_Link="Tutorial Effects - Function Printing" Path="" Text="Function Printing" UID="3673bac8-2d38-4de1-8d09-e1e23109b9ad" />

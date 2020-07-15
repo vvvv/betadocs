@@ -1,0 +1,7 @@
+{img src = "manual1.gif" }
+
+
+{img src = "manual2.gif" }
+
+
+{img src = "manual3.gif" }

@@ -8,7 +8,7 @@ unser ziel im 5tägigen workshop ist der bau einer medieninstallation mittels VV
 den workshop betreuen <span class="user"><a href="https://vvvv.org/users/Joreg" class="extURL" target="_blank">Joreg</a></span> (im6/ex MESO praktikant/gerade im erasmus)  
 
 # vorab für alle
-* neuste VVVV version [downloaden](TODO INTERNALLINK:Downloads)  
+* neuste VVVV version <a href="https://vvvv.org/downloads" class="extURL" target="_blank">downloaden</a>  
 * unter [documentation](TODO INTERNALLINK:Documentation) die tutorials anschauen  
 * gedanken machen/ideen sammeln für unser inhaltliches ziel = kettenreaktion  
 
