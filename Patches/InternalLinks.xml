@@ -1,11 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <!DOCTYPE ROOT PUBLIC "" ""[]>
 <Dictionary>
+  <Item Key="software#touchdesigner">
+    <Value Original_Link="software#touchdesigner" Path="" Text="TouchDesigner" UID="89ca6060-deb6-48d0-b874-045b85bac42b" />
+  </Item>
   <Item Key="animation#timeline">
     <Value Original_Link="animation#timeline" Path="" Text="Timeline" UID="0f6c2067-f70b-4d38-a079-925b41727b60" />
   </Item>
   <Item Key="Pin Attributes">
     <Value Original_Link="Pin Attributes" Path="" Text="Pin Attributes" UID="8d9059b9-e075-4b42-91ef-7599f6879028" />
+  </Item>
+  <Item Key="Electronics Links">
+    <Value Original_Link="Electronics Links" Path="" Text="Electronics Links" UID="40d7b16c-c61f-41c1-8345-62e0b729f6a0" />
   </Item>
   <Item Key="protocols#MIDI">
     <Value Original_Link="protocols#MIDI" Path="" Text="MIDI" UID="f829d8c6-d8cd-45b9-bb96-6cb0b78345e2" />
@@ -60,6 +66,9 @@
   </Item>
   <Item Key="Audio Analysis">
     <Value Original_Link="Audio Analysis" Path="" Text="Analysis" UID="d69020a3-d624-43ec-8ad0-d0dc72632fcd" />
+  </Item>
+  <Item Key="hardware#arduino-firmata">
+    <Value Original_Link="hardware#arduino-firmata" Path="" Text="Firmata" UID="8c8ad666-b5b1-4fb6-a0e1-5dccccdbf9f6" />
   </Item>
   <Item Key="timelinersa#automata">
     <Value Original_Link="timelinersa#automata" Path="" Text="Automata" UID="76f3717c-5da9-4a2a-9d53-4c5b982291a6#automata" />
@@ -118,8 +127,14 @@
   <Item Key="plugininfo attributes">
     <Value Original_Link="plugininfo attributes" Path="" Text="plugininfo attributes" UID="29a92e37-7494-441d-93f7-36beeb1a0f2e" />
   </Item>
+  <Item Key="hardware#leap">
+    <Value Original_Link="hardware#leap" Path="" Text="Leap" UID="f6235eac-eddc-43bb-962e-cecedf4b50bd" />
+  </Item>
   <Item Key="patching-basics#locking-a-patch">
     <Value Original_Link="patching-basics#locking-a-patch" Path="" Text="locked" UID="10b82e0c-720a-48e1-91e4-d8c65d2c3be1#locking-a-patch" />
+  </Item>
+  <Item Key="hardware#relay-io-boards">
+    <Value Original_Link="hardware#relay-io-boards" Path="" Text="Relay IO Boards" UID="c5dd2dad-1e89-4c0b-bdce-5e11ef90b059" />
   </Item>
   <Item Key="commandline-parameters#allowmultiple">
     <Value Original_Link="commandline-parameters#allowmultiple" Path="" Text="multiple instances of vvvv" UID="2eb3d2a2-d4c1-4bc0-bcd8-16e48d756b16#allowmultiple" />
@@ -205,6 +220,9 @@
   <Item Key="editing-framework">
     <Value Original_Link="editing-framework" Path="" Text="Editing Framework" UID="f08a1468-aab9-4228-bb07-e69b316bcd18" />
   </Item>
+  <Item Key="files#plain-text-files">
+    <Value Original_Link="files#plain-text-files" Path="" Text="Plain Text" UID="d377780f-4761-4137-8c5c-cdf890882d74" />
+  </Item>
   <Item Key="using-addons">
     <Value Original_Link="using-addons" Path="" Text="Using Addons Guide" UID="772e8696-25d4-4d8b-a31b-db4dd1ce1f3f" />
   </Item>
@@ -274,6 +292,9 @@
   <Item Key="geometry#lines">
     <Value Original_Link="geometry#lines" Path="" Text="Lines" UID="40ddc006-227e-45c2-8d98-db1a3e73206b" />
   </Item>
+  <Item Key="protocols#dmx-art-net">
+    <Value Original_Link="protocols#dmx-art-net" Path="" Text="DMX &amp; Art-Net" UID="268ce39d-8d40-41ed-bc01-e9e0a1e2587b" />
+  </Item>
   <Item Key="Conventions.HelpPatch">
     <Value Original_Link="Conventions.HelpPatch" Path="" Text="Conventions.HelpPatch" UID="07824e2d-da59-4df0-9f49-a143dc0f7625" />
   </Item>
@@ -291,6 +312,9 @@
   </Item>
   <Item Key="Flash">
     <Value Original_Link="Flash" Path="" Text="Flash" UID="a7a623cd-a13c-4217-ad23-f3dd362a095f" />
+  </Item>
+  <Item Key="hardware#kinect">
+    <Value Original_Link="hardware#kinect" Path="" Text="Kinect" UID="be4d1a0f-7227-4494-bf83-459bab468dcf" />
   </Item>
   <Item Key="howto-rs232">
     <Value Original_Link="howto-rs232" Path="" Text="How To RS232" UID="ea70034f-a39c-4ecb-910d-07a93956b6c2" />
@@ -325,8 +349,14 @@
   <Item Key="Effect Compiler Changes">
     <Value Original_Link="Effect Compiler Changes" Path="" Text="Effect Compiler Changes" UID="f86bc304-0644-46b2-bf51-e265e840babf" />
   </Item>
+  <Item Key="software#pure-data">
+    <Value Original_Link="software#pure-data" Path="" Text="Pure Data" UID="c9afe5e8-fb47-4ce6-8fc7-618925417ed8" />
+  </Item>
   <Item Key="ampop_diploma_design studies">
     <Value Original_Link="ampop_diploma_design studies" Path="" Text="View bigger images" UID="6dfbdd72-bb7a-4f5d-9aa3-74d8b5f5209b" />
+  </Item>
+  <Item Key="hardware#motors">
+    <Value Original_Link="hardware#motors" Path="" Text="Motors" UID="44b50162-f6d7-4348-a403-ef77fff3c381" />
   </Item>
   <Item Key="IOBoxes#descriptive-name">
     <Value Original_Link="IOBoxes#descriptive-name" Path="" Text="Descriptive Name" UID="86693dba-d049-4027-874d-d53f0437ad66#configuring-ioboxes" />
@@ -342,6 +372,9 @@
   </Item>
   <Item Key="Spread-Generators">
     <Value Original_Link="Spread-Generators" Path="" Text="Spread Generators" UID="fe02ed4b-7090-486b-9a1d-95067a5671d2" />
+  </Item>
+  <Item Key="software#flash">
+    <Value Original_Link="software#flash" Path="" Text="Flash" UID="a7a623cd-a13c-4217-ad23-f3dd362a095f" />
   </Item>
   <Item Key="Boygrouping">
     <Value Original_Link="Boygrouping" Path="" Text="boygroup" UID="9d029794-1266-4e60-961f-33e6f95af7e6" />
@@ -409,6 +442,9 @@
   <Item Key="coordinate-systems">
     <Value Original_Link="coordinate-systems" Path="" Text="Coordinate Systems" UID="34eae516-0b9b-4f8a-879e-52ed652c755b" />
   </Item>
+  <Item Key="software#eyesweb">
+    <Value Original_Link="software#eyesweb" Path="" Text="EyesWeb" UID="8eeb2447-7013-4f2f-b938-b4f83893caed" />
+  </Item>
   <Item Key="video tutorials#tutorial 8 herr inspektor">
     <Value Original_Link="video tutorials#tutorial 8 herr inspektor" Path="" Text="video tutorial" UID="09f00508-01d4-4eac-b6d3-4dace5b00d99#tutorial-8-herr-inspektor" />
   </Item>
@@ -442,6 +478,9 @@
   <Item Key="codeeditor shortcuts">
     <Value Original_Link="codeeditor shortcuts" Path="" Text="codeeditor shortcuts" UID="117e3ffc-1547-4470-8c49-f966d99bc031" />
   </Item>
+  <Item Key="software#python">
+    <Value Original_Link="software#python" Path="" Text="Python" UID="43fdf4f7-a142-4281-bcf0-ef3f8f9aa484" />
+  </Item>
   <Item Key="video-hardware-links#cameras">
     <Value Original_Link="video-hardware-links#cameras" Path="" Text="List of Cameras" UID="02abbea9-3a49-401d-bd74-aa89704b87b0#cameras" />
   </Item>
@@ -454,6 +493,9 @@
   <Item Key="graphicalautomata">
     <Value Original_Link="graphicalautomata" Path="" Text="Graphic Automata" UID="250959b9-c2b3-420e-ad36-0b7c6b784fb6" />
   </Item>
+  <Item Key="software#adobe-photoshop">
+    <Value Original_Link="software#adobe-photoshop" Path="" Text="Adobe Photoshop" UID="6477d5f6-4272-4cde-8fe5-5d22dea308fc" />
+  </Item>
   <Item Key="Angles in 2D">
     <Value Original_Link="Angles in 2D" Path="" Text="Angles in 2D" UID="6cdb7263-e6b9-4adf-bb31-5a9b958d42c7" />
   </Item>
@@ -465,6 +507,9 @@
   </Item>
   <Item Key="ex9-rendering">
     <Value Original_Link="ex9-rendering" Path="" Text="ex9-rendering" UID="fd599c0f-1876-459c-a28e-24616cee5542" />
+  </Item>
+  <Item Key="hardware#odd-hardware">
+    <Value Original_Link="hardware#odd-hardware" Path="" Text="Odd Hardware" UID="fe76f927-48c4-40d4-be9e-ca7df6ca224d" />
   </Item>
   <Item Key="shader#custom-effects">
     <Value Original_Link="shader#custom-effects" Path="" Text="Shader" UID="4ae45235-b247-4d0d-8c5b-9d0688f99b3f#custom-effects" />
@@ -489,6 +534,9 @@
   </Item>
   <Item Key="The GUI">
     <Value Original_Link="The GUI" Path="" Text="The User Interface" UID="f63e83e8-88d2-4eeb-818f-5bfed4060a77" />
+  </Item>
+  <Item Key="software#ableton-live">
+    <Value Original_Link="software#ableton-live" Path="" Text="Ableton Live" UID="1556ed54-663e-49a6-bef7-0d068eb961e6" />
   </Item>
   <Item Key="diplom-graphical-web-server-programming">
     <Value Original_Link="diplom-graphical-web-server-programming" Path="" Text="Graphical Web Server Programming with vvvv" UID="ea8efa0f-acbf-419f-83db-e54abdd66613" />
@@ -583,6 +631,9 @@
   <Item Key="protocols#dmx">
     <Value Original_Link="protocols#dmx" Path="" Text="DMX / Art-Net" UID="268ce39d-8d40-41ed-bc01-e9e0a1e2587b" />
   </Item>
+  <Item Key="protocols#zeromq">
+    <Value Original_Link="protocols#zeromq" Path="" Text="ZeroMQ" UID="072b7a1d-46c7-4195-803e-1cbf52932790" />
+  </Item>
   <Item Key="the gui#Kommunikator">
     <Value Original_Link="the gui#Kommunikator" Path="" Text="Kommunikator" UID="1765bb2b-f698-405a-b207-a995995fb52b" />
   </Item>
@@ -616,6 +667,9 @@
   <Item Key="Skeleton Animation Nodes Tutorial">
     <Value Original_Link="Skeleton Animation Nodes Tutorial" Path="" Text="a previous tutorial" UID="4c4a36ab-7a01-45dc-a4f9-9ed88c319918" />
   </Item>
+  <Item Key="hardware#vr-devices">
+    <Value Original_Link="hardware#vr-devices" Path="" Text="VR Devices" UID="c15aa274-012d-4387-9e1e-180baa3ae4d4" />
+  </Item>
   <Item Key="shader#built-in">
     <Value Original_Link="shader#built-in" Path="" Text="Built-in effects" UID="4ae45235-b247-4d0d-8c5b-9d0688f99b3f#built-in-effects" />
   </Item>
@@ -646,6 +700,9 @@
   <Item Key="raumstaben">
     <Value Original_Link="raumstaben" Path="" Text="Raumstaben" UID="ada14a87-2d6e-4998-ac1d-acd823defc9c" />
   </Item>
+  <Item Key="hardware#graphics-tablets">
+    <Value Original_Link="hardware#graphics-tablets" Path="" Text="Graphics tablets" UID="d179d3ab-5d93-4627-afa4-23385ad46cbb" />
+  </Item>
   <Item Key="logic">
     <Value Original_Link="logic" Path="" Text="Logic" UID="12c13306-f4f1-49f6-84b0-f7808f4214e6" />
   </Item>
@@ -672,6 +729,9 @@
   </Item>
   <Item Key="node08.workshop.VVVVBeginners">
     <Value Original_Link="node08.workshop.VVVVBeginners" Path="" Text="node08.workshop.VVVVBeginners" UID="c518462e-bca3-48d5-98fd-2113adf5789e" />
+  </Item>
+  <Item Key="software#rsh-remote-shell">
+    <Value Original_Link="software#rsh-remote-shell" Path="" Text="RSH" UID="cfce21fd-7439-4ca5-b2b9-d601dfae8bd6" />
   </Item>
   <Item Key="skinningwithskeletonnodes">
     <Value Original_Link="skinningwithskeletonnodes" Path="" Text="Skinning with Skeleton Nodes" UID="435355ec-58d2-4381-8e1f-a2b5821cb18e" />
@@ -702,6 +762,9 @@
   </Item>
   <Item Key="the-gui#tty-renderer">
     <Value Original_Link="the-gui#tty-renderer" Path="" Text="TTY Renderer" UID="e2fe8b35-85de-47a9-a953-2621254e9641" />
+  </Item>
+  <Item Key="software#processing">
+    <Value Original_Link="software#processing" Path="" Text="Processing" UID="0c2c0f78-9cf7-49d0-b7da-6b40afa4208e" />
   </Item>
   <Item Key="dynamic-plugins">
     <Value Original_Link="dynamic-plugins" Path="" Text="Dynamic Plugins" UID="dc107197-be10-4608-90ee-e5a8f856c146" />
@@ -784,6 +847,9 @@
   <Item Key="Video File Playback">
     <Value Original_Link="Video File Playback" Path="" Text="Playback" UID="0eb075e3-f550-4d47-a2d8-69edd2fcb0ce" />
   </Item>
+  <Item Key="hardware#rs232">
+    <Value Original_Link="hardware#rs232" Path="" Text="RS232" UID="ea70034f-a39c-4ecb-910d-07a93956b6c2" />
+  </Item>
   <Item Key="hid-nodes">
     <Value Original_Link="hid-nodes" Path="" Text="wiki-page on the HID nodes" UID="5ac7763b-ae6b-48dc-b59b-85e1a601b1e8" />
   </Item>
@@ -802,6 +868,9 @@
   <Item Key="workshop_hfg_schwaebisch_gmuend_2005">
     <Value Original_Link="workshop_hfg_schwaebisch_gmuend_2005" Path="" Text="HFG Schwäbisch Gmünd" UID="fca22924-08f6-484b-b838-731d0e7fc9d4" />
   </Item>
+  <Item Key="protocols#midi">
+    <Value Original_Link="protocols#midi" Path="" Text="MIDI" UID="f829d8c6-d8cd-45b9-bb96-6cb0b78345e2" />
+  </Item>
   <Item Key="Diploma.Timeline">
     <Value Original_Link="Diploma.Timeline" Path="" Text="Diploma.Timeline" UID="a948ee83-a7af-4b2a-b77f-818602177768" />
   </Item>
@@ -817,6 +886,9 @@
   <Item Key="Plugins">
     <Value Original_Link="Plugins" Path="" Text="Plugins" UID="766d8ac2-5145-417d-b2df-37d24e3b2b6f" />
   </Item>
+  <Item Key="software#databases">
+    <Value Original_Link="software#databases" Path="" Text="Databases" UID="b39be90a-9256-47db-906c-20ef3143a218" />
+  </Item>
   <Item Key="Tutorial Effects - Mr. Wiggle">
     <Value Original_Link="Tutorial Effects - Mr. Wiggle" Path="" Text="Mr. Wiggle" UID="fe316c6e-bcd0-44e0-bde8-9e987e56bc5c" />
   </Item>
@@ -826,11 +898,17 @@
   <Item Key="software#kontrolleur">
     <Value Original_Link="software#kontrolleur" Path="" Text="Kontrolleur" UID="c8fd4535-8b7a-4861-abf1-580520daff26" />
   </Item>
+  <Item Key="software#quartz-composer">
+    <Value Original_Link="software#quartz-composer" Path="" Text="Quartz Composer" UID="2ab6bc74-4f55-4174-902c-7ef3f3b59285" />
+  </Item>
   <Item Key="Tutorial Effects - Multiple Passes">
     <Value Original_Link="Tutorial Effects - Multiple Passes" Path="" Text="Multiple Passes" UID="39838eb2-c610-47d7-ad8f-79c7bdb2cda4" />
   </Item>
   <Item Key="using-addons#other-packs">
     <Value Original_Link="using-addons#other-packs" Path="" Text="use a Pack" UID="772e8696-25d4-4d8b-a31b-db4dd1ce1f3f#other-packs" />
+  </Item>
+  <Item Key="hardware#sensors">
+    <Value Original_Link="hardware#sensors" Path="" Text="Sensors" UID="3b3da64e-2043-4d8d-9e1d-c901343599f8" />
   </Item>
   <Item Key="HowTo prepare X Files">
     <Value Original_Link="HowTo prepare X Files" Path="" Text="How to work with XFiles" UID="3ac2ed1f-db6d-4f0f-8679-80183ab51517" />
@@ -958,6 +1036,9 @@
   <Item Key="Workshops">
     <Value Original_Link="Workshops" Path="" Text="Workshops" UID="098fcc15-96ca-4bf0-9840-58c263cc4134" />
   </Item>
+  <Item Key="software#javascript">
+    <Value Original_Link="software#javascript" Path="" Text="JavaScript" UID="dbbfcb6b-a52c-4a44-b2cb-19505c03760c" />
+  </Item>
   <Item Key="Projection Mapping Primer">
     <Value Original_Link="Projection Mapping Primer" Path="" Text="Projection Mapping Primer" UID="d09ac451-f613-447d-afaa-5a32cdc1ce8c" />
   </Item>
@@ -966,6 +1047,9 @@
   </Item>
   <Item Key="tutorial effects - neighbouring pixels">
     <Value Original_Link="tutorial effects - neighbouring pixels" Path="" Text="Neighbouring Pixels" UID="0f0f3bcc-cf68-44bb-804c-66a86c1e84ec" />
+  </Item>
+  <Item Key="software#node.js">
+    <Value Original_Link="software#node.js" Path="" Text="Node.js" UID="68912275-8de3-4926-9368-640a2e447119" />
   </Item>
   <Item Key="howto-gameport">
     <Value Original_Link="howto-gameport" Path="" Text="Gameport" UID="3a808755-23d4-4b51-9097-005c332e65f2" />
@@ -984,6 +1068,12 @@
   </Item>
   <Item Key="video-tutorials#tutorial-8-herr-inspektor">
     <Value Original_Link="video-tutorials#tutorial-8-herr-inspektor" Path="" Text="Video Tutorial" UID="09f00508-01d4-4eac-b6d3-4dace5b00d99#tutorial-8-herr-inspektor" />
+  </Item>
+  <Item Key="services#twitter">
+    <Value Original_Link="services#twitter" Path="" Text="Twitter" UID="4dfae0f5-6901-486f-ad8c-9a2d1b4e00eb" />
+  </Item>
+  <Item Key="hardware#usb-hid">
+    <Value Original_Link="hardware#usb-hid" Path="" Text="USB/HID" UID="b6b63f97-b084-414f-a298-8784c92e19fd" />
   </Item>
   <Item Key="spread-definitions#nil">
     <Value Original_Link="spread-definitions#nil" Path="" Text="NIL" UID="a2b935e8-17cd-4c26-b701-4919803792d1#nil" />
@@ -1036,6 +1126,9 @@
   <Item Key="Coordinate Systems">
     <Value Original_Link="Coordinate Systems" Path="" Text="Coordinate Systems" UID="34eae516-0b9b-4f8a-879e-52ed652c755b" />
   </Item>
+  <Item Key="hardware#wiimote">
+    <Value Original_Link="hardware#wiimote" Path="" Text="WiiMote" UID="e22a0a2a-175b-4420-97b6-5fbe11c6f075" />
+  </Item>
   <Item Key="rendering-overview#aspect-ratio">
     <Value Original_Link="rendering-overview#aspect-ratio" Path="" Text="Aspect Ratio" UID="0bbb6cce-376d-4b83-ba04-55da25127969" />
   </Item>
@@ -1053,6 +1146,9 @@
   </Item>
   <Item Key="Video Software Links">
     <Value Original_Link="Video Software Links" Path="" Text="Video Software Links" UID="dd9d3502-6b19-4cc3-8084-4153676de9d4" />
+  </Item>
+  <Item Key="software#grasshopper">
+    <Value Original_Link="software#grasshopper" Path="" Text="Grasshopper" UID="ac1be338-498e-45fa-bc14-780013ce9392" />
   </Item>
   <Item Key="Clock Sources">
     <Value Original_Link="Clock Sources" Path="" Text="Clock Sources" UID="d4c65a28-1a18-4152-8784-c941526da5aa" />
@@ -1108,6 +1204,9 @@
   <Item Key="video-tutorials#tutorial-12-helpfiles-f1-and-comments">
     <Value Original_Link="video-tutorials#tutorial-12-helpfiles-f1-and-comments" Path="" Text="video tutorial on Helppatches" UID="09f00508-01d4-4eac-b6d3-4dace5b00d99#tutorial-12-helpfiles-f1-and-comments" />
   </Item>
+  <Item Key="protocols#mqtt">
+    <Value Original_Link="protocols#mqtt" Path="" Text="MQTT" UID="06501227-e427-4ac7-bc97-99627c523ac6" />
+  </Item>
   <Item Key="devices-dmx4all">
     <Value Original_Link="devices-dmx4all" Path="" Text="DMX4ALL" UID="e005d101-02a4-4d9d-9d18-3f30f50586dd" />
   </Item>
@@ -1123,14 +1222,29 @@
   <Item Key="Translearn06">
     <Value Original_Link="Translearn06" Path="" Text="Translearn06" UID="f47af066-c611-4357-bfbd-ad2dc3519df9" />
   </Item>
+  <Item Key="software#resolume">
+    <Value Original_Link="software#resolume" Path="" Text="Resolume" UID="d2bd9043-f292-4407-add0-e7d8605a3a6a" />
+  </Item>
   <Item Key="audio">
     <Value Original_Link="audio" Path="" Text="Documentation on Audio" UID="0308fa48-014f-4c08-8618-fe047611a3c6" />
   </Item>
   <Item Key="video-tutorials#tutorial-6-move-and-color-some-text">
     <Value Original_Link="video-tutorials#tutorial-6-move-and-color-some-text" Path="" Text="more advanced" UID="09f00508-01d4-4eac-b6d3-4dace5b00d99#tutorial-6-move-and-color-some-text" />
   </Item>
+  <Item Key="hardware#multi-touch-devices">
+    <Value Original_Link="hardware#multi-touch-devices" Path="" Text="Multi-touch devices" UID="896a918a-77fa-4ebd-9145-1566db672b09" />
+  </Item>
+  <Item Key="protocols#http">
+    <Value Original_Link="protocols#http" Path="" Text="HTTP" UID="3a7c652e-6775-48e1-bce4-917f5ae738ba" />
+  </Item>
+  <Item Key="software#maxmsp">
+    <Value Original_Link="software#maxmsp" Path="" Text="Max/MSP" UID="ae8f4766-4eef-4bab-be88-418b46cd0119" />
+  </Item>
   <Item Key="geometry#geometries">
     <Value Original_Link="geometry#geometries" Path="" Text="Geometries" UID="70d18301-be73-4fa8-9c2b-70da6accba74" />
+  </Item>
+  <Item Key="hardware#lights">
+    <Value Original_Link="hardware#lights" Path="" Text="Lights" UID="d7349927-eeb9-48ec-a081-44a374291c0c" />
   </Item>
   <Item Key="Tutorial Geometry Morphing CPU">
     <Value Original_Link="Tutorial Geometry Morphing CPU" Path="" Text="the other" UID="772f4282-a62a-467a-938a-d3f69bf3f57b" />
@@ -1140,6 +1254,9 @@
   </Item>
   <Item Key="kalle.Modules">
     <Value Original_Link="kalle.Modules" Path="" Text="kalle.Modules" UID="" />
+  </Item>
+  <Item Key="files#raw-binary-files">
+    <Value Original_Link="files#raw-binary-files" Path="" Text="Raw Binary" UID="f2540563-f2a6-4e63-9a93-7467e5ab56ab" />
   </Item>
   <Item Key="protocols#hid">
     <Value Original_Link="protocols#hid" Path="" Text="HID protocol wiki-page" UID="b99bfb62-eab8-4b5f-921d-8a56d14305a3" />
@@ -1158,6 +1275,9 @@
   </Item>
   <Item Key="ampop_diploma_old">
     <Value Original_Link="ampop_diploma_old" Path="" Text="ampop_diploma_old" UID="52eabf9a-25d1-458d-b582-9029cdf1038b" />
+  </Item>
+  <Item Key="hardware#phidgets">
+    <Value Original_Link="hardware#phidgets" Path="" Text="Phidgets" UID="ffeb8063-6b1e-4ade-b3fc-082db2ed0aae" />
   </Item>
   <Item Key="freeframeartk tracker">
     <Value Original_Link="freeframeartk tracker" Path="" Text="ARTK+Tracker" UID="82e19d60-1c44-46ba-bb39-d79e38ca4bbb" />
