@@ -178,6 +178,9 @@
   <Item Key="about-addons">
     <Value Original_Link="about-addons" Path="" Text="addons" UID="e1161303-b566-408c-86f2-1cf6cb8137b7" />
   </Item>
+  <Item Key="msberger.Modules.Devices.DMX4allRS232">
+    <Value Original_Link="msberger.Modules.Devices.DMX4allRS232" Path="" Text="link" UID="1406f7c9-036f-48fc-a15d-bfd876c7d9ac" />
+  </Item>
   <Item Key="video-tutorials#tutorial-3-inlets-outlets-and-connections">
     <Value Original_Link="video-tutorials#tutorial-3-inlets-outlets-and-connections" Path="" Text="Video Tutorial" UID="09f00508-01d4-4eac-b6d3-4dace5b00d99#tutorial-3-inlets-outlets-and-connections" />
   </Item>
@@ -466,7 +469,7 @@
   <Item Key="shader#custom-effects">
     <Value Original_Link="shader#custom-effects" Path="" Text="Shader" UID="4ae45235-b247-4d0d-8c5b-9d0688f99b3f#custom-effects" />
   </Item>
-   <Item Key="video">
+  <Item Key="video">
     <Value Original_Link="video" Path="" Text="video" UID="7712d732-0b2e-4a27-bfb3-ef02f85f0794" />
   </Item>
   <Item Key="text-rendering">

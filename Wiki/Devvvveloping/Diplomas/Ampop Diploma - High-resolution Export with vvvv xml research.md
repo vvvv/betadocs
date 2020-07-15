@@ -13,7 +13,7 @@ but it's a first step. Enlarge the images and have a look!
 Download the InDesign and xml files: <a href="http://vvvv.org/tiki-download_file.php?fileId=383" class="extURL" target="_blank">xml_indesign_test.zip (1.01 Mb)</a>  
 
 #  xml file including more than one Chapter
-[View an example](TODO INTERNALLINK:ampop_diploma_xml_examples)  
+<a href="https://vvvv.org/documentation/ampopdiplomaxmlexamples" target="_blank">XML File</a> 
 
 #  1. Create a basic InDesign layout
 ![](~/img/1_untagged.jpg "")  
@@ -52,4 +52,4 @@ A very informative article about the usage of xml tags with InDesign
 [http://www.xml.com/pub/a/2004/08/04/indesign.html]   
 
 # A Tiki page as data source
-* [A page with proper formatting](TODO INTERNALLINK:ampop_diploma_xml example page) 
+* <a href="https://vvvv.org/documentation/ampopdiplomaxml-example-page" target="_blank">A page with proper formatting</a> 

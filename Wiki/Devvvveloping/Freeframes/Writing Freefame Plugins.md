@@ -48,8 +48,6 @@ Running the graph will now simply show the source video. Rightclick DSFreeFrameW
 <a href="https://sourceforge.net/projects/freeframe/" class="extURL" target="_blank">sourceforge/freeframe</a> hosts SDKs for developing plugins with Delphi, Visual Studio and XCode. In this tutorial we'll use the free C++ IDE <a href="http://www.codeblocks.org" class="extURL" target="_blank">CodeBlocks</a> to compile our code. It is lightweight, and has all we need. From the <a href="http://www.codeblocks.org/downloads/5" class="extURL" target="_blank">downloads section</a> get the version with MinGW which includes the free gcc compiler. Alternatively codeblocks will detect any already installed compilers on your system and offer you to use those.   
 
 ## 4. Version Control
-If you are not familiar with the practice of Version Control, please read a short introduction to [Version Control with Subversion](TODO INTERNALLINK:Version Control with Subversion) before continuing, as you else may miss some concepts/terms we'll be referring to below.  
-
 All code you need to develop freeframe plugins is available from public subversion repositories on <a href="http://sourceforge.net" class="extURL" target="_blank">http://sourceforge.net</a> So this is where we now get a basic template from to start coding.  
 
 ## 5. A simple Template
