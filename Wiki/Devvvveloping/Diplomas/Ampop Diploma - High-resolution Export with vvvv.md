@@ -7,12 +7,12 @@ It is the purpose of this thesis to develop a method that allows vvvv to export 
 
 The used method produces a certain number of images that have to be combined to create one big single image. This is not possible with vvvv, due to the limited export size. Because of this, another program has to be created to stitch the images together. Despite some extensive research, no suitable tool could be found for this task. A program had to be developed from scratch, it will also be discussed in this thesis. It is able to combine any number of images into one big image.  
 
-[http://diploma.ampop.net]  
+<a href="http://diploma.ampop.net" class="extURL" target="_blank">http://diploma.ampop.net</a>  
 
 #  .generativvvve.
 A book filled with generated images and a thesis (available only in german) about programmed design and art.  
 
-[http://diploma.ampop.net]  
+<a href="http://diploma.ampop.net" class="extURL" target="_blank">http://diploma.ampop.net</a>  
 
 ##  abstract: thesis
 My thesis has the intention to extend the possibilities of the designer and to increase the quality and efficiency of his work.   
@@ -21,7 +21,7 @@ A basic understanding of mathematics and the use of a programming language are r
 The well-established methods are all text-based languages and do not suit well the needs of visually thinking designers.  
 This leads to the introduction of a graphical programming environment, which satisfies all demands of generative design. In addition, the discussed environment “vvvv” offers many functions to accelerate the handling of generated designs. These prerequisites ease the use of generative design-tools, even for those who never used a programming language.  
 
-[http://diploma.ampop.net]  
+<a href="http://diploma.ampop.net" class="extURL" target="_blank">http://diploma.ampop.net</a>  
 
 ##  intoduction to the book
 Graphic design is the most prevalent form of all the arts. It fulfills personal needs as well as the needs of society and embraces both economic and ergonomic concepts; it is connected to numerous other disciplines including art, architecture and literature. Graphic design is produced in such volume that it covers most of our urban spaces and nearly every object we encounter in our everyday life. And still the designer’s profession and his way of life has not changed much since the early 1930s.  
@@ -41,7 +41,7 @@ Therefore, Rand’s modernist ideology is somehow present in all the images prin
 
 Define the rules and give orders, then leave it to the machine to carry them out before you select the best design(s) for your purpose.   
 
-[http://diploma.ampop.net]  
+<a href="http://diploma.ampop.net" class="extURL" target="_blank">http://diploma.ampop.net</a>  
 
 #  Everything changed
 I had to change a few things, so all the prior work presented is pretty outdated, but can still be found here: [ampop_diploma_old](xref:52eabf9a-25d1-458d-b582-9029cdf1038b)  

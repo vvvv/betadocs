@@ -52,7 +52,7 @@ Connect up to four 100kOhm potentiometers between one of the four potentiometer 
 There is much information on the internet, how to build your  own joysticks.   
 
 see for example:    
-[http://www.epanorama.net/documents/joystick/pc_joystick.html]  
+<a href="http://www.epanorama.net/documents/joystick/pc_joystick.html" class="extURL" target="_blank">http://www.epanorama.net/documents/joystick/pc_joystick.html</a>  
 
 The GameController (Devices Analog) node will simply give you the results in vvvv as a number between 0 and 1. it can not be simpler.   
 

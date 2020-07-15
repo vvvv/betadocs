@@ -18,6 +18,6 @@ Matrix is the future of online communication, in that respect kind of the succes
 --- endless history (even for guests if so desired)  
 --- bridges with #irc #telegram #slack #gitter and more  
 
-[http://matrix.org/]  
+<a href="http://matrix.org/" class="extURL" target="_blank">http://matrix.org/</a>  
 
 

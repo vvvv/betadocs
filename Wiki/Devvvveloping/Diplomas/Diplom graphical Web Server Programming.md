@@ -12,7 +12,7 @@ Die Diplomarbeit gibt es hier zum [tiki-download_file.php?fileId=861|download].
 ## Offizielle Beschreibung:
 Bei VVVV ( sprich Vau Vier ) handelt es sich um eine graphische Programmiersprache, deren Kernmetapher ein Datenflussgraph aus Knoten und Kanten ist, der während der Laufzeit jederzeit über ein intuitives, graphisches Interface manipuliert werden kann. VVVV wird seit einigen Jahren äußerst erfolgreich im Bereich interaktive Installationen für Ausstellungen und Messen, Audio- und Videoproduktion, Datenvisualisierung und Experimente zur parametrischen Ästhetik eingesetzt.  
 Beispiel für ein solches Multimedia-Projekt ist der Fifa-Fußball-Globus, ein Teil des begleitenden Kunst- und Kulturprogramms der Fifa WM 2006, der 3 Jahre durch die 12 WM-Städte Deutschlands tourt, um seinen Besuchern das Thema Fußballkultur auf emotionale spielerische Weise nahe zu bringen.  
-VVVV ist in Delphi entwickelt und für nichtkommerziellen Einsatz lizenzfrei nutzbar. Weitere Informationen unter [http://vvvv.org].  
+VVVV ist in Delphi entwickelt und für nichtkommerziellen Einsatz lizenzfrei nutzbar. Weitere Informationen unter <a href="http://vvvv.org" class="extURL" target="_blank">http://vvvv.org</a>.  
 
 Ziel der Diplomarbeit ist es, zu überprüfen, inwieweit sich ein graphisch manipulierbarer Datenflussgraph dazu eignet, in intuitiver Weise komplexe Web-Server-Applikationen zu entwickeln.   
 Ausgehend von den Recherche-Ergebnissen soll die Arbeit in einer exemplarischen Anwendung ihren Abschluss finden.  

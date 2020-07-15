@@ -13,7 +13,7 @@ From now on you can easily design your very complex logical state machine for th
 
 Download Qfsm for windows here:  
 
-[http://sourceforge.net/projects/qfsm/]  
+<a href="http://sourceforge.net/projects/qfsm/" class="extURL" target="_blank">http://sourceforge.net/projects/qfsm/</a>  
 
 To use it, simply create a new state machine with the following settings:  
 

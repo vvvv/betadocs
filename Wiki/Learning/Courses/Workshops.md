@@ -14,7 +14,7 @@ If you want to organize a workshop for your institute, university, ...hood too a
 * 23-24th June 08 ,BBK-Etxea, Bilbao Arte eta Kultura.  
 * 21-25th April 08 Diseño interactivo con "vvvv" Universidad de Sevilla.  
 * 7-8th February 08 Arduino-vvvv Facultad de Bellas Artes de la Universidad del Pais Vasco.  
-* 8-9th December 07, Munich, [http://www.t-u-b-e.de]  
+* 8-9th December 07, Munich, <a href="http://www.t-u-b-e.de" class="extURL" target="_blank">http://www.t-u-b-e.de</a>  
 * 13-22th November 07, <a href="http://www.transmedia.be/" class="extURL" target="_blank">transmedians</a>, brussel, page [WorkshopBrussel2](xref:4d5196cd-62a3-4d05-8ebd-e89ac5761d03)  
 * 10-11th August 07, Sheffield, "Digital Summer School 01: Emergent languages and systems for interactive and algorithmic art" [WorkshopSheffield](xref:677656fe-6417-40f5-bc5e-42da4efbf427)  
 * 13-14 12 06 <a href="http://antville.medien.uni-weimar.de/ezlab/" class="extURL" target="_blank">Bauhaus Universität Weimar</a>, Germany - 2-Day "Kick-off" Workshop  

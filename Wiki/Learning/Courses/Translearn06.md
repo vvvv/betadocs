@@ -40,10 +40,10 @@ lessons learned. open issues. what did i learn? "making of" photos
 
 
 # Service
-upload images here [http://vvvv.org/tiki-browse_gallery.php?galleryId=46]  
+upload images here <a href="http://vvvv.org/tiki-browse_gallery.php?galleryId=46" class="extURL" target="_blank">http://vvvv.org/tiki-browse_gallery.php?galleryId=46</a>  
 
 upload files here  
-[http://vvvv.org/tiki-list_file_gallery.php?galleryId=29]  
+<a href="http://vvvv.org/tiki-list_file_gallery.php?galleryId=29" class="extURL" target="_blank">http://vvvv.org/tiki-list_file_gallery.php?galleryId=29</a>  
 
 wiki quick help  
-[http://de.tikiwiki.org/tiki-index.php?page=Der+Wiki+Seiten+Editor]
+<a href="http://de.tikiwiki.org/tiki-index.php?page=Der+Wiki+Seiten+Editor" class="extURL" target="_blank">http://de.tikiwiki.org/tiki-index.php?page=Der+Wiki+Seiten+Editor</a>

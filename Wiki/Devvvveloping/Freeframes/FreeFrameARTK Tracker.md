@@ -40,9 +40,9 @@ supports 8-bit greyscale images & 16-bit RGB565 images.
 ## FAQ
 ### the provided help file doesn't show anything in the renderer?
 for the patch to show an image you have to specify a Camera File. while it is [rather](https://vvvv.org/tiki-view_forum_thread.php?comments_parentId=25101&forumId=7&highlight=artk+) difficult (but posssible)] to generate a specific camera file for your camera there is a generic one, that comes with the artoolkitplus download from:  
-[http://studierstube.icg.tu-graz.ac.at/handheld_ar/artoolkitplus.php]  
+<a href="http://studierstube.icg.tu-graz.ac.at/handheld_ar/artoolkitplus.php" class="extURL" target="_blank">http://studierstube.icg.tu-graz.ac.at/handheld_ar/artoolkitplus.php</a>  
 direkt link to download is:  
-[http://studierstube.icg.tu-graz.ac.at/handheld_ar/download/ARToolKitPlus_2.1.1.zip]  
+<a href="http://studierstube.icg.tu-graz.ac.at/handheld_ar/download/ARToolKitPlus_2.1.1.zip" class="extURL" target="_blank">http://studierstube.icg.tu-graz.ac.at/handheld_ar/download/ARToolKitPlus_2.1.1.zip</a>  
 there you find the file LogitechPro4000.dat in the  
  sample\simple\data directory. 
 

@@ -45,13 +45,13 @@ VVVV
 * [A range of DMX Modules](xref:)  
 
 WWW  
-* [http://en.wikipedia.org/wiki/Digital_Multiplex]  
-* [http://www.theater-technisch-lab.nl/infrdmxe.htm]   
-* [http://www.soundlight.de/techtips/dmx512/dmx2000a.htm] german  
-* [http://www.soundlight.de/techtips/dmx512/dmxdin.htm] DMX-512/DIN - Deutsche Norm DIN 56930-2  
+* <a href="http://en.wikipedia.org/wiki/Digital_Multiplex" class="extURL" target="_blank">http://en.wikipedia.org/wiki/Digital_Multiplex</a>  
+* <a href="http://www.theater-technisch-lab.nl/infrdmxe.htm" class="extURL" target="_blank">http://www.theater-technisch-lab.nl/infrdmxe.htm</a>   
+* <a href="http://www.soundlight.de/techtips/dmx512/dmx2000a.htm" class="extURL" target="_blank">http://www.soundlight.de/techtips/dmx512/dmx2000a.htm</a> german  
+* <a href="http://www.soundlight.de/techtips/dmx512/dmxdin.htm" class="extURL" target="_blank">http://www.soundlight.de/techtips/dmx512/dmxdin.htm</a> DMX-512/DIN - Deutsche Norm DIN 56930-2  
 
-* [http://www.dmxcontrol.org/] OpenSource DMX Software by our mate DMXCfrank  
-* [http://www.digital-enlightenment.de/usbdmx.htm] DIY USBDMX-ArtNet Interface  
+* <a href="http://www.dmxcontrol.org/" class="extURL" target="_blank">http://www.dmxcontrol.org/</a> OpenSource DMX Software by our mate DMXCfrank  
+* <a href="http://www.digital-enlightenment.de/usbdmx.htm" class="extURL" target="_blank">http://www.digital-enlightenment.de/usbdmx.htm</a> DIY USBDMX-ArtNet Interface  
 
 # About
 **<span class="user"><a href="https://vvvv.org/users/catweasel" class="extURL" target="_blank">catweasel</a></span>** started doing live visuals in 1991 with a bunch of 16mm cine projector and 35mm slide projectors, hand animating onto blank film stock.  

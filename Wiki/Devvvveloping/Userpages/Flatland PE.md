@@ -46,7 +46,7 @@ Ein denkbarer**Ort für die Installation**wäre das Dach des Auswärtigen Amtes 
 
 
 **Die zugehörigen Dateien liegen in:**
-[http://vvvv.org/tiki-list_file_gallery.php?galleryId=24]  
+<a href="http://vvvv.org/tiki-list_file_gallery.php?galleryId=24" class="extURL" target="_blank">http://vvvv.org/tiki-list_file_gallery.php?galleryId=24</a>  
 
 
 ******__  

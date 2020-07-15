@@ -45,11 +45,11 @@ Download the InDesign and xml files: <a href="http://vvvv.org/tiki-download_file
 
 #  Some Links
 Adobe Tutorials  
-[http://www.adobe.com/products/indesign/crossmedia.html#tutorials]   
-[http://www.adobe.com/products/indesign/pdfs/idsn2importxml.pdf]   
+<a href="http://www.adobe.com/products/indesign/crossmedia.html#tutorials" class="extURL" target="_blank">http://www.adobe.com/products/indesign/crossmedia.html#tutorials</a>   
+<a href="http://www.adobe.com/products/indesign/pdfs/idsn2importxml.pdf" class="extURL" target="_blank">http://www.adobe.com/products/indesign/pdfs/idsn2importxml.pdf</a>   
 
 A very informative article about the usage of xml tags with InDesign  
-[http://www.xml.com/pub/a/2004/08/04/indesign.html]   
+<a href="http://www.xml.com/pub/a/2004/08/04/indesign.html" class="extURL" target="_blank">http://www.xml.com/pub/a/2004/08/04/indesign.html</a>   
 
 # A Tiki page as data source
 * <a href="https://vvvv.org/documentation/ampopdiplomaxml-example-page" target="_blank">A page with proper formatting</a> 

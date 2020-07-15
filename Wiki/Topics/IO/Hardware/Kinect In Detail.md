@@ -42,7 +42,7 @@ If the <span class="node">Kinect (Devices Microsoft)</span>'s <span class="pin">
 
 ## OpenNI
 The OpenNI Kinect nodes are now considered legacy since the drivers are no longer being developed any further. In case you still need them, here is what you need to get them running:  
-* get <a href="http://reconstructme.net/?wpdmdl=26" class="extURL" target="_blank">OpenNI Sensor Driver Package x86 1.5.2.zip</a> as comfortably provided by [http://reconstructme.net]  
+* get <a href="http://reconstructme.net/?wpdmdl=26" class="extURL" target="_blank">OpenNI Sensor Driver Package x86 1.5.2.zip</a> as comfortably provided by <a href="http://reconstructme.net" class="extURL" target="_blank">http://reconstructme.net</a>  
 * from that .zip install: OpenNI-win32-1.5.2.23-redist.msi  
 * now depending on your hardware install either:  
   * **Asus Xtion**: SensorPrimesense-win32-5.1.0.41-redist.msi  

@@ -501,11 +501,11 @@ Initial Release
 
 # Relatet Links
 [WebBasedConfigurationInterface TheTask](xref:5e45a523-716b-4469-abd5-e0205cd36ecb)  
-[http://jquery.com/]  
-[http://jqueryui.com/]  
-[http://jqueryui.com/themeroller/]  
-[http://www.eyecon.ro/colorpicker/]  
-[http://www.microsoft.com/downloads/details.aspx?displaylang=en&FamilyID=0856eacb-4362-4b0d-8edd-aab15c5e04f5]  
+<a href="http://jquery.com/" class="extURL" target="_blank">http://jquery.com/</a>  
+<a href="http://jqueryui.com/" class="extURL" target="_blank">http://jqueryui.com/</a>  
+<a href="http://jqueryui.com/themeroller/" class="extURL" target="_blank">http://jqueryui.com/themeroller/</a>  
+<a href="http://www.eyecon.ro/colorpicker/" class="extURL" target="_blank">http://www.eyecon.ro/colorpicker/</a>  
+<a href="http://www.microsoft.com/downloads/details.aspx?displaylang=en&FamilyID=0856eacb-4362-4b0d-8edd-aab15c5e04f5" class="extURL" target="_blank">http://www.microsoft.com/downloads/details.aspx?displaylang=en&FamilyID=0856eacb-4362-4b0d-8edd-aab15c5e04f5</a>  
 
 
 
