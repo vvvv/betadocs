@@ -1,0 +1,35 @@
+---
+uid: d4c65a28-1a18-4152-8784-c941526da5aa
+---
+
+# Clock Sources
+Recent computers have different clocks running on their hardware. This would not be a problem if the clocks would run in the same speed. Well, theoretically they do, but in reality they typically have a drift of a few milliseconds per hour from each other.  
+
+If you work with animations, video, audio and external time sources it is important to know which clock is used by which node. The three main clock sources are:  
+
+
+### CPU clock
+Aka high resolution performance counter. This clock is used by vvvv's <span class="node">MainLoop (VVVV)</span> (see its help patch) and all timebased/animation nodes of vvvv, like LFO, MonoFlop, Timing, Stopwatch...  
+
+
+
+### System clock
+The date/time of your PC. Used by the nodes in the category *Astronomy* and under some circumstances by <span class="node">FileStream (DShow9)</span>.  
+
+
+
+### Soundcard clock
+Driving the digital to analog converter of the audio output. Used by all Audio related nodes, also FileStream if the video contains audio.  
+
+
+---  
+
+The good news is, that most animation nodes use the high resolution CPU counter. The bad news is, that the FileStream node usually uses the Soundcard time source. It might also depend on whether your video has an audio track or not. However, the FileStream node has a <span class="pin">Reference Clock</span> configuration pin (via Inspektor) to choose a clock source. For more information see <a href="http://msdn.microsoft.com/en-us/library/windows/desktop/dd377506%28v=vs.85%29.aspx" class="extURL" target="_blank">Reference Clocks</a>.  
+
+In order to find out about the drift between the 3 clocks on your PC run:  
+ \girlpower\Animation\Compare Clock Sources\_root_CompareClockSources.v4p
+
+
+### CPU Clock vs. Speed Step technology
+The CPU clock is only a relative timekeeper, it does not represent any meaningful value like time of day or date. vvvv captures the value at startup, divides it by the CPU frequency and calculates the time values for the animation nodes with this reference value.  
+It is important to know that speed step technology which alters the CPU frequency for power saving can lead to false readings of the CPU clock, because the CPU frequency is captured only sometimes, like on startup or creation of a node. So if the frequency changes the divisor will be wrong and a false time interval will be calculated. So make sure you turn off any speed step technology (set your system to a high performance power plan) or restart vvvv after the CPU frequency has changed. You can keep an eye on your CPU with tools like <a href="http://www.cpuid.com/softwares/cpu-z.html" class="extURL" target="_blank">CPU-Z</a>.

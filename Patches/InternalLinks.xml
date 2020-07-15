@@ -280,7 +280,7 @@
   <Item Key="patching-concepts#loops">
     <Value Original_Link="patching-concepts#loops" Path="" Text="Loops" UID="11e284ec-b6b0-47b2-bed3-f90a91e55e91#loops" />
   </Item>
-   <Item Key="Spread-Generators">
+  <Item Key="Spread-Generators">
     <Value Original_Link="Spread-Generators" Path="" Text="Spread Generators" UID="fe02ed4b-7090-486b-9a1d-95067a5671d2" />
   </Item>
   <Item Key="Boygrouping">
@@ -815,112 +815,112 @@
     <Value Original_Link="skeleton-animation-nodes-tutorial" Path="" Text="Skeleton Animation Nodes" UID="4c4a36ab-7a01-45dc-a4f9-9ed88c319918" />
   </Item>
   <Item Key="ex9.spaces">
-    <Value Original_Link="ex9.spaces" Path="" Text="ex9.spaces" UID="" />
+    <Value Original_Link="ex9.spaces" Path="" Text="ex9.spaces" UID="34eae516-0b9b-4f8a-879e-52ed652c755b" />
   </Item>
   <Item Key="transparency#where-drawing-order-matters...">
-    <Value Original_Link="transparency#where-drawing-order-matters..." Path="" Text="Transparency and Depthbuffer" UID="" />
+    <Value Original_Link="transparency#where-drawing-order-matters..." Path="" Text="Transparency and Depthbuffer" UID="2f516214-4f5a-4d2c-af84-2a3dc96dc0c4#where-drawing-order-matters..." />
   </Item>
   <Item Key="EX9.HLSL.Introduction">
-    <Value Original_Link="EX9.HLSL.Introduction" Path="" Text="EX9.HLSL.Introduction" UID="" />
+    <Value Original_Link="EX9.HLSL.Introduction" Path="" Text="EX9.HLSL.Introduction" UID="986274a6-3432-428a-9d0a-19ce06e696ff" />
   </Item>
   <Item Key="Patching Basics">
-    <Value Original_Link="Patching Basics" Path="" Text="Patching Basics" UID="" />
+    <Value Original_Link="Patching Basics" Path="" Text="Patching Basics" UID="10b82e0c-720a-48e1-91e4-d8c65d2c3be1" />
   </Item>
   <Item Key="Coordinate Systems">
-    <Value Original_Link="Coordinate Systems" Path="" Text="Coordinate Systems" UID="" />
+    <Value Original_Link="Coordinate Systems" Path="" Text="Coordinate Systems" UID="34eae516-0b9b-4f8a-879e-52ed652c755b" />
   </Item>
-   <Item Key="rendering-overview#aspect-ratio">
-    <Value Original_Link="rendering-overview#aspect-ratio" Path="" Text="Aspect Ratio" UID="" />
+  <Item Key="rendering-overview#aspect-ratio">
+    <Value Original_Link="rendering-overview#aspect-ratio" Path="" Text="Aspect Ratio" UID="0bbb6cce-376d-4b83-ba04-55da25127969" />
   </Item>
   <Item Key="texture-transformation">
-    <Value Original_Link="texture-transformation" Path="" Text="Texture Transformation" UID="" />
+    <Value Original_Link="texture-transformation" Path="" Text="Texture Transformation" UID="885fd223-4131-4564-ad86-0206c38aaa81" />
   </Item>
   <Item Key="patching-basics#link">
-    <Value Original_Link="patching-basics#link" Path="" Text="link" UID="" />
+    <Value Original_Link="patching-basics#link" Path="" Text="link" UID="10b82e0c-720a-48e1-91e4-d8c65d2c3be1#link" />
   </Item>
   <Item Key="conventions.nodeandpinnaming">
-    <Value Original_Link="conventions.nodeandpinnaming" Path="" Text="NodeAndPinNaming" UID="" />
+    <Value Original_Link="conventions.nodeandpinnaming" Path="" Text="NodeAndPinNaming" UID="db8592a2-03c3-4e8c-a540-d11df5e83078" />
   </Item>
   <Item Key="ioboxes#color">
-    <Value Original_Link="ioboxes#color" Path="" Text="Color IOBoxes" UID="" />
+    <Value Original_Link="ioboxes#color" Path="" Text="Color IOBoxes" UID="86693dba-d049-4027-874d-d53f0437ad66#color" />
   </Item>
   <Item Key="Clock Sources">
-    <Value Original_Link="Clock Sources" Path="" Text="Clock Sources" UID="" />
+    <Value Original_Link="Clock Sources" Path="" Text="Clock Sources" UID="d4c65a28-1a18-4152-8784-c941526da5aa" />
   </Item>
   <Item Key="the-gui#project-explorer">
-    <Value Original_Link="the-gui#project-explorer" Path="" Text="Project Explorer" UID="" />
+    <Value Original_Link="the-gui#project-explorer" Path="" Text="Project Explorer" UID="721e9e4b-dec5-4786-878e-3efc4f09c5e7" />
   </Item>
   <Item Key="SVG">
-    <Value Original_Link="SVG" Path="" Text="SVG" UID="" />
+    <Value Original_Link="SVG" Path="" Text="SVG" UID="2600b4fc-ebee-492b-a395-bc3c93af2785" />
   </Item>
   <Item Key="CodeEditor Shortcuts">
-    <Value Original_Link="CodeEditor Shortcuts" Path="" Text="CodeEditor Shortcuts" UID="" />
+    <Value Original_Link="CodeEditor Shortcuts" Path="" Text="CodeEditor Shortcuts" UID="117e3ffc-1547-4470-8c49-f966d99bc031" />
   </Item>
   <Item Key="roadmap">
-    <Value Original_Link="roadmap" Path="" Text="roadmap" UID="" />
+    <Value Original_Link="roadmap" Path="" Text="roadmap" UID="739fa4ab-925f-4379-9aea-857f76cef1f6" />
   </Item>
   <Item Key="transparency">
-    <Value Original_Link="transparency" Path="" Text="Transparency and Depthbuffer" UID="" />
+    <Value Original_Link="transparency" Path="" Text="Transparency and Depthbuffer" UID="2f516214-4f5a-4d2c-af84-2a3dc96dc0c4" />
   </Item>
   <Item Key="westprojects">
-    <Value Original_Link="westprojects" Path="" Text="Hardware-projects" UID="" />
+    <Value Original_Link="westprojects" Path="" Text="Hardware-projects" UID="b0afd550-461a-48ca-9749-c37cad135695" />
   </Item>
   <Item Key="tutorial effects - texture coordinates">
-    <Value Original_Link="tutorial effects - texture coordinates" Path="" Text="texture coordinates" UID="" />
+    <Value Original_Link="tutorial effects - texture coordinates" Path="" Text="texture coordinates" UID="c201a678-d827-4b21-92b3-432203d15dd7" />
   </Item>
   <Item Key="About Addons">
-    <Value Original_Link="About Addons" Path="" Text="addons" UID="" />
+    <Value Original_Link="About Addons" Path="" Text="addons" UID="e1161303-b566-408c-86f2-1cf6cb8137b7" />
   </Item>
   <Item Key="animation#timebased-animation">
-    <Value Original_Link="animation#timebased-animation" Path="" Text="Time-based Animation" UID="" />
+    <Value Original_Link="animation#timebased-animation" Path="" Text="Time-based Animation" UID="f03b2df4-e4b6-45c4-a48e-ac50b7b810b4#timebased-animation" />
   </Item>
   <Item Key="accessing stereo mix">
-    <Value Original_Link="accessing stereo mix" Path="" Text="accessing stereo mix" UID="" />
+    <Value Original_Link="accessing stereo mix" Path="" Text="accessing stereo mix" UID="dbe5c817-bf69-4bdf-83bf-39d673772523" />
   </Item>
   <Item Key="tonfilm-Modules">
-    <Value Original_Link="tonfilm-Modules" Path="" Text="Tonfilm Modules" UID="" />
+    <Value Original_Link="tonfilm-Modules" Path="" Text="Tonfilm Modules" UID="5a860cda-6d80-4168-92b1-5d5bbc50838a" />
   </Item>
   <Item Key="the-gui#node-browser">
-    <Value Original_Link="the-gui#node-browser" Path="" Text="Node Browser" UID="" />
+    <Value Original_Link="the-gui#node-browser" Path="" Text="Node Browser" UID="eeb8526d-0085-4219-a138-32ac397853f1" />
   </Item>
   <Item Key="Modules">
-    <Value Original_Link="Modules" Path="" Text="Modules" UID="" />
+    <Value Original_Link="Modules" Path="" Text="Modules" UID="be2a7b95-9a02-4bdf-8506-e10292de80f4" />
   </Item>
   <Item Key="video-tutorials#tutorial-12-helpfiles-f1-and-comments">
-    <Value Original_Link="video-tutorials#tutorial-12-helpfiles-f1-and-comments" Path="" Text="video tutorial on Helppatches" UID="" />
+    <Value Original_Link="video-tutorials#tutorial-12-helpfiles-f1-and-comments" Path="" Text="video tutorial on Helppatches" UID="09f00508-01d4-4eac-b6d3-4dace5b00d99#tutorial-12-helpfiles-f1-and-comments" />
   </Item>
   <Item Key="devices-dmx4all">
-    <Value Original_Link="devices-dmx4all" Path="" Text="DMX4ALL" UID="" />
+    <Value Original_Link="devices-dmx4all" Path="" Text="DMX4ALL" UID="e005d101-02a4-4d9d-9d18-3f30f50586dd" />
   </Item>
   <Item Key="kalle.Modules.MIDI">
     <Value Original_Link="kalle.Modules.MIDI" Path="" Text="A range of Midi modules" UID="" />
   </Item>
   <Item Key="video-analysistracking">
-    <Value Original_Link="video-analysistracking" Path="" Text="video tracking freeframe plugins" UID="" />
+    <Value Original_Link="video-analysistracking" Path="" Text="video tracking freeframe plugins" UID="a23ae4b6-0c26-4b40-bfba-5b9b21b912a0" />
   </Item>
   <Item Key="Dynamic Plugin Tutorials">
-    <Value Original_Link="Dynamic Plugin Tutorials" Path="" Text="Dynamic Plugin Tutorials" UID="" />
+    <Value Original_Link="Dynamic Plugin Tutorials" Path="" Text="Dynamic Plugin Tutorials" UID="d19c0f1e-5133-4901-bdf6-fe62607cf45d" />
   </Item>
   <Item Key="video-tutorials#tutorial-6-move-and-color-some-text">
-    <Value Original_Link="video-tutorials#tutorial-6-move-and-color-some-text" Path="" Text="more advanced" UID="" />
+    <Value Original_Link="video-tutorials#tutorial-6-move-and-color-some-text" Path="" Text="more advanced" UID="09f00508-01d4-4eac-b6d3-4dace5b00d99#tutorial-6-move-and-color-some-text" />
   </Item>
   <Item Key="Tutorial Geometry Morphing CPU">
-    <Value Original_Link="Tutorial Geometry Morphing CPU" Path="" Text="the other" UID="" />
+    <Value Original_Link="Tutorial Geometry Morphing CPU" Path="" Text="the other" UID="772f4282-a62a-467a-938a-d3f69bf3f57b" />
   </Item>
   <Item Key="ASIO">
-    <Value Original_Link="ASIO" Path="" Text="ASIO" UID="" />
+    <Value Original_Link="ASIO" Path="" Text="ASIO" UID="8250328d-47b5-4ffd-bae5-1c444868c40a" />
   </Item>
   <Item Key="protocols#hid">
-    <Value Original_Link="protocols#hid" Path="" Text="HID protocol wiki-page" UID="" />
+    <Value Original_Link="protocols#hid" Path="" Text="HID protocol wiki-page" UID="b99bfb62-eab8-4b5f-921d-8a56d14305a3" />
   </Item>
   <Item Key="VST">
-    <Value Original_Link="VST" Path="" Text="extensive VST-guide" UID="" />
+    <Value Original_Link="VST" Path="" Text="extensive VST-guide" UID="3d0e7863-48f9-4bf9-bd83-c3ecc1f29ca8" />
   </Item>
   <Item Key="strings#tty-renderer">
-    <Value Original_Link="strings#tty-renderer" Path="" Text="More about TTY Renderer" UID="" />
+    <Value Original_Link="strings#tty-renderer" Path="" Text="More about TTY Renderer" UID="c5b94d4a-2536-4134-8fe2-83c616bddadb" />
   </Item>
   <Item Key="the-gui#docking">
-    <Value Original_Link="the-gui#docking" Path="" Text="Docking" UID="" />
+    <Value Original_Link="the-gui#docking" Path="" Text="Docking" UID="9a57949a-03e4-43ae-a929-bffe3ca409c9" />
   </Item>
   <Item Key="devices-kramervs-88v">
     <Value Original_Link="devices-kramervs-88v" Path="" Text="The Kramer 8x8 Videoswitch" UID="bd5dd483-0e68-4e7a-8a3e-f5cf284a2b79" />
@@ -941,64 +941,64 @@
     <Value Original_Link="the-gui#Herr-Inspektor" Path="" Text="Inspektor" UID="9666611a-6f15-4b33-8300-69f56d9ec7d4" />
   </Item>
   <Item Key="Lightstrive">
-    <Value Original_Link="Lightstrive" Path="" Text="Lightstrive" UID="" />
+    <Value Original_Link="Lightstrive" Path="" Text="Lightstrive" UID="3de7e372-3e35-4e2c-83bd-be1898a02bac" />
   </Item>
   <Item Key="Tutorial Effects - Neighbouring Pixels">
-    <Value Original_Link="Tutorial Effects - Neighbouring Pixels" Path="" Text="Neighbouring Pixels" UID="" />
+    <Value Original_Link="Tutorial Effects - Neighbouring Pixels" Path="" Text="Neighbouring Pixels" UID="0f0f3bcc-cf68-44bb-804c-66a86c1e84ec" />
   </Item>
   <Item Key="patching-basics#Locking-a-patch">
-    <Value Original_Link="patching-basics#Locking-a-patch" Path="" Text="locked" UID="" />
+    <Value Original_Link="patching-basics#Locking-a-patch" Path="" Text="locked" UID="10b82e0c-720a-48e1-91e4-d8c65d2c3be1#Locking-a-patch" />
   </Item>
   <Item Key="dynamic plugins">
-    <Value Original_Link="dynamic plugins" Path="" Text="dynamic plugins" UID="" />
+    <Value Original_Link="dynamic plugins" Path="" Text="dynamic plugins" UID="dc107197-be10-4608-90ee-e5a8f856c146" />
   </Item>
   <Item Key="video-synchronization">
-    <Value Original_Link="video-synchronization" Path="" Text="Video Synchronization" UID="" />
+    <Value Original_Link="video-synchronization" Path="" Text="Video Synchronization" UID="75aad9ef-ba8c-4fa4-a846-03ae5fed5670" />
   </Item>
   <Item Key="learning">
-    <Value Original_Link="learning" Path="" Text="Learning" UID="" />
+    <Value Original_Link="learning" Path="" Text="Learning" UID="9a0247e2-45d6-4c62-a8a3-fd16a6c75fce" />
   </Item>
   <Item Key="Learning">
-    <Value Original_Link="Learning" Path="" Text="Learning" UID="" />
+    <Value Original_Link="Learning" Path="" Text="Learning" UID="9a0247e2-45d6-4c62-a8a3-fd16a6c75fce" />
   </Item>
   <Item Key="Dynamic Plugins Reference">
-    <Value Original_Link="Dynamic Plugins Reference" Path="" Text="Dynamic C# Plugins Reference" UID="" />
+    <Value Original_Link="Dynamic Plugins Reference" Path="" Text="Dynamic C# Plugins Reference" UID="9fb98fc4-377b-49be-87ee-2c4741183b7c" />
   </Item>
   <Item Key="Graphics">
-    <Value Original_Link="Graphics" Path="" Text="Graphics" UID="" />
+    <Value Original_Link="Graphics" Path="" Text="Graphics" UID="853423af-e6ba-4908-935b-5154fd0e3f3f" />
   </Item>
   <Item Key="audio-file-playback#filestream-irrklang">
-    <Value Original_Link="audio-file-playback#filestream-irrklang" Path="" Text="FileStream (Irrklang)" UID="" />
+    <Value Original_Link="audio-file-playback#filestream-irrklang" Path="" Text="FileStream (Irrklang)" UID="ebe5bc2b-8945-43e5-90fb-5b08c1040347#filestream-irrklang" />
   </Item>
   <Item Key="strings#regular-expressions">
-    <Value Original_Link="strings#regular-expressions" Path="" Text="Regular Expressions" UID="" />
+    <Value Original_Link="strings#regular-expressions" Path="" Text="Regular Expressions" UID="899eb389-4a32-4633-a0dd-be489220b0b3" />
   </Item>
   <Item Key="transformation">
-    <Value Original_Link="transformation" Path="" Text="Transformations" UID="" />
+    <Value Original_Link="transformation" Path="" Text="Transformations" UID="32b3cd0e-7bb8-428d-88ef-fe0c4bb22025" />
   </Item>
   <Item Key="How To Project On 3D Geometry">
-    <Value Original_Link="How To Project On 3D Geometry" Path="" Text="How To Project On 3D Geometry" UID="" />
+    <Value Original_Link="How To Project On 3D Geometry" Path="" Text="How To Project On 3D Geometry" UID="e270f10f-568b-4fc3-83ba-8315208e0e8d" />
   </Item>
   <Item Key="node10.workshop.VVVVAsALanguage">
-    <Value Original_Link="node10.workshop.VVVVAsALanguage" Path="" Text="node10.workshop.VVVVAsALanguage" UID="" />
+    <Value Original_Link="node10.workshop.VVVVAsALanguage" Path="" Text="node10.workshop.VVVVAsALanguage" UID="6996160f-66c9-472d-b9bf-cfcdd1462123" />
   </Item>
   <Item Key="ShaderSnippets">
-    <Value Original_Link="ShaderSnippets" Path="" Text="ShaderSnippets" UID="" />
+    <Value Original_Link="ShaderSnippets" Path="" Text="ShaderSnippets" UID="df17e4b0-784e-4d81-bcc7-bd88f50e1cb5" />
   </Item>
   <Item Key="Tutorial Effects - Function Printing">
-    <Value Original_Link="Tutorial Effects - Function Printing" Path="" Text="Function Printing" UID="" />
+    <Value Original_Link="Tutorial Effects - Function Printing" Path="" Text="Function Printing" UID="3673bac8-2d38-4de1-8d09-e1e23109b9ad" />
   </Item>
   <Item Key="Spread-Definitions">
-    <Value Original_Link="Spread-Definitions" Path="" Text="Spread Definitions" UID="" />
+    <Value Original_Link="Spread-Definitions" Path="" Text="Spread Definitions" UID="a2b935e8-17cd-4c26-b701-4919803792d1" />
   </Item>
   <Item Key="Test Framework">
-    <Value Original_Link="Test Framework" Path="" Text="Test Framework" UID="" />
+    <Value Original_Link="Test Framework" Path="" Text="Test Framework" UID="c8c5354b-da7f-4dad-842c-f4ea775f6026" />
   </Item>
   <Item Key="Tutorial Effects - Vertexshader Preparations">
-    <Value Original_Link="Tutorial Effects - Vertexshader Preparations" Path="" Text="Vertexshader Preparations" UID="" />
+    <Value Original_Link="Tutorial Effects - Vertexshader Preparations" Path="" Text="Vertexshader Preparations" UID="efe56243-ca3e-4980-a8cb-8b4e086fdf25" />
   </Item>
   <Item Key="boygrouping">
-    <Value Original_Link="boygrouping" Path="" Text="boygrouped" UID="" />
+    <Value Original_Link="boygrouping" Path="" Text="boygrouped" UID="9d029794-1266-4e60-961f-33e6f95af7e6" />
   </Item>
   <Item Key="Documentation">
     <Value Original_Link="Documentation" Path="" Text="Documentation" UID="" />
@@ -1022,16 +1022,16 @@
     <Value Original_Link="Patching-With-Spreads" Path="" Text="Patching with Spreads" UID="" />
   </Item>
   <Item Key="EX9.Effect.Node">
-    <Value Original_Link="EX9.Effect.Node" Path="" Text="EX9.Effect.Node" UID="" />
+    <Value Original_Link="EX9.Effect.Node" Path="" Text="EX9.Effect.Node" UID="c2669d6a-c5b6-4260-aa6a-bc8dea458297" />
   </Item>
   <Item Key="rendering-overview#antialiasing">
-    <Value Original_Link="rendering-overview#antialiasing" Path="" Text="Antialiasing" UID="" />
+    <Value Original_Link="rendering-overview#antialiasing" Path="" Text="Antialiasing" UID="6d879681-cfa1-4021-a138-e824327b1a8a" />
   </Item>
   <Item Key="viewing-spreads#Spreads-in-the-Inspektor">
-    <Value Original_Link="viewing-spreads#Spreads-in-the-Inspektor" Path="" Text="Viewing and Editing Spreads" UID="" />
+    <Value Original_Link="viewing-spreads#Spreads-in-the-Inspektor" Path="" Text="Viewing and Editing Spreads" UID="74099114-2128-4ce8-8935-42a669c0d52f#Spreads-in-the-Inspektor" />
   </Item>
   <Item Key="About the Addonpack">
-    <Value Original_Link="About the Addonpack" Path="" Text="addonpack" UID="" />
+    <Value Original_Link="About the Addonpack" Path="" Text="addonpack" UID="e1554948-8a15-4e39-8289-59216c388376" />
   </Item>
   <Item Key="books#generative-design">
     <Value Original_Link="books#generative-design" Path="" Text="'Generative Design'" UID="f8237df9-396a-42e9-bbee-3b6088c58565#generative-design" />

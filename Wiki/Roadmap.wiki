@@ -1,0 +1,144 @@
+By highlighting notable events along the road to creating a comfortable visual live-programming environment for everyone, this page provides a glimpse into the history of making vvvv. Further, we're giving an outline of future milestones to give you an idea where this is all heading...
+
+For more details on changes for individual releases please consult the full ((Change Log)) and follow our ((/blog/1575+1576+23|Development Blog)).
+For a more colorful rendition of the same events see MESO's [https://meso.design/en/articles/the-flow-of-creative-expression-paving-the-way-for-vvvv|vvvv history page].
+
+!Upcoming Milestones
+* vvvv beta40 including latest VL
+* finalization of depth camera libraries: Kinect v1, v2 and v3, Astra, Nuitrack, RealSense
+* finalization of networking libraries: UDP, OSC, TUIO, MQTT, ZMQ
+* preview release of [https://www.youtube.com/playlist?list=PLBTgwgsWWcT9RFmWJ3kLOK-ota8k8YTph|VL.Stride]
+
+!!Further on our agenda, to be reviewed after the vvvv gamma release:
+(without claim of completeness and in no particular order)
+* Node Libraries
+** 3d/VR/AR graphics and physics simulations using VL.Xenko
+** Audio/Video playback using VL.GStreamer
+** UI library
+** Logging library
+** 2d physics library
+** Machine learning and AI
+** More libraries (devices,..)
+* Deployment: OSX/Linux executables, mobile (iOS/Android), when available investigate deployment to Meadow and ultimately why not to the web.
+* Run editor on osx/linux
+* Improve Navigation (Browserlike, live object graph, multi-window support)
+* Integrating additional editors (Node Inspektor, Timelines, State machines, Curves, Meshes, ..)
+* AssetManager
+* Package management (create, deploy, consume packages)
+* Version control system support
+* Higherlevel language features
+* Better debugging support
+* Visual diff/merge
+* VL integration in other tools
+
+!vvvv gamma 
+__2020.1__ 01 04 20
+this is it: the first official ((blog:vvvv-gamma-2020.1-release|stable release of vvvv gamma)). introducing also a new website: [http://visualprogramming.net]
+
+__2019.1-preview__ 01 04 19
+marks the first (still low profile) ((blog:vvvv-gamma-2019.1-preview|public release)) of the previously introduced VL editor as a completely independent, standalone product. we therefore now distinguish between two products "vvvv beta" and "vvvv gamma" that are both hosting the VL editor. 
+
+!vvvv 50: ~2016-dato
+__beta35__ 20 12 16 
+adds new editor allowing to create dynamic plugins using VL and ships with the new ((blog:introducing-the-editing-framework|Editing Framework)), new ((blog:arduino-second-service|Arduino/Firmata nodes)) and new ((blog:how-tuio-do|TUIO nodes)) patched in VL
+
+!!!Notable Series 50 events
+Jannuary 2017: vvvv.org gets a ((blog:introducing-the-store|Store for user contributions))
+May 2017: #vvvv opens on ((blog:chat-vvvv-on-matrix.org|Matrix))
+NODE17: [https://nodeforum.org/announcements/node17|5th edition] of the NODE Forum for Digital Arts with a 3h45min live-streamed [https://www.youtube.com/watch?v=BKHbEWaHjcw|Keynode] featuring community achievements
+__beta36__ improves DX9s way of handling ((blog:aspect-ratio-and-projection-space|Aspect Ratio)), allows to ((blog:vl-using-.net-libraries-and-writing-custom-nodes|use any .NET library directly in VL)), allows to ((blog:dynamic-dx11-buffers-in-vl|write to dynamic DX11 buffers from VL)), introduces an ((blog:vl-image-exchange-interface|Image Interchange Interface for VL)) and allows to ((blog:vl-one-frame-at-a-time|pause and step the execution of VL))
+March 2018: The first episode of [https://www.youtube.com/channel/UCu-xqv-TLwv6L0An7MJJA5A|vvvvTv] airs, announcing ((blog:vl-opencv-is-in-da-house|VL.OpenCV))
+May 2018: The [https://discourse.vvvv.org/t/girlpower-folder/16357|Girlpower controversy] 
+June 2018: The first [https://gettogether.community/vvvv/|vvvv Berlin meetup] takes place
+July 2018: First preview release of the 2d rendering engine ((blog:VL.Skia|Skia for vl))
+August 2018: Work begins on the integration with the ((blog:vl-threedee|Xenko 3d engine))
+__beta37__ features an ((blog:vl-corelib-cleanup|overhaul of VLs CoreLib)), introduces ((blog:vl-groups-and-categories|Groups and Categories)) and allows to ((blog:vl-frame-your-patches|frame your patches))
+
+!vvvv 45: ~2010~2015
+__beta24__ 16 09 10
+introduces much simplified plugin-interface version 2 and adds a code-editor for live-coding c# plugins 
+
+!!Notable Series 45 events
+__beta25__ adds ProjectExplorer and Finder
+__beta25.1__ introduces crack.exe
+November 2011 vvvv-sdk ((blog:vvvv-sdk-on-github|is available on github))
+__beta26__ ships with first massive series of TextureFX ((blog:addons45beta2601))
+December 2011 introduces ((blog:vvvv-ahead-of-time-builds|daily alpha builds))
+__beta28__ introduces ((blog:remoting-vvvv-exposing-pins-kontrolleur|Exposing IOBoxes)) and ((blog:cross-process-texture-sharing-depth-rendering|cross-process texture sharing))
+February 2012: the first ((blog:prototyping-interfaces-interactive-sketches-with-vvvv|german vvvv book)) is released
+December 2012: for its 10th birthday vvvv opens its ((blog:vvvv-x|first international vlagshipstore)), is [https://vimeo.com/56019214|celebrated by celebrities] around the world and massive contributor ((user:vux)) announces his ((blog:everything-you-know...|DX11 contribution)) 
+__beta29__ the 10 years anniversary release: adds ((blog:vvvv-64bit|64 bit builds)), switches to ((blog:vvvv-unicorn-upgrade|unicode)), adds the new ((blog:new-datatype-raw|primitive datatype RAW)) and introduces ((blog:htmltexture-(ex9.texture)|HTMLTexture (EX9.Texture))) and ((blog:player-(ex9.texture)|Player (EX9.Texture)))
+NODE13: [https://nodeforum.org/activities/node-forum/node13/|3rd edition] of the NODE Forum for Digital Arts with first ever public demonstration of project "vvvv50", later to be named VL
+__beta31__ adds ((blog:protektor-dongle-protection-for-your-vvvv-projects|dongle-based protection)) for patches
+April 2014: release of the ((blog:50-the-humble-quad-bundle|Humble Quad Bundle)), a series of simple games patched with VL
+May 2014: the first ((blog:vvvvook|japanese vvvvook)) is released
+__beta32__ gets rid of crack.exe after [https://discourse.vvvv.org/t/please-rename-crack-exe-to-something-else/11440|crack-gate] and introduces ((blog:refactor-to-subpatch|grouping of nodes))
+September 2014: A series of blogposts introduce vl, leading up to its initial release: ((blog:50-that-next-big-thing.-an-overview.|One)), ((blog:50-colors|Two)), ((blog:50-properties|Three)), ((blog:50-generics|Four)), ((blog:50-custom-datatypes|Five)), ((blog:50-pre-release-roundup|Six))
+NODE15: [https://nodeforum.org/activities/node-forum/node15/|4th edition] of the NODE Forum for Digital Arts with the first ever public workshops teaching VL and the Keynode (megashow) [https://vimeo.com/129211880|Part 1], [https://vimeo.com/129085756|Part 2]
+May 2015: alpha builds are now ((blog:vvvv50-vl-pack-alpha|shipping with VL))
+September 2015: A series of blog-posts follow the development of VL over the coming months: ((blog:vl-summer-update|One)), ((blog:vl-autumn-update|Two)), ((blog:vl-winter-update|Three)), ((blog:vl-spring-update|Four)), ((blog:vl-midsummer-nights-dream|Five)), ((blog:vl-progress-report-1|Six)), ((blog:vl-progress-report-2|Seven)), ((blog:vl-progress-report-3|Eight)), ((blog:vl-progress-report-4|Nine))
+__beta34.2__ final release for WindowsXP
+October 2016: vvvv.org gets a ((blog:forum.-new|new forum))
+
+
+!vvvv 40: ~2008~2010
+__beta16__ 08 04 2008
+adds a c# plugin-interface allowing thirdparties to contribute nodes
+
+!!!Notable Series 40 events
+NODE08: First edition of the [https://nodeforum.org/activities/node-forum/node08/|NODE Forum for Digital Arts] takes place in Frankfurt as the first vvvv user community meeting with [https://vimeo.com/63157880|an introduction to the early years of vvvv]
+__beta18__ releases first contributions by ((user:elias)) as a vvvv intern: set-theory nodes, improved Expr node  
+__beta19__ comes with first ((blog:addons40beta1901|Addonpack)) 
+__beta20__ plugin interface now supports arbitrary types
+__beta22__ introduces ((multiboygrouping|multi-boygrouping))
+July 2010: big update to the ((blog:new-vvebsite|website))
+NODE10: [https://nodeforum.org/activities/node-forum/node10/NODE10|2nd edition] of the NODE Forum for Digital Arts 
+December 2010: release of the first [https://vimeo.com/18053849|vvvv commercial]
+
+!vvvv 33: ~2003~2008
+__beta1__ 24 12 02
+initial public offering
+
+!!!Notable Series 33 events
+February 2003: [https://pastwebsites.transmediale.de/03/de/03/scheduledetail.php?id=21&filtername=Workshop&filter=2&layerlayer=3_7_VIS#|first public workshop] at transmediale in berlin
+__beta5__ switch from DirectX8 to DirectX9 rendering
+__beta6__ added support for [http://freeframe.sourceforge.net/|freeframe] plugins
+__beta7.4__ added support for live-shader coding
+First license sold for non-MESO project to ((user:elektromeier))
+__beta8__ added 3d physics engine [https://www.ode.org/|ODE], needed for [http://www.hoepfel.net/?page_id=29|Lightstrive]
+Jannuary 2005: release of [http://web.archive.org/web/20050205214212/http://vvvv.meso.net:80/tiki-index.php|first wiki-based website]
+Jannuary 2006: vvvv leaves MESO and is now run as an independent company by ((user:gregsn)) and ((user:joreg))
+June 2006: ((blog:website-relaunch|website relaunch)) looked [http://web.archive.org/web/20061118180717/vvvv.org/tiki-index.php|like this]
+__beta14__ comes with first release of ((TimelinerSA))
+
+!vvvv 32: ~2002
+* most notably added Subpatches and Undo
+* prepared public release
+* [http://web.archive.org/web/20021101213348/http://vvvv.meso.net/|initial vvvv website] on vvvv.meso.net
+* released only ever executable created with vvvv: the [http://joreg.ath.cx/22/bildschirm-gymnastik/#more-22|bildschirmgymnastik] screensaver
+
+!vvvv 31: ~2002
+* added automatic spreading through whole graphs
+* extended nodelibrary
+
+!vvvv 30: ~2001
+* ((user:joreg)), then intern at MESO and student at the [https://www.fh-ooe.at/campus-hagenberg/studiengaenge/bachelor/medientechnik-und-design/|FH Hagenberg], writes his diploma thesis "Design and Implementation of a Visual Programming Language for Videosynthesis"
+* the thesis results in a proof of concept UI for visual programming
+* MESOs existing code base is reworked into reusable nodes suitable for the dataflow UI
+* DirectX8-Rendering are added nodes
+* initial implemetation of ((glossary:Spreads)), where many nodes had a SpreadCount input that would have to be set individually
+* initial implementation of ((glossary:Boygrouping))
+* all efforts culminate in the first big project almost entirely run by vvvv: [https://meso.design/en/projects/expo02-switzerland-cooperative-multisensory-media-space-for-national-expo|Cyberhelvetia]
+
+!vvvv 20: ~1999~2001
+* ((user:gregsn)) joins MESO as intern and starts working on the codebase
+* adds GUI to control and save parameters
+* adds triggering and morphing of sets of parameters
+* adds media libraries
+
+!vvvv 10: ~1997~1999
+* developed as in-house coding framework at https://meso.design/ by ((user:oschatz)) and ((user:max))
+* using 3d accelerated graphic cards to create unprecedented performance on desktop PCs
+* programming in Delphi
+* no GUI
+* controlled via MIDI, e.g. Opcode MAX

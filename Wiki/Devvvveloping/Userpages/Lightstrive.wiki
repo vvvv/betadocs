@@ -1,0 +1,89 @@
+!Lightstrive - an interactive light projection
+As part of the [http://www.athens2004.com/en/OlympicLookOfAthens|Catch the Light] program accompanying the olympic games in Athens in August 2004 we've been invited to realize one of the [http://www.athens2004.com/en/OlympicLookofAthensInteractiveArtInstallations|9 installations] that have been setup throughout the city.
+
+The fassade of a building is illuminated by a virtual lightsource that can be played with like a ball thus creating different lighting for the fassade every moment. 
+
+{SPLIT()}
+{img src = "trapeza01.jpg" } 
+{img src = "trapeza02.jpg" } 
+{img src = "trapeza03.jpg" } 
+~~~
+
+{img src = "trapeza04.jpg" } 
+{img src = "trapeza05.jpg" } 
+{SPLIT}
+
+!Team
+* Michael Höpfel
+* Sebastian Gregor
+* joreg
+Additional credits go to Michael Mehling for last minute programming at meso, Michael Mehling and Jenny Michel for their help on setting up the hardware and to Adi and Marianna as our fabulous production team in Athens.
+
+Further documentation on: 
+* [http://www.hoepfel.net/?page_id=29|hoepfel.net]
+* [http://www.checksum5.com/89/lightstrive|checksum5.com]
+
+!Movie 
+{mov:((/tiki-download_file.php?fileId=15}))
+
+
+ 
+
+!Making Of
+
+Lightstrive is completely realized with our inhouse developed graphical programming language vvvv and runs on two standard windows pcs with current graphics hardware. 
+
+The audience is being tracked by a low latency firewire camera mounted high above on the opposite building viewing the whole interactive zone of about 22m. Direction and power of the users movement is extracted by analysing the video over time. A resulting vector is used to update the lights/balls movement that is otherwise being calculated by a physics engine that also includes the facades geometry in its calculations. Therefore the light/ball can also be caught in one of fhe balconies in which case the game restarts. 
+
+The lights/balls current coordinate is always sent to the second pc where it is used to calculate the correct shadows cast by the point-lightsource represented by the ball. Shadows are calculated via custom vertex- and pixelshaders.
+
+* the place, korai, the bank building by day
+* photos of setup
+
+
+
+
+! Early Screenshots
+
+
+the tracker system
+
+{img src = "tracker.jpg" } 
+
+
+
+
+the shadowing system
+
+
+{img src = "lighstrivedesktop_3.jpg" } 
+
+
+
+
+{SPLIT()} 
+~~~
+
+{img src = "sidehousewireshadow_3.jpg" } 
+~~~
+
+~~~
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{img src = "lighstriveshadowmapwire_4.jpg" } 
+~~~
+
+{SPLIT}
