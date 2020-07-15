@@ -30,9 +30,9 @@ For every parameter defined in an effect vvvv creates an appropriate input pin o
 Parameters can be assigned Semantics, which specify how a parameter shall be handled by the effect hosting application (ie. vvvv). For example if you define a parameter of type float4 (vector of 4 floats) and declare it with the semantic "COLOR", vvvv will set up a color input pin at the effect node.   
 Via semantics you also have access to the view- and projection matrices (and all of its combinations with the world matrix + transformed and inverse) of the renderer in vvvv. For matrix-parameters declared with one of those semantics no pin will be added to the effect node since those matrices are set automatically by the effect node and thus shall not be visible to the user (except for the world matrix)  
 
-All semantics supported by vvvv are listed on the [EX9.HLSL.Semantics](TODO INTERNALLINK:EX9.HLSL.Semantics) page.   
+All semantics supported by vvvv are listed on the [EX9.HLSL.Semantics](xref:39f956cd-59d0-4445-b87c-57c56affb57c) page.   
 #### Annotations
-For more individual descriptions of parameters you can use [EX9.HLSL.Annotations](TODO INTERNALLINK:EX9.HLSL.Annotations).   
+For more individual descriptions of parameters you can use [EX9.HLSL.Annotations](xref:c1f1412a-9d7c-48d0-911a-bea5d78ca373).   
 
 VVVV currently only supports three annotations. The most important to mention is the annotation "uiname" of type string, which defines a name for the pin representing the parameter in the user interface of vvvv (on the effect node). If you don't use this annotation, the pin will just be named like the parameter in the Effect-File.  
 

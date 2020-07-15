@@ -62,7 +62,7 @@ Read [this thread](https://vvvv.org/tiki-view_forum_thread.php?forumId=4&comment
 **My patch has some bugs and/or Red Nodes**  
 
 
-Read [Debugging](TODO INTERNALLINK:Debugging).  
+Read [Debugging](xref:36621302-10e7-47fe-a8d0-b609c758974d).  
 
 
 
@@ -80,7 +80,7 @@ Try disabling "USB selective Suspend " in advanced power settings in Control Pan
 **/logstartup**  
 
 
-Start vvvv with the [Commandline Argument](TODO INTERNALLINK:Commandline Parameters) **/logstartup**.  
+Start vvvv with the [Commandline Parameters](xref:2eb3d2a2-d4c1-4bc0-bcd8-16e48d756b16) **/logstartup**.  
 
 Use this if you have troubles starting vvvv. With this flag vvvv logs all steps it does on startup into a .txt file, placed next to vvvv.exe. You can then post that textfile to the forum and we'll see what we can do.  
 

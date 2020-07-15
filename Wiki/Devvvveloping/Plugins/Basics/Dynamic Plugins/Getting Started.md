@@ -66,7 +66,7 @@ using VVVV.Utils.VMath;
 using VVVV.Core.Logging;
 ```  
 
-here are some more for your future experiments: [namespaces](TODO INTERNALLINK:namespaces).  
+here are some more for your future experiments: [namespaces](xref:28283ff4-e390-41ea-91c3-8fc5375c0722).  
 
 ### namespace
 Also your new node is such an entity defined in a namespace. Since it is a node it is cool to keep the name of the namespace "VVVV.Nodes".  
@@ -95,7 +95,7 @@ The plugin info is part of the declaration of your node. It states that the clas
 Name and Category are mandatory while the rest is optional.  
   
 
-See more [PluginInfo Attributes](TODO INTERNALLINK:PluginInfo Attributes)  
+See more [PluginInfo Attributes](xref:29a92e37-7494-441d-93f7-36beeb1a0f2e)  
 
 ### the class
 A node is a class and a class is a very basic building block in c#. It just makes some brackets around data and code. You need that for writing nodes.   
@@ -125,7 +125,7 @@ You can again compare the adding of a pin signature with naming an iobox in a mo
   
 For a pin signature it is mandatory to specify if it should be an input or an output and the Name. All further attributes are optional.  
 
-How to configure pins: [Pin Attributes](TODO INTERNALLINK:Pin Attributes)  
+How to configure pins: [Pin Attributes](xref:8d9059b9-e075-4b42-91ef-7599f6879028)  
 
 #### Pin Type: ISpread<T>
 ```  

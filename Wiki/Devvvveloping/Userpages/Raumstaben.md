@@ -39,7 +39,7 @@ Fall 2006| Urban Screen Messe
 
 
 # Installations
-* [Flatland PE](TODO INTERNALLINK:Flatland PE) by Petra Eicker  
+* [Flatland PE](xref:fad58c52-169e-4a37-9525-e6e13d8e12ad) by Petra Eicker  
 ![](~/img/flatland_display.jpg "")  
 
 * Ich AH  

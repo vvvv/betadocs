@@ -15,7 +15,7 @@ from using DMX/Art-Net devices to using an Arduino board and custom shields.
 
 **See also:**  
 * <a href="https://vvvv.org/contributions/1353+1351+2439+1352+7934+2438+1354+1355/4127+7414+2187+5126+2446+4118" class="extURL" target="_blank">Related Contributions</a>  
-* [DMX / Art-Net](TODO INTERNALLINK:protocols#dmx)  
+* [DMX / Art-Net](xref:268ce39d-8d40-41ed-bc01-e9e0a1e2587b)  
 
 
 

@@ -28,7 +28,7 @@ Examples in your vvvv\girlpower\ directory:
 * Strings  
 
 **See also:**  
-* [Character Encoding](TODO INTERNALLINK:Character Encoding)  
+* [Character Encoding](xref:b43c8ad4-1367-4f68-a3c5-5d76637b241b)  
 * <a href="https://vvvv.org/contributions/1353+1351+2439+1352+7934+2438+1354+1355/2509+3795" class="extURL" target="_blank">Related Contributions</a>  
 
 

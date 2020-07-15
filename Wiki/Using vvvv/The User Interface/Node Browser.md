@@ -25,7 +25,7 @@ By typing into the text field at the top you can filter the list to find what yo
 * **Leftclick** a node to create it.  
 * **Rightlick** a node to show its helppatch  
 * **Middleclick** a node it to open its online reference page..  
-* **Ctrl+Leftclick** a 'Template' node to clone it and write your own [Dynamic Plugin](TODO INTERNALLINK:dynamic-plugins) or an Effect.  
+* **Ctrl+Leftclick** a 'Template' node to clone it and write your own [Dynamic Plugins](xref:dc107197-be10-4608-90ee-e5a8f856c146) or an Effect.  
 
 The NodeBrowser has three buttons (**T**, **C**, **F**) in top right corner:  
 

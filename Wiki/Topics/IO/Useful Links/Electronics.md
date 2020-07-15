@@ -40,9 +40,9 @@ uid: 40d7b16c-c61f-41c1-8345-62e0b729f6a0
 * <a href="http://www.billbuxton.com/InputSources.html#anchor678822" class="extURL" target="_blank"> A directory of sources for input technologies</a>  
 ### Kits
 * <a href="http://phidgets.com" class="extURL" target="_blank">Phidgets</a> a modular microcontroller-sensor-actuator system, competitive pricing, large range of modules (even a nifty mini joystick), but closed source.  
-* <a href="http://www.tinkersoup.de/prototyping-interfaces-starter-kit/kits/a-882/" class="extURL" target="_blank">Convenient starter kits</a> for the [Prototyping Interfaces](TODO INTERNALLINK:books#prototyping-interfaces-interaktives-skizzieren-mit-vvvv) book.  
+* <a href="http://www.tinkersoup.de/prototyping-interfaces-starter-kit/kits/a-882/" class="extURL" target="_blank">Convenient starter kits</a> for the [Prototyping Interfaces](xref:f8237df9-396a-42e9-bbee-3b6088c58565#prototyping-interfaces---interaktives-skizzieren-mit-vvvv) book.  
 * <a href="https://www.sparkfun.com/products/12001" class="extURL" target="_blank">Sparkfun Inventor's Kit</a>.  
-* <a href="http://www.arduino.cc" class="extURL" target="_blank">Arduino</a> possibly the cheapest microcontroller with a usb port on the market. Open Source, with a friendly community. Read more about [vvvv and Arduino](TODO INTERNALLINK:hardware#arduino).  
+* <a href="http://www.arduino.cc" class="extURL" target="_blank">Arduino</a> possibly the cheapest microcontroller with a usb port on the market. Open Source, with a friendly community. Read more about [vvvv and Arduino](xref:8c8ad666-b5b1-4fb6-a0e1-5dccccdbf9f6).  
 * <a href="http://www.c-control.de/" class="extURL" target="_blank">C-Control</a> by <a href="http://www.conrad.com" class="extURL" target="_blank">Conrad</a>, rather old project, but keeps developing.  
 * <a href="http://www.makingthings.com" class="extURL" target="_blank">MakingThings</a> develop the Teleo Board and the new, rather powerful MAKE controller.  
 * <a href="http://www.parallax.com" class="extURL" target="_blank">Parallax</a> maker of the basic stamp, one of the first microcontroller kits geared at beginners.  
@@ -56,7 +56,7 @@ uid: 40d7b16c-c61f-41c1-8345-62e0b729f6a0
 * <a href="http://www.roboter-teile.de" class="extURL" target="_blank">roboter-teile.de</a>  
 * <a href="http://www.shop.robotikhardware.de/shop/catalog/index.php" class="extURL" target="_blank">robotikhardware.de</a>  
 ## Books
-* [Prototyping Interfaces](TODO INTERNALLINK:books#prototyping-interfaces-interaktives-skizzieren-mit-vvvv) book  
+* [Prototyping Interfaces](xref:f8237df9-396a-42e9-bbee-3b6088c58565#prototyping-interfaces---interaktives-skizzieren-mit-vvvv) book  
 * Arduino Cookbook, Michael Margolis, ISBN 1449313876, English  
 * Making Things Talk, Tom Igoe, ISBN 1449392431, English  
 * Programming Interactivity, Joshua Noble, ISBN 144931144X, English  

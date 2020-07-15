@@ -20,7 +20,7 @@ In vvvv rotations are specified in fractions of full counter-clockwise cycles (t
 Search the NodeBrowser for *Cycles*, *Degrees* or *Radians* to find nodes that convert between the different scales.  
 
 For more about angles and cyclic animations check:  
-* [Angles in 2d](TODO INTERNALLINK:angles-in-2d)  
+* [Angles in 2d](xref:6cdb7263-e6b9-4adf-bb31-5a9b958d42c7)  
 
 
 

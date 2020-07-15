@@ -14,7 +14,7 @@ again note that the AspectRatio/Camera combo is not essential here but only good
 
 ## stuffing two meshes in one
 
-we were promised that all the costly magic will happen within the effect so that performancewise this approach would outperform [the other](TODO INTERNALLINK:Tutorial Geometry Morphing CPU) by far. so how then will we get the two (or even more) meshes connected to the effect? that is what this is all about actually. but the thing is you will never get more then one mesh connected to an effect. you have to trick the effect by building your own mesh containing the geometry data of both (all) your morph targets.  
+we were promised that all the costly magic will happen within the effect so that performancewise this approach would outperform [the other](xref:772f4282-a62a-467a-938a-d3f69bf3f57b) by far. so how then will we get the two (or even more) meshes connected to the effect? that is what this is all about actually. but the thing is you will never get more then one mesh connected to an effect. you have to trick the effect by building your own mesh containing the geometry data of both (all) your morph targets.  
 
 ![](~/img/gpu_020_3.jpg "")  
 

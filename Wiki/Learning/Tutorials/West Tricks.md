@@ -155,7 +155,7 @@ paste inside your patch.
 
 #  Make helppatches not only for Modules
 
-When you stick to the [Conventions.NodeAndPinNaming](TODO INTERNALLINK:Conventions.NodeAndPinNaming) you can make helppatches for almost everything:  
+When you stick to the [Conventions.NodeAndPinNaming](xref:db8592a2-03c3-4e8c-a540-d11df5e83078) you can make helppatches for almost everything:  
 ^a subpatch named **foobar.v4p** can have a patch **foobar help.v4p** located in the same folder.  
 
 with F1 on that **foobar** node the helppatch is started.  
@@ -233,7 +233,7 @@ In most cases <span class="node">Change (Animation)</span> is the node of choice
 
 #  Use the Decay to Visualize a Bang
 
-When you have something that looks nice, and you want to give it something extra, or make it react to a beat, I had always a hard time  to that. Look at [Tonfilm Modules](TODO INTERNALLINK:tonfilm-Modules) for a simple beatdetector.  
+When you have something that looks nice, and you want to give it something extra, or make it react to a beat, I had always a hard time  to that. Look at [Tonfilm Modules](xref:5a860cda-6d80-4168-92b1-5d5bbc50838a) for a simple beatdetector.  
 
 Since most events produce a bang, most filters are not use able, so I always patched loads of complex stuff to generate something that I could use. But now I discovered a new trick, using the <span class="node">Decay (Animation)</span> node, sometimes combined with a <span class="node">Map (Value)</span> and a <span class="node">+ (Value)</span> or <span class="node">- (Value)</span>, and setting the attack time to 0 sec and the Decay time to whatever looks nice. I work with beatbangs, anything lower than 0.5 sec (=120 Beats per Minute) looks nice.  
 

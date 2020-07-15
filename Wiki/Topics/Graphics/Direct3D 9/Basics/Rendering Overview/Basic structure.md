@@ -16,13 +16,13 @@ In most situations when you render something you have basically the same patch s
 1. grouped together 
 1. and rendered to a window.
 
-Working with a 3d scene? You need a [Depthbuffer](TODO INTERNALLINK:rendering-overview#depthbuffer).  
+Working with a 3d scene? You need a [Depthbuffer](xref:59a77510-fda1-499a-9686-461a2ab446c9).  
 
-Seeing jagged and ugly edges? Turn on [Antialiasing](TODO INTERNALLINK:rendering-overview#antialiasing).  
+Seeing jagged and ugly edges? Turn on [Antialiasing](xref:6d879681-cfa1-4021-a138-e824327b1a8a).  
 
 Want to set a renderer to fullscreen?  
 * move it to the desired monitor  
-* change its <span class="pin">Fullscreen Dimensions</span> using the [Inspektor](TODO INTERNALLINK:the-gui#herr-inspektor)  
+* change its <span class="pin">Fullscreen Dimensions</span> using the [Inspektor](xref:9666611a-6f15-4b33-8300-69f56d9ec7d4)  
 * press ALT+Enter to toggle it to/from fullscreen  
 
 See the Renderer (EX9)'s helppatch for details.  
@@ -32,10 +32,10 @@ Examples in your vvvv\girlpower\ directory:
 * Graphics\DX9\Shader  
 
 **See also:**  
-* [Primitives](TODO INTERNALLINK:geometry#primitives)  
-* [Geometries](TODO INTERNALLINK:geometry#primitives)  
-* [Built-in effects](TODO INTERNALLINK:shader#built-in-effects)  
-* [Transformations](TODO INTERNALLINK:transformation)  
+* [Primitives](xref:3c360048-ceb5-4e96-86d6-5e8ef7ff43e9)  
+* [Primitives](xref:3c360048-ceb5-4e96-86d6-5e8ef7ff43e9)  
+* [Built-in effects](xref:4ae45235-b247-4d0d-8c5b-9d0688f99b3f#built-in-effects)  
+* [Transformations](xref:32b3cd0e-7bb8-428d-88ef-fe0c4bb22025)  
 
 
 

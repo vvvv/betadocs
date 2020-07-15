@@ -18,7 +18,7 @@ Choose one of the templates prefixed with *v* and press ***CTRL+Enter*** or ***C
 
 Where *stateless* means that your plugin does not store a state, ie. it is not saving values for re-use in the next frame. This choice is only offered here to save you some clicks later. You can still change your mind at any time in the VL editor.  
 
-In the "Clone Node" dialog that now shows up choose a unique *Name* and a *Category* for your node. Specifying a *Version* is optional, see [NodeAndPinNaming](TODO INTERNALLINK:conventions.nodeandpinnaming).   
+In the "Clone Node" dialog that now shows up choose a unique *Name* and a *Category* for your node. Specifying a *Version* is optional, see [NodeAndPinNaming](xref:db8592a2-03c3-4e8c-a540-d11df5e83078).   
 
 If the vvvv patch in which you're cloning in is not yet saved you'll also have to specify a path where to clone the VL template to. It is therefore always recommended to save the vvvv patch first because then the clone conveniently goes to a subdirectory "\vl" next to the vvvv patch.  
 
@@ -48,7 +48,7 @@ Initially a pin has no type specified and it will automatically infer its type f
 * Vector2, Vector3, Vector4, Matrix  
 * MouseDevice, KeyboardDevice, TouchDevice  
 
-For a pin defined like this, VL will always only see a single value, even if a spread is connected in vvvv. See [Think slice-wise](TODO INTERNALLINK:dynamic-vl-plugin-reference#think-slice-wise) below.  
+For a pin defined like this, VL will always only see a single value, even if a spread is connected in vvvv. See [Think slice-wise](xref:2879ae37-9e84-42ee-8e2e-8444d274bb6b#think-slice-wise) below.  
 
 
 

@@ -17,7 +17,7 @@ Examples in your vvvv\girlpower\ directory:
 * Strings  
 
 **See also:**  
-* [Regular Expressions in detail](TODO INTERNALLINK:faq-regexpr)  
+* [Regular Expressions in detail](xref:ff589b7b-2a76-4cee-a4ca-139db9933828)  
 * <a href="https://vvvv.org/contributions/1353+1351+2439+1352+2438+1354+1355/5572" class="extURL" target="_blank">Related Contributions</a>  
 * <a href="http://regex101.com/" class="extURL" target="_blank"> Online Regular Expressions tester</a>  
 * <a href="http://www.regexper.com/" class="extURL" target="_blank"> RegExpr visualization</a>  

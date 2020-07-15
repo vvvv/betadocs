@@ -16,7 +16,7 @@ Students are receiving an about two day basic hardcore vvvv treatment. The remai
 
 --file missing--  
 
-Below you find a listing of topics we've been discussing and some of the patches that emerged thereby. Fairly undocumented, but if you are looking for an intro to a newbie you should have a look at the [Tutorials](TODO INTERNALLINK:Documentation) anyway.  
+Below you find a listing of topics we've been discussing and some of the patches that emerged thereby. Fairly undocumented, but if you are looking for an intro to a newbie you should have a look at the [Documentation](xref:fbc5a2de-2925-4242-90d1-1fa3b080140b) anyway.  
 
 ## Day One
 * Simple Spreads Sample: [http://vvvv.org/tiki-download_file.php?fileId=425]SpreadSelector.v4p (7.79 Kb)</a>  

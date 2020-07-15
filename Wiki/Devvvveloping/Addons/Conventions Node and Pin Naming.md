@@ -33,7 +33,7 @@ All terms (names, categories, versions) (except pin names, see below) are writte
 
 
 ### Rules for choosing optional Tags
-read [About Tags](TODO INTERNALLINK:About Tags)  
+read [About Tags](xref:9ba99c9e-2f8c-4987-a028-95bd35b88ec9)  
 
 # Pins 
 * pin names start with capital letter   

@@ -15,23 +15,23 @@ If you want to organize a workshop for your institute, university, ...hood too a
 * 21-25th April 08 Diseño interactivo con "vvvv" Universidad de Sevilla.  
 * 7-8th February 08 Arduino-vvvv Facultad de Bellas Artes de la Universidad del Pais Vasco.  
 * 8-9th December 07, Munich, [http://www.t-u-b-e.de]  
-* 13-22th November 07, <a href="http://www.transmedia.be/" class="extURL" target="_blank">transmedians</a>, brussel, page [WorkshopBrussel2](TODO INTERNALLINK:WorkshopBrussel2)  
-* 10-11th August 07, Sheffield, "Digital Summer School 01: Emergent languages and systems for interactive and algorithmic art" [WorkshopSheffield](TODO INTERNALLINK:WorkshopSheffield)  
+* 13-22th November 07, <a href="http://www.transmedia.be/" class="extURL" target="_blank">transmedians</a>, brussel, page [WorkshopBrussel2](xref:4d5196cd-62a3-4d05-8ebd-e89ac5761d03)  
+* 10-11th August 07, Sheffield, "Digital Summer School 01: Emergent languages and systems for interactive and algorithmic art" [WorkshopSheffield](xref:677656fe-6417-40f5-bc5e-42da4efbf427)  
 * 13-14 12 06 <a href="http://antville.medien.uni-weimar.de/ezlab/" class="extURL" target="_blank">Bauhaus Universität Weimar</a>, Germany - 2-Day "Kick-off" Workshop  
 * Winter Semester 06 - Hochschule Darmstadt, FB Media  
 * July - <a href="http://www.hfg-offenbach.de" class="extURL" target="_blank">Hochschule für Gestaltung Offenbach</a>, Germany <a href="http://edu.meso.net/tiki-index.php?page=S06.hfgof" class="extURL" target="_blank">workshop page</a>  
-* February-April-Oktober [Centrul pentru Arta Contemporana](TODO INTERNALLINK:WorkshopChisinau) .EDU, Chisinau, Moldova, [WorkshopChisinau](TODO INTERNALLINK:WorkshopChisinau)  
-* 03-04 07 06 <a href="http://www.khm.de" class="extURL" target="_blank">KHM</a> Cologne, Germany [workshop page](TODO INTERNALLINK:workshop_köln_0706)  
-* May - [Raumstaben](TODO INTERNALLINK:raumstaben) at Typo Berlin, Germany  
-* May - <a href="http://www.hyperwerk.ch" class="extURL" target="_blank">Hyperwerk</a>, Basel, Switzerland [Translearn06](TODO INTERNALLINK:Translearn06)  
+* February-April-Oktober [Centrul pentru Arta Contemporana](xref:cc290586-0d89-47b6-a459-e747a531fb3d) .EDU, Chisinau, Moldova, [Centrul pentru Arta Contemporana](xref:cc290586-0d89-47b6-a459-e747a531fb3d)  
+* 03-04 07 06 <a href="http://www.khm.de" class="extURL" target="_blank">KHM</a> Cologne, Germany [workshop page](xref:3a5d862a-bfc7-45f5-9d04-da38d02868f4)  
+* May - [Raumstaben](xref:ada14a87-2d6e-4998-ac1d-acd823defc9c) at Typo Berlin, Germany  
+* May - <a href="http://www.hyperwerk.ch" class="extURL" target="_blank">Hyperwerk</a>, Basel, Switzerland [Translearn06](xref:f47af066-c611-4357-bfbd-ad2dc3519df9)  
 * April - <a href="http://www.visomat.com" class="extURL" target="_blank">BildMusik by Visomat</a>, <a href="http://M12.visomat.com" class="extURL" target="_blank">M12</a>, Berlin, Germany  
 * March - <a href="http://mtd.fh-hagenberg.at/" class="extURL" target="_blank">FHS Hagenberg</a>, Austria  
 * Winter Semster 05 <a href="http://www.fh-darmstadt.de" class="extURL" target="_blank">FH Darmstadt</a>, Germany  
-* 21-25 11 05 [HFG Schwäbisch Gmünd](TODO INTERNALLINK:workshop_hfg_schwaebisch_gmuend_2005), Germany  
+* 21-25 11 05 [HFG Schwäbisch Gmünd](xref:fca22924-08f6-484b-b838-731d0e7fc9d4), Germany  
 * 22-24 06 05 <a href="http://www.khm.de" class="extURL" target="_blank">Kunsthochschule für Medien</a>, Köln, Germany  
 * Summer Semester 2005 <a href="http://www.kunsthochschulekassel.de" class="extURL" target="_blank">Kunsthochschule Kassel</a>, Germany  
 * 11-12 05 05 <a href="http://edu.meso.net/tiki-index.php?page=SS+2005+Weimar" class="extURL" target="_blank">Bauhaus Universität Weimar</a>, Germany - 2-Day "Kick-off" Workshop  
-* 14-18 03 05 <a href="http://www.hyperwerk.ch" class="extURL" target="_blank">Hyperwerk</a>, Basel, Swizerland  - [workshop material](TODO INTERNALLINK:Nomadics Project Basel)  
+* 14-18 03 05 <a href="http://www.hyperwerk.ch" class="extURL" target="_blank">Hyperwerk</a>, Basel, Swizerland  - [workshop material](xref:91017f6f-edc3-412d-997c-0b98a7167ae3)  
 * 22 11 & 22 12 04 <a href="http://www.unibz.it/design-art/index2.html?LanguageID=DE" class="extURL" target="_blank">Free University of Bozen, Faculty of Design and Art</a>, Italy - <a href="http://www.unibz.it/design-art/portfolio/netzwerke/index.html?LanguageID=DE&trigMenu=#block7" class="extURL" target="_blank">final exhibition</a> (with some vvvv powered works)  
 * 23 10 04 <a href="http://www.h1arch.tuwien.ac.at/hb1/index.php3" class="extURL" target="_blank">TU-Wien, Department of Architectural Design and Construction</a>, Vienna, Austria  
 * Winter Semester 2003 <a href="http://www.hfg-offenbach.de/intro.hfg" class="extURL" target="_blank">HFG Offenbach</a>, <a href="http://www.fh-wiesbaden.de" class="extURL" target="_blank">FH Wiesbaden</a> Germany  - <a href="http://edu.meso.net/tiki-index.php?page=W04.Nehmengeben" class="extURL" target="_blank">course homepage</a> - <a href="http://edu.meso.net/tiki-index.php?page=W04.Processes" class="extURL" target="_blank">final exhibition</a>   

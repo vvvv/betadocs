@@ -8,7 +8,7 @@ uid: 068e0370-b538-4d72-b9dd-98c4effdfeb3
 **Disclaimer:** The following extensions to the freeframe specification are not official. Based on the <a href="http://freeframe.sourceforge.net/spec.html" class="extURL" target="_blank">official freeframe system specification</a> they are a proposal how we could use spreaded inputs and outputs (i.e. lists of inputs and outputs). Naming is not so cool yet...  
   
 
-Even though they are only proposals they are used with some of the [video tracking freeframe plugins](TODO INTERNALLINK:video-analysistracking) that ship with vvvv.  
+Even though they are only proposals they are used with some of the [video tracking freeframe plugins](xref:a23ae4b6-0c26-4b40-bfba-5b9b21b912a0) that ship with vvvv.  
 
 # ad 3. Enumerated and derived types
 **NumOutputs** (32-bit unsigned integer)  

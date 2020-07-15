@@ -12,7 +12,7 @@ As of this writing there are two official versions of freeframe:
 and one unofficial:  
 * 1.0-Extended (by vvvv.org)  
 
-<a href="http://freeframe.sourceforge.net/spec.html" class="extURL" target="_blank">Freeframes original 1.0 specification</a> is solely targeted at plugins for videomanipulation. With only minor extensions to that specification the framework is also suitable for plugins that do analysis on a video image and report back data found. The [Extended FreeFrame Specification](TODO INTERNALLINK:FreeFrameExtendedSpecification) describes all the additions to the 1.0 specification that allow plugins to not only receive simple value inputs but also receive and return spreads of values.  
+<a href="http://freeframe.sourceforge.net/spec.html" class="extURL" target="_blank">Freeframes original 1.0 specification</a> is solely targeted at plugins for videomanipulation. With only minor extensions to that specification the framework is also suitable for plugins that do analysis on a video image and report back data found. The [Freeframe 1.0 Extended FreeFrame Specification](xref:068e0370-b538-4d72-b9dd-98c4effdfeb3) describes all the additions to the 1.0 specification that allow plugins to not only receive simple value inputs but also receive and return spreads of values.  
 
 vvvv does not fully implement all functionality that freeframe offers:  
 
@@ -23,7 +23,7 @@ Freeframe has the notion of *Source Plugins*, i.e. plugins that generate video b
 While in the field freeframe plugins can have multiple inputs DSFreeFrameWrapper/vvvv only support one-input plugins.   
 
 ### FFGL (FreeFrame 1.5)
-The latest developments in freeframe feature an opengl/shader based implementation of plugins. Since vvvv is based on Direct3D and already has a simple interface for shaders via [ex9-rendering](TODO INTERNALLINK:ex9-rendering) FFGL will probably not be an issue here soon.  
+The latest developments in freeframe feature an opengl/shader based implementation of plugins. Since vvvv is based on Direct3D and already has a simple interface for shaders via [ex9-rendering](xref:fd599c0f-1876-459c-a28e-24616cee5542) FFGL will probably not be an issue here soon.  
 
 ## 2. FreeFrame plugins in a DirectShow graph
 Before we start coding....A simple way of browsing through a list of freeframe plugins is using a tool like Graphedit in connection with the DSFreeFrameWrapper <a href="http://en.wikipedia.org/wiki/DirectShow" class="extURL" target="_blank">DirectShow</a> filter.   

@@ -12,7 +12,7 @@ uid: c9afe5e8-fb47-4ce6-8fc7-618925417ed8
 
 
 
-vvvv can talk to Pd via the FUDI and [OSC](TODO INTERNALLINK:protocols#osc) protocols or directly via [UDP or TCP](TODO INTERNALLINK:protocols#udp-tcp).  
+vvvv can talk to Pd via the FUDI and [OSC](xref:5c4b731d-1e09-44ab-8bc9-8e4bae97bc75) protocols or directly via [UDP or TCP](xref:f77e634d-00d7-4cb1-b9d4-69573c6b9bcd).  
 
 Examples in your vvvv\girlpower\ directory:  
 * IO\Networking\1_Simple (FUDI)  

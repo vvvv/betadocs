@@ -6,7 +6,7 @@ uid: fe316c6e-bcd0-44e0-bde8-9e987e56bc5c
 
 Lets start with the famous MrWiggle effect, it distorts a mesh by sine waves:  
 
-The vertex shader is called for each vertex of the mesh. As you have learned [here](TODO INTERNALLINK:tutorial effects vertexshader preparations), the input of the vertex shader is the data stored in the vertex of the mesh which is now processed:  
+The vertex shader is called for each vertex of the mesh. As you have learned [here](xref:efe56243-ca3e-4980-a8cb-8b4e086fdf25), the input of the vertex shader is the data stored in the vertex of the mesh which is now processed:  
 
 ``` ((lang=hlsl, line=0):  
 vs2ps VS(  
@@ -61,7 +61,7 @@ And the patch accordingly:
 
 ![mr wiggle patch](~/img/Basic_2010.11.26-17.09.16.png "mr wiggle patch")   
 ---  
-Next: [Function Printing](TODO INTERNALLINK:Tutorial Effects - Function Printing)  
-Back: [Vertexshader Preparations](TODO INTERNALLINK:Tutorial Effects - Vertexshader Preparations)  
-TOC: [Of Effects and Shaders](TODO INTERNALLINK:Tutorial - Of Effects and Shaders)  
+Next: [Function Printing](xref:3673bac8-2d38-4de1-8d09-e1e23109b9ad)  
+Back: [Vertexshader Preparations](xref:efe56243-ca3e-4980-a8cb-8b4e086fdf25)  
+TOC: [Of Effects and Shaders](xref:1f40bd64-bc93-4263-98c8-50616b9f5c5c)  
 

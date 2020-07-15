@@ -26,5 +26,5 @@ Examples in your vvvv\girlpower\ directory:
 * Graphics\SVG  
 
 **See also:**  
-* [SVG](TODO INTERNALLINK:SVG)  
+* [SVG](xref:2600b4fc-ebee-492b-a395-bc3c93af2785)  
 

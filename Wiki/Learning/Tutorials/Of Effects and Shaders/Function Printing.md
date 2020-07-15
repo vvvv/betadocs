@@ -10,7 +10,7 @@ For the following examples we use a <span class="node">Grid (EX9.Geometry)</span
 
 ##  f(x, y) = z
 
-Create a new z coordinate by x and y. Using [the MrWiggle example](TODO INTERNALLINK:tutorial effects mr. wiggle) we could write:   
+Create a new z coordinate by x and y. Using [the MrWiggle example](xref:fe316c6e-bcd0-44e0-bde8-9e987e56bc5c) we could write:   
 
 ```hlsl  
 float2 Frequency = 10;  
@@ -123,6 +123,6 @@ vs2ps VS(
 And the patch:  
 ![cone patch](~/img/FunctionPrint_2010.11.26-20.51.15.png "cone patch")   
 ---  
-Next: [Vertex Data](TODO INTERNALLINK:Tutorial Effects - Vertex Data)  
-Back: [Mr. Wiggle](TODO INTERNALLINK:Tutorial Effects - Mr. Wiggle)  
+Next: [Vertex Data](xref:b36fb6d0-734d-4f7f-b213-d47dc9d90169)  
+Back: [Mr. Wiggle](xref:fe316c6e-bcd0-44e0-bde8-9e987e56bc5c)  
 TOC: ((Tutorial - Of Effects and Shaders|Of Effects and Shaders))

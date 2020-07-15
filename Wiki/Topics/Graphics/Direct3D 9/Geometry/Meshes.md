@@ -25,8 +25,8 @@ Examples in your vvvv\girlpower\ directory:
 * Graphics\DX9\Geometry  
 
 **See also:**  
-* [How to work with Collada](TODO INTERNALLINK:collada)  
-* [How to work with XFiles](TODO INTERNALLINK:HowTo prepare X Files)  
+* [How to work with Collada](xref:c9f8e059-dcf9-4712-a877-a200b17d7f76)  
+* [How to work with XFiles](xref:3ac2ed1f-db6d-4f0f-8679-80183ab51517)  
 * <a href="https://vvvv.org/contributions/1353+1351+2439+1352+7934+2438+1354+1355/8106+5207+2063+1679+3453" class="extURL" target="_blank">Related Contributions</a>  
 
 

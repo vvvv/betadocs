@@ -77,10 +77,10 @@ See the helppatches of these nodes for details.
 ![](~/img/patching-automata.png "")  
 
 
-When patching anything that can be separated into a series of states and events that cause transition from one state to another you are likely looking for <span class="node">Automata (Animation)</span>. Also the [Timerliner](TODO INTERNALLINK:timelinersa#automata) has an automata built in.  
+When patching anything that can be separated into a series of states and events that cause transition from one state to another you are likely looking for <span class="node">Automata (Animation)</span>. Also the [Automata](xref:76f3717c-5da9-4a2a-9d53-4c5b982291a6#automata) has an automata built in.  
 
 **See also:**  
-* [Graphic Automata](TODO INTERNALLINK:graphicalautomata)  
+* [Graphic Automata](xref:250959b9-c2b3-420e-ad36-0b7c6b784fb6)  
 
 
 

@@ -21,8 +21,8 @@ Examples in your vvvv\girlpower\ directory:
 * IO\Web\07_Transparent Flash  
 
 **See also:**  
-* [Using HTML in vvvv](TODO INTERNALLINK:software#html)  
-* [Using Flash in vvvv](TODO INTERNALLINK:flash)  
+* [Using HTML in vvvv](xref:93574e71-b9a2-44ed-8a22-e3fbbdeac357)  
+* [Using Flash in vvvv](xref:25f07df4-a292-4f0e-8282-b3112d9007f3)  
 
 
 

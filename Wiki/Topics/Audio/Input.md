@@ -26,7 +26,7 @@ Examples in your vvvv\girlpower\ directory:
 
 To get a sound that you're playing on your PC into vvvv, use <span class="node">AudioIn (DShow9)</span> or <span class="node">AudioIn (Bass Asio)</span> nodes. Select the *'Stereo Mix*' (sometimes called *'Rec. Playback*' or similar) option on its <span class="pin">Driver</span> pin.  
 
-Problems getting sound into vvvv? See [accessing stereo mix](TODO INTERNALLINK:accessing stereo mix).  
+Problems getting sound into vvvv? See [accessing stereo mix](xref:dbe5c817-bf69-4bdf-83bf-39d673772523).  
 
 Examples in your vvvv\girlpower\ directory:  
 * Audio  

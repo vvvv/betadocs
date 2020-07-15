@@ -27,7 +27,7 @@ Simply put, clients cannot only obey to one master but receive patches and value
 
 Practically the only thing you need to do to assign a client to multiple servers, is starting it with additional /client commandline parameters, like:  
  /client 192.168.0.100 /client 192.168.0.200:5555
-Note that here it is necessary to use a different port for every connection as described in the [FAQ](TODO INTERNALLINK:boygrouping#faq).  
+Note that here it is necessary to use a different port for every connection as described in the [the ports it uses for boygrouping](xref:d13e8bc8-1fe1-4a85-92ac-a6911ae00455).  
 
 >note:It is important to make sure all servers were started before any of the clients did startup. Otherwise the behavior maybe quite random.  
 
@@ -41,7 +41,7 @@ Note that here it is necessary to use a different port for every connection as d
 *Server2*  
 
 
-Using Send / Receive nodes on ***Server1*** and ***Server2*** respectively allows to transfer Layers or any other data of the [Node Datatype](TODO INTERNALLINK:patching-basics#data-types)!  
+Using Send / Receive nodes on ***Server1*** and ***Server2*** respectively allows to transfer Layers or any other data of the [node-connection](xref:10b82e0c-720a-48e1-91e4-d8c65d2c3be1#data-types)!  
 
 **How to do this**  
 On *Server1* you want a boygrouped <span class="node">S (Node)</span>, on *Server2* you want a boygrouped <span class="node"> R (Node)</span>.  

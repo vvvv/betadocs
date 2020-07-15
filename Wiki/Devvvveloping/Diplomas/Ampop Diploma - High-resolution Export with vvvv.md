@@ -44,5 +44,5 @@ Define the rules and give orders, then leave it to the machine to carry them out
 [http://diploma.ampop.net]  
 
 #  Everything changed
-I had to change a few things, so all the prior work presented is pretty outdated, but can still be found here: [ampop_diploma_old](TODO INTERNALLINK:ampop_diploma_old)  
+I had to change a few things, so all the prior work presented is pretty outdated, but can still be found here: [ampop_diploma_old](xref:52eabf9a-25d1-458d-b582-9029cdf1038b)  
 And maybe sometime I'll pick up my old direction and continue the creation of the vvvv print manual.

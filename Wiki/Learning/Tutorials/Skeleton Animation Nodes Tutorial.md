@@ -5,7 +5,7 @@ uid: 4c4a36ab-7a01-45dc-a4f9-9ed88c319918
 # Skeleton Animation Nodes Tutorial
 
 
-I uploaded a patch showing most of the nodes described below, plus the ones from the [skinning tutorial](TODO INTERNALLINK:SkinningWithSkeletonNodes) - download it here: <a href="http://sagishi.zive.at/vvvvwiki/walkingboxes.rar" class="extURL" target="_blank">walkingboxes.rar</a>  
+I uploaded a patch showing most of the nodes described below, plus the ones from the [skinning tutorial](xref:435355ec-58d2-4381-8e1f-a2b5821cb18e) - download it here: <a href="http://sagishi.zive.at/vvvvwiki/walkingboxes.rar" class="extURL" target="_blank">walkingboxes.rar</a>  
 
 # Before we start ...
 
@@ -23,7 +23,7 @@ To be able to pass skeletal information from one VVVV node to another, the "type
 
 # I guess we can start: creating skeletons
 
-One way of using character rigs in VVVV of course is importing them from an external 3D modelling package like Maya. This can be done easily by using the [Collada Importer](TODO INTERNALLINK:COLLADA) provided by VVVV. Another approach is creating the skeleton data inside VVVV. There are two ways of doing that: a *spread-based* and a *graph-based* way, both having advantages and disadvantages.  
+One way of using character rigs in VVVV of course is importing them from an external 3D modelling package like Maya. This can be done easily by using the [Collada Importer](xref:c9f8e059-dcf9-4712-a877-a200b17d7f76) provided by VVVV. Another approach is creating the skeleton data inside VVVV. There are two ways of doing that: a *spread-based* and a *graph-based* way, both having advantages and disadvantages.  
 
 Using the node <span class="node">CreateJoint (Skeleton)</span> is the way to go, if you wish to create skeletons based on spreads - for example if you want a dynamic skeleton, with an arbitrary number of joints (which you actually might not even know), and arbitrary topology. It takes spreads of data, one slice for each joint, and outputs a *Skeleton*-object based on this. This is an example of how you would use <span class="node">CreateJoint (Skeleton)</span>:  
 

@@ -12,7 +12,7 @@ they all have a big advantage: you don't need to install any drivers.
 vvvv includes two nodes for communication with Artnet:  
 * <span class="node">DMX (Network Artnet Sender)</span>  
 * <span class="node">DMX (Network Artnet Receiver)</span>   
-but this is by far not the only advantage: visit [DMX.Artnet](TODO INTERNALLINK:DMX.Artnet) to find out more.  
+but this is by far not the only advantage: visit [DMX.Artnet](xref:268ce39d-8d40-41ed-bc01-e9e0a1e2587b) to find out more.  
 for sure there are more products offering Artnet functionality but all devices listed below have been used with vvvv. basically every Artnet Devices should work with vvvv.  
 
 ## Artistic Licence Etherlynx
@@ -35,7 +35,7 @@ you need a look at the user manual (or access to www...) to force the <a href="h
 <a href="http://cinetix.de/interface/english/index.htm" class="extURL" target="_blank">www.cinetix.de</a>. Interface can be controlled via virtual COM-Port/RS232. Modules for sending and reading DMX with the cinetix box can be found at <span class="user"><a href="https://vvvv.org/users/MSBERGER" class="extURL" target="_blank">MSBERGER</a></span>.   
 ## DMX4ALL USB-interfaces
 The <a href="http://www.onlineshop.dmx4all.de/DMX4ALL-DMX-Interfaces:28.html" class="extURL" target="_blank">DMX4ALL USB Interfaces</a> are a family of DMX USB interfaces using a virtual COM-Port and a good documented protocol by <a href="http://www.dmx4all.de" class="extURL" target="_blank">DMX4ALL</a>.  
-A module for these interfaces can be found here [module](TODO INTERNALLINK:msberger.Modules.Devices)  
+A module for these interfaces can be found here [module](xref:93a5016b-ee04-4358-8a18-5060c4761131)  
 
 ## Enttec Open DMX USB
 <span class="user"><a href="https://vvvv.org/users/catweasel" class="extURL" target="_blank">catweasel</a></span>.  
@@ -83,7 +83,7 @@ you should get all those plugs at CONRAD Elektronik (normally on stock in the sh
 
 If you act on this advice i am very sure that your DMX4all-device is failure-proof.  
 Be sure that you don't have to control much more than 50 DMX channels because the performance of this device is not really that good.   
-be sure to use V1.5 of DMX (Devices DMX4all.v4p) which can be downloaded at [kalle.Modules](TODO INTERNALLINK:kalle.Modules)   
+be sure to use V1.5 of DMX (Devices DMX4all.v4p) which can be downloaded at [kalle.Modules](xref:)   
 patch your spreads to the input of that node and there you go.  
 
 <span class="user"><a href="https://vvvv.org/users/MSBERGER" class="extURL" target="_blank">MSBERGER</a></span> writes:  

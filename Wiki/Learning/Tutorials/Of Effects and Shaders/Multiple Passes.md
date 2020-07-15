@@ -4,10 +4,10 @@ uid: 39838eb2-c610-47d7-ad8f-79c7bdb2cda4
 
 # Multiple Passes
  
-While effects can have multiple passes per technique as outlined in [EX9.Effect.File](TODO INTERNALLINK:EX9.Effect.File) there is no way (in vvvv) to access the color returned in the pixelshader of pass 1 in pass 2. For such kind of multipass effects we need to go the round via <span class="node">Renderer (EX9)</span> and using its output as a texture via <span class="node">DXTexture (EX9.Texture)</span> as an input to another effect.  
+While effects can have multiple passes per technique as outlined in [EX9.Effect.File](xref:7c9dc29b-1e01-41d8-b256-618f5d27e939) there is no way (in vvvv) to access the color returned in the pixelshader of pass 1 in pass 2. For such kind of multipass effects we need to go the round via <span class="node">Renderer (EX9)</span> and using its output as a texture via <span class="node">DXTexture (EX9.Texture)</span> as an input to another effect.  
 
 ## Effect Chain
-As promised in [Neighbouring Pixels](TODO INTERNALLINK:tutorial effects - neighbouring pixels) here is how to chain the horizonal and vertical blurs in a way to achieve a perfectly smooth blur in both directions.  
+As promised in [Neighbouring Pixels](xref:0f0f3bcc-cf68-44bb-804c-66a86c1e84ec) here is how to chain the horizonal and vertical blurs in a way to achieve a perfectly smooth blur in both directions.  
   
 ![](~/img/multipass_1.png "")   
   
@@ -87,6 +87,6 @@ sampler Samp = sampler_state    //sampler for doing the texture-lookup
 Note how all the filtering is disabled. This allows the truely working with unique pixels and not letting the graphiccard interpolate between pixels which would make no sense in this application where a pixel must only be black or white, but no shade gray.  
 
 ---  
-Next: [Vertexshader Preparations](TODO INTERNALLINK:Tutorial Effects - Vertexshader Preparations)   
-Back: [Multiple Textures](TODO INTERNALLINK:Tutorial Effects - Multiple Textures)  
+Next: [Vertexshader Preparations](xref:efe56243-ca3e-4980-a8cb-8b4e086fdf25)   
+Back: [Multiple Textures](xref:28981d7f-9b61-4d05-8bd6-7b1e87010a34)  
 TOC: ((Tutorial - Of Effects and Shaders|Of Effects and Shaders))

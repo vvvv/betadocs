@@ -41,8 +41,8 @@ uid: 086375e6-a403-472b-84dd-7b95a13bdde2
 ## Links
 VVVV  
 * DMX  
-* [HowTo DMX Advanced](TODO INTERNALLINK:HowTo DMX Advanced)  
-* [kalle.Modules.DMX](TODO INTERNALLINK:kalle.Modules.DMX)  
+* [HowTo DMX Advanced](xref:b54e17f0-5939-4e9e-bdd3-0ef7d2623929)  
+* [A range of DMX Modules](xref:)  
 
 WWW  
 * [http://en.wikipedia.org/wiki/Digital_Multiplex]  

@@ -14,7 +14,7 @@ The Timeliner allows you to define keyframes of values, strings and colors over 
 * Create the <span class="node">Timeliner (Animation)</span> node.  
 
 For detailed informations on how to operate the timeline see  
-* [Timeliner in detail](TODO INTERNALLINK:timelinersa)  
+* [this dedicated page](xref:76f3717c-5da9-4a2a-9d53-4c5b982291a6)  
 
 
 

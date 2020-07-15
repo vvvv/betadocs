@@ -17,7 +17,7 @@ uid: be4d1a0f-7227-4494-bf83-459bab468dcf
 ...and many more  
 
 
-For more information about using the Kinect with vvvv, check this dedicated [Kinect page](TODO INTERNALLINK:kinect). Also most of the kinect nodes have a helppatch to check out.  
+For more information about using the Kinect with vvvv, check this dedicated [Kinect page](xref:3b9ca0a3-eaaf-4d22-ae3c-7bc2b4949fd8). Also most of the kinect nodes have a helppatch to check out.  
 
 **The kinect nodes are contributed by <span class="user"><a href="https://vvvv.org/users/vux" class="extURL" target="_blank">vux</a></span>, <span class="user"><a href="https://vvvv.org/users/phlegma" class="extURL" target="_blank">phlegma</a></span> and  <span class="user"><a href="https://vvvv.org/users/joreg" class="extURL" target="_blank">joreg</a></span> and are coming with the <a href="https://vvvv.org/downloads#addonpack" class="extURL" target="_blank">addonpack</a> and the <a href="https://vvvv.org/contribution/directx11-nodes" class="extURL contribution" target="_blank">DX11 Pack</a>.**  
 

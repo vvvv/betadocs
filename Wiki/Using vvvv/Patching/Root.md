@@ -6,10 +6,10 @@ uid: 5eea935d-c82d-4b89-8403-1fbc1d79fb93
 
 ![](~/img/BasicPatching_Cascading.png "")  
  
-*Cascading structure of subpatches as seen in the [Finder](TODO INTERNALLINK:the-gui#finder) window*  
+*Cascading structure of subpatches as seen in the [Finder](xref:869d5933-4693-4b32-a7f3-5b7cfcc3a07f) window*  
 
 
-The Root patch is the patch on top of the [hierarchy of patches](TODO INTERNALLINK:subpatches). It is the only patch that does not have a parentpatch.   
+The Root patch is the patch on top of the [SubPatches](xref:b66f153a-f7c3-4867-a8c9-bce69861d759). It is the only patch that does not have a parentpatch.   
 
 The root patch automatically loaded on start up is the "root.v4p" file next to vvvv.exe. Typically it does not have to be changed. But if you like, you can use it just like any other patch and add nodes and subpatches to it.   
 
@@ -36,4 +36,4 @@ If you close the root patch vvvv will ask what if you want to:
 
 Instead of opening the default "root.v4p" file that ships with vvvv you can also open any other patch as root using one of these two methods:  
 * in windows explorer right-click a .v4p file and choose "Open as Root".   
-* use the /r [commandline](TODO INTERNALLINK:commandline-parameters) option  
+* use the /r [commandline](xref:2eb3d2a2-d4c1-4bc0-bcd8-16e48d756b16) option  

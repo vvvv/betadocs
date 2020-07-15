@@ -32,9 +32,9 @@ Examples in your vvvv\girlpower\ directory:
 
 **See also:**  
 * <a href="https://vvvv.org/contributions/1353+1351+2439+1352+7934+2438+1354+1355/7414+2187" class="extURL" target="_blank">Related Contributions</a>  
-* [A range of DMX Modules](TODO INTERNALLINK:kalle.Modules.DMX) by <span class="user"><a href="https://vvvv.org/users/kalle" class="extURL" target="_blank">kalle</a></span>  
-* [List of DMX Hardware](TODO INTERNALLINK:dmx.hardware)  
-* [node08 DMX workshop material](TODO INTERNALLINK:node08.workshop.DMX)  
+* [A range of DMX Modules](xref:) by <span class="user"><a href="https://vvvv.org/users/kalle" class="extURL" target="_blank">kalle</a></span>  
+* [List of DMX Hardware](xref:1c796b9b-c238-4ebd-be0b-3350f9f1c5aa)  
+* [node08.workshop.DMX](xref:086375e6-a403-472b-84dd-7b95a13bdde2)  
 
 
 

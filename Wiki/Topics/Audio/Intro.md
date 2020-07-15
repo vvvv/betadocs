@@ -28,24 +28,24 @@ Frankly speaking, vvvv is not focused on audio processing. For maximum flexibili
 
 
 # Content
-* [File Playback](TODO INTERNALLINK:Audio File Playback)  
-* [Input](TODO INTERNALLINK:Audio Input)  
-* [Generating Sound](TODO INTERNALLINK:Generating sound)  
-* [Effects](TODO INTERNALLINK:Audio Effects)  
-* [Analysis](TODO INTERNALLINK:Audio Analysis)  
-* [Multichannel Output](TODO INTERNALLINK:Audio Output)  
+* [File Playback](xref:ebe5bc2b-8945-43e5-90fb-5b08c1040347)  
+* [Input](xref:b7494a45-c60f-48fc-80a1-fe8343ad5f37)  
+* [Generating Sound](xref:331b48a6-6dee-4ae3-8808-bf720e9c89e5)  
+* [Effects](xref:b27d2408-4af0-4384-ba30-a6faecb81e5f)  
+* [Analysis](xref:d69020a3-d624-43ec-8ad0-d0dc72632fcd)  
+* [Multichannel Output](xref:909206b2-99b1-40a4-b477-826b7fbfef9d)  
 
 
 
 
 
 # Related
-* [ASIO](TODO INTERNALLINK:ASIO)  
-* [VST](TODO INTERNALLINK:VST)  
-* [Accessing Stereo Mix](TODO INTERNALLINK:Accessing Stereo Mix)  
-* [MIDI](TODO INTERNALLINK:protocols#MIDI)  
-* [OSC](TODO INTERNALLINK:protocols#OSC)  
-* [Audio Links](TODO INTERNALLINK:Audio Links)  
+* [ASIO](xref:8250328d-47b5-4ffd-bae5-1c444868c40a)  
+* [extensive VST-guide](xref:3d0e7863-48f9-4bf9-bd83-c3ecc1f29ca8)  
+* [Accessing Stereo Mix](xref:dbe5c817-bf69-4bdf-83bf-39d673772523)  
+* [MIDI](xref:f829d8c6-d8cd-45b9-bb96-6cb0b78345e2)  
+* [OSC](xref:5c4b731d-1e09-44ab-8bc9-8e4bae97bc75)  
+* [Audio Links](xref:69767712-96d4-4dd6-860a-b6b97a7fcd2f)  
 * <a href="https://vvvv.org/contributions/1353+1351+2439+1352+7934+2438+1354+1355/2579+3812+7127+2238" class="extURL" target="_blank">Audio Contributions</a>  
 
 

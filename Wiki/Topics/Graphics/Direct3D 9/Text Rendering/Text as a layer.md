@@ -20,7 +20,7 @@ Examples in your vvvv\girlpower\ directory:
 * Graphics\DX9\Text  
 
 **See also:**  
-* <a href="https://vvvv.org/contribution/parasitic-design-a-vvvv-beginners-cookbook" class="extURL contribution" target="_blank">The 'Typo' (P.3) chapter</a> of the vvvv take on the ['Generative Gestaltung' book](TODO INTERNALLINK:books#generative-design)  
+* <a href="https://vvvv.org/contribution/parasitic-design-a-vvvv-beginners-cookbook" class="extURL contribution" target="_blank">The 'Typo' (P.3) chapter</a> of the vvvv take on the ['Generative Design'](xref:f8237df9-396a-42e9-bbee-3b6088c58565#generative-design)  
 
 
 

@@ -11,7 +11,7 @@ uid: 2eb3d2a2-d4c1-4bc0-bcd8-16e48d756b16
 
 **/o** opens the patch given by path. This argument followed by a path can be specified any number of times.  
 
-**/r** opens the patch given by path as [root](TODO INTERNALLINK:root) patch. This argument can only be specified once, since there can only be one root-patch.  
+**/r** opens the patch given by path as [root](xref:5eea935d-c82d-4b89-8403-1fbc1d79fb93) patch. This argument can only be specified once, since there can only be one root-patch.  
 
 **Note**   
 The path can be relative to vvvv.exe or absolute.   
@@ -47,7 +47,7 @@ Finishes your project in a clean way: starts vvvv without patch windows. Only re
 #### /client ServerIP:PortNr
 
 
-Start vvvv as boygroup client connecting to the pc specified via [[ServerIP]. Specifying a port is optional. The default (if omitted) is 3333. Note that if you specify a different port here you need to specify the same port via <span class="node">Boygroup (VVVV Server)</span> <span class="pin">Network Port</span>. Also see Boygrouping and [MultiBoygrouping](TODO INTERNALLINK:MultiBoygrouping).  
+Start vvvv as boygroup client connecting to the pc specified via [[ServerIP]. Specifying a port is optional. The default (if omitted) is 3333. Note that if you specify a different port here you need to specify the same port via <span class="node">Boygroup (VVVV Server)</span> <span class="pin">Network Port</span>. Also see Boygrouping and [MultiBoygrouping](xref:511c5e9e-a4b0-4f82-914b-2231cea23cfe).  
 
 
 
@@ -55,7 +55,7 @@ Start vvvv as boygroup client connecting to the pc specified via [[ServerIP]. Sp
 #### /server
 
 
-Start vvvv as boygroup server. Also see Boygrouping and [MultiBoygrouping](TODO INTERNALLINK:MultiBoygrouping).  
+Start vvvv as boygroup server. Also see Boygrouping and [MultiBoygrouping](xref:511c5e9e-a4b0-4f82-914b-2231cea23cfe).  
 
 
 
@@ -88,7 +88,7 @@ Since beta32 vvvv defaults to <a href="http://msdn.microsoft.com/en-us/library/w
 #### /debug
 
 
-Starts vvvv in [Debug Mode](TODO INTERNALLINK:Debug Mode).  
+Starts vvvv in [Debug Mode](xref:36621302-10e7-47fe-a8d0-b609c758974d).  
 
 
 

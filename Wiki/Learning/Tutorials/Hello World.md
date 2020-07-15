@@ -3,10 +3,10 @@ uid: eb717348-39dc-4687-a8d4-44db6c491c76
 ---
 
 # Hello World
-The following tutorial assumes no prior knowledge of vvvv. Every single step you need to understand to complete the tutorial will be explained. Still you may be curious about some more details of dealing with vvvvs user interface. If you are missing something have a look at [The User Interface in Detail](TODO INTERNALLINK:The User Interface in Detail). But don't forget to come  back here!  
+The following tutorial assumes no prior knowledge of vvvv. Every single step you need to understand to complete the tutorial will be explained. Still you may be curious about some more details of dealing with vvvvs user interface. If you are missing something have a look at [The User Interface in Detail](xref:f63e83e8-88d2-4eeb-818f-5bfed4060a77). But don't forget to come  back here!  
 
 # We begin. Now really. 
-So you have just started vvvv and you are facing a gray window (if not, read the [Introduction](TODO INTERNALLINK:Tutorial Introduction) first) and you wonder where all the buttons, menus and scrollbars are waiting for you to click and drag. Here you are.   
+So you have just started vvvv and you are facing a gray window (if not, read the [Introduction](xref:e87fb3bc-1512-456a-9529-8b901f459dc6) first) and you wonder where all the buttons, menus and scrollbars are waiting for you to click and drag. Here you are.   
 
 # The Main Menu
 Press your middle mouse button (or SPACE + right button if you don’t have a middle mouse button) and see the main menu. Here you find all the usual suspects.  
@@ -14,11 +14,11 @@ Press your middle mouse button (or SPACE + right button if you don’t have a mi
 For now just create a *New Patch CTRL+P* and notice that this patch appears with the top left corner exactly under your cursor. This is useful because you can now simply click and drag to position the patch in a fine place on screen.   
 
 # Creating a Node
-Now left double-click anywhere in the patch. The [Node Browser](TODO INTERNALLINK:the-gui#node-browser) appears with a seemingly endless list of nodes you can choose from. By starting to type a name the list gets filtered for your input helping you to look for specific functionality. If instead of an alphabetical listing you want to get an overview sorted by categories, simply right-click the text field. Now you're in the category-view of the nodebrowser. Here you can click any of the categories to see which nodes belong to it. Press the T button in the nodebrowsers topright corner to go back to its tag-view.  
+Now left double-click anywhere in the patch. The [Node Browser](xref:eeb8526d-0085-4219-a138-32ac397853f1) appears with a seemingly endless list of nodes you can choose from. By starting to type a name the list gets filtered for your input helping you to look for specific functionality. If instead of an alphabetical listing you want to get an overview sorted by categories, simply right-click the text field. Now you're in the category-view of the nodebrowser. Here you can click any of the categories to see which nodes belong to it. Press the T button in the nodebrowsers topright corner to go back to its tag-view.  
 
 For now simply press *+* to filter for all nodes that have a *+* character in their name and then click on the one named: <span class="node">+ (Value)</span> (the word “Value” preceded by the sign “+”). Note: do not confuse it with <span class="node">+ (Value Spectral)</span>!  
 
-Also see this [Video Tutorial](TODO INTERNALLINK:video-tutorials#vvvv-tutorial-2-menu-moving-and-scaling-and-node-creation.).   
+Also see this [Video Tutorial](xref:09f00508-01d4-4eac-b6d3-4dace5b00d99#vvvv-tutorial-2-menu-moving-and-scaling-and-node-creation).   
 # Node Names and Categories
 A node's name consists of several parts:  
 **NodeName (Category Version1 Version2 ... VersionN)**  
@@ -36,7 +36,7 @@ For easier handling of the input/output values you can create IOBoxes that help 
 # Connecting nodes
 To connect the IOBoxes to the <span class="node">+ (Value)</span> node move the cursor over the output of an IOBox and left-click once. Notice that all pins that would accept this connection have grown. Now click anywhere in the patch if you want to make a segmented connection. Finally move your cursor over an input of the <span class="node">+ (Value)</span> node and click once more. Alternatively you can start a connection from an input pin and finish it on an output pin.   
 
-Also see this [Video Tutorial](TODO INTERNALLINK:video-tutorials#tutorial-3-inlets-outlets-and-connections).  
+Also see this [Video Tutorial](xref:09f00508-01d4-4eac-b6d3-4dace5b00d99#tutorial-3-inlets-outlets-and-connections).  
 
 Right-clicking after you have started a connection will cancel it. You can delete an existing connection between two pins by selecting it (left-click) and then either right-clicking on it or pressing DEL/ENTF or BACKSPACE.  
 
@@ -92,8 +92,8 @@ Moving the mouse up and down over the renderer should now interactively change t
 # Further experimenting
 Your masterpiece is now finished and you can take a rest. If you see no way of stopping at this moment, you may want to play around a bit with the other nodes found in the categories **GDI** or simply view their HelpPatch.  
 
-Do also not forget to have a look at [The User Interface in Detail](TODO INTERNALLINK:The User Interface in Detail), for it will teach you many additional tricks for faster and more intuitive patching.  
+Do also not forget to have a look at [The User Interface in Detail](xref:f63e83e8-88d2-4eeb-818f-5bfed4060a77), for it will teach you many additional tricks for faster and more intuitive patching.  
 
-There is an [ 'Hello World' tutorial](TODO INTERNALLINK:video-tutorials#tutorial-5-renderer-and-show-some-text), and a second, [more advanced](TODO INTERNALLINK:video-tutorials#tutorial-6-move-and-color-some-text) one in the Video Tutorial Section.  
+There is an [ 'Hello World' tutorial](xref:09f00508-01d4-4eac-b6d3-4dace5b00d99#tutorial-5-renderer-and-show-some-text), and a second, [more advanced](xref:09f00508-01d4-4eac-b6d3-4dace5b00d99#tutorial-6-move-and-color-some-text) one in the Video Tutorial Section.  
 
-If you feel confident with what you've learned in this tutorial you should now continue with tutorial 2: [Herr Inspektor](TODO INTERNALLINK:Tutorial Inspektor).
+If you feel confident with what you've learned in this tutorial you should now continue with tutorial 2: [Herr Inspektor](xref:61440fc4-4815-406c-b97a-c0abfd97cd6f).

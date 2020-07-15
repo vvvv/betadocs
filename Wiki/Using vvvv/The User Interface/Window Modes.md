@@ -7,7 +7,7 @@ uid: 5aa4e8e0-fc2c-4112-a985-7f4f0208bf48
 ![](~/img/BasicPatching_WindowModes_0.png "")   
 
 
-Each window in vvvv also has a node associated. In other words: some nodes in vvvv have an associated window. You can identify those nodes by their [icons](TODO INTERNALLINK:patching-basics#node).   
+Each window in vvvv also has a node associated. In other words: some nodes in vvvv have an associated window. You can identify those nodes by their [icons](xref:10b82e0c-720a-48e1-91e4-d8c65d2c3be1#node).   
 
 Nodes with windows can be displayed in four modes:  
 * Hidden: only the node is visible  

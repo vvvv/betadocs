@@ -39,7 +39,7 @@ since the color is not a component of the vertexbuffer but a parameter for the e
 >note:  
 with this approach all the calculation of the morphed positions and normals is done on the CPU. also a new vertexbuffer and/or mesh is created every frame the "Apply" pin is 1 on the respective nodes which costs some time.   
 
-this poses no problem as long as you are working with relatively small meshes. if you get the feeling that everything is getting a bit slow read on about the cooler [gpu based](TODO INTERNALLINK:Tutorial Geometry Morphing GPU1) approach.  
+this poses no problem as long as you are working with relatively small meshes. if you get the feeling that everything is getting a bit slow read on about the cooler [gpu based](xref:a1af3b44-af68-4ce5-8a46-57a0561596f9) approach.  
   
 
 ## bonus

@@ -10,13 +10,13 @@ uid: 9fb98fc4-377b-49be-87ee-2c4741183b7c
 
 In order to create a dynamic c# plugin doubleclick in a patch to open the nodebrowser. Type "Template" to get a list of templates which you can choose to start from. Choose one of the templates prefixed with *d* and press *CTRL+Enter* or *CTRL+Click* to clone the template.   
 
-In the dialog that now shows up choose a unique *Name* and *Category* for your node. Specifying a *Version* is optional, see [NodeAndPinNaming](TODO INTERNALLINK:conventions.nodeandpinnaming).   
+In the dialog that now shows up choose a unique *Name* and *Category* for your node. Specifying a *Version* is optional, see [NodeAndPinNaming](xref:db8592a2-03c3-4e8c-a540-d11df5e83078).   
 
 If the patch you're cloning in is not yet saved you'll also have to specify a path where to clone to. It is therefore always recommended to save the patch first because then the clone conveniently goes to a subdirectory of the patch.  
 
 Press *Clone* to see your ready plugin appear in the patch. Rightclick the node to open the code-editor.   
 
-Use the [Project Explorer](TODO INTERNALLINK:the-gui#project-explorer) to add/remove documents or references to a plugin.   
+Use the [Project Explorer](xref:721e9e4b-dec5-4786-878e-3efc4f09c5e7) to add/remove documents or references to a plugin.   
 
 
 ## PluginInfo

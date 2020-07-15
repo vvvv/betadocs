@@ -14,7 +14,7 @@ uid: 896a918a-77fa-4ebd-9145-1566db672b09
 Multitouch support of various devices running Windows7/8 (like 3M, Surface Pro, Dell Touchmonitor, PQLabs Frame) is available via <span class="node">Touch (Devices Window)</span>  
 
 **TUIO touch devices**  
-Some devices (like PQLabs Frame) are using the [TUIO protocol](TODO INTERNALLINK:protocols#tuio) to transfer the multitouch data.  
+Some devices (like PQLabs Frame) are using the [TUIO protocol](xref:ea63b7e1-542d-41a0-bbc4-1914a82c0db0) to transfer the multitouch data.  
 
 **Microsoft Surface 1.0 (Table)**  
 * <a href="https://vvvv.org/contribution/microsoft-surface-%28table%29-plugin" class="extURL contribution" target="_blank">The Contribution</a> by <span class="user"><a href="https://vvvv.org/users/jens.a.e" class="extURL" target="_blank">jens.a.e</a></span> and <span class="user"><a href="https://vvvv.org/users/u7angel" class="extURL" target="_blank">u7angel</a></span>  

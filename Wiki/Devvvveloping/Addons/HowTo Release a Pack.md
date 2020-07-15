@@ -21,4 +21,4 @@ uid: b5cb6815-294b-44ff-94cf-365b2e4d6a81
 
 You can also set a version for your pack and create diffffs in case you want to change namings from one release to the next, see: <a href="https://vvvv.org/blog/patch-conversions-pack-versioning" class="extURL blog" target="_blank">Patch Conversions & Pack Versioning</a>  
 
-And here is how to [use a Pack](TODO INTERNALLINK:using-addons#other-packs).  
+And here is how to [use a Pack](xref:772e8696-25d4-4d8b-a31b-db4dd1ce1f3f#other-packs).  

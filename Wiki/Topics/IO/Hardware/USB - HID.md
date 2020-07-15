@@ -15,7 +15,7 @@ uid: b6b63f97-b084-414f-a298-8784c92e19fd
 Any device with an USB port and a HID (Human Interface Device) profile installed can be connected to vvvv.  
 
 **See also:**  
-* [HID protocol wiki-page](TODO INTERNALLINK:protocols#hid)  
+* [HID protocol wiki-page](xref:b99bfb62-eab8-4b5f-921d-8a56d14305a3)  
 
 
 

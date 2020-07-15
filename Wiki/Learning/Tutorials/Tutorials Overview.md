@@ -6,15 +6,15 @@ uid: c5008f4e-f136-4cf5-915e-dbf32e4e5a70
 
 ## Basic Tutorials
 ### in written form
-* [Introduction](TODO INTERNALLINK:Tutorial Introduction)  
-* [Hello World](TODO INTERNALLINK:Tutorial Hello World)  
-* [Herr Inspektor](TODO INTERNALLINK:Tutorial Inspektor)  
-* [Spread them Data I](TODO INTERNALLINK:Tutorial Spreads)  
-* [IOBoxes](TODO INTERNALLINK:Tutorial IOBoxes)  
-* [Spread them Data II](TODO INTERNALLINK:Tutorial SpreadsII)  
+* [Introduction](xref:e87fb3bc-1512-456a-9529-8b901f459dc6)  
+* [Hello World](xref:eb717348-39dc-4687-a8d4-44db6c491c76)  
+* [Herr Inspektor](xref:61440fc4-4815-406c-b97a-c0abfd97cd6f)  
+* [Spread them Data](xref:e9d19f29-9c2b-4afb-9386-f98318d4bfba)  
+* [IOBoxes](xref:86693dba-d049-4027-874d-d53f0437ad66)  
+* [Spread them Data II](xref:5521e091-b068-4170-a28e-ea928208edb9)  
 
 ### samesame but different
-* [English Video Tutorials](TODO INTERNALLINK:Video Tutorials)  
+* [English Video Tutorials](xref:09f00508-01d4-4eac-b6d3-4dace5b00d99)  
 * <a href="https://www.youtube.com/channel/UCa8Vqigdbq5Gam_6dcGdNBw" class="extURL" target="_blank">vveekend vvorkshops</a>  
 * <a href="http://www.youtube.com/playlist?list=PLqjkdWFcBMk8gVdbGuSqwi4q1ihr7LcaW" class="extURL" target="_blank">Japanese Video Tutorials</a>  
 * <a href="http://vvvv-jp.tumblr.com/tutorial" class="extURL" target="_blank">Japanese Written Tutorials</a>  
@@ -37,18 +37,18 @@ uid: c5008f4e-f136-4cf5-915e-dbf32e4e5a70
 * <a href="https://vvvv.org/blog/node17-workshop-video-captures" class="extURL blog" target="_blank">NODE17 workshops video captures</a>  
 * <a href="http://prototypinginterfaces.com/category/patches/" class="extURL" target="_blank">Examples</a> of the <a href="http://prototypinginterfaces.com/" class="extURL" target="_blank">Prototyping Interfaces</a> book  
 * <a href="https://vvvv.org/contribution/parasitic-design-a-vvvv-beginners-cookbook" class="extURL contribution" target="_blank">Parasitic Design</a> examples of the <a href="http://www.generative-gestaltung.de" class="extURL" target="_blank">Generative Design</a> book   
-* [Of Effects and Shaders](TODO INTERNALLINK:tutorial-of-effects-and-shaders)  
+* [Tutorial of Effects and Shaders](xref:1f40bd64-bc93-4263-98c8-50616b9f5c5c)  
 * <a href="https://vvvv.org/contribution/video-effects-and-compositing-tutorials" class="extURL contribution" target="_blank">Video Effects and Compositing</a>  
 * <a href="https://vvvv.org/contribution/particlesgpu-library-guide" class="extURL contribution" target="_blank">Particles on the GPU</a>  
-* [Geometry Morphing](TODO INTERNALLINK:Tutorial Geometry Morphing)  
-* [Tips, Hints and Tricks](TODO INTERNALLINK:westtricks)  
-* [How To Project On 3D Geometry](TODO INTERNALLINK:How To Project On 3D Geometry)  
-* [Skinning With Skeleton Nodes](TODO INTERNALLINK:SkinningWithSkeletonNodes)  
-* [Skeleton Animation Nodes Tutorial](TODO INTERNALLINK:Skeleton Animation Nodes Tutorial)  
-* [Wave Simulation](TODO INTERNALLINK:Wave Simulation)  
-* [Writing Freeframe Plugins](TODO INTERNALLINK:Writing Freeframe Plugins)  
+* [Geometry Morphing](xref:3454bd11-2ab3-4aea-946f-74b715eb3b4f)  
+* [Tips, Hints and Tricks](xref:0bfe3503-857a-490b-832b-1359a25dba1b)  
+* [How To Project On 3D Geometry](xref:e270f10f-568b-4fc3-83ba-8315208e0e8d)  
+* [skinning tutorial](xref:435355ec-58d2-4381-8e1f-a2b5821cb18e)  
+* [a previous tutorial](xref:4c4a36ab-7a01-45dc-a4f9-9ed88c319918)  
+* [Wave Simulation](xref:8d503cd3-0df3-4acd-b521-ac99e96f633b)  
+* [Writing Freeframe Plugins](xref:ba0e897c-3be4-42c6-b340-5509519d15cf)  
 * <a href="http://wiring.org.co/learning/tutorials/vvvv/" class="extURL" target="_blank">Interfacing the Wiring hardware and VVVV</a>  
-* [Projection Mapping Primer](TODO INTERNALLINK:Projection Mapping Primer)  
+* [Projection Mapping Primer](xref:d09ac451-f613-447d-afaa-5a32cdc1ce8c)  
 
 
 

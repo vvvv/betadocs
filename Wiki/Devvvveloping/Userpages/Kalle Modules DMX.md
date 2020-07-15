@@ -6,9 +6,9 @@ uid: c713ec72-d985-445b-95df-0909e6409973
 >feel free to use this site for linking to your own DMXmodules.  
 
 and don't miss   
-* **[node08.workshop.DMX](TODO INTERNALLINK:node08.workshop.DMX)**  
-* **[HowTo DMX](TODO INTERNALLINK:howto dmx)**   
-* **[HowTo DMX Advanced](TODO INTERNALLINK:howto dmx advanced)**  
+* **[node08.workshop.DMX](xref:086375e6-a403-472b-84dd-7b95a13bdde2)**  
+* **[HowTo DMX](xref:)**   
+* **[HowTo DMX Advanced](xref:b54e17f0-5939-4e9e-bdd3-0ef7d2623929)**  
 
 # + >DMX fixtures and DMX simulations
 ## + Definition

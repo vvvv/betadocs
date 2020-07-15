@@ -25,15 +25,15 @@ Their weakness:
 
 Files that contain markup or other meta-data are generally considered plain-text.   
 
-* Simple peers like <a href="http://en.wikipedia.org/wiki/Comma-separated_values" class="extURL" target="_blank">CSV</a> can be parsed using the nodes from the [String category](TODO INTERNALLINK:strings#plain-text).  
-* For XML files use the [XElement nodes](TODO INTERNALLINK:strings#xml).  
-* For a bit more advanced pattern matching use [Regular Expressions](TODO INTERNALLINK:strings#regular-expressions).  
+* Simple peers like <a href="http://en.wikipedia.org/wiki/Comma-separated_values" class="extURL" target="_blank">CSV</a> can be parsed using the nodes from the [String category](xref:12388a90-72f1-415d-892d-a63403ffedd3).  
+* For XML files use the [XElement nodes](xref:e340b940-5084-40c4-899c-ed1021135b81).  
+* For a bit more advanced pattern matching use [Regular Expressions](xref:899eb389-4a32-4633-a0dd-be489220b0b3).  
 
 Examples in your vvvv\girlpower\ directory:  
 * \IO\Files  
 
 **See also:**  
-* [Handling Plain Text data](TODO INTERNALLINK:strings#plain-text)  
+* [String category](xref:12388a90-72f1-415d-892d-a63403ffedd3)  
 * <a href="https://vvvv.org/contributions/1353+1351+2439+1352+7934+2438+1354+1355/8112+3419" class="extURL" target="_blank">Related Contributions</a>  
 
 

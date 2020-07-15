@@ -6,15 +6,15 @@ uid: 11e284ec-b6b0-47b2-bed3-f90a91e55e91
 
 This is an overview of the most common vvvv patching concepts.  
 
-If you are familiar with textual programming, check the [Programming Concepts](TODO INTERNALLINK:Programming Concepts).  
+If you are familiar with textual programming, check the [Programming Concepts](xref:87d944e5-aeae-451e-839d-58932488ed6e).  
 
 
 
 >note:  
 If you're missing a specific concept you can always implement a little plugin using the built-in VL or c# editors.  
 
-* [Dynamic VL Plugin Reference](TODO INTERNALLINK:dynamic-vl-plugin-reference)  
-* [Dynamic C# Plugin Reference](TODO INTERNALLINK:dynamic-plugins-reference)  
+* [Quick Reference](xref:2879ae37-9e84-42ee-8e2e-8444d274bb6b)  
+* [Dynamic C# Plugin Reference](xref:9fb98fc4-377b-49be-87ee-2c4741183b7c)  
   
 
 
@@ -30,8 +30,8 @@ If you want to go over a list of items and do something to them, you **don't nee
 vvvv allows you to calculate all desired iterations at the same time using spreads and spectral operations.  
 
 **See:**  
-* [Spreads](TODO INTERNALLINK:Spreads)   
-* [Spectral Operations](TODO INTERNALLINK:spread-sinks)  
+* [Spreads](xref:00327d1e-65ba-4424-997d-615d9a469503)   
+* [Spectral Operations](xref:81251c9c-350f-462d-9d61-6d81a6896ad9)  
 
 
 
@@ -44,7 +44,7 @@ If you need to calculate values according to calculations already done in the pa
 *It's like accessing local variables.*  
 
 **See:**  
-* [Creating Feedback Loops](TODO INTERNALLINK:creating-feedback-loops)  
+* [Creating Feedback Loops](xref:4a3a1653-5c09-4102-a148-8f014f3d9a2e)  
 
 
 
@@ -59,7 +59,7 @@ Switching between different inputs or defining whether to do this or that is alm
 *It's like working with If, Switch, Case...*  
 
 **See:**   
-* [Conditions](TODO INTERNALLINK:conditions)  
+* [Conditions](xref:69bdb72a-3e21-4b27-a4a6-c15e7c0ec56e)  
 
 
 # Logical operations
@@ -75,8 +75,8 @@ When patching anything advanced that can be separated into a series of states an
 *It's like all these &&, ||, !=, ...*  
 
 **See:**   
-* [Logic](TODO INTERNALLINK:logic)  
-* [Conditions](TODO INTERNALLINK:conditions)  
+* [Logic](xref:12c13306-f4f1-49f6-84b0-f7808f4214e6)  
+* [Conditions](xref:69bdb72a-3e21-4b27-a4a6-c15e7c0ec56e)  
 
 
 
@@ -90,7 +90,7 @@ When patching anything advanced that can be separated into a series of states an
 IOBoxes can be used as constants that are setting values (Colors, Strings...) for Inputs of nodes and subpatches.  
 
 **See:**  
-* [IOBoxes](TODO INTERNALLINK:ioboxes)  
+* [IOBoxes](xref:86693dba-d049-4027-874d-d53f0437ad66)  
 
 
 
@@ -103,7 +103,7 @@ Named IOBoxes are used to create Inputs and Outputs for subpatches.
 *It's like input and output parameters of functions.*  
 
 **See:**  
-* [Subpatches](TODO INTERNALLINK:subpatches)  
+* [SubPatches](xref:b66f153a-f7c3-4867-a8c9-bce69861d759)  
 
 
 # Send / Receive
@@ -118,7 +118,7 @@ The most common use case for S/R nodes is to deliver global constants to differe
 *These are like global variables.*  
 
 **See:**  
-* [Send / Receive](TODO INTERNALLINK:send-receive)  
+* [Send / Receive](xref:32b954be-83f1-4b75-951f-f64e7fdd7c1b)  
 
 
 # Spreads
@@ -131,7 +131,7 @@ Need to make a calculation over many items at the same time or instantly place a
 *It's like working with Arrays, Lists, ...*  
 
 **See:**  
-* [Spreads](TODO INTERNALLINK:Spreads)  
+* [Spreads](xref:00327d1e-65ba-4424-997d-615d9a469503)  
 
 
 
@@ -148,7 +148,7 @@ You can then use many instances of the same subpatch in different parts of your 
 *It's like functions that take Inputs and return Outputs.*  
 
 **See:**  
-* [Subpatches](TODO INTERNALLINK:Subpatches)  
+* [Subpatches](xref:b66f153a-f7c3-4867-a8c9-bce69861d759)  
 
 
 
@@ -162,4 +162,4 @@ If you need to store several values to pick them later, there are several nodes 
 *It's like working with Buffer, Stack or Queue.*  
 
 **See:**  
-* [Spread Collections](TODO INTERNALLINK:spread-collections)  
+* [Spread Collections](xref:bdc0b656-7f64-4cb5-a7bc-eac1c28a8357)  

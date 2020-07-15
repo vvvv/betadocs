@@ -48,7 +48,7 @@ Examples:
 The <a href="https://vvvv.org/contribution/vvvv.audio-pack-alpha" class="extURL contribution" target="_blank">VAudio pack</a> has a newer VST integration which also works with 64bit vvvv.  
 
 **Legacy**  
-See the [VST-guide](TODO INTERNALLINK:VST) about VST Instruments in vvvv.  
+See the [extensive VST-guide](xref:3d0e7863-48f9-4bf9-bd83-c3ecc1f29ca8) about VST Instruments in vvvv.  
 
 Examples:  
 * \girlpower\Audio folder in your vvvv directory  

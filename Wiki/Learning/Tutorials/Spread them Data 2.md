@@ -3,7 +3,7 @@ uid: 5521e091-b068-4170-a28e-ea928208edb9
 ---
 
 # Spread them Data 2
-The following tutorial assumes that you have already worked through tutorial IV: [IOBoxes](TODO INTERNALLINK:Tutorial IOBoxes).  
+The following tutorial assumes that you have already worked through tutorial IV: [IOBoxes](xref:86693dba-d049-4027-874d-d53f0437ad66).  
 
 # Recall
 Now that we've learned how to deal with IOBoxes let's have another look  at how nodes deal with spreads.   
@@ -45,4 +45,4 @@ Now map those distances to a reasonable length so that we can use it as a size f
 
 Now adjust the Spreadcount of the <span class="node">LinearSpread (Spreads)</span> and you'll see: No matter how many rectangles you want to deal with, the patch stays as simple as on the first day.  
 
-There are still some more things to know about spreads but for now you are released. Whenever you have the feeling you are missing some information browse the manual section on [Spreads](TODO INTERNALLINK:Spreads) for additional details. 
+There are still some more things to know about spreads but for now you are released. Whenever you have the feeling you are missing some information browse the manual section on [Spreads](xref:00327d1e-65ba-4424-997d-615d9a469503) for additional details. 

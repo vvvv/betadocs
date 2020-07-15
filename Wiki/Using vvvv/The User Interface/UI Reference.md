@@ -3,7 +3,7 @@ uid: 4612f4aa-0a2a-4f1a-bcfb-55c4bc0cb78c
 ---
 
 # Code Editor
-see [codeeditor shortcuts](TODO INTERNALLINK:codeeditor shortcuts)  
+see [codeeditor shortcuts](xref:117e3ffc-1547-4470-8c49-f966d99bc031)  
 
 # Main Menu
 ### Window
@@ -12,7 +12,7 @@ Snapshot    |Ctrl 1 	|Takes a screenshot of the active window (including the cur
 Snapshot Client 	|Ctrl 2 	|Same as above but takes the screenshot without window border.  
 ...   |Ctrl Shift 1 | same as Ctrl 1 but you are prompted to choose a filename to save.  
 ...   |Ctrl Shift 2 | same as Ctrl 2 but you are prompted to choose a filename to save.  
-Snapshot to Wiki        |Ctrl 3  |opens [Kommunikator](TODO INTERNALLINK:the gui#Kommunikator) that allows you to preview, crop and upload images to vvvv.org. if you provide your login you can even add images to the pool of site-headers  
+Snapshot to Wiki        |Ctrl 3  |opens [Kommunikator](xref:1765bb2b-f698-405a-b207-a995995fb52b) that allows you to preview, crop and upload images to vvvv.org. if you provide your login you can even add images to the pool of site-headers  
 Windowed		|Alt 1 	|See section about Subpatching  
 In a Box |Alt 2 	|See section about Subpatching  
 Hide 	|Alt 3 	|Close the current window, but leave the patch running. See section about Subpatching  
@@ -29,7 +29,7 @@ Snapshot    |Ctrl 1 	|Takes a screenshot of the active window (including the cur
 Snapshot Client 	|Ctrl 2 	|Same as above but takes the screenshot without window border.  
 ...   |Ctrl Shift 1 | same as Ctrl 1 but you are prompted to choose a filename to save.  
 ...   |Ctrl Shift 2 | same as Ctrl 2 but you are prompted to choose a filename to save.  
-Snapshot to Wiki        |Ctrl 3  |opens [Kommunikator](TODO INTERNALLINK:the gui#Kommunikator) that allows you to preview, crop and upload images to vvvv.org. if you provide your login you can even add images to the pool of site-headers  
+Snapshot to Wiki        |Ctrl 3  |opens [Kommunikator](xref:1765bb2b-f698-405a-b207-a995995fb52b) that allows you to preview, crop and upload images to vvvv.org. if you provide your login you can even add images to the pool of site-headers  
 Windowed		|Alt 1 	|See section about Subpatching  
 In a Box |Alt 2 	|See section about Subpatching  
 Hide 	|Alt 3 	|Close the current window, but leave the patch running. See section about Subpatching  
@@ -46,7 +46,7 @@ Snapshot    |Ctrl 1 	|Takes a screenshot of the active window (including the cur
 Snapshot Client 	|Ctrl 2 	|Same as above but takes the screenshot without window border.  
 ...   |Ctrl Shift 1 | same as Ctrl 1 but you are prompted to choose a filename to save.  
 ...   |Ctrl Shift 2 | same as Ctrl 2 but you are prompted to choose a filename to save.  
-Snapshot to Wiki        |Ctrl 3  |opens [Kommunikator](TODO INTERNALLINK:the gui#Kommunikator) that allows you to preview, crop and upload images to vvvv.org. if you provide your login you can even add images to the pool of site-headers  
+Snapshot to Wiki        |Ctrl 3  |opens [Kommunikator](xref:1765bb2b-f698-405a-b207-a995995fb52b) that allows you to preview, crop and upload images to vvvv.org. if you provide your login you can even add images to the pool of site-headers  
 Windowed		|Alt 1 	|See section about Subpatching  
 In a Box |Alt 2 	|See section about Subpatching  
 Hide 	|Alt 3 	|Close the current window, but leave the patch running. See section about Subpatching  
@@ -63,7 +63,7 @@ Snapshot    |Ctrl 1 	|Takes a screenshot of the active window (including the cur
 Snapshot Client 	|Ctrl 2 	|Same as above but takes the screenshot without window border.  
 ...   |Ctrl Shift 1 | same as Ctrl 1 but you are prompted to choose a filename to save.  
 ...   |Ctrl Shift 2 | same as Ctrl 2 but you are prompted to choose a filename to save.  
-Snapshot to Wiki        |Ctrl 3  |opens [Kommunikator](TODO INTERNALLINK:the gui#Kommunikator) that allows you to preview, crop and upload images to vvvv.org. if you provide your login you can even add images to the pool of site-headers  
+Snapshot to Wiki        |Ctrl 3  |opens [Kommunikator](xref:1765bb2b-f698-405a-b207-a995995fb52b) that allows you to preview, crop and upload images to vvvv.org. if you provide your login you can even add images to the pool of site-headers  
 Windowed		|Alt 1 	|See section about Subpatching  
 In a Box |Alt 2 	|See section about Subpatching  
 Hide 	|Alt 3 	|Close the current window, but leave the patch running. See section about Subpatching  

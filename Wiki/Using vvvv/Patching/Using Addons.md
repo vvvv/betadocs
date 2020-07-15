@@ -6,9 +6,9 @@ uid: 772e8696-25d4-4d8b-a31b-db4dd1ce1f3f
 
 When downloading vvvv it comes with a large library of native/built-in nodes ready to be used.   
 
-Additionally many users have created and are sharing [addons](TODO INTERNALLINK:about-addons) in 3 different ways. Here is how to use them.  
+Additionally many users have created and are sharing [addons](xref:e1161303-b566-408c-86f2-1cf6cb8137b7) in 3 different ways. Here is how to use them.  
 
-After "installing" an addon you have access to all its nodes via the [NodeBrowser](TODO INTERNALLINK:the-gui#node-browser) among all the native nodes.   
+After "installing" an addon you have access to all its nodes via the [Node Browser](xref:eeb8526d-0085-4219-a138-32ac397853f1) among all the native nodes.   
 
 
 

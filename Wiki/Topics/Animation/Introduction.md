@@ -9,16 +9,16 @@ vvvv offers different approaches to animate objects in *interactive*environments
 
 In many cases, it's not enough to just place static keyframes on a timeline and let the playhead do the job. The animation may need to react to actions or events coming from sensors, networks, input devices or beat-detectors. So in these cases **the direction of movement needs to change spontaneously** and you often want the transition to the new movement to occur as smoothly as possible. Time- and frame-based approaches can do this trick.  
 
-Still, often you also want to timeline some behavior and even [combine](TODO INTERNALLINK:animation#mixed-approaches) the different techniques.  
+Still, often you also want to timeline some behavior and even [combine](xref:0cc9f485-467f-41ef-8239-749baae656f4) the different techniques.  
 
 
  
 
 So here are the three basic approaches:  
 
-* [Time-based Animation](TODO INTERNALLINK:animation#timebased-animation)  
-* [Frame-based Animation](TODO INTERNALLINK:animation#framebased-animation)  
-* [Timeline](TODO INTERNALLINK:animation#timeline)  
+* [Time-based Animation](xref:f03b2df4-e4b6-45c4-a48e-ac50b7b810b4)  
+* [Frame-based Animation](xref:46a08b79-6346-4803-8bd0-d6666570b5c8)  
+* [Timeline](xref:0f6c2067-f70b-4d38-a079-925b41727b60)  
 
   
 
@@ -35,7 +35,7 @@ So here are the three basic approaches:
 * the animation's speed depends on the framerate and extra care should be taken to avoid it.  
 
 Interested in particle systems?  
-* [Particles](TODO INTERNALLINK:Particles)  
+* [Particles](xref:05abefd4-4eb6-4b46-8b39-b17105a64aff)  
 
 
 

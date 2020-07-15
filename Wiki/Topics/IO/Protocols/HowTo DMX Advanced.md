@@ -5,12 +5,12 @@ uid: b54e17f0-5939-4e9e-bdd3-0ef7d2623929
 # HowTo DMX Advanced
 ---  
 ---  
-see also **[node08.workshop.DMX](TODO INTERNALLINK:node08.workshop.DMX)**  
+see also **[node08.workshop.DMX](xref:086375e6-a403-472b-84dd-7b95a13bdde2)**  
 ---  
 ---  
 >**this page created by <span class="user"><a href="https://vvvv.org/users/kalle" class="extURL" target="_blank">kalle</a></span>. it is under heavy construction. all conventions made here are only suggestions and can of course be discussed. i'm looking forward to your contributions!**  
 
-you may download lots of modules at **[kalle.Modules.DMX](TODO INTERNALLINK:kalle.modules.dmx)**  
+you may download lots of modules at **[kalle.Modules.DMX](xref:)**  
 
 
 

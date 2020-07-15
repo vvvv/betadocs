@@ -12,7 +12,7 @@ The template is structured in 4 sections:
 * Techniques  
 
 # Parameter
-In the parameter section it first declares the most commonly used transformation matrices via [semantics](TODO INTERNALLINK:EX9.HLSL.Semantics). Note that the variable *tW* which is declared with the *WORLD* semantic appears as a pin on the effect, while the other transformations do not. The *VIEW* and *PROJECTION* semantics assign the respective matrices that are connected to the <span class="node">Renderer (EX9)</span>s <span class="pin">View Transform</span> and <span class="pin">Projection Transform</span> to the *tV* and *tP* matrices.   
+In the parameter section it first declares the most commonly used transformation matrices via [EX9.HLSL.Semantics](xref:39f956cd-59d0-4445-b87c-57c56affb57c). Note that the variable *tW* which is declared with the *WORLD* semantic appears as a pin on the effect, while the other transformations do not. The *VIEW* and *PROJECTION* semantics assign the respective matrices that are connected to the <span class="node">Renderer (EX9)</span>s <span class="pin">View Transform</span> and <span class="pin">Projection Transform</span> to the *tV* and *tP* matrices.   
 
 Next it declares a texture and a sampler, which has this texture assigned. The last parameter is the texture transformation matrix.  
 

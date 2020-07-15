@@ -11,11 +11,11 @@ When starting to create a new effect it is often helpful to work from an existin
 * rightlclick the newly created node in order to edit its code  
 
 # Learning about effects
-* For a tutorial introducing VVVVs shader language and techniques see the [Tutorial of Effects and Shaders](TODO INTERNALLINK:tutorial-of-effects-and-shaders)  
-* For an introduction to the technology behind Effects follow the EX9 links in the [Shader](TODO INTERNALLINK:shader#custom-effects) section of the documentation.  
+* For a tutorial introducing VVVVs shader language and techniques see the [Tutorial of Effects and Shaders](xref:1f40bd64-bc93-4263-98c8-50616b9f5c5c)  
+* For an introduction to the technology behind Effects follow the EX9 links in the [Shader](xref:4ae45235-b247-4d0d-8c5b-9d0688f99b3f#custom-effects) section of the documentation.  
 
 You may also want to have a look at:  
-* [Effect Compiler Changes](TODO INTERNALLINK:Effect Compiler Changes)  
-* [CodeEditor Shortcuts](TODO INTERNALLINK:CodeEditor Shortcuts)  
-* [ShaderSnippets](TODO INTERNALLINK:ShaderSnippets) - commonly used code  
-* [AddonPack.Effects](TODO INTERNALLINK:AddonPack.Effects) - things to know if you want your effect to be part of the pack  
+* [Effect Compiler Changes](xref:f86bc304-0644-46b2-bf51-e265e840babf)  
+* [CodeEditor Shortcuts](xref:117e3ffc-1547-4470-8c49-f966d99bc031)  
+* [ShaderSnippets](xref:df17e4b0-784e-4d81-bcc7-bd88f50e1cb5) - commonly used code  
+* [AddonPack.Effects](xref:557d6915-5069-483e-8175-2834225be56b) - things to know if you want your effect to be part of the pack  

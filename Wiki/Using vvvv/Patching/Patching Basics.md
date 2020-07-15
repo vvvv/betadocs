@@ -45,7 +45,7 @@ When patching always remember:
 
 * If you **Hide** a patch (ALT+3), the patch will still be **part of the system** and **continue working**. Only it is no longer visible.   
 
-See also: [Window Modes](TODO INTERNALLINK:the-gui#window-modes).  
+See also: [Window Modes](xref:5aa4e8e0-fc2c-4112-a985-7f4f0208bf48).  
 
 
 
@@ -59,7 +59,7 @@ In a locked patch:
 * all nodes still work   
 * it is still possible to change values of the visible IOBoxes  
 * nodes can no longer be moved  
-* [hidden nodes](TODO INTERNALLINK:patching-basics#hiding nodes) and links are invisible  
+* [hidden nodes](xref:10b82e0c-720a-48e1-91e4-d8c65d2c3be1#hiding nodes) and links are invisible  
 
 To unlock, use CTRL+E again.  
 
@@ -69,7 +69,7 @@ To unlock, use CTRL+E again.
 ### Scrolling
 You can scroll in a patch by **right clicking on an empty space** and start **dragging**.   
 
-Alternatively or while making a [link](TODO INTERNALLINK:patching-basics#link) you can:  
+Alternatively or while making a [link](xref:10b82e0c-720a-48e1-91e4-d8c65d2c3be1#link) you can:  
 * use the mousewheel to scroll vertically  
 * press ALT while using the wheel to scroll horizontally  
 * press CTRL in addition to speed up scrolling  
@@ -79,7 +79,7 @@ Alternatively or while making a [link](TODO INTERNALLINK:patching-basics#link) y
 ![](~/img/BasicPatching_Comments2.png "")   
 
 ### Comments
-Double click with the left button to bring up the [Node Browser](TODO INTERNALLINK:the-gui#node-browser). Then enter the text you want to have as a comment in the patch. Make sure the text is not matching any node before pressing ENTER to create a comment.   
+Double click with the left button to bring up the [Node Browser](xref:eeb8526d-0085-4219-a138-32ac397853f1). Then enter the text you want to have as a comment in the patch. Make sure the text is not matching any node before pressing ENTER to create a comment.   
 
 A comment is essentially an <span class="node">IOBox (String)</span> with its input and output pins hidden. So you can always just doubleclick to change it.   
 
@@ -88,8 +88,8 @@ A comment is essentially an <span class="node">IOBox (String)</span> with its in
 
 ### Making a Module
 If you want to make a patch into a reusable module, see:  
-* [Modules](TODO INTERNALLINK:subpatches#modules)  
-* [Detailed info about SubPatches](TODO INTERNALLINK:subpatches)  
+* [Modules](xref:b66f153a-f7c3-4867-a8c9-bce69861d759#modules)  
+* [SubPatches](xref:b66f153a-f7c3-4867-a8c9-bce69861d759)  
 
 
 # Node
@@ -117,7 +117,7 @@ Nodes can have different icons:
 
 **Every node with an icon** can be rightclicked to show its editor or window. Nodes without an icon are built-in native nodes and can not be manipulated.  
 
-To get an overview of all the pins of a node, select it and press CTRL+I to open the [Inspektor](TODO INTERNALLINK:the-gui#herr-inspektor).  
+To get an overview of all the pins of a node, select it and press CTRL+I to open the [Inspektor](xref:9666611a-6f15-4b33-8300-69f56d9ec7d4).  
 
 To find out more about a nodes functionality, select it and press F1 to open its helppatch.  
 
@@ -127,7 +127,7 @@ To find out more about a nodes functionality, select it and press F1 to open its
 
 
 ### Adding nodes to a patch
-You can browse a list of available nodes by **double-clicking anywhere in a patch** to pop up the [Node Browser](TODO INTERNALLINK:the-gui#node-browser).   
+You can browse a list of available nodes by **double-clicking anywhere in a patch** to pop up the [Node Browser](xref:eeb8526d-0085-4219-a138-32ac397853f1).   
 
 There you can start typing tags (separated by space) to search for a node with specific functionality or you can get to a category-sorted view by rightclicking in its text-area.   
 
@@ -145,7 +145,7 @@ Press SHIFT and the cursor keys to move them by 10px.
 ![](~/img/BasicPatching_GroupingNodes3.png "")   
 
 ### Grouping nodes
-Select a group of nodes and press CTRL+G to replace them with a [subpatch](TODO INTERNALLINK:subpatches) of the same functionality and keeping their connections to other nodes.   
+Select a group of nodes and press CTRL+G to replace them with a [SubPatches](xref:b66f153a-f7c3-4867-a8c9-bce69861d759) of the same functionality and keeping their connections to other nodes.   
 
 Note that the created subpatch still needs to be saved. Therefore it is good practice to rightclick the new node immediately and press CTRL+SHIFT+S to save it under a specific name.   
 
@@ -155,7 +155,7 @@ Note that the created subpatch still needs to be saved. Therefore it is good pra
 ### Hiding nodes
 Press CTRL+H to mark a selection of nodes/links as hidden.  
 
-Hidden nodes/links are not visible or accessible anymore when a patch is [locked](TODO INTERNALLINK:patching-basics#Locking-a-patch). In an unlocked patch they will stand out with a lighter shade of grey.  
+Hidden nodes/links are not visible or accessible anymore when a patch is [locked](xref:10b82e0c-720a-48e1-91e4-d8c65d2c3be1#locking-a-patch). In an unlocked patch they will stand out with a lighter shade of grey.  
 
 
 
@@ -163,11 +163,11 @@ Hidden nodes/links are not visible or accessible anymore when a patch is [locked
 
 
 ### Colors of nodes
-* **Red**: the node has a problem, see [Red Nodes](TODO INTERNALLINK:debugging#red-nodes)  
+* **Red**: the node has a problem, see [Red Nodes](xref:36621302-10e7-47fe-a8d0-b609c758974d#red-nodes)  
 * **Pink**: same as red, only the node is also marked as hidden  
-* **Blue**: the node is [boygrouped](TODO INTERNALLINK:boygrouping)  
+* **Blue**: the node is [boygrouped](xref:9d029794-1266-4e60-961f-33e6f95af7e6)  
 * **Light blue**: same as blue, only the node is also marked as hidden  
-* **Light blue & Grey border**: the [subpatch](TODO INTERNALLINK:subpatches) contains some Boygrouped nodes  
+* **Light blue & Grey border**: the [SubPatches](xref:b66f153a-f7c3-4867-a8c9-bce69861d759) contains some Boygrouped nodes  
 
 ### More
 * Align a selction of nodes by pressing CTRL+L  
@@ -183,7 +183,7 @@ On its top and bottom a node can have any number of inputs and outputs, called p
 
 * **Inputs** are where you specify the parameters feeding the functionality of the node  
 * **Outputs** are the results of the nodes function.   
-* **Configuration pins** are only visible via the [Inspektor](TODO INTERNALLINK:the-gui#herr-inspektor) and are used to define parameters of a node that are not supposed to change at runtime.   
+* **Configuration pins** are only visible via the [Inspektor](xref:9666611a-6f15-4b33-8300-69f56d9ec7d4) and are used to define parameters of a node that are not supposed to change at runtime.   
 
 
 
@@ -200,7 +200,7 @@ The most common of those types are:
 **Non-Primitive**  
 * Node (collective name for all other datatypes, like: Texture, Transformation, Mesh,...)  
 
-You can introduce your own custom data-types using [plugins](TODO INTERNALLINK:plugins).  
+You can introduce your own custom data-types using [plugin](xref:766d8ac2-5145-417d-b2df-37d24e3b2b6f).  
 
 
 
@@ -223,13 +223,13 @@ Move the mouse over any pin to see a tool tip showing its name and current value
 ### Changing a pin's value
 Values of inputs that have one of the primitive data types can be changed directly on the pin. Changing the value of a pin is like editing an IOBox:  
 
-* **Value pins**: Right-drag on the pin vertically to change its value. See [Value IBOxes](TODO INTERNALLINK:ioboxes#value).  
+* **Value pins**: Right-drag on the pin vertically to change its value. See [Value IBOxes](xref:86693dba-d049-4027-874d-d53f0437ad66#value).  
 
-* **Color pins**: Right-drag on the pin to change its color. See [Color IOBoxes](TODO INTERNALLINK:ioboxes#color).  
+* **Color pins**: Right-drag on the pin to change its color. See [Color IOBoxes](xref:86693dba-d049-4027-874d-d53f0437ad66#color).  
 
-* **String pins**: Right click the pin to invoke the operation according to its subtype. See [String IOBoxes](TODO INTERNALLINK:ioboxes#string).  
+* **String pins**: Right click the pin to invoke the operation according to its subtype. See [String IOBoxes](xref:86693dba-d049-4027-874d-d53f0437ad66#string).  
 
-* **Enumeration pins**: Right click to invoke the pull-down menu with all possible values. See [Enumeration IOBoxes](TODO INTERNALLINK:ioboxes#enumeration).  
+* **Enumeration pins**: Right click to invoke the pull-down menu with all possible values. See [Enumeration IOBoxes](xref:86693dba-d049-4027-874d-d53f0437ad66#enumeration).  
 
 ### Resetting a pin's value
 * Alt+Rightclick an unconnected pin to reset it to its default.  
@@ -261,7 +261,7 @@ Therefore, when you try to add another link to an input that already has a link,
 
 To create multiple links from the same output pin, start with a right click on it and then simply left-click on all input pins you want to connect to.  
 
-While making a link you can middle click somewhere to create an IOBox that will contain the data that's in the pin you're coming from. Middle click that IOBox once again to automagically give it the name of a this pin. See also: [Descriptive Name](TODO INTERNALLINK:IOBoxes#descriptive-name).  
+While making a link you can middle click somewhere to create an IOBox that will contain the data that's in the pin you're coming from. Middle click that IOBox once again to automagically give it the name of a this pin. See also: [Descriptive Name](xref:86693dba-d049-4027-874d-d53f0437ad66#configuring-ioboxes).  
 
 
 
@@ -272,7 +272,7 @@ While making a link you can middle click somewhere to create an IOBox that will 
 **Creating a loop is not a valid connection!**  
 If you really need to do so, you better understand what you're doing.   
 
-For details, see [Creating Feedback Loops](TODO INTERNALLINK:Creating Feedback Loops).   
+For details, see [Creating Feedback Loops](xref:4a3a1653-5c09-4102-a148-8f014f3d9a2e).   
 
 
 

@@ -21,13 +21,13 @@ To get the whole picture you have to know how the data is processed in the shade
 * the transformations  
 * the mesh  
 
-The vertex shader transforms the vertex positions into the world space and projects them onto the screen (3d world space -> 2d screen space, see [ex9.spaces](TODO INTERNALLINK:ex9.spaces). Depending on the shader it also prepares some other data which is then used in the pixel shader.  
+The vertex shader transforms the vertex positions into the world space and projects them onto the screen (3d world space -> 2d screen space, see [ex9.spaces](xref:34eae516-0b9b-4f8a-879e-52ed652c755b). Depending on the shader it also prepares some other data which is then used in the pixel shader.  
 All the data that the vertex shader calculates is packed into a data structure which we call 'vs2ps'. It can have several data fields, which depend on what you need in the pixel shader. It must output the POSITION data field, that the graphics card can calculate which pixels of the screen belong to the mesh. All others are optional, most common is texture coordinates and normals.  
 The pixel shader takes the vs2ps as input and is called for each pixel of the mesh to calculate the final pixel color. The values in the vs2ps struct get interpolated for pixels which are located between vertices.  
 
 ![Mesh data flow](~/img/MeshDataFlow.png "Mesh data flow")  
 
-See [ex9.dataflow](TODO INTERNALLINK:ex9.dataflow) for more details.  
+See [ex9.dataflow](xref:81d9855b-ba1a-41d6-86d8-236258054aa5) for more details.  
 
 ## Basic Setup
 Clone the <span class="node">Template (EX9.Effect)</span> on a patch and connect a mesh to it and render it into a <span class="node">Renderer (EX9)</span>:  
@@ -86,5 +86,5 @@ technique TSimpleShader
 
 ```  
 ---  
-Next: [Mr. Wiggle](TODO INTERNALLINK:Tutorial Effects - Mr. Wiggle)  
-TOC: [Of Effects and Shaders](TODO INTERNALLINK:Tutorial - Of Effects and Shaders)  
+Next: [Mr. Wiggle](xref:fe316c6e-bcd0-44e0-bde8-9e987e56bc5c)  
+TOC: [Of Effects and Shaders](xref:1f40bd64-bc93-4263-98c8-50616b9f5c5c)  

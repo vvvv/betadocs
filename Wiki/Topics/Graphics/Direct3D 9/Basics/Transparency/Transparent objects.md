@@ -27,7 +27,7 @@ Basically it allows one to skip processing for all pixels whose alpha value is b
 Obviously this method will not give you smooth antialiased borders, but it is somehow better than nothing.   
 
 **See also:**  
-* [Transparency and Depthbuffer](TODO INTERNALLINK:transparency#where-drawing-order-matters...)  
+* [Transparency and Depthbuffer](xref:2f516214-4f5a-4d2c-af84-2a3dc96dc0c4#where-drawing-order-matters)  
 
 
 

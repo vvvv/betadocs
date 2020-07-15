@@ -10,4 +10,4 @@ One part of the manual will cover special topics like live visualisations, dynam
 A goal is, to create the whole manual at least semi automatically from the website with a dynamic and pretty random design that follows certain rules to establish a certain look without compromising readability.  
 
 A more accurate describtion is only available in german right now...  
-[vvvv Manual Abstract (german) ](TODO INTERNALLINK:de.ampop_diploma_abstract) 
+[vvvv Manual Abstract (german) ](xref:c472e632-dbf0-44b3-9289-03d2b6faf35f) 

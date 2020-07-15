@@ -6,7 +6,7 @@ uid: 5c4b731d-1e09-44ab-8bc9-8e4bae97bc75
 
 
 <a href="http://opensoundcontrol.org/introduction-osc" class="extURL" target="_blank">OSC</a>  
-[OSC Apps ](TODO INTERNALLINK:hardware#mobile-devices) for mobile devices.  
+[OSC Apps ](xref:3e1b5846-6bfc-4704-923b-d2d1e740cac5) for mobile devices.  
 
 #### Related nodes
 <span class="node">OSCEncoder (Network)</span>  

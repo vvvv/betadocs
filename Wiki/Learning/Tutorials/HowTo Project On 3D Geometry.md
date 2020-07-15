@@ -20,7 +20,7 @@ All the above mentioned topics deal with the same problem: Find the pose (positi
 
 In cinematography with 3d visual effects the terms <a href="http://en.wikipedia.org/wiki/Match_moving" class="extURL" target="_blank">"match moving" or "camera tracking"</a> are used to describe the problem of matching a real world scene with its virtual counterpart in order to mix them together seamlessly. For this task a list of software exists (<a href="http://www.2d3.com/product/?v=1" class="extURL" target="_blank">boujou</a>, <a href="http://3dequalizer.com" class="extURL" target="_blank">3d equalizer</a>, ...) that makes the live of visual effects people easier.   
 
-For realtime computergraphics the <a href="http://www.hitl.washington.edu/artoolkit/" class="extURL" target="_blank">ARToolKit</a> provides a way that works for certain situations (see [ARTK+Tracker](TODO INTERNALLINK:freeframeartk tracker) for a vvvv implementation) and companies like <a href="http://www.domeprojection.com" class="extURL" target="_blank">domeprojection</a> offer projector autocalibration services. But as long as vvvv doesn't have nodes to patch something <a href="http://www.youtube.com/user/jcl5m" class="extURL" target="_blank">like this</a> or <a href="http://www.youtube.com/watch?v=F3s3M0mokNc&NR=1" class="extURL" target="_blank">even this</a> the manual approach for static matching can still help to solve certain problems.  
+For realtime computergraphics the <a href="http://www.hitl.washington.edu/artoolkit/" class="extURL" target="_blank">ARToolKit</a> provides a way that works for certain situations (see [ARTK+Tracker](xref:82e19d60-1c44-46ba-bb39-d79e38ca4bbb) for a vvvv implementation) and companies like <a href="http://www.domeprojection.com" class="extURL" target="_blank">domeprojection</a> offer projector autocalibration services. But as long as vvvv doesn't have nodes to patch something <a href="http://www.youtube.com/user/jcl5m" class="extURL" target="_blank">like this</a> or <a href="http://www.youtube.com/watch?v=F3s3M0mokNc&NR=1" class="extURL" target="_blank">even this</a> the manual approach for static matching can still help to solve certain problems.  
 
 
 # Projection on a flat surface
@@ -75,7 +75,7 @@ By rendering the 3d model from the same viewpoint and using the same lens-charac
 
 
 ### Lights and Shadows
-Any shading (including lighting and shadowing) you apply to the virtual model is a surface oriented effect and as such behaves like a flat texture on the model. Effects like seen in our own [Lightstrive](TODO INTERNALLINK:Lightstrive) and Pablo Valbuena's <a href="http://www.pablovalbuena.com/videos/ars07_video.html" class="extURL" target="_blank">Augmented Sculpture Series</a> can be realized just like this.   
+Any shading (including lighting and shadowing) you apply to the virtual model is a surface oriented effect and as such behaves like a flat texture on the model. Effects like seen in our own [Lightstrive](xref:3de7e372-3e35-4e2c-83bd-be1898a02bac) and Pablo Valbuena's <a href="http://www.pablovalbuena.com/videos/ars07_video.html" class="extURL" target="_blank">Augmented Sculpture Series</a> can be realized just like this.   
 
 
 ### 3d illusion

@@ -22,7 +22,7 @@ Examples in your vvvv\girlpower\ directory:
 * Graphics\DX9\Textures  
 
 **See also:**  
-* [Rendering on transparent background](TODO INTERNALLINK:transparency-overview)  
+* [Rendering on transparent background](xref:93a89c2e-f5ba-4de5-b4ab-7c5f70c7ce11)  
 
 
 

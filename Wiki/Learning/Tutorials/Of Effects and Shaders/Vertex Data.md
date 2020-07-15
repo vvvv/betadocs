@@ -8,7 +8,7 @@ Of course you can also define your own vertex data in a patch. Create a new patc
 
 ![](~/img/VertexData_2010.11.29-21.16.52.png "")  
 
-You can clone the basic vertex shader from [here](TODO INTERNALLINK:tutorial-effects-vertexshader-preparations).  
+You can clone the basic vertex shader from [here](xref:efe56243-ca3e-4980-a8cb-8b4e086fdf25).  
 
 ##  VertexBuffer (Join)
 
@@ -137,8 +137,8 @@ We can use the patch from before:
 
 ![](~/img/VertexData_2010.11.30-20.15.39.png "")   
 ---  
-Next: [Normals](TODO INTERNALLINK:Tutorial Effects - Normals)  
-Back: [Function Printing](TODO INTERNALLINK:Tutorial Effects - Function Printing)  
-TOC: [Of Effects and Shaders](TODO INTERNALLINK:Tutorial - Of Effects and Shaders)  
+Next: [Normals](xref:e906876e-778c-4d40-90f9-560e12c1cbb1)  
+Back: [Function Printing](xref:3673bac8-2d38-4de1-8d09-e1e23109b9ad)  
+TOC: [Of Effects and Shaders](xref:1f40bd64-bc93-4263-98c8-50616b9f5c5c)  
 
 

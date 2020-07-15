@@ -11,7 +11,7 @@ The aim of this thesis is to design a framework for vvvv, which enables develope
 
 It should be determined, whether it is possible to transfer character animation specific terms and workflows from animation packages (e.g. Maya) into vvvv - and of course implement a possible solution in a set of vvvv nodes.  
 
-While one common case of using character animation in vvvv might be importing a character rig from an external source using e.g. the [Collada Importer](TODO INTERNALLINK:COLLADA), this diploma should also find ways to create character rigs inside of vvvv dynamically.   
+While one common case of using character animation in vvvv might be importing a character rig from an external source using e.g. the [Collada Importer](xref:c9f8e059-dcf9-4712-a877-a200b17d7f76), this diploma should also find ways to create character rigs inside of vvvv dynamically.   
 
 # Current State
 
@@ -44,8 +44,8 @@ and
 
 There are two articles about how to use those skeleton nodes here on the VVVViki, as well as on www.quasipartikel.at:  
 
-* [Skeletal Animation in vvvv](TODO INTERNALLINK:Skeleton Animation Nodes Tutorial)  
-* [Skinning with vvvv's skeleton animation nodes](TODO INTERNALLINK:SkinningWithSkeletonNodes)  
+* [a previous tutorial](xref:4c4a36ab-7a01-45dc-a4f9-9ed88c319918)  
+* [skinning tutorial](xref:435355ec-58d2-4381-8e1f-a2b5821cb18e)  
 
 # Known Issues
 

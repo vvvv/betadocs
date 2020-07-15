@@ -26,9 +26,9 @@ Via the following tags you can expand the scope:
 **<** - search globally in the whole graph  
 **>** - search in patches within the active patch  
 
-Check [the complete list of tags](TODO INTERNALLINK:finder#filter-nodes) to filter particular nodes.  
+Check [the complete list of tags](xref:2b6364c7-c8a5-4e02-86df-da55f233b5cb#filter-nodes) to filter particular nodes.  
 
-If you also want to search inside [modules](TODO INTERNALLINK:subpatches#modules) activate the **M** checkbox in the topright corner of the finder.  
+If you also want to search inside [Modules](xref:b66f153a-f7c3-4867-a8c9-bce69861d759#modules) activate the **M** checkbox in the topright corner of the finder.  
 
 
 #### Mouse Interaction

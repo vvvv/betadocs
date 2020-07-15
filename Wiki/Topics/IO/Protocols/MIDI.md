@@ -57,7 +57,7 @@ There is also a useful MIDI & OSC mapper for vvvv called TodoMap. Check the vide
 
 **Useful MIDI-Modules:**  
 * <a href="https://vvvv.org/contributions/all/3075" class="extURL" target="_blank">Midi-related contributions</a>  
-* [A range of Midi modules](TODO INTERNALLINK:kalle.Modules.MIDI) by <span class="user"><a href="https://vvvv.org/users/kalle" class="extURL" target="_blank">kalle</a></span>  
+* [A range of Midi modules](xref:) by <span class="user"><a href="https://vvvv.org/users/kalle" class="extURL" target="_blank">kalle</a></span>  
 
 **Virtual Midi Ports use:**  
 keep in mind that some virtual midi ports like loopBe or loopMidi need   

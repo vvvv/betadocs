@@ -17,7 +17,7 @@ The <span class="node">Renderer (TTY)</span> has 3 main purposes:
 * Create the <span class="node">Renderer (TTY)</span> node.  
 
 **See also:**  
-* [More about TTY Renderer](TODO INTERNALLINK:strings#tty-renderer)  
+* [More about TTY Renderer](xref:c5b94d4a-2536-4134-8fe2-83c616bddadb)  
 
 
 

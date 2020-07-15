@@ -13,7 +13,7 @@ A standard quad has width and height of 1 with its center at (0, 0). Therefore t
 
 Resizing the window stretches the coordinate system in the same way as the window.  
 
-See [Aspect Ratio](TODO INTERNALLINK:rendering-overview#aspect-ratio) on how to avoid stretching.  
+See [Aspect Ratio](xref:0bbb6cce-376d-4b83-ba04-55da25127969) on how to avoid stretching.  
 
 
 

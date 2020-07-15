@@ -5,7 +5,7 @@ uid: 435355ec-58d2-4381-8e1f-a2b5821cb18e
 # Skinning With Skeleton Nodes
 
 
-This tutorial shows an example of how to build and skin a kind of abstract character model based on a skeleton dynamically. I uploaded an extended version of the patch described below, which also shows some parts from [a previous tutorial](TODO INTERNALLINK:Skeleton Animation Nodes Tutorial). You can download it here: <a href="http://sagishi.zive.at/vvvvwiki/walkingboxes.rar" class="extURL" target="_blank">walkingboxes.rar</a>.</p>   
+This tutorial shows an example of how to build and skin a kind of abstract character model based on a skeleton dynamically. I uploaded an extended version of the patch described below, which also shows some parts from [a previous tutorial](xref:4c4a36ab-7a01-45dc-a4f9-9ed88c319918). You can download it here: <a href="http://sagishi.zive.at/vvvvwiki/walkingboxes.rar" class="extURL" target="_blank">walkingboxes.rar</a>.</p>   
 
 # Some skinning theory
 

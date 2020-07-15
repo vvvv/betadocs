@@ -56,7 +56,7 @@ ISpread<ISpread<double>> FInput;
 
 ```  
  
-More info: [pin attributes](TODO INTERNALLINK:pin attributes)  
+More info: [pin attributes](xref:8d9059b9-e075-4b42-91ef-7599f6879028)  
 
 # Dealing with SliceCount
 Examples for getting and setting SliceCount:  

@@ -7,7 +7,7 @@ uid: d19c0f1e-5133-4901-bdf6-fe62607cf45d
 
 # Introduction
 
-You already are familiar with what a [dynamic plugin](TODO INTERNALLINK:Dynamic Plugins) is. We now examine how to code some simple dynamic plugins in c#.  
+You already are familiar with what a [Dynamic Plugins](xref:dc107197-be10-4608-90ee-e5a8f856c146) is. We now examine how to code some simple dynamic plugins in c#.  
 
 # Beginner
 ## #1 - Adding an If - Statement

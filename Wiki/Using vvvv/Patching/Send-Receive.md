@@ -34,7 +34,7 @@ The addonpack comes with an alternative version of the nodes labeled "Advanced" 
 ![](~/img/Debugging-SendReceive2.png "")   
 
 
-If you've got lost where all the S and R nodes are buried in your project, the [Finder](TODO INTERNALLINK:the-gui#finder) is your friend.  
+If you've got lost where all the S and R nodes are buried in your project, the [Finder](xref:869d5933-4693-4b32-a7f3-5b7cfcc3a07f) is your friend.  
 
 Open the Finder (CTRL+F) and type '**s <**'. It will show you a relation of all the subpatches that contain S and R nodes. Hovering the mouse over any of them shows their connection(s).  
 

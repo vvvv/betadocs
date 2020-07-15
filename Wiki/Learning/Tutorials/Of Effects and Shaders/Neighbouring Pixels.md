@@ -125,6 +125,6 @@ Like this you can use the two techniques alternatively but as mentioned before a
 
 Those were the basics of pixel-neighbour based image processing. But there is actually a whole range of similar effects which are commonly referred to as convolution/kernel filters. With things learned so far you should be able to progress in this direction on your own. See <a href="http://micro.magnet.fsu.edu/primer/java/digitalimaging/processing/kernelmaskoperation/" class="extURL" target="_blank">here</a> and <a href="http://www.gamedev.net/reference/programming/features/imageproc/page2.asp" class="extURL" target="_blank">there</a> for details and examples.  
 ---  
-Next: [Multiple Textures](TODO INTERNALLINK:Tutorial Effects - Multiple Textures)  
-Back: [Texture Coordinates](TODO INTERNALLINK:Tutorial Effects - Texture Coordinates)  
+Next: [Multiple Textures](xref:28981d7f-9b61-4d05-8bd6-7b1e87010a34)  
+Back: [Texture Coordinates](xref:c201a678-d827-4b21-92b3-432203d15dd7)  
 TOC: ((Tutorial - Of Effects and Shaders|Of Effects and Shaders))

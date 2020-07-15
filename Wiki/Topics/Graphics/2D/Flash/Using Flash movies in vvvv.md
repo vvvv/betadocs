@@ -47,5 +47,5 @@ The Renderer uses the Flash ActiveX control to embed the flash player into the f
 For an alternative ways of passing variables to flash see:   
 * <a href="http://benchun.net/projects/flosc/" class="extURL" target="_blank">flosc</a>   
 * <a href="http://blog.derhess.de/2011/08/16/flash-talks-to-max-msp-via-osc/" class="extURL" target="_blank">Flash talks to MAX/MSP via OSC</a> (the same technique can be used for vvvv).  
-* [Using OSC in vvvv](TODO INTERNALLINK:protocols#osc)  
+* [OSC](xref:5c4b731d-1e09-44ab-8bc9-8e4bae97bc75)  
 

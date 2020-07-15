@@ -14,7 +14,7 @@ The Kommunikator allows you to preview, crop, save and upload screenshots to vvv
 * **Ctrl+3**   
 
 **See also:**  
-* [Other shortcuts for making snapshots](TODO INTERNALLINK:ui-reference#window-menu)  
+* [Other shortcuts for making snapshots](xref:4612f4aa-0a2a-4f1a-bcfb-55c4bc0cb78c#window)  
 
 
 

@@ -23,4 +23,4 @@ Basically a node either generates, processes or outputs data. Some nodes even do
 
 In comparison to a textual programming language the input pins would represent the parameters/arguments of a function whereas the output pins would mean the result of that function.  
 
-That much about the theory. Now let's go retro and say [Hello World!](TODO INTERNALLINK:Tutorial Hello World) with the second tutorial.
+That much about the theory. Now let's go retro and say [Hello World](xref:eb717348-39dc-4687-a8d4-44db6c491c76) with the second tutorial.

@@ -31,7 +31,7 @@ ad 2) In order to get the projectors lens/position/rotation you have 3 options:
 
 With those two things at hand you can now setup a scene to project a virtual copy of the geometry on its real counterpart. Now any visual effect that plays on the surface of the virtual geometry, like light/shadow/texture animations will seemingly be part of the real-world geometry.  
 
-Examples of this approach are [Lightstrive](TODO INTERNALLINK:Lightstrive) and Pablo Valbuena's <a href="http://www.pablovalbuena.com/selectedwork/augmented-sculpture-v1/" class="extURL" target="_blank">Augmented Sculpture Series</a>.  
+Examples of this approach are [Lightstrive](xref:3de7e372-3e35-4e2c-83bd-be1898a02bac) and Pablo Valbuena's <a href="http://www.pablovalbuena.com/selectedwork/augmented-sculpture-v1/" class="extURL" target="_blank">Augmented Sculpture Series</a>.  
 
 For the basic setup of a 360° projection on a cylindrical screen, including soft-edging, see: [small 360 degree setup.zip](https://vvvv.org/tiki-download_file.php?fileId=1698)  
 

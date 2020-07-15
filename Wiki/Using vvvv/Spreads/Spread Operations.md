@@ -9,7 +9,7 @@ This is an overview of the most used
 Spread Operations.   
 
 
-More operations are available and can be found by querying the [NodeBrowser](TODO INTERNALLINK:the-gui#node-browser) for terms describing the desired operation.  
+More operations are available and can be found by querying the [Node Browser](xref:eeb8526d-0085-4219-a138-32ac397853f1) for terms describing the desired operation.  
 
 
 # Datatype independent operations

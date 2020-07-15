@@ -7,14 +7,14 @@ Translearn Workshop, Hyperwerk Basel, Senones
 
 how we did it..  
 
-[TheStage](TODO INTERNALLINK:Translearn06Stage)  
-[Port Server](TODO INTERNALLINK:Devices-Moxa NPort 5610)  
-[Video Camera](TODO INTERNALLINK:Devices-SonyFCBIX45AP)  
-[Video Switcher](TODO INTERNALLINK:Devices-KramerVS-88V)  
+[TheStage](xref:db425cb0-63ad-4dd1-8346-4e285e5ba47e)  
+[Port Server](xref:befad19f-fe21-4a8c-a766-0dc2926c4ef5)  
+[Video Camera](xref:6a37d344-3bf8-4592-82ee-c7802fd0c07b)  
+[Video Switcher](xref:bd5dd483-0e68-4e7a-8a3e-f5cf284a2b79)  
 Servos with Tierchen: PololuServoboard  
 Motors: FaulhaberMCDC2805  
-[DMX Interface and Dimmers](TODO INTERNALLINK:Devices-DMX4ALL)
-[OSCGlue to connect Ableton Live with VVVV](TODO INTERNALLINK:OSCGlue)  
+[DMX Interface and Dimmers](xref:e005d101-02a4-4d9d-9d18-3f30f50586dd)
+[OSCGlue to connect Ableton Live with VVVV](xref:1556ed54-663e-49a6-bef7-0d068eb961e6)  
 
 
 # Proposed Format for the documentation pages

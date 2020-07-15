@@ -9,10 +9,10 @@ On a vvvv instance running in **server-mode** the keyboard-shortcut **CTRL+B** a
 
 Boygrouped nodes are dipped in blue which indicates that they have been mirrored to the clients (even if you can't see them there) and are now being calculated over there.  
 
-See the [Colors of Nodes](TODO INTERNALLINK:patching-basics#colors-of-nodes).  
+See the [Colors of Nodes](xref:10b82e0c-720a-48e1-91e4-d8c65d2c3be1#colors-of-nodes).  
 
 
-Usually you would start with boygrouping a Renderer and then look upstream and decide what else needs to be boygrouped. Most notably make sure to always have both nodes that are connected via a [node-connection](TODO INTERNALLINK:patching-basics#data-types) (like transforms, textures, audio, video, layers,...) boygrouped because those connections are not being transmitted automatically.   
+Usually you would start with boygrouping a Renderer and then look upstream and decide what else needs to be boygrouped. Most notably make sure to always have both nodes that are connected via a [node-connection](xref:10b82e0c-720a-48e1-91e4-d8c65d2c3be1#data-types) (like transforms, textures, audio, video, layers,...) boygrouped because those connections are not being transmitted automatically.   
 
 
 

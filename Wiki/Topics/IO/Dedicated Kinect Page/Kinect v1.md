@@ -8,7 +8,7 @@ uid: 96af9665-1d88-4d4e-b8d0-e1e50a6eb2bc
 
 Nodes for using the original <a href="http://en.wikipedia.org/wiki/Kinect" class="extURL" target="_blank">Kinect</a> are shipping with vvvvs addonpack.  
 
-With the addonpack installed type *kinect* in the [nodebrowser](TODO INTERNALLINK:nodelist) to see a list of all available nodes dealing with it. Note that most nodes come in two versions:  
+With the addonpack installed type *kinect* in the [nodebrowser](xref:eeb8526d-0085-4219-a138-32ac397853f1) to see a list of all available nodes dealing with it. Note that most nodes come in two versions:  
 * Microsoft  
 * OpenNI  
 Those relate to two different drivers they are based on. Depending on which version you want to use you need to install the following:  

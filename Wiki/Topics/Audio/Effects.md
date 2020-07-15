@@ -73,7 +73,7 @@ The <span class="node">FileStream (Irrklang)</span> has a decent list of built i
 * EQ  
 * Wave Reverb  
 
-All these effects are **hidden pins by default**. To access them have a look at the node with the [Inspektor](TODO INTERNALLINK:the-gui#Herr-Inspektor). There you can enable individual effects and make the corresponding pins visible by left-clicking the leftmost, lightgray box in the Inspektor (next to the pins value).  
+All these effects are **hidden pins by default**. To access them have a look at the node with the [Inspektor](xref:9666611a-6f15-4b33-8300-69f56d9ec7d4). There you can enable individual effects and make the corresponding pins visible by left-clicking the leftmost, lightgray box in the Inspektor (next to the pins value).  
 
 
 
@@ -85,7 +85,7 @@ VST-Plugins are either audio-effects or instruments that can be used with vvvv.
 #### DShow9 streams
 VST plugins have to be placed in the  lib\nodes\vst folder. After a restart of vvvv they will be available in the nodebrowser among the other nodes.  
 
-See the [extensive VST-guide](TODO INTERNALLINK:VST) about VST Plugins in vvvv.  
+See the [extensive VST-guide](xref:3d0e7863-48f9-4bf9-bd83-c3ecc1f29ca8) about VST Plugins in vvvv.  
 
 #### VAudio
 The <a href="https://vvvv.org/contribution/vvvv.audio-pack-alpha" class="extURL contribution" target="_blank">VVVV.Audio pack</a> has a newer VST integration which also works with 64bit vvvv. It is fully spreadable and has a comfortable vst parameter pin exposure workflow and saves the current vst setting with the vvvv patch.  

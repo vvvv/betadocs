@@ -117,7 +117,7 @@ float4 col = tex2D(Samp, In.TexCd);
 col.rgb = col.r * 0.3 + col.g * 0.59 + col.b * 0.11;  
 return col;
 ```  
-The more elegant way would be using the [dot product](TODO INTERNALLINK:3d-vector-mathematics#dot-product) between two vectors:  
+The more elegant way would be using the [dot product](xref:533cd233-704f-4388-b292-a3a15a356bf8#dot-product) between two vectors:  
 ```hlsl  
 const float3 lumCoeff = {0.3, 0.59, 0.11};  
 col.rgb = dot(col.rgb, lumCoeff);
@@ -142,6 +142,6 @@ return ConvertToGray(col);
 
 Voila. Now fasten your seatbelts!  
 ---  
-Next: [Texture Coordinates](TODO INTERNALLINK:Tutorial Effects - Texture Coordinates)  
-Back: [Pixelshader Preparations](TODO INTERNALLINK:Tutorial Effects - Pixelshader Preparations)  
+Next: [Texture Coordinates](xref:c201a678-d827-4b21-92b3-432203d15dd7)  
+Back: [Pixelshader Preparations](xref:be2dcaef-c3cb-4f96-80a1-fd861c7f640c)  
 TOC: ((Tutorial - Of Effects and Shaders|Of Effects and Shaders))

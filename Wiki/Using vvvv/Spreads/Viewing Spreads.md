@@ -18,7 +18,7 @@ Hovering a pin with the mouse displays the pins name and its current value.
 #### A pin holding a spread of values
 If a pin holds a spread the tooltip also shows a number in round brackets that tells you its *Slice Count*.   
 
-**Note:** A tooltip will always show only the first slice. If you want to explore other slices open an [Inspektor](TODO INTERNALLINK:the-gui#herr-inspektor).  
+**Note:** A tooltip will always show only the first slice. If you want to explore other slices open an [Inspektor](xref:9666611a-6f15-4b33-8300-69f56d9ec7d4).  
 
 
 
@@ -27,7 +27,7 @@ If a pin holds a spread the tooltip also shows a number in round brackets that t
 
 #### A pin holding an empty spread
 
-More about [empty spreads](TODO INTERNALLINK:spread-definitions#nil) (aka nil).  
+More about [NIL](xref:a2b935e8-17cd-4c26-b701-4919803792d1#nil) (aka nil).  
 
 
 
@@ -77,7 +77,7 @@ Individual slice values can be changed and setting the *Slice Count* sets the th
 
 
 **By default an IOBox shows only one slice**.   
-Using the Inspektor you can configure an IOBox to show multiple slices. First scale the IOBox to size, then have a look at its configuration pins in the [Inspektor](TODO INTERNALLINK:the-gui#herr-inspektor).  
+Using the Inspektor you can configure an IOBox to show multiple slices. First scale the IOBox to size, then have a look at its configuration pins in the [Inspektor](xref:9666611a-6f15-4b33-8300-69f56d9ec7d4).  
 
 
 

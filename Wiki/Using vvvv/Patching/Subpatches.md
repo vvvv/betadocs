@@ -14,7 +14,7 @@ Visual programming tends to create huge and complex structures, which may look b
 
 
 ![](~/img/SubPatches-Concept2.png "")  
-*A patch and its subpatch (as a node and [InABox](TODO INTERNALLINK:the-gui#window-modes) )*  
+*A patch and its subpatch (as a node and [Window Modes](xref:5aa4e8e0-fc2c-4112-a985-7f4f0208bf48) )*  
 
 
 The term *Subpatch* refers to a patch that is used as a node inside another patch. Thus the term describes only a specific point of view. In fact every subpatch is an ordinary patch that is only called a subpatch when referred to from the patch its node is placed in. Likewise we can call a patch a *Parentpatch* when we're referring to the patch that holds the node of the patch we're talking about.   
@@ -30,10 +30,10 @@ In other words: a patch can contain many subpatches but each patch only has one 
 
 ![](~/img/BasicPatching_Cascading.png "")  
  
-*Cascading structure of subpatches as seen in the [Finder](TODO INTERNALLINK:the-gui#finder) window*  
+*Cascading structure of subpatches as seen in the [Finder](xref:869d5933-4693-4b32-a7f3-5b7cfcc3a07f) window*  
 
 
-According to this definition every patch that we see is also represented as a node in some other patch forming a hierarchy of patches. The top of this hierarchy is called the [Root](TODO INTERNALLINK:Root) and can always be opened via the shortcut **ALT+R**.  
+According to this definition every patch that we see is also represented as a node in some other patch forming a hierarchy of patches. The top of this hierarchy is called the [Root](xref:5eea935d-c82d-4b89-8403-1fbc1d79fb93) and can always be opened via the shortcut **ALT+R**.  
 
 
 
@@ -44,14 +44,14 @@ It may also help to understand that subpatches are only a visual clue to the use
 
 ---  
 
-Learning when and where to best modularize, ie. where to draw the line between one patch and its subpatch(es) is one of the biggest challenges when learning the art of patching/programming. If you're up for some general tips read: [Software Engineering Patterns with vvvv](TODO INTERNALLINK:software-engineering-patterns-with-vvvv).  
+Learning when and where to best modularize, ie. where to draw the line between one patch and its subpatch(es) is one of the biggest challenges when learning the art of patching/programming. If you're up for some general tips read: [Software Engineering Patterns with vvvv](xref:3eb927ab-9bda-4f94-8481-2cdc7ae67f0d).  
 
 
 
 ![](~/img/patchingSubpatches_Finder.png "")   
 
 ### Finder
-In order to get an overview of all the nodes in a patch or even the whole hierarchy of your programs patches open the [Finder](TODO INTERNALLINK:the-gui#finder) or use CTRL+TAB to cycle through all open windows.  
+In order to get an overview of all the nodes in a patch or even the whole hierarchy of your programs patches open the [Finder](xref:869d5933-4693-4b32-a7f3-5b7cfcc3a07f) or use CTRL+TAB to cycle through all open windows.  
 
 
 
@@ -91,14 +91,14 @@ Press **CTRL+SHIFT+S** in order to *Save As...* the patch under a suitable name.
 
 
 ### Pin Visibilty
-A pins visiblity can always be changed by the user [via the Inspektor](TODO INTERNALLINK:the-gui#pin-visibility). As the designer of a subpatch you can define a default for the pin represented by each IOBox by setting the <span class="pin">Pin Visibility</span> of the IOBox to the respective value.  
+A pins visiblity can always be changed by the user [via the Inspektor](xref:9666611a-6f15-4b33-8300-69f56d9ec7d4#pin-visibility). As the designer of a subpatch you can define a default for the pin represented by each IOBox by setting the <span class="pin">Pin Visibility</span> of the IOBox to the respective value.  
 
 
 
 ![](~/img/Subpatches-ChangedInputs3.png "")   
 
 ### Detecting changed Inputs
-Each IOBox has a hidden <span class="pin">Changed</span> output that can be used to detect if its input has changed. You can activate this output by changing its [visibility](TODO INTERNALLINK:the-gui#pin-visibility) via the Inspektor.  
+Each IOBox has a hidden <span class="pin">Changed</span> output that can be used to detect if its input has changed. You can activate this output by changing its [via the Inspektor](xref:9666611a-6f15-4b33-8300-69f56d9ec7d4#pin-visibility) via the Inspektor.  
 
 Use it to only make a subpatch calculate its outputs when any of its inputs has changed. Alternatively create an <span class="pin">Enabled</span> input to let the user of the subpatch control its execution.   
 
@@ -109,7 +109,7 @@ Use it to only make a subpatch calculate its outputs when any of its inputs has 
 
 
 ### Dealing with BinSize
-If you want your subpatch to expose a <span class="pin">Bin Size</span> for an input then make sure to use one of the handy NormalizeBinSize nodes (available for many categories). It simplifies working with [Bins and Bin Sizes](TODO INTERNALLINK:spread-definitions#bins-and-bin-sizes) within a subpatch in that it translates a given bin size (positive or negative) into the actual bins you'll have to calculate with.   
+If you want your subpatch to expose a <span class="pin">Bin Size</span> for an input then make sure to use one of the handy NormalizeBinSize nodes (available for many categories). It simplifies working with [Bins and Bin Sizes](xref:a2b935e8-17cd-4c26-b701-4919803792d1#bins-and-bin-sizes) within a subpatch in that it translates a given bin size (positive or negative) into the actual bins you'll have to calculate with.   
 
 
 ## Instantiating a Subpatch
@@ -129,7 +129,7 @@ Multiple instances of a subpatch can happily co-exist and still compute their ow
 A subpatch can include an instance of another subpatch which in turn can include an instance of another subpatch and so on. There is no limit to this encapsulation.   
 
 ### Recursion
-A subpatch can not include an instance of itself! vvvv will not allow you to patch such a recursion. Many recursive algorithms can be solved in an alternative way. See [Spread Sinks](TODO INTERNALLINK:spread-sinks) for a hint or look into programming your own [plugin](TODO INTERNALLINK:plugins) in c# to solve such a particular problem.  
+A subpatch can not include an instance of itself! vvvv will not allow you to patch such a recursion. Many recursive algorithms can be solved in an alternative way. See [Spectral Operations](xref:81251c9c-350f-462d-9d61-6d81a6896ad9) for a hint or look into programming your own [plugin](xref:766d8ac2-5145-417d-b2df-37d24e3b2b6f) in c# to solve such a particular problem.  
 
 
 
@@ -138,19 +138,19 @@ A subpatch can not include an instance of itself! vvvv will not allow you to pat
 
 
 
-When handling the windows of patches make sure you understand the difference between closing and hiding. Please refer to [Window Modes](TODO INTERNALLINK:the-gui#window-modes) for details.  
+When handling the windows of patches make sure you understand the difference between closing and hiding. Please refer to [Window Modes](xref:5aa4e8e0-fc2c-4112-a985-7f4f0208bf48) for details.  
 
-Also note that you can stack windows on top of each other to save precious screenspace. Please refer to [Docking](TODO INTERNALLINK:the-gui#docking) for details.   
+Also note that you can stack windows on top of each other to save precious screenspace. Please refer to [Docking](xref:9a57949a-03e4-43ae-a929-bffe3ca409c9) for details.   
 
 
 ## Controlling Evaluation
 
 ![](~/img/SubPatches-Evaluation2.png "")   
-*3 scenes with the [Timing Debug-Mode](TODO INTERNALLINK:debugging#debug-timing) turned on.*  
+*3 scenes with the [Timing Debug-Mode](xref:36621302-10e7-47fe-a8d0-b609c758974d#debug-timing) turned on.*  
 
 
 
-It is sometimes desireable to pause evaluation of a subpatch when its output is not needed. Note that every subpatch-node has an <span class="pin">Evaluate</span> only visible in the [Inspektor](TODO INTERNALLINK:the-gui#herr-inspektor) by default.  
+It is sometimes desireable to pause evaluation of a subpatch when its output is not needed. Note that every subpatch-node has an <span class="pin">Evaluate</span> only visible in the [Inspektor](xref:9666611a-6f15-4b33-8300-69f56d9ec7d4) by default.  
 
 Disabling this pin stops the evaluation of this subpatch (and of course also all of its children).   
 
@@ -170,5 +170,5 @@ Never put nodes that receive inputs from a physical device (like the mouse-nodes
 Modules are basically ordinary patches that are mostly created to be used as black-boxes (ie. without the user typically looking inside them). In order to make patch into a module follow these steps:  
 * press **Ctrl-M** and add Author, Description and Tags  
 * give your patch a name with a category in the round brackets, like **Slope (2d).v4p**.   
-* see all [Naming Conventions](TODO INTERNALLINK:Conventions.NodeAndPinNaming)  
-* optional: add a helppatch, see [Helppatch Conventions](TODO INTERNALLINK:Conventions.HelpPatch)  
+* see all [Conventions.NodeAndPinNaming](xref:db8592a2-03c3-4e8c-a540-d11df5e83078)  
+* optional: add a helppatch, see [Conventions.HelpPatch](xref:07824e2d-da59-4df0-9f49-a143dc0f7625)  

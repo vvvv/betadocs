@@ -3,15 +3,15 @@ uid: 51377b2d-17a4-4b5f-b0c1-eb2cc11fe251
 ---
 
 # VVVV SDK
-The vvvv-sdk is the one-stop solution that allows you to contribute stuff to the [addonpack](TODO INTERNALLINK:About the Addonpack). It includes all of vvvv's open source code and the source code of all contributed addons. As it comes as a <a href="http://git-scm.com/" class="extURL" target="_blank">git</a> repository it allows you to conveniently stay uptodate with latest developments and always build your addons against the latest [alpha builds](https://vvvv.org/downloads/alphas).   
+The vvvv-sdk is the one-stop solution that allows you to contribute stuff to the [addonpack](xref:e1554948-8a15-4e39-8289-59216c388376). It includes all of vvvv's open source code and the source code of all contributed addons. As it comes as a <a href="http://git-scm.com/" class="extURL" target="_blank">git</a> repository it allows you to conveniently stay uptodate with latest developments and always build your addons against the latest [alpha builds](https://vvvv.org/downloads/alphas).   
 
 If you just want to browse through the code you can do so at the <a href="https://github.com/vvvv/vvvv-sdk" class="extURL" target="_blank">vvvv-sdk github page</a>. There are 3 reasons that would make you want to follow the instructions below:  
 * you want to improve help patches/modules/effects/freeframes/plugins  
-* you want to contribute your [addons](TODO INTERNALLINK:About Addons) to the [addonpack](TODO INTERNALLINK:About the Addonpack)  
+* you want to contribute your [addons](xref:e1161303-b566-408c-86f2-1cf6cb8137b7) to the [addonpack](xref:e1554948-8a15-4e39-8289-59216c388376)  
 * you're a h4kc0r  
 
 >note:  
-Note that for simple [dynamic plugins](TODO INTERNALLINK:dynamic plugins), effects or modules development you don't need the following.  
+Note that for simple [dynamic plugins](xref:dc107197-be10-4608-90ee-e5a8f856c146), effects or modules development you don't need the following.  
   
 
 The following steps will get you going:  
@@ -201,7 +201,7 @@ vvvv is following <a href="http://nvie.com/posts/a-successful-git-branching-mode
 Note that you can start multiple individual pull requests by creating different branches on your end and then pull-request from those against vvvv-sdk's develop branch.   
 
 Before start a pull-request please make sure to:  
-* follow [Conventions.CodingStyle](TODO INTERNALLINK:Conventions.CodingStyle) and [Conventions.NodeAndPinNaming](TODO INTERNALLINK:Conventions.NodeAndPinNaming)  
+* follow [Conventions.CodingStyle](xref:dfa9f04a-bfbb-41b9-b475-36031d9085ed) and [Conventions.NodeAndPinNaming](xref:db8592a2-03c3-4e8c-a540-d11df5e83078)  
 * not include too much stuff in one request (ie. always separate features from fixes)  
 
 ## 64bit builds

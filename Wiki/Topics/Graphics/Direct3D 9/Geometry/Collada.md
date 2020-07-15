@@ -54,7 +54,7 @@ Loads a COLLADA file (*.dae) into memory. Its ouput (so called COLLADA Model) re
 
 #### Mesh (EX9.Geometry Collada)
 This node extracts mesh geometries stored in the COLLADA file in form of one X Mesh. To distinguish between the different mesh geometries a subset is generated for each of them. Since it's possible in COLLADA that a mesh can be made out of different mesh parts (for example to assign different materials for each part of a mesh), there are also subsets generated for each of those mesh parts.  
-Please see [Meshes](TODO INTERNALLINK:COLLADA#Meshes in COLLADA and vvvv) in COLLADA and vvvv] for more detailed explanation how to work with COLLADA geometries in vvvv.  
+Please see [Meshes](xref:c9f8e059-dcf9-4712-a877-a200b17d7f76#meshes-in-collada-and-vvvv) in COLLADA and vvvv] for more detailed explanation how to work with COLLADA geometries in vvvv.  
 ##### Input pins
 * COLLADA Model - COLLADA Model where the mesh is extracted from. Provided by node ColladaFile (Ex9.Geometry).   
 * Time - If the geometries in COLLADA are animated this pin can be used to set the animation time. Influences the transformation and skinning matrices. Note that this pin can be spreaded.   
@@ -76,7 +76,7 @@ Please see [Meshes](TODO INTERNALLINK:COLLADA#Meshes in COLLADA and vvvv) in COL
 * Skeleton - If the config pin 'Skeleton pin enabled' is true then this pin will output a spread of points to be able to visualize the skeleton (for example with node Line (EX9.Geometry) with bin size set to 2).   
 
 #### Skeleton (Skeleton Collada)
-If available in the COLLADA file, this node returns the skeleton selected via the <span class="pin">Index</span> pin. Have a look at the skeleton nodes to get further details on this: [skeleton-animation-nodes-tutorial](TODO INTERNALLINK:skeleton-animation-nodes-tutorial)  
+If available in the COLLADA file, this node returns the skeleton selected via the <span class="pin">Index</span> pin. Have a look at the skeleton nodes to get further details on this: [Skeleton Animation Nodes](xref:4c4a36ab-7a01-45dc-a4f9-9ed88c319918)  
 
 #### Camera (EX9.Geometry Collada)
 If available in the COLLADA file, this node returns a view and projection matrix for the camera selected via the <span class="pin">Index</span> pin. Those matrices can directly be connected to the <span class="node">Renderer (EX9)</span>.  

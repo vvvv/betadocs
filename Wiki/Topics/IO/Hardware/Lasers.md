@@ -20,7 +20,7 @@ For the <a href="http://www.pangolin.com/LD2000/index.htm" class="extURL" target
 For more information see the corresponding helppatches.  
 
 **See also:**  
-* [ILDA Protocol](TODO INTERNALLINK:protocols#ilda)  
+* [ILDA Protocol](xref:2b6f5998-8806-471d-890c-792e607407d9)  
 
 
 

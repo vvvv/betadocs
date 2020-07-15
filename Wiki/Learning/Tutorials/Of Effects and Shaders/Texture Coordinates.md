@@ -102,6 +102,6 @@ Here the distance of every pixel to the center is computed and taken as input fo
 
 Si claro so far?   
 ---  
-Next: [Neighbouring Pixels](TODO INTERNALLINK:Tutorial Effects - Neighbouring Pixels)  
-Back: [Manipulating Colors](TODO INTERNALLINK:Tutorial Effects - Manipulating Colors)  
+Next: [Neighbouring Pixels](xref:0f0f3bcc-cf68-44bb-804c-66a86c1e84ec)  
+Back: [Manipulating Colors](xref:cfb2b22c-59c5-4223-b0bd-fee23893ef0d)  
 TOC: ((Tutorial - Of Effects and Shaders|Of Effects and Shaders))

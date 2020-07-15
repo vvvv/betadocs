@@ -5,7 +5,7 @@ uid: 3ac2ed1f-db6d-4f0f-8679-80183ab51517
 # Export from 3D Modelling Software
 
 ##  Maya
-See [How to Export X Files from Maya](TODO INTERNALLINK:How to Export X Files from Maya)  
+See [How to Export X Files from Maya](xref:2db04338-b1c9-4922-aada-369b238caac1)  
 
 ## Cinema 4d
 Cinema 4d offers built-in export for x-files, however vvvv had problems reading them (the mesh-output-pin said "nil"). Joreg mentioned <a href="http://213.239.195.198/~philipp/index.php" class="extURL" target="_blank">XPORT</a> (free), which offers an advanced dialogue and worked for me.   
@@ -16,7 +16,7 @@ note from u7angel: cinema4D 11.5 direct3D export does not save UV coordinates. o
 
 ## Blender
 
-See [elektromeier TutorialBlender](TODO INTERNALLINK:elektromeier TutorialBlender)  
+See [elektromeier TutorialBlender](xref:d16da23f-30ae-4ffd-93be-88fd40e2534e)  
 
 Probably the most complete free software for 3D modeling, Blender claims to have native X-File export. Anyone who's had experiences with that: please post it here.  
 
@@ -49,7 +49,7 @@ More useful tools:
 
 Google Sketchup Warehouse has a huge library with free models.  
 
-Please also see the 3D Modelling section on the [Graphics Links](TODO INTERNALLINK:Graphics Links) page  
+Please also see the 3D Modelling section on the [Graphics Links](xref:667098f9-f169-458c-b7b5-2b283581fef0) page  
 
 
 # X-file in general

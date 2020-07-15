@@ -5,7 +5,7 @@ uid: 28981d7f-9b61-4d05-8bd6-7b1e87010a34
 # Multiple Textures
 
 ## Textures and Samplers
-As already mentioned in the chapter about [texture coordinates](TODO INTERNALLINK:tutorial effects texture coordinates) a texture is always coming with a sampler. In fact a texture alone is not worth much in an effect and always needs to be wrapped by a sampler to be useable. The following lines of code are in our sample:  
+As already mentioned in the chapter about [texture coordinates](xref:c201a678-d827-4b21-92b3-432203d15dd7) a texture is always coming with a sampler. In fact a texture alone is not worth much in an effect and always needs to be wrapped by a sampler to be useable. The following lines of code are in our sample:  
 ```hlsl, line=2  
 texture Tex <string uiname="Texture";>;  
 sampler Samp = sampler_state    //sampler for doing the texture-lookup  
@@ -16,7 +16,7 @@ sampler Samp = sampler_state    //sampler for doing the texture-lookup
     MagFilter = LINEAR;
 };
 ```  
-Here in line 2 a variable of type *texture* named *Tex* is specified. The [annotation](TODO INTERNALLINK:ex9.hlsl.annotations) in angular brackets specifies that the corresponding texture pin on the effect node will show up as <span class="pin">Texture</span>. Next is the sampler block specifying a sampler named *Samp* that has the texture *Tex* associated with it as seen in line 5.  
+Here in line 2 a variable of type *texture* named *Tex* is specified. The [annotation](xref:c1f1412a-9d7c-48d0-911a-bea5d78ca373) in angular brackets specifies that the corresponding texture pin on the effect node will show up as <span class="pin">Texture</span>. Next is the sampler block specifying a sampler named *Samp* that has the texture *Tex* associated with it as seen in line 5.  
 The rest are additional sampler states. For a listing of all possible samplerstates check <a href="http://msdn.microsoft.com/en-us/library/bb173347%28VS.85%29.aspx#Sampler_States" class="extURL" target="_blank">Effect States (Direct3D 9)</a>.  
 
 ## Multiple Texture Pins
@@ -56,7 +56,7 @@ float4 PS(vs2ps In): COLOR
 Assuming the mask texture is a grayscale image, you can access any of its colorcomponents as a fading/blending value (the example uses the red component via .r). Note how you can also simply use the **lerp()** function, where now its third parameter can be a different value per pixel unlike before, where via the *Fade* parameter a constant, which was the same for the whole texture, was used.  
 
 ## Displace one texture by another
-The section about [texture coordinates](TODO INTERNALLINK:tutorial effects - texture coordinates) already showed how you can programmatically modify the given texture coordinate before sampling a pixel in order to achieve various displacement effects.   
+The section about [texture coordinates](xref:c201a678-d827-4b21-92b3-432203d15dd7) already showed how you can programmatically modify the given texture coordinate before sampling a pixel in order to achieve various displacement effects.   
 
 Instead of generating the offsets in the pixelshader you can also interpret the color values of one texture as offsets to the coordinates of another. Like this you can create the offset texture more intuitively via patching. Here is how to achieve a horizontal glitch effect on your texture:  
   
@@ -95,6 +95,6 @@ sampler SampOff = sampler_state    //sampler for doing the texture-lookup
   
 
 ---  
-Next: [Multiple Passes](TODO INTERNALLINK:Tutorial Effects - Multiple Passes)  
-Back: [Neighbouring Pixels](TODO INTERNALLINK:Tutorial Effects - Neighbouring Pixels)  
+Next: [Multiple Passes](xref:39838eb2-c610-47d7-ad8f-79c7bdb2cda4)  
+Back: [Neighbouring Pixels](xref:0f0f3bcc-cf68-44bb-804c-66a86c1e84ec)  
 TOC: ((Tutorial - Of Effects and Shaders|Of Effects and Shaders))

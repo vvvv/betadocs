@@ -16,7 +16,7 @@ Actually this is not important for you who just wants to write a freeframe video
 
 
 ## Write your own plugins
-There is a stepbystep guide to [writing freeframe plugins](TODO INTERNALLINK:writing freeframe plugins) available which is the documentation of the freeframe workshop held during node08.  
+There is a stepbystep guide to [writing freeframe plugins](xref:ba0e897c-3be4-42c6-b340-5509519d15cf) available which is the documentation of the freeframe workshop held during node08.  
 
 Also the freeframe sourceforge site offers sample code for writing plugins in VisualStudio and Delphi:  
 <a href="http://sourceforge.net/projects/freeframe" class="extURL" target="_blank">http://sourceforge.net/projects/freeframe</a> 
@@ -26,7 +26,7 @@ The current freeframe specification has two shortcommings: You cannot have sprea
 
 Basically all you need to make use of the extensions is the two modified files FreeFrame.h and FreeFrame.cpp which you can find in any download of a sample plugin from the FreeFrame page.  
 
-A complete listing of all the extensions is available on [Freeframe 1.0 Extended FreeFrame Specification](TODO INTERNALLINK:FreeFrameExtendedSpecification)  
+A complete listing of all the extensions is available on [Freeframe 1.0 Extended FreeFrame Specification](xref:068e0370-b538-4d72-b9dd-98c4effdfeb3)  
 
 
 ## Freeframe and OpenCV

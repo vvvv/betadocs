@@ -9,7 +9,7 @@ uid: 86693dba-d049-4027-874d-d53f0437ad66
 IOBoxes can be used to input (edit) and output (display) data.  
 
 There are 3 ways to create an IOBox:  
-* via the [Node Browser](TODO INTERNALLINK:the-gui#node-browser) (open it and type IOBox)  
+* via the [Node Browser](xref:eeb8526d-0085-4219-a138-32ac397853f1) (open it and type IOBox)  
 * via a double right-click in a patch  
 * via a middle-click while making a connection  
 
@@ -34,16 +34,16 @@ All other data-types (like Transform, Texture,...) share one IOBox:
 
 
 
-All IOBoxes have some settings available via config-pins in the [Inspektor](TODO INTERNALLINK:the-gui#herr-inspektor) in common:  
+All IOBoxes have some settings available via config-pins in the [Inspektor](xref:9666611a-6f15-4b33-8300-69f56d9ec7d4) in common:  
 
 #### Name, Pin Visibility
 * Descriptive Name  
 * Pin Visibility  
-are used when creating [SubPatches](TODO INTERNALLINK:subpatches).  
+are used when creating [SubPatches](xref:b66f153a-f7c3-4867-a8c9-bce69861d759).  
 
 #### Tag
 * Tag  
-is a string that is not used by vvvv but users can write [plugins](TODO INTERNALLINK:plugins) that access this information.   
+is a string that is not used by vvvv but users can write [plugin](xref:766d8ac2-5145-417d-b2df-37d24e3b2b6f) that access this information.   
 
 
 
@@ -142,7 +142,7 @@ Right-drag:
 * vertically and press CTRL to change saturation  
 * vertically and press SHIFT to change alpha  
 
-The Color IOBox has several 'Chooser Styles', see [Inspektor](TODO INTERNALLINK:the-gui#herr-inspektor):  
+The Color IOBox has several 'Chooser Styles', see [Inspektor](xref:9666611a-6f15-4b33-8300-69f56d9ec7d4):  
 * HSVA Field (default)  
 * RGBA Slider  
 * HSVA Slider  
@@ -153,7 +153,7 @@ The Color IOBox has several 'Chooser Styles', see [Inspektor](TODO INTERNALLINK:
 ![](~/img/BasicPatching_StringIOBox.png "")   
 
 ### String
-Right click in the IOBox to invoke the operation according to its subtype, see [Inspektor](TODO INTERNALLINK:the-gui#herr-inspektor):  
+Right click in the IOBox to invoke the operation according to its subtype, see [Inspektor](xref:9666611a-6f15-4b33-8300-69f56d9ec7d4):  
 * most cases simply open a field to enter text   
 * *filename* - open dialog will pop up  
 * *directory* - open dialog will pop up  
@@ -176,5 +176,5 @@ The enumeration IOBox can also be switched into a 'List' mode. Open the Inspekto
 ![](~/img/BasicPatching_Kontrolleur.png "")   
 
 
-IOBoxes tinted green are exposed for being controlled from the outside. Use **CTRL+K** to toggle exposing. See [Kontrolleur](TODO INTERNALLINK:software#kontrolleur) for more information.   
+IOBoxes tinted green are exposed for being controlled from the outside. Use **CTRL+K** to toggle exposing. See [Kontrolleur](xref:c8fd4535-8b7a-4861-abf1-580520daff26) for more information.   
 

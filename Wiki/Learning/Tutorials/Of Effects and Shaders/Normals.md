@@ -35,7 +35,7 @@ As most shading models (like phong) need the normal in view space, one has to tr
 
 ## Recalculating normals
 
-It gets more complicated if you change the vertex positions in the vertex shader like we did in the [mr. wiggle](TODO INTERNALLINK:Tutorial Effects - Mr. Wiggle) or the [function printing](TODO INTERNALLINK:Tutorial Effects - Function Printing) tutorial. Because the translation of the vertex positions changes the surface curvature, the normals stored previously in the mesh are not valid anymore. And therefore shading calculations are wrong.  
+It gets more complicated if you change the vertex positions in the vertex shader like we did in the [Mr. Wiggle](xref:fe316c6e-bcd0-44e0-bde8-9e987e56bc5c) or the [Function Printing](xref:3673bac8-2d38-4de1-8d09-e1e23109b9ad) tutorial. Because the translation of the vertex positions changes the surface curvature, the normals stored previously in the mesh are not valid anymore. And therefore shading calculations are wrong.  
 
 So, if you need lightning calculations in the pixelshader you have to find a way to recalculate the normals. But this is a very specific problem, which depends on the method that you use to translate the positions.  
 
@@ -48,7 +48,7 @@ The most general, but not so precise way to get the new vertex normal is to calc
 --- get tangent vector **t2** = **p** - **n2**  
 --- get normal **n** = **t1** x **t2**  
 
-Using the cone example from the [function printing](TODO INTERNALLINK:Tutorial Effects - Function Printing) tutorial it looks like:  
+Using the cone example from the [Function Printing](xref:3673bac8-2d38-4de1-8d09-e1e23109b9ad) tutorial it looks like:  
 
 ```hlsl  
 float NeighbourOffset = 0.001;  
@@ -232,6 +232,6 @@ technique TFunctionWithPhong
 }  
 
 ```  
-TOC: [Of Effects and Shaders](TODO INTERNALLINK:Tutorial - Of Effects and Shaders)  
-Back: [Vertex Data](TODO INTERNALLINK:Tutorial Effects - Vertex Data)  
+TOC: [Of Effects and Shaders](xref:1f40bd64-bc93-4263-98c8-50616b9f5c5c)  
+Back: [Vertex Data](xref:b36fb6d0-734d-4f7f-b213-d47dc9d90169)  
 Next: ((tutorial Geometry Morphing|Geometry Morphing))

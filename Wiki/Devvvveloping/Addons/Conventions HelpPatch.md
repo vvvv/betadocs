@@ -16,7 +16,7 @@ A HelpPatch demonstrates the functionality of a node. Ideally a novice should qu
 * create IOBoxes for input pins that you set to values other than their default  
 * don't label them (as if they were inputs) but write a comment next to them and explain their usage  
 
-* in all your texts/comments please stick to the [naming conventions](TODO INTERNALLINK:Conventions.NodeAndPinNaming).  
+* in all your texts/comments please stick to the [Conventions.NodeAndPinNaming](xref:db8592a2-03c3-4e8c-a540-d11df5e83078).  
 * create a *see also* section where you place related nodes that the user is supposed to also checkout.   
 * add links to online information (wikipedia,..) regarding the functionality of the node  
 

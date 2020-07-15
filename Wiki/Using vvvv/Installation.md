@@ -15,7 +15,7 @@ uid: 98242e9a-e52a-4557-a9be-9550d3a1396e
 
 #### OS X
 Want to run vvvv on your mac? Here is a collection of some   
-[Best practices with Bootcamp](TODO INTERNALLINK:best-practices-when-using-bootcamp).  
+[Best practices with Bootcamp](xref:be87c353-6012-4044-8a1e-5ed0afb1c799).  
 
 
 # Offline Installer
@@ -39,11 +39,11 @@ Want to run vvvv on your mac? Here is a collection of some
 * or directly from the vvvv folder on your drive (default is c:\vvvv).  
 
 See the gray window?  
-Welcome. [Everything is fine](TODO INTERNALLINK:tutorial-introduction).  
+Welcome. [Everything is fine](xref:e87fb3bc-1512-456a-9529-8b901f459dc6).  
 
 ---  
 
-Encounter any troubles with running vvvv? See the [Troubleshooting](TODO INTERNALLINK:Troubleshooting) page.  
+Encounter any troubles with running vvvv? See the [Troubleshooting](xref:654fb0a1-2f52-4425-8ab7-2f82d4785d54) page.  
 
 
 

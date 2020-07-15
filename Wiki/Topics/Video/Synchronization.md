@@ -21,7 +21,7 @@ uid: 75aad9ef-ba8c-4fa4-a846-03ae5fed5670
 
 
 **With Boygrouping**  
-In a [boygroup](TODO INTERNALLINK:Boygrouping) simply use the <span class="node"> FileStream (DShow9 Boygroup)</span> instead of the usual filestream node and boygroup it. Note: [multi server boygrouping](TODO INTERNALLINK:multiboygrouping) is not supported.  
+In a [boygroup](xref:9d029794-1266-4e60-961f-33e6f95af7e6) simply use the <span class="node"> FileStream (DShow9 Boygroup)</span> instead of the usual filestream node and boygroup it. Note: [multi server boygrouping](xref:511c5e9e-a4b0-4f82-914b-2231cea23cfe) is not supported.  
 
 **Without Boygrouping**  
 The <span class="node"> FileStream (DShow9 Boygroup)</span> can also be used in non-boygrouped setups:   

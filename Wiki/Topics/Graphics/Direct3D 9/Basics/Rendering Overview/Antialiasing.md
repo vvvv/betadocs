@@ -16,5 +16,5 @@ Rotated or curved objects always look jagged if Antialiasing is turned off (whic
 
 Use the 'Fullscreen / Windowed Antialiasing Quality' settings of the <span class="node">Renderer (DX9)</span> to specify the desired quality. Usually a value of 4 is a good choice.  
 
-This setting is available via [Inspektor](TODO INTERNALLINK:the-gui#herr-inspektor).   
+This setting is available via [Inspektor](xref:9666611a-6f15-4b33-8300-69f56d9ec7d4).   
 

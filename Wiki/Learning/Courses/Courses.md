@@ -24,18 +24,18 @@ For upcoming workshops also keep an eye on the <a href="https://vvvv.org/blog/25
 * <a href="https://vvvv.org/blog/node13-workshop-material" class="extURL blog" target="_blank">Collection of materials</a> from the <a href="http://node13.vvvv.org" class="extURL" target="_blank">node13</a> workshops  
 
 #### Node10
-* [node10.workshop.VVVVAsALanguage](TODO INTERNALLINK:node10.workshop.VVVVAsALanguage)  
-* [node10.workshop.VideoTracking](TODO INTERNALLINK:node10.workshop.VideoTracking)  
+* [node10.workshop.VVVVAsALanguage](xref:6996160f-66c9-472d-b9bf-cfcdd1462123)  
+* [node10.workshop.VideoTracking](xref:4ac9e76a-cd0b-489c-88b5-64093e4f56a6)  
 * <a href="https://vvvv.org/contribution/advanced-programming-node10-workshop." class="extURL contribution" target="_blank">node10.workshop.AdvancedPluginCodingTopicsAndPatterns</a>  
 
 
 #### Node08
-* [node08.workshop.VVVVBeginners](TODO INTERNALLINK:node08.workshop.VVVVBeginners)  
-* [node08.workshop.FrameBasedAnimations](TODO INTERNALLINK:node08.workshop.FrameBasedAnimations)  
-* [node08.workshop.DMX](TODO INTERNALLINK:node08.workshop.DMX)  
-* [node08.workshop.ShaderApplications](TODO INTERNALLINK:node08.workshop.ShaderApplications)  
+* [node08.workshop.VVVVBeginners](xref:c518462e-bca3-48d5-98fd-2113adf5789e)  
+* [node08.workshop.FrameBasedAnimations](xref:f08bee92-97ec-4556-9a44-952199bbe534)  
+* [node08.workshop.DMX](xref:086375e6-a403-472b-84dd-7b95a13bdde2)  
+* [node08.workshop.ShaderApplications](xref:8d4e12a8-26df-460e-9267-f9b15513a1f3)  
 
 
 ## Past
 
-* [Workshops](TODO INTERNALLINK:Workshops) listing of past workshops
+* [Workshops](xref:098fcc15-96ca-4bf0-9840-58c263cc4134) listing of past workshops

@@ -10,20 +10,20 @@ uid: 0f6c2067-f70b-4d38-a079-925b41727b60
 
 
 
-If you have static predefined animations, the Timeliner is the easy way to animate properties in time. Check [this dedicated page](TODO INTERNALLINK:timelinersa) on how to use it.  
+If you have static predefined animations, the Timeliner is the easy way to animate properties in time. Check [this dedicated page](xref:76f3717c-5da9-4a2a-9d53-4c5b982291a6) on how to use it.  
 
 #### Automata
-The Timeliner has an [Automata](TODO INTERNALLINK:timelinersa#automata) built in. You can define states (and animations for them) then jump between these states upon the arrival of the events. Every event gets its own input pin.  
+The Timeliner has an [Automata](xref:76f3717c-5da9-4a2a-9d53-4c5b982291a6#automata) built in. You can define states (and animations for them) then jump between these states upon the arrival of the events. Every event gets its own input pin.  
 
 **See also:**  
 
 * <a href="https://vvvv.org/contribution/automata-ui" class="extURL contribution" target="_blank"> Automata UI</a> contributed by <span class="user"><a href="https://vvvv.org/users/u7angel" class="extURL" target="_blank">u7angel</a></span>  
-* [TimelinerSA](TODO INTERNALLINK:TimelinerSA) - Timeliner's standalone version  
+* [TimelinerSA](xref:76f3717c-5da9-4a2a-9d53-4c5b982291a6) - Timeliner's standalone version  
 * <a href="https://vvvv.org/blog/timelinersa-next-generation-alpha-grade-release" class="extURL blog" target="_blank">TimelinerSA NG</a> - web-based Timeliner  
 * <a href="https://vvvv.org/contributions/1353+1351+2439+1352+7934+2438+1354+1355/3217+4122+2768+9309" class="extURL" target="_blank">Related Contributions</a>  
 
 **Thirdparty OSC Timelines**  
-If the above don't suffice your needs, try one of these third party timelines that can talk to vvvv via [OSC](TODO INTERNALLINK:protocols#osc):  
+If the above don't suffice your needs, try one of these third party timelines that can talk to vvvv via [OSC](xref:5c4b731d-1e09-44ab-8bc9-8e4bae97bc75):  
 * <a href="https://github.com/YCAMInterlab/Duration" class="extURL" target="_blank">Duration</a> - Timeline for creative code  
 * <a href="https://imimot.com/vezer" class="extURL" target="_blank">VEZÉR</a> - Timeline based MIDI/OSC/DMX sequencer for audiovisual artists  
 * <a href="https://www.iannix.org/en/" class="extURL" target="_blank">IanniX</a> - A graphical open-source sequencer for digital art  

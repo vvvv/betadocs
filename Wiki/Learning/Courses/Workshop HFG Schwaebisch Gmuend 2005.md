@@ -9,7 +9,7 @@ den workshop betreuen <span class="user"><a href="https://vvvv.org/users/Joreg" 
 
 # vorab für alle
 * neuste VVVV version <a href="https://vvvv.org/downloads" class="extURL" target="_blank">downloaden</a>  
-* unter [documentation](TODO INTERNALLINK:Documentation) die tutorials anschauen  
+* unter [Documentation](xref:fbc5a2de-2925-4242-90d1-1fa3b080140b) die tutorials anschauen  
 * gedanken machen/ideen sammeln für unser inhaltliches ziel = kettenreaktion  
 
 # workshop tagebuch

@@ -8,7 +8,7 @@ uid: 36621302-10e7-47fe-a8d0-b609c758974d
 
 ![](~/img/patchingDebugging_TTY.png "")   
 
-In vvvv errors typically don't break the system. To see if your program experiences any troubles open a [TTY Renderer](TODO INTERNALLINK:the-gui#tty-renderer) which acts as vvvv's error console.   
+In vvvv errors typically don't break the system. To see if your program experiences any troubles open a [TTY Renderer](xref:e2fe8b35-85de-47a9-a953-2621254e9641) which acts as vvvv's error console.   
 
 In fact it is a good idea to always have a Renderer (TTY) open to be aware of possible problems. Even if you don't understand what a particular error might suggest it may help people on the forum to understand your problem if you post the error there.  
 
@@ -20,9 +20,9 @@ When the TTY Renderer spits out an error similar to this:
 > 
 00:00:28 ERR : Exception caused by node during update :/73/245/178/56/101/84 
   
-you can find the exact node causing this problem by using the [Finder](TODO INTERNALLINK:the-gui#finder) as follows:  
+you can find the exact node causing this problem by using the [Finder](xref:869d5933-4693-4b32-a7f3-5b7cfcc3a07f) as follows:  
 
-The sequence "/73/245/178/56/101/84" in the error message above is a path of node IDs from the [subpatch](TODO INTERNALLINK:root)) to the actual node causing the problem. In order to find the node you start in the root and type "# 73" into the finder. This will show you the ((subpatches) to open. In this subpatch again you use the finder now to find the second ID from the sequence by typing "# 245" in this example. Continue doing so until you reach the last ID which will point to the erroneous node.   
+The sequence "/73/245/178/56/101/84" in the error message above is a path of node IDs from the [root](xref:5eea935d-c82d-4b89-8403-1fbc1d79fb93)) to the actual node causing the problem. In order to find the node you start in the root and type "# 73" into the finder. This will show you the ((subpatches) to open. In this subpatch again you use the finder now to find the second ID from the sequence by typing "# 245" in this example. Continue doing so until you reach the last ID which will point to the erroneous node.   
 
 
 
@@ -53,7 +53,7 @@ In the latter case you'll find the pin colored in red as well and can go there t
 #### Missing Node
 If a node is missing, hovering it with the mouse will bring up a tooltip with the path to the file in which vvvv is expecting the node. You can now look for that file on your system and either:  
 * dragdrop it onto any open patch which will cause vvvv to add the path of this file to its searchpaths for this session and the red node will magically be replaced. When now saving the patch this directory will be referenced for the formerly red node.  
-* add a new searchpath manually in the [Root](TODO INTERNALLINK:Root) patch  
+* add a new searchpath manually in the [Root](xref:5eea935d-c82d-4b89-8403-1fbc1d79fb93) patch  
 
 
 
@@ -115,7 +115,7 @@ Values are expressed in micro seconds. So a value of 130 means 130µs or 0,13ms 
 #### Round Brackets
 A value in round brackets on a subpatch means that inside this patch not all nodes are being measured, ie. some have been selectively removed using SHIFT+CTRL+F9.  
 ---  
-Consult the [Performance](TODO INTERNALLINK:Performance) page if you're looking for gerneral advice to optimize the performance of your patches.   
+Consult the [Performance](xref:026ac8ca-9bcc-45e4-abf3-ac079a44065b) page if you're looking for gerneral advice to optimize the performance of your patches.   
 
 
 

@@ -14,7 +14,7 @@ There are 12 spheres whose spreaded in a circle by the <span class="node">Circul
 And 16 quads arranged in a line by the <span class="node">LinearSpread (Spreads)</span>.  
 
 **See also:**  
-* [Spreads](TODO INTERNALLINK:Spreads)  
+* [Spreads](xref:00327d1e-65ba-4424-997d-615d9a469503)  
 
 
 

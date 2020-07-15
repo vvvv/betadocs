@@ -133,5 +133,5 @@ Subthemen als einzelne Knoten
   * <a href="http://www.bawsug.org/archives/000003.html" class="extURL" target="_blank">Linksammlung Rest vs. SOAP</a>  
   * <a href="http://www.petefreitag.com/item/431.cfm" class="extURL" target="_blank">Rest vs. SOAP</a>  
 
-## [DiplomGTP.Konzeption](TODO INTERNALLINK:DiplomGTP.Konzeption)
+## [DiplomGTP.Konzeption](xref:56e0ccbb-8d0d-4889-ad40-3625e564c7d7)
 ## ((DiplomGTP.Quellen))

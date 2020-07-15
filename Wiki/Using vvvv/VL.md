@@ -66,7 +66,7 @@ VL is included with vvvv since version beta35. Here is what should get you going
 * [Download](https://vvvv.org/downloads) vvvv + addonpack  
 * Check the demo patches in the \girlpower\VL directory  
 * <a href="https://discourse.vvvv.org/c/tutorials" class="extURL" target="_blank">Video Tutorials</a>  
-* [Quick Reference](TODO INTERNALLINK:dynamic-vl-plugin-reference)  
+* [Quick Reference](xref:2879ae37-9e84-42ee-8e2e-8444d274bb6b)  
 * Check the <a href="https://vvvv.org/blog/23" class="extURL blog" target="_blank">devvvv blog</a> for most recent updates on VL  
 * <a href="http://thegraybook.vvvv.org" class="extURL" target="_blank">The Gray Book</a> (in the making)  
 * <a href="https://discourse.vvvv.org/tags/vl" class="extURL" target="_blank">VL topics in the forum</a>  

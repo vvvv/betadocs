@@ -7,10 +7,10 @@ uid: ebe5bc2b-8945-43e5-90fb-5b08c1040347
 #### There are five ways for playing back audio files:
 
 * [FileStream (DShow9)](xref:ebe5bc2b-8945-43e5-90fb-5b08c1040347#filestream-dshow9)  
-* [WavePlayer (DShow9)](TODO INTERNALLINK:audio-file-playback#waveplayer-dshow9)  
-* [FileStream (VAudio)](TODO INTERNALLINK:audio-file-playback#filestream-vaudio)  
-* [FileStream (Bass)](TODO INTERNALLINK:audio-file-playback#filestream-bass)  
-* [FileStream (Irrklang)](TODO INTERNALLINK:audio-file-playback#filestream-irrklang)  
+* [WavePlayer (DShow9)](xref:ebe5bc2b-8945-43e5-90fb-5b08c1040347#waveplayer-dshow9)  
+* [FileStream (VAudio)](xref:ebe5bc2b-8945-43e5-90fb-5b08c1040347#filestream-vaudio)  
+* [FileStream (Bass)](xref:ebe5bc2b-8945-43e5-90fb-5b08c1040347#filestream-bass)  
+* [FileStream (Irrklang)](xref:ebe5bc2b-8945-43e5-90fb-5b08c1040347#filestream-irrklang)  
 
 
 
@@ -33,20 +33,20 @@ This node and its variations plays back the following formats:
 * mid.  
 
 Try the **FileStream2 (DShow9)** for hickupfree file switching.  
-The **FileStream (DShow9 Boygroup)**'s special power is to syncronize several players on the same or several machines (in a [Boygroup](TODO INTERNALLINK:boygrouping-basics) setup).  
+The **FileStream (DShow9 Boygroup)**'s special power is to syncronize several players on the same or several machines (in a [Boygroup](xref:9d029794-1266-4e60-961f-33e6f95af7e6) setup).  
 
 Their <span class="pin">Filename</span> pin is not spreadable, therefore only one file can be played at a time.  
 
 However it's possible to have several <span class="node">FileStream (DShow9)</span> connected to their own <span class="node">AudioOut (DShow9)</span> in the same patch in order to play several files in parallel. Beware though that those streams will not run in sync by default.  
 
-See the [Multichannel Output](TODO INTERNALLINK:audio-output) section for more about playing back multichannel audio files.  
+See the [Multichannel Output](xref:909206b2-99b1-40a4-b477-826b7fbfef9d) section for more about playing back multichannel audio files.  
 
 
 #### Note
 
 With all directshow pins (of type audio / midi / video) you can connect **each output to only one input** pin. Therefore it is not possible with the DShow9 system to play a file and analyse it at the same time using nodes like <span class="node">FFT (DShow9)</span> or <span class="node">RMS (DShow9)</span>. However some sound cards have an option to access the *'Stereo Mix*' of all sound that's being played on it. In that case it’s possible to listen to the sound via separate <span class="node">AudioIn (DShow9)</span> and <span class="node">AudioOut (DShow9)</span>.   
 
-Please check [Accessing Stereo Mix](TODO INTERNALLINK:Accessing Stereo Mix).  
+Please check [Accessing Stereo Mix](xref:dbe5c817-bf69-4bdf-83bf-39d673772523).  
 
 Examples in your vvvv\girlpower\ directory:  
 * Audio  

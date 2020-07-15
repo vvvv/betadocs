@@ -31,7 +31,7 @@ add yours...
 
 For many devices and boards you can use a bare <span class="node">RS232 (Devices)</span> to talk to them.  
 
-As a side note check the [How To RS232](TODO INTERNALLINK:howto-rs232).  
+As a side note check the [How To RS232](xref:ea70034f-a39c-4ecb-910d-07a93956b6c2).  
 
 Examples in your vvvv\girlpower\ directory:  
 * IO\Arduino  

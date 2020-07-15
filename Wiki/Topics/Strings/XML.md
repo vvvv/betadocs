@@ -29,7 +29,7 @@ Examples in your vvvv\girlpower\ directory:
 * IO\Web\05_Wikipedia Example  
 
 **See also:**  
-* [XML Nodes explained in detail](TODO INTERNALLINK:xml)  
+* [XML Nodes explained in detail](xref:3ffb0984-339d-4d17-8d70-822d6032744e)  
 * <a href="https://vvvv.org/contributions/1353+1351+2439+1352+7934+2438+1354+1355/3074" class="extURL" target="_blank">Related Contributions</a>  
 
 

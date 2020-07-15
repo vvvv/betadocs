@@ -16,7 +16,7 @@ uid: b99bfb62-eab8-4b5f-921d-8a56d14305a3
 
 vvvv can talk to any generic HID-Device (Human Interface Device). These can be joysticks, game pads and button panels, data gloves and other things connected via USB.  
 
-For more information check HID-nodes helppatches and the [wiki-page on the HID nodes](TODO INTERNALLINK:hid-nodes).  
+For more information check HID-nodes helppatches and the [wiki-page on the HID nodes](xref:5ac7763b-ae6b-48dc-b59b-85e1a601b1e8).  
 
 
 

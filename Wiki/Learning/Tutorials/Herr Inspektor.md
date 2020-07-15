@@ -3,7 +3,7 @@ uid: 61440fc4-4815-406c-b97a-c0abfd97cd6f
 ---
 
 # Herr Inspektor
-The following tutorial assumes that you have already worked through tutorial 1: [Hello World](TODO INTERNALLINK:Tutorial Hello World)  
+The following tutorial assumes that you have already worked through tutorial 1: [Hello World](xref:eb717348-39dc-4687-a8d4-44db6c491c76)  
 
 # Kottan ermittelt
 In the last tutorial you have been shown how to change values directly on the pins of nodes. This is handy, of course. But you are still missing a more convenient way of getting an overview of all the values of a node.  
@@ -40,6 +40,6 @@ Still not aware of a pin having slices at all, you are supposed to view them rig
 
 Between the two major columns of the Inspektor, namely the left one showing the pins values and the right one denoting their respective names is a third small, light gray column. In some places there is a little arrow (>) telling you that this pin potentially has multiple slices or even a double arrow (>>) telling you that this pin has multiple slices at the moment. No arrow at all indicates that this pin will always only have one slice. Clicking an arrow lets you view the individual values of all the slices. Click once more on the arrows to turn back to the previous view.  
 
-Also watch the [video tutorial](TODO INTERNALLINK:video tutorials#tutorial 8 herr inspektor) about Herr Inspektor.  
+Also watch the [video tutorial](xref:09f00508-01d4-4eac-b6d3-4dace5b00d99#tutorial-8-herr-inspektor) about Herr Inspektor.  
 
-Now rush on to the next tutorial [Spread them Data](TODO INTERNALLINK:Tutorial Spreads), learn about slices and become a pro-patcher.
+Now rush on to the next tutorial [Spread them Data](xref:e9d19f29-9c2b-4afb-9386-f98318d4bfba), learn about slices and become a pro-patcher.

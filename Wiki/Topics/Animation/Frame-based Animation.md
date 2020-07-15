@@ -33,7 +33,7 @@ But you also can do your own frame-based animation, simply by patching.
 
 ![](~/img/FeedbackLoops_Understanding2_0.png "")  
 
-The basic idea here is that the current value of the animation is simply calculated based upon the value of the last frame and tweaked a bit in a certain way. See more about [Loops](TODO INTERNALLINK:patching-concepts#loops).  
+The basic idea here is that the current value of the animation is simply calculated based upon the value of the last frame and tweaked a bit in a certain way. See more about [Loops](xref:11e284ec-b6b0-47b2-bed3-f90a91e55e91#loops).  
 
 When doing this naively, higher frame rates will result in faster animations. To avoid that, here is a simple trick:   
 

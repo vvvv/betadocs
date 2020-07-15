@@ -8,14 +8,14 @@ You are familiar with textual programming and are missing some of the basic conc
 
 Here is collection of common programming concepts and some hints to where you can find them in vvvv.  
 
-If you're not a coder, check [Patching Concepts](TODO INTERNALLINK:Patching Concepts).  
+If you're not a coder, check [Patching Concepts](xref:11e284ec-b6b0-47b2-bed3-f90a91e55e91).  
 
 
 >note:  
 If you're missing a specific concept you can always implement a little plugin using the built-in VL or c# editors.  
 
-* [Dynamic VL Plugin Reference](TODO INTERNALLINK:dynamic-vl-plugin-reference)  
-* [Dynamic C# Plugin Reference](TODO INTERNALLINK:dynamic-plugins-reference)  
+* [Quick Reference](xref:2879ae37-9e84-42ee-8e2e-8444d274bb6b)  
+* [Dynamic C# Plugin Reference](xref:9fb98fc4-377b-49be-87ee-2c4741183b7c)  
   
 
 
@@ -25,7 +25,7 @@ If you're missing a specific concept you can always implement a little plugin us
 
 
 
-There is no concept of classes in vvvv. For basic structuring of your programs have a look at [Subpatches](TODO INTERNALLINK:Subpatches).  
+There is no concept of classes in vvvv. For basic structuring of your programs have a look at [Subpatches](xref:b66f153a-f7c3-4867-a8c9-bce69861d759).  
 
 Subpatches can be understood as functions that take Inputs and return Outputs.  
 
@@ -43,7 +43,7 @@ There've been attempts to add further ways of structuring data into vvvv, see:
 
 Looking for an *if*, *switch*, ...?  
 
-See [Conditions](TODO INTERNALLINK:conditions).  
+See [Conditions](xref:69bdb72a-3e21-4b27-a4a6-c15e7c0ec56e).  
 
 
 # Loops
@@ -56,7 +56,7 @@ Where in textual programming you’d use a **for, while** or **repeat** construc
 
 Basically vvvv avoids the concept of such sequential loops. Instead it often allows you to calculate all desired iterations at the same time using **spectral operations**.  
 
-See [Spread Sinks](TODO INTERNALLINK:spread-sinks).  
+See [Spectral Operations](xref:81251c9c-350f-462d-9d61-6d81a6896ad9).  
 
 
 # Variables
@@ -69,7 +69,7 @@ Values can be sent from one part of a patch to another (or between patches) usin
 
 The most common use case for S/R nodes is to deliver global constants to different parts of a project.   
 
-See [Send / Receive](TODO INTERNALLINK:send-receive).  
+See [Send / Receive](xref:32b954be-83f1-4b75-951f-f64e7fdd7c1b).  
 
 
 
@@ -82,7 +82,7 @@ In order to save the result of a computation in one frame to use it for further 
 
 FrameDelay nodes are therefore creating feedback-loops in a patch.  
 
-See [Creating Feedback Loops](TODO INTERNALLINK:creating-feedback-loops).  
+See [Creating Feedback Loops](xref:4a3a1653-5c09-4102-a148-8f014f3d9a2e).  
 
 
 
@@ -93,7 +93,7 @@ See [Creating Feedback Loops](TODO INTERNALLINK:creating-feedback-loops).
 #### Constants
 IOBoxes can be used as constants, which are feeding manually adjusted Values (Colors, Strings...) for Inputs of the nodes and subpatches.  
 
-See [IOBoxes](TODO INTERNALLINK:ioboxes).  
+See [IOBoxes](xref:86693dba-d049-4027-874d-d53f0437ad66).  
 
 
 
@@ -105,7 +105,7 @@ See [IOBoxes](TODO INTERNALLINK:ioboxes).
 #### Input/Output Parameters
 Named IOBoxes are used to create Inputs and Outputs for subpatches. They can therefore be understood as **input** and **output parameters** of **functions**.  
 
-See [Subpatches](TODO INTERNALLINK:subpatches).  
+See [SubPatches](xref:b66f153a-f7c3-4867-a8c9-bce69861d759).  
 
 
 
@@ -116,7 +116,7 @@ See [Subpatches](TODO INTERNALLINK:subpatches).
 
 Looking for an *Array*, *List*, ...?  
 
-See [Spreads](TODO INTERNALLINK:Spreads).  
+See [Spreads](xref:00327d1e-65ba-4424-997d-615d9a469503).  
 
 
 # Data Storages
@@ -128,7 +128,7 @@ See [Spreads](TODO INTERNALLINK:Spreads).
 
 Looking for a *Buffer*, *Stack* or *Queue*?  
 
-See [Spread Collections](TODO INTERNALLINK:spread-collections).  
+See [Spread Collections](xref:bdc0b656-7f64-4cb5-a7bc-eac1c28a8357).  
 
 
 # Null
@@ -138,7 +138,7 @@ See [Spread Collections](TODO INTERNALLINK:spread-collections).
 
 An empty Array or List in textual language is Nil in vvvv.  
 
-See [NIL](TODO INTERNALLINK:spread-definitions#nil).  
+See [NIL](xref:a2b935e8-17cd-4c26-b701-4919803792d1#nil).  
 
 
 # State Automatas
@@ -146,9 +146,9 @@ See [NIL](TODO INTERNALLINK:spread-definitions#nil).
 ![](~/img/patching-automata.png "")  
 
 
-When patching anything that can be separated into a series of states and events that cause transition from one state to another you are likely looking for <span class="node">Automata (Animation)</span>. Also the [Timerliner](TODO INTERNALLINK:timelinersa#automata) has an automata built in.  
+When patching anything that can be separated into a series of states and events that cause transition from one state to another you are likely looking for <span class="node">Automata (Animation)</span>. Also the [Automata](xref:76f3717c-5da9-4a2a-9d53-4c5b982291a6#automata) has an automata built in.  
 
 **See also:**  
-* [Graphic Automata](TODO INTERNALLINK:graphicalautomata)  
+* [Graphic Automata](xref:250959b9-c2b3-420e-ad36-0b7c6b784fb6)  
 
 

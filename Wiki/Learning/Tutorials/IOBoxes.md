@@ -3,10 +3,10 @@ uid: 2466c693-f778-4df7-91b7-1f49a913dcf3
 ---
 
 # IOBoxes
-The following tutorial assumes that you have already worked through tutorial III: [Spread them Data](TODO INTERNALLINK:Tutorial Spreads).  
+The following tutorial assumes that you have already worked through tutorial III: [Spread them Data](xref:e9d19f29-9c2b-4afb-9386-f98318d4bfba).  
 
 # IOBoxes for each datatype
-In the [Hello World](TODO INTERNALLINK:Tutorial Hello World) tutorial you have already made friends with the right double-click <span class="node">IOBox (Value Advanced)</span> for the value datatype. But there are also IOBoxes for all the other datatypes:   
+In the [Hello World](xref:eb717348-39dc-4687-a8d4-44db6c491c76) tutorial you have already made friends with the right double-click <span class="node">IOBox (Value Advanced)</span> for the value datatype. But there are also IOBoxes for all the other datatypes:   
 
 * <span class="node">IOBox (String)</span>   
 * <span class="node">IOBox (Color)</span>  

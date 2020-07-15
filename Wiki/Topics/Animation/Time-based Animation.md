@@ -32,7 +32,7 @@ If point B changes during the animation, the node builds a new curve and smoothl
 If you just want to smoothen (filter) input values, besides <span class="node">Damper (Value)</span> or <span class="node">Newton (Value)</span> there is also <span class="node">OneEuroFilter (Animation)</span> worth checking out.  
 
 **See also:**  
-* [Clock Sources](TODO INTERNALLINK:Clock Sources)  
+* [Clock Sources](xref:d4c65a28-1a18-4152-8784-c941526da5aa)  
 * <a href="https://vvvv.org/contributions/1353+1351+2439+1352+7934+2438+1354+1355/3311+3812+2492" class="extURL" target="_blank">Related Contributions</a>  
 
 

@@ -16,7 +16,7 @@ you should place all modules and help files into:
 ##  tonfilm-VideoSync
 
 >note:  
-this is old stuff, go here: [video synchronization](TODO INTERNALLINK:video synchronization)  
+this is old stuff, go here: [video synchronization](xref:75aad9ef-ba8c-4fa4-a846-03ae5fed5670)  
   
 
 this module synchronizes videos with the same length on different computers in a boygroup setup. they will not be more than 2 frames out of sync if you are using a codec that can change playback speed in fine steps. open the file "VideoSync (VVVV Server).v4p" to see a basic setup. read [this forum thread](https://vvvv.org/tiki-view_forum_thread.php?comments_parentId=12591&topics_threshold=0&topics_offset=4&topics_sort_mode=lastPost_desc&topics_find=&forumId=7) for a little more info.  
@@ -48,7 +48,7 @@ and to project the shadows on, a plane is also included:
 *Plane (EX9.Geometry Vector Out).v4p*  
 
 ##  tonfilm-ObjectAxisRotation
-this is a rotation always around the axis of the object. looks damn cool, try the help patch ... used in [kiilo - FlyingCamera](TODO INTERNALLINK:kiilo - FlyingCamera)  
+this is a rotation always around the axis of the object. looks damn cool, try the help patch ... used in [kiilo - FlyingCamera](xref:3999690a-9bed-4fea-99f3-5cc8bb519587)  
 
 [ObjectAxisRotation.zip (8.98 Kb)](https://vvvv.org/tiki-download_file.php?fileId=590)  
  
@@ -97,7 +97,7 @@ multiply with 2*Pi to get radeans, with 360 to get degrees.
 
 [VectorAngle.zip (2.95 Kb)](https://vvvv.org/tiki-download_file.php?fileId=592)  
 
-see [3d Vector Mathematics](TODO INTERNALLINK:3d Vector Mathematics)  
+see [3d Vector Mathematics](xref:d7b17d70-42b3-4b01-8488-3406aef4f42f)  
 
 ![](~/img/angle3dvectorhelp.jpg "")  
 
@@ -105,7 +105,7 @@ see [3d Vector Mathematics](TODO INTERNALLINK:3d Vector Mathematics)
 #  Value
 
 ##  tonfilm-MathConstants
-this is based on [kalles idea](TODO INTERNALLINK:kalle.Modules.Value) simply to store the values in IOboxes inside the module. but with <span class="node">IOBox (Value Advanced)</span> the values get rounded to 4 decimals, but it works with <span class="node">IOBox (String)</span> and <span class="node">AsValue (String)</span>.  
+this is based on [kalles idea](xref:) simply to store the values in IOboxes inside the module. but with <span class="node">IOBox (Value Advanced)</span> the values get rounded to 4 decimals, but it works with <span class="node">IOBox (String)</span> and <span class="node">AsValue (String)</span>.  
 
 [MathConstants.zip (2.53 Kb)](https://vvvv.org/tiki-download_file.php?fileId=318)  
 

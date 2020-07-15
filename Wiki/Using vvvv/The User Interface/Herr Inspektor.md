@@ -24,7 +24,7 @@ The Inspektor's view is structured into 3 sections:
 * Output Pins: readonly output pins  
 
 #### Editing values
-Values in the Inspektor are changed the same way as in IOBoxes. Basically that means: **rightclick** (strings, enums) or **rightclick+drag** (values, colors). For details see [Editing IOBoxes](TODO INTERNALLINK:ioboxes#editing-data).  
+Values in the Inspektor are changed the same way as in IOBoxes. Basically that means: **rightclick** (strings, enums) or **rightclick+drag** (values, colors). For details see [Editing IOBoxes](xref:86693dba-d049-4027-874d-d53f0437ad66#editing-data).  
 
 #### Pin Visibility
 The narrow column of quads on the very left indicates the visibility of a pin in the patch. By clicking the quads you can toggle the respective pins between *Visible*, *Hidden* and *OnlyInspektor*.  
@@ -36,8 +36,8 @@ Usually all Inspektors always adapt to the currently selected node. If you want 
 When selecting multiple nodes at once the Inspektor only shows pins that all those nodes have in common.   
 
 **See also:**  
-* [Inspektor Tutorial](TODO INTERNALLINK:tutorial-inspektor)  
-* [Video Tutorial](TODO INTERNALLINK:video-tutorials#tutorial-8-herr-inspektor)  
+* [Inspektor Tutorial](xref:61440fc4-4815-406c-b97a-c0abfd97cd6f)  
+* [Video Tutorial](xref:09f00508-01d4-4eac-b6d3-4dace5b00d99#tutorial-8-herr-inspektor)  
 
 
 

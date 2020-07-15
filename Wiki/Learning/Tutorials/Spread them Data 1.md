@@ -3,7 +3,7 @@ uid: e9d19f29-9c2b-4afb-9386-f98318d4bfba
 ---
 
 # Spread them Data 1
-The following tutorial assumes that you have already worked through tutorial II: [Herr Inspektor](TODO INTERNALLINK:Tutorial Inspektor).  
+The following tutorial assumes that you have already worked through tutorial II: [Herr Inspektor](xref:61440fc4-4815-406c-b97a-c0abfd97cd6f).  
 
 # Spread them Data
 If one day you decide to take the challenge and attend the final exam to receive the darkgray patcher needle you better be sure of having understood the ease of spreads. Read on carefully and you'll love it. Because:  
@@ -60,6 +60,6 @@ Via the <span class="node">I (Spreads)</span> node we tell the <span class="node
 And so on. Thus, whenever you think things won't work out a spread will come handy.   
 
 # Further experimenting
-At this point you may also want to have a look at the [helppatches](TODO INTERNALLINK:HowTo Find Help) of: <span class="node">GetSlice (Spreads)</span>, <span class="node">Stallone (Spreads)</span>, <span class="node">Queue (Spreads)</span> and <span class="node">Cons (Spreads)</span>.  
+At this point you may also want to have a look at the [helppatches](xref:d226aa5e-55b1-4cb3-b016-cd958051fc4a) of: <span class="node">GetSlice (Spreads)</span>, <span class="node">Stallone (Spreads)</span>, <span class="node">Queue (Spreads)</span> and <span class="node">Cons (Spreads)</span>.  
 
 The tutorial series now goes on telling you some things you should know about ((Tutorial IOBoxes|IOBoxes))

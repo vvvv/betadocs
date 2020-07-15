@@ -16,7 +16,7 @@ uid: 8c8ad666-b5b1-4fb6-a0e1-5dccccdbf9f6
 <span class="node">RS232 (Devices)</span>  
 ...and many more  
 
-The simplest way to talk to any Microcontroller Board from vvvv is by using the <span class="node">FirmataBoard (Devices)</span> node via the Firmata protocol. Check the dedicated [Firmata page](TODO INTERNALLINK:firmata-protocol) on how to use it.  
+The simplest way to talk to any Microcontroller Board from vvvv is by using the <span class="node">FirmataBoard (Devices)</span> node via the Firmata protocol. Check the dedicated [Firmata page](xref:5b3459c4-ea4a-40a1-8bf9-60d4c0a0f5ef) on how to use it.  
 
 A bit more advanced and direct way to talk to a microcontroller is by using the <span class="node">RS232 (Devices)</span>.  
 
