@@ -18,7 +18,7 @@ uid: b0afd550-461a-48ca-9749-c37cad135695
 Easy to use patch to easy map all the 4 scenes for the Korg Nano Kontrol MIDI controller. You move a slider, click on the simulation and your controller is mapped correctly. Also includes a few ways to split the data, a readme, and a lot of other stuff to read:   
 **<a href="https://vvvv.org/contribution/korg-nano-kontrol-midi-mapper" class="extURL contribution" target="_blank">Korg Nano Kontrol MIDI mapper</a>.**  
 
-Old version: [KorgNanoKontMIDIMapper.zip](TODO INTERNALLINK:/tiki-download_file.php?fileId=1865).  
+Old version: [KorgNanoKontMIDIMapper.zip](https://vvvv.org/tiki-download_file.php?fileId=1865).  
 
 
 
@@ -27,9 +27,9 @@ Old version: [KorgNanoKontMIDIMapper.zip](TODO INTERNALLINK:/tiki-download_file.
 
 I have patched a module that can send DMX using the <a href="http://www.enttec.com/index.php?main_menu=Products&prod=70304&show=description&name=dmxusbpro" class="extURL" target="_blank">Enttec USB Pro</a> dongle. Be sure you set up your virtual comport first. Install the driver on the enttec website, and just to be sure, test it with the DMXUSBPro Utility, you than also see what COMport you want to use. I tested both patches with an <a href="http://artisticlicence.com/index.php?mode=products&sub=overview&action=&category_id=3&product_id=1&project_id=&policies_id=&cart_id=&order_id=" class="extURL" target="_blank">Artistic Licence Micro-Scope 3a</a> DMX test device.  
 
-DMX Sender: **[DMX (Devices Enttec_USB_Pro)](TODO INTERNALLINK:/tiki-download_file.php?fileId=991)**  
+DMX Sender: **[DMX (Devices Enttec_USB_Pro)](https://vvvv.org/tiki-download_file.php?fileId=991)**  
 
-DMX Reciever: **[DMX (Devices Enttec USB Pro Reciever)](TODO INTERNALLINK:/tiki-download_file.php?fileId=1498)**  
+DMX Reciever: **[DMX (Devices Enttec USB Pro Reciever)](https://vvvv.org/tiki-download_file.php?fileId=1498)**  
 
 ---  
 #  Sending and Recieving Text over Artnet
@@ -38,9 +38,9 @@ ArtNet is a protocol for sending DMX data over IP networks. The reason for sendi
 
 The disadvantage off ArtNet is that it is only 8 bit (256 values max) over 512 channels per Universe. I am only allowed to send out values. So, in order to send any information using vvvv I have to convert the text to a spread of values, then send it over, and on the receiving side I have to transform the spread back to a text string again.  
 
-Artnet Text Sender: **[Artnet Text Sender](TODO INTERNALLINK:/tiki-download_file.php?fileId=851)**  
+Artnet Text Sender: **[Artnet Text Sender](https://vvvv.org/tiki-download_file.php?fileId=851)**  
 
-Artnet Text Reciever: **[Artnet Text Reciever](TODO INTERNALLINK:/tiki-download_file.php?fileId=850)**  
+Artnet Text Reciever: **[Artnet Text Reciever](https://vvvv.org/tiki-download_file.php?fileId=850)**  
 
 
 ---  
@@ -53,7 +53,7 @@ For an installation I wanted to be able to control this <a href="http://www.kram
 
 The method I used to control the Kramer is based on a virtual COM port. The tool, the Lantronix Com Port Redirector, which comes with your Kramer CD (or you can <a href="http://www.kramerelectronics.com/support/download.asp?f=37117" class="extURL" target="_blank">download it), will pretend you are connected the Kramer trough a COM port (RS232), while you are actually using the Ethernet connection. All the settings I made where done following the users manual, I did not alter anything on the Web Manager Page. If you can use the Kramer VP-8x8 using the K-router software, you know you installed it correct, and you can start using this patch. It is basically a copy off the front-end buttons, with some creativity one can make very cool things based on this patch, just imagine that you can move the different inputs, based on time, or even triggered by a beat!!  
 
-The Kramer VP-8x8 patch: **[Kramer8x8switcher.v4p](TODO INTERNALLINK:/tiki-download_file.php?fileId=724)**  
+The Kramer VP-8x8 patch: **[Kramer8x8switcher.v4p](https://vvvv.org/tiki-download_file.php?fileId=724)**  
 
 If you want to know why this Patch works, and learn a bit more about the <span class="node">RS232 (Devices)</span> node, please, do read on.  
 
@@ -90,7 +90,7 @@ I used a filestream to get the video, but I can imagine you can patch it real ea
 
 For the Club we are building, I rebuild the entire patch, I made it 'surround' (meaning just the 4 sides), add a damper, and most important, shades off grey and dark colors are not beeing used to calculate the main the color. It works great now.  
 
-The Ambilght patch: **[AmbilightREMAKE.v4p](TODO INTERNALLINK:/tiki-download_file.php?fileId=776)**  
+The Ambilght patch: **[AmbilightREMAKE.v4p](https://vvvv.org/tiki-download_file.php?fileId=776)**  
 
 Thanks <span class="user"><a href="https://vvvv.org/users/Catweasel" class="extURL" target="_blank">Catweasel</a></span> for all the help and introducing me to vvvv!!  
 
@@ -110,7 +110,7 @@ The trouble part was that a letter is 6x6 values, and the wall itself is just 36
 
 But now it works, and most inportant I LEARNED from it!! Now I can transform this scroller to DMX and make my LED Wall do a sweet texts croll!!  
 
-Text Scroll patch: **[6x6 Scrolling Text.zip](TODO INTERNALLINK:/tiki-download_file.php?fileId=668)**  
+Text Scroll patch: **[6x6 Scrolling Text.zip](https://vvvv.org/tiki-download_file.php?fileId=668)**  
 
 Thanks <span class="user"><a href="https://vvvv.org/users/sanch" class="extURL" target="_blank">sanch</a></span> for the great help and teaching me how to create and work with complex spreads.  
 

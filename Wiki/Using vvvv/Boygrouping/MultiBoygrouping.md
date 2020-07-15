@@ -50,6 +50,6 @@ On *Server1* you want a boygrouped <span class="node">S (Node)</span>, on *Serve
 1. Now on *Server2* you create a S with the same SendString, but don't boygroup it. Like this you can select that SendString on the boygrouped R (on *Server2*). 
 
 **See also:**  
-* [MultiBoygrouping forum-thread](TODO INTERNALLINK:/tiki-view_forum_thread.php?comments_parentId=31271&topics_threshold=0&topics_offset=7&topics_sort_mode=lastPost_desc&topics_find=&forumId=7)  
+* [MultiBoygrouping forum-thread](https://vvvv.org/tiki-view_forum_thread.php?comments_parentId=31271&topics_threshold=0&topics_offset=7&topics_sort_mode=lastPost_desc&topics_find=&forumId=7)  
 
 

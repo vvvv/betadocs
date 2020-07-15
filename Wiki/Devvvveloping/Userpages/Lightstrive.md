@@ -28,7 +28,7 @@ Further documentation on:
 * <a href="http://www.checksum5.com/89/lightstrive" class="extURL" target="_blank">checksum5.com</a>  
 
 # Movie 
-{mov:[/tiki-download_file.php?fileId=15}](TODO INTERNALLINK:/tiki-download_file.php?fileId=15})  
+{mov:[/tiki-download_file.php?fileId=15}](https://vvvv.org/tiki-download_file.php?fileId=15})  
 
 
  

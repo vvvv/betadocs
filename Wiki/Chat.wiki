@@ -1,0 +1,18 @@
+Visit us in the __[https://riot.im/app/#/room/#vvvv:matrix.org|#vvvv room]__ on matrix.
+No need to register, by clicking on the link above you can enter the chat-room as a guest. 
+
+
+!!What the matrix?
+Matrix is the future of online communication, in that respect kind of the successor to [https://en.wikipedia.org/wiki/Internet_Relay_Chat|IRC]:
+- open source protocol
+- open source client (from web to fancy mobile, see [https://riot.im|riot.im])
+- open source server
+- decentralized
+- end-to-end encryption
+- no need to register (guest access)
+- endless history (even for guests if so desired)
+- bridges with #irc #telegram #slack #gitter and more
+
+[http://matrix.org/]
+
+

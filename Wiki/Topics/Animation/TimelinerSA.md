@@ -171,7 +171,7 @@ Send the commands to the base-address as set in the edit field + the command you
 * keyframes and timebar now snap to automata states when pressing CTRL while dragging  
 * improved drawing of automata states  
 * keyframe editors now also available in collapsed pins  
-* fixed bugs reported [here](TODO INTERNALLINK:/tiki-view_forum_thread.php?forumId=20&comments_parentId=28660#threadId28709) and [here](TODO INTERNALLINK:/tiki-view_forum_thread.php?forumId=20&comments_parentId=28341#threadId28711)  
+* fixed bugs reported [here](https://vvvv.org/tiki-view_forum_thread.php?forumId=20&comments_parentId=28660#threadId28709) and [here](https://vvvv.org/tiki-view_forum_thread.php?forumId=20&comments_parentId=28341#threadId28711)  
 
 ## beta7.1 19 09 09
 * u7 found something was odd with the accompanying .dlls  
@@ -188,7 +188,7 @@ Send the commands to the base-address as set in the edit field + the command you
 * viewer crashes on zoom/translate  
 
 ## beta5.2 - 30 11 08
-* fixed loading of broken savegame.xml as reported [here](TODO INTERNALLINK:/tiki-download_file.php?fileId=1846)  
+* fixed loading of broken savegame.xml as reported [here](https://vvvv.org/tiki-download_file.php?fileId=1846)  
 * collapsed value-pins now load correctly  
 * no more toggling of PLAY/PAUSE when in text-edit field  
 
@@ -200,7 +200,7 @@ Send the commands to the base-address as set in the edit field + the command you
 ## beta5 - 28 09 08
 * added Midi Pin (+M) (windows only)  
 * current slice value is now being displayed again  
-* renaming pins now holds its keyframes [as](TODO INTERNALLINK:/tiki-view_forum_thread.php?forumId=20&comments_parentId=20678#threadId22082) reported here]  
+* renaming pins now holds its keyframes [as](https://vvvv.org/tiki-view_forum_thread.php?forumId=20&comments_parentId=20678#threadId22082) reported here]  
 
 ## beta4.3 - 17 09 08
 * adding removing AutomataPin now adapts upper pinarea  
@@ -213,8 +213,8 @@ Send the commands to the base-address as set in the edit field + the command you
 * color-keyframe hue adjustment is now cyclic  
 
 ## beta4.2 - 16 09 08
-* no more OSC-crash with too many pins [as](TODO INTERNALLINK:/tiki-view_forum_thread.php?forumId=20&comments_parentId=21502) reported here] and [here](TODO INTERNALLINK:/tiki-view_forum_thread.php?comments_parentId=21503&topics_threshold=0&topics_offset=0&topics_sort_mode=lastPost_desc&topics_find=&forumId=20)  
-* no more wrong default values [as](TODO INTERNALLINK:/tiki-view_forum_thread.php?comments_parentId=21503&topics_threshold=0&topics_offset=0&topics_sort_mode=lastPost_desc&topics_find=&forumId=20) reported here]  
+* no more OSC-crash with too many pins [as](https://vvvv.org/tiki-view_forum_thread.php?forumId=20&comments_parentId=21502) reported here] and [here](https://vvvv.org/tiki-view_forum_thread.php?comments_parentId=21503&topics_threshold=0&topics_offset=0&topics_sort_mode=lastPost_desc&topics_find=&forumId=20)  
+* no more wrong default values [as](https://vvvv.org/tiki-view_forum_thread.php?comments_parentId=21503&topics_threshold=0&topics_offset=0&topics_sort_mode=lastPost_desc&topics_find=&forumId=20) reported here]  
 
 ## beta4.1 - 05 05 08
 * no more crash on scrolling with wheel  

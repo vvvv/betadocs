@@ -168,7 +168,7 @@ directly in the directory of your plugin. From there it will be automatically co
 ### Helppatch
 Don't forget to provide a helppatch for your plugin. Put helppatches directly into the  
  \addonpack\lib\nodes\plugins
-directory. This is a bit of a mess, we know. Please come complain on [irc](TODO INTERNALLINK:howto use irc).  
+directory. This is a bit of a mess, we know. Please come complain on [chat](xref:35d4ac33-88ee-42cb-b5f8-6d91dc20e7ef).  
 
 ## Update your clone of the vvvv-sdk
 The git *pull* command is used to fetch (and merge) code from a remote repository. By default when you pull in your repository you'll update your local code from your remote code. But in order to get the freshest bits from the vvvv-sdk you need to pull from the original repository.   

@@ -42,8 +42,8 @@ A module for these interfaces can be found here [module](TODO INTERNALLINK:msber
 <span class="user"><a href="https://vvvv.org/users/Karistouf" class="extURL" target="_blank">Karistouf</a></span> writes: written a dmx engine named [((userpageKaristouf|little_cat] to receives thruth udp levels from vvvv. **vvvv can works with enttec open** and 4 more interfaces. now you can use an open ! ;-)   
 ## Enttec USB Pro
 There is also the (bit more expensive) very fast Enttec USB Pro dongle. This DMX dongle can communicate with vvvv using a virtual COMport, user <span class="user"><a href="https://vvvv.org/users/west" class="extURL" target="_blank">west</a></span> had written two standalone exe for communicating with ENTTEC PRO (and other dmx interfaces) from vvvv:   
-**[little_cat](TODO INTERNALLINK:/tiki-download_wiki_attachment.php?attId=199)** who receives udp string containing your values and send them to dmx devices  
-**[little_mouse](TODO INTERNALLINK:/tiki-download_wiki_attachment.php?attId=204)** who receives dmx and convert it to an udp string you receive easely inside of vvvv. little_cat and little_mouse are working with ENTTEC PRO.  
+**[little_cat](https://vvvv.org/tiki-download_wiki_attachment.php?attId=199)** who receives udp string containing your values and send them to dmx devices  
+**[little_mouse](https://vvvv.org/tiki-download_wiki_attachment.php?attId=204)** who receives dmx and convert it to an udp string you receive easely inside of vvvv. little_cat and little_mouse are working with ENTTEC PRO.  
 ## Enttec USB Pro Mk2
 The latest of Enttec's fast DMX interfaces supports two dmx universes in parallel. Extending <span class="user"><a href="https://vvvv.org/users/west" class="extURL" target="_blank">west</a></span> wrote this patch to initialise and access both USB Pro MkII's universes.  
 <a href="https://vvvv.org/contribution/enttec-dmx-usb-pro-mkii-module" class="extURL contribution" target="_blank">enttec-dmx-usb-pro-mkii-module</a>  
@@ -51,7 +51,7 @@ The latest of Enttec's fast DMX interfaces supports two dmx universes in paralle
 <a href="http://www.peperoni-light.de/products1.htm" class="extURL" target="_blank">www.peperoni-light.de</a> It's a really small DMX output device, running with a driver named DASHARD.DLL just like the USBDMX2 interface, so you can use the vvvv DMX output node. Apparently many more manufacturers sell products based on these drivers.   
 ## Soundlight USBDMX2
 >**Caution: Current Version may NOT work with vvvv**  
-see [this thread](TODO INTERNALLINK:/tiki-view_forum_thread.php?topics_offset=1&forumId=18&comments_parentId=17135) and also [this thread](TODO INTERNALLINK:/tiki-view_forum_thread.php?topics_offset=1&forumId=18&comments_parentId=20314) but maybe our fellow [karistouf](TODO INTERNALLINK:/tiki-index.php?page=Userpagekaristouf) has a solution ;)  
+see [this thread](https://vvvv.org/tiki-view_forum_thread.php?topics_offset=1&forumId=18&comments_parentId=17135) and also [this thread](https://vvvv.org/tiki-view_forum_thread.php?topics_offset=1&forumId=18&comments_parentId=20314) but maybe our fellow [karistouf](https://vvvv.org/tiki-index.php?page=Userpagekaristouf) has a solution ;)  
 The <a href="http://www.pcdmx.de/gb/home.htm" class="extURL" target="_blank">USBDMX2 by Soundlight</a> was one of the most easy way to get DMX output from your computer. The interface has a sturdy case, simple USB in / DMX out operation, and three LEDs for quick diagnosis. It's quite affordable as well. After installing it's drivers you have to put a copy of **DASHARD.DLL** (which comes with the interface) into your vvvv folder (which contains the vvvv.exe). The node to get the interface running is <span class="node">DMX (Devices SoundLight USBDMX)</span>.   
 ---  
 
@@ -97,9 +97,9 @@ I'm using the DMX4All USB Device, which can be accessed quite simple in a simila
 
 # **related vvvvorum discussions**
 * using external drivers with vvvv  
-  * [about karistouf's littlecat dmxengine](TODO INTERNALLINK:/tiki-view_forum_thread.php?topics_offset=1&forumId=18&comments_parentId=23147)  
+  * [about karistouf's littlecat dmxengine](https://vvvv.org/tiki-view_forum_thread.php?topics_offset=1&forumId=18&comments_parentId=23147)  
 * DMXinterfaces  
-  * [Lanbox](TODO INTERNALLINK:/tiki-view_forum_thread.php?comments_parentId=20738&forumId=18&highlight=artnet)  
-  * [e:cue](TODO INTERNALLINK:/tiki-view_forum_thread.php?comments_parentId=22792&forumId=18&highlight=artnet)  
+  * [Lanbox](https://vvvv.org/tiki-view_forum_thread.php?comments_parentId=20738&forumId=18&highlight=artnet)  
+  * [e:cue](https://vvvv.org/tiki-view_forum_thread.php?comments_parentId=22792&forumId=18&highlight=artnet)  
 * fixtures  
   * ((/tiki-view_forum_thread.php?topics_offset=1&forumId=11&comments_parentId=6712|Where to buy LED-Chains, adressable))
