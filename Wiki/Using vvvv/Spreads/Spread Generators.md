@@ -3,12 +3,8 @@ uid: fe02ed4b-7090-486b-9a1d-95067a5671d2
 ---
 
 # Spread Generators
-[](TODO INTERNALLINK:)  
 
 There are a couple of nodes that create a spread for a specific data-type, given a SpreadCount and some parameters that describe the desired form of the spread. Here is a listing of the most popular:  
-
-
-
 
 ### Values
 <span class="node">LinearSpread (Spreads)</span>  

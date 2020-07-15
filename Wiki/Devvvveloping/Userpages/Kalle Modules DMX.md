@@ -42,7 +42,7 @@ have a spread input for "raw" DMXdata and get exactly the same informations like
 
 {BOX}  
 
-With [DMX (Network) Artnet Sender](TODO INTERNALLINK:DMX (Network) Artnet Sender) and [DMX (Network) ArtNet Receiver](TODO INTERNALLINK:DMX (Network) ArtNet Receiver) you can run the simulation on any other computer in the network.  
+With <span class="node">DMX (Network Artnet Sender)</span> and <span class="node">DMX (Network Artnet Receiver)</span> ) you can run the simulation on any other computer in the network.  
 
 ## + Modules
 ### + Coemar CF1200 Wash

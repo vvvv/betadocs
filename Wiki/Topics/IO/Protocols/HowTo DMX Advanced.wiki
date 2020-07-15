@@ -1,0 +1,112 @@
+---
+---
+see also __((node08.workshop.DMX))__
+---
+---
+^__this page created by ((user:kalle|kalle)). it is under heavy construction. all conventions made here are only suggestions and can of course be discussed. i'm looking forward to your contributions!__^
+
+you may download lots of modules at __((kalle.modules.dmx|kalle.Modules.DMX))__
+
+{maketoc}
+
+! Modules for intelligent DMXequipment
+For working with intelligent lighting equipment it is useful to have some special modules.
+
+* __driver-nodes for DMXinterfaces__
+||
+''naming proposal:''|__DMX (Devices __manufacturer__)__
+-
+''example:''|__DMX (Devices __DMX4all__)__||
+-
+* __DMXfixtures__
+-
+These Modules combine all Parameters of a MovingLight to a spread which can be sent directly to DMXinterfaces or to DMXsimulations.
+||
+''naming proposal:''|__manufacturermodell __(DMXfixture)__
+''example:''|__MartinMAC600 __(DMXfixture)__||
+
+* __DMXsimulation__
+
+These modules should simulate a MovingLight in a 3D-rendering environment.
+These Modules should have a spreadable transform input for placing them in the 3Denvironment
+These Modules should have a spread input which can be fed directly from the corresponding __DMXfixture__-module. 
+||
+''naming proposal:''|__manufacturermodell __(DMXsimulation)__
+-
+''example:''|__MartinMAC600 __(DMXsimulation)__||
+-
+* __DMXspreads__
+-
+These modules should generate useful spreads e.g. for chasing etc.
+||
+''naming proposal:''|__modulename __(DMXspreads)__
+''example:''|__Audiochaser __(DMXspreads)__||
+
+* __PanTilt__
+These modules should generate special which are especially useful for controling the head-(''or mirror'') movement of several MovingLights
+||
+''naming proposal:''|__modulename __(PanTilt)__
+-
+''example:''|__SpiralCircles __(PanTilt)__||
+-
+* __GenericDMX__
+-
+Everything else for generic DMX usage
+||
+''naming proposal:''|__nodename __(DMX)__
+''examples:''|__16bit __(DMX__Value Join)__
+|__16bit __(DMX__Value Split)__||
+
+The advantage is that all "DMX"-Modules appear near by near in the 'categorized nodelist'. 
+
+You have several Categories (DMXfixture, DMXsimulation and DMX for generic Helpers) to choose from.
+{img src = "dmxfixtures.jpg" }
+
+{img src = "dmxtutorial.jpg" }
+
+__variable__/__fix__
+
+
+
+
+
+
+
+!! DMXfixtures Modules
+^should combine all functions of a DMX Fixture to a spread that can be directly sent to a DMXinterface.^
+
+Let's have a look at a typical module for a moving light:
+the [http://www.glp.de/de/Produkte/Spiegelbewegte_Lichtsysteme/pocket-scan.html|Pocketscan] from [http://www.glp.de|GLP] is a very cheap movinglight (less than 300 Euro !) controlled via DMX.
+It uses 7 DMXchannels and has as a special gimmick a laser pointer inside.
+
+{img src = "glppocketscandmxdevices_2007.01.1816.10.59.jpg" }
+
+With that ''Resample/Swapdim/count of devices ''thing inside the pocketscan module seen above you may control parameters for all units simultaneous by simply changing a value or you may benefit from vvvv's technology called ((glossary:Spreads)).
+Put a Spread with a whatever slicecount onto any of the Inputpins of that pocketscan module - that ''Resample (Spreads)'' node in ''Repeat Mode'' prevents any collapsing.
+
+A simple ''Cons (Spreads)'' combines that spreads together and feeds one of vvvv's various DMXnodes.
+
+Note that there are other movinglights with a little more features. The [http://www.vari-lite.com/index.php?submenu=3000Spot&src=gendocs&link=Prod_3000S_Intro&category=Main|Vari-Lite VL3000 Spot] e.g. uses 28 DMXchannels and costs a little less than 10.000 Euros. 
+See that module below? 
+29 Inlets and 140 nodes inside...
+ ||''click these images to enlarge. for technical reasons splitted into 3 images''|{img src = "varilitevl3000spotdmxfixtures_2007.03.0712.25.44.jpg" thumb}|{img src = "varilitevl3000spotdmxfixtures_2007.03.0712.26.27.jpg" thumb}|{img src = "varilitevl3000spotdmxfixtures_2007.03.0712.27.00.jpg" thumb}||
+
+!!DMXsimulation Modules
+^DMX Fixture Simulation Modules should have a DMXspread Input and a Layer Output^
+{img src = "mac300sim.jpg" thumb=600}
+
+---
+
+
+
+
+!! Pan/Tilt Movement Modules
+{img src = "circshaper.jpg" thumb=600}
+
+!! DMX General Purpose Modules
+16bit split
+16bit join
+AsValue (DMX)
+AsDMX (Value)
+StartAdress (DMX Boolean)
+

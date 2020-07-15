@@ -1,0 +1,43 @@
+Second workshop at [http://www.khm.de|KHM Cologne]. The workshop was held by ((user:felipe|felipe)) and ((user:tonfilm|tonfilm)).
+
+!Content
+!! Introduction
+* Projects, Examples
+* Features
+* Timeline vs. VVVV
+* Pros and Cons
+
+!! Basics
+* Visual Programming
+* VVVV User Interface
+* Node Categories
+* Frequently Used Nodes
+* Spreads
+
+!! 3D
+* Camera
+* Transforms
+* 3D-Model Import/Export
+* Shader
+
+!! Sensorinput und Animation
+* Animation Nodes
+* Animation of 3D-Models
+* Mesh Editor
+
+!! Graphical  Animation
+* Motionblur
+* Feedback
+* Shader
+* Texture Transformation
+
+!! Generative Techniques
+* Generation of 3D-Models
+* Patches to play with
+
+!! Rendering
+* Avi Rendering
+* HQ Frame Rendering
+
+Download all patches we prepared and made during the workshop:
+[http://www.vvvv.org/tiki-download_file.php?fileId=863|Koeln Workshop Patches 0706.zip (505.20 Kb)]

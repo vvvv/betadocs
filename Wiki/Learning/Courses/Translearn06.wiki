@@ -1,0 +1,45 @@
+Translearn Workshop, Hyperwerk Basel, Senones
+
+how we did it..
+
+((Translearn06Stage|TheStage))
+((Devices-Moxa NPort 5610|Port Server))
+((Devices-SonyFCBIX45AP|Video Camera))
+((Devices-KramerVS-88V|Video Switcher))
+((Devices-PololuServoboard|Servos with Tierchen))
+((Devices-FaulhaberMCDC2805|Motors))
+((Devices-DMX4ALL|DMX Interface and Dimmers))
+((Devices-Behringer|Behringer Fader Box))
+((OSCGlue|OSCGlue to connect Ableton Live with VVVV))
+
+
+!Proposed Format for the documentation pages
+!!Introduction
+
+what was the problem? 
+how does the device look like? 
+what can the device do? 
+where can someone get it? 
+what documentation and what tools are available? (provide links) 
+
+!!How To
+
+step by step explanation of how to get the device running
+connecting, data formats, photos
+
+my patches (help patch + driver patch) 
+screenshots, download
+
+!!Discussion
+
+lessons learned. open issues. what did i learn? "making of" photos
+
+
+!Service
+upload images here [http://vvvv.org/tiki-browse_gallery.php?galleryId=46]
+
+upload files here
+[http://vvvv.org/tiki-list_file_gallery.php?galleryId=29]
+
+wiki quick help
+[http://de.tikiwiki.org/tiki-index.php?page=Der+Wiki+Seiten+Editor]

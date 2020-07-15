@@ -1,0 +1,67 @@
+!Workshop Series at ksa:k in Chisinau
+in 2006 vvvv.org was invited by [http://www.art.md|ksa:k] (center of contemporary art) in chisinau, moldova, to do a series of workshops resulting in an exhibition. guided by our friend adel idris, organizer of the workshop-series, three of us spent a nice week in chisinau. not only teaching but also very much enjoying the moldavian cuisine..
+
+for more general information and some videos of the final exhibition see the [http://www.art.md/2005/06_edu_en.html|documentation by ksa:k]
+
+
+!Block 1: 24 februarie - 1 martie 2006
+with Sebastian Oschatz
+
+Download all Patches from the 5-day workshop here: [http://vvvv.org/tiki-download_file.php?fileId=751|patches.zip (177.74 Kb)]
+
+
+{img src = "dsc03463_2.jpg" thumb=2}{img src = "dsc03447_2_1.jpg" thumb=2}
+Fotografie de Gelu Negura
+
+
+!Block 2: 5 - 10 aprilie 2006
+with Sebastian Gregor
+
+resulting projects: [http://vvvv.org/tiki-download_file.php?fileId=807|download patches (4.05 Mb)]
+
+{img src = "pict0132.jpg" thumb=2}{img src = "pict0122.jpg" thumb=2}
+
+
+!Block 3: 25 – 30 octombrie 2006
+with joreg
+
+in the last week we concentrated on finishing all the individual works of the participants to show them in one big exhibition. following is a listing of the works that have finally been realized with vvvv:
+
+{img src = "edu_maximus_01.jpg" thumb=2}{img src = "edu_maximus_02.jpg" thumb=2}
+
+!!!by Maxim Kuzmenko
+two monitors showing basically the same camera-view, but things that move dissapear on the left screen and appear on the right.
+
+{img src = "edu_luminica_01.jpg" thumb=2}{img src = "edu_luminica_02.jpg" thumb=2}
+
+!!!by Luminica
+by reading the ascending text you can prevent the ball from vanishing..
+
+{img src = "edu_tatjana_01.jpg" thumb=2}{img src = "edu_tatjana_02.jpg" thumb=2}
+
+!!!by Tatiana Fiodorova
+the visitor is trapped inside a grid of rubber-bars.
+
+{img src = "edu_hommage_01.jpg" thumb=2}{img src = "edu_hommage_02.jpg" thumb=2}
+
+!!!by Ivan Roshka aka IONest
+"Rock is Dead"
+
+{img src = "edu_sando_01.jpg" thumb=2}{img src = "edu_sando_02.jpg" thumb=2}
+
+!!!by Alexander Ermurache (Sando)
+smoothly deforming patterns from time to time uncovering photographs.
+
+{img src = "edu_bigfish_01.jpg" thumb=2}{img src = "edu_bigfish_02.jpg" thumb=2}
+
+!!!by Kirill Zaremba
+kirill named his work "big fish". a real (slightly too big) fish is being tracked. the movement information retrieved moves around a video on screen that shows the interview of a wellknown moldavian art-critic being interviewed.
+the right picture shows kirill himself being interviewd about his work by moldavian state television. 
+
+visitors of the exhibition:
+{img src = "edu_exhibit_01.jpg" thumb=2}{img src = "edu_exhibit_02.jpg" thumb=2}
+{img src = "edu_exhibit_03.jpg" thumb=2}{img src = "edu_exhibit_04.jpg" thumb=2}
+
+
+bye bye
+{img src = "pict0152.jpg"}

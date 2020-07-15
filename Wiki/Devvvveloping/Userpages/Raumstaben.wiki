@@ -1,0 +1,62 @@
+__Note: Everybody is invited to use and edit this page. please feel free. David__
+~~#green:BUT: From now on you have to be registered to the RAUMSTABEN Group to see this page at all! (beware: All new pages you create from here will be open to the world again until we close them) - Max~~
+
+!Quick intro / How to use this page
+*See the ((HowTo vvvviki)) on how to use this wiki (editing pages, inserting images/files etc)
+* upload images to your projects into the [/tiki-browse_gallery.php?galleryId=42|RAUMSTABEN IMAGE GALLERY]
+* upload other files (video, swf, exe, etc) into the [/tiki-list_file_gallery.php?galleryId=24|RAUMSTABEN FILE GALLERY]
+
+
+! Buzzwords:
+!! Arduino
+*Arduino tutorial: ((arduino01))
+!! Camera Tracking
+*Have a look at these nodes and their helppatches (select a node and hit F1):
+**Contour
+**ColorTracker
+**CamShiftTracker
+*Short manual: ((user:marc_s))
+!!DMX / Lighting
+*DMX tutorial: ((glossary:DMX))
+!!Realtime Distortion / Anamorphotics
+Check out the girlpower patch "Small Pitch on Pole"
+!Calendar/Dates/Deadlines:
+
+||
+
+-
+Apr 03-08 2006|Every team/body should have documented concepts of their/his/her installation including setup- and previewscreens. This material is used by C. Lazzeroni in Würzburg (see next Date)
+-
+Apr 21-22 2006|Symposium/Vortrag Claudius Lazzeroni @FH Würzburg
+-
+May 18-21 2006|Typo-Berlin:  (4 Cards free)
+-
+Fall 2006| Urban Screen Messe
+-
+2007|Eventually plan our own event to present the research results regarding raumstaben (typo in space)
+||
+
+
+!Installations
+*((Flatland PE)) by Petra Eicker
+{img src = "flatland_display.jpg" thumb=100}
+
+*((Ich AH))
+
+*((Stabenfeld KW))
+
+*((Type and Space AK))
+
+*((Typographical Isolation MO))
+
+*((Unknown MSVuTH))
+
+*((Unknown NP))
+
+*((The Wittgenstein Browser)) by Thomas Noller
+
+!Inspirational
+*The [http://xenia.media.mit.edu/~mbb/speeder.htm|Speeder Reader] allows people to learn to read up to 2000 words per minute using dynamic typography
+!!some typographic works that others have done with vvvv:
+* ((user:U7Angel|U7Angel)) from the Muthesius-U in Kiel has done a charming [http://www.muthesius-dmi.de/generativ/dna_dancer/dna_dancer.html|type/dance video]
+* [http://www.pier05.de/?eusterschulte/134|Typoscape] by Rolf Eusterschulte, Kassel.

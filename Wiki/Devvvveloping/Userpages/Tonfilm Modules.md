@@ -105,7 +105,7 @@ see [3d Vector Mathematics](TODO INTERNALLINK:3d Vector Mathematics)
 #  Value
 
 ##  tonfilm-MathConstants
-this is based on [kalles idea](TODO INTERNALLINK:kalle.Modules.Value) simply to store the values in IOboxes inside the module. but with [IOBox (Value) Advanced](TODO INTERNALLINK:IOBox (Value) Advanced) the values get rounded to 4 decimals, but it works with <span class="node">IOBox (String)</span> and <span class="node">AsValue (String)</span>.  
+this is based on [kalles idea](TODO INTERNALLINK:kalle.Modules.Value) simply to store the values in IOboxes inside the module. but with <span class="node">IOBox (Value Advanced)</span> the values get rounded to 4 decimals, but it works with <span class="node">IOBox (String)</span> and <span class="node">AsValue (String)</span>.  
 
 [MathConstants.zip (2.53 Kb)](https://vvvv.org/tiki-download_file.php?fileId=318)  
 

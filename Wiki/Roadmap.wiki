@@ -1,6 +1,6 @@
 By highlighting notable events along the road to creating a comfortable visual live-programming environment for everyone, this page provides a glimpse into the history of making vvvv. Further, we're giving an outline of future milestones to give you an idea where this is all heading...
 
-For more details on changes for individual releases please consult the full ((Change Log)) and follow our ((/blog/1575+1576+23|Development Blog)).
+For more details on changes for individual releases please consult the full <a href="https://vvvv.org/documentation/change-log" class="extURL" target="_blank">Change Log</a> and follow our ((/blog/1575+1576+23|Development Blog)).
 For a more colorful rendition of the same events see MESO's [https://meso.design/en/articles/the-flow-of-creative-expression-paving-the-way-for-vvvv|vvvv history page].
 
 !Upcoming Milestones

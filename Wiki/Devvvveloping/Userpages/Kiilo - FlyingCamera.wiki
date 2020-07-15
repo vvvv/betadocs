@@ -1,0 +1,33 @@
+!Idea
+
+i think having a flying camera would be fine in vvvv. It should have he following features:
+
+* independent rotating between 3 achses (quaternion rotation)
+* forward // backward 
+* up // down
+* tonfilm completes: left // right (without any rotation)
+* using the cursor keys + <shift> ctrl
+* or joystick
+
+::{picture file=img/wiki_up//rotation.jpg}::
+
+!try & errors
+i build the following patch to get i touch with quaternions ..
+* v0.2 [http://vvvv.org/tiki-download_file.php?fileId=202]quaternion02.zip (4.12 Kb)</a>
+
+object axis rotation using quaternions ''by ((user:tonfilm|tf))'':
+* [http://vvvv.org/tiki-download_file.php?fileId=203]ObjectAxisAlgorithm2.v4p (41.92 Kb)</a>
+
+{img src = "objectaxisalgorithm0.jpg" thumb}
+
+FlyingCam module by [UserPagetofilm|tf] + [UserPagekiilo|kiilo]
+* [http://vvvv.org/tiki-download_file.php?fileId=204]flyingCam.zip (4.89 Kb)</a>
+simple Gamepad Version by [Userpagephl|phl]
+* [http://vvvv.org/tiki-download_file.php?fileId=945]FlyingGamepadCam.v4p (53.84 Kb)</a>
+
+{img src = "flyingcam.jpg" }
+!todo
+* joystick
+* find a different reset point not (0, 0, 0)
+* store + recall of intressting points
+

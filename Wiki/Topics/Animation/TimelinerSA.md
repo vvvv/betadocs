@@ -25,7 +25,7 @@ from a commandline. That should be it.
 ## Known Problems
 * seems not to start on OSX, will have to investigate that still.   
 
-**Please report all troubles/findings in the [Q&A section](TODO INTERNALLINK:/forums).**  
+**Please report all troubles/findings in the [forum](https://vvvv.org/forums).**  
 
 # Manual
 press any of the following buttons on the top to create a new:  

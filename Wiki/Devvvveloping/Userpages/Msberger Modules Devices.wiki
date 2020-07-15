@@ -1,0 +1,4 @@
+__((msberger.Modules.Devices.BarcoImageProHD|BarcoImageProHD))__
+Controls the basic functions "INPUT SELECT" and "FREEZE" via RS232 or network
+
+__((msberger.Modules.Devices.DMX4allUSBNANO|DMX USB-interface DMX4ALL NanoDMX ))__

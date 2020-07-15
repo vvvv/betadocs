@@ -1,0 +1,39 @@
+This Section of the vvvv webpage will be dedicated to my diploma for which I intend to compile and design a printable vvvv Manual.
+
+! First thougts
+All the text formally present on this site, was moved one level deeper: ((ampop_diploma_first_thoughts|Read it here))
+
+Furthermore, there exists a short english abstract and a longer german version:
+((de.ampop_diploma_abstract|vvvv Manual Abstract (german) )) 
+((ampop_diploma_abstract|vvvv Manual Abstract (english) ))  
+
+! Design studies 
+For printer friendlyness, I would prefer the book to be A4, but in landscape format as this is a typical format for a manual.
+[http://vvvv.org/tiki-download_file.php?fileId=396]First Text Style tests for a book 21x21cm as pdf (30.68 Kb)</a> __NEW__
+
+And some first sketches of a poosible Look:
+
+{img src = "manual1_1.gif" thumb}    {img src = "manual2_1.gif" thumb}    {img src = "manual3_1.gif" thumb}
+((ampop_diploma_design studies|View bigger images))
+
+! Character styles
+Working with the xml templates made me think about the various formatting styles we may need to use in the manual. I will make a separate page to discuss them later on, right now I need to find out, how many different formatting styles will be needed.
+Add more styles or comment like you wish!
+
+* Big Headlines for Chapters
+* Smaller Headlines inside Paragraphs
+* The style for long texts
+* Bold
+* Italic
+* a style for hyperlinks
+* Footnotes
+
+! Research
+* ((ampop_diploma_xml research|First tests of InDesign's xml im- and export functions))
+
+! The two parts (stubs!)
+NB: Before reading the things regarding the two parts of the manual, please read the "First Thoughts" and maybe the Abstract...
+
+((ampop_diploma_part1|All about the Manual Part (Part #1) ))
+
+((ampop_diploma_part2|All about the Showcase Part (Part #2) ))
