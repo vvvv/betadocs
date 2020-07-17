@@ -6,12 +6,12 @@ uid: 909206b2-99b1-40a4-b477-826b7fbfef9d
 
 #### Related nodes
 <span class="node">AudioOut (DShow9)</span>  
-AudioOut (VAudio)  
+<span class="node">AudioOut (VAudio)</span>  
 <span class="node">AudioOut (BASS Asio)</span>  
 
 <span class="node">FileStream (DShow9)</span>  
 <span class="node">WavePlayer (DShow9)</span>  
-FileStream (VAudio)  
+<span class="node">FileStream (VAudio)</span>  
 <span class="node">FileStream (BASS)</span>  
 
 

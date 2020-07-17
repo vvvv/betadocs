@@ -7,7 +7,7 @@ uid: d69020a3-d624-43ec-8ad0-d0dc72632fcd
 #### Related nodes
 <span class="node">RMS (DShow9)</span>  
 <span class="node">RMS (Bass)</span>  
-Gist (VAudio)  
+<span class="node">Gist (VAudio)</span>  
 
 
 The Gist (VAudio) tracks several features of the incoming audio:   
@@ -38,7 +38,7 @@ Examples in your vvvv\girlpower\ directory:
 
 #### Related nodes
 <span class="node">FFT (DShow9)</span>  
-FFT (VAudio Sink)  
+<span class="node">FFT (VAudio Sink)</span>
 <span class="node">FFT (BASS)</span>  
 <span class="node">FFT (Bass NRT)</span>  
 <span class="node">FFT (DShow9 4Channels)</span>  
@@ -46,7 +46,7 @@ FFT (VAudio Sink)
 
 
 There are several nodes performing a Fast Fourier transform:  
-* <span class="node">FFT (DShow9)</span>, <span class="node">FFT (Bass)</span>, FFT (VAudio Sink) return current volumes for a spread of frequencies  
+* <span class="node">FFT (DShow9)</span>, <span class="node">FFT (Bass)</span>, <span class="node">FFT (VAudio Sink)</span> return current volumes for a spread of frequencies  
 * <span class="node">FFT (Bass NRT)</span> processes files without playing them (Non-RealTime version)  
 * <span class="node">FFT (DShow9 4Channels)</span> returns four volumes on Bass, LoMid, HighMid and High frequency bands.  
 

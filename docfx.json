@@ -21,7 +21,7 @@
     "globalMetadataFiles": [],
     "fileMetadataFiles": [],
     "template": [
-      "default",
+      "statictoc",
 	  "custom_templates/vvvv"
     ],
     "postProcessors": [ "ExtractSearchIndex" ],
