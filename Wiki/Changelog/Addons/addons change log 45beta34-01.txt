@@ -1,0 +1,17 @@
+released on 21 07 15
+
+!!new nodes
+* QueueStore (Spreads): A node to store a queue of queues
+* Length (2d/3d Vector Spectral): Calculates length of a series of connected points
+* OneDollarRecognizer(2d): Plugins and modules for 2D unistroke gesture recognition as described [http://depts.washington.edu/aimgroup/proj/dollar/|here]
+* QueryBatch (Database Network) for all database types (not just SQLite)
+* Button (3d Mesh Multitouch), Button (3d Quad Multitouch)
+
+!!fixed nodes
+* enabled WiiMote (Devices), SpaceMouse (Devices) and all the Phidget nodes in x64 build - thx to ((user:velcrome))
+* enabled FileStream (Irrklang) in x64 build - thx to ((user:microdee))
+* ((Connect (Spreads))): spreaded bin size was causing wrong output slicecount ((forum:connect-(spread)-bug|thread))
+* Dir (File Advanced) now correctly reports 0 with non-existing dir as input
+
+!!changed nodes
+* all Kinect (DX9) and Bullet (DX9) nodes now have a version DX9 set so they can now actually be distinguished from their DX11 counterparts

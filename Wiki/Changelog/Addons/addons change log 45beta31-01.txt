@@ -1,0 +1,7 @@
+released on 28 08 13
+
+!!Updated nodes:
+* Kinect nodes (microsoft and openni) now return fov in cycles
+* Face (Kinect Microsoft) now returns rotation in cycles and a spread of normals
+* ((node:FileStream (Irrklang))) by ((user:readme)), see https://github.com/vvvv/vvvv-sdk/pull/131
+* Gui plugins work again for single input, but multitouch mode is still buggy

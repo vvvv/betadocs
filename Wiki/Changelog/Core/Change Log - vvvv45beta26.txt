@@ -1,0 +1,146 @@
+released on 17 08 11
+!!general
+* more control over and comfort for numeric values and strings 
+** you still can trust on the magic mechanism that helps you with entering valid values into ioboxes (subtype inference). Valid are only values that nodes connected to the output of the iobox can works with... (Think of the ((pin:Index)) (subtype: integer) of a ((node:GetSlice (Spreads))) connected to an iobox resulting in an iobox that helps you with entering integer values...)
+** however from now on you additionally can modify this ''subtype'' (and therefore behavior of an input pin of e.g. a module and its upwards connected ioboxes) in the following way:
+*** ((node:IOBox (String))) now let's you 
+**** set the ((pin:Content Type)) (Any, SingleLine, FileName, Directory, URL, IP) reflected by a small (grey) icon,
+**** a ((pin:Default)) string (for when the user resets the pin) 
+**** a ((pin:File Mask)) (for when you choose "FileName" as the content type (check the help patch for an example that only let's the user choose files of a certain file type) 
+**** and a ((pin:Maximum Characters)) that restricts the user to only enter some few characters.
+*** ((node:IOBox (Value Advanced))) now lets you 
+**** set the ((pin:BaseSubType)) (Real, Integer, Boolean) (meaningless configuration pins as a reaction get hidden)
+**** specify the (visual) ((pin:Precision)) of a real number
+**** enter a ((pin:Vector Size)) used for visual grouping of slices and as a default slice count when user resets via Alt-Right-Click
+**** again a ((pin:Default)) value 
+**** the ((pin:Units)) of measurement to get a better feel for certain values (use __s__ for seconds,__m__ for meters...). (these can easily be entered directly in the iobox when entering a value, e.g. "5 km/h")
+*** ((pin:Minimum)) and ((pin:Maximum)) now also modify the subtype, that helps entering valid values in this and all upwards connected ioboxes. 
+*** if the string representation of a value wouldn't fit into the iobox, a shorter is found by cutting of least significant digits.
+** "Integer" added to the quick node list
+** tooltips for vector & matrix subtypes also show up on ioboxes
+** general improved accuracy in tooltips (scientific notation is used for very big and very small values, otherwise the shortest easiest representation is used). A ~ says that the decimal representation of the value would be longer and has been cut off.
+** still ioboxes created over middle-click on any vector pin followed by a middle-click on the patch are the easiest way to configure ioboxes
+*** now most subtype properties are copied into the iobox settings and typically need no further adjustment. (e.g. try this feature by fully configuring a first iobox, then middle-clicking on its in or output pin, followed by a middle-click on the patch)
+*** hint: a further middle click labels the iobox (no new feature)
+*** no longer sets the "ColsRowsPages" SliceCount mode, which eases the use of vector ioboxes as inlets for modules
+** better defaults for vectors, filenames and paths
+** __relative paths__ (to files and folders) are now converted into absolute paths relative to the patch where they were entered. they still are saved as relative paths though. this should solve bugs in modules that received file paths, since they now already receive a solid absolute path...
+** ((pin:Pin Visibility)) lets you specify how an iobox shows up as a pin from outside the patch (if a ((pin:Descriptive Name)) has been entered))
+* less confusing node pin tool tips
+* better root
+* major fixes on texture feedback and resource handling for multi monitor setups
+* new quitoptions: open patch, new patch, quit
+* implemented new caching mechanism via nodelist.xml; 
+** if a search path (added via ((node:NodeList (VVVV)))) contains a nodelist.xml, all node infos beneath this path are read from the nodelist.xml file only.
+** if a search path does not contain a nodelist.xml, the directory is scanned as usual.
+** vvvv and the addonpack are shipped with their nodelist.xml files respectively.
+** for power users: a nodelist.xml file can be generated for a user defined search path by calling 'vvvv.exe /nodelist SEARCH_PATH'.
+** comparison of startup times incl. addonpack (after windows reboot / second time):
+*** beta23 (1047 nodes): ~9s / ~3s
+*** beta26 (1380 nodes): ~12s / ~3s
+* ((pin:Layer)) outputs on Quads, Effects (...) only show up one slice, reflecting that you can't index into a "layer spread".
+* some filter nodes now work with "seconds" (time value subtype)
+* Reloading a patch now doesn't result in disconnecting from its surroundings in the parent patch any longer. You are also asked for if you would want to save your work from now on. 
+* fixed some (last) enum bugs
+* under some circumstances disabled nodes using transform input pins didn't fetch upstream transforms when switched to enabled state
+* a color pin didn't report that its values changed if the change wasn't greater than a certain threshold. this led to various inaccuracies in some nodes.
+* unfounded red nodes bug fix
+* catweasels conversion bug fixed. ((forum:addons-path-incorrect-on-start-patch-before-vvvv.exe))
+* bug fix: nodelist is evaluated before any other nodes are evaluated. therefore dummynodes are replaced in time before they are evaluated.
+* fixed some convvverter bugs, which should reduce corrupted patches
+* crack.exe does better checks for existing components and offers more explanations
+* fixed mouse freeze/crash for cases when no Mouse (System Global) is used
+* freeframe and vst .dlls can be referenced locally again
+* no more problems with patches not loading that store "invalid characters"
+* new effects compiler that is substantially faster in special cases and no longer allows the ps_1.0 profile
+* saving *.fxh files shouldn't lead to multiple recompilations of effects.
+* some bug fixes regarding replacement of missing (red) nodes.
+* fixed an issue where a change from an output pin of type 'Node' wasn't acknowledged by downstream nodes which were evaluated some frame later.
+* Interlave plugins from ((user:vux)) are in the difff.xml and convert to ((node:Vector (Spreads Join))) now.
+* patches that where edited once in versions >= beta25, than again in versions < beta25 could get corrupted when opening with current vvvversions again. fixed that weirdo ((contribution:SiftNearmost (2d)))
+* better error reporting can be activated via the main menu (ExceptionDialog) or enabled via command line argument '/showexceptions'.
+* dynamic plugin templates reference System.Core, SlimDX and VVVV.Utils3rdParty by default now
+* better error reporting if dragging a dynamic plugin on a patch (*.csproj file) fails
+* dynamic plugins couldn't resolve referenced assemblies in some cases
+
+!!GUI
+* Renderers can now be docked again
+* fixed heavy lag when changing values on iobox or pin
+* fixed problem with IOBox (Color) when leftclicking while rightdragging
+* fixed problem with deleting nodes while in locked-patch-mode
+* fixed a few out of range exceptions for NodeBrowser: ((forum:.node-browser-bug))
+* CodeEditor no longer zooms back to 0 on AltGr+0
+* @ works again on danish keyboards
+* alt+e on patch now opens explorer with current patch focused (moved rescanning for freeframes and vsts to alt+shift+e)
+* introduced icons for subtypes in string ioboxes
+* fixed: clicks on enumpulldowns in inspektor sometimes set mousecursor to topleft
+* new drawing style for bangs
+* windowswitcher is now bigger by default
+* fixed problems with scrolling values/colors on multimonitor setups
+* disable fx-autocompletion by removing \bin\hlsl.fnr
+* fixed index out of range exception when playing with node and window selection
+* only one instance of a patch can now be opened via doubleclicking on a .v4p in explorer
+* Shift+Alt+F4 to force quit (no questions asked)
+* fixed out of range exceptions in project explorer, if one tried to sort assemblies in the reference dialog
+* press ctrl+f in reference dialog of project explorer to search in global assembly cache
+
+
+!!changed nodes
+* s/r nodes: more than one sender can send values on a certain channel. receivers connect to the nearest in terms of the patch hierarchy
+* ((node:Finder (VVVV))) now uses  '<' to search globally, '>' to search inside of current patch and sub-patches
+* ((node:SetPatch (VVVV))) has new input: ((pin:Add to UNDO History))
+* ((node:Info (EX9.Texture))) has new enum output: ((pin:Format))
+* ((node:DX9Texture (EX9.Texture))) can now render to cubemap
+* ((node:TextMetrics (String))) is now spreadable
+* ((node:Intersect (3d Quad Line))), ((node:Intersect (3d Mesh Ray))) and ((node:Intersect (3d Mesh Subset Ray))) are moved to legacy. there is now ((node:Intersect (EX9.Geometry Quad))) and ((node:Intersect (EX9.Geometry Mesh))) instead. the default line is in z direction, so no rotate for mouse intersects necessary any more.
+* Queue nodes ((pin:do Insert)) is now called ((pin:Insert)), ((pin:Reset)) added, entering a negative frame count means infinite size
+* ((node:LFO (Animation))) got a ((pin:Change)) output pin
+* VideoTexture nodes now default to NonPow2 texture
+* all IOBoxes have their SliceOffsets now hidden to Inspektor, value IOBox also hides X pin by default
+* Constant_2.0.fx and Constant.fx are merged to Constant.fx
+* ((node:Differential (Spreads))) has new ((pin:Bin Size))
+* ((node:TypoSpread (Spreads))) got a ((pin:BinSize)) ouput that says how many points are in each character.
+* Buffer (EX9.Texture) has now spreadable ((Pin:Index))
+
+!!fixed nodes
+* ((node:Triangle (DX9 Indexed))) now has color pins/modes working
+* ((node:Mesh (EX9.Geometry Join))) faster in cases of high indexcounts
+* ((node:TypoSpread (Spreads))) now works with unicode characters
+* ((node:Pipet (EX9.Texture))) can now read floating point textures and is faster in many cases
+* DynamicTexture (Value/Color) now have their Width/Height spreadable correctly
+* ((node:DetectObject (FreeFrame DShow9))) works again
+* createEnum bug fix
+* ((node:String2Enum (Enumerations))) : no red node on startup
+* SetSlice () nodes bug fix
+* ((node:Queue (EX9.Texture))) bug fix
+* ((node:Finder (VVVV))) fixed drawing issues of links between s and r nodes and does no longer redraw whole graph if scope is global and active window changed
+* ((node:Find (String))) fixed problem for mode 'All' when filter was not found
+* ((node:Text (EX9))): more options, spreadable size, font etc., brush and text alignment bugs in multiline modes fixed
+* ((node:Sift (String))) fixed wrong index in 'case sensitive' mode and hit count bug for multiple occurrences in words
+* all DX9 nodes now like ((node:Grid (DX9))) now work with 32bit indexbuffers enabling higher spreadcounts in combination with high resolution grids...
+* ((node:QuickNodes (VVVV))) working again
+* for Mesh-Sink nodes fixed troubles with nil on input
+* ((node:Integral (Spreads))) should handle two dimensional spreads properly now
+!!new nodes
+* RingBuffer nodes for all types
+* Buffer nodes for all types
+* ((node:Polar (3d Vector)))
+* ((node:Cartesian (3d Vector)))
+* ((node:Polar (2d)))
+* ((node:Cartesian (2d)))
+* ((node:Polar (2d Vector)))
+* ((node:Cartesian (2d Vector)))
+* ((node:Decompose (Transform Vector)))
+* ((node:RelativePath (File)))
+* ((node:AbsolutePath (File)))
+!!plugininterface
+* added non-generic version of ISpread and IDiffSpread
+* use default logger with attached plugin logger as ILogger implementation for plugins to ensure calls are marshaled to the GUI thread when called from other threads.
+* changed signatures of methods IAddonFactory.ExtractNodeInfos
+* ISpread<ISpread<...>> implementations weren't properly disposed.
+* added new property Timestamp to INodeInfoFactory
+* INode2 didn't emit Renamed event after node info changed.
+* bug fix that makes the Cons<T> node work for user structs
+* IDiffSpread<T>.IsChanged should work correctly now in case of config pins.
+* fixed crash if SetSubType was called with +Infinity/-Infinity.
+* removed Pin<T>.Delete() method. Use Pin<T>.Dispose() instead.

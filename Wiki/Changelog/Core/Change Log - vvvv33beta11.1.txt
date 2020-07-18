@@ -1,0 +1,2 @@
+released on 29 07 06
+* fixed rendering with ex9effects which magically was completely broke

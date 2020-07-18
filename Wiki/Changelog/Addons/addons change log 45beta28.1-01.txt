@@ -1,0 +1,14 @@
+released on 27 08 12
+
+!!new plugins
+* revamped Arduino/Firmata nodes
+
+!!fixed plugins
+* 2d meshes now work in dx9ex mode
+* kinect textures fix for dx9ex
+* bullet meshes fix for dx9ex
+* assimp fix for dx9ex
+* exposed nodes in todomap can now be spreadable
+* Vector Version nodes now calculate on input change only (again)
+* Select (Value Vector) has Bin Size pin default on 1 (again)
+* UnipolarStepper is now StepperController and also compatible to Phidget BiPolar Controller

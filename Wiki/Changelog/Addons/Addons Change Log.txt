@@ -1,0 +1,103 @@
+!upcoming
+
+!((addons change log 50beta39.1-01|addons_50beta39.1-01))
+{INCLUDE:addons change log 50beta39.1-01}
+
+!((addons change log 50beta39-01|addons_50beta39-01))
+{INCLUDE:addons change log 50beta39-01}
+
+!((addons change log 50beta38.1-01|addons_50beta38.1-01))
+{INCLUDE:addons change log 50beta38.1-01}
+
+!((addons change log 50beta38 01|addons_50beta38-01))
+{INCLUDE:addons change log 50beta38-01}
+
+!((addons change log 50beta37 01|addons_50beta37-01))
+{INCLUDE:addons change log 50beta37 01}
+
+!((addons change log 50beta36-01|addons_50beta36-01))
+{INCLUDE:addons change log 50beta36-01}
+
+!((addons change log 50beta35.8-01|addons_50beta35.8-01))
+{INCLUDE:addons change log 50beta35.8-01}
+
+!((addons change log 50beta35.7-01|addons_50beta35.7-01))
+{INCLUDE:addons change log 50beta35.7-01}
+
+!((addons change log 50beta35.5-01|addons_50beta35.5-01))
+{INCLUDE:addons change log 50beta35.5-01}
+
+!((addons change log 50beta35.2-01|addons_50beta35.2-01))
+{INCLUDE:addons change log 50beta35.2-01}
+
+!((addons change log 50beta35-01|addons_50beta35-01))
+{INCLUDE:addons change log 50beta35-01}
+
+!((addons change log 45beta34.2-01|addons_45beta34.2-01))
+{INCLUDE:addons change log 45beta34.2-01}
+
+!((addons change log 45beta34.1-01|addons_45beta34.1-01))
+{INCLUDE:addons change log 45beta34.1-01}
+
+!((addons change log 45beta34-01|addons_45beta34-01))
+{INCLUDE:addons change log 45beta34-01}
+
+!((addons change log 45beta33.7-01|addons_45beta33.7-01))
+{INCLUDE:addons change log 45beta33.7-01}
+
+!((addons change log 45beta33.3-01|addons_45beta33.3-01))
+{INCLUDE:addons change log 45beta33.3-01}
+
+!((addons change log 45beta33.1-01|addons_45beta33.1-01))
+{INCLUDE:addons change log 45beta33.1-01}
+
+!((addons change log 45beta33-01|addons_45beta33-01))
+{INCLUDE:addons change log 45beta33-01}
+
+!((addons change log 45beta32.1-01|addons_45beta32.1-01))
+{INCLUDE:addons change log 45beta32.1-01}
+
+!((addons change log 45beta32-01|addons_45beta32-01))
+{INCLUDE:addons change log 45beta32-01}
+
+!((addons change log 45beta31.2-01|addons_45beta31.2-01))
+{INCLUDE:addons change log 45beta31.2-01}
+
+!((addons change log 45beta31-01|addons_45beta31-01))
+{INCLUDE:addons change log 45beta31-01}
+
+!((addons change log 45beta30.2-01|addons_45beta30.2-01))
+{INCLUDE:addons change log 45beta30.2-01}
+
+!((addons change log 45beta30-01|addons_45beta30-01))
+{INCLUDE:addons change log 45beta30-01}
+
+!((addons change log 45beta29.2-01|addons_45beta29.2-01))
+{INCLUDE:addons change log 45beta29.2-01}
+
+!((addons change log 45beta29-01|addons_45beta29-01))
+{INCLUDE:addons change log 45beta29-01}
+
+!((addons change log 45beta28.1-01|addons_45beta28.1-01))
+{INCLUDE:addons change log 45beta28.1-01}
+
+!((addons change log 45beta28-01|addons_45beta28-01))
+{INCLUDE:addons change log 45beta28-01}
+
+!((addons change log 45beta27.2-01|addons_45beta27.2-01))
+{INCLUDE:addons change log 45beta27.2-01}
+
+!((addons change log 45beta27.1-01|addons_45beta27.1-01))
+{INCLUDE:addons change log 45beta27.1-01}
+
+!((addons change log 45beta27-01|addons_45beta27-01))
+{INCLUDE:addons change log 45beta27 01}
+
+!((addons change log 45beta26-01|addons_45beta26-01))
+{INCLUDE:addons change log 45beta26-01}
+
+!((addons change log 45beta25.1-01|addons_45beta25.1-01))
+{INCLUDE:addons change log 45beta25.1-01}
+
+!((addons change log 45beta25-01|addons_45beta25-01))
+{INCLUDE:addons change log 45beta25-01}

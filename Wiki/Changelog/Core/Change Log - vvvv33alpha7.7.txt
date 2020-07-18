@@ -1,0 +1,4 @@
+released on 10 10 04
+
+special release fixing the "rüsselsheimer bug"
+no time for further changelogging 

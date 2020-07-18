@@ -1,0 +1,22 @@
+released on 11 11 13
+
+!!fixed nodes
+* Fixed mesh not updating issue in Metaballs (EX9.Geometry) when connected to more than one device
+* HTMLTexture (EX9.Texture)
+** Fixed blend mode in help patch
+** Fixed ((forum:htmltexture-node-does-not-update-current-url-pin))
+** Fixed keyboard events
+* Disperse (Spreads) a lot faster
+
+!!changed nodes
+* TUIODecoder (Network 1.0) now with correct 'Session ID', 'Class ID' and 'Type' outputs (old one is legacy)
+* added 'database' tag to all database nodes (for convenience)
+* Select ({database} Network) now trims whitespace of given comma-separated ((pin:Field Names))
+* Directory (File) deletes non empty dirs as well
+
+!!new nodes
+* Stickman (Kinect EX9)
+* SkeletonJoints (Kinect OpenNI)
+
+!!new girlpowers
+* Arduino Firmata demos by ((user:jens.a.e))

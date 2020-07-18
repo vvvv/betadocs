@@ -1,0 +1,10 @@
+released on 08 05 12
+
+!!Changed Nodes
+* Microsoft Kinect Nodes now use v1.0 of the sdk (no beta2 anymore). Performance issues fixes.
+* Skeleton (Kinect OpenNI) now has a ((pin:Confidence CutOff)) input that allows to ignore data with not enough confidence. 
+* User (Kinect OpenNI) now returns a single color-coded texture slice
+* Vector (Spreads Join) has option to ignore empty spreads.
+
+!!New Nodes
+* Player (Kinect Microsoft): colorize texture on player index.

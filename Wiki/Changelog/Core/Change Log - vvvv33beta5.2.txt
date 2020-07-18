@@ -1,0 +1,8 @@
+internal release
+
+*added: quaternion normalize
+*fixed: CDR, CAR output slicecount when input has only one slice
+*fixed: some bug in switch (string input)
+
+*fixed: sift matches any
+*improved: more color modes in triangle 

@@ -1,0 +1,20 @@
+released on 09 10 14
+
+!!general
+* major performance, see ((forum:performance-drop-from-beta31.2x64-to-beta33.1x64))
+* fix for: ((forum:undo-doesnt-work-on-links))
+* the RS232 COM port enum will be registered on startup
+
+!!new node
+* Entries2String: that lists all entries of a given enum as a spread of strings
+
+!!changed nodes
+* AsRaw (EX9.Texture) now has an actual RAW option
+
+!!fixed nodes
+* Dir (File) sometimes reported wrong files, see (((forum:dir-%28file%29-outputs-file.foo-at-the-correct-spreadsize.))
+* fixed Unzip (String) node not updating its output when changing the count pin
+* Renderer (EX9): fix for when disabled and connected to DX9Texture ((forum:behaviour-change-of-disabled-renderer-%28ex9%29-%3E%3D-beta33-%28?full=1))
+
+
+

@@ -1,0 +1,10 @@
+released on 22 10 15
+
+!!changed nodes
+* AvoidNNIL nodes now have an ((pin:Is NIL)) output
+
+!!fixed nodes
+* fixed some errors that popped up in the Skeleton category of nodes
+
+!!new nodes
+* PSDFile (Photoshop) see: ((forum:import-photoshop-layers-info))

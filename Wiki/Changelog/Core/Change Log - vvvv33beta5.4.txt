@@ -1,0 +1,3 @@
+released on 10 11 03
+
+*fixed: VideoTexture (Textures9 DShow9) did not work with certain graphic card / driver versions

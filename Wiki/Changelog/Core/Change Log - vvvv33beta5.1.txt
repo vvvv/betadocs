@@ -1,0 +1,6 @@
+released on 01 09 03
+
+*fixed: boygrouping of subpatches
+*fixed: count (value/string) can deal with empty spreads
+*fixed: some arbitrary point bugs
+*fixed: send/receive short circuits aren't possible anymore, spreads can be delivered, transfer speed increased

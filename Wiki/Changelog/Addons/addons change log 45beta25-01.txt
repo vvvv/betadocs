@@ -1,0 +1,15 @@
+released on 24 12 10
+
+!!new nodes
+
+!!!Skeleton Nodes
+(Check ((skeleton-animation-nodes-tutorial)) and ((skinningwithskeletonnodes)) for more information.)
+
+Joint (Skeleton)
+CreateJoint (Skeleton)
+SetJoint (Skeleton)
+GetJoint (Skeleton)
+GetJointTransform (Skeleton)
+SelectJoint (Skeleton GUI)
+AutoSkinWeights (Skeleton)
+IKSolver (Skeleton)

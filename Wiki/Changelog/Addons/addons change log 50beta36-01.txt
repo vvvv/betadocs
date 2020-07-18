@@ -1,0 +1,3 @@
+released on 20 03 18
+
+* TimerFlop: now respects vvvv Mainloop Increment mode. fixed triggering one frametime to early

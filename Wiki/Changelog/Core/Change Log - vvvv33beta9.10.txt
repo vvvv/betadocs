@@ -1,0 +1,41 @@
+released on 23 12 05
+!!general
+* MAJOR improvements in multimonitor support & fullscreen management. WARNING: in the past renderer windows popped up while loading patches. now that's pretty cleaned up now. however some renderers in your project might by invisible now. right-click them or select and press "Alt-1" to get them windowed.
+* HelpPatches have been relocated: only HelpPatches of nativvvve nodes are in the \help directory. HelpPatches for modules\freeframes\effects now lie just next to (in the same directory) their respective .v4p\.dll\.fx files. no more \help\modules, \help\effects ...also works for your modules\subfolders!
+
+!!bug fixes
+* fixed a bug with renderloops that made patches like Matrjoschka not working
+* DirectShow (Video/Audio/Midi) connections work again via IOBoxes
+* VideoTexture (EX9.Texture VMR9 YUVMixingMode) now correctly deinterlaces in most cases (use Cheater if needed)
+* VideoTextures "Wait For Frame (ms)" gave way for a hopefully more useful "Wait for every Nth frame" pin
+* DynamicTextures now work with Pipet
+* Pipet now reports alpha correctly in some more cases
+* VideoIn now copes with Decklink cards
+* Compress: will be more reliable in connection with VideoOut
+* FileChooser has: All Files (*.*) again
+* PhongDirectional, PhongPoint: fixed for multiscreen and handling alpha textures
+* GouraudDirectional and GouraudPoint: fixed handling of alpha textures
+* FileStream: fixed random files don't play bug
+* FreeFrame: pins now update correctly (not only on mouseinput)
+* Shift (Value) small bug
+* solved a bug in XFile (EX9.Geometry Load) and FileTexture (EX9.Texture)
+* solved a small bug in the Select nodes (Color, String, Value)
+* fixed a bug in + (String Spectral)
+
+!!changed nodes
+* VideoOut (DShow9 Devices) (renamed from ...DShow9 DV): outputs to external video renderers like a DV cam or the Decklink card.
+* HTTP (Network Receiver): added 'Method' Pin to specify the HTTP-Method. Outputvalues now stay till the next Request, no more need for S+H.
+
+!!new nodes
+* ColorTracker (DShow9 FreeFrame): tracks them colors. spreaded version still to come.
+* SetPatch (VVVV): Allows you to set Actions to a running patch via XML-Descriptions
+* AsColor (String Hex): Returns the corresponding color to a hexadecimal string
+* AsString (Color Hex): Returns the hexadecimal string respresentation of colors 
+* AsString (EX9.Texture): guess what
+
+* KeySort (Spreads) sort incoming data packages by key values and get the data at specified positions
+* Eject (Windows) opens/closes cd-rom or dvd drives. 
+* ShutDown (Windows) shut down, log off, reboot, shutdown & power off.
+
+!!girlpower
+* added JHNOs cool waveplayer examples

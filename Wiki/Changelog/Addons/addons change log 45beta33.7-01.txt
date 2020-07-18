@@ -1,0 +1,19 @@
+released on 21 01 15
+
+!!new nodes
+* Photoshop category, see ((blog:hello-photoshop-0|Hello Photoshop))
+* TSPSDecoder (Network) module for decoding data received from: http://www.tsps.cc/
+
+!!fixed nodes
+* XDocument build up errors in HTMLTexture node weren't shown on error output pin.
+* fixed the SQLite nodes in x64 build.
+* Dialog (File Open/Save) now autoevaluate, ie. they work even with output not connected
+
+!!changed nodes
+* CameraPreview (Transform DX9) is legacy now, see the new CameraCone (EX9).
+* CreateVehicle (Bullet) new parameters for better simulation of vehicles
+* WheelInfo (Bullet Vehicle) outputs speed and skidinfo
+* Round (Value) has more options and replaces MathRound (Value)
+* more Generics for Occurrence Nodes
+* Gui2D Nodes now have an option to disable AutoSave. (no more framedrops)
+* Info (System Device) now retrieves its outputs async ((forum:system-info-nodes-bring-short-freezes|forum thread))

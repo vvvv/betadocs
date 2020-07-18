@@ -1,0 +1,25 @@
+released on 12 06 14
+!!general
+* fix on client side treatment of half boygrouped modules
+* fixed mainloop settings for thread timer ((forum:mainloop-works-differently-in-beta32))
+
+!!gui
+* fixed ((forum:middle-click-on-pins-not-always-working))
+* fixed ((forum:middle-click-to-create-iobox-no-longer-brings-up-the-iobox-options-menu-when-starting-the-conn))
+* fixed ((forum:glitches-in-node-browser))
+* fixed Ctrl+G issue introduced in b32
+
+!!fixed nodes
+* FileTexture (EX9.Texture) works with pipet again
+* Icon (Windows) working on win8 now
+* IRC (Network Open) can send channelmessages again
+* the Index pin of the Keyboard and Mouse (Devices Desktop) nodes is now set to -1 by default, which merges all available devices into one
+* fixed Player (EX9.Texture) when new texture format pin was set to "No Specific" and format of input file wasn't supported on graphics card - see ((forum:player-(ex9.texture)-glitches-images-in-beta32))
+
+!!new nodes
+* ((node:PointEditor (3D Boygrouped Persistent))) added - replaces sandwich
+* ((node:GridEditor (EX9 Boygrouped))) added - replaces sandwich
+
+!!plugin interfaces
+* fixed IDiffSpread.IsChanged inconsistency between b31.2 and b32 - see ((forum:inconsistent-behaviour-between-ischanged-in-v1-and-v2-pins))
+* fixed ((forum:asstring-(object)-and-or-getslice(node)-issue-with-xelement-in-beta32-x86-x64))

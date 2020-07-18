@@ -1,0 +1,21 @@
+released on 22 05 13
+
+!!general
+* enabled SSH, Facebook, ArduinoFirmata, RS232 and ShellExecute nodes in 64 bit build
+!!new nodes
+* AsXElement (JSON) as pendant to AsXElement (XML)
+!!changed nodes
+* updated bindings of ((node:HTMLTexture (Ex9.Texture))) to latest released CEF 1.1364.1123 (see [http://code.google.com/p/chromiumembedded/|official website] for a complete list of changes)
+* ((node:FirmataEncode))/((node:FirmataDecode)) support Capability reports (request and show) that show your boards available pins and their respective modes + resolution
+* ((node:Arduino (StandardFirmata 2.x))) reflects changes of above + uses updated ((node:RS232)) which offers a way to bypass the autorest on most arduino boards.
+* TobiiEyetracker nodes (Browser, Headbox, XConfig, Tracking, Eyetracker, Calibration). For using Tobii eyetracking devices.
+!!fixed nodes
+* ((node:HTMLTexture (Ex9.Texture)))
+** crashed when doing fast url switching (see ((/forum-alpha/html-texture-performance|here))): fixed by blocking until internal used CEF browser object (used by each slice of a renderer) is created.
+** crashed when decreasing the width/height inputs (see ((forum:htmltexture-bugs-driving-me-crazy|here))): fixed by doing an intersect for each dirty rectangle reported by cef before writing to the texture.
+** crashed when setting new "Update DOM" pin to true: should be fixed by new blocking behaviour in constructor.
+** fixed various issues in CefXmlReader (used to translate CefDom to XDocument/XElement).
+* MIDI module fixes
+** normalised MidiNoteOut, MidiControllerOut, MidiProgramOut to consistently use channels 0-15 on pins. 
+** fixed incorrect channel mappings. 
+** resetting the channel pin does not result in setting a value of 0.5.
