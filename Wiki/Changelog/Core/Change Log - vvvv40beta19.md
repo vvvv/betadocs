@@ -1,0 +1,40 @@
+---
+uid: d949473e-8a2b-4adc-9ff4-e253273c37db
+---
+
+# Change Log - vvvv40beta19
+released on 31 10 08  
+
+## general
+* nodename lists now sorted with nodes of category *Value* first  
+* ctrl+m on a patch shows fields to enter moduleinfo (author, description, tags)  
+
+## fixed nodes
+* VideoIn (DShow9) now works for DV cams again  
+* Switch (String Output) evaluates faster  
+* Switch (Color Output) evaluates faster  
+* GetSlice (Node) index out of bounce exception fixed  
+* XPath (XML) bug fix  
+* InsertSlice nodes got some fixes. check the help patch of InsertSlice (Color)  
+* + (String Spectral) again evaluates correctly  
+
+## changed nodes
+* UDP (Server) now has additional queue mode: Spread  
+* OSCEncoder (Network) rewritten with hopefully same functionality  
+* OSCDecoder (Network) now takes a spread of addresses  
+* DMX (Artnet Sender) now has the broadcast address configurable with a pin <a href="http://vvvv.org/tiki-view_forum_thread.php?comments_parentId=22665&topics_threshold=0&topics_offset=0&topics_sort_mode=lastPost_desc&topics_find=&forumId=11" class="extURL" target="_blank">link</a>  
+* Undo (VVVV) has a new pin called *Enabled* that allows you to disable undo globally  
+
+##  new nodes
+* WordWrap (String) wraps given strings according to specified width  
+* Barcode1d (Spreads) creates geometry information for a barcode.  
+
+## new modules
+* BeatDetector (Value)  
+* FFT4Channels (DShow9 resample)  
+
+## new effects
+* SelfAlign.fx  
+
+## new girlpower
+* music3d

@@ -63,5 +63,5 @@ released on 24 12 10
 * ((node:Frac (Value))) can output whole parts up to MaxFloat
 * ((node:QRCodeTexture (EX9.Texture))) now only computes when one of its input changes and its textures are now accepted in Queue (EX9.Texture)
 * ((node:Cons (EX9.Texture))) now evaluates correctly if first pins are nil.
-* ((node:Mesh (EX9.Geometry Split)) now reports vertexbuffer downstream correctly if input has empty or nil mesh
+* ((node:Mesh (EX9.Geometry Split))) now reports vertexbuffer downstream correctly if input has empty or nil mesh
 * ((node:AsString (Value))) now deals with a spreaded enum correctly

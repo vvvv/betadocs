@@ -1,0 +1,91 @@
+---
+uid: 7f3ed466-1c6b-48e6-ae8e-5325dfc3a871
+---
+
+# Change Log - vvvv33beta3
+released on 29 02 03  
+
+## documentation:
+* added hello world tutorial  
+* added 3d tutorial  
+* added Index in Manual  
+* added new demo patches in girlpower folder  
+* added new subpatch modules in modules folder  
+* improved lots of changes and clarifications in manual  
+
+## graphics:
+* added: DX8Texture which allows to use renderings of a DX8Renderer as a texture (compare with GDITexture). This will allow for all sorts of feedback effects  
+* added: "Depth Buffer"-Pin to DX8Renderer, which allows to toggle DepthBuffering.  
+* added: "Invert Depth"-Pin to DX8Renderer; if enabled results in showing most hidden background particles on top of foreground  
+
+* added: "Clear Depth Buffer" which allows to toggle clearing depthbuffer independent from clear colorbuffer ("Clear")  
+* fixed: directx nodes should work one much more graphics cards now. (works also on a 300€ computer with onboard graphic card S3; also tested Matrox G40/G450; some GeForce)  
+* improved: DX8Texture allows to create alpha textures; Pin: "Alpha"  
+* improved: handling of rope and segment should be easier now  
+* improved: TSAdressMode introduces new pins for explicitly cycling textures (hard to explain) look at patch "pitch on pole" and toggle "Cycle U" in node "TSAdressMode"; "Border Color" Pin introduced for address mode "Border"  
+* improved: one frame flickering removed which appeared when changing resolution of grid.  
+* fixed & improved: Invert; now you have to connect to "Source"-Pin what you want to invert  
+* fixed: spreading a texture/renderstate will now spread the particle  
+* fixed: Perspective (Transform): Near Plane / Far Plane  
+ATTENTION: if you have a Renderer (DX8) with a viewport transformation - due to that modification you now have to explicitly add an orthogonal camera (Ortho (Transform)) to your viewport which lets you specify the visible Z-Range (Near Plane / Far Plane)  
+* added: Perspective (Transform, OffCenter), Ortho (Transform), Ortho (Transform, OffCenter) which allow to define new cameras.  
+added: UniformScale (Transform)  
+
+## new nodes:
+* Renderer (HTML) uses Internet Explorer to draw HTML text input  
+* IO (Devices, Wiesemann+Theis Digital EA) allows use of interface (see http://www.wut.de)  
+* Scroll (Spreads) allows Scrolling through numeric spreads  
+* Stallone (Color) like Stallone for Values  
+* Stallone (String) like Stallone for Values  
+* SystemFolders (File) will return all kinds of important folders in your system  
+* SubDir (File) will return all subdirectories in a directory  
+* LogFile (VVVV) allows a logfile to be created, which will log all errors.  
+* AsValue (String) node to convert strings to numerical values  
+* Boost (VVVV) will set your applications priority higher. will reduce jitter while rendering  
+* Power (Value) basic math node for raising x to the y´th power.  
+* GetPatchMode (VVVV)/SetPatchMode (VVVV) for getting/setting the appearance (dimensions and component mode) of the surrounding patch  
+* SetGammaRamp (Windows), GetGammaRamp (Windows) allows you to get/set the gamma ramp of your display  
+* TouchScreen (Devices, ELOTouch) Encapsulates a Touchscreen by ELO connected to the serial port (http://www.elotouch.com)  
+
+## fixed nodes
+* IRC (Network) removed several bugs, no more automatic user names  
+* BezierLoop (GDI) will calculate its control points correct  
+* Stallone (Spreads) sort modes now working  
+
+## changed nodes
+* Renderer (TTY) will now use Background color has new pin Foreground color  
+* Dir (File) is now spreadable and has option for listing also Hidden and System files.  
+* Expr (Value) is not case sensitive anymore  
+* Counter (Animation) has new pin for default value at startup or after reset  
+* TypoSpread values now uses correct bounding box, introduced Height Pin (this may break some patches). added mode for proportional scaling of text. fixed bug with long input texts  
+* additional modes in RetroColors  
+
+## gui
+* "save as" button in save options dialog  
+* /allowmultiple command line option that allows starting multiple instances of vvvv  
+* screenshots made via Ctrl F9/F10 now include the cursor  
+* quitOptions dialog will prompt you when closing the last window  
+* saveAsReloadOptions dialog will prompt you when saveAsing to a different path  
+* alt+rightclicking a node resets all its values  
+* alt+leftclick a selected node to duplicate the current selection  
+* when over a node with the mouse for half a second the infotip shows the exact name of the node  
+* autocompletenodelist now includes all patches that are in the current patchs directory  
+* right mousebutton changevaluefeeling is more sensible  
+* ctrl+leftclick in patch no longer locks the patch (use CTRL+E)  
+* a locked patch is indicated by a # in the caption  
+* resetting a pin with ALT+rightclick also resets its slicecount  
+* subpatchnodes now show their filename without path and extension  
+* save options dialog stays in front of other windows  
+* doubleclicking a patch in explorer doesn't close other open patches  
+* doubleclicking a patch in explorer doesn't open a second empty patch  
+* setup will now recognize DirectX 9  
+* locked patches open in correct dimensions  
+* minimizing vvvv with a click on its taskbaricon now works  
+* you may now use relative paths (relative to the patch they are in) for textures and subpatches  
+* infotip is now constrained to the monitor where the mouse is  
+* main menu is now constrained to monitor where the mouse is  
+* no more occasional ugly white handles on links and nodes  
+* no more occasional crashes when switching componentmodes of patches (make sure to run setup.exe and uncheck/check AddFlow-Button)  
+* some of Hrn.Inspektors bitchy behavior  
+
+* no more topmost tooltips if vvvv is inactive

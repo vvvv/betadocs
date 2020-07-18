@@ -1,0 +1,80 @@
+---
+uid: 28603335-0fa9-487b-af20-ab956bc2b724
+---
+
+# change log - vvvv45beta28
+released on 14 08 12  
+
+## general
+* new shortcut: ctrl+g to "group" selected nodes to a subpatch  
+* new shortcut: ctrl+k to "ekspose" selected ioboxes (e.g. to kontrolleur, todomap)  
+* new commandline option: /dx9ex to make use of texture-sharing  
+  * breaks Text (EX9.Geometry) and Flash (EX9)  
+  * has VideoTextures working on multiple devices (of one card)  
+* new commandline option: /ms-surface to make vvvv start on microsoft surface hardware  
+
+* middleclick:  
+  * on vector pin to get a Vector (Join/Split) node  
+  * on a color pin to get a HSV (Join/Split) node  
+  * on a layer pin to get a Group () or Renderer () node where appropriate  
+* /showexceptions commandline parameter now takes "false" argument to disable it in alpha/debug builds  
+* now shipping with OpenCV 2.4.1 binaries and updated all freeframes that depended on it  
+* OpenInPatch works again for effects  
+* fixed memory leak with internal message sending.  
+* all guinodes (patch, renderer, plugin) and IWindow now return a window handle  
+* fixed problem where NodeBrowser would show no entries  
+* opening helppatches now looks for .lnk if no .v4p is found thus allowing for multiple nodes to receive the same helppatch via file-system links.  
+* fix: <a href="https://discourse.vvvv.org/t/bug-patch-output-pin-disappears-but-data-still-flows" class="extURL forum" target="_blank">bug-patch-output-pin-disappears-but-data-still-flows</a>  
+* fix: <a href="https://discourse.vvvv.org/t/save-as-of-sub-patch-doesnt-mark-parent-patch-as-changed" class="extURL forum" target="_blank">save-as-of-sub-patch-doesnt-mark-parent-patch-as-changed</a>  
+
+## new nodes
+* MouseState (System Join), MouseState (System Split)  
+* KeyobardState (System Join), KeyboardState (System Split)  
+* ApplyModifiers (String): converts <span class="pin">Keyboard</span> to actually pressed character string  
+* Insert (String) Inserts a specified string at a specified index position in the input string  
+* Kontrolleur (Network) Communicates with the Kontrolleur android app.  
+* Server (VVVV) Accepts values for pins via OSC  
+* PatchState (VVVV) Returns info about the current state of a running Patch  
+* Match (String) (formerly: KeyMatch (String))  
+* RadioMatch (String) (formerly: RadioKeyMatch (String))  
+* Length (2d), Length (3d)  
+* Distance (2d), Distance (3d)  
+* Angle (2d), Angle (3d)  
+* Slope (2d), Slope (3d)  
+* Texture (EX9.Texture Split) returns ALL pixels rgba values. use on small texturesd only... <a href="https://vvvv.org/blog/texture-splitting" class="extURL blog" target="_blank">texture-splitting</a>  
+* Treemap (2d) distributes rectangle over a given area from a list of sizes  
+* Transform (2d Vector) you beloved 2d transformation as vector version  
+* Clock (Network Boygroup) a boygroup clock to synchronize animations with the server  
+* Sync (Network FileStream) a node to syncronize FileStream nodes in a boygroup  
+
+## changed nodes
+* KeyMatch (String) now with <span class="pin">Keyboard</span> and multiple options how to interpret input  
+* RadioKeyMatch (String) now with <span class="pin">Keyboard</span>  
+* DX9Texture (EX9.Texture) can now render depth only when choosing INTZ as texture format  
+* FiducialTracker (FreeFrame DShow9) rebuilt with latest libfidtrack/reactivision 1.4 and using new tree-data file that detects 216 (was 90) different fiducials  
+* QuickNodes (VVVV) now accepts new lists of nodes while showing  
+* OnOpen, OnResume, OnQuit, OnActivate got a "Simulate" input  
+* Spray (Animation) is now spreadable  
+
+## fixed nodes
+* Text (EX9.Geometry) no longer fails with slices of empty strings  
+* WavePlayer (DShow9) now less picky with fileformats  
+* TogEdge (Animation) now no more edges on dis/connecting input  
+* Find (String) now only operates when input changes  
+* DynamicTexture (Value) now spreads Apply correctly  
+* IOBox (Node) fixed problem that wouldn't display a change to a binsize of 1  
+* Skeleton (Skeleton Collada) now can deal with skeletons having multiple roots in the dae file  
+
+## plugininterface
+* INode, INode2: GetNodePath  
+* IPin, IPin2: GetSlice/SetSlice, GetSpread/SetSpread, Direction, Type, CLRType, Subtype, SubtypeChanged, SliceCount  
+* IHDEhost: SendPatchMessage  
+* new interfaces IMainLoop and IDeviceService see <a href="https://vvvv.org/blog/idxdeviceservice-and-imainloop" class="extURL blog" target="_blank">this blog post</a> for details  
+* new view on pin data: streams, for details see <a href="https://vvvv.org/blog/ispread-vs-istream" class="extURL blog" target="_blank">this blog post</a>  
+* new view on pin data: pointer classes, have a look at the classes in the VVVV.Hosting.IO.Pointers namespace. they can be directly injected with the already known Input and Output attributes  
+* new interface IIOFactory which can be used to create all kind of views on pin data at runtime  
+* writing plugins with multiple texture outputs can now easily be done with ISpread<TextureResource>  
+* fixed various issues with config pins  
+* moved non generic ISpread to seperate namespace in order to avoid compile issues in C++/CLI  
+* fix: custom connection handler will be called if there are jumper nodes (getslice, switch) in between the connection  
+* fix: changing the type of a pin from ISpread<Value> to IDiffSpread<Value> in a dynamic plugin creates a new native pin now

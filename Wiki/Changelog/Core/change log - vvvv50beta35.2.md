@@ -1,0 +1,87 @@
+---
+uid: 7f51b6ba-ff58-4ab2-bc47-8295fa7dd48f
+---
+
+# change log - vvvv50beta35.2
+released on 22 02 16  
+
+##  VL
+* small update on model. when saving your documents with the new version they will change slightly. beware: the new version won't open properly with beta35, so you might want to secure the old versions of your vl documents for the case you have to switch back for some yet unknown reasons.  
+* added warning when opening/saving newer document with older running version  
+* updated SharpDX to 3.1.0 so 3D text works in DX11  
+
+### new features
+* nodes/ioboxes can now be resized like in vvvv  
+* double right click now creates an IOBox like in vvvv  
+* double right click on link inserts an IOBox  
+* can now grab a link to insert link point  
+* auto backup changed .vl files every 5 minutes  
+* added support for type Path to integration - VL pins of that type will be exposed as string using the subtype Filename in vvvv  
+* added IOBox for Chars  
+
+### changes/fixes
+* removed nodes that work with radians, replaced with cycles versions except trigonometry nodes like Sin, Cos etc.  
+* Sin (Cycles) renamed to SineWave  
+* deleting a selected link is now via middleclick (was rightclick)  
+* NodeBrowser now always shows on correct screen  
+* small refinements in NodeBrowser   
+* referenced documents can now be removed  
+* fixed "Open" menu entry (or middle click on node) to jump to implementation  
+* undo after inserting node into link now also deletes the node  
+* default comment size is now 9pt  
+* settings are now in alphabetical order  
+* fixed highlighting of selected entry in enum value editor - https://discourse.vvvv.org/t/vl-enumerations-wrong-item-highlighted/14562  
+* Member Operation Nodes sometimes didn't draw their height correctly  
+* fixed glitches with region-bounds  
+* fixed a few flickering issues when changing values during runtime  
+* "Is Generic" button now operates the same in type- and operation-definition  
+* DocumentationForm now follows active patch  
+* no recompile if nodes only dragged  
+* when connecting a lonely border control point the link will be continued  
+* fixed assign to new operation menu entry not assigning the selected nodes  
+* removed immutability check on link connect - less need to press CTRL while drawing connections  
+* type annotations got more versatile  
+* fixed vvvv default value selection in integration when annotating an input with Spread<> - https://discourse.vvvv.org/t/error-using-vl-node-in-vvvv/14593  
+* fields will always be traced by target code so retrieval of field values is always possible (before an actual link where data flows was required) - https://discourse.vvvv.org/t/changing-values-in-the-pads-editor/14400  
+* fixed wrongly generated target code when using the Index pin of a loop  
+* fixed upstream connected IO box in region not working  
+* fixed wrong execution order in target code when linking into a region of a generic patch  
+* buttons, values and colors that are not in the patch can now be changed with left and right click  
+
+### fixed nodes
+* \TransformSRT (Center) [2D.Transform] has its z scaling fixed  
+* \Rotate [2D.Transform] was broken  
+* MonoFlop/TimerFlop now have a default time set  
+* GridPick, GridSplit, GridPoints now work like their vvvv counterparts  
+
+### new nodes
+* Intersect, Union and Except with key selector delegate  
+* Vector <-> Value spread converters  
+* some convenience nodes for SpreadBuilder and Array  
+* RangeContainsValue nodes  
+* To/From Bytes nodes in DevLib for value types with endianness  
+* HoldLatest in DevLib holds the latest value of an observable  
+
+##  VVVV
+* patches/modules can now be cloned like plugins via ctrl+click in nodebrowser  
+* high-dpi fixes for splash-screen and save-options dialog  
+* added c#, vl and hlsl as tags to respective templates  
+* IOBox (String) now accepts dropping text/links  
+* IOBox (Node) no longer lags when displaying large amounts of data in inspektor  
+* new semantics for dx9 shaders: TARGETSIZE and INVTARGETSIZE  
+* all vvvv nodes now have a Tag config pin  
+
+### new nodes
+* MidiFile (Midi) and MidiTrack (Midi) to parse .mid files  
+
+### fixed nodes
+* MidiBend and MidiProgram spreading crash fixed  
+* KeyMatch node did not unsubscribe from keyboard when deleted  
+* fixed crash in MouseStatesJoinNode - https://discourse.vvvv.org/t/mouse-output-from-renderer-dx9-to-mousestate-join/14564  
+* SelfAlign.fx behaves correctly in depth buffer  
+* Separate had troubles with pipe, backslash and dot as separators  
+
+### plugin interface
+* fixed crash on node creation when the type of a set default value on node pin didn't match with pin type  
+* GetSlice (Node) on element 0 of node input pin works correctly now  
+

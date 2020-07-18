@@ -1,0 +1,36 @@
+---
+uid: 97101099-f0e5-4df6-ab67-12241f018a81
+---
+
+# addons change log 45beta25.1-01
+released on 18 02 11  
+###  New Nodes
+
+* Writer (File Advanced) : Same as Writer (File) with additional options  
+* SequentialReader (File) : Was posted in old vvvvorum, now in addon pack  
+* InputMorph (Value Advanced) : Bin Sized version of InputMorph  
+* MultiFlipFlop (Animation Advanced) : Bin Sized Version of MultiFlipFlop  
+* LTP (Value) : Slice Wise LTP node, for multiple inputs handling.  
+* Switch (Transform Advanced) : Spreadable Input transform switch  
+* Multiply (Transform Priority) : Similar to Multiply (Transform), but order can be changed via priority pin.  
+* Sort (Value Advanced) : Bin sized value sort  
+* Sort (String Advanced) -"-  
+* Stack (Value) : Standard Stack Data Structure  
+* Stack (Color) : -"-  
+* Stack (String) : -"-  
+* Stack (Transform) : -"-  
+* Occurrence (Value) : counts occurrences of same / similar slices in the spread  
+* Occurrence (String) :  -"-  
+* Occurrence (Color) :  -"-  
+* Occurrence (Enumerations) :  -"-  
+* Occurrence (Transform) :  -"-  
+* Select (String Advanced) : select node with bin size option  
+* Select (Color Advanced) :  -"-  
+* Select (Enumerations) :  -"-  
+* Select (Transform) :  -"-  
+* Shortcut (File Create) & Shortcut (File Resolve) : creates and resolves windows shortcuts (.lnk files)  
+
+
+### Fixed Nodes
+
+* Box2d Nodes: Fixed contact memory leak, also edge chain should work properly.  
