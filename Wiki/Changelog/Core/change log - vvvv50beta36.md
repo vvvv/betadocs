@@ -52,15 +52,15 @@ released on 20 03 18
 * CR, LF, CRLF (String) now have outputs  
 * Gregorian (Split) now copes correctly with spread input  
 * Fixed SetSlice nodes working with node pins  
-* Fixed up/down events of special keys like TAB and ALT [https://discourse.vvvv.org/t/keyboard-window-doesnt-like-tab/15636]  
+* Fixed up/down events of special keys like TAB and ALT <a href="https://discourse.vvvv.org/t/keyboard-window-doesnt-like-tab/15636" class="extURL" target="_blank">https://discourse.vvvv.org/t/keyboard-window-doesnt-like-tab/15636</a>  
 * GetSpread can now have negative offset  
 * FirmataBoard (Devices): <a href="https://vvvv.org/blog/firmata-updates-and-fixes" class="extURL blog" target="_blank">decoder and I2C</a> are fixed. The node is now fully implemented in VL incl. serial communication.  
 * Oscillator, Damper, Newton and LinearFilter now do not jump when reevaluated after some time.  
-* SubDir and Dir auto evaluate [https://discourse.vvvv.org/t/subdir-not-updating-unless-observed/15922]  
+* SubDir and Dir auto evaluate <a href="https://discourse.vvvv.org/t/subdir-not-updating-unless-observed/15922" class="extURL" target="_blank">https://discourse.vvvv.org/t/subdir-not-updating-unless-observed/15922</a>  
 * Texture (Split) help patch threw an exception on close  
 * RelativePath now copes with basedirectories that have a trailingbackslash or not  
 * Texture (EX9 Split)   
-* Power (Value) now has better precision [https://discourse.vvvv.org/t/power-node-bug/15950]  
+* Power (Value) now has better precision <a href="https://discourse.vvvv.org/t/power-node-bug/15950" class="extURL" target="_blank">https://discourse.vvvv.org/t/power-node-bug/15950</a>  
 
 ### changed nodes
 * added Headers pin to HttpGet and HttpPost nodes  
@@ -190,7 +190,7 @@ released on 20 03 18
 * fixed default value for IResourceProvider<T> by taking VL generated default resource into account.  
 * fixed memory leak when using Spread<Resource<Stream>> as VL output in integration   
 * fixed link assignments being lost after copy/paste   
-* fixed error message complaining about recursive patches even though it wasn't recursive [https://discourse.vvvv.org/t/vl-patch-window-freezes/15373/5]  
+* fixed error message complaining about recursive patches even though it wasn't recursive <a href="https://discourse.vvvv.org/t/vl-patch-window-freezes/15373/5" class="extURL" target="_blank">https://discourse.vvvv.org/t/vl-patch-window-freezes/15373/5</a>  
 * "Input" and "Output" is a valid pin name now, system will use "State Input" / "State Output" in case of conflict  
 * hot swap can now deal with multiple instantiations of the same type  
 * links can no longer be made into an operation signature  

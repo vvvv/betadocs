@@ -16,7 +16,7 @@ released on 08 05 12
 * fixed some pin-connection-troubles that allowed double-links or failed to disconnect links in some cases  
 * fixed nodelist.xml: native nodes were missing in 27.1  
 * renaming an iobox shouldn't mess up links in other patches anylonger.  
-* small debug mode fix: [/forum-alpha/a27.2-debug-mode-bug](TODO INTERNALLINK:/forum-alpha/a27.2-debug-mode-bug)  
+* small debug mode fix: [/forum-alpha/a27.2-debug-mode-bug](https://vvvv.org/forum-alpha/a27.2-debug-mode-bug)  
 * bug fixes in the core concerning the information if a pin has changed.  
 
 ## fixed nodes

@@ -16,7 +16,7 @@ released on 22 05 13
 * TobiiEyetracker nodes (Browser, Headbox, XConfig, Tracking, Eyetracker, Calibration). For using Tobii eyetracking devices.  
 ## fixed nodes
 * <span class="node">HTMLTexture (Ex9.Texture)</span>  
-  * crashed when doing fast url switching (see [here)](TODO INTERNALLINK:/forum-alpha/html-texture-performance): fixed by blocking until internal used CEF browser object (used by each slice of a renderer) is created.  
+  * crashed when doing fast url switching (see [here)](https://vvvv.org/forum-alpha/html-texture-performance): fixed by blocking until internal used CEF browser object (used by each slice of a renderer) is created.  
   * crashed when decreasing the width/height inputs (see <a href="https://discourse.vvvv.org/t/htmltexture-bugs-driving-me-crazy" class="extURL forum" target="_blank">here</a>): fixed by doing an intersect for each dirty rectangle reported by cef before writing to the texture.  
   * crashed when setting new "Update DOM" pin to true: should be fixed by new blocking behaviour in constructor.  
   * fixed various issues in CefXmlReader (used to translate CefDom to XDocument/XElement).  

@@ -9,7 +9,7 @@ released on 16 09 10
 * now requires .net3.5 SP1 to be installed, SlimDX no longer needed   
 * new CodeEditor for effects and dynamic nodes (via rightclick on those nodes)  
 * dynamic nodes allow for plugins being edited/recompiled at runtime  
-* new PluginInterfaces V2 reducing lines of code per plugin typically by 40% + allow custom pin types + some more conveniences see [http://vvvv.org/pluginspecs]  
+* new PluginInterfaces V2 reducing lines of code per plugin typically by 40% + allow custom pin types + some more conveniences see <a href="http://vvvv.org/pluginspecs" class="extURL" target="_blank">http://vvvv.org/pluginspecs</a>  
 * new Kommunikator for previewing, saving, uploading screenshots (via Ctrl+3)  
 * new WindowSwitcher (via Ctrl+TAB)  
 * new NodeBrowser (via doubleclick on patch or Ctrl+N)  

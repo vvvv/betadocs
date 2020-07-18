@@ -34,7 +34,7 @@ released on 10 02 13
 * Info (EX9.Texture) now reports sharedhandle in x64 builds  
 * Leap (Devices) updated to Leapmotion SDK 0.7.3  
 * Finder didn't work in release build  
-* Fixed [exception](TODO INTERNALLINK:/forum-alpha/asvalue-%28raw%29-bug-with-byte) in AsValue (Raw)  
+* Fixed [exception](https://vvvv.org/forum-alpha/asvalue-%28raw%29-bug-with-byte) in AsValue (Raw)  
 * Unzip (String Bin) returned empty spreads in some occasions  
 
 ## changed nodes

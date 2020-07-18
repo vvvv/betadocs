@@ -17,7 +17,7 @@ released on 02 09 2014
   * CEF can be configured through command line arguments to vvvv.exe - a general overview can be found here: http://peter.sh/experiments/chromium-command-line-switches/ - not all working though  
   * Changed default value of BaseUrl pin:  
   * New default is empty string in which case the node will use the local patch path as base URL.  
-  * The node will also append a trailing slash to base URLs using the file:// scheme as described here: [/forum-alpha/64bit-htmltexture%28string%29-relative-local-paths-command-lines](TODO INTERNALLINK:/forum-alpha/64bit-htmltexture%28string%29-relative-local-paths-command-lines)  
+  * The node will also append a trailing slash to base URLs using the file:// scheme as described here: [/forum-alpha/64bit-htmltexture%28string%29-relative-local-paths-command-lines](https://vvvv.org/forum-alpha/64bit-htmltexture%28string%29-relative-local-paths-command-lines)  
   * The node is able to automatically set the size of its texture if width or height is set to zero.  
   * The node will hold on to previously computed values and the IsLoading output will stay true as long as  
   * CEF reports that it is loading content  

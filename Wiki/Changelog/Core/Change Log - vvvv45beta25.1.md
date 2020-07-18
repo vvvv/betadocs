@@ -59,7 +59,7 @@ released on 18 02 11
 ## fixed nodes
 * <span class="node">Random (Value)</span> is more random now between multiple instances  
 * <span class="node">NodeList (VVVV)</span> better performance when adding a search path  
-* Sift (Value) fixed memory leak. See [http://vvvv.org/forum/sift-memory-leak].  
+* Sift (Value) fixed memory leak. See <a href="http://vvvv.org/forum/sift-memory-leak" class="extURL" target="_blank">http://vvvv.org/forum/sift-memory-leak</a>.  
 * <span class="node">IOBox (String)</span>: fixed drag'n drop on it.  
 * <span class="node">IOBox (String)</span>: fixed "very long iobox" issue after drag drop. see <a href="https://discourse.vvvv.org/t/beta25-dragdrop-a-path-from-explorer-adress-bar-to-io-%28string%29-bug" class="extURL forum" target="_blank">beta25-dragdrop-a-path-from-explorer-adress-bar-to-io-%28string%29-bug</a>.  
 * <span class="node">Cons (EX9.Texture)</span> fixed, see <a href="https://discourse.vvvv.org/t/spreaded-filetexture-and-cons-node-bug-in-beta25" class="extURL forum" target="_blank">spreaded-filetexture-and-cons-node-bug-in-beta25</a>  

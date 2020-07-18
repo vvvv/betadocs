@@ -52,7 +52,7 @@ released on 24 12 10
 * reduced overhead a little in call to Evaluate method of plugin  
 * fix: if a plugin only implemented IPluginBase Update on Config pins wasn't called.  
 * fix: plugin input pins were deleted on recompile if plugin was evaluated each frame (for example if it was selected by inspektor), causing runtime exceptions.  
-* fix: [http://vvvv.org/forum/enum-pin-in-v2-always-only-slicecount-of-1]  
+* fix: <a href="http://vvvv.org/forum/enum-pin-in-v2-always-only-slicecount-of-1" class="extURL" target="_blank">http://vvvv.org/forum/enum-pin-in-v2-always-only-slicecount-of-1</a>  
 * Added extension method ISpread.Clone() and added extension method ISpread.AssignFrom<T>(IList<T>).  
 * added property Buffer to Spread (use with caution).  
 * did a complete overhaul of the v2 pin implementations. much better memory management, far less garbage collections necessary -> hopefully far less glitches.  

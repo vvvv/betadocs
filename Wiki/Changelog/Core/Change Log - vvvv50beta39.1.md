@@ -13,7 +13,7 @@ released on 05 05 20
 --- loaded packs now write correct pack info into patch files  
 --- rightclick on file/dir IOBox no longer pops up context menu  
 --- updated to latest RCP version (fixing issues with enums and userdata)  
---- fixed double node entries [https://discourse.vvvv.org/t/double-trouble-beta39/18005/4]  
+--- fixed double node entries <a href="https://discourse.vvvv.org/t/double-trouble-beta39/18005/4" class="extURL" target="_blank">https://discourse.vvvv.org/t/double-trouble-beta39/18005/4</a>  
 
 ## fixed nodes
 --- fixed issue with SharedTexture (EX9.Texture) being broken  

@@ -55,7 +55,7 @@ released on 02 09 14
 * Reader (Raw SharedMemory): <a href="https://discourse.vvvv.org/t/reader-(raw-sharedmemory)-name-not-updating" class="extURL forum" target="_blank">reader-(raw-sharedmemory)-name-not-updating</a>  
 * Dir (File): <a href="https://discourse.vvvv.org/t/dir-file-count-in-subdirectories" class="extURL forum" target="_blank">dir-file-count-in-subdirectories</a>  
 * IOBox (Enumeration): <a href="https://discourse.vvvv.org/t/show-slice-index-iobox-(enumerations)" class="extURL forum" target="_blank">show-slice-index-iobox-(enumerations)</a>  
-* IOBox (Node): quick fix for "iobox node slicecount indicator wrong?!" [/forum-alpha/getslice-and-iobox-%28node%29](TODO INTERNALLINK:/forum-alpha/getslice-and-iobox-%28node%29)  
+* IOBox (Node): quick fix for "iobox node slicecount indicator wrong?!" [/forum-alpha/getslice-and-iobox-%28node%29](https://vvvv.org/forum-alpha/getslice-and-iobox-%28node%29)  
 * RS232 (Devices) will reset outputs should an IOException occur: <a href="https://discourse.vvvv.org/t/rs232-connected-pin-does-not-works." class="extURL forum" target="_blank">rs232-connected-pin-does-not-works.</a>  
 * = (Color) now spreadable <a href="https://discourse.vvvv.org/t/=-(color)-does-not-spread" class="extURL forum" target="_blank">=-(color)-does-not-spread</a>  
 * Mouse should not get clamped to -1/1 anymore - <a href="https://discourse.vvvv.org/t/mousestates-node-clamps-positionxy-to-11" class="extURL forum" target="_blank">mousestates-node-clamps-positionxy-to-11</a>  

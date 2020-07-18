@@ -26,4 +26,4 @@ released on 24 12 12
 
 ## new
 * DepthToWorld (EX9.Texture Filter) - world space reconstruction from INTZ depth   
-* TextureFX got a bunch of helppatches (along with various small bugfixes) - check the [list>](TODO INTERNALLINK:/sites/default/files/user-files/fxhelp.v4p)  
+* TextureFX got a bunch of helppatches (along with various small bugfixes) - check the [list>](https://vvvv.org/sites/default/files/user-files/fxhelp.v4p)  
