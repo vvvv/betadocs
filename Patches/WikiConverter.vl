@@ -5320,6 +5320,50 @@
           <Link Id="TXRrk5yw6J0LIBSybIKejJ" Ids="IT28KB94du6LC2fnwYzQq9,CrLqQXJf5XWPR8TFlmHajG" IsHidden="true" />
         </Patch>
       </Node>
+      <!--
+
+    ************************ ChangeLogJoiner ************************
+
+-->
+      <Node Name="ChangeLogJoiner" Bounds="1246,290" Id="MLItbgqCh5jOL8vjVll8us">
+        <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
+          <Choice Kind="ContainerDefinition" Name="Process" />
+        </p:NodeReference>
+        <Patch Id="CMowXfOPYXRMt0q04RcdLA">
+          <Canvas Id="GQ5L5GCkpjoN5thojhcgsg" CanvasType="Group">
+            <Node Bounds="480,271,63,19" Id="M8eaXbJVvmIO7A78Ai1YiF">
+              <p:NodeReference LastCategoryFullName="IO" LastSymbolSource="VL.CoreLib.IO.vl">
+                <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                <Choice Kind="ProcessAppFlag" Name="FileReader (String)" />
+              </p:NodeReference>
+              <Pin Id="Qd39vB5S1u3OJ2UQ6bI9dR" Name="File Path" Kind="InputPin" />
+              <Pin Id="VzZJT9r7y1uMqU2rpgiAJ3" Name="Encoding" Kind="InputPin" />
+              <Pin Id="INsdsL3hCXqO3urVNizrnJ" Name="Read" Kind="InputPin" />
+              <Pin Id="DhJJmsdR9GSPcZPUYAHxgA" Name="Output" Kind="OutputPin" />
+            </Node>
+            <ControlPoint Id="IpImtwTS0ryMSIfIdkpP8G" Bounds="481,205" />
+            <ControlPoint Id="QJtsJRkRSp0NcBxJI8Xjnu" Bounds="565,203" />
+          </Canvas>
+          <Patch Id="RsocQwVjnSbPkQJJyTk6pu" Name="Create" />
+          <Patch Id="LPpM1icLS4IMzcXhg3KxQa" Name="Update">
+            <Pin Id="IFKptRLmaPZMWyeAx5P0Bi" Name="File Path" Kind="InputPin" Bounds="478,205" />
+            <Pin Id="Jx5f8bRiaDDNPi1kgfJnX5" Name="Join" Kind="InputPin" Bounds="571,198" />
+          </Patch>
+          <!--
+
+    ************************  ************************
+
+-->
+          <ProcessDefinition Id="U2nzJYIyxskLn93tC9mlhn">
+            <Fragment Id="SUlVG3Rj3iVPAWnppmzbSL" Patch="RsocQwVjnSbPkQJJyTk6pu" Enabled="true" />
+            <Fragment Id="KQ7d8c8Kv6XP963vTFus0i" Patch="LPpM1icLS4IMzcXhg3KxQa" Enabled="true" />
+          </ProcessDefinition>
+          <Link Id="DHYs4Vt51tgLEX4lxedbo5" Ids="IpImtwTS0ryMSIfIdkpP8G,Qd39vB5S1u3OJ2UQ6bI9dR" />
+          <Link Id="SPoxgnBH7P7ODLMc50UMBo" Ids="IFKptRLmaPZMWyeAx5P0Bi,IpImtwTS0ryMSIfIdkpP8G" IsHidden="true" />
+          <Link Id="HVLwnybv6PGMbOivcgWjBJ" Ids="QJtsJRkRSp0NcBxJI8Xjnu,INsdsL3hCXqO3urVNizrnJ" />
+          <Link Id="AK314kwaS9NMAySTaWww21" Ids="Jx5f8bRiaDDNPi1kgfJnX5,QJtsJRkRSp0NcBxJI8Xjnu" IsHidden="true" />
+        </Patch>
+      </Node>
     </Canvas>
     <!--
 
@@ -5549,6 +5593,28 @@
               <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Bang</p:buttonmode>
             </p:ValueBoxSettings>
           </Pad>
+          <Node Bounds="473,1060,93,19" Id="JGZdmzXxETbQZxgInb53qf">
+            <p:NodeReference LastCategoryFullName="WikiConverter" LastSymbolSource="WikiConverter.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="ChangeLogJoiner" />
+            </p:NodeReference>
+            <Pin Id="AL2RcOJGGdELJfJJ7UpSPd" Name="File Path" Kind="InputPin" />
+            <Pin Id="Cq9L7Zhjm8TOJnugEaC0it" Name="Join" Kind="InputPin" />
+            <Pin Id="PzgpfSm0r9ZNhCUknPmIKa" Name="Update" Kind="ApplyPin" />
+          </Node>
+          <Pad Id="H0moN512MFfQY0xpbi7Zrm" Comment="File Path" Bounds="475,992,101,15" ShowValueBox="true" isIOBox="true" Value="..\Wiki\Changelog\Core\Change log.txt">
+            <p:TypeAnnotation LastCategoryFullName="IO" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="TypeFlag" Name="Path" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Pad Id="IyYktkGER93Ld7UUbwDPNi" Comment="Join" Bounds="653,989,35,35" ShowValueBox="true" isIOBox="true" Value="False">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+              <Choice Kind="TypeFlag" Name="Boolean" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Bang</p:buttonmode>
+            </p:ValueBoxSettings>
+          </Pad>
         </Canvas>
         <Patch Id="GSedt8PLNiBPQkkKwaMqT8" Name="Create" />
         <Patch Id="RuMOLwrey91OnLJeird8LE" Name="Update" />
@@ -5579,6 +5645,8 @@
         <Link Id="NIRBxH8WlkONl75V8DjE3o" Ids="SXZrCRvjEWlMFC7TeNX3K8,Rtcnr66WssAOK8JuWcSh8X" />
         <Link Id="Vm1YOALr1feNvdfwgnQtiZ" Ids="OzGKk4ziPUQMuYTCGrTvFy,RszOcS99DnlQcWmKx4ZTHP" />
         <Link Id="Aua4xfX1coAOfm9AM3kCGT" Ids="BE7EfDTnZrjM4uGNkeL0rB,CkhnYVAd93IOrGnt4kY6ys" />
+        <Link Id="NvhXQWI781dN3XjjNci11s" Ids="H0moN512MFfQY0xpbi7Zrm,AL2RcOJGGdELJfJJ7UpSPd" />
+        <Link Id="B6FOAyBz5RUMV43JfRAIJf" Ids="IyYktkGER93Ld7UUbwDPNi,Cq9L7Zhjm8TOJnugEaC0it" />
       </Patch>
     </Node>
   </Patch>
