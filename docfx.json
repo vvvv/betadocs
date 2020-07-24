@@ -21,8 +21,9 @@
     "globalMetadataFiles": [],
     "fileMetadataFiles": [],
     "template": [
-      "default",
-	  "custom_templates/vvvv"
+    "default",
+    "custom_templates/docstrap",
+    "custom_templates/vvvv"
     ],
     "postProcessors": [ "ExtractSearchIndex" ],
 	"globalMetadata": {
