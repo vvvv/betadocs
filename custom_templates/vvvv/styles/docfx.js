@@ -355,7 +355,15 @@ $(function () {
         } else {
             $('#navbar ul a.active').parents('li').addClass(active);
             renderBreadcrumb();
+            showSearch();
         }
+
+        function showSearch() {
+            if ($('#search-results').length !== 0) {
+                $('#search').show();
+                $('body').trigger("searchEvent");
+            }
+          }
 
         function loadNavbar() {
             var navbarPath = $("meta[property='docfx\\:navrel']").attr("content");
@@ -367,10 +375,7 @@ $(function () {
             if (tocPath) tocPath = tocPath.replace(/\\/g, '/');
             $.get(navbarPath, function (data) {
                 $(data).find("#toc>ul").prependTo("#navbar");
-                if ($('#search-results').length !== 0) {
-                    $('#search').show();
-                    $('body').trigger("searchEvent");
-                }
+                showSearch();
                 var index = navbarPath.lastIndexOf('/');
                 var navrel = '';
                 if (index > -1) {
@@ -402,19 +407,6 @@ $(function () {
                         if (isActive) {
                             $(e).addClass(active);
                         }
-                    }
-
-                    var title = $(e).attr('title');
-                    if (title === 'Documentation') {
-                        $(e).prepend('<i class="fal fa-book"></i>&nbsp;');
-                    } else if (title === 'GitHub') {
-                        $(e).prepend('<i class="fab fa-github"></i>&nbsp;');
-                    } else if (title === 'Changelog') {
-                        $(e).prepend('<i class="fal fa-calendar-alt"></i>&nbsp;');
-                    }
-
-                    if (href.indexOf('://') > 0) {
-                        $(e).append('&nbsp;<i class="fa-external-link-alt fa-xs fal text-muted"></i>');
                     }
                 });
                 renderNavbar();
@@ -565,7 +557,7 @@ $(function () {
             });
         })
 
-        var html = util.formList(breadcrumb, ['breadcrumb', 'text-info'], ['breadcrumb-item'], 'text-dark');
+        var html = util.formList(breadcrumb, ['breadcrumb', 'text-info'], ['breadcrumb-item']);
         $('#breadcrumb').html(html);
     }
 
@@ -1198,7 +1190,9 @@ $(function () {
             var headerBottom = $('header').offset().top + $('header').height() - $(window).scrollTop();
             var topPx = headerBottom > 0 ? headerBottom : 0;
 
-            var footerTop = $(window).height() + $(window).scrollTop() - ($('body').height() - $('footer').height());
+            var bodyHeight = Math.max ($('body').height(), $(window).height() - topPx);
+
+            var footerTop = $(window).height() + $(window).scrollTop() - (bodyHeight - $('footer').height());
             var bottomPx = footerTop > 0 ? footerTop : 0;
 
             var height = $(window).height() - topPx - bottomPx;
@@ -1265,13 +1259,4 @@ $(function () {
     $('article blockquote').each(function (i, e) {
         $(e).addClass('alert alert-info pb-0');
     });
-
-    window.disqus_config = function () {
-        this.callbacks.onReady = [updateStickyPanels];
-    };
-
-    var d = document, s = d.createElement('script');
-    s.src = 'https://certes-doc.disqus.com/embed.js';
-    s.setAttribute('data-timestamp', +new Date());
-    (d.head || d.body).appendChild(s);
 });

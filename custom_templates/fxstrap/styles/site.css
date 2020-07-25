@@ -3,6 +3,15 @@
     display: block;
 }
 
+.hljs {
+    border: 1px solid #bbb;
+    border-radius: 3px;
+}
+
+html {
+    min-height: 100%;
+}
+
 .affix .nav li,
 .sidetoc .nav li {
     max-width: 100%;
@@ -56,12 +65,12 @@
 }
 
 .affix .nav .nav-item > a.active:before {
-    content: '\f124';
+    content: '\f105';
 }
 
 .affix .nav .nav-item > a:focus::before,
 .affix .nav .nav-item > a:hover::before {
-    content: '\f13d';
+    content: '\f101';
 }
 
 .affix .nav-item > a:not(.active) + ul {
@@ -89,11 +98,11 @@
 
 .sidetoc .nav .nav-item > a:focus::before,
 .sidetoc .nav .nav-item > a:hover::before {
-    content: '\f356';
+    content: '\f101';
 }
 
 .sidetoc .nav .nav-item > a.current:before {
-    content: '\f14a';
+    content: '\f105';
 }
 
 .sidetoc .nav .nav-item.in > .expand-stub + a:focus::before,
@@ -105,7 +114,7 @@
 .sidetoc .nav .nav-item > .expand-stub + a:focus::before,
 .sidetoc .nav .nav-item > .expand-stub + a:focus::before,
 .sidetoc .nav .nav-item > .expand-stub + a::before {
-    content: '\f106';
+    content: '\f105';
 }
 
 .sidetoc .nav .nav-item > .expand-stub + a {
@@ -177,7 +186,7 @@ article.content .source-link {
 
 .implements a[data-toggle="collapse"]::after,
 .inheritedMembers a[data-toggle="collapse"]::after {
-    content: '\f106';
+    content: '\f105';
     font-style: normal;
     font-weight: bold;
     cursor: pointer;

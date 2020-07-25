@@ -22,7 +22,7 @@
     "fileMetadataFiles": [],
     "template": [
     "default",
-    "custom_templates/docstrap",
+    "custom_templates/fxstrap",
     "custom_templates/vvvv"
     ],
     "postProcessors": [ "ExtractSearchIndex" ],

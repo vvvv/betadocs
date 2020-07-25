@@ -565,7 +565,7 @@ $(function () {
             });
         })
 
-        var html = util.formList(breadcrumb, ['breadcrumb', 'bg-dark', 'text-info'], ['breadcrumb-item'], 'text-light');
+        var html = util.formList(breadcrumb, ['breadcrumb', 'text-info'], ['breadcrumb-item']);
         $('#breadcrumb').html(html);
     }
 
@@ -1265,13 +1265,4 @@ $(function () {
     $('article blockquote').each(function (i, e) {
         $(e).addClass('alert alert-info pb-0');
     });
-
-    window.disqus_config = function () {
-        this.callbacks.onReady = [updateStickyPanels];
-    };
-
-    var d = document, s = d.createElement('script');
-    s.src = 'https://certes-doc.disqus.com/embed.js';
-    s.setAttribute('data-timestamp', +new Date());
-    (d.head || d.body).appendChild(s);
 });

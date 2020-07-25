@@ -14,16 +14,13 @@
         {{^_disableNavbar}}
         {{>partials/navbar}}
         {{/_disableNavbar}}
-        {{^_disableBreadcrumb}}
-        {{>partials/breadcrumb}}
-        {{/_disableBreadcrumb}}
       </header>
       {{#_enableSearch}}
       <div class="container body-content">
         {{>partials/searchResults}}
       </div>
       {{/_enableSearch}}
-      <div role="main" class="container body-content hide-when-search">
+      <div role="main" class="container-fluid body-content hide-when-search">
       <div class="row">
       {{^_disableToc}}
         {{>partials/toc}}
@@ -40,10 +37,11 @@
           <div class="col-lg-9">
           {{/_disableAffix}}
             <article class="content wrap pt-2 pb-2" id="_content" data-uid="{{uid}}">
+                {{^_disableBreadcrumb}}
+                {{>partials/breadcrumb}}
+                {{/_disableBreadcrumb}}
                 {{!body}}
             </article>
-            <div id="disqus_thread"></div>
-            <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
           </div>
           {{^_disableAffix}}
           {{>partials/affix}}
@@ -52,9 +50,9 @@
         </div>
       </div>
       </div>
-      {{^_disableFooter}}
-      {{>partials/footer}}
-      {{/_disableFooter}}
+      {{! {{^_disableFooter}}
+      {{! >partials/footer}}
+      {{! /_disableFooter}}
     </div>
     {{>partials/scripts}}
   </body>

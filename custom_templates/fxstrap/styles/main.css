@@ -1,6 +1,6 @@
 ﻿html,
 body {
-    font-size: 18px;
+    font-size: 16px;
 }
 
 svg:hover path[fill="#4F9FE1"] {
@@ -128,3 +128,35 @@ svg:hover path[fill="url(#B)"] {
 .github-links {
     padding-left: 8px;
 }
+
+/* Code snippet */
+code {
+    color: #717374;
+    background-color: #f1f2f3;
+  }
+  
+  a code {
+    color: #337ab7;
+    background-color: #f1f2f3;
+  }
+  
+  a code:hover {
+    text-decoration: underline;
+  }
+  
+  .hljs-keyword {
+    color: rgb(86,156,214);
+  }
+  
+  .hljs-string {
+    color: rgb(214, 157, 133);
+  }
+  
+  pre {
+    border: 0;
+  }
+  
+  /* For code snippet line highlight */
+  pre > code .line-highlight {
+    background-color: #ffffcc;
+  }
