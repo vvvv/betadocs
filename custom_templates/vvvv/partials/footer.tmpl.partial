@@ -1,0 +1,17 @@
+{{!Copyright (c) Microsoft. All rights reserved. Licensed under the MIT license. See LICENSE file in the project root for full license information.}}
+
+<footer class="bg-vvvvlightdark">
+  <div class="footer bg-vvvvlightdark">
+    <div class="container">
+    <div class="d-flex">
+      <div class="p-2 flex-grow-1 text-white pt-3">
+        <p>&copy; 2020 by <a href="https://vvvv.org" target="_blank" class="whitelink">vvvv</a> group.  <a href="https://vvvv.org/impressum" target="_blank" class="whitelink">Imprint</a> | <a href="https://vvvv.org/privacy-policy" target="_blank" class="whitelink">Privacy Policy</a>.</p>
+        <p>Thanks to <a href="https://dotnet.github.io/docfx/" target="_blank" class="whitelink">DocFX</a> for building this website.</a></p>
+      </div>
+      <div class="p-2">
+        <a class="text-white" href="#top">Back to top</a>
+      </div>
+    </div>
+    </div>
+  </div>
+</footer>
