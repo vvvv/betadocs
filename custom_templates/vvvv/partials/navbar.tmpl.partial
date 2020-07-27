@@ -8,10 +8,8 @@
       </button>
 
       <div class="collapse navbar-collapse" id="navbar">
-        <form class="navbar-form navbar-right" role="search" id="search">
-          <div class="form-group">
-            <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
-          </div>
+        <form class="form-inline my-2 my-lg-0" role="search" id="search">
+            <input type="text" class="form-control mr-sm-2" id="search-query" placeholder="Search" autocomplete="off">
         </form>
       </div>
     </nav>

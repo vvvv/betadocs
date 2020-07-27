@@ -1,6 +1,6 @@
 {{!Copyright (c) Microsoft. All rights reserved. Licensed under the MIT license. See LICENSE file in the project root for full license information.}}
 
-<footer class="bg-vvvvlightdark">
+<footer class="bg-vvvvlightdark mt-4">
   <div class="footer bg-vvvvlightdark">
     <div class="container">
     <div class="d-flex">

@@ -4,7 +4,7 @@ uid: 10b82e0c-720a-48e1-91e4-d8c65d2c3be1
 
 # Patching Basics
 
-# Introduction
+## Introduction
 Programming with vvvv is commonly referred to as ***patching***.   
 The editors canvas is called the ***Patch***.   
 The building blocks that make your programs are called ***Nodes***.   
@@ -12,18 +12,18 @@ Nodes have input and output parameters called ***Pins*** which are connected by 
 
 The following reference goes into details about those 4 main components.  
 
-# Patch
+## Patch
 
 
 ### Opening a patch
 To open a patch middle-click in the Patch Editor to open the Main Menu and choose:   
-* Open (CTRL+O)  
-* Open in Patch (CTRL+SHIFT+O)  
+* Open (<kbd>CTRL+O</kbd>)  
+* Open in Patch (<kbd>CTRL+SHIFT+O</kbd>)  
 
 ### Saving a patch
 To save a patch middle-click in the Patch Editor to open the Main Menu and choose:   
-* Save (CTRL+S)  
-* Save As... (CTRL+SHIFT+S)  
+* Save (<kbd>CTRL+S</kbd>)  
+* Save As... (<kbd>CTRL+SHIFT+S</kbd>)  
 Everytime you save a patch its previous version is backed up under the same filename but ending in ~.xml. So if ever you need to go back to that previous version just rename it to .v4p and you can open it again.   
 
 
@@ -41,9 +41,9 @@ When patching always remember:
 
 
 ### Hiding vs. Closing a patch
-* If you **Close** a patch (CTRL+W), the patch will be **removed from the system**. The node containing this patch is deleted.  
+* If you **Close** a patch (<kbd>CTRL+W</kbd>), the patch will be **removed from the system**. The node containing this patch is deleted.  
 
-* If you **Hide** a patch (ALT+3), the patch will still be **part of the system** and **continue working**. Only it is no longer visible.   
+* If you **Hide** a patch (<kbd>ALT+3</kbd>), the patch will still be **part of the system** and **continue working**. Only it is no longer visible.   
 
 See also: [Window Modes](xref:5aa4e8e0-fc2c-4112-a985-7f4f0208bf48).  
 
@@ -53,7 +53,7 @@ See also: [Window Modes](xref:5aa4e8e0-fc2c-4112-a985-7f4f0208bf48).
 
 ### Locking a patch
 
-To lock a patch press CTRL+E. A locked shows a '#' symbol in its topleft corner.   
+To lock a patch press <kbd>CTRL+E</kbd>. A locked shows a '#' symbol in its topleft corner.   
 
 In a locked patch:  
 * all nodes still work   
@@ -71,15 +71,15 @@ You can scroll in a patch by **right clicking on an empty space** and start **dr
 
 Alternatively or while making a [link](xref:10b82e0c-720a-48e1-91e4-d8c65d2c3be1#link) you can:  
 * use the mousewheel to scroll vertically  
-* press ALT while using the wheel to scroll horizontally  
-* press CTRL in addition to speed up scrolling  
+* press <kbd>ALT</kbd> while using the wheel to scroll horizontally  
+* press <kbd>CTRL</kbd> in addition to speed up scrolling  
 
 
 
 ![](~/img/BasicPatching_Comments2.png "")   
 
 ### Comments
-Double click with the left button to bring up the [Node Browser](xref:eeb8526d-0085-4219-a138-32ac397853f1). Then enter the text you want to have as a comment in the patch. Make sure the text is not matching any node before pressing ENTER to create a comment.   
+Double click with the left button to bring up the [Node Browser](xref:eeb8526d-0085-4219-a138-32ac397853f1). Then enter the text you want to have as a comment in the patch. Make sure the text is not matching any node before pressing <kbd>ENTER</kbd> to create a comment.   
 
 A comment is essentially an <span class="node">IOBox (String)</span> with its input and output pins hidden. So you can always just doubleclick to change it.   
 
@@ -92,7 +92,7 @@ If you want to make a patch into a reusable module, see:
 * [SubPatches](xref:b66f153a-f7c3-4867-a8c9-bce69861d759)  
 
 
-# Node
+## Node
 
 ![](~/img/BasicPatching_NodeCategory3.png "")   
 
@@ -117,7 +117,7 @@ Nodes can have different icons:
 
 **Every node with an icon** can be rightclicked to show its editor or window. Nodes without an icon are built-in native nodes and can not be manipulated.  
 
-To get an overview of all the pins of a node, select it and press CTRL+I to open the [Inspektor](xref:9666611a-6f15-4b33-8300-69f56d9ec7d4).  
+To get an overview of all the pins of a node, select it and press <kbd>CTRL+I</kbd> to open the [Inspektor](xref:9666611a-6f15-4b33-8300-69f56d9ec7d4).  
 
 To find out more about a nodes functionality, select it and press F1 to open its helppatch.  
 
@@ -145,15 +145,15 @@ Press SHIFT and the cursor keys to move them by 10px.
 ![](~/img/BasicPatching_GroupingNodes3.png "")   
 
 ### Grouping nodes
-Select a group of nodes and press CTRL+G to replace them with a [SubPatches](xref:b66f153a-f7c3-4867-a8c9-bce69861d759) of the same functionality and keeping their connections to other nodes.   
+Select a group of nodes and press <kbd>CTRL+G</kbd> to replace them with a [SubPatches](xref:b66f153a-f7c3-4867-a8c9-bce69861d759) of the same functionality and keeping their connections to other nodes.   
 
-Note that the created subpatch still needs to be saved. Therefore it is good practice to rightclick the new node immediately and press CTRL+SHIFT+S to save it under a specific name.   
+Note that the created subpatch still needs to be saved. Therefore it is good practice to rightclick the new node immediately and press <kbd>CTRL+SHIFT+S</kbd> to save it under a specific name.   
 
 
 
 
 ### Hiding nodes
-Press CTRL+H to mark a selection of nodes/links as hidden.  
+Press <kbd>CTRL+H</kbd> to mark a selection of nodes/links as hidden.  
 
 Hidden nodes/links are not visible or accessible anymore when a patch is [locked](xref:10b82e0c-720a-48e1-91e4-d8c65d2c3be1#locking-a-patch). In an unlocked patch they will stand out with a lighter shade of grey.  
 
@@ -170,11 +170,11 @@ Hidden nodes/links are not visible or accessible anymore when a patch is [locked
 * **Light blue & Grey border**: the [SubPatches](xref:b66f153a-f7c3-4867-a8c9-bce69861d759) contains some Boygrouped nodes  
 
 ### More
-* Align a selction of nodes by pressing CTRL+L  
-* Reset all of a nodes inputs to their defaults: ALT+Rightclick on the node  
+* Align a selction of nodes by pressing <kbd>CTRL+L</kbd> 
+* Reset all of a nodes inputs to their defaults: <kbd>ALT+Rightclick</kbd> on the node  
 
 
-# Pin
+## Pin
 
 ![](~/img/BasicPatching_PinTypes3.png "")   
 
@@ -232,11 +232,11 @@ Values of inputs that have one of the primitive data types can be changed direct
 * **Enumeration pins**: Right click to invoke the pull-down menu with all possible values. See [Enumeration IOBoxes](xref:86693dba-d049-4027-874d-d53f0437ad66#enumeration).  
 
 ### Resetting a pin's value
-* Alt+Rightclick an unconnected pin to reset it to its default.  
-* Alt+Rightclick a node to reset all of its unconnected pins to their defaults.  
+* <kbd>Alt+Rightclick</kbd> an unconnected pin to reset it to its default.  
+* <kbd>Alt+Rightclick</kbd> a node to reset all of its unconnected pins to their defaults.  
 
 
-# Link
+## Link
 
 ![](~/img/BasicPatching_Links1.png "")   
 
@@ -290,7 +290,7 @@ There are 3 different styles for links:
 * Straight  
 * Bezier  
 * Vertical-Horizontal-Vertical  
-Press CTRL+Y on a selected link to cycle through the styles.   
+Press <kbd>CTRL+Y</kbd> on a selected link to cycle through the styles.   
 
 
 

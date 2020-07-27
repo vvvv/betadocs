@@ -381,7 +381,7 @@ $(function () {
                 if (index > -1) {
                     navrel = navbarPath.substr(0, index + 1);
                 }
-                $('#navbar>ul').addClass('navbar-nav').addClass('mr-auto');
+                $('#navbar>ul').addClass('navbar-nav').addClass('mr-auto ml-5 mt-2 mt-lg-0');
                 var currentAbsPath = util.getAbsolutePath(window.location.pathname);
                 // set active item
                 $('#navbar').find('a[href]').each(function (i, e) {
@@ -531,10 +531,7 @@ $(function () {
 
                 $('form.toc-filter').html(
                     '<div class="input-group input-group-sm">' +
-                    '<div class="input-group-prepend">' +
-                    '<span class="input-group-text"><i class="fas fa-filter"></i></span>' +
-                    '</div>' +
-                    '<input id="toc_filter_input" class="form-control" placeholder="Enter here to filter..." onkeypress="if(event.keyCode==13) {return false;}">' +
+                    '<input id="toc_filter_input" class="form-control" placeholder="Filter..." onkeypress="if(event.keyCode==13) {return false;}">' +
                     '</div>');
 
                 renderSidebar();
