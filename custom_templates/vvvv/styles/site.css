@@ -118,12 +118,14 @@
 .sidetoc .nav .nav-item.in > .expand-stub + a:focus::before,
 .sidetoc .nav .nav-item.in > .expand-stub + a::before {
     content: '-';
+    font-size: 1.3em;
 }
 
 .sidetoc .nav .nav-item > .expand-stub + a:focus::before,
 .sidetoc .nav .nav-item > .expand-stub + a:focus::before,
 .sidetoc .nav .nav-item > .expand-stub + a::before {
     content: '+';
+    font-size: 1.3em;
 }
 
 .sidetoc .nav .nav-item > .expand-stub + a {
