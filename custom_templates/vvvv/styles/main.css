@@ -1,79 +1,73 @@
-body {
-    overflow-y: scroll;
-    line-height: 1.6;
+﻿/* Search results display*/
+#search-results {
+    max-width: 960px !important;
+    margin-bottom: 115px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.8;
+    display: none;
+  }
+  
+  #search-results>.search-list {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+  }
+  
+  #search-results p {
+    text-align: center;
+  }
+  
+  #search-results p .index-loading {
+    animation: index-loading 1.5s infinite linear;
+    -webkit-animation: index-loading 1.5s infinite linear;
+    -o-animation: index-loading 1.5s infinite linear;
+    font-size: 2.5rem;
+  }
+  
+  @keyframes index-loading {
+      from { transform: scale(1) rotate(0deg);}
+      to { transform: scale(1) rotate(360deg);}
+  }
+  
+  @-webkit-keyframes index-loading {
+      from { -webkit-transform: rotate(0deg);}
+      to { -webkit-transform: rotate(360deg);}
+  }
+  
+  @-o-keyframes index-loading {
+      from { -o-transform: rotate(0deg);}
+      to { -o-transform: rotate(360deg);}
+  }
+  
+  #search-results .sr-items {
+    font-size: 24px;
+  }
+  
+  .sr-item {
+    margin-bottom: 25px;
+  }
+  
+  .sr-item>.item-href {
+    font-size: 14px;
+    color: #093;
+  }
+  
+  .sr-item>.item-brief {
+    font-size: 13px;
+  }
+  
+  .pagination>li>a {
+    color: #47A7A0
+  }
+  
+  .pagination>.active>a {
+    background-color: #47A7A0;
+    border-color: #47A7A0;
   }
 
-h1, h2, h3 {
-    font-family: "Segoe UI","Helvetica Neue","Helvetica",Arial,sans-serif;
-    font-weight: 100;
-}
-
-h1 {
-    margin-bottom: 0.7em;
-}
-
-a {
-    color: #0071BC;
-}
-
-a:hover
-{
-    text-decoration: underline;
-}
-  
-.node
-{
-    padding: 0em 0.3em;
-    font-weight: bold;
-    color: #555;
-    /* background-color: #eeeeee; */
-    /* border-radius: 0.2em; */
-}
-
-.node::after
-{
-    content: "NODE";
-    font-weight: normal;
-    font-size: 0.7em;
-    margin-left: 0.5em;
-    padding: 0.1em 0.4em;
-    background-color: #eaeaea;
-}
-
-.user
-{
-    padding: 0em 0.3em;
-}
-
-.user a
-{
-    color: #e28b27;
-}
-
-.user::after
-{
-    content: "USER";
-    font-size: 0.7em;
-    margin-left: 0.5em;
-    padding: 0.1em 0.4em;
-    background-color: #fdc98d;
-}
-
-.toc .level1 > li
-{
-    font-weight: normal;
-    margin-top: 10px;
-    position: relative;
-    font-size: 1.4em;
-}
-
-.toc .level2 > li
-{
-    padding: 0.3em 0em;
-    font-size: 0.9em;
-}
-
-.toc .nav > li.active > a
-{
-    font-weight: bold;
-}
+  #wrapper{
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+  }

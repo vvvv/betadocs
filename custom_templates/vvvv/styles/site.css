@@ -1,0 +1,343 @@
+﻿.bg-vvvvdark
+{
+    background-color: #232323;
+}
+
+.bg-vvvvblack
+{
+    background-color: #000;
+}
+
+.bg-vvvvlightdark
+{
+    background-color: #4a4a4a;
+}
+
+.replaced-svg {
+    display: block;
+}
+
+.affix .nav li,
+.sidetoc .nav li {
+    max-width: 100%;
+    position: relative;
+}
+
+.sidetoc .nav li > .expand-stub {
+    position: absolute;
+    width: 1.5rem;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    height: 1.5rem;
+    cursor: pointer;
+}
+
+.implements a[data-toggle="collapse"]::after,
+.inheritedMembers a[data-toggle="collapse"]::after,
+.affix .nav .nav-item > a::before,
+.sidetoc .nav .nav-item > a::before {
+    font-family: inherit;
+    content: '';
+    font-size: inherit;
+    margin-right: 0.2rem;
+    width: 1.25rem;
+    text-align: center;
+    display: inline-block;
+}
+
+.sidenav,
+.sideaffix {
+    position: sticky;
+    overflow-y: auto;
+}
+
+.sidefilter {
+    margin-bottom: 0.8rem;
+}
+
+.affix .nav .nav-item > ul {
+    padding-left: 0.5rem;
+}
+
+.affix .nav .nav-item > a {
+    padding: 0.1rem 0;
+    font-size: 0.85rem;
+}
+
+.affix .nav .level1 > .nav-item > a {
+    font-size: 0.95rem;
+}
+
+.affix .nav .nav-item > a.active:before {
+    content: '|';
+}
+
+.affix .nav .nav-item > a:focus::before,
+.affix .nav .nav-item > a:hover::before {
+    content: '|';
+}
+
+.affix .nav-item > a:not(.active) + ul {
+    display: none;
+}
+
+/*
+.sidetoc .nav .nav-item > ul {
+    padding-left: 0.5rem;
+}*/
+
+.sidetoc .nav .nav-item > a {
+    padding: 0.1rem 0;
+    font-size: 0.9rem;
+}
+
+.sidetoc .nav.level1 > .nav-item > a {
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.sidetoc .nav.level2 > .nav-item > a {
+    font-weight: 400;
+}
+
+/* .sidetoc .nav .nav-item > a:focus::before,
+.sidetoc .nav .nav-item > a:hover::before {
+    content: '\f356';
+} */
+
+/* 
+.sidetoc .nav .nav-item > a.current:before {
+    content: '\f14a';
+} */
+
+.nav .level2, .nav .level3 {
+    margin-left: 0.8rem;
+}
+
+.sidetoc .nav .nav-item > a.current{
+    background-color: #eee;
+}
+
+.sidetoc .nav .nav-item.in > .expand-stub + a:focus::before,
+.sidetoc .nav .nav-item.in > .expand-stub + a:focus::before,
+.sidetoc .nav .nav-item.in > .expand-stub + a::before {
+    content: '-';
+    font-size: 1.3em;
+}
+
+.sidetoc .nav .nav-item > .expand-stub + a:focus::before,
+.sidetoc .nav .nav-item > .expand-stub + a:focus::before,
+.sidetoc .nav .nav-item > .expand-stub + a::before {
+    content: '+';
+    font-size: 1.3em;
+}
+
+.sidetoc .nav .nav-item > .expand-stub + a {
+    cursor: pointer;
+}
+
+.sidetoc .nav .nav-item:not(.in):not(.filtered) > ul.nav {
+    display: none;
+}
+
+header .breadcrumb {
+    margin-bottom: 0;
+}
+
+/*.toc-toggle {
+    display: none;
+}*/
+
+h1, h2, h3 {
+    font-family: "Segoe UI","Helvetica Neue","Helvetica",Arial,sans-serif;
+    font-weight: 100;
+    margin-top: 2rem;
+    margin-bottom: 1.2rem;
+}
+
+h1 {
+    margin-bottom: 0.7em;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 1.2rem;
+}
+
+h3 {
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+h4 {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+h1 a:hover,
+h2 a:hover,
+h3 a:hover,
+h4 a:hover,
+h5 a:hover,
+h6 a:hover {
+    text-decoration: none;
+}
+
+a {
+    color: #0071BC;
+}
+
+a:hover
+{
+    text-decoration: underline;
+}
+
+/*
+article.content {
+    padding-top: 1rem;
+}
+*/
+
+article.content section {
+    margin-left: 0.5rem;
+}
+
+article.content .improve-link,
+article.content .source-link {
+    float: right;
+    margin-top: 0.45rem;
+    margin-right: 0.5rem;
+}
+/*
+.implements,
+.inheritance {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+    .implements h5,
+    .inheritance h5 {
+        width: 100%;
+        font-weight: 400;
+        font-style: italic;
+        margin-bottom: 0;
+    }
+
+    .inheritance div.level0::before {
+        content: '';
+        display: none;
+    }
+
+    .inheritance div::before {
+        content: '\f355';
+        margin-left: 0.25rem;
+    }*/
+
+
+.implements a[data-toggle="collapse"]::after,
+.inheritedMembers a[data-toggle="collapse"]::after {
+    content: '\f106';
+    font-style: normal;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.implements a[data-toggle="collapse"][aria-expanded="true"]::after,
+.inheritedMembers a[data-toggle="collapse"][aria-expanded="true"]::after {
+    content: '\f107';
+}
+
+.contribution a:hover {
+    text-decoration: none;
+}
+
+.navbar .fa-external-link-alt {
+    vertical-align: top;
+}
+
+.gist table td,
+.gist table th {
+    border-top: none;
+}
+
+kbd
+{
+    display: inline-block;
+    margin: 0 .1em;
+    padding: .1em .4em;
+    font-family: inherit;
+    font-weight: inherit;
+    line-height: 1.2;
+    color: #000;
+    background-color: #efefef;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px #999 ,inset 0 1px 0 0 #fff;
+    white-space: nowrap;
+}
+
+.breadcrumb {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 0 0 0.8em 0;
+    margin-bottom: 1rem;
+    list-style: none;
+    background-color: inherit;
+    border-radius: none;
+    border-bottom: 1px solid #ccc;
+}
+
+.node
+{
+    padding: 0em 0.3em;
+    font-weight: bold;
+    color: #555;
+    font-size: 0.8em;
+    /* background-color: #eeeeee; */
+    /* border-radius: 0.2em; */
+}
+
+.node::after
+{
+    content: "NODE";
+    font-weight: normal;
+    font-size: 0.7em;
+    margin-left: 0.5em;
+    padding: 0.1em 0.4em;
+    background-color: #eaeaea;
+}
+
+.user
+{
+    padding: 0em 0.3em;
+}
+
+.user a
+{
+    color: #e28b27;
+}
+
+.user::after
+{
+    content: "USER";
+    font-weight: normal;
+    font-size: 0.7em;
+    margin-left: 0.5em;
+    padding: 0.1em 0.4em;
+    background-color: #fdc98d;
+}
+
+.footer
+{
+    font-size: 0.8em;
+}
+
+.footer .whitelink
+{
+    color: #fff;
+    text-decoration: underline;
+}
