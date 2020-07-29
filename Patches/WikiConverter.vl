@@ -6007,7 +6007,7 @@
               <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Bang</p:buttonmode>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="KFLnRVvzLsDPycPLVHk29e" Comment="Directory" Bounds="897,328,64,11" ShowValueBox="true" isIOBox="true" Value="..\Wiki\Topics\Video\\">
+          <Pad Id="KFLnRVvzLsDPycPLVHk29e" Comment="Directory" Bounds="897,328,64,11" ShowValueBox="true" isIOBox="true" Value="..\Wiki\Topics\Video\">
             <p:TypeAnnotation LastCategoryFullName="IO" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="Path" />
             </p:TypeAnnotation>
@@ -6020,7 +6020,7 @@
             <Pin Id="AowgEBlQXiHQRoOuTwvELi" Name="Directory" Kind="InputPin" />
             <Pin Id="P2WwSFeja2cO4nRdi5ML1h" Name="Merge" Kind="InputPin" />
           </Node>
-          <Pad Id="QaJsaEg39IZNb8XRFX4lhA" Comment="Directory" Bounds="873,500,35,15" ShowValueBox="true" isIOBox="true" Value="..\Wiki\Topics\Graphics\Direct3D 9\Shader\\">
+          <Pad Id="QaJsaEg39IZNb8XRFX4lhA" Comment="Directory" Bounds="873,500,35,15" ShowValueBox="true" isIOBox="true" Value="..\Wiki\Topics\Graphics\Direct3D 9\Shader\">
             <p:TypeAnnotation LastCategoryFullName="IO" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="Path" />
             </p:TypeAnnotation>
@@ -6041,7 +6041,7 @@
             <Pin Id="Le8mr1YtAZFL9yUqG6Z3jf" Name="Directory" Kind="InputPin" />
             <Pin Id="VdFjzcKWDW0MauOoPXlKtI" Name="Make" Kind="InputPin" />
           </Node>
-          <Pad Id="ICMsULu6hAZOf1zja4dZxB" Comment="Directory" Bounds="1085,325,375,-5" ShowValueBox="true" isIOBox="true" Value="..\Wiki\Changelog\Core\\">
+          <Pad Id="ICMsULu6hAZOf1zja4dZxB" Comment="Directory" Bounds="1085,325,375,-5" ShowValueBox="true" isIOBox="true" Value="..\Wiki\Changelog\Core\">
             <p:TypeAnnotation LastCategoryFullName="IO" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="Path" />
             </p:TypeAnnotation>
@@ -6067,7 +6067,7 @@
             <Pin Id="GuD8ZVdvHmEMOSA2RGD5If" Name="Directory" Kind="InputPin" />
             <Pin Id="H1VgpjIPZlJLcsSpGnXuDu" Name="Create" Kind="InputPin" />
           </Node>
-          <Pad Id="BEzr3M23xyAOpj4JBSJmuS" Comment="Directory" Bounds="1137,505,35,15" ShowValueBox="true" isIOBox="true" Value="..\Wiki\Topics\Video\Analysis - Tracking\\">
+          <Pad Id="BEzr3M23xyAOpj4JBSJmuS" Comment="Directory" Bounds="1137,505,35,15" ShowValueBox="true" isIOBox="true" Value="..\Wiki\Topics\Video\Analysis - Tracking\">
             <p:TypeAnnotation LastCategoryFullName="IO" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="Path" />
             </p:TypeAnnotation>
@@ -6127,7 +6127,7 @@
             <Pin Id="Pimc3RNjv2cMzDk3sM0fcO" Name="Refresh" Kind="InputPin" />
             <Pin Id="G4QTjryDjHiPnJBUb3oGto" Name="Files" Kind="OutputPin" />
           </Node>
-          <Pad Id="FkIqkjbqGZpNm8MKpqabmU" Comment="Directory" Bounds="472,678,35,15" ShowValueBox="true" isIOBox="true" Value="..\Wiki\Changelog\Core\\">
+          <Pad Id="FkIqkjbqGZpNm8MKpqabmU" Comment="Directory" Bounds="472,678,35,15" ShowValueBox="true" isIOBox="true" Value="..\Wiki\Changelog\Core\">
             <p:TypeAnnotation LastCategoryFullName="IO" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="Path" />
             </p:TypeAnnotation>

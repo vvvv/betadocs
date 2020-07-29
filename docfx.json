@@ -3,8 +3,8 @@
     "content": [
       {
         "files": [
-          "wiki/**.md",
-          "wiki/**/toc.yml",
+          "**.md",
+          "**/toc.yml",
           "toc.yml",
           "index.md"
         ]

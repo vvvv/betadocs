@@ -1,2 +1,0 @@
-* Core Changelogs   
-* Addons Changelogs   

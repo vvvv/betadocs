@@ -287,7 +287,7 @@ kbd
     margin-bottom: 1rem;
     list-style: none;
     background-color: inherit;
-    border-radius: none;
+    border-radius: inherit;
     border-bottom: 1px solid #ccc;
 }
 
@@ -340,4 +340,10 @@ kbd
 {
     color: #fff;
     text-decoration: underline;
+}
+
+.docsSearch
+{
+    border-radius: 1px;
+    padding: 0.2rem 0.5rem;
 }
