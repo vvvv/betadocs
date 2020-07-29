@@ -1,0 +1,6 @@
+* [http://www.palma.com.au/winroll/|WinRoll] easily manages multiple open windows - very useful with vvvv
+* [http://www.brianapps.net/sizer.html|Sizer] is a freeware utility that allows you to resize any window to an exact, predefined size. If used with a renderer add 8 to the witdh, 24 to the height of your desired backbuffer-size.
+* [http://www.donationcoder.com/Software/Skrommel/index.html#MultiMonMan|MultiMonMan] 
+**access lost patches from not connected screens...
+**lets you watch and control multiple monitors even if they aren't connected. resize and move windows.
+* [http://mizage.com/divvy/|divvy] window management utility

@@ -2,7 +2,7 @@
 uid: 40d7b16c-c61f-41c1-8345-62e0b729f6a0
 ---
 
-# Electronics
+# Electronics Links
 
 ## Links
 * <a href="https://www.allaboutcircuits.com/" class="extURL" target="_blank">All About Circuits</a> an extremely active electrical engineering online community that provides both interesting content and useful resources for Electrical Engineers.  

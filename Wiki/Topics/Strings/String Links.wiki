@@ -1,0 +1,5 @@
+!!Editors
+* Confused about ascii, code pages, unicode... read this: http://10kloc.wordpress.com/2013/08/25/plain-text-doesnt-exist-unicode-and-encodings-demystified/ 
+* __[http://symbolclick.com/index.htm|XMLMarker]__ is an XML Editor that uses a synchronized table-tree-and-text display to show you both the hierarchal and the tabular nature of your XML data.It automatically produces a tabular display of any selected tag by collecting repeating attribute and tag names and then arranging them into columns. The result is a clutter-free and informative tabular display.freeware. a must-have when using vvvv and pretty easy to use. Very useful e.g. ((HowTo edit wrong Paths quickly|for editing wrong paths in patches)).
+ ^note:The free version (1.1) can not deal with unicode.^
+* [http://sourceforge.net/projects/notepad-plus/|NotePad++] is a free source code editor (and Notepad replacement), which supports several programming languages, running under the MS Windows environment. 

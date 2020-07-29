@@ -2,7 +2,7 @@
 uid: 59d087cb-4622-4fda-9ed9-4b50b34dd573
 ---
 
-# Intro
+# Overview
 Developers looking to extend vvvv with their own nodes start here:  
 * [Addons](xref:20ebd5d5-2c26-4852-b3fb-b6a866b3802f) stuff common to all addon development  
 * [Dynamic VL Plugin Reference](xref:2879ae37-9e84-42ee-8e2e-8444d274bb6b): quick VL coding reference  
@@ -21,4 +21,4 @@ Developers looking to extend vvvv with their own nodes start here:
 
 ### vvvv supports diplomates
 * [Diplomas](xref:ec339941-5cdf-4e4e-b43c-5ce31f177967)  
-
+

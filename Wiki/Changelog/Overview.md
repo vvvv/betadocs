@@ -1,2 +1,2 @@
-* Core Changelogs
-* Addons Changelogs
+* Core Changelogs   
+* Addons Changelogs   

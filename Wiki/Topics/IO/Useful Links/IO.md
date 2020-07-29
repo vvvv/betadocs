@@ -2,7 +2,7 @@
 uid: 9f4b87bf-29a2-4bc1-ab95-86e2842b4db4
 ---
 
-# IO
+# IO Links
 
 ## Hardware Diagnosis Tools
 ### General Purpose
@@ -60,4 +60,4 @@ virtual midi ports/cables, to connect different software via midi:
 * <a href="http://www.autohotkey.com/" class="extURL" target="_blank">AutoHotkey</a> is a free, open-source utility for Windows.  
   * Automate almost anything by sending keystrokes and mouse clicks.  
   * You can write a mouse or keyboard macro by hand or use the macro recorder.  
-  * Create hotkeys for keyboard, joystick, and mouse. Virtually any key, button, or combination can become a hotkey.  
+  * Create hotkeys for keyboard, joystick, and mouse. Virtually any key, button, or combination can become a hotkey.  
