@@ -92,16 +92,16 @@ Zoom Out 	|<kbd>Ctrl-</kbd> 	|Scales the active patch down ***Careful: BUGGY***
 ## and more Shortcuts
    |   |   
 --- | --- | ---  
-Scroll Patch 	|<kbd>Right click+Drag</kbd> in patch |to move the patch inside the window  
-Create IOBox with values | start link from inputpin and end with <kbd>middleclick</kbd> | Creates IOBox containing values of connected Inputpin  
-AutoName IOBox |<kbd>Middleclick</kbd> on linked IOBox | copies Pinnames of connected Nodes into Descriptive Name of IOBox  
-AutoCreate send node| start link from output pin and end with <kbd>CTRL+Middleclick</kbd> | Creates Send node with the 'Send String' set to the name of the output pin  
-Reset Node    | <kbd>ALT+Rightclick</kbd> on Node 	| Resets Node, resets all Pins to default value  
-Reset Pin    | <kbd>ALT+Rightclick</kbd> on InputPin | Resets Pin to default value  
+Scroll Patch 	|**Right click+Drag** in patch |to move the patch inside the window  
+Create IOBox with values | start link from inputpin and end with **middleclick** | Creates IOBox containing values of connected Inputpin  
+AutoName IOBox |**Middleclick** on linked IOBox | copies Pinnames of connected Nodes into Descriptive Name of IOBox  
+AutoCreate send node| start link from output pin and end with <kbd>CTRL</kbd>+Middleclick | Creates Send node with the 'Send String' set to the name of the output pin  
+Reset Node    | <kbd>ALT</kbd>+Rightclick on Node 	| Resets Node, resets all Pins to default value  
+Reset Pin    | <kbd>ALT</kbd>+Rightclick on InputPin | Resets Pin to default value  
 Scroll Vertical    | <kbd>Mousewheel</kbd> 	| scrolls up/down  
-Scroll Vertical Fast   | <kbd>CTRL-Mousewheel</kbd> 	|    
-Scroll Horizontal    | <kbd>ALT-Mousewheel</kbd> 	| scrolls left/right  
-Scroll Horizontal Fast   | <kbd>CTRL-ALT-Mousewheel</kbd> 	|    
+Scroll Vertical Fast   | <kbd>CTRL</kbd>-Mousewheel 	|    
+Scroll Horizontal    | <kbd>ALT</kbd>-Mousewheel 	| scrolls left/right  
+Scroll Horizontal Fast   | <kbd>CTRL-ALT</kbd>-Mousewheel 	|    
 move selected nodes by 1 px| <kbd>CursorKeys</kbd> | moves nodes  
 move selected nodes by 10 px| <kbd>SHIFT+CursorKeys</kbd>| moves nodes faster...
 

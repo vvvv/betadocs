@@ -100,13 +100,13 @@ The second one contains mixed managed/unmanaged plugins that can only be built o
 ### Using Visual Studio 2015
 * open Addonpack.sln  
 * make sure: Build -> Configuration Manager -> Active Build Platform is set to *x86*  
-* build it (F7)  
+* build it <kbd>F7</kbd>  
 
 ### Using SharpDevelop 5
 * open Addonpack.sln  
 * make sure: Build -> Set Platform is set to *x86*  
 * update nugets: Project -> Restore Packages  
-* build it (F8)  
+* build it <kbd>F8</kbd>  
 
 Building may take a while and is supposed to return with "Build Successfull. 0 Errors" in which case you're done and can close the solution.
 

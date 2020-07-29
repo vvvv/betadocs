@@ -168,7 +168,7 @@ Never put nodes that receive inputs from a physical device (like the mouse-nodes
 
 
 Modules are basically ordinary patches that are mostly created to be used as black-boxes (ie. without the user typically looking inside them). In order to make patch into a module follow these steps:  
-* press **Ctrl-M** and add Author, Description and Tags  
+* press <kbd>Ctrl-M</kbd> and add Author, Description and Tags  
 * give your patch a name with a category in the round brackets, like **Slope (2d).v4p**.   
 * see all [Conventions.NodeAndPinNaming](xref:db8592a2-03c3-4e8c-a540-d11df5e83078)  
 * optional: add a helppatch, see [Conventions.HelpPatch](xref:07824e2d-da59-4df0-9f49-a143dc0f7625)  

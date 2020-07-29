@@ -33,12 +33,12 @@ If you want to write more about a project, create a page in the wiki and include
 <kbd>CTRL+I</kbd> opens an [Inspektor](xref:9666611a-6f15-4b33-8300-69f56d9ec7d4) window. Selecting a node with an inspektor open you'll see a short description what this node is intended to do.  
 
 #### Helppatches
-Pressing <kbd>F1</kbd> with a node selected opens a helppatch explaining the node in some detail. If you press F1 with no node selected, a generic help patch is shown.  
+Pressing <kbd>F1</kbd> with a node selected opens a helppatch explaining the node in some detail. If you press <kbd>F1</kbd> with no node selected, a generic help patch is shown.  
 
 Also see the [video tutorial on Helppatches](xref:09f00508-01d4-4eac-b6d3-4dace5b00d99#tutorial-12-helpfiles-f1-and-comments).  
 
 #### Node Reference
-vvvv brings up a page from the [Node Reference](https://vvvv.org/documentation/node-reference), when pressing Alt-F1 with a node selected. a nodereference page exists for every native node and nodes that come with the addonpack. the pages are user-editable and thus can contain additional information concerning that node provided by other users.  
+vvvv brings up a page from the [Node Reference](https://vvvv.org/documentation/node-reference), when pressing <kbd>Alt-F1</kbd> with a node selected. a nodereference page exists for every native node and nodes that come with the addonpack. the pages are user-editable and thus can contain additional information concerning that node provided by other users.  
 
 #### The Girlpower directory
 These tutorials, examples and demo patches try to explain several (sometimes advanced) topics. However they are good to see how some nodes can be used together in an elegant way.  

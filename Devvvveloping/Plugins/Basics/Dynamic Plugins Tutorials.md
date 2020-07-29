@@ -36,9 +36,9 @@ FOutput[i] = (r.NextDouble()-0.5)*FInput[i];
 In the tool tip we saw that r.NextDouble will generate values between 0.0 and 1.0. Subtracting by 0.5 will result in a value around 0. So 50% it will be negative (walk left), 50% it will be positive (walk right). Multiplying with the input gives the ability to scale the random walking at any time. But still this is only the walking velocity. The position doesn't change yet.  
 Now change the "=" in that line to to "+=", which means that the value of the last frame is changed by the random amount. Now it walks off...  
 >note:  
-Don't forget to use CTRL-S to save and compile.  
+Don't forget to use <kbd>CTRL-S</kbd> to save and compile.  
   
-Delete the "logger" stuff by hitting CTRL-D. You deleted the wrong line? Undo (CTRL-Z) is your friend.  
+Delete the "logger" stuff by hitting <kbd>CTRL-D</kbd>. You deleted the wrong line? Undo <kbd>CTRL-Z</kbd> is your friend.  
 Your code should now look like this:  
 ```  
 public void Evaluate(int SpreadMax)  
@@ -59,7 +59,7 @@ Create a new Input by opening the region "fields & pins" and adding the followin
 [Input("Enabled", DefaultValue = 1.0, IsSingle = true)]  
 ISpread<bool> FEnabled;
 ```  
-After hitting CTRL-S you will see the new pin.  
+After hitting <kbd>CTRL-S</kbd> you will see the new pin.  
 Note that it is   
 * called "Enabled"   
 * accepts 0 or 1 (because it is a boolean)  

@@ -119,7 +119,7 @@ Nodes can have different icons:
 
 To get an overview of all the pins of a node, select it and press <kbd>CTRL+I</kbd> to open the [Inspektor](xref:9666611a-6f15-4b33-8300-69f56d9ec7d4).  
 
-To find out more about a nodes functionality, select it and press F1 to open its helppatch.  
+To find out more about a nodes functionality, select it and press <kbd>F1</kbd> to open its helppatch.  
 
 
 

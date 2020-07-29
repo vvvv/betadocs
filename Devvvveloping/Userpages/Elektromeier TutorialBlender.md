@@ -28,7 +28,7 @@ the built in exporter in blender 2.42 seems to have some problems with exporting
 * Do the last two steps for all the characters.  
 * Now we have to assign a new material to each character. only this way the exporter handles the single meshes as subsets. Change to Object-Mode. select the first character. then open the shading panel by hitting F5. Make sure that the "ME" button is active and "OB" is disabled". Then hit "Add New" under the material section. you can enter a name for the material i f you like but dont use special characters like german "ä, ö, ü" etc. when giving material or groupnames in blender. this causes a corrupt .x file!  
 * do the last step for each character.  
-* Now were going to place each character to the center of the world. also all the origin axises of the character lie there becuase weve extracted them from one mesh. later in vvv we can use a linear spread with transform to lign them up again.  ok, for tdoing this go to the editing panel. you can get there by pressing F9. then select the first character an press "Centre" und the "mesh" section.  
+* Now were going to place each character to the center of the world. also all the origin axises of the character lie there becuase weve extracted them from one mesh. later in vvv we can use a linear spread with transform to lign them up again.  ok, for tdoing this go to the editing panel. you can get there by pressing <kbd>F9</kbd>. then select the first character an press "Centre" und the "mesh" section.  
 * do this for each character  
 * export as an .x file. download the additional .x exporter by ben omari. the built in exporter doesnt seem to handle subsets.  
 * import in vvvv with the "xfile" node.  

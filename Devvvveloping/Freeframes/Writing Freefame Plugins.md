@@ -85,7 +85,7 @@ In CodeBlocks now open the Template.cbp from your new directory, press <kbd>CTRL
 
 For a convenient debugging setup you now can specify this patch to start everytime you *run* your plugin in CodeBlocks. Go to *Project* select *Set programs' arguments..*: In the host application field specify a full path to vvvv.exe and in the program arguments field put something like:  
  /o D:\dev\MyFirstFreeFrame\Tester.v4p
-Now on pressing F9 vvvv starts with the specified patch.  
+Now on pressing <kbd>F9</kbd> vvvv starts with the specified patch.  
 
 ### Customizing the Template
 First it makes sense to rename the project and the actual plugin files. In the Projects tab righclick the projectname and select *Properties*. Here you can specify a new project title. In the second tab (Build Targets) you can change the name of the .dll to be created.   
