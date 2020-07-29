@@ -110,9 +110,9 @@ Than I will show how to connect more than one object to the renderer, and as des
 
 ## Tutorial 14: Scrolling, Moving, Copy, Paste and Align
 
-In this tutorial I will be showing some of the essential basics for navigating through a patch in vvvv. You can right-click and hold to drag, use your mouse-wheel for scrolling up and down, and holding ALT while scrolling for left and right scrolling, use the CTRL key to speed scrolling.   
+In this tutorial I will be showing some of the essential basics for navigating through a patch in vvvv. You can right-click and hold to drag, use your mouse-wheel for scrolling up and down, and holding <kbd>ALT</kbd> while scrolling for left and right scrolling, use the <kbd>CTRL</kbd> key to speed scrolling.   
 
-Use the arrow keys to reposition a node, and hold the SHIFT key to do that faster. Copy (CTRL+C) and Paste (CTRL+V) you nodes or just Duplicate (CTRL+D) them. Use notepad to check your clipboard.   
+Use the arrow keys to reposition a node, and hold the SHIFT key to do that faster. Copy <kbd>CTRL+C</kbd> and Paste <kbd>CTRL+V</kbd> you nodes or just Duplicate <kbd>CTRL+D</kbd> them. Use notepad to check your clipboard.   
 
 <a href="https://www.youtube.com/watch?v=u9oHbEfLO_Y" class="extURL youtube" target="_blank">Video</a>  
 
@@ -290,7 +290,7 @@ As a cool extra, I show a nice little GUI function to get IOboxes with names the
 
 ## Tutorial 33: Framerates and Bangs 
 
-In this vvvv tutorial, I will explain what it means that vvvv runs in a certain framerate, or FPS, frames per second. I show you how to see your FPS, using Timing (Debug). I will also show you some hints on how to improve your FPS, with the Mainloop (VVVV) node and the Debug Mode (CTRL+F9).  
+In this vvvv tutorial, I will explain what it means that vvvv runs in a certain framerate, or FPS, frames per second. I show you how to see your FPS, using Timing (Debug). I will also show you some hints on how to improve your FPS, with the Mainloop (VVVV) node and the Debug Mode <kbd>CTRL+F9</kbd>.  
 
 Once you understand frames, you understand what a Bang is. A value of 1 during 1 vvvv frame. This tutorial is only an introduction for Bangs.  
 
@@ -318,7 +318,7 @@ I always use the counter to know if I am receiving my bangs, and that is why thi
 
 In this vvvv tutorial, I will show you what the <span class="node">S+H (animation)</span> node does, and how to use it. If you bang the set pin, you can freeze the value that is connected to input pin.   
 
-I also show what the hidden "set on create" pin does. Use Herr Inspector (CTRL+I) to reach the pin.   
+I also show what the hidden "set on create" pin does. Use Herr Inspector <kbd>CTRL+I</kbd> to reach the pin.   
 
 Next a little demonstration on how to make a line follow the mouse, between 2 clicks, and a scratch on the surface about the <span class="node">Vector (2D join)</span> and  <span class="node">Vector (2D split)</span> nodes.  
 

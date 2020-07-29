@@ -61,7 +61,7 @@ In a locked patch:
 * nodes can no longer be moved  
 * [hidden nodes](xref:10b82e0c-720a-48e1-91e4-d8c65d2c3be1#hiding nodes) and links are invisible  
 
-To unlock, use CTRL+E again.  
+To unlock, use <kbd>CTRL+E</kbd> again.  
 
 
 

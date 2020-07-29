@@ -68,7 +68,7 @@ Understand that vvvv and all addons come in two flavours: x86 (=32bit) and x64 (
 #### Runtime Error
 A node may be perfectly running for some time and only experience an occasional runtime error, in which case it turns red to indicate its problem and lead you to it. You have different options to deal with such red nodes:  
 * ignore them if they don't do your program any harm. vvvv may still be running fine and only hint to you that this could be a problem under certain circumstances  
-* sometimes it may help to re-initialize a node using ALT+rightclick on the node. But beware that even though this may help temporarily the problem may return at some later point   
+* sometimes it may help to re-initialize a node using <kbd>ALT</kbd>+rightclick on the node. But beware that even though this may help temporarily the problem may return at some later point   
 * open <span class="node">Renderer (TTY)</span> and see if there is an error message which you could post on the [forum](https://vvvv.org/forums) to ask for help  
 
 
@@ -97,9 +97,9 @@ to keep an eye on your framerate.
 ![](~/img/Debugging-DebuggingTiming.png "")   
 
 ### Timing of the nodes
-**CTRL+F9**   
+<kbd>CTRL+F9</kbd>   
 toggles debug-mode on/off globally.   
-**SHIFT+CTRL+F9**   
+<kbd>SHIFT+CTRL+F9</kbd>   
 toggles debug-mode on/off affecting only the currently selected nodes.  
 
 #### Colors
@@ -113,7 +113,7 @@ toggles debug-mode on/off affecting only the currently selected nodes.
 Values are expressed in micro seconds. So a value of 130 means 130µs or 0,13ms (milli seconds).   
 
 #### Round Brackets
-A value in round brackets on a subpatch means that inside this patch not all nodes are being measured, ie. some have been selectively removed using SHIFT+CTRL+F9.  
+A value in round brackets on a subpatch means that inside this patch not all nodes are being measured, ie. some have been selectively removed using <kbd>SHIFT+CTRL+F9</kbd>.  
 ---  
 Consult the [Performance](xref:026ac8ca-9bcc-45e4-abf3-ac079a44065b) page if you're looking for gerneral advice to optimize the performance of your patches.   
 
@@ -124,7 +124,7 @@ Consult the [Performance](xref:026ac8ca-9bcc-45e4-abf3-ac079a44065b) page if you
 ![](~/img/Debugging-DebuggingSpreads.png "")   
 
 
-**CTRL+F10**  
+<kbd>CTRL+F10</kbd>  
 toggles spreadcounts debug-mode on/off globally.  
 
 A link can have any of 4 styles:  

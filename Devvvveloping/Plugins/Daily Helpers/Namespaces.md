@@ -36,6 +36,6 @@ Especially useful are:
 
 ![Add a namespace&#39;s reference](~/img/add_reference.png "Add a namespace&#39;s reference")   
 
-* Open vvvv's ProjectExplorer by pressing ctrl+J and then navigate to your appropiate dynamic plugin within the shown list. The missing namespace which causes the error should also miss in the list entry 'References'.   
+* Open vvvv's ProjectExplorer by pressing <kbd>Ctrl+J</kbd> and then navigate to your appropiate dynamic plugin within the shown list. The missing namespace which causes the error should also miss in the list entry 'References'.   
 * Click right and add the reference as shown in the screenshot.  
-
+

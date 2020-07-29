@@ -17,7 +17,7 @@ ISpread<double> FFriction;
 
 ```  
 
-This is an Input pin called *My Input* with Variable name FInput of type int with a default value of 2. Remember that a pin can always be reset to its default using Alt+Rightclick on the pin.   
+This is an Input pin called *My Input* with Variable name FInput of type int with a default value of 2. Remember that a pin can always be reset to its default using <kbd>Alt</kbd>+Rightclick on the pin.   
 
 ```  
 [Input("My Input", DefaultValue = 2)]  

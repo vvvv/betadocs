@@ -16,17 +16,17 @@ Nodes with windows can be displayed in four modes:
 * Fullscreen: window visible fullscreen  
 
 Use the following shortcuts to switch to the respective modes:  
-* Hidden **Alt+3**   
-* InABox **Alt+2**   
-* Windowed **Alt+1**   
-* Full Screen **Alt+Enter**  
+* Hidden <kbd>Alt+3</kbd>
+* InABox <kbd>Alt+2</kbd>
+* Windowed <kbd>Alt+1</kbd>
+* Full Screen <kbd>Alt+Enter</kbd>
 
 As an alternative quick shortcut to toggle between the *hidden* and *windowed* modes simply rightclick a node.  
 
 >note:  
 There is a difference between hiding and closing a patch (or any window) in vvvv:  
-* if you **hide** a window (ALT+3), its associated node will still be part of the system and continue working  
-* if you **close** a window (CTRL+W), its associated node will be removed from its patch and thus no longer be part of the program  
+* if you **hide** a window <kbd>ALT+3</kbd>, its associated node will still be part of the system and continue working  
+* if you **close** a window <kbd>CTRL+W</kbd>, its associated node will be removed from its patch and thus no longer be part of the program  
   
 
 

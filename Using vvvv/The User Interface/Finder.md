@@ -12,8 +12,8 @@ uid: 869d5933-4693-4b32-a7f3-5b7cfcc3a07f
 The Finder gives you an overview of the currently loaded patch hierarchy and quickly lets you find nodes in your patches.   
 
 **How to open:**  
-* **Ctrl+F**   
-* **Ctrl+Shift+F** for additional Finder Windows  
+* <kbd>Ctrl+F</kbd>   
+* <kbd>Ctrl+Shift+F</kbd> for additional Finder Windows  
 
 It's not necessary to click on the text field, its active as soon as the finder window is active.   
 

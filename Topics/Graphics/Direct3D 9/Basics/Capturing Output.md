@@ -7,19 +7,19 @@ uid: 9a69e819-8ea6-4c5d-807e-b283863abc4c
 
 
 
-**Ctrl+1** / **Ctrl+2**  
+<kbd>Ctrl+1</kbd> / <kbd>Ctrl+2</kbd>  
 Screenshot of the active vvvv-window with / without the window border.  
 
-**Shift+Ctrl+1** / **Shift+Ctrl+2**  
+<kbd>Shift+Ctrl+1</kbd> / <kbd>Shift+Ctrl+2</kbd>  
 The same as above, but the file-save dialog is invoked.  
 
-**Ctrl+3**  
+<kbd>Ctrl+3</kbd>  
 Make a screenshot name it and post directly to the "Screenshots of the Days" on vvvv.org (as seen on the front page).  
 
-* If you shoot a patch, the file is placed in the patchs directory. Press ALT+E to open an explorer window to this path.   
+* If you shoot a patch, the file is placed in the patchs directory. Press <kbd>ALT+E</kbd> to open an explorer window to this path.   
 * If you shoot any other vvvv-window the file is placed in the directory in which its parent patch is placed in (e.g. shoot a renderer and search the image in the directory of the patch in which the Renderer node is placed in).  
 * If a patch is not yet saved (shows something like 0.v4p//// in its windowtitle) you'll find the the .png in vvvvs root directory.  
-* Pressing one of the shortcuts also copies the image to the clipboard which allows you to paste (Ctrl+V) it into other programs like Photoshop, Word etc.  
+* Pressing one of the shortcuts also copies the image to the clipboard which allows you to paste <kbd>Ctrl+V</kbd> it into other programs like Photoshop, Word etc.  
 
 
 
@@ -35,7 +35,7 @@ Make a screenshot name it and post directly to the "Screenshots of the Days" on 
 
 
 
-* Use <span class="node">Rekorder (Windows)</span> to capture ANY window into an animated GIF. The <span class="pin">Progress</span> output helps to create seamless animated loops. Use **Ctrl+4** to capture an active window.   
+* Use <span class="node">Rekorder (Windows)</span> to capture ANY window into an animated GIF. The <span class="pin">Progress</span> output helps to create seamless animated loops. Use <kbd>Ctrl+4</kbd> to capture an active window.   
 
 * There are also several screen capture tools listed on the [video software links](xref:dd9d3502-6b19-4cc3-8084-4153676de9d4) page that can record portions of the screen to a movie file.   
 

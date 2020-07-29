@@ -52,7 +52,7 @@ released on 31 01 03
 * directshow nodes will be much quieter in the log  
 * font for ttyrenderer is now "Lucida Console"  
 * changing the spreadcount will change FPinIsChanged and FObserverChanged in ValuePin, ColorPin, StringPin, EnumPin  
-* Shortcuts for making screenshots of the active window are now: Ctrl+F10 (without border) and Ctrl+F9 (with border)  
+* Shortcuts for making screenshots of the active window are now: <kbd>Ctrl+F10</kbd> (without border) and <kbd>Ctrl+F9</kbd> (with border)  
 * GDI textures - connect them directly to the GDIRenderer which is the source for the texture  
        
 ## fixed nodes

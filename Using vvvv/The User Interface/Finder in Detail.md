@@ -4,7 +4,7 @@ uid: 2b6364c7-c8a5-4e02-86df-da55f233b5cb
 
 # Finder in Detail
 
-**Ctrl+F** opens the Finder window. If you want to open additional Finder windows press **Ctrl+Shift+F**.   
+<kbd>Ctrl+F</kbd> opens the Finder window. If you want to open additional Finder windows press <kbd>Ctrl+Shift+F</kbd>.   
 
 Search is tag-based. Type more tags (separated by space) to refine your search.   
 

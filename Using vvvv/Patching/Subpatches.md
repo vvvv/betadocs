@@ -33,7 +33,7 @@ In other words: a patch can contain many subpatches but each patch only has one 
 *Cascading structure of subpatches as seen in the [Finder](xref:869d5933-4693-4b32-a7f3-5b7cfcc3a07f) window*  
 
 
-According to this definition every patch that we see is also represented as a node in some other patch forming a hierarchy of patches. The top of this hierarchy is called the [Root](xref:5eea935d-c82d-4b89-8403-1fbc1d79fb93) and can always be opened via the shortcut **ALT+R**.  
+According to this definition every patch that we see is also represented as a node in some other patch forming a hierarchy of patches. The top of this hierarchy is called the [Root](xref:5eea935d-c82d-4b89-8403-1fbc1d79fb93) and can always be opened via the shortcut <kbd>ALT+R</kbd>.  
 
 
 
@@ -51,7 +51,7 @@ Learning when and where to best modularize, ie. where to draw the line between o
 ![](~/img/patchingSubpatches_Finder.png "")   
 
 ### Finder
-In order to get an overview of all the nodes in a patch or even the whole hierarchy of your programs patches open the [Finder](xref:869d5933-4693-4b32-a7f3-5b7cfcc3a07f) or use CTRL+TAB to cycle through all open windows.  
+In order to get an overview of all the nodes in a patch or even the whole hierarchy of your programs patches open the [Finder](xref:869d5933-4693-4b32-a7f3-5b7cfcc3a07f) or use <kbd>CTRL+TAB</kbd> to cycle through all open windows.  
 
 
 
@@ -65,9 +65,9 @@ There are two ways to create a subpatch:
 * manually (by labeling IOBoxes)  
 
 ### Grouping Nodes
-Select a group of nodes that you want to collapse into one node and press **CTRL+G**. This will cut those nodes, paste them in a subpatch and keep all connections to nodes that were not in the selection.  
+Select a group of nodes that you want to collapse into one node and press <kbd>CTRL+G</kbd>. This will cut those nodes, paste them in a subpatch and keep all connections to nodes that were not in the selection.  
 
-Note that the name of the node/subpatch at this point is quite generic. It is therefore advised that you now rightclick the new node and then press **CTRL+SHIFT+S** in order to *Save As...* it under a suitable name.   
+Note that the name of the node/subpatch at this point is quite generic. It is therefore advised that you now rightclick the new node and then press <kbd>CTRL+SHIFT+S</kbd> in order to *Save As...* it under a suitable name.   
 
 Also you may want to have a look at the <span class="pin">Descriptive Name</span> of the IOBoxes that were automatically inserted and give them more meaningful names where applicable.   
 
@@ -80,9 +80,9 @@ Also you may want to have a look at the <span class="pin">Descriptive Name</span
 
 
 ### Labeling IOBoxes
-Create a new empty subpatch within the current patch by pressing **CTRL+SHIFT+P**. Place nodes in that patch as desired and create IOBoxes for all values that you want to take into or return from that patch. Set a <span class="pin">Descriptive Name</span> via the Inspektor or by a simple middle-click on the IOBox in order to make them show up as inlets/outlets on the patches node.   
+Create a new empty subpatch within the current patch by pressing <kbd>CTRL+SHIFT+P</kbd>. Place nodes in that patch as desired and create IOBoxes for all values that you want to take into or return from that patch. Set a <span class="pin">Descriptive Name</span> via the Inspektor or by a simple middle-click on the IOBox in order to make them show up as inlets/outlets on the patches node.   
 
-Press **CTRL+SHIFT+S** in order to *Save As...* the patch under a suitable name.   
+Press <kbd>CTRL+SHIFT+S</kbd> in order to *Save As...* the patch under a suitable name.   
 
 
 

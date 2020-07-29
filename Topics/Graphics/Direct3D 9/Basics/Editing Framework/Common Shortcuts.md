@@ -6,31 +6,31 @@ uid: 8838e4b9-ed25-4d8a-9bff-c8aa99ba9bf2
 
 
 ### General
-**Ctrl+Z** - Undo  
-**Ctrl+Shift+Z** - Redo  
-**G** -  Turn On/Off a Gizmo  
-**Doubleclick** -  Add new point (in 2D editors)  
+<kbd>Ctrl+Z</kbd> - Undo  
+<kbd>Ctrl+Shift+Z</kbd> - Redo  
+<kbd>G</kbd> -  Turn On/Off a Gizmo  
+<kbd>Doubleclick</kbd> -  Add new point (in 2D editors)  
 
 ### Selection
-**Ctrl+A** -  Select All  
-**Ctrl+select** -  Add to Selection  
-**Shift+select** -  Remove from Selection  
-**Space** -  Select/Deselect hovered point  
-**Q** -  Hover next Point  
-**Shift+Q** -  Hover previous Point  
+<kbd>Ctrl+A</kbd> -  Select All  
+<kbd>Ctrl+select</kbd> -  Add to Selection  
+<kbd>Shift+select</kbd> -  Remove from Selection  
+<kbd>Space</kbd> -  Select/Deselect hovered point  
+<kbd>Q</kbd> -  Hover next Point  
+<kbd>Shift+Q</kbd> -  Hover previous Point  
 
 
 ### Translation
-**Arrow Keys** -  Nudge on XY  
-**PageUp / PageDown** -  Nudge on Z  
+<kbd>Arrow Keys</kbd> -  Nudge on XY  
+<kbd>PageUp / PageDown</kbd> -  Nudge on Z  
 
 ### Scale
-**Shift** -  Uniform scaling  
+<kbd>Shift</kbd> -  Uniform scaling  
 
 ### Rotation
-**Shift** -  Set stepsize 0.1°  
-**Shift+Ctrl** -  Set stepsize 0.01°  
-**Ctrl** -  Set Stepsize 5°  
+<kbd>Shift</kbd> -  Set stepsize 0.1°  
+<kbd>Shift+Ctrl</kbd> -  Set stepsize 0.01°  
+<kbd>Ctrl</kbd> -  Set Stepsize 5°  
 
 
 

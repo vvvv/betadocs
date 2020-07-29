@@ -23,7 +23,7 @@ The value you specify has to be of the pin attributes' type.
 All available properties are listed under: [/pluginspecs/html/AllMembers_T_VVVV_PluginInterfaces_V2_PinAttribute.htm](https://vvvv.org/pluginspecs/html/AllMembers_T_VVVV_PluginInterfaces_V2_PinAttribute.htm)  
 
 ## examples:
-Specify a default value for a pin. This is also the value used on ALT+rightclick (reset pin to default).  
+Specify a default value for a pin. This is also the value used on <kbd>ALT</kbd>+rightclick (reset pin to default).  
 ```  
 DefaultValue = 255.0  
 ```

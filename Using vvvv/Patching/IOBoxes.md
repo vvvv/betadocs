@@ -106,17 +106,17 @@ In order to specify a constant value for a pin that can easily be tweaked, conne
 ### Value
 
 * Left-doubleclick to enter a new value (also try math formulas).  
-* Alt+Rightclick to reset to default value.  
+* <kbd>Alt</kbd>+Rightclick to reset to default value.  
 
 **Real and Integer Values**  
 
 Right-drag in the IOBox vertically to change its value and optionally modify the stepsize by pressing:  
-* SHIFT to divide by 10  
-* CTRL to divide by 10  
-* CTRL+SHIFT to divide by 100  
-* ALT+SHIFT to multiply by 10  
-* ALT+CTRL to multiply by 10  
-* ALT+CTRL+SHIFT to multiply by 100  
+* <kbd>SHIFT</kbd> to divide by 10  
+* <kbd>CTRL</kbd> to divide by 10  
+* <kbd>CTRL+SHIFT</kbd> to divide by 100  
+* <kbd>ALT+SHIFT</kbd> to multiply by 10  
+* <kbd>ALT+CTRL</kbd> to multiply by 10  
+* <kbd>ALT+CTRL+SHIFT</kbd> to multiply by 100  
 
 **Boolean values**  
 
@@ -127,7 +127,7 @@ Right-drag in the IOBox vertically to change its value and optionally modify the
 **Slider**  
 * Right-drag to change it.  
 
-Press F1 on an IOBox to get different readily configured options that you can copy-paste into your patches as needed.   
+Press <kbd>F1</kbd> on an IOBox to get different readily configured options that you can copy-paste into your patches as needed.   
 
 
 

@@ -211,4 +211,4 @@ Building the solutions as 64bit only works with Visual Studio 2015 for now since
 
 When building the pack as 64bit you'll also need the according 64bit alpha of vvvv.exe which you can get by manually calling:  
  scripts/fetch-binaries x64
-from the bash (remember: Ctrl+G in GitExtensions).
+from the bash (remember: <kbd>Ctrl+G</kbd> in GitExtensions).

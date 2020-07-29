@@ -65,7 +65,7 @@ If you want to use any contribution you downloaded you best do it like this:
 * create a directory anywhere called e.g. "vvvvContributions"  
 * in that directory create 3 directories called: \effects, \modules and \plugins   
 * unzip the downloaded contributions in those respective directories (ie. effects into the \effects directory, plugins into the \plugins directory)  
-* in vvvv open the root patch (by pressing ALT+R)  
+* in vvvv open the root patch (by pressing <kbd>ALT+R</kbd>)  
 * in the root patch follow the instructions to add the path to your "vvvvContributions" directory.   
 
 The good thing now is that you can share this collection of contributions between different versions of vvvv. So when you start using a new version of vvvv you only need to reference that directory of your contribution-collection in the root.   

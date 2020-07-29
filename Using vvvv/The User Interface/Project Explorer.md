@@ -6,7 +6,7 @@ uid: 721e9e4b-dec5-4786-878e-3efc4f09c5e7
 
 ![](~/img/TheGui-ProjectExplorer2.png "")   
 
-Press **CTRL+J** to bring up the ProjectExplorer window. Here you see a treeview of all your projects and this is where you can add/remove  
+Press <kbd>CTRL+J</kbd> to bring up the ProjectExplorer window. Here you see a treeview of all your projects and this is where you can add/remove  
 * documents  
 * references   
 to/from projects.  

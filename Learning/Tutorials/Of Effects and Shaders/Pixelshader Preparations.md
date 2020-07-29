@@ -46,7 +46,7 @@ technique TSimpleShader
 }
 ```  
 
-Press CTRL+S to save/compile the code. No errors should show up. If you get an error at this point make sure you really copied everything and your code in the editor looks exactly as pictured above.  
+Press <kbd>CTRL+S</kbd> to save/compile the code. No errors should show up. If you get an error at this point make sure you really copied everything and your code in the editor looks exactly as pictured above.  
 ---  
 Next: [Manipulating Colors](xref:cfb2b22c-59c5-4223-b0bd-fee23893ef0d)  
 TOC: [Of Effects and Shaders](xref:1f40bd64-bc93-4263-98c8-50616b9f5c5c)  

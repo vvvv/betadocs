@@ -15,7 +15,7 @@ Also note the <span class="pin">Sampler State</span> which accepts <span class="
 
 
 ## Effects
-Most effects have a <span class="pin">Texture Transform</span> as well but they don't have a <span class="pin">Sampler State</span>. If you want to use a special sampler state on an effect you can only do that in its code, which is easy. First rightclick an effect and save a local copy via Ctrl+S. Now locate the sampler state block, which typically looks something like this:  
+Most effects have a <span class="pin">Texture Transform</span> as well but they don't have a <span class="pin">Sampler State</span>. If you want to use a special sampler state on an effect you can only do that in its code, which is easy. First rightclick an effect and save a local copy via <kbd>Ctrl+S</kbd>. Now locate the sampler state block, which typically looks something like this:  
 
 ```  
 sampler Samp = sampler_state  

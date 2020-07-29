@@ -19,8 +19,8 @@ We encourage everybody to join us for a [chat](https://vvvv.org/chat).
 To get some short time attention of the community (resulting in fast answers) place a SOS signal into the shoutbox.   
 
 #### Screenshots of the Day
-You can post a screenshot on the [blog](https://vvvv.org/blog) directly out of vvvv by selecting a window and pressing CRTL+3.  
-Pressing CTRL+3 works with any vvvv-window. So make sure to have the renderer selected when you want to show us your results and not your patches.   
+You can post a screenshot on the [blog](https://vvvv.org/blog) directly out of vvvv by selecting a window and pressing <kbd>CTRL+3</kbd>.  
+Pressing <kbd>CTRL+3</kbd> works with any vvvv-window. So make sure to have the renderer selected when you want to show us your results and not your patches.   
 <a href="https://vvvv.org/blog/26" class="extURL blog" target="_blank">All Screenshots of all the Days</a>   
 
 #### Galería
@@ -30,10 +30,10 @@ If you want to write more about a project, create a page in the wiki and include
 
 # Help from within vvvv
 #### Herr Inspektor
-CTRL+I opens an [Inspektor](xref:9666611a-6f15-4b33-8300-69f56d9ec7d4) window. Selecting a node with an inspektor open you'll see a short description what this node is intended to do.  
+<kbd>CTRL+I</kbd> opens an [Inspektor](xref:9666611a-6f15-4b33-8300-69f56d9ec7d4) window. Selecting a node with an inspektor open you'll see a short description what this node is intended to do.  
 
 #### Helppatches
-Pressing F1 with a node selected opens a helppatch explaining the node in some detail. If you press F1 with no node selected, a generic help patch is shown.  
+Pressing <kbd>F1</kbd> with a node selected opens a helppatch explaining the node in some detail. If you press F1 with no node selected, a generic help patch is shown.  
 
 Also see the [video tutorial on Helppatches](xref:09f00508-01d4-4eac-b6d3-4dace5b00d99#tutorial-12-helpfiles-f1-and-comments).  
 
