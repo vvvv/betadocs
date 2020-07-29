@@ -1,0 +1,15 @@
+---
+uid: 8196ce19-db93-4a6c-90d3-9811fbc9ceb2
+---
+
+# addons change log 50beta39-01
+released on 18 11 19  
+
+## new nodes
+* NineSlice (DX9)  
+* NineSlice (DX11)  
+* PBR (DX11.Effect) physically based rendering shader  
+* PBRTextured (DX11.Effect) physically based rendering shader with material maps  
+* PBRInstanced (DX11.Effect) physically based rendering shader with instancing  
+* PBRTexturedInstanced (DX11.Effect) physically based rendering shader with material maps and instancing  
+* Lights (DX11.Layer PBR) sets the light sources for PBR shaders that are connected to the layer upstream  

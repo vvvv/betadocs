@@ -20,6 +20,6 @@ Custom syntax highlighting can be defined in the lib/thirdparty/*.xshd files.
 **See also:**  
 * [Tutorial of Effects and Shaders](xref:1f40bd64-bc93-4263-98c8-50616b9f5c5c)  
 * [Dynamic C# Plugin Reference](xref:9fb98fc4-377b-49be-87ee-2c4741183b7c)  
-* [CodeEditor shortcuts](xref:001a81bb-ce39-47cf-8de4-780df86b4ba5)  
+* [CodeEditor shortcuts](xref:117e3ffc-1547-4470-8c49-f966d99bc031)  
 
 

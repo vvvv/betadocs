@@ -1,0 +1,27 @@
+released on 24 08 15
+
+!!general 
+* IOBoxes come with a hidden "Changed" pin. ((forum:changed-pin-on-ioboxes))
+* remote controlling: fix: ((forum:server-(vvvv)-exposed-iobox-string-behaviour))
+* fix for abstract node connections when routed over e.g. Switch (Node): ((forum:node-type-pins-connection-and-type-names-broken))
+* if corrupt patch file can't be loaded -> red node (instead of missing node)
+* failable nodes like division node, mod node and several spectral nodes now get red on a division by zero. additionally you get a fast method of how to ignore those errors if this is what you want. the success pin gives you the opportunity to react otherwise on unsuccessful operations.
+* NAN, INF, MaxFloat (..) may be specified whereever you expect a number. 
+* fixed a problem with unicode characters in xml-snippets: ((forum:(send)xml-inconsistency))
+* fixed a problem with node-label redrawing: ((forum:labelpin-vs-gui-redraw))
+
+!!fixed nodes
+* AsValue. fix for bug introduced with beta34: ((forum:beta34-asvalue-behave-different)). also see NEW help patch
+* better support for infinity and NAN. Damper (Animation) shields against INF and NAN
+* fix for Node IOBox with BinSize = 0
+* Camera (2d Orbit Softimage) modules now also work on DX11 Preview windows
+
+!!changed nodes
+* WindowLists (Windows) now also returns handle for each window
+
+!!new nodes
+* ClippingEar (2d) - simple polygon triangulation
+* Cross (2d Bin) - cross with binsize
+
+!!plugin interface
+* SetComponentMode. 2 fixes that fix DX11 Renderer (not included ;)) fullscreen behavior. 

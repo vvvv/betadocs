@@ -1,0 +1,9 @@
+---
+uid: aebb0736-696c-487e-8f40-b164389beb46
+---
+
+# addons change log 45beta34.1-01
+released on 24 08 15  
+
+## changed nodes
+* all Assimp (DX9) nodes now have a version DX9 set so they can now actually be distinguished from their DX11 counterparts  
