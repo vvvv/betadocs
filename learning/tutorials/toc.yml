@@ -9,7 +9,7 @@
 - name: Spread them Data 1
   href: spread-them-data-1.md
 - name: IOBoxes
-  href: iOBoxes.md
+  href: iOboxes.md
 - name: Spread them Data 2
   href: spread-them-data-2.md
 - name: English Video Tutorials
@@ -23,7 +23,7 @@
 - name: Tips, Hints and Tricks
   href: west-tricks.md
 - name: HowTo Project On 3D Geometry
-  href: howto-Project-on-3d-geometry.md
+  href: howto-project-on-3d-geometry.md
 - name: Skinning With Skeleton Nodes
   href: skinning-with-skeleton-nodes.md
 - name: Skeleton Animation Nodes Tutorial
