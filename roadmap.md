@@ -5,7 +5,7 @@ uid: 739fa4ab-925f-4379-9aea-857f76cef1f6
 # Roadmap
 By highlighting notable events along the road to creating a comfortable visual live-programming environment for everyone, this page provides a glimpse into the history of making vvvv. Further, we're giving an outline of future milestones to give you an idea where this is all heading...  
 
-For more details on changes for individual releases please consult the full <a href="https://vvvv.org/documentation/change-log" class="extURL" target="_blank">Change Log</a> and follow our <a href="https://vvvv.org/blog/1575+1576+23" class="extURL blog" target="_blank">Development Blog</a>.  
+For more details on changes for individual releases please consult the full [Change Log](xref:bdf5b551-6229-417e-8c99-3a3f33565029) and follow our <a href="https://vvvv.org/blog/1575+1576+23" class="extURL blog" target="_blank">Development Blog</a>.  
 For a more colorful rendition of the same events see MESO's <a href="https://meso.design/en/articles/the-flow-of-creative-expression-paving-the-way-for-vvvv" class="extURL" target="_blank">vvvv history page</a>.  
 
 # Upcoming Milestones
