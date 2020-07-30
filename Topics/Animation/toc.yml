@@ -1,12 +1,12 @@
 - name: Introduction
-  href: Introduction.md
+  href: introduction.md
 - name: Time-based Animation
-  href: Time-based Animation.md
+  href: time-based-animation.md
 - name: Frame-based Animation
-  href: Frame-based Animation.md
+  href: frame-based-animation.md
 - name: Timeline
-  href: Timeline.md
+  href: timeline.md
 - name: TimelinerSA
-  href: TimelinerSA.md
+  href: timelinersa.md
 - name: Mixed Approaches
-  href: Mixed Approaches.md
+  href: mixed-approaches.md

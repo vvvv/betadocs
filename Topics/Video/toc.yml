@@ -1,20 +1,20 @@
 - name: Overview
-  href: Overview.md
+  href: overview.md
 - name: Playback
-  href: Playback/toc.yml
+  href: playback/toc.yml
 - name: Input
-  href: Input/toc.yml
+  href: input/toc.yml
 - name: Capturing Output
-  href: Capturing Output/toc.yml
+  href: capturing-output/toc.yml
 - name: Analysis - Tracking
-  href: Analysis - Tracking/toc.yml
+  href: analysis-tracking/toc.yml
 - name: Video Synchronization
-  href: Synchronization.md
+  href: synchronization.md
 - name: Streaming
-  href: Streaming/toc.yml
+  href: streaming/toc.yml
 - name: Video Software Links
-  href: Video Software Links.md
+  href: video-software-links.md
 - name: Video Hardware Links
-  href: Video Hardware Links.md
+  href: video-hardware-links.md
 - name: Video Related Contributions
-  href: Video Related Contributions.md
+  href: video-related-contributions.md

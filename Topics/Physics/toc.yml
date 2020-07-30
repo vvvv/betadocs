@@ -1,8 +1,8 @@
 - name: Overview
-  href: Overview.md
+  href: overview.md
 - name: Box2d
-  href: Box2d.md
+  href: box2d.md
 - name: Bullet
-  href: Bullet.md
+  href: bullet.md
 - name: ODE
-  href: ODE.md
+  href: ode.md

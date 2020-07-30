@@ -1,38 +1,38 @@
 - name: Ableton Live
-  href: Ableton Live.md
+  href: ableton-live.md
 - name: Adobe Photoshop
-  href: Adobe Photoshop.md
+  href: adobe-photoshop.md
 - name: Databases
-  href: Databases.md
+  href: databases.md
 - name: EyesWeb
-  href: EyesWeb.md
+  href: eyesWeb.md
 - name: Flash
-  href: Flash.md
+  href: flash.md
 - name: Grasshopper
-  href: Grasshopper.md
+  href: grasshopper.md
 - name: HTML
-  href: HTML.md
+  href: html.md
 - name: JavaScript
-  href: JavaScript.md
+  href: javascript.md
 - name: Kontrolleur
-  href: Kontrolleur.md
+  href: kontrolleur.md
 - name: Max-MSP
-  href: Max-MSP.md
+  href: max-msp.md
 - name: Node.js
-  href: Node.js.md
+  href: node-js.md
 - name: Processing
-  href: Processing.md
+  href: processing.md
 - name: Pure Data
-  href: Pure Data.md
+  href: pure-data.md
 - name: Python
-  href: Python.md
+  href: python.md
 - name: Quartz Composer
-  href: Quartz Composer.md
+  href: quartz-composer.md
 - name: Resolume
-  href: Resolume.md
+  href: resolume.md
 - name: RSH (Remote Shell)
-  href: RSH (Remote Shell).md
+  href: rsh-remote-shell.md
 - name: Spout
-  href: Spout.md
+  href: spout.md
 - name: TouchDesigner
-  href: TouchDesigner.md
+  href: touchDesigner.md

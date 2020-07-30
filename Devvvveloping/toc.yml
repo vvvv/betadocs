@@ -1,24 +1,24 @@
 - name: Overview
-  href: Overview.md
+  href: overview.md
 - name: Addons
-  href: Addons/toc.yml
+  href: addons/toc.yml
 - name: Dynamic VL Plugin Reference
-  href: Dynamic VL Plugin Reference.md
+  href: dynamic-vl-plugin-reference.md
 - name: Dynamic C# Plugin Reference
-  href: Dynamic CSharp Plugin Reference.md
+  href: dynamic-csharp-plugin-reference.md
 - name: VVVV SDK
-  href: VVVV SDK.md
+  href: vvvv-sdk.md
 - name: Test Framework
-  href: Test Framework.md
+  href: test-framework.md
 - name: Directshow Filter
-  href: Directshow Filter.md
+  href: directshow-filter.md
 - name: Effects
-  href: Effects/toc.yml
+  href: effects/toc.yml
 - name: Freeframes
-  href: Freeframes/toc.yml
+  href: freeframes/toc.yml
 - name: Modules
-  href: Modules.md
+  href: modules.md
 - name: Plugins
-  href: Plugins/toc.yml
+  href: plugins/toc.yml
 - name: Diplomas
-  href: Diplomas/Diplomas.md  
+  href: diplomas/Diplomas.md  

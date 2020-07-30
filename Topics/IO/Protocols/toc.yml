@@ -1,22 +1,22 @@
 - name: DMX & Art-Net
-  href: DMX & Art-Net.md
+  href: dmx-art-net.md
 - name: HID
-  href: HID.md
+  href: hid.md
 - name: HTTP
-  href: HTTP.md
+  href: http.md
 - name: ILDA
-  href: ILDA.md
+  href: ilda.md
 - name: Firmata
-  href: Firmata.md
+  href: firmata.md
 - name: MIDI
-  href: MIDI.md
+  href: midi.md
 - name: MQTT
-  href: MQTT.md
+  href: mqtt.md
 - name: OSC
-  href: OSC.md
+  href: osc.md
 - name: TUIO
-  href: TUIO.md
+  href: tuio.md
 - name: UDP & TCP
-  href: UDP & TCP.md
+  href: udp-tcp.md
 - name: ZeroMQ
-  href: ZeroMQ.md
+  href: zeromq.md

@@ -1,8 +1,8 @@
 - name: Introduction
-  href: Introduction.md
+  href: introduction.md
 - name: Basics
-  href: Basics/toc.yml
+  href: basics/toc.yml
 - name: Daily Helpers
-  href: Daily Helpers/toc.yml
+  href: daily-helpers/toc.yml
 - name: Advanced Topics
-  href: Advanced Topics/toc.yml
+  href: advanced-topics/toc.yml

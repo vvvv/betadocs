@@ -1,0 +1,24 @@
+- name: Overview
+  href: overview.md
+- name: Patching Basics
+  href: patching-basics.md
+- name: Patching Concepts
+  href: patching-concepts.md
+- name: Conditions
+  href: conditions.md
+- name: Subpatches
+  href: subpatches.md
+- name: Root
+  href: root.md
+- name: Debugging
+  href: debugging.md
+- name: Using Addons
+  href: using-addons.md
+- name: IOBoxes
+  href: ioboxes.md
+- name: Software Engineering Patterns
+  href: software-engineering-patterns.md
+- name: Programming Concepts
+  href: programming-concepts.md
+- name: Performance
+  href: performance.md

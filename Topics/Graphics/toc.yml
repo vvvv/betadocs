@@ -1,8 +1,8 @@
 - name: 2D
-  href: 2D/toc.yml
+  href: 2d/toc.yml
 - name: Direct3D 9
-  href: Direct3D 9/toc.yml
+  href: direct3d-9/toc.yml
 - name: Direct3D 11
-  href: Direct3D 11/toc.yml
+  href: direct3d-11/toc.yml
 - name: Graphics Links
-  href: Graphics Links.md
+  href: graphics-links.md

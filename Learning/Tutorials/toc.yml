@@ -1,36 +1,36 @@
 - name: Tutorials Overview
-  href: Tutorials Overview.md
+  href: tutorials-overview.md
 - name: Introduction
-  href: Introduction.md
+  href: introduction.md
 - name: Hello World
-  href: Hello World.md
+  href: hello-world.md
 - name: Herr Inspektor
-  href: Herr Inspektor.md
+  href: herr-inspektor.md
 - name: Spread them Data 1
-  href: Spread them Data 1.md
+  href: spread-them-data-1.md
 - name: IOBoxes
-  href: IOBoxes.md
+  href: iOBoxes.md
 - name: Spread them Data 2
-  href: Spread them Data 2.md
+  href: spread-them-data-2.md
 - name: English Video Tutorials
-  href: English Video Tutorials.md
+  href: english-video-tutorials.md
 - name: Bonus Video Tutorials
-  href: Bonus Video Tutorials.md
+  href: bonus-video-tutorials.md
 - name: Of Effects and Shaders
-  href: Of Effects and Shaders/toc.yml
+  href: of-effects-and-shaders/toc.yml
 - name: Geometry Morphing
-  href: Geometry Morphing/toc.yml
+  href: geometry-morphing/toc.yml
 - name: Tips, Hints and Tricks
-  href: West Tricks.md
+  href: west-tricks.md
 - name: HowTo Project On 3D Geometry
-  href: HowTo Project On 3D Geometry.md
+  href: howto-Project-on-3d-geometry.md
 - name: Skinning With Skeleton Nodes
-  href: Skinning With Skeleton Nodes.md
+  href: skinning-with-skeleton-nodes.md
 - name: Skeleton Animation Nodes Tutorial
-  href: Skeleton Animation Nodes Tutorial.md
+  href: skeleton-animation-nodes-tutorial.md
 - name: Wave Simulation
-  href: Wave Simulation.md
+  href: wave-simulation.md
 - name: Writing Freeframe Plugins
-  href: Writing Freeframe Plugins.md
+  href: writing-freeframe-plugins.md
 - name: Projection Mapping Primer
-  href: Projection Mapping Primer.md
+  href: projection-mapping-primer.md

@@ -1,0 +1,8 @@
+- name: FreeFrame plugins
+  href: freeFrame-plugins.md
+- name: CV.Image-based
+  href: cv-image-based.md
+- name: FaceTracking
+  href: facetracking.md
+- name: External tracking tools
+  href: external-tracking-tools.md

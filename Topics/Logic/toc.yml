@@ -1,8 +1,8 @@
 - name: Overview
-  href: Overview.md
+  href: overview.md
 - name: Separate Logic from Content
-  href: Separate Logic from Content.md
+  href: separate-logic-from-content.md
 - name: Basic logic programming
-  href: Basic logic programming.md
+  href: basic-logic-programming.md
 - name: State Machine
-  href: State Machine.md
+  href: state-machine.md

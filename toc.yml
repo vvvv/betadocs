@@ -1,10 +1,12 @@
 - name: Learning
-  href: Learning/
+  href: learning/
 - name: Using vvvv
-  href: Using vvvv/
+  href: using-vvvv/
 - name: Topics
-  href: Topics/
+  href: topics/
 - name: Devvvveloping
-  href: Devvvveloping/
+  href: devvvveloping/
 - name: Changelog
-  href: Changelog/
+  href: changelog/
+- name: Roadmap
+  href: roadmap.md

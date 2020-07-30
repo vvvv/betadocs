@@ -1,12 +1,12 @@
 - name: Overview
-  href: Overview.md
+  href: overview.md
 - name: Plain Text
-  href: Plain Text.md
+  href: plain-text.md
 - name: XML
-  href: XML.md
+  href: xml.md
 - name: JSON
-  href: JSON.md
+  href: json.md
 - name: Regular Expressions
-  href: Regular Expressions.md
+  href: regular-expressions.md
 - name: TTY Renderer
-  href: TTY Renderer.md
+  href: tty-renderer.md

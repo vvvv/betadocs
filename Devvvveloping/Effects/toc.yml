@@ -1,8 +1,8 @@
 - name: Overview
-  href: Overview.md
-- name: Effect Compiler Changes
-  href: Effect Compiler Changes.md
+  href: overview.md
+- name: Effect-compiler-changes
+  href: effect-compiler-changes.md
 - name: Shader Snippets
-  href: Shader Snippets.md
+  href: shader-snippets.md
 - name: Addonpack Effects
-  href: Addonpack Effects.md
+  href: addonpack-effects.md

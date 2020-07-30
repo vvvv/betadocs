@@ -1,6 +1,6 @@
 - name: Overview
-  href: Overview.md
+  href: overview.md
 - name: Core
-  href: Core/toc.yml
+  href: core/toc.yml
 - name: Addons
-  href: Addons/toc.yml
+  href: addons/toc.yml

@@ -1,0 +1,32 @@
+- name: Overview
+  href: overview.md
+- name: Mouse Keyboard
+  href: mouse-keyboard.md
+- name: Patch Editor
+  href: patch-editor.md
+- name: Main Menu
+  href: main-menu.md
+- name: Node Browser
+  href: node-browser.md
+- name: Herr Inspektor
+  href: herr-inspektor.md
+- name: Finder
+  href: finder.md
+- name: Window Switcher
+  href: window-switcher.md
+- name: Timeliner
+  href: timeliner.md
+- name: Code Editor
+  href: code-editor.md
+- name: Project Explorer
+  href: project-explorer.md
+- name: TTY Renderer
+  href: tty-renderer.md
+- name: Kommunikator
+  href: kommunikator.md
+- name: Window Modes
+  href: window-modes.md
+- name: Docking
+  href: docking.md
+- name: UI Reference
+  href: ui-reference.md

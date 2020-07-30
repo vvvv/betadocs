@@ -1,0 +1,12 @@
+- name: Still Screenshots
+  href: still-screenshots.md
+- name: Screen Recorder
+  href: screen-recorder.md
+- name: Capture DirectX Backbuffer
+  href: capture-directX-backbuffer.md
+- name: Texture Writer
+  href: texture-writer.md
+- name: Writing a DirectShow Video Stream
+  href: writing-a-directShow-video-stream.md
+- name: Record Monitor Output
+  href: record-monitor-output.md

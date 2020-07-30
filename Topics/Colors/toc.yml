@@ -1,12 +1,12 @@
 - name: Overview
-  href: Overview.md
+  href: overview.md
 - name: Specifying colors
-  href: Specifying colors.md
+  href: specifying-colors.md
 - name: Saving - sending colors
-  href: Saving - sending colors.md
+  href: saving-sending-colors.md
 - name: Color Manipulation
-  href: Color Manipulation.md
+  href: color-manipulation.md
 - name: Color Space conversion
-  href: Color Space conversion.md
+  href: color-space-conversion.md
 - name: Palettes
-  href: Palettes.md
+  href: palettes.md

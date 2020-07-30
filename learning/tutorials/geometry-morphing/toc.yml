@@ -1,0 +1,6 @@
+- name: Geometry Morphing
+  href: geometry-morphing.md
+- name: Geometry Morphing CPU
+  href: geometry-morphing-cpu.md
+- name: Geometry Morphing GPU1
+  href: geometry-morphing-gpu1.md

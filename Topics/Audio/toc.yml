@@ -1,14 +1,14 @@
 - name: Intro
-  href: Intro.md
+  href: intro.md
 - name: Playback
-  href: Playback.md
+  href: playback.md
 - name: Generating Sound
-  href: Generating Sound.md
+  href: generating-sound.md
 - name: Effects
-  href: Effects.md
+  href: effects.md
 - name: Analysis
-  href: Analysis.md
+  href: analysis.md
 - name: Output
-  href: Output.md
+  href: output.md
 - name: Related
-  href: Related/toc.yml
+  href: related/toc.yml

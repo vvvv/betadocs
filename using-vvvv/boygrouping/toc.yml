@@ -1,0 +1,24 @@
+- name: Boygrouping
+  href: boygrouping.md
+- name: Hardware Setup
+  href: hardware-setup.md
+- name: Directory Structure
+  href: directory-structure.md
+- name: Preparations on the Clients
+  href: preparations-on-the-clients.md
+- name: Preparations on the Server
+  href: preparations-on-the-server.md
+- name: Boygroup Patching
+  href: boygroup-patching.md
+- name: Fullscreen on Clients
+  href: fullscreen-on-clients.md
+- name: Synchronized Video Playback
+  href: synchronized-video-playback.md
+- name: Remoting Clients
+  href: remoting-clients.md
+- name: MultiBoygrouping
+  href: multiboygrouping.md
+- name: RemoterSA
+  href: remotersa.md
+- name: FAQ
+  href: faq.md

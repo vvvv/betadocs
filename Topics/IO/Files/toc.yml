@@ -1,4 +1,4 @@
 - name: Plain Text files
-  href: Plain Text files.md
-- name: Raw binary files
-  href: Raw binary files.md
+  href: plain-text-files.md
+- name: Raw Binary files
+  href: raw-binary-files.md

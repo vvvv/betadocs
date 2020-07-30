@@ -1,12 +1,12 @@
 - name: Overview
-  href: Overview.md
+  href: overview.md
 - name: Getting Started
-  href: Getting Started.md
+  href: getting-started.md
 - name: Tutorials
-  href: Tutorials/toc.yml
+  href: tutorials/toc.yml
 - name: Books
-  href: Books.md
+  href: books.md
 - name: Demo Patches
-  href: Demo Patches.md
+  href: demo-patches.md
 - name: Courses
-  href: Courses/Courses.md
+  href: courses/courses.md

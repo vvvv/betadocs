@@ -1,34 +1,34 @@
 - name: Arduino & Firmata
-  href: Arduino & Firmata.md
+  href: arduino-firmata.md
 - name: Graphics Tablets
-  href: Graphics Tablets.md
+  href: graphics-tablets.md
 - name: Kinect
-  href: Kinect.md
+  href: kinect.md
 - name: Lasers
-  href: Lasers.md
+  href: lasers.md
 - name: Leap
-  href: Leap.md
+  href: leap.md
 - name: Lights
-  href: Lights.md
+  href: lights.md
 - name: Motors
-  href: Motors.md
+  href: motors.md
 - name: Mobile Devices
-  href: Mobile Devices.md
+  href: mobile-devices.md
 - name: Multi-touch Devices
-  href: Multi-touch Devices.md
+  href: multi-touch-devices.md
 - name: Phidgets
-  href: Phidgets.md
+  href: phidgets.md
 - name: Relay IO boards
-  href: Relay IO boards.md
+  href: relay-io-boards.md
 - name: RS232
-  href: RS232.md
+  href: rs232.md
 - name: Sensors
-  href: Sensors.md
+  href: sensors.md
 - name: USB - HID
-  href: USB - HID.md
+  href: usb-hid.md
 - name: VR Devices
-  href: VR Devices.md
+  href: vr-evices.md
 - name: WiiMote
-  href: WiiMote.md
+  href: wiimote.md
 - name: Odd Hardware
-  href: Odd Hardware.md
+  href: odd-hardware.md

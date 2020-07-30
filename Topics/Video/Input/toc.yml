@@ -1,8 +1,8 @@
 - name: Cameras with a WDM driver
-  href: Cameras with a WDM driver.md
+  href: cameras-with-a-wdm-driver.md
 - name: Cameras with a proprietary API
-  href: Cameras with a proprietary API.md
+  href: cameras-with-a-proprietary-api.md
 - name: Capture Cards
-  href: Capture Cards.md
+  href: capture-cards.md
 - name: Deinterlacing
-  href: Deinterlacing.md
+  href: deinterlacing.md

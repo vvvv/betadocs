@@ -1,10 +1,10 @@
 - name: Overview
-  href: Overview.md
+  href: overview.md
 - name: DirectShow-based media player
-  href: DirectShow-based media player.md
+  href: directShow-based-media-player.md
 - name: Image Sequences
-  href: Image Sequences.md
+  href: image-sequences.md
 - name: VLC-based media player
-  href: VLC-based media player.md
+  href: vlc-based-media-player.md
 - name: Hap Media Player
-  href: Hap Media Player.md
+  href: hap-media-player.md

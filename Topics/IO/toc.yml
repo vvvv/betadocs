@@ -1,16 +1,16 @@
 - name: Files
-  href: Files/toc.yml
+  href: files/toc.yml
 - name: Hardware
-  href: Hardware/toc.yml
+  href: hardware/toc.yml
 - name: Protocols
-  href: Protocols/toc.yml
+  href: protocols/toc.yml
 - name: Services
-  href: Services/toc.yml
+  href: services/toc.yml
 - name: Software
-  href: Software/toc.yml
+  href: software/toc.yml
 - name: Useful Links
-  href: Useful Links/toc.yml
+  href: useful-links/toc.yml
 - name: Dedicated Kinect Page
-  href: Dedicated Kinect Page/toc.yml
+  href: dedicated-kinect-page/toc.yml
 - name: Dedicated Firmata Page
-  href: Dedicated Firmata Page/toc.yml
+  href: dedicated-firmata-page/toc.yml
