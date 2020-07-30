@@ -7,8 +7,7 @@ uid: 3eb927ab-9bda-4f94-8481-2cdc7ae67f0d
 The following text is an updated transcript of the Workshop Software Engineering Patterns with vvvv at Node13 hosted by Sebastian Oschatz and Nils Buhlert.     
 
 
-> 
-You may also be interested in the <a href="https://github.com/vvvv/MoleculeViewer" class="extURL" target="_blank">material of the "Building Applications with vvvv" workshop</a> that applies some of the points made below to a demo project.  
+> You may also be interested in the <a href="https://github.com/vvvv/MoleculeViewer" class="extURL" target="_blank">material of the "Building Applications with vvvv" workshop</a> that applies some of the points made below to a demo project.  
   
 
 

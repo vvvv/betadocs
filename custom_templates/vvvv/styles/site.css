@@ -347,3 +347,9 @@ kbd
     border-radius: 1px;
     padding: 0.2rem 0.5rem;
 }
+
+.article img
+{
+    max-width: 100%;
+    height: auto;
+}
