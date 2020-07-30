@@ -1,12 +1,12 @@
 - name: Introduction
-  href: Introduction.md
+  href: introduction.md
 - name: Simple shader example
-  href: Simple shader example.md
+  href: simple-shader-example.md
 - name: Splitting buffers
-  href: Splitting buffers.md
+  href: splitting-buffers.md
 - name: Constant buffer packing
-  href: Constant buffer packing.md
+  href: constant-buffer-packing.md
 - name: To Spread or not to Spread
-  href: To Spread or not to Spread.md
+  href: to-spread-or-not-to-spread.md
 - name: Other considerations
-  href: Other considerations.md
+  href: other-considerations.md

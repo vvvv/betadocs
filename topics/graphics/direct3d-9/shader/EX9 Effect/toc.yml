@@ -1,12 +1,12 @@
 - name: EX9 Effect File
-  href: EX9 Effect File.md
+  href: ex9-effect-file.md
 - name: EX9 Effect Node
-  href: EX9 Effect Node.md
+  href: ex9-effect-node.md
 - name: EX9 Effect Template
-  href: EX9 Effect Template.md
+  href: ex9-effect-template.md
 - name: EX9 HLSL Introduction
-  href: EX9 HLSL Introduction.md
+  href: ex9-hlsl-introduction.md
 - name: EX9 HLSL Semantics
-  href: EX9 HLSL Semantics.md
+  href: ex9-hlsl-semantics.md
 - name: EX9 HLSL Annotations
-  href: EX9 HLSL Annotations.md
+  href: ex9-hlsl-annotations.md

@@ -1,7 +1,7 @@
 - name: Overview
   href: overview.md
 - name: DirectShow-based media player
-  href: directShow-based-media-player.md
+  href: directshow-based-media-player.md
 - name: Image Sequences
   href: image-sequences.md
 - name: VLC-based media player

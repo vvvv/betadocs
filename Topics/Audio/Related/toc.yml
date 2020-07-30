@@ -1,8 +1,8 @@
 - name: ASIO
-  href: Asio.md
+  href: asio.md
 - name: VST
-  href: VST.md
+  href: vst.md
 - name: Accessing Stereo Mix
-  href: Accessing Stereo Mix.md
+  href: accessing-stereo-mix.md
 - name: Audio Links
-  href: Audio Links.md
+  href: audio-links.md

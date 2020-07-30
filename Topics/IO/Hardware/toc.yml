@@ -27,7 +27,7 @@
 - name: USB - HID
   href: usb-hid.md
 - name: VR Devices
-  href: vr-evices.md
+  href: vr-devices.md
 - name: WiiMote
   href: wiimote.md
 - name: Odd Hardware

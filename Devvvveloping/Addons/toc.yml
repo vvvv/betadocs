@@ -3,9 +3,9 @@
 - name: About the Addonpack
   href: about-the-addonpack.md
 - name: HowTo Release a Pack
-  href: howTo-delease-a-pack.md
+  href: howto-release-a-pack.md
 - name: Conventions CodingStyle
-  href: conventions-codingstyle.md  
+  href: conventions-codingstyle.md
 - name: Conventions Node and Pin Naming
   href: conventions-node-and-pin-naming.md
 - name: Conventions HelpPatch

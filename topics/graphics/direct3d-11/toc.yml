@@ -1,12 +1,12 @@
 - name: DX11 Overview
   href: dx11-overview.md
 - name: DX11 FAQ
-  href: dx11-fAQ.md
+  href: dx11-faq.md
 - name: DX11 Pipeline
   href: dx11-pipeline.md
 - name: DX11 VVVV Pipeline
   href: dx11-vvvv-pipeline/toc.yml
 - name: DX11 Constant Buffers
-  href: dx11-constant-buffers/toc.yml  
+  href: dx11-constant-buffers/toc.yml
 - name: DX11 Userful Links
   href: dx11-userful-links.md

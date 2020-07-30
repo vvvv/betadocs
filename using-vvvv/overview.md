@@ -13,4 +13,4 @@ The manual explaining all vvvv intrinsic features in detail.
 * [VL](xref:89e664e5-1274-4966-a7cd-82255eea4483)
 * [Commandline Parameters](xref:2eb3d2a2-d4c1-4bc0-bcd8-16e48d756b16)
 * [Troubleshooting](xref:654fb0a1-2f52-4425-8ab7-2f82d4785d54)
-* [HowTo Find Help](xref:d226aa5e-55b1-4cb3-b016-cd958051fc4a)
+* [Finding Help](xref:d226aa5e-55b1-4cb3-b016-cd958051fc4a)

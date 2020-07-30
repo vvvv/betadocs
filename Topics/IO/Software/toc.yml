@@ -5,7 +5,7 @@
 - name: Databases
   href: databases.md
 - name: EyesWeb
-  href: eyesWeb.md
+  href: eyesweb.md
 - name: Flash
   href: flash.md
 - name: Grasshopper
@@ -35,4 +35,4 @@
 - name: Spout
   href: spout.md
 - name: TouchDesigner
-  href: touchDesigner.md
+  href: touchdesigner.md

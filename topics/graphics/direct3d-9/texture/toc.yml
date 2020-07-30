@@ -1,14 +1,14 @@
 - name: Images
-  href: Images.md
+  href: images.md
 - name: Videos
-  href: Videos.md
+  href: videos.md
 - name: HTML & Flash
-  href: HTML & Flash.md
+  href: html-&-flash.md
 - name: Dynamic Textures
-  href: Dynamic Textures.md
+  href: dynamic-textures.md
 - name: Video Effects (TextureFX)
-  href: Video Effects (TextureFX).md
+  href: video-effects-(texturefx).md
 - name: How To Prepare Textures
-  href: How To Prepare Textures.md
+  href: how-to-prepare-textures.md
 - name: Texture Transformation
-  href: Texture Transformation.md
+  href: texture-transformation.md

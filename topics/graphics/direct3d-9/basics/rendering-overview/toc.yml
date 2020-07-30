@@ -1,16 +1,16 @@
 - name: Overview
-  href: Overview.md
+  href: overview.md
 - name: Basic structure
-  href: Basic structure.md
+  href: basic-structure.md
 - name: Cameras
-  href: Cameras.md
+  href: cameras.md
 - name: Spreading
-  href: Spreading.md
+  href: spreading.md
 - name: Aspect Ratio
-  href: Aspect Ratio.md
+  href: aspect-ratio.md
 - name: Texturing
-  href: Texturing.md
+  href: texturing.md
 - name: Depthbuffer
-  href: Depthbuffer.md
+  href: depthbuffer.md
 - name: Antialiasing
-  href: Antialiasing.md
+  href: antialiasing.md

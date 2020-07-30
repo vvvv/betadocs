@@ -14,5 +14,7 @@
   href: vl.md
 - name: Commandline
   href: commandline.md
-- name: HowTo Find Help
-  href: howTo-find-help.md
+- name: Troubleshooting
+  href: troubleshooting.md
+- name: Finding Help
+  href: finding-help.md

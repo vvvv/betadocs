@@ -9,10 +9,10 @@
 - name: Object Space
   href: object-space.md
 - name: World Space
-  href: World Space.md
+  href: world-space.md
 - name: View Space
-  href: View Space.md
+  href: view-space.md
 - name: Projection Space
-  href: Projection Space.md
+  href: projection-space.md
 - name: Texture Space
-  href: Texture Space.md
+  href: texture-space.md

@@ -1,18 +1,18 @@
 - name: Editing Framework
-  href: Editing Framework.md
+  href: editing-framework.md
 - name: Common Shortcuts
-  href: Common Shortcuts.md
+  href: common-shortcuts.md
 - name: PointEditor
-  href: PointEditor.md
+  href: pointeditor.md
 - name: BézierEditor
-  href: BézierEditor.md
+  href: béziereditor.md
 - name: BézierPatchEditor
-  href: BézierPatchEditor.md
+  href: bézierpatcheditor.md
 - name: MeshEditor
-  href: MeshEditor.md
+  href: mesheditor.md
 - name: PolygonEditor
-  href: PolygonEditor.md
+  href: polygoneditor.md
 - name: Cameras
-  href: Cameras.md
+  href: cameras.md
 - name: Helper
-  href: Helper.md
+  href: helper.md

@@ -1,8 +1,8 @@
 - name: Curves
-  href: Curves.md
+  href: curves.md
 - name: Bézier Spline
-  href: Bézier Spline.md
+  href: bézier-spline.md
 - name: B-Spline
-  href: B-Spline.md
+  href: b-spline.md
 - name: NURBS
-  href: NURBS.md
+  href: nurbs.md
