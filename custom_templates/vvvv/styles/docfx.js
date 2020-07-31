@@ -53,7 +53,7 @@ $(function () {
     // Styling for tables in conceptual documents using Bootstrap.
     // See http://getbootstrap.com/css/#tables
     function renderTables() {
-        $('table').removeClass('table-bordered table-condensed').addClass('table table-sm table-striped table-hover').wrap('<div class=\"table-responsive\"></div>');
+        $('table').removeClass('table-bordered table-condensed').addClass('table table-sm').wrap('<div class=\"table-responsive\"></div>');
     }
 
     // Styling for alerts.
