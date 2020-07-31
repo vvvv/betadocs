@@ -3,11 +3,11 @@
 - name: Coordinate Systems
   href: coordinate-systems/toc.yml
 - name: Dataflow in DX9
-  href: dataflow-in-dx9/toc.yml
+  href: dataflow-in-dx9.md
 - name: Editing Framework
   href: editing-framework/toc.yml
 - name: FAQ Multiscreen
-  href: faq-multiscreen/toc.yml
+  href: faq-multiscreen.md
 - name: Rendering Overview
   href: rendering-overview/toc.yml
 - name: Transparency

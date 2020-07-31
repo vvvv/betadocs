@@ -3,7 +3,7 @@
 - name: Videos
   href: videos.md
 - name: HTML & Flash
-  href: html-&-flash.md
+  href: html-flash.md
 - name: Dynamic Textures
   href: dynamic-textures.md
 - name: Video Effects (TextureFX)

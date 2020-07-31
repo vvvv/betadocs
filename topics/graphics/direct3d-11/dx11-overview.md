@@ -3,7 +3,6 @@ uid: d13e2b9c-8f5f-4db8-93f6-362a457d8c29
 ---
 
 # DX11 Overview
-**table of contents**  
 
 
 ## Introduction
@@ -40,4 +39,4 @@ Those changes are more vvvv related, but moving to a new pipeline implies a few 
 * Default Blend mode is now Disabled, So Alpha will NOT work by default. Blend has a cost so you should enable it when you need it.  
 * No more old fixed DX9 nodes (Sphere/Segment...)  
 * System is very shader centric, so it's more than recommended to learn some HLSL ))  
-
+

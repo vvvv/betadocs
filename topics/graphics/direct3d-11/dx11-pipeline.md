@@ -3,8 +3,6 @@ uid: 8a7ee1b7-c2d7-49bf-9923-72ad77a21b60
 ---
 
 # DX11 Pipeline
-**table of contents**  
-
 
 ## Graphics Pipeline
 

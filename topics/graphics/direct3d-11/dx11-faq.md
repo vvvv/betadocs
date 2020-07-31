@@ -3,9 +3,7 @@ uid: b1bb8d73-cbd5-44fd-b512-ec9086f9c2ed
 ---
 
 # DX11 FAQ
-Incoming...  
-
-**table of contents**  
+Incoming...
 
 
 ## Can i deal with DX9 and DX11 at the same time?

@@ -1,11 +1,9 @@
 - name: Overview
   href: overview.md
-- name: 2D Vector Mathematics
-  href: 2d-vector-mathematics/toc.yml
-- name: Angles in 2D
-  href: angles-in-2d.md
-- name: 3D Vector Mathematics
-  href: 3d-vector-mathematics/toc.yml
+- name: 2D
+  href: 2d/toc.yml
+- name: 3D
+  href: 3d/toc.yml
 - name: 4D
   href: 4d/toc.yml
 - name: Complex Numbers

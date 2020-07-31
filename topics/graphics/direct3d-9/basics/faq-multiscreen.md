@@ -46,3 +46,21 @@ videoin across shared memory works streched on 3 videocards pretty well. if anyo
 * **Graphics expansion modules** are small black boxes that let you connect two or three monitors to a single VGA, DVI or DisplayPort output and use your system's GPU across all monitors. Via a custom <a href="http://en.wikipedia.org/wiki/EDID" class="extURL" target="_blank">EDID</a> they make your PC believe that only one monitor with a  resolution of e.g. 3072*768 Pixel is connected. Well known products are <a href="http://www.matrox.com/graphics/en/products/gxm/dh2go/" class="extURL" target="_blank">Matrox DualHead2Go</a> and <a href="http://www.matrox.com/graphics/en/products/gxm/th2go/" class="extURL" target="_blank">Matrox TripleHead2Go</a>  
 * **AMD EyeFinity Technology** a.k.a. <a href="http://en.wikipedia.org/wiki/Evergreen_%28GPU_family%29" class="extURL" target="_blank">Evergreen</a> supports multiple display outputs simultaneously as one large SpanMode. Used in ASUS' graphic card line 'Radeon' EyeFinity enables massive desktop workspaces, e.g. you can connect 6 monitors with each FullHD resolution to the graphic card and then go fullscreen with only one DirectX renderer.  
 
+
+# Links
+## related vvvviki-pages
+* [Device (EX9 Auto)](https://vvvv.org/documentation/device-(ex9-auto))
+* [Device (EX9 Manual)](https://vvvv.org/documentation/device-(ex9-manual))
+
+## related vvvvorum-threads
+* <a href="https://discourse.vvvv.org/t/best-method-to-span-renderer-across-multiple-screens/16412" class="extURL" target="_blank">Best method to span renderer across multiple screens</a>  
+* <a href="https://discourse.vvvv.org/t/spanmode-related-questions" class="extURL forum" target="_blank">spanmode-related-questions</a>  
+* <a href="https://discourse.vvvv.org/t/Multi screen recommendations" class="extURL forum" target="_blank">Multi screen recommendations</a>  
+* <a href="https://discourse.vvvv.org/t/newbie dual renderer window question" class="extURL forum" target="_blank">newbie dual renderer window question</a>  
+* <a href="https://discourse.vvvv.org/t/framerate chrashes when dragging the 2nd renderer on the 2nd screen" class="extURL forum" target="_blank">framerate chrashes when dragging the 2nd renderer on the 2nd screen</a>  
+* <a href="https://discourse.vvvv.org/t/videoin across multiscreen" class="extURL forum" target="_blank">videoin across multiscreen</a>  
+* <a href="https://discourse.vvvv.org/t/startup in multiple fullscreens" class="extURL forum" target="_blank">startup in multiple fullscreens</a>  
+* <a href="https://discourse.vvvv.org/t/DX Performance" class="extURL forum" target="_blank">DX Performance</a>  
+* <a href="https://discourse.vvvv.org/t/Lots of questions..." class="extURL forum" target="_blank">Lots of questions...</a>  
+* <a href="https://discourse.vvvv.org/t/NVPerfHUD in Fullscreen" class="extURL forum" target="_blank">NVPerfHUD in Fullscreen</a>  
+* <a href="https://discourse.vvvv.org/t/VIsta dualview two cards 4 screens" class="extURL forum" target="_blank">VIsta dualview two cards 4 screens</a>  

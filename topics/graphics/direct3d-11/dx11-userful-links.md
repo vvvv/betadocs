@@ -3,9 +3,7 @@ uid: 9f1e8368-4c7b-4dc0-a305-06aebe6c11dd
 ---
 
 # DX11 Userful Links
-**table of contents**  
-
-
+    
 ## From Microsoft Website
 * <a href="http://msdn.microsoft.com/en-us/library/windows/desktop/ff476345(v=vs.85).aspx" class="extURL" target="_blank">Programming Guide</a>  
 * <a href="http://msdn.microsoft.com/en-us/library/windows/desktop/ff476882(v=vs.85).aspx" class="extURL" target="_blank">DirectX11 Graphics pipeline overview</a>  

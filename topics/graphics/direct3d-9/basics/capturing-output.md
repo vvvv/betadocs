@@ -7,14 +7,11 @@ uid: 9a69e819-8ea6-4c5d-807e-b283863abc4c
 
 
 
-<kbd>Ctrl+1</kbd> / <kbd>Ctrl+2</kbd>  
-Screenshot of the active vvvv-window with / without the window border.  
+<kbd>Ctrl+1</kbd> / <kbd>Ctrl+2</kbd> Screenshot of the active vvvv-window with / without the window border.  
 
-<kbd>Shift+Ctrl+1</kbd> / <kbd>Shift+Ctrl+2</kbd>  
-The same as above, but the file-save dialog is invoked.  
+<kbd>Shift+Ctrl+1</kbd> / <kbd>Shift+Ctrl+2</kbd> The same as above, but the file-save dialog is invoked.  
 
-<kbd>Ctrl+3</kbd>  
-Make a screenshot name it and post directly to the "Screenshots of the Days" on vvvv.org (as seen on the front page).  
+<kbd>Ctrl+3</kbd> Make a screenshot name it and post directly to the "Screenshots of the Days" on vvvv.org (as seen on the front page).  
 
 * If you shoot a patch, the file is placed in the patchs directory. Press <kbd>ALT+E</kbd> to open an explorer window to this path.   
 * If you shoot any other vvvv-window the file is placed in the directory in which its parent patch is placed in (e.g. shoot a renderer and search the image in the directory of the patch in which the Renderer node is placed in).  
