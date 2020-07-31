@@ -72,12 +72,10 @@ The most common use case for S/R nodes is to deliver global constants to differe
 See [Send / Receive](xref:32b954be-83f1-4b75-951f-f64e7fdd7c1b).  
 
 
-
+#### Local Variables
 
 ![](~/img/patching-var-loop4.png "")   
 
-
-#### Local Variables
 In order to save the result of a computation in one frame to use it for further calculation in the next you have to use a node called *FrameDelay*. Essentially by setting its input you write a local variable which you can read from in the next frame by connecting to its output.  
 
 FrameDelay nodes are therefore creating feedback-loops in a patch.  
@@ -85,24 +83,19 @@ FrameDelay nodes are therefore creating feedback-loops in a patch.
 See [Creating Feedback Loops](xref:4a3a1653-5c09-4102-a148-8f014f3d9a2e).  
 
 
-
+#### Constants
 
 ![](~/img/patching-constants.png "")   
 
-
-#### Constants
 IOBoxes can be used as constants, which are feeding manually adjusted Values (Colors, Strings...) for Inputs of the nodes and subpatches.  
 
 See [IOBoxes](xref:86693dba-d049-4027-874d-d53f0437ad66).  
 
 
-
-
+#### Input/Output Parameters
 
 ![](~/img/patching-parameters.png "")  
 
-
-#### Input/Output Parameters
 Named IOBoxes are used to create Inputs and Outputs for subpatches. They can therefore be understood as **input** and **output parameters** of **functions**.  
 
 See [SubPatches](xref:b66f153a-f7c3-4867-a8c9-bce69861d759).  
@@ -122,8 +115,6 @@ See [Spreads](xref:00327d1e-65ba-4424-997d-615d9a469503).
 # Data Storages
 
 ![](~/img/patching-SpreadCollections.png "")   
-
-
 
 
 Looking for a *Buffer*, *Stack* or *Queue*?  

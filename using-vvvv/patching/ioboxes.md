@@ -47,16 +47,15 @@ is a string that is not used by vvvv but users can write [plugin](xref:766d8ac2-
 
 
 
-![](~/img/BasicPatching-IOBoxSpreading3.png "")   
-![](~/img/BasicPatching-SliceOffset3.png "")   
-
-
 #### Spreading
+
 * SliceCount Mode  
 * Columns  
 * Rows   
 * Pages  
 are for spreading IOBoxes.  
+
+![](~/img/BasicPatching-IOBoxSpreading3.png "")   
 
 Depending on the <span class="pin">SliceCount Mode</span> setting the IOBox has its SliceCount determined by:   
 * **Input:** whatever is connected to its input  
@@ -67,13 +66,14 @@ If set to *ColsRowsPages* the product of *Columns* by *Rows* determines how many
 
 The actual number of slices represented by the IOBox is further determined by the number of visible slices taken by the number of *Pages*.   
 
+![](~/img/BasicPatching-SliceOffset3.png "")   
+
 If there is more than one page you can use the <span class="pin">SliceOffset</span> to "scroll" through all the available slices.  
 
 
+#### Visual properties
 
 ![](~/img/BasicPatching_IOBoxConfig2.png "")   
-
-#### Visual properties
 
 * Font   
 * Size  
@@ -97,15 +97,12 @@ In order to display the current value of any output pin in a patch, connect it t
 
 In order to specify a constant value for a pin that can easily be tweaked, connect it to an IOBox.   
 
-
+### Value
 
 ![](~/img/patching-valueIOBoxValueAndStepSize2.png "")   
 ![](~/img/BasicPatching_IOBoxValueTypes.png "")   
 
-
-### Value
-
-* Left-doubleclick to enter a new value (also try math formulas).  
+* Left-doubleclick to enter a new value (also try math formulas.  
 * <kbd>Alt</kbd>+Rightclick to reset to default value.  
 
 **Real and Integer Values**  
@@ -130,11 +127,10 @@ Right-drag in the IOBox vertically to change its value and optionally modify the
 Press <kbd>F1</kbd> on an IOBox to get different readily configured options that you can copy-paste into your patches as needed.   
 
 
-
+### Color
 
 ![](~/img/BasicPatching_ColorIOBox3.png "")   
 
-### Color
 Right-drag:  
 
 * horizontally to change hue  
@@ -147,24 +143,20 @@ The Color IOBox has several 'Chooser Styles', see [Inspektor](xref:9666611a-6f15
 * RGBA Slider  
 * HSVA Slider  
 
-
-
+### String
 
 ![](~/img/BasicPatching_StringIOBox.png "")   
 
-### String
 Right click in the IOBox to invoke the operation according to its subtype, see [Inspektor](xref:9666611a-6f15-4b33-8300-69f56d9ec7d4):  
 * most cases simply open a field to enter text   
 * *filename* - open dialog will pop up  
 * *directory* - open dialog will pop up  
 
-Note that no matter what subtype the string is if you press CTRL while right clicking the file-open dialog will appear. Pressing SHIFT will invoke the directory-open dialog.  
-
-
-
-![](~/img/BasicPatching_IOBoxEnum.png "")   
+Note that no matter what subtype the string is if you press <kbd>CTRL</kbd> while right clicking the file-open dialog will appear. Pressing <kbd>SHIFT</kbd> will invoke the directory-open dialog.  
 
 ### Enumeration
+
+![](~/img/BasicPatching_IOBoxEnum.png "")   
 
 Right-click in the IOBox to open up the pull-down menu, choose an item with a left- or right-click.  
 
@@ -175,6 +167,5 @@ The enumeration IOBox can also be switched into a 'List' mode. Open the Inspekto
 
 ![](~/img/BasicPatching_Kontrolleur.png "")   
 
-
-IOBoxes tinted green are exposed for being controlled from the outside. Use **CTRL+K** to toggle exposing. See [Kontrolleur](xref:c8fd4535-8b7a-4861-abf1-580520daff26) for more information.   
+IOBoxes tinted green are exposed for being controlled from the outside. Use <kbd>CTRL+K</kbd> to toggle exposing. See [Kontrolleur](xref:c8fd4535-8b7a-4861-abf1-580520daff26) for more information.   
 

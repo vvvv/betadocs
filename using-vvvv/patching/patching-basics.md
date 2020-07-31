@@ -17,41 +17,39 @@ The following reference goes into details about those 4 main components.
 
 ### Opening a patch
 To open a patch middle-click in the Patch Editor to open the Main Menu and choose:   
-* Open (<kbd>CTRL+O</kbd>)  
-* Open in Patch (<kbd>CTRL+SHIFT+O</kbd>)  
+* Open <kbd>CTRL+O</kbd>  
+* Open in Patch <kbd>CTRL+SHIFT+O</kbd>  
 
 ### Saving a patch
 To save a patch middle-click in the Patch Editor to open the Main Menu and choose:   
-* Save (<kbd>CTRL+S</kbd>)  
-* Save As... (<kbd>CTRL+SHIFT+S</kbd>)  
+* Save (<kbd>CTRL+S</kbd>
+* Save As... <kbd>CTRL+SHIFT+S</kbd>  
 Everytime you save a patch its previous version is backed up under the same filename but ending in ~.xml. So if ever you need to go back to that previous version just rename it to .v4p and you can open it again.   
 
 
+### Using the mouse
 
 ![](~/img/patchingBasics_mouse4.png "")   
 
-### Using the mouse
 When patching always remember:  
 
-* **Changing the position** of a node or a window is done intuitively using a **left button drag**  
-* If you want to **change any values** of a pin (or in an IOBox) you will do it with a **right button drag**  
-* You can always emulate a **middle mouseclick** with a **SPACE + rightlick** in case you don't have a middle mousebutton  
+* **Changing the position** of a node or a window is done intuitively using a **left button drag**
+* If you want to **change any values** of a pin (or in an IOBox) you will do it with a **right button drag**
+* You can always emulate a **middle mouseclick** with a <kbd>SPACE</kbd> **+ rightlick** in case you don't have a middle mousebutton
 
 
 
 
 ### Hiding vs. Closing a patch
-* If you **Close** a patch (<kbd>CTRL+W</kbd>), the patch will be **removed from the system**. The node containing this patch is deleted.  
-
-* If you **Hide** a patch (<kbd>ALT+3</kbd>), the patch will still be **part of the system** and **continue working**. Only it is no longer visible.   
+* If you **Close** a patch <kbd>CTRL+W</kbd>, the patch will be **removed from the system**. The node containing this patch is deleted.
+* If you **Hide** a patch <kbd>ALT+3</kbd>, the patch will still be **part of the system** and **continue working**. Only it is no longer visible.   
 
 See also: [Window Modes](xref:5aa4e8e0-fc2c-4112-a985-7f4f0208bf48).  
 
 
+### Locking a patch
 
 ![](~/img/BasicPatching_Locking2.png "")   
-
-### Locking a patch
 
 To lock a patch press <kbd>CTRL+E</kbd>. A locked shows a '#' symbol in its topleft corner.   
 
@@ -59,7 +57,7 @@ In a locked patch:
 * all nodes still work   
 * it is still possible to change values of the visible IOBoxes  
 * nodes can no longer be moved  
-* [hidden nodes](xref:10b82e0c-720a-48e1-91e4-d8c65d2c3be1#hiding nodes) and links are invisible  
+* [hidden nodes](xref:10b82e0c-720a-48e1-91e4-d8c65d2c3be1#hiding-nodes) and links are invisible  
 
 To unlock, use <kbd>CTRL+E</kbd> again.  
 
@@ -75,10 +73,10 @@ Alternatively or while making a [link](xref:10b82e0c-720a-48e1-91e4-d8c65d2c3be1
 * press <kbd>CTRL</kbd> in addition to speed up scrolling  
 
 
+### Comments
 
 ![](~/img/BasicPatching_Comments2.png "")   
 
-### Comments
 Double click with the left button to bring up the [Node Browser](xref:eeb8526d-0085-4219-a138-32ac397853f1). Then enter the text you want to have as a comment in the patch. Make sure the text is not matching any node before pressing <kbd>ENTER</kbd> to create a comment.   
 
 A comment is essentially an <span class="node">IOBox (String)</span> with its input and output pins hidden. So you can always just doubleclick to change it.   
@@ -98,17 +96,16 @@ If you want to make a patch into a reusable module, see:
 
 
 Nodes are the building blocks of your patches and each represents a specific functionality. A nodes identifier is structured in the form:  
- Name (Category Version)
+`Name (Category Version)`   
 The combination of name, category and version is unique for each node in vvvv. Versions are optional an can be any number of space-separated strings.  
 
 While in a patch you always only see the nodes name. Hover a node to see its full identifier in the tooltip.  
 
 
+### Icons
 
 ![](~/img/BasicPatching_NodeIcons5.png "")   
 
-
-### Icons
 Nodes can have different icons:  
 * has vvvv nodes  
 * has VL nodes  
@@ -122,11 +119,10 @@ To get an overview of all the pins of a node, select it and press <kbd>CTRL+I</k
 To find out more about a nodes functionality, select it and press <kbd>F1</kbd> to open its helppatch.  
 
 
+### Adding nodes to a patch
 
 ![](~/img/BasicPatching_NodeBrowser.png "")   
 
-
-### Adding nodes to a patch
 You can browse a list of available nodes by **double-clicking anywhere in a patch** to pop up the [Node Browser](xref:eeb8526d-0085-4219-a138-32ac397853f1).   
 
 There you can start typing tags (separated by space) to search for a node with specific functionality or you can get to a category-sorted view by rightclicking in its text-area.   
@@ -134,11 +130,11 @@ There you can start typing tags (separated by space) to search for a node with s
 When you found a node you want to use in your patch press enter or select it with a left click and see it inserted in the patch.  
 
 ### Deleting nodes
-Select a node and press the Delete or BackSpace keys to remove it from the patch.   
+Select a node and press the <kbd>Delete</kbd> or <kbd>BackSpace</kbd> to remove it from the patch.   
 
 ### Moving a selection of nodes
 Press the cursor keys to move them by 1px.  
-Press SHIFT and the cursor keys to move them by 10px.  
+Press <kbd>SHIFT</kbd> and the cursor keys to move them by 10px.  
 
 
 
@@ -158,11 +154,10 @@ Press <kbd>CTRL+H</kbd> to mark a selection of nodes/links as hidden.
 Hidden nodes/links are not visible or accessible anymore when a patch is [locked](xref:10b82e0c-720a-48e1-91e4-d8c65d2c3be1#locking-a-patch). In an unlocked patch they will stand out with a lighter shade of grey.  
 
 
+### Colors of nodes
 
 ![](~/img/BasicPatching_ColorOfTheNodes4.png "")   
 
-
-### Colors of nodes
 * **Red**: the node has a problem, see [Red Nodes](xref:36621302-10e7-47fe-a8d0-b609c758974d#red-nodes)  
 * **Pink**: same as red, only the node is also marked as hidden  
 * **Blue**: the node is [boygrouped](xref:9d029794-1266-4e60-961f-33e6f95af7e6)  
@@ -197,16 +192,17 @@ The most common of those types are:
 * String (text)  
 * Color  
 * Enumeration (ordered listing of items)  
+
 **Non-Primitive**  
 * Node (collective name for all other datatypes, like: Texture, Transformation, Mesh,...)  
 
 You can introduce your own custom data-types using [plugin](xref:766d8ac2-5145-417d-b2df-37d24e3b2b6f).  
 
 
+### Subtypes
 
 ![](~/img/BasicPatching_Subtype.png "")   
 
-### Subtypes
 All primitive datatypes can have subtypes which more precisely specify a value-range a pin is looking for. Examples  
 * a number subtype specifies: whole number (integer) in the range of 1 to 10  
 * a text subtype specifies: a filename  
@@ -264,11 +260,10 @@ To create multiple links from the same output pin, start with a right click on i
 While making a link you can middle click somewhere to create an IOBox that will contain the data that's in the pin you're coming from. Middle click that IOBox once again to automagically give it the name of a this pin. See also: [Descriptive Name](xref:86693dba-d049-4027-874d-d53f0437ad66#configuring-ioboxes).  
 
 
+### Feedback Loops
 
 ![](~/img/BasicPatching_Links_Feedback.png "")   
- 
 
-### Feedback Loops
 **Creating a loop is not a valid connection!**  
 If you really need to do so, you better understand what you're doing.   
 
@@ -298,7 +293,7 @@ Press <kbd>CTRL+Y</kbd> on a selected link to cycle through the styles.
 
 
 ### Removing Links
-To remove an existing link, first select it (left-click) and then do a right-click on it. (or pressing the BackSpace or Delete key).  
+To remove an existing link, first select it (left-click) and then do a right-click on it. (or pressing the <kbd>BackSpace</kbd> or <kbd>Delete</kbd>).  
 
 Note that when removing a link, pins with a primitive datatype behave different from Node pins:  
 

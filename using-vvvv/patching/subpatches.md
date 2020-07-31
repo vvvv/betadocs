@@ -47,10 +47,10 @@ It may also help to understand that subpatches are only a visual clue to the use
 Learning when and where to best modularize, ie. where to draw the line between one patch and its subpatch(es) is one of the biggest challenges when learning the art of patching/programming. If you're up for some general tips read: [Software Engineering Patterns with vvvv](xref:3eb927ab-9bda-4f94-8481-2cdc7ae67f0d).  
 
 
-
-![](~/img/patchingSubpatches_Finder.png "")   
-
 ### Finder
+
+![](~/img/patchingSubpatches_Finder.png "")  
+
 In order to get an overview of all the nodes in a patch or even the whole hierarchy of your programs patches open the [Finder](xref:869d5933-4693-4b32-a7f3-5b7cfcc3a07f) or use <kbd>CTRL+TAB</kbd> to cycle through all open windows.  
 
 
@@ -73,50 +73,42 @@ Also you may want to have a look at the <span class="pin">Descriptive Name</span
 
 
 
+### Labeling IOBoxes
+
 ![](~/img/patching-parameters_0.png "")   
 
-
-
-
-
-### Labeling IOBoxes
 Create a new empty subpatch within the current patch by pressing <kbd>CTRL+SHIFT+P</kbd>. Place nodes in that patch as desired and create IOBoxes for all values that you want to take into or return from that patch. Set a <span class="pin">Descriptive Name</span> via the Inspektor or by a simple middle-click on the IOBox in order to make them show up as inlets/outlets on the patches node.   
 
 Press <kbd>CTRL+SHIFT+S</kbd> in order to *Save As...* the patch under a suitable name.   
 
 
 
+### Pin Visibilty
+
 ![](~/img/Subpatches-Visibility.png "")   
 
-
-
-### Pin Visibilty
 A pins visiblity can always be changed by the user [via the Inspektor](xref:9666611a-6f15-4b33-8300-69f56d9ec7d4#pin-visibility). As the designer of a subpatch you can define a default for the pin represented by each IOBox by setting the <span class="pin">Pin Visibility</span> of the IOBox to the respective value.  
 
 
+### Detecting changed Inputs
 
 ![](~/img/Subpatches-ChangedInputs3.png "")   
 
-### Detecting changed Inputs
 Each IOBox has a hidden <span class="pin">Changed</span> output that can be used to detect if its input has changed. You can activate this output by changing its [via the Inspektor](xref:9666611a-6f15-4b33-8300-69f56d9ec7d4#pin-visibility) via the Inspektor.  
 
 Use it to only make a subpatch calculate its outputs when any of its inputs has changed. Alternatively create an <span class="pin">Enabled</span> input to let the user of the subpatch control its execution.   
 
 
+### Dealing with BinSize
 
 ![](~/img/Subpatches-BinSize2.png "")   
 
-
-
-### Dealing with BinSize
 If you want your subpatch to expose a <span class="pin">Bin Size</span> for an input then make sure to use one of the handy NormalizeBinSize nodes (available for many categories). It simplifies working with [Bins and Bin Sizes](xref:a2b935e8-17cd-4c26-b701-4919803792d1#bins-and-bin-sizes) within a subpatch in that it translates a given bin size (positive or negative) into the actual bins you'll have to calculate with.   
 
 
 ## Instantiating a Subpatch
 
 ![](~/img/SubPatches-Instancing.png "")   
-
-
 
 
 You can create an instance of a subpatch like any other node using the NodeBrowser. Type **'t '** (t followed by Space) to filter only for subpatches in the current patchs directory.   

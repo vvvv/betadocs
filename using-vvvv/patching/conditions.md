@@ -17,8 +17,6 @@ This is what the <span class="node"> Switch (Value Input)</span> is for.
 By default the Switch node has 2 inputs to switch between: in case of 0 <span class="pin">Input 1</span> and in case of 1 <span class="pin">Input 2</span>.  
 
 
-
-
 ![](~/img/Conditions-SwitchAdvanced.png "")   
 
 #### More Inputs
@@ -31,11 +29,10 @@ The Switch node can accept any number of inputs to switch between by setting the
 
 
 
+#### Spreads
 
 ![](~/img/Conditions-Spreads.png "")   
 
-
-#### Spreads
 Alternatively to switching between multiple individual values you can use the <span class="node">GetSlice (Spreads)</span> as shown to switch between the slices of a spread.  
 
 

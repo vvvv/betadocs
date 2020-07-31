@@ -33,11 +33,9 @@ vvvv allows you to calculate all desired iterations at the same time using sprea
 * [Spreads](xref:00327d1e-65ba-4424-997d-615d9a469503)   
 * [Spectral Operations](xref:81251c9c-350f-462d-9d61-6d81a6896ad9)  
 
-
-
-![](~/img/FeedbackLoops_Understanding2.png "")  
-
 #### Accessing previous calculations
+
+![](~/img/FeedbackLoops_Understanding2.png "") 
 
 If you need to calculate values according to calculations already done in the past (like in an animation where the new position is based on the old one), you need to access these 'old' results from the last frame.  
 
