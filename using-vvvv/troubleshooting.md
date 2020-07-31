@@ -101,8 +101,8 @@ Always use a <span class="node">Renderer (TTY)</span>. This is also vvvvs error 
 
 
 Use **Config.exe** for:  
---- checking whether all dependencies are properly installed (all boxes are green)  
---- setting FileType Associations (.v4p, .vl) and some other parameters.  
+* checking whether all dependencies are properly installed (all boxes are green)  
+* setting FileType Associations (.v4p, .vl) and some other parameters.  
 
 Running config.exe will ask you for administrative rights which you'll have to accept. If it doesn't ask you, you'll have to run config.exe as administrator manually by rightclicking on it and selecting "Run as..."  
 
