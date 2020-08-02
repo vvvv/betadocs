@@ -16,7 +16,7 @@ example
 What is the best way to split this string into id an the corresponding value?  
 
 ### Answer
-Create a <span class="node">RegExpr (String)</span> node. Note that this node has an elaborate help patch - select the node and press <span class="keyseq"><kbd>F1</kbd></span>.  
+Create a <span class="node">RegExpr (String)</span> node. Note that this node has an elaborate help patch - select the node and press F1.  
 Open up Herr Inspektor and enter the following string in the *Regular Expression* configuration input:  
  id_ ( \d+ ) \s ( \d+ )
 You will now notice two additional outputs of the node.   
@@ -33,12 +33,11 @@ Where does this cryptic character sequence
 come from?  
 The sequence translates to the following instructions for VVVV: "Go through the whole input. Look for the following combination of things:"  
 
+   |   
+--- | ---  
 id_ | the letters i and d and underscore in that order   
---- | ---  
 (\d+) | one or more numerical characters. the brackets indicate that these characters will be put into an individual output pin   
---- | ---  
 \s | a single space   
---- | ---  
 (\d+) | one or more numerical characters. also in a separate pin do this as often as possible and pile up all matches in individual slices.   
 
 All codes are explained in detail in the reference section below.   
@@ -52,13 +51,14 @@ Use the Inspektor to enter
 in the Regular expression pin of the <span class="node">RegExpr (String)</span> node - you will notice a new output pin. This pin contains all lines of the file as slices.  
 
 The syntax to do that is nearly as short and simple as possible:   
-id_ | the letters i and d and underscore in that order   
+
+   |   
 --- | ---  
-(\d+) | one or more numerical characters. the brackets indicate that these characters will be put into an individual output pin   
---- | ---  
-\s | a single space   
---- | ---  
-(\d+) | one or more numerical characters. also in a separate pin do this as often as possible and pile up all matches in individual slices.  
+. | means "any character"  
+.* | means "none or any number of any characters"  
+.* \n | means "none or any number of any characters, followed by a line break"  
+.*? \n | means "the shortest possible sequence of none or any number of any characters, followed by a line break"  
+(.*?) \n | means "return the shortest possible sequence of none or any number of any characters on an output pin, followed by a line break which doesnt get an output pin"  
 
 to split into words use  
  (\S*) \s*
@@ -85,12 +85,12 @@ Use round brackets (...) in the regular expressions to define subexpressions. Fo
 The SliceCount of the output will change according to the number of matches. If there is no match, the output slice count will be zero. Output Pins are numbered based on the left to right order of their opening parenthesis.  
 
 Examples  
+
+   |   
+--- | ---  
 \(.* ?)|will return any printable character (i.e. not spaces, newlines, etc)  
---- | ---  
 \<a (.* ?) > (.* ?) </a>|will return the content of the <a> tag on the first output, and the text in between on the second output  
---- | ---  
 \( foob [0-9]|a+ r ) |will return all words like 'foob0r', 'foob1r' , 'foobar', 'foobaar', 'foobaaar', ... which will appear in the input text.  
---- | ---  
 \( [_a-zA-Z\d\-\.]+ @ [_a-zA-Z\d\-]+ (\.[_a-zA-Z\d\-]+)+ ) |will return all email addresses in a text.  
 
 ## Simple matches
@@ -98,56 +98,55 @@ Examples
 Any single character matches itself (unless it is a metacharacter with a special meaning described below). A series of characters matches that series of characters in the target string, so the pattern "bluh" would match "bluh" in the target string. Quite simple. You can cause characters that normally function as metacharacters or escape sequences to be interpreted literally by 'escaping' them by preceding them with a backslash "\", for instance: metacharacter "\>" match beginning of string, but "\\ " match character "\>", "\\" match "\" and so on.  
 
 Examples  
-\(.* ?)|will return any printable character (i.e. not spaces, newlines, etc)  
+
+   |   
 --- | ---  
-\<a (.* ?) > (.* ?) </a>|will return the content of the <a> tag on the first output, and the text in between on the second output  
---- | ---  
-\( foob [0-9]|a+ r ) |will return all words like 'foob0r', 'foob1r' , 'foobar', 'foobaar', 'foobaaar', ... which will appear in the input text.  
---- | ---  
-\( [_a-zA-Z\d\-\.]+ @ [_a-zA-Z\d\-]+ (\.[_a-zA-Z\d\-]+)+ ) |will return all email addresses in a text.  
+foobar|matches string 'foobar'  
+\\ FooBarPtr|matches '\>FooBarPtr'  
 
 ## Escape sequences
 Characters may be specified using a escape sequences syntax much like that used in C and Perl: "\n matches a newline, "\t a tab, etc. More generally, \xnn, where nn is a string of hexadecimal digits, matches the character whose ASCII value is nn.  
 
-\(.* ?)|will return any printable character (i.e. not spaces, newlines, etc)  
+   |   
 --- | ---  
-\<a (.* ?) > (.* ?) </a>|will return the content of the <a> tag on the first output, and the text in between on the second output  
---- | ---  
-\( foob [0-9]|a+ r ) |will return all words like 'foob0r', 'foob1r' , 'foobar', 'foobaar', 'foobaaar', ... which will appear in the input text.  
---- | ---  
-\( [_a-zA-Z\d\-\.]+ @ [_a-zA-Z\d\-]+ (\.[_a-zA-Z\d\-]+)+ ) |will return all email addresses in a text.  
+\xnn|char with hex code nn   
+\t|tab (HT/TAB), same as \x09   
+\n|newline (NL), same as \x0a   
+\r|carriage return (CR), same as \x0d   
+\f|form feed (FF), same as \x0c   
+\a|alarm (bell) (BEL), same as \x07   
+\e|escape (ESC), same as \x1b  
 
 Examples  
-\(.* ?)|will return any printable character (i.e. not spaces, newlines, etc)  
+
+   |   
 --- | ---  
-\<a (.* ?) > (.* ?) </a>|will return the content of the <a> tag on the first output, and the text in between on the second output  
---- | ---  
-\( foob [0-9]|a+ r ) |will return all words like 'foob0r', 'foob1r' , 'foobar', 'foobaar', 'foobaaar', ... which will appear in the input text.  
---- | ---  
-\( [_a-zA-Z\d\-\.]+ @ [_a-zA-Z\d\-]+ (\.[_a-zA-Z\d\-]+)+ ) |will return all email addresses in a text.  
+foo\x20bar|matches 'foo bar' (note space in the middle)  
+\tfoobar|matches 'foobar' preceded by tab  
 
 ## Character classes
 You can specify a character class, by enclosing a list of characters in \[\], which will match any one character from the list. If the first character after the "\[ is "\ , the class matches any character not in the list.  
 
 Examples  
-\(.* ?)|will return any printable character (i.e. not spaces, newlines, etc)  
+
+   |   
 --- | ---  
-\<a (.* ?) > (.* ?) </a>|will return the content of the <a> tag on the first output, and the text in between on the second output  
---- | ---  
-\( foob [0-9]|a+ r ) |will return all words like 'foob0r', 'foob1r' , 'foobar', 'foobaar', 'foobaaar', ... which will appear in the input text.  
---- | ---  
-\( [_a-zA-Z\d\-\.]+ @ [_a-zA-Z\d\-]+ (\.[_a-zA-Z\d\-]+)+ ) |will return all email addresses in a text.  
+foob\[aeiou\]r|finds strings 'foobar', 'foober' etc. but not 'foobbr', 'foobcr' etc.  
+foob\[\>aeiou\]r|find strings 'foobbr', 'foobcr' etc. but not 'foobar', 'foober' etc.  
 
 Within a list, the "- character is used to specify a range, so that a-z represents all characters between "a and "z, inclusive. If you want "- itself to be a member of a class, put it at the start or end of the list, or escape it with a backslash. If you want '\]' you may place it at the start of list or escape it with a backslash.  
 
 Examples  
-\(.* ?)|will return any printable character (i.e. not spaces, newlines, etc)  
+
+   |   
 --- | ---  
-\<a (.* ?) > (.* ?) </a>|will return the content of the <a> tag on the first output, and the text in between on the second output  
---- | ---  
-\( foob [0-9]|a+ r ) |will return all words like 'foob0r', 'foob1r' , 'foobar', 'foobaar', 'foobaaar', ... which will appear in the input text.  
---- | ---  
-\( [_a-zA-Z\d\-\.]+ @ [_a-zA-Z\d\-]+ (\.[_a-zA-Z\d\-]+)+ ) |will return all email addresses in a text.  
+\[-az\]|matches 'a', 'z' and '-'  
+\[az-\]|matches 'a', 'z' and '-'  
+\[a\-z\]|matches 'a', 'z' and '-'  
+\[a-z\]|matches all twenty six small characters from 'a' to 'z'  
+\[\n-\x0D\]|matches any of #10,#11,#12,#13.  
+\[\d-t\]|matches any digit, '-' or 't'.  
+\[\]-a\]|matches any char from '\]'..'a'.  
 
 ## White Space
 All whitespace in the regexp is ignored. You can use this to break up your regular expression into (slightly) more readable parts. The # character is also treated as a meta character introducing a comment, for example:  
@@ -161,33 +160,36 @@ All whitespace in the regexp is ignored. You can use this to break up your regul
 This also means that if you want real white space or # characters in the pattern that you'll either have to escape them.  
 
 ## Line separators
-\(.* ?)|will return any printable character (i.e. not spaces, newlines, etc)  
+
+   |   
 --- | ---  
-\<a (.* ?) > (.* ?) </a>|will return the content of the <a> tag on the first output, and the text in between on the second output  
---- | ---  
-\( foob [0-9]|a+ r ) |will return all words like 'foob0r', 'foob1r' , 'foobar', 'foobaar', 'foobaaar', ... which will appear in the input text.  
---- | ---  
-\( [_a-zA-Z\d\-\.]+ @ [_a-zA-Z\d\-]+ (\.[_a-zA-Z\d\-]+)+ ) |will return all email addresses in a text.  
+\\|start of line   
+$|end of line   
+\A|start of text   
+\Z|end of text   
+.|any character in line  
 
 Examples  
-\(.* ?)|will return any printable character (i.e. not spaces, newlines, etc)  
+
+   |   
 --- | ---  
-\<a (.* ?) > (.* ?) </a>|will return the content of the <a> tag on the first output, and the text in between on the second output  
---- | ---  
-\( foob [0-9]|a+ r ) |will return all words like 'foob0r', 'foob1r' , 'foobar', 'foobaar', 'foobaaar', ... which will appear in the input text.  
---- | ---  
-\( [_a-zA-Z\d\-\.]+ @ [_a-zA-Z\d\-]+ (\.[_a-zA-Z\d\-]+)+ ) |will return all email addresses in a text.  
+\>foobar|matches string 'foobar' only if it's at the beginning of line  
+foobar$|matches string 'foobar' only if it's at the end of line  
+\ foobar$|matches string 'foobar' only if it's the only string in line  
+foob.r|matches strings like 'foobar', 'foobbr', 'foob1r' and so on  
 
 "\>" is at the beginning of an input string, and also immediately following any occurrence of \x0D\x0A or \x0A or \x0D. Note that there is no empty line within the sequence \x0D\x0A. "$" is at the end of a input string, and also immediately preceding any occurrence of \x0D\x0A or \x0A or \x0D. Note that there is no empty line within the sequence \x0D\x0A. "." matches any character (also \x0D\x0A and \x0A and \x0D) Note that "\ .\* $" (an empty line pattern) does not match the empty string within the sequence \x0D\x0A, but matches the empty string within the sequence \x0A\x0D.  
 
 ## Predefined classes
-\(.* ?)|will return any printable character (i.e. not spaces, newlines, etc)  
+
+   |   
 --- | ---  
-\<a (.* ?) > (.* ?) </a>|will return the content of the <a> tag on the first output, and the text in between on the second output  
---- | ---  
-\( foob [0-9]|a+ r ) |will return all words like 'foob0r', 'foob1r' , 'foobar', 'foobaar', 'foobaaar', ... which will appear in the input text.  
---- | ---  
-\( [_a-zA-Z\d\-\.]+ @ [_a-zA-Z\d\-]+ (\.[_a-zA-Z\d\-]+)+ ) |will return all email addresses in a text.  
+\w|an alphanumeric character (including "_")  
+\W|a non-alphanumeric  
+\d|a numeric character  
+\D|a non-numeric  
+\s|any space (same as \[ \t\n\r\f\])  
+\S|a non space  
 
 You may use \w, \d and \s within custom character classes.  
 
@@ -195,35 +197,39 @@ The alphanumeric characters include also:
 Š Œ Ž š œ ž Ÿ À Á Â Ã Ä Å Æ Ç È É Ê Ë Ì Í Î Ï Ð Ñ Ò Ó Ô Õ Ö × Ø Ù Ú Û Ü Ý Þ ß à á â ã ä å æ ç è é ê ë ì í î ï ð ñ ò ó ô õ ö ÷ ø ù ú û ü ý þ ÿ  
 
 Examples  
-\(.* ?)|will return any printable character (i.e. not spaces, newlines, etc)  
+
+   |   
 --- | ---  
-\<a (.* ?) > (.* ?) </a>|will return the content of the <a> tag on the first output, and the text in between on the second output  
---- | ---  
-\( foob [0-9]|a+ r ) |will return all words like 'foob0r', 'foob1r' , 'foobar', 'foobaar', 'foobaaar', ... which will appear in the input text.  
---- | ---  
-\( [_a-zA-Z\d\-\.]+ @ [_a-zA-Z\d\-]+ (\.[_a-zA-Z\d\-]+)+ ) |will return all email addresses in a text.  
+foob\dr|matches strings like 'foob1r', foob6r' and so on but not 'foobar', 'foobbr' and so on  
+foob\[\w\s\]r|matches strings like 'foobar', 'foob r', 'foobbr' and so on but not 'foob1r', 'foob=r' and so on  
 
 ## Word boundaries
-\(.* ?)|will return any printable character (i.e. not spaces, newlines, etc)  
+
+   |   
 --- | ---  
-\<a (.* ?) > (.* ?) </a>|will return the content of the <a> tag on the first output, and the text in between on the second output  
---- | ---  
-\( foob [0-9]|a+ r ) |will return all words like 'foob0r', 'foob1r' , 'foobar', 'foobaar', 'foobaaar', ... which will appear in the input text.  
---- | ---  
-\( [_a-zA-Z\d\-\.]+ @ [_a-zA-Z\d\-]+ (\.[_a-zA-Z\d\-]+)+ ) |will return all email addresses in a text.  
+\b|Match a word boundary   
+\B|Match a non-word boundary  
 
 A word boundary (\b) is a spot between two characters that has a \w on one side of it and a \W on the other side of it (in either order), counting the imaginary characters off the beginning and end of the string as matching a \W.  
 
 ## Iterators & Greediness
 
 Any item of a regular expression may be followed by another type of metacharacters: iterators. Using this metacharacters You can specify number of occurrences of previous character, metacharacter or subexpression.  
-\(.* ?)|will return any printable character (i.e. not spaces, newlines, etc)  
+
+   |   
 --- | ---  
-\<a (.* ?) > (.* ?) </a>|will return the content of the <a> tag on the first output, and the text in between on the second output  
---- | ---  
-\( foob [0-9]|a+ r ) |will return all words like 'foob0r', 'foob1r' , 'foobar', 'foobaar', 'foobaaar', ... which will appear in the input text.  
---- | ---  
-\( [_a-zA-Z\d\-\.]+ @ [_a-zA-Z\d\-]+ (\.[_a-zA-Z\d\-]+)+ ) |will return all email addresses in a text.  
+\*|zero or more ("greedy"), similar to {0,}  
++|one or more ("greedy"), similar to {1,}  
+?|zero or one ("greedy"), similar to {0,1}  
+{n}|exactly n times ("greedy")  
+{n,}|at least n times ("greedy")  
+{n,m}|at least n but not more than m times ("greedy")  
+\*  ?|zero or more ("non-greedy"), similar to {0,}?  
++?|one or more ("non-greedy"), similar to {1,}?  
+??|zero or one ("non-greedy"), similar to {0,1}?  
+(n}?|exactly n times ("non-greedy")  
+{n,}?|at least n times ("non-greedy")  
+{n,m}?|at least n but not more than m times ("non-greedy")  
 
 So, digits in curly brackets of the form {n,m}, specify the minimum number of times to match the item n and the maximum m. The form {n} is equivalent to {n,n} and matches exactly n times. The form {n,} matches n or more times. There is no limit to the size of n or m, but large numbers will chew up more memory and slow down r.e. execution. If a curly bracket occurs in any other context, it is treated as a regular character.  
 
@@ -231,13 +237,13 @@ A little explanation about greediness: "Greedy" takes as many as possible; "non-
 
 Examples  
 
-\(.* ?)|will return any printable character (i.e. not spaces, newlines, etc)  
+   |   
 --- | ---  
-\<a (.* ?) > (.* ?) </a>|will return the content of the <a> tag on the first output, and the text in between on the second output  
---- | ---  
-\( foob [0-9]|a+ r ) |will return all words like 'foob0r', 'foob1r' , 'foobar', 'foobaar', 'foobaaar', ... which will appear in the input text.  
---- | ---  
-\( [_a-zA-Z\d\-\.]+ @ [_a-zA-Z\d\-]+ (\.[_a-zA-Z\d\-]+)+ ) |will return all email addresses in a text.  
+foob.\* r|matches strings like 'foobar', 'foobalkjdflkj9r' and 'foobr'   
+foob.+r|matches strings like 'foobar', 'foobalkjdflkj9r' but not 'foobr'   
+foob.?r|matches strings like 'foobar', 'foobbr' and 'foobr' but not 'foobalkj9r'   
+fooba{2}r|matches the string 'foobaar' fooba{2,}r matches strings like 'foobaar', 'foobaaar', 'foobaaaar' etc.   
+fooba{2,3}r|matches strings like 'foobaar', or 'foobaaar' but not 'foobaaaar'  
 
 ### Excourse
 
@@ -254,13 +260,12 @@ foo(bar|foo) matches strings 'foobar' or 'foofoo'.
 ## Back references
 
 Metacharacters \1 through \9 are interpreted as back references. \<n> matches previously matched subexpression #<n>. Examples  
-\(.* ?)|will return any printable character (i.e. not spaces, newlines, etc)  
+
+   |   
 --- | ---  
-\<a (.* ?) > (.* ?) </a>|will return the content of the <a> tag on the first output, and the text in between on the second output  
---- | ---  
-\( foob [0-9]|a+ r ) |will return all words like 'foob0r', 'foob1r' , 'foobar', 'foobaar', 'foobaaar', ... which will appear in the input text.  
---- | ---  
-\( [_a-zA-Z\d\-\.]+ @ [_a-zA-Z\d\-]+ (\.[_a-zA-Z\d\-]+)+ ) |will return all email addresses in a text.  
+(.)\1+|matches 'aaaa' and 'cc'.  
+(.+)\1+|also match 'abab' and '123123'  
+(\['"\]?)(\d+)\1|matches '"13" (in double quotes), or '4' (in single quotes) or 77 (without quotes) etc  
 
 ## Perl extensions
 (?imsxr-imsxr) You may use the above syntax to set modifiers in the regexp on the fly. Use this at your own risk and consult the original documentation.  

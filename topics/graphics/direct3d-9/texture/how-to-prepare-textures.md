@@ -26,13 +26,9 @@ Format Comparison
 FOURCC|Description|Alpha premultiplied|Compression ratio|Picture Type  
 --- | --- | --- | --- | ---  
 DXT1|Opaque / 1-bit Alpha|N/A|8:1 / 6:1|Simple non-alpha  
---- | --- | --- | --- | ---  
 DXT2|Explicit alpha|Yes|4:1|Sharp alpha  
---- | --- | --- | --- | ---  
 DXT3|Explicit alpha|No|4:1|Sharp alpha  
---- | --- | --- | --- | ---  
 DXT4|Interpolated alpha|Yes|4:1|Gradient alpha  
---- | --- | --- | --- | ---  
 DXT5|Interpolated alpha|No|4:1|Gradient alpha  
 
 see how it works: <a href="http://en.wikipedia.org/wiki/DXT_%28file_format%29" class="extURL" target="_blank">Wikipedia DXT file format</a>

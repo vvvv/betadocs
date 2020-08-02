@@ -23,5 +23,21 @@
 		  "<span class=\"keyseq\"><kbd>$TM_SELECTED_TEXT</kbd></span>"
 		],
 		"description": "Wraps selection into <kbd> tag."
-	  }
+	  },
+
+	"Markdown Link Wrapper": {
+		"prefix": "_ml",
+		"body": [
+		  "[$TM_SELECTED_TEXT]()"
+		],
+		"description": "Wraps selection into MD Link"
+	  },
+
+	"HTML External Link Wrapper": {
+		"prefix": "_l",
+		"body": [
+		  "<a href=\"\" tagret=\"blank\" class=\"extURL\">[$TM_SELECTED_TEXT]</a>"
+		],
+		"description": "Wraps selection into External HTML Tag"
+	}
 }

@@ -12,33 +12,19 @@ If you have a pc with that yellow female 15pin subd game plug, you can very easy
 pin|purpose  
 --- | ---  
 1       |+5V
---- | ---  
 2       |A1 button
---- | ---  
 3       |AX potentiometer
---- | ---  
 4       |GND
---- | ---  
 5       |GND
---- | ---  
 6       |AY potentiometer
---- | ---  
 7       |A2 button
---- | ---  
 8       |unused
---- | ---  
 9       |+5V
---- | ---  
 10      |B1 button
---- | ---  
 11      |BX potentiometer
---- | ---  
 12      |MIDI TXD (computer -> midi)
---- | ---  
 13      |BY potentiometer
---- | ---  
 14      |B2 button
---- | ---  
 15      |MIDI RXD  (midi -> computer)
 
 Connect up to four switches between the four button pins and GND  
@@ -125,4 +111,4 @@ make sure to use Setting 3 with vvvv
 
 
   
-
+
