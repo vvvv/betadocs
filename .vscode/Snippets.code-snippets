@@ -20,7 +20,7 @@
 	"Keyboard Shortcut Wrapper": {
 		"prefix": "_k",
 		"body": [
-		  "<kbd>$TM_SELECTED_TEXT</kbd>"
+		  "<span class=\"keyseq\"><kbd>$TM_SELECTED_TEXT</kbd></span>"
 		],
 		"description": "Wraps selection into <kbd> tag."
 	  }

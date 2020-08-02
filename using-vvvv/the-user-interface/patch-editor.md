@@ -12,15 +12,15 @@ uid: eadba77d-7040-4ee8-8ca3-5d6419556323
 When vvvv starts all you see is a virgin gray window, a so called patch. Welcome to vvvv.  
 
 **How to open:**  
-* <kbd>Ctrl+P</kbd> to create a new patch  
-* <kbd>Ctrl+Shift+P</kbd> to create a new subpatch  
+* <span class="keyseq"><kbd>Ctrl</kbd><kbd>P</kbd></span> to create a new patch  
+* <span class="keyseq"><kbd>Ctrl</kbd><kbd>Shift</kbd><kbd>P</kbd></span> to create a new subpatch  
 
 **Symbols in the title bar**  
 * \* the patch has changes  
 * \~ the patch has only layout changes  
 * \+ the patch is readonly  
 * \# the patch is [locked](xref:10b82e0c-720a-48e1-91e4-d8c65d2c3be1#locking-a-patch)  
-* ° the patch is always the topmost window (toggle via <kbd>CTRL+T</kbd>)  
+* ° the patch is always the topmost window (toggle via <span class="keyseq"><kbd>CTRL</kbd><kbd>T</kbd></span>)  
 
 For more info on how to operate in the patch editor see:  
 * [The Patching Guide](xref:e1dde3b5-3f01-4d9b-bacb-0863b350f479)  

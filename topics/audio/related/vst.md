@@ -15,7 +15,7 @@ A newer one which also works with 64 bit vvvv is here:
 
 VVVV is not shipping with any vst-plugin. See below for a listing of some free effects or get any other and put the files (or a directory that contains .dll plus possibly associated files such as soundbanks etc.) into   
  \lib\nodes\vst
-Start vvvv and the plugin should now be available among the VST category in the nodebrowser. There is no generic vst-node, every vst-node is a wrapper for a specific vst-plugin and is named after it. Click on the plugin in the list and a node is created, which has an associated window showing the GUI of the plugin. This window can be closed/opened as usual by pressing <kbd>Alt+1</kbd> or <kbd>Alt+3</kbd>.  
+Start vvvv and the plugin should now be available among the VST category in the nodebrowser. There is no generic vst-node, every vst-node is a wrapper for a specific vst-plugin and is named after it. Click on the plugin in the list and a node is created, which has an associated window showing the GUI of the plugin. This window can be closed/opened as usual by pressing <span class="keyseq"><kbd>Alt</kbd><kbd>1</kbd></span> or <span class="keyseq"><kbd>Alt</kbd><kbd>3</kbd></span>.  
 
 Per default the plugin shows two input pins and one output pin. The input pin must be connected to an audiosource-node (Waveplayer/Sourcebuffer/Filestream) or another vst-plugin (but still with an audiosource-node at the beginning of the chain). Vst-instruments must have an audio-input too. As vst-instruments overwrite the audiostream completely, it has no use to chain a vst-plugin before the vst-instrument. Vst-effects can be chained arbitrarily.  
  

@@ -139,7 +139,7 @@ just doubleclick for new node,
 start typing C-L-I- ,  
 select clipboardpatch,   
 copy all you need,   
-<kbd>CTRL-W</kbd> to close clipboardpatch (there is no dialog because you didn't change anything),   
+<span class="keyseq"><kbd>CTRL</kbd><kbd>W</kbd></span> to close clipboardpatch (there is no dialog because you didn't change anything),   
 paste inside your patch.  
 
 
@@ -149,7 +149,7 @@ paste inside your patch.
 
 >you could also use the "very basic help"-patch assuming that you don't need it anymore.  
 
-**Advantage:** even faster! just hit <kbd>F1</kbd> when nothing is selected.  
+**Advantage:** even faster! just hit <span class="keyseq"><kbd>F1</kbd></span> when nothing is selected.  
 
 **Disadvantage:** when migrating with all your files between those fast changing beta versions you will for sure forget to copy that helpfile...  
 
@@ -158,7 +158,7 @@ paste inside your patch.
 When you stick to the [Conventions.NodeAndPinNaming](xref:db8592a2-03c3-4e8c-a540-d11df5e83078) you can make helppatches for almost everything:  
 ^a subpatch named **foobar.v4p** can have a patch **foobar help.v4p** located in the same folder.  
 
-with <kbd>F1</kbd> on that **foobar** node the helppatch is started.  
+with <span class="keyseq"><kbd>F1</kbd></span> on that **foobar** node the helppatch is started.  
 
 same for shaders and freeframe.dlls:  
 **FooFoo.fx** can have a helpfile **FooFoo help.v4p**  

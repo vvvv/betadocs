@@ -43,13 +43,13 @@ In this tutorial I will show you how to make a node in vvvv, connect some IOBoxe
 
 ## Tutorial 4: Save and Open and the XML File   
 
-I will show how to save <kbd>CTRL-S</kbd> and open your vvvv patches, and what the mysterious XML file is.   
+I will show how to save <span class="keyseq"><kbd>CTRL</kbd><kbd>S</kbd></span> and open your vvvv patches, and what the mysterious XML file is.   
 
 <a href="https://www.youtube.com/watch?v=uanln9v7oN0" class="extURL youtube" target="_blank">Video</a>  
 
 ## Tutorial 5: Renderer and show some Text   
 
-In this little vvvv tutorial I will be showing how to create a renderer (DX9), what the 4 display styles (<kbd>ALT-1</kbd>, <kbd>ALT-2</kbd>. <kbd>ALT-3</kbd> and <kbd>ALT-Enter</kbd>) are and we are going to show a little text that we transform so it gets a bit smaller.   
+In this little vvvv tutorial I will be showing how to create a renderer (DX9), what the 4 display styles (<span class="keyseq"><kbd>ALT</kbd><kbd>1</kbd></span>, <span class="keyseq"><kbd>ALT</kbd><kbd>2</kbd></span>. <span class="keyseq"><kbd>ALT</kbd><kbd>3</kbd></span> and <span class="keyseq"><kbd>ALT</kbd><kbd>Enter</kbd></span>) are and we are going to show a little text that we transform so it gets a bit smaller.   
 
 <a href="https://www.youtube.com/watch?v=VkiDsOTmqCs" class="extURL youtube" target="_blank">Video</a>  
 
@@ -69,7 +69,7 @@ Next we rebuild the Hallo World patch from our previous tutorial and than I will
 
 ## Tutorial 8: Herr Inspektor
 
-Learn what the Herr Inspektor in vvvv is all about. I will show you how to make one <kbd>CTRL-I</kbd>, about hidden and connect-able pins, descriptive names, attaching it to a node and manipulating data, even on multiple nodes. Also not forget the very handy <kbd>CTRL-T</kbd> to make it always stay on top.   
+Learn what the Herr Inspektor in vvvv is all about. I will show you how to make one <span class="keyseq"><kbd>CTRL</kbd><kbd>I</kbd></span>, about hidden and connect-able pins, descriptive names, attaching it to a node and manipulating data, even on multiple nodes. Also not forget the very handy <span class="keyseq"><kbd>CTRL</kbd><kbd>T</kbd></span> to make it always stay on top.   
 
 <a href="https://www.youtube.com/watch?v=G7KU8M-9qow" class="extURL youtube" target="_blank">Video</a>  
 
@@ -95,7 +95,7 @@ In this vvvv tutorial, I will show how to set up an IObox so we can manually ins
 
 ## Tutorial 12: Helpfiles, F1 and Comments
 
-In this tutorial I will show the best way to learn vvvv, just hit <kbd>F1</kbd> on every node you see!!  
+In this tutorial I will show the best way to learn vvvv, just hit <span class="keyseq"><kbd>F1</kbd></span> on every node you see!!  
 I will show you what a comment is and how to make a comment yourself.   
 
 <a href="https://www.youtube.com/watch?v=9AdGmsr6IME" class="extURL youtube" target="_blank">Video</a>  
@@ -110,9 +110,9 @@ Than I will show how to connect more than one object to the renderer, and as des
 
 ## Tutorial 14: Scrolling, Moving, Copy, Paste and Align
 
-In this tutorial I will be showing some of the essential basics for navigating through a patch in vvvv. You can right-click and hold to drag, use your mouse-wheel for scrolling up and down, and holding <kbd>ALT</kbd> while scrolling for left and right scrolling, use the <kbd>CTRL</kbd> key to speed scrolling.   
+In this tutorial I will be showing some of the essential basics for navigating through a patch in vvvv. You can right-click and hold to drag, use your mouse-wheel for scrolling up and down, and holding <span class="keyseq"><kbd>ALT</kbd></span> while scrolling for left and right scrolling, use the <span class="keyseq"><kbd>CTRL</kbd></span> key to speed scrolling.   
 
-Use the arrow keys to reposition a node, and hold the SHIFT key to do that faster. Copy <kbd>CTRL+C</kbd> and Paste <kbd>CTRL+V</kbd> you nodes or just Duplicate <kbd>CTRL+D</kbd> them. Use notepad to check your clipboard.   
+Use the arrow keys to reposition a node, and hold the SHIFT key to do that faster. Copy <span class="keyseq"><kbd>CTRL</kbd><kbd>C</kbd></span> and Paste <span class="keyseq"><kbd>CTRL</kbd><kbd>V</kbd></span> you nodes or just Duplicate <span class="keyseq"><kbd>CTRL</kbd><kbd>D</kbd></span> them. Use notepad to check your clipboard.   
 
 <a href="https://www.youtube.com/watch?v=u9oHbEfLO_Y" class="extURL youtube" target="_blank">Video</a>  
 
@@ -120,7 +120,7 @@ Use the arrow keys to reposition a node, and hold the SHIFT key to do that faste
 
 Making a connection in vvvv is done by left clicking an Inlet, and than to connect to an outlet. To connect one outlet, to multiple inlets, just right click on the outlet, and than you can make multiple connections.   
 
-You can switch the connection style to either the Bézier (curved), or HVH (horizontal vertical horizontal) look, by pressing <kbd>CTRL-Y</kbd> on a selected connection.   
+You can switch the connection style to either the Bézier (curved), or HVH (horizontal vertical horizontal) look, by pressing <span class="keyseq"><kbd>CTRL</kbd><kbd>Y</kbd></span> on a selected connection.   
 
 <a href="https://www.youtube.com/watch?v=hi0lKBf6U4k" class="extURL youtube" target="_blank">Video</a>  
 
@@ -128,7 +128,7 @@ You can switch the connection style to either the Bézier (curved), or HVH (hori
 
 First we will make a vvvv patch, so I have something to demonstrate the power of hidden nodes and locked patches, it is going to be a very cool sinus wave, made from some pillows.   
 
-You can lock a lock/unlock a patch with <kbd>CTRL-E</kbd>, the # sign on the to left in the patch will tell you if it is locked or not. Using <kbd>CTRL-H</kbd> (hide) on nodes and connections, will change them to a lighter grey, and when you lock a patch, the hidden nodes are really hidden.   
+You can lock a lock/unlock a patch with <span class="keyseq"><kbd>CTRL</kbd><kbd>E</kbd></span>, the # sign on the to left in the patch will tell you if it is locked or not. Using <span class="keyseq"><kbd>CTRL</kbd><kbd>H</kbd></span> (hide) on nodes and connections, will change them to a lighter grey, and when you lock a patch, the hidden nodes are really hidden.   
 
 This is an easy way to make other people use your work. It doesn't replace a real GUI, but when you are in hurry, it might just work great.  
 
@@ -213,7 +213,7 @@ The patch can be downloaded here: [/tiki-download_file.php?fileId=2098](https://
 
 In this second part of the tutorial we are going to connect some beat detection to our previous prepared Rope node.  
 
-We are creating a Beatdetector (Value), press <kbd>F1</kbd> to go to the helpfile, select our audio source in the AudioRecordSelector node, select what we want to copy, than hit <kbd>CTRL-C</kbd>, to copy the help patch to the clipboard. Move over to the original patch, hoover above a suited location, and hit <kbd>CTRL-V</kbd> to paste.  
+We are creating a Beatdetector (Value), press <span class="keyseq"><kbd>F1</kbd></span> to go to the helpfile, select our audio source in the AudioRecordSelector node, select what we want to copy, than hit <span class="keyseq"><kbd>CTRL</kbd><kbd>C</kbd></span>, to copy the help patch to the clipboard. Move over to the original patch, hoover above a suited location, and hit <span class="keyseq"><kbd>CTRL</kbd><kbd>V</kbd></span> to paste.  
 
 All we need to do now is make the connection from BangOUT to the IOBox (value) that is triggering the random (value) node.  
 
@@ -290,7 +290,7 @@ As a cool extra, I show a nice little GUI function to get IOboxes with names the
 
 ## Tutorial 33: Framerates and Bangs 
 
-In this vvvv tutorial, I will explain what it means that vvvv runs in a certain framerate, or FPS, frames per second. I show you how to see your FPS, using Timing (Debug). I will also show you some hints on how to improve your FPS, with the Mainloop (VVVV) node and the Debug Mode <kbd>CTRL+F9</kbd>.  
+In this vvvv tutorial, I will explain what it means that vvvv runs in a certain framerate, or FPS, frames per second. I show you how to see your FPS, using Timing (Debug). I will also show you some hints on how to improve your FPS, with the Mainloop (VVVV) node and the Debug Mode <span class="keyseq"><kbd>CTRL</kbd><kbd>F9</kbd></span>.  
 
 Once you understand frames, you understand what a Bang is. A value of 1 during 1 vvvv frame. This tutorial is only an introduction for Bangs.  
 
@@ -318,7 +318,7 @@ I always use the counter to know if I am receiving my bangs, and that is why thi
 
 In this vvvv tutorial, I will show you what the <span class="node">S+H (animation)</span> node does, and how to use it. If you bang the set pin, you can freeze the value that is connected to input pin.   
 
-I also show what the hidden "set on create" pin does. Use Herr Inspector <kbd>CTRL+I</kbd> to reach the pin.   
+I also show what the hidden "set on create" pin does. Use Herr Inspector <span class="keyseq"><kbd>CTRL</kbd><kbd>I</kbd></span> to reach the pin.   
 
 Next a little demonstration on how to make a line follow the mouse, between 2 clicks, and a scratch on the surface about the <span class="node">Vector (2D join)</span> and  <span class="node">Vector (2D split)</span> nodes.  
 
@@ -336,7 +336,7 @@ The nodes are <span class="node">Toggle (animation)</span>, <span class="node">F
 
 In this vvvv tutorial I will show you all the pins of the <span class="node">LFO (Animation)</span>. The LFO is one of the most used nodes in vvvv, it does nothing else than counting up from 0 to 1 in one period.  
 
-The 2 nodes that are used a lot to change the output of the LFO are the <span class="node">Waveshaper (Value)</span> and <span class="node">Gamma (Value)</span>. The helppatch <kbd>F1</kbd> will show what they do.  
+The 2 nodes that are used a lot to change the output of the LFO are the <span class="node">Waveshaper (Value)</span> and <span class="node">Gamma (Value)</span>. The helppatch <span class="keyseq"><kbd>F1</kbd></span> will show what they do.  
 
 Next I will make spread of different, random LFO's, to rotate some quads in a circle.  
 
@@ -344,7 +344,7 @@ Next I will make spread of different, random LFO's, to rotate some quads in a ci
 
 ## Tutorial 39: Framedelay, create Loops or Delay a Value 
 
-In this vvvv tutorial I will introduce the <span class="node">FrameDelay (Animation)</span>. We can use it to make feedback or a loop. The helpfile <kbd>F1</kbd> will give an example of a feedback loop.  
+In this vvvv tutorial I will introduce the <span class="node">FrameDelay (Animation)</span>. We can use it to make feedback or a loop. The helpfile <span class="keyseq"><kbd>F1</kbd></span> will give an example of a feedback loop.  
 
 I will show you how to use the <span class="node">Max (Value)</span> with a framedelay, so we can figure out what the highest value is the max ever received on one pin. Next I will show how and why, you want to delay a Bang for 1 frame, while resetting an <span class="node">LFO (Animation)</span> and sample and holding <span class="node">S+H (Animation)</span>, it at the same time.  
 

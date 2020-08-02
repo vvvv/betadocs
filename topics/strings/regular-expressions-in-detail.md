@@ -16,7 +16,7 @@ example
 What is the best way to split this string into id an the corresponding value?  
 
 ### Answer
-Create a <span class="node">RegExpr (String)</span> node. Note that this node has an elaborate help patch - select the node and press <kbd>F1</kbd>.  
+Create a <span class="node">RegExpr (String)</span> node. Note that this node has an elaborate help patch - select the node and press <span class="keyseq"><kbd>F1</kbd></span>.  
 Open up Herr Inspektor and enter the following string in the *Regular Expression* configuration input:  
  id_ ( \d+ ) \s ( \d+ )
 You will now notice two additional outputs of the node.   

@@ -103,17 +103,17 @@ In order to specify a constant value for a pin that can easily be tweaked, conne
 ![](~/img/BasicPatching_IOBoxValueTypes.png "")   
 
 * Left-doubleclick to enter a new value (also try math formulas.  
-* <kbd>Alt</kbd>+Rightclick to reset to default value.  
+* <span class="keyseq"><kbd>Alt</kbd></span>+Rightclick to reset to default value.  
 
 **Real and Integer Values**  
 
 Right-drag in the IOBox vertically to change its value and optionally modify the stepsize by pressing:  
-* <kbd>SHIFT</kbd> to divide by 10  
-* <kbd>CTRL</kbd> to divide by 10  
-* <kbd>CTRL+SHIFT</kbd> to divide by 100  
-* <kbd>ALT+SHIFT</kbd> to multiply by 10  
-* <kbd>ALT+CTRL</kbd> to multiply by 10  
-* <kbd>ALT+CTRL+SHIFT</kbd> to multiply by 100  
+* <span class="keyseq"><kbd>SHIFT</kbd></span> to divide by 10  
+* <span class="keyseq"><kbd>CTRL</kbd></span> to divide by 10  
+* <span class="keyseq"><kbd>CTRL</kbd><kbd>SHIFT</kbd></span> to divide by 100  
+* <span class="keyseq"><kbd>ALT</kbd><kbd>SHIFT</kbd></span> to multiply by 10  
+* <span class="keyseq"><kbd>ALT</kbd><kbd>CTRL</kbd></span> to multiply by 10  
+* <span class="keyseq"><kbd>ALT</kbd><kbd>CTRL</kbd><kbd>SHIFT</kbd></span> to multiply by 100  
 
 **Boolean values**  
 
@@ -124,7 +124,7 @@ Right-drag in the IOBox vertically to change its value and optionally modify the
 **Slider**  
 * Right-drag to change it.  
 
-Press <kbd>F1</kbd> on an IOBox to get different readily configured options that you can copy-paste into your patches as needed.   
+Press <span class="keyseq"><kbd>F1</kbd></span> on an IOBox to get different readily configured options that you can copy-paste into your patches as needed.   
 
 
 ### Color
@@ -152,7 +152,7 @@ Right click in the IOBox to invoke the operation according to its subtype, see [
 * *filename* - open dialog will pop up  
 * *directory* - open dialog will pop up  
 
-Note that no matter what subtype the string is if you press <kbd>CTRL</kbd> while right clicking the file-open dialog will appear. Pressing <kbd>SHIFT</kbd> will invoke the directory-open dialog.  
+Note that no matter what subtype the string is if you press <span class="keyseq"><kbd>CTRL</kbd></span> while right clicking the file-open dialog will appear. Pressing <span class="keyseq"><kbd>SHIFT</kbd></span> will invoke the directory-open dialog.  
 
 ### Enumeration
 
@@ -167,5 +167,5 @@ The enumeration IOBox can also be switched into a 'List' mode. Open the Inspekto
 
 ![](~/img/BasicPatching_Kontrolleur.png "")   
 
-IOBoxes tinted green are exposed for being controlled from the outside. Use <kbd>CTRL+K</kbd> to toggle exposing. See [Kontrolleur](xref:c8fd4535-8b7a-4861-abf1-580520daff26) for more information.   
+IOBoxes tinted green are exposed for being controlled from the outside. Use <span class="keyseq"><kbd>CTRL</kbd><kbd>K</kbd></span> to toggle exposing. See [Kontrolleur](xref:c8fd4535-8b7a-4861-abf1-580520daff26) for more information.   
 

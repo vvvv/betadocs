@@ -100,13 +100,13 @@ The second one contains mixed managed/unmanaged plugins that can only be built o
 ### Using Visual Studio 2015
 * open Addonpack.sln  
 * make sure: Build -> Configuration Manager -> Active Build Platform is set to *x86*  
-* build it <kbd>F7</kbd>  
+* build it <span class="keyseq"><kbd>F7</kbd></span>  
 
 ### Using SharpDevelop 5
 * open Addonpack.sln  
 * make sure: Build -> Set Platform is set to *x86*  
 * update nugets: Project -> Restore Packages  
-* build it <kbd>F8</kbd>  
+* build it <span class="keyseq"><kbd>F8</kbd></span>  
 
 Building may take a while and is supposed to return with "Build Successfull. 0 Errors" in which case you're done and can close the solution.
 
@@ -211,4 +211,4 @@ Building the solutions as 64bit only works with Visual Studio 2015 for now since
 
 When building the pack as 64bit you'll also need the according 64bit alpha of vvvv.exe which you can get by manually calling:  
  scripts/fetch-binaries x64
-from the bash (remember: <kbd>Ctrl+G</kbd> in GitExtensions).
+from the bash (remember: <span class="keyseq"><kbd>Ctrl</kbd><kbd>G</kbd></span> in GitExtensions).

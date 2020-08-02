@@ -39,7 +39,7 @@ Prohibits registration of addflow, directshowfilter and .v4p filetype.
 #### /shutup
 
 
-Finishes your project in a clean way: starts vvvv without patch windows. Only renderers are displayed. Only the <kbd>ALT-F4</kbd> shortcut works.  
+Finishes your project in a clean way: starts vvvv without patch windows. Only renderers are displayed. Only the <span class="keyseq"><kbd>ALT</kbd><kbd>F4</kbd></span> shortcut works.  
 
 
 

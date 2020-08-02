@@ -5,7 +5,7 @@ uid: be2a7b95-9a02-4bdf-8506-e10292de80f4
 # Addonpack Modules
 Here is how you prepare modules for the addonpack:  
 
-* add Author, Description, Tags to the module via <kbd>Ctrl-M</kbd>  
+* add Author, Description, Tags to the module via <span class="keyseq"><kbd>Ctrl</kbd><kbd>M</kbd></span>  
 * respect [Conventions.NodeAndPinNaming](xref:db8592a2-03c3-4e8c-a540-d11df5e83078)  
 * add a helpful helppatch, see [Conventions.HelpPatch](xref:07824e2d-da59-4df0-9f49-a143dc0f7625)  
 

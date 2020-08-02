@@ -5,7 +5,7 @@ uid: 7aa93595-ec96-4758-8076-0e00e4cf8bf6
 # Cloning an Effect
 When starting to create a new effect it is often helpful to work from an existing one. In the EX9.Effect node category you can find the Template (EX9.Effect) which is such a good starting point (but you can also start from any other effect in the category).   
 * hover the effect in the NodeBrowser  
-* press <kbd>CTRL+Enter</kbd> or <kbd>CTRL</kbd>+Click to clone it  
+* press <span class="keyseq"><kbd>CTRL</kbd><kbd>Enter</kbd></span> or <span class="keyseq"><kbd>CTRL</kbd></span>+Click to clone it  
 * specify a name   
 * if your patch is not yet saved you'll also have to specify a path for the cloned effect to be copied to  
 * rightlclick the newly created node in order to edit its code  

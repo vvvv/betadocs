@@ -4,7 +4,7 @@ uid: 0eba8ae6-32fc-4dcd-a96a-9161121a0480
 
 # Mouse & Keyboard
 
-The user interface of vvvv has been designed to be used with a three-button mouse. If you don't have a middle mousebutton in vvvv you can always simulate a middle-click using <kbd>SPACE</kbd>+rightclick.  
+The user interface of vvvv has been designed to be used with a three-button mouse. If you don't have a middle mousebutton in vvvv you can always simulate a middle-click using <span class="keyseq"><kbd>SPACE</kbd></span>+rightclick.  
 
 Also vvvv's ease of use heavily relies on shortcuts. Here is how you can learn about them:   
 

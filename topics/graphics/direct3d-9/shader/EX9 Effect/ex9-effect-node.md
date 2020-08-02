@@ -7,7 +7,7 @@ There are different ways to create effect nodes in vvvv. You can simply instanti
 
 You can also dragdrop any effect file (with the extension .fx) onto a patch or from the menu select *Open in Patch* and select an effect file.  
 
-If you want to create an all new effect it is best to start from a simple template, that has the basic structure already laid out. The <span class="node">Template (EX9.Effect)</span> node is what you're looking for. In the NodeBrowser look for this node but instead of simply creating it, clone it via <kbd>CTRL+Enter</kbd> or <kbd>CTRL+Click</kbd>. Give it a new unique name and vvvv will make a copy of the template you can now start from.  
+If you want to create an all new effect it is best to start from a simple template, that has the basic structure already laid out. The <span class="node">Template (EX9.Effect)</span> node is what you're looking for. In the NodeBrowser look for this node but instead of simply creating it, clone it via <span class="keyseq"><kbd>CTRL</kbd><kbd>Enter</kbd></span> or <span class="keyseq"><kbd>CTRL</kbd><kbd>Click</kbd></span>. Give it a new unique name and vvvv will make a copy of the template you can now start from.  
 
 # Pins
 Looking at effect nodes you'll see a few pins all of them have in common:  

@@ -35,10 +35,10 @@ LABEL=name none ntfs rw
 where 'name' is the name of your Win partition. Reboot to get native read/write access to your NTFS partition or external drive.  
 
 **Tired of erratic vertical two-finger scrolling using the track pad?**  
-* *Try ALT + two-fingers for smoother scrolling.*  
+* *Try <span class="keyseq"><kbd>ALT</kbd></span> + two-fingers for smoother scrolling.*  
 
 **Where's my middle-click on the track pad?**  
-* *two-fingers on the track pad + SPACE + track pad button*  
+* *two-fingers on the track pad + <span class="keyseq"><kbd>SPACE</kbd></span> + track pad button*  
 
 **What to do if you dislike the standard Apple keyboard layout on BootCamp?**  
 * *Try <a href="http://www.olofsson.info/index.html?inputremapper.html" class="extURL" target="_blank">InputRemapper</a>.*  

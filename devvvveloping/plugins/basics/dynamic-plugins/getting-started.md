@@ -3,7 +3,7 @@ uid: 0e08269e-26d9-414d-bd0c-e608d8b1884c
 ---
 
 # Getting Started
-For *patching* a new node you would use <kbd>CTRL-SHIFT-P</kbd> to place a fresh empty patch inside your current patch, start placing some ioboxes for inputs and outputs, name them and connect them to nodes doing the actual work inside your subpatch / module.  
+For *patching* a new node you would use <span class="keyseq"><kbd>CTRL</kbd><kbd>SHIFT</kbd><kbd>P</kbd></span> to place a fresh empty patch inside your current patch, start placing some ioboxes for inputs and outputs, name them and connect them to nodes doing the actual work inside your subpatch / module.  
 
 For *writing* a new node there is no shortcut for starting an empty c# plugin. We thought it might be easier to start from very simple templates which already have an input and an output.   
 
@@ -14,7 +14,7 @@ You can at any time choose a new name, category or version by cloning your own n
 
 Last thing you need is a small idea. For the beginning think in terms of values, colors or strings. A small node that does some simple logic that would take up to 5 nodes to patch.  
 
-Connect ioboxes to in- and outputs to instantly see how the outputs change after changing and saving the .cs file (<kbd>CTRL-S</kbd> from within the code editor). Save your test patch within your project directory which is in *vvvv*\plugins\*YourDynamicPlugin* and name it "*YourDynamicPlugin* (*Category* *Version*) help.v4p".  
+Connect ioboxes to in- and outputs to instantly see how the outputs change after changing and saving the .cs file (<span class="keyseq"><kbd>CTRL</kbd><kbd>S</kbd></span> from within the code editor). Save your test patch within your project directory which is in *vvvv*\plugins\*YourDynamicPlugin* and name it "*YourDynamicPlugin* (*Category* *Version*) help.v4p".  
 
 ## The Editor
 ### regions

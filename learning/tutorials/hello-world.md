@@ -11,7 +11,7 @@ So you have just started vvvv and you are facing a gray window (if not, read the
 # The Main Menu
 Press your middle mouse button (or SPACE + right button if you don’t have a middle mouse button) and see the main menu. Here you find all the usual suspects.  
 
-For now just create a *New Patch* <kbd>CTRL+P</kbd> and notice that this patch appears with the top left corner exactly under your cursor. This is useful because you can now simply click and drag to position the patch in a fine place on screen.   
+For now just create a *New Patch* <span class="keyseq"><kbd>CTRL</kbd><kbd>P</kbd></span> and notice that this patch appears with the top left corner exactly under your cursor. This is useful because you can now simply click and drag to position the patch in a fine place on screen.   
 
 # Creating a Node
 Now left double-click anywhere in the patch. The [Node Browser](xref:eeb8526d-0085-4219-a138-32ac397853f1) appears with a seemingly endless list of nodes you can choose from. By starting to type a name the list gets filtered for your input helping you to look for specific functionality. If instead of an alphabetical listing you want to get an overview sorted by categories, simply right-click the text field. Now you're in the category-view of the nodebrowser. Here you can click any of the categories to see which nodes belong to it. Press the T button in the nodebrowsers topright corner to go back to its tag-view.  
@@ -38,7 +38,7 @@ To connect the IOBoxes to the <span class="node">+ (Value)</span> node move the 
 
 Also see this [Video Tutorial](xref:09f00508-01d4-4eac-b6d3-4dace5b00d99#tutorial-3-inlets-outlets-and-connections).  
 
-Right-clicking after you have started a connection will cancel it. You can delete an existing connection between two pins by selecting it (left-click) and then either right-clicking on it or pressing DEL/ENTF or BACKSPACE.  
+Right-clicking after you have started a connection will cancel it. You can delete an existing connection between two pins by selecting it (left-click) and then either right-clicking on it or pressing <span class="keyseq"><kbd>DEL/ENTF</kbd></span> or <span class="keyseq"><kbd>BACKSPACE</kbd></span>.  
 
 ![](~/img/01_plus_3.jpg "")  
 
@@ -51,7 +51,7 @@ How will all that lead us to our desired *hello world* output you ask. Not at al
 
 As mentioned before. If you already know the name of a node you want to create, you can simply type its name after double-clicking in the patch. A pull-down menu appears that shows all nodes that start with the letters you’ve just entered. As soon as the node you want to create is highlighted you can hit enter. Or you can use up and down arrow keys to highlight your desired node.   
 
-<span class="node">Renderer (GDI)</span> is one of the nodes which have a window associated with them. The window pops up as you have created the node. To place the window as a box within the patch (as you can see in the screenshot below) make sure it is the active window and press <kbd>ALT+2</kbd>. Now the renderer should sit decent in the patch. You can bring the renderer back to windowed mode by pressing <kbd>ALT+1</kbd>.  
+<span class="node">Renderer (GDI)</span> is one of the nodes which have a window associated with them. The window pops up as you have created the node. To place the window as a box within the patch (as you can see in the screenshot below) make sure it is the active window and press <span class="keyseq"><kbd>ALT</kbd><kbd>2</kbd></span>. Now the renderer should sit decent in the patch. You can bring the renderer back to windowed mode by pressing <span class="keyseq"><kbd>ALT</kbd><kbd>1</kbd></span>.  
 
 To change the renderer's background color, find the input pin with the name *Background Color* and right-click it once to show a color-field. Inside this color-field you press   
   * the right mousebutton and drag up/down to change **brightness**,   

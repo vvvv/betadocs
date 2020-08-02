@@ -17,13 +17,13 @@ The following reference goes into details about those 4 main components.
 
 ### Opening a patch
 To open a patch middle-click in the Patch Editor to open the Main Menu and choose:   
-* Open <kbd>CTRL+O</kbd>  
-* Open in Patch <kbd>CTRL+SHIFT+O</kbd>  
+* Open <span class="keyseq"><kbd>CTRL</kbd><kbd>O</kbd></span>  
+* Open in Patch <span class="keyseq"><kbd>CTRL</kbd><kbd>SHIFT</kbd><kbd>O</kbd></span>  
 
 ### Saving a patch
 To save a patch middle-click in the Patch Editor to open the Main Menu and choose:   
-* Save (<kbd>CTRL+S</kbd>
-* Save As... <kbd>CTRL+SHIFT+S</kbd>  
+* Save (<span class="keyseq"><kbd>CTRL</kbd><kbd>S</kbd></span>
+* Save As... <span class="keyseq"><kbd>CTRL</kbd><kbd>SHIFT</kbd><kbd>S</kbd></span>  
 Everytime you save a patch its previous version is backed up under the same filename but ending in ~.xml. So if ever you need to go back to that previous version just rename it to .v4p and you can open it again.   
 
 
@@ -35,14 +35,14 @@ When patching always remember:
 
 * **Changing the position** of a node or a window is done intuitively using a **left button drag**
 * If you want to **change any values** of a pin (or in an IOBox) you will do it with a **right button drag**
-* You can always emulate a **middle mouseclick** with a <kbd>SPACE</kbd> **+ rightlick** in case you don't have a middle mousebutton
+* You can always emulate a **middle mouseclick** with a <span class="keyseq"><kbd>SPACE</kbd></span> **+ rightlick** in case you don't have a middle mousebutton
 
 
 
 
 ### Hiding vs. Closing a patch
-* If you **Close** a patch <kbd>CTRL+W</kbd>, the patch will be **removed from the system**. The node containing this patch is deleted.
-* If you **Hide** a patch <kbd>ALT+3</kbd>, the patch will still be **part of the system** and **continue working**. Only it is no longer visible.   
+* If you **Close** a patch <span class="keyseq"><kbd>CTRL</kbd><kbd>W</kbd></span>, the patch will be **removed from the system**. The node containing this patch is deleted.
+* If you **Hide** a patch <span class="keyseq"><kbd>ALT</kbd><kbd>3</kbd></span>, the patch will still be **part of the system** and **continue working**. Only it is no longer visible.   
 
 See also: [Window Modes](xref:5aa4e8e0-fc2c-4112-a985-7f4f0208bf48).  
 
@@ -51,7 +51,7 @@ See also: [Window Modes](xref:5aa4e8e0-fc2c-4112-a985-7f4f0208bf48).
 
 ![](~/img/BasicPatching_Locking2.png "")   
 
-To lock a patch press <kbd>CTRL+E</kbd>. A locked shows a '#' symbol in its topleft corner.   
+To lock a patch press <span class="keyseq"><kbd>CTRL</kbd><kbd>E</kbd></span>. A locked shows a '#' symbol in its topleft corner.   
 
 In a locked patch:  
 * all nodes still work   
@@ -59,7 +59,7 @@ In a locked patch:
 * nodes can no longer be moved  
 * [hidden nodes](xref:10b82e0c-720a-48e1-91e4-d8c65d2c3be1#hiding-nodes) and links are invisible  
 
-To unlock, use <kbd>CTRL+E</kbd> again.  
+To unlock, use <span class="keyseq"><kbd>CTRL</kbd><kbd>E</kbd></span> again.  
 
 
 
@@ -69,15 +69,15 @@ You can scroll in a patch by **right clicking on an empty space** and start **dr
 
 Alternatively or while making a [link](xref:10b82e0c-720a-48e1-91e4-d8c65d2c3be1#link) you can:  
 * use the mousewheel to scroll vertically  
-* press <kbd>ALT</kbd> while using the wheel to scroll horizontally  
-* press <kbd>CTRL</kbd> in addition to speed up scrolling  
+* press <span class="keyseq"><kbd>ALT</kbd></span> while using the wheel to scroll horizontally  
+* press <span class="keyseq"><kbd>CTRL</kbd></span> in addition to speed up scrolling  
 
 
 ### Comments
 
 ![](~/img/BasicPatching_Comments2.png "")   
 
-Double click with the left button to bring up the [Node Browser](xref:eeb8526d-0085-4219-a138-32ac397853f1). Then enter the text you want to have as a comment in the patch. Make sure the text is not matching any node before pressing <kbd>ENTER</kbd> to create a comment.   
+Double click with the left button to bring up the [Node Browser](xref:eeb8526d-0085-4219-a138-32ac397853f1). Then enter the text you want to have as a comment in the patch. Make sure the text is not matching any node before pressing <span class="keyseq"><kbd>ENTER</kbd></span> to create a comment.   
 
 A comment is essentially an <span class="node">IOBox (String)</span> with its input and output pins hidden. So you can always just doubleclick to change it.   
 
@@ -114,9 +114,9 @@ Nodes can have different icons:
 
 **Every node with an icon** can be rightclicked to show its editor or window. Nodes without an icon are built-in native nodes and can not be manipulated.  
 
-To get an overview of all the pins of a node, select it and press <kbd>CTRL+I</kbd> to open the [Inspektor](xref:9666611a-6f15-4b33-8300-69f56d9ec7d4).  
+To get an overview of all the pins of a node, select it and press <span class="keyseq"><kbd>CTRL</kbd><kbd>I</kbd></span> to open the [Inspektor](xref:9666611a-6f15-4b33-8300-69f56d9ec7d4).  
 
-To find out more about a nodes functionality, select it and press <kbd>F1</kbd> to open its helppatch.  
+To find out more about a nodes functionality, select it and press <span class="keyseq"><kbd>F1</kbd></span> to open its helppatch.  
 
 
 ### Adding nodes to a patch
@@ -130,26 +130,26 @@ There you can start typing tags (separated by space) to search for a node with s
 When you found a node you want to use in your patch press enter or select it with a left click and see it inserted in the patch.  
 
 ### Deleting nodes
-Select a node and press the <kbd>Delete</kbd> or <kbd>BackSpace</kbd> to remove it from the patch.   
+Select a node and press the <span class="keyseq"><kbd>Delete</kbd></span> or <span class="keyseq"><kbd>BackSpace</kbd></span> to remove it from the patch.   
 
 ### Moving a selection of nodes
 Press the cursor keys to move them by 1px.  
-Press <kbd>SHIFT</kbd> and the cursor keys to move them by 10px.  
+Press <span class="keyseq"><kbd>SHIFT</kbd></span> and the cursor keys to move them by 10px.  
 
 
 
 ![](~/img/BasicPatching_GroupingNodes3.png "")   
 
 ### Grouping nodes
-Select a group of nodes and press <kbd>CTRL+G</kbd> to replace them with a [SubPatches](xref:b66f153a-f7c3-4867-a8c9-bce69861d759) of the same functionality and keeping their connections to other nodes.   
+Select a group of nodes and press <span class="keyseq"><kbd>CTRL</kbd><kbd>G</kbd></span> to replace them with a [SubPatches](xref:b66f153a-f7c3-4867-a8c9-bce69861d759) of the same functionality and keeping their connections to other nodes.   
 
-Note that the created subpatch still needs to be saved. Therefore it is good practice to rightclick the new node immediately and press <kbd>CTRL+SHIFT+S</kbd> to save it under a specific name.   
+Note that the created subpatch still needs to be saved. Therefore it is good practice to rightclick the new node immediately and press <span class="keyseq"><kbd>CTRL</kbd><kbd>SHIFT</kbd><kbd>S</kbd></span> to save it under a specific name.   
 
 
 
 
 ### Hiding nodes
-Press <kbd>CTRL+H</kbd> to mark a selection of nodes/links as hidden.  
+Press <span class="keyseq"><kbd>CTRL</kbd><kbd>H</kbd></span> to mark a selection of nodes/links as hidden.  
 
 Hidden nodes/links are not visible or accessible anymore when a patch is [locked](xref:10b82e0c-720a-48e1-91e4-d8c65d2c3be1#locking-a-patch). In an unlocked patch they will stand out with a lighter shade of grey.  
 
@@ -165,8 +165,8 @@ Hidden nodes/links are not visible or accessible anymore when a patch is [locked
 * **Light blue & Grey border**: the [SubPatches](xref:b66f153a-f7c3-4867-a8c9-bce69861d759) contains some Boygrouped nodes  
 
 ### More
-* Align a selction of nodes by pressing <kbd>CTRL+L</kbd> 
-* Reset all of a nodes inputs to their defaults: <kbd>ALT+Rightclick</kbd> on the node  
+* Align a selction of nodes by pressing <span class="keyseq"><kbd>CTRL</kbd><kbd>L</kbd></span> 
+* Reset all of a nodes inputs to their defaults: <span class="keyseq"><kbd>ALT</kbd><kbd>Rightclick</kbd></span> on the node  
 
 
 ## Pin
@@ -228,8 +228,8 @@ Values of inputs that have one of the primitive data types can be changed direct
 * **Enumeration pins**: Right click to invoke the pull-down menu with all possible values. See [Enumeration IOBoxes](xref:86693dba-d049-4027-874d-d53f0437ad66#enumeration).  
 
 ### Resetting a pin's value
-* <kbd>Alt+Rightclick</kbd> an unconnected pin to reset it to its default.  
-* <kbd>Alt+Rightclick</kbd> a node to reset all of its unconnected pins to their defaults.  
+* <span class="keyseq"><kbd>Alt</kbd><kbd>Rightclick</kbd></span> an unconnected pin to reset it to its default.  
+* <span class="keyseq"><kbd>Alt</kbd><kbd>Rightclick</kbd></span> a node to reset all of its unconnected pins to their defaults.  
 
 
 ## Link
@@ -285,7 +285,7 @@ There are 3 different styles for links:
 * Straight  
 * Bezier  
 * Vertical-Horizontal-Vertical  
-Press <kbd>CTRL+Y</kbd> on a selected link to cycle through the styles.   
+Press <span class="keyseq"><kbd>CTRL</kbd><kbd>Y</kbd></span> on a selected link to cycle through the styles.   
 
 
 
@@ -293,7 +293,7 @@ Press <kbd>CTRL+Y</kbd> on a selected link to cycle through the styles.
 
 
 ### Removing Links
-To remove an existing link, first select it (left-click) and then do a right-click on it. (or pressing the <kbd>BackSpace</kbd> or <kbd>Delete</kbd>).  
+To remove an existing link, first select it (left-click) and then do a right-click on it. (or pressing the <span class="keyseq"><kbd>BackSpace</kbd></span> or <span class="keyseq"><kbd>Delete</kbd></span>).  
 
 Note that when removing a link, pins with a primitive datatype behave different from Node pins:  
 

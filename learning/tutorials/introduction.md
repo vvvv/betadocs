@@ -6,7 +6,7 @@ uid: e87fb3bc-1512-456a-9529-8b901f459dc6
 So you have just started vvvv for the first time and wonder how to proceed in learning, how to achieve some useful things with it. Take your time and read on. Within 20 minutes you should be through the first tutorial and have a basic understanding of vvvv.   
 
 ## Ready. Set. Go.
-To see an example of what a vvvv project looks like, open the start_with_demo.bat file located in your vvvv directory. Once you have been suitably impressed by the demo, close vvvv by pressing the standard Windows shortcut for closing programms: <kbd>ALT+F4</kbd>. You might then be asked if you wish to save your changes. Just click *Don't save and Close* for now.  
+To see an example of what a vvvv project looks like, open the start_with_demo.bat file located in your vvvv directory. Once you have been suitably impressed by the demo, close vvvv by pressing the standard Windows shortcut for closing programms: <span class="keyseq"><kbd>ALT</kbd><kbd>F4</kbd></span>. You might then be asked if you wish to save your changes. Just click *Don't save and Close* for now.  
 
 Start vvvv again, this time using vvvv.exe. All you see is a virgin gray window, a so called Patch. Welcome to vvvv.  
 

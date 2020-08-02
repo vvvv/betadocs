@@ -50,7 +50,7 @@ Move keyframes by dragging them:
 * left mouse button: change time  
 * middle button: change time and value  
 * right button: change value  
-Pressing SHIFT while dragging allows for finer changes. Pressing CTRL while dragging makes keyframes snap to automatas states and the timebar.  
+Pressing <span class="keyseq"><kbd>SHIFT</kbd></span> while dragging allows for finer changes. Pressing <span class="keyseq"><kbd>CTRL</kbd></span> while dragging makes keyframes snap to automatas states and the timebar.  
 
 Doubleclick a keyframe to open an editor and change its values. This also works when multiple keyframes are selected. Note that only values changed in the editor will be written to the keyframes. Therefore as long as you don't change the time all keyframes will stay at their time-position but only will be set to the same value.   
 
@@ -59,21 +59,21 @@ RightClick-drag in an empty area of a pin/track:
 * up-down to zoom   
 
 ## Keyboard Shortcuts
-* SPACE: toggle play/pause  
-* BACKSPACE: stop and rewind  
-* HOME: jump to first state (or 0 if automata not in use)  
-* END: jump to last state  
-* PageUp: jump to next state  
-* PageDown: jump to last state  
-* DELETE (ENTF): delete selected keyframes  
-* CTRL  
+* <span class="keyseq"><kbd>SPACE</kbd></span>: toggle play/pause  
+* <span class="keyseq"><kbd>BACKSPACE</kbd></span>: stop and rewind  
+* <span class="keyseq"><kbd>HOME</kbd></span>: jump to first state (or 0 if automata not in use)  
+* <span class="keyseq"><kbd>END</kbd></span>: jump to last state  
+* <span class="keyseq"><kbd>PageUp</kbd></span>: jump to next state  
+* <span class="keyseq"><kbd>PageDown</kbd></span>: jump to last state  
+* <span class="keyseq"><kbd>DELETE</kbd></span> (ENTF): delete selected keyframes  
+* <span class="keyseq"><kbd>CTRL</kbd></span>  
   * while dragging a keyframe: snap to automata states  
-  * L: time align selected keyframes  
-  * A: select all keyframes  
-  * A & SHIFT: select all keyframes of hoverin pin  
-* SHIFT  
+  * <span class="keyseq"><kbd>L</kbd></span>: time align selected keyframes  
+  * <span class="keyseq"><kbd>A</kbd></span>: select all keyframes  
+  * <span class="keyseq"><kbd>A</kbd></span> & <span class="keyseq"><kbd>SHIFT</kbd></span>: select all keyframes of hoverin pin  
+* <span class="keyseq"><kbd>SHIFT</kbd></span>  
   * while dragging a keyframe: make smaller steps  
-  * A: select all keyframes of hovering slice  
+  * <span class="keyseq"><kbd>A</kbd></span>: select all keyframes of hovering slice  
 
 ## Midi Pin
 The Midi Pin is still quite experimental and will only work on windows. By clicking on the **.mid* in the PinHeader you can select a midi-file to be loaded. The individual midi-tracks as specified in the file will appear as Slices. Note that only tracks that have notes will show up.   

@@ -58,7 +58,7 @@ and rightclick it to *SVN Checkout*
 
 Simply enter this url in the *URL of Repository* field and press ok. This will fill you Template directory with the source files of the template freeframe effect.  
 
-Now start CodeBlocks and open the Template.cbp file. Use <kbd>CTRL+F9</kbd> to build the project and if everything went well the Log should finish with the line:  
+Now start CodeBlocks and open the Template.cbp file. Use <span class="keyseq"><kbd>CTRL</kbd><kbd>F9</kbd></span> to build the project and if everything went well the Log should finish with the line:  
  0 errors, 0 warnings
 
 In your \Template directory there is now a new file called *Template.dll*, which is an actually working freeframe plugin. Start vvvv and dragdrop the .dll onto the patch. Voila.   
@@ -81,11 +81,11 @@ directory to something like:
 Don't forget to delete the hidden \.svn directory within your new  directory, as it holds subversion info for the original template directory which is no longer valid for your copy!  
   
 
-In CodeBlocks now open the Template.cbp from your new directory, press <kbd>CTRL+F9</kbd> to build, start vvvv, drop the Template.dll into the patch, attach VideoIn and VideoOut and save the patch into your developing directory.   
+In CodeBlocks now open the Template.cbp from your new directory, press <span class="keyseq"><kbd>CTRL</kbd><kbd>F9</kbd></span> to build, start vvvv, drop the Template.dll into the patch, attach VideoIn and VideoOut and save the patch into your developing directory.   
 
 For a convenient debugging setup you now can specify this patch to start everytime you *run* your plugin in CodeBlocks. Go to *Project* select *Set programs' arguments..*: In the host application field specify a full path to vvvv.exe and in the program arguments field put something like:  
  /o D:\dev\MyFirstFreeFrame\Tester.v4p
-Now on pressing <kbd>F9</kbd> vvvv starts with the specified patch.  
+Now on pressing <span class="keyseq"><kbd>F9</kbd></span> vvvv starts with the specified patch.  
 
 ### Customizing the Template
 First it makes sense to rename the project and the actual plugin files. In the Projects tab righclick the projectname and select *Properties*. Here you can specify a new project title. In the second tab (Build Targets) you can change the name of the .dll to be created.   

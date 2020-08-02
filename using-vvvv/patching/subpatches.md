@@ -33,7 +33,7 @@ In other words: a patch can contain many subpatches but each patch only has one 
 *Cascading structure of subpatches as seen in the [Finder](xref:869d5933-4693-4b32-a7f3-5b7cfcc3a07f) window*  
 
 
-According to this definition every patch that we see is also represented as a node in some other patch forming a hierarchy of patches. The top of this hierarchy is called the [Root](xref:5eea935d-c82d-4b89-8403-1fbc1d79fb93) and can always be opened via the shortcut <kbd>ALT+R</kbd>.  
+According to this definition every patch that we see is also represented as a node in some other patch forming a hierarchy of patches. The top of this hierarchy is called the [Root](xref:5eea935d-c82d-4b89-8403-1fbc1d79fb93) and can always be opened via the shortcut <span class="keyseq"><kbd>ALT</kbd><kbd>R</kbd></span>.  
 
 
 
@@ -51,7 +51,7 @@ Learning when and where to best modularize, ie. where to draw the line between o
 
 ![](~/img/patchingSubpatches_Finder.png "")  
 
-In order to get an overview of all the nodes in a patch or even the whole hierarchy of your programs patches open the [Finder](xref:869d5933-4693-4b32-a7f3-5b7cfcc3a07f) or use <kbd>CTRL+TAB</kbd> to cycle through all open windows.  
+In order to get an overview of all the nodes in a patch or even the whole hierarchy of your programs patches open the [Finder](xref:869d5933-4693-4b32-a7f3-5b7cfcc3a07f) or use <span class="keyseq"><kbd>CTRL</kbd><kbd>TAB</kbd></span> to cycle through all open windows.  
 
 
 
@@ -65,9 +65,9 @@ There are two ways to create a subpatch:
 * manually (by labeling IOBoxes)  
 
 ### Grouping Nodes
-Select a group of nodes that you want to collapse into one node and press <kbd>CTRL+G</kbd>. This will cut those nodes, paste them in a subpatch and keep all connections to nodes that were not in the selection.  
+Select a group of nodes that you want to collapse into one node and press <span class="keyseq"><kbd>CTRL</kbd><kbd>G</kbd></span>. This will cut those nodes, paste them in a subpatch and keep all connections to nodes that were not in the selection.  
 
-Note that the name of the node/subpatch at this point is quite generic. It is therefore advised that you now rightclick the new node and then press <kbd>CTRL+SHIFT+S</kbd> in order to *Save As...* it under a suitable name.   
+Note that the name of the node/subpatch at this point is quite generic. It is therefore advised that you now rightclick the new node and then press <span class="keyseq"><kbd>CTRL</kbd><kbd>SHIFT</kbd><kbd>S</kbd></span> in order to *Save As...* it under a suitable name.   
 
 Also you may want to have a look at the <span class="pin">Descriptive Name</span> of the IOBoxes that were automatically inserted and give them more meaningful names where applicable.   
 
@@ -77,9 +77,9 @@ Also you may want to have a look at the <span class="pin">Descriptive Name</span
 
 ![](~/img/patching-parameters_0.png "")   
 
-Create a new empty subpatch within the current patch by pressing <kbd>CTRL+SHIFT+P</kbd>. Place nodes in that patch as desired and create IOBoxes for all values that you want to take into or return from that patch. Set a <span class="pin">Descriptive Name</span> via the Inspektor or by a simple middle-click on the IOBox in order to make them show up as inlets/outlets on the patches node.   
+Create a new empty subpatch within the current patch by pressing <span class="keyseq"><kbd>CTRL</kbd><kbd>SHIFT</kbd><kbd>P</kbd></span>. Place nodes in that patch as desired and create IOBoxes for all values that you want to take into or return from that patch. Set a <span class="pin">Descriptive Name</span> via the Inspektor or by a simple middle-click on the IOBox in order to make them show up as inlets/outlets on the patches node.   
 
-Press <kbd>CTRL+SHIFT+S</kbd> in order to *Save As...* the patch under a suitable name.   
+Press <span class="keyseq"><kbd>CTRL</kbd><kbd>SHIFT</kbd><kbd>S</kbd></span> in order to *Save As...* the patch under a suitable name.   
 
 
 
@@ -160,7 +160,7 @@ Never put nodes that receive inputs from a physical device (like the mouse-nodes
 
 
 Modules are basically ordinary patches that are mostly created to be used as black-boxes (ie. without the user typically looking inside them). In order to make patch into a module follow these steps:  
-* press <kbd>Ctrl-M</kbd> and add Author, Description and Tags  
+* press <span class="keyseq"><kbd>Ctrl</kbd><kbd>M</kbd></span> and add Author, Description and Tags  
 * give your patch a name with a category in the round brackets, like **Slope (2d).v4p**.   
 * see all [Conventions.NodeAndPinNaming](xref:db8592a2-03c3-4e8c-a540-d11df5e83078)  
 * optional: add a helppatch, see [Conventions.HelpPatch](xref:07824e2d-da59-4df0-9f49-a143dc0f7625)  

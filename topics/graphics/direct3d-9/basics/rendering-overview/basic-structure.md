@@ -23,7 +23,7 @@ Seeing jagged and ugly edges? Turn on [Antialiasing](xref:6d879681-cfa1-4021-a13
 Want to set a renderer to fullscreen?  
 * move it to the desired monitor  
 * change its <span class="pin">Fullscreen Dimensions</span> using the [Inspektor](xref:9666611a-6f15-4b33-8300-69f56d9ec7d4)  
-* press <kbd>ALT+Enter</kbd> to toggle it to/from fullscreen  
+* press <span class="keyseq"><kbd>ALT</kbd><kbd>Enter</kbd></span> to toggle it to/from fullscreen  
 
 See the Renderer (EX9)'s helppatch for details.  
 

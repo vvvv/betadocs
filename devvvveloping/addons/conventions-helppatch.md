@@ -7,7 +7,7 @@ A HelpPatch demonstrates the functionality of a node. Ideally a novice should qu
 
 ## Design Tips
 
-* create a helppatch for a node by selecting it and pressing F1. if the node does not have a helppatch yet, a dummy patch with already the right name will open. simply press <kbd>CTRL+S</kbd> to save the patch to disk and then start modifying it.  
+* create a helppatch for a node by selecting it and pressing F1. if the node does not have a helppatch yet, a dummy patch with already the right name will open. simply press <span class="keyseq"><kbd>CTRL</kbd><kbd>S</kbd></span> to save the patch to disk and then start modifying it.  
 
 * first find the most simple usage scenario of a node which will give the novice a quick overview  
 * now explain the node a second time with a more advanced usage scenario and put that graph right next to the simple scenario  

@@ -12,7 +12,7 @@ uid: 2879ae37-9e84-42ee-8e2e-8444d274bb6b
 
 In order to create a dynamic VL plugin doubleclick in a patch to open the nodebrowser. Type "Template" to get a list of templates which you can choose to start from.   
 
-Choose one of the templates prefixed with *v* and press <kbd>CTRL+Enter</kbd> or <kbd>CTRL</kbd>+Click on it to clone it. The two options you have is:  
+Choose one of the templates prefixed with *v* and press <span class="keyseq"><kbd>CTRL</kbd><kbd>Enter</kbd></span> or <span class="keyseq"><kbd>CTRL</kbd></span>+Click on it to clone it. The two options you have is:  
 * Template (Value)  
 * Template (Value Stateless)  
 
@@ -155,12 +155,12 @@ In order to inspect the value of a pin simply hover it with the mouse or start a
 
 ![](~/img/DynamicVLRef_DocumentPatch3.png "")  
 
-*The Document Patch <kbd>Alt+P</kbd>.*  
+*The Document Patch <span class="keyseq"><kbd>Alt</kbd><kbd>P</kbd></span>.*  
 
 
 Typically a simple plugin will consist of a single VL document with multiple patches and references only to the default dependencies (like the  VL.CoreLib package).  
 
-You can get an overview of all elements in your document by viewing the *Document Patch* which you can always reach via <kbd>ALT+P</kbd>. It shows you all Classes, Records, Operations and Utility Patches the document holds.  
+You can get an overview of all elements in your document by viewing the *Document Patch* which you can always reach via <span class="keyseq"><kbd>ALT</kbd><kbd>P</kbd></span>. It shows you all Classes, Records, Operations and Utility Patches the document holds.  
 
 Still from that simple structure you can expose multiple nodes to vvvv. You can have any vl datatype or operation show up as a node in vvvv.   
 

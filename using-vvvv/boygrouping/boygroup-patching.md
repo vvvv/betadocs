@@ -5,7 +5,7 @@ uid: 55db26cf-96b9-446d-9ec8-25cac88edc43
 # Boygroup Patching
 ### The blue nodes
 
-On a vvvv instance running in **server-mode** the keyboard-shortcut <kbd>CTRL+B</kbd> allows you to boygroup individual nodes.   
+On a vvvv instance running in **server-mode** the keyboard-shortcut <span class="keyseq"><kbd>CTRL</kbd><kbd>B</kbd></span> allows you to boygroup individual nodes.   
 
 Boygrouped nodes are dipped in blue which indicates that they have been mirrored to the clients (even if you can't see them there) and are now being calculated over there.  
 

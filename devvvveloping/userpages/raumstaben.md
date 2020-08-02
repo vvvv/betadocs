@@ -15,7 +15,7 @@ uid: ada14a87-2d6e-4998-ac1d-acd823defc9c
 ##  Arduino
 * Arduino tutorial  
 ##  Camera Tracking
-* Have a look at these nodes and their helppatches (select a node and hit <kbd>F1</kbd>):  
+* Have a look at these nodes and their helppatches (select a node and hit <span class="keyseq"><kbd>F1</kbd></span>):  
   * Contour  
   * ColorTracker  
   * CamShiftTracker  
