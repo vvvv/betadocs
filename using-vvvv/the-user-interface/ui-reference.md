@@ -86,8 +86,8 @@ Toggle Windows 	|<kbd>Ctrl Tab</kbd> 	|Lets you switch through vvvv's windows (s
 Lighten Patch 	|<kbd>Ctrl 7</kbd> 	|Lightens the active patch’s background ***in versions >Beta8.3***  
 Darken Patch 	|<kbd>Ctrl 6</kbd> 	|Darkens the active patch’s background ***in versions >Beta8.3***  
 Toggle Window Frame	|<kbd>Ctrl 8</kbd> 	|Toggles the frame of the active window on/off  
-Zoom In  	|<kbd>Ctrl+</kbd> 	|Enlarges the active patch ***Careful: BUGGY***  
-Zoom Out 	|<kbd>Ctrl-</kbd> 	|Scales the active patch down ***Careful: BUGGY***  
+Zoom In  	|<kbd>Ctrl</kbd><kbd>+</kbd> 	|Enlarges the active patch ***Careful: BUGGY***  
+Zoom Out 	|<kbd>Ctrl</kbd><kbd>-</kbd> 	|Scales the active patch down ***Careful: BUGGY***  
 
 ## and more Shortcuts
    |   |   

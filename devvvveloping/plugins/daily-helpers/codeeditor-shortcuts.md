@@ -18,8 +18,8 @@ delete line | <kbd>CTRL d</kbd> | delete the line at current cursor position
 copy | <kbd>CTRL c</kbd> | copy selected text  
 cut | <kbd>CTRL x</kbd> | cut selected text  
 paste | <kbd>CTRL v</kbd> | insert text from clipboard  
-increase fontsize    | <kbd>CTRL +</kbd> 	| makes the text bigger  
-decrease fontsize   | <kbd>CTRL -</kbd> | makes text smaller  
+increase fontsize    | <kbd>Ctrl</kbd><kbd>+</kbd> 	| makes the text bigger  
+decrease fontsize   | <kbd>Ctrl</kbd><kbd>-</kbd> | makes text smaller  
 Comment out codeblock    | <kbd>CTRL #</kbd> 	| comments the selected codeblock out (works as a toggle)  
 open include | <kbd>CTRL Click</kbd> | on include file to open it  
 
