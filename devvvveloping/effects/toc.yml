@@ -1,5 +1,5 @@
 - name: Overview
-  href: overview.md
+  href: index.md
 - name: Effect-compiler-changes
   href: effect-compiler-changes.md
 - name: Shader Snippets

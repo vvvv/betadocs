@@ -18,7 +18,7 @@ uid: c5008f4e-f136-4cf5-915e-dbf32e4e5a70
 * <a href="https://www.youtube.com/channel/UCa8Vqigdbq5Gam_6dcGdNBw" class="extURL" target="_blank">vveekend vvorkshops</a>  
 * <a href="http://www.youtube.com/playlist?list=PLqjkdWFcBMk8gVdbGuSqwi4q1ihr7LcaW" class="extURL" target="_blank">Japanese Video Tutorials</a>  
 * <a href="http://vvvv-jp.tumblr.com/tutorial" class="extURL" target="_blank">Japanese Written Tutorials</a>  
-* [https://www.manamana.net/peopleCenter/138/video#!zh|Chinese Video Tutorials I]  
+* <a href="https://www.manamana.net/peopleCenter/138/video#!zh" class="extURL" target="_blank">Chinese Video Tutorials I</a>  
 * <a href="https://www.youtube.com/playlist?list=PLlC309TWKG850GrgeuB5YHe5AqTZ_L8NY" class="extURL" target="_blank">Chinese Video Tutorials II</a>  
 * <a href="http://everyware.kr/home/?cat=11" class="extURL" target="_blank">Korean Video Tutorials</a>  
 * <a href="http://www.youtube.com/playlist?list=PLGIKE8Bjn-b0SPIGWO7gBnKjbB5wHJwm3" class="extURL" target="_blank">German Teen Video Tutorials</a>  

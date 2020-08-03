@@ -36,7 +36,15 @@
 	"HTML External Link Wrapper": {
 		"prefix": "_l",
 		"body": [
-		  "<a href=\"\" tagret=\"blank\" class=\"extURL\">[$TM_SELECTED_TEXT]</a>"
+		  "<a href=\"\" tagret=\"blank\" class=\"extURL\">$TM_SELECTED_TEXT</a>"
+		],
+		"description": "Wraps selection into External HTML Tag"
+	},
+
+	"HTML Link Wrapper": {
+		"prefix": "_l",
+		"body": [
+		  "<a href=\"${0:link}\">$TM_SELECTED_TEXT</a>"
 		],
 		"description": "Wraps selection into External HTML Tag"
 	}

@@ -1,0 +1,12 @@
+A collection of visual programming tools that mention vvvv as a source of inspiration:
+
+* [https://xod.io|XOD] is a visual programming language for microcontrollers. mentions vvvv [https://discourse.vvvv.org/t/visual-programming-for-arduino/15190|here]
+* [http://meemoo.org|MeeMoo] is a web-based creative tool maker... mentions vvvv [http://meemoo.org/blog/2014-06-16-noflo-canvas|here]
+* [https://cables.undev.de/|Cables] is your model kit for creating beautiful interactive content. With an easy to navigate interface and results in real time, it allows for fast prototyping and prompt adjustments - mentions vvvv at the bottom of the main page
+* [http://www.vvvvjs.com|vvvv.js] is a great toolkit for prototyping and developing rich data visualisation, advanced user interfaces, games, and more
+* [https://github.com/idflood/ThreeNodes.js|ThreeNodes.js] is a visual dataflow based WebGL editor that uses drag and drop to create a scene. mentions vvvv [https://github.com/idflood/ThreeNodes.js/blob/master/README.md|here]
+* [http://g14n.info/dflow|dflow] is a minimal Dataflow programming engine
+* [http://perl-node-interface.blogspot.de|PNI] - a node based visual programming environment
+* [http://ffnnkk.org/about/about-fnk|fnk] is an online visual programming environment that uses a dataflow approach for the analysis, processing and synthesis of image, sound and other data in real-time. mentions vvvv at the bottom of the main page. 
+
+Please don't add just any visual programming tool ([http://blog.interfacevision.com/design/design-visual-progarmming-languages-snapshots/|there are hundreds]) but only those that claim to be directly inspired by vvvv. 

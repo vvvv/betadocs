@@ -1,5 +1,5 @@
 - name: Overview
-  href: overview.md
+  href: index.md
 - name: Separate Logic from Content
   href: separate-logic-from-content.md
 - name: Basic logic programming

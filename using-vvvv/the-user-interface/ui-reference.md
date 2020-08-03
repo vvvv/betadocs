@@ -86,8 +86,8 @@ Toggle Windows 	|<span class="keyseq"><kbd>Ctrl</kbd><kbd>Tab</kbd></span> 	|Let
 Lighten Patch 	|<span class="keyseq"><kbd>Ctrl</kbd><kbd>7</kbd></span> 	|Lightens the active patch’s background ***in versions >Beta8.3***  
 Darken Patch 	|<span class="keyseq"><kbd>Ctrl</kbd><kbd>6</kbd></span> 	|Darkens the active patch’s background ***in versions >Beta8.3***  
 Toggle Window Frame	|<span class="keyseq"><kbd>Ctrl</kbd><kbd>8</kbd></span> 	|Toggles the frame of the active window on/off  
-Zoom In  	|<span class="keyseq"><kbd>Ctrl</kbd></span><span class="keyseq"><kbd>+</kbd></span> 	|Enlarges the active patch ***Careful: BUGGY***  
-Zoom Out 	|<span class="keyseq"><kbd>Ctrl</kbd></span><span class="keyseq"><kbd>-</kbd></span> 	|Scales the active patch down ***Careful: BUGGY***  
+Zoom In  	|<span class="keyseq"><kbd>Ctrl</kbd><kbd>+</kbd></span> 	|Enlarges the active patch ***Careful: BUGGY***  
+Zoom Out 	|<span class="keyseq"><kbd>Ctrl</kbd><kbd>-</kbd></span> 	|Scales the active patch down ***Careful: BUGGY***  
 
 ## and more Shortcuts
    |   |   

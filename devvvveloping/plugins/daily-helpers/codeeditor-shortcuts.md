@@ -18,8 +18,8 @@ delete line | <span class="keyseq"><kbd>CTRL</kbd><kbd>d</kbd></span> | delete t
 copy | <span class="keyseq"><kbd>CTRL</kbd><kbd>c</kbd></span> | copy selected text  
 cut | <span class="keyseq"><kbd>CTRL</kbd><kbd>x</kbd></span> | cut selected text  
 paste | <span class="keyseq"><kbd>CTRL</kbd><kbd>v</kbd></span> | insert text from clipboard  
-increase fontsize    | <span class="keyseq"><kbd>Ctrl</kbd></span><span class="keyseq"></span> 	| makes the text bigger  
-decrease fontsize   | <span class="keyseq"><kbd>Ctrl</kbd></span><span class="keyseq"></span> | makes text smaller  
+increase fontsize    | <span class="keyseq"><kbd>Ctrl</kbd><kbd>+</kbd></span> 	| makes the text bigger  
+decrease fontsize   | <span class="keyseq"><kbd>Ctrl</kbd><kbd>-</kbd></span> | makes text smaller  
 Comment out codeblock    | <span class="keyseq"><kbd>CTRL</kbd><kbd>#</kbd></span> 	| comments the selected codeblock out (works as a toggle)  
 open include | <span class="keyseq"><kbd>CTRL</kbd><kbd>Click</kbd></span> | on include file to open it  
 
