@@ -4,12 +4,12 @@ uid: 853423af-e6ba-4908-935b-5154fd0e3f3f
 
 # Overview
 
-# 2D
+## 2D
 * [SVG](xref:2600b4fc-ebee-492b-a395-bc3c93af2785)  
 * [Flash](xref:a7a623cd-a13c-4217-ad23-f3dd362a095f)  
 * [GDI Rendering](xref:b494f311-3e27-4580-af91-3d1436ec9ccf) (legacy)  
 
-# Direct3D 9
+## Direct3D 9
 
 ### Basics
 * [Rendering Overview](xref:fd599c0f-1876-459c-a28e-24616cee5542)  
@@ -47,11 +47,7 @@ uid: 853423af-e6ba-4908-935b-5154fd0e3f3f
 ### Text
 * [Text Rendering overview](xref:5e52fbff-66d8-41ee-8347-994cf825514e)  
 
-
-
-
-
-# Direct3D 11
+## Direct3D 11
 * [DX11 Overview](xref:047da5ac-aca8-4a5a-ba61-f2c4f07ca501) (in progress)  
 * [DX11 FAQ](xref:b1bb8d73-cbd5-44fd-b512-ec9086f9c2ed) (in progress)  
 * [DX11 Pipeline](xref:8a7ee1b7-c2d7-49bf-9923-72ad77a21b60)  
@@ -60,8 +56,5 @@ uid: 853423af-e6ba-4908-935b-5154fd0e3f3f
 * [DX11 Useful Links](xref:9f1e8368-4c7b-4dc0-a305-06aebe6c11dd)  
 * [DX11 Particle Systems](xref:7e7c8e2f-29e2-4327-98ac-ce5b18583a6e)  
 
-
-# Overview
-# 
 ## Useful links
-* ((Graphics Links))
+* [Graphics Links](xref:667098f9-f169-458c-b7b5-2b283581fef0)  

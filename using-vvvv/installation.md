@@ -2,7 +2,9 @@
 uid: 98242e9a-e52a-4557-a9be-9550d3a1396e
 ---
 
-# Installer
+## Installing
+
+### Installer
 
 * Running the installer prompts you with "User Account Control" confirming its authenticity  
 * Simply click through the installer  
@@ -18,7 +20,7 @@ Want to run vvvv on your mac? Here is a collection of some
 [Best practices with Bootcamp](xref:be87c353-6012-4044-8a1e-5ed0afb1c799).  
 
 
-# Offline Installer
+### Offline Installer
 
 ![](~/img/vvvv_folder4.png "")  
 
@@ -29,7 +31,7 @@ Want to run vvvv on your mac? Here is a collection of some
 
 
 
-# Start vvvv
+## Start vvvv
 
 ![](~/img/vvvv_StartMenu.png "")   
  
@@ -40,19 +42,14 @@ Want to run vvvv on your mac? Here is a collection of some
 
 See the gray window?  
 Welcome. [Everything is fine](xref:e87fb3bc-1512-456a-9529-8b901f459dc6).  
-
----  
-
 Encounter any troubles with running vvvv? See the [Troubleshooting](xref:654fb0a1-2f52-4425-8ab7-2f82d4785d54) page.  
 
 
 
 
-# Uninstalling
+## Uninstalling
 
 ![](~/img/vvvv_uninstall_AppsAndFeatures2.png "")   
-
-
 
 
 * Uninstall vvvv via Windows' "Apps & Features" dialog  
