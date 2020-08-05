@@ -76,7 +76,7 @@ See the [Using Addons Guide](xref:772e8696-25d4-4d8b-a31b-db4dd1ce1f3f) on how t
 ### News
 
 * Follow <a href="https://mastodon.xyz/@vvvv" class="extURL" target="_blank">vvvv on Mastodon</a> for latest news bits  
-* Subscribe to our Newsletter at <a href="http://localhost:1313/#contact" class="extURL" target="_blank">visualprogramming.net</a>
+* Subscribe to our Newsletter at <a href="https://visualprogramming.net/#contact" class="extURL" target="_blank">visualprogramming.net</a>
 
 ### Share
 
