@@ -18,7 +18,7 @@ uid: 853423af-e6ba-4908-935b-5154fd0e3f3f
 * [Rendering on transparent background](xref:93a89c2e-f5ba-4de5-b4ab-7c5f70c7ce11)  
 * [Capturing output](xref:9a69e819-8ea6-4c5d-807e-b283863abc4c)  
 * [Dataflow in DX9](xref:81d9855b-ba1a-41d6-86d8-236258054aa5)  
-* [FAQ Multiscreen](xref:707ae6e3-6104-47c8-93ca-581024802684)  
+* [FAQ Multiscreen](xref:373b8cb9-a6d5-4d6d-837e-0062fd2673f3)  
 
 ### Geometry
 * [Primitives](xref:3c360048-ceb5-4e96-86d6-5e8ef7ff43e9)  
