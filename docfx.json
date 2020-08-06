@@ -26,13 +26,58 @@
     "custom_templates/vvvv"
     ],
     "postProcessors": [ "ExtractSearchIndex" ],
-	"globalMetadata": {
-	  "_enableSearch": "true"
-	},
+	  "globalMetadata": {
+      "_appTitle": "vvvv beta documentation",
+      "_appFooter": "Brought to you by vvvv.org",
+      "_enableSearch": true,
+      "_enableNewTab": true,
+      "_appLogoPath": "/img/icons/logo.svg",
+      "_appFaviconPath": "/img/icons/favicon.ico",
+      "_disableContribution": false,
+      "_disableAffix": false,
+      "_gitContribute": {
+        "repo": "https://github.com/devvvvs/betadocs.git",
+        "branch": "master"
+      },
+      "_gitUrlPattern": "github"
+  },
     "markdownEngineName": "markdig",
     "noLangKeyword": false,
     "keepFileLink": false,
     "cleanupCacheHistory": false,
     "disableGitFeatures": false
+  },
+  "pdf": {
+    "content": [
+      {
+        "files": [
+          "**.md",
+          "**/toc.yml",
+          "toc.yml",
+          "index.md"
+        ]
+      },
+      {
+        "files": "pdf/toc.yml"
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "img/**"
+        ],
+        "exclude": [
+          "**/bin/**",
+          "**/obj/**",
+          "_site_pdf/**"
+        ]
+      }
+    ],
+    "overwrite": [
+    ],
+    "wkhtmltopdf": {
+      "additionalArguments": "--enable-local-file-access"
+    },
+    "dest": "_site_pdf"
   }
 }
