@@ -2,7 +2,7 @@
 uid: a2b935e8-17cd-4c26-b701-4919803792d1
 ---
 
-# Terms
+## Terms
 
 **Spread** -  A one dimensional list (array) of data  
 **Slice** -  One element of a spread  
@@ -15,11 +15,11 @@ uid: a2b935e8-17cd-4c26-b701-4919803792d1
 **Index** -  A number referencing a slice via its position in a spread. Counting from 0.  
 
 
-# Spreads and Slices
+## Spreads and Slices
 
 ![](~/img/Modulo.png "")   
 
-# Nil
+## Nil
 
 ![](~/img/NIL.png "")   
 
@@ -37,7 +37,7 @@ If you want to avoid it, use: <span class="node">AvoidNIL (Spreads)</span> or a 
 
 
 
-# Bins and Bin Sizes
+## Bins and Bin Sizes
 
 A <span class="pin">Bin Size</span> always refers to an other input on the same node and provides information as to how that other inputs spread is structured.  
 

@@ -18,7 +18,7 @@ More such operations are available and can be found by querying the [Node Browse
 ![](~/img/Mean4.png "")  
 
 
-# How spectral nodes work with Bin and Vector Size
+## How spectral nodes work with Bin and Vector Size
 
 ![](~/img/SpectralBinSize2.png "")  
 

@@ -18,7 +18,7 @@ For unpacking any download we recommend using <a href="http://www.7-zip.org/" cl
 
 
 
-# The Addonpack
+## The Addonpack
 
 ![](~/img/Addons_Addonpack2.png "")   
 
@@ -35,7 +35,7 @@ The Addonpack is a highly recommended collection of useful nodes provided and ma
  ...
 
 
-# Other Packs
+## Other Packs
 
 ![](~/img/Addons_Packs.png "")   
 
@@ -52,7 +52,7 @@ Any pack (apart from the Addonpack) has to be placed inside a directory called \
  \vvvv.exe
 
 
-# Contributions
+## Contributions
 
 ![](~/img/Addons_Contribs.png "")   
 
@@ -74,7 +74,7 @@ Some contributions may fail to work with newer versions of vvvv. In that case yo
   
 
 
-# DX11 Effects
+## DX11 Effects
 
 
 The DX11 Pack uses several shader types, so packs & contributions that are DX11 based can have additional folders next to the effects folder (which is DX9 only):  

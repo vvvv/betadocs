@@ -19,7 +19,7 @@ If you're missing a specific concept you can always implement a little plugin us
 
 
 
-# Loops
+## Loops
 
 ![](~/img/PatchingConcepts-Spreading.png "")  
 
@@ -46,7 +46,7 @@ If you need to calculate values according to calculations already done in the pa
 
 
 
-# If / else
+## If / else
 
 ![](~/img/Conditions-SwitchSimple.png "")   
 
@@ -60,7 +60,7 @@ Switching between different inputs or defining whether to do this or that is alm
 * [Conditions](xref:69bdb72a-3e21-4b27-a4a6-c15e7c0ec56e)  
 
 
-# Logical operations
+## Logical operations
 
 ![](~/img/Conditions-Booleans.png "")   
 
@@ -78,7 +78,7 @@ When patching anything advanced that can be separated into a series of states an
 
 
 
-# Constants
+## Constants
 
 ![](~/img/patching-constants.png "")   
 
@@ -104,7 +104,7 @@ Named IOBoxes are used to create Inputs and Outputs for subpatches.
 * [SubPatches](xref:b66f153a-f7c3-4867-a8c9-bce69861d759)  
 
 
-# Send / Receive
+## Send / Receive
 
 ![](~/img/patching-send-receive2.png "")  
 
@@ -119,7 +119,7 @@ The most common use case for S/R nodes is to deliver global constants to differe
 * [Send / Receive](xref:32b954be-83f1-4b75-951f-f64e7fdd7c1b)  
 
 
-# Spreads
+## Spreads
 
 ![](~/img/PatchingConcepts-Spreads2.png "")   
 
@@ -134,7 +134,7 @@ Need to make a calculation over many items at the same time or instantly place a
 
 
 
-# SubPatches
+## SubPatches
 
 ![](~/img/BasicPatching_GroupingNodes3_0.png "")   
 
@@ -150,7 +150,7 @@ You can then use many instances of the same subpatch in different parts of your 
 
 
 
-# Storing Values
+## Storing Values
 
 ![](~/img/patching-SpreadCollections.png "")   
 

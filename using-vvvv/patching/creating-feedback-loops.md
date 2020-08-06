@@ -27,10 +27,10 @@ Use a <span class="node">FrameDelay (Animation)</span> (or another suitable for 
 ### Understanding
 Here we provide two different ways to think about loops in a graph:  
 
-**Local Varibales**  
+#### Local Varibales  
 In order to save the result of a computation in one frame to use it for further calculation in the next you have to use a node called FrameDelay. Essentially by setting its input you write a local variable which you can read from in the next frame by connecting to its output.  
 
-**Order of Execution**  
+#### Order of Execution  
 vvvv does not have an execution order. All things in the graph happen at the same time, once every frame. So every frame of evaluation starts at sinks (Renderers, Writers,..) which first require their inputs to be updated before they can and return their own result. Like this vvvv walks up the graph from each sink until it finds a node that does not have any of its inputs connected. This node can return a result immediately which it "hands over" to nodes connected on its own outputs. Now those nodes can compute their output and so on...without you having to worry about this much.    
 
 While this makes things very easy most of the time, there is one point, where you need to look closer: If you'd patch a loop there would not be a node that can start computing its result since all of the nodes in a loop depend on the result of an upstream node.   
@@ -39,4 +39,4 @@ While this sounds like a classical paradox which should lead to crashed computer
 
 Therefore vvvv prevents you from creating such loops by simply not allowing you to make such connections.   
 
-
+

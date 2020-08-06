@@ -4,7 +4,7 @@ uid: 36621302-10e7-47fe-a8d0-b609c758974d
 
 # Debugging
 
-# Error Console
+## Error Console
 
 ![](~/img/patchingDebugging_TTY.png "")   
 
@@ -13,7 +13,7 @@ In vvvv errors typically don't break the system. To see if your program experien
 In fact it is a good idea to always have a Renderer (TTY) open to be aware of possible problems. Even if you don't understand what a particular error might suggest it may help people on the forum to understand your problem if you post the error there.  
 
 
-# Finding erroneous nodes
+## Finding erroneous nodes
 
 
 When the TTY Renderer spits out an error similar to this:  
@@ -29,7 +29,7 @@ The sequence "/73/245/178/56/101/84" in the error message above is a path of nod
 
 
 
-# Red nodes
+## Red nodes
 
 
 A red node has either of 4 problems:   
@@ -83,7 +83,7 @@ A division by zero won't break your program and you can simply ignore it. On the
 Note that some nodes also have a (hidden) <span class="pin">Error Handling Style</span> which allows you to choose between coloring the node in red or simply ignoring such situations. Also a (hidden) <span class="pin">Success</span> gives you the option to handle an unsuccessful operation in a custom way.   
 
 
-# Debug Timing
+## Debug Timing
 
 
 ### Framerate
@@ -118,7 +118,7 @@ Consult the [Performance](xref:026ac8ca-9bcc-45e4-abf3-ac079a44065b) page if you
 
 
 
-# Debug Spreads
+## Debug Spreads
 
 ![](~/img/Debugging-DebuggingSpreads.png "")   
 

@@ -19,7 +19,7 @@ If you're missing a specific concept you can always implement a little plugin us
   
 
 
-# Classes, Custom Datatypes, Functions
+## Classes, Custom Datatypes, Functions
 
 ![](~/img/patching-subpatches.png "")   
 
@@ -35,7 +35,7 @@ There've been attempts to add further ways of structuring data into vvvv, see:
 * <a href="https://github.com/woeishi/VVVV.Struct" class="extURL" target="_blank">VVVV.Struct</a> by <span class="user"><a href="https://vvvv.org/users/woei" class="extURL" target="_blank">woei</a></span> & <span class="user"><a href="https://vvvv.org/users/tonfilm" class="extURL" target="_blank">tonfilm</a></span>  
 
 
-# Conditions
+## Conditions
 
 ![](~/img/Conditions-SwitchSimple.png "")   
 
@@ -46,7 +46,7 @@ Looking for an *if*, *switch*, ...?
 See [Conditions](xref:69bdb72a-3e21-4b27-a4a6-c15e7c0ec56e).  
 
 
-# Loops
+## Loops
 
 
 ![](~/img/patching-spectral2.png "")  
@@ -59,7 +59,7 @@ Basically vvvv avoids the concept of such sequential loops. Instead it often all
 See [Spectral Operations](xref:81251c9c-350f-462d-9d61-6d81a6896ad9).  
 
 
-# Variables
+## Variables
 
 ![](~/img/patching-send-receive2.png "")  
 
@@ -102,7 +102,7 @@ See [SubPatches](xref:b66f153a-f7c3-4867-a8c9-bce69861d759).
 
 
 
-# Collections
+## Collections
 
 ![](~/img/Spreads_ColsAndRows_Output2.png "")   
 
@@ -112,7 +112,7 @@ Looking for an *Array*, *List*, ...?
 See [Spreads](xref:00327d1e-65ba-4424-997d-615d9a469503).  
 
 
-# Data Storages
+## Data Storages
 
 ![](~/img/patching-SpreadCollections.png "")   
 
@@ -122,7 +122,7 @@ Looking for a *Buffer*, *Stack* or *Queue*?
 See [Spread Collections](xref:bdc0b656-7f64-4cb5-a7bc-eac1c28a8357).  
 
 
-# Null
+## Null
 
 ![](~/img/patching-nil.png "")  
 
@@ -132,7 +132,7 @@ An empty Array or List in textual language is Nil in vvvv.
 See [NIL](xref:a2b935e8-17cd-4c26-b701-4919803792d1#nil).  
 
 
-# State Automatas
+## State Automatas
 
 ![](~/img/patching-automata.png "")  
 

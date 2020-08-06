@@ -2,7 +2,7 @@
 uid: 5eea935d-c82d-4b89-8403-1fbc1d79fb93
 ---
 
-# The Concept
+## The Concept
 
 ![](~/img/BasicPatching_Cascading.png "")  
  
@@ -30,7 +30,7 @@ If you close the root patch vvvv will ask what if you want to:
 * quit  
 
 
-# Custom Root
+## Custom Root
 
 
 

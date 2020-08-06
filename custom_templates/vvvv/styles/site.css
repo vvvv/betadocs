@@ -367,3 +367,11 @@ kbd
     max-width: 100%;
     height: auto;
 }
+
+.anchorjs-link {
+    transition: all .25s linear;
+  }
+
+*:hover > .anchorjs-link {
+margin-left: 0.125em !important;
+}
