@@ -46,38 +46,5 @@
     "keepFileLink": false,
     "cleanupCacheHistory": false,
     "disableGitFeatures": false
-  },
-  "pdf": {
-    "content": [
-      {
-        "files": [
-          "**.md",
-          "**/toc.yml",
-          "toc.yml",
-          "index.md"
-        ]
-      },
-      {
-        "files": "pdf/toc.yml"
-      }
-    ],
-    "resource": [
-      {
-        "files": [
-          "img/**"
-        ],
-        "exclude": [
-          "**/bin/**",
-          "**/obj/**",
-          "_site_pdf/**"
-        ]
-      }
-    ],
-    "overwrite": [
-    ],
-    "wkhtmltopdf": {
-      "additionalArguments": "--enable-local-file-access"
-    },
-    "dest": "_site_pdf"
   }
 }
