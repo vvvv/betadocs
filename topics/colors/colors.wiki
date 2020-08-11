@@ -124,3 +124,19 @@ __See also:__
 * ((/contributions/all/3422|Related Contributions))
 
 {SPLIT}
+
+!Down the rabbit hole
+{SPLIT()}
+
+[https://poynton.ca/Poynton-color.html|Charles Poynton - Color technology]
+[https://www.khanacademy.org/computing/pixar/color| Khan Academy - Pixar in a Box, Color science]
+[https://blog.johnnovak.net/2016/09/21/what-every-coder-should-know-about-gamma/| John Novak - What every coder should know about gamma]
+[https://bjango.com/articles/colourmanagementgamut/| Bjango - Color management]
+
+~~~
+
+External sites providing further info on color, color spaces and color management.
+
+{SPLIT}
+
+
