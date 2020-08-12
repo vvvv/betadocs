@@ -1144,6 +1144,9 @@
   <Item Key="ioboxes#color">
     <Value Original_Link="ioboxes#color" Path="" Text="Color IOBoxes" UID="86693dba-d049-4027-874d-d53f0437ad66#color" />
   </Item>
+  <Item Key="/documentation/ioboxes#color">
+    <Value Original_Link="/documentation/ioboxes#color" Path="" Text="Color IOBoxes" UID="86693dba-d049-4027-874d-d53f0437ad66#color" />
+  </Item>
   <Item Key="Video Software Links">
     <Value Original_Link="Video Software Links" Path="" Text="Video Software Links" UID="dd9d3502-6b19-4cc3-8084-4153676de9d4" />
   </Item>

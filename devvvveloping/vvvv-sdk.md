@@ -43,39 +43,35 @@ This will take a while as it now makes a local copy (ie. clone) of the specified
 
 ## The repository layout
 By cloning the repository you got a local copy that should look like this:  
-> 
- \common
- \Hoster
- \scripts
- \tools
- \vvvv45
+>\common   
+ \Hoster   
+ \scripts   
+ \tools   
+ \vvvv45   
   
 
 Now don't worry about \common \Hoster and \scripts and navigate to the \vvvv45 directory. What you see here is essentially the same directory layout you get when downloading vvvv as an enduser (except the \src and \tests directories which are not in the enduser download).   
-> 
- \addonpack
- \girlpower
- \lib
- \licenses
- \src
- \tests
+>\addonpack   
+ \girlpower   
+ \lib   
+ \licenses   
+ \src   
+ \tests   
   
 
 Navigate to the \addonpack directory which is where you will work. It contains 4 directories as follows:  
-> 
- \girlpower
- \lib
- \licenses
- \src
+>\girlpower   
+ \lib   
+ \licenses   
+ \src   
   
 
 The \src directory contains addons that need to be compiled before being useful (ie. plugins) while the \lib directory contains addons that will be shippped in the pack as they are (ie. modules, effects).  
 
 So depending on what kind of addon you're working on you put your nodes in the respective subdirectories:  
-> 
- \src\nodes\plugins 
- \lib\nodes\effects
- \lib\nodes\modules
+>\src\nodes\plugins    
+ \lib\nodes\effects   
+ \lib\nodes\modules   
   
 
 ## Build Core and Addonpack
@@ -176,9 +172,9 @@ The git *pull* command is used to fetch (and merge) code from a remote repositor
 For this you have to add the original repo as an extra *remote* to your repository. In the Git Extensions menu go to:  
  Remotes -> Manage remote repositories
 and add a new remote giving it the name "upstream" and the url:  
-> 
- https://github.com/vvvv/vvvv-sdk.git
-  
+```
+https://github.com/vvvv/vvvv-sdk.git
+```  
 
 Now you can pull from either of your two remotes:  
 * origin: the remote repo of your fork on github  
