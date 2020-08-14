@@ -30,13 +30,13 @@
       "_appTitle": "vvvv beta documentation",
       "_appFooter": "Brought to you by vvvv.org",
       "_enableSearch": true,
-      "_enableNewTab": true,
+      "_enableNewTab": false,
       "_appLogoPath": "/img/icons/logo.svg",
       "_appFaviconPath": "/img/icons/favicon.ico",
       "_disableContribution": false,
       "_disableAffix": false,
       "_gitContribute": {
-        "repo": "https://github.com/devvvvs/betadocs.git",
+        "repo": "https://github.com/vvvv/betadocs.git",
         "branch": "master"
       },
       "_gitUrlPattern": "github"
