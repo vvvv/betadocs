@@ -51,8 +51,7 @@ uid: dc061415-349d-405b-9df8-03c10b60aa30
 ## Hardware
 * [Firmata](xref:8c8ad666-b5b1-4fb6-a0e1-5dccccdbf9f6)  
 * [Graphics tablets](xref:d179d3ab-5d93-4627-afa4-23385ad46cbb)  
-* [Kinect](xref:be4d1a0f-7227-4494-bf83-459bab468dcf)  
-* [Kinect](xref:be4d1a0f-7227-4494-bf83-459bab468dcf)  
+* [Kinect](xref:be4d1a0f-7227-4494-bf83-459bab468dcf)
 * [Leap](xref:f6235eac-eddc-43bb-962e-cecedf4b50bd)  
 * [Lights](xref:d7349927-eeb9-48ec-a081-44a374291c0c)  
 * [Motors](xref:44b50162-f6d7-4348-a403-ef77fff3c381)  
@@ -67,9 +66,6 @@ uid: dc061415-349d-405b-9df8-03c10b60aa30
 * [WiiMote](xref:e22a0a2a-175b-4420-97b6-5fbe11c6f075)  
 * [Odd Hardware](xref:fe76f927-48c4-40d4-be9e-ca7df6ca224d)  
 
-
-# IO Overview
-# 
 ## Useful links
 * [Electronics Links](xref:40d7b16c-c61f-41c1-8345-62e0b729f6a0)  
-* ((IO Links))
+* [IO Links](xref:9f4b87bf-29a2-4bc1-ab95-86e2842b4db4)  
