@@ -1,5 +1,5 @@
 - name: Overview
-  href: overview.md
+  href: index.md
 - name: Resource synchronization
   href: resource-synchronization.md
 - name: What is a Data retriever

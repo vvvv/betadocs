@@ -38,11 +38,11 @@ uid: fbc5a2de-2925-4242-90d1-1fa3b080140b
             <h2>Topics of interest</h2>
             <p>Documentation sorted by common topics spanning across all categories of the library of vvvv nodes.</p>
             <ul>
-                <li><a href="topics/animation/introduction.html">Animation</a> filter, timeline,...</li>
-                <li><a href="topics/audio/intro.html">Audio</a> BASS, ASIO, VST, MIDI,...</li>
+                <li><a href="topics/animation/index.html">Animation</a> filter, timeline,...</li>
+                <li><a href="topics/audio/index.html">Audio</a> BASS, ASIO, VST, MIDI,...</li>
                 <li><a href="topics/colors/index.html">Colors</a></li>
                 <li><a href="topics/graphics/index.html">Graphics</a> 2D, 3D, SVG, DX9, DX11, effects,...</li>
-                <li><a href="topics/io/overview.html">IO</a> Arduino, Kinect, Oculus, Leap, protocols,...</li>
+                <li><a href="topics/io/index.html">IO</a> Arduino, Kinect, Oculus, Leap, protocols,...</li>
                 <li><a href="topics/logic/index.html">Logic</a></li>
                 <li><a href="topics/math/index.html">Math</a> mathematical backgrounds</li>
                 <li><a href="topics/physics/index.html">Physics</a> Box2d, Bullet3d,...</li>

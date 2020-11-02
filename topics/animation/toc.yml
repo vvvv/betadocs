@@ -1,5 +1,5 @@
 - name: Introduction
-  href: introduction.md
+  href: index.md
 - name: Time-based Animation
   href: time-based-animation.md
 - name: Frame-based Animation

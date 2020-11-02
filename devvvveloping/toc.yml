@@ -1,5 +1,5 @@
 - name: Overview
-  href: overview.md
+  href: index.md
 - name: Addons
   href: addons/toc.yml
 - name: Dynamic VL Plugin Reference
