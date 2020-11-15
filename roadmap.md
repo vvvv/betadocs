@@ -9,10 +9,8 @@ For more details on changes for individual releases please consult the full [Cha
 For a more colorful rendition of the same events see MESO's <a href="https://meso.design/en/articles/the-flow-of-creative-expression-paving-the-way-for-vvvv" class="extURL" target="_blank">vvvv history page</a>.  
 
 # Upcoming Milestones
-* vvvv beta40 including latest VL  
-* finalization of depth camera libraries: Kinect v1, v2 and v3, Astra, Nuitrack, RealSense  
 * finalization of networking libraries: UDP, OSC, TUIO, MQTT, ZMQ  
-* preview release of <a href="https://www.youtube.com/playlist?list=PLBTgwgsWWcT9RFmWJ3kLOK-ota8k8YTph" class="extURL" target="_blank">VL.Stride</a>  
+* vvvv gamma 2020.3 including VL.Stride
 
 ## Further on our agenda, to be reviewed after the vvvv gamma release:
 (without claim of completeness and in no particular order)  
@@ -37,6 +35,11 @@ For a more colorful rendition of the same events see MESO's <a href="https://mes
 * VL integration in other tools  
 
 # vvvv gamma 
+NODE20: 6th edition of the NODE Forum for Digital Arts with <a href="https://vvvv.org/blog/this-was-node20" class="extURL blog" target="_blank">30 online workshops and a fine range of TV shows covering the latest and greatest from the univvvverse</a>.
+
+**2020.3-preview** 01 10 20  
+the first <a href="https://vvvv.org/blog/vl.stride-for-evvvveryone" class="extURL blog" target="_blank">preview including the new 3d engine</a>. 
+
 **2020.1** 01 04 20  
 this is it: the first official <a href="https://vvvv.org/blog/vvvv-gamma-2020.1-release" class="extURL blog" target="_blank">stable release of vvvv gamma</a>. introducing also a new website: <a href="http://visualprogramming.net" class="extURL" target="_blank">http://visualprogramming.net</a>.  
 
