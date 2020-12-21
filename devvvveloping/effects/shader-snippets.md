@@ -94,6 +94,24 @@ return(tex2D(Samp, float2(IN.TexCd.xy)).wwww);
 ```  
 Texture input must be in A8R8G8B8 format.  
 
+## buffer to texture
+R:TARGETSIZE;
+
+```hlsl
+StructuredBuffer<float4> sb;
+float2 R:TARGETSIZE; 
+float4 P0(float4 pos: SV_POSITION, float2 uv: TEXCOORD0): SV_Target
+{
+	return sb[pos.x + (pos.y * R.x)];
+}
+
+technique10 Template 
+{
+	pass P0 <string format="R32G32B32A32_Float";>
+	{ SetPixelShader(CompileShader(ps_4_0, P0())); }
+} 
+```
+
 ## working alpha channel in 3d
 **needs 2 passes so connect an iobox with 2 rows to the pass pin and fill it with 0,1**  
 ```hlsl  
