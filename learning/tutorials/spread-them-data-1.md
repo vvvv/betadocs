@@ -62,4 +62,4 @@ And so on. Thus, whenever you think things won't work out a spread will come han
 # Further experimenting
 At this point you may also want to have a look at the [helppatches](xref:d226aa5e-55b1-4cb3-b016-cd958051fc4a) of: <span class="node">GetSlice (Spreads)</span>, <span class="node">Stallone (Spreads)</span>, <span class="node">Queue (Spreads)</span> and <span class="node">Cons (Spreads)</span>.  
 
-The tutorial series now goes on telling you some things you should know about ((Tutorial IOBoxes|IOBoxes))
+The tutorial series now goes on telling you some things you should know about [IOBoxes](2466c693-f778-4df7-91b7-1f49a913dcf3).
