@@ -52,4 +52,4 @@ If you've been looking for interface elements like sliders and buttons the whole
 
 If, for example, you select only the <span class="node">IOBox (Value Advanced)</span> and view it in the Inspektor you will see that it has some more configuration pins. Explaining all their meanings is beyond the scope of this little tutorial but you should find most answers to your questions in the HelpPatch of the IOBoxes.  
 
-But instead of playing around with sliders and buttons you should really concentrate on the important things in life and go on with ((Tutorial SpreadsII|Spread them Data II))
+But instead of playing around with sliders and buttons you should really concentrate on the important things in life and go on with [Spread them Data II](xref:5521e091-b068-4170-a28e-ea928208edb9).
