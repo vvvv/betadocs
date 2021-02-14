@@ -3,7 +3,7 @@ uid: 5521e091-b068-4170-a28e-ea928208edb9
 ---
 
 # Spread them Data 2
-The following tutorial assumes that you have already worked through tutorial IV: [IOBoxes](2466c693-f778-4df7-91b7-1f49a913dcf3).  
+The following tutorial assumes that you have already worked through tutorial IV: [IOBoxes](xref:2466c693-f778-4df7-91b7-1f49a913dcf3).  
 
 # Recall
 Now that we've learned how to deal with IOBoxes let's have another look  at how nodes deal with spreads.   
