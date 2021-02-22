@@ -22,12 +22,3 @@ NURBS (short for "non uniform rational b-spline") are essentially B-Splines with
 
 **See also:**  
 * <a href="https://en.wikipedia.org/wiki/Non-uniform_rational_B-spline" class="extURL" target="_blank">Wikipedia on NURBS</a>  
-
-
-
----  
-Sources  
-* https://en.wikipedia.org/wiki/Curve  
-* https://en.wikipedia.org/wiki/List_of_curves  
-* https://en.wikipedia.org/wiki/Spline_%28mathematics%29  
-* http://pomax.github.io/bezierinfo
