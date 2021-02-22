@@ -21,4 +21,9 @@ There are many different types of splines (hermite, bézier, catmull-rom, b-spli
 ![](~/img/BezierAndB-Spline_ControlPoints2.png "")   
 *Splines with their segments, control points and knots*  
 
-
+---  
+Sources  
+* https://en.wikipedia.org/wiki/Curve  
+* https://en.wikipedia.org/wiki/List_of_curves  
+* https://en.wikipedia.org/wiki/Spline_%28mathematics%29  
+* http://pomax.github.io/bezierinfo
