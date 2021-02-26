@@ -3,7 +3,7 @@ uid: ab13f07c-9eca-4845-8b83-80ba59e45bfd
 ---
 
 # TextureFX Specification
-TextureFX is essentially vvvvs answer to <a href="http://freeframe.svn.sourceforge.net/viewvc/freeframe/trunk/docs/specification.html" class="extURL" target="_blank">freeframeGL</a>, i.e. a specification for modules that do GPU-based texture-generation, -manipulation and -analyis. The idea was triggered by <span class="user"><a href="https://vvvv.org/users/karistouf" class="extURL" target="_blank">karistouf</a></span> in his thread with the almost poetic title <a href="https://discourse.vvvv.org/t/pure-image-treatment-question-wich-evolution-for-vvvv)) and implementation is expertly lead by <span class="user"><a href="https://vvvv.org/users/unc" class="extURL" target="_blank">unc</a></span>. The whole series of modules/effects is now part of the ((about the addonpack" class="extURL forum" target="_blank">Addonpack</a>.  
+TextureFX is essentially vvvvs answer to <a href="http://freeframe.svn.sourceforge.net/viewvc/freeframe/trunk/docs/specification.html" class="extURL" target="_blank">freeframeGL</a>, i.e. a specification for modules that do GPU-based texture-generation, -manipulation and -analyis. The idea was triggered by <span class="user"><a href="https://vvvv.org/users/karistouf" class="extURL" target="_blank">karistouf</a></span> in his thread with the almost poetic title <a href="https://discourse.vvvv.org/t/pure-image-treatment-question-wich-evolution-for-vvvv" class="extURL forum" target="_blank">Pure image treatment question: wich evolution for vvvv</a> and implementation is expertly lead by <span class="user"><a href="https://vvvv.org/users/unc" class="extURL" target="_blank">unc</a></span>. The whole series of modules/effects is now part of the [Addonpack](xref:e1554948-8a15-4e39-8289-59216c388376).  
 
 # TextureFX Specification 1.0
 The modules are organized in the following categories using the mentioned in- and outputs:  
@@ -47,5 +47,5 @@ Modules returning analysis data from a given input texture, like trackers,...
 * At least one output parameter  
 
 ---  
-latest version of the pack is available via svn:  
-\https://github.com/vvvv/vvvv-sdk/tree/develop/vvvv45/addonpack/lib/nodes/modules/TextureFX
+Latest version of the pack on github:  
+<a href="https://github.com/vvvv/vvvv-sdk/tree/develop/vvvv45/addonpack/lib/nodes/modules/TextureFX" class="extURL" target="_blank">https://github.com/vvvv/vvvv-sdk/tree/develop/vvvv45/addonpack/lib/nodes/modules/TextureFX</a>

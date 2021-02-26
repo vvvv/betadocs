@@ -34,7 +34,7 @@ Every video is just a sequence of textures, so there is no difference whether th
 
 The whole series of modules/effects is now part of the [Addonpack](https://vvvv.org/downloads). Type 'fx' in the [Node Browser](xref:eeb8526d-0085-4219-a138-32ac397853f1) to get the full list of available nodes.  
 
-The idea was triggered by <span class="user"><a href="https://vvvv.org/users/karistouf" class="extURL" target="_blank">karistouf</a></span> in his thread with the almost poetic title <a href="https://discourse.vvvv.org/t/pure-image-treatment-question-wich-evolution-for-vvvv)) and implementation is expertly lead by <span class="user"><a href="https://vvvv.org/users/unc" class="extURL forum" target="_blank">pure-image-treatment-question-wich-evolution-for-vvvv" class="extURL" target="_blank">unc" class="extURL forum" target="_blank">pure-image-treatment-question-wich-evolution-for-vvvv</a></span> and implementation is expertly lead by ((user:unc</a>.  
+The idea was triggered by <span class="user"><a href="https://vvvv.org/users/karistouf" class="extURL" target="_blank">karistouf</a></span> in his thread with the almost poetic title <a href="https://discourse.vvvv.org/t/pure-image-treatment-question-wich-evolution-for-vvvv" class="extURL forum" target="_blank">Pure image treatment question: wich evolution for vvvv</a> and implementation is expertly lead by <span class="user"><a href="https://vvvv.org/users/unc" class="extURL" target="_blank">unc</a></span>.
 
 Examples in your vvvv\girlpower\ directory:  
 * Graphics\DX9\Textures  
