@@ -8,10 +8,6 @@ By highlighting notable events along the road to creating a comfortable visual l
 For more details on changes for individual releases please consult the full [Change Log](xref:bdf5b551-6229-417e-8c99-3a3f33565029) and follow our <a href="https://vvvv.org/blog/1575+1576+23" class="extURL blog" target="_blank">Development Blog</a>.  
 For a more colorful rendition of the same events see MESO's <a href="https://meso.design/en/articles/the-flow-of-creative-expression-paving-the-way-for-vvvv" class="extURL" target="_blank">vvvv history page</a>.  
 
-# Upcoming Milestones
-* finalization of networking libraries: UDP, OSC, TUIO, MQTT, ZMQ  
-* vvvv gamma 2020.3 including VL.Stride
-
 ## Further on our agenda, to be reviewed after the vvvv gamma release:
 (without claim of completeness and in no particular order)  
 * Node Libraries  
@@ -35,6 +31,9 @@ For a more colorful rendition of the same events see MESO's <a href="https://mes
 * VL integration in other tools  
 
 # vvvv gamma 
+**2021.3** 16 02 21  
+the first <a href="https://vvvv.org/blog/vvvv-gamma-2021.3-release" class="extURL blog" target="_blank">stable including the new 3d engine VL.Stride</a>. 
+
 NODE20: 6th edition of the NODE Forum for Digital Arts with <a href="https://vvvv.org/blog/this-was-node20" class="extURL blog" target="_blank">30 online workshops and a fine range of TV shows covering the latest and greatest from the univvvverse</a>.
 
 **2020.3-preview** 01 10 20  
