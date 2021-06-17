@@ -1,9 +1,0 @@
-released on 09 09 2014
-
-!!general
-* connections can now be made in patches with Evaluate=0 ((forum:handling-of-evaluate-state))
-
-!!fixed nodes
-* Unzip/Zip (2d/3d/4d) ((forum:zip-2d3d4d-outputs-only-0-beta33))
-* SharedMemory (EX9.Texture) now works with /dx9ex
-* Kalle (VVVV) is back in the game.

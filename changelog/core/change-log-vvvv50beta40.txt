@@ -1,8 +1,0 @@
-released on 07 07 20
-
-* Updated VL to version 2020.1.6
-* Update to latest RCPSharp
-* Fixes for Spout thanks to a [https://github.com/vvvv/vvvv-sdk/pull/293|PR by @leadedge]
-* Fixed regression introduced in beta39 crashing vvvv when putting a DX11 renderer into boxed mode. This bug was also present in earlier versions but only harder to reproduce, one had to create a Keyboard (Window) node BEFORE creating the renderer.
-* Fixed an issue with filedialogs opening on pin rightlick
-
