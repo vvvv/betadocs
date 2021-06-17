@@ -1,5 +1,0 @@
-released on 25 06 13
-
-!!new nodes
-* WOL (Network)
-* ShellExecute (Windows Advanced) was: ((contribution:obsolete-see-addonpack-exec))

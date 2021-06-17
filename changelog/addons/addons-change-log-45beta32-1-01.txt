@@ -1,6 +1,0 @@
-released on 12 06 14
-!!changed nodes
-* Syslog now has 2 Nodes ((node:Syslog (Raw Join))) and ((node:Syslog (Raw Split))) (and got a bug fixed)
-
-!!new nodes
-* Button (3d Multitouch Quad/Mesh)

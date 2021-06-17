@@ -1,4 +1,0 @@
-released on 5th September 2018
-
-1 BIG 1:
-((blog:htmltexture-now-for-dx11-and-more|HTMLTexture now for DX11 and more))
