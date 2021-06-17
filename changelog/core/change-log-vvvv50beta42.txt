@@ -1,0 +1,1 @@
+* Fix for reopening the VL editor 
