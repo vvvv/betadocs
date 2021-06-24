@@ -147,7 +147,11 @@ Just do it, don't show the window.
 #### /log
 
 
-Use this if you have troubles starting setup. With this flag vvvv logs all steps it does on startup into a .log file, placed next to setup.exe. You can then post that textfile to the forums bug-section and hope that we can help you identify your problem.  
+Use this if you have troubles starting setup. With this flag vvvv logs all steps it does on startup into a .log file, placed next to setup.exe. You can then post that textfile to the forums bug-section and hope that we can help you identify your problem.
+
+
+#### /package-repositories
+Adds one or multiple folders that should be loaded as a vvvv pack. It allows you to debug and load latest changes when working on a vvvv pack with version control, such as Git. Separeate multiple paths with semicolon.
 
 
 # Using your own Commandline Parameters
