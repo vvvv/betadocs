@@ -20,5 +20,5 @@ Frank Langer <span class="user"><a href="https://vvvv.org/users/frank" class="ex
 
 ##  Theory & Patches
 
-<a href="https://vvvv.org/contribution/workshop-videotracking-slides" class="extURL contribution" target="_blank">workshop-videotracking-slides</a>  
-
+<a href="https://vvvv.org/contribution/workshop-videotracking-node10" class="extURL contribution" target="_blank">workshop-videotracking-slides</a>  
+
