@@ -6,8 +6,9 @@ uid: 87a427cb-b546-44ab-91a5-a4d12abe1b7f
 
 ## 0. Checklist
 
+* The below guide is for vvvv beta. More likely these days you're interested in the **all-new vvvv gamma**. [Start here!](https://thegraybook.vvvv.org/reference/getting-started/overview.html)
 * Can vvvv do what you want? See the [Propaganda](https://vvvv.org/propaganda) page for an overview of vvvv's main capabilities and where to find info about them.  
-* Needs Windows 7/8/10  
+* Needs Windows 7/8/10/11
 * 3 button mouse (recommended)  
 
 ## 1. Download
