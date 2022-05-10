@@ -12,5 +12,6 @@ The manual explaining all vvvv intrinsic features in detail.
 * [Boygrouping](xref:9d029794-1266-4e60-961f-33e6f95af7e6)
 * [VL](xref:89e664e5-1274-4966-a7cd-82255eea4483)
 * [Commandline Parameters](xref:2eb3d2a2-d4c1-4bc0-bcd8-16e48d756b16)
+* [Protektor](xref:aeaa732d-3cc8-4673-9817-15f0cc125ba6)
 * [Troubleshooting](xref:654fb0a1-2f52-4425-8ab7-2f82d4785d54)
 * [Finding Help](xref:d226aa5e-55b1-4cb3-b016-cd958051fc4a)
