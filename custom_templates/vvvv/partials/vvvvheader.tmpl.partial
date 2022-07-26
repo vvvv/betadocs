@@ -21,10 +21,22 @@
 							<li><a href="http://store.vvvv.org/account">My licenses</a></li>
 						</ul>
 					</li>
+					
+					<li class="active">
+						<a href="/">Documentation</a>
+					</li>
+					
+					<li>
+						<a href="https://discourse.vvvv.org">Forum</a>
+					</li>
+					
+					<li>
+						<a href="https://visualprogramming.net/blog">Blog</a>
+					</li>
 
 					<li>
 					<a href="https://vvvv.org/users">Users</a>
-					<ul>
+						<ul>
 							<li><a href="https://vvvv.org/users/map">Map</a></li>
 							<li><a href="https://vvvv.org/users/list">Userlist</a></li>
 							<li><a href="https://vvvv.org/users/businesses">Businesses</a></li>
@@ -32,19 +44,7 @@
 							<li><a href="https://vvvv.org/users/connections">Connections</a></li>
 						</ul>
 					</li>
-
-					<li>
-					<a href="https://vvvv.org/blog">Blog</a>
-					</li>
-
-				<li>
-					<a href="https://discourse.vvvv.org">Forum</a>
-				</li>
-
-					<li class="active">
-						<a href="/">Documentation</a>
-					</li>
-
+					
 					<li>
 					<a href="https://vvvv.org/contributions">Contributions</a>
 					<ul>
