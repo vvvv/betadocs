@@ -23,4 +23,4 @@ By design the system always protects a whole project and can then only load prot
 
 In a patch you can use <span class="node">Dongle (VVVV)</span> to check for the presence of the dongle periodically and take according action if the dongle is missing.
 
-For pricing and ordering please see <a href="https://shop.vvvv.org" class="extURL" target="_blank">Licensing</a>.
+For pricing and ordering please see <a href="https://store.vvvv.org" class="extURL" target="_blank">Licensing</a>.
