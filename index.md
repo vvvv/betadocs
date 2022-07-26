@@ -27,6 +27,7 @@ uid: fbc5a2de-2925-4242-90d1-1fa3b080140b
             </ul>
             <ul>
                 <li><a href="using-vvvv/commandline.html">Commandline Parameters</a></li>
+                <li><a href="using-vvvv/protektor.html">Protektor</a></li>
                 <li><a href="using-vvvv/troubleshooting.html">Troubleshooting</a></li>
                 <li><a href="using-vvvv/finding-help.html">Finding Help</a></li>
                 <li><a href="using-vvvv/the-user-interface/ui-reference.html">UI Reference</a> - a list of all shortcuts</li>
