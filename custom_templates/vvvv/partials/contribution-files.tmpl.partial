@@ -1,0 +1,13 @@
+{{#latest}}
+    {{>partials/contribution-single-file}}
+{{/latest}}
+{{#older}}
+<button type="button" class="collapsible">Older Versions</button>
+<div class="older">
+    {{#files}}
+    {{#file}}
+        {{>partials/contribution-single-file}}
+    {{/file}}
+    {{/files}}
+</div>
+{{/older}}

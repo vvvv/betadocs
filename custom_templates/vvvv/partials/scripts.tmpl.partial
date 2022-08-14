@@ -7,3 +7,4 @@
 <script async defer data-domain="betadocs.vvvv.org" src="https://plausible.io/js/plausible.js"></script>
 <script type="text/javascript" src="{{_rel}}styles/externalJS.js"></script>
 <script type="text/javascript" src="{{_rel}}styles/docfx.js"></script>
+<script type="text/javascript" src="{{_rel}}styles/contribs.js"></script>

@@ -1,0 +1,22 @@
+<div class="comments">
+  {{#comments}}
+    {{#comment}}
+    <div class="comment">
+      <div class="avatar"></div>
+      <div class="content">
+          <div class="header">
+            <div class="comment-user">
+              {{user}}
+            </div>
+            <div class="created">
+              {{created}}
+            </div>    
+          </div>
+          <div class="body">
+              {{{body}}}
+          </div>
+      </div>
+    </div>
+    {{/comment}}
+  {{/comments}}
+</div>

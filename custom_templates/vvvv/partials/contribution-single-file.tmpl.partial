@@ -1,0 +1,5 @@
+<div class="file">
+  <div class="filename"><a href="{{delta}}-{{filename}}">{{delta}}-{{filename}}</a></div>
+  <div class="timestamp">{{timestamp}}</div>
+  <div class="description">{{{description}}}</div>
+</div>
