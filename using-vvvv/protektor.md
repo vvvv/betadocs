@@ -8,7 +8,7 @@ If you need to deploy a vvvv project and want to protect your source code (intel
 
 ![](~/img/dongle_0.png "")
 
-For an additional fee to the basic <a href="https://shop.vvvv.org" class="extURL" target="_blank">licensing</a> costs you can buy a dongle (for each license). With a dongle you get access to the Protektor tool that allows you to protect your work from being run without your permission. While the files of your project can still be copied freely vvvv will only run them if a dongle that you prepared is present. And even with the dongle present vvvv will not display your patches but only renderers.
+For an additional fee to the basic <a href="https://store.vvvv.org" class="extURL" target="_blank">licensing</a> costs you can buy a dongle (for each license). With a dongle you get access to the Protektor tool that allows you to protect your work from being run without your permission. While the files of your project can still be copied freely vvvv will only run them if a dongle that you prepared is present. And even with the dongle present vvvv will not display your patches but only renderers.
 
 ---
 
@@ -23,4 +23,4 @@ By design the system always protects a whole project and can then only load prot
 
 In a patch you can use <span class="node">Dongle (VVVV)</span> to check for the presence of the dongle periodically and take according action if the dongle is missing.
 
-For pricing and ordering please see <a href="https://shop.vvvv.org" class="extURL" target="_blank">Licensing</a>.
+For pricing and ordering please see <a href="https://store.vvvv.org" class="extURL" target="_blank">Licensing</a>.
