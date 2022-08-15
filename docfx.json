@@ -13,7 +13,8 @@
     "resource": [
       {
         "files": [
-          "img/**"
+          "img/**",
+          "**.{jpg,png,jpeg,PNG,JPG,gif,GIF}"
         ]
       }
     ],
@@ -28,6 +29,7 @@
     "postProcessors": [ "ExtractSearchIndex" ],
 	  "globalMetadata": {
       "_appTitle": "vvvv beta documentation",
+      "_contributionsTitle": "vvvv beta contributions",
       "_appFooter": "Brought to you by vvvv.org",
       "_enableSearch": true,
       "_enableNewTab": false,

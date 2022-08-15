@@ -47,25 +47,19 @@
                     <h1>{{title}}</h1>
                     <xref uid="{{uid-meta}}" template="partials/contribution-meta.tmpl"/>
                     
-                    {{#uid-files}}
-                      <h2 id="download">Download</h2>
-                      <xref uid="{{uid-files}}" template="partials/contribution-files.tmpl"/>
-                    {{/uid-files}}
+                    <xref uid="{{uid-files}}" template="partials/contribution-files.tmpl"/>
                     
                     <h2 id="description">Description</h2>
 
                     {{#image}}
                       <div class="image">
-                        {{image}}
+                        <img src="{{image}}"/>
                       </div>
                     {{/image}}
                     
                     {{! body}}
                     
-                    {{#uid-comments}}
-                      <h2 id="comments">Comments</h2>
-                      <xref uid="{{uid-comments}}" template="partials/contribution-comments.tmpl"/>
-                    {{/uid-comments}}
+                    <xref uid="{{uid-comments}}" template="partials/contribution-comments.tmpl"/>
                   {{/overview}}
                 </div>
               {{/contribution}}

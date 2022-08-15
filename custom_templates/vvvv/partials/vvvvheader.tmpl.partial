@@ -22,7 +22,7 @@
 						</ul>
 					</li>
 					
-					<li class="active">
+					<li {{^contribution}}class="active"{{/contribution}}>
 						<a href="/">Documentation</a>
 					</li>
 					
@@ -45,12 +45,12 @@
 						</ul>
 					</li>
 					
-					<li>
-					<a href="https://vvvv.org/contributions">Contributions</a>
-					<ul>
-						<li><a href="https://vvvv.org/contributions">All</a></li>
-						<li><a href="https://vvvv.org/store">Store</a></li>
-					</ul>
+					<li {{#contribution}}class="active"{{/contribution}}>
+						<a href="/_site/contributions/">Contributions</a>
+						<ul>
+							<li><a href="https://vvvv.org/contributions">All</a></li>
+							<li><a href="https://vvvv.org/store">Store</a></li>
+						</ul>
 					</li>
 
 					<li>

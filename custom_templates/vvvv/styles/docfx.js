@@ -378,8 +378,15 @@ $(function () {
             navbarPath = navbarPath.replace(/\\/g, '/');
             var tocPath = $("meta[property='docfx\\:tocrel']").attr("content") || '';
             if (tocPath) tocPath = tocPath.replace(/\\/g, '/');
+
+            var isContribution = $("meta[property='docfx\\:isContribution']").attr("content");
+            if (isContribution) {
+                navbarPath = tocPath;
+            }
+
             $.get(navbarPath, function (data) {
                 $(data).find("#toc>ul").prependTo("#navbar");
+                $("#navbar").find(".level2").remove();
                 showSearch();
                 var index = navbarPath.lastIndexOf('/');
                 var navrel = '';
