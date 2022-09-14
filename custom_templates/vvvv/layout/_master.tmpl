@@ -59,7 +59,14 @@
                     
                     {{! body}}
                     
-                    <xref uid="{{uid-comments}}" template="partials/contribution-comments.tmpl"/>
+                    {{#comments}}
+                      <h2 id="comments">Comments</h2>
+                      <div class="comments">
+                        {{#items}}
+                          <xref uid="{{uid}}" template="partials/contribution-single-comment.tmpl"/>
+                        {{/items}}
+                      </div>  
+                    {{/comments}}
                   {{/overview}}
                 </div>
               {{/contribution}}
