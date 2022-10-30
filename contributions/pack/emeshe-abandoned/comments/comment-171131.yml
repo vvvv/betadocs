@@ -13,7 +13,9 @@ body: |-
   
   2. the shape of point lights is tied to aspect ratio of render, i was trying to fix it but if i fix the aspect ratio of the light it will break aspec ratios of geometry
   
-  ![oval](https://vvvv.org/sites/default/files/imagecache/large/images/3.PNG) ![circle](a.PNG) 
+  ![oval](https://vvvv.org/sites/default/files/imagecache/large/images/3.PNG)
+  
+  ![circle](https://vvvv.org/sites/default/files/imagecache/large/images/a.PNG) 
   
   you can see on the first image that the light shape is oval, not circle
   
