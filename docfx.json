@@ -14,7 +14,7 @@
       {
         "files": [
           "img/**",
-          "**.{jpg,png,jpeg,PNG,JPG,gif,GIF}"
+          "**.{jpg,png,jpeg,PNG,JPG,gif,GIF,svg,SVG}"
         ]
       }
     ],

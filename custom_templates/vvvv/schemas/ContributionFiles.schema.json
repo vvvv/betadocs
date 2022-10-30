@@ -6,6 +6,12 @@
     "title": "ContributionFiles",
     "type": "object",
     "properties": {
+        "category": {
+            "type": "string"
+        },
+        "url": {
+            "type": "string"
+        },
         "files": {
             "type": "object",
             "properties": {
@@ -26,5 +32,5 @@
             }
         }
     },
-    "xrefProperties": [ "files" ]
+    "xrefProperties": [ "category", "url", "files" ]
 }
