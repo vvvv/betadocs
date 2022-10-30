@@ -1,0 +1,30 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/indexspread-meta"
+type: "module"
+author: "h99"
+date: "14 Jun, 2012"
+title: "IndexSpread"
+originalURL: "contribution/indexspread"
+category: "module"
+like_count: "5"
+imported: "true"
+teaser: |-
+  This module, fed with an integer, returns a spread of indices suitable for (m)any mesh.
+  Pattern is:
+  
+  012
+  230
+  456
+  674
+  ...
+  
+  Changing this pattern is strongly suggested, as nice results can be achieved, but make sure to save your patch, first.
+  
+  Help patch included.
+  
+  Would it be useful having a spreadable <span class="pin">Input</span>? Suggestions on improvement?
+  
+  Hope is useful.
+  
+  Ciao

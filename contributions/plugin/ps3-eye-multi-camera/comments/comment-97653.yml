@@ -1,0 +1,31 @@
+### YamlMime:ContributionComment
+---
+uid: "97653"
+user: "sansui"
+created: "07 Mar, 2013 - 02:45"
+body: |-
+  Hi [NOD423](http://vvvv.org/users/NOD423), I tried this plugin.
+  but node color is red, doesn't work.
+  
+  I think I followed your guide.
+  
+  http://codelaboratories.com/downloads/
+  1. CL Eye Platform Driver install
+  2. CL Eye Platform SDK install
+  3. PS3EyeMulti-bin.zip download and run
+  
+  and.. 
+  <div class="box">quote:NOD423:
+  unzip PS3EyeMulti-bin.zip to vvvv/freeframe
+  </div>
+  what is freeframe?
+  following [liquid](http://vvvv.org/users/liquid)'s comment, I copied "PS3EyeMulti.dll"   to "C:\vvvv_45beta29_x86\lib\thirdparty\freeframes".
+  As freeframes folder doesn't exist, I created.
+  
+  but it doesn't work. yet.
+  CL Eye Driver's CL-Eye Test is working.
+  
+  If you know my mistake, teach me please.
+  
+  ![](https://vvvv.org/sites/default/files/imagecache/large/images/PS3EyeMulti%20help_2013.03.07-11.35.06.png) 
+  ![](https://vvvv.org/sites/default/files/imagecache/large/images/ps3eyetest_work.png)

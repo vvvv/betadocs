@@ -1,0 +1,20 @@
+### YamlMime:ContributionComment
+---
+uid: "273666"
+user: "Aurel"
+created: "30 Aug, 2019 - 07:19"
+body: |-
+  Problem between V4 and Leap (Device) VL.
+  
+  The computer is able to run the Unity Leap Motion Visualizer tool and on the control panel of the leap accessed from task bar everything is ok (green). 
+  I took the last SDK Orion 4.0.0 But when I start Leap node in Vvvv nothing happened, the device say is not connected. 
+  
+  I already tried with several vvvv beta versions 35.8, 38.1 on x64 and 38.1 on x86 also the last alpha but nothing happened. I installed another computer because I had to and same problem.
+  
+  Also, when I start the Girlpower from leap back every single Leap node is red. I also copy the Vvvv.device.Leap.vl from alpha version to beta, but nothing changes.
+  
+  I don't see what to test now...
+  
+  Please
+  
+  Aurel

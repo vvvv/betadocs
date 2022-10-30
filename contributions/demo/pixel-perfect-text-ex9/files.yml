@@ -1,0 +1,36 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/pixel-perfect-text-(ex9)-files"
+url: "pixel-perfect-text-ex9"
+category: "demo"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "2"
+            filename: "TextPixelTransform.zip"
+            description: |-
+              Updated help patch, small cleanup.
+            
+            timestamp: "26 Feb, 2013 - 17:52"
+            download_count: "1"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "1"
+                    filename: "TextPixelTransform.zip"
+                    description: |-
+                      A module to give exact pixel positions from a transform input
+                    
+                    timestamp: "30 Aug, 2011 - 08:44"
+                    download_count: "3"
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "Text (EX9) help.v4p"
+                    description: |-
+                      Help patch as before but with added example for pixel perfect text
+                    
+                    timestamp: "29 Aug, 2011 - 10:22"
+                    download_count: "3"

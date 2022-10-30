@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/fibonacci-sphere-files"
+url: "fibonacci-sphere"
+category: "misc"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "fibonacci sphere.zip"
+            description: |-
+              Evenly (ish) distributed points on a sphere
+            
+            timestamp: "19 Feb, 2019 - 16:20"
+            download_count: "5"

@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "83156"
+user: "mediadog"
+created: "22 May, 2012 - 16:20"
+body: |-
+  One more data point: when exiting vvvv (27.2) when the CPUs are at 100%, vvv closes and the CPU levels drop to zero, but vvvv.exe is still a zombie and has to be manually killed.

@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "49881"
+user: "catweasel"
+created: "13 Jul, 2010 - 22:58"
+body: |-
+  The Cube environment is upside down as well ;)
+  setting the texcube to -reflVect.y  -reflVect.z seems to fix that...

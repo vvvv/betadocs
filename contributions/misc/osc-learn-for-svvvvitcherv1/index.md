@@ -1,0 +1,20 @@
+---
+uid: "contribution/osc-learn-for-svvvvitcherv1"
+uid-meta: "contribution/osc-learn-for-svvvvitcherv1-meta"
+uid-files: "contribution/osc-learn-for-svvvvitcherv1-files"
+title: "OSC Learn for SvvvvitcherV1"
+contribution: "true"
+---
+
+Extract this zip file to your SvvvvitcherV1 (beta23) folder. 
+
+Note that I did not include my _root_MAIN therefore you should attach IO boxes to the last 4 pins of the engine.
+
+Press shift+o to enable OSC Learn. It functions just like MIDI learn.
+
+- Tested with beta vvvv 25.1
+- Default receive port is 999 (keep it below 1000)
+- Default send port is 1111
+
+R2 Upgrade (added 3/11/11):
+- Adds the ability to send via OSC the name of the last slider modified via OSC. To find out the name of a slider, just move it slightly. Please install the included TouchOSC layout it will make a lot of sense when you test it out. Note: OSC Send must be enabled and properly configured for this feature to work.

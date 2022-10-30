@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "59216"
+user: "crash"
+created: "30 Jan, 2011 - 08:50"
+body: |-
+  hi, i have tried the above patches but i can't manage to make them work as they should..i mean that the only thing that works is the x and y axis on the left analog stick, for example when i move the right analog stick it detects as if i were pressing other buttons such as X, O, L1, R1 ecc...
+  any clue on why this happens??

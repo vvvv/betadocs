@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "114517"
+user: "Alec"
+created: "24 Feb, 2014 - 10:59"
+body: |-
+  @velcrome: sorry for the delay. Today I tested your new version. For me nothing is changed from the previous module version. I have the same feedback. Half matrix working and blinking leds. I saw also that <span class="pin">TeensyCount</span> is not connected so the module is no longer spreadable for control multiple Teensy.

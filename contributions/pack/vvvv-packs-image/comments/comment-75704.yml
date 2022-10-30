@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "75704"
+user: "elliotwoods"
+created: "03 Feb, 2012 - 16:49"
+body: |-
+  the initiative i intially had with these nodes is to set a new standard for an 'image output' in vvvv. indeed, to get it into the addon pack and make it exactly what you're talking about.
+  
+  Also you should only need to link against VVVV.Nodes.OpenCV as that gives you interfaces to deal with the image data. Also that means I can switch out EmguCV later and nodes that are written against VVVV.Nodes.OpenCV will still work. I've done a little bit of updating to the way generators work in the recent release.
+  
+  Is there anywhere I can look at your source / co-contribute to the vlc plugin (perhaps help you clean out any unnecessary EmguCV)

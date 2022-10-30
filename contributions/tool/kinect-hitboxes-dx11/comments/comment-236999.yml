@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "236999"
+user: "id144"
+created: "21 Mar, 2017 - 04:50"
+body: |-
+  @gegenlicht, welcome :)
+  Yes, it sounds like USB related issue. For a permanent installation I did in the past, I used separate USB controller precisely because of this issue. As a hotfix you may reset Kinect when it's idle for n frames.

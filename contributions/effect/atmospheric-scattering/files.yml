@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/atmospheric-scattering-files"
+url: "atmospheric-scattering"
+category: "effect"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "Atmospheric Scattering.zip"
+            timestamp: "26 Jun, 2013 - 18:21"
+            download_count: "1"

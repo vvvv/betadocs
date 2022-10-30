@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "79929"
+user: "everyoneishappy"
+created: "20 Mar, 2012 - 06:23"
+body: |-
+  This takes TUIO, which is a form of OSC.  Want you want to see is if the wacom will send windows touch events.  If so you can then use a free app called  Touch2TUIO bridge (dm.tzi.de/research/hci/touch2tuio/) to hook up to vvvv.

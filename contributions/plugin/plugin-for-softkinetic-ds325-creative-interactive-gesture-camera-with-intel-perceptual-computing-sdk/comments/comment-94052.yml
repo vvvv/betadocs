@@ -1,0 +1,17 @@
+### YamlMime:ContributionComment
+---
+uid: "94052"
+user: "alpaykasal"
+created: "04 Jan, 2013 - 01:06"
+body: |-
+  is anyone else having this problem?
+  
+  i installed the beta1 sdk as linked in this thread, tried vvvv and it didn't work, but neither did any of the depth related samples that installed with the SDK. the harr tracking and landmark distribution worked, but no depth demos. the camera info exe says it cannot find the camera. it looks fine in the windows device manager.
+  
+  i tried it on my big beefy machine, and also my laptop. both are win7 64bit. same deal.
+  
+  beta2 samples worked fine when i uninstalled beta1 and tried beta2.
+  
+  i went back to beta1, same deal... no camera working in the samples, and along with that, no vvvv use either.
+  
+  any suggestions?

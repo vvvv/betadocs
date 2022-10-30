@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "108721"
+user: "elliotwoods"
+created: "25 Oct, 2013 - 08:04"
+body: |-
+  @mrboni - yes this is currently glitchy (changing the throw ratio scales the brightness incorrectly)
+  
+  also ideally we should be able to apply a logarithmic brightness addition (to make it closer to perceptual).

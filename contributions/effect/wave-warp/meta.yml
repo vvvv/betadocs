@@ -1,0 +1,18 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/wave-warp-meta"
+type: "effect"
+author: "dEp"
+date: "03 Aug, 2010"
+title: "Wave Warp"
+originalURL: "contribution/wave-warp"
+category: "effect"
+like_count: "5"
+imported: "true"
+teaser: |-
+  Deforms an image according to basic waveforms: 
+  * Sine
+  * Square
+  * Sawtooth
+  * Triangle
+  * Noise

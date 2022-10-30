@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/colorpicker-files"
+url: "colorpicker"
+category: "plugin"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "VVVV.ColorPicker.zip"
+            timestamp: "12 Aug, 2016 - 12:48"
+            download_count: "2"

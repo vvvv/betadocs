@@ -1,0 +1,23 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/tiled-perlin-noise-generator-meta"
+type: "effect"
+author: "xd_nitro"
+date: "15 Jul, 2010"
+title: "Tiled perlin noise generator"
+originalURL: "contribution/tiled-perlin-noise-generator"
+category: "effect"
+credits: |-
+  xd_nitro
+like_count: "2"
+imported: "true"
+teaser: |-
+  Patch to generate a stitchable perlin noise using flash.
+  
+  Flash 10 has a function to generate stitchable perlin noise textures.
+  
+  VVVV talks to flash using XML sockets. 
+  
+  Loads of settings to play with.
+  
+  See more on the function here http://livedocs.adobe.com/flash/9.0/ActionScriptLangRefV3/flash/display/BitmapData.html#perlinNoise%28%29

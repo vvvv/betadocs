@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/gravity-(value)-files"
+url: "gravity-value"
+category: "plugin"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "Gravity.zip"
+            description: |-
+              Follows the input with a given force and friction
+            
+            timestamp: "23 Oct, 2016 - 23:08"
+            download_count: "11"

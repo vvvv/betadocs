@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "53855"
+user: "rrrr"
+created: "05 Oct, 2010 - 11:35"
+body: |-
+  why isn't it possible to use this without copying it to the plugins directory? everything outside addons should always go to the project directory..

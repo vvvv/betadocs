@@ -1,0 +1,29 @@
+### YamlMime:ContributionComment
+---
+uid: "71171"
+user: "dl-110"
+created: "27 Oct, 2011 - 17:56"
+body: |-
+  hey phlegma!
+  
+  thanks for the fast reply. i took the Kinect_OpenNI_Libary_1.1.zip from the download section on top of this page and installed the following drivers:
+  
+  OpenNI-Win32-1.3.2.3-Dev
+  NITE-Win32-1.4.1.2-Dev
+  SensorKinect-Win-OpenSource32-5.0.3.4
+  
+  i took the drivers from the zip file and installed them in the written order.
+  the kinect was plugged in during the whole installation process. afterwards windows didn´t detect a "new" device (maybe because i already had it running this morning even after i uninstalled everything?) 
+  anyhow, the device manager doesn´t show any kinect devices or drivers and there are no exclamation or question marks.
+  
+  When i try to run the demonstrator patch the Depth and Gesture Subpatch turn red. But that is not always like that. As i described in the earlier post the first time i ran this setup it all worked well. And since than the subpatches turn red.
+  I also noticed that the LED on the kinect is blinking green in a short interval. I think that is all there is to say for now... Kinect is brand new... just bought it earlier that day...
+  
+  TTY prints the folling
+  ![tty](https://vvvv.org/sites/default/files/imagecache/large/images/tty.png) 
+  
+  When i run vvvv in the exception mode i recieve this huge error message.
+  if you want i can send you the file...
+  
+  thx,
+  dl-110

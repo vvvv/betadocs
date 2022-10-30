@@ -1,0 +1,24 @@
+### YamlMime:ContributionComment
+---
+uid: "89736"
+user: "gegenlicht"
+created: "15 Oct, 2012 - 12:17"
+body: |-
+  Hey boplbopl,
+  
+  ive had problems to get it running since i only have a fake wireless receiver from ebay and it didnt install itself properly.
+  
+  Ive found this solution on youtube: 
+  
+  http://www.youtube.com/watch?v=P5Ng-zQ7-Vk
+  
+  <div class="box">
+  1.) Go to Device Manager (Start, Right click on computer, Manage, Device Manager) select Update Drivers On unknown Device
+  2.) Select Browse My Computer for Driver Software
+  3.) Let Me pick From the list of drivers
+  4.)Select Microsoft common controller for windows class
+  (if this option is not available then go to the link for the drivers)
+  http://www.microsoft.com/hardware/en-us/d/xbox-360-wireless-controller-for-wi...
+  5.)Select Xbox 13/8/2009 2.1.0.1349 or Wireless Receive Dependent on which receiver you are using
+  6.) Next and voilà Your Pc Wireless Gaming Receiver xbox 360 for windows 7 is now installed and able to be used
+  </div>

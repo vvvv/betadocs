@@ -1,0 +1,29 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/navvvvigator-meta"
+type: "plugin"
+author: "woei"
+date: "04 Feb, 2015"
+title: "Navvvvigator"
+originalURL: "contribution/navvvvigator"
+category: "plugin"
+like_count: "6"
+imported: "true"
+teaser: |-
+  inspect patches with ease, no more scrolling and selecting links...
+  
+  select a node, press TAB and start navigating connected nodes with arrow keys.
+  (or WASD for the gamers or if you don't want the nodes to be moved)
+  
+  the node navigated onto will be centered and selected -> used by inspector
+  
+  no traversing into or out of subpatches (yet)
+  
+  ---
+  
+  q: what would you need that for?
+  a: ever had to debug really messy patches? (not your own of course)
+  
+  ---
+  
+  v1: initial release

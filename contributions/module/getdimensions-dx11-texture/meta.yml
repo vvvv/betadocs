@@ -1,0 +1,16 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/getdimensions-(dx11.texture)-meta"
+type: "module"
+author: "antokhio"
+date: "30 Apr, 2022"
+title: "GetDimensions (DX11.Texture)"
+originalURL: "contribution/getdimensions-(dx11.texture)"
+category: "module"
+credits: |-
+  antokhio
+like_count: "2"
+imported: "true"
+teaser: |-
+  Gets dimension of single texture, using GetDimensions hlsl intrinsic function.
+  Used to replace unreliable info texture.

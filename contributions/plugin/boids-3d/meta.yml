@@ -1,0 +1,33 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/boids-3d-meta"
+type: "plugin"
+author: "Raul"
+date: "30 Nov, 2011"
+title: "Boids 3D"
+originalURL: "contribution/boids-3d"
+category: "plugin"
+credits: |-
+  Concept of code based on Craig W. Reynolds Work / implementation Raul / Read more -> http://www.red3d.com/cwr/boids
+like_count: "35"
+imported: "true"
+teaser: |-
+  This is a 3D flocking and steering behavior Pluging with following features:
+  
+  - Simple Flocking 
+  - Follow Target
+  - Arrive Target
+  - Flee from Enemy
+  - Landing
+  - Stay in given flocking area
+  - dynamic Leader selection
+  - sorting method for performance optimisation
+  
+  1.  Change log:
+  
+  ###  Version 1.1
+  
+  - Targets now Spreadable
+  - Remove Gravity
+  - Fix some Bugs
+  - Add IsLeader Output

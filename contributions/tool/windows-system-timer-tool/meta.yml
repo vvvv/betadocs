@@ -1,0 +1,33 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/windows-system-timer-tool-meta"
+type: "tool"
+author: "tonfilm"
+date: "21 Jan, 2014"
+title: "Windows System Timer Tool"
+originalURL: "contribution/windows-system-timer-tool"
+category: "tool"
+credits: |-
+  microsoft
+like_count: "2"
+imported: "true"
+teaser: |-
+  Little tool to check and modify the windows system timer.
+  
+  If you want to know what this is about, you should read this article:
+  [Windows Timer Resolution: Megawatts Wasted](http://randomascii.wordpress.com/2013/07/08/windows-timer-resolution-megawatts-wasted/)
+  
+  The matter is in my opinion less dramatic as the author of the article states, but he has written down a comprehensive collection of facts about the windows timer. Excellent article!
+  
+  Source code is here: <https://github.com/tebjan/TimerTool>
+  
+  Verison 3 minimizes to system tray and can be started with command line arguments "-t peroidVal" and "-minimized". e.g. put a .bat file into your autostart with the following code:
+  
+  ```
+  start "" "C:\PathToTool\TimerTool.exe" -t 0.5 -minimized
+  exit
+  ```
+  
+  Version 2 can set 0.5 ms as timer resolution.
+  
+  If you like it: [Donate some dev bucks](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=2DNX2JBBKED8Q), thanks a lot!

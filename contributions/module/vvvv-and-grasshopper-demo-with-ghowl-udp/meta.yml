@@ -1,0 +1,26 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/vvvv-and-grasshopper-demo-with-ghowl-udp-meta"
+type: "module"
+author: "korriander"
+date: "02 Jul, 2011"
+title: "VVVV and Grasshopper Demo with gHowl UDP"
+originalURL: "contribution/vvvv-and-grasshopper-demo-with-ghowl-udp"
+category: "module"
+credits: |-
+  http://www.grasshopper3d.com/group/ghowl
+  
+  gHowl is developed by:
+  Damien Alomar: http://www.liquidtectonics.com
+  Luis E. Fraguada: http://www.livearchitecture.net
+  Giulio Piacentino: http://www.giuliopiacentino.com
+like_count: "8"
+imported: "true"
+teaser: |-
+  I needed to comunicate between Rhino3D and vvvv. Grasshopper <http://www.grasshopper3d.com/> was the way to go and I decided to make a small demo how to do that. Communication is possible in both directions. All arrays can have varrious dimensions.
+  
+  korriander
+  
+  v1.0: 02072011 / <http://wwww.explorative-environments.net/>
+  Developed with: 
+  vvvv 45beta24.1; Rhino 4.0 SR9; Grasshopper 0.8.0010

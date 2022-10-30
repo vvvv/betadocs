@@ -1,0 +1,32 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/textflock-(spreads)-meta"
+type: "module"
+author: "tobyk"
+date: "29 May, 2013"
+title: "TextFlock (Spreads)"
+originalURL: "contribution/textflock-(spreads)"
+category: "module"
+credits: |-
+  Developed by TobyK during a residency at dotdotdot, Milan, May 2013. 
+  Thanks to Alessandro Masserdotti
+  www.tobyk.com.au 
+  www.dotdotdot.it
+like_count: "7"
+imported: "true"
+teaser: |-
+  You provide a spread of strings. 
+  This module will scramble the words into particles and then morph to the next text at time selectable by you. 
+  Take manual control to go to pause or go to specific strings.
+  Get output as a layer or x/y positions to plug into your own particles.
+  
+  See the help patch for more info. 
+  
+  All done on the CPU, no shaders.
+  
+  Text can look funny due to how TypoSpread handles it. (For instance add extra spaces between words or gaps will be too small) 
+  If you were so inclined you could easily build a memory structure that allowed you to recall position and spacing for every letter individually.
+  
+  Originally developed for Wired #NextFest 2013 Milan, Italy. 
+  
+  V1.1 - Fixed bug in helppatch where 'Active Now' spread was connected by slice index instead of Y input

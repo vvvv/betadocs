@@ -1,0 +1,33 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/procedural-pixelshader-cell-noise-color-3d-files"
+url: "procedural-pixelshader-cell-noise-color-3d"
+category: "effect"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "2"
+            filename: "cell noise.zip"
+            description: |-
+              fix for ati
+            
+            timestamp: "31 Aug, 2012 - 15:33"
+            download_count: "4"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "1"
+                    filename: "cell noise.zip"
+                    description: |-
+                      bug fix ,working now
+                    
+                    timestamp: "30 Aug, 2012 - 00:19"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "cell noise.zip"
+                    timestamp: "25 Aug, 2010 - 17:24"
+                    download_count: "6"

@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "272053"
+user: "woei"
+created: "13 May, 2019 - 14:28"
+body: |-
+  @felipelinsf
+  SceneGraph animation nodes are meant for plug and play with mesh transforms. skeletal animation is possible, not with plug and play support tough, but with some more patching required:
+  the Model node has hidden pins to give you bone information, this is where the skeletal animation info is. you need to animate those, combine them with the local transformation of the mesh and feed it into skinning matrices which need to go into a shader which supports them.

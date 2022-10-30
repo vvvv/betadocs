@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "183757"
+user: "screamer"
+created: "28 Jan, 2015 - 19:57"
+body: |-
+  here we are, this is the DX11 only version. Not perfect, i still have some graphical differences (text without the brush, different size of some GUI parts, some nonclosed lines in the GUI, and last, i'm not the most clean patcher here, so don't expect clean subpatches as the original was :)
+  but for all the rest, seems to do the job quite well
+  
+  
+  <http://www.bcaa.it/appoggio/badmapper_dx11.zip>

@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "75723"
+user: "cybear"
+created: "04 Feb, 2012 - 11:54"
+body: |-
+  Thank you for your efforts ft!
+  
+  Unfortunately for me returned the annoying deadlock issue after changing videofiles (always after the third time) with Beta27. If I use the latest Alpha27.1, VLC doesn't work anymore.
+  
+  @DimiX: I had the same error, because you have to copy Declarations.dll, Implementation.dll, LibVlcWrapper and NLog.dll from Vlc0.3test.zip or the latest files (csproj) from the source website which you find above under "ABOUT THE LIBRARIES USED:"

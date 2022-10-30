@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "84996"
+user: "mrboni"
+created: "29 Jun, 2012 - 15:07"
+body: |-
+  Anyone have success getting user texture using the opencv openni plugins?  (the mask texture of each active user)
+  
+  I'm getting nothing out

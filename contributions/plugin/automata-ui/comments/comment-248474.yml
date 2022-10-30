@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "248474"
+user: "StiX"
+created: "23 Jan, 2018 - 23:11"
+body: |-
+  what is the pupose of SetTransition, should it set time for how long transition should take? It does nothing for me

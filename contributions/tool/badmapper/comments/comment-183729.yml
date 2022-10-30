@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "183729"
+user: "screamer"
+created: "28 Jan, 2015 - 13:42"
+body: |-
+  hey guys, 
+  i love badmapper, but i also love dx11, so i've made a conversion of the latest v3 bad mapper.
+  Now i'm in the point that i have a badmapper that works identical in dx9 or dx11 (in the same module), but probably is more convenient to create a dx11 only badmapper (only a matter of cutting pieces now).
+  anyway, if someone is interested, here it is
+  
+  
+  <http://www.bcaa.it/appoggio/badmapper_dx9_dx11.zip>

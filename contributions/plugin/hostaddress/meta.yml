@@ -1,0 +1,19 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/hostaddress-meta"
+type: "plugin"
+author: "zeos"
+date: "25 Oct, 2012"
+title: "HostAddress"
+originalURL: "contribution/hostaddress"
+category: "plugin"
+credits: |-
+  zeos; license GPL
+like_count: "4"
+imported: "true"
+teaser: |-
+  **HostAddress** node can be used to find the IP of a host machine (convert host to IP) or domain name (convert domain name to one or more ip addresses)
+  
+  * spreadable
+  * non-blocking
+  * help patch

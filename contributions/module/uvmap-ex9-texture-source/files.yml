@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/uvmap-ex9.texture-source-files"
+url: "uvmap-ex9-texture-source"
+category: "module"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "UVMap.zip"
+            description: |-
+              UVMap_00
+            
+            timestamp: "04 Oct, 2015 - 21:15"
+            download_count: "1"

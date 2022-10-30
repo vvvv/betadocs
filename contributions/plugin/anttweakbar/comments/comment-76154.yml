@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "76154"
+user: "elliotwoods"
+created: "12 Feb, 2012 - 14:22"
+body: |-
+  great!
+  runs for me on 27.1
+  would be great for GUI's if we can get mouse events upstream in any Layer connected to the renderer

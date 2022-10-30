@@ -1,0 +1,13 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/parse-twitter-xml-(basic)-meta"
+type: "demo"
+author: "peter"
+date: "29 Mar, 2011"
+title: "parse twitter XML (basic)"
+originalURL: "contribution/parse-twitter-xml-(basic)"
+category: "demo"
+like_count: "4"
+imported: "true"
+teaser: |-
+  parse twitter api stuff with XPath ...

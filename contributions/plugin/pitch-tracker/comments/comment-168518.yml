@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "168518"
+user: "velcrome"
+created: "12 Oct, 2014 - 00:08"
+body: |-
+  works quite well with piano and I can imagine it being a fun addition to standard vj sound analysis. nice one!
+  
+  it should not zero back to c-1 while it is not detecting anything though. a bang if something got recognized would be handy. btw, I would recommend githubbing the source, if you want people to help with Future plans

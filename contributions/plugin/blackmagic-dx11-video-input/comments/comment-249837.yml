@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "249837"
+user: "ain"
+created: "06 Mar, 2018 - 20:50"
+body: |-
+  All nodes are red in beta 35 as well as 34, as it can't find the dll, no matter where to put the files.
+  On two different machines, what can I do wrong?

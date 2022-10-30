@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "273668"
+user: "microdee"
+created: "30 Aug, 2019 - 10:37"
+body: |-
+  @Aurel: vanilla vvvv and VL nodes are only supporting SDK 3.x, unfortunately leap decided to remove general C# support for their device in favor of 100% unity. I haven't uploaded a release but you can try compiling this: https://github.com/microdee/leappack however, images are missing. Please restore nuget packages first and make sure desktop .NET 4.7 development tooling is installed for your VS 2017+

@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "252735"
+user: "io"
+created: "09 May, 2018 - 23:33"
+body: |-
+  Using Emitter(DX11.Particles.Emitter.Layer), how can I "disengage" from the positions given by the object? No modifier can affect the position of the particles as they stick to the object...

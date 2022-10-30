@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/vvvv-reaktor-(or-any-osc)-interface-based-on-vobject-files"
+url: "vvvv-reaktor-or-any-osc-interface-based-on-vobject"
+category: "module"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "vvvv_reaktor_VObject.zip"
+            timestamp: "21 May, 2016 - 14:42"
+            download_count: "1"

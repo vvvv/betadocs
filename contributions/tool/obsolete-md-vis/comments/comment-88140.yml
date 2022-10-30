@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "88140"
+user: "microdee"
+created: "05 Sep, 2012 - 19:34"
+body: |-
+  Hmm that's interesting. I've just fixed directinput node to use slimdx instead of Ms managed dx so you don't need to install that old version of DX sdk
+  Update: I've just realized what's the problem. Will release a fixed version on the weekend
+  Update2: Lightmare: fixed the stucked window problem it was quite awkward.

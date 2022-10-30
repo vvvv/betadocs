@@ -1,0 +1,16 @@
+### YamlMime:ContributionComment
+---
+uid: "85404"
+user: "keftaparty"
+created: "09 Jul, 2012 - 14:30"
+body: |-
+  Hi,
+  I have an intensity shuttle.
+  I am pretty new to vvvv....
+  The shuttle is recognised and works with media express.
+  The "list devices" node recognises the shuttle.
+  Bust the status says "no device conected".
+  The shuttle works with the classic videoin node, but not with the decklink node. I am very interested in the "low latency" point as I work for theatre and try to be as close as possible to lipsync.
+  Some help would be great, I'm sorry for not being able to give more constructive details
+  Thanx
+  Mehdi

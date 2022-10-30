@@ -1,0 +1,20 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/getmediaduration-meta"
+type: "plugin"
+author: "aivenhoe"
+date: "26 Jun, 2014"
+title: "GetMediaDuration"
+originalURL: "contribution/getmediaduration"
+category: "plugin"
+credits: |-
+  MediaArena, vvvv-community
+like_count: "1"
+imported: "true"
+teaser: |-
+  Gets the duration of multimedia files, implementing the [MediaInfo library](http://mediaarea.net).
+  Nothing too fancy, but I thought it might come in handy for others as well, since it covers a broad range of multimedia files.
+  
+  Unfortunately it is not multithreaded, so vvvv might freeze a bit when being updated. You better update it during non-animated scenes ;)
+  
+  *sorry, i forgot to add a dll to the package. Now its included. Hope it works now.

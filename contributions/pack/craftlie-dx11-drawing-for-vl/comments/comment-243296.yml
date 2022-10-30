@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "243296"
+user: "tobyk"
+created: "07 Aug, 2017 - 18:28"
+body: |-
+  Hey @Tonfilm I'm trying to wrap my head around another aspect of the DynamicUI example.
+  
+  The DynamicUI example uses a lot of delegates, but I'm having trouble putting any of the craftLie primitives into delegates as I get 'A process can only be used in a stateful patch' errors. How did you do it?

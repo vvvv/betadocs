@@ -1,0 +1,14 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/skeleton-helpers-for-kinect2-meta"
+type: "module"
+author: "antokhio"
+date: "18 Jun, 2015"
+title: "Skeleton Helpers for Kinect2"
+originalURL: "contribution/skeleton-helpers-for-kinect2"
+category: "module"
+like_count: "6"
+imported: "true"
+teaser: |-
+  Simple skeleton helpers for kinect2.
+  Also contains 2d and 3d version of select joint plugin.

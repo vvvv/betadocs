@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "251909"
+user: "io"
+created: "06 May, 2018 - 12:05"
+body: |-
+  Hallo, would it be possible to use a Dynamic Buffers to feed the transformations of the objects instead of CPU transforms?
+  tx
+  Simone

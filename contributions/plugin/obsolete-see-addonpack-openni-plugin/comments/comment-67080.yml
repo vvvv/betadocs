@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "67080"
+user: "candian"
+created: "26 Jul, 2011 - 14:54"
+body: |-
+  @phlegma
+  
+  Thanks for your efforts, man, but it's not working. I installed everything in the right order: OpenNI, then NITE, then the drivers, all before plug in the Kinect. When I plug it in, Win XP pops up a balloon saying "New Hardware Detected: Xbox NUI Motor". Then it asks for drivers. The Kinect does not blink its green light. I have uninstalled everything, then restarted and installed all again, only to find the same result.
+  
+  Strange behavior? Or do I need to install Hierro's version before installing yours?
+  
+  Sorry to bother you, phlegma. Thanks for the help.

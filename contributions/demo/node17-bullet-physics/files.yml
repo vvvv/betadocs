@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/node17-bullet-physics-files"
+url: "node17-bullet-physics"
+category: "demo"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "Bullet3D Workshop NODE17.zip"
+            timestamp: "13 Jul, 2017 - 12:55"
+            download_count: "1"

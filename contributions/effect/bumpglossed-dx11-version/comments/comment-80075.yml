@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "80075"
+user: "hrovac"
+created: "22 Mar, 2012 - 20:45"
+body: |-
+  line 295 should be:
+  
+  half4 reflColor = fres * texCUBE(envSampler,half4(-reflVect.x, -reflVect.y, -reflVect.z, 1));

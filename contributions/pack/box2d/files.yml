@@ -1,0 +1,20 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/box2d-files"
+url: "box2d"
+category: "pack"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "vvvv-box2d-1.4.6-x64.zip"
+            timestamp: "05 Sep, 2017 - 12:50"
+            download_count: "3"
+    32bit:
+        latest:
+            bit: "32"
+            delta: "0"
+            filename: "vvvv-box2d-1.4.6-x86.zip"
+            timestamp: "05 Sep, 2017 - 12:50"
+            download_count: "1"

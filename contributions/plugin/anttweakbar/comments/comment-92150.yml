@@ -1,0 +1,15 @@
+### YamlMime:ContributionComment
+---
+uid: "92150"
+user: "robe"
+created: "30 Nov, 2012 - 10:33"
+body: |-
+  doesn't work also on beta 28.1 for me...
+  
+  /showexceptions
+  
+  Could not load type 'VVVV.PluginInterfaces.V2.ISpread' from assembly 'VVVV.PluginInterfaces, Version=2.0.4622.33795, Culture=neutral, PublicKeyToken=null'.
+  
+  I cannot attach the .log, but i don't want to post it here and mess up the formatting of this page so...
+  
+  bye

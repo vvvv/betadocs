@@ -1,0 +1,13 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/restart-meta"
+type: "module"
+author: "henrik"
+date: "23 Sep, 2010"
+title: "Restart"
+originalURL: "contribution/restart"
+category: "module"
+like_count: "1"
+imported: "true"
+teaser: |-
+  Module to restart vvvv via batch script

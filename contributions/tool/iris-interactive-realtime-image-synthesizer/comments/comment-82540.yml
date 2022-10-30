@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "82540"
+user: "circuitb"
+created: "09 May, 2012 - 15:42"
+body: |-
+  when saving/searching a set or a patch if you use the keypad numbers in the string name you've to delete the > sign at the end of the string

@@ -1,0 +1,15 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/wave-simulation-(dx11)-meta"
+type: "effect"
+author: "unc"
+date: "03 Feb, 2014"
+title: "Wave Simulation (DX11)"
+originalURL: "contribution/wave-simulation-(dx11)"
+category: "effect"
+credits: |-
+  [gregsn](http://vvvv.org/users/gregsn)
+like_count: "11"
+imported: "true"
+teaser: |-
+  ported the old dx9 shader [Wave Simulation](xref:8d503cd3-0df3-4acd-b521-ac99e96f633b)

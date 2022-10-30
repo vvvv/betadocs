@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "250979"
+user: "Takuma"
+created: "19 Apr, 2018 - 08:10"
+body: |-
+  @tonfim @U7angel Hello!! so On steamVR there is this default.vrsettings file that you just change RequireHMD to false, and works without Headset. Im trying to find that on Open vr plugin for vvvv

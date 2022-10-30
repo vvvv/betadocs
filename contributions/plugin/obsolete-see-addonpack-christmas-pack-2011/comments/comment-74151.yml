@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "74151"
+user: "sapo"
+created: "30 Dec, 2011 - 00:07"
+body: |-
+  i uninstalled the openni drivers in the device manager and installed the sdk and works, havn't tried to revert back to the openni just by manually installing the other drivers, but should work.
+  i cant' get the depthmap options working, all i get it's the depthmap or the depthmap horizzonatally flipped.

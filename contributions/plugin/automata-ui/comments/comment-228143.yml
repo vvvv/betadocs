@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "228143"
+user: "everyoneishappy"
+created: "18 Sep, 2016 - 03:05"
+body: |-
+  @parabola http://www.programmingbasics.org/en/beginner/fsm.html should explain the concept.  You can find more stuff if you google 'finite state machine'
+  
+  It's often very useful anytime you have something that should have different modes of behavior (which are what the states are).

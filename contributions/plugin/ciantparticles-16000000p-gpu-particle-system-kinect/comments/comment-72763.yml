@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "72763"
+user: "mediadog"
+created: "01 Dec, 2011 - 15:47"
+body: |-
+  Simplified does the same thing (your link above doesn't work without clipping out vvvv.org).
+  
+  I don't think it's a CPU problem; my CPU use never gets above 25%, with any core going above 60%.  My CPU is a quad 4.3GHz i5.  Graphic cards show no use at all.  I do have a dual card system (GTX550Ti & GTX570Ti), but I get the same results on each.
+  
+  I have seen this behavior with other patches, so don't feel too bad.  Those were using shaders too, so perhaps something connected to those is not working properly under Win7 x64.  It also may be some I/O blocking due to textures - just guessing.
+  
+  I get an access violation on exiting, 0x0040480C in vvvv.exe read of 0xFFFFFFFC (unfortunately not uncommon).

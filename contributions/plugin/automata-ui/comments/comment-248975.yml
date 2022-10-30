@@ -1,0 +1,10 @@
+### YamlMime:ContributionComment
+---
+uid: "248975"
+user: "u7angel"
+created: "14 Feb, 2018 - 16:09"
+body: |-
+  FYI, i adopted microdees TriggerTransition functionality as a node called TriggerTransition
+  So the only difference between original and fork is thinking in frames or in seconds. i'll stick with frames since it makes more sense for me.
+  
+  you have the choice :)

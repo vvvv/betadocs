@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "172287"
+user: "joreg"
+created: "02 Nov, 2014 - 12:52"
+body: |-
+  @ujif: first try starting vvvv without dx11 pack and see if that works. then try [Troubleshooting /logstartup](xref:654fb0a1-2f52-4425-8ab7-2f82d4785d54)

@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "246934"
+user: "seltzdesign"
+created: "10 Nov, 2017 - 16:18"
+body: |-
+  Again and again, messages comes to the rescue. After quite a learning curve I think I got the basics now. Storing and loading presets in json format with around 250 different settings and 10 parameters each works nicely. Also use it in situations where you would need multiple send nodes and its working really well.
+  
+  thanks for taking the time to make and improve messages.

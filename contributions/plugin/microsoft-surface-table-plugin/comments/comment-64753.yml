@@ -1,0 +1,14 @@
+### YamlMime:ContributionComment
+---
+uid: "64753"
+user: "Micheli"
+created: "06 Jun, 2011 - 13:05"
+body: |-
+  Still not work with vvvv40beta22 or 23, SlimDX9 and Vista SP2 and the SurfaceSDK 1.0 on the MS-Surface1.0 :( The SurfaceSDK works fine.
+  Do I have to run anything else with vvvv?
+  
+  I work in the Admin Mode of Surface, not in the User Mode.
+  
+  **Should there not be a SurfaceInput-Node??** If I search for such a Node there isn't one in the list!!
+  
+  Thanks for help!

@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/binary-operators-files"
+url: "binary-operators"
+category: "plugin"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "BitwiseOps.zip"
+            timestamp: "30 Oct, 2011 - 16:26"
+            download_count: "1"

@@ -1,0 +1,12 @@
+### YamlMime:ContributionComment
+---
+uid: "238748"
+user: "tmp"
+created: "18 Apr, 2017 - 09:04"
+body: |-
+  Yes, ScaleFade and ColorFade were renamed in latest version on github.
+  They are called ScaleByLifetime and ColorByLifetime now.
+  
+  Additionally there are new nodes called ScaleByDistance and ColorByDistance.
+  
+  Sorry for the circumstances! The pack has a versioninfo and a diffff.xml now, so this cannot happen anymore ;)

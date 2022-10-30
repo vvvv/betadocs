@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/node-17-dx11.particles-workshop-files"
+url: "node-17-dx11-particles-workshop"
+category: "tutorial"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "dx11.particles workshop.zip"
+            timestamp: "08 Nov, 2018 - 07:56"
+            download_count: "2"

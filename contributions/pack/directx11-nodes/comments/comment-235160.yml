@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "235160"
+user: "ggml"
+created: "09 Feb, 2017 - 16:47"
+body: |-
+  added the 1.0.1 x64 pack to a clean install of beta5 and v4 wont start anymore. remove the pack and it works again.

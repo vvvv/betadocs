@@ -1,0 +1,12 @@
+### YamlMime:ContributionComment
+---
+uid: "269024"
+user: "tgd"
+created: "28 Oct, 2018 - 13:43"
+body: |-
+  what tekcor said..
+  followed the fixes from the comments but still the same error :/
+  
+  edit: ok silly me, have replaced the core folders from the google drive download. but of course you have just to add the vcruntime140d.dll to the folders. @tekcor maybe you were silly too ;) it works now..
+  
+  edit2: Anyway the demo scene eats 100% of my GTX 1050 at 25fps.. :/

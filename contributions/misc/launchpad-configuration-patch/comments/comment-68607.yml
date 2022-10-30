@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "68607"
+user: "grobkorn"
+created: "26 Aug, 2011 - 07:48"
+body: |-
+  thanx for sharing this...
+  
+  there is a little error in your patch..
+  
+  midi-value for RED is 15 ... not 24 ;) (as you mentioned in the help-text-box)
+  
+  greetz

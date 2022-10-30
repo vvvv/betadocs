@@ -1,0 +1,68 @@
+### YamlMime:ContributionComment
+---
+uid: "173738"
+user: "evvvvil"
+created: "10 Nov, 2014 - 11:37"
+body: |-
+  @korriander: Sure bro, actually the key is making your code "Multi-threaded" more than "asynchronous". Multi-threading means you have one thread running with what you need to do in your plugin and you leave another cpu thread, the main thread, for vvvv to run it's user interface and other calculation stuff, I think it's even called the "ui" thread. ANYWAYS essentially it's very simple to convert your code from single threaded to multi-threaded. Let's say you have a function called DoSomething(), and usually you simply call it like this: 
+  
+  ```
+  DoSomething();
+  ```
+  
+  To make this multi threaded, You need to create a task and cancellation token as global variables at top of your code, like this:
+  
+  ```
+  public CancellationTokenSource DoSomethingToken;
+  public Task DoSomethingTask;
+  ```
+  
+  Then instead of calling "DoSomething()" simply use these 3 lines of code:
+  
+  ```
+  DoSomethingToken = new CancellationTokenSource();
+  DoSomethingTask = new Task(DoSomething, DoSomethingToken.Token);
+  DoSomethingTask.Start();
+  ```
+  
+  And that's it! It will now leave main cpu thread for vvvv to run and vvvv will not stop or halt or stutter when you call DoSomething(). 
+  The great thing about multi-threading is that you can make a task "wait" and also "cancel it from running", which is why we need a cancellation token.
+  
+  Here is how to make a task "wait":
+  ```
+  DoSomethingTask.Wait(1000,DoSomethingToken.Token); //1000 is int and is time in ms
+  ```
+  
+  Here is how to cancel a task, with a check to see if it is running or not(if it's not running/has finished running then no point in cancelling it)
+  
+  ```
+  if (DoSomethingTask != null && DoSomethingTask.Status == TaskStatus.Running)
+  {
+  DoSomethingToken.Cancel();
+  }
+  ```
+  
+  And finally here is the code I actually use instead of simply calling "DoSomething()" it's the same as I put above but it just has similar check to see if the action is running already or not:
+  
+  ```
+  if [DoSomethingTask != null && DoSomethingTask.Status == TaskStatus.Running](DoSomethingTask%20!=%20null%20&&%20DoSomethingTask.Status%20==%20TaskStatus.Running)
+  {
+       FLogger.Log(LogType.Debug, "Action already running bro"); 
+       //Tell debugger you're already running an action and you could tell an output pin named "FoutputStatus" like this:
+       FOutputStatus<0>="Action already running bro";
+  }
+  else
+  {
+       DoSomethingToken = new CancellationTokenSource();
+       DoSomethingTask = new Task(DoPublish, DoSomethingToken.Token);
+       DoSomethingTask.Start();
+  }
+  ```
+  
+  You might need to change a bool global variable when you cancel, something like this: "DoSomethingCanceled = true" and then if you are running a loop in your DoSomething() function just add a a check at beginning/end of loop like that:
+  
+  ```
+  if(DoSomethingCanceled){ break; }
+  ```
+  
+  There you go bro, I hope it helps, let me know if it makes sense otherwise can explain in more detail. You can do more with mutli-threading but involves linq/lambda notation and is a lot more complicated, this is the easiest multi-theading implementation I think, keep it simple, innit? Peace

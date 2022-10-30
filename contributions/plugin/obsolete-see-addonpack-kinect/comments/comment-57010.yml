@@ -1,0 +1,15 @@
+### YamlMime:ContributionComment
+---
+uid: "57010"
+user: "RicardoCastelhano"
+created: "11 Dec, 2010 - 15:03"
+body: |-
+  Hi vvvveople,
+  
+  I'm trying to connect kinect to vvvv. The CLNUIDeviceTest is working properly. I updated all DLLs to Plugin folder.
+  When I start a kinect patch example, I can see a "Starting" status in Kinect  (device patch) but no rendering display.
+  
+  I have tried all that was said above...any clue?
+  Thks.
+  
+  PS: Good job vux :)

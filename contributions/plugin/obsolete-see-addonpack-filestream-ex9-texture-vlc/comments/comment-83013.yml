@@ -1,0 +1,12 @@
+### YamlMime:ContributionComment
+---
+uid: "83013"
+user: "ft"
+created: "18 May, 2012 - 13:26"
+body: |-
+  @ventolinmono:
+  For mpeg2-files, try to force the width and height for now (set width and height pins to same resolution as the file). LibVLC (2.0 over here) doesn't correctly detect width and height (probably a LibVLC bug). Otherwise playing works for me. 
+  
+  VOB-files do something, but don't seem to play as expected. they seem to freeze after a few seconds...
+  
+  Seems like LibVLC, while improving a list of things in version 2.0, also introduced some small issues.

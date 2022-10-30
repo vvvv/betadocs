@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "241282"
+user: "microdee"
+created: "19 Jun, 2017 - 19:32"
+body: |-
+  custom DynamicBuffer nodes are missing, which can be replaced with a general purpose DynamicBuffer node in mp.dx however you have to organize your data into a raw streams first, but it feels like you already have written those nodes just was not made it into packaging

@@ -1,0 +1,26 @@
+### YamlMime:ContributionComment
+---
+uid: "87710"
+user: "karistouf"
+created: "28 Aug, 2012 - 21:41"
+body: |-
+  hi, sorry for delay. Hollydays...
+  
+  about your question this has nothing to do with patches:
+  
+  you have to pick up values you want from the artnet array **inside the sketch** and distribute them to your PWM like shown at the end of the reception sketch:
+  
+  //stuff to do on PWM or whatever
+   analogWrite(3,buffer_dmx<3>);  
+   analogWrite(5,buffer_dmx<5>); 
+   analogWrite(6,buffer_dmx<6>);
+  
+  if you want to write value of channel 7 to PWM 3 its easy:
+   analogWrite(3,buffer_dmx<6>); 
+  buffer_dmx<6> because position <0> is Channel 1. So buffer_dmx<6> is channel 7, as buffer_dmx<511> is channel 512. 
+  
+  about digitals, you need to make a condition, like: 
+  if(buffer_dmx<7>>0){digitalWrite(3,HIGH);}
+  else{digitalWrite(3,LOW);}
+  
+  if you want to  control more than 6 PWM consider using softPWM lib. This means some coding in arduino in IDE and basic adaptation of the sketches

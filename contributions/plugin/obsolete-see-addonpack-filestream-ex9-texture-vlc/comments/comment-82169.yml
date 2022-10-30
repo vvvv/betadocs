@@ -1,0 +1,12 @@
+### YamlMime:ContributionComment
+---
+uid: "82169"
+user: "ventolinmono"
+created: "03 May, 2012 - 18:44"
+body: |-
+  Testing several video formats and codecs.
+  I have no problem running .avi, .mov, .mp4, .mts, .flv, and .f4v.
+  On the contrary .vob, and .mpg (mpeg-1/2,.mpgv) don't work.
+  They VLC player it's ok with those two files.
+  
+  It would be really nice that the plugin could play .vob files.

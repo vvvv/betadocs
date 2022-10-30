@@ -1,0 +1,15 @@
+### YamlMime:ContributionComment
+---
+uid: "71028"
+user: "mediadog"
+created: "25 Oct, 2011 - 02:56"
+body: |-
+  Thanks elektromeier, that was it!
+  
+  As far as doing multitouch with the Kinect, once you have a world-space (actually kinect-space) point cloud, all you need to do is use a Transform 3D to adjust those points so they are relative to your surface.
+  
+  For example, I've been putting the Kinect directly above a rear-projection screen facing down.  Take the XYZ of each point, turn it into a vector, and do a Multiply (3D Vector) of them with a Transform set with a pitch of .25 and a Y offset equal to the distance the Kinect is from the center of the screen; your points are now screen relative.  (In practice I have the kinect pointing out in front of the screen, and the pitch is more like .2).
+  
+  Now I filter the points for a certain distance from the screen, group them, and then can use them like traditional touches with the added bonus of having a "hover" distance to use as well as a "touch".  Things get really fun then because you can do stuff like velocity/acceleration in 3D near the screen, and gesture recognition.
+  
+  I'll be adding a simple example to this as soon as I get it cleaned up.  What I really want to get working is TWO kinects, one at each upper corner of the screen to get better coverage.  Later...

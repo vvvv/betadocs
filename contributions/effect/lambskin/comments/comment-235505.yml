@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "235505"
+user: "mburk"
+created: "22 Feb, 2017 - 18:21"
+body: |-
+  This depth map approach looks promising and relatively easy to implement: http://http.developer.nvidia.com/GPUGems/gpugems_ch16.html

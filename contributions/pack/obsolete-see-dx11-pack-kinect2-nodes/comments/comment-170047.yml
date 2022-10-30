@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "170047"
+user: "StiX"
+created: "21 Oct, 2014 - 12:11"
+body: |-
+  if i remember well enough, in kinect 1 player node was capable of producing separate texture for every player, so you could for example have 4 silhouette with different colors for every player
+  
+  in kinect 2 thou you have 1 texture for all players
+  
+  does kinect 2 support this feature?

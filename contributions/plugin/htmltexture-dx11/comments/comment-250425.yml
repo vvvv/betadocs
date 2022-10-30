@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "250425"
+user: "schlonzo"
+created: "23 Mar, 2018 - 15:50"
+body: |-
+  Both nodes are red in 5beta36 - still, displaying websites does work.
+  The evaluation pin is red, but no Error Text.

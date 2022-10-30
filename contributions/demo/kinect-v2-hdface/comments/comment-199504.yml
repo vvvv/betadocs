@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "199504"
+user: "screamer"
+created: "06 Jul, 2015 - 12:00"
+body: |-
+  unfortunately i cannot try it now, but it worked for me.
+  Have you copied the NuiDatabase folder from the sdk path to the kinect 2 pack, as written in the credits of the contribution?
+  
+  
+  ....for work this patch needs dx11 a kinect2 packs installed, and to make it work, take the nuidatabase folder (that should be something like "C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\bin\NuiDatabase" and you have to copy the entire folder to your kinect2 pack folder
+  
+  let me know, anyway i'm planning to try it out with the new version of vvvv and kinect2 pack as soon as i can

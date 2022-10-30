@@ -1,0 +1,21 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/node17-bullet-physics-meta"
+type: "demo"
+author: "u7angel"
+date: "13 Jul, 2017"
+title: "NODE17 - Bullet Physics"
+originalURL: "contribution/node17-bullet-physics"
+category: "demo"
+like_count: "4"
+imported: "true"
+teaser: |-
+  https://17.nodeforum.org/events/bullet-physics/
+  
+  You need 
+  
+  dx11 pack 1.1 x64
+  
+  and 
+  
+  vvvv_50beta35.8_x64

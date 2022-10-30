@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/vtc-plugin-files"
+url: "vtc-plugin"
+category: "plugin"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "VTC_(Devices)v0.1.zip"
+            timestamp: "01 Aug, 2010 - 23:33"
+            download_count: "4"

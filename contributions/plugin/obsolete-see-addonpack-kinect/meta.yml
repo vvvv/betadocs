@@ -1,0 +1,30 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/obsolete-see-addonpack-kinect-meta"
+type: "plugin"
+author: "vux"
+date: "23 Nov, 2010"
+title: "[OBSOLETE, see Addonpack] Kinect"
+originalURL: "contribution/obsolete-see-addonpack-kinect"
+category: "plugin"
+credits: |-
+  Alexp for the driver, sugokugenki for having it at node and write the first proof of concept
+like_count: "44"
+imported: "true"
+teaser: |-
+  First release for Kinect Plugin.
+  
+  You need alexp's driver to be able to run it, hopefully moving to the open source ones soon.
+  
+  <http://codelaboratories.com/nui/>
+  
+  
+  Should be pretty stable, only bug i could not fix (seems a driver problem), DO NOT unplug your kinect while the patch is running.
+  
+  Copy the two dlls in the plugin folder and you set.
+  
+  Comes with couple of examples.
+  
+  Fully threaded, so it doesnt block vvvv, and a nice pull/push api for adding some extra image processing, too tired for writing the samples, will come soon.
+  
+  Have fun in the mean time :)

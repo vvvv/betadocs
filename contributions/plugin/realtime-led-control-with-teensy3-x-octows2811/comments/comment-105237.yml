@@ -1,0 +1,17 @@
+### YamlMime:ContributionComment
+---
+uid: "105237"
+user: "velcrome"
+created: "22 Aug, 2013 - 00:21"
+body: |-
+  thanks catweasel. your little project has been an amazing inspiration
+  
+  i took a bit of your experience and put all the bitshifting in raw plugins. working with byte is just so much faster than converting it to double back and forth. 
+  
+  have a look here: [download](http://download.intolight.de/OctoWS2811.7z)
+  
+  also it spreads easily over multiple teensy. bottleneck is the RS232 node now because it blocks the mainloop.
+  
+  edit:
+  ![WIZ820io](https://vvvv.org/sites/default/files/imagecache/large/images/http://www.shopwiznet.com/media/catalog/product/cache/1/image/200x200/9df78eab33525d08d6e5fb8d27136e95/w/i/wiz820io_45__1.jpg) 
+  maybe [this](http://www.shopwiznet.com/wiz820io) is the way to go

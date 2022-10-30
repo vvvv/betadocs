@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "58472"
+user: "sanch"
+created: "14 Jan, 2011 - 17:36"
+body: |-
+  got a nullreference error ith getrigidbodydetail  from bullet

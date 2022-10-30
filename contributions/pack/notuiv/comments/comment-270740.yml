@@ -1,0 +1,32 @@
+### YamlMime:ContributionComment
+---
+uid: "270740"
+user: "blausand"
+created: "16 Jan, 2019 - 14:46"
+body: |-
+  @microdee Same here. Windows logs two errors:
+  1. by ".NET Runtime"
+  ```
+  <E> Anwendung: vvvv.exe
+  Frameworkversion: v4.0.30319
+  Beschreibung: Der Prozess wurde aufgrund einer unbehandelten Ausnahme beendet.
+  Ausnahmeinformationen: Ausnahmecode c0000005, Ausnahmeadresse 000000000040B669
+  Stapel:
+  ```
+  
+  2. it's bubbled up "Application Error":
+  ```
+  <E> Name der fehlerhaften Anwendung: vvvv.exe, Version: 38.1.4003.0, Zeitstempel: 0x5c12b636
+  Name des fehlerhaften Moduls: vvvv.exe, Version: 38.1.4003.0, Zeitstempel: 0x5c12b636
+  Ausnahmecode: 0xc0000005
+  Fehleroffset: 0x000000000000b669
+  ID des fehlerhaften Prozesses: 0x2b94
+  Startzeit der fehlerhaften Anwendung: 0x01d4ada0c092aaa5
+  Pfad der fehlerhaften Anwendung: C:\Prograble\vvvv_50beta38.1_x64\vvvv.exe
+  Pfad des fehlerhaften Moduls: C:\Prograble\vvvv_50beta38.1_x64\vvvv.exe
+  Berichtskennung: 392de898-f190-4986-a2dc-5ba10f83d9f2
+  Vollständiger Name des fehlerhaften Pakets: 
+  Anwendungs-ID, die relativ zum fehlerhaften Paket ist
+  ```
+  
+  Hope it helps you since the pack looks really promising, man!

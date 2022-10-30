@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "67997"
+user: "viktor2"
+created: "17 Aug, 2011 - 12:39"
+body: |-
+  Preloading an 8 gig MOV with Photo JPG compression takes 1-2 minutes, about the same time to copy that file. So i guess the plugin is parsing the whole file to check for errors or stg. Any idea how to avoid that? Command line parameter etc?

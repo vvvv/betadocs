@@ -1,0 +1,18 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/snap-nodes-to-grid-meta"
+type: "module"
+author: "catweasel"
+date: "21 Jul, 2013"
+title: "Snap Nodes To Grid"
+originalURL: "contribution/snap-nodes-to-grid"
+category: "module"
+credits: |-
+  [catweasel](http://vvvv.org/users/catweasel)
+like_count: "8"
+imported: "true"
+teaser: |-
+  Snap nodes to a grid, put it in your root patch and you can allow vvvv to anal, sorry, tidy up your patches.
+  
+  
+  This ones for elliot ;)

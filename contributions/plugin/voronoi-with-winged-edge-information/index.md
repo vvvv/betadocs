@@ -1,0 +1,34 @@
+---
+uid: "contribution/voronoi-with-winged-edge-information"
+uid-meta: "contribution/voronoi-with-winged-edge-information-meta"
+comments: 
+ items: 
+  - uid: "216717"
+  - uid: "216820"
+  - uid: "216823"
+  - uid: "216827"
+  - uid: "216838"
+  - uid: "217003"
+  - uid: "217060"
+  - uid: "217320"
+uid-files: "contribution/voronoi-with-winged-edge-information-files"
+title: "Voronoi with Winged Edge information"
+image: "Voronoi Help.jpg"
+contribution: "true"
+---
+
+This contribution consists of several nodes which expose the information in a winged edge representation of a voronoi diagram.  The winged edge structure comes from a C# Voronoi DLL I wrote long ago which uses Fortune's algorithm.  The details are somewhat unavoidably complex but I've done my best to explain most of them in the supplied sample patch.  Allows for Lloyd relaxation and there's some other stuff which I will probably expose sometime such as an intersection routine for convex polygons.  The information in the Winged Edge structure give access to pretty much anything concerning the diagram.  The Delaunay triangulation is trivial to derive from it, individual cells and the points which make up their polygon are easily produced, adjacency relations for all cells, vertices and edges are all available.  Hopefully this is at least understandable to the point that somebody out there can make use of it.
+
+2/18/16: Put in help files, went to source versions for plugins, Added a pin to CellInfo for Index which gives the position of the cell's voronoi point in the original spread in to VoronoiComplex.  This enables you to recognize, for instance, which original points are responsible for a given edge/cell/vertex.  Changed category from 2d.voronoi to 2d.Voronoi.  Maybe a few other small things which slip my mind.
+
+2/19/16: Hopefully the last name changes:
+  - Changed Location pin of VertexIinfo to Vector2D type and renamed to Position.
+  - Pins for Points and Center on CellVertices changed to Vector2D type
+  - Input Clipping Polygon to Lloyd Relaxation changed to Vector2D type
+  - Helpfiles adjusted to accommodate these changes
+
+2/21/16: Primary addition was indices on vertices and edges.  This allows them to be compared for equality easily and also provides a potential index into spreads where information about them may be kept.  The only thing guaranteed about the vertices is that each edge/vertex has one (including the infinite ones) and they run from 0 to (number of vertices/edges).  See helpfile for VertexInfo for an idea on how to use them.
+  - Added indices to vertices and edges.
+  - Added an Index pin to VertexInfo and EdgeInfo to retrieve index
+
+2/21/16: Found out that CellVertices was putting out vertices in the wrong order for some GPUs.  Other GPUs don't care about order so I reversed the point order.  Also, I was using precisely the wrong default for Inset - was 1.0 but should be 0.0 so changed that.

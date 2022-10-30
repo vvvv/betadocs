@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "63008"
+user: "robe"
+created: "29 Apr, 2011 - 18:12"
+body: |-
+  Now I've tried "*all the existing codec in the world*"... but I CANNOT make a seamless loop with VLC plugin, maybe is a vlc problem...
+  
+  <http://forum.videolan.org/viewtopic.php?t=34741>
+  
+  Please anyone comfirm this and I'll stick with filestream->videotexture..
+  
+  Bye

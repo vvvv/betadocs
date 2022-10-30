@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "189720"
+user: "StiX"
+created: "24 Mar, 2015 - 12:52"
+body: |-
+  could not open codec on x64, x86 works ok
+  can you maybe specify version of ffmpeg to use?
+  could there be same problem with PATH?
+  
+  wow found the problem, it did not liked resolution of 300x505, could we get some specification what can we do? can i somehow change the settings of codec etc?
+  
+  i can do whatever i want after recording with shellexecute and ffmpeg, but it would be nice to have some control over entry parameters if it is possible

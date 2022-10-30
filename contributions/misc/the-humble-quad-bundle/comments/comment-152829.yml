@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "152829"
+user: "eno"
+created: "02 Apr, 2014 - 10:49"
+body: |-
+  I'm so excited, a aa a!
+  
+  Sadly the exes wont run here either:
+  
+  System.MissingMethodException: Methode nicht gefunden: "Int32 System.Environment.get_CurrentManagedThreadId()".
+  
+  On win7, ati w7000

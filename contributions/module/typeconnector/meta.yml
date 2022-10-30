@@ -1,0 +1,25 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/typeconnector-meta"
+type: "module"
+author: "reaktant"
+date: "28 Jan, 2013"
+title: "TypeConnector"
+originalURL: "contribution/typeconnector"
+category: "module"
+like_count: "8"
+imported: "true"
+teaser: |-
+  Handle with care.
+  
+  
+  v.1.1
+  
+  - added simple path optimization
+  - added scale
+  - should start drawing closer to cursor position
+  
+  
+  v.1.2
+  
+  - better path optimization

@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "225937"
+user: "differ"
+created: "29 Aug, 2016 - 18:45"
+body: |-
+  I need some help, I downloaded x86 but cant make it work in 32 bits vvvv, it shows a red node because vvvv cant find the CameraIn.csproj, where do I find this node?![EDSDK not working ](https://vvvv.org/sites/default/files/imagecache/large/images/Untitled_2.png)

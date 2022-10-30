@@ -1,0 +1,16 @@
+### YamlMime:ContributionComment
+---
+uid: "256726"
+user: "everyoneishappy"
+created: "29 Jun, 2018 - 10:50"
+body: |-
+  -Added MeshToSDF converter, courtesy UNC
+  -Added Vertex Attriubte Baker
+  -added Edges(DX11.Geometry)
+  -AddedTriangleEdges(Transform Buffer)
+  -Added Color Buffer to LineBuffered
+  -Added texure array input to spritesBuffered
+  -Added Simple Operation (4D Buffer)
+  -Bugfixes
+  
+  Make sure to also update happy.fxh (or use VPM for install)

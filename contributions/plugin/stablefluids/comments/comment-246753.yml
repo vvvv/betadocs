@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "246753"
+user: "woei"
+created: "26 Oct, 2017 - 10:26"
+body: |-
+  @io thats a bit unspecific. x64 and you processor must support avx extensions. wiki says intel processors since 2008 and amd 2011

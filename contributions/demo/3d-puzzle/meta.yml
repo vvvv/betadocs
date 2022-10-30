@@ -1,0 +1,17 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/3d-puzzle-meta"
+type: "demo"
+author: "vasilis"
+date: "10 Jul, 2018"
+title: "3D Puzzle"
+originalURL: "contribution/3d-puzzle"
+category: "demo"
+credits: |-
+  [tgd](http://vvvv.org/users/tgd) [antokhio](http://vvvv.org/users/antokhio)
+like_count: "5"
+imported: "true"
+teaser: |-
+  A 3D jigsaw puzzle. Works fine, with a few adjustments it can be suitable for everyone that would like to use it.
+  
+  Special Thanks to [tgd](http://vvvv.org/users/tgd) and [antokhio](http://vvvv.org/users/antokhio) for their help and support.

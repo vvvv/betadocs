@@ -1,0 +1,13 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/dynamic-drop-shadow-meta"
+type: "module"
+author: "tonfilm"
+date: "25 Oct, 2010"
+title: "Dynamic Drop Shadow"
+originalURL: "contribution/dynamic-drop-shadow"
+category: "module"
+like_count: "6"
+imported: "true"
+teaser: |-
+  Creates dark, blurred edges around an opaque area in a texture. Needs quite some resources, so if you have static content, better render the drop shadow into your texture. Just use it if you have dynamic content...

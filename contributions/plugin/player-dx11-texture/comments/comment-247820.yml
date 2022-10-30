@@ -1,0 +1,16 @@
+### YamlMime:ContributionComment
+---
+uid: "247820"
+user: "woei"
+created: "18 Dec, 2017 - 11:57"
+body: |-
+  @velcrome
+  if memory wasn't freed on pause, the leak happens during copying to the gpu. more than that i can't diagnose from afar. SEHException is some generic exception windows is throwing on unhandled errors in unmanaged code.
+  
+  <div class="box">quote:
+  However, IO can always be diminished (involuntary windows update download, anyone?) and frame drops should be handled gracefully.
+  </div>
+  as mentioned before, safetychecks were omitted in favour of performance.
+  if it's crucial in your opinion, you're welcome to give it a try and send a pullrequest.
+  
+  imho the player should serve for frameprecise playback, which cannot be done if the hardware already can't deliver. if one doesn't care about framedrops and jitters, there are other contributions, which probably better fit that usecase.

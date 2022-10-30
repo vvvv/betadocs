@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "193460"
+user: "mediadog"
+created: "02 May, 2015 - 23:07"
+body: |-
+  Awesome - works perfect.  33.7_x86 0.4.4 Win7 GTX870M.  Note in my case to set the DK2 extended display to 75Hz, I had to go to Screen Resolution -> Advanced Settings -> Adapter -> List All Modes -> 1920 by 1080, True Color (32 bit), 75 Hertz.
+  
+  Running your help patch I get a rock-solid 75fps and perfectly smooth low-latency tracking, even with the DK2 display as the secondary.  Thanks a ton!

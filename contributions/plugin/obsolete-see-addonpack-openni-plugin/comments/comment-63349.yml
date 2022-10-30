@@ -1,0 +1,19 @@
+### YamlMime:ContributionComment
+---
+uid: "63349"
+user: "sugokuGENKI"
+created: "07 May, 2011 - 05:08"
+body: |-
+  Hey all
+  
+  sorry for not checking back here.
+  to make my cs code work you'll need to add references to your node using the VVVV project manager (dynamic plugins) or in Visual Studio.
+  
+  I can't find the VVVV project manager myself right now (cant remember the keys, it's not listed in middle click menu, and not listed here either: [User Interface](xref:f63e83e8-88d2-4eeb-818f-5bfed4060a77) ). i'm sure i'll find out somewhere.
+  
+  I mostly listed the code to help out devs working on plugins, rather than expecting it to work 'off the bat'. code was moved to here:
+  https://kimchiandchips.googlecode.com/svn/trunk/vvvv%20plugins/VVVV.Nodes.OpenNI
+  
+  It's not credited on this plugin so not sure if it made it in. Am going to try now to see if this'll work for my project.
+  
+  Elliot

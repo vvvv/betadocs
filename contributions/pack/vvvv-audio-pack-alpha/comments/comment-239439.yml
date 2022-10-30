@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "239439"
+user: "tonfilm"
+created: "11 May, 2017 - 18:52"
+body: |-
+  hello @StiX the FileStream node is quite simple, it reads the file directly from disc into the audio buffer. reading files backwards is possible but complicated and might be expensive. better use a free sampler like [Grace](https://www.onesmallclue.com/plugin/grace/) which also has better sound quality when changing speed...

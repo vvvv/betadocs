@@ -1,0 +1,15 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/object-character-recognition-meta"
+type: "plugin"
+author: "u7angel"
+date: "29 Oct, 2015"
+title: "Object Character Recognition"
+originalURL: "contribution/object-character-recognition"
+category: "plugin"
+like_count: "8"
+imported: "true"
+teaser: |-
+  This is a quick hack to integrate Emgu OCR as a plugin
+  
+  Get it here https://github.com/wirmachenbunt/vvvvOCR

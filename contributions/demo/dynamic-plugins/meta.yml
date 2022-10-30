@@ -1,0 +1,27 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/dynamic-plugins-meta"
+type: "demo"
+author: "gregsn"
+date: "24 Feb, 2013"
+title: "Dynamic Plugins"
+originalURL: "contribution/dynamic-plugins"
+category: "demo"
+credits: |-
+  elias, tonfilm, gregsn
+like_count: "7"
+imported: "true"
+teaser: |-
+  This workshop is for vvvv users that need to get started with dynmamic plugins. 
+  
+  It tries to get you started with
+  * C#
+  * the use of it to create nodes in vvvv, via the plugin interface 
+  * common techniques in the .NET framework
+  
+  We start by building custom data types just to show you the difference of general purpose classes and classes that turn into nodes. We also take the chance to show how nodes can interact with each other.
+  
+  All in all we try to give an understanding for why dynamic plugins are needed sometimes or how to get patches cleaner or faster.
+  
+  ---
+  second revision includes some more slides on common interfaces like IEnumerable, IDisposable and an example how to run a task in the background.

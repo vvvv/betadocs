@@ -1,0 +1,10 @@
+### YamlMime:ContributionComment
+---
+uid: "256679"
+user: "bo27"
+created: "28 Jun, 2018 - 09:53"
+body: |-
+  @u7angel yes, you're right! great minds think alike! 
+  
+  In our todo list is something similar to GetState plugin from your Automata, but with access to nested states and probably with auto S node generator (same as we done with configurator from the Template).
+  But we don't even start it yet.

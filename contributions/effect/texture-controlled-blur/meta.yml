@@ -1,0 +1,15 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/texture-controlled-blur-meta"
+type: "effect"
+author: "u7angel"
+date: "01 Aug, 2010"
+title: "Texture-Controlled-Blur"
+originalURL: "contribution/texture-controlled-blur"
+category: "effect"
+credits: |-
+  kalle
+like_count: "2"
+imported: "true"
+teaser: |-
+  control blur with luminance texture

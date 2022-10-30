@@ -1,0 +1,14 @@
+### YamlMime:ContributionComment
+---
+uid: "160205"
+user: "woei"
+created: "21 Jul, 2014 - 16:29"
+body: |-
+  @kalle
+  just checked, first attempt via patching was in 2007, hehe
+  
+  @sanch
+  that's the plan, though assets won't be collected. how could it know. modules, and shaders for sure, plugins will be tricky due to the dependencies
+  
+  @sanch&circuitb
+  once i know that it definitely catches all the necessary infos i'll implement the collecting. that's why i need some testers...

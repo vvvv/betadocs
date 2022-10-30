@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "206381"
+user: "elektromeier"
+created: "21 Sep, 2015 - 05:47"
+body: |-
+  Hmmm, how to use the framedelay nodes? i figures out that the delay incomming data by one frame but they are not framedelays in a traditional vvvv way and dont allow to patch loops.

@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "278300"
+user: "sebl"
+created: "15 Apr, 2021 - 08:50"
+body: |-
+  the plugin surely needs an update for latest dx11 and vvvv.
+  the source is on github, you can try it out. maybe it's just an update of the dependencies.

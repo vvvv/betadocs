@@ -1,0 +1,15 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/asstring-(object-json)-meta"
+type: "plugin"
+author: "bjoern"
+date: "13 Jun, 2013"
+title: "AsString (Object Json)"
+originalURL: "contribution/asstring-(object-json)"
+category: "plugin"
+credits: |-
+  uses [Json.NET](https://json.codeplex.com/) by [James Newton-King](http://james.newtonking.com/), [elias](http://vvvv.org/users/elias), [gregsn](http://vvvv.org/users/gregsn), [meso](http://www.meso.net/digital%20interiors)
+like_count: "3"
+imported: "true"
+teaser: |-
+  Serializes objects to json strings.

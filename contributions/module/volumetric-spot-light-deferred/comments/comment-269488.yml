@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "269488"
+user: "mburk"
+created: "12 Nov, 2018 - 13:34"
+body: |-
+  check out implementation in super physical. https://github.com/michael-burk/SuperPhysical/tree/Deferred+Forward
+  there it is is fully spreadable.

@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "264239"
+user: "mediadog"
+created: "31 Aug, 2018 - 20:46"
+body: |-
+  @catweasel Make sure if you have a Dealer attached to a Receive, that the IP address you give it is the local machine doing the receiving (not the remote), and set the Dealer Bind pin to 1.  I think the idea here is that the input socket is getting bound to the local PC's network adapter.  May not be your problem, but you will get the same error if the receive Dealer has a different IP address than the receiving machine's IP when Bind is set.

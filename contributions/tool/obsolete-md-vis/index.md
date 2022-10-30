@@ -1,0 +1,119 @@
+---
+uid: "contribution/md.vis"
+uid-meta: "contribution/md.vis-meta"
+comments: 
+ items: 
+  - uid: "81329"
+  - uid: "81371"
+  - uid: "81436"
+  - uid: "81457"
+  - uid: "81459"
+  - uid: "88117"
+  - uid: "88120"
+  - uid: "88122"
+  - uid: "88128"
+  - uid: "88134"
+  - uid: "88135"
+  - uid: "88140"
+  - uid: "98065"
+  - uid: "98090"
+  - uid: "98326"
+  - uid: "98332"
+  - uid: "98339"
+  - uid: "98343"
+  - uid: "98346"
+  - uid: "98353"
+  - uid: "98366"
+  - uid: "98380"
+  - uid: "98417"
+  - uid: "98418"
+  - uid: "98419"
+  - uid: "98420"
+  - uid: "98528"
+  - uid: "98866"
+  - uid: "100771"
+  - uid: "152678"
+  - uid: "152680"
+  - uid: "152682"
+  - uid: "152685"
+  - uid: "153959"
+  - uid: "154816"
+  - uid: "154874"
+  - uid: "156242"
+  - uid: "156243"
+  - uid: "156279"
+  - uid: "156282"
+uid-files: "contribution/md.vis-files"
+title: "[OBSOLETE] md.vis"
+image: "md.bot-md.bot_.mdcube.gui_2012.09.05-03.59.10.png"
+contribution: "true"
+---
+
+##  obsolete (for a while now), maintenence is suspended until I'll return to vjing
+##  version 1.1.1
+more downloads (like version bundled with a preconfigured vvvv) available here: http://www.mcro.de/?section=md-vis
+
+watch the tutorials here: http://www.youtube.com/playlist?list=PL1OBS3qdZfDYsAKBADZVaGAXYUlyV9-Jc&feature=edit_ok
+
+##  common folder contains:
+**Vlc plugin 0.5** by ft
+[vlc-plugin-(beta)-a-new-audiovideo-player-to-texture-plugin](xref:contribution/vlc-plugin-(beta)-a-new-audiovideo-player-to-texture-plugin)
+**OpenCV plugin** by elliotwoods
+[opencv-plugin-(alpha)](xref:contribution/opencv-plugin-(alpha))
+**VVVV.Nodes.DeckLink** by elliotwoods
+[vvvv.nodes.decklink](xref:contribution/vvvv.nodes.decklink)
+**a modded version of MRE - Multipass Render Engine** by dottore, vux, m4d and unc
+[mre-multipass-render-engine](xref:contribution/mre-multipass-render-engine)
+
+Large Address Aware included in vvvv folder http://www.techpowerup.com/forums/showthread.php?t=112556
+
+##  requirements:
+* a stronger pc with intel core i5/7 and 4 gb of ram is recommended if you want to use it with multiple applications
+* windows vista, 7 or 8 for texture sharing. win 7 with aero turned on is recommended
+* on windows 8 set vvvv.exe to windows 7 compatibility mode through properties to make shared textures working
+
+##  installation:
+for vvvv bundled version:
+* place it somewhere
+
+for standalone versions:
+* place both md.mix and md.bot next to vvvv's folder which should be called "vvvv_45beta28.1". if you don't want that edit the .bat files to point to vvvv.exe with absolute path or relative path to the .bat file and the path after the "/o" argument should point to the corresponding patch absolutely or relatively to vvvv.exe
+
+##  startup:
+* for md.mix run "md.mix\_ui.bat" and then double click on the renderer button
+* for md.bot run "md.bot\md.bat" or you can start several instances from md.mix as well
+
+##  fixed in 1.1.1:
+* fixed huge bug showing up when there's a second screen (windows couldn't be moved). i just didn't put a GetSpread after ScreenInfo. tactical-reverse-facepalm for that
+* fixed flickering of images sometimes: that was facepalm worthy too
+* fixed deepness in the sky md.bot patch what was acting weird.
+* fixed unreliable DirectInput (switched from managed DirectX to SlimDX) for moving windows around
+* fixed missing Connect (Transform) node in "worms" md.bot patch
+
+##  what's new since 1.0:
+* making advantage of texture sharing
+* unified interface for md.bot (no need for 2 renderers anymore)
+* new menu system based on regular C# forms
+* drag and drop added to md.bot
+* effects are controlled with HDE so almost all TextureFX filter is listed which is useful for VJing. it's still not absolutely compatible (it supports value datatype only)
+* IRIS like sequencer is added to md.mix
+* if the effects planes have so many sliders that they go "offscreen" you can scroll them with mouse wheel instead of the vertical mouse movement stuff
+* the whole system is much faster now
+* fft, scope and clock (tempo) is sent on shared memory from md.mix
+* faders in md.mix reacts to raw kontrolleur touches on port 44445
+
+##  upcoming in near future:
+* VLC sequencer for md.bot so videos could be jammed in finally
+* beat detection (currently i have licensing problems with that or need for regular Bass audio input not asio)
+
+##  upcoming in far future:
+* md.map: a whole new mapping utility basically a mad-mapper clone but with augmented 3D support and elliotwoods's calibrate-projector method and a mesh/svg editor and etc. etc. currently i'm at the planning phase with that. only the xml structure for the project files are ready
+
+##  major known bugs (so i'm working on those):
+* sometimes md.mix can behave strangely while adding or removing to the sourcelist
+* some mysterious shit with menues and tooltips. i cannot even describe that but it's very rare (some was fixed since the tutorials)
+* after opening a menu then rightclicking on another button with menu won't open that menu but stays with the previous menu. workaround: close the menu with leftclick somewhere else before opening another menu
+* midi or osc learning from interface without opening TodoMap throws an exception and creates dosens of mappings of the same controller. it's a bug of TodoMap. i've already written a forum post about it let's hope for that new version what was floating among the screenshots
+* exception during startup. i don't know what's that. ignore it and click continue
+
+cheers! :)

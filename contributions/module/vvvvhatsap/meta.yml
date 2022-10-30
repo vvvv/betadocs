@@ -1,0 +1,41 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/vvvvhatsap-meta"
+type: "module"
+author: "io"
+date: "25 Nov, 2012"
+title: "Vvvvhatsap"
+originalURL: "contribution/vvvvhatsap"
+category: "module"
+credits: |-
+  This module was created by [io](http://vvvv.org/users/io) and sponsored by [Keroxen](http://keroxen.com) Festival
+  THIS IS NOT WORKING ANYMORE AS WHATSAPP CHANGES ITS API CONSTANTLY.
+like_count: "6"
+imported: "true"
+teaser: |-
+  Hi
+  <div class="box">
+  DISCLAIMER: this mostly a php/mysql hack to connect to whatsapp and not a native solution, you ll need a php interpreter and a mysql server to get this running. Due to the ever changing nature of the Whatsapp non-existent-wannabe-API I may not want to implement a native solution, let s see how things go, feel free to implement any way you like.
+  </div>
+  
+  HOWTO:
+  
+  >- you need a local or remote mysql server, if it is a remote remember to enable remote connection, of course. If don t want to allow external connection in your own server and comprise your data security, I highly advice to try with https://cloud.xeround.com, it s free and they even give you support.
+  You can find a template for the table you need to have in your database, basically with the following fields
+  
+  1. Id (auto increment)
+  1. User (varchar)
+  1. Text (varchar)
+  1. Media (varchar)
+  1. Date (timestamp, default to now)
+  
+  >- open ./script/main.php and fill the necessary fields, if you don t want to use your own telephone number (loading the script will temporarily invalidate your whatsapp account in your phone), you can get a second free number with any provider, I am using http://fonyou.es/ if you know about similar services in your country please send in a comment below.
+  Upload the script and the whole ./script folder to your server (and connect with ssh) or use it locally if you want.
+  ```
+  php main.php
+  ```
+  If you run it through ssh remember to use screen so it won t quit when you close the terminal.
+  Send some messages and refresh the DB. If you can see your messages, move on.
+  
+  >- time to open the included patch to retrieve the messages and write the media, for the moment only images are retrieved, videos seems to be nested down and haven t fixed that yet
+  THE NEW POLICY SEEMS TO BE THAT WHATSAPP DELETE MEDIA AFTER A FEW DAYS

@@ -1,0 +1,16 @@
+### YamlMime:ContributionComment
+---
+uid: "107505"
+user: "robe"
+created: "03 Oct, 2013 - 19:31"
+body: |-
+  Hi Catweasel.
+  your patch works here.. well, not really, but I can see some particle.
+  I can't really manage their behaviour.. the fan of the videocard is going crazy and when I reset the stopwatch the render is filled with with square and the system become unstable for 5 secs.
+  
+  ![](https://vvvv.org/sites/default/files/imagecache/large/images/RenderSoftimage-Renderer_2013.10.03-21.31.15.png) 
+  
+  
+  Apart from this I really trust this contribution, It seems a good concept, but I really don't know how to help to make it work stable.
+  
+  Thanks

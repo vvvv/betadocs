@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/arduino-to-vvvv-a-paper-touch-interface-files"
+url: "arduino-to-vvvv-a-paper-touch-interface"
+category: "tutorial"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "Arduino vvvv Files.zip"
+            description: |-
+              All the files used for the Arduino to vvvv paper touch interface
+            
+            timestamp: "05 Feb, 2013 - 22:22"
+            download_count: "1"

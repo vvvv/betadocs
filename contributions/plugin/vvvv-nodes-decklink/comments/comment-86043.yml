@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "86043"
+user: "newemka"
+created: "24 Jul, 2012 - 13:20"
+body: |-
+  @elliotwoods, we are successfully running two decklink video inputs. One Blackmagic Intensity Shuttle and one Decklink Extreme 3D card. 
+  Getslice node on the Listdevice output to select which card to use.

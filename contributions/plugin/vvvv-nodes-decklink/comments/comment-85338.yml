@@ -1,0 +1,12 @@
+### YamlMime:ContributionComment
+---
+uid: "85338"
+user: "elliotwoods"
+created: "06 Jul, 2012 - 21:17"
+body: |-
+  @eno - i'm going via cpu but the load is very low in testing (partly because of the YUV scenario). 
+  I'm using the BlackMagic SDK directly (not via WDM).
+  
+  I don't know of any way of shipping the pixels direct across the PCIe bus using this framegrabber. Afaik, that is only possible with the Qaudro SDI capture solution*, but i'd certainly love to be proven wrong about that.
+  
+  (* <http://www.nvidia.co.uk/object/product_quadro_sdi_capture_uk.html> )

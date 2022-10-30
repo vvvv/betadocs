@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "88675"
+user: "u7angel"
+created: "19 Sep, 2012 - 21:17"
+body: |-
+  threshold is built in. check inspektor for settings. some angles are coming out the debug pin. the plugin is coming as a dynamic node, so you are welcome to add some stuff yourself.

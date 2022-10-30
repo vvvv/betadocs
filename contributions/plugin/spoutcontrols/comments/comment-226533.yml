@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "226533"
+user: "digitalwannabe"
+created: "04 Sep, 2016 - 18:13"
+body: |-
+  should now (hopefully) work on every x86 system, please report! thanks to [leadedge](http://vvvv.org/users/leadedge) for finding the bug!
+  ....still working on x64 version....

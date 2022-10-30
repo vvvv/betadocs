@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "156242"
+user: "matka"
+created: "31 May, 2014 - 14:01"
+body: |-
+  hi guys, I'm still having problems rendering on second monitor, have tried every version, all of them behave the same, when i drag output renderer to the second monitor it turns black and md.mix previews white, in the primary monitor everything works fine. where is the problem?

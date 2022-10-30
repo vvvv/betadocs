@@ -1,0 +1,12 @@
+### YamlMime:ContributionComment
+---
+uid: "250361"
+user: "bo27"
+created: "20 Mar, 2018 - 12:07"
+body: |-
+  hi!
+  
+  \packs\mp.dx\nodes\plugins\DX11Utils\x64\DX11Utils.Native.dll
+  is blocked by Windows Secutiry because of Trojan:Win32/Spursint.F!cl
+  
+  is that correct warning?

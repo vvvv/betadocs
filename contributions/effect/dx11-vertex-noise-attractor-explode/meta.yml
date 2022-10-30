@@ -1,0 +1,17 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/dx11-vertex-noise-attractor-explode-meta"
+type: "effect"
+author: "lecloneur"
+date: "12 Dec, 2013"
+title: "DX11 Vertex Noise & Attractor Explode"
+originalURL: "contribution/dx11-vertex-noise-attractor-explode"
+category: "effect"
+credits: |-
+  [unc](http://vvvv.org/users/unc), [vux](http://vvvv.org/users/vux) and [antokhio](http://vvvv.org/users/antokhio) for testing and support.
+like_count: "8"
+imported: "true"
+teaser: |-
+  Two GSFX (Geometry Shader) : Vertex Noise and an exploder with attractor 3D. Use GSFX like TextureFX, try to chain them in any order and see what you can discover. It works great with MRE and Surface3D.
+  
+  Have fun.

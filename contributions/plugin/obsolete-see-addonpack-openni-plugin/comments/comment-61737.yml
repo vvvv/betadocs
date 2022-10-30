@@ -1,0 +1,10 @@
+### YamlMime:ContributionComment
+---
+uid: "61737"
+user: "screamer"
+created: "31 Mar, 2011 - 17:46"
+body: |-
+  @vjc4:
+  clnui and openni are different drivers and they cannot exist in the same time. if you want to run openni you must first uninstall the clnui one, and then install openni. 
+  the "tricky" part is that openni, by default, installs the drivers for primesense (the original hardware by primesense). So if you want to use openni you must install the driver for kinect (avin2sensor) that you can find here:
+  https://github.com/avin2/SensorKinect

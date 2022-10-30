@@ -1,0 +1,12 @@
+### YamlMime:ContributionComment
+---
+uid: "58580"
+user: "sugokuGENKI"
+created: "18 Jan, 2011 - 11:34"
+body: |-
+  is there a config pin to change?
+  I made a config pin on later versions to set a pre-allocated amount of memory.
+  I was using 120frames in general (4s @ 30fps).
+  I found that by pre-allocating the memory and keeping it the same throughout different sequence loads, then you avoid garbage collection.
+  
+  This plugin's now stuck on a machine in korea so cant look right now.

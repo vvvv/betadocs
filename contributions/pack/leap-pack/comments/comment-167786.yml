@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "167786"
+user: "vjc4"
+created: "08 Oct, 2014 - 02:53"
+body: |-
+  Great stuff!!
+  just one thing,,, I can open the patch, works just fine... but only if i open the patch as the first patch of vvvv... if I put the example patch inside anotherproject, all nodes are red... If I drag the Dll inside the project, the nodes are listed, but they apear without any pin and in red...

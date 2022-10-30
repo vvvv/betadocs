@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "94268"
+user: "mcentyre"
+created: "08 Jan, 2013 - 23:19"
+body: |-
+  I'm fairly new to Arduino and I'm running into an issue with Receiver.  I'm using Sender10 fine.
+  
+  I'm having difficulty with the UDP libraries.  I'm getting messages from the IDE such as "The Udp class in the Ethernet library has been renamed to EthernetUdp"  If I change the udp.h reference to EthernetUdp.h, I get errors on the Read statement.
+  
+  Can you tell me if the code is using old library references or if I need to import the correct libraries?  If so, can you point me to the correct place to download the libraries?
+  
+  Thanks for your help!

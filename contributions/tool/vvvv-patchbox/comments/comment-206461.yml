@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "206461"
+user: "eps"
+created: "21 Sep, 2015 - 23:56"
+body: |-
+  which beta is required to run this?
+  34.1 is ok, on 33.7 only half works (e.g. no ioscaler)
+  any chance to make it work on 33?

@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "247045"
+user: "microdee"
+created: "17 Nov, 2017 - 16:43"
+body: |-
+  @ofersmi: VObjects are a failed concept which were trying to do something vvvv was not designed for. messages are far superior alternative. if you'd need more fidelity you can utilise VL or even C# ;)

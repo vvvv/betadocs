@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/plane-curves-files"
+url: "plane-curves"
+category: "plugin"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "PlaneCurves_0.8.4.zip"
+            description: |-
+              unzip it into your contribution/pugins folder
+            
+            timestamp: "01 Dec, 2011 - 17:02"
+            download_count: "1"

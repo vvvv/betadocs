@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "254285"
+user: "microdee"
+created: "25 May, 2018 - 10:19"
+body: |-
+  yo! I've forked this thing and I will convert it to C++/CLI so you don't have to PInvoke static functions and can keep track of multiple instances of HBAO with multiple contexts
+  
+  it's a great thing btw, I immediately threw my current SSAO stuff into garbage

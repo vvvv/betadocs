@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "239960"
+user: "joreg"
+created: "23 May, 2017 - 10:08"
+body: |-
+  @guest ok, so the question is with latest alpha (which has MaxSenders=40) can you still share at least 10 spouts with ue4/resolume when they are set to 10?

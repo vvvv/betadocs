@@ -1,0 +1,23 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/vvvvj-starter-pack-meta"
+type: "tool"
+author: "idwyr"
+date: "16 Oct, 2020"
+title: "VVVVj starter pack"
+originalURL: "contribution/vvvvj-starter-pack"
+category: "tool"
+credits: |-
+  <https://vvvv.org/contribution/demolition-media-hap-player>
+  <https://vvvv.org/contribution/directx11-nodes>
+  <https://vvvv.org/contribution/superblender-all-in-one-pass>
+like_count: "12"
+imported: "true"
+teaser: |-
+  This is the main patch for the online workshop  VVVVj starter pack at Node 2020
+  
+  It contains building block to be able to play video and/or generative content, blending and apply some effects, all backed with user interface.
+  
+  Requires dx11 pack and hap video player
+  
+  if have any questions - text me on telegram 89663108090

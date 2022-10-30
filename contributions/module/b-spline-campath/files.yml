@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/b-spline-campath-files"
+url: "b-spline-campath"
+category: "module"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "Campath.zip"
+            timestamp: "14 Jul, 2010 - 09:43"
+            download_count: "1"

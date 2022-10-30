@@ -1,0 +1,17 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/graph-library-meta"
+type: "plugin"
+author: "tonfilm"
+date: "22 Aug, 2011"
+title: "Graph Library"
+originalURL: "contribution/graph-library"
+category: "plugin"
+credits: |-
+  Jonathan de Halleux aka "Peli" for the very nice [QuickGraph](http://quickgraph.codeplex.com) Library.
+like_count: "11"
+imported: "true"
+teaser: |-
+  Nodes to handle a graph data structure.
+  
+  Just a few nodes for a start. Tell me what nodes you need as well, to work with graphs in your project.

@@ -1,0 +1,17 @@
+### YamlMime:ContributionComment
+---
+uid: "63635"
+user: "weareallclowns"
+created: "12 May, 2011 - 18:24"
+body: |-
+  I was wondering.
+  I'm currently in the works of a term project for the university (an artwork going to be placed in a hospital for three weeks), in which our goal with the Kinect is to, by tracking of the hands of the user, set up an intuitive interaction with a 3D environment.
+  
+  We are still in the very first stages of the programming, and have discovered that the computer made available to us is not nearly as capable as we wanted it to.
+  
+  Anyways, the *question* is:
+  Can we stop the tracking of individual joints which basically we don't need to minimize the processing done?
+  
+  We know that this will most probably have to be done externally of vvvv, but are eager to learn.
+  
+  @Everyoneishappy: Haha, we might just use that one, if pose caliberation is still needed ^^.

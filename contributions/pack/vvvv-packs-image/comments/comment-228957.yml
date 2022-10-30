@@ -1,0 +1,10 @@
+### YamlMime:ContributionComment
+---
+uid: "228957"
+user: "mino"
+created: "29 Sep, 2016 - 16:32"
+body: |-
+  i tried build image pack manually with emgucv 2.4.10 in x64 and it worked.
+  
+  @DiMiX
+  how about other image pack nodes? i also faced similar situation and it was graphic card issue

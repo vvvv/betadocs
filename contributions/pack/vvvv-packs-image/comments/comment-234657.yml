@@ -1,0 +1,10 @@
+### YamlMime:ContributionComment
+---
+uid: "234657"
+user: "DiMiX"
+created: "23 Jan, 2017 - 21:18"
+body: |-
+  @mino
+  How did you get x64pack with ATI card to work?
+  I put nvcuda in every hole I could -system32, sysWOW64, openCV dependencies x64 & x86
+  But no success.

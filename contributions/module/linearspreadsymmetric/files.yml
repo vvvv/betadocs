@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/linearspreadsymmetric-files"
+url: "linearspreadsymmetric"
+category: "module"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "LinearSpreadSymmetric (Spread).7z"
+            description: |-
+              Contains module and help patch.
+            
+            timestamp: "10 May, 2019 - 03:04"
+            download_count: "1"

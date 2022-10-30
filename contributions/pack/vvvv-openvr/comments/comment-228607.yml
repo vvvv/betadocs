@@ -1,0 +1,19 @@
+### YamlMime:ContributionComment
+---
+uid: "228607"
+user: "guest"
+created: "25 Sep, 2016 - 14:57"
+body: |-
+  hi tonfilm, 
+  Thanks for your answer, but I can't get good results with the OpenVRdemo at this time (it's an exageration: results are perfect, but after drawing a few lines in space, CPU is overcharged, and framerate too small...) 
+  With this CPU budget, it's hard to develop more complex applications.
+  
+  If I understand correctly (and for me it's very abstract), OpenVR use a fonction called WaitGetPoses()(the VVVV WaitForSync Poser Pin?). 
+  This fonction seems to wait for the position of every tracked objects in the scene and it's necessary for a perfect fluidity and avoiding any judder effects.
+  But it has a very high CPU cost.
+  Seems to be a frequent OpenVR concern on Github.
+  <https://github.com/ValveSoftware/openvr/issues/64>
+  An OpenVR user talk about rendering GetWaitPos on a specific thread to gain performance, and not to block the others CPU process. 
+  A thing like that would be possible in VVVV?
+  
+  Thanks,

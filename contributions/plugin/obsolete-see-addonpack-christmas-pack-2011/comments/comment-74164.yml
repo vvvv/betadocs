@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "74164"
+user: "vux"
+created: "30 Dec, 2011 - 09:56"
+body: |-
+  @io : both drivers can be on the system at the same time, just need to update them in device manager to switch
+  
+  @sapo : indeed standard depth image is flipped, have to fix that. For the playerindex gonna add an extra node to output player color as texture, in progress

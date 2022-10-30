@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/laserworld-rs-800g-files"
+url: "laserworld-rs-800g"
+category: "module"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "LaserWorld RS-800G (DMXFixture).zip"
+            timestamp: "12 Dec, 2011 - 00:11"
+            download_count: "1"

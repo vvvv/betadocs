@@ -1,0 +1,22 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/touch-calibration-meta"
+type: "module"
+author: "ethermammoth"
+date: "14 Oct, 2014"
+title: "Touch Calibration"
+originalURL: "contribution/touch-calibration"
+category: "module"
+credits: |-
+  elliotwoods
+like_count: "2"
+imported: "true"
+teaser: |-
+  Little GUI wrapping the homography node from openCV pack for calibrating multiple screens. I made this cause the included touch drivers often suck and only can be calibrated on a single monitor. 
+  Use the Touch Calibrator (Load) module to load the saved calibration matrix and put your touch input through. Other explanations included in the Patch. 
+  
+  Feel free to modify and contribute back.
+  
+  All Magic happening because of Elliot Woods great openCV pack, Thank you!
+  
+  Requirements: image pack and table (included)

@@ -1,0 +1,15 @@
+### YamlMime:ContributionComment
+---
+uid: "95880"
+user: "lasal"
+created: "06 Feb, 2013 - 10:49"
+body: |-
+  Hey Alg, i´m glad that you are interested on it.
+  
+  here there is a thread with some spreaded aproaches, 
+  the Multiple line intersection plugin works without problems, but the circle circle version seems to be buggy.
+  the Line Circle intersection doesn´t work for me, maybe you can take a look.
+  
+  [circle-line-intersect-plugin](https://discourse.vvvv.org/t/circle-line-intersect-plugin)
+  
+  i´ll post it here the spreaded versions i have.

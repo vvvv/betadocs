@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "241866"
+user: "mburk"
+created: "04 Jul, 2017 - 16:22"
+body: |-
+  Hi letoast, that's a known limitation. I think it's due to calculating some stuff per vertex. As this improves performance I might not change this, but thanks for reporting!

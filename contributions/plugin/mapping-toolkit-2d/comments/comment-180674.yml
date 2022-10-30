@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "180674"
+user: "Noir"
+created: "28 Dec, 2014 - 01:21"
+body: |-
+  Yep it works on different threads (open it with batch file)
+  No performance issues (58-59 fps)
+  Delaunay it doesn't works on my side...it might be miss a bang on 'update' pin
+  
+  Tnx for sharing

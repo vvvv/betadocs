@@ -1,0 +1,22 @@
+### YamlMime:ContributionComment
+---
+uid: "218445"
+user: "velcrome"
+created: "23 Mar, 2016 - 21:55"
+body: |-
+  <div class="box">quote:robe:
+  Any chance to make it work nowadays?
+  The Message part seems totally broken... NILs everywhere etc
+  </div>
+  
+  <div class="box">quote:joreg:
+  maybe still works? it doesn't use "Message"
+  </div>
+  
+  sometimes digging deep in the past can be rewarding, but forging something new is usually much more pleasant
+  
+  vvvv-Message has undergone drastic change in the meantime, and interfacing to other apps was a priority. The whole session handling in the old upload is still cumbersome and long revamped. Json talk has been changed in a way that can be described as breaking: it is no longer quick and dirty, but readable. 
+  When prototyping against venode, a lot of <span class="pin">Message</span> nodes were WIP and afterwards didn't make the cut and morphed into something more powerful.
+  Venode would have greatly benefited from a sync, but as it goes, it didn't happen yet. 
+  
+  That said, with vvvv-Message it is easier than ever to interface to any javascript object. Iirc @tmp used vanilla jquery. Accessing gui elements with a current vvvv-Message pack should be a blaze for someone with a little time on their hands and some familiarity with js.

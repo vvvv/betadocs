@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "241623"
+user: "DiMiX"
+created: "29 Jun, 2017 - 12:31"
+body: |-
+  place it in the same folder as vux plugin. restart vvvv. type vlc. should appear vlc2. works for me

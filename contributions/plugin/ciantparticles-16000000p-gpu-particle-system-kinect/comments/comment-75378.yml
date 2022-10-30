@@ -1,0 +1,12 @@
+### YamlMime:ContributionComment
+---
+uid: "75378"
+user: "sonofsnow"
+created: "27 Jan, 2012 - 10:14"
+body: |-
+  I am having problems with the kinect part. The RGB and Depth Node are red but it dosent say anything about missing .dll.
+  I am not into the world og programming. Only started with vvvv for a couple of months ago so any help would be appriciated.
+  
+  Primsense drivers are up and running and the kinect works great with  Kinect_OpenNI_Library_1.2.
+  
+  Tnx for a facinating program and contributions =)

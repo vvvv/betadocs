@@ -1,0 +1,15 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/julia-fractal-axis-trap-meta"
+type: "effect"
+author: "vux"
+date: "09 Jul, 2010"
+title: "Julia Fractal Axis Trap"
+originalURL: "contribution/julia-fractal-axis-trap"
+category: "effect"
+like_count: "5"
+imported: "true"
+teaser: |-
+  Julia set hlsl shader using axis orbit trapping technique for coloring.
+  
+  Play with values/shader to have nice results :)

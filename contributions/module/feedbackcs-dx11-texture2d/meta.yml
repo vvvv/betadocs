@@ -1,0 +1,21 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/feedbackcs-(dx11.texture2d)-meta"
+type: "module"
+author: "ain"
+date: "20 Oct, 2013"
+title: "FeedbackCS (DX11.Texture2d)"
+originalURL: "contribution/feedbackcs-(dx11.texture2d)"
+category: "module"
+credits: |-
+  unc
+like_count: "4"
+imported: "true"
+teaser: |-
+  This module helps to get texture feedback in DX11.
+  While FrameDelay(DX11.Texture2d) is a bit glitchy, this one made with Compute Shader is more stable for now.
+  
+  You can add some changes to previous frame texture just in code of CS.
+  
+  I would like to add features that we had to use with real framedelay like texture transform or filtering but have no any good results with these yet.
+  Any notes welcome.

@@ -1,0 +1,17 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/polar-coordinates-meta"
+type: "effect"
+author: "dEp"
+date: "27 Sep, 2010"
+title: "Polar Coordinates"
+originalURL: "contribution/polar-coordinates"
+category: "effect"
+credits: |-
+  [mtallen](http://vvvv.org/users/mtallen)
+  
+  Libero Spagnolini (author of Photobooth Demystified)
+like_count: "8"
+imported: "true"
+teaser: |-
+  Coordinate system conversion.

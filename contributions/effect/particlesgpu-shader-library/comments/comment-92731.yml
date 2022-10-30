@@ -1,0 +1,26 @@
+### YamlMime:ContributionComment
+---
+uid: "92731"
+user: "robe"
+created: "10 Dec, 2012 - 15:18"
+body: |-
+  Hi, just a shout to bring this contribution on the top of the list...
+  
+  Browsing youtube I found this video:
+  <http://www.youtube.com/watch?v=eSWm_VImgFQ>
+  
+  the behaviour of particles is simlar to vux "ParticlesGPU_2d_Dynamic_Attractor_Bounce"
+  
+  I invite you to download the binary or the source code from the description or below and testing by yourself.
+  
+  <http://www.craigmouser.com/random/cudaparticles.zip>
+  <http://www.craigmouser.com/random/ParticleEngine.zip>
+  
+  **The fact is that** this program works across mulpiple heads and multiple cards!
+  
+  It would be possible to make this library multi-head?
+  Is this a limit of shader architecture in VVVV?
+  Is this a limit of VVVV?
+  
+  Just to know
+  Thanks for reply.

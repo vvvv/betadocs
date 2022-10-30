@@ -1,0 +1,14 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/bumpglossed- -dx11-version-meta"
+type: "effect"
+author: "dottore"
+date: "22 Jun, 2010"
+title: "BumpGlossed + DX11 version"
+originalURL: "contribution/bumpglossed- -dx11-version"
+category: "effect"
+like_count: "16"
+imported: "true"
+teaser: |-
+  Bumpy, fresnel-shiny, dielectric, textured, with two quadratic-falloff lights.
+  From nVidia library.

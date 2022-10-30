@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "221064"
+user: "woei"
+created: "14 Jun, 2016 - 19:55"
+body: |-
+  @Lrinke it does, when you use it with dx version of beta33.7 as mentioned in the notes.
+  there was a change in the dx11 render pipeline after that version which didn't find its way into this contribution (yet)

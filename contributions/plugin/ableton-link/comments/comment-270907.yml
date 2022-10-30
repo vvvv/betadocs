@@ -1,0 +1,17 @@
+### YamlMime:ContributionComment
+---
+uid: "270907"
+user: "seltzdesign"
+created: "31 Jan, 2019 - 11:18"
+body: |-
+  Hi @soriak.
+  
+  Sorry I was trying it with the version here and not the one on Github. It says in the link that it is still version 0.2 so I thought it was the same.
+  
+  Now I finally came around to testing it and it works. There is one bug though: once its connected and playing, I can start and stop from vvvv which is awesome. But when you press "Reset" once the start stop functionality doesn't work any longer till you restart vvvv. The setting of BPM still works, but start and stop are not after reset.
+  
+  Also the beat counter doesn't sync properly. It just keeps running, even when its stopped and restarts from 1.1.1 in Ableton.
+  
+  Is it possible to fix that bug and add the proper syncing of the beat counter? The phase and tempo already syncs just fine.
+  
+  Thanks.

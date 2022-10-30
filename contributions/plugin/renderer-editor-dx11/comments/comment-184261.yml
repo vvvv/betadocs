@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "184261"
+user: "vux"
+created: "02 Feb, 2015 - 18:12"
+body: |-
+  There's been some changes between b31.2 and b33, so if this has been build in 33 will not work in prior version (for people having error above)

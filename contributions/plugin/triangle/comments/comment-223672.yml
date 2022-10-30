@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "223672"
+user: "microdee"
+created: "28 Jul, 2016 - 13:01"
+body: |-
+  and unfortunately none of the contour nodes (neither freeframe and CV.Image) report if a contour is a hole or not :(
+  
+  for the extrusion mesh to work the triangle node have to indicate if a vertex is on the edge. if I remember well the Triangle library can tell you this information. after in geometry shader you can test which 2 vertices have this tag and create a quad between them for the extrusion wall. it can be solved with a module containing GeometryBuffer and InputElements advanced (for custom semantics)

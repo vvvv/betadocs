@@ -1,0 +1,15 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/blurglowcat-meta"
+type: "effect"
+author: "catweasel"
+date: "11 May, 2018"
+title: "BlurGlowCat"
+originalURL: "contribution/blurglowcat"
+category: "effect"
+credits: |-
+  catweasel
+like_count: "5"
+imported: "true"
+teaser: |-
+  A fast BlurGlow using Mips and downscaling the image to create a faster and blurry image with not too much overhead. Try the different techniques, I've left a downsampled blur only as well in case thats what you need. (Try thresholding an image first and then add blending it back to the source for a more afx glow)

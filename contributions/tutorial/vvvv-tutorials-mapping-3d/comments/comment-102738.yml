@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "102738"
+user: "postaldude"
+created: "24 Jun, 2013 - 21:27"
+body: |-
+  i just cant get the calibrate camera node to work. it doesnt solve and flashes red while manipulating points in the renderer.  
+  @colorsound, i dont really understand what your folder structure is. could you please describe what exactly you did to make it work again?

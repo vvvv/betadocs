@@ -1,0 +1,14 @@
+### YamlMime:ContributionComment
+---
+uid: "194255"
+user: "tmp"
+created: "08 May, 2015 - 14:41"
+body: |-
+  1.  UPDATE
+  
+  changes in the latest version (08.05.15):
+  * introduced a separate node for kinect 2 that uses the kinect2 raytable to calculate world coordinates (instead of fov for kinect1).
+  * the texture-based building of pointclouds (kinect1/2 & layer) is a bit faster now (uses numthreads 8,8,1 instead of 64,1,1)
+  
+  
+  @cunk111: i dont't know contributions of evvvvil or everyoneishappy that are related to pointclouds. so i cannot say anything to performance.

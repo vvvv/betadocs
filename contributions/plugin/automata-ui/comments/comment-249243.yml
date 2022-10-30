@@ -1,0 +1,18 @@
+### YamlMime:ContributionComment
+---
+uid: "249243"
+user: "u7angel"
+created: "20 Feb, 2018 - 06:40"
+body: |-
+  @eps
+  
+  i only see two transitions here.
+  a to b
+  b to a
+  
+  either can be triggered by a corresponding button and
+  both by just one bang, handling the timeout in patch ie. monoflop, regtriggered by getstate )
+  
+  sounds to me you got confused by the pingpong transition. you dont need that. pingpong is for changes triggered by one button.
+  
+  ![](https://vvvv.org/sites/default/files/imagecache/large/images/eps.JPG)

@@ -1,0 +1,26 @@
+### YamlMime:ContributionComment
+---
+uid: "60742"
+user: "ll"
+created: "10 Mar, 2011 - 20:35"
+body: |-
+  Hallo ft!
+  
+  Great plugin, and excellent performance! Thanks a lot!
+  I would love to use it in an installation but can't get it to work in fullscreen mode. Whenever I switch to fs=1, the screen gets grey and nothing happens anymore. (also tested with your help patch)
+  
+  on the tty renderer I get:
+  
+  ```
+  CreateTexture(Slice 0, Device 84169760)
+  ERR <A0+> <CreateDoubleTexture%20Exception> D3DERR_INVALIDCALL: Invalid call (-2005530516)
+  00:01:21  *  : Cannot reset device. Try different parameters!
+  00:01:21     : 
+  
+  ...
+  ```
+  
+  Is there anything I could do about it or has anyone else experienced this?
+  thanks a lot!
+  
+  leo

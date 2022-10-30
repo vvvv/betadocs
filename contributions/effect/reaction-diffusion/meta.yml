@@ -1,0 +1,15 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/reaction-diffusion-meta"
+type: "effect"
+author: "sanch"
+date: "25 Aug, 2010"
+title: "Reaction diffusion"
+originalURL: "contribution/reaction-diffusion"
+category: "effect"
+credits: |-
+  sanch
+like_count: "23"
+imported: "true"
+teaser: |-
+  Reaction diffusion pixel shader.

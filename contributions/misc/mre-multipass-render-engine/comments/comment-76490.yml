@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "76490"
+user: "ksp"
+created: "20 Feb, 2012 - 20:53"
+body: |-
+  i had problems getting this to work. it was fixed by changing the 3 DX9Texture formats to "A16B15G15R16F"
+  
+  (..this sorted everything except the Glare, which makes the render flash on/off/on/off/etc.)
+  
+  very nice ....still need to buy a new computer to run it properly though.

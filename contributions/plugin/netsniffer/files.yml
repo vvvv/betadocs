@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/netsniffer-files"
+url: "netsniffer"
+category: "plugin"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "NetSniffer.zip"
+            timestamp: "10 Oct, 2011 - 07:27"
+            download_count: "1"

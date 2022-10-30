@@ -1,0 +1,25 @@
+### YamlMime:ContributionComment
+---
+uid: "58608"
+user: "lasal"
+created: "18 Jan, 2011 - 19:58"
+body: |-
+  <div class="box">
+  Hello Dottore,
+  only a question, in the 3d surface shader, would it be possible to adapt it for using flat shading instead phong?
+  
+  how?
+  
+  thanks
+  
+  ari.
+  
+  </div>
+  
+  i mean if would it be possible to implement the flat shading in the 3d sufaces based in the original grid size?.
+  
+  Other possibility (but not the same that flat shading) is using the normal map without bicubic interpolation, but when i use a texture on the shader it looks distorted. 
+  
+  thanks
+  
+  ari.

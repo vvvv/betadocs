@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "248165"
+user: "everyoneishappy"
+created: "09 Jan, 2018 - 10:35"
+body: |-
+  Yeah good call.   Added a note to description, help patch, and node overview for the particle nodes **(red)**.  Also slipped in a deform mesh GeomFX w/smooth normals, and several 3D fractal SDFs **(blue)** :D
+  
+  ![FieldTrip node Overview](https://vvvv.org/sites/default/files/imagecache/large/images/_FieldTripNodesOverview_2018.01.09.png)

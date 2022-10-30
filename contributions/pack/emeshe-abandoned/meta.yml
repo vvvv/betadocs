@@ -1,0 +1,111 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/emeshe-abandoned-meta"
+type: "pack"
+author: "microdee"
+date: "17 Sep, 2013"
+title: "Emeshe [ABANDONED]"
+originalURL: "contribution/emeshe-abandoned"
+category: "pack"
+credits: |-
+  [vux](http://vvvv.org/users/vux) for helping in plugins and shaders,
+  [unc](http://vvvv.org/users/unc) for a different SSAO technique |
+  http://adaptivesamples.com/ for great HDR spheremaps,
+  http://zbyg.deviantart.com/art/HDRi-Pack-2-103458406,
+  The Droid girl model: http://www.cgtrader.com/3d-models/character-people/sci-fi/droid-girl
+like_count: "31"
+imported: "true"
+teaser: |-
+  ##  ABANDONED!
+  
+  Emeshe failed in several aspects and I changed my focus a long time ago. It's not maintained for a year now at least and supporting dependencies had many breaking changes since then. I won't revive it either. Check out SuperPhysical or lighting/post-process solutions in mp.dx for alternatives. If you need more graphical fidelity than that use UE4 with the Spout plugin ;)
+  
+  WARNING! THIS IS A RESOURCE HOG! I'M NOT RESPONSIBLE FOR ANY MOLTEN LAPTOPS!
+  
+  The great overhaul to mre.mdmod.2 is now here and it's called Emeshe now (for vague reasons)
+  
+  ##  [Get it from Github](https://github.com/microdee/Emeshe)
+  
+  ##  Features
+  
+  Lighting / Global Illumination
+  * HDR rendering
+  * Cook-Torrance and Phong models (Ashikmin-Shirley coming soon)
+  * Multiple Point, Spot, Sun lights
+  * Multiple PCSS Shadows for each light types
+  * Separated light components for versatile composition
+  * * Diffuse
+  * * Specular
+  * * SSS
+  * Alchemy HBAO for short range Local AO (SSLAO) or High Frequency SSAO
+  * One-bounce stochastic Local Color Bleeding (CSSGI by ArKano22)
+  * Environment map based Reflection / Refraction with roughness
+  * Screen-Space Reflections again with roughness
+  * Spotlights can have custom texture
+  * Emission
+  
+  Post-Processing
+  * Stochastic "lens blur" DOF with optional "Autofocus"
+  * Motion Blur with pixel extension in the direction of motion (no hard edges)
+  * Tonemapping (HDR to SDR)
+  * * Filmic (Uncharted 2)
+  * * Filmic (ALU)
+  * * Reinhard (standard and modified)
+  * * Drago Logarithmic
+  * * Standard linear, logarithmic and exponential
+  * Glare with chromatic aberration
+  
+  Forward rendering part
+  * define driven feature switches (opt-out style)
+  * Optional Triplanar texture coordinates and sampling
+  * Normal mapping
+  * Support for automatic and manual instancing
+  * For manual instancing see Geometry part.
+  * Rendertarget for UV coordinates, Material ID and Object ID's
+  
+  Materials
+  * Flags driven modular deferred material system
+  * 27 different predefined material features (out of current 32)
+  * 70+ possible predefined parameters per material and growing
+  * Texture mapped deferred parameters because UV is written in GBuffer
+  * Custom features can be added without effort (there's place for 7 custom features)
+  * VObject Oriented construction in patch
+  
+  Geometry
+  * Support for previous frame position for animated geometry (used for calculating velocity map for motion blur)
+  * Instance or general purpose subset ID written to vertex
+  * Extruder
+  * Skinning
+  * PN-Triangle tessellation
+  * Compatible with Instance Noodles
+  * Merged Geometry pipeline for draw-call optimization
+  * * Subset ID's for individual "slices"
+  * * Special "MergedGeom" layer sinks for them
+  
+  ##  Installation
+  
+  * compile DX11 from Github: [DX11-vvvv](https://github.com/mrvux/dx11-vvvv)
+  * put the mcropack packs into your packs folder: [mcropack](https://github.com/microdee/VVVV.Packs.mcro)
+  * put VObjects next to mcropack packs: [VObjects](https://github.com/microdee/VObjects)
+  * put Emeshe next to mcropack packs: [Emeshe](https://github.com/microdee/Emeshe)
+  
+  Your folder structure should look like:
+  vvvvdir\packs\
+  * dx11
+  * mp.dx
+  * mp.essentials
+  * mp.fxh
+  * mp.voocam
+  * Emeshe
+  * VObjects
+  
+  enjoy!
+  
+  ##  Stuffs
+  
+  Read more info and somewhat proper docs here: https://github.com/microdee/Emeshe/blob/master/README.md
+  prezi for NODE15 workshop: http://prezi.com/n3gvyzo9szrw
+  github: https://github.com/microdee/Emeshe
+  please report issues here: https://github.com/microdee/Emeshe/issues
+  
+  enjoy!

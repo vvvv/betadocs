@@ -1,0 +1,52 @@
+### YamlMime:ContributionComment
+---
+uid: "280100"
+user: "redphoenix"
+created: "20 Feb, 2022 - 16:21"
+body: |-
+  Hey! Just crashed on me again, here is a report from the eventviewer.
+  
+  ```
+  Anwendung: TexConvGui.exe
+  Frameworkversion: v4.0.30319
+  Beschreibung: Der Prozess wurde aufgrund einer unbehandelten Ausnahme beendet.
+  Ausnahmeinformationen: System.ArgumentOutOfRangeException
+     bei System.ThrowHelper.ThrowArgumentOutOfRangeException(System.ExceptionArgument, System.ExceptionResource)
+     bei System.Collections.Generic.List`1<[System.__Canon,%20mscorlib,%20Version=4.0.0.0,%20Culture=neutral,%20PublicKeyToken=b77a5c561934e089>].RemoveAt(Int32)
+     bei TexConvGui.MainWindow.UpdateProgress(System.String)
+     bei TexConvGui.MainWindow.OnDataReceived(System.Object, System.Diagnostics.DataReceivedEventArgs)
+     bei System.Diagnostics.Process.OutputReadNotifyUser(System.String)
+     bei System.Diagnostics.AsyncStreamReader.FlushMessageQueue()
+     bei System.Diagnostics.AsyncStreamReader.GetLinesFromStringBuilder()
+     bei System.Diagnostics.AsyncStreamReader.ReadBuffer(System.IAsyncResult)
+     bei System.IO.Stream+ReadWriteTask.InvokeAsyncCallback(System.Object)
+     bei System.Threading.ExecutionContext.RunInternal(System.Threading.ExecutionContext, System.Threading.ContextCallback, System.Object, Boolean)
+     bei System.Threading.ExecutionContext.Run(System.Threading.ExecutionContext, System.Threading.ContextCallback, System.Object, Boolean)
+     bei System.IO.Stream+ReadWriteTask.System.Threading.Tasks.ITaskCompletionAction.Invoke(System.Threading.Tasks.Task)
+     bei System.Threading.Tasks.Task.FinishContinuations()
+     bei System.Threading.Tasks.Task.FinishStageThree()
+     bei System.Threading.Tasks.Task.FinishStageTwo()
+     bei System.Threading.Tasks.Task.Finish(Boolean)
+     bei System.Threading.Tasks.Task.ExecuteWithThreadLocal(System.Threading.Tasks.Task ByRef)
+     bei System.Threading.Tasks.Task.ExecuteEntry(Boolean)
+     bei System.Threading.Tasks.Task.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+     bei System.Threading.ThreadPoolWorkQueue.Dispatch()
+     bei System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+  
+  ```
+  
+  
+  
+  ```
+  Name der fehlerhaften Anwendung: TexConvGui.exe, Version: 1.3.0.0, Zeitstempel: 0x6109325b
+  Name des fehlerhaften Moduls: KERNELBASE.dll, Version: 10.0.19041.1526, Zeitstempel: 0xd9a6be6b
+  Ausnahmecode: 0xe0434352
+  Fehleroffset: 0x0012b812
+  ID des fehlerhaften Prozesses: 0x4268
+  Startzeit der fehlerhaften Anwendung: 0x01d82673691f38b3
+  Pfad der fehlerhaften Anwendung: D:\TexConvGui_1.3\TexConvGui.exe
+  Pfad des fehlerhaften Moduls: C:\Windows\System32\KERNELBASE.dll
+  Berichtskennung: 3ad049b6-e545-4908-890a-78728cdd4f75
+  Vollständiger Name des fehlerhaften Pakets: 
+  Anwendungs-ID, die relativ zum fehlerhaften Paket ist: 
+  ```

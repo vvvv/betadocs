@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "76301"
+user: "bjoern"
+created: "15 Feb, 2012 - 11:26"
+body: |-
+  To be honest I merely copied the code found [here](http://msdn.microsoft.com/en-us/library/01escwtf.aspx) and pasted it into a string-plugin-template.
+  
+  The code uses a regular expression to parse the input and check if it adheres to a certain form/syntax. Nothing is really validated, "rus" just matches the pattern like "com" or "net" do. The regex only tests if the TLD part consists of at least of two and a maximum of 17 characters.
+  
+  So the plugin is not named very aptly and maybe should rather be called IsWellformedEmail (String).
+  
+  Concerning underscores, as far as I know they are allowed in mail-addresses, just not at the beginning of the string, therefore t_st@domainname.net is marked valid (wellformed) whereas _st@domainnam.net is not.

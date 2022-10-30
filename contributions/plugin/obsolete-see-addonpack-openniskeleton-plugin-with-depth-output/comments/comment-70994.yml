@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "70994"
+user: "mediadog"
+created: "24 Oct, 2011 - 16:09"
+body: |-
+  I get most of my info off the openni and openkinect lists, so don't have an immediate link.  My understanding is that the Kinect does in fact have an 11-bit resolution, but it is non-linear, and when converted into world depth (mm) 13 bits are needed to contain its range (11 bits would be only 2 meters, 13 is 8).  So just because the returned value is 13 bits, it does not mean each bit is used, and I expect there are gaps/jumps (unless there is some interpolation going on but I haven't seen that in the code).

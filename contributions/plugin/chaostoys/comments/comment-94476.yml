@@ -1,0 +1,26 @@
+### YamlMime:ContributionComment
+---
+uid: "94476"
+user: "dipboing"
+created: "11 Jan, 2013 - 13:37"
+body: |-
+  think this could be verrrry nice, but it's working on my machine only partial.
+  
+  working:
+  cliffort
+  ikeda
+  tinkerbell
+  mosaik 2d
+  
+  not working:
+  duffinOscillator
+  lorenz
+  rössler
+  tamari
+  peano
+  koch
+  templateChaosToy
+  
+  I'm using vvvv 45.beta29 on win.
+  
+  any ideas? would be great

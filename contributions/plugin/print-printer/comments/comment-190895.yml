@@ -1,0 +1,10 @@
+### YamlMime:ContributionComment
+---
+uid: "190895"
+user: "zepi"
+created: "14 Apr, 2015 - 09:10"
+body: |-
+  Another v4 mistery: this print-function is really cool and works (kind of) fine in my patches here. BUT: only when the patch containing the print is open and the patch window selected on top.
+  Any ideas?
+  
+  Is there an alternative way to print directly from the renderer (without saving the image to disc)?

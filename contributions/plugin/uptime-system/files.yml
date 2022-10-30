@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/uptime-(system)-files"
+url: "uptime-system"
+category: "plugin"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "SystemUpTime.zip"
+            timestamp: "04 Mar, 2013 - 11:08"
+            download_count: "1"

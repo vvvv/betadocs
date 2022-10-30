@@ -1,0 +1,26 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/texture-converter-meta"
+type: "tool"
+author: "rrrr"
+date: "26 Nov, 2010"
+title: "Texture Converter"
+originalURL: "contribution/texture-converter"
+category: "tool"
+credits: |-
+  rainer kohlberger, 2008
+  with the help of / updated by joreg
+like_count: "7"
+imported: "true"
+teaser: |-
+  Batch convert your Images into DDS file format. Comes in handy for the use of  Image Sequences.
+  
+  * PNG alpha support
+  * Sub-Folder support
+  * Auto-resizes image size to a multiple of 4
+  
+  
+  for an explanation of the DXTn texture compression formats see:
+  http://en.wikipedia.org/wiki/S3TC
+  
+  also available from: https://github.com/vvvv/Tooools/tree/master/TextureConverter

@@ -1,0 +1,10 @@
+### YamlMime:ContributionComment
+---
+uid: "53420"
+user: "kalle"
+created: "27 Sep, 2010 - 15:16"
+body: |-
+  really nice!!
+  
+  but i think using <span class="node">XPath (XML)</span> and <span class="node">XSLT (XML)</span> you could gain some performance.
+  also the <span class="pin">XPath Query</span> on <span class="node">XPath (XML)</span> is spreadable.

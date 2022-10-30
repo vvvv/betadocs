@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/akai-midimix-files"
+url: "akai-midimix"
+category: "module"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "akai.zip"
+            description: |-
+              akai midimix
+            
+            timestamp: "06 Jun, 2016 - 20:43"
+            download_count: "1"

@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "277945"
+user: "ravazquez"
+created: "08 Mar, 2021 - 17:18"
+body: |-
+  I have not tested it but I doubt it @ggml.
+  
+  The data itself is stored in an XML file so you could potentially copy it into whatever format ex9 expects by hand, I presume the existing ex9 Undistort is also using opencv under the hood (a much older version most likely) but the principles remain the same.
+  
+  Best of luck to you!

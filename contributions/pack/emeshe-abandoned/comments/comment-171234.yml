@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "171234"
+user: "StiX"
+created: "27 Oct, 2014 - 17:54"
+body: |-
+  thanks for reply, i actually want to build interface inside 3d (so it will interact with SSAO etc., this was one of solutions i have been looking into but its way too complicated to implement right now, so i just leave it for experimentation and visuals :3
+  
+  i am actually trying to do this thing in unity, dx11 and dx9 vvvv, to see how things are :3, ah if one day unity would meet with vvvv somewhere in the middle, that would be awesome

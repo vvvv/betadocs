@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "106871"
+user: "alg"
+created: "21 Sep, 2013 - 19:05"
+body: |-
+  @Alec for tablet just use DX11 Render, it can output touch position xy.

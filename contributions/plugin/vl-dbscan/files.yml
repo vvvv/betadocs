@@ -1,0 +1,27 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/vl.dbscan-files"
+url: "vl-dbscan"
+category: "plugin"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "1"
+            filename: "VL.DBSCAN.1.2.2.zip"
+            description: |-
+              switch to Xenko Maths, new help folder structure
+            
+            timestamp: "25 Aug, 2019 - 12:47"
+            download_count: "1"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "vl.dbscan.1.1.1.7z"
+                    description: |-
+                      nupkg
+                    
+                    timestamp: "10 May, 2019 - 22:15"
+                    download_count: "1"

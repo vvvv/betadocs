@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "65041"
+user: "hierro"
+created: "10 Jun, 2011 - 13:39"
+body: |-
+  @Phlegma, using a common calibration pose the joints position/rotation are not precise at all, you can use the confidence value to bypass bad values, this way, using a damper you will get a more precise skeleton representation, there should be a way also to calibrate users upona  common calibration file, but it's a long road and i will wait for microsoft sdk to get (hopefully) something more.
+  Anyway i love your release indeed, no crash till now, but i've heard about some crashes...a question does every node has its own thread ?

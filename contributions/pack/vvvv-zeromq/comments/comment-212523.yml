@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "212523"
+user: "eps"
+created: "07 Dec, 2015 - 01:06"
+body: |-
+  thanks for this
+  didn't manage to make message interface work though 
+  raw data are coming, but message receiver (connected to dealer) doesn't see anything 
+  
+  any hint what to check?

@@ -1,0 +1,14 @@
+### YamlMime:ContributionComment
+---
+uid: "237474"
+user: "mburk"
+created: "28 Mar, 2017 - 20:58"
+body: |-
+  **Version 1.2**
+  The new version has a couple of changes. The light blending has been overhauled a bit. Now all the lights - image based lighting and phong lights - are treated the same way and reflections are blended with the fresnel term. This means, there is no RimLight anymore, but Global Reflection Color, Global Diffuse Color and Material Color. Also there is only one set of fresnel values for everything reflective. See girlpower for how it works. This should feel a lot more natural.
+  Also fixed some bugs and spreading problems.
+  Also new: No tiling mode. This avoids strong repitition of textures by using this code by Inigo Quilez: http://www.iquilezles.org/www/articles/texturerepetition/texturerepetition.htm
+  
+  Cheers
+  
+  ![No Tiling](https://vvvv.org/sites/default/files/imagecache/large/images/noTile.png)

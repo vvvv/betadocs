@@ -1,0 +1,19 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/dont-panic-the-noobs-guide-to-vvvv-meta"
+type: "misc"
+author: "joreg"
+date: "03 Dec, 2010"
+title: "don't panic - the noobs guide to vvvv"
+originalURL: "contribution/dont-panic-the-noobs-guide-to-vvvv"
+category: "misc"
+credits: |-
+  realized by [roman_g](http://vvvv.org/users/roman_g)
+like_count: "30"
+imported: "true"
+teaser: |-
+  This leaflet gives a short overview of what vvvv is all about and features a collection of the most important keyboard shortcuts and mousetricks. It was first introduced at [node10](http://node10.vvvv.org) in the form of a printed and folded handout. 
+  
+  If you got one at node10 pass it on to help out another noob. If you have an A3 printer, help yourself with the download below (fold along the horizontal, than twice along the width to get a quad). Else use the "onscreen" version instead.
+  
+  See also: [Basic vvvv](xref:contribution/basic-vvvv)

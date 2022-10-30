@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "190785"
+user: "CMY"
+created: "10 Apr, 2015 - 22:22"
+body: |-
+  i've got the same problem on my notebook. ATI and Intel Video + win7 64bit.
+  
+  Whith nvcuda.dll it works, thanks. 
+  
+  But DetectObject (cv.image) work slower then detectObject (dshow9)

@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "234871"
+user: "digitalwannabe"
+created: "30 Jan, 2017 - 23:12"
+body: |-
+  hey @ceeyaa, thanks for the patch, will have a look at it asap!
+  I couldn't test it yet, but I did found a bug in Triangle with segments sharing the same points...please see if the latest upload solves your problem!

@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/model-runtime-editor-design-pattern-files"
+url: "model-runtime-editor-design-pattern"
+category: "tutorial"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "Model-Runtime-Editor.zip"
+            description: |-
+              made in vvvv-gamma (preview)
+            
+            timestamp: "21 May, 2019 - 15:31"
+            download_count: "1"

@@ -1,0 +1,17 @@
+### YamlMime:ContributionComment
+---
+uid: "254351"
+user: "tekcor"
+created: "27 May, 2018 - 01:43"
+body: |-
+  @Jas
+  
+  It is possible, if you are using VST instruments inside VVVV.
+  
+  There are many VST's for synthesis, probably you know but I drop anyway that link: https://www.kvraudio.com/plugins/windows/macosx/vst-plugins/vst3-plugins/audio-units/aax-plugins/rack-extensions/instruments/free/most-popular
+  
+  For payed version, personally i am a fan of the VSTs from Madrona Labs for more unique sounds with accoustic envelope models
+  https://madronalabs.com/
+  and DUNE 2 for the more drony / fat sounds https://www.synapse-audio.com/dune2.html
+  
+  On the pure VVVV side you can check out the Wavetable example in this pack, here you can make sounds with spreads, which is also very unique.

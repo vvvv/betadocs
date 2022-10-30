@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "83155"
+user: "mediadog"
+created: "22 May, 2012 - 16:16"
+body: |-
+  Same behavior with SDK 1.2.0.1008.  Also, "VideoIn (OpenCV) help" crashes, and if I start a blank patch and add "VideoIn (OpenCV)" to it, when I enable it, all the cores peg at 100% CPU again.

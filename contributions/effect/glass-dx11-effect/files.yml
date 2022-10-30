@@ -1,0 +1,21 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/glass-(dx11.effect)-files"
+url: "glass-dx11-effect"
+category: "effect"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "1"
+            filename: "Glass (DX11.Effect).zip"
+            timestamp: "19 Feb, 2017 - 14:06"
+            download_count: "1"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "Glass.zip"
+                    timestamp: "22 Jun, 2010 - 16:26"
+                    download_count: "1"

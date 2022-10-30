@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "58628"
+user: "catweasel"
+created: "19 Jan, 2011 - 13:30"
+body: |-
+  Just did a bit of testing, it seems to hang on files bigger than 1 GB, I don't have many files here for me to test at the moment, but the only one thats broken it so far is only different in that respect, can anyone esle verify this? Doesn't hang vvvv just the plugin seises to change files/play any more.
+  It does seem to pause on the last frame of your test movies too, possibly on only 1 of the files in the spread? I can imagine thats same as the loop in outs description you noted above, ie vlc says ended and you restart, but not a big problem at the moment for me, 2 outputs :D
+  Thanks Ft!

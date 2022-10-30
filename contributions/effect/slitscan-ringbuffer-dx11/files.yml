@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/slitscan-ringbuffer-(dx11)-files"
+url: "slitscan-ringbuffer-dx11"
+category: "effect"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "RingBuffer_Slitscan.zip"
+            timestamp: "20 Jun, 2013 - 14:56"
+            download_count: "1"

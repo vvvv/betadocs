@@ -1,0 +1,14 @@
+### YamlMime:ContributionComment
+---
+uid: "273481"
+user: "tgd"
+created: "09 Aug, 2019 - 15:32"
+body: |-
+  Hi i was playing with the new? planar reflection and have a little issue when used with render state nodes.
+  As soon as i connect a blend node, the reflection seems to have wrong culling. The blend node does not even need to be set to a mode, just disabled. Can i fix this myself somehow?
+  
+  ![](https://vvvv.org/sites/default/files/imagecache/large/images/sp1.PNG) 
+  
+  ![](https://vvvv.org/sites/default/files/imagecache/large/images/sp3.PNG) 
+  
+  ![](https://vvvv.org/sites/default/files/imagecache/large/images/sp2.PNG)

@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/akai-apc-mini-controller-files"
+url: "akai-apc-mini-controller"
+category: "misc"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "Akai APC Mini.zip"
+            timestamp: "26 Feb, 2016 - 14:20"
+            download_count: "2"

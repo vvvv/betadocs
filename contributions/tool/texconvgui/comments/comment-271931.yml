@@ -1,0 +1,19 @@
+### YamlMime:ContributionComment
+---
+uid: "271931"
+user: "bjoern"
+created: "05 May, 2019 - 15:02"
+body: |-
+  Never tried with exr and/or have encountered that particular error.
+  However it seems to be caused by a missing codec/decoder.
+  https://www.startpage.com/do/search?query=WINCODEC_ERR_COMPONENTNOTFOUND
+  
+  
+  edit:
+  OpenEXR support isn't enabled by default.
+  
+  <div class="box">quote:Microsoft:
+  Support for OpenEXR (EXR) can be added to the texconv utility. Uncomment #define USE_OPENEXR in the source, and add the DirectXTex auxiliary module to the project. See Adding OpenEXR for more details including building the OpenEXR library.
+  </div>
+  [Source](https://github.com/Microsoft/DirectXTex/wiki/Texconv) &
+  [Details](https://github.com/Microsoft/DirectXTex/wiki/Adding-OpenEXR)

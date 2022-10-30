@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "233806"
+user: "andresc4"
+created: "29 Dec, 2016 - 13:59"
+body: |-
+  @if144 are you zipping rgb on one dds and xyz on a second dds , 2 filereaders and a shader like dx9 ?

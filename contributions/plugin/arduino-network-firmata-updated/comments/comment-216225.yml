@@ -1,0 +1,27 @@
+### YamlMime:ContributionComment
+---
+uid: "216225"
+user: "adybadi"
+created: "29 Jan, 2016 - 13:17"
+body: |-
+  =UPDATE 01.2016=
+   Hello everybody, a little update, since i'm no longer using the files i've uploaded.
+  This update contains the same patch i'm using to control an arduino mega, and the
+   same custom_firmata i've uploaded on my mega. It is based on the new firmata update,
+   version 2.8.0 which you can download here: 
+  
+  <https://github.com/firmata/ConfigurableFirmata/releases/tag/2.8.0>
+  
+   with the latest UIP protocol that you can find here: 
+  
+  <https://github.com/ntruchsess/arduino_uip/releases/tag/UIPEthernet_v1.59> 
+  
+  (you will need it if you use enc28j60, if not, it should work without it). The main difference, 
+  is that this custom firmata is edited to auto-connect, and keep trying to connect if 
+  it does not have a connection to your patch. It works better than the one prior to 
+  this, as the prior would stop connecting if it would lose the connection(example: 
+  patch quit, computer restart, power loss, cable unplug). This update, as tested by 
+  me, will auto-connect no matter what happens to the connection. As before, be sure to 
+  set your ips and read the comments for more configs. PS: this "ConfigurableFirmata" 
+  was compiled and uploaded with IDE 1.6.7, and it should work fine with prior versions 
+  of the IDE.

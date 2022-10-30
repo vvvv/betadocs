@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "101758"
+user: "leadedge2000"
+created: "03 Jun, 2013 - 01:51"
+body: |-
+  Thanks ft
+  
+  yes I saw some new WyphonUtils DX9 and Interop functions referred to in the code Elio has provided. The idea of building Wyphon into an FFGL plugin is a good approach. I am keen to follow his work as it develops. 
+  
+  What I have at the moment is a solution based on the old code to get things back and forth from OpenFrameworks which is based on OpenGL, but there are some fundamental problems to solve before it will work within Max/Msp. If I can crack that then the new Wyphon based plugins should work. Elio's new work is the thing to wait for, but if anybody wants to look at what I have done I will see what I can do to post it somewhere. Not sure how to attach a file here.

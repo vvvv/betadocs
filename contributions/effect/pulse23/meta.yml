@@ -1,0 +1,14 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/pulse23-meta"
+type: "effect"
+author: "dottore"
+date: "22 Jun, 2010"
+title: "pulse23"
+originalURL: "contribution/pulse23"
+category: "effect"
+like_count: "3"
+imported: "true"
+teaser: |-
+  Blast from the past (Cg 1 Maya sample shader).
+  Analytic anti-aliasing against an arbitrary function -- in this case pulsing 3D sine waves.

@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "156151"
+user: "microdee"
+created: "29 May, 2014 - 19:06"
+body: |-
+  @alg: no exceptions are showing and no red nodes. it's not just AsTexture it looks like no image can be created (the image info is completely 0 and the cv inspektor is empty too), i've tried it with different sources (video, webcam, the built in noise, AsImage) neither of them working

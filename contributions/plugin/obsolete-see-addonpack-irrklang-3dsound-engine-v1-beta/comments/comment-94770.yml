@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "94770"
+user: "sanch"
+created: "16 Jan, 2013 - 13:14"
+body: |-
+  That's not possible with the plugin.
+  I think it's better to use ableton to output sound directly maybe with the help of maxforlive to deal with 3d .
+  But without maxforlive you can  do a patch to calculate distance between object and camera , then send this distance to ableton with midi to control the volume of each tracks , if you want to add the rolloff effect i guess it is just a frequency filter that you can do in ableton.

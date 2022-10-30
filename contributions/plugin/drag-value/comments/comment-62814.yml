@@ -1,0 +1,22 @@
+### YamlMime:ContributionComment
+---
+uid: "62814"
+user: "kalle"
+created: "25 Apr, 2011 - 11:25"
+body: |-
+  search the xml for all instances of the Drag-plugin:
+  ```xml:
+   <NODE componentmode="Hidden" filename="%VVVV%\plugins\Drag (Value).dll" managers="" nodename="Drag (Value)" systemname="Drag (Value)">
+  ```
+  
+  and change to 
+  
+  ```xml:
+   <NODE componentmode="Hidden" filename="Drag (Value).dll" managers="" nodename="Drag (Value)" systemname="Drag (Value)">
+  ```
+  
+  just delete the **%VVVV%\plugins\** -thing.
+  
+  
+  nice plugin btw. 
+  i used modules for this.

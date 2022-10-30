@@ -1,0 +1,27 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/preset-maker-in-.xml-files"
+url: "preset-maker-in-xml"
+category: "module"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "1"
+            filename: "PresetMaker (File).zip"
+            description: |-
+              PresetMaker XML (File)
+            
+            timestamp: "06 Dec, 2011 - 14:10"
+            download_count: "1"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "PresetMaker_1.1.zip"
+                    description: |-
+                      Preset Tag added, and cleaner way to visualize the values in text editor.
+                    
+                    timestamp: "03 Sep, 2012 - 16:39"
+                    download_count: "2"

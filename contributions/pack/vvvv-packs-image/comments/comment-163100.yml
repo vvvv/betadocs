@@ -1,0 +1,18 @@
+### YamlMime:ContributionComment
+---
+uid: "163100"
+user: "tekcor"
+created: "24 Aug, 2014 - 13:10"
+body: |-
+  x64 PC - beta32.1 x86 
+  
+  'The type initializer for 'Emgu.CV.CvInvoke' threw an exception.'
+  
+  on VideoIn (CLEye)
+  
+  Google gives links:
+  
+  https://www.youtube.com/watch?v=gaAfi1KjaGM
+  
+  Any one experienced that and can say if that would fix it?
+  If I buildit again with other dependencies?

@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "68309"
+user: "r.arcaya"
+created: "19 Aug, 2011 - 16:47"
+body: |-
+  Amazing plugin; Just to let you know that is working pretty well to get MJPG streams from a couple of Foscam IP Camera.
+  
+  Only one weird issue, still trying to pin down: If I connect the vlc player to the camera first, and then log in in a web browser to control the camera, everything works fine, but if I log in the the web browser first, and then VLC, the stream I get is 2x2 pixels, and I cant resize it.
+  
+  I guess that means I have to figure out how to control the camera from vvvv :)

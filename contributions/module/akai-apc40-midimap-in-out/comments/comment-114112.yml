@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "114112"
+user: "blausand"
+created: "14 Feb, 2014 - 17:35"
+body: |-
+  Thanks a lot for the Sysex switch. Was about to write a dynamic node for it already.
+  
+  For the splash LED, i tried to use Terminal font and a 10px*9px Renderer: No success to keep small font sharp. How could that be accomplished? Tried "NoAntiAlias", "Size"=10 and a <span class="node">Billboard-(Transform)</span> with <span class="pin">Object Space</span> set to "Pixel".

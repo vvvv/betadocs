@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "86691"
+user: "colorsound"
+created: "08 Aug, 2012 - 13:13"
+body: |-
+  I guess this is due to Pstools , but it would be nice to be able to execute files like .bat or .lnk remotely for vvvv commands,it seems only executable.exe are allow in my side.

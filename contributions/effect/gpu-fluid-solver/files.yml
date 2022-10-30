@@ -1,0 +1,33 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/gpu-fluid-solver-files"
+url: "gpu-fluid-solver"
+category: "effect"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "2"
+            filename: "FluidSolverGPUDX11_1.7z"
+            description: |-
+              DX11 version
+            
+            timestamp: "16 Jul, 2014 - 10:22"
+            download_count: "4"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "1"
+                    filename: "FluidSolverGPU_v2.zip"
+                    description: |-
+                      Adapts to window aspect ratio automatically
+                    
+                    timestamp: "17 Oct, 2013 - 16:29"
+                    download_count: "2"
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "FluidSolverGPU.zip"
+                    timestamp: "19 Aug, 2012 - 00:18"
+                    download_count: "1"

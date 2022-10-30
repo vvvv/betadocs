@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "254549"
+user: "motzi"
+created: "01 Jun, 2018 - 16:19"
+body: |-
+  @dr_quatz : sorry for replying late  - no socks5 for now, that's not implemented
+  
+  @guest: are you running an alpha version of VVVV? in betas exceptions should not block the running patch. or you can start an alpha via commandline parameter /showexceptions false (see here [commandline parameters](https://betadocs.vvvv.org/using-vvvv/commandline.html)). does this help?

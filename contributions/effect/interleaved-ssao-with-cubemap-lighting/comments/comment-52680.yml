@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "52680"
+user: "beyon"
+created: "13 Sep, 2010 - 22:55"
+body: |-
+  I guess it's not so unexpected that it runs slow on intel graphics, but it's rather surprising that the bottleneck is all GPU in windowed mode and CPU in fullscreen with similar FPS - must be the intel driver switching to CPU for some reason... (intel supports all of DX9 & DX10 on these cards but not all in hardware)

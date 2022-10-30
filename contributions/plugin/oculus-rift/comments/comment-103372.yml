@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "103372"
+user: "herbst"
+created: "08 Jul, 2013 - 08:55"
+body: |-
+  Hey mediadog, if you're sure about the wrong connections, go ahead - I ported directly from Unity and tried to make the same calculations as were done in the code there, but of course I may have done a mistake.

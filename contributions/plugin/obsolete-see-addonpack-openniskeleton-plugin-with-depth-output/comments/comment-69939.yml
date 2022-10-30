@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "69939"
+user: "mediadog"
+created: "29 Sep, 2011 - 18:33"
+body: |-
+  Yes, putting the non-AGC greyscale in the plugin is pretty easy, there's just the question of how to reduce the 13 bits down to 8.  There is a tradeoff between range and accuracy; you can get a full distance range in the 8 bits (0-8160mm) but your LSB resolution is 32mm; or you could go to the other extreme and get 1mm LSB resolution but a max depth of 255mm.
+  
+  By sliding your 8-bit window in those 13 bits, you can get various combinations, such as a max depth of 2040mm with a resolution of 8mm.  So I guess a bit offset could be an input parameter where the resolution would be pow(2,offset) with the max range being (255 << offset).  The plugin should return those values, too, I guess.
+  
+  Note that in reality, my Kinects only return useful data in the range of about 450mm - 5000mm, so lopping off the MSB only slightly reduces the range (to 4050mm) but doubles the depth accuracy (32mm to 16mm) for 8 bits.
+  
+  Thanks for the feedback!

@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/mqtt-revamped-files"
+url: "mqtt-revamped"
+category: "plugin"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "mqtt_revamped_v1.1.zip"
+            description: |-
+              v1.1 AnyCPU
+            
+            timestamp: "29 Nov, 2015 - 18:22"
+            download_count: "1"

@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "245467"
+user: "seltzdesign"
+created: "21 Sep, 2017 - 12:11"
+body: |-
+  Did you ever code the WireframeNoDiag Effect? Looking at the source code of WireFrame(DX11.Effect), I can see that the Wireframe and WireframeNoDiag method have exactly the same code.
+  
+  Would really love to use Wireframe with no diagonals.

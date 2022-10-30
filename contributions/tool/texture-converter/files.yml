@@ -1,0 +1,42 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/texture-converter-files"
+url: "texture-converter"
+category: "tool"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "3"
+            filename: "TextureConverter_v4.zip"
+            description: |-
+              update for b32.1
+            
+            timestamp: "28 Aug, 2014 - 16:42"
+            download_count: "1"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "2"
+                    filename: "TextureConverter_v3.zip"
+                    description: |-
+                      fixed saving of alpha-channel for DXT compressed files
+                    
+                    timestamp: "11 Jan, 2013 - 01:07"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "1"
+                    filename: "TextureConverter_v2.zip"
+                    description: |-
+                      works for betas>=28.1
+                    
+                    timestamp: "31 Oct, 2012 - 01:22"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "textureconverter.zip"
+                    timestamp: "26 Nov, 2010 - 17:24"
+                    download_count: "3"

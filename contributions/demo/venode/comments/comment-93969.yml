@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "93969"
+user: "sanch"
+created: "01 Jan, 2013 - 23:18"
+body: |-
+  http://www.webdigi.co.uk/fun/space/
+  There is a techdemo about that idee , i did a basic joystick for phone , performance are still a bit to slow depending on what you want to do , i found it a bit slow even on local network from phone (iphone for my case)
+  If you want to do something reactive like stearing a car/ship i think it's still to slow . Problem seams to come from the phone not able to send/receive a lot of data as a laptop , the phone browser might even crash if you send to much data. But well there is still many other idee/interaction to do where you don't need huge amount of data.

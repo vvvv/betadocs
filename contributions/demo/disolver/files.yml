@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/disolver-files"
+url: "disolver"
+category: "demo"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "Disolver.zip"
+            timestamp: "18 Sep, 2015 - 10:21"
+            download_count: "2"

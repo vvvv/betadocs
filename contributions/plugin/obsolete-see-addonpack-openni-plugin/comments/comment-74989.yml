@@ -1,0 +1,30 @@
+### YamlMime:ContributionComment
+---
+uid: "74989"
+user: "vjc4"
+created: "18 Jan, 2012 - 09:57"
+body: |-
+  well after a few hours of testing i was able to get it work after installing brekel kinect, with the "auto download" link
+  
+  http://www.brekel.com/?page_id=160
+  
+  it will install this files
+  
+  openni-win32-1.5.2.7-dev.msi
+  nite-win32-1.5.2.7-dev.msi
+  SensorKinect091-Bin-Win32-v5.1.0.25.msi
+  
+  with this brekel kinects, works, but the new release of this plugin it still red on vvvv
+  
+  after that i installed
+  
+  nite-win32-1.5.2.21-redist.msi
+  openni-win32-1.5.2.23-redist.msi
+  
+  now brekel kinect and vvvv are working fine on my desk pl ( q9550, gf560i )
+  but on the mac air ( same system, seven 64b ) i get the textures. but the skeleton plug ins wont work, its like it wont find any user
+  and brekel kinects runs only 0.1fps, if i disable the pointcloud it works just fine, and skeleton works fine... wich seems weird, the old vercion can give me like 20fps with skeleton and pointcloud at the same time,,, but this is not a valid "reason"... i guest that im still doing something wron, the old vercion use to work great on the same machine... but i really love this new feature of "no pose needed"
+  
+  any ideas what could be the problem here ? 
+  
+  respect to the plugin,,, ( i didnt test it yet with time,,, so i guess that the answer is yes... ) is it possible to switch from rgb camera, deepth camera, and user ( no background ) with a switch node ? i mean, can i get the 3 textures aligned at the same time with skeleton running on the background ?

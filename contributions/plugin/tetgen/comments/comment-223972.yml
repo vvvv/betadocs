@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "223972"
+user: "digitalwannabe"
+created: "02 Aug, 2016 - 19:21"
+body: |-
+  tbh I haven't tested it on another machine before and there has been some path issues, however, just tested the recent version on another machine and it's working fine, also with b34.2_64....so something else seems to be the problem here...anything else TTY is saying? 
+  you can try copying the TetGen2vvv.dll in dependencies/x64 (as you're running 64 bit) to your vvvv directory, next to vvvv.exe, and also try next to 3dTetrahedralize.dll.....
+  Please let me know if that's changing anything, unfortunately I'm not able to reproduce the error in order to provide more help.....anybody else got the same problems?

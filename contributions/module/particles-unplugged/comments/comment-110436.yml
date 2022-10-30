@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "110436"
+user: "Martin Zrcek"
+created: "27 Nov, 2013 - 14:22"
+body: |-
+  Good idea. There was a rotation attribute at Particle structure in PSDraw and Stride did not count with it. Two slashes on a right place solved the problem. Try un-commenting rotation and you will see.

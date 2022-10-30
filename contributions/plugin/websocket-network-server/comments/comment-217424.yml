@@ -1,0 +1,16 @@
+### YamlMime:ContributionComment
+---
+uid: "217424"
+user: "guest"
+created: "29 Feb, 2016 - 17:47"
+body: |-
+  Ok got it working like this:
+  
+  1.
+  Get nuget.exe from https://dist.nuget.org/win-x86-commandline/latest/nuget.exe
+  
+  2.
+  run in commandline: 
+  *nuget.exe Install Microsoft.Tpl.Dataflow -Version 4.5.9 *
+  
+  3. Copy the *System.Threading.Tasks.Dataflow.dll* from the downloaded package folder *..\Microsoft.Tpl.Dataflow.4.5.9\lib\net45\* to your project folder (right beside the other DLLs)

@@ -1,0 +1,18 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/csvvvv-meta"
+type: "pack"
+author: "rmueller"
+date: "16 Apr, 2018"
+title: "CSVvvv"
+originalURL: "contribution/csvvvv"
+category: "pack"
+credits: |-
+  CsvHelper by JoshClose
+like_count: "6"
+imported: "true"
+teaser: |-
+  Plugin to read CSV files
+  
+  VPM <vpms://raw.githubusercontent.com/MrRoundRobin/CSVvvv/master/CSVvvv.vpack>
+  GitHub <https://github.com/MrRoundRobin/CSVvvv>

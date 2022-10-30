@@ -1,0 +1,22 @@
+### YamlMime:ContributionComment
+---
+uid: "83144"
+user: "elliotwoods"
+created: "22 May, 2012 - 14:41"
+body: |-
+  @DiMiX - maybe i can make a demo vid of this working with a fresh copy of vvvv beta
+  Please try to  put it in something like vvvv45beta27.2/VVVV.Nodes.OpenCV
+  And add it to your search path in vvvv's root patch. (maybe there's a good demo of how to do that somewhere?)
+  Alt+r to show root patch
+  
+  I was getting some red nodes in some modules due to the v4p's storing relative paths
+  To fix this just double click the red nodes and select the right plugin
+  
+  Can you post a screenshot of what's red
+  
+  @liquid : interesting, not getting that issue here.
+  Low fps is only for that VideoIn node for you?
+  
+  Cheers for feedback!
+  
+  Elliot

@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "58687"
+user: "ft"
+created: "20 Jan, 2011 - 18:35"
+body: |-
+  @catweasel
+  
+  Thanks for testing, glad you like it.
+  
+  Could you verify that the same files play correctly using VLC player? If not, it's a VLC issue. It's probably a (Lib)VLC issue anyway because I don't do anything different for big files.
+  
+  Does TTY renderer report any error when you try to open these big files?

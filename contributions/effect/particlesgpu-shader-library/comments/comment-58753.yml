@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "58753"
+user: "screamer"
+created: "21 Jan, 2011 - 18:12"
+body: |-
+  hi, 
+  for of all, vvvvery nice library, amazing. I'm triyng to use it in a multiscreen setup but it work only on the first monitor. I think it's something dx related, anyway, do you thing there's a workaround or something i can do to see the particles in all my monitors/projectors? i've tried to make a texture of the final rendering and use it splitted in 2 quads with different transforms, but nothing to do. 
+  thx for any hint ;))

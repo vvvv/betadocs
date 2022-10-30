@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "91902"
+user: "microdee"
+created: "26 Nov, 2012 - 21:16"
+body: |-
+  well you have to create separate cubemap rendertargets as separate shadowmaps for each light and multiply them at the end. and unfortunately it's quite expensive on its own too. but if your machine can handle it you can create as many instances of this as you want

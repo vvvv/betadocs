@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "250252"
+user: "tmp"
+created: "19 Mar, 2018 - 10:31"
+body: |-
+  ok I updated the age and lifespan modifiers. from now on age and lifespan affect each other by default. there is a hidden pin to switch back to the old behaviour.
+  
+  additionally I added a kill modifier.
+  
+  everything downloadable on github. have fun :)

@@ -1,0 +1,17 @@
+### YamlMime:ContributionComment
+---
+uid: "154725"
+user: "csmith16"
+created: "06 May, 2014 - 11:55"
+body: |-
+  Hi guys,
+  
+  I've just been trying to get the Kinect2 working with vvvv. I've downloaded the VVVV.Nodes_.Kinect2.zip file from this post and the latest (April) SDK from Microsoft.
+  
+  I've tried putting vux's files in a contributions folder (although I am unsure where each file should fall within that) and also the
+  C:\Program Files\vvvv_45beta31.2_x64\packs\DX11\nodes\plugins
+  folder as a guess.
+  
+  I can get something from the sample applications in the Microsoft SDK pack so I know the camera works, but I can't see anything in vvvv - only red nodes!
+  
+  Any help would be great, thank you!

@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "227942"
+user: "velcrome"
+created: "16 Sep, 2016 - 15:26"
+body: |-
+  i have used spreaded automata a couple times.
+  
+  one particular useful case was handling 20 touch points with a single automata.

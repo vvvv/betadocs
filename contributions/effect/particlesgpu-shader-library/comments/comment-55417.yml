@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "55417"
+user: "dottore"
+created: "10 Nov, 2010 - 19:33"
+body: |-
+  uhm...strange, none of the library patches should work then, because in each particlesGPU shader there is texture access in VS...
+  ...maybe the problem reported by aze has to do with Sprites draw function in hlsl (see the two lines in the technique of the shader), maybe ati has a different sintax...

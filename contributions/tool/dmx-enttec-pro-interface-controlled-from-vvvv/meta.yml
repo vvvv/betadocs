@@ -1,0 +1,15 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/dmx-enttec-pro-interface-controlled-from-vvvv-meta"
+type: "tool"
+author: "gundorf"
+date: "02 Apr, 2014"
+title: "dmx Enttec Pro interface controlled from vvvv"
+originalURL: "contribution/dmx-enttec-pro-interface-controlled-from-vvvv"
+category: "tool"
+credits: |-
+  this patch let you control your dmx interface enttec pro from vvvv.
+like_count: "5"
+imported: "true"
+teaser: |-
+  this patch let you control your dmx interface enttec pro from vvvv.

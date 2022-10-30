@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/abbreviation-points-files"
+url: "abbreviation-points"
+category: "module"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "AbbreviationPoints.zip"
+            description: |-
+              Version 1.0
+            
+            timestamp: "10 Jan, 2013 - 04:03"
+            download_count: "1"

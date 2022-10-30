@@ -1,0 +1,10 @@
+### YamlMime:ContributionComment
+---
+uid: "220965"
+user: "jjjj"
+created: "13 Jun, 2016 - 15:51"
+body: |-
+  Hi Sanch, Any idea on how to make the spheres stack on each other? you mention something about continuous collision, can you give me a hint on how to do this in the shader?
+  
+  Thanks,
+  jjjj

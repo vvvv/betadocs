@@ -1,0 +1,15 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/highpass-(dx11.texturefx)-meta"
+type: "effect"
+author: "antokhio"
+date: "12 Jul, 2015"
+title: "HighPass (DX11.TextureFX)"
+originalURL: "contribution/highpass-(dx11.texturefx)"
+category: "effect"
+credits: |-
+  http://logik-matchbook.org/shader/crok_highpass port by antokhio
+like_count: "13"
+imported: "true"
+teaser: |-
+  Makes ur stuff sharper with highpass filter.

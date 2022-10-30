@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "197188"
+user: "microdee"
+created: "29 May, 2015 - 23:06"
+body: |-
+  actually there's a setslice module in mcropack based on the Texture2DArray renderer but that might be slower than the plugin (you can write multiple slices at the same time with the module though)

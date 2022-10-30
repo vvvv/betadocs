@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "82666"
+user: "milo"
+created: "11 May, 2012 - 07:58"
+body: |-
+  @circuitb & sapo: thanks for reporting. will fix that
+  @ cmk_ver: i have to tell you that this is not a bug rather than a feature that the audio analysis runs in a max/msp runtime environment.
+  but you can of course build your own one with vvvv to and put it in the library/signal folder. detailed information how to build own stuff will follow.

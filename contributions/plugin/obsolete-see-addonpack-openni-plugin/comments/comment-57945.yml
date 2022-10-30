@@ -1,0 +1,23 @@
+### YamlMime:ContributionComment
+---
+uid: "57945"
+user: "sapo"
+created: "04 Jan, 2011 - 03:00"
+body: |-
+  rotations seem to work! it was confusing at first, with the confidence for the orientations as is for default the plugin might output less slices for the orientations as expected. settin the confidence to 0 fixes it.  The last 4 triplets are empty, i think because the hands and foots have no rotations, so the order of the rotations in the spread should be the following:
+  
+  Head
+  Neck
+  LeftShoulder
+  LeftElbow
+  RightShoulder
+  RightElbow
+  Torso
+  LeftHip
+  LeftKnee
+  RightHip
+  RightKnee
+  NONE
+  NONE
+  NONE
+  NONE

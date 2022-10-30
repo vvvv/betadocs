@@ -1,0 +1,17 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/siftnearmost-(2d)-meta"
+type: "module"
+author: "kalle"
+date: "10 May, 2011"
+title: "SiftNearmost (2d)"
+originalURL: "contribution/siftnearmost-(2d)"
+category: "module"
+credits: |-
+  bjoern, lasal
+like_count: "4"
+imported: "true"
+teaser: |-
+  inspired by [quantize-xy-values-using-other-spread-as-root](https://discourse.vvvv.org/t/quantize-xy-values-using-other-spread-as-root)
+  
+  finds for each Filter XY point the nearmost (or farmost) Input XY point

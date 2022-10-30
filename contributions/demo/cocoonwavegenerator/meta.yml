@@ -1,0 +1,18 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/cocoonwavegenerator-meta"
+type: "demo"
+author: "dl-110"
+date: "19 Jul, 2011"
+title: "CocoonWaveGenerator"
+originalURL: "contribution/cocoonwavegenerator"
+category: "demo"
+credits: |-
+  dl-110
+like_count: "11"
+imported: "true"
+teaser: |-
+  patch emits cocoon-shaped particles which can be controlled in size, position, color, duration(speed) and rejuvination-size.
+  patch was developed during the cocoon-workshop at the hfg schwäbisch gmünd in 2011 and originally created for the cocoon club in frankfurt am main.
+  
+  for further information or questions mail@markuslorenzschilling.de

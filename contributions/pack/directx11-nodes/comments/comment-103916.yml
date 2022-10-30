@@ -1,0 +1,16 @@
+### YamlMime:ContributionComment
+---
+uid: "103916"
+user: "vux"
+created: "18 Jul, 2013 - 14:30"
+body: |-
+  Next release on the way, still few bits to sort, but here is little teaser:
+  * Option for no mips on texture loader
+  * Some dispose issues shoud be fixed
+  * Full x86/x64 build, with kinect/text and vlc for each architecture.
+  * Cube Texture Renderer (with option for single pass/multiple pass, and of course access to cube depth buffer).
+  * Texture Array Renderer (cube is a bit of a special case, but render to texture array allows you to set different cameras per slices, so you can do panoramics easily for example). Same as above, access to depth as well.
+  * Finally fixed little quad
+  * Some bugfix on render states
+  * Preview Node fixed.
+  * Some other goodies, stay tuned ;)

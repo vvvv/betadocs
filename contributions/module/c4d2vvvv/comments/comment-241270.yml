@@ -1,0 +1,10 @@
+### YamlMime:ContributionComment
+---
+uid: "241270"
+user: "Aurel"
+created: "19 Jun, 2017 - 09:41"
+body: |-
+  Just try with 64 bit version but Tiny is not supported anymore.
+  Finally just putting out the first line of XML file :
+  <?xml version="1.0" encoding="UTF-8"?>
+  and connecting directly the Reader to Xpath make the patch working with 64 bit VVVV version.

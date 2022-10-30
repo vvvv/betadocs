@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "270624"
+user: "everyoneishappy"
+created: "09 Jan, 2019 - 06:05"
+body: |-
+  @pankao seems to be sorted here: https://discourse.vvvv.org/t/splinebuffered-suqared-technique/17038
+  
+  @idyll does dx11 work for you in general ?  and what about compute shaders (can check dx11 girlpower folder for both)

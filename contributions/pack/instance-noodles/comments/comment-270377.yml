@@ -1,0 +1,15 @@
+### YamlMime:ContributionComment
+---
+uid: "270377"
+user: "pankao"
+created: "18 Dec, 2018 - 21:12"
+body: |-
+  Hey there! Firstly, thanks for this great contrib! I have just started digging into it and its very powerful indeed, so it makes me happy as well;)
+  
+  As I am rather a beginner regarding shaders and particulary instancing (actually i am learning that on the fly from this pack), I am struggling a bit in one particular point:
+  
+  I am basically trying to build instanced tentacle meshes using SplineBuffered, simillar to the Feedback (Transform Buffer) example / help patch, but build out of actual meshes instead of separate primitive instances.
+  I have already acheived this successfully, also implemented separate structured buffer for individual spline's up-vectors, but what I am struggling with is the "gsTubeSQ" technique (or rather its respective method) of the geom shader - I am just not able to extend that to use the same radial tube resolution as the standard "gsTube" technique / method. In the original geom shader's gsTubeSQ method the radial resolution ("TUBE_RES_SQ") has a hardcoded value of 4 for a reason, so I linked the it to the standard "TUBE_RES" variable, which works except it just doesn't draw all the splines in their whole - some are just unfinished. Obviously it has to do with the <maxvertexcount> parameter of the method. I have tested that if I set the whole spline resolution or controls point count to very low values, all splines get drawn completely even with higher tube resolution values.
+  It seems that the standard gsTube method deals with the vertices count in different way but I just can't wrap my head around it.
+  
+  Any suggestions pls?

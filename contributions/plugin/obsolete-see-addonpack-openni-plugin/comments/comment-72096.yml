@@ -1,0 +1,21 @@
+### YamlMime:ContributionComment
+---
+uid: "72096"
+user: "mrboni"
+created: "18 Nov, 2011 - 16:16"
+body: |-
+  Update - skeleton is actually working well.  It's just hand gestures that are erratic.
+  
+  
+  The bigger problem though is the Asus Xtion error.  The drivers I am using are-  
+  
+  - openni-win32-1.3.3.6-redist
+  - nite-win32-1.4.2.4-redist
+  - sensor xtion-win32-5.0.4.3-redist
+  
+  and I also have SensorKinect-Win-OpenSource32-5.0.3.4 installed to use with the Kinect.
+  
+  These are running in beta26 on Windows 7 64bit.  I'm using the 32bit drivers as the 64bit ones didn't seem to work for me.
+  
+  
+  Cheers

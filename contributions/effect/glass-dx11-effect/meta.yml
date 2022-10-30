@@ -1,0 +1,13 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/glass-(dx11.effect)-meta"
+type: "effect"
+author: "dottore"
+date: "22 Jun, 2010"
+title: "Glass (DX11.Effect)"
+originalURL: "contribution/glass-(dx11.effect)"
+category: "effect"
+like_count: "16"
+imported: "true"
+teaser: |-
+  Glass shader with fresnel reflection and refractive dispersion.

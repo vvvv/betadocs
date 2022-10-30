@@ -1,0 +1,25 @@
+### YamlMime:ContributionComment
+---
+uid: "79224"
+user: "karistouf"
+created: "06 Mar, 2012 - 08:46"
+body: |-
+  <div class="box">quote:username:
+  THIS PLUGIN WON'T WORK UNTIL YOU COPY SOME FILES !!!
+  In order for it to work, you need to copy some files
+  </div>
+  
+  if the quality is there, as mainly its showing up, it would be really nice that a kind of installer cames along with main new plug ins systems, especially when there is some installation hardwork to do.
+  
+  i m thinking of: 
+   - openCV enuGm from elliot
+   - vlc plugin
+   - kinnect plug in
+  
+  who are relaying on dll in certain places and third party installatio, and where it will not work if you dont have the good version of 3rd party installer.
+  
+  somehow an installer per main version would be great. 
+  
+  For myself, i have too much done reinstalls on computers, so i would like really those main contribs come with an installer. while touring, or while having someone on the phone stuck with a computer far away, it would be really greater to say: just install this and this. a kind of security.
+  
+  i know circuitb works with INO setup and got some experience of it ?

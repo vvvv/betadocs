@@ -1,0 +1,10 @@
+### YamlMime:ContributionComment
+---
+uid: "267787"
+user: "andresc4"
+created: "19 Sep, 2018 - 04:47"
+body: |-
+  ![](https://vvvv.org/sites/default/files/imagecache/large/images/spout.JPG) 
+  
+  @toyshung try this
+  be sure to set up C:\Program Files (x86)\Spout2\SPOUTDXMODE\SpoutDXmode.exe disable DX9 and select Texture GPU

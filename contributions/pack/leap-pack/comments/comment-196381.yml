@@ -1,0 +1,10 @@
+### YamlMime:ContributionComment
+---
+uid: "196381"
+user: "solroo"
+created: "19 May, 2015 - 13:59"
+body: |-
+  Hi microdee!
+  I would like some help, because I don't see how can i get the tool information (specifically, position and orientation). It is possible to obtain it from gestures, but not the rest of the time (since tool pointable doesn't belong to a hand). Any idea?
+  
+  Thanks in advance!

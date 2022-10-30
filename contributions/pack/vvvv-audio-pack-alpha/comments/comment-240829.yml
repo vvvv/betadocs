@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "240829"
+user: "tonfilm"
+created: "06 Jun, 2017 - 12:53"
+body: |-
+  thanks for reporting, made a github issue... for now, recreate the parameter, delete the pin and then delete it in reaktor. not very convenient but it should work.

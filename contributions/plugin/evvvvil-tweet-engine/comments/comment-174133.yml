@@ -1,0 +1,18 @@
+### YamlMime:ContributionComment
+---
+uid: "174133"
+user: "digitalwannabe"
+created: "13 Nov, 2014 - 12:54"
+body: |-
+  @evvvvil: great plugin and even better tutorial!
+  
+  also, thanks for all that information on threading! Have you maybe also got information/example code which you can share on threading functions which need parameters:
+  
+  eg 
+  DoSomething (int param1, int param2){
+  .....
+  }
+  
+  afaik it should be done with a lambda expression then, but i can't get it to work: [threaded-generic-nodes-big-integer-data-type](https://discourse.vvvv.org/t/threaded-generic-nodes-big-integer-data-type)
+  
+  any hints much appreciated, thanks in advance!

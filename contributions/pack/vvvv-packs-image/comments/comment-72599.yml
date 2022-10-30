@@ -1,0 +1,10 @@
+### YamlMime:ContributionComment
+---
+uid: "72599"
+user: "elliotwoods"
+created: "30 Nov, 2011 - 12:20"
+body: |-
+  @Hadasi - Interesting.
+  
+  OpenCV generally stores colour images as BGR rather than RGB
+  It's likely this is the case for you there.

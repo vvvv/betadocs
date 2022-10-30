@@ -1,0 +1,14 @@
+### YamlMime:ContributionComment
+---
+uid: "247689"
+user: "velcrome"
+created: "13 Dec, 2017 - 13:12"
+body: |-
+  Paul Stoffregen shared some insight into [APA](https://www.pjrc.com/why-apa102-leds-have-trouble-at-24-mhz/). Supposedly they work just as good, but the length is more restricted than with WS2811.
+  
+  Also, I took the time to clean up my patches. Let me know what you think, and whether this should be uploaded as the official contrib. It is the fastest and cleanest (yet), but also the most involved (especially with soldering and stuff).
+  On the up-side it works over Ethernet, and from SD Card, and can be used for arbitrary 3d-LED-Mappings.
+  
+  [Download here](https://owncloud.intolight.eu/index.php/s/0EAHeU3GaNc4hat) 
+  
+  It works for 8x128 LED out of the box, with the wiz820io and the provided Ethernet drivers you can even quadruple that.

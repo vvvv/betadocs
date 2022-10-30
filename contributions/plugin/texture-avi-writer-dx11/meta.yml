@@ -1,0 +1,30 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/texture-avi-writer-(dx11)-meta"
+type: "plugin"
+author: "gumilastik"
+date: "19 Dec, 2014"
+title: "Texture AVI Writer (DX11)"
+originalURL: "contribution/texture-avi-writer-(dx11)"
+category: "plugin"
+credits: |-
+  [zelesha](http://vvvv.org/users/zelesha) for testing first version, [vux](http://vvvv.org/users/vux) for tips, Ruslan-B for FFmpeg.AutoGen, Michael Antykov ( <http://videofabrika.com>) for sponsoring research
+like_count: "15"
+imported: "true"
+teaser: |-
+  Record texture in avi file using H.264 codec (FFmpeg 2.8.1) with fast speed.
+  
+  ###  Some restrictions
+  
+  * Support only R8G8B8A8_Unorm format and multiples of two texture sizes
+  * Not spreadable
+  
+  ###  Update
+  
+  **v1.2**
+  * Fix floating framerate,
+  * Fix memory leak,
+  * Update dependencies
+  
+  Submit bugs and requests to:
+  https://github.com/gumilastik/VVVV.TextureWriter

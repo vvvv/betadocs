@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/stencil-mask-files"
+url: "stencil-mask"
+category: "module"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "StencilMaskRenderState.zip"
+            description: |-
+              Updated to RenderState Version
+            
+            timestamp: "16 Dec, 2016 - 06:44"
+            download_count: "1"

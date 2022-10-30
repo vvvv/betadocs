@@ -1,0 +1,33 @@
+### YamlMime:ContributionComment
+---
+uid: "96872"
+user: "mediadog"
+created: "24 Feb, 2013 - 04:53"
+body: |-
+  Any idea how to get a URL parameter like:
+  
+  http://localhost:8000/?id=1234
+  
+  passed as the "Interaction Data" on the NewClient message?
+  
+  I tried looking at request.url in the httpServer in server.js, but all it gives is some ajax .gif file.  This is all new stuff to me, but I hacked away anyway.  Here's what I tried:
+  
+  ```
+  var requrl = "";
+  
+  var httpServer = http.createServer(function(request, response) {
+  	requrl = request.url;
+      request.addListener('end', function () {
+          clientFiles.serve(request, response);
+      });
+  });
+  
+  ...
+  
+  	var NewId = "NewCLient|" + requrl +"|"+  socket.id;
+  		UdpSend(NewId,V4Ip,V4PortReceive)
+  ```
+  
+  Which gives "NewCLient|/css/images/ajax-loader.gif|JaVjO2hO-Var71mqcUDb"
+  
+  How grossly am I off base here?  Thanks!

@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "154746"
+user: "guest"
+created: "06 May, 2014 - 18:05"
+body: |-
+  Ok you seem to have dx11 working.
+  Now it seems only the kinect stuff is not present.
+  So vvvv can not see the "VVVV.DX11.Nodes.kinect2.dll"
+  Is it in the same folder with the "KinectTest.v4p" you click?
+  I think it should be. Else i am not sure what is the problem.

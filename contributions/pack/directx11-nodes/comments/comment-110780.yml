@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "110780"
+user: "tekcor"
+created: "04 Dec, 2013 - 15:44"
+body: |-
+  hi first of all thanks again for the great work all the time!
+  
+  Just one problem. When I upgrade to the latest release all connections to quads are missing in my project. 
+  
+  Is it somehow avoidable so that you can smoothly migrate projects over the upcoming DX11 releases? Anyone else had this problem?
+  
+  Cheers

@@ -1,0 +1,66 @@
+### YamlMime:ContributionComment
+---
+uid: "58436"
+user: "sapo"
+created: "14 Jan, 2011 - 05:45"
+body: |-
+  i also just had problems to get it runingn on W7 64bit, on the same pc with xp was fine. the OPENNI samples were working, but the plugin gaved me this error in the TTY render:
+  
+  Ecchime sono un Primesense attivato e running....:P
+  00:00:07 ERR :        Skeleton caused error in Evaluate: xn.XnStatusException: Can't create any node of the requested type!
+     in xn.UserGenerator.Create(Context context, Query query, EnumerationErrors errors)
+     in xn.UserGenerator..ctor(Context context)
+     in VVVV.Nodes.OpenNISkeletonNode.initKinect()
+     in VVVV.Nodes.OpenNISkeletonNode.Evaluate(Int32 SpreadMax)
+  00:00:07 ERR : L'operazione non può essere eseguita poiché i due pin non sono connessi.
+  00:00:07 ERR : L'operazione non può essere eseguita poiché i due pin non sono connessi.
+  00:00:07 ERR : L'operazione non può essere eseguita poiché i due pin non sono connessi.
+  00:00:07 ERR : L'operazione non può essere eseguita poiché i due pin non sono connessi.
+  00:00:07     : Creating new texture at slice: 0 -> W: 0H: 0
+  00:00:07     : Saved node info cache to Temp: C:\Users\Bill Gates\AppData\Local\Temp\vvvv_cache\node_info_3956095075.cache
+  00:00:07     : Creating new texture at slice: 0 -> W: 0H: 0
+  00:00:07     : Creating new texture at slice: 0 -> W: 0H: 0
+  00:00:07     : Creating new texture at slice: 0 -> W: 0H: 0
+  00:00:07     : Creating new texture at slice: 0 -> W: 0H: 0
+  00:00:07     : Creating new texture at slice: 0 -> W: 0H: 0
+  00:00:07     : Creating new texture at slice: 0 -> W: 0H: 0
+  00:00:07     : Creating new texture at slice: 0 -> W: 0H: 0
+  and this last line was looping.
+  
+  i resolved by editing the SamplesConfig.xml in the folder vvvv/plugins/OpenNISkeleton/Data/
+  i removed the <!-- Add licenses here --> lines and added the correct data to the license line.
+  
+  here is how it looks now:
+  
+  <OpenNI>
+  	<Licenses>
+  		<License vendor="PrimeSense" key="0KOIk2JeIBYClPWVnMoRKn5cdY4="/>
+  	</Licenses>
+  	<Log writeToConsole="false" writeToFile="false">
+  		<!-- 0 - Verbose, 1 - Info, 2 - Warning, 3 - Error (default) -->
+  		<LogLevel value="3"/>
+  		<Masks>
+  			<Mask name="ALL" on="true"/>
+  		</Masks>
+  		<Dumps>
+  		</Dumps>
+  	</Log>
+  	<ProductionNodes>
+  		<Node type="Image" name="Image1">
+  			<Configuration>
+  				<MapOutputMode xRes="640" yRes="480" FPS="30"/>
+  				<Mirror on="true"/>
+  			</Configuration>
+  		</Node>
+  		<Node type="Depth" name="Depth1">
+  			<Configuration>
+  				<MapOutputMode xRes="640" yRes="480" FPS="30"/>
+  				<Mirror on="true"/>
+  			</Configuration>
+  		</Node>
+  		<!--
+  		<Node type="Audio" name="Audio1">
+  		</Node>
+  		-->
+  	</ProductionNodes>
+  </OpenNI>

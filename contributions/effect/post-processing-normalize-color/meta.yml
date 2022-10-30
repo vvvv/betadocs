@@ -1,0 +1,20 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/post-processing-normalize-color-meta"
+type: "effect"
+author: "unc"
+date: "17 May, 2011"
+title: "post-processing: Normalize Color"
+originalURL: "contribution/post-processing-normalize-color"
+category: "effect"
+like_count: "6"
+imported: "true"
+teaser: |-
+  gets minimum and maximum lightness of the source texture, scales the color
+  
+  still in beta stage
+  
+  In future I'm gonna combine this one with glow effect, and maybe some others into one single uber-hdr-post-process =)
+  
+  versions:
+  1.1 - several bugfixes + finetuning, autoGamma added

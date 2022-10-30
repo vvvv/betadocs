@@ -1,0 +1,15 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/x-ray-meta"
+type: "effect"
+author: "u7angel"
+date: "01 Aug, 2010"
+title: "X-Ray"
+originalURL: "contribution/x-ray"
+category: "effect"
+credits: |-
+  ATI, Digital Slaves, u7angel
+like_count: "11"
+imported: "true"
+teaser: |-
+  Simple X_Ray shader

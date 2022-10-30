@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "56752"
+user: "guest"
+created: "06 Dec, 2010 - 22:44"
+body: |-
+  Regarding the "Error" on loading patches: 
+  for me works: 
+  Before loading the kinected patch, quit and start a fresh vvvv. Create a kinect device and start it. then load the patch. should work. Kinect will not start in v4 when you see the ir projector is already on. Just start and quit the CL testapp to "reset" the kinect.

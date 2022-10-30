@@ -1,0 +1,15 @@
+### YamlMime:ContributionComment
+---
+uid: "160213"
+user: "woei"
+created: "21 Jul, 2014 - 17:56"
+body: |-
+  @sanch
+  because it only works in those simple cases + you cannot read any pins which have connections to any iobox.
+  once you start doing some string magic above the dir or the filetexture it won't work.
+  
+  + guess how many nodes there are which can load assets, and how many of them really have the pin called Filename.
+  
+  to be honest, i had implemented asset copying that way already. but it caused so much confusion that we ended up copying everything manually again.
+  
+  sure, would be a great feature. but to implement asset copying really stable is way more complicated than just keeping an eye on asset management while patching

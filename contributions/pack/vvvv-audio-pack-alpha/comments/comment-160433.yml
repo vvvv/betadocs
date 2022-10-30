@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "160433"
+user: "ottomatic"
+created: "24 Jul, 2014 - 08:28"
+body: |-
+  Hello,
+  
+  Does anyone know if it is possible to trigger VST instruments without midi. It seems inefficient to send a 'bang' out to midi, and then back in again. I just want to trigger a note directly by sending it an midi on/off and a note number within the patch.
+  
+  Thanks

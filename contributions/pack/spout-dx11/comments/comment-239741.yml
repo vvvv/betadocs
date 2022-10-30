@@ -1,0 +1,20 @@
+### YamlMime:ContributionComment
+---
+uid: "239741"
+user: "guest"
+created: "22 May, 2017 - 09:49"
+body: |-
+  i use 24 spout senders with small texture sizes (128*128) and it's fine  
+  Memory = 900MB
+  GPU Load = 8% 
+  Controler Load = 3% 
+  
+  with 24 x (1920*1200)  
+  Memory = 1300MB
+  GPU Load = 14% 
+  Controler Load = 6% 
+  
+  should be nice to update the max count!
+  
+  regarding the pack of course the AsSharedTexture pointer update bug still need a fix
+  the  only vvvvery dirty workaround i've found to update it is a deletenode + CtrlZ keystroke

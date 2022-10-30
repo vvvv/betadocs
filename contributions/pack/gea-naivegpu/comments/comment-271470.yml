@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "271470"
+user: "dottore"
+created: "25 Mar, 2019 - 09:13"
+body: |-
+  [Stix](http://vvvv.org/users/Stix)
+  do you mean having a nice shading on both sides of the cloth?
+  that's not related to the simulation itself, it's the PS of the shader render the cloth that has to deal with that, flipping the normals when the triangle is facing opposite the view.

@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "166127"
+user: "alg"
+created: "30 Sep, 2014 - 09:46"
+body: |-
+  Hello. I'm almost abandoned this plugin, because making direct HTTP calls to API is easier for me now. If you want, you can access plugin's source code on GitHub and check, what's wrong with it. https://github.com/smakhtin/FFFFlickr

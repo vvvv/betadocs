@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "220094"
+user: "metrowave"
+created: "14 May, 2016 - 20:59"
+body: |-
+  @antokhio, it does work: Try the example file by opening the: Vulture (Grasshopper Receiver) help.v4p in vvvv and opening the vultureDefinitionExample.gh in GH, then start the GH timer. In vvvv load the test.vltr file that GH creates; in GH make sure the address and name are correctly point to test.vltr (that's a main reason it may not work). You can then interact with the geometry in GH and it refreshes in vvvv. (you also need to unblock the GH files in Windows > right-click > properties > unblock)
+  
+  ![](https://vvvv.org/sites/default/files/imagecache/large/images/vvvv_GH_0.png)

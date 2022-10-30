@@ -1,0 +1,29 @@
+### YamlMime:ContributionComment
+---
+uid: "61346"
+user: "Leo_Aguiar"
+created: "24 Mar, 2011 - 15:02"
+body: |-
+  OK now I understand what needed to be done in the "Platform\Win32\CreateRedist" part. A programmer friend helped. :) The only problem I had was that the Visual Studio version I had wasn't a correct one for this case. So I installed the VS2008 full.
+  
+  Now the sample UserTracker is working, it recognizes a player, asks for the calibration pose, calibrates and creates a tracked skeleton.
+  
+  Now the only problem holding me back is the NITrackerBridge. I'm not sure if I am running it from the correct directory. The error I get is "InitFromXml failed: File not found!"
+  
+  I downloaded vvvv45_beta25.1 and tried out the kinect skeleton patches. I don't understand a lot that is going on in the patches but I still have red skeleton nodes.
+  
+  The files:
+  Sample-User.xml
+  Sample-Sceme.xml
+  Sample-Tracking.xml
+  seem to be ok. They have the license and the 640x480 in them.
+  
+  From the forum http://groups.google.com/group/openni-dev/browse_thread/thread/25eb6eeaff7d6b5e
+  I read that:
+  All samples are looking for the XML file in a specified relative path. Make sure you run the samples from their Bin dir.
+  
+  How do I check what specified relative path xml the samples are looking for? What is the correct Bin dir for the samples?
+  
+  Thanks!
+  
+  Leo

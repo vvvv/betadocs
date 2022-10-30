@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "248267"
+user: "microdee"
+created: "12 Jan, 2018 - 22:07"
+body: |-
+  Great timing! running through the source gave me some "oh no" moments but with some refactoring this thing could be made a great tool outside of vvvv too. If I were you I would have kept out spreads and vvvv from managing actual data and have the node only as a thin interfacing layer.
+  I've already implemented seconds based timing and animation ;)

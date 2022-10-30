@@ -1,0 +1,18 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/integrate-(boygroup)-meta"
+type: "module"
+author: "colorsound"
+date: "28 Aug, 2012"
+title: "Integrate (Boygroup)"
+originalURL: "contribution/integrate-(boygroup)"
+category: "module"
+credits: |-
+  colorsound
+like_count: "4"
+imported: "true"
+teaser: |-
+  Experimental Integrate to use in Boygroup Setups.
+  
+  using  Drag (value) plug from Grandchild inside.
+  [drag-(value)](xref:contribution/drag-(value))

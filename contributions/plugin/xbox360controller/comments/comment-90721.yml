@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "90721"
+user: "alg"
+created: "03 Nov, 2012 - 15:13"
+body: |-
+  I tested only on USB model. If you are using wireless - yes, you need receiver. If you are using official receiver from Microsoft - plugin should work out of the box.
+  
+  P.S. I fixed hot plugging problem - now you can hotplug and switch gamepads without vvvv and plugin restart.

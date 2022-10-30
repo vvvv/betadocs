@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/tutor.v4p-files"
+url: "tutor-v4p"
+category: "tool"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "Tutor.zip"
+            description: |-
+              helpful for a for a vvvvorkshop-tutor
+            
+            timestamp: "26 Jun, 2013 - 17:04"
+            download_count: "2"

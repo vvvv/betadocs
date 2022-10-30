@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/pd-patch-loader-files"
+url: "pd-patch-loader"
+category: "plugin"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "NAudioPDLoader.zip"
+            timestamp: "20 Feb, 2013 - 14:50"
+            download_count: "2"

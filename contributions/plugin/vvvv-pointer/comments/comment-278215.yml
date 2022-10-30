@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "278215"
+user: "tonfilm"
+created: "03 Apr, 2021 - 14:30"
+body: |-
+  @mediadog Win7 doesn't have the pointer API. It was introduced in Win8, see requirements section here: https://docs.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-enablemouseinpointer

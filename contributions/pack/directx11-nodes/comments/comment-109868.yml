@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "109868"
+user: "tmp"
+created: "14 Nov, 2013 - 10:40"
+body: |-
+  i found a problem in ToSharedTextureNode.cs line 71:
+  ```
+  this.FPointer<0> = SharedResource.SharedHandle.ToInt32();
+  ```
+  
+  this often fails and the catch clause is fired which sets the pointer to 0.
+  mr.vux, do you have an idea how to fix this?

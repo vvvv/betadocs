@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "88439"
+user: "u7angel"
+created: "12 Sep, 2012 - 23:23"
+body: |-
+  you can set the number of inputs and outputs with firmataEncode and firmataDecode via the inspektor. the spreadcount of inputsettings should reflect your I/O settings. 
+  
+  remember, the plugins are versatile tools to communicate with any firmata protocol enabled device. you just have to set them up to the right number of I/O's.
+  
+  someone in the forum already did the settings for the mega, i can't remember who .... just do a search.

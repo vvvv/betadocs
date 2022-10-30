@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "236579"
+user: "sinus"
+created: "07 Mar, 2017 - 14:04"
+body: |-
+  because of these strange driver errors i updated the nvidia driver. this issue disappeared indeed. nevertheless none of the modifiers of the pack work on my machine. it takes io boxes(string) quite some time to display content. meanwhile buffers receive 0, what they obviously dislike. more soon at the github/issues. thx!

@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "80684"
+user: "karistouf"
+created: "05 Apr, 2012 - 09:19"
+body: |-
+  why are you not modifying the pull up in the arduino  sketch in set_up function?
+  
+  just a line ;-)
+  
+  ```
+  PORTC = B1111101;  //pull up
+  ```

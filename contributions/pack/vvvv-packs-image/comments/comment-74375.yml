@@ -1,0 +1,36 @@
+### YamlMime:ContributionComment
+---
+uid: "74375"
+user: "elliotwoods"
+created: "04 Jan, 2012 - 09:45"
+body: |-
+  concerning hierro's patch
+  it demonstrates a situation where you have to recreate the image almost every frame (dimensions of image are changing). since this is being carried out on another thread, there's 2 options:
+  1. force a sync so this black frame issue doesn't happen (slows down general use)
+  2. Change the threading mode per node (this is the way i'm working towards)
+  
+  this means you'll be able to (per node) choose what the threading mode is. Sometimes you'll want sequential nodes to run on the same thread (e.g. this instance), therefore reduce syncing issues.
+  
+  Generally only heavy nodes (e.g. Optical Flow) absolutely need to run in their own thread all by themself.
+  
+  If you've got graph
+  
+  A>B>C>D>E>F>G
+  
+  A is the camera and has its own thread
+  
+  then set D to use its own thread
+  and E,F to use above thread
+  
+  G is AsTexture so has to run in the MainLoop
+  
+  then you'd have the MainLoop + 2 threads
+  Rather than 7 threads (current situation)
+  
+  
+  RE: structured light
+  @circuitb - interesting
+  working ok here. bit glitchy but got distracted by other stuff so haven't tuned them up yet (still need to decide what architecture to use)
+  you can set B and C to use the above thread, i.e. A,B,C in 1 thread
+  
+  Want to get DirectShow capture working with this first so can get proper camera settings at home (away from studio at the moment, and the cam's i have here all auto-expose by default)

@@ -1,0 +1,21 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/kinect-depth-fill-meta"
+type: "effect"
+author: "Grandchild"
+date: "17 Jun, 2015"
+title: "Kinect Depth Fill"
+originalURL: "contribution/kinect-depth-fill"
+category: "effect"
+credits: |-
+  [vux](http://vvvv.org/users/vux) (dx11, kinect2) [tmp](http://vvvv.org/users/tmp) (dx11.pointcloud)
+like_count: "8"
+imported: "true"
+teaser: |-
+  Fill up those black spots in the depth image of the Kinect.
+  Useful for filtering before using the Kinect depth as a displacement texture.
+  
+  This is still a bit rough around the edges, and I'll most likely update it in time, but it might be useful to people as it is already. :)
+  
+  /edit:
+  Thanks to [tmp](http://vvvv.org/users/tmp) and their massive [dx11.pointcloud](xref:contribution/dx11.pointcloud) contribution, this version should be just plain better, enjoy :)

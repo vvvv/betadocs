@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "107298"
+user: "microdee"
+created: "30 Sep, 2013 - 11:56"
+body: |-
+  @tekcor: currently the most problematic is the 7 rendertargets which i'm planning to reduce in the future because currently it requires a very fast fill rate from the videocard. and i'm pretty sure there are plenty of ways to optimize the current phong lighting or their corresponding shadows too.

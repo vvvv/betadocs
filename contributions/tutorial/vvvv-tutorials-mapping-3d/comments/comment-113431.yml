@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "113431"
+user: "nrsz"
+created: "31 Jan, 2014 - 19:47"
+body: |-
+  thanks! unfortunately i'm already stuck loading the 3d file. actually any 3d file - not even the v.x is showing up. also no .dea, .ply or .obj files. the only files loading so far are 2-subset-cube.x and 6-subset-cube.x 
+  any idea?
+  
+  i'm using the latest v4 + dx11- & image packs on win8.1, no red boxes.
+  thank you in advance!

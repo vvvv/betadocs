@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "102961"
+user: "timpernagel"
+created: "27 Jun, 2013 - 13:35"
+body: |-
+  I didn't found a solution to the bug/problem, but perhaps the reason. The DX11CubeSimple is pretty much the same like the DX9CubeSimple beside the Geometry_Join-part. Perhaps the texture-coordinates are not correct... I haven't dived in the topic yet, and will do now. 
+  
+  But in the meantime, here is a better screenshot of the problem i have, if anyone wants to solve it (bigger version: <http://cl.ly/Pupg>).
+  
+  ![](https://vvvv.org/sites/default/files/imagecache/large/images/Image%202013-06-27%20at%203.24.18%20PM.png)

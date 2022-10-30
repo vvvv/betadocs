@@ -1,0 +1,17 @@
+### YamlMime:ContributionComment
+---
+uid: "65021"
+user: "phlegma"
+created: "10 Jun, 2011 - 10:24"
+body: |-
+  thanx for the flowers
+  
+  @hierro:
+  what does the confidence property? 
+  when there problems come up with the enumeration let me know. 
+  Source code will also follow. At the moment I'm not sure where to put it. Probably i commit it to github. 
+  
+  
+  @everyoneishappy
+  It is recommended to use the drivers in the package. Some namings of function and properties which i used chnaged in the api. 
+  hierros plugin should still work with the  new drivers. for me it does.

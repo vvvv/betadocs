@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/vulture-exchange-plugin-for-grasshopper-vvvv-files"
+url: "vulture-exchange-plugin-for-grasshopper-vvvv"
+category: "plugin"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "vulture_ver1.0a.zip"
+            timestamp: "15 Apr, 2015 - 21:16"
+            download_count: "1"

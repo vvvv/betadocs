@@ -1,0 +1,18 @@
+### YamlMime:ContributionComment
+---
+uid: "249158"
+user: "u7angel"
+created: "16 Feb, 2018 - 19:00"
+body: |-
+  <div class="box">quote:eps:
+  ability to use both direct (two-ways, triggered manually)
+  and ping-pong (triggered on timeout) transitions.
+  </div>
+  
+  i don't understand what you are trying to do here. you want to go (trigger manually) to a state and go back after a certain time ? there are probably several ways to do that. like using lock time of the target state and the transition set to 1.
+  
+  concerning SetTransitionTime, yeah that's just something i did after microdees fork
+  
+  and last but not least, the time vs. frame discussion....again :) let's say you want a transition to last 1 frame and your time is based on seconds, you have to calculate and get 0,016666 period . let's say you want to make your transition safe against some other events happening and you want 3 frames...these numbers are harder to compute. furthermore, AutomataUI is first and foremost intended as a logic helper and second to help with animation.
+  
+  let's switch the thinking, i want to have a nice menu transition of one second and you run on 60 fps...easy, go for a 60 frames transition. or maybe 2 seconds ? a well, lets do the heavy calculation and choose 120 frames. easier to compute, right ?

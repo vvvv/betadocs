@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "76271"
+user: "joreg"
+created: "14 Feb, 2012 - 14:08"
+body: |-
+  @justnice: what exactly did you give a shot? 
+  you should get the latest alpha + addonpack, nothing more. start it up, create a Kinect (Devices OpenNI) node and hover its rightmost output. there you should see either: "Failed to connect to device" in which case something seems wrong with your drivers or a list of 3 drivers and their version numbers. please report what you get.

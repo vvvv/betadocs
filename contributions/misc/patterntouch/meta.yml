@@ -1,0 +1,41 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/patterntouch-meta"
+type: "misc"
+author: "alg"
+date: "17 Feb, 2013"
+title: "PatternTouch"
+originalURL: "contribution/patterntouch"
+category: "misc"
+credits: |-
+  Vadim Smakhtin ([alg)](http://vvvv.org/users/alg)), [unc ](http://vvvv.org/users/unc+) - <span class="node">IntersectGeometry </span>. Developed during the project in [DotDotDot](http://www.dotdotdot.it/) studio.
+like_count: "12"
+imported: "true"
+teaser: |-
+  ### PatternTouch - multi touch framework for vvvv, based on common user interaction patterns.
+  
+  #### Features:
+  
+  * Translate, Scale, Rotate gestures (all via center).
+  * Alpha channel support.
+  * GPU based intersection analysis, especially useful for complex meshes. 
+  * Display List support via Group node.
+  * Created with vvvv in mind.
+  
+  #### In next releases:
+  
+  * Pan and Zoom gestures.
+  * Transformation limits with iOS like behavior.
+  * Multidirectional swipe gesture.
+  * Photo Gallery module.
+  
+  #### Limitations:
+  
+  * No sorting support. All transformations always sorted by ID.
+  * No complex transformation hierarchies. For example, if you have a touchable element in container and want to scale this container, you need to touch container only in empty places. Upper object always receive all blobs.
+  
+  #### Bugs:
+  
+  * VPA (PatternTouch Split) outputs zero AspectRation matrix if no input connected.
+  
+  Sources - https://github.com/smakhtin/PatternTouch

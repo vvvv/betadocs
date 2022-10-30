@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "188187"
+user: "mediadog"
+created: "10 Mar, 2015 - 00:26"
+body: |-
+  Ouch!  Just discovered the forces data is global!  So if you use more than one node, you cannot independently set their parameters.  Even the 2D pin is global, so you cannot have one 2D and one 3D graph.  Double ouch!
+  
+  Is there another version of this around?  If not, I'll refactor this one.
+  
+  Great plugin though, tonfilm, thanks!

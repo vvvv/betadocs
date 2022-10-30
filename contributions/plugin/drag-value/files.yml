@@ -1,0 +1,27 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/drag-(value)-files"
+url: "drag-value"
+category: "plugin"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "1"
+            filename: "Drag (Value) (binary).zip"
+            description: |-
+              v1.0 - Contains the .dll and the helppatch
+            
+            timestamp: "25 Apr, 2011 - 12:25"
+            download_count: "1"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "Drag (Value) (source).zip"
+                    description: |-
+                      v1.0 - Contains the source code (.csproj, .cs) and the helppatch
+                    
+                    timestamp: "25 Apr, 2011 - 12:25"
+                    download_count: "2"

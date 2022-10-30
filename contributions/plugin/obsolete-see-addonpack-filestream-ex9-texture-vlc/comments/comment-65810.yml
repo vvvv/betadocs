@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "65810"
+user: "ft"
+created: "26 Jun, 2011 - 14:44"
+body: |-
+  @cybear
+  
+  Do you mean: 
+  * the framerate is ok, when 2 renderers are on different screens but windowed, and it drops when you make 1 renderer fullscreen
+  * or do you mean the framerate drops when you have 2 renderers on 2 different screens (as opposed to 2 renderers on 1 screen), also when both are windowed?
+  
+  It is normal that the framerate will go down, if you have 2 renderers on different screens, because (as long as vvvv uses DX9) the texture needs to be copied to the graphics card twice, one for each 'device' (screen).

@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "57157"
+user: "hierro"
+created: "15 Dec, 2010 - 00:32"
+body: |-
+  @sapo, basically you should only need vs2010 redistributable to run that, got them installed ?
+  Otherwise I'll try to add that, I'm not expert at all about visualstudio and c++.

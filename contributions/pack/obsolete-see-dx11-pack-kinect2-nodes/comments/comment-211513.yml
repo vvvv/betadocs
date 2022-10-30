@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "211513"
+user: "mediadog"
+created: "25 Nov, 2015 - 20:46"
+body: |-
+  Just updated from a version I compiled myself a while back, and find that the Skeleton node User Index pin, which used to return a number, now returns a lengthy string of dubious utility - a long string of numbers.  Looks more like a string representation of a resource handle or something.
+  
+  Is this a bug?  Why did this change?

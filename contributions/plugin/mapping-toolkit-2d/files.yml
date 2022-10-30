@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/mapping-toolkit-2d-files"
+url: "mapping-toolkit-2d"
+category: "plugin"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "MAPPING_TOOLKIT_2D.zip"
+            timestamp: "27 Dec, 2014 - 19:07"
+            download_count: "1"

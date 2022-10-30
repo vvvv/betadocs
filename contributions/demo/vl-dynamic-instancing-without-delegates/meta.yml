@@ -1,0 +1,23 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/vl-dynamic-instancing-without-delegates-meta"
+type: "demo"
+author: "domj"
+date: "18 Jan, 2019"
+title: "VL Dynamic instancing without Delegates"
+originalURL: "contribution/vl-dynamic-instancing-without-delegates"
+category: "demo"
+like_count: "3"
+imported: "true"
+teaser: |-
+  Hi!
+  
+  I was wondering how to instance an arbitrary object based on its type name in VL for a while.
+  
+  For now I offer this solution that uses the built-in Deserialize functionality, inspired by the arbitrary object spread demo in the VL Serialization help patch.
+  
+  Although not perfect (any object you expect to instance has to be explicitly used in the patch (inspired by elias's LINK experience)), it's the closest solution I know of until this functionality gets native support. Is it better than Delegates with a Dictionary? You decide!
+  
+  Any simplification tips appreciated.
+  
+  Until next time!

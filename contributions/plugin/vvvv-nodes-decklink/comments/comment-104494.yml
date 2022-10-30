@@ -1,0 +1,22 @@
+### YamlMime:ContributionComment
+---
+uid: "104494"
+user: "vjc4"
+created: "02 Aug, 2013 - 02:46"
+body: |-
+  Ok after several tests this i what i found...
+  50i works with a interlaced effect,,, i tested 2 cameras, and its the same
+  i even use a tvone c2-7000 to send specific resolution and test the all...
+  so... workarround 1:
+  set up the blackmagic as hd1080p 25 and stretch the frame. This give me no delay at all, only 3 frames, same as BlackMagic Media Express
+  
+  workaround 2:  manuel gave me the idea of using BOBdeinterlace shader. so I set up the blackmagic in hd1080i50 and tested again...
+  this seems to work, sometimes it add 1 frame delay, but works... but,,, it didt look good
+  
+  so i took a screenshot of each aproach, the image its croped, but its 1:1 pixel. The camera its a Sony NX5N set up in 1080i/576i... this are the results
+  
+  
+  ![black magic deinterlace test](https://vvvv.org/sites/default/files/imagecache/large/images/blackmagictests.jpg) 
+  http://postimg.org/image/wy3eqtrlz/
+  
+  3rd and chepest aproach will be to screenshot the BlackMagic media express preview window, i dont have interlaced there.

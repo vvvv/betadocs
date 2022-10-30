@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "168253"
+user: "milo"
+created: "09 Oct, 2014 - 15:29"
+body: |-
+  alright. you need to install vc2012 c++ redist either 32 or 64bit to make it work

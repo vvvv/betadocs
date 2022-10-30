@@ -1,0 +1,15 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/super-emboss-meta"
+type: "effect"
+author: "karistouf"
+date: "04 Aug, 2010"
+title: "super emboss"
+originalURL: "contribution/super-emboss"
+category: "effect"
+credits: |-
+  karistouf and an eye inside the shader of our vvvvtributors, especially Kalle.
+like_count: "3"
+imported: "true"
+teaser: |-
+  simple basic embossshader with color saturation before

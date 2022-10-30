@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/particle-emitter-files"
+url: "particle-emitter"
+category: "demo"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "emitter.zip"
+            description: |-
+              version 1.0
+            
+            timestamp: "26 Mar, 2011 - 17:54"
+            download_count: "2"

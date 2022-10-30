@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/minimum-polygon-distance-files"
+url: "minimum-polygon-distance"
+category: "plugin"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "MinimumPolygonDistance_v1.zip"
+            timestamp: "10 Mar, 2014 - 22:39"
+            download_count: "1"

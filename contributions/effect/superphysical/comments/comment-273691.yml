@@ -1,0 +1,12 @@
+### YamlMime:ContributionComment
+---
+uid: "273691"
+user: "synth"
+created: "01 Sep, 2019 - 12:33"
+body: |-
+  [mrboni](http://vvvv.org/users/mrboni) Heya
+  I am playing around with a few patches i made based on Superphysical and i do have a question:
+  What would be the best way to give my object dynamic textures for lets say Albedo, roughness and so on?
+  In the help patches there is a ToPointer node that gets a bang on the start but how can i do it for every frame?
+  
+  Thanks!

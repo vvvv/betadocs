@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "245861"
+user: "seltzdesign"
+created: "06 Oct, 2017 - 15:27"
+body: |-
+  Just trying this out for the first time, but I keep getting a red node for the Camera(OpenVR) when opening the OpenVRDemo.v4p from girlpower:
+  
+  ![title](https://vvvv.org/sites/default/files/imagecache/large/images/https://img3.picload.org/image/dgcadgcr/openvr_camera.jpg) 
+  
+  SteamVR is on latest beta and running, freshly installed vvvv 35.8, latest DX11, latest VVVV.OpenVR, GTX1070. Any ideas?
+  
+  SteamVR says (unresponsive) vvvv.exe

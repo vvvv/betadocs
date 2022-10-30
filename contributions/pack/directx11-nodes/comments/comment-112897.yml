@@ -1,0 +1,21 @@
+### YamlMime:ContributionComment
+---
+uid: "112897"
+user: "seltzdesign"
+created: "21 Jan, 2014 - 10:17"
+body: |-
+  I keep getting an error in the TTY renderer from one of the DX11 nodes. Not really sure what is happening but this is the error:
+  
+  Stacktrace:
+  
+     at VVVV.PluginInterfaces.V2.Spread`1.get_Item(Int32 index)
+     at VVVV.DX11.Nodes.Renderers.Graphics.DX11VolumeRendererNode.Update(IPluginIO pin, DX11RenderContext context)
+     at VVVV.DX11.Nodes.Renderers.Graphics.DX11VolumeRendererNode.Render(DX11RenderContext context)
+     at VVVV.DX11.Lib.RenderGraph.DX11DeviceRenderer.ProcessNode(DX11Node node)
+  04:39:39 ERR : System.DivideByZeroException in VVVV.PluginInterfaces: Attempted to divide by zero.
+  
+  It is logged a few times per second and also makes "ML?" blink constantly in the Perf Meter.
+  
+  I am using 32.1 64bit with the latest DX11 pack release (05.12.13) and all this is happening while the rendering (using mre.mdmod 2.1) is working fine.
+  
+  The problem is that its making the TTY render useless for debugging, as this error gets logged so often.

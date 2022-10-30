@@ -1,0 +1,14 @@
+### YamlMime:ContributionComment
+---
+uid: "90210"
+user: "zeos"
+created: "24 Oct, 2012 - 17:49"
+body: |-
+  It appears for a moment in the beginning when I start the patch mre.mdmod.test and then is black..
+  
+  MacBookPro 15" late 2011
+  AMD Radeon HD 6770M
+  Win7 x64
+  vvvv28.1
+  
+  edit: When I disable the ToneMapping and the MotionBlur there is stuff

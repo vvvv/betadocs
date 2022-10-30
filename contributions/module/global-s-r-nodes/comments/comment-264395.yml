@@ -1,0 +1,15 @@
+### YamlMime:ContributionComment
+---
+uid: "264395"
+user: "ravazquez"
+created: "03 Sep, 2018 - 09:19"
+body: |-
+  u7angel:  Hi! Initially my usecase was to make a list of all the fonts used in a rather large application in order to detect which ones were missing on any given client machine.  With a nodeset like this I managed to do just that, every text node I used has an S on the font input pin and somewhere else I receive all these font names and check against installed fonts in the running system to create a list of used vs missing fonts.  It was of no relevance for me to know where exactly in the many patches the font was used, I just needed a full list.
+  
+  With a Queue node and the existing S/R I did not find an easy way to do that. If you send from multiple places into the same S on the same frame, only one value makes it through, and how would you Queue up values from many different locations without having to link every source into the Queue node? Maybe I missed something. In any case, that is one usecase, my hope is that other users might have other cases where this makes sense.
+  
+  Hope that brings some light into what these nodes are trying to accomplish.
+  
+  And yes, a better help patch would help. I will work on that.
+  
+  Cheers!

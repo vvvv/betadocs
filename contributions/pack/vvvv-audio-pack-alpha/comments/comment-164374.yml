@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "164374"
+user: "tonfilm"
+created: "08 Sep, 2014 - 11:05"
+body: |-
+  also, please test with new V6 release, i've recompiled the latest VST.NET sources which had a bugfix regarding the resource file. it should also be slightly faster as its compiled for CLR4 runtime which has better interop support for the vst part.

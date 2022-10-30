@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "181810"
+user: "Lucidlien"
+created: "10 Jan, 2015 - 20:42"
+body: |-
+  Hey guys, I'm trying to run my Oculus patch on a friends computer and I get a red OVRdevice node, do you have any idea what could be wrong?
+  
+  I installed Unity, and I'm happy to say it is working now.. But I do wonder why.. maybe it's the .net framework it needs, I'll check it out later

@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "102143"
+user: "sansui"
+created: "11 Jun, 2013 - 10:29"
+body: |-
+  thanks! [joreg](http://vvvv.org/users/joreg).
+  I knew the instruction about paths. lately, because of reinstalling vvvv, I missed targetting contribution directory in root patch.
+  now after targetting the folder, it works well.

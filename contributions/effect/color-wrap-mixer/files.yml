@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/color-wrap-mixer-files"
+url: "color-wrap-mixer"
+category: "effect"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "colorwrapmixer.zip"
+            timestamp: "23 Aug, 2010 - 09:00"
+            download_count: "3"

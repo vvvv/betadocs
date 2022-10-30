@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/asstring-(object-json)-files"
+url: "asstring-object-json"
+category: "plugin"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "JsonObjectAsString.7z"
+            timestamp: "13 Jun, 2013 - 11:25"
+            download_count: "3"

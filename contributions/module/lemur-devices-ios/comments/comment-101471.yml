@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "101471"
+user: "patrick"
+created: "27 May, 2013 - 21:14"
+body: |-
+  Never used it with multislider as this object is tricky with fingers accidentally interfering with neighboring sliders. Will have a look at it, when I can, and post my findings as it shouldn't be problematic. As a hack, use the regular slider object for the time being.

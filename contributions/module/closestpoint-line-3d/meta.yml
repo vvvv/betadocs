@@ -1,0 +1,21 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/closestpoint-(line-3d)-meta"
+type: "module"
+author: "dominikKoller"
+date: "27 Oct, 2016"
+title: "ClosestPoint (Line 3D)"
+originalURL: "contribution/closestpoint-(line-3d)"
+category: "module"
+credits: |-
+  dominikkoller
+like_count: "2"
+imported: "true"
+teaser: |-
+  This is something small I've needed often and always ended up remaking.
+  
+  Simply gives the closest point on a line, distance and whether it's on the defined linesegment or on the infinitely extended line.
+  
+  Question to devvvvs: Do you still add things like these to the addonpack? If so, is a PR the way to go?
+  
+  Mainly taken from https://forum.unity3d.com/threads/math-problem.8114/#post-59715

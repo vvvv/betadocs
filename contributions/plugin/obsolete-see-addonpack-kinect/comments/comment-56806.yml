@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "56806"
+user: "vux"
+created: "07 Dec, 2010 - 17:43"
+body: |-
+  Regarding the Error on launch i noticed that one a few times and trying to get some debug on it.
+  
+  I'm not sure if it comes from the init phase, or deinit phase on close.
+  
+  Will try to find that one asap.

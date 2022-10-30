@@ -1,0 +1,24 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/excel-reader-files"
+url: "excel-reader"
+category: "plugin"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "1"
+            filename: "ExcelReader_Pack.zip"
+            description: |-
+              Working as 'pack' with the latest betas
+            
+            timestamp: "06 Jan, 2017 - 20:49"
+            download_count: "1"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "ExcelReader.zip"
+                    timestamp: "23 Oct, 2015 - 21:10"
+                    download_count: "2"

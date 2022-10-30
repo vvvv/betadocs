@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "247651"
+user: "velcrome"
+created: "12 Dec, 2017 - 15:26"
+body: |-
+  @catweasel
+  this happens to me, when I use any non-zero value for <span class="pin">Number of previous frames to preload</span>. Not sure what this pin is supposed to accomplish, surely we don't want to keep old frames lingering when we don't use them anymore?
+  
+  
+  My problem is different though: I get a different exception (SEHException), and a massive mem leak (about 50meg/sec) when the harddrive cannot keep up. Is anyone else seeing this unfortunate handling of IO problems?

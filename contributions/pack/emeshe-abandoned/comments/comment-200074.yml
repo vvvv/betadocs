@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "200074"
+user: "letoast"
+created: "23 Jul, 2015 - 01:03"
+body: |-
+  No problem, man, you do what you need to in order to better Emeshe. If I had the programming knowledge for shaders, I'd also contribute to that. Well I've decided to start learning HLSL, so hopefully, I'll be able to port some things, if I can. A smart way to go when it comes to shading/materials, is what Unreal Engine is going for now - physically based materials. I realize that it's probably very hard to implement, but it would be best to give people only a few parameters when it comes to shading, which are also easy to understand - Base Color, Roughness, Metallic and Specular. I guess you need screen space reflections to be able to achieve this. I don't know if you have already checked this, but the Unreal Engine is now free for everyone, which means they're also giving out their source code for free(https://www.unrealengine.com/blog/ue4-is-free), which means all of their shaders are on github and you can check them out. Just a suggestion there.
+  
+  In any case, I will be uploading more scenes as I try to make more stuff and of course it's free for you to use/integrate/whatever :D. I'd just like to thank you for your work on Emeshe!

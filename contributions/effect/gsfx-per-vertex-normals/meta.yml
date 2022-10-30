@@ -1,0 +1,15 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/gsfx-per-vertex-normals-meta"
+type: "effect"
+author: "lasal"
+date: "04 Jan, 2014"
+title: "GSFX Per vertex normals"
+originalURL: "contribution/gsfx-per-vertex-normals"
+category: "effect"
+credits: |-
+  vux
+like_count: "6"
+imported: "true"
+teaser: |-
+  Just a GSFX to calculate flat normals.

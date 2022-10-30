@@ -1,0 +1,73 @@
+---
+uid: "contribution/ciantparticles-16000000p-gpu-particle-system- -rotations"
+uid-meta: "contribution/ciantparticles-16000000p-gpu-particle-system- -rotations-meta"
+comments: 
+ items: 
+  - uid: "72572"
+  - uid: "72581"
+  - uid: "72632"
+  - uid: "72639"
+  - uid: "72742"
+  - uid: "72744"
+  - uid: "72763"
+  - uid: "72764"
+  - uid: "72774"
+  - uid: "72775"
+  - uid: "72799"
+  - uid: "72800"
+  - uid: "72821"
+  - uid: "72822"
+  - uid: "72903"
+  - uid: "72905"
+  - uid: "72932"
+  - uid: "73067"
+  - uid: "73667"
+  - uid: "73669"
+  - uid: "73771"
+  - uid: "73786"
+  - uid: "74097"
+  - uid: "74106"
+  - uid: "74108"
+  - uid: "74187"
+  - uid: "74212"
+  - uid: "75378"
+  - uid: "75385"
+  - uid: "75512"
+  - uid: "76489"
+  - uid: "79243"
+  - uid: "83928"
+  - uid: "84157"
+  - uid: "84529"
+  - uid: "84606"
+  - uid: "96327"
+  - uid: "96552"
+  - uid: "96562"
+  - uid: "97859"
+uid-files: "contribution/ciantparticles-16000000p-gpu-particle-system- -rotations-files"
+title: "CiantParticles - 16000000p GPU Particle System + Kinect"
+image: "CiantParticles04_0.png"
+contribution: "true"
+---
+
+##  Ciant Particles
+is a particle system on GPU. 
+
+With a number of applied forces it can operate millions of particles. You can take vertices of a mesh as an input for particle positions, describe their movement with a number of parameters, combine them with geometry and other objects and create beautiful spectacular real-time effects. You can connect this particle system to Kinect, sound input or usb camera. See how, in a tutorial. Possibilities are really wide.
+
+To create a particle system:
+1.  Set input positions for particles (patch CiantCreatePositionsTexture)
+1.  Set parameters and forces for particles (size, color, texture, ...)
+1.  CiantParticles outputs a layer .. render it!
+Every step is described in the tutorial.
+
+The particle system is my dissertation. So if you try it, use it, or make some performances, tell me. Post pictures here, or send me an email: apu@email.cz 
+There are many ways the particle system could be improved, many bugs that need to be slapped. We can cooperate on that. Documentation is inside.
+
+I am still working to improve the particle system. 
+
+
+Big thanks to 
+[hiero](http://vvvv.org/users/hiero), [phlegma](http://vvvv.org/users/phlegma) and all the creators of OpenNI Plugin - I used it.
+Matthias Zauner [sagishi](http://vvvv.org/users/sagishi) and his diploma Character Animation in vvvv - I used it.
+[dottore](http://vvvv.org/users/dottore) ParticlesGPU_Shader_Library - I leared from it.
+:) Martin.

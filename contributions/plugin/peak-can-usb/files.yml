@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/peak-can-usb-files"
+url: "peak-can-usb"
+category: "plugin"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "pcan.zip"
+            timestamp: "29 Mar, 2013 - 19:38"
+            download_count: "1"

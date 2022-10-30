@@ -1,0 +1,14 @@
+### YamlMime:ContributionComment
+---
+uid: "59502"
+user: "cybear"
+created: "07 Feb, 2011 - 15:50"
+body: |-
+  Hello ft!
+  
+  First, I want to thank you very, very much for this useful plugin. Finally somebody was so genius to create a node which lets you playback video on more than one screen. It runs very fast. Thank you for sharing it. :)
+  
+  I have seen an issue which probably you are aware. If I change patches containing the VLC node with the createnode pin, sometimes the file doesn't play and afterwards no other patch containing a VLC node works and vvvv crashes then very easily. (I saw more or less after the 20th patch change)
+  My video loops are not very huge. The average size is about 100MByte.
+  
+  Do you or someone know a workaround to avoid this? I've tried to delay the string input of the filename, the play and loop value, but the problem remained...

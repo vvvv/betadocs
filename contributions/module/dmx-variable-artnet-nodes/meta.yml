@@ -1,0 +1,13 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/dmx-variable-artnet-nodes-meta"
+type: "module"
+author: "videolith"
+date: "01 May, 2015"
+title: "DMX Variable Artnet Nodes"
+originalURL: "contribution/dmx-variable-artnet-nodes"
+category: "module"
+like_count: "3"
+imported: "true"
+teaser: |-
+  DMX nodes that allow you to choose universe and subnet ID via pin, not only in Inspektor.

@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/crawler-(vvvv)-files"
+url: "crawler-vvvv"
+category: "plugin"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "Crawler_v01.zip"
+            description: |-
+              crawler v0.1 alpha x86/x64
+            
+            timestamp: "21 Jul, 2014 - 13:34"
+            download_count: "1"

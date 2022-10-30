@@ -1,0 +1,27 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/vvvv-patches-files"
+url: "vvvv-patches"
+category: "demo"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "1"
+            filename: "vvvv-patches-20121009.zip"
+            description: |-
+              Added tutorial (provvisorio)
+            
+            timestamp: "09 Oct, 2012 - 19:59"
+            download_count: "1"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "vvvv-patches-20111209.zip"
+                    description: |-
+                      started tutorial
+                    
+                    timestamp: "08 Dec, 2011 - 23:08"
+                    download_count: "1"

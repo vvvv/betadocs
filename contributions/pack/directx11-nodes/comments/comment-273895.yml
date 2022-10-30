@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "273895"
+user: "mediadog"
+created: "01 Oct, 2019 - 00:24"
+body: |-
+  The Cylinder (DX11.Geometry) node is not acting how I expected; I thought it would follow the behavior of the Segment node, but it only sort of does.  When cycles is < 1 and > .5, it closes the edges instead of creating a wedge opening.  But when cycles is < .5, the caps form the expected segment, but the edges are directly closed to each other and do not follow the cap edges.
+  
+  I would expect the caps to follow the Segment behavior, and in all cases where Cycles is < 1, the cylinder faces follow the caps.  The current behavior just does not seem sensical.  This is with 38.1 and DX11 1.3.1.
+  
+  ![Cycles &gt;.5 &lt;1](https://vvvv.org/sites/default/files/imagecache/large/images/Cylinder-1.png) 
+  
+  ![Cycles &lt; .5](https://vvvv.org/sites/default/files/imagecache/large/images/Cylinder-2.png)

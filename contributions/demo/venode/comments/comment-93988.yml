@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "93988"
+user: "velcrome"
+created: "02 Jan, 2013 - 16:51"
+body: |-
+  this looks really great and tremendously useful.
+  
+  i tested it on localhost (and chrome), and everything works just fine. but when using a smartphone or an ipod, it starts to get messy. the page loads slowly and user inputs are not transmitted at all.
+  
+  the only interactions i see are *NewClient* and *ClientDisconnect*. 
+  
+  i disabled any firewall and even changed all ports in server.js to rule out any interference from other programs, but with no luck. do you have any idea what could cause this behaviour?

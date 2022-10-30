@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "71005"
+user: "mediadog"
+created: "24 Oct, 2011 - 18:20"
+body: |-
+  And one other note about that returned depth value from OpenNI: it is in actual Z depth from the sensor (Kinect) plane, not the length of the vector from the camera position; that's why the world conversion only needs to do a scale of the X/Y to place them in the correct world position.
+  
+  But what that means is that the point-cloud data can no longer be retrieved with a simple X/Y index, as there can be many corrected points differing in Z for the same world X/Y.
+  
+  How to handle this in a GPU-friendly way is still being discussed on the OpenNI list, and I would very much like to discuss that here in the context of vvvv.  I haven't looked yet, but I expect some of the particle system work done here will be applicable.  Also, I haven't yet looked into PCL (Point Cloud Library) and how it might integrate as well.

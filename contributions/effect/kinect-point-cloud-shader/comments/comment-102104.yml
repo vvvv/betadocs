@@ -1,0 +1,22 @@
+### YamlMime:ContributionComment
+---
+uid: "102104"
+user: "sansui"
+created: "10 Jun, 2013 - 16:07"
+body: |-
+  this does not working in 45beta30x86?
+  
+  I'm using kinect by openNI driver.
+  I knew these drivers stable and I am using these drivers.
+  Kinect
+  OpenNI-win32-1.5.2.23-redist
+  SensorKinect-Bin-Win32-v5.1.0.25
+  NITE 1.5.2.21
+  
+  Depth(openNI) help, Skeleton(openNI) help patch work well.
+  but this point cloud patch does not work.
+  first time, I found three node red.
+  but as [RoyCui](http://vvvv.org/users/RoyCui) comment, I fixed that. then no red node. looks normal.
+  but in renderer, nothing shown.
+  
+  could you give me any help for me?

@@ -1,0 +1,17 @@
+### YamlMime:ContributionComment
+---
+uid: "72800"
+user: "mino"
+created: "02 Dec, 2011 - 01:18"
+body: |-
+  Thanks for great contribution!
+  
+  I cannot see strawman, too. looks graphic card freezing!
+  Win7, 64bit, GTX 460.
+  
+  (update)
+  OnlyAnimatedPs and OnlyFire works fine.
+  But OnlyGeometry same problem...
+  
+  Windows ActionCenter reports "video hardware trouble" and
+  "LiveKernelEvent" is event name. helpful?

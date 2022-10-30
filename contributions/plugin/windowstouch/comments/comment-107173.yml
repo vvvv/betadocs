@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "107173"
+user: "woei"
+created: "28 Sep, 2013 - 00:09"
+body: |-
+  you could make your plugin inherit from VVVV.Hosting.WindowInputNode which handles all the subclassing thing for quite exactly this reason ;)
+  
+  [vvvv.sdk commit](https://github.com/vvvv/vvvv-sdk/commit/c1070d5fce20cbdb656c7976a9835cb023c46514)

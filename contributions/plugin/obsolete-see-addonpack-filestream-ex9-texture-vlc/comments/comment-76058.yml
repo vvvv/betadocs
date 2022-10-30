@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "76058"
+user: "cybear"
+created: "10 Feb, 2012 - 14:21"
+body: |-
+  I get the same error on the latest Alpha27.1 and with Beta27 it's a little bit buggy (deadlock after some changes + random crashes) For the VLC plugin I would recommend to use beta26 and the older VLC version which works without any problem for me.

@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/polymap-(beta-vl-only)-files"
+url: "polymap-beta-vl-only"
+category: "module"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "PolyMap (EX9).zip"
+            description: |-
+              v0.1 beta
+            
+            timestamp: "13 Apr, 2016 - 03:41"
+            download_count: "2"

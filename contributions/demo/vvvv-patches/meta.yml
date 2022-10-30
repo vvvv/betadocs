@@ -1,0 +1,19 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/vvvv-patches-meta"
+type: "demo"
+author: "fibo"
+date: "19 Nov, 2011"
+title: "vvvv-patches"
+originalURL: "contribution/vvvv-patches"
+category: "demo"
+like_count: "7"
+imported: "true"
+teaser: |-
+  This is just a test repo you can use to add whatever patch you want
+  
+   [github repo](https://github.com/fibo/vvvv-patches)
+  
+  so you can practice using git.
+  
+  See also "How to add patches.v4p".

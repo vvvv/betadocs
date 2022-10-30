@@ -1,0 +1,18 @@
+### YamlMime:ContributionComment
+---
+uid: "61932"
+user: "vjc4"
+created: "04 Apr, 2011 - 17:47"
+body: |-
+  @hierro
+  yeah i saw that one, but i wast able to make it work, im not able to make the kinect start with that one, so i merge the drivers from this post and i add the deph texture and the rgb texture in the same patch, but it seems to give me the same results from what im doing on the one that i just uploaded ( that is made from the Heighfield2 that everyoneishapy posted
+  
+  i would like to have somethin like this http://www.youtube.com/watch?v=naWPHC9hlos . to make each pixel a box insted of a dot.
+  
+  how can i control de minimun and maximun depth ? i will be great to have a way to control the opaciti and the gain of that texture. for example, to render only the pixeles thar are less than,,, 200,200,200 and more that 50,50,50 and by doing that we can have a in/out point to render. Skeleton its great because the background pin give you the texture of the subject only and thats great
+  but still cant find the way to render
+  
+  i still need help to render zdepth properly,,, please check out the file that i uploaded, how can i render a box in the midle of that pointcloud that its properli rendered ? im tring with box -> goraunddirectional and with blend nodes, but if i add it it wont give me the effect that im looking for
+  
+  this is the file that i uploaded on the 1st post
+  http://www.youtube.com/watch?v=B4Itz3y9qlg

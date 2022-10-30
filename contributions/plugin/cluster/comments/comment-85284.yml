@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "85284"
+user: "mediadog"
+created: "06 Jul, 2012 - 04:26"
+body: |-
+  Unless I misunderstand what the output pins are, "Members" is listing the cluster number that each X & Y input slice belongs to, correct?
+  
+  But I'm seeing numbers in the "Members" output pin that are not in the "ID" output pin list.  There's not even a very good overlap; for example, "Members" may contain 0, 2, 3, 4, 5, but "ID" only contains 4 slices of 0, 1, 2, 3.  Note this is with constant input data so nothing is changing with time.
+  
+  How do these pins correspond to each other?  What does the "Members" data mean?  I had hoped to be able to use that pin to group corresponding Z data, but no joy.  Thanks!

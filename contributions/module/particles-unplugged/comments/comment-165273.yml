@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "165273"
+user: "mediadog"
+created: "19 Sep, 2014 - 02:41"
+body: |-
+  Yup, seems the newer betas (I'm using 31.2) broke the links to "Quad".  Look in the patches in the "Render" folder, and reconnect the texture input and layer outputs.  That fixes most for me; the first demo patch has a problem with DynamicBuffer, in that it is getting NILs, which cause it stop working, a known bug.

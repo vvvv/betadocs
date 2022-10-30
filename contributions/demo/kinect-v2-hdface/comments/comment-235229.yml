@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "235229"
+user: "avaos"
+created: "10 Feb, 2017 - 14:19"
+body: |-
+  I also tried to read the vertices of HDFaceBuffer, but the problem is that i can't even readback the buffer. I tried multiple settings with different ReadBacks. 
+  all I can get is 506 X-Coordinates. Not a single Y or Z! 
+  I don't know the right setup :(
+  
+  https://www.dropbox.com/s/qbhg881ykjpj2qm/Kinect2_HDFace_readback.zip?dl=0

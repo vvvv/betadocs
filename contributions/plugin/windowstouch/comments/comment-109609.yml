@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "109609"
+user: "readme"
+created: "11 Nov, 2013 - 13:45"
+body: |-
+  On Windows 8 I sometimes get Touch Points which are stuck in the plugin, even if not touching the Screen anymore. It's getting solved by resetting the node. Anyone else experienced this behaviour?

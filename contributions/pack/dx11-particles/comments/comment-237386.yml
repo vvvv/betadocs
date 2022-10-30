@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "237386"
+user: "sinus"
+created: "26 Mar, 2017 - 14:32"
+body: |-
+  @luper. got the same problems. things work in pointcloud pack, but not in dx11 particles pack. no colors, no modifiers. no errors.
+  
+  could not track down the problem. i think it is related to my win7. what version do you use?

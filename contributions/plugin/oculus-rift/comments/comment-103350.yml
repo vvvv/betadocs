@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "103350"
+user: "mediadog"
+created: "07 Jul, 2013 - 06:57"
+body: |-
+  Ooops, made a little mistake in my change to OculusRift.v4p - the two Translates that are going to the Transform input pin of the two PerspectiveOffset nodes should be using half the InterpupillaryDistance output of the OVRDevice node instead of the LensOffset output.  It should be positive into the left Translate X, negative into the right.
+  
+  I was able to quickly drop my depth camera head tracker into this, and was able to look down at my body and outstretched arms as a point cloud, too weird!
+  
+  I've got some other changes to make a more general patch and will upload that soon.
+  
+  (WHY can't we attach .v4p files here?!)

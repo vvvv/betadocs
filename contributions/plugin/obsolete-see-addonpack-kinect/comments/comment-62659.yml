@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "62659"
+user: "christosk"
+created: "20 Apr, 2011 - 23:14"
+body: |-
+  Hello evvvverybody,
+  
+  Trying to save some time for newcomers: I tried every possible solution (different USB ports, drivers, .dll changes) and finally got the Kinect working only after using the 'old' drivers (link given by RicardoCastelhano).
+  I just have some flickering (otherwise, everything is OK). Actually after using the 'old' drivers, even the CLNUIDevice Test got totally stable. :-)
+  Thumbs up to both vux and the community for sharing the knowledge.

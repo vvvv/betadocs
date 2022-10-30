@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "257112"
+user: "mburk"
+created: "04 Jul, 2018 - 21:00"
+body: |-
+  hey. have a look in the subpatch "GBUFFER - from instanced geometry". there you will find a material ID buffer, which specifies what material to use per instance. sorry - not really documented at all - yet. The material IDs buffer VL module is just an experimental feature at the moment. it allows you to select a material in the material visualizer when pressing "m" and then applying that material to any object in the active renderer by again pressing "m". but as I said, that's just some playful experimentation..just use the buffer directly.

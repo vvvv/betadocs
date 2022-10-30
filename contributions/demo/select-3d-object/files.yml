@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/select-3d-object-files"
+url: "select-3d-object"
+category: "demo"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "3DObjectSelection.zip"
+            timestamp: "07 Jun, 2015 - 05:23"
+            download_count: "2"

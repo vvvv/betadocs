@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "68251"
+user: "liquid"
+created: "18 Aug, 2011 - 15:18"
+body: |-
+  emm,strange,the TTY log message sayin something(sorry,translated to English):
+  System.TypeLoadException:Runtime Assembly "393949627._dynamic_.1,version=0.0.0.0,Culture=neutral,PublicKeyToken=null" "VVVV.Nodes.C0_3EX9_TextureVlcNode" the method "CreateTexture" not implemented

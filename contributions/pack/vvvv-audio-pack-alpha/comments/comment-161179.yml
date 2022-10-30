@@ -1,0 +1,14 @@
+### YamlMime:ContributionComment
+---
+uid: "161179"
+user: "bjoern"
+created: "31 Jul, 2014 - 21:55"
+body: |-
+  oi cat: [nonofficial x64 version](http://wikisend.com/download/138454/VVVV.Audio_x64.7z)
+  
+  Contains LTC Encoder / Decoder and Filestream with speedpin. 
+  By courtesy of [Meso](https://vvvv.org/businesses/meso).
+  Please test and report.
+  
+  
+  edit: forgot to mention the new nodes / features were of course developed by [tonfilm](http://vvvv.org/users/tonfilm).

@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "109614"
+user: "bo27"
+created: "11 Nov, 2013 - 15:03"
+body: |-
+  @readme.
+  confirmed with various touch screens. same for touchdata pin from dx11 renderer.
+  we are filtering those ghost points with a small module

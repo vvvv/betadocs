@@ -1,0 +1,17 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/google-image-search-meta"
+type: "module"
+author: "everyoneishappy"
+date: "01 Apr, 2011"
+title: "Google Image Search"
+originalURL: "contribution/google-image-search"
+category: "module"
+like_count: "12"
+imported: "true"
+teaser: |-
+  Fetch a spread of textures via google image search.  Should just find the links and pull them from their respective servers as dynamic textures.
+  
+  You can set some of the fun new image search options- color and style.  
+  
+  I don't know how long this will work it's a bit hacked together so will likely be broken at some point.

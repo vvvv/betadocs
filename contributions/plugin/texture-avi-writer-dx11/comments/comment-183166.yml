@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "183166"
+user: "microdee"
+created: "23 Jan, 2015 - 19:58"
+body: |-
+  for crashing on stop: visual studio debugger says "Unhandled exception at 0x00007FFF5A8D387C (ntdll.dll) in vvvv.exe: 0xC0000374: A heap has been corrupted (parameters: 0x00007FFF5A90CE20)." clicking continue will eventually allow vvvv to go on
+  also no exception thrown after debugger continue on stop
+  beta33.3 x64

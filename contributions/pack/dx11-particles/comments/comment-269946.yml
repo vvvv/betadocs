@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "269946"
+user: "tmp"
+created: "26 Nov, 2018 - 13:20"
+body: |-
+  I just uploaded an update for Scale/ColorByDistance nodes on github. They have spreadable inputs for position and radius now.
+  
+  DL: https://github.com/letmp/dx11-particles/archive/master.zip

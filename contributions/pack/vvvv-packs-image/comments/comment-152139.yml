@@ -1,0 +1,15 @@
+### YamlMime:ContributionComment
+---
+uid: "152139"
+user: "motzi"
+created: "19 Mar, 2014 - 00:01"
+body: |-
+  i'm failing in compiling the image-pack from source (using VS2012). 
+  
+  i'm getting lot's of these or similar errors
+  ```
+  Error	1	Unable to find version '31.3.2-develop-35' of package 'VVVV.Core'.	VVVV.CV.Core
+  ```
+  which indicates the wrong dependencies.
+  nuget only installs current versions of these dependencies (i.e. 31.7.1-develop-171) and i have no clue where to get the older ones or update the pack to a newer version.
+  any hints how to get this going? thanks

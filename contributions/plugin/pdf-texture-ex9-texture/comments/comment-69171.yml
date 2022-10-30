@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "69171"
+user: "microdee"
+created: "07 Sep, 2011 - 17:51"
+body: |-
+  in vvvv 45beta26 couldn't be compiled. it gives an error:
+  System.TypeLoadException: Method 'Create Texture' in type 'VVVV.Nodes.EX9_TexturePDFTextureNode' from assembly '-1533255411._dynamic_.4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' does not have an implementation.

@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/snap-nodes-to-grid-files"
+url: "snap-nodes-to-grid"
+category: "module"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "SnapToGrid-1.1.v4p"
+            description: |-
+              v1.1
+            
+            timestamp: "12 Aug, 2014 - 22:46"
+            download_count: "1"

@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "233579"
+user: "tonfilm"
+created: "21 Dec, 2016 - 15:15"
+body: |-
+  @u7angel i've just downloaded it and checked the plugin and it's code.
+  
+  you're right. but not because you shouldn't use nodes written in VL for production, but because the plugin is written in a very efficient way that makes it 5-10 times faster for high spread counts and this clearly took more development time and brain power than the new ArcLength node.

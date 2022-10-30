@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "56525"
+user: "sugokuGENKI"
+created: "01 Dec, 2010 - 17:54"
+body: |-
+  @ beyon, ah yeah. very likely
+  thanks for the spot
+  i'm a little out of time to look into it right now and it's not obvious what's going wrong from inspection of the code. need to debug properly with a set of images.
+  
+  The issue with mixing resolutions is that you have to recreate the texture for every different size. It's definitely possible though, and a quick check on the size would mean that you wouldn't do this when the resolutions are the same.
+  
+  Will look into this next week after current project's over.

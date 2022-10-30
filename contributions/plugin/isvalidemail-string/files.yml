@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/isvalidemail-(string)-files"
+url: "isvalidemail-string"
+category: "plugin"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "StringIsValidEmail.zip"
+            description: |-
+              IsValidEmail (String)
+            
+            timestamp: "14 Feb, 2012 - 17:48"
+            download_count: "1"

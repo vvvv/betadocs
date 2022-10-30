@@ -1,0 +1,22 @@
+### YamlMime:ContributionComment
+---
+uid: "75590"
+user: "kostrelos"
+created: "01 Feb, 2012 - 17:54"
+body: |-
+  hi and thanx for this wonderful add...
+  
+  I seem to have some problems....I just got kinect and I so much wanna use it!!
+  
+  I used CL NUI to check if kinect works fine on my laptop running with Windows7 and it does!!
+  
+  I downloaded the latest version Kinect_OpenNI_Library_1.3 as well as the software and hardware pacs that are mentioned....
+  
+  After installing the pacs I tried to use the patches but no luck...I was getting a red node (missing kinect.dll)
+  
+  I downloaded earlier version and I found this dll I added but still getting this red node....Dnt know what to do....
+  
+  Do I have to copy some dll's from the pacs that I installed?
+  What are the steps to make it work?...please any help!!!
+  
+  Thanx in advance...

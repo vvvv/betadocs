@@ -1,0 +1,23 @@
+### YamlMime:ContributionComment
+---
+uid: "238959"
+user: "yochee"
+created: "22 Apr, 2017 - 23:32"
+body: |-
+  hello, I have a little problem with readback and kinectV1
+  
+  I'd like to save a png sequence from a kinect image stream (MS Kinect dx11 texture/layer). So I select corresponding save settings in Readback, but all that I can see in the resulting png files is the test numbers, not the kinect image (same with bmp, gif.. etc). Note that there is alpha in the image, so not even a black background  texture..
+  
+  ->
+  ![PNG without Kinect image only test number](https://vvvv.org/sites/default/files/imagecache/large/images/53130.png) 
+  
+  
+  Only when I select Jpeg, I can get valid images including test number and kinect image
+  
+  ->
+  ![JPEG with Kinect and test number](https://vvvv.org/sites/default/files/imagecache/large/images/53398.jpg) 
+  
+  
+  Within the renderer I am using R8G8B8A8_UNorm
+  
+  any ideas?

@@ -1,0 +1,23 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/xbox360controller-meta"
+type: "plugin"
+author: "rounce"
+date: "20 Jun, 2011"
+title: "Xbox360Controller"
+originalURL: "contribution/xbox360controller"
+category: "plugin"
+like_count: "7"
+imported: "true"
+teaser: |-
+  1.  Xbox360Controller Plugin
+  
+  Enables use of Xbox 360 compatible controller devices with VVVV.
+  
+  This should (it definately does, that's what I'm using) also work with PS3 controllers that use the MotioninJoy drivers, which allow for X360 controller emulation.
+  
+  ###  Github:
+  
+  https://github.com/srounce/Xbox360Controller
+  
+  TODO: Write this when I get home from work + add help patch

@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "108836"
+user: "catweasel"
+created: "28 Oct, 2013 - 14:23"
+body: |-
+  Autofocus texture out seems to no want to connect to anything for me, ATI
+  Also in the MRE subpatch it looks like its still using 7 slices, is that right?
+  Been trying to get particles working in the MRE environment, but I haven't figured it out yet, I get lots of meshes, but they distort the models somehow, any clues?

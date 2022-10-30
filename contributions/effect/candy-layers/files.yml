@@ -1,0 +1,24 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/candy-layers-files"
+url: "candy-layers"
+category: "effect"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "1"
+            filename: "CandyLayers.zip"
+            description: |-
+              with offset
+            
+            timestamp: "09 Dec, 2010 - 13:59"
+            download_count: "2"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "CandyLayers.zip"
+                    timestamp: "06 Dec, 2010 - 19:09"
+                    download_count: "5"

@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "256692"
+user: "guest"
+created: "28 Jun, 2018 - 16:07"
+body: |-
+  I'm trying to send vvvv to Unity via Spout v2.006 and the help patch. No sender shows up in the SpoutPanel. If I try the other way around, the Unity sender appears in the SpoutPanel, but nothing is recaived in vvvv. Any ideas why it's not working?

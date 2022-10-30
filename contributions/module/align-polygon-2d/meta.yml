@@ -1,0 +1,17 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/align-polygon-(2d)-meta"
+type: "module"
+author: "lasal"
+date: "23 Jan, 2013"
+title: "Align Polygon (2d)"
+originalURL: "contribution/align-polygon-(2d)"
+category: "module"
+credits: |-
+  Lasal
+like_count: "6"
+imported: "true"
+teaser: |-
+  Align 2D point spreads, with different orientation modes.
+  
+  Ver. 2.0, Spreadable, thanks to Woei and Fibo.

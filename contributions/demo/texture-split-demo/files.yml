@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/texture-split-demo-files"
+url: "texture-split-demo"
+category: "demo"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "beta28DepthDemo.zip"
+            timestamp: "13 Aug, 2012 - 20:47"
+            download_count: "1"

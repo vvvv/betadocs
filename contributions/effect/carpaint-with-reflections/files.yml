@@ -1,0 +1,33 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/carpaint-with-reflections-files"
+url: "carpaint-with-reflections"
+category: "effect"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "2"
+            filename: "CarPaint.7z"
+            description: |-
+              DX11 (BUG: doesn't compute tangents & binormals)
+            
+            timestamp: "10 Jul, 2014 - 14:10"
+            download_count: "3"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "1"
+                    filename: "CarPaint_v2.zip"
+                    description: |-
+                      added example with another mesh and a little differently written code
+                    
+                    timestamp: "03 Mar, 2013 - 17:36"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "carpaint.zip"
+                    timestamp: "01 Aug, 2010 - 14:52"
+                    download_count: "3"

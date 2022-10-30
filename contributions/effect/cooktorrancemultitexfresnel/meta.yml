@@ -1,0 +1,17 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/cooktorrancemultitexfresnel-meta"
+type: "effect"
+author: "dottore"
+date: "22 Jun, 2010"
+title: "CookTorranceMultiTexFresnel"
+originalURL: "contribution/cooktorrancemultitexfresnel"
+category: "effect"
+credits: |-
+  Currently as DX11-Version, supported by [Catweasel](http://vvvv.org/users/Catweasel), to thanks so [dottore](http://vvvv.org/users/dottore)
+like_count: "8"
+imported: "true"
+teaser: |-
+  Shading via multitexture. Two textures are interpolated over the surface, and their product results in the final specular BDRF.
+  The initial textures supplied approximate a Cook-Torrance model using one set of possible parameters, but different textures can be used to emulate a wide variety of isotropic BRDF models.
+  In this example lambertian diffuse is still supplied, but it is not required.

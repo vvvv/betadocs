@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "185529"
+user: "woei"
+created: "16 Feb, 2015 - 13:13"
+body: |-
+  while it's pretty straight forward to output the tableview as texture, weaving in the mouse-in-renderer interaction is a pretty extensive task

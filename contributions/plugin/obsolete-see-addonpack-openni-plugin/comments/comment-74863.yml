@@ -1,0 +1,10 @@
+### YamlMime:ContributionComment
+---
+uid: "74863"
+user: "joreg"
+created: "15 Jan, 2012 - 00:34"
+body: |-
+  @xd: should be possible, but not implemented yet. 
+  haven't checked XnMSwipeDetector but should be quite straightfwd to integrate
+  
+  @xd, Milenkij: does 1.3 work for you? xtion and/or kinect?

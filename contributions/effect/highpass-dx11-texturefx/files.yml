@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/highpass-(dx11.texturefx)-files"
+url: "highpass-dx11-texturefx"
+category: "effect"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "Highpass.zip"
+            timestamp: "12 Jul, 2015 - 16:31"
+            download_count: "1"

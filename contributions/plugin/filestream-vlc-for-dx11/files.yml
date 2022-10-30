@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/filestream-(vlc)-for-dx11-files"
+url: "filestream-vlc-for-dx11"
+category: "plugin"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "VVVV.DX11.Nodes_.VLC2_.zip"
+            timestamp: "29 Jun, 2017 - 15:08"
+            download_count: "1"

@@ -1,0 +1,21 @@
+### YamlMime:ContributionComment
+---
+uid: "161134"
+user: "kalle"
+created: "31 Jul, 2014 - 13:07"
+body: |-
+  if you have problems using the dx9version with ATI-cards:
+  
+  just edit Bayer2RGB.fx
+  
+  from
+  ```
+  VertexShader = compile vs_1_1 VS();
+  PixelShader  = compile ps_3_0 PS();
+  ```
+  
+  to
+  ```
+  VertexShader = compile vs_3_0 VS();
+  PixelShader  = compile ps_3_0 PS();
+  ```

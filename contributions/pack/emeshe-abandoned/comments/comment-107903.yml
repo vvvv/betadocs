@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "107903"
+user: "microdee"
+created: "10 Oct, 2013 - 12:47"
+body: |-
+  @ain: well the shadow "softening" is really simple: lookup the shadowmap from different directions and then blend them together. separate directions are generated based on a dynamicbuffer sample offset. also the shadows are not really correct because for avoiding artifacts i needed to implement a "transition" between not shaded and fully shaded based on the difference between the shadowmap position and the actual position

@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "61397"
+user: "patrick"
+created: "25 Mar, 2011 - 18:08"
+body: |-
+  Not sure if an OO version with bitmaps would retain the original look though. It's possible to include the full font set when creating the PDF. A cleaner approach would be to edit a recent layout file (InDesign or Illustrator I guess).

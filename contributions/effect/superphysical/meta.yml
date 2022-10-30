@@ -1,0 +1,45 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/superphysical-meta"
+type: "effect"
+author: "mburk"
+date: "06 Nov, 2016"
+title: "SuperPhysical"
+originalURL: "contribution/superphysical"
+category: "effect"
+credits: |-
+  [vux](http://vvvv.org/users/vux), [dottore](http://vvvv.org/users/dottore), [catweasel](http://vvvv.org/users/catweasel)
+like_count: "41"
+imported: "true"
+teaser: |-
+  SuperPhysical is a forward rendering setup and the successor of SuperPhong.
+  It features cook-torrance shading, physically based rendering and image based lighting.
+  The implementation is mainly based on <https://learnopengl.com/#!PBR/Theory>
+  "focusing on the PBR approach as originally explored by Disney and adopted for real-time display by Epic Games".
+  
+  Some Features:
+  * Physical Based Rendering
+  * Metalness workflow compatible to Substance Designer etc.
+  * Image Based Lighting
+  * VSM Shadows
+  * Image Based Refraction
+  * Parrallax Occlusion Mapping
+  
+  
+  Update 2.0:
+  
+  * Completely overhauled material and light setup powered by custom VL datatypes
+  * New shadow mapping techniques: Exponential Shadow Maps (ESM) and Postfiltered VSM with varying penumbra size
+  * Integrated volumetrics
+  * Lot's of fixes and performance improvements
+  
+  Installation:
+  **Put the contribution into packs. Check out SuperPhysical help patch for usage scenario.**
+  **Compatible from Beta 36!**
+  All feedback welcome! Have fun!
+  
+  https://github.com/michael-burk/SuperPhysical
+  
+  **Deferred version needs DX11 pack version 1.3.1.1.**
+  Built can be found here:
+  https://www.dropbox.com/s/q62fefiwho5d2am/DX11andDX11girlpower.zip?dl=0

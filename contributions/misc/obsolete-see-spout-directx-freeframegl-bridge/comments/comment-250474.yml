@@ -1,0 +1,12 @@
+### YamlMime:ContributionComment
+---
+uid: "250474"
+user: "yochee"
+created: "27 Mar, 2018 - 15:01"
+body: |-
+  Hi Martin,
+  
+  usually the VVVV Spout Sender is not directly visible in Spout Receiver when starting up your patch!
+  To make your texture visible in Spout Receiver, choose "file > select sender" from the Spout Receiver-menu and type in the name of your sender (e.g. "vvvvideo"), then click "Select" and now your vvvv-texture should be visible in the receiver app. Now choose Resolume or whatever tool you want to use and there your vvvv-texture should be visible aswell.
+  
+  cheers

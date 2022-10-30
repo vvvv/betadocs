@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "56826"
+user: "vux"
+created: "08 Dec, 2010 - 06:36"
+body: |-
+  Ok launch error is fixed. Was just a little thread status in the wrong order, so could have a status check error when having complex patches.
+  
+  Seems start/stop is quite faster as well somehow.
+  
+  About the fullscreen switch, doesn't happen here at all (single/dual screen). Anyone else got the same problem?
+  
+  Update probably later in the day.

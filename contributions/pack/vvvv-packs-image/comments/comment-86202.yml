@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "86202"
+user: "mediadog"
+created: "27 Jul, 2012 - 02:45"
+body: |-
+  Life is good!  Two PS3Eyes running together at 60fps 640x480!  The secret to make them work reliably with Contour was to render each texture (Quad -> Renderer -> DX9Texture) before sending into the AsVideo for input into each Contour node.  I suspect this is a vvvv multiple video stream problem, and this technique may well fix the instability with the multiple PS3Eye plugin as well.
+  
+  Great stuff Elliot, thanks a bazillion!

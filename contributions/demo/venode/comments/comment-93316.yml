@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "93316"
+user: "sanch"
+created: "18 Dec, 2012 - 17:36"
+body: |-
+  I did update a new version with a memory leak fix related to event listening on udp message
+  Also now slider/ui element value is not send back to vvvv via udp when updated to save bandwith for portable device.

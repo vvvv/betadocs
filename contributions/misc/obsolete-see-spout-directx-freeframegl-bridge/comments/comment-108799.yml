@@ -1,0 +1,20 @@
+### YamlMime:ContributionComment
+---
+uid: "108799"
+user: "ernest"
+created: "27 Oct, 2013 - 15:07"
+body: |-
+  @psylion: yes you can record the "dx bridge" clip. even multiscreen renderer
+  
+  i did a 3 screen panorama show last weekend.
+  
+  vvvv renderer: 2400x600 
+  resolume arena output: 3840x720 (=3x 1280x720)
+  
+  output of resolume was around 35fps - 40fps. with some fx applied
+  pretty cool.
+  
+  i noticed that "dx bridge" provides faster fps than reading clips from SSD hd. i guess this depends on the pc configuration. very nice anyway.
+  
+  no crashes during the whole show. ~ around 6 hours.
+  AND: vvvv does not "freeze" when changing values. unlike running vvvv in "standalone". (if i remember right..)

@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "76274"
+user: "joreg"
+created: "14 Feb, 2012 - 14:38"
+body: |-
+  so it sounds like there is a problem with your drivers. first make sure to uninstall everything that sounds like "OpenNI" or "PrimeSense". then follow the instructions under "software requirements" on the very top of this page.

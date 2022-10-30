@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "76464"
+user: "mino"
+created: "20 Feb, 2012 - 06:47"
+body: |-
+  @sunep
+  yes, using with multiple renderer will not stable. i think it is library limitation.
+  
+  @androsyn & @m4d
+  i didn't test with multi-screen yet. thanks report!

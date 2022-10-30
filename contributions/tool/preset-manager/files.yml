@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/preset-manager-files"
+url: "preset-manager"
+category: "tool"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "vvvv-PresetManager_v003.zip"
+            description: |-
+              v003 logic ported to VL
+            
+            timestamp: "13 Mar, 2019 - 19:02"
+            download_count: "2"

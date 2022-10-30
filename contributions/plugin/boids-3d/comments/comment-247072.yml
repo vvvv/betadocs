@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "247072"
+user: "mediadog"
+created: "20 Nov, 2017 - 22:57"
+body: |-
+  Does anyone know how to use this so the flocks are spreadable, not just the targets?  I want to have multiple distinct flocks, each with their own parameters, but spreading the input parameters seems to be ignored after the first slice.  Cool plugin though!

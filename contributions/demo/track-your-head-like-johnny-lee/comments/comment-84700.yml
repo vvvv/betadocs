@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "84700"
+user: "mediadog"
+created: "24 Jun, 2012 - 02:02"
+body: |-
+  @metrowave:  If you are using the skeleton tracking facility, then this is pretty easy.  I use the Kinect/Xtion up in a corner of the screen though, so I process the point cloud to do the tracking.  I did a very clunky but simple head tracker using my own seriously hacked version of the original dynamic Kinect plugin.
+  
+  In the plugin I subsampled the point cloud data (by about 8 as I recall), and then looked for the highest group of points a certain distance away from the screen (so hands held up touching the screen wouldn't be followed).  I also did a test tracking those points near the screen, assumed they were a hand, created a vector from that and the head, and then used Button(3D Mesh) to know what object(s) in the 3D VR space appeared to be behind their hand.
+  
+  Not code I'm proud of, it has numerous problems and was just a proof of concept to see what VR with rear-projection 3D was like and how a full VR interaction space would work (not like Minority Report, I can assure you!), so I haven't posted it.  But I am back to experimenting on something related, so I should be cleaning it up soon and making it more robust.  I'm happy to answer any questions though with whatever limited knowledge I've gained so far.

@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "277105"
+user: "schack"
+created: "16 Nov, 2020 - 09:16"
+body: |-
+  Hello there, I am currently working with the *beta 40 x64*. Is there any way to get this plugin running since it is 8 years old? I have installed it multiple times, but the node/plugin does not recognize the runtime or the runtime language.
+  Maybe there is a more recent plugin/node for realizing some complex text to speech. The *SpeechSynthesis* in the addons is too simple. I need more variety in voices and languages.
+  Thanks in advance.

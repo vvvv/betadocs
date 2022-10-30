@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "268738"
+user: "microdee"
+created: "15 Oct, 2018 - 09:33"
+body: |-
+  hmm I never encountered this exception, ccleaner and registry isn't likely to do anything good for this. Try deleting all *.dll.config files in md.core and in Notuiv and see if that helps.

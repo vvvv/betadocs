@@ -1,0 +1,36 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/z1.0-filters-files"
+url: "z1-0-filters"
+category: "effect"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "2"
+            filename: "Z1Filters v3.zip"
+            description: |-
+              Now even with proper pin names :o) getting better
+            
+            timestamp: "27 Sep, 2012 - 11:52"
+            download_count: "1"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "1"
+                    filename: "Z1Filters v2.zip"
+                    description: |-
+                      All is according to naming conventions now.
+                    
+                    timestamp: "27 Sep, 2012 - 11:02"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "Z1Filters.zip"
+                    description: |-
+                      a bit messy version, see v2
+                    
+                    timestamp: "20 Sep, 2012 - 14:05"
+                    download_count: "1"

@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/substring-files"
+url: "substring"
+category: "plugin"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "Substring.zip"
+            timestamp: "03 Aug, 2012 - 14:50"
+            download_count: "32"

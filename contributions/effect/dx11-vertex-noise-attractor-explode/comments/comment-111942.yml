@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "111942"
+user: "hierro"
+created: "28 Dec, 2013 - 02:41"
+body: |-
+  Looks like AutoLayout = 1 is responsible for memory usage grow, any suggestion  ?

@@ -1,0 +1,16 @@
+### YamlMime:ContributionComment
+---
+uid: "155734"
+user: "velcrome"
+created: "20 May, 2014 - 22:57"
+body: |-
+  thanks for the feedback. and yes i make [good use](https://github.com/velcrome/vvvv-Message/blob/master/src/MessageNodes/MessageNodes.cs#L317) of the generic nodes from the sdk. they are truely awesome, can't wait till nuget can be used from within our toolkit.
+  
+  As you can see from my short-witted comments in the source i decided against keeping ringbuffer, buffer and cons. if i were to elaborate I'd say <span class="node">Zip</span> does everything <span class="node">Cons</span> does. I did replace it when cons did not behave as expected some alphas and betas ago. Even though these problems are probably fixed, I did not feel the need for a Cons since.
+  
+  As for Buffer and Ringbuffer - I could not find use for them, but you can  implement them yourself with 2 lines of code. I did not omit them because of laziness, but by choice of simplicity. I have not had a use case yet that couldn't be done with <span class="node">Store (Message)</span>. 
+  
+  If you have a use case, add a reference to %vvvv\lib\core\VVVV.Nodes.Generic.dll in the project explorer and a *using VVVV.Nodes.Generic*
+  ```
+  <PluginInfo(Name%20=%20"RingBuffer",%20Category%20=%20"Message",%20Help%20=%20"Ringbuffers%20all%20Messages",%20Tags%20=%20"")>
+  public class MessageRingBufferNode : RingBufferNode<Message> {}```

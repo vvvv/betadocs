@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/stopwatch-advanced-files"
+url: "stopwatch-advanced"
+category: "module"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "Stopwatch Advanced.v4p"
+            description: |-
+              Version 1
+            
+            timestamp: "03 Jan, 2013 - 17:08"
+            download_count: "1"

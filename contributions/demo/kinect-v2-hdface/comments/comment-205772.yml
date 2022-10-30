@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "205772"
+user: "microdee"
+created: "16 Sep, 2015 - 14:42"
+body: |-
+  Ooh nice vux might have released the multi version of hdface he made for us. In that case in your shader you have to read vertex position and uv's from those buffers via SV_VertexID coming from the geometry.

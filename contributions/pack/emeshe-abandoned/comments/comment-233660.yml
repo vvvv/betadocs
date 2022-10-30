@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "233660"
+user: "guest"
+created: "23 Dec, 2016 - 10:29"
+body: |-
+  @microdee: right, somehow could not find it. just right after compiling new from github i have seen it was sitting there already;) got rid of all red nodes so far but still troubles. There is some mismatch with include paths to mp.fxh folder and shaders not working but also vvvv not complaining whats wrong :(
+  just a half baked shot from girlpower: [droid-environment-renderer](/blog/droid-environment-renderer)

@@ -1,0 +1,19 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/ft-cubic-lens-distortion-meta"
+type: "effect"
+author: "m4d"
+date: "10 Feb, 2011"
+title: "ft Cubic Lens Distortion"
+originalURL: "contribution/ft-cubic-lens-distortion"
+category: "effect"
+credits: |-
+  Francois Tarliers who wrote this Shader for After Effects and also seems to be a really nice guy.
+like_count: "11"
+imported: "true"
+teaser: |-
+  Now with DX11 Version
+  
+  A straight 'port' of Francois Tarliers really nice ft Cubic Lens Distortion. The original shader was written in PixelBender which seems to be a fancy-shmancy adobe word for hlsl. Also included are some PS 2.0 techniques which feature different subsets of the full PS 3.0 implementation and could be handy when one wants to save some precious gpu cycles.
+  Cheers to dEp for accidentally reminding me that i had this shader! ;)
+  (also  check out his [shift-rgb)](xref:contribution/shift-rgb))

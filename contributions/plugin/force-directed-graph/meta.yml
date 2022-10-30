@@ -1,0 +1,19 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/force-directed-graph-meta"
+type: "plugin"
+author: "tonfilm"
+date: "18 Oct, 2010"
+title: "Force Directed Graph"
+originalURL: "contribution/force-directed-graph"
+category: "plugin"
+like_count: "20"
+imported: "true"
+teaser: |-
+  Comes with a wikipedia parser by [joreg](http://vvvv.org/users/joreg).
+  has several force models implemented:
+  - the classic Eades forces
+  - Fruchterman-Reingold forces
+  - Spring-Attractor, as found in the book 'Generative Gestaltung'
+  
+  to install the plugin, just put the folder in the zip inside your /plugins directory in your external contributions folder. remember, you should never put custom content into the vvvv folder.

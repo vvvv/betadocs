@@ -1,0 +1,15 @@
+### YamlMime:ContributionComment
+---
+uid: "228573"
+user: "SuperflysiNZ"
+created: "24 Sep, 2016 - 23:51"
+body: |-
+  I am trying to get this to work with multiple chords simultaneously, to have a spread of keys pressed, rather then just one at a time. 
+  
+  Max for live comes with the connection kit, which has a MIDI out, which sends midi slightly differently, but I am not completely across how to unpack the notes and velocities into spreads. 
+  
+  "OSC MIDI Send – sends MIDI note and velocity data as OSC messages to a Processing sketch."
+  
+  Any help would be greatly appreciated.
+  
+  https://www.ableton.com/en/packs/connection-kit/

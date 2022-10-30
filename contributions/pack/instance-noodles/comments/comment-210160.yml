@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "210160"
+user: "everyoneishappy"
+created: "05 Nov, 2015 - 13:26"
+body: |-
+  Just a couple small changes in the hlsl- 'technique10' to 'technique11' and 'SV_Position' to 'Position'.  I'm guessing it was the latter.

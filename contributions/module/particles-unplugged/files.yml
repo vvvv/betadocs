@@ -1,0 +1,36 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/particles-unplugged-files"
+url: "particles-unplugged"
+category: "module"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "2"
+            filename: "Particles_Unplugged.zip"
+            description: |-
+              Stable 01
+            
+            timestamp: "27 Nov, 2013 - 11:30"
+            download_count: "1"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "1"
+                    filename: "Particles_Unplugged.zip"
+                    description: |-
+                      old, bugged alpha
+                    
+                    timestamp: "26 Sep, 2013 - 07:15"
+                    download_count: "30"
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "PS_Root_Simple.v4p"
+                    description: |-
+                      old, bugged root
+                    
+                    timestamp: "26 Sep, 2013 - 11:15"
+                    download_count: "2"

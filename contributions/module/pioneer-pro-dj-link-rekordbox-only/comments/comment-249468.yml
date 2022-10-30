@@ -1,0 +1,14 @@
+### YamlMime:ContributionComment
+---
+uid: "249468"
+user: "bildwerk"
+created: "28 Feb, 2018 - 16:33"
+body: |-
+  do you have a djm and a cdj to test?
+  
+  djm should send packets with the length 82 where you can see on bytes 78-81 if the volume fader is > 0.
+  but your network card needs to be in promiscuous mode to get all the packets. 
+  
+  have a look at the nodes i did years ago - could you test them? https://files.bildwerk.tv/PioneerDemo.zip
+  
+  Also we should continue this at another place - i would suggest riot (user bildwerk) or skype (in profile).

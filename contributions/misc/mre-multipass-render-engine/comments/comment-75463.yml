@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "75463"
+user: "fibo"
+created: "29 Jan, 2012 - 17:47"
+body: |-
+  FXAA_layerOut.fx is missing so module FXAA_layerOut.v4p is red in "MRE - Multipass Render Engine 1.0.v4p"

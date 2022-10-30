@@ -1,0 +1,15 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/obj-writer-meta"
+type: "module"
+author: "catweasel"
+date: "30 Oct, 2012"
+title: "OBJ writer"
+originalURL: "contribution/obj-writer"
+category: "module"
+credits: |-
+  [catweasel](http://vvvv.org/users/catweasel), Paul Bourke
+like_count: "10"
+imported: "true"
+teaser: |-
+  Heres an updated version. Tested with Meshlab and CURA (Slicer for 3d print)

@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/deferred-shadow-dx11-files"
+url: "deferred-shadow-dx11"
+category: "effect"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "DeferredShadow.zip"
+            timestamp: "01 Oct, 2016 - 11:46"
+            download_count: "1"

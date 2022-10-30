@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/tracker-files"
+url: "tracker"
+category: "plugin"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "tracker.7z"
+            description: |-
+              initial version
+            
+            timestamp: "17 Mar, 2017 - 11:47"
+            download_count: "1"

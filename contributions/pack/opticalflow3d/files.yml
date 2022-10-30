@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/opticalflow3d-files"
+url: "opticalflow3d"
+category: "pack"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "OpticalFlow3D.zip"
+            timestamp: "01 Nov, 2018 - 11:16"
+            download_count: "9"

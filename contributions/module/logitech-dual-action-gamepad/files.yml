@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/logitech-dual-action-gamepad-files"
+url: "logitech-dual-action-gamepad"
+category: "module"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "Logitech Dual Action.zip"
+            description: |-
+              added press for analog sticks (oops)
+            
+            timestamp: "17 Sep, 2010 - 10:55"
+            download_count: "1"

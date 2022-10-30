@@ -1,0 +1,23 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/video-effects-and-compositing-tutorials-meta"
+type: "tutorial"
+author: "robotanton"
+date: "22 May, 2013"
+title: "Video Effects and Compositing Tutorials"
+originalURL: "contribution/video-effects-and-compositing-tutorials"
+category: "tutorial"
+credits: |-
+  [unc](http://vvvv.org/users/unc) and [lecloneur](http://vvvv.org/users/lecloneur) for their TextureFX nodes. [joreg](http://vvvv.org/users/joreg) for an enormous help.
+like_count: "17"
+imported: "true"
+teaser: |-
+  If what you want to do involves applying effects on videostreams or compositing multiple streams of video together, these workshop materials are for you.
+  
+  Basic tutorials and examples on how to use TextureFX nodes to work with the same tricks and techniques you could previously achieve only in Photoshop or After Effects. And what's best: everything can be animated in real-time.
+  
+  Presented at [Node13](http://node13.vvvv.org/).
+  
+  The same patches are hosted on [bitbucket](https://bitbucket.org/antonbit/video-effects-and-composition), everyone is welcome to make them better.
+  
+  2013, Anton M ([robotanton)](http://vvvv.org/users/robotanton))

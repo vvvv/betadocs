@@ -1,0 +1,27 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/scenegraph-files"
+url: "scenegraph"
+category: "plugin"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "2"
+            filename: "SceneGraph_v2.0.zip"
+            timestamp: "31 Mar, 2019 - 18:41"
+            download_count: "1"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "1"
+                    filename: "SceneGraph_v1.1.zip"
+                    timestamp: "16 Oct, 2018 - 13:35"
+                    download_count: "2"
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "SceneGraph_v1.0.zip"
+                    timestamp: "19 Jul, 2018 - 23:54"
+                    download_count: "2"

@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "72926"
+user: "hierro"
+created: "03 Dec, 2011 - 22:46"
+body: |-
+  Hola Elliot, goow work, by  the way, why the kinect plugin are called OpenNI ? I thought it would use Emgu kinect imaging, are u using someway OpenNI instead  ?  is it possible in ur point of view to use both KinectCapture (EMGU) and OpenNi sametime ?

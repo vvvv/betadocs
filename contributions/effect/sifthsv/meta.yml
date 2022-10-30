@@ -1,0 +1,13 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/sifthsv-meta"
+type: "effect"
+author: "kalle"
+date: "19 Apr, 2012"
+title: "SiftHSV"
+originalURL: "contribution/sifthsv"
+category: "effect"
+like_count: "6"
+imported: "true"
+teaser: |-
+  replace parts of a texture depending on color.

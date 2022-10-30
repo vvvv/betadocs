@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "218090"
+user: "mediadog"
+created: "18 Mar, 2016 - 03:03"
+body: |-
+  @T.Kit Did you install the latest Kinect SDK from Microsoft, and it works OK?
+  
+  Also, you should NOT be using this Kinect2 b33.7 pack, as Kinect support is now in the DX11 pack - this contribution should be labeled as obsolete.

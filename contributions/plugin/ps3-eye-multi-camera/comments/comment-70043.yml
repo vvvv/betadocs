@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "70043"
+user: "mediadog"
+created: "04 Oct, 2011 - 02:42"
+body: |-
+  With Win7 x64 and beta26, things will run fine for anywhere from a few seconds to minutes, and then either the frame rate will drop to 1 every few seconds, or vvvv will crash (or both).  When the frame rate drops, vvvv is also very unresponsive, but my CPU use is down around 25%, the same as when it is running OK.
+  
+  Anyone else seen this?  Tried this under Win7 x64?  Thanks!

@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "199590"
+user: "esnho"
+created: "08 Jul, 2015 - 11:22"
+body: |-
+  I understand, wich vvvv and kinect2 nodes are you using? I'm up to date :)
+  
+  The split node should be in DX11.Texture2dArray contribution, is linked in the first comment.

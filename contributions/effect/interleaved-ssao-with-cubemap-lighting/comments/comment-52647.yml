@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "52647"
+user: "m4d"
+created: "13 Sep, 2010 - 01:19"
+body: |-
+  thanks for the nice comment, aze! i posted an updated technique which incorporates edgeblur to compensate for the missing hardware antialiasing. [dottore ](http://vvvv.org/users/dottore+) helped me with porting and evaluating several different techniques over the weekend (big up to him and [defetto](http://vvvv.org/users/defetto)!), but this seems to be as good as it gets in dx9. dx10 ofcourse is a whole different story. (with msaa on mrts.. mhmmm..)

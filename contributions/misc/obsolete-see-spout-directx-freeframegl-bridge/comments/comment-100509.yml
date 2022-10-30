@@ -1,0 +1,21 @@
+### YamlMime:ContributionComment
+---
+uid: "100509"
+user: "vux"
+created: "05 May, 2013 - 13:08"
+body: |-
+  Sounds nice!
+  
+  I got the same issue with Interop, could come from Optimus. Would be quite nice to see in Resolume what Adapter they use (probably need their dev to add it, option to switch would be also nice on the way :)
+  
+  To make it work with dx11:
+  -It seems the interop layer is 9 only, but you can use Cuda instead (that will cost you 2 gpu copies, which is not much, and it's very easy to do, you don't even need to write a kernel ;)
+  
+  To make it work from Resolume to 4v:
+  -You could have another FFGL plugin connected to master/output that does operation in reverse (eg: grab GL surface and convert in shared dx texture). That's in theory pretty much as easy.
+  
+  To make it work with ATI:
+  -Well neither Cuda/Interop will work in that case, OpenCL 1.2 had DirectX (9 and 11) interoperability, but heard some cards don't support it properly (so would need testing). 
+  
+  On side note: 
+  I'll add you project file for vs2010 (since did compile for debug), you also have a file missing on your git (GL extentions loader) and change filters a bit (don't need 8 megs of .sdf file ;)

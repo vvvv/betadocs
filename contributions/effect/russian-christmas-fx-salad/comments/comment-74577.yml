@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "74577"
+user: "liquid"
+created: "09 Jan, 2012 - 04:59"
+body: |-
+  @bo27,ok,its working now,some shader mess up,i.e the Distort.fx should be using the shader from the textureFX but somehow using the wrong one.anyway,thxs for the xmas gift!

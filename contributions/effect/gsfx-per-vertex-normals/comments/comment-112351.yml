@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "112351"
+user: "microdee"
+created: "07 Jan, 2014 - 21:48"
+body: |-
+  adjacency is not the full picture because that only includes the triangles that share the same edges, however there could be any number of triangles sharing the same vertice between the 2 adjacent triangle of the neighbouring edges. think of the triangle fan closing the top and the bottom of a cylinder.

@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/imagemixer-files"
+url: "imagemixer"
+category: "module"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "ImageMixer.zip"
+            timestamp: "10 Jan, 2013 - 06:33"
+            download_count: "3"

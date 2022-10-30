@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "245145"
+user: "bjoern"
+created: "10 Sep, 2017 - 18:01"
+body: |-
+  If you leave both at 0 it will take the original size. There are tooltips for every option, just hover over the fields with your mouse. I had "frozen" filetextures too when trying bc7. With the player node everything works fine. 
+  Also with bc7 try *Min Compress* and see if it makes any difference qualitywise, it's a lot faster.

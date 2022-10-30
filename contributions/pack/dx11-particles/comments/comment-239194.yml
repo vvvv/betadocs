@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "239194"
+user: "guest"
+created: "03 May, 2017 - 05:13"
+body: |-
+  Thanks tmp!
+  
+  Count per particle is set to 1. Reducing the Kinect resolution seems to have the same effect as changing the value in the Mod node, causing a regular emission grid, that I actually would like to randomize a bit. Btw, is there a way to set the lifespan of the particles (in the dx11.pointcloud version too)? I am thinking of reducing the lifespan depending on the amount of Kinect players in order to retain smooth performance.

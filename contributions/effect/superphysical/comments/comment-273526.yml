@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "273526"
+user: "tgd"
+created: "15 Aug, 2019 - 13:13"
+body: |-
+  hi thanks, just tried it but this does not solve the culling issue for me. does this work for you?
+  i want to be able to set alpha for the geometry and need a blend node on the superphysiscal module.
+  the alpha blending works just fine, it is just the wrong culling in the reflection

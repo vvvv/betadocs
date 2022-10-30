@@ -1,0 +1,53 @@
+### YamlMime:ContributionComment
+---
+uid: "107488"
+user: "catweasel"
+created: "03 Oct, 2013 - 14:34"
+body: |-
+  The PSEmitVelocityTexturedQuad seems to cause the errors (nvidia GTX470), but even deleting this, I still don't see any particles :(
+  
+  ```
+  Stacktrace:
+     at SlimDX.Result.Throw<T>(Object dataKey, Object dataValue)
+     at SlimDX.Result.Record<T>(Int32 hr, Boolean failed, Object dataKey, Object dataValue)
+     at SlimDX.Direct3D11.Texture2D.Build(Device device, Texture2DDescription description, D3D11_SUBRESOURCE_DATA* data)
+     at SlimDX.Direct3D11.Texture2D..ctor(Device device, Texture2DDescription description)
+     at FeralTic.DX11.Resources.DX11RenderTarget2D..ctor(DX11RenderContext context, Int32 w, Int32 h, SampleDescription sd, Format format, Boolean genMipMaps, Int32 mmLevels, Boolean allowUAV, Boolean allowShare)
+     at FeralTic.DX11.DX11RenderTargetPool.Lock(Int32 w, Int32 h, Format format, SampleDescription sd, Boolean genMM, Int32 mmLevels, Boolean oneframe)
+     at VVVV.DX11.DX11TempRTRendererNode.OnUpdate(DX11RenderContext context)
+     at VVVV.DX11.AbstractDX11Renderer2DNode.Update(IPluginIO pin, DX11RenderContext context)
+     at VVVV.DX11.AbstractDX11Renderer2DNode.Render(DX11RenderContext context)
+     at VVVV.DX11.Lib.RenderGraph.DX11DeviceRenderer.ProcessNode(DX11Node node)
+  
+  00:00:06 ERR : SlimDX.Direct3D11.Direct3D11Exception in SlimDX: E_INVALIDARG: An invalid parameter was passed to the returning function (-2147024809)
+  
+  Stacktrace:
+     at SlimDX.Result.Throw<T>(Object dataKey, Object dataValue)
+     at SlimDX.Result.Record<T>(Int32 hr, Boolean failed, Object dataKey, Object dataValue)
+     at SlimDX.Direct3D11.Texture2D.Build(Device device, Texture2DDescription description, D3D11_SUBRESOURCE_DATA* data)
+     at SlimDX.Direct3D11.Texture2D..ctor(Device device, Texture2DDescription description)
+     at FeralTic.DX11.Resources.DX11RenderTarget2D..ctor(DX11RenderContext context, Int32 w, Int32 h, SampleDescription sd, Format format, Boolean genMipMaps, Int32 mmLevels, Boolean allowUAV, Boolean allowShare)
+     at FeralTic.DX11.DX11RenderTargetPool.Lock(Int32 w, Int32 h, Format format, SampleDescription sd, Boolean genMM, Int32 mmLevels, Boolean oneframe)
+     at VVVV.DX11.DX11TempRTRendererNode.OnUpdate(DX11RenderContext context)
+     at VVVV.DX11.AbstractDX11Renderer2DNode.Update(IPluginIO pin, DX11RenderContext context)
+     at VVVV.DX11.Lib.RenderGraph.DX11DeviceRenderer.ProcessNode(DX11Node node)
+  
+  00:00:06 ERR : System.NullReferenceException in VVVV.DX11.Nodes: Object reference not set to an instance of an object.
+  
+  Stacktrace:
+     at VVVV.DX11.Nodes.DX11QuadLayerNode.RenderInstancedTextured(DX11RenderContext context)
+     at VVVV.DX11.Nodes.DX11QuadLayerNode.Render(IPluginIO pin, DX11RenderContext context, DX11RenderSettings settings)
+     at VVVV.DX11.Nodes.DX11RendererNode.Render(DX11RenderContext context)
+     at VVVV.DX11.Lib.RenderGraph.DX11DeviceRenderer.ProcessNode(DX11Node node)
+  
+  00:00:06  *  : <graph%20event> unexpected error: Object reference not set to an instance of an object.
+  00:00:06  -  : To help us track this error down, enable the ExceptionDialog via the menu or starting vvvv with /showexceptions.
+  
+  ```
+  
+  Is the error after deleting it.
+  Setting the stride to 48 (and restarting the pacth) I get some quads drawn to screen. I've looked through the shaders but see anything obvious thats not working.
+  
+  
+  I was also starting on a paticle system in the same way, but had got stuck porting my boids over, got clustering ok, but moving away was broken! I think its a really useful idea though, a modular particle system would be amazing, and if you need more performance you can combine the maths into fewer shaders so you get less draw calls...
+  Interesting start, we need to get this working and then we can start to build a library of behaviours!

@@ -1,0 +1,10 @@
+### YamlMime:ContributionComment
+---
+uid: "69517"
+user: "tekcor"
+created: "17 Sep, 2011 - 13:13"
+body: |-
+  hey please have a look in this thread:
+  [gpu-particles-wrong-clipping-z-buffer-problem](https://discourse.vvvv.org/t/gpu-particles-wrong-clipping-z-buffer-problem)
+  
+  something is not rigth with the ParticlesGPU_3d_Constant_PPcolor.fx or for some oither reason particles are not drawn in the correct depth order.

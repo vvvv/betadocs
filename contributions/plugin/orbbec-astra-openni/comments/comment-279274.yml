@@ -1,0 +1,12 @@
+### YamlMime:ContributionComment
+---
+uid: "279274"
+user: "schlonzo"
+created: "22 Sep, 2021 - 10:25"
+body: |-
+  this might fix problems with latest dx11 pack:
+  
+  Extract the contribution’s openni folder into the dx11 pack plugin folder (…\packs\dx11\nodes\plugins)
+  Download DX11 and DX11 Particles packs
+  Download & install the Orbbec Astra driver https://orbbec3d.com/develop/ (tested with v 4.3.0.17)
+  Install OpenNI https://structure.io/openni (tested with v2.2.0.33 Beta)

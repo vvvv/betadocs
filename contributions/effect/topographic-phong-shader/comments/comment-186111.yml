@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "186111"
+user: "sebl"
+created: "22 Feb, 2015 - 21:10"
+body: |-
+  [elevation](xref:contribution/elevation) has a transform to rotate the lines' orientations. 
+  
+  also the lines itself are controled by the shader itself. have a look at this ddx and ddy thingy. they can also be replaced with ddx_fine and ddy_fine, but is doesn't seem to make a huge difference.

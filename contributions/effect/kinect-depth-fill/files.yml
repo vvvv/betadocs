@@ -1,0 +1,27 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/kinect-depth-fill-files"
+url: "kinect-depth-fill"
+category: "effect"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "1"
+            filename: "KinectDepthFill_0.2.zip"
+            description: |-
+              v0.2 for dx11
+            
+            timestamp: "19 Jun, 2015 - 00:58"
+            download_count: "8"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "KinectDepthFill_0.1.zip"
+                    description: |-
+                      v0.1 for dx11
+                    
+                    timestamp: "17 Jun, 2015 - 01:52"
+                    download_count: "1"

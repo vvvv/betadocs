@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "64480"
+user: "gilbi"
+created: "31 May, 2011 - 22:56"
+body: |-
+  I was actually using RegExpr before I created this module. Similar problems are involved with RegExpr as far as spread-ability and possibly performance as well.

@@ -1,0 +1,22 @@
+### YamlMime:ContributionComment
+---
+uid: "226063"
+user: "bjoern"
+created: "31 Aug, 2016 - 21:17"
+body: |-
+  HSM 
+  
+  
+  The [UML article on wikipedia](https://en.wikipedia.org/wiki/UML_state_machine#UML_extensions_to_the_traditional_FSM_formalism) I linked in my first post describes the advantages quite nicely. But in short: what [beyon](http://vvvv.org/users/beyon) said. 
+  
+  Most likely one won't need it for the typical car show exhibit we are all so fond of. 
+  
+  But think of a more complex iot-type-situation, e.g. a concept car with a lot of embedded devices, sensors, buttons, touchscreens, motors and whatnot simultaneously talking to and managed by a central "vvvv-hub".
+  
+  
+  @beyon / Stateless
+  
+  There is a GUI for *Stateless* / *Visual Studio* called [Stateless Designer](https://statelessdesigner.codeplex.com/). It currently also only supports FSM though.
+  
+  
+  Ah and while we are at it, also a nice thing supported by stateless and explained [here](https://en.wikipedia.org/wiki/UML_state_machine#Guard_conditions) are guard clauses.

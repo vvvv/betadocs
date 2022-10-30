@@ -1,0 +1,27 @@
+### YamlMime:ContributionComment
+---
+uid: "75649"
+user: "gregsn"
+created: "02 Feb, 2012 - 17:40"
+body: |-
+  @dottore/all: have you ever tried to reduce the amount of necessary links?
+  
+  building up the scene looks like quite some amount of linking work. (even if you know of the CTRL-SHIFT-D and CTRL_SHIFT-V features that do most of the linking for you). or at least readability and editability drop by each primitive added to the scene.
+  
+  i wonder if we could use those old s and r nodes to do some kind of automatic linking. well those old nodes have a pretty new feature that probably nobody ever used / trusted upon: automatic connecting to the *nearest* sender, where nearest needs to be understood in terms of the patch hierarchy. 
+  
+  imagine a patch system that has one patch *scene* that includes 2 patches *room1* & *room2*. now we could place some modules in room1 (e.g. a light source module sending all necessary light source infos). now put some rendering modules that consume (receive) those light source infos into the same room. they will connect to the light source placed in room1. if you now use the same structure in room2 they shouldn't interfere. 
+  
+  the "patch distance" to the other room is always bigger (think of a relative path that needs an additional ".." - to get into the scene patch - and an additional roomX to get into the other room). 
+  
+  if you miss to place a light source into room2 it will however just connect to the light source in room1. 
+  
+  However it might also be a nice idea to just drop an additional light source into the parent patch "scene". now each subpatch that has no own light source will just use the parent light source. 
+  
+  so i think if used right, we could get some magic plug & play from that. one could also think of many other infos (like global transform??) that could be received via that system. 
+  
+  i'm not totally aware of all pros & cons, but the abstract idea is that sometimes hardwiring is better and of course more flexible, but sometimes autowiring can be flexible enough and of course offers faster patching.
+  
+  i guess that in cases where now typically only one data source (e.g. light) exists autoconnecting is a candidate worth testing.
+  
+  so: i never used that feature myself, but i would give it a try. in earlier days i would have said: never use s and r nodes if you want to keep modularity. now with those new features i would want to argue: you get another kind of modularity which could be quite nice...

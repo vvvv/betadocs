@@ -1,0 +1,24 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/catmapper-meta"
+type: "tool"
+author: "catweasel"
+date: "31 May, 2013"
+title: "CatMapper"
+originalURL: "contribution/catmapper"
+category: "tool"
+credits: |-
+  [catweasel](http://vvvv.org/users/catweasel)[elliotwoods](http://vvvv.org/users/elliotwoods)
+like_count: "7"
+imported: "true"
+teaser: |-
+  This is a basic patch for doing 3D mapping using 3d Homography.
+  The idea is that you choose 4 points on your 3d model, and then match them to the real world, once done those points become fixed, and you move your projector until the perspective matches the rest of the scene. Its pretty quick to settup as long as your model is accurate.
+  Has a basic multiple coloured softshadows implimentation. 
+  The model is from a very quick mapping I did a few years ago (that how long this patch has been kicking around before tidying!)
+  
+  Please if you make use of this patch, please include any updates you might make into the contrbution, it would nice to have a remixed mapping patch!
+  I have had it working with Elliots camera calibration plugins, but they are a bit flaky execept in a specific build of vvvv that he has, hopefully that will be fixed soon...
+  Let me know if it works for you
+  
+  Cat

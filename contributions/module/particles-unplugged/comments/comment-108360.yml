@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "108360"
+user: "VVVValentin"
+created: "19 Oct, 2013 - 09:08"
+body: |-
+  Just tried to run the demo patch.
+  Getting a blue renderer, maxed out gpu, 10 fps and nothing showing in the renderer o.O
+  Windows 7, AMD Radeon HD 6780, 32bit vvvv.

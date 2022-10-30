@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "198769"
+user: "tonfilm"
+created: "11 Jun, 2015 - 01:02"
+body: |-
+  do you see any messages in TTY? is the output of the plugin connected to an audio sink like AudioOut or Meter, some plugins need to process data or use strange hooks to update their UI...

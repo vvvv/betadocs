@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "86604"
+user: "gaz"
+created: "07 Aug, 2012 - 10:15"
+body: |-
+  Bug when object is destroyed, whole scene is frozen for a frame. 
+  
+  Very stable otherwise.

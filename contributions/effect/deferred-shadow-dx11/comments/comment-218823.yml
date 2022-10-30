@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "218823"
+user: "antokhio"
+created: "02 Apr, 2016 - 10:28"
+body: |-
+  hi, yea there is a problem... comment line 68 in DefferedShadow.tfx 
+  ```
+  if (d==1) { return 0; }
+  ```
+  ```
+  //if (d==1) { return 0; }
+  ```

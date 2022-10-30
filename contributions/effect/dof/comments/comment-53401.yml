@@ -1,0 +1,10 @@
+### YamlMime:ContributionComment
+---
+uid: "53401"
+user: "rosenfranz"
+created: "27 Sep, 2010 - 08:42"
+body: |-
+  ahh. just saw that something happened here. cool.
+  Also tried to change the vertex shader version. still no effect.
+  @dottore: my gfx card is a radeon x800gt. Read somewhere that this card uses pixelshader version 2.0. maybe that is the problem?
+  i also tried to change the PS version from 3.0 to 2.0. Didn't change anything. Besides I think that your shader needs version 3.0 right?

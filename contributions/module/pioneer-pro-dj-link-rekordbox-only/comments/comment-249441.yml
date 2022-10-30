@@ -1,0 +1,12 @@
+### YamlMime:ContributionComment
+---
+uid: "249441"
+user: "andresc4"
+created: "27 Feb, 2018 - 17:01"
+body: |-
+  @bildwerk ohh,,, that the trick...
+  I just spend several hours looking at wireshark looking for nothing
+  It seems that the CDJ need some kind of querry to get the track title
+  Next time I have access to 2 of them I will give it a try
+  I found the CDJ name in one packet, at 50000 port, not 50001 , also the mixer does the same
+  but not other message was sent from the mixer no matter that I move

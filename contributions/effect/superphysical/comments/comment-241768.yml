@@ -1,0 +1,10 @@
+### YamlMime:ContributionComment
+---
+uid: "241768"
+user: "letoast"
+created: "02 Jul, 2017 - 22:37"
+body: |-
+  Noticed a problem with the lighting function - it behaves very badly on low poly flat geometry, you can notice the warping as the highlight goes from polygon to polygon.
+  
+  low poly:![](https://vvvv.org/sites/default/files/imagecache/large/images/0-Renderer_2017.07.03-00.34.37.png) low poly wire: ![](0-Renderer_2017.07.03-00.35.49.png) 
+  high poly: ![](https://vvvv.org/sites/default/files/imagecache/large/images/0-Renderer_2017.07.03-00.36.30.png) high poly wire:![](0-Renderer_2017.07.03-00.36.52.png)

@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "205433"
+user: "microdee"
+created: "13 Sep, 2015 - 00:02"
+body: |-
+  amazing and inspiring stuff! Several geomfx's were missing from couple of modules like PassThrough. It was simply not there not even a red node. That could have been fixed if geomfx's were put into *pack*/geomfx instead of next to the modules, well this applies to fx's as well (*pack*/dx11).

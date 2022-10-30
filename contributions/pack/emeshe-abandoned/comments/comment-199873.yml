@@ -1,0 +1,10 @@
+### YamlMime:ContributionComment
+---
+uid: "199873"
+user: "letoast"
+created: "19 Jul, 2015 - 04:45"
+body: |-
+  Didn't know where to post this, but I created the simplest scene using Emeshe. It's for everyone out there who don't know what anything is and finds it hard to navigate through the relatively messy examples in Emeshe's girlpower. It's a scene with a sphere, a grid, a sunlight and a spotlight with shadows. I tried organizing it the best I could. I think a basic thing like this should always be included. It took me quite some time to figure out what is what and reverse engineer the examples in Emeshe's girlpower. I know Emeshe is capable of doing a lot more than this, but you have to start somewhere and the start should be very simple. I hope people find it useful:
+  ![A simple example proj for easier figuring out how to work with Emeshe](https://vvvv.org/sites/default/files/imagecache/large/images/Capture_9.JPG) 
+  
+  https://drive.google.com/file/d/0B-UKHEnMh2kcU0s3eGRjblJCQ3c/view?usp=sharing

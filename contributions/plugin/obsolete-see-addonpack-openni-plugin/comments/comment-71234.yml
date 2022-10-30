@@ -1,0 +1,16 @@
+### YamlMime:ContributionComment
+---
+uid: "71234"
+user: "phlegma"
+created: "29 Oct, 2011 - 12:18"
+body: |-
+  hey elektormeier,
+  
+  the joints are also listed in the enum of the openniwraper i just passed them trough to the nodes. but they are not implemented in the Nite Algorithm. For further information have a look at the openni documentation. How openni and nite works together can you find here:
+  http://www.openni.org/Documentation.aspx on page 5.
+  
+  @dl-100
+  ckeck the config.xml in there you define nodes (they are also called nodes) for the openni driver.
+  if there something went wrong or the nodes are not defined the right way the vvvv gets problem to create the vvvv nodes. 
+  see: http://www.openni.org/Documentation.aspx page 33.
+  also disconnect the device by installing the driver and plug it in when the installation is finished

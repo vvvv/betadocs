@@ -1,0 +1,34 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/ui-plugin-meta"
+type: "plugin"
+author: "rmueller"
+date: "24 Dec, 2013"
+title: "UI Plugin"
+originalURL: "contribution/ui-plugin"
+category: "plugin"
+like_count: "6"
+imported: "true"
+teaser: |-
+  This first version is not finished yet but good enough to test and give feedback ;)
+  
+  Included nodes:
+  * Button (Forms)
+  * Checkbox (Forms)
+  * Cons (Forms)
+  * Font (Forms)
+  * Picture (Forms)
+  * Progressbar (Forms)
+  * Renderer (Forms)
+  * Slider (Forms)
+  * Text (Forms)
+  * Textbox (Forms)
+  
+  
+  ##  UPDATE:
+  
+  I've made a WPF version!
+  Because I don't have much spare time now, I've put the source on GitHub
+  <https://github.com/robin-mueller/VVVV.Packs.UI>
+  
+  Hope it's usefull and you make suggestions ;)

@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "235377"
+user: "colorsound"
+created: "18 Feb, 2017 - 18:42"
+body: |-
+  @[io](http://vvvv.org/users/io)
+  Try again now, the transform sorting is fixed and also after moving to vvvv_50beta35_x64 and vvvv-packs-dx11-1.0.1-x64 , the initiation bug is gone. 
+  So it should work out of the box now.

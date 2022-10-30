@@ -1,0 +1,17 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/crt-shader(dx11)-meta"
+type: "effect"
+author: "letoast"
+date: "19 Aug, 2017"
+title: "CRT Shader(DX11)"
+originalURL: "contribution/crt-shader(dx11)"
+category: "effect"
+credits: |-
+  Michal_ from Unity3D community forums for original shader (https://forum.unity3d.com/threads/need-some-help-writing-a-simple-scanlines-shader.375868/#post-2439894) and [letoast](http://vvvv.org/users/letoast) for port to dx11 and vvvv
+like_count: "3"
+imported: "true"
+teaser: |-
+  A texturefx dx11 CRT TV emulation shader.
+  
+  Please mess around with the variables to get the look that you want.

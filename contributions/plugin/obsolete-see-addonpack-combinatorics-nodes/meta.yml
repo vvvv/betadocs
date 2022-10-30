@@ -1,0 +1,30 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/obsolete-see-addonpack-combinatorics-nodes-meta"
+type: "plugin"
+author: "bjoern"
+date: "20 Nov, 2013"
+title: "[OBSOLETE, see Addonpack] Combinatorics Nodes"
+originalURL: "contribution/obsolete-see-addonpack-combinatorics-nodes"
+category: "plugin"
+credits: |-
+  [Adrian Akison](http://www.codeproject.com/Members/Adrian-Akison)
+like_count: "8"
+imported: "true"
+teaser: |-
+  The nodes wrap the combinatorics implementations of Adrian Akison, taken from his [CodeProject article](http://www.codeproject.com/Articles/26050/Permutations-Combinations-and-Variations-using-C-G)
+  
+  Contains:
+  Combinations (Color Combinatorics)
+  Combinations (Spreads Combinatorics)
+  Combinations (String Combinatorics)
+  
+  Permutations (Spreads Combinatorics)
+  Permutations (String Combinatorics)
+  
+  Variations (Color Combinatorics)
+  Variations (Spreads Combinatorics)
+  Variations (String Combinatorics)
+  
+  
+  x86 binary with help-patches.

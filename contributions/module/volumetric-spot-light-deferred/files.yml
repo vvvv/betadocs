@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/volumetric-spot-light-(deferred)-files"
+url: "volumetric-spot-light-deferred"
+category: "module"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "VolumetricLight.zip"
+            timestamp: "30 Sep, 2016 - 13:54"
+            download_count: "1"

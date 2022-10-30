@@ -1,0 +1,29 @@
+### YamlMime:ContributionComment
+---
+uid: "58825"
+user: "ft"
+created: "23 Jan, 2011 - 09:42"
+body: |-
+  @puig
+  
+  There are different reasons why I wrote this plugin (it's not finished yet).
+  
+  1. The fact that vvvv's VideoTexture only renders the video on 1 device (if you have 1 renderer on your primary display and another one on your secondary display, for example the beamer). The Vlc plugin makes sure the video is displayed on the 2 devices.
+  
+  2. The fact that switching between files using the Filestream node, causes a framerate drop in vvvv. Since the Vlc plugin (pre)loads, starts and stops video's in a separate thread, vvvv's framerate will hardly be affected by switching between different video-files.
+  
+  3. Vlc allows you to resize the decoded video. If you want to display 10 video's at the same time, chances are the resolution these 10 video's are shown on screen is much lower than their native resolution. Using Vlc you can minimize the number of pixels that have to be transferred to the graphics card, without having to recode the video's.
+  
+  4. you can add some useful effects to the video, like deinterlacing. Nothing is more ugly than interlaced video.
+  
+  5. (not included in this version yet) it should be possible to load image files as textures too, all using the same node. Also without slowing down vvvv while loading a new image as a texture.
+  
+  6. in future, I want to be able to nicely loop video's using a crossfade of a configurable number of frames.
+  
+  7. You could open internet streams (I haven't tested this myself yet), webcams, your DVB receiver, DVD's etc. Maybe even use it as a streaming video server (I don't know, you should check videolan.org on how to set this up, it might be possible). Check out VLC's generated commands for example when opening your webcam. I have chosen to split the various commands by using the | (pipe) symbol. Which means you could open your webcam using a filename that looks like 
+   dshow:// | dshow-vdev=name of your webcam | dshow-adev= | dshow-caching=200
+  
+  
+  So if any of this is useful to you, you could use this plugin. Otherwise it doesn't matter, and you could keep using FileStream connected to VideoTexture.
+  
+  If you feel like testing whether you could use it to stream video out of vvvv, I'd be glad to know how you did it. I am sure some other people would be interested as well.

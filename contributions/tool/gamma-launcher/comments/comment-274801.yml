@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "274801"
+user: "motzi"
+created: "12 Jan, 2020 - 11:06"
+body: |-
+  nice, thanks!
+  just a usability remark: whether or not a checkbox is active or not is quite ambiguous when using only colors. to me, using this for the first time, having the checkbox "colored" would mean it is "selected" and white to be "not selected" (i guess this assumption comes from the colored application start button below). 
+  in this app it is the other way round and resulted in an exception being thrown because the c:\repos dir did not exist. (this probably should also be handled more gracefully as less development affine users might be scared by the exception :)
+  
+  a more clear "selected" visualization would be great! (probably this belongs to the elementa issues, not here...)

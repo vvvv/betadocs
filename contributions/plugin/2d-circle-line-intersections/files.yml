@@ -1,0 +1,27 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/2d-circle-line-intersections-files"
+url: "2d-circle-line-intersections"
+category: "plugin"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "1"
+            filename: "2D Intersections.zip"
+            description: |-
+              2D Intersections (Spreaded vers.)
+            
+            timestamp: "06 Feb, 2013 - 11:10"
+            download_count: "2"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "2D Intersections.zip"
+                    description: |-
+                      2D Intersections.
+                    
+                    timestamp: "11 Jun, 2011 - 11:41"
+                    download_count: "2"

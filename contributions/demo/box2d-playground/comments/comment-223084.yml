@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "223084"
+user: "tgd"
+created: "13 Jul, 2016 - 14:22"
+body: |-
+  Just to clarify: This thing relies solely on the awesome box2d nodes provided by [vux](http://vvvv.org/users/vux) in the vvvv addonpack. Due to changes in the vvvv core these are unfortunately out of order in the recent vvvv versions. Please see  [box2d-in-beta34.2-broken.](https://discourse.vvvv.org/t/box2d-in-beta34.2-broken.) Lets hope there is a chance vux can make them work again sometime.

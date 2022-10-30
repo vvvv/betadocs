@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "256678"
+user: "u7angel"
+created: "28 Jun, 2018 - 09:39"
+body: |-
+  @bo27 , so if i understand you right, you want some state grouping, something like nested statemachines in states or even simpler: regions. to sort of group states and tell wether the active state belongs to a certain group of states, right ?
+  
+  if so, yes this is on my list, we need that too. just working out what would be the most intuitive way of defining this. in the end, you would'nt need all this sift stuff.

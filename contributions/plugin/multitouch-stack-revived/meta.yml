@@ -1,0 +1,17 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/multitouch-stack-revived-meta"
+type: "plugin"
+author: "herbst"
+date: "04 Dec, 2014"
+title: "Multitouch Stack, revived"
+originalURL: "contribution/multitouch-stack-revived"
+category: "plugin"
+credits: |-
+  original by elliotwoods, archivist work by herbst
+like_count: "7"
+imported: "true"
+teaser: |-
+  I was doing some search today about multitouch image galleries in vvvv, but all I could find was MINT (which seems dead since last NODE) and elliotwood's year-old (([multitouch-stack](https://discourse.vvvv.org/t/multitouch-stack).)) After some dll-collecting and repairing some things, I found latter one is still quite useful as a simple multitouch solution, so here it is with some additions such as aspect ratio correction and automatic initial image layouting.
+  
+  PS: If I just overlooked something and there is already a built-in/much simpler/more convenient way, please tell me... :)

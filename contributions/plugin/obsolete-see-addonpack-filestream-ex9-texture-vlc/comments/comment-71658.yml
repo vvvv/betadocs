@@ -1,0 +1,27 @@
+### YamlMime:ContributionComment
+---
+uid: "71658"
+user: "ft"
+created: "09 Nov, 2011 - 15:27"
+body: |-
+  @artcontr
+  
+  The VLC plugin uses the 2 textures internally. When you create a dynamic plugin from the Texture Template, you will see that there is a function FillTexture or something, that will write a color to each individual pixel. This function is called in vvvv's main thread, which means that as long as you are filling this texture, vvvv is blocked and can't do anything else.
+  
+  I quickly realised that this is no option if you want some performance, so I created a class DoubleTexture that contains actually 2 textures. I write data to 1 texture, while the other one is visible. Writing pixels to the 'backbuffer' texture is done in a separate thread, and when that's done, I can flip the textures around (by using my DoubleTexture's FlipBuffers() function), making the backbuffer the frontbuffer and vice versa.
+  
+  This is the essential part:
+  ```
+  	foreach (int i in FDeviceData.Keys) { //1 key for each device
+  		Device device = FDeviceData<i>.Data<sliceIndex>.Device;
+  		FDeviceData<i>.Data<sliceIndex> = doubleTextures<sliceIndex>.GetFrontTexture(device);
+  	}
+  ```
+  
+  As you can see, there's a list of DoubleTextures, and I will set the texture that is returned when a device asks for this texture, to my DoubleTexture's front texture. You need 'device' if you want to create a texture for each device (display) that asks for a texture, otherwise the plugin will only work on 1 display, and dragging from 1 display to the next will create frustrating problems.
+  
+  I have written a VLC version that produced data that could be used with Elliot's OpenCV nodes, and I saw (somewhere in september 2011) that his 'image to texture' nodes had the same efficiency problem, copying data in the main thread. I have been thinking about implementing the texture swapping technique in that node but I haven't gotten 'round to that yet. I might do that somewhere in the following weeks. But he was thinking about some kind of event driven chain or something, so I don't know what his code looks like right now.
+  
+  That would separate the 'writing data to texture' from the video decoding, and would show in a much clearer way how it works (and it could become useful for a lot of different nodes).
+  
+  But do note that filling textures in a separate thread, doesn't necessarily produce a result in the next frame, for example when you change something using a bang, it could take a couple of vvvv frames before the texture actually gets updated. In some cases this might not be the desired behaviour.

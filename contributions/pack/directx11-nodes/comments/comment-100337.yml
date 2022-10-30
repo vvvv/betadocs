@@ -1,0 +1,22 @@
+### YamlMime:ContributionComment
+---
+uid: "100337"
+user: "vux"
+created: "30 Apr, 2013 - 14:46"
+body: |-
+  @ft : I changed AA for next build, so it will be easier to use (Now AA Samples per pixel is an enum, and i removed quality, since it never looked like to make any difference).
+  
+  Quite decent amount of other fixes in next build, including:
+  * Kinect with all textures + Face Tracker
+  * Support for IUserInputWindow (Mouse/Keyboard state)
+  * DynamicBuffer nodes fix in case of nil input
+  * Reflect on shader if geometry layout is invalid (reports missing semantic)
+  * ReadBack fix on first frame
+  * Memory leak fix on Texture 3D
+  * Memory leak fix on dynamic buffer
+  * Texture FX does proper cleanup after finishing
+  * GeomFX crash fix when attached to Query
+  * Image shader has Force Resolution Pin (so it uses size input instead of initial texture size)
+  * Quad (Layer) : replicating old quad, with auto batching ))
+  
+  Also now feraltic is included as submodule, so check out should build out of the box.

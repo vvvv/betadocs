@@ -1,0 +1,16 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/interactive-globe-meta"
+type: "demo"
+author: "lecloneur"
+date: "13 Dec, 2014"
+title: "Interactive Globe"
+originalURL: "contribution/interactive-globe"
+category: "demo"
+credits: |-
+  Lot of help comes from my friend : https://github.com/xseignard
+like_count: "4"
+imported: "true"
+teaser: |-
+  Interactive globe, part of a project I made for multitouch screen.
+  There are JSON files, you can translate them into your own language, French and English are already available.

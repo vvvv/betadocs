@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "98419"
+user: "microdee"
+created: "20 Mar, 2013 - 20:21"
+body: |-
+  in vvvv you can only utilize the gpu through shaders or if you use CUDA or OpenCV libraries in your own plugin and all of them has a little bit narrow usage scenario compared to native languages.
+  so what drains the cpu in md.vis is not the high amount of same instructions but bad patching.

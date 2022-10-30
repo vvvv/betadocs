@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "207178"
+user: "everyoneishappy"
+created: "30 Sep, 2015 - 01:19"
+body: |-
+  @matka I think you would have to do that in HLSL in the GS section of the shader in that module.  Basically you'd need to compare the sides of each triangle and not emit geometry for the longest.  You would probably also have to change the IID output as it may be variable then (eg equilateral triangles)

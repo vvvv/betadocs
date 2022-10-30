@@ -1,0 +1,24 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/hdr-tone-mapping-technique-files"
+url: "hdr-tone-mapping-technique"
+category: "effect"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "1"
+            filename: "HDR_Tone_Mapping 1.1.zip"
+            description: |-
+              All PS and VS to 3.0. hope this fixes ATI cards problems
+            
+            timestamp: "08 Nov, 2010 - 10:44"
+            download_count: "3"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "HDR_Tone_Mapping 1.0.zip"
+                    timestamp: "08 Nov, 2010 - 00:05"
+                    download_count: "2"

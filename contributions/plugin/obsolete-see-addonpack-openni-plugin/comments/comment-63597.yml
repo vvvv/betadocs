@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "63597"
+user: "xd_nitro"
+created: "11 May, 2011 - 22:03"
+body: |-
+  any ideas if this plugin will work with the [Asus Xtion PRO](http://www.asus.com/Multimedia/Motion_Sensor/Xtion_PRO/)? 
+  
+  Xtion is OpenNI compliant and can purchase from [here](http://www.scan.co.uk/products/asus-xtion-pro-pc-motion-sense-control-developers-edition) now.
+  
+  Annoyingly the Xtion Pro doesn't seem to have the RGB camera. It looks like you can have the option for either a 320x240 depth image @ 60fps or the 640x480 @ 30fps like the kinect.

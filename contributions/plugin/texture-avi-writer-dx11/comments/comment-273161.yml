@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "273161"
+user: "blausand"
+created: "07 Jul, 2019 - 21:19"
+body: |-
+  Would it be easy to adjust the AVIDX11.TEXTUREWRITER.dll to match the current version of FFMPEG?
+  See screenshot, left ist vvvv plugin, right is current FFMPEG.
+  ![](https://vvvv.org/sites/default/files/imagecache/large/images/Writer%28DX11%29-FFMPEG.png)

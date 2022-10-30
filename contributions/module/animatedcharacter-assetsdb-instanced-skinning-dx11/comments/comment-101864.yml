@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "101864"
+user: "evvvvil"
+created: "05 Jun, 2013 - 13:51"
+body: |-
+  sonostrano: I had same problem, load the strider node from inside its folder and then red color disappears and all working well. Let me know if you still get problem.
+  
+  TEKCOR: Thankx a lot for this contribution man, it looks dope! I am playing around with it now and will report any problem or bugs. I am sure I will figure it out but if not could you just briefly explain how to link the kinect skeleton with this animatedCharacter skeleton? would that be with bindskeleton? I have been trying to do basic mocap using VVVV + kinect for about 2 weeks now and it's driving me insane. As Antokhio has been posting on all related threads it is not an easy thing to do, and I also seem to come across bone orientation problem, and I am hoping your module somehow makes it work...
+  
+  Thankx a lot again for all your work, it is much appreciated!

@@ -1,0 +1,15 @@
+### YamlMime:ContributionComment
+---
+uid: "237030"
+user: "Luper"
+created: "22 Mar, 2017 - 12:49"
+body: |-
+  I did it but, SET, ADD, SUBTRACT and MUL , all gives same result... I just updater my graphic card, just in case (GeForce970), but nothing changed
+  trying the other help files, same problem:
+  
+  ![](https://vvvv.org/sites/default/files/imagecache/large/images/VVVV_problem2.jpg) 
+  
+  
+  also, I still have the "dx11-pointcloud" and looks like colors works
+  
+  ![](https://vvvv.org/sites/default/files/imagecache/large/images/VVVV_problem3.jpg)

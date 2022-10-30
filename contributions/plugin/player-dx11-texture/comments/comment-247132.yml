@@ -1,0 +1,19 @@
+### YamlMime:ContributionComment
+---
+uid: "247132"
+user: "catweasel"
+created: "24 Nov, 2017 - 15:57"
+body: |-
+  I get a red node on loop point, and corresponding mainloop hicup, has anyone else seen this?
+  
+  
+  05:15:19 ERR : Exception occured in TMPluginWrapperNode.Evaluate
+  05:15:19 ERR : Index was outside the bounds of the array.
+  05:15:19 ERR : System.ArgumentOutOfRangeException in mscorlib: Index was out of range. Must be non-negative and less than the size of the collection.
+  Parameter name: index
+  
+  Stacktrace:
+     at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+     at VVVV.DX11.PlayerDX11Node.Update(DX11RenderContext context)
+  
+  so it seems that any value below 1 s on the doseek time or the start time of the loop does this

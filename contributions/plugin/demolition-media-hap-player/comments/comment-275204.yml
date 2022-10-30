@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "275204"
+user: "aigore16"
+created: "14 Mar, 2020 - 16:11"
+body: |-
+  Hello! Great tool to pull up video resolution playback!
+  I'm struggling getting 5.1 audio from a 7680x1080 mov file.
+  Sound is encoded in aac and video in hap from ffmpeg. The file plays well in other software but in vvvv the sound slice count is 2 instead of 6. Any ideas?

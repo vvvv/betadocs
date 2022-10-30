@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "97307"
+user: "flame"
+created: "02 Mar, 2013 - 14:05"
+body: |-
+  when opening the patch (gdrip-0001), it colors the node "gdrip" in red. When I open it, it shows the program code and an error message at the end "line 195: redifinition of 'drip'". Any ideas?  Is it necessary to copy the metaballs patch in it or something else? Thank you!

@@ -1,0 +1,16 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/aec-facade-framework-meta"
+type: "tool"
+author: "joreg"
+date: "06 Jun, 2010"
+title: "AEC Facade Framework"
+originalURL: "contribution/aec-facade-framework"
+category: "tool"
+credits: |-
+  patched by [joreg" "joreg](http://vvvv.org/users/joreg%22+%22joreg). many thanks to [woei" "woei](http://vvvv.org/users/woei%22+%22woei).
+like_count: "2"
+imported: "true"
+teaser: |-
+  A patch framework for running different visualisation-patches on the Ars Electronica Center's media facade. Available patches can be selected and a 2D (unfolded) and 3D preview are shown while the individual lights colors are sent to the AECs facade controller software via UDP.
+  The framework also includes a simple template patch to start from when creating a new visualisation for the facade.

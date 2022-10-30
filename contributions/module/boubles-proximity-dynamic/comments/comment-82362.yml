@@ -1,0 +1,14 @@
+### YamlMime:ContributionComment
+---
+uid: "82362"
+user: "mrboni"
+created: "07 May, 2012 - 17:37"
+body: |-
+  Anyone know how I'd make a version of the proximity dynamic subpatch that worked in 3d?
+  
+  
+  edit - looks like octrees are the way to go <http://en.wikipedia.org/wiki/Octree>
+  
+  Am trying to make a 2d quadtree version first. Any hints welcome!
+  
+  (There are quadtree and octree plugins in the addonpack)

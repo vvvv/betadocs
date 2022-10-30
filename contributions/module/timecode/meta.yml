@@ -1,0 +1,13 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/timecode-meta"
+type: "module"
+author: "geometrica"
+date: "28 Nov, 2012"
+title: "Timecode"
+originalURL: "contribution/timecode"
+category: "module"
+like_count: "8"
+imported: "true"
+teaser: |-
+  Simple patch to convert the duration of any stream to a timecode, I use it on some situations for video and audio  . Hope people find it useful.

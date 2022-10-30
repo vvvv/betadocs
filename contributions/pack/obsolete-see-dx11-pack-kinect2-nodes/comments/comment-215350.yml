@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "215350"
+user: "solroo"
+created: "19 Jan, 2016 - 09:17"
+body: |-
+  Hello everybody,
+  
+  Since I needed to use the image pack, I needed to be able to use vvvv 32 bits. In case anybody needs to do the same, here you can find a first version:
+  
+  https://github.com/joansolroo/vvvv.kinect2x86

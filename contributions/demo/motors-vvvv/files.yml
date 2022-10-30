@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/motors- -vvvv-files"
+url: "motors-vvvv"
+category: "demo"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "MotorControlWS13.zip"
+            description: |-
+              stepper-example, circuits
+            
+            timestamp: "25 Mar, 2013 - 14:32"
+            download_count: "2"

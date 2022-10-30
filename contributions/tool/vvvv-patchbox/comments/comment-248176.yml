@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "248176"
+user: "seltzdesign"
+created: "10 Jan, 2018 - 13:16"
+body: |-
+  Really cool tool, wish I came across this earlier. Commander is nice but a bit buggy - too easy to end up with a tiny window, for example if you just tap space, thats your window gone. Or if you let go Alt before Space same thing. This should be more reliable, ie. if you have pressed down Alt and Space together it should revert if you let either of them go (problem is the AND node).

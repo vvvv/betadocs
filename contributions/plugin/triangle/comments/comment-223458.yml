@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "223458"
+user: "digitalwannabe"
+created: "24 Jul, 2016 - 21:30"
+body: |-
+  aha + oje....maybe we should have some system in place to prevent double developments? btw/fyi, i'm working on implementing this www.igl.ethz.ch/projects/bbw/; and as i need triangle (+tetgen) only as inputs for that i don't mind deleting this page/plugin if robotanton's plugin is more capable (eg this one does not support regions with differing meshing quality.....); or @robotanton feel free to hijack this page ;)

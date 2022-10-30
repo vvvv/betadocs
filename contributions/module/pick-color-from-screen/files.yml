@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/pick-color-from-screen-files"
+url: "pick-color-from-screen"
+category: "module"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "PICK COLOR.v4p"
+            timestamp: "21 Oct, 2014 - 06:40"
+            download_count: "1"

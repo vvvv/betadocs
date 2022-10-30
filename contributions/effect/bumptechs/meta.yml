@@ -1,0 +1,18 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/bumptechs-meta"
+type: "effect"
+author: "wrongelectron"
+date: "14 Sep, 2012"
+title: "BUMPTECHS"
+originalURL: "contribution/bumptechs"
+category: "effect"
+credits: |-
+  I think the fullscreen bug is gone now... perhaps enjoy.
+like_count: "4"
+imported: "true"
+teaser: |-
+  Started a long time ago, now possibly works fullscreen.  It's an ole Nvidia DX demo converted(in someones particular manner) to vvvv for yall to dig in.  Enjoy.
+  
+  
+  <iir>

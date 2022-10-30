@@ -1,0 +1,14 @@
+### YamlMime:ContributionComment
+---
+uid: "100670"
+user: "Alec"
+created: "08 May, 2013 - 12:38"
+body: |-
+  Hi guys,
+  PDFTexture plugin works fine with b29.2x86. I copied dll files from vvvv folder to the dependencies plugin folder. 
+  
+  Now I have some suggestion:
+  * Is it possible to update the plugin with the last PDFsharp and MuPDF libraries that support last PDF file version?
+  * Would be great if the PDF conversion was done in an extra thread so that vvvv isn't blocked while the plugin loads all the PDF files. Something like <span class="node">Preloader (EX9.Texture)</span>.
+  
+  AAA looking for some vvvvoluntary! :)

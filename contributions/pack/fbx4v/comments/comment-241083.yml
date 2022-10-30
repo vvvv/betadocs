@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "241083"
+user: "u7angel"
+created: "14 Jun, 2017 - 06:54"
+body: |-
+  @microdee, concerning the phrasing. i wasn't refereing to the inside of the nodes. i'm talking from the users perspective. 90% of my cases is just loading meshes without materials / skeleton. so i would expect as few nodes as possible and a low cpu hit. and talking about the girlpower patches, do you really need all that stuff inside to show the tech? its kinda noisy. but i guess we both follow different concepts. i like things to be as compact as possible, small releases without module/pack noise, tidy patches showcasing only the essence. it comes down to specialized vs. multipurpose 
+  
+  anyway, keep up your good work.

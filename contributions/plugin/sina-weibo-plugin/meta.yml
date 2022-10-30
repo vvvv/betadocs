@@ -1,0 +1,25 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/sina-weibo-plugin-meta"
+type: "plugin"
+author: "agalloch21"
+date: "03 Jul, 2013"
+title: "Sina Weibo Plugin"
+originalURL: "contribution/sina-weibo-plugin"
+category: "plugin"
+credits: |-
+  [agalloch21](http://vvvv.org/users/agalloch21)
+  C# weibo Sdk by Xuanchenlin  <https://weibosdk.codeplex.com/>
+like_count: "5"
+imported: "true"
+teaser: |-
+  A Sina Weibo plugin on vvvv
+  
+  How to use it:
+  #Apply for a sina developer account
+  #Create an Weibo App with your account
+  #Find the AppKey, AppSecret in your app config panel and set Callback Url(any website available is OK)
+  #Fill up the AppKey, AppSecret, CallbackUrl in vvvv patch and click Authorize
+  #Have fun
+  
+  Any thoughts, please contact me(agalloch21@gmail.com).

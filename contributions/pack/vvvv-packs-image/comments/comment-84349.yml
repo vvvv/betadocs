@@ -1,0 +1,26 @@
+### YamlMime:ContributionComment
+---
+uid: "84349"
+user: "zeos"
+created: "17 Jun, 2012 - 15:37"
+body: |-
+  (edit)
+  ;) I am sorry for the flood 
+  
+  so after restart, installing 28alpha and the rest,
+  same problem like in the beginning with 27.2,
+  28alpha reports:
+  
+  ![](https://vvvv.org/sites/default/files/imagecache/large/images/KTest_2012.06.17-18.10.03.png) 
+  
+  
+  NOTE: I found a **bug in error reporting** inside the ContextAndImages node,
+  here possible fix:
+  
+  ![](https://vvvv.org/sites/default/files/imagecache/large/images/ContextAndImages%20%28OpenNI%29%20-%20error%20code%20fix_2012.06.17-18.20.20.png) 
+  
+  Elliot, are you sure that your OpenNI works with XtionPro, 320x240@60fps or is hardcoded 640x480@30 and so on kinect-wise stufish?
+  
+  Thanks
+  
+  cheers

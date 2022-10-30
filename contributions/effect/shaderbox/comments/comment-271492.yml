@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "271492"
+user: "avilahuerta"
+created: "27 Mar, 2019 - 18:59"
+body: |-
+  Hello,
+  
+  Thanks for your contribution. I had played myself with shadertoy shaders and ported to VVVV but with shaderbox it is easier. I have one question: i have seen in shadertoy that some shaders have buffers (bufferA, bufferB, ...). So far I did not manage to conevrt those shaders to be used in VVVV. Do you have suggestions on how to do it?.
+  
+  Thanks a lot.

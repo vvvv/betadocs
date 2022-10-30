@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "159706"
+user: "sanch"
+created: "16 Jul, 2014 - 17:56"
+body: |-
+  you just need to use opticalflow shader directly on the camera input no need tracking node , then add the opticalflow shader inside the velocity pass instead of the mouse shader , and add black and white version for color in the other module.
+  It should work , i did it once with good result.

@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "241381"
+user: "catweasel"
+created: "23 Jun, 2017 - 11:04"
+body: |-
+  This is fascinating demo of VL, but looking through the patch, to me, it is almost incomprehensible, some VL for dummy notes would be appreciated. The gui looks to be very useful, but how to add elements to it?
+  I still find VL to be as transparent as mud, as poor as I am at code, it seems to make more sense, which isn't the expected result of a node based GUI, surely the data flow should be visible, it feels like the part that makes sense is somehow hidden from view and you are left with magic nodes that do something secret, maybe its just me?

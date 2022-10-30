@@ -1,0 +1,14 @@
+### YamlMime:ContributionComment
+---
+uid: "239209"
+user: "tmp"
+created: "03 May, 2017 - 10:13"
+body: |-
+  @manuel:
+  
+  where did you get the particles pack from? latest github version? did you follow the installation instructions? did you download vvvv/dx11/dx11.particles in the same architecture? Please use TTY Renderer and paste error messages here.
+  
+  @guest:
+  If you want to randomize it, you should use the mod-selector and play around with value + offset inputs.
+  
+  There is no lifespan in dx11.pointcloud. So you should use the particles pack for this kind of behaviour. In general I recommend not to use dx11.pointcloud anymore ;)

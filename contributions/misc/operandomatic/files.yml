@@ -1,0 +1,33 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/operandomatic-files"
+url: "operandomatic"
+category: "misc"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "2"
+            filename: "Operandomatic.v4p"
+            timestamp: "09 Sep, 2014 - 16:04"
+            download_count: "1"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "1"
+                    filename: "Operandomatic.v4p"
+                    description: |-
+                      Operandomatic v0.2
+                    
+                    timestamp: "24 Jul, 2013 - 11:52"
+                    download_count: "7"
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "Operandomatic.v4p"
+                    description: |-
+                      Operandomatic v0.1
+                    
+                    timestamp: "23 Jul, 2013 - 09:24"
+                    download_count: "2"

@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "74702"
+user: "circuitb"
+created: "11 Jan, 2012 - 14:11"
+body: |-
+  hey Elliot
+  thanks for those threading explanations
+  make sense now!
+  
+  just a question about what could be integrated in the emguCV 
+  hierro talk about a Crop node, it could be cool to have some more transform nodes like homography/distortion (like in the camera calibration but with user input values?) before the AsTexture/mainloop
+  what do you think?

@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "239959"
+user: "guest"
+created: "23 May, 2017 - 10:03"
+body: |-
+  unfortunately on both ue4 and resolume the spout receivers are limited to 10 entries by default !
+  should be modified in ue4 with #define MaxSenders in the plugin : https://github.com/AleDel/Spout-UE4/blob/6957020c08fc622ce0e822a712b0fd6bd18ee952/ThirdParty/Spout/include/SpoutSenderNames.h
+  
+  works great in vvvv with the latest alpha
+  thx

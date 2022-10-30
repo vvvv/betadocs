@@ -1,0 +1,15 @@
+### YamlMime:ContributionComment
+---
+uid: "57393"
+user: "sagishi"
+created: "20 Dec, 2010 - 13:28"
+body: |-
+  skinned mesh animation using this, and Skeleton nodes:
+  http://www.vimeo.com/18008386
+  
+  @sapo:
+  i calculated joint rotations by assuming some initial pose (in the video above the bind pose of the mesh), and then computing the angles between the joint positions of this initial pose, and the current one.
+  
+  does anyone know, if there's some default pose for the OpenNI-Skeleton? Or even better, if there's a way to get joint rotations directly from OpenNI?
+  
+  While in the UserTracker-Sourcecode there's a method SkeletonCapability.getJointPosition, i didn't find anything about rotations. Actually, I didn't find any documentation at all. Any hints?

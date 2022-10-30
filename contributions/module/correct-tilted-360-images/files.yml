@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/correct-tilted-360-images-files"
+url: "correct-tilted-360-images"
+category: "module"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "module_panorotate.zip"
+            description: |-
+              panofix
+            
+            timestamp: "20 Feb, 2016 - 03:46"
+            download_count: "1"

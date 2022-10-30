@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/swipe-gesture-dx11-touch-files"
+url: "swipe-gesture-dx11-touch"
+category: "tool"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "Swipe-Gesture.v4p"
+            timestamp: "02 Dec, 2015 - 13:45"
+            download_count: "3"

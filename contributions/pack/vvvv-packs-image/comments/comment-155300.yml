@@ -1,0 +1,15 @@
+### YamlMime:ContributionComment
+---
+uid: "155300"
+user: "sebl"
+created: "12 May, 2014 - 14:28"
+body: |-
+  hm, i just compiled it against x64 - see attachment.
+  
+  it was quite some hassle to get all the references on their place again. especially dx11, because there changed some things in the csproj-files since the imagepack was touched the last time. in general, this is a simple, but stupid task: get rid of all the little yellow exclamation marks in the references or add some references if the code has missing usings.
+  
+  for the future, i think it would be cool, if the dx11-reference would be handled as as ubmodule, and so it always matches the right revision.
+  
+  attachment is here: https://www.dropbox.com/s/4seticbv6q05kuh/Debug_x64.zip because one **cannot upload non-images to a contributions discussion?**
+  
+  oh, and the attachment is totally untested :)

@@ -1,0 +1,13 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/oculuscontroller-openvr-meta"
+type: "module"
+author: "MultiNIL"
+date: "02 Jun, 2018"
+title: "OculusController OpenVR"
+originalURL: "contribution/oculuscontroller-openvr"
+category: "module"
+like_count: "3"
+imported: "true"
+teaser: |-
+  OculusController based on the ViveController(OpenVR DX11.Layer) by tonfilm. one button on each controller wont work, but you got visual feedback on which button you press

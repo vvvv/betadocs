@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "113100"
+user: "princemio"
+created: "24 Jan, 2014 - 00:59"
+body: |-
+  hmm if i did everything right then the x value should be in r and the y channel in g of the colored texture ... plus and minus should be available in 32 bit float tex. i think a compute shader would be necessary - like the pipet example in dx11 ...MAYBE ...and then read back ...but i think someone who is more experienced could jump in this topic...sorry if that didnt help

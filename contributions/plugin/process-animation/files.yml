@@ -1,0 +1,27 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/process-(animation)-files"
+url: "process-animation"
+category: "plugin"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "1"
+            filename: "process.zip"
+            description: |-
+              fixed a bug with restart, compatible to b27
+            
+            timestamp: "24 Aug, 2012 - 17:56"
+            download_count: "1"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "process.zip"
+                    description: |-
+                      recoded as plugin, less buggy more outputs
+                    
+                    timestamp: "17 Aug, 2012 - 17:33"
+                    download_count: "4"

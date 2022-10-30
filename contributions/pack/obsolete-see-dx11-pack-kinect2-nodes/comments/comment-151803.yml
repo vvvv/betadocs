@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "151803"
+user: "nrsz"
+created: "12 Mar, 2014 - 15:33"
+body: |-
+  Hi - after getting a new USB 3.0 card (the onboard one crashed everytime after seconds) i finally got the kinect2 working - with the windows program 'kinect status'. 
+  
+  The patch seems to load fine, no red boxes - but the output is kinda dissapointing . Did anybody run into the same situation/has an idea how to deal with this?
+  
+  Thank you!!

@@ -1,0 +1,14 @@
+### YamlMime:ContributionComment
+---
+uid: "241298"
+user: "digitalwannabe"
+created: "20 Jun, 2017 - 10:22"
+body: |-
+  Hi guest,
+  
+  to be completely honest I've been super busy doing other stuff since I've released dope, so there wasn't time to test/debug it a lot. However, while doing all the help patches I have never experienced what you are describing.
+  Can you isolate the problem and share that patch?
+  
+  Also: you can check if the matrix produced by BoundedBiharmonicWeights makes sense by summing up its components (+ spectral on output pin)....this should (almost) match the number of vertices you pass to the BoundedBiharmonicWeights node (+-5%), plus this should come to the same result every time!
+  
+  I didn't do tesselation +dope yet, but also I don't see how this would affect results, should work fine I suppose, please share a patch if you can!

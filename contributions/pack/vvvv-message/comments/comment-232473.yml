@@ -1,0 +1,12 @@
+### YamlMime:ContributionComment
+---
+uid: "232473"
+user: "velcrome"
+created: "22 Nov, 2016 - 17:54"
+body: |-
+  Yes, I would like that, too. Even though I still don't know how to properly explain the pack, because its purpose is pretty high-level. And exotic "unfrozen object oriented data streams" are hard to picture, much harder than, say, imagepack or dx11. 
+  
+  One thing I learned from the last workshop is, that this pack offers solutions to problems, that users will only encounter after a few years of vvvv practice. So this time it should definitely cater to advanced users from the start, where I define Advanced as "has abandoned at least one promising project of her/his own making out of disgust about the unmaintainable patching".
+  
+  Last two times I simply glided along the girlpowers, but that's not saying too much about the conceptual side of using vvvv-Message, like where to start and what to consider.
+  So requests for live-patching relatable use-cases are very welcome!

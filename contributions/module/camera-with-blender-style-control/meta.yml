@@ -1,0 +1,26 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/camera-with-blender-style-control-meta"
+type: "module"
+author: "io"
+date: "25 Aug, 2011"
+title: "Camera with Blender style control"
+originalURL: "contribution/camera-with-blender-style-control"
+category: "module"
+credits: |-
+  Catweasel, vvvv group
+like_count: "4"
+imported: "true"
+teaser: |-
+  Inpired by [Catweasel](http://vvvv.org/users/Catweasel) modification of <span class="node">Camera (Transform Softimage)</span>, [/contribution/camera-with-cinema4d-controls](/contribution/camera-with-cinema4d-controls), I decided to create a module to move in your 3D renderer a la  <http://www.blender.org/>.
+  
+    *Scroll to zoom
+    *Press MMB and drag to rotate
+    *Press SHIFT+MMB to move
+    *SHIFT+scroll to dolly (G+MMB in Blender)
+    *R long press to reset ( NumPad "." in Blender)
+  
+  TODOS: 
+   
+    *Flymode
+    *Presets

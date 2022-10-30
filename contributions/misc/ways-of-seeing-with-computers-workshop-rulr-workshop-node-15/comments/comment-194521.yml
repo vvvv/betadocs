@@ -1,0 +1,10 @@
+### YamlMime:ContributionComment
+---
+uid: "194521"
+user: "eps"
+created: "09 May, 2015 - 21:27"
+body: |-
+  you may need to install Blackmagic Camera utilities to make Rulr work.
+  at workshop there was v.2.0.1; one may get any of more recent instead ::  https://www.blackmagicdesign.com/support/family/professional-cameras
+  
+  // just checked that without these Rulr throws exactly same error

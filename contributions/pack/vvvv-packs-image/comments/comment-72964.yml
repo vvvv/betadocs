@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "72964"
+user: "hierro"
+created: "05 Dec, 2011 - 09:37"
+body: |-
+  more testing, im using this project dll inside bin/managed folder, sometimes openni stuff give error, and modules are no longer available from vvvv modules menu, so if i drop dll inside a new patch, it will work again.

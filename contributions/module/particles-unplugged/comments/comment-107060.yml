@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "107060"
+user: "alg"
+created: "26 Sep, 2013 - 09:31"
+body: |-
+  Looks like i'm trying to do the same, but a little bit more highlevel https://github.com/smakhtin/ParticlesGPU-Modular/tree/dx11. Currently stuck on some performance issues with a lot of compute shaders.

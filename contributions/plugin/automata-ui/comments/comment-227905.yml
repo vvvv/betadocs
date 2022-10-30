@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "227905"
+user: "u7angel"
+created: "15 Sep, 2016 - 10:25"
+body: |-
+  @everyoneishappy, not sure if i understand u right. we're not talking about a spreaded automata right ? because multiple instances you can have. each automata graph is saved per node instance.
+  
+  in case you copy your automata node and edit the new graph, you might need to trigger a transition at least once to update everything since the node behaves as lazy as possible to save cpu cycles.
+  
+  does this answer your question ? 
+  
+  ![](https://vvvv.org/sites/default/files/imagecache/large/images/multipleInstances.JPG)

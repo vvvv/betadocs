@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "271842"
+user: "felipelinsf"
+created: "24 Apr, 2019 - 00:18"
+body: |-
+  Hello, I am not able to use the node animate correctly. None of my 3d models that work with Skeletalmesh (dx11 assimp) are being animated. What am I missing out? thank you

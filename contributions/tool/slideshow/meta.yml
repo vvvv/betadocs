@@ -1,0 +1,20 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/slideshow-meta"
+type: "tool"
+author: "david"
+date: "15 Jul, 2010"
+title: "Slideshow"
+originalURL: "contribution/slideshow"
+category: "tool"
+like_count: "3"
+imported: "true"
+teaser: |-
+  Features: 
+  * Image and Video support (inclVideo2video blending), 
+  * arrage your assets in subfolders => different chapters, 
+  * Ken burns effect
+  * easily change the transition effect within simple renderpass 
+  * Control Videoplayback (skip forward-backwards, play/pause/volume)
+  * outputformat is a Layergroup. 
+  * have fun.

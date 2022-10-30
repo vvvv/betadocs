@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/global-s-r-nodes-files"
+url: "global-s-r-nodes"
+category: "module"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "GlobalSR.v1.0.5.zip"
+            description: |-
+              v 1.0.5
+            
+            timestamp: "11 Oct, 2018 - 15:35"
+            download_count: "2"

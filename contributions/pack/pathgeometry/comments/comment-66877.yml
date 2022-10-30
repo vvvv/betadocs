@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "66877"
+user: "velcrome"
+created: "21 Jul, 2011 - 18:10"
+body: |-
+  the package itself is good for all shapes but holed ones. it is only the mesh module (a combination of an earclipping plugin and vux' mesh join) that cannot handle all cases. especially with self intersecting polygons it will run into problems.

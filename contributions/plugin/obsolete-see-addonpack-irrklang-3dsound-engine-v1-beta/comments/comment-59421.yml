@@ -1,0 +1,10 @@
+### YamlMime:ContributionComment
+---
+uid: "59421"
+user: "rosenfranz"
+created: "04 Feb, 2011 - 12:16"
+body: |-
+  It's still not working for me.
+  There must be some detail I am overlooking cause I tried it on two computers now with the same result. Red irrklang node with the following message when i move the cursor over it: "Irrklang (sound 1) is missing. (Irrklang.csproj <id%20122>"
+  
+  Are there any other things besides .NET that have to be installed?

@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "82351"
+user: "colorsound"
+created: "07 May, 2012 - 13:13"
+body: |-
+  hi thanks for the contribution, long time not using firmata, i was testing with the plug that comes in the addons, i upload the code standard firmata that comes with arduino ide 1 to an arduino UNO.
+  
+  codes loaded and i set com to vvvv help patch and set enable the arduino and vvvv are hooked as some light changes in the tx rx but somehow not responding well the only value that is moving is the first analogIn and it does with very rare values like 13086.0000 - 96 - 125 also changing a potenciometer conected to A0 ,values in digitalIn change like if shifting from one index to another.

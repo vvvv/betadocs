@@ -1,0 +1,60 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/oculus-rift-files"
+url: "oculus-rift"
+category: "plugin"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "5"
+            filename: "OculusRift_DK2_v2.1.zip"
+            description: |-
+              Based on OculusRift_DK2_v2 with some modifications and test scene. EXPERIMENTAL
+            
+            timestamp: "10 Sep, 2014 - 02:32"
+            download_count: "2"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "4"
+                    filename: "OculusRift-DK2-3.v4p"
+                    description: |-
+                      Wrapper patch for DK2_v2 plugin to get proper motion - HACK ALERT!
+                    
+                    timestamp: "09 Sep, 2014 - 19:14"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "3"
+                    filename: "OculusRift_DK2_v2.zip"
+                    description: |-
+                      Orientation/Position-Tracking, working pins: Aspect ratio, Interpupillary distance, VerticalFOV
+                    
+                    timestamp: "04 Sep, 2014 - 16:30"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "2"
+                    filename: "OculusRift_DK2.zip"
+                    description: |-
+                      Rudimentary support for DK2
+                    
+                    timestamp: "29 Aug, 2014 - 19:33"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "1"
+                    filename: "OculusRift-20130706.zip"
+                    description: |-
+                      Fixed right eye motion, added eyes X shift
+                    
+                    timestamp: "07 Jul, 2013 - 01:53"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "20130529_OculusRift.7z"
+                    timestamp: "29 May, 2013 - 16:05"
+                    download_count: "1"

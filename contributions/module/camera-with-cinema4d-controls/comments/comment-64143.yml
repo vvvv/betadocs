@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "64143"
+user: "fibo"
+created: "24 May, 2011 - 22:03"
+body: |-
+  nice,
+  
+  consider to use the CTRL+M to edit author,description and tags ( now author = vvvv group since you started from the softimage Camera ) then add it to svn ( if you don't want to install tortoise svn I can do it for you under the catweasel folder ), so this useful module is included in the addonpack.
+  
+  You can still keep this contribution for development purpose.

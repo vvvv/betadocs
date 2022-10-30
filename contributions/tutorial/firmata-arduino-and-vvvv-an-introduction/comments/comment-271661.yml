@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "271661"
+user: "joreg"
+created: "06 Apr, 2019 - 16:02"
+body: |-
+  @Asir i'm afraid the vvvv parts of this tutorial are no longer compatible with latest versions. working with firmata/arduino was greatly simplified. in betas>38 please refer to the helppatch of the FirmataBoard (Devices) node to get started. if you have any specific questions about it, pleaes best ask them in the forum!

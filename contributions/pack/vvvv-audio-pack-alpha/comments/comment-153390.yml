@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "153390"
+user: "sebl"
+created: "10 Apr, 2014 - 15:56"
+body: |-
+  it compiles for x64 (if you add naudio.dll - you don't need the naudio sources), but the vsthost stays red.

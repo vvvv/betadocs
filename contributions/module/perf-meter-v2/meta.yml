@@ -1,0 +1,15 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/perf-meter-v2-meta"
+type: "module"
+author: "catweasel"
+date: "11 Aug, 2010"
+title: "Perf Meter V2"
+originalURL: "contribution/perf-meter-v2"
+category: "module"
+like_count: "8"
+imported: "true"
+teaser: |-
+  Removed the GDI renderer that dropped the frame rate of the whole patch and replaced it with text(ex9)
+  
+  This new version is the 1 from beta24.1 which had the start of a frame rate graph, so I thought I'd make it easier to read :)

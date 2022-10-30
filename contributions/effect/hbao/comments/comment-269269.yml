@@ -1,0 +1,12 @@
+### YamlMime:ContributionComment
+---
+uid: "269269"
+user: "Joanie_AntiVJ"
+created: "07 Nov, 2018 - 12:09"
+body: |-
+  Just got feedback from Dennis on github, problem now fixed if that could help others:
+  
+  I did a clean install of "vvvv_50beta37_x86" + DX11 and it's now running like a charm !
+  (I think I got lost with an older vvvv version + Win 10 SDK / unity threads, but actually with latest clean install it's fine !)
+  
+  It looks beautiful, Thanks Dennis !

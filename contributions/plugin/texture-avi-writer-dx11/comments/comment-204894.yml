@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "204894"
+user: "SuperflysiNZ"
+created: "06 Sep, 2015 - 12:56"
+body: |-
+  Getting a crash on exit, and red writer nodes when record is happening. Only 6KB files being created.

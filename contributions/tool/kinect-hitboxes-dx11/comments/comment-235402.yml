@@ -1,0 +1,10 @@
+### YamlMime:ContributionComment
+---
+uid: "235402"
+user: "yochee"
+created: "18 Feb, 2017 - 20:06"
+body: |-
+  thanks to all who developed it! just wanted to leave short notice that it works really well for me in vvvv_50beta35 :)
+  
+  
+  one question: is it possible to use multiple kinects with the hitboxes (maybe doublicate kinect part and select another index.. integrate into the 3d view?!) ;D They dont have to overlap, I just would like to cover a bigger area side by side, then I send the OSC-Signals to Resolume Layers etc

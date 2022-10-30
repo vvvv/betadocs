@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "69792"
+user: "sunep"
+created: "24 Sep, 2011 - 15:08"
+body: |-
+  The updated beta26 library seems to work better than before.
+  
+  But I still keep running into the problem that I can not load the skeleton, tty says "Load Skeleton" every frame. a user is detected, but no skeleton. the sample applications from PrimeSense NITE makes a nice skeleton.
+  
+  using the _root.v4p patch in the Demonstrator folder.

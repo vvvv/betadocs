@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/logitechplaystation-buzzer-module-files"
+url: "logitech-playstation-buzzer-module"
+category: "module"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "buzzer.zip"
+            timestamp: "20 Jun, 2016 - 19:59"
+            download_count: "1"

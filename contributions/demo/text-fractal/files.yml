@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/text-fractal-files"
+url: "text-fractal"
+category: "demo"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "TextFractal.zip"
+            description: |-
+              init
+            
+            timestamp: "07 Oct, 2011 - 01:00"
+            download_count: "1"

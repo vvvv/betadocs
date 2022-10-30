@@ -1,0 +1,12 @@
+### YamlMime:ContributionComment
+---
+uid: "217058"
+user: "demondias"
+created: "22 Feb, 2016 - 09:29"
+body: |-
+  looking for some help or direction:
+  
+  I want to adapt this patch so i can throw in an image, and get a random voronoi structure that fills it, and be able to control the line thickness, so it is suitable to use the divided voronoi image with a lasercutter to make stencils. Im pretty new to vvvv and any help would be most welcome
+  
+  cheers,
+  D

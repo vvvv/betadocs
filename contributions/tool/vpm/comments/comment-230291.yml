@@ -1,0 +1,12 @@
+### YamlMime:ContributionComment
+---
+uid: "230291"
+user: "microdee"
+created: "21 Oct, 2016 - 15:17"
+body: |-
+  @beyon: good and valid points, responses:
+  Versioning: I've tried to implement versioning at some point and I found it would introduce more brain-cancer than it would have supposed to solve. Especially in situations where inside the dependency tree 2 different versions of the same pack is referenced. For now if a pack requires an older version of an other pack it's simpler to script its custom fetching than having to keep in mind an xml infrastructure for that thing. Also I think "do you want to overwrite?" prompt is the easiest way currently for everyone.
+  
+  Scripting: yes arbitrary C# code. So well as with any executable file on the internet download only from trusted sources. vvvv community is so small though that a malacious script wouldn't live long on the website or on github. On the other hand vpm is not elevated if the script would try to access sensitive areas vpm would just throw an access denied exception. I can add a dialog box which can list the scripts to be executed then user can decide if they're harmless. On curated package repo: https://github.com/vvvvpm/vpdb
+  
+  On deleting files: I'd leave that for the scripts to decide as well. I can add a user prompt in the vvvv install script if they want to delete old files (move to recycle bin) before installation.

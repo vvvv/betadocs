@@ -1,0 +1,10 @@
+### YamlMime:ContributionComment
+---
+uid: "248703"
+user: "tmp"
+created: "31 Jan, 2018 - 15:39"
+body: |-
+  small update for everyone who wants to use 3rd party shaders (like SuperPhysical)...
+  there is a new node called AsGeometry that outputs a single geometry. have a look at the help patch and have fun..
+  
+  ![](https://vvvv.org/sites/default/files/imagecache/large/images/SuperPhysicalParticles-Preview_2018.01.31-16.20.12.png)

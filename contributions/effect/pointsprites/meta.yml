@@ -1,0 +1,15 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/pointsprites-meta"
+type: "effect"
+author: "u7angel"
+date: "05 Jul, 2013"
+title: "pointsprites"
+originalURL: "contribution/pointsprites"
+category: "effect"
+credits: |-
+  Victor, legacy.vvvv.org
+like_count: "4"
+imported: "true"
+teaser: |-
+  a pointsprite shader (DX9) from legacy.vvvv.org

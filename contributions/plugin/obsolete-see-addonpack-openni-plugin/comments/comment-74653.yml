@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "74653"
+user: "xd_nitro"
+created: "10 Jan, 2012 - 12:41"
+body: |-
+  @Milenkij - are you using the Kinect or Asus Xtion?
+  
+  Also devs involved here - have you guys looked into using the XnMSwipeDetector method? With this implemended we can have some more gestures working with the RaiseHand, Wave and Click.
+  
+  Many thanks for y'all hard work :)

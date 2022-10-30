@@ -1,0 +1,17 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/spreadedmeshwriter-meta"
+type: "module"
+author: "elektromeier"
+date: "10 Feb, 2012"
+title: "SpreadedMeshWriter"
+originalURL: "contribution/spreadedmeshwriter"
+category: "module"
+credits: |-
+  
+like_count: "3"
+imported: "true"
+teaser: |-
+  Generates and Writes a single mesh out of spreaded transform.
+  quick and dirty version:
+  normals and texturecoords not done yet.

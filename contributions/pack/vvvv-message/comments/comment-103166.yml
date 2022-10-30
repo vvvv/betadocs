@@ -1,0 +1,12 @@
+### YamlMime:ContributionComment
+---
+uid: "103166"
+user: "timpernagel"
+created: "02 Jul, 2013 - 13:22"
+body: |-
+  Perfect timing for the Duration-example. Thanks vel! 
+  I've got this error by opening "Message.csproj":
+  
+  ![](https://vvvv.org/sites/default/files/imagecache/large/images/Image%202013-07-02%20at%203.18.18%20PM.png) 
+  
+  Seems like the TypeIdentiy.cs is missing.

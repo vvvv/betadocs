@@ -1,0 +1,17 @@
+### YamlMime:ContributionComment
+---
+uid: "273964"
+user: "mediadog"
+created: "13 Oct, 2019 - 03:21"
+body: |-
+  Hmmm, this has been working fine for me up through 50beta35.8_x64, but now throws an exception under 50beta38.1_x64.  This is on Win10 Enterprise on multiple machines:
+  
+  ```
+  ************** Exception Text **************
+  System.NullReferenceException: Object reference not set to an instance of an object.
+     at VVVV.Nodes.BotClient.<ConnectAsync>d__11.MoveNext()
+  --- End of stack trace from previous location where exception was thrown ---
+     at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+  
+  ```
+  Bummer, as running a bot to query status has been incredibly useful.

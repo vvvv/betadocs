@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/ripple-files"
+url: "ripple"
+category: "effect"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "Ripple.zip"
+            timestamp: "27 Oct, 2011 - 13:48"
+            download_count: "1"

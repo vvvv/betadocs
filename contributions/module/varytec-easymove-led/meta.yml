@@ -1,0 +1,15 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/varytec-easymove-led-meta"
+type: "module"
+author: "dEp"
+date: "04 Dec, 2010"
+title: "Varytec Easymove LED"
+originalURL: "contribution/varytec-easymove-led"
+category: "module"
+credits: |-
+  [kalle](http://vvvv.org/users/kalle) for help & his dmx modules
+like_count: "1"
+imported: "true"
+teaser: |-
+  Convenience module for the [Varytec Easymove XS LED wash](http://varytec-germany.de/product_info.php?products_id=514).

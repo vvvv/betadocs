@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "113687"
+user: "jpryde"
+created: "06 Feb, 2014 - 18:58"
+body: |-
+  Any trick on getting this to work?
+  
+  I've got a dev release Kinect2 and am using vvvv_45beta31.2_x64 with the DX11 nodes installed.  I copied the kinectv2 folder next to my girlpower folder but whenever I open KinectTest.v4p I just see a lot of red nodes.
+  
+  Thanks!

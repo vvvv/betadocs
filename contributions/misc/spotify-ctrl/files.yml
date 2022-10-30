@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/spotify-ctrl-files"
+url: "spotify-ctrl"
+category: "misc"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "spotify sendmessage.v4p"
+            description: |-
+              new version, no python, only vvvv.
+            
+            timestamp: "19 Apr, 2012 - 20:09"
+            download_count: "15"

@@ -1,0 +1,20 @@
+### YamlMime:ContributionComment
+---
+uid: "71166"
+user: "dl-110"
+created: "27 Oct, 2011 - 16:22"
+body: |-
+  hey there!
+  i´ve got the same problem as kyy921 described earlier...
+  some nodes turn red when connected to the context pin of the configuration node... i watched this behaviour over several hours now and i can´t figure out any regularities...
+  It gets even stranger - after the first install everything worked just fine.
+  When i closed the patch and reopened it again i detected the first red note.
+  Tried to reinstall everything almost 5 times but that didn´t make any difference...
+  
+  working with beta26 and win7 x86.
+  already red that phlegma is working on a compiled version for beta 26...
+  
+  due to its release help is much appreciated.
+  thx in advance.
+  
+  dl-110

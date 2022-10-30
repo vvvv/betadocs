@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "155431"
+user: "bjoern"
+created: "15 May, 2014 - 10:09"
+body: |-
+  @[lasal](http://vvvv.org/users/lasal) unfortunately the latest zips are incomplete. 
+  
+  You can clone the stuff from [github](https://github.com/velcrome/vvvv-Message) and compile it yourself. Velcrome did  a really nice job (everything is in order and dependencies are handled via nuget) so it should just work.

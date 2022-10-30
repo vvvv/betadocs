@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "250534"
+user: "TidensBarn"
+created: "28 Mar, 2018 - 16:58"
+body: |-
+  I tried replacing ChromiumFX.dll with the latest version, but the node turned red. 
+  TTY gives this error: "Method not found: Void Chromium.CfxWindowInfo.SetAsWindowless(Boolean)".
+  I tried updating the DLL because I was hoping to solve a problem with my HTML5 app that doesn't occur in the current versions of both Chrome and Chromium.

@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "57443"
+user: "hierro"
+created: "21 Dec, 2010 - 22:08"
+body: |-
+  added revison download <http://vvvv.org/sites/all/modules/general/pubdlcnt/pubdlcnt.php?file=http://vvvv.org/sites/default/files/uploads/MultiSkeleton2%28Kinect%29.zip&nid=57127>
+  
+  by the way, this bridge was intended for protyping purposes, and is not a specific "best solution" for vvvv,needing are goin further by the way and better performance are always welcome, so waiting for a real programmer (mork calling vux...) to inject those stuff into a plugin for vvvv :)
+  
+  have fun :P

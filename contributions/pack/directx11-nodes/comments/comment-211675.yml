@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "211675"
+user: "mediadog"
+created: "28 Nov, 2015 - 01:45"
+body: |-
+  OK this is weird - I went to check if there was the same problem with 33.7_x64, and there was not.  Went back and tried the x86 version, and the problem was gone there too.  So after installing the x64 CRTs, the problem with the x86 version went away.
+  
+  So it looks like the x86 DX11 version of the text DLL is dependent on some DLLs installed with the x64 CRTs.
+  
+  EDIT
+  
+  So the important difference was not that VS had never been installed, but the machines showing the red nodes had never had an x64 version of vvvv installed before.

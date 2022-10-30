@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "159671"
+user: "mrboni"
+created: "16 Jul, 2014 - 11:22"
+body: |-
+  Should it work to use camera tracking + optical flow to control this?

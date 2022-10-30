@@ -1,0 +1,28 @@
+### YamlMime:ContributionComment
+---
+uid: "72087"
+user: "mrboni"
+created: "18 Nov, 2011 - 13:46"
+body: |-
+  Hi Phlegma
+  
+  Thanks for your work on this plugin.  I'm having a couple of issues though.
+  
+  The plugin works fine with the kinect, but when using with an asus xtion, I can only use it for 1-2 minutes before vvvv completely locks up.
+  
+  This is the error -
+  
+  
+  
+  00:04:00 ERR : OpenNI.StatusException in OpenNI.Net: Can't create any node of the requested type!
+  
+  Stacktrace:
+     at OpenNI.ImageGenerator.Create(Context context, Query query, EnumerationErrors errors)
+     at OpenNI.ImageGenerator..ctor(Context context)
+     at VVVV.Nodes.Texture_Image.Evaluate(Int32 SpreadMax)
+  
+  
+  
+  The other problem is that the tracking of the hands (from the gesture plugin) and the skeleton is wildy erratic to the point of not being usable. Are there any settings that can improve this?  Are other people getting acceptable results?
+  
+  Cheers

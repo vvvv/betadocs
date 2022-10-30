@@ -1,0 +1,24 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/displacement-map-files"
+url: "displacement-map"
+category: "effect"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "1"
+            filename: "DisplacementMap.zip"
+            description: |-
+              modified to texturefx
+            
+            timestamp: "22 Dec, 2011 - 00:07"
+            download_count: "1"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "DisplacementMap.zip"
+                    timestamp: "15 May, 2011 - 11:42"
+                    download_count: "2"

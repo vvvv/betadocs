@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "85851"
+user: "elliotwoods"
+created: "19 Jul, 2012 - 20:08"
+body: |-
+  @newemka - if you have the 2 cards, can you try with GetSlice on output of the ListDevices node onto the input of the VideoIn node. This should work in theory but I haven't been able to test so far.
+  
+  Ah, you mean the actual physical inputs. 
+  Hmm..interesting.
+  This would be in the API. I'll have a look when I'm next inside that plugin.

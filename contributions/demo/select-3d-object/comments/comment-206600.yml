@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "206600"
+user: "idwyr"
+created: "23 Sep, 2015 - 13:56"
+body: |-
+  Btw, just noticed that if objects for hittest are colored with random spread some IDs have same color! (if there are lots of them doubles can  appear) So changed it with linear spread for hue coloring

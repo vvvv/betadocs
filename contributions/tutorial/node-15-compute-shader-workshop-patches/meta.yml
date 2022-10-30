@@ -1,0 +1,13 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/node-15-compute-shader-workshop-patches-meta"
+type: "tutorial"
+author: "vux"
+date: "24 Sep, 2015"
+title: "Node 15, Compute Shader workshop patches"
+originalURL: "contribution/node-15-compute-shader-workshop-patches"
+category: "tutorial"
+like_count: "6"
+imported: "true"
+teaser: |-
+  Little bit late, but here are the completed patches and effects for the compute shader workshop held at node.

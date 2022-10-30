@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "153383"
+user: "guest"
+created: "10 Apr, 2014 - 14:47"
+body: |-
+  could you also provide a 64bit pack? i already tried to checkout your git repo, but the naudio dependency is missing and i could not find it. perhaps you could check in naudio as a submodule?

@@ -1,0 +1,20 @@
+### YamlMime:ContributionComment
+---
+uid: "84489"
+user: "lecloneur"
+created: "20 Jun, 2012 - 09:34"
+body: |-
+  hi all,
+  
+  @ Robe, I don't know why the Filetexture node lost his Volume Texture setup really. 
+  
+  @Tonfilm : I will try my best to put all that on the sdk.
+  
+  @ Dimix : thanks for all the feedback, always appreciate. For the liquish I will try my best to make alpha value, it's a good idea indeed to have it.
+  For bubble and lava, try to use it with a resolution like 512*512 or even smaller, 1024 is too big and make it slow to load.
+  Electricity shader, same, I will try to have the alpha working.
+  
+  Cheers.
+  
+  
+  PS : Dimix, I know that you made some interesting module based on a combination of shader. I have some patch like that as well, we should really think of releasing those shader module as a contribution as well. What do you think ?

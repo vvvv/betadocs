@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "95334"
+user: "id144"
+created: "27 Jan, 2013 - 16:29"
+body: |-
+  Thanks Synth, comments and suggestions are always welcome as we'll keep on adding features and publish updates. Could you elaborate further on you idea about camera calibration? 
+  
+  I believe in case of our point cloud aligning the 3PointsToPlan plugin would do the job. By clicking on a three points in a point cloud, it would get aligned to the axis.

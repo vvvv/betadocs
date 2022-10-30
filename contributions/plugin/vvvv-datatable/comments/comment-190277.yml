@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "190277"
+user: "catweasel"
+created: "30 Mar, 2015 - 13:45"
+body: |-
+  Still have issues with using too...
+  
+  On the spread thing, I'm trying to set multiple rows of 1 slice of a table
+  
+  https://www.dropbox.com/s/odwyrnwf76rke19/TableTest.zip?dl=0
+  
+  I've added a patch to demo what I'm trying to do...

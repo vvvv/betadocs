@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "240940"
+user: "microdee"
+created: "09 Jun, 2017 - 15:46"
+body: |-
+  @sebescudie: If you update vpm to the latest version does it still won't install? https://github.com/vvvvpm/vpm/releases/latest
+  @u7angel: FBX4V depends on couple of nodes inside mp.dx and mp.essentials to generate the geometry and in mp.dx there's already a rendering pipeline which can use the ID semantics coming from SkeletalMesh. Without the new skeleton nodes in mp.essentials you wouldn't be able to drive rigged meshes, and without its generic Expand node you wouldn't be able to read many data coming from FBXFile or the raw Mesh (FBX) node. The plugin itself can exists without them but it would be a uselessly barebone thing for the average vvvv patcher. If I wouldn't have dependencies I would have to rewrite so many things postponing release and consuming my time while in fact nothing improved. So vpm takes care of installing them for you so you don't have to get braincancer.
+  Also please remove that link as I don't want people to download it standalone while dependencies not being there correctly and asking me about why it doesn't work.

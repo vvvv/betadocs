@@ -1,0 +1,22 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/basic-audio-video-crossfader-meta"
+type: "misc"
+author: "dvj_jenda"
+date: "17 May, 2013"
+title: "Basic Audio Video CrossFader"
+originalURL: "contribution/basic-audio-video-crossfader"
+category: "misc"
+credits: |-
+  dvj_jenda, unc
+like_count: "3"
+imported: "true"
+teaser: |-
+  Somebody in shout was asking for that, so I find it ;)
+  It is stable, I used it for one month in China.
+  The logic for crossfade is really weird, but it works.
+  
+  You have to have addonpack (the EX9 texture mixer is used), created on vvvv_45beta28.1
+  
+  
+  Hope it helps ;)

@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "247732"
+user: "woei"
+created: "15 Dec, 2017 - 12:23"
+body: |-
+  @catweasle: ArgumentOutOfRangeException should be handled with 1.1 upload
+  
+  @velcrome: does your memory recover if you stop the player from loading further frames?
+  increasing memory is expected when the harddrive cannot keep up, since it's starting more and more async filereads which are not aborted until the reading is completed. reading chunkwise would be possible, and checking the cancelation between every chunk. that, however, degraded performance of reading time. therefore i only abort before copying.
+  SEHException however sounds like some slimdx stuff. which filetype was your imagesequence? if it also happens with dds or not i know better where to start looking.

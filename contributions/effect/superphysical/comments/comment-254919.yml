@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "254919"
+user: "mburk"
+created: "05 Jun, 2018 - 18:46"
+body: |-
+  hey. that's not really possible in that workflow. once you have merged it, you can only assign a single material. you could check out the WIP deferred version with instancing on github. but it's not quite ready for release yet. will upload it here, as soon as it is usable. that version will allow you to assign different materials to single instances.

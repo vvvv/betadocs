@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "74871"
+user: "h99"
+created: "15 Jan, 2012 - 16:28"
+body: |-
+  Ciao Sapo, 
+  
+  well, I like it and found it precious to learn about keyboard and vvvv. One can manage to use the module in combo with <span class="node"> ToggleButton (GUI)</span> in an easy and fast way (I didn't yet patched something, but at a first sight seems possible); maybe not so much easy and fast, but it is exactly what I was looking for, since it also contains various good "examples", as the backspace action to delete letters (which lets you not to necessarily use a keyboard input to delete something). More: the <span class="pin"> Evaluate pin</span> makes this module really vvovv.
+  After all, if one can't manage textual programming, as me, then needs these workarounds.
+  So thanks.
+  
+  P.S. You could rename it... uhm... Typewriter for Multi Source Input, or something like that... since it gives you the chance, if you work on it, to use multiple kind of inputs. I hope I've expressed the concept in clear way :)

@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "57386"
+user: "robe"
+created: "20 Dec, 2010 - 10:56"
+body: |-
+  Yes, It works also on xp64... not realtime, because of the OSC bridge.
+  The other NI compiled .exe work like a charm...

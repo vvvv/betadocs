@@ -1,0 +1,21 @@
+### YamlMime:ContributionComment
+---
+uid: "76097"
+user: "everyoneishappy"
+created: "11 Feb, 2012 - 01:22"
+body: |-
+  This looks like it will be very very handy.
+  Red atm on b27 for me too,
+  tty reads:
+  
+  00:00:16 ERR : System.IO.FileNotFoundException: Could not load file or assembly 'AntTweakBarNodes.dll' or one of its dependencies. The specified module could not be found.
+  File name: 'AntTweakBarNodes.dll'
+     at System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+     at System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+     at System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, StackCrawlMark& stackMark, Boolean forIntrospection, Boolean suppressSecurityChecks)
+     at System.Reflection.RuntimeAssembly.InternalLoadFrom(String assemblyFile, Evidence securityEvidence, Byte<> hashValue, AssemblyHashAlgorithm hashAlgorithm, Boolean forIntrospection, Boolean suppressSecurityChecks, StackCrawlMark& stackMark)
+     at System.Reflection.Assembly.LoadFrom(String assemblyFile)
+     at VVVV.Hosting.Factories.DotNetPluginFactory.CreatePlugin(INodeInfo nodeInfo, IPluginHost2 pluginHost)
+     at VVVV.Hosting.Factories.DotNetPluginFactory.CreateNode(INodeInfo nodeInfo, IInternalPluginHost pluginHost)
+     at VVVV.Hosting.Factories.AbstractFileFactory`1.Create(INodeInfo nodeInfo, INode host)
+     at VVVV.Hosting.HDEHost.CreateNode(INode node)

@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "160215"
+user: "velcrome"
+created: "21 Jul, 2014 - 18:08"
+body: |-
+  if there were a possibility from the sdk to easily access all pins of a given node (native, plugin or module), much could be accomplished by simply collecting all input strings of the type Filename or Directory and having some semi-automatic way to gather resources.

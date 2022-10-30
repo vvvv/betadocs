@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/glow-pass-files"
+url: "glow-pass"
+category: "effect"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "Glow Pass.zip"
+            timestamp: "30 Dec, 2010 - 13:22"
+            download_count: "10"

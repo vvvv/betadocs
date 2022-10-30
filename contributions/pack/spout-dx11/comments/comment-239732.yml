@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "239732"
+user: "joreg"
+created: "21 May, 2017 - 23:02"
+body: |-
+  indeed there is the 10 entries limit. no good reason. just a compile-time constant, that (without thinking too much about it) i think just has to be set to a value, not too big, as it blocks memory.. so how many do you need, reasonably?
+  
+  regarding being included in the pack, see: https://github.com/mrvux/dx11-vvvv-girlpower/pull/45

@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "244292"
+user: "tonfilm"
+created: "28 Aug, 2017 - 14:40"
+body: |-
+  hi @tobyk
+  
+  the upcoming version 1.0.2 will have a Enabled node that you can insert in any layer link. so you can enable/disabe wherever you want. however the Repeat disable idea is very nice, had the problem that stateful nodes cannot be place into an IF region with other patches too.

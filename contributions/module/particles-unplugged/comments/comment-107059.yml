@@ -1,0 +1,26 @@
+### YamlMime:ContributionComment
+---
+uid: "107059"
+user: "robe"
+created: "26 Sep, 2013 - 09:28"
+body: |-
+  Hey Thanks!
+  But here is not working:
+  
+  ```
+  00:02:25 ERR : SlimDX.Direct3D11.Direct3D11Exception in SlimDX: E_INVALIDARG: An invalid parameter was passed to the returning function (-2147024809)
+  
+  Stacktrace:
+     at SlimDX.Result.Throw<T>(Object dataKey, Object dataValue)
+     at SlimDX.Result.Record<T>(Int32 hr, Boolean failed, Object dataKey, Object dataValue)
+     at SlimDX.Direct3D11.Texture2D.Build(Device device, Texture2DDescription description, D3D11_SUBRESOURCE_DATA* data)
+     at SlimDX.Direct3D11.Texture2D..ctor(Device device, Texture2DDescription description)
+     at FeralTic.DX11.Resources.DX11DynamicTexture2D..ctor(DX11RenderContext context, Int32 width, Int32 height, Format format)
+     at VVVV.DX11.Nodes.VideoInNode.Update(IPluginIO pin, DX11RenderContext context)
+     at VVVV.DX11.Lib.RenderGraph.DX11DeviceRenderer.ProcessNode(DX11Node node)
+  ```
+  
+  win7 x64
+  nvidia quadro 2000
+  
+  Is slimdx still used in dx11? Have I to install it?

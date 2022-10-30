@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "67973"
+user: "tonfilm"
+created: "16 Aug, 2011 - 23:26"
+body: |-
+  just had a look at the code and saw that you access the pin slices by doing a modulo by the pin slice count. no need for that, the ISpread<T> does this for you of course, its a real spread :)

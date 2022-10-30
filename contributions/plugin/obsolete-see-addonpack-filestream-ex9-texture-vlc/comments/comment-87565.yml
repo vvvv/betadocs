@@ -1,0 +1,18 @@
+### YamlMime:ContributionComment
+---
+uid: "87565"
+user: "circuitb"
+created: "24 Aug, 2012 - 15:02"
+body: |-
+  i'ld like to use vlc as a wav player and route the audio  streams to ableton live using virtual audio cable 
+  
+  the vlc plugin  seems to use the default audio driver defined in windows config panel and the aout command doesn't override this setting
+  
+  
+  for that i need to select one of the  2  virtual ports
+  with something like this:
+  
+  Audio1.wav | aout="directx" | directx-audio-device-name="Line 1 (Virtual Audio Cable)"
+  Audio2.wav | aout="directx" | directx-audio-device-name="Line 2 (Virtual Audio Cable)"
+  
+  when i try the command line directly in vlc it works (eg: overriding the device selected in preferences)

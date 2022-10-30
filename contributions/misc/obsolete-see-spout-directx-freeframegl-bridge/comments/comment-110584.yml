@@ -1,0 +1,22 @@
+### YamlMime:ContributionComment
+---
+uid: "110584"
+user: "RobertQue"
+created: "30 Nov, 2013 - 05:49"
+body: |-
+  For users of Geforce 650 GT and similar 
+  
+  I am succeeded to use it on Windows 8.1 don't know about win 7 but here it works well. 
+  The most important is to focus on Nvidia driver settings. In nvidias' #d settings there are are profiles for each program (to use internal intel 4000 either Nvidia processor). As my first thought was that both programs should use strictly nvidia was wrong. I made that mistake on windows7 as well. got both error messages that the video card is not supported as well as interloop error mentioned above. I have tried most of the settings and the 
+  
+  Key is to delete profiles from Nvidia settings for the both programs! 
+  
+  It works as it should. simple as that. Start vvvv in shared mode :
+  
+  creating .bat file with 
+  @ECHO OFF
+  start vvvv.exe /allowmultiple /dx9ex
+  
+  and not forgetting to put sharing name for the texture in plugin settings.
+  
+  If it won't work on windows 7, install 8, that's worth it.

@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/utf-8-encoder-(greek-polytonic-cyrillic-characters-)-files"
+url: "utf-8-encoder-greek-polytonic-cyrillic-characters"
+category: "plugin"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "EncodeUTF8.zip"
+            description: |-
+              utf8 encoder
+            
+            timestamp: "13 Dec, 2013 - 00:38"
+            download_count: "1"

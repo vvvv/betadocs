@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "232709"
+user: "dominikKoller"
+created: "01 Dec, 2016 - 16:37"
+body: |-
+  @mediadog thanks. Hmm, I really don't know how to fix this. Anyone got any ideas?
+  
+  My solution is to have a UPD connection between the x64 and x32 bit instances. I even had the x64 bit version start the x32 bit version via the ShellExecute node.. This is wasting a lot of time of many people, does anybody know how to fix it?

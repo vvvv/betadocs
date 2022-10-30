@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "161830"
+user: "mediadog"
+created: "09 Aug, 2014 - 03:43"
+body: |-
+  No luck here either with the DK2.  The DK2 uses a service now to handle the orientation data, so it's no longer via the USB.  I expect the SDK is quite different and the plugin will need some mods, even just to get it to work in desktop-extension mode much less the DK2 custom renderer.  If I can get some time in the next week I'll take a hack at it.

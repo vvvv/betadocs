@@ -1,0 +1,18 @@
+### YamlMime:ContributionComment
+---
+uid: "61218"
+user: "Luper"
+created: "20 Mar, 2011 - 11:56"
+body: |-
+  uff it crash in my computer (vista 64bit) 
+  I have Vlc 1.1.7
+  just to be sure I did everything right:
+  
+  -Copied the content of Vlc0.3test\plugins\Vlc inside the vvvv_45beta25.1\plugins directory
+  
+  -also the full VideoLAN\VLC\plugins directory, the libvlc.dll & libvlccore.dll file IN the same directory (vvvv_45beta25.1\plugins directory)
+  
+  when I try to open the vlc0.3test.v4p it crash immediately. If I try to creata a VLC node inside a patch, vvvv crash too
+  
+  
+  :(

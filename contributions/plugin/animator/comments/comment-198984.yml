@@ -1,0 +1,16 @@
+### YamlMime:ContributionComment
+---
+uid: "198984"
+user: "velcrome"
+created: "16 Jun, 2015 - 21:44"
+body: |-
+  Indeed very nice!
+  
+  Kudos for finally introducing a basic <span class="node">Lerp (Value)</span> node. Don't know why noone else ever thought of simplifing a map this way, when it's safe to assume input is <0..1>. 
+  
+  On the same drift it would be awesome to further nodalize the Animator. The <span class="pin">repeat feature</span> could be a module that stops reporting change after when the first repetition kicks in. Pingpong is also a perfect candidate for being a module, inverting the signal every even repetition.
+  Of what's left, it's very much like the good old <span class="node">LFO (Animation)</span>. <span class="pin">Seek</span> calls itself <span class="pin">Reset</span>; funnily, <span class="pin">Seek Time</span> is named <span class="pin">Period</span>, but imo it is more the offset time. Just silly name-calling ;)
+  
+  Anyhow, the <span class="node">Ease</span> plugins are a charm. They show great insight into stated-triggered motion on your part. It is a different paradigm then what vvvv is geared for, but it's always good to have proper and fast penner in our favorite toolkit, when eventually state becomes easy data.
+  
+  That said, please consider pullrequesting vvvv-sdk. Social Git can be a pain sometimes, but it would help a lot of people if your Lerps and Eases would join the pack, or even the [VVVV.Utils](https://github.com/vvvv/vvvv-sdk/tree/develop/common/src/core/Utils/Animation).

@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "205801"
+user: "microdee"
+created: "16 Sep, 2015 - 19:02"
+body: |-
+  nice one! it will be superuseful. I found a problem though that every comment starting with 'i' will be treated as an I node. I fixed it with changing to capital "I" and making regex and sift case sensitive also the searching pattern more strict. So currently a comment like "identification" will be converted to an I node or "+blabla" will be converted to + node. i suggest using this pattern
+  
+  ```
+  ```\|?(<\+-\/%*@=<>I>)(\s?-?\d+<,\.>?\d*?)\|?$
+  ^
+  
+  which allows one space, one dash and at least one or more numbers broken into half with , or . only once. If anything follows after this it won't match so "I -44.56.345" won't match

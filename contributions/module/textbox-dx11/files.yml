@@ -1,0 +1,33 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/textbox-(dx11)-files"
+url: "textbox-dx11"
+category: "module"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "2"
+            filename: "Textbox (DX11) v3.zip"
+            description: |-
+              Adds color and render state pins
+            
+            timestamp: "13 Mar, 2017 - 17:18"
+            download_count: "2"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "1"
+                    filename: "Textbox (DX11) v2.zip"
+                    description: |-
+                      Spreadable version
+                    
+                    timestamp: "13 Mar, 2017 - 12:35"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "Textbox (DX11) v1.zip"
+                    timestamp: "12 Mar, 2017 - 18:51"
+                    download_count: "1"

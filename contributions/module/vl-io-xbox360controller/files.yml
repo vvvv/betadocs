@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/vl.io.xbox360controller-files"
+url: "vl-io-xbox360controller"
+category: "module"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "VL.IO_.Xbox360Controller.1.0.0.zip"
+            description: |-
+              nupkg for offline install, use nuget install otherwise
+            
+            timestamp: "21 Apr, 2019 - 15:32"
+            download_count: "2"

@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "84020"
+user: "circuitb"
+created: "11 Jun, 2012 - 01:13"
+body: |-
+  hi Elliot,
+  just few notes on the opencv nodes
+  regarding the videoin (OpenCV) & videoin (OpenCV directshow)
+  in some case you need to specify the native resolution of your cam
+  for example my ids GigE cam only works @ its full resolution 1024x768
+  with a cheapo webcam all resolutions are supported
+  tested under beta 27.2 & 28.

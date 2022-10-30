@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/boolean-geometry-files"
+url: "boolean-geometry"
+category: "plugin"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "3dBooleanGeometry_b35.8_AnyCPU_v1.0.zip"
+            description: |-
+              initial
+            
+            timestamp: "16 Jul, 2017 - 16:18"
+            download_count: "112"

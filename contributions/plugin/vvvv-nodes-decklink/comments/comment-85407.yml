@@ -1,0 +1,19 @@
+### YamlMime:ContributionComment
+---
+uid: "85407"
+user: "bjoern"
+created: "09 Jul, 2012 - 17:48"
+body: |-
+  Hi there, got an Intensity Pro PCIe today. Works out of the box (only had to set the right video mode). Nice. 
+  
+  
+  On thing though. How did you determine the latency being 1 Frame?
+  
+  I used the capture card as second monitor and put one renderer displaying a framecounter on that "screen" and another renderer displaying the captured image and the same counter on the first screen. The difference between the two counters is mostly 2 sometimes 3 frames. 
+  The Video mode is set to 1080p30 and vvvv is running at 30FPS.
+  What am I doing wrong?
+  
+  Unfortunately it´s not possible to attach the patch.
+  
+  
+  edit: [here](https://cargo.meso.net/oca/ulij-ogoj-omab-ukok) it is.

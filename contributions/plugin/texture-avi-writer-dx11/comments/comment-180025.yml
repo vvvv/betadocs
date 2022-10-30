@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "180025"
+user: "graphicuserinterface"
+created: "21 Dec, 2014 - 16:54"
+body: |-
+  doesnt work here,
+  00:01:55 ERR : Exception occured in TMPluginWrapperNode.Evaluate
+  00:01:55 ERR : E_OUTOFMEMORY: Ran out of memory (-2147024882)
+  
+  downloaded the http://ffmpeg.zeranoe.com/builds/

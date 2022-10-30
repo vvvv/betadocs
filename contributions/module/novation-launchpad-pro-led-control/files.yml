@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/novation-launchpad-pro-led-control-files"
+url: "novation-launchpad-pro-led-control"
+category: "module"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "LaunchPadPro_SYSEX_Modules.zip"
+            timestamp: "01 Feb, 2016 - 16:33"
+            download_count: "1"

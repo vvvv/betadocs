@@ -1,0 +1,27 @@
+### YamlMime:ContributionComment
+---
+uid: "194222"
+user: "guest"
+created: "08 May, 2015 - 13:20"
+body: |-
+  App_Rulr.exe fails to run. (Using Windows 8.1 Pro) It throws up this error:
+  
+  Unhandled exception at 0x00007FFEE7364A30 (msvcr120.dll) in App_Rulr.exe: Fatal program exit requested.
+  
+  Problem signature:
+    Problem Event Name:	BEX64
+    Application Name:	App_Rulr.exe
+    Application Version:	0.0.0.0
+    Application Timestamp:	553fa7bc
+    Fault Module Name:	MSVCR120.dll
+    Fault Module Version:	12.0.21005.1
+    Fault Module Timestamp:	524f83ff
+    Exception Offset:	0000000000074a30
+    Exception Code:	c0000409
+    Exception Data:	0000000000000007
+    OS Version:	6.3.9600.2.0.0.256.48
+    Locale ID:	2057
+    Additional Information 1:	943d
+    Additional Information 2:	943dfc6d2256c58d0a0b9cd340ae84a7
+    Additional Information 3:	fb90
+    Additional Information 4:	fb903bd767605edae5e08c522ecb7f01

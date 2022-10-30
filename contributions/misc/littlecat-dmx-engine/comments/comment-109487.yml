@@ -1,0 +1,16 @@
+### YamlMime:ContributionComment
+---
+uid: "109487"
+user: "tekcor"
+created: "07 Nov, 2013 - 19:19"
+body: |-
+  heym nice my enttec opendmx is working with this :)
+  
+  there is something strange.
+  do you have an idea why the config_little_cat.txt is loading when I double click the application but it is not loading when I start the application from commandline (.bat)?
+  
+  So I get 'impossible to open config_little_cat.txt'
+  
+  its a luxus to get this kind of error massage at all :)
+  
+  edit: I got it, the config file must be in the same folder fom where the.bat is executed.

@@ -1,0 +1,15 @@
+### YamlMime:ContributionComment
+---
+uid: "69242"
+user: "hrovac"
+created: "09 Sep, 2011 - 08:39"
+body: |-
+  @everyoneishappy:
+  
+  you have to change 2 shader:
+  
+  inside bicubic_yresample:
+  all double to float
+  
+  inside particleGPU_SplaneMesh:
+  change the name of the techniques (PhongPoint, PhongDirectional)(as mentioned here:[beta-26-shader-syntax-error)](https://discourse.vvvv.org/t/beta-26-shader-syntax-error))

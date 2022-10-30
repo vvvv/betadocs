@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/launchpad-patch-files"
+url: "launchpad-patch"
+category: "module"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "LAUNCHPAD.v4p"
+            timestamp: "14 Jan, 2011 - 10:33"
+            download_count: "1"

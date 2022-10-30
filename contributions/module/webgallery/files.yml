@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/webgallery-files"
+url: "webgallery"
+category: "module"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "WebGallery.zip"
+            description: |-
+              v.1
+            
+            timestamp: "20 Aug, 2019 - 20:23"
+            download_count: "2"

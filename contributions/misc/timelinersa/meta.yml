@@ -1,0 +1,15 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/timelinersa-meta"
+type: "misc"
+author: "joreg"
+date: "24 Feb, 2011"
+title: "TimelinerSA"
+originalURL: "contribution/timelinersa"
+category: "misc"
+credits: |-
+  MidiPin uses [MIDIToolkit](http://www.codeproject.com/KB/audio-video/MIDIToolkit.aspx) by Leslie Sanford
+like_count: "6"
+imported: "true"
+teaser: |-
+  manual and changelog are here: [TimelinerSA](https://betadocs.vvvv.org/topics/animation/timelinersa.html)

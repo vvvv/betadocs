@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "160211"
+user: "sanch"
+created: "21 Jul, 2014 - 17:29"
+body: |-
+  i don't understand why you couldn't copy assets, i didn't test your patch now , but so far i guess you read the xml from the patch , if you find a filetexture node for example , you could just read the path pin and get the file path, then copy it to new folder assets, if you find a dir node get path and copy full dir into assets... or there is something i don't get?

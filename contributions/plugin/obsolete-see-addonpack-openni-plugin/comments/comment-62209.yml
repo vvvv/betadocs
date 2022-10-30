@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "62209"
+user: "hierro"
+created: "09 Apr, 2011 - 14:55"
+body: |-
+  not sure wabout the IR and RGB, actually the plugin export the RGB texture and the Depth texture, IR is a data  array used internal to build up depth and so on, over the definition actually RGB and Depth are exported sametime and synched, not  ? :)

@@ -1,0 +1,12 @@
+### YamlMime:ContributionComment
+---
+uid: "230829"
+user: "quaddro"
+created: "27 Oct, 2016 - 09:39"
+body: |-
+  is it right that the connection to steamvr only works if the oculus patch is in focus? so if i minimize (alt+3) it, vvvv.exe "is not responding".
+  is there any workaround?
+  
+  and furthermore, are there any more dependencies for the second girlpower patch "patch in vr"? i have a few red nodes with hard links. the title had me quiet interested, as i'm still wondering how to get my patching window into vr.
+  
+  thanks in advance, huge contribution!

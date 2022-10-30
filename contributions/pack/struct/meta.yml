@@ -1,0 +1,51 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/struct-meta"
+type: "pack"
+author: "woei"
+date: "22 Mar, 2019"
+title: "Struct"
+originalURL: "contribution/struct"
+category: "pack"
+credits: |-
+  readme and bjoern for years of using and feedbacking
+like_count: "10"
+imported: "true"
+teaser: |-
+  *keeping your patches structured, fast and tidy*
+  or
+  *taming the link-spaghetti and S+R chaos*
+  
+  1.  short
+  
+  **bundle links/pins** into named groups (think Cons with multiple types married with s/r) while not giving up visual **dataflow**, **performance** and vvvvs graph evaluation strategy (only evaluate what is requested from downstream.
+  
+  
+  1.  about/motivation
+  
+  vvvv got increasingly diverse, plugins, dynamic plugins, shaders, dx11, vl,... projects grew in complexity and size as well. while we all love vvvvs capabilities for quick prototyping by patching, bigger projects are acompanied by the struggle of well structured (speak heavily nested subpatches; splitting of logic, io, animation,...) which make it harde to quickly implement some extra since it ends up in creating loads of outputs and inputs everytime (and probably creating a nice git merge conflict when not working alone). or one starts to insert Send and Receives all over the place, to keep the changes local only, making it a mess to understand and debug for someone else later and reduces reusability of single components.
+  
+  struct encourages **patching in components/datatypes**: e.g. a GUI element has the name 'Button' and needs a transformation, text, dx11 background image, and a vl delegate (action). the rendering part uses a split, the logic part somewhere else the join. inbetween just one link. when a new property is required while working on either end, just define a new pin, the other end (or any struct node using 'Button') gets it automatically.
+  
+  1.  Features
+  
+  * bundle **any types** of pins together: native, c#, dx11, even from dynamic plugins or vl. system will update automatically when you change the vl or c# type. or drop in any plugin, the type will immediately be usable with struct.
+  * system is **evaluation aware**. if no split is pulling data, the join will disable evaluation upstream. even better: this happens on a per pin basis.
+  * Nil vs S+H: split nodes automatically hold the last valid output. useful for calculating initial config values (then just disabling the nodes doing that) or io data not arriving every frame. can be disabled on the node.
+  * **minimal data copying** - optimal performance: no matter through how many subpatches and nodes struct is piped, actual moving of data is performed directly between the join input pin and the split output pin. (means this should perform better than a couple of zip and unzips in a row)
+  * datatype safety is enforced via the name: no accidental splitting of the wrong data. but Getters and Setters provide a way to access and modify different structs together.
+  
+  1.  Performance and Stability
+  
+  * the only performance penalty is the one of copying between native and c# world which you also have on vl integration nodes or any plugins. as mentioned, copying is kept to an absolute minimum and performed on the faster stream interface where possible.
+  * the rest of the system (gui windows, type checking, pin handling,...) only draws performance while you are actively patching and changing things.
+  * the system just calls the usual plugininterface methods, no extra copying or allocation or creation of big datatypes, thus memoryfootprint is be minimal. (even the automatic s+h feature just relies on the backing buffer of the plugininterface)
+  * has been in use successfully in various agencies in big projects already
+  
+  1.  License
+  
+  free for non-commercial and educational use
+  commercial usage requires licensing - get in touch, play fair and support
+  (license ranges from a note of appreciation for indy use, to fair share for industrial scale)
+  
+  ####  have fun!

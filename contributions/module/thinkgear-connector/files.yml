@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/thinkgear-connector-files"
+url: "thinkgear-connector"
+category: "module"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "Thinkgear Connector V2.v4p"
+            timestamp: "30 Nov, 2011 - 12:07"
+            download_count: "1"

@@ -1,0 +1,19 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/colourlovers-api-meta"
+type: "module"
+author: "geometrica"
+date: "05 Mar, 2014"
+title: "ColourLovers API"
+originalURL: "contribution/colourlovers-api"
+category: "module"
+credits: |-
+  Geometrica Studio. http://www.colourlovers.com/
+like_count: "8"
+imported: "true"
+teaser: |-
+  Easy Way To colorize your vvvvorld,,, thousands of color palettes for your projects..
+  enjoy ;).
+  Notes:
+  Leave search and hue inputs blanks to browse palettes.
+  Fixed Number of colors by palette.

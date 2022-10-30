@@ -1,0 +1,17 @@
+### YamlMime:ContributionComment
+---
+uid: "107068"
+user: "robe"
+created: "26 Sep, 2013 - 11:24"
+body: |-
+  Hi Martin, I'm using VVVV and dx11 32 bit.. (win7x64, nvidia quadro2000 as I said)
+  Can someone explain me what
+  ```
+  00:02:25 ERR : SlimDX.Direct3D11.Direct3D11Exception in SlimDX: E_INVALIDARG: An invalid parameter was passed to the returning function (-2147024809)
+  ```
+  means?
+  
+  Is this contrib using SlimDX? and what parameter was passed?
+  Is this related to variable type? I don't know because I just learned int-long-float-double... and I know that they can have some limit in bit you can put inside them
+  
+  Thanks

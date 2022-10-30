@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/boids-files"
+url: "boids"
+category: "plugin"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "0.01AnimationBoids.zip"
+            timestamp: "19 Jun, 2011 - 09:11"
+            download_count: "1"

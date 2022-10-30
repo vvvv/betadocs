@@ -1,0 +1,107 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/vpm-meta"
+type: "tool"
+author: "microdee"
+date: "27 May, 2016"
+title: "vpm"
+originalURL: "contribution/vpm"
+category: "tool"
+credits: |-
+  LibGit2Sharp, PowerArgs, SharpCompress, Fody Weavers, Fody Costura
+like_count: "15"
+imported: "true"
+teaser: |-
+  Documentation is at https://github.com/microdee/vpm
+  
+  Now you can browse and install packs from the [VPDB pack repository](https://vvvvpm.github.io/) with ease!
+  
+  ###  Install / Use
+  
+  * **Download latest release from** https://github.com/vvvvpm/vpm/releases
+  * Register a VVVV with its setup.exe (if it's not done already)
+  * Extract anywhere with 7-zip. Extracting with the windows/file explorer vanilla unzipper will put vpm in sandboxed mode and it can't load modules for scripts in sandboxed mode. 7-zip ignores this.
+  * Run it at least once so it can register vpm:// or vpms:// uri schemes (vpm links).
+  * Click a vpm link (vpm(s)://) or double click a .vpack file
+  
+  1.  Happy Contributions:
+  
+  * [CSVvvv](xref:contribution/csvvvv) by [rmueller](http://vvvv.org/users/rmueller)
+  * [CV Image Pack](xref:contribution/vvvv.packs.image)
+  * [DirectX 11 Nodes](xref:contribution/directx11-nodes) by [vux](http://vvvv.org/users/vux) *
+  * [DX11.Particles](xref:contribution/dx11.particles) by [tmp](http://vvvv.org/users/tmp)
+  * [FBX4V](xref:contribution/fbx4v) by [microdee](http://vvvv.org/users/microdee)
+  * [FieldTrip](xref:contribution/fieldtrip) by [everyoneishappy](http://vvvv.org/users/everyoneishappy)
+  * [ForwardPlus](xref:contribution/forwardplus) by [kopffarben](http://vvvv.org/users/kopffarben)
+  * [Instance Noodles](xref:contribution/instance-noodles) by [everyoneishappy](http://vvvv.org/users/everyoneishappy)
+  * [md.ecosystem](xref:contribution/md.ecosystem.mp) by [microdee](http://vvvv.org/users/microdee)
+  * [Messages 2.0](xref:contribution/vvvv-message) by [velcrome](http://vvvv.org/users/velcrome)
+  * [Time](xref:contribution/time) by [tmp](http://vvvv.org/users/tmp) *
+  * [ZeroMQ](xref:contribution/vvvv-zeromq) by [velcrome](http://vvvv.org/users/velcrome)
+  * <a href="vpms://raw.githubusercontent.com/vvvvpm/vpdb/master/devvvvs/vvvv/latestalpha_auto.vpack">Update vvvv to latest alpha automatically</a>
+  
+  (* available through https://vvvvpm.github.io/ )
+  
+  ##  Troubleshooting
+  
+  * **VPM Cannot load/use Newtonsoft.Json.dll**
+    * Your VPM got sandboxed by Windows, Extract VPM with 7Zip and Windows cannot sandbox it.
+  
+  1.  Changelog (also manually copied here from github for your convenience):
+  
+  ##  1.3.0
+  
+  * Omitted license agreement UI (individual licenses are no longer asked)
+  * Improved VVVV folder selection UI
+  ##  1.2.8
+  
+  * Added ThrowException function for scripts
+  * Made loading Nuget packages for scripts working
+  ##  1.2.7
+  
+  * Fixed not all assemblies were loaded shipping with vpm
+  * Allow drag and drop on folder selection
+  ##  1.2.6
+  
+  * Added a directory selector dialog
+  ##  1.2.5
+  
+  * Updated nuget packages and removed Fody Weavers
+    I figured since the actual files are already put into a subfolder, I might as well just put all the DLL's there and not weave them into main exe. This also allows to use all referenced assemblies in the installation script
+  ##  1.2.4
+  
+  * Added a more stylish darker look with MahApps.Metro
+    and loading spinners for UX shenanigans
+  * Added a "web UI" for vpdb
+  * got rid of old vpdb remnants
+  * added an example for license pages
+  ##  1.2.3
+  
+  * Vpm can now talk to the license pages through javascript
+  ##  1.2.2
+  
+  * Updated vpm.bat for usage in 'PATH' (by MrRoundRobin)
+  * Added license agreement screen
+    Powered by a CefSharp control
+  ##  1.1.3
+  
+  * **Add:** from now on releases are published on https://github.com/vvvvpm/vpm/releases and changelog will continue there
+  * **Fix:** fixed wrong deleting path when overwriting existing dependency
+  ##  1.1.2 (.1)
+  
+  * **Add:** If the input .vpack's pack is already existing user is prompted to update/overwrite instead of quitting immediately
+  * **Fix:** File copying exceptions from the script (like access denied) are handled individually and let the remaining files copy and the rest of the script run.
+  ***Fix:** In case of above mentioned exception comes from overwriting read-only or hidden files, vpm will remove those attributes before copying.
+  * **Mod:** Ditched directory printing, it was just bloating the console.
+  ##  1.1
+  
+  * **Add:** Now vpm also associate .vpack files during registration
+  * **Add:** Improved scripting: now scripts can use assemblies referenced by vpm
+  this means pack developers can reference System and some basic namespaces of it with the using statement
+  * **Mod:** vpm doesn't require an exiting vvvv anymore. This means vpm can install vvvv and addonpack to its own folder or the folder specified in command line argument.
+  * On the point of previous entry vpm now also able to update vvvv to the latest alpha with a vpack file (<a href="vpms://raw.githubusercontent.com/vvvvpm/vpdb/master/vvvv/latestalpha_auto.vpack">Try updating here</a>)
+  * **Mod:** it has colors now yaaay!
+  * **Mod:** the source tag is not mandatory now
+  
+  Enjoy!
+  [microdee](http://vvvv.org/users/microdee)

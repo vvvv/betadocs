@@ -1,0 +1,21 @@
+### YamlMime:ContributionComment
+---
+uid: "232658"
+user: "dominikKoller"
+created: "29 Nov, 2016 - 11:56"
+body: |-
+  I have a similar problem as @fatalex.
+  
+  Windows 10, x64bit, newest alpha or newest beta x64. 
+  Using only the imagepack, without any other pack installed.
+  
+  I can create the node CalibrateCamera, I'm getting appropriate error messages when I don't give it enough input and hit solve.
+  
+  However when I do give it enough input and hit solve, I get this and vvvv crashes:
+  
+  ![error](https://vvvv.org/sites/default/files/imagecache/large/images/imagepack.JPG) 
+  
+  (Can't copy the text)
+  
+  Any help?
+  Getting nvcuda didn't help.

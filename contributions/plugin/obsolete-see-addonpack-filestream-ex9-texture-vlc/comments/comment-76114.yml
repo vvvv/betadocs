@@ -1,0 +1,14 @@
+### YamlMime:ContributionComment
+---
+uid: "76114"
+user: "cybear"
+created: "11 Feb, 2012 - 11:33"
+body: |-
+  I saw in the vlc0.5test beta27.v4p
+  
+  there is a reference to a csproj file in plugins\0.5EX9.TextureVlc\0.5EX9.TextureVlc.csproj
+  
+  which it isn't in the vlc05testbeta27.zip. Could it be that when you try it in alpha27.1 it opens your csproj file instead of the dll?
+  
+  The only way I get it to work in beta27 is when I move the vlc0_5.dll, the libvlc.dll and the libvlccore.dll in the same directory of the v4p file and not in the plugins/vlc folder.
+  And in alpha27.1 gives me the error above.

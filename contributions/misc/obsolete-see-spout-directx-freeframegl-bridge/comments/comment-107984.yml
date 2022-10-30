@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "107984"
+user: "psylion"
+created: "11 Oct, 2013 - 13:02"
+body: |-
+  For those who already got success rendering content through Resolume.
+  Can you Record some video? *I mean Resolume recording function.*
+  
+  I'm currently using the demo trial, but when I record VVVV produced graphics, I only get blank (black) output.
+  
+  Is this due to the limitation of Demo Trial? (it's working for normal video process)
+  or is this due to the vvvv produce GPU shared gfx, and could not be recorded?

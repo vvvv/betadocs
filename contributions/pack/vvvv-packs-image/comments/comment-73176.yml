@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "73176"
+user: "hierro"
+created: "11 Dec, 2011 - 11:56"
+body: |-
+  Hi, did some testing for dveloping.
+  
+  Using ImagResize, passing fastchangin values,output will be randomly black,couldnt understand if issue is related to image allocation or whatever.
+  
+  Compiling openni with 1.4 will not work Usergenerator initialization,vvvv just closes.

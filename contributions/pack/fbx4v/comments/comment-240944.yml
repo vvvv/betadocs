@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "240944"
+user: "microdee"
+created: "09 Jun, 2017 - 17:03"
+body: |-
+  @u7angel: I was using an alpha version of vvvv during development. Probably a version prior beta 35.5 because I didn't have any issues with the 3 girls showing up. Something went horribly wrong in that version apparently as Renderer (DX11 MRT) stopped initializing correctly since beta 35.5 and latest alpha. There is something dodgy with enums in general anyways nowadays. ANYHOW I introduced an ugly quick fix which hard-resets Renderer MRT with CreateNode into PBRIBL.
+  Try it now. Overwrite mp.dx and mp.essentials in vpm

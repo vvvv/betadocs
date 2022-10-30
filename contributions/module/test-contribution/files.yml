@@ -1,0 +1,48 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/test-contribution-files"
+url: "test-contribution"
+category: "module"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "1"
+            filename: "test_x64.pdf"
+            description: |-
+              Will make vvvv great again. Terrific!
+            
+            timestamp: "16 Jun, 2017 - 13:34"
+            download_count: "5"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "test_x64.pdf"
+                    description: |-
+                      Older version of this 64bit plugin
+                    
+                    timestamp: "16 Jun, 2017 - 13:38"
+                    download_count: "2"
+    32bit:
+        latest:
+            bit: "32"
+            delta: "1"
+            filename: "test_x68.pdf"
+            description: |-
+              Only 32bits. Failing platform. Sad!
+            
+            timestamp: "16 Jun, 2017 - 13:35"
+            download_count: "1"
+        older:
+            files:
+                - file:
+                    bit: "32"
+                    delta: "0"
+                    filename: "test_x68.pdf"
+                    description: |-
+                      Older version of this 32bit plugin
+                    
+                    timestamp: "16 Jun, 2017 - 13:38"
+                    download_count: "1"

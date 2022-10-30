@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "173772"
+user: "timpernagel"
+created: "10 Nov, 2014 - 21:34"
+body: |-
+  have you tried the IR node? i had today a problem just with this node (depth and rgb worked) and found the answer in installing the latest nvidia driver and the cuda 6.5 toolkit. not sure if this was the same issue like yours...

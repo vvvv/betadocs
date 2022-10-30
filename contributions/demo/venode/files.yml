@@ -1,0 +1,60 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/venode-files"
+url: "venode"
+category: "demo"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "5"
+            filename: "venode0.5.zip"
+            description: |-
+              json communication, session & data storing, message interval, bugfixes, new ui elements
+            
+            timestamp: "16 Oct, 2013 - 09:38"
+            download_count: "1"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "4"
+                    filename: "venode05-helpers-no-messages.zip"
+                    description: |-
+                      Simple nodes to use venode0.5 without need for Messages
+                    
+                    timestamp: "04 Apr, 2016 - 17:23"
+                    download_count: "2"
+                - file:
+                    bit: "64"
+                    delta: "3"
+                    filename: "Venode0.3.zip"
+                    description: |-
+                      tested to work with nodejs 0.10.12 and vvvv b30.2 + addonpack
+                    
+                    timestamp: "25 Jun, 2013 - 15:11"
+                    download_count: "4"
+                - file:
+                    bit: "64"
+                    delta: "2"
+                    filename: "Venode0.2.1.zip"
+                    description: |-
+                      fix of a patch mistake on unzip message
+                    
+                    timestamp: "20 Dec, 2012 - 14:35"
+                    download_count: "2"
+                - file:
+                    bit: "64"
+                    delta: "1"
+                    filename: "Venode0.2.zip"
+                    description: |-
+                      switched message to json + argument to node from v4
+                    
+                    timestamp: "19 Dec, 2012 - 23:56"
+                    download_count: "4"
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "Venode.zip"
+                    timestamp: "18 Dec, 2012 - 17:30"
+                    download_count: "3"

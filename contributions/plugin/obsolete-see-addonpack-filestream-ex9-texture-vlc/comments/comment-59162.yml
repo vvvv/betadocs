@@ -1,0 +1,21 @@
+### YamlMime:ContributionComment
+---
+uid: "59162"
+user: "puig"
+created: "28 Jan, 2011 - 15:37"
+body: |-
+  @ft
+  
+  Thanks for your excelent answer! That was exactly what I wanted to know about the reasons of using this plugin. Excelent job! (actually i think you could paste this points in the about)
+  
+  I could receive streaming using the plugin:
+  First one has to stream something using vlc (or other) whis is not fast to explain. You can also try this patch <http://vvvv.org/contribution/shellexecute-patch-to-stream-with-vlc> to trigger VLC using shellExecute.
+  
+  then you just have to set your IP and port separated by ":" in the first pin and the streaming will display.
+  
+  I tryied to stream directly from your plugin (without using shell) but still didn't make it.. that would be very nice!
+  
+  Ah.. I have been trying several compression formats but the only one that worked was (WMV + WMA (ASF)) wich is a bit sad.. it would be nice if anyone could say how to get H264 workin : )
+  
+  Thats all for now, hope we can get cool streaming working smoothly here!
+  cheers!

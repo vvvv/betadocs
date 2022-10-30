@@ -1,0 +1,18 @@
+### YamlMime:ContributionComment
+---
+uid: "87466"
+user: "circuitb"
+created: "22 Aug, 2012 - 14:14"
+body: |-
+  also if you get this msg using the CalibrateCamera node:
+  "OpenCV: For non-planar calibration rigs the initial intrinsic matrix must be specified"
+  
+  set the Flags enum to 
+  CV_CALIB_USE_INTRINSIC_GUESS
+  CV_CALIB_ZERO_TANGENT_DIST
+  CV_CALIB_FIX_K1
+  ..K2
+  ..K3
+  ..K4
+  ..K5
+  ..K6

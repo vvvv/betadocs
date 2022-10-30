@@ -1,0 +1,12 @@
+### YamlMime:ContributionComment
+---
+uid: "74847"
+user: "Alec"
+created: "14 Jan, 2012 - 11:10"
+body: |-
+  Hi guys,
+  I tried the new Kinect_OpenNI_Library_1.3 but it doesn't work beacuse all nodes are red. I downloaded and installed the newest drivers listed. 
+  
+  If I downgrade to the Kinect_OpenNI_Library_1.2 with its appropriate drivers the plugin works fine.
+  
+  Has anyone tried the latest release?

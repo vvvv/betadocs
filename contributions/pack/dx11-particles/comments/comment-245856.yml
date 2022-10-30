@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "245856"
+user: "tmp"
+created: "06 Oct, 2017 - 07:51"
+body: |-
+  the particles of that emitter aren't affected by the force modifier.
+  you can verify that by grouping the force modifier with a color modifier :)

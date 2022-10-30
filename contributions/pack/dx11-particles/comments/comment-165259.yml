@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "165259"
+user: "tmp"
+created: "18 Sep, 2014 - 14:42"
+body: |-
+  there is a small update available on github:
+  * new **Mesh (DX11.Buffer)** node to draw a mesh instead of a pointcloud
+  * renamed "Pointcloud" to "Visualization" - all nodes that have to do with kinect data visualization find their place there from now on
+  
+  https://github.com/letmp/KinectToolkitDX11/archive/master.zip

@@ -1,0 +1,16 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/clampfade-meta"
+type: "effect"
+author: "u7angel"
+date: "01 Aug, 2010"
+title: "ClampFade"
+originalURL: "contribution/clampfade"
+category: "effect"
+credits: |-
+  kalle
+like_count: "2"
+imported: "true"
+teaser: |-
+  a mesh can contain"per vertex colors" 
+  this Shader shows how to access those colors.

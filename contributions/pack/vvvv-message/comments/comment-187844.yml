@@ -1,0 +1,19 @@
+### YamlMime:ContributionComment
+---
+uid: "187844"
+user: "velcrome"
+created: "08 Mar, 2015 - 17:33"
+body: |-
+  For one, there is no string parsing going on behind the curtain. Remember, you are directly manipulating .net types, not some obscure comma-separated string representation of them. 
+  
+  Your case seems like a walk in the park for Message.
+  
+  However, performance is a big topic for Message, so it would be awesome to get more feedback if you hit certain limits. I admit I have postponed most possible optimisation for a time when usage tells me what to optimize.
+  
+  Right now I have a application with some 70+ widgets with a whole range of attributes like size, pos, color, Command when hit, type, source, etc. As long as they are not edited, there is no perf hit at all, because Message plugins will only do work when change has occurred (from upstream, and for Keep plugins, even downstream, but deferred by one frame). 
+  
+  But if change occurs, all the Message plugins will evaluate which might have a negative impact on framerate. 
+  
+  Note to self: Especially the deferred change detection from the Keeps seem to be too massive to be on by default.
+  
+  edit: for your case, you should start with defining a Formular for your type, feed some Defaults into a Hold, and then use Edit nodes downstream. Feel free to post a patch for more help.

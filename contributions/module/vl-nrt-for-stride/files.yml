@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/vl.nrt-for-stride-files"
+url: "vl-nrt-for-stride"
+category: "module"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "VL.NRT_Stride.zip"
+            description: |-
+              Non Realtime rendering for Stride
+            
+            timestamp: "02 Nov, 2021 - 16:48"
+            download_count: "1"

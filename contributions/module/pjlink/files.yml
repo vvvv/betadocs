@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/pjlink-files"
+url: "pjlink"
+category: "module"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "PJlink (devices).zip"
+            timestamp: "11 Dec, 2011 - 19:33"
+            download_count: "1"

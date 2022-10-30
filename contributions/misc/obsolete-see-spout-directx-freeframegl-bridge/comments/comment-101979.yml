@@ -1,0 +1,19 @@
+### YamlMime:ContributionComment
+---
+uid: "101979"
+user: "leonida"
+created: "07 Jun, 2013 - 17:37"
+body: |-
+  dear metrowave,
+  I saw that we have a very similar configuration.
+  I followed your instructions and I created the bat file., I put it on the bin vvvv, and I took the name from the root of sharing examples of Helium.
+  The plugin in Resolume works, but it does not transfer data from vvvv to resolume.
+  could you send me an example with a tutorial?
+  if you could send me some working example already tested?
+  
+  ps: excuse my english, I'm an Italian student
+  
+  win7 x64
+  nvidia quadro FX4800
+  dual xeon
+  vvvv_45beta29.2_x86/x64

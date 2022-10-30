@@ -1,0 +1,16 @@
+### YamlMime:ContributionComment
+---
+uid: "273060"
+user: "synth"
+created: "02 Jul, 2019 - 12:37"
+body: |-
+  I had trouble playing H265 and ProRes files with the VLC node.
+  
+  To fix it i went to \packs\dx11\nodes\plugins\vlc folder and removed the following files/folders:
+  * libvlc.dll
+  * libvlccore.dll
+  * plugins folder
+  
+  Then i downloaded and installed the latest VLC from their site and copied the above files from VLC install folder back to DX11 pack in their respective places.
+  
+  So far is working fine :)

@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "209143"
+user: "Martin Zrcek"
+created: "19 Oct, 2015 - 12:15"
+body: |-
+  Nice!
+  But guys mind it takes some CPU, of course. For example frames drop from 28 to 24, could be problem on stage. Maybe something like <http://upload.martinzrcek.cz/Patchbox%20(VVVV).v4p> to enable only when potentially used?
+  and a tip: **T**oggle **B**ang **P**ress instead of **B**oolean?

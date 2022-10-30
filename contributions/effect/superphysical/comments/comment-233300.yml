@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "233300"
+user: "mburk"
+created: "12 Dec, 2016 - 13:58"
+body: |-
+  the texture transform is currently not spreadable as it should be. will fix this in next update. for now you could use a TransformTexture effect to scale the textures per instance.

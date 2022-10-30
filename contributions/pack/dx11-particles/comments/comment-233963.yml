@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "233963"
+user: "skowronski"
+created: "05 Jan, 2017 - 13:37"
+body: |-
+  I'm trying to work with the Skeleton Node for Kinect2, however I don't really understand the values delivered (PositionXYZ & JointXYZ). Shouldn't the x and y values always lie between -1 and 1 or how do I need to interpret them?

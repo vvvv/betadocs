@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "247900"
+user: "mediadog"
+created: "20 Dec, 2017 - 18:33"
+body: |-
+  Yes, system performance is certainly considered, but part of that is considering that there is always a chance for things to take transient performance hits, particularly in a long-term installation.  Things should fail gracefully.  Risk of a crash is just not an option, and does not fit into my idea of "performance"!  There is a WORLD of performance difference between occasional dropped/black frames and just stopping entirely.  Real performance is not what something can do for a short period of time, but what it can do 24/7.  I would LOVE to use this, but it just sounds too risky.

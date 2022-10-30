@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "85912"
+user: "lecloneur"
+created: "20 Jul, 2012 - 15:18"
+body: |-
+  ah yes, sorry this one is still buggy... I have some problem to apply a rotation on 2d coordinate when I use a random function at the same time. I will try to work on that a bit more but now I have no idea how to make it works. A shame because I really like this one and I could make Scratched and non-Scratched in the same shader with different technics.

@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "164541"
+user: "mediadog"
+created: "09 Sep, 2014 - 19:12"
+body: |-
+  Yes, it appears the Rift SDK is using a different coordinate system than vvvv, or at least than the DK1 (or this plugin is not handling it the same).  I made some hacks to get the rotations and position to work in the "proper" direction.
+  
+  I also made some changes to fix the stereo eye offset once again, and also this plugin in already reporting the interocular distance of a single eye so I removed the divide-by-2.
+  
+  What I did here is a total kluge, and I think the distortions, aberration, resolution, etc. still need fixing but hey it works!  Thanks TidesBarn!
+  
+  Now how to attach a patch here, without making a whole new download...?

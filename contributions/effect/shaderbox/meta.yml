@@ -1,0 +1,32 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/shaderbox-meta"
+type: "effect"
+author: "umanema"
+date: "12 Aug, 2018"
+title: "Shaderbox"
+originalURL: "contribution/shaderbox"
+category: "effect"
+credits: |-
+  [shadertoy](https://www.shadertoy.com), [sebl](http://vvvv.org/users/sebl), [Bradley Austin Davis](https://github.com/jherico), vvvv team
+like_count: "10"
+imported: "true"
+teaser: |-
+  This is a bunch of DX11 effects that let you use [shadertoys](https://www.shadertoy.com) as skyboxes. I've borrowed the idea of doing this from Bradley Austin's book Oculus Rift in Action and decided to use it into the vvvv environment. 
+  ## Background 
+  
+  [Shadertoys](https://www.shadertoy.com) were always magical things for me. There is infinite beauty in ability to build entire world with pure maths, using fractals, distance functions, raytracing and all the staff. The result can totally blows ones mind. But the problem is that shadertoy is a pixel shader. In three dimensional space it is represented as a quad with 2d texture. It reminds a window to another realm. You can't put a 3d model inside or use vvvv cameras to rotate the view.
+  ## What's in it
+  
+  Shaderboxes allows you to immerse in shaders. This contribution contains some effects, witch you can use to wrap whole 3d scenes in shadertoys.
+  
+  ![title](https://vvvv.org/sites/default/files/imagecache/large/images/https://media.giphy.com/media/1xp0Amfwnw1jijzoeL/giphy-downsized-large.gif)
+  ## DIY 
+  
+  Besides a couple of converted shaders there is a small **HowTo** patch in /girlpower folder, that explains how to convert one particular shadertoy to skybox.
+  ## Dependences 
+  
+  *Make sure you have DX11 pack 
+  ## Practical use 
+  
+  I've created the contribution to play with it. Initially my main intention was to be able to travel through fractals in VR glasses, but I see more practical usage in creation of procedural skyboxes of all kinds.

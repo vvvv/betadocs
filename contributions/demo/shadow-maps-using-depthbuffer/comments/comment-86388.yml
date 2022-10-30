@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "86388"
+user: "elliotwoods"
+created: "31 Jul, 2012 - 16:01"
+body: |-
+  from <http://aras-p.info/texts/D3D9GPUHacks.html#depth>
+  
+  <div class="box">
+  INTZ is for recent (DX10+) hardware. With recent drivers, all three major IHVs expose this. According to ATI <1>, it also allows using stencil buffer while rendering. Also allows reading from depth texture while it’s still being used for depth testing (but not depth writing). Looks like this applies to NV & Intel parts as well.
+  </div>
+  
+  It should work on NVidia, ATI and Intel

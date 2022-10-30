@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "59295"
+user: "rosenfranz"
+created: "01 Feb, 2011 - 10:18"
+body: |-
+  Doesn't work here.
+  I'm using 45beta25. Copied the irrklang folder to \plugins and the content of \irrklang dll into \vvvv_45beta25\bin\managed. 
+  When I open the help patch now the Irrklang node is red (missing) and vvvv freezes immediately.
+  
+  Any ideas what could be wrong?

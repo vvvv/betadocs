@@ -1,0 +1,14 @@
+### YamlMime:ContributionComment
+---
+uid: "173059"
+user: "obernardoo"
+created: "07 Nov, 2014 - 16:50"
+body: |-
+  Hi! very good job. How many people connected can interact at the same time? and that can be done to support as many people as possible? 
+  
+  tested and found ok:
+  * node.js 0.10.12
+  * vvvv_45beta33.3
+  * vvvv-Message_x86 V1.33
+  
+  Thank you!

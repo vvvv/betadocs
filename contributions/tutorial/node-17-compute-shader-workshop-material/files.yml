@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/node-17-compute-shader-workshop-material-files"
+url: "node-17-compute-shader-workshop-material"
+category: "tutorial"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "dx11_compute.zip"
+            description: |-
+              Initial files
+            
+            timestamp: "27 Jun, 2017 - 12:41"
+            download_count: "2"

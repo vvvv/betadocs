@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "207682"
+user: "tmp"
+created: "06 Oct, 2015 - 13:43"
+body: |-
+  Here is a small patch where you can see how to achieve the same behaviour (and alot more) with DX11.Pointcloud:
+  https://dl.dropboxusercontent.com/u/51232449/vvvv/DissolverWithDX11Pointcloud.zip
+  
+  All you need is the latest version of [[dx11.pointcloud](xref:contribution/dx11.pointcloud)](dx11.pointcloud) in your packs folder.
+  
+  As small addon you can find a wallpaper I made some months ago :)
+  Have fun.

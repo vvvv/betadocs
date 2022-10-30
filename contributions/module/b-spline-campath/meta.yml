@@ -1,0 +1,17 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/b-spline-campath-meta"
+type: "module"
+author: "vux"
+date: "14 Jul, 2010"
+title: "B-Spline Campath"
+originalURL: "contribution/b-spline-campath"
+category: "module"
+like_count: "10"
+imported: "true"
+teaser: |-
+  B-Spline based camera system.
+  
+  Defines a few control points and it generates a nice path for you.
+  
+  Also allows to keep a fixed target or to set the target further in the path.

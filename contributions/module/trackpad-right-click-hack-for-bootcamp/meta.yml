@@ -1,0 +1,20 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/trackpad-right-click-hack-for-bootcamp-meta"
+type: "module"
+author: "catweasel"
+date: "07 Dec, 2011"
+title: "Trackpad Right Click hack for Bootcamp"
+originalURL: "contribution/trackpad-right-click-hack-for-bootcamp"
+category: "module"
+credits: |-
+  Catweasel
+like_count: "1"
+imported: "true"
+teaser: |-
+  0.1 a Fix for shitty trackpad support in Bootcamp
+  Uses a key to replace right clicking for adjusting io boxes
+  
+  Ideally I'd like to HID the keyboard and use the Fn key as a modifier as I did with Input Remapper on older Macbook Pro's
+  Anyone used HID before?
+  Catweasel 11

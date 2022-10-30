@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "70144"
+user: "mediadog"
+created: "05 Oct, 2011 - 19:07"
+body: |-
+  (Ooops, that didn't post like I expected.  Get both the links above.)
+  
+  Here's an effect to take the depth texture, and generate a greyscale image from it.  It takes min and max depth inputs, discards any data outside that range, and scales and inverts the depth so that White = min and black = max.  This makes it look like the AGC image in that closer things appear brighter.

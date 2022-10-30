@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "236855"
+user: "everyoneishappy"
+created: "17 Mar, 2017 - 03:25"
+body: |-
+  @mrboni did you have a look at the example in girlpower?  in short you can't use indirect dispatch in noodles (currently).  But you can probably still achieve a given effect even with a statically sized buffer (eg scale them out when dying).

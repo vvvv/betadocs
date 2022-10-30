@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "58519"
+user: "vux"
+created: "16 Jan, 2011 - 00:51"
+body: |-
+  0.5.3 Update:
+  * New GetContactPoints Node
+  * Rigid shape sizes default values and scaling now reflects vvvv standard meshes.
+  * More object disposal.
+  * First constraint implemented (Point2Point) + DestroyContraint.

@@ -1,0 +1,29 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/g-code-in-v4-meta"
+type: "demo"
+author: "kleinkariert"
+date: "07 May, 2015"
+title: "G-Code in V4"
+originalURL: "contribution/g-code-in-v4"
+category: "demo"
+credits: |-
+  Quadrature Studio
+  kleinkariert
+  Jule
+  Dr. Bernstein
+like_count: "9"
+imported: "true"
+teaser: |-
+  Enables you to interface with CNC machines in Real-Time when using the GRBL or TinyG (most makerbots for example use these)
+  
+  Also it is very smooth and stable with integrated Homing, reset, end positions....
+  So not only for CNC but a lot of other motor projects
+  
+  GRBL:
+  -> https://github.com/grbl/grbl/wiki
+  
+  TinyG:
+  -> https://github.com/synthetos/TinyG/wiki
+  
+  works with most current versions

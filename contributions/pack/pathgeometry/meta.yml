@@ -1,0 +1,34 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/pathgeometry-meta"
+type: "pack"
+author: "velcrome"
+date: "11 Jul, 2011"
+title: "PathGeometry"
+originalURL: "contribution/pathgeometry"
+category: "pack"
+like_count: "12"
+imported: "true"
+teaser: |-
+  This repository introduces the **PathGeometry** from [Windows.Media](https://msdn.microsoft.com/en-us/library/system.windows.media.pathgeometry(v=vs.110).aspx) to vvvv. It helps you to manipulate 2d polylines.
+  
+  * It gives you 2 prototypes (rectangle and ellipse) and a way to create **your own polygons**.
+  * It has tools to **analyse**polygons (area and bounds)
+  * It comes with all the **typical nodes** you need to build applications (getslice, select, group, change, queue, s+h)
+  * It has **boolean operations** to merge and mangle polygons.
+  * It has helper modules to transform polygons into **Layers** and **Meshes**.
+  * It has 3 kinds of **hittests**.
+  * It has extensive **helpfiles**.
+  * 
+  * It is **fully**spreadable.
+  * It is **fast**as lightning.
+  * It is **open**and **free**.
+  
+  ### Install:
+  
+  Simply put the \PathGeometry directory that is in the .zip in your \packs directory. 
+  
+  ### Getting Started:
+  
+  open
+   \packs\PathGeometry\girlpower\Overview.v4p

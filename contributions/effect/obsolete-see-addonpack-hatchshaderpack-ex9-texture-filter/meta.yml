@@ -1,0 +1,24 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/obsolete-see-addonpack-hatchshaderpack(ex9.texture-filter)-meta"
+type: "effect"
+author: "lecloneur"
+date: "08 Jan, 2012"
+title: "[OBSOLETE, see Addonpack] HatchShaderPack(EX9.Texture Filter)"
+originalURL: "contribution/obsolete-see-addonpack-hatchshaderpack(ex9.texture-filter)"
+category: "effect"
+credits: |-
+  lecloneur, Digital Slaves,
+like_count: "9"
+imported: "true"
+teaser: |-
+  A pack of different hatching style. 
+  
+  * Hatch Crossed
+  * Hatch Dot
+  * Hatch Line (with rotate parameter)
+  * Hatch Scratched
+  * Hatch Square
+  * Hatch From Texture (from Digital Slaves, now as a texture filter)
+  * Charcoal (from Digital Slaves, now as a texture filter)
+  * CrossStitching (from geeks3d.com)

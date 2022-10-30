@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/akai-apc40-midimap-in-out-files"
+url: "akai-apc40-midimap-in-out"
+category: "module"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "APC40_MIDI_Send-Recieve.v4p"
+            timestamp: "04 Feb, 2014 - 05:14"
+            download_count: "4"

@@ -1,0 +1,12 @@
+### YamlMime:ContributionComment
+---
+uid: "98076"
+user: "sonofsnow"
+created: "14 Mar, 2013 - 15:07"
+body: |-
+  Hi again. Im having proplem to make this work, and its probably my mistake. 
+  But a quick question. If i upload the code without doing any modifications to it to the arduino Uno and set the ip of my computer to 192.168.1.100 shouldnt it be up and running immediatly.
+  
+  Tnx
+  
+  EDIT: I got this working with the 0023 version (V2), But still no luck with v3 for arduino 1.0

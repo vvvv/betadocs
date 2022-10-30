@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "246752"
+user: "io"
+created: "26 Oct, 2017 - 10:10"
+body: |-
+  Red "Evaluate" node here and then it crashes within 20 seconds.

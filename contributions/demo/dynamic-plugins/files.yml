@@ -1,0 +1,21 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/dynamic-plugins-files"
+url: "dynamic-plugins"
+category: "demo"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "1"
+            filename: "Dynamic Plugins_NODE15.zip"
+            timestamp: "06 May, 2015 - 13:38"
+            download_count: "2"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "Dynamic Plugins.zip"
+                    timestamp: "24 Feb, 2013 - 20:29"
+                    download_count: "2"

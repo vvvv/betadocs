@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "70522"
+user: "alg"
+created: "13 Oct, 2011 - 09:27"
+body: |-
+  This is amazing, but can you fix one bug- splines don't work on ATI cards, when PS compiled to 2_0. Just compile PS to 3_0 and it's works on ATI. Also, you need to enable antialiasing by default because without it thin lines looks ugly.

@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "100916"
+user: "elio"
+created: "14 May, 2013 - 19:47"
+body: |-
+  Found the way to get the enum's real value: just create a dynamic plugin and cast the "Format" or "Usage" Enum to integer. Easy easy...

@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "99574"
+user: "mediadog"
+created: "15 Apr, 2013 - 03:45"
+body: |-
+  @geometrica: No "pipet" node except for OpenCV now, all DX11 stuff seems to be here fine.  Is there a DX11 pipet?

@@ -1,0 +1,27 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/cross-(2d)-advanced-files"
+url: "cross-2d-advanced"
+category: "plugin"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "1"
+            filename: "cross.zip"
+            description: |-
+              v1.1
+            
+            timestamp: "11 Jul, 2011 - 10:11"
+            download_count: "2"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "cross.zip"
+                    description: |-
+                      v1.0
+                    
+                    timestamp: "08 Jul, 2011 - 16:18"
+                    download_count: "2"

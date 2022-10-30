@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "247811"
+user: "velcrome"
+created: "17 Dec, 2017 - 01:12"
+body: |-
+  No, it never freed those gigs until vvvv.exe was terminated.
+  Disabling the Player only stopped it from eating even more (with the Play toggle, or the modules Evaluate). 
+  
+  The use case was displaying up to 16 image sequences in parallel, images were around 320x240 or something. 
+  Customer provided jpg, which obviously didn't help the io performance either.
+  
+  I admit freely, the general setup was not ideal and bound to lag with a hdd. However, IO can always be diminished (involuntary windows update download, anyone?) and frame drops should be handled gracefully.

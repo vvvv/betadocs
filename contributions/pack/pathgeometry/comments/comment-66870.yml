@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "66870"
+user: "Lightmare"
+created: "21 Jul, 2011 - 16:55"
+body: |-
+  This looks really great, I'm interested in doing some 2d animation and this looks very useful for it. When I try to use the 'Mesh' plugin included in the pack I get some odd results though. Does the PathGeometry package only support convex shapes? See here for an example of what I'm talking about:
+  
+  [/sites/default/files/screenshot1311267163.png](/sites/default/files/screenshot1311267163.png)
+  
+  Thanks for the contribution!

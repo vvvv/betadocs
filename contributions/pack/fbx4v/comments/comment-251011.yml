@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "251011"
+user: "microdee"
+created: "21 Apr, 2018 - 17:57"
+body: |-
+  That shader node is not missing, it just tells you it's not happy about something. I currently don't have too much time to look into FBX4V now which I know is in terrible shape but there are more important problems I need to take care of. For simpler management I'm planning to merge it into mp.dx in the coming weeks, so it'll be open source soon.
+  
+  If you don't need blendshapes or embedded media, you can fall back to assimp, there are couple of nodes in mp.dx which also brings you the possibility to have spreaded skeletons the same way you had in FBX4V

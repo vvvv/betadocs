@@ -1,0 +1,15 @@
+### YamlMime:ContributionComment
+---
+uid: "239628"
+user: "seltzdesign"
+created: "17 May, 2017 - 16:10"
+body: |-
+  I tried this, but keep getting an error in Grasshopper. I did the unblocking of the zip file.
+  
+  ![](https://vvvv.org/sites/default/files/imagecache/large/images/Screenshot%202017-05-17%2017.53.10_proc.jpg) 
+  
+  I am using the latest Version 0.9.0076.
+  
+  Also I would suggest using the File Path component and not adding the file extension in the vulture component. That way you can just right-click and "set one filepath" rather than typing in the file path without the file extension, which makes no sense.
+  
+  EDIT: Forgot to unblock the slimDX.dll file, dohh!

@@ -1,0 +1,10 @@
+### YamlMime:ContributionComment
+---
+uid: "113906"
+user: "Alec"
+created: "10 Feb, 2014 - 19:59"
+body: |-
+  Guys,
+  I want to control different led matrices with the same patch. How can I send different pipet data to different Teensy boards?
+  
+  Thanks...

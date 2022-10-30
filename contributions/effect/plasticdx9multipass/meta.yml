@@ -1,0 +1,14 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/plasticdx9multipass-meta"
+type: "effect"
+author: "dottore"
+date: "22 Jun, 2010"
+title: "PlasticDX9multipass"
+originalURL: "contribution/plasticdx9multipass"
+category: "effect"
+like_count: "8"
+imported: "true"
+teaser: |-
+  This example shows how to apply one-pass-per-light shading to a plastic surface. The shading is done in DX9 ps2 - pixel shaded.
+  In this example, there are two point sources, one without falloff and one with "real" quadratic falloff, an infinitely-distant source, ambient light, and a fresnel reflection.

@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "182493"
+user: "velcrome"
+created: "17 Jan, 2015 - 21:03"
+body: |-
+  confirm exception. placing FeralTic.dll into the plugins dir does not help.
+  
+  with beta31.2 i can see colored quads, more recent x86 versions don't even do that. no editing possible :(
+  
+  where did you keep the plugin while developing?
+  
+  if it's meant to be #fun why not opensource it? maybe someone even fixes you up with an x64 :P

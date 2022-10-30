@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "78827"
+user: "ft"
+created: "02 Mar, 2012 - 10:08"
+body: |-
+  @silver.smith: although I can't guarantee anything, I think the plugin is quite stable at this point in time. The most unstable part in my opinion is changing the slice-count, so try to keep that constant.
+  
+  Apart from that, try to keep your patch running at home for a few days if possible, and see if anything happens then :)

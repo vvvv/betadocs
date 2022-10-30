@@ -1,0 +1,24 @@
+### YamlMime:ContributionComment
+---
+uid: "83171"
+user: "DiMiX"
+created: "22 May, 2012 - 21:04"
+body: |-
+  @Elliot
+  package placed in contribution>root patch> search path...all done
+  
+  as you can see many nodes are linked to addonpack/lib etc.
+  many of them i can find in package and relink,
+  but few of them are still missing:
+  TableView: Insert, Table
+  ContourDelauney 
+  ContourPerimeter
+  ChessBoardspread
+  CameraSpace
+  Pipet
+  CLEyeMulticam.dll 
+  <div class="box">quote:mediadog:
+  CPU cores peg at 100% & vvvv.exe is still a zombie and has to be manually killed.
+  </div>
+  the same on my pc
+  ![](https://vvvv.org/sites/default/files/imagecache/large/images/OpenCV.JPG)

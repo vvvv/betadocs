@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "61934"
+user: "hierro"
+created: "04 Apr, 2011 - 18:06"
+body: |-
+  Compiled plugin already does what you are looking for, if I understood it well.
+  the third texture exported is a thresholded image by a min/max zdepth, tracked upon  depthMap's histogram.
+  Actually the fastest way to build 3d object using 3d info is to use the depth map, and analyze those pixels to get the correct transforms values, in example using a pipet, something like [ this](http://vimeo.com/21758978%20).

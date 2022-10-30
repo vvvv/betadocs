@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "240832"
+user: "karafiat"
+created: "06 Jun, 2017 - 13:15"
+body: |-
+  Do you recommend using x64 Vaudio on integrated Realtek soundcards with Asio4all drivers on win10? I had huge latency problems leading to crash of applications on different computers almost always. The setup was including Oculus or Kinect2. Without this usb hungry devices it was more stable.

@@ -1,0 +1,15 @@
+### YamlMime:ContributionComment
+---
+uid: "165668"
+user: "Element"
+created: "25 Sep, 2014 - 09:24"
+body: |-
+  <div class="box">quote:catweasel:
+  Nvidia are apparently updating their drivers to fix the spout issue with optimus, sometime around mid sept, so lets hope they have, and all will be good from there!
+  </div>
+  
+  Just downloaded and installed it, doesn't work for me... (GTX 860M). But at least I dont get the "Nvidia wglDXInterop failed to initialize" Error.  
+  
+  Spout now seems to work with Optimus GPUs: http://spout.zeal.co/forums/topic/nvidia-optimus-bug-fix/
+  
+  Another question: I am currently only using the Resolume 4.1.11 demo version, does anyone know if the demo version is capable of texture sharing? It is possible to select the DX Texture (RR) source and to enter the sharing name but the output stays black...

@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "246870"
+user: "mrboni"
+created: "03 Nov, 2017 - 22:13"
+body: |-
+  Has anyone had a look at the vectorfield nodes?  They don't seem to apply forces in the correct direction.  Try these examples - http://www.mediafire.com/file/4x174fgf8lmec6g/VF_Examples.zip

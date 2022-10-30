@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "190822"
+user: "filipvisnjic"
+created: "11 Apr, 2015 - 21:31"
+body: |-
+  Hey vux, the graphic card is Intel® HD graphics (Gen 7) as listed <a href="https://software.intel.com/en-us/articles/intel-graphics-developers-guides">here</a> - a cut down version of HD4000 (16EU), see <a href="http://www.anandtech.com/show/7314/intel-baytrail-preview-intel-atom-z3770-tested">here</a>. Regarding .exe, we fully support it but for NODE15 we are focused on vvvv patch + vvvvjs support. If you'd like me to test your .exe independently of NODE15, please drop me an email at filip(at)frm.fm.

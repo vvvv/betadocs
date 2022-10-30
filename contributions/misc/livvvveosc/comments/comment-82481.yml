@@ -1,0 +1,16 @@
+### YamlMime:ContributionComment
+---
+uid: "82481"
+user: "casinowilhelm"
+created: "09 May, 2012 - 01:28"
+body: |-
+  Hi there- seems to be a typo or problem in the latest version - the host addresses and ports in liveOSC.py and also the example patch may be set to your PC. 
+  
+  Anyway that's not my problem - I can't get this to work. Just using localhost. Neither version (old or new) seems to communicate with live - it seems to send messages on UDP but ableton doesn't react. 
+  
+  I've followed the instructions several times and tried with different versions of vvvv, and tried localhost and fixed IP addresses.
+  Any known problems e.g with live 8.2.8 by any chance? 
+  
+  I tried on two different computers running win7. One running a firewall, one not.
+  
+  thanks!

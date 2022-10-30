@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "217175"
+user: "catweasel"
+created: "23 Feb, 2016 - 21:57"
+body: |-
+  @vjc4 just added a substitute sting patch for speeding up shader porting and the primatives raymarch example from shadertoy to the other page. The patch only gives you a start, you'll have to go and fix any(!) errors, mostly matrices without the right number of entries I think...

@@ -1,0 +1,19 @@
+### YamlMime:ContributionComment
+---
+uid: "256727"
+user: "everyoneishappy"
+created: "29 Jun, 2018 - 11:15"
+body: |-
+  -added Deferred Texrture SF3D & VF3D nodes (use RGB/XYZ texture as domain for function)
+  -Added Bias & Gain Nodes to all field types
+  -Added Deform VF3D geometry shader Module
+  -Added a couple of SDFs ported from Fragmentarium
+  -Added a couple of DX11.Particles nodes
+  -Added Uniform Value and Uniform Vector nodes
+  -Added SDFToBump
+  -Added surface forcefield
+  -Added AsSF3D (SF2D) and AsVF3D(VF2D) domain converters
+  -Added custom sdf mode to TruchetSDF
+  -Lots of bug fixes
+  -Couple of new examples in FieldSamples folder
+  pls also update Instance Noodles & Happ.fxh, or just use VPM to install

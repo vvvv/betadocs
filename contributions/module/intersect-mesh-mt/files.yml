@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/intersect-(mesh-mt)-files"
+url: "intersect-mesh-mt"
+category: "module"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "Intersect (Mesh MT).zip"
+            description: |-
+              Intersect (3d mesh ray) operating slicewise for spreadable operation.
+            
+            timestamp: "20 Jul, 2010 - 10:57"
+            download_count: "1"

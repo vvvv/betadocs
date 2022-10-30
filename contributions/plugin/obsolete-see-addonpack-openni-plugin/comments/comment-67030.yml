@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "67030"
+user: "candian"
+created: "25 Jul, 2011 - 20:18"
+body: |-
+  Hey, phlegma, thanks for the reply. I just checked the machine, and it has .net 3.5 installed. So, it seems that this is not the problem. The Kinect doesn't even blink its green led. So I'm assuming it's a problem of the drivers, not in VVVV.
+  
+  My question is: do I need to install any additional drivers before? The Win7 64 just started working AFTER it downloaded the drivers from the internet. Win XP recognizes the new device when I plug it, but keeps asking me for the drivers.
+  
+  Thanks!

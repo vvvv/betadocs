@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "196279"
+user: "u7angel"
+created: "18 May, 2015 - 17:47"
+body: |-
+  ello gumlastik,
+  
+  good stuff!
+  
+  i noticed one little hickup aka jump, checkout your lerp help patch: when the segment passes a keyframe.

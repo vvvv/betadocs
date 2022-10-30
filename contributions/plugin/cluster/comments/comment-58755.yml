@@ -1,0 +1,26 @@
+### YamlMime:ContributionComment
+---
+uid: "58755"
+user: "kalle"
+created: "21 Jan, 2011 - 18:42"
+body: |-
+  ah well, 
+  the helpfile is referencing to Chaos.v4p which is a [Subpatch](xref:b66f153a-f7c3-4867-a8c9-bce69861d759) of the Group (2d) module i dropped somewhere in the 2.0-tikiwiki-forums. 
+  
+  so everybody starting this helppatch with a "virgin"-b25 installation will have 2 red nodes called "Chaos"...
+  unless this subpatch can be found in 
+  ```
+  "%VVVV%\modules\Group (2d)\Chaos.v4p"
+  ``` 
+  ---
+  
+  dear chmee, pls don't take the following as offense:
+  dear devvvvs, pls DO take the following as offense:
+  
+  after having a closer look at *\*\*Cluster (Value) help.v4p\*\** 
+  using the free [XMLmarker](http://symbolclick.com/the_tree_view.htm) (must-have!) i encountered a funny thing again:
+  
+  vvvv's xml makes use of (at least two) new attributes called ***systemname*** and ***filename***.
+  again those new attributes are neither documented nor part of the <glossary>(https://vvvv.org/glossary) of vvvv
+  
+  have to complain about this in the bug section.

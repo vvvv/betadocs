@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "263251"
+user: "StiX"
+created: "23 Aug, 2018 - 09:26"
+body: |-
+  hi,
+  
+  if filestream is not constantly changing value on any of the number input pins, it will not engage the loop start/end arguents

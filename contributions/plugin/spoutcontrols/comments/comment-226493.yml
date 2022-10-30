@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "226493"
+user: "digitalwannabe"
+created: "03 Sep, 2016 - 13:13"
+body: |-
+  for anybody having problems, ie if TTY Renderer says a dll is not found or no txt file is created in *C:\ProgramData\Spout* please see here [plugins-calling-native-code-work-on-most-computers-on-some-they-dont](https://discourse.vvvv.org/t/plugins-calling-native-code-work-on-most-computers-on-some-they-dont) and report your findings if you can....I'll update as soon as I've found out what's wrong.

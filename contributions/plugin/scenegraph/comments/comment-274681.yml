@@ -1,0 +1,10 @@
+### YamlMime:ContributionComment
+---
+uid: "274681"
+user: "woei"
+created: "25 Dec, 2019 - 15:20"
+body: |-
+  @ZvivZ
+  the guys at decode.io did a proof of concept patch. i'm sure they'll pass it on if you ask them
+  @manuel
+  can't reproduce. did you alter the fbx file? because the error sounds like it is loading an object within the scene without name.

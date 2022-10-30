@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/nexus-ui-4v-files"
+url: "nexus-ui-4v"
+category: "module"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "NEXUS_UI_4V.zip"
+            description: |-
+              Rev. 0.1
+            
+            timestamp: "02 Dec, 2015 - 04:41"
+            download_count: "2"

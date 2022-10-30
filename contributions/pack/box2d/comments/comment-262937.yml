@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "262937"
+user: "timpernagel"
+created: "21 Aug, 2018 - 13:04"
+body: |-
+  Is there a way to deactivate collision for certain bodies after they are created?

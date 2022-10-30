@@ -1,0 +1,18 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/particle-emitter-meta"
+type: "demo"
+author: "dl-110"
+date: "26 Mar, 2011"
+title: "particle emitter"
+originalURL: "contribution/particle-emitter"
+category: "demo"
+credits: |-
+  gaussian blur effect inside.
+like_count: "8"
+imported: "true"
+teaser: |-
+  lets you emit particles at a specific event. idea came up, when i saw a emitting system in vvvv. basically i just improved it a bit and attached the gaussian blur effect. further development appreciated... :)
+  
+  yours,
+  dl-110

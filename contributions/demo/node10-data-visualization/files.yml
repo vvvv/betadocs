@@ -1,0 +1,27 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/node10-data-visualization-files"
+url: "node10-data-visualization"
+category: "demo"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "1"
+            filename: "dataviz_patches.zip"
+            description: |-
+              patches - 0.1
+            
+            timestamp: "08 Jun, 2011 - 15:06"
+            download_count: "3"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "dataviz_sheets.zip"
+                    description: |-
+                      the sheets
+                    
+                    timestamp: "08 Jun, 2011 - 15:11"
+                    download_count: "2"

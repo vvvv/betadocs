@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "275059"
+user: "u7angel"
+created: "29 Feb, 2020 - 09:53"
+body: |-
+  https://drive.google.com/open?id=1BPiaUw4bsEGB4ZRKYao46S0sKO60TRQk
+  
+  you can try this. it is compiled against the latest vvvv and the latest edsdk. drag drop the canonplugin.dll in your patch. **make sure you use the 64bit version of vvvv.**
+  
+  i can not test this right now since i'm on the road without a canon cam.
+  
+  let me know if this works.

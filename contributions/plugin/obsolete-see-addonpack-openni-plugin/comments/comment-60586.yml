@@ -1,0 +1,16 @@
+### YamlMime:ContributionComment
+---
+uid: "60586"
+user: "hierro"
+created: "07 Mar, 2011 - 14:37"
+body: |-
+  Robe, kinect is still very interesting, i will not say that community is not interested in it, just i guess that everybody has just the time to develop what they need, or at least, usually is like this for me :)
+  
+  
+  ABout the global node, personally i dont think this is the right time to spend energy on this, within 20 days will be available a new SDK from microsoft, and a lot of framework appeared on the web to use kinect type sensor.
+  
+  I think you should first study, or at least know, the framework capabilities, actually the kinect plugin is using Openni.net.dll, and openni CANT use a custom pose calibration, nor  calibrated users to disk , so it's a matter of framework not of vvvv developing.
+  
+  BTW , what are you goals with kinect ?
+  
+  cheers.

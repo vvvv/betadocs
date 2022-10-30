@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "63416"
+user: "weareallclowns"
+created: "09 May, 2011 - 13:39"
+body: |-
+  @hierro I made use of the robe package with the 1.0.25 edition.
+  
+  I seem to have done everything right; I get the Kinect up and running, but no skeleton appears.. Maybe there's something really obvious I'm missing.
+  
+  ![skeletonwhereartthou](https://vvvv.org/sites/default/files/imagecache/large/images/argh.PNG)
+  
+  Edit: it seems like it's working to some extent. it finds me, looks for my pose, detects my pose, and then calibrates for ever..

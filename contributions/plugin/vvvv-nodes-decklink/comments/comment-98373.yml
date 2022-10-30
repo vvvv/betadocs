@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "98373"
+user: "manuel"
+created: "20 Mar, 2013 - 09:44"
+body: |-
+  If I only use 1 output (for example the matrox) with the decklink, no problem, but if I add it to the other renderer, not so well...
+  
+  tried wait for frame, mainloop and all i can think of but fps keeps going down when using 2 or more devices to show the decklink stream.

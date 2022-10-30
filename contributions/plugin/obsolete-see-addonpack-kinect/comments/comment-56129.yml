@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "56129"
+user: "u7angel"
+created: "24 Nov, 2010 - 15:42"
+body: |-
+  ok, i had flickering on my macbook pro running xp32. now i tried on a desktop machine with xp32 and i have no flickering. what i did different is using the existing windrvr6.sys while installing the driver. i received the message that the existing windrvr6.sys is newer than the one coming with the driver. 
+  
+  either using the desktop machine fixed the problem or using the existing windrvr6.sys fixed the problem. i can't tell...

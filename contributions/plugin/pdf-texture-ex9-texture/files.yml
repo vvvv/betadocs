@@ -1,0 +1,30 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/pdf-texture-(ex9.texture)-files"
+url: "pdf-texture-ex9-texture"
+category: "plugin"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "2"
+            filename: "PDFTexture (EX9.Texture)_beta28.1.zip"
+            timestamp: "26 Oct, 2012 - 05:27"
+            download_count: "2"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "1"
+                    filename: "PDFTexture (EX9.Texture)_beta27.zip"
+                    timestamp: "30 Dec, 2011 - 07:57"
+                    download_count: "35"
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "PDFTexture (EX9.Texture).zip"
+                    description: |-
+                      opens Adobe PDF files in vvvv
+                    
+                    timestamp: "14 May, 2011 - 22:00"
+                    download_count: "2"

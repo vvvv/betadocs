@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "74097"
+user: "mediadog"
+created: "29 Dec, 2011 - 02:35"
+body: |-
+  Martin, thanks again for such a fabulous contribution!  But I'm seeing something with the size of the sprites that I don't understand:
+  
+  If I run help01, and then in the renderer move the camera far away by "P" + mouse-right-drag-up, say all the way to the clipping point, then zoom in by "Z" + mouse-right-drag-down until the image appears about the same size, the sprites are now very small.  In other words, they appear to have remained at their apparent distant size although the FOV has magnified the scene.  The reverse happens if you move closer and widen the view; the sprites get much larger.
+  
+  Is this intentional/unavoidable?  Ideally I'd like to be able to set the size of the sprites in "world" terms and have them stay that way.  Is this related to the "Height" parameter?
+  
+  Hmmm, just found an easier way to demonstrate this: reset the Softimage camera with a long "R" press, then right-drag the Camera "Initial FOV" input pin smaller to zoom in - the structure gets bigger but not the sprites.

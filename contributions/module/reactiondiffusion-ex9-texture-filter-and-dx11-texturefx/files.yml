@@ -1,0 +1,33 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/reactiondiffusion-(ex9.texture-filter)-and-(dx11.texturefx)-files"
+url: "reactiondiffusion-ex9-texture-filter-and-dx11-texturefx"
+category: "module"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "2"
+            filename: "ReactionDiffusion EX9-DX11.zip"
+            description: |-
+              added EX9 version and cleaned up DX11 a bit.  Help patches available for both versions.
+            
+            timestamp: "08 Aug, 2016 - 18:35"
+            download_count: "2"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "1"
+                    filename: "Reaction Diffusion DX11 - 3D Model Texture.zip"
+                    description: |-
+                      added CookTorrence 3D Texture example - credits on the shader code got to tonfilm
+                    
+                    timestamp: "15 Sep, 2016 - 22:12"
+                    download_count: "7"
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "ReactionDiffusion (DX11.TextureFX).zip"
+                    timestamp: "03 Aug, 2016 - 02:09"
+                    download_count: "1"

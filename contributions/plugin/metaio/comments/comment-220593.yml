@@ -1,0 +1,17 @@
+### YamlMime:ContributionComment
+---
+uid: "220593"
+user: "VRdude"
+created: "03 Jun, 2016 - 13:30"
+body: |-
+  Hey, 
+  
+  first of al thank you mino for your contribution. It works great! 
+  I have been using metaio for about a month now and trying out a few things for my school project. 
+  
+  Two days ago i ran into a problem, that the metaio.help wont show my webcam in vvvv. 
+  InstantTracking.help still works, but all the patches that have the Metaio Node dont show my webcam image and instead a black screen. The strange thing is that it worked a couple of days ago.
+  
+  I tried so many things. (1) Deleted all the changes i made to the patch since the problem (2) reinstalled the metaio SDK (3) reinstalled vvvv (4) tried on a different computer. Nothing has helped and i badly need it to work for my final project. 
+  
+  Did anyone experience something similar? Would appreciate if anyone could help me out here!

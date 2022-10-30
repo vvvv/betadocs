@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "206101"
+user: "tonfilm"
+created: "18 Sep, 2015 - 16:10"
+body: |-
+  the FileStream (VAudio) should be fixed now, please check with the latest version: [vvvv.audio-pack-alpha](xref:contribution/vvvv.audio-pack-alpha)

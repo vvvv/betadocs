@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "250927"
+user: "microdee"
+created: "15 Apr, 2018 - 19:54"
+body: |-
+  aaah that github, vpdb. yeah you're free to download it that way you will just need to manually download 4 other packs to make this work (mp.essentials, mp.fxh, mp.dx, dx11-vvvv) the assets are also mentioned in that vpack https://f001.backblazeb2.com/file/uberact/FBX4V/FBX4V-assets.zip
+  
+  now about the git cloning error messages, holy shit I can't even comprehend why cloning those public repos getting into authentication errors on your computer. Can you try it on another pc?

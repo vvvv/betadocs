@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "72632"
+user: "mediadog"
+created: "01 Dec, 2011 - 03:46"
+body: |-
+  Wow!  Works for me, but not Strawman - blank renderer, and vvvv is very unresponsive.  No CPU or GPU load, though, and no bad messages in TTY - on Win7 x64, GTX570.  Thanks!

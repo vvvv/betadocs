@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/navvvvigator-files"
+url: "navvvvigator"
+category: "plugin"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "Navvvvigator_v1.zip"
+            description: |-
+              Navvvvigator v1 (AnyCPU)
+            
+            timestamp: "04 Feb, 2015 - 17:00"
+            download_count: "1"

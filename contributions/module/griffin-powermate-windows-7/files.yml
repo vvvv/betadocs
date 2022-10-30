@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/griffin-powermate-windows-7- -files"
+url: "griffin-powermate-windows-7"
+category: "module"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "PowerMate (Devices).zip"
+            timestamp: "05 Dec, 2014 - 14:33"
+            download_count: "1"

@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/clampfade-files"
+url: "clampfade"
+category: "effect"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "ClampFade.zip"
+            timestamp: "01 Aug, 2010 - 14:41"
+            download_count: "2"

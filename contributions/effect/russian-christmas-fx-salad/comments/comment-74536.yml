@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "74536"
+user: "bo27"
+created: "07 Jan, 2012 - 19:12"
+body: |-
+  @liquid. growth-fx may not work if two instance of the shader running at same time. and it may slow down with hir-res resolutions 2048 and more

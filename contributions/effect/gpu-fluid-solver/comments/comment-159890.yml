@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "159890"
+user: "sanch"
+created: "18 Jul, 2014 - 00:35"
+body: |-
+  use a constant shader instead of the fullscreenquad , the quad can't render negative float from optical flow , inside your optical flow module set dx9texture to 32bit

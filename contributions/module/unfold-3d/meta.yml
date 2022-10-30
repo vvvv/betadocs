@@ -1,0 +1,20 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/unfold-(3d)-meta"
+type: "module"
+author: "lasal"
+date: "21 Jan, 2013"
+title: "Unfold (3d)"
+originalURL: "contribution/unfold-(3d)"
+category: "module"
+credits: |-
+  Lasal
+like_count: "7"
+imported: "true"
+teaser: |-
+  A way to align arbitrary coplanar set of pints to XY.
+  Thanks to the guy who made the 3PointsToPlan module.
+  
+  Ver. 1.1 Updated, orientation correction.
+  Ver. 2.0 Updated, spreadable version, it doesn´t need anymore the 3PointsToPlan module, 
+  thanks to Woei and Fibo.

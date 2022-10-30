@@ -1,0 +1,36 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/force-directed-graph-files"
+url: "force-directed-graph"
+category: "plugin"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "2"
+            filename: "ForceDirected.zip"
+            description: |-
+              cleaned up for beta35.8
+            
+            timestamp: "24 Jul, 2017 - 13:11"
+            download_count: "2"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "1"
+                    filename: "ForceDirected.zip"
+                    description: |-
+                      resaved with better folder structure in beta35
+                    
+                    timestamp: "30 Jan, 2017 - 20:32"
+                    download_count: "2"
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "ForceDirected.zip"
+                    description: |-
+                      technichal cleanup
+                    
+                    timestamp: "11 Nov, 2010 - 02:21"
+                    download_count: "4"

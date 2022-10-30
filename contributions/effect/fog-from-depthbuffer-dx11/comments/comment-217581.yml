@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "217581"
+user: "robe"
+created: "04 Mar, 2016 - 19:46"
+body: |-
+  Hello VVVVers,
+  I'm here trying to render with the Writer DX11 NRT...
+  
+  I need .png with alpha channel
+  ..Is there a way to avoid the Fog writing to the whole alpha of the texture?

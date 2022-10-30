@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "190286"
+user: "woei"
+created: "30 Mar, 2015 - 16:18"
+body: |-
+  then you would have two indices. one for the row you wanted to set, and another one for the table. not sure, if that isn't even more confusing.

@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "268510"
+user: "joreg"
+created: "02 Oct, 2018 - 10:32"
+body: |-
+  fun fact: remoter is actually written as a plugin, see its sources here: https://github.com/vvvv/vvvv-sdk/tree/develop/Hoster/Remoter 
+  
+  but if you really only need remote start/stop then you should be able to patch this easily using [psexec](https://docs.microsoft.com/en-us/sysinternals/downloads/psexec) run via shellexecute..

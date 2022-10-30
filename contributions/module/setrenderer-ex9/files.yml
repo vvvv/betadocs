@@ -1,0 +1,36 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/setrenderer-(ex9)-files"
+url: "setrenderer-ex9"
+category: "module"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "2"
+            filename: "SetRenderer (DX11).zip"
+            description: |-
+              SetRenderer (DX11) with On/Off Borders
+            
+            timestamp: "16 Dec, 2013 - 16:35"
+            download_count: "1"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "1"
+                    filename: "SetRenderer (DX11).zip"
+                    description: |-
+                      SetRenderer (DX11)
+                    
+                    timestamp: "16 Dec, 2013 - 15:20"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "SetRenderer (EX9).zip"
+                    description: |-
+                      SetRenderer (EX9)
+                    
+                    timestamp: "15 Dec, 2013 - 19:30"
+                    download_count: "2"

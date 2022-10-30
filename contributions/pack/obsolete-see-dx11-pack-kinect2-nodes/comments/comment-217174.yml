@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "217174"
+user: "joreg"
+created: "23 Feb, 2016 - 21:25"
+body: |-
+  sounds like you have multiple instances of vvvv on your PC. by doubleclicking a .v4p in explorer you start the vvvv version that is registered to open .v4ps. run setup.exe of the version you want to start and look for the file association setting there..

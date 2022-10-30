@@ -1,0 +1,14 @@
+### YamlMime:ContributionComment
+---
+uid: "80016"
+user: "karistouf"
+created: "21 Mar, 2012 - 22:25"
+body: |-
+  bonjour deby.
+  cues top level list in the GUI needed: medias, timings etc...
+  would be better for your patch to have entry points where user  can set media files. it works ok , but needs more ergonomy.
+  excel editing: would be better to edit tempos etc... inside a DX9 GUI (despite its ressource consumming) ( GDI ?) and backup it in excel ;-)
+  
+  Voilà !
+  
+  à++

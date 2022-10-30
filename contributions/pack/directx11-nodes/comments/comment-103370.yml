@@ -1,0 +1,10 @@
+### YamlMime:ContributionComment
+---
+uid: "103370"
+user: "Alec"
+created: "08 Jul, 2013 - 07:57"
+body: |-
+  Guys,
+  where are Kinect nodes for dx11 listed by [vux](http://vvvv.org/users/vux)? I can't find them in the nodes browser.
+  
+  *Edit:* I resolved installing Kinect SDK 1.7.

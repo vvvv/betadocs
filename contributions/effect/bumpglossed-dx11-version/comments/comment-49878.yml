@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "49878"
+user: "catweasel"
+created: "13 Jul, 2010 - 22:53"
+body: |-
+  Tried that too...
+  It's something to do with the bump mapping, if I set bumpiness to 0 I get the reflection showing hmmm

@@ -1,0 +1,25 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/vl.settingsreader-meta"
+type: "module"
+author: "ravazquez"
+date: "11 Jun, 2021"
+title: "VL.SettingsReader"
+originalURL: "contribution/vl.settingsreader"
+category: "module"
+like_count: "3"
+imported: "true"
+teaser: |-
+  This is the first draft of a simple tool that allows you to get the values of settings inside a standard .net .config file like the ones you generate with Visual Studio.
+  
+  Nothing fancy really, but hopefully it saves someone some work.
+  
+  A sample config file is included as well as a simple explanation on how to use the nodes.
+  
+  A standard string output version and a generic version are included.
+  
+  This first draft attempts to make use of a Singleton, which means all your nodes should point at the same config file for them to behave as expected. This may change in the future.
+  
+  Thanks to sebescudie and sebl for sharing their significantly more sophisticated solutions, I will try to bring in some of your ideas going forward.
+  
+  Cheers.

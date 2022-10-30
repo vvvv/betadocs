@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/saitek-p3200-rumble-pad-files"
+url: "saitek-p3200-rumble-pad"
+category: "module"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "Saitek_P3200_Rumblepad.zip"
+            timestamp: "28 Dec, 2011 - 07:42"
+            download_count: "2"

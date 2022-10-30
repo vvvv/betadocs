@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "250051"
+user: "schlonzo"
+created: "13 Mar, 2018 - 11:19"
+body: |-
+  If the RGB node is not working, than you have the "Orbbec Astra Pro".
+  This Camera Model don't get the RGB Stream over OPENNI2.
+  https://3dclub.orbbec3d.com/t/astra-pro-rgb-stream-using-openni/1015

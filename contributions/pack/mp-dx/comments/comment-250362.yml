@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "250362"
+user: "microdee"
+created: "20 Mar, 2018 - 12:40"
+body: |-
+  interesting I never had that, obviously it's false alarm but I'll have a look on virustotal. In those DLL's I'm not doing anything "trojanish" afaik.
+  Here are the sources btw https://github.com/microdee/mp.dx/tree/master/src/DX11Utils/DX11Utils.Native
+  And the Virustotal report: https://www.virustotal.com/#/file/3f9d29617bf9e5de6c84cfad4f0646e9b1b63ca7de8127b18278bcec925c1ad4/detection

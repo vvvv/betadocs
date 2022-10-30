@@ -1,0 +1,40 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/renderer-editor-(dx11)-meta"
+type: "plugin"
+author: "gumilastik"
+date: "15 Jan, 2015"
+title: "Renderer Editor (DX11)"
+originalURL: "contribution/renderer-editor-(dx11)"
+category: "plugin"
+credits: |-
+  [zelesha](http://vvvv.org/users/zelesha) for testing, [vux](http://vvvv.org/users/vux) for open source dx11 subsystem, [unc](http://vvvv.org/users/unc) for tips, and Michael Antykov ( <http://videofabrika.com>) for sponsoring research
+like_count: "6"
+imported: "true"
+teaser: |-
+  Special version of Renderer which allows to select (find) and transform objects-nodes directly in Renderer window (with feedback).
+  
+  * Select object with middle mouse click,
+  * Manipulate it with pressed right button.
+  
+  Submit bugs and requests to:
+  https://github.com/gumilastik/VVVV.RendererEditor
+  
+  ###  Requirement
+  
+  Use dx11 pack from Contributions only.
+  
+  ###  Update
+  
+  **v1.3**
+  * Add toolbar with modes and axis,
+  * Swap behavior of mouse buttons,
+  * Some fixes.
+  
+  **v1.2**
+  * Fixed bug of coordinates conversion 
+  
+  **v1.1**
+  * Small bug fixes
+  
+  Mail me if you find bug or have to talk :)

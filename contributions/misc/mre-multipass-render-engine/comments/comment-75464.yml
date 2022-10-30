@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "75464"
+user: "u7angel"
+created: "29 Jan, 2012 - 17:58"
+body: |-
+  ![polygon VSM problem](https://vvvv.org/sites/default/files/imagecache/large/images/shadow_example-DirectX%20Renderer_2012.01.29-19.05.41.png) 
+  
+  textures on spheres using phongpoint_MRT_VSM.fx are not mapped correctly. Wrap0 = U; usually fixes the problem. in this case, textures look good but the shadowmap seems to produce errors with this setting. some polygons on the sphere get dark depending on the rotation of the sphere.  (in top area of the image)

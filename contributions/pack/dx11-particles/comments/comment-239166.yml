@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "239166"
+user: "guest"
+created: "02 May, 2017 - 04:00"
+body: |-
+  How to control the number of emitting/max. particles? In the KinectSetup example patch, the amount of emitting particles can be increased by entering a lower number than the standard 100 in the Mod node (hope that’s the correct way). But with more particles, the emission stops in certain intervals. Seems that there is somewhere a restriction of the maximum number of particles. How to adjust/increased it? 
+  
+  Edit: Yeah, I think I understood now: The number for the Mod node is counting the points from the Kinect texture. 100 means that particles emitting from every 100th point. 1 means particle emitting from every point. There is one emitter who is fed with the resolution of the Kinect depth map, which defines the emitter size. Increasing this number extends the max number of particles. 
+  
+  Edit 2: Well, it seems that the performance drops down significantly when trying to make a more dense emission by emitting from every 5th point (also, I causes a kind of regular grid) . Could it be possible that multiple particles emitting from the same point and thus things getting slow? Maybe there is a way to restrict the emission my using filters on the Kinect textures? I tried with blur and masks, but it seems that the textures doesn’t work anymore when applying filters. Any suggestions?

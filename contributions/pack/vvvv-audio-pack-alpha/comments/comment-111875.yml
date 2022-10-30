@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "111875"
+user: "guest"
+created: "26 Dec, 2013 - 06:05"
+body: |-
+  Okay got Jacks for Windows working (if anybody wants pointers its best discussed in a separate forum), and I noticed that only the first two channels from the 'AudioIn' node were active. 
+  
+  Imagine this is to keep the overheads down during this alpha period, or is this a bug-proper?

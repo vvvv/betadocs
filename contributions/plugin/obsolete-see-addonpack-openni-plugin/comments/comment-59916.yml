@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "59916"
+user: "sapo"
+created: "15 Feb, 2011 - 23:31"
+body: |-
+  ah ok, but you know you don't need to read the xml within the patch, the plugin will read it itself automatically from the folders. maybe you are triing to link the xml output to the Config pin ? if so don't!
+   i guess is really frustrating.. i never had such problems.. can't understand what wrong in your installation.. if you want to contact me live on skype (ilsapo) maybe i can try troubleshoot it live

@@ -1,0 +1,10 @@
+### YamlMime:ContributionComment
+---
+uid: "249229"
+user: "andresc4"
+created: "19 Feb, 2018 - 03:54"
+body: |-
+  @mburk you were right thanks
+  Did you saw the GGX shader that flux posted here https://discourse.vvvv.org/t/community-coding-the-new-vvvv-standard-shader/15188/34 ?
+  That way of dealing with Ligths buffers looks awesome.
+  Will you add DOF on the next release?

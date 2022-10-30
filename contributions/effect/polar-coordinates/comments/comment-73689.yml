@@ -1,0 +1,15 @@
+### YamlMime:ContributionComment
+---
+uid: "73689"
+user: "robe"
+created: "20 Dec, 2011 - 17:30"
+body: |-
+  Like this!
+  
+  There's just one strange behaviour in the Clamp pin (Toggle)..
+  ..If the .fx is inside a subpatch (like EX9.Texture Filter) it doesn't work from outside..
+  
+  Can't figure why.
+  
+  Btw Nice Contrib
+  Thanks

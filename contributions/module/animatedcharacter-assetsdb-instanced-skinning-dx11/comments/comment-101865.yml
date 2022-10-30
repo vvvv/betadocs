@@ -1,0 +1,17 @@
+### YamlMime:ContributionComment
+---
+uid: "101865"
+user: "tekcor"
+created: "05 Jun, 2013 - 14:54"
+body: |-
+  Hey jo evvvvil yesterday I worked on the kinect thing with newemka. Cool thing is that the OpenNI nodes give a rotation and we should be able to map it to the right joints. Unfortunatly OpenNI nodes doesnt work for me somehow. Have to figure it out. But in theorie the only thing you have to do is to download the new version, hook up the kinect, check out inside the Skeleton (OpenNI) module which of the joints doesnt go into the orientation spread (because they are the last joints and dont have a rotation) and then you have to go very deep inside the KinectJointMapping module and make a new filter spread for the sift. So that the KinectJointOrientation Spread is going into the right order into the Rotate node. And of course it has to have the same spreadcount then the filter spread of the sift.
+  
+  got it?
+  
+  Cause the problem right now is that the orientation spread is smaller then the spread with all joints.
+  
+  newemka fortunately already selected the right order of joints as it gets output by the Kinect (Microsoft) Node.
+  
+  Also add me in skype. I have time again this evening at 7 or something.
+  
+  e: and dont forget to copy the MODELS from the old folder or download it separately from here. I made it outside of the versioning, because it is 20 MB.

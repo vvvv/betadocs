@@ -1,0 +1,10 @@
+### YamlMime:ContributionComment
+---
+uid: "241603"
+user: "eps"
+created: "28 Jun, 2017 - 21:27"
+body: |-
+  any hints about usage? 
+  doesn't work out of the box in 64bit beta 35.8, dx11 pack 1.1
+  
+  (btw there is dx11 vlc plugin by vux in his dx11 pack; no routed audio there though)

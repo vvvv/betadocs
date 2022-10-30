@@ -1,0 +1,15 @@
+### YamlMime:ContributionComment
+---
+uid: "236971"
+user: "evvvvil"
+created: "19 Mar, 2017 - 13:13"
+body: |-
+  Yo mr boni,
+  
+  I'm not seeing a goat on your boat, bro, but the ticket has been logged.
+  
+  Firstly regarding install yes, indeed, this is a pack plugin and it must be put in "packs" to work (that was explained in the description text already albeit lost in pseudo-humorous mumbo-jumbo) I will make it more clear by having it in CAPS...
+  
+  I made a sort of triple-patch-help-patch which in hindsight is a stupid fucking idea as i think the mouse nodes are confusing the shit outta eachother, i will fix a more robust help patch with only one patch and still three stand alone examples in girlpowr folder (don't forget you can do 2d touch/ mouse and ui collision detection with this shit)
+  
+  Spreading ray input bug: Will look into it, this plugin will be updated today or tomorrow. cheers broh

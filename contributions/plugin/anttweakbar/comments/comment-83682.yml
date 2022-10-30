@@ -1,0 +1,14 @@
+### YamlMime:ContributionComment
+---
+uid: "83682"
+user: "mino"
+created: "04 Jun, 2012 - 01:19"
+body: |-
+  @tgd
+  buttons and get status of bar not supported yet.
+  
+  original tweakbar lib support buttons, so it's possible. toggle button should first, then i will try bang one.
+  
+  get size and position is also available. for this i should create new node something like *Info*.
+  
+  please wait till the next release!

@@ -1,0 +1,15 @@
+### YamlMime:ContributionComment
+---
+uid: "239640"
+user: "seltzdesign"
+created: "18 May, 2017 - 12:10"
+body: |-
+  [mino](http://vvvv.org/users/mino) - are you still developing this? I tried getting it to work with 35.2, but keep getting this error:
+  
+  ```
+  
+  Exception occurred during creation of plugin: Could not load file or assembly 'file:///C:\Program Files\vvvv_50beta35.2_x64 SP 1.1\vvvvContributions\plugins\AntTweakBar_1.0\AntTweakBarNode.dll' or one of its dependencies. An attempt was made to load a program with an incorrect format.
+  
+  ```
+  
+  Any idea why that might be? Have done all the unblocking and files are in the location it is looking for.

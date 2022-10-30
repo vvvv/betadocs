@@ -1,0 +1,21 @@
+### YamlMime:ContributionComment
+---
+uid: "154726"
+user: "guest"
+created: "06 May, 2014 - 12:30"
+body: |-
+  Make sure you download:
+  
+  64 bit vvvv 
+  64 bit dx11 pack
+  
+  dx11 pack goes: \vvvv_45beta31.2_x64\packs\DX11
+  so you seem to be good with the placing at least.
+  
+  The kinect patch and its dll can be anywhere.
+  
+  Do not forget to run the kinect service.
+  Make sure to use the right vvvv if you happen to have
+  also other versions installed.
+  
+  that should do

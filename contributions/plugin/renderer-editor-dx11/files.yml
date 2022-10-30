@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/renderer-editor-(dx11)-files"
+url: "renderer-editor-dx11"
+category: "plugin"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "DX11.EditorRenderer.zip"
+            description: |-
+              v1.3
+            
+            timestamp: "19 Jan, 2015 - 14:25"
+            download_count: "1"

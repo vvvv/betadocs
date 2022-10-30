@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "268652"
+user: "ravazquez"
+created: "10 Oct, 2018 - 18:33"
+body: |-
+  @colorsound: I have not forgotten about you, been rather busy lately but this is high up on my TODO list. I am almost certain what you show in your post can already be achieved with the nodes as they are (maybe the the Add feature is needed for that). I will try to come up with a sample patch that shows this.
+  
+  @david: glad to hear it works for you! Indeed the Add pin is missing, right now it only adds on Change, but I understand this is not ideal in a lot of scenarios.  I will introduce that feature and an "Avoid Duplicates" feature in the next release.
+  
+  Cheers!

@@ -1,0 +1,15 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/acid-glitch-shaders-meta"
+type: "effect"
+author: "idwyr"
+date: "12 Jan, 2015"
+title: "Acid glitch shaders"
+originalURL: "contribution/acid-glitch-shaders"
+category: "effect"
+credits: |-
+  [idwyr](http://vvvv.org/users/idwyr), glsl.io
+like_count: "24"
+imported: "true"
+teaser: |-
+  Since I've been asked a lot about shaders from this video: https://vimeo.com/114882796 I've decided to upload them, they are pretty simple and completely amature though. Also I've added several cheesy transitions from https://glsl.io/ too, couple of them are very good for creating glitched images. Hope it will be useful for someone!

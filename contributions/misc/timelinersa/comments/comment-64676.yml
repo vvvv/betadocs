@@ -1,0 +1,21 @@
+### YamlMime:ContributionComment
+---
+uid: "64676"
+user: "circuitb"
+created: "04 Jun, 2011 - 19:54"
+body: |-
+  hello,
+  just found a strange behaviour in the current timeliner version (beta10.1 or the native beta 25.1 one):
+  when there's a pause action (OnEnd) in  a state the next value is sent when the playhead pause at the end of the state!
+  in the beta22 version the value was sent only when the next state was launched!!
+  true for all types of data string, values, colors etc...
+  assuming you snap the values with CTRL
+  the loop / previous action seems to react as expected!
+  in fact... when opening a beta22 project in beta 25.1 
+  the states created in beta22 are ok (no pause action bug) but when you try to Re-snap them (CTRL + click drag) they keep their time position but with the
+  pause action bug!!!
+  
+  the stop action seems to do something but don't know really what:)
+  hope you can shade some light on this.
+  thx
+  charles

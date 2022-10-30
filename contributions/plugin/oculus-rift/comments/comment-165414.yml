@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "165414"
+user: "tomeic"
+created: "22 Sep, 2014 - 12:19"
+body: |-
+  Hey, is anybody having luck with the distortion mesh? When i try only this one function: hmd.CreateDistortionMesh(...) in the Plugin  i get an "Index out of range" Exception. No clue what to do.. Could the problem be inside the OculusSharp.dll?

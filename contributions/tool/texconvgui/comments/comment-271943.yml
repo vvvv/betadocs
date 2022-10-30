@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "271943"
+user: "mrboni"
+created: "06 May, 2019 - 11:06"
+body: |-
+  Wow thank you Bjoern.  
+  
+  I actually just had to ditch my workaround for various reasons so was about to try to make this work. You saved me loads of time.
+  
+  It works perfectly, and creates a better pipeline from Resolve / Fusion in to vvvv.  I've only tested with 4 channel 128bpp exrs > R16G16F dds. (I had to ditch BC6H as the Player plugin wasn't happy with dynamically changing quantity of visible textures).  I don't know how texconv will deal with exrs that have extra channels.  If I test I'll let you know
+  
+  Much appreciated

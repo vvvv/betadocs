@@ -1,0 +1,21 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/state-files"
+url: "state"
+category: "module"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "1"
+            filename: "State.zip"
+            timestamp: "09 Jul, 2014 - 09:37"
+            download_count: "1"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "StateHelp.zip"
+                    timestamp: "06 Jul, 2014 - 19:59"
+                    download_count: "1"

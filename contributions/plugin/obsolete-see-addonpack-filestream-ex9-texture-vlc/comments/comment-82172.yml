@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "82172"
+user: "ventolinmono"
+created: "03 May, 2012 - 18:49"
+body: |-
+  @[DiMiX](http://vvvv.org/users/DiMiX)
+  Also the **libvlc_searchpath.txt** from the VLC plugin **only** points to the folder where VLC player is installed. I had four search paths before. Maybe that was part of my problem.

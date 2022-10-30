@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "185536"
+user: "woei"
+created: "16 Feb, 2015 - 14:24"
+body: |-
+  na, you can set the cultureinfo on how number representation is dealt with (within the plugin only). the cleanest way to handle this would probably be setting it globally to how v4 deals with it. that might potentially break old saved files though

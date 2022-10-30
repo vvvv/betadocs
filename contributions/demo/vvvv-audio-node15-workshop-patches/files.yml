@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/vvvv.audio-node15-workshop-patches-files"
+url: "vvvv-audio-node15-workshop-patches"
+category: "demo"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "VAudioWorkshopPatches.zip"
+            timestamp: "21 May, 2015 - 18:54"
+            download_count: "1"

@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "269253"
+user: "synth"
+created: "06 Nov, 2018 - 19:36"
+body: |-
+  On the machines that  i have tried and have Unity installed it works. But on clean machines it does not. 
+  I assume there is a library missing on plain windows install.

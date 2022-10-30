@@ -1,0 +1,15 @@
+### YamlMime:ContributionComment
+---
+uid: "218938"
+user: "Desaxismundi"
+created: "06 Apr, 2016 - 17:24"
+body: |-
+  Most of the shadertoys effects are using a technique called Raymarching. If you want to add elements to the scene you should follow the same procedure. There are plenty of examples on how to achieve shadow mapping, reflections, DOF on the shadertoys site or even here inside the contribution. If you look inside "infinite city" a camera has been implemented there.
+  
+  Some of the effects could be achieved on the geometry/vertex level. 
+  This "sculpture" thing is based on some sine deformations of a sphere.
+  
+  I quickly hooked up an example for you showing this for the sinederformation.fx:
+  https://dl.dropboxusercontent.com/u/14431143/VertexSineDeformations.zip
+  
+  hope that helps.

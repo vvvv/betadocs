@@ -1,0 +1,45 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/fieldtrip-files"
+url: "fieldtrip"
+category: "pack"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "3"
+            filename: "FieldTrip.zip"
+            description: |-
+              Node20Update
+            
+            timestamp: "01 Oct, 2020 - 23:30"
+            download_count: "1"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "2"
+                    filename: "FieldTrip.zip"
+                    description: |-
+                      New Nodes, examples and bugfixes
+                    
+                    timestamp: "17 Jun, 2019 - 07:14"
+                    download_count: "2"
+                - file:
+                    bit: "64"
+                    delta: "1"
+                    filename: "FieldTrip.zip"
+                    description: |-
+                      New Nodes and bugfixes
+                    
+                    timestamp: "29 Jun, 2018 - 11:30"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "FieldTrip.zip"
+                    description: |-
+                      Initial upload
+                    
+                    timestamp: "03 Jan, 2018 - 07:32"
+                    download_count: "2"

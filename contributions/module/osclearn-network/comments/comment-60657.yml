@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "60657"
+user: "dEp"
+created: "09 Mar, 2011 - 10:54"
+body: |-
+  @patrick, yes, this should work with any OSC sender. there's also [touchosc](http://hexler.net/software/touchosc), [control](http://charlie-roberts.com/Control/), [iosc](http://recotana.com/iphone/iosc/en/index.html), and probably more.
+  the reason it's a bit easier with fingerplay is that there's a button to send max. values of all widgets at once.

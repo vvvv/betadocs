@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "53380"
+user: "sanch"
+created: "26 Sep, 2010 - 12:29"
+body: |-
+  Ok there is no way to use the effect as master in the API so it's one effect per sound , good point is that effect are spreadable now , bad point is that it's CPU intensive regarding the spreadcount.

@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/lemur-(devices-ios)-files"
+url: "lemur-devices-ios"
+category: "module"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "Lemur (Devices).7z"
+            timestamp: "07 Apr, 2013 - 13:02"
+            download_count: "1"

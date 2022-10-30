@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "103549"
+user: "mediadog"
+created: "11 Jul, 2013 - 06:05"
+body: |-
+  Yes jannis, I have seen that too.  Seems to only happen a few times when I first start using it, and then doesn't again.  Also only seen it happen on one machine of two I've tried it on (oddly the faster one).
+  
+  This plugin I believe is using an older version of the Rift SDK; updating may fix it but not sure what's required to do that.
+  
+  @Herbst: there are two different "OculusPlugin.dll" files in the zip file, one in the base folder, and another (newer) down in the plugins\DevicesOVRDevice\bin\Dynamic folder.  Wasup wid dat? (;^})  Thanks!

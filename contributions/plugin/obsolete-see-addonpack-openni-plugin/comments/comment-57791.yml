@@ -1,0 +1,78 @@
+### YamlMime:ContributionComment
+---
+uid: "57791"
+user: "jonferran"
+created: "30 Dec, 2010 - 11:22"
+body: |-
+  I have managed to get depth map output on the texture pin by changing a few lines of code, however it doesn't work very well.
+  
+  The framerate is very bad and it seems to have some kind of a sync problem. It shows horizontal lines scrolling up and down the screen, also there is a black bar many pixels wide on the left side. I have messed around with the pointer iteration in the pixelshader-like function, but this is the best I can make it work. It looks good though.
+  
+  change this:
+  
+  ```
+  if (FWaveCountIn.IsChanged)
+              {
+                  Update();
+              }
+  ```
+  
+  to this:
+  
+  ```
+  //if (FWaveCountIn.IsChanged)
+             // {
+                  Update();
+             // }
+  ```
+  
+  change this line:
+  ```
+  return TextureUtils.CreateTexture(device, Math.Max(FWidthIn<Slice>, 1), Math.Max(FHeightIn<Slice>, 1));
+  ```
+  
+  to:
+  ```
+  return TextureUtils.CreateTexture(device, 640, 480);
+  ```
+  
+  and change the function:
+  
+  ```
+  unsafe private void FillTexure(uint* data, int row, int col, int width, int height)
+          {
+              //crate position in texture in the range <0..1>
+              var x = (double)row / height;
+              var y = (double)col / width;
+  
+              //make some waves in the range <0..255>
+              var wave = (byte)(255 * ((Math.Sin(x * y * FWaveCountIn<FCurrentSlice> * 10) + 1) / 2.0));
+  
+              //a pixel is just a 32-bit unsigned int value
+              var pixel = UInt32Utils.fromARGB(255, wave, wave, wave);
+  
+              //copy pixel into texture
+              TextureUtils.SetPtrVal2D(data, pixel, row, col, width);
+          }
+  ```
+  
+  to:
+  
+  ```
+  unsafe private void FillTexure(uint* data, int row, int col, int width, int height)
+          {
+              ushort* pDepth = (ushort*)this.depth.GetDepthMapPtr().ToPointer();
+              ushort* pix = pDepth+col+row*width;
+  			byte depthPixel = (byte)this.histogram<*pix>;
+              //a pixel is just a 32-bit unsigned int value
+              var pixel = UInt32Utils.fromARGB(255, depthPixel, depthPixel, depthPixel);
+  
+              //copy pixel into texture
+              TextureUtils.SetPtrVal2D(data, pixel, row, col, width);
+          }
+  ```
+  Can anyone tell what is wrong here? I'm sure it can be optimized, for one thing the pointer get can be put outside the iteration.
+  
+  Thanks!
+  
+  Jon

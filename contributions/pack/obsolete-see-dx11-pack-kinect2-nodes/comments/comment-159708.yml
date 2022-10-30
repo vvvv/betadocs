@@ -1,0 +1,16 @@
+### YamlMime:ContributionComment
+---
+uid: "159708"
+user: "mediadog"
+created: "16 Jul, 2014 - 18:16"
+body: |-
+  Finally getting around to trying this, but getting all red Kinect nodes.  The SDK Kinect Studio program works fine.  Getting these messages on the console:
+  
+  ```
+  00:00:04 ERR : Exception occured in TMPluginWrapperNode.Evaluate
+  00:00:04 ERR : System.MissingMethodException: Method not found: 'System.Collections.ObjectModel.ReadOnlyObservableCollection`1<Microsoft.Kinect.KinectSensor> Microsoft.Kinect.KinectSensor.get_KinectSensors()'.
+     at VVVV.MSKinect.Nodes.KinectRuntimeNode.Evaluate(Int32 SpreadMax)
+     at VVVV.Hosting.IO.PluginContainer.Evaluate(Int32 spreadMax)
+  ```
+  
+  vvvv beta32.1 x64 w/addons, DX11 pack 32, and the "public preview" 1407 release of the Kinect v2 SDK.  Has anyone tried this version of the SDK?  What's the latest known to work?  Thanks folks!

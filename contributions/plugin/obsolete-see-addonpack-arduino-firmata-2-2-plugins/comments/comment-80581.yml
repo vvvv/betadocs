@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "80581"
+user: "motzi"
+created: "02 Apr, 2012 - 22:24"
+body: |-
+  first of all: thank you for this wonderful piece!
+  
+  there is just one thing that i really miss: it comes in very handy very often (and spares you lot's of soldering) when you can activate the internal pullup resistors for the pins (i.e. writing HIGH to the ports when configured as inputs). 
+  having this would really be great ;)
+  (or did i just not figure out how?)

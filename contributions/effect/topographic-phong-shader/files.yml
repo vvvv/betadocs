@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/topographic-phong-shader-files"
+url: "topographic-phong-shader"
+category: "effect"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "TopoShader-v1.zip"
+            description: |-
+              TopoShader v1
+            
+            timestamp: "18 Feb, 2015 - 00:29"
+            download_count: "3"

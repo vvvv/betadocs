@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "73543"
+user: "circuitb"
+created: "18 Dec, 2011 - 12:54"
+body: |-
+  hi
+  i've this error in beta26 and alpha 26.1
+  everything is fine under beta25 and beta 25.1!!!
+  strange...any ideas?
+  
+  
+  System.TypeLoadException: Method 'Create Texture' in type 'VVVV.Nodes.EX9_TexturePDFTextureNode' from assembly '-1533255411._dynamic_.4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' does not have an implementation.

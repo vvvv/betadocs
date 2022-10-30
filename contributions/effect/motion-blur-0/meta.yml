@@ -1,0 +1,28 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/motion-blur-0-meta"
+type: "effect"
+author: "microdee"
+date: "06 Feb, 2011"
+title: "Motion Blur"
+originalURL: "contribution/motion-blur-0"
+category: "effect"
+like_count: "10"
+imported: "true"
+teaser: |-
+  this reacts to world-, view-, projection-, aspect ratio transformation and dynamic meshes too.
+  
+  the help patch is a bit lame but i hope that shows well how to use this.
+  have fun!:)
+  
+  update:
+  i've done some minor fixes and cleanups and i solved the ugly edges by smoothing the velocity map. also i discovered that the blur of the movement on Z axis was incorrect when perspective was used so that's fixed too.
+  
+  update2:
+  revamped the whole thing: now it's nicer and has more control. still it has some ghosts caused by the blur though.
+  
+  update3:
+  added blur filter instead of the gaussianblur, added more control to velocitymaps, corrected this and that
+  
+  update4:
+  i discovered after this long time that the direction of the blurring was not always right and it was annoying. so it's fixed now and it's way much nicer.

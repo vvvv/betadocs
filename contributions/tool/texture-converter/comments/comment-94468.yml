@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "94468"
+user: "joreg"
+created: "11 Jan, 2013 - 11:52"
+body: |-
+  blendmode and texture-format were wrong somewhere in the pipeline..must have happened with my last update..

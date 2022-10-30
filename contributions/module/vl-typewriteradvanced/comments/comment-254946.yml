@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "254946"
+user: "tobyk"
+created: "06 Jun, 2018 - 13:09"
+body: |-
+  If you don't have a numeric pad on your keyboard then typing alt-1, alt-2, alt-3 using the top numbers will change renderer view options when you are trying to type an umlaut.
+  To prevent this with DX11 renderers use the 'Disable Shortcuts' option in the inspektor.
+  For other renderer types you can use the 'shortcuts' node to disable all vvvv shortcuts.

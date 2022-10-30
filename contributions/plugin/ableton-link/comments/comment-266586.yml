@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "266586"
+user: "seltzdesign"
+created: "13 Sep, 2018 - 09:39"
+body: |-
+  @soriak. So I am finally getting around to integrating ableton link in to our vvvv patch. I tried the new version and it works really well with the current Ableton Live 10.
+  
+  What it really needs though, is the support for start/stop sync, so that a) the beat counter in vvvv doesn't continue if it is stopped everywhere and is reset automatically if it is reset in ableton and b) that you can start and stop from vvvv.
+  
+  I know start-stop-sync is still a new feature in V10 of Ableton, but its the killer feature, so that I can start and stop something in Ableton on another computer (a Mac) from vvvv and have something in vvvv stop if I hit stop in Ableton.
+  
+  Thanks for considering to include this.

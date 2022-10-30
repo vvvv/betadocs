@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/vertex-normal-displacement-files"
+url: "vertex-normal-displacement"
+category: "effect"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "Normal-Displacement.zip"
+            timestamp: "25 Nov, 2011 - 18:48"
+            download_count: "2"

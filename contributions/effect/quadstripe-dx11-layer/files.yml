@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/quadstripe-(dx11.layer)-files"
+url: "quadstripe-dx11-layer"
+category: "effect"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "QuadStripe.zip"
+            timestamp: "12 Jul, 2015 - 14:26"
+            download_count: "1"

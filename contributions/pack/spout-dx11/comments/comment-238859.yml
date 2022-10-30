@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "238859"
+user: "Damayama"
+created: "20 Apr, 2017 - 20:55"
+body: |-
+  Hello,
+  
+  I've been trying to link a texture from processing to VVVV with Spout. When I run the example it works well with the webcam, even it detect and read correctly my kinect v2. However, it doesnt't lists other two senders (Processing and SpoutSender) that I had already run as following the Spout User Manual. 
+  
+  Why I cannot receive info from other Spout sender?
+  
+  Thanks.

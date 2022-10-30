@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "162844"
+user: "joreg"
+created: "20 Aug, 2014 - 15:15"
+body: |-
+  the patch is using a <span class="node">PointEditor (3d Persistent)</span> internally that allows you to manipulate the points directly. have a look at the helppatch of that node to learn how to operate it.

@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "241616"
+user: "Flexi"
+created: "29 Jun, 2017 - 10:27"
+body: |-
+  Sweet one! Check out this single shader stage with the blurring spreaded out over two frame delays in the red and green channel in only one texture which I've coded in WebGL and glsl a while back: http://glslsandbox.com/e#1573.1

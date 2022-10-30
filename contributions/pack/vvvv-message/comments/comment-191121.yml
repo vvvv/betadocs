@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "191121"
+user: "velcrome"
+created: "17 Apr, 2015 - 14:16"
+body: |-
+  This new version is so fresh, some critical features are only working with the current alpha.
+  
+  It now comes with a quick "Formular" definition to type your stuff across your vvvv application, with an advanced concept to hold Messages that I coined "Keep" and some nifty pin-management to detect actual changes and only then get active.
+  
+  Dive in quickly with the 101 course in the girlpower directory. For more detailed information book [one of the last few spots](http://node15.vvvv.org/program/workshop/object-oriented-patching-vobjects-and-messages) 
+  
+  As always, feedback is welcome, and so is a flattr.

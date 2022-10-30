@@ -1,0 +1,10 @@
+### YamlMime:ContributionComment
+---
+uid: "207351"
+user: "joreg"
+created: "01 Oct, 2015 - 23:27"
+body: |-
+  just stumbled upon this. just in case anyone is finding this: the same can now also be done with vvvv nodes directly with a combination of: 
+  <span class="node">AsRaw (String Hex)</span> -> <span class="node">AsString (Raw)</span>
+  
+  smartass out.

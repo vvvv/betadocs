@@ -1,0 +1,12 @@
+### YamlMime:ContributionComment
+---
+uid: "191202"
+user: "achim"
+created: "19 Apr, 2015 - 07:46"
+body: |-
+  <div class="box">quote:sonostrano:
+  EDIT: It's working now. I missed some visual studio libraries
+  </div>
+  
+  Same here, OVRDevice is always red. Which libraries do I miss?
+  @ all that got it working: which versions of v4 and DK runtime are you running?

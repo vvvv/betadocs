@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/noisecleaner-files"
+url: "noisecleaner"
+category: "module"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "noisecleaner.zip"
+            timestamp: "22 Feb, 2012 - 11:02"
+            download_count: "1"

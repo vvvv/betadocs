@@ -1,0 +1,17 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/fog-from-depthbuffer-dx11-meta"
+type: "effect"
+author: "tekcor"
+date: "17 Jul, 2014"
+title: "Fog from Depthbuffer dx11"
+originalURL: "contribution/fog-from-depthbuffer-dx11"
+category: "effect"
+credits: |-
+  http://ploobs.com.br/
+like_count: "9"
+imported: "true"
+teaser: |-
+  A TextureFX Fog that uses the Depthbuffer. Two techniques: Exponential and Exponential Squered
+  
+  Happy Fogging!

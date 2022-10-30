@@ -1,0 +1,31 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/plugin-for-softkinetic-ds325-creative-interactive-gesture-camera-with-intel-perceptual--meta"
+type: "plugin"
+author: "herbst"
+date: "15 Nov, 2012"
+title: "Plugin for Softkinetic DS325 / Creative Interactive Gesture Camera with Intel Perceptual Computing SDK"
+originalURL: "contribution/plugin-for-softkinetic-ds325-creative-interactive-gesture-camera-with-intel-perceptual-"
+category: "plugin"
+like_count: "5"
+imported: "true"
+teaser: |-
+  Heyho,
+  
+  here's a pretty much complete plugin for Intel's "Intel Perceptual Computing SDK" ([here](http://software.intel.com/en-us/vcsource/tools/perceptual-computing-sdk)).
+  
+  It works with two cameras:
+  Softkinetic DS325
+  Creative Interactive Gesture Camera
+  (the two are the same device in different housings...)
+  
+  You need to install the Intel PCSDK from above URL.
+  
+  Note: Currently, the Intel PCSDK (and thus this plugin) does not support 
+  multiple cameras.
+  
+  2012-11-15: Initial release. Proudly presented by MESO.
+  
+  2013-01-30: Changed to beta 2.
+  
+  2013-05-07: Changed to release version of PCSDK. Added support for voice recognition.

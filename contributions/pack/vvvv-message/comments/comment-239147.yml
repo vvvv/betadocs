@@ -1,0 +1,34 @@
+### YamlMime:ContributionComment
+---
+uid: "239147"
+user: "mfo"
+created: "01 May, 2017 - 09:48"
+body: |-
+  Message looks broken in vvvv beta35.5.
+  
+  Even in the help patches all nodes are red and without inputs. 
+  Excerpt from the log file:
+  ```
+  00:00:33  *  : couldn't connect pins of nodes IOBox (Value Advanced) and Create (Message Formular). 
+  00:00:33  *  : deleting action.
+  00:00:33  *  : couldn't connect pins of nodes Create (Message Formular) and AsString (Object). 
+  00:00:33  *  : deleting action.
+  00:00:33  *  : tried to connect unmatching pins IOBox (Enumerations).Output Enum --> ? (?).Formular
+  00:00:33  *  : couldn't connect pins of nodes IOBox (String) and Create (Message Formular). 
+  00:00:33  *  : deleting action.
+  00:00:33  *  : couldn't connect pins of nodes IOBox (String) and Create (Message Formular). 
+  00:00:33  *  : deleting action.
+  00:00:33  *  : couldn't connect pins of nodes IOBox (Value Advanced) and Create (Message Formular). 
+  00:00:33  *  : deleting action.
+  00:00:33  *  : couldn't connect pins of nodes IOBox (Enumerations) and Create (Message Formular). 
+  00:00:33  *  : deleting action.
+  00:00:33  *  : couldn't connect pins of nodes Create (Message Formular) and IOBox (Node). 
+  00:00:33  *  : deleting action.
+  00:00:33 ERR : Corrupt link-message in Patch C:\vvvv_50beta35.5_x64\packs\vvvv-Message\girlpower\101\01_Initialisation.v4p. srcViewPin or dstViewPin is nil!
+  00:00:33 ERR : Corrupt link-message in Patch C:\vvvv_50beta35.5_x64\packs\vvvv-Message\girlpower\101\01_Initialisation.v4p. srcViewPin or dstViewPin is nil!
+  00:00:33 ERR : Corrupt link-message in Patch C:\vvvv_50beta35.5_x64\packs\vvvv-Message\girlpower\101\01_Initialisation.v4p. srcViewPin or dstViewPin is nil!
+  00:00:33 ERR : Corrupt link-message in Patch C:\vvvv_50beta35.5_x64\packs\vvvv-Message\girlpower\101\01_Initialisation.v4p. srcViewPin or dstViewPin is nil!
+  00:00:33 ERR : Corrupt link-message in Patch C:\vvvv_50beta35.5_x64\packs\vvvv-Message\girlpower\101\01_Initialisation.v4p. srcViewPin or dstViewPin is nil!
+  00:00:33 ERR : Corrupt link-message in Patch C:\vvvv_50beta35.5_x64\packs\vvvv-Message\girlpower\101\01_Initialisation.v4p. srcViewPin or dstViewPin is nil!
+  00:00:33 ERR : Corrupt link-message in Patch C:\vvvv_50beta35.5_x64\packs\vvvv-Message\girlpower\101\01_Initialisation.v4p. srcViewPin or dstViewPin is nil!
+  ```

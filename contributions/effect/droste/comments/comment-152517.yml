@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "152517"
+user: "guest"
+created: "27 Mar, 2014 - 17:06"
+body: |-
+  works fine here 
+  with PixelShader  = compile ps_3_0 PS();
+  and the correct Texture path

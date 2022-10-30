@@ -1,0 +1,20 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/timelinersa-nextgeneration-meta"
+type: "misc"
+author: "joreg"
+date: "08 Jul, 2014"
+title: "TimelinerSA NextGeneration"
+originalURL: "contribution/timelinersa-nextgeneration"
+category: "misc"
+like_count: "11"
+imported: "true"
+teaser: |-
+  This is a standalone timelining application similar to the original [TimelinerSA](xref:contribution/timelinersa). Read the [announcement](/blog/timelinersa-next-generation-alpha-grade-release) for details.
+  
+  <div class="box">
+  Note:
+  If you see only a blank window, move the timeliner folder to a sane path like C:\mystuff\timeliner. desktop might not work.
+  </div>
+  
+  Usage manual and latest sources to be found on github: https://github.com/vvvv/Timeliner

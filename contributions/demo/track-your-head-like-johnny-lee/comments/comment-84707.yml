@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "84707"
+user: "mediadog"
+created: "24 Jun, 2012 - 05:25"
+body: |-
+  Here's a quick version of u7angel's patch with Kinect head tracking.  Just define your monitor/screen size, and set the offset from the center of the screen to where the Kinect is, and this should work.  In the patch it is set for a screen 1 meter wide, with the Kinect sitting right underneath it.
+  
+  YAAARGH!  I can only attach a picture.  Guess I'll have to make a new submission....

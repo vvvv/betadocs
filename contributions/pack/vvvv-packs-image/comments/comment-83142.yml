@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "83142"
+user: "liquid"
+created: "22 May, 2012 - 14:30"
+body: |-
+  @elliot,besides the low fps,i also noticed seems that the videoInput(DirectShow) node can't shut down properly even though i deleted the node,the camera indicator light still remains. i'm using beta27.2,btw my webcam only working with YUY2 colorspace. but working fine with your older opencv version.
+  
+  cheers!

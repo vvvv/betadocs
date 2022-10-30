@@ -1,0 +1,19 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/websocket-(network-server)-meta"
+type: "plugin"
+author: "sagishi"
+date: "26 Feb, 2015"
+title: "Websocket (Network Server)"
+originalURL: "contribution/websocket-(network-server)"
+category: "plugin"
+credits: |-
+  http://vtortola.github.io/WebSocketListener/
+like_count: "6"
+imported: "true"
+teaser: |-
+  A basic and generic Websocket Server node for talking with browser based applications.
+  
+  While initially created to communicate with its VVVV.js counterpart "Websocket (Network Client)" it can be used with any other application.
+  
+  Only supports the most basic use case. No subprotocols, SSL, etc.

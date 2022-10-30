@@ -1,0 +1,17 @@
+### YamlMime:ContributionComment
+---
+uid: "278712"
+user: "ravazquez"
+created: "15 Jun, 2021 - 16:16"
+body: |-
+  Hi @tonfilm, thanks for your comment.
+  
+  My initial idea was to do exactly what you describe, and this:
+  
+  ![](https://vvvv.org/sites/default/files/imagecache/large/images/Untitled_4.png) 
+  
+  was my naive attempt to do just that, in my brain, the PathExists was only toggling once, but I can see that this is probably not how it actually works.
+  
+  What would be the right approach then? Only the path goes into the singleton and then only when the singleton changes read the XML?
+  
+  Cheers and thanks again!

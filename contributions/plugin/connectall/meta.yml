@@ -1,0 +1,18 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/connectall-meta"
+type: "plugin"
+author: "joreg"
+date: "09 Dec, 2010"
+title: "ConnectAll"
+originalURL: "contribution/connectall"
+category: "plugin"
+like_count: "25"
+imported: "true"
+teaser: |-
+  This is an example from the *Plugin Coding for Beginners* workshop at [node10](http://node10.vvvv.org). 
+  
+  It takes a spread of 3d vectors and for each of those checks the distance to all other vectors. If that distance is below a given threshold the two vectors involved are added to the output spread. The actual distance between the two is returned on a second output pin. 
+  
+  for beta24.1: put the directory from the .zip in your \plugins directory
+  for beta>24.1: does not need to be in the \plugins directory, desktop will do

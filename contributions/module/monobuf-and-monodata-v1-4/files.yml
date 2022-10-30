@@ -1,0 +1,36 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/monobuf-and-monodata-v1.4-files"
+url: "monobuf-and-monodata-v1-4"
+category: "module"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "2"
+            filename: "MonoBuf-v1.4.zip"
+            description: |-
+              Added ability to set slice values in MonoData
+            
+            timestamp: "23 Jul, 2012 - 23:05"
+            download_count: "1"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "1"
+                    filename: "MonoBuf-v1.2.zip"
+                    description: |-
+                      Fixed lifetime bug, added Pause, Clear, and Inverse pins, always output 0 lifetime before removing slice
+                    
+                    timestamp: "15 Jun, 2012 - 16:08"
+                    download_count: "2"
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "MonoBuf-v1.1.zip"
+                    description: |-
+                      Handle input spreads, added mod pin to MonoData
+                    
+                    timestamp: "14 Jun, 2012 - 15:02"
+                    download_count: "3"

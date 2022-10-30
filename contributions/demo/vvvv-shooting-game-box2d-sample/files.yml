@@ -1,0 +1,27 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/vvvv-shooting-game(box2d-sample)-files"
+url: "vvvv-shooting-game-box2d-sample"
+category: "demo"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "1"
+            filename: "ShootingGame_2.zip"
+            description: |-
+              version 1.1 : Separate start & shoot key
+            
+            timestamp: "19 Aug, 2014 - 11:56"
+            download_count: "3"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "ShootingGame.zip"
+                    description: |-
+                      version 1.0
+                    
+                    timestamp: "17 Aug, 2014 - 09:42"
+                    download_count: "1"

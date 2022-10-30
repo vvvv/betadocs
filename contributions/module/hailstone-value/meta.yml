@@ -1,0 +1,19 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/hailstone-(value)-meta"
+type: "module"
+author: "bjoern"
+date: "05 Jun, 2011"
+title: "Hailstone (Value)"
+originalURL: "contribution/hailstone-(value)"
+category: "module"
+credits: |-
+  [Lothar Collatz](http://en.wikipedia.org/wiki/Lothar_Collatz)
+like_count: "2"
+imported: "true"
+teaser: |-
+  Calculates hailstone sequence for given input. For more information refer to:
+  
+  <http://en.wikipedia.org/wiki/Collatz_conjecture>
+  
+  Just for kicks. May help to grasp the concept of feedbackloops.

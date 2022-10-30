@@ -1,0 +1,38 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/basic-subtitle-player-meta"
+type: "misc"
+author: "karistouf"
+date: "31 Aug, 2011"
+title: "Basic Subtitle Player"
+originalURL: "contribution/basic-subtitle-player"
+category: "misc"
+credits: |-
+  karistouf
+like_count: "3"
+imported: "true"
+teaser: |-
+  This is a very basic patch, and surely there is more to do and better.
+  
+  This reader is a stand alone patch with a GUI and a renderer.
+  It is dedicated to make subtitles on theatre or opera pieces. If you are in a hurry, well sure this may help.
+  
+  Its very basic:
+  a text file contains the subtitles. 
+  They are formatted in a certain way, to get number of lines and separate the different subtitles:
+  
+  
+  ```
+  ##STR 1 2
+  This is my first row of text
+  This is my second row, wich will be readen
+  
+  ##STR 2 1
+  Because second argument is number of rows
+  
+  ##STR 3 4
+  In fact you have in 
+  this patch up to
+  4 different lines
+  wich will be printed
+  ```

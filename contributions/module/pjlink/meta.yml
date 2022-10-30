@@ -1,0 +1,13 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/pjlink-meta"
+type: "module"
+author: "colorsound"
+date: "11 Dec, 2011"
+title: "PJLink"
+originalURL: "contribution/pjlink"
+category: "module"
+like_count: "12"
+imported: "true"
+teaser: |-
+  PJlink protocol helps you to automate control projectors via ethernet .

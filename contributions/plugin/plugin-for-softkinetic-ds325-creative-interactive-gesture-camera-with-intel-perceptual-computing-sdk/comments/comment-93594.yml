@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "93594"
+user: "metrowave"
+created: "25 Dec, 2012 - 00:13"
+body: |-
+  ![this is with smoothing turned on...](https://vvvv.org/sites/default/files/imagecache/large/images/Image%20%28Devices%20DS325%29%20help_2012.12.25-00.04.29.png) 
+  
+  I just tested the DS325 with the new vvvv_45beta29_x64 and 32bit. it worked fine but when I shut on patch the next one won't run unless I quit vvvv and start again. I managed to test all of the patches.

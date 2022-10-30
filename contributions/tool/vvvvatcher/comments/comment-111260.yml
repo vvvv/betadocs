@@ -1,0 +1,29 @@
+### YamlMime:ContributionComment
+---
+uid: "111260"
+user: "io"
+created: "12 Dec, 2013 - 17:16"
+body: |-
+  Hi
+  I am getting an error :
+  
+  ```
+  Traceback (most recent call last):
+    File "C:\Contribuitions\Modules\VVVVatcher\VVVVatcher_v001.py", line 34, in <m
+  odule>
+      proc_name = proc.name
+    File "C:\Python27\lib\site-packages\psutil\_common.py", line 85, in **get**
+      ret = self.func(instance)
+    File "C:\Python27\lib\site-packages\psutil\**init**.py", line 345, in name
+      name = self._platform_impl.get_process_name()
+    File "C:\Python27\lib\site-packages\psutil\_psmswindows.py", line 195, in wrap
+  per
+      return fun(self, *args, **kwargs)
+    File "C:\Python27\lib\site-packages\psutil\_psmswindows.py", line 227, in get_
+  process_name
+      return os.path.basename(self.get_process_exe())
+    File "C:\Python27\lib\site-packages\psutil\_psmswindows.py", line 199, in wrap
+  per
+      raise AccessDenied(self.pid, self._process_name)
+  psutil._error.AccessDenied: (pid=304)
+  ```

@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "270813"
+user: "Elias"
+created: "23 Jan, 2019 - 10:31"
+body: |-
+  CteateInstance should also work but maybe little tricky to know what values to feed for the arguments. Would be easier if a default ctor would be present in target code.

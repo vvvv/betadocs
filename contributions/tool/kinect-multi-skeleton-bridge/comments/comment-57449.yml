@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "57449"
+user: "sapo"
+created: "22 Dec, 2010 - 01:03"
+body: |-
+  oh nice! i'm on it! i see the rotations are all relative to the chest rotation, what a pain for the task i have in mind(make a robotic arm follow your with arduino and some servos).. but hey at least they are there ;) thanks! i'm noticing something strange btw, if you point an arm to the kinect and rotate the yaw of the camera the arm is vvvvery short, and same for the legs, looks like the depth is not correct or something.
+  the previous version seem a little better but still is too short to be real when the camera is rotated. Great work anyway, the patch layout is also much better now :)

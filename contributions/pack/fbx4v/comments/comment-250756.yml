@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "250756"
+user: "microdee"
+created: "07 Apr, 2018 - 01:39"
+body: |-
+  Nah that code haven't been touched for a while. I know it would pretty much require some love by now. unfortunately the flow of priorities for me didn't go in this direction. I have plans for smarter data management with it, for example to avoid that running thread, convert and process the entire FBX data into a friendlier intermediate format at first import such as PLY + metadata or glTF and work with that afterwards.
+  I'm sorry but I don't have an ETA on that. I still haven't arrived to fix at least the buggy mesh module.

@@ -1,0 +1,10 @@
+### YamlMime:ContributionComment
+---
+uid: "269917"
+user: "hierro"
+created: "24 Nov, 2018 - 16:55"
+body: |-
+  Hi all, is there any way to have multiple target for ScaleByDistance and/ or ColorByDistance ?
+  How to modify particle system "areas" by several vectors ? I was thinking about selection, but anyway cant have, in example, a smooth color transition since select is boolean.
+  
+  Thank you in advance

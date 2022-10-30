@@ -1,0 +1,18 @@
+### YamlMime:ContributionComment
+---
+uid: "249238"
+user: "eps"
+created: "19 Feb, 2018 - 18:55"
+body: |-
+  let's rephrase.
+  we have two states A,B with two corresponding buttons A,B.
+  if i'm in state A: clicking A does nothing, clicking B goes state B.
+  if i'm in state B: clicking B does nothing, clicking A goes state A.
+  if i don't click anything for some period (timeout), system switches to another state. 
+  
+  the latter sounds for me exactly as pingpong ::]
+  and the former - as two direct ones
+  
+  the purpose is as simple - two periodically rotating ads, with customer ability to show immediately required one, not waiting till it switches automatically. there are more states in fact, so replacement of A/B buttons by single "go another pingpong state" is not an option - every state must have it's own button. 
+  
+  it's no-brainer with 3 transitions, but requires extra tricks (like dummy intermediate states as velcrome said) with current limit of 2.

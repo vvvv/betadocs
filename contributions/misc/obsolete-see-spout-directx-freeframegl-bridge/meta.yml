@@ -1,0 +1,50 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/directx-freeframegl-bridge-meta"
+type: "misc"
+author: "elio"
+date: "26 Apr, 2013"
+title: "[OBSOLETE, see Spout] DirectX-FreeframeGL Bridge"
+originalURL: "contribution/directx-freeframegl-bridge"
+category: "misc"
+credits: |-
+  NVidia Interop Specification
+  <https://www.opengl.org/registry/specs/NV/DX_interop.txt>
+like_count: "26"
+imported: "true"
+teaser: |-
+  A plugin that allows for using DirectX Textures in Resolume and probably other OpenGL Freeframe Hosts (which I did not test yet - anyone?). It runs completely on GPU. Multiple textures at the same time are possible.
+  
+  I use the NVidia Interop Functions. So it only works with NVidia Cards that support these features.
+  
+  Let me know if you have any issues or hints!
+  
+  1.  Setup
+  
+  * VVVV must be started with the /dx9ex command line option in order to support shared resources
+  * Open the "ShareTextureInfo" help patch
+  * OR Create a Renderer with something attached to the inlet and use a DX9Texture at the output. In the Inspektor, set the DX9Texture Format to A8R8G8B8 (currently only this Format is supported). Then connect the "ShareTextureInfo" to the Texture output. ShareTextureInfo has an inlet for defining a sharing name for the texture. Change that to whatever you want.
+  * Copy RR_DXTexture.dll to your plugin directory
+  * Start Resolume and select DX Texture (RR) from Sources. In the parameters you put the sharing name that you defined in vvvv.
+  
+  Resolume 4.0 seems to have some issues. Please use more recent Version.
+  
+  ##  For those who want to connect other stuff than VVVV
+  
+  The Texture Information (Resolution, Share Handle) is transmitted to the plugin via Shared Memory.
+  The shared memory's name can be set in the plugin's parameters. The Data structure is as follows:
+  
+  ```
+  struct DX9SharedTextureInfo {
+  	UINT16 width;
+  	UINT16 height;
+  	HANDLE shareHandle;
+  };
+  ```
+  
+  *Have Fun! Elio*
+  ##  Links:
+  
+  * Github Repo of this plugin <https://github.com/meliody/DXTexture2FreeFrame>
+  * My FFGL Fork (contains the Fix for String parameters) <https://github.com/meliody/FreeFrameGL_15>
+  * NVidia Interop Specification <https://www.opengl.org/registry/specs/NV/DX_interop.txt>

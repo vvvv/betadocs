@@ -1,0 +1,15 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/ordereddictionary-(id)-meta"
+type: "plugin"
+author: "colorsound"
+date: "15 Mar, 2012"
+title: "OrderedDictionary (ID)"
+originalURL: "contribution/ordereddictionary-(id)"
+category: "plugin"
+credits: |-
+  all friendly guys that cope with my endless questions ;D , colorsound
+like_count: "6"
+imported: "true"
+teaser: |-
+  Gets The First ID (Keys) and avoid duplicates also Outputs them in Order of Appareance . HelpFull to associate Ids to other Ids and keep relationship  until mandatory id dies .

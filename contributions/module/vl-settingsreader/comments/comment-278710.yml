@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "278710"
+user: "tonfilm"
+created: "15 Jun, 2021 - 11:35"
+body: |-
+  @ravazques thats a good initiative, but I think you should read the file only once... currently, every settings entry reader opens the file and reads it. this could be done only once on create of a central node that also contains the single instance and the path to the file. this node can then be used by all individual entry nodes.

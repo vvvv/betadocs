@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "209991"
+user: "everyoneishappy"
+created: "02 Nov, 2015 - 23:32"
+body: |-
+  just checked with [Catweasel](http://vvvv.org/users/Catweasel)-  Deformer (DX11.GeomFX) & SurfaceDistortions (DX11.GeomFX) seem to be fine.  Wobble (DX11.GeomFX) had a broken reference to the gsfx file inside though.  Will fix for next version.  
+  
+  You can replace the v4p file with this one if you want, should work then: https://www.dropbox.com/s/a72w5wca6qtpt36/Wobble%20%28DX11.GeomFX%29.v4p?dl=0

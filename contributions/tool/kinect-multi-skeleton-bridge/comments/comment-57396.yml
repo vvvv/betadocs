@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "57396"
+user: "hierro"
+created: "20 Dec, 2010 - 15:12"
+body: |-
+  hi sagishi, really appreciated your work :)
+  Actually the opennI framework stores positions, rotations and confidence values for all those results.
+  When we started sending osc, we just did for a quick playtime in vvvv, also cos it's not that convenient, anyway, actually is a nice crossSoftware solutions for prototyping.
+  
+  Actually we are already sending rotations and ids over OSC, just we didnt have so much time to fix some buffer issues, to reduce latency, gonna post it soon.

@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "206901"
+user: "StiX"
+created: "26 Sep, 2015 - 16:47"
+body: |-
+  thanks for the contrib!
+  
+  splinebuffer spline count works only up to number 4, is that intended?
+  how do i use buffer for a radius then?
+  also any advices how to make a gradient run throu spline? havent figured that one out yet :3

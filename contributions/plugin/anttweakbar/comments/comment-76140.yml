@@ -1,0 +1,12 @@
+### YamlMime:ContributionComment
+---
+uid: "76140"
+user: "mino"
+created: "12 Feb, 2012 - 06:37"
+body: |-
+  OK! I found problem.
+  my VS2010 compile mode was Debug. change Release mode and re-build, it works with xp.
+  
+  if failed with win7, it will dll security block.
+  
+  please try again;-)

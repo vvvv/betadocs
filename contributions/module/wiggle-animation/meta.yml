@@ -1,0 +1,23 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/wiggle-(animation)-meta"
+type: "module"
+author: "elio"
+date: "04 Mar, 2013"
+title: "Wiggle (Animation)"
+originalURL: "contribution/wiggle-(animation)"
+category: "module"
+like_count: "6"
+imported: "true"
+teaser: |-
+  Generates a wiggle-effect like the one in Adobe's After Effects. Useful for any kind of animation that needs some natural look.
+  
+  Generates a pseudorandom motion that is based on a set of sinusoids. You have control over the motion's characteristics (number of octaves, frequency falloff - smooth or jerky).
+  
+  Fully spreadable + help patch included. V2.0 now supports dynamic slowdown / speedup of all elements.
+  
+  I hope this doesn't miss anything in functionality - let me know.
+  Could be worth getting into the addon-pack!?
+  
+  Have fun
+  Elio

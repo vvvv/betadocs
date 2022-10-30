@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "101287"
+user: "microdee"
+created: "23 May, 2013 - 10:31"
+body: |-
+  @tooooduc: thanks! :) yep it's realtime, it's in the demo patches too, it's the result of displaced meshes with hard edges. that's using the artifact of normals calculation where hard normals are achieved by duplicating vertices and edges. the result of this will be "fractured mesh" because hard edges are not "connected"

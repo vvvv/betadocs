@@ -1,0 +1,24 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/drawsmooth-(dx9)-files"
+url: "drawsmooth-dx9"
+category: "plugin"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "1"
+            filename: "DrawSmooth.zip"
+            description: |-
+              Just rebuild the git sources
+            
+            timestamp: "16 Jul, 2014 - 07:48"
+            download_count: "1"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "DrawSmooth.zip"
+                    timestamp: "24 May, 2012 - 21:59"
+                    download_count: "1"

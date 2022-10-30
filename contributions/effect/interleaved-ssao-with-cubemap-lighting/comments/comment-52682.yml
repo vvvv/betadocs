@@ -1,0 +1,14 @@
+### YamlMime:ContributionComment
+---
+uid: "52682"
+user: "m4d"
+created: "13 Sep, 2010 - 23:47"
+body: |-
+  <div class="box">quote:beyon:
+  I guess it's not so unexpected that it runs slow on intel graphic
+  </div>
+  
+  hehe no, not really. i'd guess that it's the massive fillrate demand which is the bottelneck here. perfmeter may however report different results due to driver "optimisations" as suggested or other strange sideeffects..
+  i plan to release an optimised final version of this shader once i finished research on this topic. (don't hold your breath ;))
+  
+  edit: just read aze's comment. i'll look into it over the next evenings. thanks for reporting!

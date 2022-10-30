@@ -1,0 +1,14 @@
+### YamlMime:ContributionComment
+---
+uid: "111768"
+user: "tmp"
+created: "23 Dec, 2013 - 10:42"
+body: |-
+  **v0.2 contains 3 new nodes:**
+  * + (TimeSpan, TimeSpan)
+  * - (TimeSpan, TimeSpan)
+  * AsString (TimeSpan)
+  
+  Gregorian (Time Split/Join) was renamed to Time (Time Split/Join).
+  
+  The sourcecode in my github was also cleaned up and restructured. thanks to [velcrome ](http://vvvv.org/users/velcrome+) ;)

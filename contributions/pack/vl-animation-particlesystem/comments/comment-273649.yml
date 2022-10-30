@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "273649"
+user: "mrboni"
+created: "28 Aug, 2019 - 16:11"
+body: |-
+  Have you tested in vvvv alpha?
+  
+  Trying using latest alpha.  Using help patch Circles Collision - particles get generated but do not move.
+  
+  EDIT - working after a vvvv restart.  Gremlins

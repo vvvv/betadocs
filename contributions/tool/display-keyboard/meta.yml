@@ -1,0 +1,21 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/display-keyboard-meta"
+type: "tool"
+author: "misak"
+date: "03 Mar, 2013"
+title: "Display Keyboard"
+originalURL: "contribution/display-keyboard"
+category: "tool"
+credits: |-
+  misak
+like_count: "8"
+imported: "true"
+teaser: |-
+  This is not full functional keyboard. Created for input PIN.
+  
+  Without much work you can add special keys such as "@, _, -" and use for input e-mails
+  
+  Archive includes PSD template for create keys in existing style.
+  
+  Not the prettiest implementation, but might be useful to someone.

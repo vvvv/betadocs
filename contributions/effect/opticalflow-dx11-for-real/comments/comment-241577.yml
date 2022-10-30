@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "241577"
+user: "otosatram"
+created: "28 Jun, 2017 - 08:34"
+body: |-
+  The rg texture is the output from the OpticalflowHS and OpticalflowLK, if you pre or postprocess it the colours will get softer, but should still be there. With a boost you should be able to visualize it. Tell me if it works!

@@ -1,0 +1,14 @@
+### YamlMime:ContributionComment
+---
+uid: "76499"
+user: "dl-110"
+created: "20 Feb, 2012 - 23:08"
+body: |-
+  hey fellow vvvv nerds!
+  I am currently facing a strange problem with the kinect plugin in vvvv. I installed all the drivers necessary and everything is fine except the fact that the skeleton node doesn´t seem to work properly. I receive a depth buffer picture and everything but the skeleton won´t show up in the renderer. I tried to deinstall/install the drivers several times but no changes...
+  
+  attached you´ll find a screenshot of the tty renderer...
+  
+  ![tty renderer](https://vvvv.org/sites/default/files/imagecache/large/images/_root-TTY%20Renderer_2012.02.21-00.00.48.png) 
+  
+  help is much appreciated - thanks!

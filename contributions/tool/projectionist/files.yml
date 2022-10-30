@@ -1,0 +1,24 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/projectionist-files"
+url: "projectionist"
+category: "tool"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "1"
+            filename: "projectionist_0.2.zip"
+            description: |-
+              added softedge precentage and textrendering
+            
+            timestamp: "12 Oct, 2014 - 12:55"
+            download_count: "1"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "projectionist_0.1.zip"
+                    timestamp: "10 Oct, 2014 - 18:59"
+                    download_count: "2"

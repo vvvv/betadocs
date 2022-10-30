@@ -1,0 +1,10 @@
+### YamlMime:ContributionComment
+---
+uid: "101916"
+user: "tekcor"
+created: "06 Jun, 2013 - 13:40"
+body: |-
+  okey sorry for everyone who downloaded it and probably got confused.
+  The joint namings were not assigned correctly to the incoming rotations from OpenNI. After using my FindIndexAssociaton which I created for these kind of database operations, it works now. 
+  
+  But still: this module doesn't solve the general orientation problem. It just makes it easy to use different models with different animation sources.

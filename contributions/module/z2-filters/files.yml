@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/z2-filters-files"
+url: "z2-filters"
+category: "module"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "Z2Filters.zip"
+            timestamp: "11 Oct, 2012 - 21:50"
+            download_count: "5"

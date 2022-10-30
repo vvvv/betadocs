@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "229659"
+user: "featherfurl"
+created: "11 Oct, 2016 - 14:55"
+body: |-
+  I'm using the vpm version of VObjects and getting a lot of red nodes for some reason. I checked the paths and it was looking for a non existent x64 subfolder. I copied all the relevant .dll files into it but I'm still getting missing node errors.
+  
+  Any ideas on how to solve?

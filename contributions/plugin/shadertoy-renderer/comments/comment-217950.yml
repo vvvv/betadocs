@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "217950"
+user: "mino"
+created: "15 Mar, 2016 - 12:51"
+body: |-
+  @tonfilm hi, i forgot to add src link.
+  https://github.com/minoru-ito/ShadertoyRenderer
+  also added url to description. original texture is flipped vertically, so reverse it for vvvv

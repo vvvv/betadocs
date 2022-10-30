@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "230934"
+user: "marcelxvi"
+created: "31 Oct, 2016 - 16:32"
+body: |-
+  @tonfilm i've done some testing now. Started with nothin enabled still had the problem. Then i figured this problem only happens whenever any sort of media is playing or windows sounds are hapening for example. Every time there's a mouseclick for example, it'd go down to 0,5 and back to 1 once it's over. Any heads up on that ?

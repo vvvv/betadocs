@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/working-texture-queue-fix-for-beta26-files"
+url: "working-texture-queue-fix-for-beta26"
+category: "module"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "Queue (EX9.Texture Bugfix 3).v4p"
+            timestamp: "20 Aug, 2011 - 17:18"
+            download_count: "2"

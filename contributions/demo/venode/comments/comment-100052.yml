@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "100052"
+user: "eps"
+created: "24 Apr, 2013 - 03:03"
+body: |-
+  venode does not work anymore with newer node.js versions (0.10.xx)
+  (works with 0.8.23 though). 
+  any plans to update?

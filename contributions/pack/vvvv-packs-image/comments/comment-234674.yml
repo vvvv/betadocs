@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "234674"
+user: "mino"
+created: "24 Jan, 2017 - 19:01"
+body: |-
+  @DiMiX
+  I rebuild image pack with newer emguCV library. It fixed nvidia issue, so works well on my MacBook.
+  https://github.com/minoru-ito/VVVV.Packs.Image/tree/feature/emgucv-2.4.10

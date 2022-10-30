@@ -1,0 +1,16 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/dx11-modules-and-shaders-addition-meta"
+type: "effect"
+author: "antokhio"
+date: "05 Apr, 2013"
+title: "DX11 Modules And Shaders Addition"
+originalURL: "contribution/dx11-modules-and-shaders-addition"
+category: "effect"
+credits: |-
+  antokhio
+like_count: "9"
+imported: "true"
+teaser: |-
+  Small addition for dx11 build i made starting from node.
+  If you missing something don't be shy to ask.

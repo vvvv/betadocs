@@ -1,0 +1,23 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/audio-reactive-spectrum-meta"
+type: "tool"
+author: "roger.betin"
+date: "10 Dec, 2013"
+title: "Audio Reactive Spectrum"
+originalURL: "contribution/audio-reactive-spectrum"
+category: "tool"
+credits: |-
+  As a vvvv newby, I spent a lot of time on this project, but the result has finally arrived.
+  
+  This patch is a 32 channels visualization using a standard Filestream & FFT patches. 
+  
+  Note that the frequencies (20 to 10Khz) have been calibrated with a frequency generator.
+  
+  Thanks to VVVV
+like_count: "5"
+imported: "true"
+teaser: |-
+  Audio Reactive Spectrum GUI v02
+  
+  With the missing file Switch_Sub10.v4p

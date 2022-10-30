@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "75697"
+user: "elliotwoods"
+created: "03 Feb, 2012 - 14:50"
+body: |-
+  @alg / @cybear 
+  vlc should be integrated into the binary release
+  but that will always be a GPL component (with associated licensing issues)
+  I've been looking into GStreamer as a possible alternative
+  @ft - perhaps this is something you've also looked into?

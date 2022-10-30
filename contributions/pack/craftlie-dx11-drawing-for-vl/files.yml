@@ -1,0 +1,36 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/craftlie-dx11-drawing-for-vl-files"
+url: "craftlie-dx11-drawing-for-vl"
+category: "pack"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "2"
+            filename: "CraftLie.1.5.0.zip"
+            description: |-
+              AnyCPU for vvvv 38.2 and newer, can now render quad and text over network
+            
+            timestamp: "08 Dec, 2019 - 13:12"
+            download_count: "1"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "1"
+                    filename: "CraftLie.1.2.0.zip"
+                    description: |-
+                      AnyCPU for vvvv alpha and beta36
+                    
+                    timestamp: "23 Feb, 2018 - 22:41"
+                    download_count: "2"
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "CraftLie.1.0.1.zip"
+                    description: |-
+                      AnyCPU for vvvv beta35.7 and beta35.8
+                    
+                    timestamp: "16 Jun, 2017 - 20:26"
+                    download_count: "1"

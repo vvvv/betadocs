@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "228160"
+user: "catweasel"
+created: "18 Sep, 2016 - 16:08"
+body: |-
+  The haptic pulse node seems a little odd, it only seems to work when the power is around 0.06 above that and you can hear it but not feel it, it's also quite weak, is that as high as it goes? I want a massage :)
+  Also the node goes red if the controller disconnects.

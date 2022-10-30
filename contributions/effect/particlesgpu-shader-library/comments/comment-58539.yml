@@ -1,0 +1,25 @@
+### YamlMime:ContributionComment
+---
+uid: "58539"
+user: "hrovac"
+created: "17 Jan, 2011 - 09:57"
+body: |-
+  helo,
+  
+  i tried to use the ParticlesGPU_Shader_Queue at the second graphicCard output and i got a lot of errors.
+  TTY said:
+  "access violation at adress 0043B4CA
+  error in the layer ParticlesGPU_Shader_Queue.fx"
+  and
+  when closing vvvv: "Exception EInvalidPointer in module vvvv.exe at 000047C9"
+  or
+  "Exception EAccess violation in module ntdll.dll at 0001B21A
+  access violation at adress 7C91B21A in module 'ntdll.dll'. Write of address 00000010."
+  or
+  "Exception EAccess violation in module vvvv.exe at 0000480C.
+  access violation at adress 0040480C in module 'vvvv.exe' Read of address FFFFFFFC."
+  
+  is it just me and my NVidia GeForce 8800GTX in DualViewMode (XP32bit)
+  or someone else got the same problem?
+  
+  when using the last renderer at screen1 it works

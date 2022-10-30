@@ -1,0 +1,12 @@
+### YamlMime:ContributionComment
+---
+uid: "109030"
+user: "phl"
+created: "31 Oct, 2013 - 10:21"
+body: |-
+  I'm getting 
+  
+  00:25:52  -  : this mipmap filter is not supported by your graphics card.
+  00:25:52  -  : this magnification filter is not supported by your graphics card.
+  
+  in my TTY. Any ideas why?

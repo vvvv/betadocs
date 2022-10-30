@@ -1,0 +1,16 @@
+### YamlMime:ContributionComment
+---
+uid: "210204"
+user: "woei"
+created: "06 Nov, 2015 - 10:28"
+body: |-
+  hej elliot,
+  welcome back
+  
+  * column names cannot have spaces, since their name will be used directly as xml node identifier. can handle that case more gracefully though
+  * repaint issue: indeed. seems even more noticeable now on win10 and highdpi. guess it would require quite a rework of event messaging...
+  * checkbox out of bounds: definitely high dpi issue, just noticed myself here
+  * colors: see github
+  * GetColumns and bool: ja, bugger, will fix. 
+  * GetColumn (Dynamic): the issue with that node would be, that it could change output pin (type) every time you change the index... therefore not implemented
+  * GetRows: you mean something like GetTable (Dynamic) a pin per column outputting all available cells?

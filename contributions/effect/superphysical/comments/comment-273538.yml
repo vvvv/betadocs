@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "273538"
+user: "mburk"
+created: "20 Aug, 2019 - 07:06"
+body: |-
+  hi. yes, tested and works for me. make sure to only use the blend at that point and not additionally on the SuperPhysical node upstream. If problem persists, please move to forum.

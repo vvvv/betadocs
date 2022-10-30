@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "210720"
+user: "zeos"
+created: "14 Nov, 2015 - 15:50"
+body: |-
+  @lbolster: Please, dl and test if it works for you.
+  
+  If you use DX11, simple use the DX11 version of asRAW and set it to BMP.

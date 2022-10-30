@@ -1,0 +1,17 @@
+### YamlMime:ContributionComment
+---
+uid: "168747"
+user: "princemio"
+created: "13 Oct, 2014 - 09:09"
+body: |-
+  ![Glitch Floodfill try](https://vvvv.org/sites/default/files/imagecache/large/images/FloodFill.png) 
+  
+  -UGHHHH very nice...makes me really happy to see that it can be usefull!!!
+  
+  at 0.07 u see in the video that there is vertical segments fixed at x coordinates at the right side of the image...i fixed this and upload a new version later...
+  
+  also i still work on my floodfill distortion (thats how i call those images that F$%§ everything up closely before you loose connection)...here is a sample of my current status...
+  it has actually what i was looking for - generative senseless mixed with relationship to original. 
+  
+  
+  @ggml: Concerning sex and the city...try on own risk...dont know if a simple dx11 pixel shader can handle this...but ill suggest distortion amount = 1;

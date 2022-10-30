@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/pioneer-pro-dj-link-rekordbox-only-files"
+url: "pioneer-pro-dj-link-rekordbox-only"
+category: "module"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "vvvv_pioneer_rekordbox_pro_dj_link.zip"
+            description: |-
+              Pioneer PRO DJ LINK - BPM data from Rekordbox only
+            
+            timestamp: "06 Jul, 2016 - 20:53"
+            download_count: "4"

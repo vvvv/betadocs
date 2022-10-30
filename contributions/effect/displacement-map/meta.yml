@@ -1,0 +1,13 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/displacement-map-meta"
+type: "effect"
+author: "dEp"
+date: "15 May, 2011"
+title: "Displacement Map"
+originalURL: "contribution/displacement-map"
+category: "effect"
+like_count: "5"
+imported: "true"
+teaser: |-
+  Yet another displacement map implementation. Control texture for direction and amplitude.

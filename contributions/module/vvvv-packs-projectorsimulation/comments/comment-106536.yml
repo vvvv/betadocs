@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "106536"
+user: "catweasel"
+created: "16 Sep, 2013 - 10:42"
+body: |-
+  @youngjae you need to use the output from the transform at the top of the patch as an input to your projected texture shader try [projector-(ex9.effect)](xref:contribution/projector-(ex9.effect))
+  Think that will work with it...

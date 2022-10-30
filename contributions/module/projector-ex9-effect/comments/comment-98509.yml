@@ -1,0 +1,18 @@
+### YamlMime:ContributionComment
+---
+uid: "98509"
+user: "youngjae"
+created: "22 Mar, 2013 - 04:12"
+body: |-
+  ![projected texture doesnt show on mesh..](https://vvvv.org/sites/default/files/imagecache/large/images/projected%20texture%20error00.jpg) 
+  
+  hi, i have a mesh exported from Mcneel Rhinoceros as a xfile.
+  somehow i dont see the texture projected on the surface of the mesh although i see the projection planes... I am projecting basic parallel lines. Did the patch stop working after a certain build? 
+  
+  i checked the help file and tried the teapot and didnt see the texture projected either...
+   
+  i am using an alpha 29.3 build  btw..
+  
+  if it works and i would like to use it to write the video..that would be great...! the decompose node is connected to vector split with its xyz translate out. 
+  
+  what should I look at to isolate what my problem could be? thx...

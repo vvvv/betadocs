@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "86422"
+user: "elliotwoods"
+created: "01 Aug, 2012 - 11:48"
+body: |-
+  this is the 'de-facto' way of treating the shadows:
+  http://www.gamerendering.com/2008/11/15/percentage-closer-filtering-for-shadow-mapping/
+  
+  but an even better way is to defocus them with a soft shadow:
+  http://www.rastertek.com/dx11tut42.html
+  
+  both are fairly easy additions to the above

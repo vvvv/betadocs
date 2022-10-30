@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "57022"
+user: "karmicfix"
+created: "12 Dec, 2010 - 04:16"
+body: |-
+  @DocSteinberg & aze, it is due to the fact that the clnui driver is now for multiple kinect devices and the kinect vvvv node was coded with the first driver.
+  
+  i am also trying to get hold of the old code laboratory driver or wait for vux to update the node. any help anyone.....

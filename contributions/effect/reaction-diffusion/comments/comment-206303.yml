@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "206303"
+user: "sunep"
+created: "20 Sep, 2015 - 14:53"
+body: |-
+  did you remember to install the DX11 pack, that is needed for the latest version. [directx11-nodes-alpha](xref:contribution/directx11-nodes)

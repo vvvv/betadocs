@@ -1,0 +1,17 @@
+### YamlMime:ContributionComment
+---
+uid: "74466"
+user: "jonferran"
+created: "05 Jan, 2012 - 22:01"
+body: |-
+  I can confirm depth and color works with 2 kinects. You can (sorta) get skeleton data from the first kinect when using 2, but the data is not as smooth, very laggy. Depth is fine on both tho. 
+  
+  Either way, if using skeleton data, set it to depthOnly. DepthAndPlayer makes the skeleton weird even with one kinect enabled. 
+  
+  ![](https://vvvv.org/sites/default/files/imagecache/large/images/jon2kinects-DirectX%20Renderer.png) 
+  
+  Jon
+  
+  Edit:
+  
+  Got 2 kinects with full skeleton functionality working by running 2 instances of 4v. Woot. Hint: Run mainloop at 30fps raw when doing skeletons. DepthAndPlayer works fine if you do this. Does DepthAndPlayer do anything btw?

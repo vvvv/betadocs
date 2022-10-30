@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "169071"
+user: "tonfilm"
+created: "16 Oct, 2014 - 12:38"
+body: |-
+  in order to write a VAudio node you only need to code a signal which represents a slice and a node which handles the spreading. i think you can basically copy the FFT node sources:
+  [FFTOutSignal.cs](https://github.com/tebjan/VVVV.Audio/blob/master/Source/VVVV.Audio.Signals/Sinks/FFTOutSignal.cs)
+  [FFTOutNode.cs](https://github.com/tebjan/VVVV.Audio/blob/master/Source/VVVV.Audio.Nodes/Sinks/FFTOutNode.cs)
+  
+  you might have to change the double array to a PitchRecord and call SetLatestValue on the PitchDetected event...

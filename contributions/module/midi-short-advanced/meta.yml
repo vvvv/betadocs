@@ -1,0 +1,23 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/midi-short-advanced-meta"
+type: "module"
+author: "patogen"
+date: "18 Jan, 2012"
+title: "Midi Short Advanced"
+originalURL: "contribution/midi-short-advanced"
+category: "module"
+like_count: "4"
+imported: "true"
+teaser: |-
+  This module is MidiShort with NoteOff Message on Message Pin.
+  
+   When 
+   message >= 144 
+    and 
+   message <= 159 
+    and 
+   Data 2 = 0 
+  
+   THEN
+   Message = Message - 16

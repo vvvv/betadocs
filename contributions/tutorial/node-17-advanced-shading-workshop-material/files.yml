@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/node-17-advanced-shading-workshop-material-files"
+url: "node-17-advanced-shading-workshop-material"
+category: "tutorial"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "node17_dx11_shading.zip"
+            description: |-
+              Examples
+            
+            timestamp: "26 Jun, 2017 - 08:37"
+            download_count: "2"

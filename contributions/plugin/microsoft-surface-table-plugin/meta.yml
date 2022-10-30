@@ -1,0 +1,18 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/microsoft-surface-(table)-plugin-meta"
+type: "plugin"
+author: "u7angel"
+date: "14 Apr, 2011"
+title: "Microsoft Surface (Table) Plugin"
+originalURL: "contribution/microsoft-surface-(table)-plugin"
+category: "plugin"
+credits: |-
+  jens + chris
+like_count: "3"
+imported: "true"
+teaser: |-
+  Dependencies:
+  * Surface SDK 
+  
+  in case you are looking for touch support for surface pro or any windows 7/8 touch compatible device, check [windowstouch](xref:contribution/windowstouch)

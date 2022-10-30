@@ -1,0 +1,10 @@
+### YamlMime:ContributionComment
+---
+uid: "73671"
+user: "elliotwoods"
+created: "20 Dec, 2011 - 12:16"
+body: |-
+  i made some CLEye nodes in the past which were used for recording (spreadable / programatic control of exposure, etc).
+  definitely can be adapted for EmguCV type
+  
+  but this is totally awesome for working with what VVVV's already got.

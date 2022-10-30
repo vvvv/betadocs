@@ -1,0 +1,26 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/obsolete-see-addonpack-arduino-firmata-2.2-plugins-meta"
+type: "plugin"
+author: "u7angel"
+date: "10 Jan, 2012"
+title: "[OBSOLETE, see Addonpack] Arduino Firmata 2.2 Plugins"
+originalURL: "contribution/obsolete-see-addonpack-arduino-firmata-2.2-plugins"
+category: "plugin"
+credits: |-
+  jens.a.e & u7angel
+like_count: "19"
+imported: "true"
+teaser: |-
+  The all new Firmata Plugins to encode and decode the recent Firmata 2.2 protocol.
+  
+  The advantage of two plugins: the protocol can be used with all sorts of devices/interfaces. And since there is no direct dependency on hardware, error diagnosis is far easier.
+  
+  **Check out the Subpatch coming with this release!**
+  
+  The plugins should work out-of-the-box with Arduino UNO. If you need **more inputs/outputs** (eg. Arduino Mega)check the inspector for hidden settings and modify the subpatch.
+  
+  This is the beta test on contributions before it replaces the old ArduinoFirmata plugin (addon pack).
+  
+  Please report your findings here
+  <https://github.com/jens-a-e/VVVVirmata/issues>

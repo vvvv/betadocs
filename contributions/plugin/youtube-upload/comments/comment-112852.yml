@@ -1,0 +1,17 @@
+### YamlMime:ContributionComment
+---
+uid: "112852"
+user: "guest"
+created: "20 Jan, 2014 - 12:02"
+body: |-
+  hi,
+  
+  "Unlisted" and new functionalities come with the Google.Apis.YouTube.v3
+  using Oauth 2.0 (with Client ID, Client Secret...)
+  
+  Console Application sample here: 
+   
+  https://github.com/youtube/api-samples/tree/master/dotnet
+  
+  tested and works fine after updating  the Microsoft.Bcl nuget 
+  but not the skills to port this to vvvv

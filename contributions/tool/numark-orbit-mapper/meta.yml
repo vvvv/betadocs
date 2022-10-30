@@ -1,0 +1,40 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/numark-orbit-mapper-meta"
+type: "tool"
+author: "Element"
+date: "24 Oct, 2013"
+title: "Numark Orbit Mapper"
+originalURL: "contribution/numark-orbit-mapper"
+category: "tool"
+like_count: "2"
+imported: "true"
+teaser: |-
+  Hi all,
+  
+  I tried to build a midi-mapper for the Numark Orbit, a wireless dj/vj controller. 
+  
+  * The node only works in combination with the vvvv.json mapping file included in the zip file, which you can open and use with the Numark Orbit Editor(download:<http://www.numark.com/ozone>).
+  
+  * Once you've opened the vvvv.json, you can see how I mapped the Orbit,feel free to change colours and behaviour, but don't change channels or notes, that will screw it in VVVV.
+  
+  * The Patch: I tried to arrange it as logical as possible, just link the outputs to the desired inputs.
+  
+  * I preconfigured the 4 Pad Banks in the following way:
+    
+    Pad Bank 1-3: PadBangs with 2 toggles at the inner lowest row
+                  K1-K4 are working as faders from 0-1, as well as the 
+                  motion controllers.
+    
+    Pad Bank 4:   same as 1-3, but intended as color outputs, changeable
+                  in the Editor.
+    
+  * The patch doesn't work when the Editor is opened at the same time. 
+  
+  It's not perfect, but maybe useful for some of you :)
+  
+  
+  have fun!
+  
+  
+  Element

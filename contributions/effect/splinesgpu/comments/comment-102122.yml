@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "102122"
+user: "joreg"
+created: "10 Jun, 2013 - 22:00"
+body: |-
+  sansui: this contribution is a collection of effects so according to [nodes and paths](https://betadocs.vvvv.org/using-vvvv/patching/using-addons.html) you'll have to place the unzipped content into an \effects directory inside your "contribution" directory which you referenced in the root. 
+  
+  also note that this contribution didn't pack its helppatches correctly so you'll not be able to open them by pressing F1 on the respective .fx nodes but you'll rather have to open them manually from the directory.

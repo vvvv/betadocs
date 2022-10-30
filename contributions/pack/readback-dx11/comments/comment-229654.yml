@@ -1,0 +1,34 @@
+### YamlMime:ContributionComment
+---
+uid: "229654"
+user: "lassemunk"
+created: "11 Oct, 2016 - 10:51"
+body: |-
+  Hi Elliot, 
+  
+  I would like to try out the Readback nodes, but I get an error that 'DirectXTexLib_x64' is not found. 
+  
+  I've searched around and found the library 
+  
+  https://github.com/Microsoft/DirectXTex
+  
+  but I am new to github, and not sure how to install this library. The library states that it is made for Visual Studio 2015 update 3, so I've downloaded / installed VS2015, but I don't get how I can use it to install the DirectXTex library. 
+  
+  If this is in fact necessary, could you then include the correct git command line in the description for this pack? I think it would be very helpful for others too in the future :)
+  
+  Thanks a lot ! 
+  
+  Lasse
+  
+  
+  EDIT (with help from sunep):
+  
+  I found out that I had misunderstood the way I was supposed to install the pack. 
+  
+  The correct way is to install 7zip unzipper software, place the .zip folder of the ReadBack package next to the vvvv.exe, right click and press 'Extract here'.
+  
+  7zip will hereby place the content of ReadBack to the correct subdirectories of the allready existing packs folder. 
+  
+  I had forgotten to copy the content of DX11 (the DirectXTex_64.dll) to the already existing DX11 folder, because I thought this was just a DX11 library for vvvv.
+  
+  Thanks to Sune!

@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "99732"
+user: "ft"
+created: "17 Apr, 2013 - 14:52"
+body: |-
+  Strange thing on my laptop with AMD Radeon HD 6470M: when I try to set the renderer's input pins AA Samples per pixel to > 2 or AA Quality to > 0 vvvv 'freezes' (the UI gets really really slow), and the renderer stops updating. With some difficulty because of the unresponsive UI, I am able to reset these values, and then everything goes back to normal.
+  
+  Anyone else experiencing the same issue?

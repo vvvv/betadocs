@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "92903"
+user: "metrowave"
+created: "14 Dec, 2012 - 03:02"
+body: |-
+  @catweasel: have you tried firing up vvvv.exe first and then starting the patches? Like I mentioned I'm having problems too but hit and miss it works when I start vvvv root first and the double click the DS325 patches. The images above are the results. The location I put the DS325 folder is next to vvvv.exe in C:\Program Files (x86)\vvvv_45beta28.1\DS325
+  
+  I'm hopeful @herbst updates these patches soon as they are very good efforts and a good start...

@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "223937"
+user: "microdee"
+created: "02 Aug, 2016 - 11:42"
+body: |-
+  well true LibTessss is on github and you have to calculate neighbors yourself. https://github.com/microdee/LibTessss Triangle also generates way nicer results and tells you way much more information too. only reason I tending towards LibTess is that you don't have to indicate explicitly that a contour is a hole, it will use different "modes" to generate holes. like this:
+  
+  ![title](https://vvvv.org/sites/default/files/imagecache/large/images/https://github.com/speps/LibTessDotNet/raw/6f3f3884fcdcb8076b78dc564ffd7776d6bcbb2f/TessBed/Misc/screenshot.png)

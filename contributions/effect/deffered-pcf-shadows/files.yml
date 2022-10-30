@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/deffered-pcf-shadows-files"
+url: "deffered-pcf-shadows"
+category: "effect"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "DefferedShadowPCF.zip"
+            description: |-
+              Deffered PCF Shadows
+            
+            timestamp: "21 Nov, 2013 - 14:21"
+            download_count: "1"

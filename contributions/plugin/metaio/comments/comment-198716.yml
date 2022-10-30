@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "198716"
+user: "antokhio"
+created: "10 Jun, 2015 - 17:59"
+body: |-
+  renderer TTY u have exception 
+  prolly need to visual studio attached to vvvv process to track it

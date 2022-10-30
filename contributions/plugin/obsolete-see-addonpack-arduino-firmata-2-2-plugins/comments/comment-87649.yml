@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "87649"
+user: "jens.a.e"
+created: "27 Aug, 2012 - 06:09"
+body: |-
+  hi tektor,
+  
+  actually the firmata itself supports multiplexers, but the protocol specs are not implemented in the plugin. if you want to have a go on this feel free to clone the github repo (https://github.com/jens-a-e/VVVVirmata )  and submit a pullrequest, when you have something :) it is on my todo list, but i wont have time the next couple of weeks.
+  
+  i would not recommend sending the shift states from vvvv! this is way too slow, to scale to decent results. i just had a project working with shifters... and no, 16Mhz is not the fastest, as you need a couple of these clock cycles on the MCU to set the pin states and then even more to transmit data over the UART (aka. Serial port). But still it is fast :)
+  
+  as a workaround, and in the case you just a have a shift register ( or multiple) the arduino code is pretty straight forward. take a look on the arduino webiste, there you can find a small tutorial, that should get started. then use firmata to make the data transfer (e.g. which shift-out-pin to set to which state) through firmata. firmata is super cool to transfer data over serial – well, that what is for anyways;)

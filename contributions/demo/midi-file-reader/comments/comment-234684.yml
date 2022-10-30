@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "234684"
+user: "joreg"
+created: "25 Jan, 2017 - 00:24"
+body: |-
+  beta>35 ships with MidiFile (Midi) and MidiTrack (Midi). The former takes a .mid file and the latter (when connected to the former) returns spreads of Channel, Note, Velocity, Start Time, End Time and some meta-info texts for each channel. 
+  
+  available in [alphas](https://vvvv.org/downloads/previews) now.
+  
+  side note: this is a native VL implementation (ie. not using an external library) and can thus easily be extended if need be.

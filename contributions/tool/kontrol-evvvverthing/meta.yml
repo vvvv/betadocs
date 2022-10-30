@@ -1,0 +1,37 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/kontrol-evvvverthing-meta"
+type: "tool"
+author: "catweasel"
+date: "17 Jun, 2015"
+title: "Kontrol Evvvverthing!"
+originalURL: "contribution/kontrol-evvvverthing"
+category: "tool"
+like_count: "16"
+imported: "true"
+teaser: |-
+  An extension of my previous KontroleurDx, now has a timeline/preset sequencer, and many optimisations, it has however bloated somewhat since node, I will attempt to streamline it again now it *mostly* works.
+  
+  The concept is simply, add the Kontrol_Client to the root of your patch, hook up a texture to share if you want a preview.
+  Create ioBox's you want to control, ctl+k to expose them and they should appear in the GUI, I recommend setting default and min/max values as the value ioboxes default scaling is huge!
+  Don't use filename or directory as a string type, I had filename working but its freaking out at the moment, so its on my fix list.
+  You can set the GUI to launch your patch, and it will start it in a new thread for you, and autoload on startup if needed too.
+  When you create a fresh project from a new patch, click the CreateProjectFolder button, that will make a new folder structure named as ProjectName, in your patch folder, this means as you move the patch, you keep the related project with it.
+  
+  You can follow developments on Git
+  https://github.com/catvvvveasel/Kontrol_Everything
+  Please post issues and feature requests there if you can.
+  
+  By the way, its not pretty, I've mainly just been trying to get to function!
+  
+  Your free to use this patch commercially ( as long as you have a vvvv licence ;) CC BY-SA
+  Please note it requires DataTable (ElliotWoods,Woei,Tonfilm, Included) dx11 (Vux) and Vaudio (Tonfilm) packs
+  PinInfoAdvanced and a couple of other helper plugins, are included and by Elektromeier, Tweener by Westbam, and probably other patches plugins and snippets not mentioned!
+  
+  If you do use it, then please report bugs, and if you fix them or add any features make them available for other users so this patch can progress for different usages, I want real time after effects meets multiscreen show control, nothing too elaborate ;)
+  
+  I have conflicting ideas of how to go on from this regarding multiple playlists, ideally you should be able to sequence playlists with in and out points like tracks in after effects/logic/cubase etc
+  Also currently fades are per preset not per keyframe, (presets are keyframes, I think I need to override times per keyframe...)
+  HSVA colour io's get converted to RGB for kontroleur, and so there is some oddness when using them :( Workaround is to separtate them tovalues in the patch and loose the colour box.
+  To do:- Tags should be used for custom gui elements, like movie player,  XY, colours from values for better colour control
+  etc

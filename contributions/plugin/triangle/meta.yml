@@ -1,0 +1,83 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/triangle-meta"
+type: "plugin"
+author: "digitalwannabe"
+date: "24 Jul, 2016"
+title: "Triangle"
+originalURL: "contribution/triangle"
+category: "plugin"
+credits: |-
+  Based on the C# port (Christian Woltering, www.triangle.codeplex.com ) of Triangle by Jonathan Richard Shewchuk, University of California at Berkeley, www.cs.cmu.edu/~quake/triangle.html; www.lichterloh.tv
+like_count: "11"
+imported: "true"
+teaser: |-
+  ###  A 2d Quality Mesh Generator and Delaunay Triangulator
+  
+  Triangle creates 2d delaunay triangulations of "Planar Straight Line Graphs", which basically are 2d polygons. These polygons are given by their corner points (in clockwise or counter-clockwise order).
+  
+  The resulting data (2d points in structured order) can be used to create a mesh in vvvv.
+  
+  Holes are supported. 
+  Fully spreadable, with helpfile(s).
+  
+  All information on Triangle and Triangle.net can be found here:
+  https://www.cs.cmu.edu/~quake/triangle.html
+  https://triangle.codeplex.com/
+  
+     
+  
+  ###  Source Code:
+  
+  https://github.com/digitalwannabe/vvvv-sdk/tree/develop/vvvv45/addonpack/src/nodes/plugins/2d/2dTriangle
+  
+     
+  ###  Licenses:
+  
+  All my code is MIT
+  Triangle.net is MIT
+  
+    
+  
+  ###  ToDo:
+  
+  (reminder to myself)
+  
+  -file reader for *.poly files
+  -support refining existing meshes
+  -improve RemovRegions performance, no good
+  -run Triangle on a different process to avoid blocking of vvvv
+  -extrude mesh feature would be nice and not too hard to do...
+  -png2poly
+  
+   
+            
+       
+  
+  ###  Changelog:
+  
+  v1.3 :
+  -fixed a bug when using unify + segments which share points
+  -performance improvements
+  
+  v1.2 :
+  - now supports regions: use different meshing quality/detail for different areas and/or assign markers to distinguish regions. Helper module to remove region(s) included!
+  - option to unify the output, ie remove duplicate vertices and fix triangle indices/markers accordingly
+  - now supports defining single points and segments (lines) to make sure they are part of the final mesh
+  - option to shift the start-index per bin or to start at 0 for each bin
+  - new "Indices" output (due to the unify + shift indices options)
+  - new helpfiles and examples explaining the new features
+  
+  
+  v1.1 : 
+  - added boundary markers and smoothing
+  
+  v1.0 : 
+  - initial release
+     
+     
+     
+  
+  ###  known bugs:
+  
+  - smoothing seems not to work in every situation, especially when using points/segments; not sure (yet) if this is due to my code or normal behaviour....

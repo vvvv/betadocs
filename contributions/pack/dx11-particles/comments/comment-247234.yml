@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "247234"
+user: "timpernagel"
+created: "29 Nov, 2017 - 18:11"
+body: |-
+  @mrboni had this behaviour as well. as far as i remember you have to set the renderer inside the vectorfiledreader to r16g16b16a16float. should fix the bug.

@@ -1,0 +1,16 @@
+### YamlMime:ContributionComment
+---
+uid: "92085"
+user: "bjoern"
+created: "29 Nov, 2012 - 14:37"
+body: |-
+  hello, 
+  
+  doesn't work with vvvv_45alpha28.5.
+  Throws the following error when opening one of the help-patches and the nodes are red.
+  
+  ```
+  Exception class: EClrException
+  Exception message: Could not load type 'VVVV.PluginInterfaces.V2.ISpread' from assembly 'VVVV.PluginInterfaces, Version=2.0.4703.37104, Culture=neutral, PublicKeyToken=null'.
+  Exception address: 00000000.
+  ```

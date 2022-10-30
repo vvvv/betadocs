@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/vl-dynamic-instancing-without-delegates-files"
+url: "vl-dynamic-instancing-without-delegates"
+category: "demo"
+files:
+    32bit:
+        latest:
+            bit: "32"
+            delta: "0"
+            filename: "VVVV.Value_.DynamicInstancingViaName.zip"
+            description: |-
+              The demo patch
+            
+            timestamp: "18 Jan, 2019 - 22:50"
+            download_count: "1"

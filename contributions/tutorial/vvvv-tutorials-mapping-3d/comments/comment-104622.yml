@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "104622"
+user: "mrboni"
+created: "07 Aug, 2013 - 00:33"
+body: |-
+  Just been trying this.
+  
+  I reach the end of calibration (with a mesh from reconstructme) and the calculated view is facing in a completely different direction from the scene.  I've tried severaltimes, with a few vvvversions.
+  
+  I was very precise last time ans the reprojection error was only about 1.5px, but still the view faces the wrong way.
+  
+  any idea?

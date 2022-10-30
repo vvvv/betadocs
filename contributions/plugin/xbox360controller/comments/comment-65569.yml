@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "65569"
+user: "rounce"
+created: "20 Jun, 2011 - 22:07"
+body: |-
+  I wrote this based off of the old plugin as I could never get that to work. I'll have a play around with a vanilla vvvv install to try and discover your problem. As for multiple gamepads, yes but 1 node per pad. I'll rewrite it in the near future to iterate over all with one node and use spreads as they were intended.

@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/compute-normals-files"
+url: "compute-normals"
+category: "plugin"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "ComputeNormals_b35.5_AnyCPU.zip"
+            description: |-
+              v1.0 initial
+            
+            timestamp: "17 Jun, 2017 - 22:55"
+            download_count: "1"

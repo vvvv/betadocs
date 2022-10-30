@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "89503"
+user: "bjoern"
+created: "10 Oct, 2012 - 22:53"
+body: |-
+  Sorry put it the wrong way, you'll only get grey values, since the same values are assigned to R, G & B. I somehow assumed it should be multicolored ("bunt"), just had a look at the book - and I was wrong.

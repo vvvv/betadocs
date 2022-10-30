@@ -1,0 +1,14 @@
+### YamlMime:ContributionComment
+---
+uid: "233451"
+user: "digitalwannabe"
+created: "16 Dec, 2016 - 16:50"
+body: |-
+  hey, sorry for the delay....seems like you found a bug in triangle; I can't reproduce it yet, but also I can't fix your patch. Where did you produce the points for the outline of the octopus?
+  
+  also please be aware that you need to
+  
+  1) feed triangle the segment points in the order in which they are connected, ie use the bone edge indices spread to getslice your segment points before you feed them to triangle
+  2) when using multiple segments each of them- in your case there are 3: two with 5 connected points, one with 7-need to have their own slice for the vertices input and the isSegment input of triangle, so use a cons with (in your case) 4 inputs and a isSegment spread with 4 slices!
+  
+  i'll see if i can find and fix that bug asap....

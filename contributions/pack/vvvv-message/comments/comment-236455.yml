@@ -1,0 +1,18 @@
+### YamlMime:ContributionComment
+---
+uid: "236455"
+user: "velcrome"
+created: "28 Feb, 2017 - 15:25"
+body: |-
+  <span class="node">Sift</span> is your friend, if you want to filter by Topic (which often happens!). This would be between your <span class="node">ConfigKeep</span> and the (forced) <span class="node">Edit</span>.
+  
+  Alternatively you can <span class="node">Split</span> or <span class="node">Read</span> all your Messages, and check the binsize of the attributes, to see if a field is not initialized, and use that to <span class="node">Select</span> only the incomplete Messages to fix them with Edit. Or you use it to spread the <span class="pin">Update</span> pin of the <span class="node">Edit</span>, to make sure you only update incomplete Messages. 
+  
+  There are really a few ways to do what you want, even without coding a new Edit node. The most brutal is <span class="node">Inject</span>, but even <span class="node">ContainsField</span> might be worth a look.
+  
+  On a sidenode: currently there is no such thing as a "Field Order", so it does not matter, in what order they are in the json. 
+  
+  Hope that helps :)
+  
+  Edit: @seltzdesign chatted me up directly, and explained his problem in depth. The easiest solution turned out to combine an <span class="node">Inject</span> with a <span class="node">PruneBut</span>. 
+  If you want to know why, leave a like [here](https://discourse.vvvv.org/t/introduction-to-vvvv-message-awesomeness/14529) and participate in Node17

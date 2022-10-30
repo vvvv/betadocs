@@ -1,0 +1,17 @@
+### YamlMime:ContributionComment
+---
+uid: "170172"
+user: "katzenfresser"
+created: "22 Oct, 2014 - 08:39"
+body: |-
+  @StiX: +1, would beinteresting for me, too! for the moment you can use a color-spread as input for the player-node to differentiate between the different users. 
+  
+  --
+  
+  I have the Kinect v2 running here, work's well. But sometimes there is a strange behaviour. I'm not sure when it apprears, but mostly when multiple users pop in randomly or when it's difficult for the kinect to detect my skeleton (eg sitting on a chair). 
+  
+  The Kinect stream then seems to be freezed for many seconds (not sending any new data at all / holding the last data), while all the other animations in vvvv are running at 60+ fps. 
+  
+  Any ideas? How can i debug that?
+  
+  edit: [kinect-2-crashes](https://discourse.vvvv.org/t/kinect-2-crashes)

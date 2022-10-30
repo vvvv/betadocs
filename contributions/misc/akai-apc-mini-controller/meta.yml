@@ -1,0 +1,19 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/akai-apc-mini-controller-meta"
+type: "misc"
+author: "drehwurm"
+date: "26 Feb, 2016"
+title: "Akai APC Mini Controller"
+originalURL: "contribution/akai-apc-mini-controller"
+category: "misc"
+credits: |-
+  lasal for the HexToDecimal(Value) node.
+like_count: "3"
+imported: "true"
+teaser: |-
+  Hello,
+  
+  This is my first (almost) contribution. So expect it to be buggy as hell. Just a basic mapping to use the Akai APC mini Controller with v4. 
+  
+  If you have any idea to get the job done more elegantly, let me know. I'm always happy to learn.

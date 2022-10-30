@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "185535"
+user: "sebl"
+created: "16 Feb, 2015 - 14:09"
+body: |-
+  ah, for sure, there's always some exceptional case... i think, the system should ideally be smart and, if there's a , and a . in the string, it takes only the , as a comma.
+  
+  how do you mean "switching locale"? change windows language stuff?

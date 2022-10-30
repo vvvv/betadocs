@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "237412"
+user: "tmp"
+created: "27 Mar, 2017 - 18:40"
+body: |-
+  ok it is definately a problem with windows 7. 
+  it limits the count of bound rwstructuredbuffers to 8 and particles needs 9 at the moment. perhaps I can find a solution for that, but not in the next days. until then I can only recommend you to update windows to at least version 8 :)

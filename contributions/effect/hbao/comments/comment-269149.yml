@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "269149"
+user: "dennis"
+created: "03 Nov, 2018 - 11:07"
+body: |-
+  Still haven't gotten around on updating it properly. A version that does normal input and supports multiple instances (thank you microdee) exists in the Github repo, sadly still needs some polish.
+  
+  [tgd](http://vvvv.org/users/tgd): Check the Sphere etc. nodes in the help patch, I think I set the resolution of them a tad to high without thinking..

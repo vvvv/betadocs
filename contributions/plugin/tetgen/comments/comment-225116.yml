@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "225116"
+user: "digitalwannabe"
+created: "07 Aug, 2016 - 23:22"
+body: |-
+  hm, very strange. tested it today on 2 other devices without a problem....is TTY saying anything else?
+  please confirm it doesn't work applying this order (which is what I do):
+  -download plugin and unpack
+  -start vvvv b34.2 x86 or x64
+  -drag and drop 3dTetrahedralize.dll node in the patch
+  -select the node and hit F1
+  -a triangulated box should be visible now in the renderer

@@ -1,0 +1,17 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/ratiocurve-meta"
+type: "module"
+author: "tekcor"
+date: "09 Mar, 2012"
+title: "RatioCurve"
+originalURL: "contribution/ratiocurve"
+category: "module"
+like_count: "7"
+imported: "true"
+teaser: |-
+  RatioCurve provides an GUI element for mapping input values to output values via a modifyable curve (with four drag and drop points). 
+  
+  Like in common image editing software.
+  
+  To do: Max and min values for quad positions

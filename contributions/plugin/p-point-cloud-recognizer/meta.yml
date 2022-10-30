@@ -1,0 +1,16 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/p-point-cloud-recognizer-meta"
+type: "plugin"
+author: "ethermammoth"
+date: "01 Apr, 2013"
+title: "$P Point Cloud Recognizer"
+originalURL: "contribution/p-point-cloud-recognizer"
+category: "plugin"
+credits: |-
+  http://depts.washington.edu/aimgroup/proj/dollar/pdollar.html
+like_count: "7"
+imported: "true"
+teaser: |-
+  Adapted from http://depts.washington.edu/aimgroup/proj/dollar/pdollar.html
+  I added it as dynamic plugin. Normalized Stroke sizes set to 64.

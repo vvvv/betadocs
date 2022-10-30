@@ -1,0 +1,18 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/volumetric-spot-light-(deferred)-meta"
+type: "module"
+author: "mburk"
+date: "30 Sep, 2016"
+title: "Volumetric Spot Light (Deferred)"
+originalURL: "contribution/volumetric-spot-light-(deferred)"
+category: "module"
+like_count: "10"
+imported: "true"
+teaser: |-
+  This is a volumetric light implementation I was able to create mainly from this great resource:
+  http://www.alexandre-pestana.com/volumetric-lights/
+  
+  The module also contains a bilateral upsampling shader which allows for blending of lower res and high res renderings, using the depth buffer and soby eliminating pixelated edges. Also a bilateral blur which is edge preserving.
+  
+  Let it shine!

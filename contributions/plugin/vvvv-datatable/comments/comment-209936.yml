@@ -1,0 +1,18 @@
+### YamlMime:ContributionComment
+---
+uid: "209936"
+user: "elliotwoods"
+created: "02 Nov, 2015 - 09:38"
+body: |-
+  Nice!
+  
+  Some great new additions in here.
+  I'm making this version the default for my own projects.
+  
+  a few issues:
+  * Column Names is space delineated now? (e.g. "Position X (m), Position Y (m)" comes as 3 columns "Position", "X", "(m)". And everything after the first comma is then ignored.
+  * Still has issue on repaint
+  * checkbox (bool type) draws outside of bounds of row (maybe an issue on high dpi screens?)
+  * Colours are kind of horrible now :(
+  * GetColumn doesn't work with bool type? GetColumn (Dynamic) would be nice
+  * GetRows (or simply GetRowIndices module which is a mix of Info and I (Spreads)) would be useful

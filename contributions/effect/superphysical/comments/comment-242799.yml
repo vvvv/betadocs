@@ -1,0 +1,16 @@
+### YamlMime:ContributionComment
+---
+uid: "242799"
+user: "mburk"
+created: "19 Jul, 2017 - 09:07"
+body: |-
+  Yep, there is something wrong - I explained this in the workshop also:
+  The "Global Reflection Color" is not really a correct part of the lighting equation, but somethin additional. i didn't combine this correctly yet, so that's were this bug comes from. If you do your lighting only with IBL and dynamic lights everything should be correct.
+  
+  If you are brave enough go to superphysical.tfx and replace Line 271 with this Line:
+  
+  IBL += (saturate(GlobalReflectionColor.rgb * (kS * envBRDF.x + envBRDF.y)) * iridescenceColor);
+  
+  
+  
+  This will also be fixed in next release.

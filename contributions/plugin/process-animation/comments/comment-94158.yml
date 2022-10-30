@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "94158"
+user: "velcrome"
+created: "06 Jan, 2013 - 21:16"
+body: |-
+  ![](https://vvvv.org/sites/default/files/imagecache/large/images/Process%20%28Animation%29%20help_2013.01.06-22.15.08_0.png) 
+  
+  If <span class="pin">Next</span>, <span class="pin">Back </span>and <span class="pin">Pause </span> are spreadable you'd already have more possibilities to micro your Actions.
+  
+  There are some special cases with  [my take on your plugin](http://download.intolight.de/process.zip), that make it stop running. Don't have a debugger here to investigate them, so take it or leave it ;)

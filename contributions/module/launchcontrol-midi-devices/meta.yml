@@ -1,0 +1,17 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/launchcontrol-(midi-devices)-meta"
+type: "module"
+author: "karistouf"
+date: "21 Jun, 2014"
+title: "Launchcontrol (Midi Devices)"
+originalURL: "contribution/launchcontrol-(midi-devices)"
+category: "module"
+credits: |-
+  karistouf
+like_count: "1"
+imported: "true"
+teaser: |-
+  This is a simple patch enabling you to use the LaunchControl out of the box with its 16 by default templates: 8 User presets, and 8 factory presets.
+  
+  There is a patch to use a preset, and visualisation in a renderer.

@@ -1,0 +1,25 @@
+### YamlMime:ContributionComment
+---
+uid: "272937"
+user: "tmp"
+created: "26 Jun, 2019 - 08:04"
+body: |-
+  Doesn't work on 50beta38.1 for me.
+  Fresh install (+ dx11 pack)
+  
+  Error message:
+  
+  ```
+  Stack Trace
+  00:00:23  -  :    at VVVV.Nodes.DX11.NVHBAOPlus.PluginEntry.InitHBAO(IntPtr device)
+     at VVVV.Nodes.DX11.NVHBAOPlus.NVHBAOPlusNode.Update(DX11RenderContext context)
+     at VVVV.DX11.Lib.RenderGraph.DX11DeviceRenderer.UpdateNode(DX11Node node)
+  00:00:23 ERR : Exception occured in TMPluginWrapperNode.Evaluate
+  00:00:23 ERR : Unable to load DLL 'HBAOPlus-bridge-vvvv.dll': Das angegebene Modul wurde nicht gefunden. (Exception from HRESULT: 0x8007007E)
+  00:00:23 ERR : Exception caused by node during update :/73/202
+  00:00:23 ERR : Exception node name :HBAO+ (DX11)
+  00:00:23 ERR : System.DllNotFoundException in HBAOPlus-vvvv: Unable to load DLL 'HBAOPlus-bridge-vvvv.dll': Das angegebene Modul wurde nicht gefunden. (Exception from HRESULT: 0x8007007E)
+  ```
+  
+  Ideas?
+  edit: Sorry..didnt read the thread. You should add installation comments for those who only read contribution infos :)

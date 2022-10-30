@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "235266"
+user: "avaos"
+created: "13 Feb, 2017 - 15:16"
+body: |-
+  @[Noir](http://vvvv.org/users/Noir): I Fixed it: Try everyoneishappys InstanceNoodle Pack, there is a Kinect2Face Shader, with this you can use getVertexData. This works for me.

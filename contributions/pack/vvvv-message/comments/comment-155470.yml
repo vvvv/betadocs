@@ -1,0 +1,196 @@
+### YamlMime:ContributionComment
+---
+uid: "155470"
+user: "lasal"
+created: "15 May, 2014 - 19:37"
+body: |-
+  Hey Velcrome, 
+  
+  thanks man,
+  
+  In the 64 bit version there are some red nodes, buffer, ringbuffer, 
+  also Cons (message) is missing in the duration example, and Getattribute in the TouchOSC example.
+  
+  ![](https://vvvv.org/sites/default/files/imagecache/large/images/Demo%20%28Message%29_2014.05.15-21.26.22.png) 
+  
+  TTY:
+  
+  ```
+  00:06:19     : adding C:\Users\lasal\Desktop\vvvv_45beta32_x64\Packs\vvvv-Message\nodes\demo\ to VVVV.Hosting.Factories.DotNetPluginFactory
+  00:06:19     : adding C:\Users\lasal\Desktop\vvvv_45beta32_x64\Packs\vvvv-Message\nodes\demo\ to VVVV.Hosting.Factories.CSProjectFactory
+  00:06:19     : adding C:\Users\lasal\Desktop\vvvv_45beta32_x64\Packs\vvvv-Message\nodes\demo\ to VVVV.Hosting.Factories.EditorFactory
+  00:06:19     : adding C:\Users\lasal\Desktop\vvvv_45beta32_x64\Packs\vvvv-Message\nodes\demo\ to VVVV.Hosting.Factories.EffectsFactory
+  00:06:19     : adding C:\Users\lasal\Desktop\vvvv_45beta32_x64\Packs\vvvv-Message\nodes\demo\ to VVVV.Hosting.Factories.PatchFactory
+  00:06:19     : adding C:\Users\lasal\Desktop\vvvv_45beta32_x64\Packs\vvvv-Message\nodes\demo\ to VVVV.Hosting.FreeFrameFactory
+  00:06:19     : adding C:\Users\lasal\Desktop\vvvv_45beta32_x64\Packs\vvvv-Message\nodes\demo\ to VVVV.Hosting.VSTFactory
+  00:06:19  *  : Node Buffer (Message) (C:\Users\lasal\Desktop\vvvv_45beta32_x64\Packs\vvvv-Message\nodes\plugins\Message.csproj) is missing.
+  00:06:19  *  : Node RingBuffer (Message) (C:\Users\lasal\Desktop\vvvv_45beta32_x64\Packs\vvvv-Message\nodes\plugins\Message.csproj) is missing.
+  00:06:19  *  : couldn't connect pins of nodes IOBox (String) and Search (Message). 
+  00:06:19  *  : deleting action.
+  00:06:19 ERR : Corrupt link-message in Patch C:\Users\lasal\Desktop\vvvv_45beta32_x64\Packs\vvvv-Message\nodes\demo\Demo (Message).v4p. srcViewPin or dstViewPin is nil!
+  00:06:19 ERR : Exception occured in TMPluginWrapperNode.Evaluate
+  00:06:19 ERR : System.Xml.XmlException: Fin de archivo no esperado.
+     en System.Xml.EncodingStreamWrapper.ReadBOMEncoding(Boolean notOutOfBand)
+     en System.Xml.EncodingStreamWrapper..ctor(Stream stream, Encoding encoding)
+     en System.Xml.XmlUTF8TextReader.SetInput(Stream stream, Encoding encoding, XmlDictionaryReaderQuotas quotas, OnXmlDictionaryReaderClose onClose)
+     en System.Runtime.Serialization.XmlObjectSerializer.ReadObject(Stream stream)
+     en VVVV.Nodes.DeSerialize`1.Evaluate(Int32 SpreadMax)
+     en VVVV.Hosting.IO.PluginContainer.Evaluate(Int32 spreadMax)
+  00:06:42 ERR : Restricción de API: el ensamblado 'file:///C:\Users\lasal\Desktop\vvvv_45beta32_x64\packs\vvvv-Message\core\Newtonsoft.Json.dll' se cargó desde una ubicación diferente. No se puede cargar desde una nueva ubicación dentro del mismo AppDomain.
+  00:06:42  -  : To help us track this error down, enable the ExceptionDialog via the menu or starting vvvv with /showexceptions.
+  ```
+  
+  In the 32 bit version everything is red.
+  ![](https://vvvv.org/sites/default/files/imagecache/large/images/Demo%20%28Message%29_2014.05.15-21.15.41.png) 
+  
+  TTY:
+  ```
+  00:00:51     : adding C:\Users\lasal\Desktop\vvvv_45beta32_x86\Packs\vvvv-Message\demo\ to VVVV.Hosting.Factories.DotNetPluginFactory
+  00:00:51     : adding C:\Users\lasal\Desktop\vvvv_45beta32_x86\Packs\vvvv-Message\demo\ to VVVV.Hosting.Factories.CSProjectFactory
+  00:00:51     : adding C:\Users\lasal\Desktop\vvvv_45beta32_x86\Packs\vvvv-Message\demo\ to VVVV.Hosting.Factories.EditorFactory
+  00:00:51     : adding C:\Users\lasal\Desktop\vvvv_45beta32_x86\Packs\vvvv-Message\demo\ to VVVV.Hosting.Factories.EffectsFactory
+  00:00:51     : adding C:\Users\lasal\Desktop\vvvv_45beta32_x86\Packs\vvvv-Message\demo\ to VVVV.Hosting.Factories.PatchFactory
+  00:00:51     : adding C:\Users\lasal\Desktop\vvvv_45beta32_x86\Packs\vvvv-Message\demo\ to VVVV.Hosting.FreeFrameFactory
+  00:00:51     : adding C:\Users\lasal\Desktop\vvvv_45beta32_x86\Packs\vvvv-Message\demo\ to VVVV.Hosting.VSTFactory
+  00:00:51  *  : Node Message (Join) (C:\Users\lasal\Desktop\vvvv_45beta32_x86\Packs\vvvv-Message\plugins\Message.csproj) is missing.
+  00:00:51  *  : Node Message (Split) (C:\Users\lasal\Desktop\vvvv_45beta32_x86\Packs\vvvv-Message\plugins\Message.csproj) is missing.
+  00:00:51  *  : Node Info (Message) (C:\Users\lasal\Desktop\vvvv_45beta32_x86\Packs\vvvv-Message\plugins\Message.csproj) is missing.
+  00:00:51  *  : Node AsOSC (Message) (C:\Users\lasal\Desktop\vvvv_45beta32_x86\Packs\vvvv-Message\plugins\Message.csproj) is missing.
+  00:00:51  *  : Node Serialize (Message) (C:\Users\lasal\Desktop\vvvv_45beta32_x86\Packs\vvvv-Message\plugins\Message.csproj) is missing.
+  00:00:51  *  : Node DeSerialize (Message) (C:\Users\lasal\Desktop\vvvv_45beta32_x86\Packs\vvvv-Message\plugins\Message.csproj) is missing.
+  00:00:51  *  : Node S+H (Message) (C:\Users\lasal\Desktop\vvvv_45beta32_x86\Packs\vvvv-Message\plugins\Message.csproj) is missing.
+  00:00:51  *  : Node Buffer (Message) (C:\Users\lasal\Desktop\vvvv_45beta32_x86\Packs\vvvv-Message\plugins\Message.csproj) is missing.
+  00:00:51  *  : Node Sift (Message) (C:\Users\lasal\Desktop\vvvv_45beta32_x86\Packs\vvvv-Message\plugins\Message.csproj) is missing.
+  00:00:51  *  : Node Select (Message) (C:\Users\lasal\Desktop\vvvv_45beta32_x86\Packs\vvvv-Message\plugins\Message.csproj) is missing.
+  00:00:51  *  : Node GetSlice (Message) (C:\Users\lasal\Desktop\vvvv_45beta32_x86\Packs\vvvv-Message\plugins\Message.csproj) is missing.
+  00:00:51  *  : Node GetSlice (Message) (C:\Users\lasal\Desktop\vvvv_45beta32_x86\Packs\vvvv-Message\plugins\Message.csproj) is missing.
+  00:00:51  *  : Node Info (Message) (C:\Users\lasal\Desktop\vvvv_45beta32_x86\Packs\vvvv-Message\plugins\Message.csproj) is missing.
+  00:00:51  *  : Node Info (Message) (C:\Users\lasal\Desktop\vvvv_45beta32_x86\Packs\vvvv-Message\plugins\Message.csproj) is missing.
+  00:00:51  *  : Node RingBuffer (Message) (C:\Users\lasal\Desktop\vvvv_45beta32_x86\Packs\vvvv-Message\plugins\Message.csproj) is missing.
+  00:00:51  *  : Node Queue (Message) (C:\Users\lasal\Desktop\vvvv_45beta32_x86\Packs\vvvv-Message\plugins\Message.csproj) is missing.
+  00:00:51  *  : Node GetSlice (Message) (C:\Users\lasal\Desktop\vvvv_45beta32_x86\Packs\vvvv-Message\plugins\Message.csproj) is missing.
+  00:00:51  *  : Node AsMessage (Message, OSC) (C:\Users\lasal\Desktop\vvvv_45beta32_x86\Packs\vvvv-Message\plugins\Message.csproj) is missing.
+  00:00:51  *  : Node AsMessage (Message, Json) (C:\Users\lasal\Desktop\vvvv_45beta32_x86\Packs\vvvv-Message\plugins\Message.csproj) is missing.
+  00:00:51  *  : Node AsJson (Message) (C:\Users\lasal\Desktop\vvvv_45beta32_x86\Packs\vvvv-Message\plugins\Message.csproj) is missing.
+  00:00:51  *  : Node Info (Message) (C:\Users\lasal\Desktop\vvvv_45beta32_x86\Packs\vvvv-Message\plugins\Message.csproj) is missing.
+  00:00:51  *  : Node MessageType (Message) (C:\Users\lasal\Desktop\vvvv_45beta32_x86\Packs\vvvv-Message\plugins\Message.csproj) is missing.
+  00:00:51  *  : Node Message (Split) (C:\Users\lasal\Desktop\vvvv_45beta32_x86\Packs\vvvv-Message\plugins\Message.csproj) is missing.
+  00:00:51  *  : Node SetMessage (Message) (C:\Users\lasal\Desktop\vvvv_45beta32_x86\Packs\vvvv-Message\plugins\Message.csproj) is missing.
+  00:00:51  *  : Node FrameDelay (Message) (C:\Users\lasal\Desktop\vvvv_45beta32_x86\Packs\vvvv-Message\plugins\Message.csproj) is missing.
+  00:00:51  *  : Node Info (Message) (C:\Users\lasal\Desktop\vvvv_45beta32_x86\Packs\vvvv-Message\plugins\Message.csproj) is missing.
+  00:00:51  *  : Node Search (Message) (C:\Users\lasal\Desktop\vvvv_45beta32_x86\Packs\vvvv-Message\plugins\Message.csproj) is missing.
+  00:00:51  *  : couldn't connect pins of nodes Search (Message) and IOBox (String). 
+  00:00:51  *  : couldn't connect pins of nodes IOBox (String) and Search (Message). 
+  00:00:51  *  : couldn't connect pins of nodes IOBox (String) and Search (Message). 
+  00:00:51  *  : couldn't connect pins of nodes Message (Join) and Search (Message). 
+  00:00:51  *  : couldn't connect pins of nodes Search (Message) and Info (Message). 
+  00:00:51  *  : couldn't connect pins of nodes Search (Message) and IOBox (Node). 
+  00:00:51  *  : couldn't connect pins of nodes IOBox (Value Advanced) and Search (Message). 
+  00:00:51  *  : couldn't connect pins of nodes UniformScale (Transform) and Message (Join). 
+  00:00:51  *  : couldn't connect pins of nodes Info (Message) and IOBox (String). 
+  00:00:51  *  : couldn't connect pins of nodes Info (Message) and IOBox (String). 
+  00:00:51  *  : couldn't connect pins of nodes AsJson (Message) and IOBox (String). 
+  00:00:51  *  : couldn't connect pins of nodes IOBox (Node) and SetMessage (Message). 
+  00:00:51  *  : couldn't connect pins of nodes SetMessage (Message) and IOBox (Node). 
+  00:00:51  *  : couldn't connect pins of nodes AsMessage (Message, Json) and Message (Split). 
+  00:00:51  *  : couldn't connect pins of nodes Message (Split) and IOBox (Node). 
+  00:00:51  *  : couldn't connect pins of nodes AsString (Raw) and AsMessage (Message, Json). 
+  00:00:51  *  : couldn't connect pins of nodes IOBox (Node) and AsJson (Message). 
+  00:00:51  *  : couldn't connect pins of nodes IOBox (String) and MessageType (Message). 
+  00:00:51  *  : couldn't connect pins of nodes IOBox (String) and MessageType (Message). 
+  00:00:51  *  : couldn't connect pins of nodes IOBox (Enumerations) and Message (Split). 
+  00:00:51  *  : couldn't connect pins of nodes IOBox (Value Advanced) and Message (Split). 
+  00:00:51  *  : couldn't connect pins of nodes IOBox (Value Advanced) and MessageType (Message). 
+  00:00:51  *  : couldn't connect pins of nodes AsJson (Message) and AsRaw (String). 
+  00:00:51  *  : couldn't connect pins of nodes AsOSC (Message) and Length (Raw). 
+  00:00:51  *  : couldn't connect pins of nodes Serialize (Message) and Length (Raw). 
+  00:00:51  *  : couldn't connect pins of nodes AsMessage (Message, Json) and Info (Message). 
+  00:00:51  *  : couldn't connect pins of nodes Info (Message) and IOBox (String). 
+  00:00:51  *  : couldn't connect pins of nodes AsMessage (Message, OSC) and Info (Message). 
+  00:00:51  *  : couldn't connect pins of nodes AsOSC (Message) and AsMessage (Message, OSC). 
+  00:00:51  *  : couldn't connect pins of nodes Info (Message) and IOBox (String). 
+  00:00:51  *  : couldn't connect pins of nodes DeSerialize (Message) and Info (Message). 
+  00:00:51  *  : couldn't connect pins of nodes Info (Message) and IOBox (String). 
+  00:00:51  *  : couldn't connect pins of nodes IOBox (Node) and GetSlice (Message). 
+  00:00:51  *  : couldn't connect pins of nodes Sift (Message) and IOBox (Node). 
+  00:00:51  *  : couldn't connect pins of nodes IOBox (String) and Sift (Message). 
+  00:00:51  *  : couldn't connect pins of nodes IOBox (Node) and Sift (Message). 
+  00:00:51  *  : couldn't connect pins of nodes Serialize (Message) and DeSerialize (Message). 
+  00:00:51  *  : couldn't connect pins of nodes IOBox (Node) and Serialize (Message). 
+  00:00:51  *  : couldn't connect pins of nodes AsOSC (Message) and AsString (Raw). 
+  00:00:51  *  : couldn't connect pins of nodes IOBox (Node) and AsOSC (Message). 
+  00:00:51  *  : couldn't connect pins of nodes AsOSC (Message) and OSCDecoder (Network). 
+  00:00:51  *  : couldn't connect pins of nodes Info (Message) and IOBox (String). 
+  00:00:51  *  : couldn't connect pins of nodes IOBox (Node) and Info (Message). 
+  00:00:51  *  : couldn't connect pins of nodes Info (Message) and IOBox (String). 
+  00:00:51  *  : couldn't connect pins of nodes IOBox (Value Advanced) and Info (Message). 
+  00:00:51  *  : couldn't connect pins of nodes IOBox (Node) and Message (Split). 
+  00:00:51  *  : couldn't connect pins of nodes Message (Split) and IOBox (String). 
+  00:00:51  *  : couldn't connect pins of nodes Message (Split) and IOBox (Color). 
+  00:00:51  *  : couldn't connect pins of nodes Message (Split) and IOBox (String). 
+  00:00:51  *  : couldn't connect pins of nodes Message (Split) and IOBox (Value Advanced). 
+  00:00:51  *  : couldn't connect pins of nodes Message (Split) and Decompose (Transform Vector). 
+  00:00:51  *  : couldn't connect pins of nodes IOBox (Enumerations) and Message (Split). 
+  00:00:51  *  : couldn't connect pins of nodes IOBox (String) and Message (Join). 
+  00:00:51  *  : couldn't connect pins of nodes IOBox (String) and Message (Join). 
+  00:00:51  *  : couldn't connect pins of nodes IOBox (Value Advanced) and Message (Join). 
+  00:00:51  *  : couldn't connect pins of nodes IOBox (Value Advanced) and Message (Join). 
+  00:00:51  *  : couldn't connect pins of nodes IOBox (Color) and Message (Join). 
+  00:00:51 ERR : Corrupt link-message in Patch C:\Users\lasal\Desktop\vvvv_45beta32_x86\Packs\vvvv-Message\demo\Demo (Message).v4p. srcViewPin or dstViewPin is nil!
+  00:00:51 ERR : Corrupt link-message in Patch C:\Users\lasal\Desktop\vvvv_45beta32_x86\Packs\vvvv-Message\demo\Demo (Message).v4p. srcViewPin or dstViewPin is nil!
+  00:00:51 ERR : Corrupt link-message in Patch C:\Users\lasal\Desktop\vvvv_45beta32_x86\Packs\vvvv-Message\demo\Demo (Message).v4p. srcViewPin or dstViewPin is nil!
+  00:00:51 ERR : Corrupt link-message in Patch C:\Users\lasal\Desktop\vvvv_45beta32_x86\Packs\vvvv-Message\demo\Demo (Message).v4p. srcViewPin or dstViewPin is nil!
+  00:00:51 ERR : Corrupt link-message in Patch C:\Users\lasal\Desktop\vvvv_45beta32_x86\Packs\vvvv-Message\demo\Demo (Message).v4p. srcViewPin or dstViewPin is nil!
+  00:00:51 ERR : Corrupt link-message in Patch C:\Users\lasal\Desktop\vvvv_45beta32_x86\Packs\vvvv-Message\demo\Demo (Message).v4p. srcViewPin or dstViewPin is nil!
+  00:00:51 ERR : Corrupt link-message in Patch C:\Users\lasal\Desktop\vvvv_45beta32_x86\Packs\vvvv-Message\demo\Demo (Message).v4p. srcViewPin or dstViewPin is nil!
+  00:00:51 ERR : Corrupt link-message in Patch C:\Users\lasal\Desktop\vvvv_45beta32_x86\Packs\vvvv-Message\demo\Demo (Message).v4p. srcViewPin or dstViewPin is nil!
+  00:00:51 ERR : Corrupt link-message in Patch C:\Users\lasal\Desktop\vvvv_45beta32_x86\Packs\vvvv-Message\demo\Demo (Message).v4p. srcViewPin or dstViewPin is nil!
+  00:00:51 ERR : Corrupt link-message in Patch C:\Users\lasal\Desktop\vvvv_45beta32_x86\Packs\vvvv-Message\demo\Demo (Message).v4p. srcViewPin or dstViewPin is nil!
+  00:00:51 ERR : Corrupt link-message in Patch C:\Users\lasal\Desktop\vvvv_45beta32_x86\Packs\vvvv-Message\demo\Demo (Message).v4p. srcViewPin or dstViewPin is nil!
+  00:00:51 ERR : Corrupt link-message in Patch C:\Users\lasal\Desktop\vvvv_45beta32_x86\Packs\vvvv-Message\demo\Demo (Message).v4p. srcViewPin or dstViewPin is nil!
+  00:00:51 ERR : Corrupt link-message in Patch C:\Users\lasal\Desktop\vvvv_45beta32_x86\Packs\vvvv-Message\demo\Demo (Message).v4p. srcViewPin or dstViewPin is nil!
+  00:00:51 ERR : Corrupt link-message in Patch C:\Users\lasal\Desktop\vvvv_45beta32_x86\Packs\vvvv-Message\demo\Demo (Message).v4p. srcViewPin or dstViewPin is nil!
+  00:00:51 ERR : Corrupt link-message in Patch C:\Users\lasal\Desktop\vvvv_45beta32_x86\Packs\vvvv-Message\demo\Demo (Message).v4p. srcViewPin or dstViewPin is nil!
+  00:00:51 ERR : Corrupt link-message in Patch C:\Users\lasal\Desktop\vvvv_45beta32_x86\Packs\vvvv-Message\demo\Demo (Message).v4p. srcViewPin or dstViewPin is nil!
+  00:00:51 ERR : Corrupt link-message in Patch C:\Users\lasal\Desktop\vvvv_45beta32_x86\Packs\vvvv-Message\demo\Demo (Message).v4p. srcViewPin or dstViewPin is nil!
+  00:00:51 ERR : Corrupt link-message in Patch C:\Users\lasal\Desktop\vvvv_45beta32_x86\Packs\vvvv-Message\demo\Demo (Message).v4p. srcViewPin or dstViewPin is nil!
+  00:00:51 ERR : Corrupt link-message in Patch C:\Users\lasal\Desktop\vvvv_45beta32_x86\Packs\vvvv-Message\demo\Demo (Message).v4p. srcViewPin or dstViewPin is nil!
+  00:00:51 ERR : Corrupt link-message in Patch C:\Users\lasal\Desktop\vvvv_45beta32_x86\Packs\vvvv-Message\demo\Demo (Message).v4p. srcViewPin or dstViewPin is nil!
+  00:00:51 ERR : Corrupt link-message in Patch C:\Users\lasal\Desktop\vvvv_45beta32_x86\Packs\vvvv-Message\demo\Demo (Message).v4p. srcViewPin or dstViewPin is nil!
+  00:00:51 ERR : Corrupt link-message in Patch C:\Users\lasal\Desktop\vvvv_45beta32_x86\Packs\vvvv-Message\demo\Demo (Message).v4p. srcViewPin or dstViewPin is nil!
+  00:00:51 ERR : Corrupt link-message in Patch C:\Users\lasal\Desktop\vvvv_45beta32_x86\Packs\vvvv-Message\demo\Demo (Message).v4p. srcViewPin or dstViewPin is nil!
+  00:00:51 ERR : Corrupt link-message in Patch C:\Users\lasal\Desktop\vvvv_45beta32_x86\Packs\vvvv-Message\demo\Demo (Message).v4p. srcViewPin or dstViewPin is nil!
+  00:00:51 ERR : Corrupt link-message in Patch C:\Users\lasal\Desktop\vvvv_45beta32_x86\Packs\vvvv-Message\demo\Demo (Message).v4p. srcViewPin or dstViewPin is nil!
+  00:00:51 ERR : Corrupt link-message in Patch C:\Users\lasal\Desktop\vvvv_45beta32_x86\Packs\vvvv-Message\demo\Demo (Message).v4p. srcViewPin or dstViewPin is nil!
+  00:00:51 ERR : Corrupt link-message in Patch C:\Users\lasal\Desktop\vvvv_45beta32_x86\Packs\vvvv-Message\demo\Demo (Message).v4p. srcViewPin or dstViewPin is nil!
+  00:00:51 ERR : Corrupt link-message in Patch C:\Users\lasal\Desktop\vvvv_45beta32_x86\Packs\vvvv-Message\demo\Demo (Message).v4p. srcViewPin or dstViewPin is nil!
+  00:00:51 ERR : Corrupt link-message in Patch C:\Users\lasal\Desktop\vvvv_45beta32_x86\Packs\vvvv-Message\demo\Demo (Message).v4p. srcViewPin or dstViewPin is nil!
+  00:00:51 ERR : Corrupt link-message in Patch C:\Users\lasal\Desktop\vvvv_45beta32_x86\Packs\vvvv-Message\demo\Demo (Message).v4p. srcViewPin or dstViewPin is nil!
+  00:00:51 ERR : Corrupt link-message in Patch C:\Users\lasal\Desktop\vvvv_45beta32_x86\Packs\vvvv-Message\demo\Demo (Message).v4p. srcViewPin or dstViewPin is nil!
+  00:00:51 ERR : Corrupt link-message in Patch C:\Users\lasal\Desktop\vvvv_45beta32_x86\Packs\vvvv-Message\demo\Demo (Message).v4p. srcViewPin or dstViewPin is nil!
+  00:00:51 ERR : Corrupt link-message in Patch C:\Users\lasal\Desktop\vvvv_45beta32_x86\Packs\vvvv-Message\demo\Demo (Message).v4p. srcViewPin or dstViewPin is nil!
+  00:00:51 ERR : Corrupt link-message in Patch C:\Users\lasal\Desktop\vvvv_45beta32_x86\Packs\vvvv-Message\demo\Demo (Message).v4p. srcViewPin or dstViewPin is nil!
+  00:00:51 ERR : Corrupt link-message in Patch C:\Users\lasal\Desktop\vvvv_45beta32_x86\Packs\vvvv-Message\demo\Demo (Message).v4p. srcViewPin or dstViewPin is nil!
+  00:00:51 ERR : Corrupt link-message in Patch C:\Users\lasal\Desktop\vvvv_45beta32_x86\Packs\vvvv-Message\demo\Demo (Message).v4p. srcViewPin or dstViewPin is nil!
+  00:00:51 ERR : Corrupt link-message in Patch C:\Users\lasal\Desktop\vvvv_45beta32_x86\Packs\vvvv-Message\demo\Demo (Message).v4p. srcViewPin or dstViewPin is nil!
+  00:00:51 ERR : Corrupt link-message in Patch C:\Users\lasal\Desktop\vvvv_45beta32_x86\Packs\vvvv-Message\demo\Demo (Message).v4p. srcViewPin or dstViewPin is nil!
+  00:00:51 ERR : Corrupt link-message in Patch C:\Users\lasal\Desktop\vvvv_45beta32_x86\Packs\vvvv-Message\demo\Demo (Message).v4p. srcViewPin or dstViewPin is nil!
+  00:00:51 ERR : Corrupt link-message in Patch C:\Users\lasal\Desktop\vvvv_45beta32_x86\Packs\vvvv-Message\demo\Demo (Message).v4p. srcViewPin or dstViewPin is nil!
+  00:00:51 ERR : Corrupt link-message in Patch C:\Users\lasal\Desktop\vvvv_45beta32_x86\Packs\vvvv-Message\demo\Demo (Message).v4p. srcViewPin or dstViewPin is nil!
+  00:00:51 ERR : Corrupt link-message in Patch C:\Users\lasal\Desktop\vvvv_45beta32_x86\Packs\vvvv-Message\demo\Demo (Message).v4p. srcViewPin or dstViewPin is nil!
+  00:00:51 ERR : Corrupt link-message in Patch C:\Users\lasal\Desktop\vvvv_45beta32_x86\Packs\vvvv-Message\demo\Demo (Message).v4p. srcViewPin or dstViewPin is nil!
+  00:00:51 ERR : Corrupt link-message in Patch C:\Users\lasal\Desktop\vvvv_45beta32_x86\Packs\vvvv-Message\demo\Demo (Message).v4p. srcViewPin or dstViewPin is nil!
+  00:00:51 ERR : Corrupt link-message in Patch C:\Users\lasal\Desktop\vvvv_45beta32_x86\Packs\vvvv-Message\demo\Demo (Message).v4p. srcViewPin or dstViewPin is nil!
+  00:00:51 ERR : Corrupt link-message in Patch C:\Users\lasal\Desktop\vvvv_45beta32_x86\Packs\vvvv-Message\demo\Demo (Message).v4p. srcViewPin or dstViewPin is nil!
+  00:00:51 ERR : Corrupt link-message in Patch C:\Users\lasal\Desktop\vvvv_45beta32_x86\Packs\vvvv-Message\demo\Demo (Message).v4p. srcViewPin or dstViewPin is nil!
+  00:00:51 ERR : Corrupt link-message in Patch C:\Users\lasal\Desktop\vvvv_45beta32_x86\Packs\vvvv-Message\demo\Demo (Message).v4p. srcViewPin or dstViewPin is nil!
+  00:00:51 ERR : Corrupt link-message in Patch C:\Users\lasal\Desktop\vvvv_45beta32_x86\Packs\vvvv-Message\demo\Demo (Message).v4p. srcViewPin or dstViewPin is nil!
+  00:00:51 ERR : Corrupt link-message in Patch C:\Users\lasal\Desktop\vvvv_45beta32_x86\Packs\vvvv-Message\demo\Demo (Message).v4p. srcViewPin or dstViewPin is nil!
+  00:00:51 ERR : Corrupt link-message in Patch C:\Users\lasal\Desktop\vvvv_45beta32_x86\Packs\vvvv-Message\demo\Demo (Message).v4p. srcViewPin or dstViewPin is nil!
+  00:00:51 ERR : Corrupt link-message in Patch C:\Users\lasal\Desktop\vvvv_45beta32_x86\Packs\vvvv-Message\demo\Demo (Message).v4p. srcViewPin or dstViewPin is nil!
+  00:00:51 ERR : Corrupt link-message in Patch C:\Users\lasal\Desktop\vvvv_45beta32_x86\Packs\vvvv-Message\demo\Demo (Message).v4p. srcViewPin or dstViewPin is nil!
+  00:00:51 ERR : Corrupt link-message in Patch C:\Users\lasal\Desktop\vvvv_45beta32_x86\Packs\vvvv-Message\demo\Demo (Message).v4p. srcViewPin or dstViewPin is nil!
+  00:00:51 ERR : Corrupt link-message in Patch C:\Users\lasal\Desktop\vvvv_45beta32_x86\Packs\vvvv-Message\demo\Demo (Message).v4p. srcViewPin or dstViewPin is nil!
+  00:00:51 ERR : Corrupt link-message in Patch C:\Users\lasal\Desktop\vvvv_45beta32_x86\Packs\vvvv-Message\demo\Demo (Message).v4p. srcViewPin or dstViewPin is nil!
+  00:00:51 ERR : Corrupt link-message in Patch C:\Users\lasal\Desktop\vvvv_45beta32_x86\Packs\vvvv-Message\demo\Demo (Message).v4p. srcViewPin or dstViewPin is nil!
+  ```

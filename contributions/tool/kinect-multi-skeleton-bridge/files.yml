@@ -1,0 +1,30 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/kinect-multi-skeleton-bridge-files"
+url: "kinect-multi-skeleton-bridge"
+category: "tool"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "2"
+            filename: "vvvv_skeletons3.zip"
+            timestamp: "24 Dec, 2010 - 02:39"
+            download_count: "1"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "1"
+                    filename: "MultiSkeleton2(Kinect).zip"
+                    timestamp: "21 Dec, 2010 - 22:04"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "MultiSkeleton(Kinect).zip"
+                    description: |-
+                      rev .1
+                    
+                    timestamp: "14 Dec, 2010 - 18:29"
+                    download_count: "2"

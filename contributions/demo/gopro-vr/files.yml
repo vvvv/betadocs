@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/gopro-vr-files"
+url: "gopro-vr"
+category: "demo"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "GoProvvvVR.v4p"
+            timestamp: "27 Jun, 2016 - 22:51"
+            download_count: "1"

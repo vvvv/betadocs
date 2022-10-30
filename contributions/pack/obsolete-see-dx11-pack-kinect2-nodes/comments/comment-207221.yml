@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "207221"
+user: "subplexus"
+created: "30 Sep, 2015 - 15:06"
+body: |-
+  Thanks Joreg! I'm up and running now. Incidentally, I notice that in KinectTest.v4p the tracking is not quite as smooth as in Microsoft kinect studio, also the open/closed hand readings are less reliable... Is that unavoidable in vvvv?

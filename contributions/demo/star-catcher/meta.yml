@@ -1,0 +1,13 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/star-catcher-meta"
+type: "demo"
+author: "Gareth.Griffiths"
+date: "20 Sep, 2010"
+title: "Star Catcher"
+originalURL: "contribution/star-catcher"
+category: "demo"
+like_count: "1"
+imported: "true"
+teaser: |-
+  Demo showing points reset when connecting with a hittester.

@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/smooth-per-vertex-normals-files"
+url: "smooth-per-vertex-normals"
+category: "effect"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "Smooth Normals.7z"
+            description: |-
+              Smooth Normals
+            
+            timestamp: "22 Mar, 2015 - 19:32"
+            download_count: "1"

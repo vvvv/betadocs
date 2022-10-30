@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "242821"
+user: "velcrome"
+created: "19 Jul, 2017 - 17:39"
+body: |-
+  @mfo can you share the patch? The Formular node turns red, if it cannot parse your definition and will reject the update bang. That can admittedly be confusing, but I never had a case, where this "didn't work" for a valid definition.
+  
+  Also, the vpm script downloads and unzips the very same zips from the github releases, so missing dlls seem unlikely (maybe try with 7zip.exe?!)

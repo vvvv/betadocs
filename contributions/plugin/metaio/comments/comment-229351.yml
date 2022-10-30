@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "229351"
+user: "vasilis"
+created: "04 Oct, 2016 - 14:31"
+body: |-
+  Any ideas on why if i put more than two pictures on the xml file it doesn't pick them up?
+  
+  the code is the same..copy - paste..
+  
+  edit...
+  
+  OK...It's picking up more than 2 pictures...the problem before seems to be that the third picture that I was trying to track was just a green rectangle..It seems that it doesn't pick up just a plain color...Bright and colorfull pictures are easier to track.

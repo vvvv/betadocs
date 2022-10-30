@@ -1,0 +1,18 @@
+### YamlMime:ContributionComment
+---
+uid: "113136"
+user: "princemio"
+created: "24 Jan, 2014 - 17:19"
+body: |-
+  hey thx for the feedback. 
+  
+  The Shader calculates a certain offset in x and y for each pixel. The hue color coding would imply that we calculate from this x and y values a certain angle which represents a particular hue color.
+  i do believe its sth like this 
+  
+  float angle = atan2(y,x);
+  
+  now when we reuse the optical flow in the next pass or shader we often use the individual vector to distort the image or for example to accelerate particles in a certain direction. in order to do so, we then need to restore the x and y for the acceleration from this angle again.
+  
+  Hence we would convert the x and y into an angle in order to restore the x and y later from that angle. Which is think is redundant. (correct me if im wrong)
+  
+  another problem is that this unneeded conversion is doen via atan which ( like sin,cos, log or texture lookups) increases the cost per pixel tremendously.

@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "216418"
+user: "sapo"
+created: "06 Feb, 2016 - 05:25"
+body: |-
+  hi vasilis, yes, but with some alternative software to Hyperimu and Intugame on other platforms you'll just need to readapt the headtracking communication part.
+  Btw Intugame has a iOS app the GYROSC should do the hyperimu job with some adjustment in the patch, in the end you need to get the orientation quaternion as with hyperimu.
+  lemme know if you get it working with other plaforms!

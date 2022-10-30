@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "89582"
+user: "nissidis"
+created: "11 Oct, 2012 - 18:11"
+body: |-
+  if you increase the <span class="pin">FOV</span> of perspective node and pull the light source further than the initial position  (for example in Y axis) you will get a much better result eliminating almost all these artifacts. I still have the soft shadowing problem since I am totaly noob in hlsl programming and concepts 
+  :/

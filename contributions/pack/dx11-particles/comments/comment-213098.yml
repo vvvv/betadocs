@@ -1,0 +1,14 @@
+### YamlMime:ContributionComment
+---
+uid: "213098"
+user: "io"
+created: "15 Dec, 2015 - 14:47"
+body: |-
+  Hi I ve modified the PointCloud Layer to accept transformations and groupIDs, now this works ok with normal transformation, I ll try some buffered transformation later.
+  
+  Is it possible to separate position and colour of the particles? I d like to sample colours from the same object but 2 different textures, so I could for example make the object into particles, move them around, change the particles to the other colour from the second texture, compose the object back.
+  I assume I could just create 2 perfect copies of the PointCloud, one for each texture and apply the same forces but that would involve a double calculation of positions when all I want is just 2 sets of colours.
+  
+  S.
+  
+  http://s000.tinyupload.com/?file_id=65015626839706849971

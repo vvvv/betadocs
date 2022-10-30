@@ -1,0 +1,12 @@
+### YamlMime:ContributionComment
+---
+uid: "107531"
+user: "tmp"
+created: "04 Oct, 2013 - 09:43"
+body: |-
+  ok i found it..
+  
+  in the function **socket.on('disconnect', function (){.. });**
+  you remove all listeners: **serverUdp.removeAllListeners("message");**
+  
+  after uncommenting this everything works fine. probably the listener for the disconnected client should be removed.. but i cannot find a solution to do that.

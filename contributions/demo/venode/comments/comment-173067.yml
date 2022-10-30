@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "173067"
+user: "tmp"
+created: "07 Nov, 2014 - 19:10"
+body: |-
+  that depends on how many data is shared between all connected clients. so you have to test it for yourself in your particular application ;)

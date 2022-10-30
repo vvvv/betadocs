@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/vvvvimba-gige-camera-plugin-files"
+url: "vvvvimba-gige-camera-plugin"
+category: "plugin"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "VVVVimba.zip"
+            timestamp: "28 Oct, 2014 - 11:38"
+            download_count: "1"

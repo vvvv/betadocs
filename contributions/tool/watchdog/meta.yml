@@ -1,0 +1,17 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/watchdog-meta"
+type: "tool"
+author: "catweasel"
+date: "01 Mar, 2014"
+title: "WatchDog"
+originalURL: "contribution/watchdog"
+category: "tool"
+credits: |-
+  [catweasel](http://vvvv.org/users/catweasel)
+like_count: "2"
+imported: "true"
+teaser: |-
+  Uses Shellexecute to launch a process and the watches for a heart beat by udp, if it doesn't recieve one, after a polite wait it will kill the task and restart it.
+  
+  ( Dev's does this look sound, are the shell execute's 'is running' and 'kill' robust enough? )

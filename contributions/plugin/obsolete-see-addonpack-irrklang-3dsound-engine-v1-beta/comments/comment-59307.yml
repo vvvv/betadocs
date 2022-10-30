@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "59307"
+user: "joreg"
+created: "01 Feb, 2011 - 14:27"
+body: |-
+  with beta25 works for me if i just put the Irrklang directory as is on my Desktop and ignore what is mentioned in the install.txt (was only necessary for beta24). 
+  now open the patch, set the Irrklang nodes device enum to "default device" (that should really be fixed in the patch. sanch?) and press "stop all", then "play sound".

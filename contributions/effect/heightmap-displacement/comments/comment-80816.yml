@@ -1,0 +1,24 @@
+### YamlMime:ContributionComment
+---
+uid: "80816"
+user: "readme"
+created: "07 Apr, 2012 - 21:39"
+body: |-
+  He milo,
+  I've been trying to do the same, thanks for the hint towards this Sobel-Filter stuff ... I've been trying to do the calculation in VS.
+  
+  Small fix though:
+  Neighbouring-Pixel-Calculation ignores amount-Pin for Displacement.
+  0 or negative values seemed pretty awkward.
+  
+  So I changed
+  
+  float tl = abs(tex2D (SampDisplace, In.TexCddispla +texelSize  * float2(-1, -1)).x);
+  
+  to
+  
+  float tl = tex2D (SampDisplace, In.TexCddispla +texelSize  * float2(-1, -1)).x*amount;
+  
+  and so on ...
+  
+  Hope I didn't break anything, but looks good.

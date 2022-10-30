@@ -1,0 +1,20 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/pointeditorcs-(dx11.geometry)-meta"
+type: "module"
+author: "antokhio"
+date: "08 Dec, 2016"
+title: "PointEditorCS (DX11.Geometry)"
+originalURL: "contribution/pointeditorcs-(dx11.geometry)"
+category: "module"
+credits: |-
+  antokhio
+like_count: "9"
+imported: "true"
+teaser: |-
+  Compute shader version of point editor. 
+  Yet will only work with ONE SUBSET. Uses Instance noodels OBJ Writer
+  Will not use index buffer so every triangle will be separated. You can wield vertices after.
+  Features: тag points, move points in world space, in view space. with keyboard, move by normal.
+  Features to add: soft selection, vertex selection, fix triangulation, subsets support, save points.
+  Credits: antokhio

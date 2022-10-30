@@ -1,0 +1,27 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/xbox360controller-files"
+url: "xbox360controller"
+category: "plugin"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "1"
+            filename: "Xbox360Controller.zip"
+            description: |-
+              Supports up to 4 controllers. Also support controller hot plugging - just don't forget to press Refresh pin.
+            
+            timestamp: "03 Nov, 2012 - 16:43"
+            download_count: "1"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "Xbox360Controller.zip"
+                    description: |-
+                      Version 1.0.0
+                    
+                    timestamp: "20 Jun, 2011 - 16:00"
+                    download_count: "2"

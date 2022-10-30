@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "56149"
+user: "marf"
+created: "24 Nov, 2010 - 19:48"
+body: |-
+  hey cool, thank you vux. But I had the same problems as aze. CLUINDevicetest works fine, Kinect node gives only an error. Copied both dlls of the zip.
+  
+  Solution: I copied the CLNUIDevice.dll out of my CL NUI Platform installation (CL NUI Platform\SDK\Bin\CLNUIDevice.dll) to vvvv plugins... and it works fine. Perhaps different version?

@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "233654"
+user: "andresc4"
+created: "23 Dec, 2016 - 04:11"
+body: |-
+  @microdee many softs like Pix4d or agisoft give you the option to save as binary... I think X Y Z is still used in plain text because for many surveyor aplication/tools still use that format as imput, Microsft Excel is still used :D
+  
+  I would like to get any other tools for heavy pointcloud visualizations in vvvv

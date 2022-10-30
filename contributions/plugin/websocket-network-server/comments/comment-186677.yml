@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "186677"
+user: "microdee"
+created: "26 Feb, 2015 - 20:42"
+body: |-
+  oh yeah! i have a client implementation here if you're interested, using a little bit modified WebsocketSharp (added proper events for server events not just their behavior class)
+  https://github.com/microdee/VVVV.Packs.VObject/tree/master/VVVV.Nodes.VObjects.Networking/VebSocket
+  also there's the basic class for a server which populates all clients as separate objects meaning all clients can be treated separately. There are no nodes yet unfortunately.
+  here are some help patches
+  https://github.com/microdee/VVVV.Packs.VObject/tree/master/girlpower/VebSocket/Sandboxes

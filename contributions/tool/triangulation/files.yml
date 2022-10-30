@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/triangulation-files"
+url: "triangulation"
+category: "tool"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "TRIANGULATION_0.0.zip"
+            timestamp: "30 Jun, 2014 - 17:40"
+            download_count: "2"

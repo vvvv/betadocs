@@ -1,0 +1,32 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/md.toolkit-meta"
+type: "tool"
+author: "microdee"
+date: "27 Dec, 2012"
+title: "md.toolkit"
+originalURL: "contribution/md.toolkit"
+category: "tool"
+like_count: "7"
+imported: "true"
+teaser: |-
+  * md.toolkit is intended to be a "utility patch" which you put in your root and it helps you patch faster.
+  * currently this only contains a patchlet manager and a simple args.txt editor but a patch minifier/compressor and some node alignment tools are planned too.
+  
+  ###  installation
+  
+  * put the "mdtk" folder anywhere and put "mdtk.v4p" in your root or in a regular patch.
+  
+  so Space + LeftClick or use the thumb buttons on any vvvv window (except renderers) to display the toolkit's menu
+  
+  ###  patchlets:
+  
+  * they're stored in list files (the example is .v4pll but it can be anything) and contains the patch xml of all stored patchlets and the selected one is added to the patch with the copy/paste mechanism. click on "Patchlets..." in the toolkit's menu and click on your desired patchlet to insert it in the current patch.
+  * to add your patchlets to the currently active list select and copy your nodes open the toolkit's menu and click "Add Patchlet", name it something in the textbox and confirm it with Enter. to cancel press Escape.
+  * you can change the list file-on-the fly by pressing "Set patchlet list file". open an existing file or create a new one (by just writing something in the "File name" textbox what isn't there) multiple files isn't supported yet.
+  * removing or modifying patchlets isn't supported yet either you have to do it manually in a text editor
+  * the current "common.v4pll" example list is just a few very common node combinations i could come up with but i'm sure you can add way more to yours and i will add more by time meanwhile i'm patching
+  
+  ###  args.txt
+  
+  * it's simple as a rock: you can turn on or off default arguments for vvvv in args.txt. but it doesn't count with arguments which isn't listed there and currently it overwrites the whole args.txt if you switch something in the menu. so if you have some boygrouping arguments in args.txt don't touch this submenu

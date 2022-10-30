@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "63662"
+user: "SITD_NL"
+created: "13 May, 2011 - 12:11"
+body: |-
+  I am using the kinect in combination with the point-cloud, and i am callibrating this with my projector. Doing this i mentioned that there was something wrong with the "depth". If the intensety of the collour is not fixed to one depth. Becouse if you wave your hand or is something changes in Depth de coller changes to. So for the pointcloud to use for spacial mapping, it can be a problem. I discussed it with Sapo, and we think it is/was the driver from ni itselve. For now i am using the CLNUI driver and this works fine, but i think it has it's limitations. So i read about the latest driver and a net note;)) Is the problem Solved in this version? (before i DE/RE-install it all for nothing..
+  
+  Thanks

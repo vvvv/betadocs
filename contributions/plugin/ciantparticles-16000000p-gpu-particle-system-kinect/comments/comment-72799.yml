@@ -1,0 +1,14 @@
+### YamlMime:ContributionComment
+---
+uid: "72799"
+user: "Martin Zrcek"
+created: "02 Dec, 2011 - 01:14"
+body: |-
+  Ok, try these simple parts of Strawman:
+  <http://kivi.tym.cz/upload/CiantParticlesPartsOfStrawman.zip>
+  Maybe the problem is in culling behind geometry (rendering a black object in front of particles), which is the only thing added in Strawman.
+  
+  I use a 2 years old notebook, with Win7 x86, core2duo 2.26GHz and GeForce 9600M. So even the graphic card shouldn't be the problem.
+  
+  Here are some settings of fuzzy force (nothing else), to warm you up :)
+  ![Fuzzy possiblities (continuity .95, small randomSpread)](https://vvvv.org/sites/default/files/imagecache/large/images/CiantParticles%20fuzzy.png)

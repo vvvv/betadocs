@@ -1,0 +1,15 @@
+### YamlMime:ContributionComment
+---
+uid: "61154"
+user: "puig"
+created: "18 Mar, 2011 - 12:25"
+body: |-
+  Hey ft,
+  
+  I think I found a bug... At least it happens to me:
+  If I create a Camera (Transform Softimage) on a patch with the VLC plugin, VVVV will crash immediatelly.
+  
+  Any toughts? Could anyone please confirm?
+  
+  Thanks!
+  j

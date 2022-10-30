@@ -1,0 +1,19 @@
+### YamlMime:ContributionComment
+---
+uid: "110907"
+user: "elliotwoods"
+created: "06 Dec, 2013 - 16:14"
+body: |-
+  i'd be really up for doing a crowd-lanced* stage of development on this, where people pitch in requests.
+  (crowd-lanced = freelance + crowd funded. yeah..., i don't think this name is going to take off)
+  
+  So far I'm thinking:
+  * DX11 support
+  * DX9ex support + testing
+  * DX9 textures on multi-head testing + fixes
+  * 64bit support
+  
+  There's a few features I can't release right now as their development is ongoing with private funding.
+  
+  If anybody is interested, then please email me directly
+  (my first name)@kimchiandchips.com

@@ -1,0 +1,18 @@
+### YamlMime:ContributionComment
+---
+uid: "104459"
+user: "MSBERGER"
+created: "31 Jul, 2013 - 20:58"
+body: |-
+  Hi,
+  
+  did anybody use v3 for arduino >=1.0 and compared performance with v2 ?
+  
+  I experienced that performance of v3 is much lower compared to v2.
+  In fact refresh/framerate of the arduino (tested with uno and mega 2560) with v3 is so low that it is not really usable.
+  The same artnet environment with v2 looks fine !?
+  
+  The difference in performance is so big that i doubt that is only a problem with the new UDB library in arduino 1.0 ... maybe there is a fundemental problem/mistake in the sketch !?
+  Unfortunately my arduino/network knowledge is not good enough to be able to debug.
+  
+  Any ideas/solutions out there ? Karistouf ?

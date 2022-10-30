@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "197240"
+user: "sebl"
+created: "30 May, 2015 - 20:04"
+body: |-
+  isn't this [part of the pack](https://github.com/mrvux/dx11-vvvv/blob/dcea92a2b36e48227f821f983ef4353c62ff4b41/Nodes/VVVV.DX11.Nodes/Nodes/Textures/Array/TextureArraySetSliceNode.cs), yet?

@@ -1,0 +1,14 @@
+### YamlMime:ContributionComment
+---
+uid: "233591"
+user: "velcrome"
+created: "21 Dec, 2016 - 23:07"
+body: |-
+  In the past, vvvv-Message lacked documentation, and I can understand anyone not investing the time with all these nodes, all doing very strange things here. 
+  Because for basic scenarios, you might have to first learn them all? And to add to the bizarr: Just to read this, you'd have to scroll through endless lists of exceptions, that these nodes are producing?
+  
+  But again, everything you know is wrong.
+  
+  Start with a <span class="node">ConfigKeep</span> node, and go from there with a <span class="node">Split</span>, an <span class="node">Edit</span> maybe. Those three nodes alone can make a tremendous difference in your patching experience. Read help patches, and learn at your own pace. 
+  
+  This is a major release here, and it's got half a year extra to be polished, thanks to the late release of beta35. So the suite is tested, prod ready and [documented](https://github.com/velcrome/vvvv-Message/blob/master/src/MessageNodes/readme.md)- also in code and patch.

@@ -1,0 +1,19 @@
+### YamlMime:ContributionComment
+---
+uid: "236761"
+user: "tmp"
+created: "14 Mar, 2017 - 10:54"
+body: |-
+  @mrboni
+  you are using RenderSemantic(DX11 StructuredBuffer)
+  
+  so you have to use 
+  ```
+  StructuredBuffer<float3> rndDir : RND3D;
+  ```
+  as Custom Semantic Entry
+  
+  the other way would be to use RenderSemantic(DX11.Layer 3d) and keep
+  ```
+  float3 rndDir : RND3D;
+  ```

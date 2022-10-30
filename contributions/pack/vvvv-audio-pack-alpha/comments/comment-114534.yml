@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "114534"
+user: "guest"
+created: "24 Feb, 2014 - 15:24"
+body: |-
+  I'm no audio expert but the FFT output from this pack and the native Dshow FFT are very different (Audio Sink FFT produces <0 values). 
+  
+  Is there a formula I can use to make the outputs more similar?

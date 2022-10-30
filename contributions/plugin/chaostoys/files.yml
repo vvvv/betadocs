@@ -1,0 +1,36 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/chaostoys-files"
+url: "chaostoys"
+category: "plugin"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "2"
+            filename: "ChaosToys_1.0.zip"
+            description: |-
+              added fractal mosaic 2d
+            
+            timestamp: "09 May, 2011 - 21:27"
+            download_count: "1"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "1"
+                    filename: "ChaosToys_1.1.zip"
+                    description: |-
+                      added fractal mosaic 3d
+                    
+                    timestamp: "20 Oct, 2011 - 21:22"
+                    download_count: "4"
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "ChaosToys_1.1.1.zip"
+                    description: |-
+                      minor bug fixes
+                    
+                    timestamp: "13 Jan, 2013 - 10:23"
+                    download_count: "1"

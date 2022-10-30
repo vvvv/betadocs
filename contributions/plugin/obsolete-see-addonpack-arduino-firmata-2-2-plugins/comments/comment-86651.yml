@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "86651"
+user: "tom64"
+created: "08 Aug, 2012 - 05:00"
+body: |-
+  It seems that the problem is caused by the OS language setting.  When the language for non-Unicode programs is set to Chinese (Traditional, Taiwan) in “Region and Language, Administrative-Tab”  the plugin can’t connect to Arduino. Another side effect is that question marks appear in front of every node name (see: [someone-same-with-me-question-mark-of-the-node-inside).](https://discourse.vvvv.org/t/someone-same-with-me-question-mark-of-the-node-inside).) Does anyone know if there is a simple solution beside switching the language settings in the OS?

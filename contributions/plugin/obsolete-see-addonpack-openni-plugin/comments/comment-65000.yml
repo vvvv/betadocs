@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "65000"
+user: "hierro"
+created: "09 Jun, 2011 - 21:04"
+body: |-
+  Well well, maybe I was the first one to try Phlegma release for kinect, and im very happy to announce is fucking working and useful :D thank for ur work.
+  
+  Included a gesture recognition that works like a charm&sheik, skeleton is a little bit unstable due to common calib setting, that avoids calibration pose, but that was the same i noticed when implemented the function can be solved using an higher confidence; anyway works fine and fast too, I noticed a good performances's improvement , always welcome :D
+  
+  DLL nodes very ordered and easy to use, also demo patch very clear and ready to use, just i will avoid enumerations, still can be a problem in development, especially using other enum on shaders, or at least i had that.
+  
+  nice piece here: [/sites/all/modules/general/pubdlcnt/pubdlcnt.php?file=http](/sites/all/modules/general/pubdlcnt/pubdlcnt.php?file=http) :)

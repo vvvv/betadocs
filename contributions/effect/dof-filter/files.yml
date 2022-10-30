@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/dof-filter-files"
+url: "dof-filter"
+category: "effect"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "DOF (EX9.Texture Filter).zip"
+            description: |-
+              1.0: first release
+            
+            timestamp: "19 Oct, 2011 - 06:10"
+            download_count: "1"

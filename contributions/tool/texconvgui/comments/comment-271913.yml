@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "271913"
+user: "bjoern"
+created: "04 May, 2019 - 14:16"
+body: |-
+  Sorry, I only use bc7 in conjunction with [woei](http://vvvv.org/users/woei)'s [player](xref:contribution/player-(dx11.texture)) which works nicely. FileTexture works for me when set to *Load in Background*, vvvv won't crash and the texture(s) will load eventually, it takes ages though. As to why you'll have to ask [vux](http://vvvv.org/users/vux). Maybe create an issue at [github](https://github.com/mrvux/dx11-vvvv/issues) and provide some example textures for him to debug.

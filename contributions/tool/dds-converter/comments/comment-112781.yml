@@ -1,0 +1,17 @@
+### YamlMime:ContributionComment
+---
+uid: "112781"
+user: "u7angel"
+created: "17 Jan, 2014 - 13:28"
+body: |-
+  @circuitb
+  yep, i might integrate this at some point. although the underlying nvcompress.exe is a commandline tool anyway
+  https://code.google.com/p/nvidia-texture-tools/wiki/CommandLineTools
+  
+  @psylion
+  the DDS converter does not support cubemap as this would need a different interface. but, there is a cubemap builder in nvidia texture tools
+  nvassemble
+  https://code.google.com/p/nvidia-texture-tools/wiki/CommandLineTools
+  https://developer.nvidia.com/gpu-accelerated-texture-compression
+  
+  i'll add this to the wishlist as well as DDS preview and DDS decompress

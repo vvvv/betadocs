@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "209546"
+user: "velcrome"
+created: "26 Oct, 2015 - 17:23"
+body: |-
+  yes, Antialiasing settings are missing in the dx11 cubemap renderer.
+  
+  in real life, this does not matter much, because after projecting into a spherical dome everything will look different anyway. if aliasing still prevails, try to simply oversampling (setting the resolution of the intermediate cube texture a little higher than necessary)

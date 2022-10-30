@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/fake-cubemap-for-dx11-files"
+url: "fake-cubemap-for-dx11"
+category: "module"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "FakeCubemap.7z"
+            timestamp: "26 Jun, 2013 - 17:40"
+            download_count: "1"

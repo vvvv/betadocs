@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "211945"
+user: "idab"
+created: "01 Dec, 2015 - 11:28"
+body: |-
+  @[Evan](http://vvvv.org/users/Evan): look at this configuration file: https://my.metaio.com/dev/fileadmin/user_upload/images/sdk/tracking_configuration/trackingdata_markerlessfast.xml
+  
+  You have to duplicate "SensorCOS" and "COS" for every target inside one configuration file.

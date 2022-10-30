@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "104163"
+user: "sagishi"
+created: "24 Jul, 2013 - 12:04"
+body: |-
+  Hm for example, "+0.5" did not work for me. I found out that I have to use "+0,5" (and a little adjustment to handle the |...| syntax in the XML).
+  
+  I uploaded a fixed version which should work with both, comma and dot decimal separators.
+  
+  Still strange that it worked for you before the fix. Did you use dot or comma? Maybe VVVV does some localization here.

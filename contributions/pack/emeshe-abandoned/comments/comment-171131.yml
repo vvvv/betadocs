@@ -1,0 +1,22 @@
+### YamlMime:ContributionComment
+---
+uid: "171131"
+user: "StiX"
+created: "26 Oct, 2014 - 21:28"
+body: |-
+  hi! i am experimenting with mrmod (point light scene in particular), and i have few questions,
+  
+  1. what is this SSAO artefact, i was tweaking all the options, did not found anything that affects it, that white rim on the left side
+  ![1](https://vvvv.org/sites/default/files/imagecache/large/images/1.PNG) 
+  
+  ![2](https://vvvv.org/sites/default/files/imagecache/large/images/2.PNG) 
+  
+  2. the shape of point lights is tied to aspect ratio of render, i was trying to fix it but if i fix the aspect ratio of the light it will break aspec ratios of geometry
+  
+  ![oval](https://vvvv.org/sites/default/files/imagecache/large/images/3.PNG) ![circle](a.PNG) 
+  
+  you can see on the first image that the light shape is oval, not circle
+  
+  3. is it possible to work with transparency in mmrmod? to have objects dissapear with fading SSAO effect (i am building interface so i want to have possibility to work with transparency)
+  
+  thanks!

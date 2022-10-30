@@ -1,0 +1,14 @@
+### YamlMime:ContributionComment
+---
+uid: "266644"
+user: "Aurel"
+created: "13 Sep, 2018 - 22:46"
+body: |-
+  Good hey mates from Wisp...!
+  Working with severals beamers with badmapper and boygrouping.
+  We are looking for a method to save renderers positions.
+  Problem is when closing and saving from server or client, the position is lost and we have to manage it each time we restart.
+  
+  Thanks !
+  
+  Aurel

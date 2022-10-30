@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "229310"
+user: "tonfilm"
+created: "03 Oct, 2016 - 03:43"
+body: |-
+  @microdee and others, as of V3 the WaitGetPoses is now by default after the vvvv frame, so shortly before the next frame, which is recommended by valve. if <span class="pin">Sync After Frame</span> is off, the call is right before the vvvv frame. you can check what works better for your setup...
+  
+  @catweasel please try haptic pulse again, i think i fixed a little bug and the node is now spreadable. it is common to trigger the pulse in multiple frames (MonoFlop or so), the power pin is the duration for one single pulse from 1 to 3999 microseconds, so max 4ms.

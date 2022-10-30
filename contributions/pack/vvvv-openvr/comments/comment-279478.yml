@@ -1,0 +1,18 @@
+### YamlMime:ContributionComment
+---
+uid: "279478"
+user: "mediadog"
+created: "03 Nov, 2021 - 05:38"
+body: |-
+  Recently this has become pretty much unusable due to the Info node in the Renderer frequently returning a resource handle of -1 into the compositor node, even though the texture displays fine in a Preview node.  It is obviously not a flaw of this package, but rather DX11 (I am using the latest), but curious if anyone else is having this problem.
+  
+  Sometimes I can go into the Renderer node, and toggle the Shared pin on the Renderer (TempTarget) node, or change the format type, and suddenly Info will output a valid resource and it will work.  Sometimes not.
+  
+  This is on two different Win10 machines with different nVidia cards, with all the recent version of beta including 42.
+  
+  Notably, feeding the texture from the TempTarget renderer into an AsSharedTexture node always gives a valid pointer even when Info does not, but Compositor doesn't like it and may even crash vvvv suddenly.  I expect this is because they are two different things, as when Info is working, the value it gives is different than what AsSharedtexture gives.  Is there some way to make the Compositor node work with the AsSharedTexture pointer?
+  
+  For as it stands now this package is useless to me due to this DX11 bug - which I have reported elsewhere and gotten no help on.
+  [https://discourse.vvvv.org/t/dx11-info-dx11-texture-2d-unreliable/19669](https://discourse.vvvv.org/t/https://discourse.vvvv.org/t/dx11-info-dx11-texture-2d-unreliable/19669)
+  
+  This has been difficult to isolate since the problem shows up in large patches with many TempTarget Renders making a simple test patch impossible.  In fact, I have found that evn dropping an Info node on the output of a TempTarget renderer in a totally different area can make the Info node in OpenVR start working - Yaaarrrrr.  Unreal Engine keeps getting more attractive...

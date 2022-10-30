@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "180747"
+user: "Joanie_AntiVJ"
+created: "30 Dec, 2014 - 19:28"
+body: |-
+  Thanks guys, working on a fix for the triangulation now !
+  
+  Hey [tsiwt](http://vvvv.org/users/tsiwt) did you unzip the folder in the vvvv root ? I'm curious to understand why the batch doesn't work (you won't get good performances if gui and app are started manually..)

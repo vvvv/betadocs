@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/ratiocurve-files"
+url: "ratiocurve"
+category: "module"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "RatioCurve_v0.1.zip"
+            description: |-
+              GUI element for mapping input values to output values
+            
+            timestamp: "09 Mar, 2012 - 00:31"
+            download_count: "1"

@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/bvh-(skeleton-bvh)-files"
+url: "bvh-skeleton-bvh"
+category: "plugin"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "BVH_1.1.zip"
+            description: |-
+              every Parse() with InvariantInfo option
+            
+            timestamp: "29 May, 2012 - 14:32"
+            download_count: "1"

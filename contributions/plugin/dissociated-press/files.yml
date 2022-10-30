@@ -1,0 +1,27 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/dissociated-press-files"
+url: "dissociated-press"
+category: "plugin"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "1"
+            filename: "DissPress.zip"
+            description: |-
+              ver 0.3, threaded
+            
+            timestamp: "18 Apr, 2016 - 12:21"
+            download_count: "1"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "DissPress.zip"
+                    description: |-
+                      ver 0.2
+                    
+                    timestamp: "16 Apr, 2016 - 16:21"
+                    download_count: "1"

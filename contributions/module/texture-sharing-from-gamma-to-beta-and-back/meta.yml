@@ -1,0 +1,19 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/texture-sharing-from-gamma-to-beta-and-back-meta"
+type: "module"
+author: "bjoern"
+date: "16 Nov, 2020"
+title: "Texture sharing from gamma to beta and back"
+originalURL: "contribution/texture-sharing-from-gamma-to-beta-and-back"
+category: "module"
+credits: |-
+  readme, tonfilm
+like_count: "5"
+imported: "true"
+teaser: |-
+  Modules / helpers for texture sharing between beta/DX11 and gamma/stride.
+  Also contains helpers to match stride and beta cameras.
+  
+  Currently uses UDP for sharing the handles and camera matrix.
+  Something like [VL.SharedMemory](https://github.com/cnisidis/VL.SharedMemory) might be better but I didn't want to add external dependencies.

@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/launcher-(vvvv)-files"
+url: "launcher-vvvv"
+category: "module"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "Launcher (vvvv).zip"
+            timestamp: "29 Oct, 2014 - 14:33"
+            download_count: "1"

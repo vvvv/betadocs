@@ -1,0 +1,15 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/simple-preset-maker-meta"
+type: "module"
+author: "lasal"
+date: "25 Feb, 2018"
+title: "Simple Preset Maker"
+originalURL: "contribution/simple-preset-maker"
+category: "module"
+like_count: "2"
+imported: "true"
+teaser: |-
+  Stores several value lists in a file, and interpolates between them.
+  Different interpolation modes per slice.
+  Note all the presets in the file have the same Bin Size.

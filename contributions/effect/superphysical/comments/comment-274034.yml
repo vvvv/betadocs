@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "274034"
+user: "mburk"
+created: "21 Oct, 2019 - 16:53"
+body: |-
+  Hi manuel. Should work fine even with the instanced version. You might need a SuperPhysical node for the reflective plane and another one which supports instancing. I just tried this and it works great: Open instancing example. Alsp open SuperPhysical (SuperPhysical) helppatch with planar reflection. Send layer from instancing example to help patch and connect layer before all other layers -> reflection of instanced elements.
+  If it is still not working please open forum thread.
+  Also IID is for compatibillity with instance noodles. Differences in performance should be neglectable.

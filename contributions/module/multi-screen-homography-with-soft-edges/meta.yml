@@ -1,0 +1,18 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/multi-screen-homography-with-soft-edges-meta"
+type: "module"
+author: "catweasel"
+date: "01 May, 2013"
+title: "Multi-Screen Homography with Soft Edges"
+originalURL: "contribution/multi-screen-homography-with-soft-edges"
+category: "module"
+credits: |-
+  [catweasel](http://vvvv.org/users/catweasel), vvvvgroup
+like_count: "20"
+imported: "true"
+teaser: |-
+  Just cleaned up a module for adjusting multiple screens with homography and softedge blending, hope you find it useful.
+  Open the help patch to see how it works
+  
+  cat

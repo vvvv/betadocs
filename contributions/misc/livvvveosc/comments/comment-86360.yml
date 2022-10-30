@@ -1,0 +1,14 @@
+### YamlMime:ContributionComment
+---
+uid: "86360"
+user: "nissidis"
+created: "30 Jul, 2012 - 17:18"
+body: |-
+  @casinowilhelm
+  I had the same problem, this is what you have to put in line #65 of LiveOSC.py file:
+  
+  ```
+  self.oscServer = RemixNet.OSCServer('127.0.0.1',9001, None, 9000)
+  ```
+  
+  PS: send to port 9000 and receive from port 9001 (your localhost in your patch shall be 127.0.0.1)

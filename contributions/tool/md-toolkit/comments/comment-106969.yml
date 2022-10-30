@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "106969"
+user: "mrboni"
+created: "24 Sep, 2013 - 18:17"
+body: |-
+  Beta 31 - gui works but no patchlet appears on selection -
+  
+   ERR : Exception occured in TMPluginWrapperNode.Evaluate: Input string was not in a correct format.
+  
+  Any idea?

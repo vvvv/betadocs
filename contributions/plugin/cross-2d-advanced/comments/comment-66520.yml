@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "66520"
+user: "velcrome"
+created: "12 Jul, 2011 - 15:58"
+body: |-
+  vector input is no good. different dimensions can have different binsizes

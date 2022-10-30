@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "65246"
+user: "d00gie"
+created: "14 Jun, 2011 - 18:34"
+body: |-
+  Hey I wrote my first (although not efficient code) C# plugin for this patch. It works pretty good now, had another session patching it last night. still needs some flow control to be realtime (TODO: drop packets if fade is fast, only send the commands which sync with rate(0.0350s) instead of buffering all of them).

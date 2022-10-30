@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "70066"
+user: "mediadog"
+created: "04 Oct, 2011 - 13:34"
+body: |-
+  Also, the CLEyeMulticamTest program runs fine indefinitely with two cams.  I'm suspicious of vvvv's handling of two simultaneous video streams being the culprit...

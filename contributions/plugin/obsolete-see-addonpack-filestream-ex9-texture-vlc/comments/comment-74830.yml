@@ -1,0 +1,19 @@
+### YamlMime:ContributionComment
+---
+uid: "74830"
+user: "casinowilhelm"
+created: "13 Jan, 2012 - 18:23"
+body: |-
+  Right. Can't get this to work in beta27. node appears in patch but is missing the video texture out pin.
+  
+  Have attached a pic of the text patch + tty and my plugins folder.
+  
+  in the plugins/vlc folder i've got vlc0_3.dll, libvlc.dll, libvlccore.dll, and the plugins folder from vlc directory
+  
+  where do those other files go? eg declarations.dll, implementation.dll etc
+  
+  this used to work fine in older vvvvs when you could just chuck in the install folder. But no more... 
+  
+  thanks for any help...
+  
+  ![](https://vvvv.org/sites/default/files/imagecache/large/images/Untitled-2.jpg)

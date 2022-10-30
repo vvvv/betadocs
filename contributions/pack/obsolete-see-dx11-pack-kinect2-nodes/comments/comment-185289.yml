@@ -1,0 +1,10 @@
+### YamlMime:ContributionComment
+---
+uid: "185289"
+user: "screamer"
+created: "12 Feb, 2015 - 20:35"
+body: |-
+  hey, made a little example patch, that shows how to use the facehd. 
+  There's some things that i cannot have working for now, like for example the normals of the geometry, but i'm quite sure there's lot of people here that knows how to do it. :)))
+  
+  [kinect-v2-hdface](xref:contribution/kinect-v2-hdface)

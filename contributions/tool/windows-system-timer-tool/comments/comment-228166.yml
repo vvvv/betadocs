@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "228166"
+user: "marcelxvi"
+created: "18 Sep, 2016 - 17:28"
+body: |-
+  So by default the tool tells me 0,5. I'd however like to change it to 1 but everytime i do set it to 1. It flashes up as 1.00092 for a second and then straight goes back to 0,5. Any idea how to fix this ?

@@ -1,0 +1,13 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/select-3d-object-meta"
+type: "demo"
+author: "lecloneur"
+date: "07 Jun, 2015"
+title: "Select 3D Object"
+originalURL: "contribution/select-3d-object"
+category: "demo"
+like_count: "11"
+imported: "true"
+teaser: |-
+  Contribution based on recent commercial project I worked on. Simple tricks using compute pipet and offscreen rendering to select 3D object.

@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "223934"
+user: "digitalwannabe"
+created: "02 Aug, 2016 - 11:18"
+body: |-
+  yes, I second that, I do not have to immediately know a usecase for every input/output I expose, others might, however, there's a limit to that I believe, as it still should stay easy to use for evvvverybody, especially not intimidating for beginners. There's hidden pins, yes, but they also make sense to a certain degree only- you'd only want relatively few options to be hidden. Maybe using own datatypes and join/split (+advanced) nodes is the way to go here, keeping the main plugin easy + adding functionality as needed.....
+  
+  anyways....no release no competition, hehe ;)

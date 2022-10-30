@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/shaderbox-files"
+url: "shaderbox"
+category: "effect"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "Shaderbox.zip"
+            description: |-
+              initial upload
+            
+            timestamp: "12 Aug, 2018 - 22:01"
+            download_count: "2"

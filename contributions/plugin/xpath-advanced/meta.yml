@@ -1,0 +1,26 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/xpath-advanced-meta"
+type: "plugin"
+author: "zeos"
+date: "15 Nov, 2012"
+title: "XPath Advanced"
+originalURL: "contribution/xpath-advanced"
+category: "plugin"
+credits: |-
+  Zeos
+  license: LGPL 2
+like_count: "3"
+imported: "true"
+teaser: |-
+  ##  XPATH ADVANCED
+  
+  plugin v0.1alpha
+  
+  + XPath functions
+  + XML fragments
+  
+  TODO
+  * Validate on Parse
+  * Resolve Externals
+  * Base element

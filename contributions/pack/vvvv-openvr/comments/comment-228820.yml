@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "228820"
+user: "tonfilm"
+created: "27 Sep, 2016 - 15:46"
+body: |-
+  hello guest and @microdee,
+  
+  as you can read on the openvr github and steam threads about WaitGetPoses, there is no way around it. but calling it as soon or as late as possible in the frame is the next thing that will be added to the pack.
+  
+  also microdee has developed a compositor node that has a DX11 texture input to avoid the resource pointer read back... i will try to merge that soon.

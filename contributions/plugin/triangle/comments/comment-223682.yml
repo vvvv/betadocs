@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "223682"
+user: "digitalwannabe"
+created: "28 Jul, 2016 - 15:27"
+body: |-
+  @microdee: yes indeed, that's what boundary markers are for and I just realized yesterday that they actually are very useful, especially for geometry shaders.....didn't realize yet I'd need it for extrusion too as I remembered there's a way to test it, but obviously that's much better. 
+  Will update asap to support boundary markers! As for the extrusion shader this has to wait a bit, but thanks for the input there, similar to what I had in mind, but again simpler, cheers.

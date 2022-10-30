@@ -1,0 +1,36 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/d.o.p.e.-files"
+url: "d-o-p-e"
+category: "pack"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "2"
+            filename: "dopePACK_v1.2_AnyCPU_beta50.zip"
+            description: |-
+              v1.2 instancing support (incl. noodles), triangle/tetgen update, check against beta50
+            
+            timestamp: "30 Jan, 2017 - 22:58"
+            download_count: "1"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "1"
+                    filename: "dopePACK_v1.1_AnyCPU_alpha.zip"
+                    description: |-
+                      v1.1 no changed nodes, only fixed x64 precision errors in girlpower patches
+                    
+                    timestamp: "02 Nov, 2016 - 23:46"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "dopePACK_v1.0_AnyCPU_alpha.zip"
+                    description: |-
+                      v1.0
+                    
+                    timestamp: "30 Oct, 2016 - 17:48"
+                    download_count: "1"

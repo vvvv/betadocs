@@ -1,0 +1,14 @@
+### YamlMime:ContributionComment
+---
+uid: "162128"
+user: "circuitb"
+created: "12 Aug, 2014 - 11:13"
+body: |-
+  i try  to use the RGBDepth with RelativeLookup Enabled as a displacement texture, 
+  ![RgbDepth relativeLookup](https://vvvv.org/sites/default/files/imagecache/large/images/_mainX64_13.08.56.png) 
+  but it look really strange compared to the KinectV1 (Dx11)
+  ![Vi RgbDepth](https://vvvv.org/sites/default/files/imagecache/large/images/_mainX64_V1.12-13.16.52.png) 
+  
+  
+  any ideas what's going wrong here ?
+  thanks

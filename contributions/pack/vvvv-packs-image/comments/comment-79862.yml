@@ -1,0 +1,28 @@
+### YamlMime:ContributionComment
+---
+uid: "79862"
+user: "robe"
+created: "18 Mar, 2012 - 18:08"
+body: |-
+  Ciao Elliot,
+  
+  I tried both, the one without Property is useless beacuse I've to access the exposure and gain (It's a IR-modified Ps3eye), the other node let me open the Capture Property but the checkers and the slider are grayed out and not clickable.
+  
+  Just waiting for the custom node, but with no hurry, I'm fighting with kinect for now...
+  
+  Instead I pray for a B27.1 compatible version for your OpenNI-CV Stuff:
+  
+  *OpenNI 1.5.2.23 (32bit, stable, redist edition)
+  *NITE 1.5.2.21 (32bit, stable, redist edition)
+  *SensorKinect091 5.1.0.25 (32bit)
+  
+  (Copied from the OpenNI Contribution but that thread was considered closed by Joreg, so I don't know what was embedded in B27.1, *Here this package works* and I'm happy -OFF TOPIC-)
+  
+  Even though I'm thinking to downgrade to B26 for your amazing calibrate kinected projector...
+  
+  Thanks Elliot I really believe this OpenCV stuff is a great alternative to FreeFrame, but also for some Texture Filter in terms of performance..
+  .. Correct me if I'm wrong..
+  
+  Keep up good work! Your GitHub would be a gold mine if I was a real programmer..
+  
+  Bye Bye

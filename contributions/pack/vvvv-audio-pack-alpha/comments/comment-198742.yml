@@ -1,0 +1,15 @@
+### YamlMime:ContributionComment
+---
+uid: "198742"
+user: "mrboni"
+created: "10 Jun, 2015 - 21:25"
+body: |-
+  Hey Tonfilm.  Amazing work!
+  
+  I'm testing the Ambsonic vst plugins here <http://www.matthiaskronlachner.com/?p=2015> using a 4 channel 1st order bformat wav, and converting to binaural using ambix_binaural_o1.dll
+  
+  This is working really well!  I want to rotate the soundfield in realtime and there is a vst in the pack for this (ambix_rotator_o1.dll)
+  
+  When loading this vst for some reason no gui is visible, though there is one when using the plugin in reaper. In the info view I can see the parameters I want (yaw / roll / pan), and I can expose the first one by pressing 'expose', but as I cant move the controls in the gui I can't get at the other two.  Any ideas?
+  
+  Thanks!

@@ -1,0 +1,45 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/vioso-vwf-calibration-loader-meta"
+type: "module"
+author: "manuel"
+date: "26 Aug, 2016"
+title: "Vioso vwf calibration Loader"
+originalURL: "contribution/vioso-vwf-calibration-loader"
+category: "module"
+credits: |-
+  [Manoloide](http://vvvv.org/users/Manoloide)
+like_count: "7"
+imported: "true"
+teaser: |-
+  This plugin loads the info from any <www.vioso.com> calibration software (vioso player, calibrator or Wings ) .vwf 
+  
+  Basically gets the 2 textures, one for warping and another for soft-edge blending.
+  
+  
+  It really has a lot to improve... maybe someone with more experience can help... this is just a prototype, Im sure there's better ways to read the raw data.
+  
+  
+  Since the warp texture is 128bit, for big .vwf files only works on x64
+  
+  The DX11ToDX9 texture is sending a 16bit texture.
+  
+  **Needs dx11 and VVVV x64**
+  
+  
+  
+  1.  ToDo:
+  
+  -Spreadable read of the raw data and display info
+  
+  -All ported to dx11
+  
+  -Add it to the VVVV-Dome maybe?
+  
+  
+  
+  
+  
+  1.  DOWNLOAD .vwf sample file HERE: 
+  
+  <https://www.dropbox.com/s/yo4qhhfmru5bc3a/warp%202x3840x2400.vwf?dl=0>

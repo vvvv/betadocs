@@ -1,0 +1,12 @@
+### YamlMime:ContributionComment
+---
+uid: "110782"
+user: "joreg"
+created: "04 Dec, 2013 - 16:07"
+body: |-
+  @tekcor: this is actually handled grazefully, if you:
+  * only use b31 with its corresponding b31 dx11-pack
+  * only use b31.2 with its corresponding b31.2 dx11-pack
+  
+  the node had some renames and they are reflected in the diffff.xml of b31.2
+  also i just tested and it works as advertised.

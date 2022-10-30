@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "85163"
+user: "newemka"
+created: "04 Jul, 2012 - 00:50"
+body: |-
+  @Elliotwoods 
+  Thanks for the tip, I was looking on the billboard side and it works until I add the fourth calibration point then the camera projection shift my background picture. My trick is to render the projection renderer as DX9Texture and blend it with my background FileTexture on a FullscreenQuad in a new DirectX Renderer window.

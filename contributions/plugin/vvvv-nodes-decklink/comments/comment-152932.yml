@@ -1,0 +1,18 @@
+### YamlMime:ContributionComment
+---
+uid: "152932"
+user: "sansui"
+created: "03 Apr, 2014 - 17:12"
+body: |-
+  [julian](http://vvvv.org/users/julian), [elliotwoods](http://vvvv.org/users/elliotwoods)
+  I finalllly did it after it changd to texture format 'No specific' of dx9texture node in YUYtoRGB.
+  I had fought with this patch long time to solve this.
+  what different texture format 'RGB88' and 'No specific'.
+  when occurs this?
+  
+  GTX 660
+  win7 x64
+  vvvv 31.2 x86
+  Intensity pro driver(Desktop Video 9.9.6 for Windows)
+  
+  I also very appriciate to elliot!

@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "88122"
+user: "microdee"
+created: "05 Sep, 2012 - 15:23"
+body: |-
+  Lightmare: can you check that DirectInput node in gui/window patch is red or not? If it is then probably I have to switch to slimdx's directinput from Ms managed dx. For now install directx sdk February 2010. I will do a hotfix soon that will correct this 2

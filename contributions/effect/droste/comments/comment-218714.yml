@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "218714"
+user: "featherfurl"
+created: "30 Mar, 2016 - 14:43"
+body: |-
+  One problem I do have with the dx11 version is that it won't show up in the node browser menu, despite being in the effects subfolder with the dx9 version. To create the node I have to copy and paste it from the help patch. Any idea what the problem might be?

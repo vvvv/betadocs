@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "99891"
+user: "Jordimarto"
+created: "19 Apr, 2013 - 19:34"
+body: |-
+  Somebody know if it's possible configure the arduino ethernet to use Art-net.
+  
+  Use Arduino ethernet only, not using arduino uno + arduino ethernet shield.

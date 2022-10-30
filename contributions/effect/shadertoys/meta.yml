@@ -1,0 +1,28 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/shadertoys-meta"
+type: "effect"
+author: "sebl"
+date: "26 May, 2014"
+title: "shadertoys"
+originalURL: "contribution/shadertoys"
+category: "effect"
+credits: |-
+  inigo quilez, unc, levi, tekcor, m4d
+like_count: "29"
+imported: "true"
+teaser: |-
+  ported some shaders from https://www.shadertoy.com/ ...
+  
+  feel free to optimize and update this contribution.
+  
+  issues:
+  * they'd better be written as .tfx
+  * procedural noise is taking muuuch gpu - didn't get lut-versions to work
+  * some glsl-leftovers
+  * i'm sure there are more optimizations by using hlsl/dx11 advantages
+  
+  
+  /sebl
+  
+  0.4 Added a ray marched primitives and a substitute(string) for converting the GLSL, look out for matrices that haven't been fully initiated (overloaded, I think is the term)

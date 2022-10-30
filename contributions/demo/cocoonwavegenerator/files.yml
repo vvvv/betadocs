@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/cocoonwavegenerator-files"
+url: "cocoonwavegenerator"
+category: "demo"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "CocoonWaveGenerator.zip"
+            description: |-
+              version 1.0
+            
+            timestamp: "19 Jul, 2011 - 21:20"
+            download_count: "2"

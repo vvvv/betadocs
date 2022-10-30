@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "83525"
+user: "patrick"
+created: "30 May, 2012 - 18:17"
+body: |-
+  The 74HC595 looks nice :) yet, I need multiple PWM outs. So far my trials at emulating PWM on a genuine digital pin via ArduinoFirmata and Kalles PWM module produced unsatisfactory results, which put me back to the TLC5940 for (reliable) hardware PWM. Do you use the 595 to switch on/off only, or also for PWM (surprisingly)?

@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "239745"
+user: "everyoneishappy"
+created: "22 May, 2017 - 13:14"
+body: |-
+  @guest that should be fixed in next release.  What other modules are you talking about?  Kinect2GS is pretty much what you think it is I guess- get a mesh from your kinect2 textures.  Note there is a bug in current DX11 (also fixed for next release) that prevents gsfx from loading properly- in the mean time you might try reloading the patch after hooking it up.

@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "60550"
+user: "rogalag"
+created: "06 Mar, 2011 - 10:06"
+body: |-
+  Compiling sugokuGengi script I see several errors:
+  line 4 "Linq" does not exist in the namespace "system", (are you missing an assembly reference?) 
+  line 11 "Imaging" does not exist in the namespace "system", (are you missing an assembly reference?)
+  line 14 The type or namespace "xn" could not be found ( are you missing a using directive or an assembly reference?)
+  line 92 The type or namespace "Context" could not be found ( are you missing a using directive or an assembly reference?)
+  line 93 The type or namespace "DepthGenerator" could not be found ( are you missing a using directive or an assembly reference?)
+  line 94  The type or namespace "ImageGenerator" could not be found ( are you missing a using directive or an assembly reference?). Can anybody help me with this mess?

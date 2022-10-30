@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/video-effects-and-compositing-tutorials-files"
+url: "video-effects-and-compositing-tutorials"
+category: "tutorial"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "VideoEffectsAndCompositing.zip"
+            description: |-
+              Full package with patches and textures.
+            
+            timestamp: "22 May, 2013 - 10:12"
+            download_count: "1"

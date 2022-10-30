@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/sprite-player-files"
+url: "sprite-player"
+category: "plugin"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "SpritePlayback.zip"
+            timestamp: "24 Apr, 2018 - 08:00"
+            download_count: "2"

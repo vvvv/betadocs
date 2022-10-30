@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "206978"
+user: "velcrome"
+created: "27 Sep, 2015 - 22:32"
+body: |-
+  confirm, will look for a solution. i usually only need the x64 variants, so x86 doesn't get the same attention.
+  
+  on a side note, the github version is much better right now, but requires compiling it. 
+  
+  edit: done. there has been some work under the hood since 2.0, because vvvv-Message was being used for in-house projects, so quite a few quirks surfaced and were consequently improved. have fun

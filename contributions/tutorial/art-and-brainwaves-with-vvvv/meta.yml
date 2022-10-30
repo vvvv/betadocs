@@ -1,0 +1,33 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/art-and-brainwaves-with-vvvv-meta"
+type: "tutorial"
+author: "lanvideosource"
+date: "24 Feb, 2013"
+title: "Art and Brainwaves with VVVV"
+originalURL: "contribution/art-and-brainwaves-with-vvvv"
+category: "tutorial"
+credits: |-
+  Thanks to Bitrayne for Mind Your OSC's applications
+  More infos: http://www.emotiv.com/store/apps/applications/135/1446
+like_count: "10"
+imported: "true"
+teaser: |-
+  Installation instructions:
+  
+  - Put the unzipped folder on a location in your computer, desktop is ok. 
+  
+  - choose the right version of the packet. Patches are tested both on a b27 winXP machine and a b29  win7 machine. 
+  
+  - Basically, if you have a Emotiv EPOC (also non-research editions) you just need to install Mind Your OSC's application and Mind your OSC's RAW version-COD. It's also suggested to install Emotiv Development Kit. You can download the last version on Emotiv website ( http://www.emotiv.com/ ).
+  
+  - You must have at least VVVV b27 installed and working on your machine, don't forget add-ons.
+  
+  - Connect the emotive EPOC USB receiver, turn on the headset then launch Mind Your OSC's or  Mind your OSC's RAW version-COD if you want to work with raw EEG data.
+  
+  - Launch VVVV patches marked with "START" to see some practical  examples and theory on how to use EEG to control VVVV!
+  
+  - Enjoy :)
+  
+  More infos about my workshops and events involving brainwaves and art: http://tangible-feelings.wikispaces.com/
+  http://www.lanvideosource.net

@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "191988"
+user: "sagishi"
+created: "22 Apr, 2015 - 15:24"
+body: |-
+  Yes, .NET 4.5 is there. It seems like it does in fact **only** work on my laptop (win7). Can't get it to run on any other machine, neither win7, win8 or win10.
+  
+  Even though it compiles fine on another Win10 system, it crashes during runtime.
+  
+  Any hints appreciated, as I'd really like to use this in the VVVV.js workshop at Node.

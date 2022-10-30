@@ -1,0 +1,19 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/mandelbulb-meta"
+type: "effect"
+author: "tonfilm"
+date: "28 Jun, 2010"
+title: "Mandelbulb"
+originalURL: "contribution/mandelbulb"
+category: "effect"
+credits: |-
+  Inigo Quilez (iq/rgba), <http://www.iquilezles.org>
+like_count: "21"
+imported: "true"
+teaser: |-
+  Renders the famous mandelbulb on the GPU. 
+  
+  Update:
+  -It is now possible to set camera/light positions.
+  -Can also render juliabulb (modify julia center for it).

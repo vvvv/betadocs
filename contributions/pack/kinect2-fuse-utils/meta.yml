@@ -1,0 +1,15 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/kinect2-fuse-utils-meta"
+type: "pack"
+author: "lasal"
+date: "22 Feb, 2022"
+title: "Kinect2 Fuse Utils"
+originalURL: "contribution/kinect2-fuse-utils"
+category: "pack"
+like_count: "7"
+imported: "true"
+teaser: |-
+  A set of nodes to work with Kinect 2 and Fuse
+  
+  https://gitlab.com/lasalillo/vl.fuseutils

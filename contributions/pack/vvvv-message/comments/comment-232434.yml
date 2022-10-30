@@ -1,0 +1,16 @@
+### YamlMime:ContributionComment
+---
+uid: "232434"
+user: "velcrome"
+created: "21 Nov, 2016 - 16:28"
+body: |-
+  It's been over a year since the last official update here on this site.
+  
+  As some of you might know, there has been a lot of development on Message, usually freely accessible on github, but never here. To give everybody a chance to do some proper alpha testing (and general tinkering) without the need to compile yourself, I want to leave the release candidate for the next official release.
+  
+  Download from [our owncloud](https://owncloud.intolight.eu/index.php/s/c09ZSVKgOP1FXHQ), and unpack both zips to the /packs folder of a **current alpha vvvv** install.
+  You will need to install [dx11-vvvv](xref:contribution/directx11-nodes) as well.
+  
+  Most recent nuget for the core (if you desire) is [here](https://www.nuget.org/packages/VVVV.Packs.Message/2.7.1-rc).
+  
+  If all goes well, this will be the release targeting vvvv beta35.

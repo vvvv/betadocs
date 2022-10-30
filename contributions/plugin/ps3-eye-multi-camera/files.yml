@@ -1,0 +1,36 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/ps3-eye-multi-camera-files"
+url: "ps3-eye-multi-camera"
+category: "plugin"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "2"
+            filename: "readme.pdf"
+            description: |-
+              PS3 Eye Multi ReadMe
+            
+            timestamp: "30 May, 2011 - 17:08"
+            download_count: "2"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "1"
+                    filename: "PS3EyeMulti-source.zip"
+                    description: |-
+                      PS3 Eye Source
+                    
+                    timestamp: "06 Jun, 2011 - 12:57"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "PS3EyeMulti-bin.zip"
+                    description: |-
+                      PS3 Eye Binary
+                    
+                    timestamp: "06 Jun, 2011 - 12:57"
+                    download_count: "1"

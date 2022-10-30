@@ -1,0 +1,18 @@
+### YamlMime:ContributionComment
+---
+uid: "238825"
+user: "velcrome"
+created: "20 Apr, 2017 - 18:52"
+body: |-
+  @brax401gbz
+  are you coming to node? you know, for a friendly show me yours, I show you mine?
+  
+  @isdzaurov
+  there are a couple potential bottlenecks
+  
+  1. the pipet to select colors from a given texture (this is useful because you can define a unique coordinate for each led, and select the color from a texture)
+  2. the octows algorithm to prepare the data chunks (this is highly efficient by now, all bitshifting is done in a single plugin)
+  3. the transfer to the teensy (by rs232 this will be a major bottleneck, by udp not so much)
+  
+  without much optimisations, I'd say that 4 teensys with 1k LED is the sane limit. if you find a fast usb3 hub, maybe even 8, but framerate will be no more than around 25fps 
+  with optimisations, the only bottleneck that really matters is the pipet, driving a couple teensies with 4k LED each at 60Hz is entirely possible. at fusion we had half a dozen of them.

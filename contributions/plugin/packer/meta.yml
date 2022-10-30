@@ -1,0 +1,22 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/packer-meta"
+type: "plugin"
+author: "zeos"
+date: "12 Oct, 2012"
+title: "Packer"
+originalURL: "contribution/packer"
+category: "plugin"
+credits: |-
+  based on http://www.icsharpcode.net/opensource/sharpziplib/
+like_count: "4"
+imported: "true"
+teaser: |-
+  Compress a string or a spread of strings into a .zip file
+  
+  + set compression level
+  + set filenames for each input slice or let the packer add auto filenames  (slice00,slice01,...)
+  + Help patch
+  
+  based on http://www.icsharpcode.net/opensource/sharpziplib/
+  GPL

@@ -1,0 +1,28 @@
+### YamlMime:ContributionComment
+---
+uid: "253729"
+user: "mediadog"
+created: "22 May, 2018 - 19:46"
+body: |-
+  With the most recent (_2) version of this I am unable to run the UI_Sample help patch, and unable to run it with the previous version on 36.0.  DX11 errors stream on the console, no texture is returned, and Nils are on several of the output pins.  Other help patches seem to work OK.  This is with 35.8_x64 and 36.0_x64, and DX11 1.2 and 1.3.
+  
+  With 35.8 and DX11 1.2 I get:
+  
+  00:00:32 ERR : Exception occured in TMPluginWrapperNode.Evaluate
+  00:00:32 ERR : Attempted to divide by zero.
+  
+  With 36.0 and DX11 1.3 I get:
+  
+  00:00:11 ERR : Exception caused by node during update :/73/0
+  00:00:11 ERR : Exception node name :HTMLTexture (DX11.Texture URL)
+  00:00:11 ERR : System.NullReferenceException in HTMLTexture.DX11: Object reference not set to an instance of an object.
+  
+  Stacktrace:
+     at VVVV.DX11.Nodes.HTMLTextureNode.Update(DX11RenderContext context)
+     at VVVV.DX11.Lib.RenderGraph.DX11DeviceRenderer.UpdateNode(DX11Node node)
+  
+  The previous version (1.11) works fine with 35.8, but fails under 36.0 with the divide by zero error, not the DX11 error.
+  
+  So I cannot get this patch to work at all with 36.0.  Anyone else got it working?
+  
+  Maybe time for a recompile?  As a bonus, I think the latest CEF adds multitouch for off screen rendering...

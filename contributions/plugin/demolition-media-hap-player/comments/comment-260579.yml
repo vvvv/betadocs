@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "260579"
+user: "Takuma"
+created: "04 Aug, 2018 - 10:40"
+body: |-
+  Im playing around (testing) with this plugin. When i load multiple footage (~20 full HD) using Dir, the CPU usage jumps up to 100%. Got 1080Ti working as a GPU but this only goes 30%. is there a way to avoid High CPu Usage?

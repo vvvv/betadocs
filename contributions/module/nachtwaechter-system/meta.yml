@@ -1,0 +1,17 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/nachtwaechter-(system)-meta"
+type: "module"
+author: "patrick"
+date: "12 Oct, 2012"
+title: "Nachtwaechter (System)"
+originalURL: "contribution/nachtwaechter-(system)"
+category: "module"
+credits: |-
+  patrick
+like_count: "6"
+imported: "true"
+teaser: |-
+  Shuts down your System at a given time. Time is 24hr formatted.
+  
+  Useful when you want your computer running vvvv to shutdown unattended.

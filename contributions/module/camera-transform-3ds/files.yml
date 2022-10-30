@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/camera-transform-3ds-files"
+url: "camera-transform-3ds"
+category: "module"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "camera_3ds_0_1.zip"
+            description: |-
+              Transform Camera 3ds
+            
+            timestamp: "24 May, 2011 - 21:52"
+            download_count: "1"

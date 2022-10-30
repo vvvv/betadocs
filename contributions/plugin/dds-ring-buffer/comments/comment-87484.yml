@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "87484"
+user: "flux"
+created: "22 Aug, 2012 - 15:12"
+body: |-
+  @elliot
+  
+  sorry i forgot, i tested it on beta28. And i think it was the same issue circuitb mentioned. A8R8G8B8 dds textures don't seem to work. i got it running with dxt5 compressed ones on b27 and 28.

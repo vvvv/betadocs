@@ -1,0 +1,17 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/green-screen-meta"
+type: "module"
+author: "Martin Zrcek"
+date: "20 Sep, 2012"
+title: "Green Screen"
+originalURL: "contribution/green-screen"
+category: "module"
+credits: |-
+  <www.uberact.com>
+like_count: "1"
+imported: "true"
+teaser: |-
+  This should separate background on a still camera image from new things that appear there.
+  
+  It's not complete as the result is not good enough. So if somebody really desperately needs this shader, we can finish it.

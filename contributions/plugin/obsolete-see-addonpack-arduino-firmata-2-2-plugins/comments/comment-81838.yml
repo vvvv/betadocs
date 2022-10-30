@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "81838"
+user: "motzi"
+created: "27 Apr, 2012 - 08:45"
+body: |-
+  regarding the pullups:
+  finally found the time to try karistoufs hack but unfortunately did not get it to work (i tried setting the pullups in the setup function and even at the beginning of the loop). it seems that the arduino firmata firmware does some port handling of its own that overrides my settings. or did i miss something?

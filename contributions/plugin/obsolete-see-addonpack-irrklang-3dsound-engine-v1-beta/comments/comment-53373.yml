@@ -1,0 +1,10 @@
+### YamlMime:ContributionComment
+---
+uid: "53373"
+user: "circuitb"
+created: "25 Sep, 2010 - 17:04"
+body: |-
+  great! thx sanch
+  yep the effects seems to be cpu intensive regarding the spreadcount
+  but anyway lot of great ideas.... 
+  eg: box2D (fake Z:scale + XYpan + object collision etc...)

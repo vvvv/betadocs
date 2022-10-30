@@ -1,0 +1,15 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/elevation-meta"
+type: "effect"
+author: "sebl"
+date: "04 Jan, 2015"
+title: "Elevation"
+originalURL: "contribution/elevation"
+category: "effect"
+credits: |-
+  [sebl](http://vvvv.org/users/sebl), nvidia corp.
+like_count: "3"
+imported: "true"
+teaser: |-
+  Elevation shader to do some topographic inspired lines and stuff. based on an example shader from nvidia.

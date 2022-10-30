@@ -1,0 +1,12 @@
+### YamlMime:ContributionComment
+---
+uid: "73231"
+user: "io"
+created: "12 Dec, 2011 - 18:57"
+body: |-
+  Hi
+  I am having this very same issue, the plugin works ok when it is in stand alone mode, straight into a quad and rendered but I get all kind of glitches and problems if it is routed into a shader, you can try it yourself using for example the Multiscreen module.
+  The patch is completely stuck for a long time, and sometime the whole vvvv crashes, especially if the video files are too big.
+  Any work around? Like loading a dummy video first or something?
+  tx
+  Simone

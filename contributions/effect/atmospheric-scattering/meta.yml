@@ -1,0 +1,18 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/atmospheric-scattering-meta"
+type: "effect"
+author: "ivan.rastr"
+date: "26 Jun, 2013"
+title: "Atmospheric Scattering"
+originalURL: "contribution/atmospheric-scattering"
+category: "effect"
+credits: |-
+  unc
+like_count: "14"
+imported: "true"
+teaser: |-
+  Atmospheric Scattering shader 
+  ported by unc from the original OpenGL shaders by Sean O'Neil, http://sponeil.net 
+  
+  Sponsored by <http://www.wirmachenbunt.de>

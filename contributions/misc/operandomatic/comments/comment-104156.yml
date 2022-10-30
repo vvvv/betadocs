@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "104156"
+user: "alg"
+created: "24 Jul, 2013 - 08:25"
+body: |-
+  I tested with floating point numbers - everything working. Why you mentioned, that we must use only int values?

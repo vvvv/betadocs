@@ -1,0 +1,14 @@
+### YamlMime:ContributionComment
+---
+uid: "268793"
+user: "synth"
+created: "16 Oct, 2018 - 19:20"
+body: |-
+  And i just got Beta6 to work. 
+  Actually only thing that was not working was the Get MAC+Hostname function. 
+  
+  One question tho, is it me or when you give a command to a few machines it takes a while and if you try to click on the Remoter it can say "Not responding"
+  
+  Also if i may ask, what does the small EXP button does under the VNC button (shy)? 
+  
+  Thanks for the great contribution still :)

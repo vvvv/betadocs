@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "205057"
+user: "everyoneishappy"
+created: "08 Sep, 2015 - 13:56"
+body: |-
+  Ahh that is from an earlier prototype.  You can maybe try to replace it with TransformBuffered (DX11.GeomFX).  Which patch was it in still?

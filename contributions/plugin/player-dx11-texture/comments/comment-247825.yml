@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "247825"
+user: "velcrome"
+created: "18 Dec, 2017 - 15:08"
+body: |-
+  To overcharge the plugin and cause the mem leak (and the Exception) should be a piece of cake with any jpg sequence running in a loop. 
+  Sorry that I don't have the time to fix the node, but if you have some thing I can test, just holler.
+  
+  About your other thoughts, I guess, it depends on how you define crucial. In my case I was lucky to have found it and worked around the issue. 
+  Other people might not be so lucky (or thorough), and let is slip, because "everything works smoothly", and get wrecked completely, once a little io stutter happens for some time. 
+  
+  So I guess I'll just leave this warning here: In professional environments such as long-term museum installations or mission-critical event patches Player should be used only with utmost care, because even a temporary IO lag could cause the plugin to crash vvvv.

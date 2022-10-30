@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "64456"
+user: "gilbi"
+created: "31 May, 2011 - 18:59"
+body: |-
+  I take that back, not so easy in fact. Substitute is not spreadable in the same way that StringReplacerSpreadable is.

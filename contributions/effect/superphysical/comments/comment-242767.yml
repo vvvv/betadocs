@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "242767"
+user: "letoast"
+created: "18 Jul, 2017 - 12:00"
+body: |-
+  Is there something wrong with the metallic part of the lighting function, because setting the "metallic" to "1.0" and "Global Reflection Color" even to "0.01" of a Value in HSV picker, sets the reflection color to a constantly white lit.
+  Like this:
+  ![](https://vvvv.org/sites/default/files/imagecache/large/images/Untitled-2_3.jpg)

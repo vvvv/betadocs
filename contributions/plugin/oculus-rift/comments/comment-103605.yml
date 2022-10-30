@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "103605"
+user: "jannis"
+created: "11 Jul, 2013 - 23:18"
+body: |-
+  Thanks guys. I think this is a really funny behaviour that the Oculus  stabelizes after many hickups after starting the patch. So we all encounter the same problem. It was not so bad when I started patching but as the patch got heavier, the disconnection problem occured more often. It stabelizes, but not to a degree that makes me truly happy. Shouldn't disconnect after all :-)
+  Or only once a week :-) I think it's worth updating the SDK especially if it's not that big of a deal. I tried with 2 Oculus set's and 2 PC's with different setups, various vvvv beta's, the disconnection occured on all systems.
+  Let's update :-)

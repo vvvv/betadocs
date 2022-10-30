@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "233289"
+user: "seltzdesign"
+created: "12 Dec, 2016 - 10:32"
+body: |-
+  Really like it! Is there a way to spread the texture transform? Right now it is always using the first slice of transforms for all instances of an object.

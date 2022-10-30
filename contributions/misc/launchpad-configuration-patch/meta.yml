@@ -1,0 +1,15 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/launchpad-configuration-patch-meta"
+type: "misc"
+author: "karistouf"
+date: "25 Aug, 2011"
+title: "Launchpad configuration patch"
+originalURL: "contribution/launchpad-configuration-patch"
+category: "misc"
+credits: |-
+  karistouf
+like_count: "3"
+imported: "true"
+teaser: |-
+  a patch + a text file for color configuration

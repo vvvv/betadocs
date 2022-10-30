@@ -1,0 +1,12 @@
+### YamlMime:ContributionComment
+---
+uid: "84454"
+user: "tonfilm"
+created: "19 Jun, 2012 - 18:40"
+body: |-
+  hello cloneur,
+  
+  after seeing all these shader packs popin' up from you, i would recommend you to go through the steps here: [vvvv sdk](https://betadocs.vvvv.org/devvvveloping/vvvv-sdk.html) to put them in the addonpack.
+  
+  also this might be interesting:
+  [AddonPack.Effects](xref:557d6915-5069-483e-8175-2834225be56b)

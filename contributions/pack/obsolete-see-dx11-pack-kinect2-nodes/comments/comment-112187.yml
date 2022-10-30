@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "112187"
+user: "princemio"
+created: "04 Jan, 2014 - 15:43"
+body: |-
+  Wow thats great...anyone got a CS or Gsfx to reconstruct the world space coordinates...concerning bugs: i got array out of bounds errors on skeletons too and on the player textures...

@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/microsoftspeech-files"
+url: "microsoftspeech"
+category: "plugin"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "MicrosoftSpeech_1.0.zip"
+            timestamp: "30 Oct, 2012 - 16:36"
+            download_count: "4"

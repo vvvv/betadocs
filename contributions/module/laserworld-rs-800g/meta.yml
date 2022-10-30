@@ -1,0 +1,13 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/laserworld-rs-800g-meta"
+type: "module"
+author: "dEp"
+date: "12 Dec, 2011"
+title: "Laserworld RS-800G"
+originalURL: "contribution/laserworld-rs-800g"
+category: "module"
+like_count: "2"
+imported: "true"
+teaser: |-
+  Convenience module for the Laserworld RS-800G. Please note that this module implements the DMX interface only.

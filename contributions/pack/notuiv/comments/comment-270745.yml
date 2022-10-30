@@ -1,0 +1,18 @@
+### YamlMime:ContributionComment
+---
+uid: "270745"
+user: "blausand"
+created: "17 Jan, 2019 - 03:17"
+body: |-
+  Nothing, sadly...
+  There's some WER report following.
+  
+  Starting vvvv /logstartup generates a .log containing this line:
+  ```
+  <04:10:56.908> creating AddonHost
+  <04:10:57.674> vvvv caused error during startup: Mindestens ein Typ in der Assembly kann nicht geladen werden. Rufen Sie die LoaderExceptions-Eigenschaft ab, wenn Sie weitere Informationen benötigen.
+  ```
+  Which basically means
+  ```
+  At least one type in the assembly could not be loaded. Consult the LoaderExceptions property for details.
+  ```

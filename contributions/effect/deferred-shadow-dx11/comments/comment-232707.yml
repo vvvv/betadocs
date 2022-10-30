@@ -1,0 +1,10 @@
+### YamlMime:ContributionComment
+---
+uid: "232707"
+user: "julian"
+created: "01 Dec, 2016 - 14:29"
+body: |-
+  this is really great! 
+  works fine so far, but I wonder how to increase the anti-aliasing?
+  If I increase the AA over 1, some depth-buffer problems occur.
+  ![](https://vvvv.org/sites/default/files/imagecache/large/images/vvvv_DeferredShadow_AA.jpg)

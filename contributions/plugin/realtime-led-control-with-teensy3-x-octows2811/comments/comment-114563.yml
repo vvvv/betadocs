@@ -1,0 +1,26 @@
+### YamlMime:ContributionComment
+---
+uid: "114563"
+user: "Alec"
+created: "25 Feb, 2014 - 09:28"
+body: |-
+  Yes, I did. :( I'm working with a 28x16 led matrix attached to Teensy with 56 leds per 8 strips with led layout 1. Parameters in the firmware are:
+  
+  ```
+  LED_WIDTH      28   
+  LED_HEIGHT     16
+  LED_LAYOUT     1
+  
+  VIDEO_XOFFSET  0
+  VIDEO_YOFFSET  0  
+  VIDEO_WIDTH    100
+  VIDEO_HEIGHT   100
+  ```
+  
+  As code says "ledsPerStrip = LED_WIDTH * LED_HEIGHT / 8;"
+  
+  As your OctoWS2811 (RS232) help patch I send to the module a spread of 448 colors, <span class="pin">LED StripLenght</span> set to 56 and <span class="pin">PinCount</span> to 8.
+  
+  Where am I wrong?
+  
+  P.S. Would be great if we could spread <span class="pin">StripLenght</span> with different values to control different Matrix setups on different Teensy (always with <span class="pin">PinCount</span> set to 8 as OctoWS2811 conventions). I don't know if it is possible.

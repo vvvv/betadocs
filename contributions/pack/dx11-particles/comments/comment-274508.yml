@@ -1,0 +1,12 @@
+### YamlMime:ContributionComment
+---
+uid: "274508"
+user: "wwrighter"
+created: "09 Dec, 2019 - 14:42"
+body: |-
+  Hey, Geometry Buffer seems broken on beta 39. Results in things like this https://i.imgur.com/OxbC90W.png , while exactly following the DX11 particles workshop.   
+  
+  I haven't set any colours, don't know where they came from.
+  
+  
+  Which is weird, beacuse the AssimpGeometry example works.

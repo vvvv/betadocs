@@ -1,0 +1,31 @@
+### YamlMime:ContributionComment
+---
+uid: "100390"
+user: "zuvassin"
+created: "02 May, 2013 - 09:28"
+body: |-
+  Nice works ... It looks promising...
+  
+  Doesn't manage to make it work... on 2 différent Machine :
+  
+  1rst One :
+  Lenovo Ideapad I5 - NVidia GT610m
+  Win 8 64.
+  vvvv 45beta29.2 X64
+  Nivdia Drivers up to date ...
+  Resolume 4.1.5 ...
+  
+  Vvvv Patch launch but resolume told me at Ffgl loading :
+  Nvidia wglDXInterop failed to initialize.
+  
+  2nd One (older):
+  Acer Aspire X1700
+  Win Vista 32
+  vvvv 45beta29.2 X64
+  Nivdia Drivers up to date ...
+  Resolume 4.1.5 ...
+  
+  Same Problem ...
+  vvvv is launch with the /dx9ex options then opening the Help patch...
+  
+  Maybe theses information will help ... (Me to make it works !!!)

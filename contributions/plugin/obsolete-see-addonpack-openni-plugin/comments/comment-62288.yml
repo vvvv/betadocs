@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "62288"
+user: "hierro"
+created: "12 Apr, 2011 - 07:42"
+body: |-
+  Hi all, thank u for debug and report, gonna check it soon, i noticed we have new release for openni, asap i will install it and recompile plugin with .39 version, better after reading the changelog :D
+  
+  For the pin on/off, i never had crash, but for sure, it could be more clean , see you and thank you :D

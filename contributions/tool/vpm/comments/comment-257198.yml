@@ -1,0 +1,41 @@
+### YamlMime:ContributionComment
+---
+uid: "257198"
+user: "tgd"
+created: "06 Jul, 2018 - 11:26"
+body: |-
+  Hi, I am using vpm 1.2.8 and tried to get mp.essentials from here: https://vvvvpm.github.io/
+  
+  
+  I am getting errors on the newtonsoft dependency :(
+  Can i fix this myself somehow?
+  
+  ```
+  vpm at your service!
+  Found a VVVV in registry.
+  Parsing input Pack
+  Input pack is mp.essentials
+  Initializing mp.essentials
+  Temp folder created successfully:
+  C:\myvvvv\vvvv_50beta36_x64\.vpm
+  Parsing vvvv-Message
+  Initializing vvvv-Message
+  Initialization complete.
+  Installing vvvv-Message
+  Progress: 16973 / 2917212, 0%m/velcrome/vvvv-Message/releases/download/2.9.10/vvvv-Message.zip
+  Progress: 2905653 / 2917212, 99%
+  Done
+  Extracting C:\myvvvv\vvvv_50beta36_x64\.vpm\vvvv-Message.zip
+  To C:\myvvvv\vvvv_50beta36_x64\.vpm\vvvv-Message\extract
+  nodes/plugins/VVVV.Packs.Messaging.Nodes.OSC.dll
+  Done
+  Copy folder:
+  From: C:\myvvvv\vvvv_50beta36_x64\.vpm\vvvv-Message\extract
+  To: C:\myvvvv\vvvv_50beta36_x64\packs\vvvv-Message
+  File: Reader (Message Streaming) help.v4p
+  Installing mp.essentials
+  Compilation error:
+  (7,9): error CS0246: The type or namespace name 'Newtonsoft' could not be found (are you missing a using directive or an assembly reference?)
+  (33,19): error CS0103: The name 'JArray' does not exist in the current context
+  Press any key to exit...
+  ```

@@ -1,0 +1,16 @@
+### YamlMime:ContributionComment
+---
+uid: "84346"
+user: "elliotwoods"
+created: "17 Jun, 2012 - 14:39"
+body: |-
+  that's the Emgu CV .net DLL's which should be in the package
+  
+  this error is caused by either:
+  * they're not in the right place
+  * the dll's have strange security settings which can be caused whilst unzipping
+  
+  please see the note at the top of this page about 'ERR : Exception occured in TMPluginWrapperNode.Evaluate: Could not load file'
+  it's difficult to read in Internet Explorer.
+  
+  essentially you need to make sure you DO NOT drag and drop the dll's out of the zip file, but instead use Extract all... (or just use 7zip)

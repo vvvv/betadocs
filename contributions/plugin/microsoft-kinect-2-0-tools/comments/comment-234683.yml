@@ -1,0 +1,23 @@
+### YamlMime:ContributionComment
+---
+uid: "234683"
+user: "id144"
+created: "25 Jan, 2017 - 00:12"
+body: |-
+  Hi @gegenlicht,
+  
+  good questions, we are using this plugins over the course of last three months while creating our VR artwork Dust. http://vrdust.org.uk
+  
+  We already recorded more than 3TB of xef files, converted into another 3TB of DDS :D. We used laptops with SSD too.
+  
+  If you do have internal SSD, you should be able to record files without framedrops, there is buffering into ram. set the buffer size accordingly. 10 minutes could give you file that is around 100GB so make sure to have of SSD space ready.
+  Be aware I had a situations during the recording when SSD was writing the files with 20% of declared speed as a result, with 16GB RAM I was able to record for ~80seconds.  
+  
+  There is a limitation, Record node does not indicate the file size and buffer usage, but you can read those values indirectly with other tools (Taskmanager, FileExplorer) or nodes.
+  
+  USB3 SSD could be an option as long as it sits on a different USB controller than Kinect. Kinect itself will consume significant part of the bandwidth.
+  
+  There might be a framedrop, but Kinect studio plays the frames according to their timecode. If there is missing frame, Kinect nodes will not deliver new frame. This can become a problem when you store your recording as an indexed DDS sequence. So we store our sequences timecoded, not indexed to prevent desync with audio.
+  
+  Playback is quite smooth, you may have large files, as long as you are able to read  them realtime presumably from SSD, there are no framedrops (when are no framedrops in recording file itself). If you need to export or store the frames and you are not able to read and write realtime, use StepOnce pin of the Playback node.
+  ![](https://vvvv.org/sites/default/files/imagecache/large/images/_09.01.2017-21.52.21_0.gif)

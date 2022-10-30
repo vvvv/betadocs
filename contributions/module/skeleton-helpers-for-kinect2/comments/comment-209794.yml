@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "209794"
+user: "microdee"
+created: "30 Oct, 2015 - 03:26"
+body: |-
+  for some weird reason DepthFill crashes my driver (nvidia gtx 670)

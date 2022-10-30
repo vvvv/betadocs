@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "104303"
+user: "klj3"
+created: "28 Jul, 2013 - 16:07"
+body: |-
+  Hi this is amazing.
+  All my DX11 nodes are red. TTY states:
+  
+  00:00:36 ERR : Exception occured during creation of plugin: Could not load file or assembly 'file:///C:\Program Files (x86)\vvvv_45beta30.2_x64\packs\DX11\nodes\plugins\VVVV.DX11.Nodes.dll' or one of its dependencies. An attempt was made to load a program with an incorrect format.
+  00:00:36  -  : To help us track this error down, enable the ExceptionDialog via the menu or starting vvvv with /showexceptions.
+  
+  Could you help please.

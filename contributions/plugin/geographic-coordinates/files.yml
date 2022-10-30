@@ -1,0 +1,24 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/geographic-coordinates-files"
+url: "geographic-coordinates"
+category: "plugin"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "1"
+            filename: "AstronomyUTM.zip"
+            description: |-
+              renaming files.
+            
+            timestamp: "11 Apr, 2012 - 10:44"
+            download_count: "1"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "AstronomyUMT.zip"
+                    timestamp: "10 Apr, 2012 - 19:00"
+                    download_count: "1"

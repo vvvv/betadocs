@@ -1,0 +1,14 @@
+### YamlMime:ContributionComment
+---
+uid: "104063"
+user: "sansui"
+created: "21 Jul, 2013 - 21:09"
+body: |-
+  is there a way to change normal string to JSON string?
+  I think like this,
+  input 1 key : sansui
+  input 2 value : beginner
+  
+  output : {"sansui" : "beginner"}
+  
+  If this module exists, I want to use for communicating with node.js.

@@ -1,0 +1,19 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/vvvv33beta1-meta"
+type: "misc"
+author: "joreg"
+date: "24 Dec, 2012"
+title: "vvvv_33beta1"
+originalURL: "contribution/vvvv33beta1"
+category: "misc"
+credits: |-
+  vvvv group for baking, [kalle](http://vvvv.org/users/kalle) for saving, [woei](http://vvvv.org/users/woei) for digging it up
+like_count: "9"
+imported: "true"
+teaser: |-
+  this is the re-release of vvvv_33beta1 as it was originally released on december 24th 0f the wonderful year of 2002. 
+  
+  we put that one out after about 8 months (iirc) in development from scratch and... the rest is history.
+  
+  now the problem is that we don't get it to run anymore. so the challenge is open to all of you h4x0r5: fix it!

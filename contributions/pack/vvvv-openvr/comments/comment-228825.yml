@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "228825"
+user: "microdee"
+created: "27 Sep, 2016 - 17:46"
+body: |-
+  @tonfilm: my compositor node is still using pointer readback it is only improving usability. vux pointed out that the fastest would be a clone of the preview node just without a forms window. when I was doing that node I didn't have much time to experiment with it unfortunately and currently I'm busy with fbx and commercial work.

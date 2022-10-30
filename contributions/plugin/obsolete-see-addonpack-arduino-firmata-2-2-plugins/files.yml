@@ -1,0 +1,27 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/obsolete-see-addonpack-arduino-firmata-2.2-plugins-files"
+url: "obsolete-see-addonpack-arduino-firmata-2-2-plugins"
+category: "plugin"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "1"
+            filename: "VVVVirmata-Plugin-prerelease-pack.zip"
+            description: |-
+              A Version 1.0 pre-release pack for the unpatient ;)
+            
+            timestamp: "21 Jun, 2012 - 13:54"
+            download_count: "1"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "vvvvirmata2.2_alpha.zip"
+                    description: |-
+                      an early alpha version, but working
+                    
+                    timestamp: "10 Jan, 2012 - 12:02"
+                    download_count: "1"

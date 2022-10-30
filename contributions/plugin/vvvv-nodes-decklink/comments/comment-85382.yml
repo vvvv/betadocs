@@ -1,0 +1,16 @@
+### YamlMime:ContributionComment
+---
+uid: "85382"
+user: "elliotwoods"
+created: "08 Jul, 2012 - 15:22"
+body: |-
+  interesting:
+  <http://visionexperts.blogspot.co.uk/2010/05/faster-memory-transfers.html>
+  
+  <div class="box">quote:Simon Green from NVidia (Sep 2009):
+  A lot of people have asked for this. It is technically possible for other PCI-E devices to DMA directly into GPU memory, but we don't have a solution yet. We'll keep you posted.
+  </div>
+  
+  NVidia forum post on this topic:
+  <http://forums.nvidia.com/index.php?showtopic=155456>
+  but their forums are down right now so can't read it

@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "90540"
+user: "catweasel"
+created: "31 Oct, 2012 - 10:13"
+body: |-
+  I made it because I lost some data in a HD crash including the c4d file for a project I'm working on, leaving me with a x file that I could find nothing that would export it correctly, so I hacked this together, it probably needs some tweaks for texture mapping, thats untested, but paul bourke has a page on the format if it needs tweaking...

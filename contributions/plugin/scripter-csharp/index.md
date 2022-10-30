@@ -1,0 +1,71 @@
+---
+uid: "contribution/scripter-(csharp)"
+uid-meta: "contribution/scripter-(csharp)-meta"
+comments: 
+ items: 
+  - uid: "214321"
+  - uid: "214365"
+  - uid: "214366"
+  - uid: "214433"
+  - uid: "214453"
+  - uid: "214483"
+  - uid: "214486"
+uid-files: "contribution/scripter-(csharp)-files"
+title: "Scripter (CSharp)"
+image: "Scripter.png"
+contribution: "true"
+---
+
+call it [dynamic plugins](https://betadocs.vvvv.org/devvvveloping/dynamic-csharp-plugin-reference.html) for the ultra-lazy
+call it <span class="node">Expr (Value)</span> on steroids
+
+1. what?
+hack some c# code into scripters nicely dark textview window and voila
+
+if you have no idea about c# and plugins, see it as an even easier way to get into it. it's just about the plain code here, nearly no structural things you can get wrong here
+
+if you are familiar with vvvv plugins you can really hack around here, per instance... read on
+
+1. so what's the difference to dynamic plugins?
+* Scripter handles **pin creation** for you, along the in and output parameters of your method
+* provide a method **per slice**, the looping and wrapping over the spread is handled internally
+* scripter compiles **per instance** which comes very handy if you just use it for snippets, and don't want to clutter your app with micro c# projects with obscure naming only you understand
+
+1. Changelog
+### v.1.5
+* Config pin for adding references: point to a .dll, semicolon separated
+* compiler upgrade to handle c#6 if available, aligned with the vvvv CS CodeEditor (meaning when used with > vvvv35.8)
+* plugins internal Evaluate only shows up with <vvvv35.8, else it uses vvvv native's pin
+
+### v.1.4
+* quickfixing plugin's Evaluate pin conflicting with vvvv native one introduced in 36 alpha version
+
+### v.1.3:
+reworked the codebase (towards codeceompletion) so:
+* code shows up with the real linenumbers ->
+* basic **error markers** on compilation errors
+
+finally defeated vvvvs native keyboard and window handling:
+* ctrl +/-/0 for zoom in/out/reset
+* ctrl + s to trigger immediate recompilation (additional to the window loosing focus)
+* ctrl + # for (un)commenting (how could i have forgotten this?)
+
+IO stuff:
+* default values on input parameters are mapped to default values of pins
+* ref keyword creates outputs as well (comes handy for bin sized pins)
+* ILogger, IHDEHost, IPluginHost & INode2 as input parameters gets the imports instead of creating pins
+* proper sorting of (reused) pins on code change
+
+### v.1.2:
+* fixed init bug (occurred when creating from nodebrowser and not duplicating existing one)
+
+### v.1.1:
+* ALT + 0 for zoom reset
+* fixed windowed mode
+* fixed TAB not working
+
+### v.1:
+* syntax highlighting
+* basic editorshortcuts
+* zoom via Alt++ and ALT+- (since Ctrl++ is reserved)
+* reserved input "int index" to get the counter at which slice of the spread the method is actually at

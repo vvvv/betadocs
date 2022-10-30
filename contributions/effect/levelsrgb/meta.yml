@@ -1,0 +1,15 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/levelsrgb-meta"
+type: "effect"
+author: "phl"
+date: "28 Jan, 2011"
+title: "LevelsRGB"
+originalURL: "contribution/levelsrgb"
+category: "effect"
+credits: |-
+  based on Levels.fx by mtAllen 2006
+like_count: "4"
+imported: "true"
+teaser: |-
+  I just added the RGB pins to save a renderpath and made some nicer IOBoxes and PinNames.

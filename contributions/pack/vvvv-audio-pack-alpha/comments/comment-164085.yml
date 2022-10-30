@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "164085"
+user: "tonfilm"
+created: "04 Sep, 2014 - 13:02"
+body: |-
+  there is no support planned by the VST.NET library developer, this is a bit sad. but waves has a tool called shell2vst which extracts all its plugins out of the shell into single .dlls, that should do it.

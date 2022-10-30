@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "228608"
+user: "microdee"
+created: "25 Sep, 2016 - 15:25"
+body: |-
+  yo guest! I've already tried it with multiple vvvv instances, one was getting openvr data in sync, the other was rendering the scene independently. it was worse than being 45 fps synced. problem is that the presentation of the image for the vive need to be at tight exact times otherwise it will be horribly glitchy and flashing in the headset. so the problem with the vvvv implementation is that it's asking for the waiting process at node evaluation and not at right before end of the frame so you can't really have a precise idea when vvvv asks for the next available state of the vr system also if anything else is not calculating afterwards, which can make missing frames. that's the reason why it is capped at 45 fps when the patch runs at 120+ fps without the VR syncing.
+  
+  + on this topic: is there a method with vvvv plugininterfaces in which I can make sure my thing will be executed last before presentation. is already one of the Mainloop events can do that?

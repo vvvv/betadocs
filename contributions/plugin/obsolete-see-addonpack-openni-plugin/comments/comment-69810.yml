@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "69810"
+user: "mediadog"
+created: "25 Sep, 2011 - 17:11"
+body: |-
+  With 26 and the new libs, all the previously red nodes are now OK except Configuration.  I have tried making sure it is pointing to the correct SamplesConfig.xml file, and tried ones with license keys, same result.  Frame rate also drops to 1, some kind of CPU loop going on.  On WinXP SP3.

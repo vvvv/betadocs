@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "214373"
+user: "motzi"
+created: "09 Jan, 2016 - 22:24"
+body: |-
+  i had red nodes due to the missing cli_cppuhelper.dll (which apparently comes with OpenOffice?!) as well.
+  
+  removing the corresponding reference in the .csproj files seems to have fixed the problem for me.

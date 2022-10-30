@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "168248"
+user: "milo"
+created: "09 Oct, 2014 - 15:05"
+body: |-
+  seems that the 64Bit (33.3) version has a problem findig assimp.dll

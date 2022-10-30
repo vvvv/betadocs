@@ -1,0 +1,43 @@
+### YamlMime:ContributionComment
+---
+uid: "59591"
+user: "sebl"
+created: "08 Feb, 2011 - 23:09"
+body: |-
+  doesn't work for me, too. 
+  on a new and clean system, only beta25 installed - everything working fine (also other dynamic plugins)
+  
+  but irrklang is a red node first. also selecting irrklang from the nodelist  doesn't do the job.
+  then, after dragging Irrklang.cs manually into the patch, vvvv frezzes...
+  
+  TTY states:
+  
+  ```
+  00:00:18 ERR : Exception in System.ComponentModel.Composition: The composition produced a single composition error. The root cause is provided below. Review the CompositionException.Errors property for more detailed information.
+  
+  1) Das angegebene Modul wurde nicht gefunden. (Ausnahme von HRESULT: 0x8007007E)
+  
+  Resulting in: An exception occurred while trying to create an instance of type 'VVVV.Nodes.Irrklang'.
+  
+  Resulting in: Cannot activate part 'VVVV.Nodes.Irrklang'.
+  Element: VVVV.Nodes.Irrklang -->  VVVV.Nodes.Irrklang -->  AssemblyCatalog (Assembly="-2078711173._dynamic_.0, Version=1.0.4056.43098, Culture=neutral, PublicKeyToken=null")
+  
+  Resulting in: Cannot get export 'VVVV.Nodes.Irrklang (ContractName="VVVV.PluginInterfaces.V1.IPluginBase")' from part 'VVVV.Nodes.Irrklang'.
+  Element: VVVV.Nodes.Irrklang (ContractName="VVVV.PluginInterfaces.V1.IPluginBase") -->  VVVV.Nodes.Irrklang -->  AssemblyCatalog (Assembly="-2078711173._dynamic_.0, Version=1.0.4056.43098, Culture=neutral, PublicKeyToken=null")
+  
+  Stacktrace:
+     bei System.ComponentModel.Composition.Hosting.CompositionServices.GetExportedValueFromComposedPart(ImportEngine engine, ComposablePart part, ExportDefinition definition)
+     bei System.ComponentModel.Composition.Hosting.CatalogExportProvider.GetExportedValue(CatalogPart part, ExportDefinition export, Boolean isSharedPart)
+     bei System.ComponentModel.Composition.Hosting.CatalogExportProvider.CatalogExport.GetExportedValueCore()
+     bei System.ComponentModel.Composition.Primitives.Export.get_Value()
+     bei System.ComponentModel.Composition.ExportServices.GetCastedExportedValue<T>(Export export)
+     bei System.ComponentModel.Composition.ExportServices.GetExportLifetimeContextFromExport<T>(Export export)
+     bei System.ComponentModel.Composition.ExportServices.<>c**DisplayClass1f`2.<CreateStronglyTypedExportFactoryOfTM>b**1e()
+     bei System.ComponentModel.Composition.ExportFactory`1.CreateExport()
+     bei VVVV.Hosting.Factories.DotNetPluginFactory.CreatePlugin(INodeInfo nodeInfo, IPluginHost2 pluginHost)
+     bei VVVV.Hosting.Factories.DotNetPluginFactory.CreateNode(INodeInfo nodeInfo, IInternalPluginHost pluginHost)
+  00:00:19     : Saved node info cache to Temp: C:\Dokumente und Einstellungen\sebl\Lokale Einstellungen\Temp\vvvv_cache\node_info_2215921739.cache
+  
+  ```
+  
+  hm, should become a forum thread - sorry for that

@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "209553"
+user: "joreg"
+created: "26 Oct, 2015 - 17:59"
+body: |-
+  @juan if you run setup.exe it will tell you if you have that installed and if not you can install it from there. it really only for the assimp nodes though. so if all others are not working, that will not help.

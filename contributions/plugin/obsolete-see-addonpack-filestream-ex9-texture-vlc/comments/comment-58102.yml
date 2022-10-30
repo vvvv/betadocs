@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "58102"
+user: "catweasel"
+created: "06 Jan, 2011 - 19:26"
+body: |-
+  I've had some random issues, when I first tried it I had it in my addons folder, and it would hang on opening, or sudden quit.
+  Sometimes the files dont seem to play, seems a bit random, on restarting vvvv things work again.
+  Position and frame count could do with updating everyframe, and loop in and outs would be nice too.
+  Apart from that, how happy am I to see video on 2 outputs, and as spreaded textures :D 
+  Performance seems really good, I've had 8 mixed res HD movies playing at once, and file switching seem good too, especially as it doesn't falt vvvv! There is some double trigging on changing movies, it repeats the first couple of frames it seems, is this the preloaded next movie switching in?
+  I've also had slices sticking, so 1 slice stops changing whent the file does, and I get a freeze frame, but this could be the avi's possibly, but they do seem to play mostly...
+  Great work though!

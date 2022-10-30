@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "155721"
+user: "herbst"
+created: "20 May, 2014 - 16:57"
+body: |-
+  I uploaded a DX11 version which is working, but not nice (texts are wrong format, contains a lot of hacks for strange Transform behaviours -- Billboard not working as I expected etc., no wireframe). Would be cool if someone makes it better, though.

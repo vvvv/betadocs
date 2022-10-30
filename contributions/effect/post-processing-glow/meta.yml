@@ -1,0 +1,19 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/post-processing-glow-meta"
+type: "effect"
+author: "unc"
+date: "10 May, 2011"
+title: "post-processing: Glow"
+originalURL: "contribution/post-processing-glow"
+category: "effect"
+credits: |-
+  thanks to kk for mipmap trick
+like_count: "16"
+imported: "true"
+teaser: |-
+  my first module/effect for vvvv, still working on it
+  
+  1.1 - fixed banding on gradients, also cheap dithering added at the end
+  1.2 - minor fixes, two more controls added
+  1.3 - ATI fix (vertexshader added), thx to microdee for the tip

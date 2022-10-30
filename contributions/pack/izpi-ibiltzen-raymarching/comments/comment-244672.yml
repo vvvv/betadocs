@@ -1,0 +1,19 @@
+### YamlMime:ContributionComment
+---
+uid: "244672"
+user: "ggml"
+created: "04 Sep, 2017 - 23:31"
+body: |-
+  this system can make nice use in realtime as Pedro has shown at that mapping this summer
+  if you plan to work the contrib further in vvvv context, i suggest a modular approach like this:
+  
+  node for formula input, maybe presets for basics, something like TransformIn for move around
+  node for boolean operation, two inputs and operation
+  node for ray emission, all your params in there
+  node for ray modifier, probably with formula input.. 
+  node for displacement with texture input
+  ToGeometry node
+  
+  hope this makes sens
+  
+  anyway keep up the good work bro bro

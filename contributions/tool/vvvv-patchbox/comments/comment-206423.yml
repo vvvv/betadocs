@@ -1,0 +1,21 @@
+### YamlMime:ContributionComment
+---
+uid: "206423"
+user: "velcrome"
+created: "21 Sep, 2015 - 15:09"
+body: |-
+  OK, i have now fiddled with this stuff for a week and added almost everything that we've been missing. 
+  There are a bunch of nice modules now that might help you to make even cooler additions to the GUI.
+  
+  Iirc the Patchlet Manager was an idea sketch of @Kalle waaay back, and it finally arrived to vvvv. It uses the hack from @sagashi, that a fresh comment can be interpreted as some kind of command prompt. 
+  Simply doubleclick and type: 
+  
+  ```
+  make render9
+  ```
+  
+  and hit enter, Patchbox will automatically load and insert the contents of the patchlet render9.v4p
+  
+  Also the possibilities to preconfigure an IOBox without Herr Inspektor are now quite compelling: font size, row- and column-count, and Value Type can be configured directly, with mouse + Alt and simple keystrokes. See help patches of IOScaler and IOType for details. 
+  
+  Please test.

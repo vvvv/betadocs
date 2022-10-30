@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "207156"
+user: "velcrome"
+created: "29 Sep, 2015 - 20:31"
+body: |-
+  mmh, not sure. the core of the dome pipeline is a cubemap texture (aka Full Sphere), and emeshe works with plain 2d textures to do its deferred shader magic. it might be possible to rewrite the shaders to use cubemaps instead, and keep using the material definitions and all the rest of emeshe.

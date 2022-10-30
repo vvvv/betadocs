@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "75472"
+user: "u7angel"
+created: "29 Jan, 2012 - 19:42"
+body: |-
+  i have to correct myself, Wrap0 =  U; doesnt do anything. texture mapping on spheres are broken. any idea why ?
+  
+  i tried globalstate + address and set Cycle U to 1 but this breaks the shadow, but fixes the texture.
+  
+  the picture is pretty much the demo patch, just floor with a sphere instead of a grid![](https://vvvv.org/sites/default/files/imagecache/large/images/MRE%20-%20Multipass%20Render%20Engine%201.0-DirectX%20Renderer_2012.01.29-20.41.24.png)

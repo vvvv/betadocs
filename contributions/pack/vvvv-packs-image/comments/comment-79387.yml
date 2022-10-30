@@ -1,0 +1,20 @@
+### YamlMime:ContributionComment
+---
+uid: "79387"
+user: "robe"
+created: "08 Mar, 2012 - 20:50"
+body: |-
+  @elliot
+  could you shade some lights?
+  :-)
+  
+  @circuirb:
+  Maybe for Ps3eye a custom Node will be usefull to access its parameters and use more than one. Elliot already did it in the LINK installation I downloaded from github...
+  
+  Starting with a Cleye Multicam Test sample I have two webcam working at the sametime, but is made with WPF and I don't know how to port in vvvv.
+  
+  <www.robesantoro.comCLEyeMulticamWPFTest.zip>
+  Maybe someone could?
+  
+  Cheers
+  robe

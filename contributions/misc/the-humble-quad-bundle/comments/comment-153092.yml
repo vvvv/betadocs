@@ -1,0 +1,17 @@
+### YamlMime:ContributionComment
+---
+uid: "153092"
+user: "dottore"
+created: "07 Apr, 2014 - 09:07"
+body: |-
+  not working on win 7 64 bit. 
+  it gives error on openig:
+  
+  Impossible to find method 'Int32 System.Environment.get_CurrentManagedThreadId()'.
+     in VVVV.Lib.CollectionNodes.<Cons>d**0`1..ctor(Int32 <>1**state)
+     in VVVV.Nodes.PaddleKeyboardHandler_0.update(IEnumerable`1& Keyboard_Handler, Int32& Speed)
+     in VVVV.Nodes.InputHandler_0.update(GroupKeyboardSensitive_0& KeyboardSensitive, Int32& Speed_Paddle_1, Int32& Speed_Paddle_2)
+     in VVVV.Nodes.Root_0.update()
+     in VVVV.Lib.Runtime.WinFormsMainLoop.<>c**DisplayClass1`1.<Run>b**0(Object s, EventArgs e)
+     in System.Windows.Forms.Timer.TimerNativeWindow.WndProc(Message& m)
+     in System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)

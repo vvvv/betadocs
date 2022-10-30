@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "63679"
+user: "hierro"
+created: "13 May, 2011 - 16:31"
+body: |-
+  @mrboni : yes i did it when .39 was released, actually im using it on a project, still dunno if it will be commercial or not, anyway i dont think i can share it until project is not finished, btw i m waiting for microsoft sdk for a possible direction change.
+  
+  @weareallclowns : if u check the nite/openni example you will find a couple of exe that track just hands without skeleton, actually it can be implemented in several ways, using .NET too, hope i got your point.
+  
+  @SITD_NL : in the new OpenniSDK there's something about the autogain of camera or something "auto", but until now changing that setting didn't give any result if not even a crash; didn't try myself cos im not working with pointcloud, anyway the issue is visible as you noticed.

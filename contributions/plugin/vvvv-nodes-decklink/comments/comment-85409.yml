@@ -1,0 +1,18 @@
+### YamlMime:ContributionComment
+---
+uid: "85409"
+user: "elliotwoods"
+created: "09 Jul, 2012 - 18:33"
+body: |-
+  The 1 frame latency is from a BlackMagic technician I spoke to about 3 years ago regarding the internal Intensity Pro product. When doing the PC A to PC B test then there's 3 more stages the image must go through before being presented on monitor B:
+  
+  #Capture from card into app (this is the 1 frame latency quoted by BlackMagic)
+  1. Wait for render frame (the video frame arriving whilst a render frame is being produced will generally need to wait for the next render frame before being presented to the screen)
+  1. Render from app to GPU out (1 frame latency)
+  1. Latency of second monitor (generally 10ms for a modern fast monitor)
+  
+  We negate step 4, presuming monitor A has the same latency
+  
+  Step 2 could be marginally improved by forcing each render to wait until a new frame arrives from the capture device. This would lower framerate of course, but improve latency by approximately 50% of a render frame.
+  
+  I've perhaps been overstating the latency ability of this capture route and haven't done as much serious testing as reading this contribution might imply. I'm mostly comparing it to a DirectShow approach. I've added your notes to the description.

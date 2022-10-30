@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "240003"
+user: "microdee"
+created: "25 May, 2017 - 09:45"
+body: |-
+  asimage and astexture DX11 might use now gone and deprecated *provider interfaces. someone will have to replace them with *host interfaces.

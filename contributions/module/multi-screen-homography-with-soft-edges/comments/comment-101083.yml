@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "101083"
+user: "catweasel"
+created: "17 May, 2013 - 12:00"
+body: |-
+  I should point out that you can also hold shift to speed up the movements for quick rough positioning, not sure if I mentioned that in the help patch?
+  @vjc4 the soft edge is done via the vvvv default softedge patch, its worked for me, is it the black level that is the issue, there is not any black level compensation atm...

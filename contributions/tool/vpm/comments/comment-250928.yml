@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "250928"
+user: "microdee"
+created: "15 Apr, 2018 - 20:04"
+body: |-
+  "user cancelled certificate check"
+  
+  this is very weird. if you have git installed can you check what it gives you in the command line in an empty folder?
+  
+  ```
+  git clone https://github.com/microdee/mp.fxh.git
+  ```

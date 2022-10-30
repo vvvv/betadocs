@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "216823"
+user: "darrellp"
+created: "18 Feb, 2016 - 16:53"
+body: |-
+  Thanks Sune.  I've been putting change comments in the log section which I thought would be good enough, but I can't see any way of getting to the log comments so I guess that's no help.  I'm not sure how to do versions.  Next one I check in I'll try to do that correctly.  I'll go ahead and modify the comments above to indicate changes from the last version.  Good news - I think the node/pin names and contents are pretty stable at this point.  A lot of roiling on these at the start after getting great comments from joreg.

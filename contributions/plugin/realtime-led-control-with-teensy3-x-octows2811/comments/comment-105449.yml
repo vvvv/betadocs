@@ -1,0 +1,16 @@
+### YamlMime:ContributionComment
+---
+uid: "105449"
+user: "velcrome"
+created: "28 Aug, 2013 - 15:22"
+body: |-
+  hi catweasel,
+  
+  *the home of pancosmic pyromanticism*? haha, that sounds fun.
+  our work was shown at gamescom in cologne as part of the xbox presence. it totalled about 5k of leds and 8 teensies. 
+  
+  on a side note:
+  anyone attempting a project like that, make sure you are aware of the electrical demands of an installation like that. if your wires are too flimsy for the massive currents that can build up, you loose too much voltage to maintain stable pwm.
+  ground ripple proved to be a problem too till we rewired almost everything.
+  
+  the teensy part is quite straight forward, though, thanks to the incredible work of Paul Stoffregen

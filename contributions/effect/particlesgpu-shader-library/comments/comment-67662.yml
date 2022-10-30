@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "67662"
+user: "sebl"
+created: "09 Aug, 2011 - 11:39"
+body: |-
+  is there a way to add a alpha-texture to "ParticlesGPU_SplineMesh" to control the opacity of each spline-geometry?
+  
+  thx

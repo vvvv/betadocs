@@ -1,0 +1,15 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/particle-self-repulsion-3d-dx11-meta"
+type: "effect"
+author: "sanch"
+date: "12 Aug, 2014"
+title: "Particle self repulsion 3d dx11"
+originalURL: "contribution/particle-self-repulsion-3d-dx11"
+category: "effect"
+credits: |-
+  Compute particle self repulsion in 3d with velocity gravity ...
+like_count: "7"
+imported: "true"
+teaser: |-
+  Compute particle self repulsion in 3d with velocity gravity ...

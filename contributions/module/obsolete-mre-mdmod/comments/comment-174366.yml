@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "174366"
+user: "microdee"
+created: "14 Nov, 2014 - 17:40"
+body: |-
+  @carllx: that's an old version, for simplicity replace that camera with the default/native Camera (Transform SoftImage) or Camera (Transform Orbit)

@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "247731"
+user: "bjoern"
+created: "15 Dec, 2017 - 12:17"
+body: |-
+  @woei None taken. 
+  
+  I suppose the EX9 plugin handles indices differently and also deals with negative indices. Guess previous frames to preload then could be handy for reversing playback direction?

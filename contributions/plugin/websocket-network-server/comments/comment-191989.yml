@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "191989"
+user: "sagishi"
+created: "22 Apr, 2015 - 16:01"
+body: |-
+  ok got it. adding the c#-projects rather than the dlls to the references did make the difference.

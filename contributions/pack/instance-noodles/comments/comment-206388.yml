@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "206388"
+user: "everyoneishappy"
+created: "21 Sep, 2015 - 07:30"
+body: |-
+  @elektromeier afaik it's not possible to make that kind of patched feedback loop with compute shaders in vvvv.  You might check this with Vux though.  The nodes are just there to provide last frame's data, which is still useful for many algorithms.

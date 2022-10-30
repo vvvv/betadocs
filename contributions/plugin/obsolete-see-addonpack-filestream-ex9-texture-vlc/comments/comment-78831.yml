@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "78831"
+user: "ft"
+created: "02 Mar, 2012 - 10:50"
+body: |-
+  @markus4: the url will be somewhere in the html page. But it's URL-encoded, so it needs to be translated back to a normal string (any plugins for that yet?). So you would need to do some XPath or regexp parsing, in order to find the URL in the page, and then URLdecode it. This could probably be done in a simple patch, and would be a useful contribution, I think.

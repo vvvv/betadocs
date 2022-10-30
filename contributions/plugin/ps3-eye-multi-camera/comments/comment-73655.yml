@@ -1,0 +1,22 @@
+### YamlMime:ContributionComment
+---
+uid: "73655"
+user: "robe"
+created: "20 Dec, 2011 - 08:22"
+body: |-
+  Hi Alec!
+  I've done it using this contribution, but performance are not so exciting..
+  
+  You've to join the renderers using dx9 textures and stilching and softedging the common side.. And because of the freeframe and videotexture involved you've got 40fps to start with.. (Excluding all the blob calculation and so on)..
+  
+  The solution will be for sure using the .dll that CL gives you when you download CL-Eye Platform SDK.
+  
+  There's an example in \CL-Eye Platform SDK\Samples\CLEyeMulticam\C#\ written in C# based on WPF that access to 2 Ps3Eye.
+  
+  I modified it to better understand the code and layout better the two images..
+  .. But I don't know how to make custom plugin in VVVV.
+  
+  Another idea would be use the BRAND NEW datatype "CV Image" Elliot Woods has created.. Maybe in the future in the EmguCV stuff will be another node called Ps3Eye (EmguCV) with a spreadable Camera ID input pin and all the pin to access the various parameter (there's an interesting one to correct lens distorsion).
+  
+  Until that day.. Good Luck
+  Cheers

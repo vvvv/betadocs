@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "203065"
+user: "lecloneur"
+created: "17 Aug, 2015 - 17:25"
+body: |-
+  @u7angel, drag and drop the tfx from the folder. There is a SSAO file already in addon pack and vvvv is using this one by default instead of Anton's one.

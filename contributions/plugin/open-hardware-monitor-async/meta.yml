@@ -1,0 +1,25 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/open-hardware-monitor-(async)-meta"
+type: "plugin"
+author: "soundreactor"
+date: "31 May, 2013"
+title: "Open Hardware Monitor (async)"
+originalURL: "contribution/open-hardware-monitor-(async)"
+category: "plugin"
+credits: |-
+  Open Hardware Monitor
+  http://openhardwaremonitor.org/
+like_count: "3"
+imported: "true"
+teaser: |-
+  someone might need this..
+  
+  http://openhardwaremonitor.org/
+  
+  i don't recommend using it continuously like shown in the help patch. since it uses a lot of performance.
+  
+  Notes:
+  -the settings are for Intel CPU (if you use AMD change the settings in the C# code)
+  
+  -disable UAC first!

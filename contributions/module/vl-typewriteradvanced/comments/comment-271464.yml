@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "271464"
+user: "tobyk"
+created: "22 Mar, 2019 - 10:42"
+body: |-
+  Found a small bug with reset to blank, will post a fix shortly

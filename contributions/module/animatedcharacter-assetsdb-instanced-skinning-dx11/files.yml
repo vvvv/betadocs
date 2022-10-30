@@ -1,0 +1,36 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/animatedcharacter-(assetsdb)-instanced-skinning-dx11-files"
+url: "animatedcharacter-assetsdb-instanced-skinning-dx11"
+category: "module"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "2"
+            filename: "InstancedSkinnin DX11.zip"
+            description: |-
+              DX11 Instanced Skinning
+            
+            timestamp: "17 Aug, 2015 - 19:12"
+            download_count: "6"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "1"
+                    filename: "AnimatedCharacter_0.4_Kinect (OpenNI).zip"
+                    description: |-
+                      v0.4 - fixed wrong jointname assignement
+                    
+                    timestamp: "06 Jun, 2013 - 13:16"
+                    download_count: "3"
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "AssetsDB_test_MODELS.zip"
+                    description: |-
+                      Put the MODELS folder inside the Patchfolder
+                    
+                    timestamp: "05 Jun, 2013 - 14:43"
+                    download_count: "1"

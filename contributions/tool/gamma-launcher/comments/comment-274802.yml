@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "274802"
+user: "sebescudie"
+created: "12 Jan, 2020 - 16:22"
+body: |-
+  hey motzi,
+  
+  thanks for the feedback! i just pushed a new release that solves the path issue by displaying a popup if the folder does not exist, and makes the toggles a bit less ambiguous by setting unchecked color to a soft grey.. this is not ideal of course, I guess it would be better to have some sort of icon, but Elementa does not allow this for now :)

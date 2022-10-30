@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "248335"
+user: "tmp"
+created: "18 Jan, 2018 - 15:00"
+body: |-
+  I uploaded a new version.
+  Both shaders can now draw directional and point lights at the same time and are simply called Phong and Gouraud :)

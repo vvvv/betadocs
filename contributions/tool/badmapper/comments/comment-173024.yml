@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "173024"
+user: "dominikKoller"
+created: "06 Nov, 2014 - 19:14"
+body: |-
+  @anonym_hk You have to apply masks to the content before putting it into badMapper. badMapper cannot do any masking (for now). It would be a lovely feature, I agree! 
+  
+  Maybe someone wants to give it a try? ;)

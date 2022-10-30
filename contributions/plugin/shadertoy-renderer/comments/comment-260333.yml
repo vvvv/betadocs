@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "260333"
+user: "mrboni"
+created: "02 Aug, 2018 - 19:51"
+body: |-
+  b36 dx11 version
+  
+  Still only supports Open GL 1.3 so some newer shader functions don't work. (updating to OpenGL4 looks like a lot of work)  Also doesn't support Shadertoy's multiple passes
+  
+  Feel free to add to revisions above
+  
+  <https://www.dropbox.com/s/k6yiie22a36xl56/ShadertoyRenderer%20v0.2%20dx11%20b36.zip?dl=1>

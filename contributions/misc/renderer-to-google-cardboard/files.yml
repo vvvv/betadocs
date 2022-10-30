@@ -1,0 +1,36 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/renderer-to-google-cardboard-files"
+url: "renderer-to-google-cardboard"
+category: "misc"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "2"
+            filename: "CardBoard-VR-DX11.zip"
+            description: |-
+              Headtracking support thru HyperIMU
+            
+            timestamp: "28 Feb, 2015 - 00:33"
+            download_count: "1"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "1"
+                    filename: "cavvvvdboavvvvdDX11.v4p"
+                    description: |-
+                      DX11 Version
+                    
+                    timestamp: "27 Feb, 2015 - 07:20"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "cavvvvdboavvvvdDX9.v4p"
+                    description: |-
+                      DX9 Version
+                    
+                    timestamp: "27 Feb, 2015 - 07:19"
+                    download_count: "1"

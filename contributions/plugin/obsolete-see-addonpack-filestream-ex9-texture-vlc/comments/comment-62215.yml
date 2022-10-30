@@ -1,0 +1,14 @@
+### YamlMime:ContributionComment
+---
+uid: "62215"
+user: "ft"
+created: "09 Apr, 2011 - 17:08"
+body: |-
+  +++++++ creating renderer pair X +++++++, means that a new video player is created. I actually use two video players (one playing and one for preloading), hence a 'pair'. If you increase the spread count, additional video-players are created when needed.
+  
+  Of course, 1 video player (slice 0) is created when the node is created, so actually, it *should* always say 'creating renderer pair 0' at least once...
+  
+  So I don't really know what the problem is. If you could create a patch where this happens consistently, and post it, I might be able to find out why it freezes... 
+  
+  
+  @puig: I can confirm the problem with 'Camera (Transform Softimage)', it didn't happen always, I have been able to add the node successfully at least once (but saving and reloading that patch, it crashed again). When Vlc crashes over here, it's most often in libfreesound.dll or something similar, so it might be a Vlc player bug. It's not clear to me where the remaining problems lie.

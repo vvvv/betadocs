@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/deselect-files"
+url: "deselect"
+category: "plugin"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "Deselect.zip"
+            timestamp: "27 Feb, 2011 - 17:55"
+            download_count: "7"

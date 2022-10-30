@@ -1,0 +1,16 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/glow-pass-meta"
+type: "effect"
+author: "dottore"
+date: "22 Jul, 2010"
+title: "Glow pass"
+originalURL: "contribution/glow-pass"
+category: "effect"
+credits: |-
+  sanch (Gaussianblur.fx)
+like_count: "22"
+imported: "true"
+teaser: |-
+  Glow pass using GaussianblurRatio.fx
+  GaussianblurRatio.fx is a modified version of Gaussianblur.fx that supports non square textures (manages aspect ratio).

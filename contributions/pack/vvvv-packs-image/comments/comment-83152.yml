@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "83152"
+user: "mediadog"
+created: "22 May, 2012 - 15:49"
+body: |-
+  With "VideoIn (CLEye) help" I am getting zero fps - and all four CPU cores peg at 100%.  "VideoIn (OpenCV DirectShow) help" works fine using the ps3eye.
+  
+  I am on Win7 x64 using the latest CL Eye Platform SDK, 1.3.0.1205, which recently came out.  I'll try going back to a previous version...

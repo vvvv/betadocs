@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "253948"
+user: "dennis"
+created: "24 May, 2018 - 13:00"
+body: |-
+  [everyoneishappy](http://vvvv.org/users/everyoneishappy), [seltzdesign](http://vvvv.org/users/seltzdesign): Guess my project configuration is a bit off, the plugin is asking for the Debug runtime (compiled as release though..), which is prolly missing on your machines. For now, drop [these](https://drive.google.com/open?id=1dyEKmmoVsSpyjMbP3D286O_tyOmz-j5U) into the core folder. Next update I'll try to fix this.
+  
+  [readme](http://vvvv.org/users/readme): sounds like I skipped handling some states - in case you find out how to reproduce these, lemme know. Would like to tackle these issues, ty!
+  
+  [mburk](http://vvvv.org/users/mburk): already played around with a lil bit, shouldn't take too long to release that too!

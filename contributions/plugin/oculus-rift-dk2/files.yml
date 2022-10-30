@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/oculus-rift-dk2-0-files"
+url: "oculus-rift-dk2"
+category: "plugin"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "OculusWrap-1.0.zip"
+            description: |-
+              First release, please test...
+            
+            timestamp: "24 Apr, 2015 - 14:46"
+            download_count: "1"

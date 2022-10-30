@@ -1,0 +1,40 @@
+---
+uid: "contribution/line-mapping-tool"
+uid-meta: "contribution/line-mapping-tool-meta"
+comments: 
+ items: 
+  - uid: "105175"
+  - uid: "105258"
+  - uid: "105285"
+  - uid: "108557"
+  - uid: "238404"
+uid-files: "contribution/line-mapping-tool-files"
+title: "Line Mapping Tool"
+image: "_Main_Mapping-MAIN_2013.08.21-10.16.10.png"
+contribution: "true"
+---
+
+THIS IS JUST LITTLE PART OF TOOL I'M RE-DOING FOR DX11, LET ME KNOW IF YOU WANNA HELP ME TO IMPROVE OR ADD MORE FEATURES
+sarchiapone@yahoo.com
+
+Just open "_main_mapping" and you'll have all the instructions on the patch...
+
+(Actually start alone, if you wanna edit or play with it just DESELECT the "(2) tron Effect")
+
+while the line are running, you can play with the PARAMETERS, them go from 0 to 127 (i use it with midi controller)
+now, if you de/activate the tron Effect, hit "(3) RESET ALL" and you can start from zero, the instruction are again on the patch
+
+LEFT CLICK: Draw a Point
+CTRL+CLICK: Draw a Bezier Point (MAX 3)
+SHIFT+CLICK: Attach the point (only when other point is blu X)
+RIGHT CLICK: start other path
+
+*for a closed shape, Shift click over the first point in order to close the shape. Then right click finish this path and start next
+
+EDIT MODE
+TAB: next path
+ENTER: next point
+CURSOR UP DOWN LEFT RIGHT: move the selected point
+
+hit "(4) mode mode" if you wanna edit the shape you drawn
+you can hide the background, or load one different

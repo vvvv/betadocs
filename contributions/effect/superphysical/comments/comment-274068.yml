@@ -1,0 +1,10 @@
+### YamlMime:ContributionComment
+---
+uid: "274068"
+user: "mburk"
+created: "26 Oct, 2019 - 15:14"
+body: |-
+  Hi manuel,
+  I cannot reproduce the refraction issue.
+  Please move these questions to the forum, I think it's more convenient to discuss there.
+  Also please attach an example patch - this would help figure out the problem. My guess is, that refraction is not configured correctly in the material, but let's see.

@@ -1,0 +1,36 @@
+### YamlMime:ContributionComment
+---
+uid: "209877"
+user: "everyoneishappy"
+created: "01 Nov, 2015 - 03:21"
+body: |-
+  1.  Alpha 0.2 Stuffs
+  
+  ##  New Nodes
+  
+  **Geometry**
+  * Kinect2Face (DX11.Geometry)module wrapping HDFace
+  * Writer (DX11.Geometry OBJ) obj writer with instance ID to mesh subset support
+  * Merge (DX11.GeomFX)flatten cpu transforms to a single mesh, or multiple instance batches to a single one
+  * PN_Tesselator (DX11.GeomFX)smooth tessellation
+  
+  +some nice deformers, thanks to UNC for smooth normals trick.
+  * Deformer (DX11.GeomFX) 
+  * SurfaceDistortions (DX11.GeomFX)
+  * Wobble (DX11.GeomFX)
+  
+  **Compute**
+  * Transpose (Transform Buffer)
+  * SwapDim (2D Buffer)
+  * SwapDim (3D Buffer)
+  
+  **Layer**
+  * GouraudDirectionalBuffered (DX11.Layer)
+  ****
+  ##  Changed /fixed Nodes
+  
+  * IID (DX11.GeomFX)  fixed nasty crashing bug on changing to nil geom.  Now reverts to a box now when there is no geometry to instance.
+  * SplineBuffered (DX11.Geometry) now supports radius per control point as well as per spline
+  * Removed uv passthrough  in UV_Coords (DX11.GeomFX) to allow geometry with no uv.  Did some fixes to uv modes and moved them to modules\Common\UV.fxh   Added UV mode options to control maps for Triframe, CutTriangle & Extrude.
+  * BuildTextureArray (DX11.TextureFX) fixed reverse ordering of textures bug
+  * Cross (3D Buffer) fixed disconnected  link

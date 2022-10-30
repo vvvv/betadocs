@@ -1,0 +1,15 @@
+### YamlMime:ContributionComment
+---
+uid: "209411"
+user: "mediadog"
+created: "23 Oct, 2015 - 23:40"
+body: |-
+  Most excellent!  A few questions:
+  
+  - Is it possible to change where the cache lives, so it is not in the plugin folder?
+  
+  - How does one do a global vs. object callback?
+  
+  - The "Show Devtools" pin is obvious enough (LOVE IT), but what about "LivePage" and "Console"?
+  
+  Thanks gumilastik!

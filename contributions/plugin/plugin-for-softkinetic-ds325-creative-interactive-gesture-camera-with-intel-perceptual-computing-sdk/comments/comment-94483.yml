@@ -1,0 +1,21 @@
+### YamlMime:ContributionComment
+---
+uid: "94483"
+user: "zeos"
+created: "11 Jan, 2013 - 16:22"
+body: |-
+  Hi vvvvolks,
+  
+  I just installed the Intel Driver (beta1) 32bit from  metrowave's link,
+  but when I run the examples I got that:
+  
+  <div class="box">
+   c:\Program Files (x86)\Intel\PCSDK\bin\win32>gesture_viewer.cs.exe
+   Failed to locate a capture module
+  </div>
+  
+  in vvvv I get exception
+  
+  Any ideas
+  
+  Thanks!

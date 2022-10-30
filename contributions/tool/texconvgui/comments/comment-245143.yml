@@ -1,0 +1,15 @@
+### YamlMime:ContributionComment
+---
+uid: "245143"
+user: "antokhio"
+created: "10 Sep, 2017 - 15:08"
+body: |-
+  Oui! 
+  Now it works, but i can't view any of BC7_UNORM dds lol
+  just hangs vvvv hmmm.... also seems other types of compression also don't work
+  
+  update: nop BC7 worked like charm, just not with filetex pooled
+  update 2: even more weird now everything works like charm for whatever reason.... 
+  seems like first time it did something wrong.
+  
+  Also is it necessary to put resolution in "Resizing" or it takes source?

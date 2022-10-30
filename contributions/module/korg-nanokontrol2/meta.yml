@@ -1,0 +1,13 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/korg-nanokontrol2-meta"
+type: "module"
+author: "yar"
+date: "04 Jun, 2019"
+title: "KORG nanoKONTROL2"
+originalURL: "contribution/korg-nanokontrol2"
+category: "module"
+like_count: "3"
+imported: "true"
+teaser: |-
+  Hi, want to share something very useful - hybrid vvvv/vl module that provide a simple way to patch Korg nanoKONTROL2 in your projects. Just put it in your modules and it was never simpiest to add rotary, slider or buttons in patch.

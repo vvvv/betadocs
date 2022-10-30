@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "76265"
+user: "sunep"
+created: "14 Feb, 2012 - 11:09"
+body: |-
+  perhaps it is me, but I can not get GetVariable to work not when I add GetVariable to the TweakBar helppatch and not in the GetVariable help patch.
+  
+  the resize works fine now, I did however get some funky behavior with both help patches open

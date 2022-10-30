@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "193962"
+user: "microdee"
+created: "06 May, 2015 - 14:11"
+body: |-
+  i had to split the contribution in 2 files because the assets were exceeding 150 mb. so if you have missing assets you probably didn't downloaded them from the google drive link. 
+  for red nodes sorry if some doesn't have the correct paths in girlpower, vvvv needs a tool for node path management.
+  CV image is only needed for opening hdr image formats (the environment maps) so it's not mandatory.

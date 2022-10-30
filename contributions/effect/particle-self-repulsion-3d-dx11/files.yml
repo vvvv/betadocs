@@ -1,0 +1,24 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/particle-self-repulsion-3d-dx11-files"
+url: "particle-self-repulsion-3d-dx11"
+category: "effect"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "1"
+            filename: "Self repulsion particle 3D.zip"
+            description: |-
+              better rendering with sphere instancing
+            
+            timestamp: "12 Aug, 2014 - 15:45"
+            download_count: "2"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "Self repulsion particle 3D.zip"
+                    timestamp: "11 Aug, 2014 - 23:59"
+                    download_count: "10"

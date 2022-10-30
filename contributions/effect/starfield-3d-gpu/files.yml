@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/starfield-3d-gpu-files"
+url: "starfield-3d-gpu"
+category: "effect"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "StarfieldParticles.zip"
+            timestamp: "26 Jun, 2013 - 11:27"
+            download_count: "1"

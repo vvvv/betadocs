@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "109784"
+user: "seltzdesign"
+created: "13 Nov, 2013 - 11:56"
+body: |-
+  Just tried 2.1 with beta31.2 and both in MRE and DeferredBase, the node Sampler (DX11 Advanced) is red and appears to be missing. Anyone know where to get this from or why it is missing??

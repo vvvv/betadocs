@@ -1,0 +1,17 @@
+### YamlMime:ContributionComment
+---
+uid: "107894"
+user: "robe"
+created: "10 Oct, 2013 - 08:22"
+body: |-
+  @synth
+  
+  there's an help patch in packs\Images\nodes\plugins called Decode (Image.StructuredLight) help.v4p. Using the new build from <https://github.com/elliotwoods/VVVV.Packs.Image> after relinking some red node I'm able to see how it works and it exactly output the UV pass of the scanned area.
+  
+  My question is is there a DX11 shader that accepts 2 texture doing the UV map?
+  1 Source texture to be mapped according to the UVpass of the 2nd.
+  
+  Also is there a way to accellerate this process?
+  
+  Anyway this contribution rocks!
+  thanks Elliot!

@@ -1,0 +1,12 @@
+### YamlMime:ContributionComment
+---
+uid: "273680"
+user: "Aurel"
+created: "31 Aug, 2019 - 14:48"
+body: |-
+  I clone the SSD of my laptop where Leap(Device)VL work fine with Orion 4 and Vvvv 38.1 x64.
+  I put the SSD on my PC wich is a Xeon but Leap is not working, not connected.
+  Can you help me to understand from where can come the problem ?
+  The Unity visualizer is still working perfectly.
+  
+  Thanks,

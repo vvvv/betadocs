@@ -1,0 +1,16 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/quadstripe-(dx11.layer)-meta"
+type: "effect"
+author: "antokhio"
+date: "12 Jul, 2015"
+title: "QuadStripe (DX11.Layer)"
+originalURL: "contribution/quadstripe-(dx11.layer)"
+category: "effect"
+credits: |-
+  Oroginal code from paulhoux https://github.com/paulhoux
+like_count: "11"
+imported: "true"
+teaser: |-
+  Quad stripe in GS.
+  Adopted and translated by antokhio.

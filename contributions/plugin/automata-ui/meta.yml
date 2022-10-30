@@ -1,0 +1,87 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/automata-ui-meta"
+type: "plugin"
+author: "u7angel"
+date: "31 Aug, 2016"
+title: "Automata UI"
+originalURL: "contribution/automata-ui"
+category: "plugin"
+credits: |-
+  Christian Engler // wirmachenbunt
+like_count: "29"
+imported: "true"
+teaser: |-
+  1.  Hello Automata UI !
+  
+  this is a visual finite state machine editor with built in finite state machine.
+  
+  You want bulletproof logic ? You better use the automata node! Well, that's what [bjoern" "bjoern](http://vvvv.org/users/bjoern%22+%22bjoern) told me a couple of years ago. And he was right. If your patch becomes more and more complex, more and more bugs turn up due monoflop, delay, flipflop and framedelay madness. It's much easier with a statemachine.   
+  
+  But since it is probably no fun writing quadruples, it makes sense to introduce a visual editor. 
+  
+  **Some Features**
+  
+  So here it is. Inspired by bjoern's "Timer" concept, transitions not only last a frame but can have a configurable duration. Quite useful for any animated user interface project, where animated transitions should be in sync with your logic.
+  
+  Transitions can be pingpong, meaning they can be bi-directional. States on the other hand have a duration as well, blocking any outgoing Transition for a certain amount of time.
+  
+  More rules are in the help patch.
+  
+  **Remarks**
+  
+  And let's not forget, Automata UI is inspired by http://qfsm.sourceforge.net/.
+  
+  
+  we (wirmachenbunt studio) use the plugin in all recent projects and it made our vvvv patcher life a lot more pleasant. hence we hope it can help you too.
+  
+  <div class="embed-responsive embed-responsive-16by9 mt-3 mb-4">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/I8CmERSoyPc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+  
+  **CHANGELOG**
+  
+  1.9
+  *Regions aka "the big OR" (Quote:Tonfilm)
+  *Auto uppercase statenames
+  *Autonaming for transtions
+  *Dialogs appear close to mouse
+  
+  <div class="vimeo embed-responsive embed-responsive-16by9 mt-3 mb-4">
+      <iframe title="vimeo-player" src="https://player.vimeo.com/video/278362310" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+  </div>
+  
+  1.8.3
+  *Help Patches
+  *new Spreadcount Behaviour
+  *comes as a pack
+  *new ResetToState Node
+  *improved enum handling
+  *set transition time fix
+  
+  
+  1.7.22
+  *new SetTransitionTime Node
+  *new TriggerTransition Node
+  
+  1.7
+  *HiDPI compatible
+  *GetState node for easy animation
+  *Logging node for statistics
+  *spreaded automata UI
+  *CTRL + click on transition/state triggers them
+  *hidden focus pin to bring the UI up
+  *bezier transitions
+  *license key technique added
+  
+  1.1
+  * spreadable edition
+  * view slice of automata in editor via inspektor setting
+  * force state by ctrl + leftclick on state
+  * removed JSON library dependency
+  * output all transition time settings as a spread  
+  
+  ----------------------------------------------------------------------------------
+  
+  The plugin is open source
+  https://github.com/wirmachenbunt/AutomataUI

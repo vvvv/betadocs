@@ -1,0 +1,10 @@
+### YamlMime:ContributionComment
+---
+uid: "65594"
+user: "circuitb"
+created: "21 Jun, 2011 - 10:36"
+body: |-
+  hi phlegma,
+  the RGB and the Depth nodes since they're connected to the configuration node.
+  each node take 10% of my i7 980x! 3 of the 12 cores goes crazy with peaks@100%
+  and even if i delete those nodes the cpu usage stay the same.

@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "89273"
+user: "sanch"
+created: "05 Oct, 2012 - 18:14"
+body: |-
+  I think it should work , but the problem will be that you'll have to change the other node to have json input spreadable as well , add a binsyze for the query node otherwise there will be no way to know wich query go with wich json.
+  Actually an easier way will be to add all the json together with +(string spectral) node with the correct json formatting and query it as a single json , much more easy than dealing with binsyze stuff and at the end you got the same result.
+  The node for the list is also not spreadable , but could be without to much work , as well a binsyze output will be needed to identify the ouput data with the corresponding query.
+  
+  Usually when i don't have time, i don't care about doing stuff i don't need , but i still share the result...

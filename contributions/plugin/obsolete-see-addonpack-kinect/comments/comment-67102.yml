@@ -1,0 +1,14 @@
+### YamlMime:ContributionComment
+---
+uid: "67102"
+user: "jpryde"
+created: "26 Jul, 2011 - 17:34"
+body: |-
+  This plugin seems to not work for me about half the time (mostly when I have a vvvv patch with lots of shaders).  It just either gives me a starting or error message and never provides a depth or color image.  Anyone else experiencing this?
+  
+  I am using the CLNUI drivers 1.0.0.1121.
+  
+  Also, is the source available for this plugin?  I would love to take a look at it and see if I can fix the issues I am seeing.
+  
+  Many Thanks,
+  joel

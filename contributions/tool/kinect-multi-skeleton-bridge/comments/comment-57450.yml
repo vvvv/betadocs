@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "57450"
+user: "screamer"
+created: "22 Dec, 2010 - 01:47"
+body: |-
+  you are right sapo, this is a problem of the help patch. Really the positions comes relative to fraeme for x and y (0 to 640 - 0 to 480) and for the z comes in millimeters of distance between the sensor and the object tracked. But for now i'm doing 2 map (after the cons) that has source values from 0 to 10000 and the destination from -.35 to 1. But it's absolutely arbitrary, if you lower down the 10000 or increase the gap between min and max destination, you should obtain the wanted depth... tomorrow i'll try to find a realistic conversion approach :)

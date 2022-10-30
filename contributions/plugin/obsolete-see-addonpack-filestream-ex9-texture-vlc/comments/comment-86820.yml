@@ -1,0 +1,12 @@
+### YamlMime:ContributionComment
+---
+uid: "86820"
+user: "circuitb"
+created: "11 Aug, 2012 - 02:41"
+body: |-
+  hi
+  does the aout command is supposed to work with the current vlc plugin?
+  i try the following command to select audio output driver
+  0001 2-Audio.wav | aout="directx" | directx-audio-device-name="myDevice"
+  but no success!
+  thanks

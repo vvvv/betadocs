@@ -1,0 +1,12 @@
+### YamlMime:ContributionComment
+---
+uid: "107844"
+user: "ain"
+created: "09 Oct, 2013 - 10:14"
+body: |-
+  thank you for the enormous work md!
+  one think i want to know - which shadow filtering algorithm are you using - is it VSM or another one?
+  i'm going to take the shadows alone and optimize them, and hope to make separate contribution, it may be very useful. any advice for optimizing?
+  
+  @matka: from time to time i have my laptop frozen because of preview(dx11.texture).
+  maybe same at yours

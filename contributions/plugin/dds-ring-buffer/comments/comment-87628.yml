@@ -1,0 +1,10 @@
+### YamlMime:ContributionComment
+---
+uid: "87628"
+user: "elliotwoods"
+created: "26 Aug, 2012 - 12:00"
+body: |-
+  interesting.
+  i'm using byte arrays for storage which you can't actively flush (the .NET garbage collector is supposed to clean that up when it feels like).
+  I can provoke the garbage collector to get on with its job whenever you ask as well, so I can do that when the pin's changed
+  (flushing GC manually results in a temporary pause of the whole app, something like 50ms)

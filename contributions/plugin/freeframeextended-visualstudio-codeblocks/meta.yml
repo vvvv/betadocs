@@ -1,0 +1,26 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/freeframeextended-visualstudiocodeblocks-meta"
+type: "plugin"
+author: "kopffarben"
+date: "30 May, 2011"
+title: "freeFrameExtended VisualStudio/CodeBlocks"
+originalURL: "contribution/freeframeextended-visualstudiocodeblocks"
+category: "plugin"
+credits: |-
+  FreeFrameExtended and FreeFrameExtendedOpenCV for VisualStudio/CodeBlocks
+like_count: "3"
+imported: "true"
+teaser: |-
+  1.  Description
+  
+  * this is freeFrameExtended and freeFrameExtendedOpenCV Plugin for VVVV
+  * it use cmake to build your projectFiles
+  * so your projectFiles and your SourceCode is clearly seperated
+  * you can build your projectFiles for different IDEs (ie. VisualStudio/CodeBlocks ....)
+  
+  Read readme.pdf
+  
+  
+  Johannes Schmidt
+  www.kopffarben.de

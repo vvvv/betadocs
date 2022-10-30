@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "276650"
+user: "mediadog"
+created: "11 Sep, 2020 - 20:10"
+body: |-
+  @ravazquez Is that how it looks FROM the moving viewpoint?  For if you are standing back looking at the image, when the viewpoint is getting closer to the screen, it is seeing a wider angle "through" the rectangle and it will look like objects are getting smaller.  Conversely when the viewpoint is getting farther way, it is looking through a narrower angle and objects still in view will get larger on the screen.  But when you are actually at the viewpoint, it should look correct because you are getting closer to the screen as objects get smaller to compensate, etc.

@@ -1,0 +1,48 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/heightmap-displacement-files"
+url: "heightmap-displacement"
+category: "effect"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "4"
+            filename: "PhongDDN.zip"
+            description: |-
+              DX11 version
+            
+            timestamp: "04 Apr, 2013 - 10:52"
+            download_count: "1"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "3"
+                    filename: "PhongDirectional_Heightmap_Displacement_with_Normals.zip"
+                    description: |-
+                      Another fix, see comments
+                    
+                    timestamp: "08 Apr, 2012 - 16:27"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "2"
+                    filename: "PhongDirectional_Heightmap_Displacement_with_Normals.zip"
+                    description: |-
+                      Small fix for Amount-Pin
+                    
+                    timestamp: "07 Apr, 2012 - 21:39"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "1"
+                    filename: "PhongDirectional_Heightmap_Displacement_with_Normals.zip"
+                    timestamp: "07 Apr, 2012 - 14:06"
+                    download_count: "6"
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "Heightmap Displacement.zip"
+                    timestamp: "07 Apr, 2011 - 02:20"
+                    download_count: "1"

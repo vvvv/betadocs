@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/foscam-ip-camera-camera-control-files"
+url: "foscam-ip-camera-camera-control"
+category: "misc"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "ipcamera.zip"
+            timestamp: "22 Feb, 2014 - 14:49"
+            download_count: "1"

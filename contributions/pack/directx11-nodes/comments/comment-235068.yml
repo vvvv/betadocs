@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "235068"
+user: "mburk"
+created: "07 Feb, 2017 - 09:22"
+body: |-
+  Thanks for this great update!
+  
+  Text (DX11.Geometry) isn't working for me though.
+  Renderer in Girlpower is black.
+  On Windows 10, x64, NVIDIA 1080.

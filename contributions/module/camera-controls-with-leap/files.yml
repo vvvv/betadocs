@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/camera-controls-with-leap-files"
+url: "camera-controls-with-leap"
+category: "module"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "LeapCamera.7z"
+            timestamp: "25 Nov, 2013 - 17:13"
+            download_count: "1"

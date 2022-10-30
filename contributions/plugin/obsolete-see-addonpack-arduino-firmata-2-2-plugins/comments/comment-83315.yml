@@ -1,0 +1,18 @@
+### YamlMime:ContributionComment
+---
+uid: "83315"
+user: "jens.a.e"
+created: "25 May, 2012 - 14:47"
+body: |-
+  Hi all,
+  
+  first of alle thx to motzi for finding out "bug" for PullUp/PullDown handling. I regard this a bug, because the way you describe it it is the easiest to handle. We thought about using some toggle inspektor pin, but after some thinking i came to the conclusion, that the value that is set to the pin is fine for setting the mode. otherwise, it would mean yet another spread of "modes" for the digital pins – one single won't do it, because it really _can_ happen, that you have some strange setup on your breadboard mixed with some shields (e.g. the dangershield which is one that uses pullup mode) and then it would just break. Long bla, short answer; implemented as suggested :) thx!
+  
+  i am packing things at moment for another pull request. Full I2C support unfortunatly will be set back, as i do not have enough devices to really test this and it needs some thinking about the configuring section. So for this first release i want to ship with experimental I2C decoding as it is already done.
+  
+  Another feature up the pipe is shift register support. This actually quiet likely to happen in the next couple of weeks, as i need it for another project. Keep fingers crossed time is sufficient enough.
+  
+  As the development of the actual plugin and the integration for the addonpack happen asyncronous i will also try to find a way to easily test the plugin release candidates. Suggestions welcome :)
+  
+  
+  Thx to alle for the wonderful feedback, i'll get back to the console for some git.... :)

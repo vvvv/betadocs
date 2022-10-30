@@ -1,0 +1,10 @@
+### YamlMime:ContributionComment
+---
+uid: "227946"
+user: "ggml"
+created: "16 Sep, 2016 - 16:36"
+body: |-
+  @andresc4 you can translate a grid on z axis and connect it to hmd pose transform
+  
+  btw: 
+  any chance for a dx11 screenshot node for virtual patching purposes ?

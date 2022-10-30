@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "198974"
+user: "microdee"
+created: "16 Jun, 2015 - 15:19"
+body: |-
+  hahaa! i wanted to port the dx9 version to dx11 but this makes my job way much easier. so is there a technical reason of the lack of x64 version?
+  
+  Ok i see now what's the problem with x64. phew this is not in a good situation. I will try to do a geckofx based html renderer. I managed to compile it to x64 and winforms and wpf tests are working so that shouldn't be an obstacle

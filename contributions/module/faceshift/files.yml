@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/faceshift-files"
+url: "faceshift"
+category: "module"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "faceshift_1.zip"
+            timestamp: "31 Aug, 2012 - 21:25"
+            download_count: "1"

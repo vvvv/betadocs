@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "252006"
+user: "microdee"
+created: "07 May, 2018 - 16:17"
+body: |-
+  @circuitb: nope I use ValueTuples so Notui requires .NET 4.7. I thought it's coming with windows updates for windows 7+. But good note, I'll add it to the requirements

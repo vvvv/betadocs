@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "63825"
+user: "microdee"
+created: "18 May, 2011 - 04:16"
+body: |-
+  it outputs nothing but black for me. i have an ati card so if ps 3.0 is used the vs 3.0 must be used as well. so i looked in the shader code and i didn't really found a function for vertex shading at all. in tc0 technique i just found pixelshader=compile ps_3_0 no vertex shader. so i managed to add vs code and i hammered the passes until it displayed something reasonable.
+  here's the code. is its output correct? if it isn't please correct it for ati cards, anyway you understand your own code better.
+  http://dl.dropbox.com/u/1218206/PPglow.fx

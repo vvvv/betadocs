@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "111885"
+user: "tonfilm"
+created: "26 Dec, 2013 - 11:49"
+body: |-
+  the audio engine node has a setting for how many input channels you want to open. try changing that. it seems to be a bug that the AudioIn has more output channels as requested.

@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/rfid-phidget-reader-files"
+url: "rfid-phidget-reader"
+category: "plugin"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "DevicesPhidgetRFID.zip"
+            timestamp: "10 Mar, 2011 - 14:46"
+            download_count: "1"

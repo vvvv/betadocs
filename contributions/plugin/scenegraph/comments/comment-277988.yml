@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "277988"
+user: "mediadog"
+created: "14 Mar, 2021 - 00:32"
+body: |-
+  Danged if I can find a way to get the texture transforms.  If I load a model that has a repeating texture applied, the texture is stretched to the whole mesh since there is no way to apply anything to the Texture Transform pin of a shader.
+  
+  The Assimp nodes suffer from the same problem - there is no Texture Transform output pin on the Materials node there either.  So is this just an artifact of the underlying library not supplying it?
+  
+  I was all excited to use this since it is so much more elegant than the native Assimp nodes, but this is a deal killer.  Pout.  Am I missing something?

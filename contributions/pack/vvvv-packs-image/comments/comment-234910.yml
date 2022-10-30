@@ -1,0 +1,16 @@
+### YamlMime:ContributionComment
+---
+uid: "234910"
+user: "schlonzo"
+created: "01 Feb, 2017 - 13:45"
+body: |-
+  hi all,
+  
+  ImagePack_x64.7z - 25.11.16 <23:39%20UTC> by sebl @ 45beta24.2x64
+  also tried some older builds, but not all of them.
+  
+  If I setup the CV.Image(VfW) to 1080p, I just get 480p streams out of it.
+  one or two cams, without repeater - same issue. Logitech 910B HD.
+  
+  elliots videoin is red, altough i have visual studio installed..
+  any ideas?

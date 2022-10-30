@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/numark-orbit-mapper-files"
+url: "numark-orbit-mapper"
+category: "tool"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "NumarkOrbitMidiMapper.zip"
+            timestamp: "24 Oct, 2013 - 20:04"
+            download_count: "1"

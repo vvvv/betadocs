@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "100229"
+user: "Takuma"
+created: "27 Apr, 2013 - 17:46"
+body: |-
+  Sound awesome, but not working here! can somebody help me?
+  I've got Nvidia and followed the whole instruction,vvvv is running on dx9ex, put the DX texture in resolume>plugin>vfx, the plugin appieres on resolume. However nothing  shows up on the output.
+  I see resolume crashing when I put wrong sharing name, so probobly something wrong on resolume side?

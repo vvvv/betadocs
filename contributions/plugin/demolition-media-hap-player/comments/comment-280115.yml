@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "280115"
+user: "schlonzo"
+created: "23 Feb, 2022 - 12:31"
+body: |-
+  hi, we are interested in using your contrib for an upcoming VL project, but I always get an exception "HapAudioSignal is no IcustomRegion". I tried with the latest stable and different vaudio nugets.

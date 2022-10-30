@@ -1,0 +1,18 @@
+### YamlMime:ContributionComment
+---
+uid: "58898"
+user: "rene"
+created: "24 Jan, 2011 - 17:50"
+body: |-
+  Hello,
+  
+  my first post here, so i'm a bit nervous :-)
+  
+  i've been playing around with the new VLC plugin and so far i think it's a great extension to vvvv.  Though, of course, i found some questions and issues while using it. 
+  
+  First of all the looping functionality: After the end of a video, it takes a loooong time to replay the video again. I am using WIN7, VLC 1.1.5 and 45beta25. It seams that the file must first be reloaded again. In the VLC player itself (from which i am using the plugins folder and dlls) i switched of the annoying font cache loading message/functionality which always started when opening new videos. (maybe some of you know this problem) So this is switched off now. I don't know if settings to the VLC player have any effect on the vvvv plugin. Maybe it takes so long because of the font cache problem which is still active in the plugin. Preloaded next videos can be played directly. Any help here is very welcome.
+  
+  Second, i have a question about syncing videos in a boygroup scenario using the VLC plugin. Has anyone already tried this one out? Could it be used in the syncing patch provided by tonfilm, so instead of the filestream node in the very heart of the VideoSync (VVV Client) patch, a VLC node is used. As well, any help here is very welcome.
+  
+  Thanks a lot,
+  r.

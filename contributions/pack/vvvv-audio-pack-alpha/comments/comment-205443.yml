@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "205443"
+user: "mediadog"
+created: "13 Sep, 2015 - 01:53"
+body: |-
+  Also for the wish-list:
+  
+  - Being able to specify different/multiple input and output devices.  Forcing the input and output to the same device is sort of limiting.
+  
+  - A version of FileStream(VLC) with VAudio output for video playback!  Since that node takes a spread of input files and produces a spread of textures, seems like a natural to also output a spread of audio channels.

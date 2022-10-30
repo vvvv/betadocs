@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "217588"
+user: "tonfilm"
+created: "04 Mar, 2016 - 21:20"
+body: |-
+  @robe its texture based, so it will output a fullscreen image as opposed to layers. so you need a texture with the correct alpha channel and overwrite the alpha after the fog... or you rewrite the shader to respect the alpha from the input texture if it has any alpha...

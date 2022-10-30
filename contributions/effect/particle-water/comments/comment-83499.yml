@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "83499"
+user: "sanch"
+created: "30 May, 2012 - 01:49"
+body: |-
+  Thanks guy 
+  Surface tension could be add to the particle , but i didn't get it to work both at the same time yet , should'nt be that hard. http://en.wikipedia.org/wiki/Surface_tension 
+  For other purpose  it could use also different shape like quad , but then particle rotation should be add also ... not sure if it will work the same way with rotation.
+  also independant mass relative to syze would be nice and easy to implement.
+  To finish the Navier-Stokes things to get the nice curly things to get some kind of moving flow like in the fluid solver but i don't know if that's possible and navier stoke equation is still too complicate for me.

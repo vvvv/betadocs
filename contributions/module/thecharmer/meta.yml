@@ -1,0 +1,44 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/thecharmer-meta"
+type: "module"
+author: "4Fx"
+date: "15 Oct, 2011"
+title: "TheCharmer"
+originalURL: "contribution/thecharmer"
+category: "module"
+credits: |-
+  **4Fx** - Alberto Barrios L. @ Mexico City 2011
+  www.facebook.com/4lbertfx
+like_count: "8"
+imported: "true"
+teaser: |-
+  I love to synchronize music with visuals, so here is my module controller:
+  
+  * Stereo FFT (BassOut, LoMidOut, HiMidOut and HiOut)
+  * LFO Controlled by Keyboard (Audio and Sampler Mode)
+  * Simple monitoring using vvvv IOBoxes
+  
+  ![TheCharmer Monitors](https://vvvv.org/sites/default/files/imagecache/large/images/charmer2.jpg) 
+  
+   Video Example: http://vimeo.com/28511226
+  
+  ##  **How it works?**
+  
+  1. Play some Music.
+  2. Tap SHIFT to set the BMP.
+  3. Fix the BMP with AvPag and RePag.
+  4. Reverse LFO with Backspace.
+  5. Press TAB for PingPong Mode.
+  6. 1, 2, 3, 4 and 5 divides the Measure.
+  7. UP and DOWN Keys change manually the Top slide in the Chopper.
+  8. CTRL + UP or DOWN changes manually the Bottom slide in the Chopper.
+  9. HOME Resets the LFO 
+  (CTRL + HOME and 1 too)
+  10. 6, 7, 8 and 9 Slower the Measure.
+  11. | Audio Reactive LFO
+  (Numbers divisions and manual 
+  Chopper also works in this mode).
+  12. ESC Pauses the LFO.
+  
+  Inspired by [elektromeier](http://vvvv.org/users/elektromeier)'s [modulesbeatstreet](modulesbeatstreet) and [tonfilm](http://vvvv.org/users/tonfilm)'s [svvvvitcher](xref:contribution/svvvvitcher)

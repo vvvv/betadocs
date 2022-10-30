@@ -1,0 +1,41 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/interleaved-ssao-with-cubemap-lighting-meta"
+type: "effect"
+author: "m4d"
+date: "01 Aug, 2010"
+title: "interleaved SSAO with cubemap lighting"
+originalURL: "contribution/interleaved-ssao-with-cubemap-lighting"
+category: "effect"
+credits: |-
+  * ssao technique by the superawesome [ArKano22 of gamedev.net](http://www.gamedev.net/community/forums/topic.asp?topic_id=556187&PageSize=25&WhichPage=1) for his really (i mean reeeeeally) nice HLSL shader.
+  
+  * original edgeblur technique by Rusty Koonce - published in [GPU Gems 3](http://http.developer.nvidia.com/GPUGems3/gpugems3_ch19.html)
+  
+  * [martinsh](http://www.gamedev.net/community/forums/profile.asp?mode=display&id=163471) who posted a nice trick on the same thread to avoid the usage of a random texture.
+  
+  * [joreg](http://vvvv.org/users/joreg) for his vvvv port of the initial Arkano SSAO technique and the helppatch
+  
+  * [dottore](http://vvvv.org/users/dottore) for co-porting the edgeblur technique, providing outstanding shaderports to the community to learn from and also slightly pushing me to do this ;)
+  
+  * All the other users and contributors - i learned tons of stuff from all of you!
+like_count: "11"
+imported: "true"
+teaser: |-
+  this is a vvvv adaption of ArKano22's updated SSAO technique. (a vvvv version of his original technique by joreg can be found [here](http://vvvv.org/contribution/ssao)) While the original version used 2d sampling, this one interleaves sampling in object space and therefore has the following benefits/changes:
+  
+  - should be slightly faster
+  - view-independent sampling pattern - no more "boiling grain" during animation/camera movement
+  
+  
+  also ArKano22 added the following nice features to this version:
+  
+  - texturing
+  - cubemap lighting
+  - self occlusion parameter to add more control over the general look
+  
+  known problems:
+  
+  -only edgeblur filter instead of hardware antialiasing
+  
+  since this is my first contribution i'd appreciate any feedback on errors/optimisations concerning this effect.

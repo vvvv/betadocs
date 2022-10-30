@@ -1,0 +1,19 @@
+### YamlMime:ContributionComment
+---
+uid: "100422"
+user: "zuvassin"
+created: "02 May, 2013 - 19:01"
+body: |-
+  Got News ... The 4rst Machine I Test ... (Quad Core Q9300 - GTX260 - Win7 64 bits) .... Vvvv the last version in 32bits... and the same manipulation I did in the previous posts... It Works ...
+  I Think both My Laptop (With Nvidia Hybrid Chipset - Win8 64), My Work Desktop (Embed Geforce 7100 / nforce610 - Vista 32), and an old workstation (Quadro FX - XP 32) are not compatible ... Graphic Cards Too old, too specifique,... Too stupid ... To work with this ... really amazing plugins !!!
+  
+  I'm really desapointed because the only Machine that work With, is the only one i'll never take with me @ Gig... 
+  So not useable for me ...
+  
+  Another point not written above on the utilisation :
+  
+  In resolume, Drop the Source plugin in Resolume
+  Select it without launching
+  give Him the Shared Texture path as written on the "Name for sharing" pin of the ShareTexture info Node ...
+  
+  If the Dev Need Testing ... I can Help...

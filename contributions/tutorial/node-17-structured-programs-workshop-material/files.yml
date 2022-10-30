@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/node-17-structured-programs-workshop-material-files"
+url: "node-17-structured-programs-workshop-material"
+category: "tutorial"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "Node17StructuredPrograms.zip"
+            description: |-
+              workshop files
+            
+            timestamp: "10 Jul, 2017 - 23:37"
+            download_count: "1"

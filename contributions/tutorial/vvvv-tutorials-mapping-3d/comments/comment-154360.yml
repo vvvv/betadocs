@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "154360"
+user: "HelenaAndreina"
+created: "30 Apr, 2014 - 11:39"
+body: |-
+  My calibrate projector node isn't working correctly. I have all nodes with everything well ( they aren't red) When I  select the points in world renderer the calibrate projector blinks red and never appears sucess. Anyone with the right version of open CV pluggins to this Tutorial?

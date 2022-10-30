@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "100441"
+user: "kyy921"
+created: "03 May, 2013 - 08:46"
+body: |-
+  tested on mega, and change the digital input & analog input parameter in firmata input and output, but it still can only out put 6 analog and 20 digital output, why?

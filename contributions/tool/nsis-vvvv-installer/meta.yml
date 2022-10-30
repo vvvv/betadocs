@@ -1,0 +1,30 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/nsis-vvvv-installer-meta"
+type: "tool"
+author: "avaos"
+date: "05 Apr, 2017"
+title: "NSIS-vvvv-Installer"
+originalURL: "contribution/nsis-vvvv-installer"
+category: "tool"
+credits: |-
+  NSIS-Installer
+like_count: "3"
+imported: "true"
+teaser: |-
+  We managed to write a small NSIS-Installer, which makes installing vvvv just a couple clicks away. :D 
+  
+  Because dependencies are changing often and it was an old project this is only for vvvv_45beta33.7_x86 plus Addonpack and DX11.
+  
+  It checks&installs DotNet 4.5, DX9, vcredist 2008/2010/2013 and adds a registry entry for AddFlow. After that, you are ready to go (ok, filetype association is missing but we didn't need that)
+  
+  So, what do you have to do to compile your own installer?
+  - Download & Install NSIS
+  - Download ZIPDLL-Plugin http://nsis.sourceforge.net/ZipDLL_plug-in , Extract ZipDLL.dll to directory Plugins\x86-ansi  in your NSIS installation, Extract ZipDLL.nsh to directory Include in your NSIS installation
+  - Download http://nsis.sourceforge.net/DotNetChecker_plug-in and put them in the same directories.
+  - Download vvvv_45beta33.7_x86.zip, addons_45beta33.7_x86.zip, vvvv-packs-dx11-1.0.1-x86.zip, vcredist_x86_2008.exe, vcredist_x86_2010.exe, vcredist_x86_2013.exe and put them next to this nsi-script.
+  
+  In NSIS select the nsi-script provided here. 
+  I'm not shure if we are allowd to upload fully packed installers here, so if anybody interested i can provide them. 
+  
+  One small thing is a little bit annoying: NSIS won't Install to C:\ directly, so vvvv has to be installed in a folder, e.g. C:\vvvv\vvvv_45beta33.7_x86

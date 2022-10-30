@@ -1,0 +1,21 @@
+### YamlMime:ContributionComment
+---
+uid: "230937"
+user: "fatalex"
+created: "31 Oct, 2016 - 17:51"
+body: |-
+  Hi I've had this pack installed and working (although never used it properly!) in a previous x86 install. But i've just made a clean install of vvvv on a new windows 10 install (with main aim to get kinect2 & projector calibration working), and when i've added the Image pack I'm getting a lot of red nodes when opening the Imagepack girlpower examples.
+  It looks like there's missing dll's and .v4ps from the download, but i've tried downloading it a few times, and made sure to unzip it correctly with 7zip.
+  
+  It's missing at least these files evident from opening the girlpower examples:
+  
+  VVVV.Nodes.OpenCV.Videoinput.dll
+  VVVV.Nodes.OpenCV.dll
+  
+  BoardObjectPoints.v4p
+  
+  
+  The ImageAnalysis.v4p girlpower example also crashes vvvv moments after opening but I don't know if that's to do with it not having any videoinput stream to work with... There's some other strange things going on as well, but my main concern is that those missing files above aren't in the downloaded.7z file
+  
+  Any suggestions very welcome. Along with any tips on getting the kinect2 / projector calibration to work which'll be my next task after solving this problem!
+  Thanks

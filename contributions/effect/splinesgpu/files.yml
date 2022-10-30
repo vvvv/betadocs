@@ -1,0 +1,27 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/splinesgpu-files"
+url: "splinesgpu"
+category: "effect"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "1"
+            filename: "SplinesGPU 0.2.zip"
+            description: |-
+              SplinesGPU 0.2 bug fixing
+            
+            timestamp: "11 Nov, 2011 - 00:28"
+            download_count: "1"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "SplinesGPU 0.1.zip"
+                    description: |-
+                      SplinesGPU 0.1 initial version
+                    
+                    timestamp: "13 Oct, 2011 - 01:46"
+                    download_count: "2"

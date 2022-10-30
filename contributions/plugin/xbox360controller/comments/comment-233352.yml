@@ -1,0 +1,19 @@
+### YamlMime:ContributionComment
+---
+uid: "233352"
+user: "LineKernel"
+created: "14 Dec, 2016 - 08:14"
+body: |-
+  hi , so i cant get it to work the easy way 
+  could someone post the simple way to add plugin cause my workaround is a nightmare 
+  
+   my way of doing it 
+  
+  make a contributions folder with 3 subfolder named effect plugin and modules
+  right click on the Root node ans open as root 
+  select my contribution folder and save the root 
+  
+  now i get to use this node if and only if the Root node is open first prior to VVVV 
+  if not , the node doesnt exist and cant be loaded 
+  
+  i am sure there has to be an easier way to do it ?

@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "156140"
+user: "microdee"
+created: "29 May, 2014 - 14:18"
+body: |-
+  @alg: it doesn't allocate any images for me, info shows nil or 0 for everything, inspector shows nothing and AsTexture (Both dx9 and dx11) is just black

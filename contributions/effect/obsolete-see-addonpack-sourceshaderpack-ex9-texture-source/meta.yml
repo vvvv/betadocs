@@ -1,0 +1,21 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/obsolete-see-addonpack-sourceshaderpack-(ex9.texture-source)-meta"
+type: "effect"
+author: "lecloneur"
+date: "12 Jun, 2012"
+title: "[OBSOLETE, see Addonpack] SourceShaderPack (EX9.Texture Source)"
+originalURL: "contribution/obsolete-see-addonpack-sourceshaderpack-(ex9.texture-source)"
+category: "effect"
+credits: |-
+  See : <http://glsl.heroku.com>
+like_count: "5"
+imported: "true"
+teaser: |-
+  The source :
+  *Liquish
+  *BubbleNoise
+  *Electricity (the good old one, now as a texture source)
+  *Lava
+  
+  Will be part of the addonpack on next release.

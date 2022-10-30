@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/point-sprites-vlstride-files"
+url: "point-sprites-vl-stride"
+category: "effect"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "PointSprites.zip"
+            description: |-
+              Point Sprites Sdsl
+            
+            timestamp: "22 Mar, 2021 - 21:31"
+            download_count: "1"

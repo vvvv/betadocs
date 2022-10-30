@@ -1,0 +1,78 @@
+---
+uid: "contribution/ivans-project-template"
+uid-meta: "contribution/ivans-project-template-meta"
+comments: 
+ items: 
+  - uid: "256353"
+  - uid: "256411"
+  - uid: "256414"
+  - uid: "256535"
+  - uid: "256545"
+  - uid: "256674"
+  - uid: "256676"
+  - uid: "256678"
+  - uid: "256679"
+  - uid: "256681"
+  - uid: "260039"
+uid-files: "contribution/ivans-project-template-files"
+title: "Ivan's project template"
+image: "350x350_0.png"
+contribution: "true"
+---
+
+## What is template? 
+The template is a solid structure of patches and common modules, used for any project. It helps to keep patches readable, editable, clean and flexible. Also **it saves a lot of time during the developing** and when apply any future changes. 
+Any professional studio has it's own template - all the templates are similar in general concept and differ in details. We use this template for last 5 years.
+
+If you are going to be a vvvv patcher in professional studio - it's a good idea for you to learn to keep your patches structured and readable. This will give you a proper example. 
+**If you are going to be a vvvv patcher in Ivan Raster software lab - you must learn the template.**  
+
+[ More details about the template ](https://docs.google.com/presentation/d/1l-kZDX7okEYF-h8TNH8lerdPez-mF9ajBo12va0bvJU/edit?usp=sharing%20)
+
+## The contribution includes
+* Patches structure and common cases examples with a lot of comments
+* Real-time web interface settings configurator - Allow you to edit settings for your project in Chrome broswer.
+* Keyboard - a module for multitouch ready, multi-language and multi layout on-screen keyboard.
+* Scrolling Texture - a shader for pixel perfect scroll of texture. 
+* Scrolling Text-Tag - a module for scroll of mixed text&textures input. 
+* Scrolling Gallery - a module for scroll a huge amount of hi-res images (preload custom count).
+* Scrolling TableY - a module for Y scroll a data of any kind with custom columns and rows count. 
+* Scrolling X - a module for X scroll a data of any kind
+* Touch & Swipe Button - a plugins for easy create buttons for multitouch inputs.
+* Text (DX11.Layer IR Advanced)- a module to easy deal with dx11 Text advanced nodes.
+* Import data from CMS examples
+* few simple&handy shaders, plugins and modules
+
+
+## Installation 
+To use the template, **vvvv must be equiped with addonpack and DX11 Pack.**
+
+1. Unpack the archive to your hard drive
+1. Copy the vvvv into \APP\_VVVV\ folder, e.g. \APP\_VVVV\vvvv_50beta36_x64\ 
+1. Change START paths in the .bat files according to the actual vvvv version (by default it is vvvv_50beta36_x64)
+1. Use **developer.bat** to run the project with patch and comments or **RUN.bat**to run the project in shutup mode (this also will kill the Windows explorer).
+
+List of shortcuts:
+
+* F8 - toggle fullscreen 
+* F9 - Open settings server (Chrome-based)
+* F10 - toggle debug info
+* F12 - reset to idle from any state
+* ESC (Hold) - kill the app
+
+Mouse input is on by default, to use with touch screen, first open config.ini and find 
+```
+        "Mouse": [
+          true
+        ],
+```
+and change to
+```
+        "Mouse": [
+          false
+        ],
+```
+
+The contribution is free for use, but comes with no support. 
+[Please contact us for commercial support.](mailto:office@ivanraster.com)
+Our rates starts from only 20$/hour to 100$/day.

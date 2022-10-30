@@ -1,0 +1,12 @@
+### YamlMime:ContributionComment
+---
+uid: "236567"
+user: "tmp"
+created: "06 Mar, 2017 - 12:19"
+body: |-
+  @StiX: thanks for the hint! it is fixed on github now
+  - you can replace the tfx file if you can't wait until next bugfix release on this page: https://github.com/letmp/dx11-particles/blob/master/packs/dx11.particles/nodes/modules/Kinect/texture11/FilterWorld.tfx
+  
+  @hierro:
+  - 1st question: to produce a continuous trail it is necessary to assign related pixels of two consecutive frames. this task is not that easy and there is nothing available in the pack for it right now.
+  - 2nd question: I think you opened the kinect patch from girlpower folder? the particles emitted by kinect emitter exist exactly 1 frame. these particles get copied during that frame to another emitter where the lifespan of each emitted particle is longer and can be manipulated by further modifiers. does that help?

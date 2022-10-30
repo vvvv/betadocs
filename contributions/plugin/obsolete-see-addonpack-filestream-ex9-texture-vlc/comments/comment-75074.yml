@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "75074"
+user: "manuel"
+created: "20 Jan, 2012 - 03:40"
+body: |-
+  if you reset the do seek pin, the position and frame number also resets
+  
+  edit: ups, bang may not be the perfect word..

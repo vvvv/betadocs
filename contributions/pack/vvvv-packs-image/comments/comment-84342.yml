@@ -1,0 +1,31 @@
+### YamlMime:ContributionComment
+---
+uid: "84342"
+user: "zeos"
+created: "17 Jun, 2012 - 13:49"
+body: |-
+  Hey Elliot Woods,
+  
+  what do you think about this? 
+  
+  ![screenshot](https://vvvv.org/sites/default/files/imagecache/large/images/opencv-v4.png) 
+  
+  
+  Any suggestions/ideas? 
+  Assus XtionPro on win7(x64) with vvvv45beta27.2
+  
+  Note: I quickly checked the the openni parts of your code (on GitHub, there are some different repositories...), and I noticed that you init with 640x480@30fps, is that right or I'm completely wrong and should make myself another cup of coffee? 
+  
+  One more note: I did change the config xml to fit the Assus, still no result.
+  
+  
+  P.S. Whatever the performance, how complicated is to have a node: AsCvImageLink (Texture), you know....
+  
+  Thanks ;)
+  
+  EDIT: Here the not so easy-to-read-from-the-screenshot TTY message:
+  
+  <div class="box">
+  00:27:07 ERR : Exception occured in TMPluginWrapperNode.Evaluate: Could not load file or assembly 'Emgu.CV, Version=2.3.0.1416, Culture=neutral, PublicKeyToken=7281126722ab4438' or one of its dependencies. The system cannot find the file specified.
+  
+  </div>

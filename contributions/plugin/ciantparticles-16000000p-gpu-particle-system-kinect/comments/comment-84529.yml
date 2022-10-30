@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "84529"
+user: "synth"
+created: "20 Jun, 2012 - 17:48"
+body: |-
+  @robe , yeah this kinect implementation is not working anymore , i managed to change the nodes CiantKinectImplement.v4p and see something but overall you just have to change too many nodes to make it work properly . 
+  it may also be due to my total noobness in vvvv but yeah ... will be great if Martin can rework the patches with either the new modules in b27 , they work very well so far 
+  @Martin - i did not mean to offend , just as a noobie i am finding it hard to rework it so i can see the efects

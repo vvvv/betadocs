@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "210455"
+user: "antokhio"
+created: "10 Nov, 2015 - 09:16"
+body: |-
+  the autofocus has to be done with compute shader, I haven't really needed it for my purpose need to add that one piece...

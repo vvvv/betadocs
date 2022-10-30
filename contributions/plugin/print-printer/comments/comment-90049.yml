@@ -1,0 +1,12 @@
+### YamlMime:ContributionComment
+---
+uid: "90049"
+user: "h99"
+created: "22 Oct, 2012 - 13:44"
+body: |-
+  In the example, <span class="pin">Printer Name</span> receives infos from printer's <span class="pin">PrinterName</span>, which the most comfortable option: here default printer name is 7 word long, about 30 chars, and anyway is just one of the 7 installed printers, including one note, xps and so on; after reading your answer I tried to input a wrong printer name and vvvv crashed, so I set an IOBox up the <span class="pin">Select</span> of <span class="node">Select (String)</span> to choose a printer and feed print node with a correct name.
+  Hope now is more clear what I was saying :) (or maybe I'm missing something simple!)
+  
+  Win7 64bit - beta28.1
+  
+  Thanks again!!!

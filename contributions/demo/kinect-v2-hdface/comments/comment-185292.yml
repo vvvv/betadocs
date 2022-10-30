@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "185292"
+user: "screamer"
+created: "12 Feb, 2015 - 22:06"
+body: |-
+  also, you will need (DX11.Texture2dArray) contribution:
+  [SetSlice (DX11.TextureArray) (dx11)](xref:contribution/obsolete-setslice-(dx11.texturearray)-(dx11))

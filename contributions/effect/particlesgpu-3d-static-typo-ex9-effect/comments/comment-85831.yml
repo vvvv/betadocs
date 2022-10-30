@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "85831"
+user: "woei"
+created: "19 Jul, 2012 - 09:32"
+body: |-
+  hej lasal, hope you don't mind. uploaded a version where you'd need a controltexture less, thus one less texture lookup.

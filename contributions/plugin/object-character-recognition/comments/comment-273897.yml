@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "273897"
+user: "joreg"
+created: "01 Oct, 2019 - 10:38"
+body: |-
+  haven't tried this, but probably it would offer the best results: https://azure.microsoft.com/de-de/services/cognitive-services/computer-vision/#detect-text here is an example of how to use azure cognitive services: https://discourse.vvvv.org/t/azure-speech-recognizer-demo/17251
+  
+  and i'm sure google offers a similar service if you don't wanna go for ms/azure..
+  
+  obviously those require a network connection and have additional costs.

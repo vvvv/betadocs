@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "88136"
+user: "sanch"
+created: "05 Sep, 2012 - 17:27"
+body: |-
+  something is wrong with the plugin take back the original with the source in your project , it seams to work once replaced with the original plugin , then there is the vector3d input and "3d sound"  is working 
+  note that irrklang was created for games , and does not seams to work with more than 2 channel audio setup.

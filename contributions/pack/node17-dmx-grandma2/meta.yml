@@ -1,0 +1,21 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/node17-dmx-grandma2-meta"
+type: "pack"
+author: "andresc4"
+date: "15 Jul, 2017"
+title: "NODE17 - DMX & GrandMa2"
+originalURL: "contribution/node17-dmx-grandma2"
+category: "pack"
+credits: |-
+  Files and examples of the dmx workshop at node17
+like_count: "1"
+imported: "true"
+teaser: |-
+  Here are all the files of the DMX Workshop
+  
+  You will find several examples of VVVV as a DMX sender + 50 of the most used dmx fixturesso you can know how to build your own.
+  Examples of VVVV as dmx reciver
+  And a grandma2 show file to connect it to VVVV
+  
+  Big thanks to Manuel for making all this files and examples

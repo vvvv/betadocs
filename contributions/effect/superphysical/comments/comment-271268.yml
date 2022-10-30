@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "271268"
+user: "synth"
+created: "05 Mar, 2019 - 12:22"
+body: |-
+  [mburk](http://vvvv.org/users/mburk) Thank you for the input. 
+  To be completely hones it never occurred to me that i can merge material nodes ... 
+  As for the geometry i suspected that there is a node to merge geometries, but i never found it as it turned out my noodles pack was trowing an error due to missing stuff. Reinstalled and all works now. 
+  
+  Thank you again for the awesome work!

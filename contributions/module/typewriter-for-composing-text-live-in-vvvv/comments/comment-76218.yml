@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "76218"
+user: "mrboni"
+created: "13 Feb, 2012 - 17:31"
+body: |-
+  @bo27 - problems using your typewriter plugin in b27.
+  
+  Worked the first time I tried, now after restarting vvvv the plgin wont load - '(Exception from HRESULT: 0x80131515)'
+  
+  
+  
+  edit -  works fine running from local hard drive, but not a network location. Any idea why?

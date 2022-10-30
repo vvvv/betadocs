@@ -1,0 +1,27 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/dx11-sprite-sheet-text-files"
+url: "dx11-sprite-sheet-text"
+category: "module"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "1"
+            filename: "TextSpriteSheets_1.1.zip"
+            description: |-
+              Minor Fix
+            
+            timestamp: "29 Sep, 2015 - 09:21"
+            download_count: "2"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "TextSpriteSheets.zip"
+                    description: |-
+                      DX11 Sprite Sheet Text
+                    
+                    timestamp: "16 Feb, 2015 - 21:38"
+                    download_count: "5"

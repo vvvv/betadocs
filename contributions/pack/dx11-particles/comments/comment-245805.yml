@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "245805"
+user: "timpernagel"
+created: "03 Oct, 2017 - 15:14"
+body: |-
+  **Question / Bugreport:**
+  
+  Emitter (DX11.Particles.Emitter RWStructuredBuffer) Help-Patch:
+  
+  Why is first Emitter (EmitterDynBuffer1) affected by the "Force" connected to the "Selection" on the right? Seems the selection is not working properly. Would assume that only the Emitter RWStructuredBuffer-Particles are affected by that.

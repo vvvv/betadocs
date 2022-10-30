@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "88746"
+user: "jens.a.e"
+created: "22 Sep, 2012 - 09:08"
+body: |-
+  hey guys,
+  sorry, i was busy with other things. PWM not working is interesting. Please make sure you have the Standrad Firmata 2.2 uploaded to the board; there is a new version of Firmata in the making, but might break some functionality of old Firmata related code – just that you know. Try to reset after you changed the modes (should actually not be necessary).
+  
+  Just a general note for clarity. The module that comes with the plugin is for a "standard" Arduino with Standard Firmata (e.g Uno, Duemilanove, Diecilema, etc.) – so special Firmata like the one for the Mega are likely to break some functions. That is why it is just called <span class="node">Arduino</span>. An <span class="node">ArduinoMega</span> would be very nice, as well as a Nano, etc. Send me a Mega and i am happy to fix the issues and patch a module :)
+  The roadmap for the 1.x Version of the plugin is to fully support all Firmata features (PWM, I2C, etc) on a "standard" Firmata. So all are welcome to contribute code, fixes and issues.

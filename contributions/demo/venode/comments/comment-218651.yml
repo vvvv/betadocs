@@ -1,0 +1,14 @@
+### YamlMime:ContributionComment
+---
+uid: "218651"
+user: "mediadog"
+created: "30 Mar, 2016 - 02:16"
+body: |-
+  I have just recently started using venode5 without Messages - since it is all JSON, I just use [JSON Parser](https://vvvv.org/contribution/json-parser) (here in contribs) and do everything directly in JSON.  So yes it is possible to use it without Messages.
+  
+  That being said, I rather prefer the look of the version of jquery.mobile that venode3 uses (1.2, easily upgraded to 1.2.1)
+  
+  Here's the patch that decodes the JSON; unfortunately the rest of the nodes I did are somewhat tied into my other patches and config system, so I would have to clean them up to post them here in a sensible form.  But I can make a pass if there's interest.
+  
+  EDIT: Ooops, can't attach a patch here, so here's a pic to give you an idea:
+  ![](https://vvvv.org/sites/default/files/imagecache/large/images/VeNode5Parse%20%28venode5%29_2016.03.29-22.18.14.png)

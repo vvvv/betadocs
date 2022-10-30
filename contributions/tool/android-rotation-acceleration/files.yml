@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/android-rotationacceleration-files"
+url: "android-rotation-acceleration"
+category: "tool"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "Android-Rotation-Acceleration.00.zip"
+            timestamp: "25 Dec, 2014 - 06:25"
+            download_count: "1"

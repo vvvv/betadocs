@@ -1,0 +1,26 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/tutor.v4p-meta"
+type: "tool"
+author: "kalle"
+date: "26 Jun, 2013"
+title: "Tutor.v4p"
+originalURL: "contribution/tutor.v4p"
+category: "tool"
+like_count: "7"
+imported: "true"
+teaser: |-
+  You want to teach vvvv?
+  
+  Then it might be helpful to visualize mouseclicks and shortcuts. (clicks'n'cuts...)
+  
+  This patch renders 
+  * all current pressed keys
+  * all current pressed mousebuttons
+  * and a magnified section of the topmost patch
+  into a DirectX9 Renderer
+  
+  Sorry, german keyboard only...
+  feel free to adapt, modify and upload your version!
+  
+  cheers

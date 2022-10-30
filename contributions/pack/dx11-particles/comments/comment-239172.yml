@@ -1,0 +1,15 @@
+### YamlMime:ContributionComment
+---
+uid: "239172"
+user: "tmp"
+created: "02 May, 2017 - 08:58"
+body: |-
+  Hi guest,
+  
+  "Could it be possible that multiple particles emitting from the same point and thus things getting slow?"
+  
+  -> Check the "Emit Count Per Particle" pin @ Emitter RWStructuredBuffer node. It should be set to 1.
+  
+  "Maybe there is a way to restrict the emission my using filters on the Kinect textures?"
+  
+  -> You can do that by decreasing the resolution @ Emitter Kinect node.

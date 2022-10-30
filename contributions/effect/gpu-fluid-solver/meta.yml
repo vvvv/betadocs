@@ -1,0 +1,16 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/gpu-fluid-solver-meta"
+type: "effect"
+author: "flux"
+date: "19 Aug, 2012"
+title: "GPU Fluid Solver"
+originalURL: "contribution/gpu-fluid-solver"
+category: "effect"
+credits: |-
+  flux
+like_count: "39"
+imported: "true"
+teaser: |-
+  Fluid dynamics using Navier-Stokes equation computation on the GPU, adapted from RENDERMONKEY sample FluidFlow.rfx and NVIDIA 
+  (<http://http.developer.nvidia.com/GPUGems/gpugems_ch38.html>)

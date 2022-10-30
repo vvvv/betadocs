@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "225316"
+user: "ggml"
+created: "12 Aug, 2016 - 16:09"
+body: |-
+  there seems to be a calibration delay with the latest Vive HMD,
+  looking at a line while moving will show two lines,
+  then at rest point the image becomes sharp again
+  
+  seems a specific problem

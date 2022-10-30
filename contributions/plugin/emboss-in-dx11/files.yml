@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/emboss-in-dx11-files"
+url: "emboss-in-dx11"
+category: "plugin"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "Emboss_DX11.zip"
+            timestamp: "27 Jul, 2015 - 03:46"
+            download_count: "1"

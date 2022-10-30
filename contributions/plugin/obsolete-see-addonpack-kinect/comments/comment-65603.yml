@@ -1,0 +1,19 @@
+### YamlMime:ContributionComment
+---
+uid: "65603"
+user: "felix.courage"
+created: "21 Jun, 2011 - 13:10"
+body: |-
+  thanks for developing! works nice and stable :)
+  
+  can anyone give me a hint how to remove the background? I only need the objects (people) walking in a distance from 1-3 metres.
+  
+  I just copied the nodes from the HeightField example to get a picture without background by using the Terrain effect from Terrain.fx
+  it draws the person in black just like I need it :)
+  
+  now the problem is, that it only draws the person to a distance max of about 1 metre, nothing behind that point.
+  
+  I cant figure out how to solve this or where to change the Terrain.fx
+  
+  thanks for any help!
+  felix

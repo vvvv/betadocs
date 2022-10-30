@@ -1,0 +1,10 @@
+### YamlMime:ContributionComment
+---
+uid: "59609"
+user: "rosenfranz"
+created: "09 Feb, 2011 - 10:50"
+body: |-
+  It's exactly like Sebl describes.
+  Other plugins and dynamic plugins seem are working perfectly.
+  
+  The TTY renderer outputs the same messages as in sebls post when i try to create an irrklang node.

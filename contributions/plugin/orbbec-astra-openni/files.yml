@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/orbbec-astra-openni-files"
+url: "orbbec-astra-openni"
+category: "plugin"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "openni.zip"
+            timestamp: "25 Jan, 2018 - 14:35"
+            download_count: "1"

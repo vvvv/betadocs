@@ -1,0 +1,15 @@
+### YamlMime:ContributionComment
+---
+uid: "102730"
+user: "timpernagel"
+created: "24 Jun, 2013 - 17:53"
+body: |-
+  hey colorsound,
+  
+  thanks for updating this shader. Today i played with the beam-lights a bit, but got strange results compared to the DX9-version.
+  
+  ![Compare the beam of DX9 and DX11](https://vvvv.org/sites/default/files/imagecache/large/images/beam.png) 
+  
+  If i put the volumecube-resolution of the DX9-version up to 100, i got a accurate light-beam. playing with values of the Cube (DX11 Volume Simple) has the effect that the light-beam disappears by a resolution more than 20. I've also played with culling, but the result is far away from the DX9-example.
+  
+  Any ideas what i'm doing / is wrong?  thx

@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/getmediaduration-files"
+url: "getmediaduration"
+category: "plugin"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "GetMediaDuration.zip"
+            timestamp: "01 Jul, 2014 - 00:00"
+            download_count: "6"

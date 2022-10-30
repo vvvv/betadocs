@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "70788"
+user: "mrboni"
+created: "20 Oct, 2011 - 14:11"
+body: |-
+  Looks brilliant.
+  
+  Really nice use of phong point light positioning too!
+  
+  I worry though that we'll easily run into issues with the number of texture fx in there (and therefore info.texture nodes [info-(ex9.texture)-excessive-cpu-usage- -low-frame-rate](https://discourse.vvvv.org/t/info-(ex9.texture)-excessive-cpu-usage- -low-frame-rate)

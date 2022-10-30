@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "59640"
+user: "sebl"
+created: "09 Feb, 2011 - 21:32"
+body: |-
+  ... relies to a, more or less, broken .net installation (irrklangdemos don't work either)
+  
+  so, not really a bug

@@ -1,0 +1,30 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/midi-file-reader-meta"
+type: "demo"
+author: "beyon"
+date: "05 Dec, 2013"
+title: "MIDI File Reader"
+originalURL: "contribution/midi-file-reader"
+category: "demo"
+credits: |-
+  Leslie Sanford for Sanford.Multimedia.Midi Toolkit (<http://www.codeproject.com/Articles/6228/C-MIDI-Toolkit> , <http://www.lesliesanford.com/index.php>)
+like_count: "4"
+imported: "true"
+teaser: |-
+  As a response to this thread: [read-midi-file](https://discourse.vvvv.org/t/read-midi-file)
+  
+  This is around 10 betas old work in progress/never finished project. Comes with no warranty and bad style. Appears to still work in beta31, you need to provide your own .mid file and preferable a midi-keyboard for extra fun.
+  
+  Hacked together to fit my needs and might not provide everything you want.
+  
+  Will most likely redo something better in relation to work on vvvv audio.
+  
+  Mouse/Keyboard control:
+  
+  Space - play/scroll highlighted part
+  PageUp/PageDown - Move through file
+  Home/End - Go to begining/End of file
+  
+  Left Mouse button - Highlighed selection Start
+  Right Mouse button - Highlighed selection End

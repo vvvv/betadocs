@@ -1,0 +1,15 @@
+### YamlMime:ContributionComment
+---
+uid: "107029"
+user: "microdee"
+created: "25 Sep, 2013 - 20:41"
+body: |-
+  <div class="box">quote:Curveau:
+  add to your packs folder
+  </div>
+  that means you have to place the contents of this archive in a folder called "packs" in your vvvv folder
+  
+  <div class="box">quote:Curveau:
+  requires the DX11 release for beta31 or above.
+  </div>
+  requires this DX11 release: [/sites/default/files/uploads/vvvv-packs-dx11-b31-x86_0.zip](/sites/default/files/uploads/vvvv-packs-dx11-b31-x86_0.zip) or any further dx11 releases. which again you have to put in your packs folder.

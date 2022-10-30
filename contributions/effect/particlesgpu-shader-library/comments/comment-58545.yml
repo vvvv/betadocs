@@ -1,0 +1,16 @@
+### YamlMime:ContributionComment
+---
+uid: "58545"
+user: "dottore"
+created: "17 Jan, 2011 - 15:08"
+body: |-
+  @sinus: strange, is this happening with beta25 plus addons pack?
+  
+  @hrovac: because we are using directly the GPU, there are many problems related to each graphic card. 
+  in general i saw that ParticlesGPU on multiscreen is problematic: seams there's no way to share a rendered texture between two different screens; so if we evaluate the position texture (in your case the Queue shader+renderer) on the first monitor, we can't send this texture to the second screen (where there's the final render).
+  Try to keep all the renderer in the same screen (moving the renderer windows), also if just one goes to fullscreen.
+  As i said, it could also depend on your specific graphic card...
+  hope this will help you.
+  best
+  
+  Natan

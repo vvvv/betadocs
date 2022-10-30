@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "152549"
+user: "tmp"
+created: "28 Mar, 2014 - 08:27"
+body: |-
+  hey sansui, of course you can ask questions ;)
+  
+  as stated on microsofts developer network ( http://msdn.microsoft.com/en-us/library/system.datetime.dayofweek(v=vs.90).aspx ) the constants in the DayOfWeek enums range from 0(=sunday) to 6(=saturday).
+  
+  the standard gregorian (astronomy split) node uses the SysUtils.DayOfWeek function ( http://docs.embarcadero.com/products/rad_studio/delphiAndcpp2009/HelpUpdate2/EN/html/delphivclwin32/SysUtils_DayOfWeek.html ) and counts from 1 (=sunday) to 7 (=saturday).
+  
+  it is a design decision but from a computer scientists view it makes more sense to count from 0 to 6 ;)

@@ -1,0 +1,15 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/netvision-meta"
+type: "tool"
+author: "fibo"
+date: "23 Feb, 2011"
+title: "NetVision"
+originalURL: "contribution/netvision"
+category: "tool"
+credits: |-
+  Thanks to Alexander Galloway for include NetVision in the [carnivore clients list](http://r-s-g.org/carnivore/clients.php)
+like_count: "3"
+imported: "true"
+teaser: |-
+  A simple sniffer maybe can become a 3d browser with a spider integrated

@@ -1,0 +1,10 @@
+### YamlMime:ContributionComment
+---
+uid: "239975"
+user: "redisgreen"
+created: "24 May, 2017 - 15:26"
+body: |-
+  Hi,
+  I got a problem figuring out the kinect calibration (calibration(dx11.particles.kinect)help.v4p). I'm trying to calibrate on a xy-plane, but since the PickPoints are on xz-axis the calibration turns out wrong. I didn't find a way to rotate the PickPoints before calibration (which worked in pointcloud if I remember correctly). Is there any way to do this?
+  
+  cheers

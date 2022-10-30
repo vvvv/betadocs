@@ -1,0 +1,29 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/kinect-point-cloud-shader-meta"
+type: "effect"
+author: "jonferran"
+date: "06 Feb, 2011"
+title: "Kinect Point Cloud Shader"
+originalURL: "contribution/kinect-point-cloud-shader"
+category: "effect"
+credits: |-
+  Screamer, Hierro for the original plugin and color filter shader.
+  
+  Desaxismundi, Sanch, u7angel for the original displacement shader.
+  
+  sugokuGENKI and http://graphics.stanford.edu/~mdfisher/Kinect.html for the XYZ conversion.
+like_count: "10"
+imported: "true"
+teaser: |-
+  Must have the following installed for plugin to work:
+  
+  http://www.openni.org/downloadfiles/openni-binaries/latest-unstable/25-openni-unstable-build-for-windows-v1-0-0/download
+  
+  http://www.openni.org/downloadfiles/openni-compliant-middleware-binaries/latest-unstable/46-primesense-nite-unstable-build-for-windows-v1-3-0/download
+  
+  Drivers:
+  
+  https://github.com/avin2/SensorKinect/archives/unstable
+  
+  Note: Must use a float texture between the shaders.

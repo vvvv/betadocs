@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "86405"
+user: "paulhoppe"
+created: "31 Jul, 2012 - 22:17"
+body: |-
+  Hey guys, I'm really excited to try this out but I'm having some problems getting started.
+  
+  I think I'm having the same problem as @Sapo but adding the quotes to the .cmd file just opens the audio analysis window and a blank v4 window.
+  
+  I tried loading the _Interface_root2 patch manually but that gets into a loop that loads a ton of patches over and over till v4 crashes. Any suggestions?

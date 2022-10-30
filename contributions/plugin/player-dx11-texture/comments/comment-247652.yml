@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "247652"
+user: "woei"
+created: "12 Dec, 2017 - 15:49"
+body: |-
+  haven't used this one for a while
+  
+  @catweasel @velcrome
+  the issues you two are referring to both stem from the module/patch where plugin is wrapped. didn't even know it was uploaded with a wrapping patch.
+  so in case you work with fixed fps, use the vanilla plugin.
+  
+  the error cat is getting and also the one velcrome metioned is due to a negativ index in preloaded frames, which is somehow calculated in the patch.

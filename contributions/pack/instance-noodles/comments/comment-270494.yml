@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "270494"
+user: "idyll"
+created: "01 Jan, 2019 - 09:29"
+body: |-
+  hi, reinstalled vvvv and the package with latest versions and checked other dependencies. renderer does not Show anything beside background in patches like spherical spread (3d buffer) help , sprite buffered etc even though there is no red boxes. also tried modifying spread counts or deleting and readding them as written above, but that didn't work neither. could you suggest any solution so that i can view the outcomes on the renderer?

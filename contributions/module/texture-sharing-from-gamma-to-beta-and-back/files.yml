@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/texture-sharing-from-gamma-to-beta-and-back-files"
+url: "texture-sharing-from-gamma-to-beta-and-back"
+category: "module"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "TextureSharing_v1.1.7z"
+            timestamp: "17 Nov, 2020 - 10:54"
+            download_count: "1"

@@ -1,0 +1,10 @@
+### YamlMime:ContributionComment
+---
+uid: "235262"
+user: "lasal"
+created: "12 Feb, 2017 - 22:54"
+body: |-
+  For what i´m planing (geometry topology decomposition) i would need elements from the whole library, it would be great to have it in vl.
+  This is and example using shortest path with the triangle center Z coordinate as height, avoiding the hills, the left diagram is the unfolded triangle path.
+  
+  ![](https://vvvv.org/sites/default/files/imagecache/large/images/vvvv%202017-02-03%2019-58-41-04.png)

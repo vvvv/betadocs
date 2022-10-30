@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "253921"
+user: "tonfilm"
+created: "23 May, 2018 - 15:29"
+body: |-
+  @mediadog just wait a bit until the new alpha build is out, or use one version older. there is no functional difference, except that it has a red pin. i'll test with latest DX11 pack...
+  
+  EDIT: works with latest DX11 and beta36, you only need to enable the <span class="pin">Evaluate</span> manually. this pin was renamed and has the wrong default. upcoming alpha/beta fixes this.

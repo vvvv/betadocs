@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/autosave-files"
+url: "autosave"
+category: "module"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "autosave.v4p"
+            description: |-
+              quick first version
+            
+            timestamp: "16 Feb, 2011 - 22:38"
+            download_count: "1"

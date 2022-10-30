@@ -1,0 +1,26 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/texture-avi-writer-(dx11)-files"
+url: "texture-avi-writer-dx11"
+category: "plugin"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "TextureWriter_x64.zip"
+            description: |-
+              v1.2 (64 Bits)
+            
+            timestamp: "04 Dec, 2015 - 18:51"
+            download_count: "4"
+    32bit:
+        latest:
+            bit: "32"
+            delta: "0"
+            filename: "TextureWriter_v1.2.zip"
+            description: |-
+              v1.2 (32 Bits)
+            
+            timestamp: "09 Jul, 2019 - 09:20"
+            download_count: "1"

@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "102115"
+user: "sansui"
+created: "10 Jun, 2013 - 17:49"
+body: |-
+  this looks very nice.
+  I copied .fx files to vvvv folder/contributions/effects(root.v4p adding).
+  and I restarted vvvv.
+  but no .fx effects added in node browser.
+  I'm using vvvv45beta30x86. what is problem?

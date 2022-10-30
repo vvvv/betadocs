@@ -1,0 +1,20 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/patching-and-boygrouping-documentation-images-meta"
+type: "tutorial"
+author: "robotanton"
+date: "02 Feb, 2016"
+title: "Patching and Boygrouping documentation images"
+originalURL: "contribution/patching-and-boygrouping-documentation-images"
+category: "tutorial"
+credits: |-
+  vvvv group
+like_count: "1"
+imported: "true"
+teaser: |-
+  This is a collection of flat PNG images we've used for the [Patching](https://betadocs.vvvv.org/using-vvvv/patching/index.html) and the [Boygrouping](https://betadocs.vvvv.org/using-vvvv/boygrouping/index.html) wiki documentation. Most of them were just plain screenshots.
+  
+  Please let me know if there is one or another image missing.
+  
+  Best,
+  Anton

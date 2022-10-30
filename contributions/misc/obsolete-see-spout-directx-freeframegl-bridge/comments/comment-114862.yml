@@ -1,0 +1,14 @@
+### YamlMime:ContributionComment
+---
+uid: "114862"
+user: "kiki void"
+created: "03 Mar, 2014 - 01:08"
+body: |-
+  @metrowave
+  It's so exciting！！！	
+  I was success make"State" inlet of "switch" node which is show "OK" in my "ShareTextureInfo (OpenGL, Interop).v4p" when I follow your method even only once.
+      
+  But resolume 4.1.6 still show me "NVidia wglDXInterop failed to initialize"
+  (my GPU is GTX 780m,vvvv is 45beta31.2_x86 ，win7 x64).
+  
+   I has been setting NVIDIA control panel just GPU both vvvv and Resolume also Global.How can I kill Optimus!?

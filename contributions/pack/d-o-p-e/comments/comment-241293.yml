@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "241293"
+user: "guest"
+created: "20 Jun, 2017 - 06:21"
+body: |-
+  HI digitalwannabe,
+  
+  Did you manage to isolate the problem with the reliability of linearskinblending? 
+  
+  I'm having problems with it at the moment where it can be gotten to work and then, restarting with the same working setup, linearblend doesn't compose the mesh no matter how many time I try to reset the plugin.
+  
+  Admitedly my mesh is highly tesslated, so is this the important factor?

@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "58452"
+user: "mrboni"
+created: "14 Jan, 2011 - 12:25"
+body: |-
+  What's up with the blend modes in this shader? 
+  
+  It seems like when you spread it they're always on a weird blend mode, or there's something up with the alpha.
+  
+  Any ideas?

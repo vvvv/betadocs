@@ -1,0 +1,26 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/modbus-tcp-exampletutorial-meta"
+type: "tutorial"
+author: "rogerlette"
+date: "06 Nov, 2013"
+title: "Modbus TCP example/tutorial"
+originalURL: "contribution/modbus-tcp-exampletutorial"
+category: "tutorial"
+like_count: "3"
+imported: "true"
+teaser: |-
+  This is just a small patch that explain the basics of modbus TCP.
+  
+  Modbus, and now Modbus TCP is a wide spread industrial protocol which allows you to control or get data from many industrial device such as :
+  - Motor driver
+  - Relay board
+  - Some rotary encoder
+  - Wide list of sensors 
+  ...
+  
+  This protocol as been invented by Modicon company (Schneider Electric) but it's openly published and royalty-free.
+  
+  This patch explain the modbus TCP only, but with a simple converter you can also control RS485 modbus devices.
+  
+  Hope this will help some of you.

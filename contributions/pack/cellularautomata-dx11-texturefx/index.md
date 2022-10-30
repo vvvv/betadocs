@@ -1,0 +1,23 @@
+---
+uid: "contribution/cellularautomata-dx11.texturefx"
+uid-meta: "contribution/cellularautomata-dx11.texturefx-meta"
+uid-files: "contribution/cellularautomata-dx11.texturefx-files"
+title: "CellularAutomata DX11.TextureFX"
+image: "preview_3.png"
+contribution: "true"
+---
+
+Cyclic Cellular Automata were first developed by David Griffeath at the University of Wisconson.
+1. Take a 2D grid of cells.
+2. Select a maximum number of states each cell can have.
+3. Select a threshold value.
+4. Fill the cells with random state values between 0 and (maximum states-1).
+5. At each step of the simulation every cell follows these rules;
+a) Count how many neighbouring cells (Moore or Von Neumann neighborhoods) surrond the cell with a value of the current cell’s state + 1
+b) If the count is greater or equal to the threshold value then the cell state is incremented by 1
+6. Repeat this process as long as you want to.
+https://softologyblog.wordpress.com/2013/08/29/cyclic-cellular-automata/
+
+NOTE: "ProvaColori.tfx" is needen just to have same color as in example
+NOTE: some configurations ("Fuzz (Jason Rampe)=4/4/7/N",Diamond Spirals (Jason Rampe)=1/1/15/N) not works, no idea why. The image in the preview is : 1/1/17/M
+thanks to tonfilm for some useful hint!

@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/interfacing-reaktor-vvvv-node15-workshop-files"
+url: "interfacing-reaktor-vvvv-node15-workshop"
+category: "tutorial"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "REAKTOR_VVVV_Workshop.zip"
+            description: |-
+              interfacing reaktor & vvvv
+            
+            timestamp: "06 May, 2015 - 11:06"
+            download_count: "2"

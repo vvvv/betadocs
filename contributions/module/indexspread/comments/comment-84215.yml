@@ -1,0 +1,10 @@
+### YamlMime:ContributionComment
+---
+uid: "84215"
+user: "h99"
+created: "14 Jun, 2012 - 17:07"
+body: |-
+  Good question.
+  Well, create a randomspread and with it substitute the vertices position spread of box (link the output pin of randomspread <EDIT to the count linked to the "/" linked> to vertexbuffer down IndexSpread). Then change to any value its spreadcount.
+  
+  Here is working fine. Let me know, please.

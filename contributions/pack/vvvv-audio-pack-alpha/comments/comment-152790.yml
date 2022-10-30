@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "152790"
+user: "sebl"
+created: "01 Apr, 2014 - 14:41"
+body: |-
+  one thing i found out: the AudioEngine (VAudio) doesn't work, if it's created during runtime (eg with createnode) and not present in the first frame.

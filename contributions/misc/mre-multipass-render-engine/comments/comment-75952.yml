@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "75952"
+user: "I_am_from_Chile"
+created: "08 Feb, 2012 - 14:30"
+body: |-
+  Hi , Playing around with it ifound dificult to work with alpha channeled textures , Phong_MRT_VSM is the only way to get FX's in to it ??? blend modes and render states are completly ignored in it ? ...

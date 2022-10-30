@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/shadow-maps-using-depthbuffer-files"
+url: "shadow-maps-using-depthbuffer"
+category: "demo"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "shadow map 0.1.zip"
+            timestamp: "31 Jul, 2012 - 13:23"
+            download_count: "1"

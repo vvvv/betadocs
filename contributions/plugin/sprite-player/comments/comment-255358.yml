@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "255358"
+user: "readme"
+created: "14 Jun, 2018 - 10:02"
+body: |-
+  shouldn't it be easily possible to just render to image sequence and build the atlas from a directory source in vvvv?

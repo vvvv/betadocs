@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "191011"
+user: "elektromeier"
+created: "15 Apr, 2015 - 22:41"
+body: |-
+  @zepi, sounds a bit like "auto evaluate = true" is not set in the plugin. dont have time to try it atm, but if its this its really easy to fix.

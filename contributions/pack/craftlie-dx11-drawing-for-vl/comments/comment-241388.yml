@@ -1,0 +1,29 @@
+### YamlMime:ContributionComment
+---
+uid: "241388"
+user: "tonfilm"
+created: "23 Jun, 2017 - 14:17"
+body: |-
+  hi cat,
+  
+  that is basically why you (and every other vvvv pro) should attend this:
+  https://17.nodeforum.org/events/vl-for-vvvv-users/
+  
+  and this:
+  https://17.nodeforum.org/events/vl-concepts-and-patterns-1/
+  
+  anyway here is a tip on how to read the DynamicUI example:
+  
+  it basically follows the super classic game development pattern for mainloops. as a vvvv developer you live in that world and you only need to understand one addition to the normal 'update' processing. the mainloop is split, or sliced, into several steps in the main patch:
+  
+  1. check if there are any new input events
+  2. process all input events and update the state/logic of all elements accordingly
+  3. do normal "animation updates" like you are used to in vvvv
+  4. output layer to output pins and render it
+  > start over
+  
+  ![](https://vvvv.org/sites/default/files/imagecache/large/images/game-loop-simple.png) 
+  
+  step 2. is the new one for a vvvv developer and itself split into two steps, *HitTest* to check whether an element actually needs to process the input and *ProcessEvents* then does the actual logic and leaves the results for the *Update* stored in pads. so basically the pads connect the different mainloop slices by moving data/results from *ProcessEvents* to *Update* to animate/draw it...
+  
+  so go into the patches and read them like this, someone from the outside is calling *HitTest*, if that returns true *ProcessEvents* will be called where the patch processes the UI logic. finally *Update* will be called to render animations and other stuff that was decided on *ProcessEvents*.

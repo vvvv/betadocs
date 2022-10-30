@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "86440"
+user: "elliotwoods"
+created: "01 Aug, 2012 - 15:17"
+body: |-
+  @robi - the compiler unwraps the loops, and any calculations based on constants will be pre-computed.

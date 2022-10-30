@@ -1,0 +1,10 @@
+### YamlMime:ContributionComment
+---
+uid: "232646"
+user: "moco"
+created: "28 Nov, 2016 - 15:21"
+body: |-
+  The Extrude (DX11,GeomFX).gsfx was looking for a 
+  uvMode.**Get**(input<i>.pos, norm, input<i>.TexCd))/3;
+  
+  Should be Map() now, I guess ...

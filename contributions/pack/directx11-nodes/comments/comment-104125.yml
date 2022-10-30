@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "104125"
+user: "mediadog"
+created: "22 Jul, 2013 - 22:23"
+body: |-
+  The most recent (30.2) works fine on Win7 x64, but hangs vvvv on startup on both Win7 x32 and WinXP x32.  Just sits at the grey splash square.  Anyone else see this?

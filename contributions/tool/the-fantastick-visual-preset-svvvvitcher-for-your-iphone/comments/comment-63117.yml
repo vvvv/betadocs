@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "63117"
+user: "sanch"
+created: "02 May, 2011 - 21:06"
+body: |-
+  I mean you could have different small plugin , one like a device node to get point/acelerometer data ... , an other one like a "renderer" node to draw stuff, and as well quad image text transform ... and some group node  , all this node (plugin) could be connected with a custom pin type (you can create your own pin type in plugin , convert fantastik string into a fantastik node type). So have a nice bunch of plugin that you can patch quickly everything you want.
+  I didn't know about the custom pin thing , but this very cool feature for plugin.
+  Well if you feel motivated  :)

@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "168927"
+user: "tonfilm"
+created: "14 Oct, 2014 - 15:59"
+body: |-
+  you need a vvvv version >= 33 and you have to put the *packs* folder besides the vvvv.exe. if you do not see any VAudio nodes then, there is something wrong with your vvvv installtion.

@@ -1,0 +1,10 @@
+### YamlMime:ContributionComment
+---
+uid: "85289"
+user: "eno"
+created: "06 Jul, 2012 - 07:59"
+body: |-
+  Hey Elliot, thank you for this contribution!
+  Are you using a GPUdirect function that copies the captured frames directly to the grphics card, or is it some sort of WDM driver that transfers the data over the CPU to the Graphics card?
+  thx
+  Eno

@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "100888"
+user: "elio"
+created: "14 May, 2013 - 09:28"
+body: |-
+  Can someone help me with this:
+  
+  I need to convert a texture's format (e.g. D3DFMT_A8R8G8B8) and usage (e.g. D3DUSAGE_RENDERTARGET) from VVVV enum to the real DX enum's value.
+  
+  The VVVV enum2ord is just a 1..N value and does not reflect the original constants). For me it seems to be hidden in black closed source boxes ;('''

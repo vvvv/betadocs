@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "221319"
+user: "jesterfjord"
+created: "19 Jun, 2016 - 18:34"
+body: |-
+  Aha! I've found the solution. This may be specific to Windows 10. The .zip file must be unblocked before the files are extracted. Unblocking the individual files after they are extracted **does not work**.

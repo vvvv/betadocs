@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "226048"
+user: "beyon"
+created: "31 Aug, 2016 - 19:13"
+body: |-
+  re hsm: I did some initial testing with a hsm plugin using stateless a couple of years ago and have had the plan to do something more proper since then and possibly even an editor (test used custom text dsl/parser). Unfortunately my time for doing any serious development has been very limited and haven't been able to squeeze it in yet.
+  
+  Any hierarchical state machine (HSM) can be expressed as a regular finite state machine (FSM) but with a HSM you can make it a lot simpler with less states and transitions because you have nested states and a transition/action will happen if it's either handled by a leaf state itself or any of it's parents.
+  
+  A reference visualization is proved by the UML standard: https://en.wikipedia.org/wiki/UML_state_machine
+  
+  Posted a screenshot before but I guess nobody saw it (?): [root-190#comment-220133](/blog/root-190#comment-220133)

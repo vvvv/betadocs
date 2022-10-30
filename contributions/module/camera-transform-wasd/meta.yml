@@ -1,0 +1,30 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/camera-(transform-wasd)-meta"
+type: "module"
+author: "unc"
+date: "17 Sep, 2011"
+title: "Camera (Transform WASD)"
+originalURL: "contribution/camera-(transform-wasd)"
+category: "module"
+credits: |-
+  Updated to include DX11 in the help patch. Added some yaw to the movement, as well as damper. Altered patch to more closely match the current softimage reset, and keyboard and mouse. It's a bit more like a FPS shooter, meets flight sim now.
+like_count: "12"
+imported: "true"
+teaser: |-
+  It copies camera/view behavior from this tool: <http://pouet.net/prod.php?which=12511>
+  I got really used to it, and finally made this module to fly around 3d
+  Kinda works like no-clip mode in FPS games
+  
+  dunno, maybe somebody will find it handy too
+  
+  just hold LMB, fly with WASD, move mouse to look/turn around
+  
+  CONTROLS: (Updated 8/11/2015 SuperflysiNZ)
+  fly - WASD
+  look - LMB+MOUSEMOVE
+  pan - MMB+MOUSEMOVE
+  fov - z+RMB+MOUSEMOVE
+  strafe - RMB+MOUSEMOVE
+  fast = SHIFT+WASD
+  r(hold) = reset view

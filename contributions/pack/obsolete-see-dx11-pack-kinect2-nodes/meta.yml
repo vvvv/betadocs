@@ -1,0 +1,38 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/obsolete-see-dx11-pack-kinect2-nodes-meta"
+type: "pack"
+author: "vux"
+date: "04 Dec, 2013"
+title: "[OBSOLETE, see DX11 Pack] Kinect2 Nodes"
+originalURL: "contribution/obsolete-see-dx11-pack-kinect2-nodes"
+category: "pack"
+credits: |-
+  Microsoft of course, and Flat Eric doing all the job while I was just drinking beers watching him coding ;)
+like_count: "27"
+imported: "true"
+teaser: |-
+  Pre node15 build, new features and some bug fixes, still badly lacks documentation, I know ;)
+  
+  Latest update:
+  * Update to latest public sdk.
+  * Self contained, dependencies should all be there
+  * Support for some textures as raw (easier to use in compute shaders).
+  * Face and HdFace
+  * Experimental gesture support
+  * Experimental fusion support
+  * Some help patches (finally)
+  * Breaking change : Kinect skeleton tracking Id is now a string and not value anymore.
+  
+  Disclaimer (from Microsoft):
+  “This is preliminary software and/or hardware and APIs are preliminary and subject to change.”
+  
+  Same disclaimer for me, don't complain if a pin gets broken in a future release ;)
+  
+  Note:
+  * Requires Windows 8 or Windows 8.1
+  * Requires DX11 pack 
+  * Only Works in 64 bits version
+  
+  Install:
+  simply put the \kinect2 directory that is in the .zip in your \packs directory.

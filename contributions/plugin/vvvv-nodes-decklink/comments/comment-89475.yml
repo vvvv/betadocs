@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "89475"
+user: "microdee"
+created: "10 Oct, 2012 - 16:31"
+body: |-
+  oh i forgot to mention in /dx9ex mode the texture isn't created. info and anything else behaves like if i didn't connect anything to texture inputs
+  same patch works in normal mode
+  ![decklink in /dx9ex](https://vvvv.org/sites/default/files/imagecache/large/images/0_2012.10.10-18.29.18.png)

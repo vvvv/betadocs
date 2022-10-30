@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "57149"
+user: "sapo"
+created: "14 Dec, 2010 - 21:47"
+body: |-
+  NiUserTracker.exe wont start and is asking for .NET framework 4.30319, you might want to ad that to the requirements list. thanks a lot for sharing ;)

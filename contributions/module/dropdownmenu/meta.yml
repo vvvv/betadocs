@@ -1,0 +1,15 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/dropdownmenu-meta"
+type: "module"
+author: "catweasel"
+date: "17 Oct, 2013"
+title: "DropDownMenu"
+originalURL: "contribution/dropdownmenu"
+category: "module"
+credits: |-
+  [catweasel](http://vvvv.org/users/catweasel)
+like_count: "9"
+imported: "true"
+teaser: |-
+  GUI element for Drop Down Menus, spreadable.

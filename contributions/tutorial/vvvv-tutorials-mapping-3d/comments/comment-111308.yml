@@ -1,0 +1,15 @@
+### YamlMime:ContributionComment
+---
+uid: "111308"
+user: "colorsound"
+created: "13 Dec, 2013 - 13:46"
+body: |-
+  hi chriss0212	
+  
+  i have just download a fresh last vvvv_45beta31.2_x86 with its addons also last version of [directx11-nodes-alpha](xref:contribution/directx11-nodes) which is 31.2 version as well, then vvvv.packs_.image-b31-x86 . 
+  
+  i was missing VVVV.Nodes.SpreadTableValue.dll but took it from other version and worked btw i vote for this one to be in the addons.
+  
+  Then as you said input element node was red ,you just double click and select the node again and it works, that happens sometime with some older DX11 nodes i guess there was a  change on the naming but nodes are there. 
+  
+  I have saved it and uploaded it ;D.

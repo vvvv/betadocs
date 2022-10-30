@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "248300"
+user: "andresc4"
+created: "15 Jan, 2018 - 22:54"
+body: |-
+  I would like to filter bitcoin price from here
+  https://api.coinmarketcap.com/v1/ticker/?limit=10
+  but im not getting how to use this

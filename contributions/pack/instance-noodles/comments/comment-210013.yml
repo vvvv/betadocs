@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "210013"
+user: "SuperflysiNZ"
+created: "03 Nov, 2015 - 10:47"
+body: |-
+  Having a bit of trouble with the Queue (Value Buffer) Help patch, after switching to my sound input, the non Value Buffer side works fine (bottom Preview), but the top is black. No red nodes, but just doesn't seem to be passing anything on.

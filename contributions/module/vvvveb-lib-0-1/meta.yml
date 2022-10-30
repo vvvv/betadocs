@@ -1,0 +1,25 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/vvvveb-lib-0.1-meta"
+type: "module"
+author: "henrik"
+date: "10 Oct, 2010"
+title: "vvvveb lib 0.1"
+originalURL: "contribution/vvvveb-lib-0.1"
+category: "module"
+like_count: "2"
+imported: "true"
+teaser: |-
+  1.  vvvveb lib 0.1
+  
+  **features:**
+  
+  * Mjpeg-streaming-server 
+  * Receives ajax requests
+  * Send strings back to an ajax request
+  
+  
+  **bugs:**
+  
+  * doesn't support IE
+  *(IE doesn't support mjpeg-streams natively)*

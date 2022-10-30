@@ -1,0 +1,20 @@
+### YamlMime:ContributionComment
+---
+uid: "238325"
+user: "StiX"
+created: "04 Apr, 2017 - 12:44"
+body: |-
+  kinect is heavily messing with my framerate / smoothness
+  
+  without it i have around 50 fps stable movement
+  
+  when i turn on kinect node alone, without plugging it into particles, everything is a bit choppy, windows+mainloop, the first parameter in perfmeter is going ham
+  
+  without kinect:
+  ![](https://vvvv.org/sites/default/files/imagecache/large/images/perf%20b.JPG) 
+  
+  
+  with kinect:
+  ![](https://vvvv.org/sites/default/files/imagecache/large/images/perfa.JPG) 
+  
+  i know this is probably dx11 thing, stil a bummer

@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "236572"
+user: "velcrome"
+created: "06 Mar, 2017 - 18:09"
+body: |-
+  dunno if it helps, but i had to update my nvidia drivers. 
+  
+  dx11.particles requires the newest dx11, which was most likely compiled against a very recent driver

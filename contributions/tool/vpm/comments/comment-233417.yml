@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "233417"
+user: "soriak"
+created: "15 Dec, 2016 - 22:28"
+body: |-
+  super interesting! as vpm doesnt require vvvv to be installed beforehand, would it make sense to include the vvvv dependencies of setup.exe in the vpm package of vvvv? or would that require special handling?

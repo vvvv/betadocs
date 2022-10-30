@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "72918"
+user: "microdee"
+created: "03 Dec, 2011 - 17:51"
+body: |-
+  great! it looks like r+h only works properly on the first slice it doesn't update for the rest. is it possible to make AsString (OSC packet) / AsPacket (OSC packet) nodes which converts the OSCPacket type to the raw OSC message and vice-versa so for example i could save it in a file and read it later using these plugins. and how do i make arrays for one address in this one? like let's say "ffffffff" in regular OSC.

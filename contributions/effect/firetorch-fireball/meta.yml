@@ -1,0 +1,15 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/firetorch-fireball-meta"
+type: "effect"
+author: "misak"
+date: "04 Mar, 2013"
+title: "FireTorch & FireBall"
+originalURL: "contribution/firetorch-fireball"
+category: "effect"
+credits: |-
+  RenderMonkey Sources adopted by misak
+like_count: "7"
+imported: "true"
+teaser: |-
+  Two different types 2d fire from RenderMonkey.

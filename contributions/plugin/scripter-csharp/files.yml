@@ -1,0 +1,54 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/scripter-(csharp)-files"
+url: "scripter-csharp"
+category: "plugin"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "4"
+            filename: "Scripter_v1.5.zip"
+            description: |-
+              Scripter v.1.5 AnyCPU
+            
+            timestamp: "05 Apr, 2018 - 21:16"
+            download_count: "1"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "3"
+                    filename: "Scripter_v1.3.zip"
+                    description: |-
+                      Scripter v.1.3 AnyCPU
+                    
+                    timestamp: "14 Feb, 2016 - 14:26"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "2"
+                    filename: "Scripter_v1.2.zip"
+                    description: |-
+                      Scripter v.1.2 AnyCPU
+                    
+                    timestamp: "11 Jan, 2016 - 16:42"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "1"
+                    filename: "Scripter_v1.1.zip"
+                    description: |-
+                      Scripter v.1.1 AnyCPU
+                    
+                    timestamp: "09 Jan, 2016 - 13:03"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "Scripter_v1.zip"
+                    description: |-
+                      Scripter v.1 AnyCPU
+                    
+                    timestamp: "06 Jan, 2016 - 18:56"
+                    download_count: "1"

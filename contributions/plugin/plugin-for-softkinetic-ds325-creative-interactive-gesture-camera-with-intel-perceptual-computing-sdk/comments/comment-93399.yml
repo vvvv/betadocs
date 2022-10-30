@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "93399"
+user: "metrowave"
+created: "20 Dec, 2012 - 01:51"
+body: |-
+  What is your installed version of Intel Perceptual SDK? I'm still using intel_pc_sdk_intel64_5057.msi and I haven't installed the latest one which is intel_pc_sdk_intel64_5831.msi maybe that's the problem.

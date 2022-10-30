@@ -1,0 +1,20 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/enttec-dmx-usb-pro-mkii-module-meta"
+type: "module"
+author: "mfo"
+date: "02 Feb, 2016"
+title: "Enttec DMX USB Pro MkII module"
+originalURL: "contribution/enttec-dmx-usb-pro-mkii-module"
+category: "module"
+like_count: "7"
+imported: "true"
+teaser: |-
+  A module to make full use of Enttec's DMX USB Pro MkII. Backward compatible to the DMX USB Pro.
+  
+  This module was created after forum discussion [how-to-access-second-universe-on-usb-dmx-pro-mk-2](https://discourse.vvvv.org/t/how-to-access-second-universe-on-usb-dmx-pro-mk-2) and in consultation with Enttec's support staff.
+  It's based on [west" "west](http://vvvv.org/users/west%22+%22west)'s implementation for the Enttec DMX USB Pro.
+  
+  The module initially activates DMX USB Pro MkII's API, then requests DMX-sending for both ports (both universes) and from that point on enables sending DMX data.
+  
+  The module's Reset pin allows hot-plugging. No restart of vvvv after i.e. accidental unplugging of the usb device is needed anymore. Simply hit Reset.

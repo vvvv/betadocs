@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "65223"
+user: "woei"
+created: "14 Jun, 2011 - 14:25"
+body: |-
+  @deby: which line exactly does the error appear? and did you set the shader model in the technique to 2.0 or 3.0?

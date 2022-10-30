@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/nsis-vvvv-installer-files"
+url: "nsis-vvvv-installer"
+category: "tool"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "vvvv-installer-x86-dx11.zip"
+            description: |-
+              NSIS-Script for installer
+            
+            timestamp: "05 Apr, 2017 - 13:38"
+            download_count: "1"

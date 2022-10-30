@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "94766"
+user: "gegenlicht"
+created: "16 Jan, 2013 - 12:54"
+body: |-
+  ive just tested this plugin and its quite amazing! Is there a way to get ableton live's audio output working with this? Would it work with 8mono output Soundcard?
+  
+  The idea would be to get ~4-12 different audio layers from ableton live via some virtual audio cable tool and then create 4-12 local radio streams to files from each and opening them with the plugin. 
+  
+  Would this be even possible? would someone have any advise on sofware to create the radio streams?
+  
+  Or is there any other ways to create 3d audio experiences based on vvvv position data in other seperate audio engines that can use directshow/line in audio?

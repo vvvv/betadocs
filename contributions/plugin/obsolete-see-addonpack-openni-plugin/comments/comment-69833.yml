@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "69833"
+user: "mediadog"
+created: "26 Sep, 2011 - 16:38"
+body: |-
+  Is the source for the current plugin available?  I'd like to add the option of getting unscaled depth data out on the texture, as the way it works now that output is useless for figuring actual depth as the output is always scaled from 0-1.
+  
+  I can't get OpenNISkeleton_5 to work anymore (never gets past OpenNI Init), or I could mod that source.  Thanks!

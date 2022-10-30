@@ -1,0 +1,12 @@
+### YamlMime:ContributionComment
+---
+uid: "248669"
+user: "mfo"
+created: "29 Jan, 2018 - 18:15"
+body: |-
+  Hi [gumilastik](http://vvvv.org/users/gumilastik),
+  this sounds great, but is unfortunately not working for me. Same issue that [g_da](http://vvvv.org/users/g_da) has:
+  
+  "An attempt was made to load a program with an incorrect format. (Exception from HRESULT: 0x8007000B)"
+  
+  Any help? How does Writer find FFMpeg?

@@ -1,0 +1,63 @@
+---
+uid: "contribution/vvvv-zeromq"
+uid-meta: "contribution/vvvv-zeromq-meta"
+comments: 
+ items: 
+  - uid: "212108"
+  - uid: "212287"
+  - uid: "212523"
+  - uid: "213021"
+  - uid: "217380"
+  - uid: "217407"
+  - uid: "231005"
+  - uid: "231016"
+  - uid: "241312"
+  - uid: "246382"
+  - uid: "246402"
+  - uid: "261354"
+  - uid: "264186"
+  - uid: "264239"
+title: "vvvv-ZeroMQ"
+image: "logo.gif"
+contribution: "true"
+---
+
+What started as a easy drop-in replacement for <span class="node">UDP (Network Server)</span> and <span class="node">TCP (Network Server</span> turned into a full fledged toolkit for the 99% of common asynchronous communication styles.
+
+In its most basic use case, you can use two <span class="node">Dealer (Network.ZeroMQ)</span> socket plugins to then <span class="node">Send (Network.ZeroMQ)</span> and <span class="node">Receive (Network.ZeroMQ)</span> bundled spreads of <span class="pin">Raw</span>. 
+
+<span class="pin">Bind</span> one to an endpoint (pretty much like the old Server), and Connect any count of others to the same address (pretty much like the old Client species). From then on, you will get reliable, and ordered output for every Send you bang (pretty much like you expect, but which the naive TCP and UDP could never deliver, for protocol specification reasons). For most patterns this is even full-duplex.
+
+As for a cooler use case, you can set up a Pub-Sub network just as easily. <span class="pin">Bind</span> the <span class="node">Publisher (Network.ZeroMQ)</span>, but connect all <span class="node">Subscriber (Network.ZeroMQ)</span>s and listen to the topics of interest. ZeroMQ is smart enough to only wire the stuff subscribers are actually interesed in. With just 3 more nodes (as in xpub, xsub, proxy) you can give your clustered vvvv setup similar characteristics as when using [MQTT](xref:contribution/mqtt-revamped) (or mostly any other software with MQ in its name) without using a third-party broker with suspicious patents.
+
+In brief: this toolkit gives you the means to handle advanced networking science with just a few nodes. Be aware, it does not do any security for you, this is something you'd have to stack on top of it.
+
+1. Installation
+Use this [vpm link](vpms://raw.githubusercontent.com/velcrome/vvvv-ZeroMQ/master/copy/vvvv-ZeroMQ.vpack) to install it with microdees great  [vpm](xref:contribution/vpm) tool.
+
+You can also create a vvvv-ZeroMQ folder in your packs folder, and unzip a release or prerelease from [ the GitHub release page](https://github.com/velcrome/vvvv-ZeroMQ/releases).
+
+1. Technical details
+Most of the technical advance of this pack is directly coming from the [NetMQ library](http://netmq.readthedocs.org/en/latest/), which is an open c# reimplementation of the [original](https://github.com/zeromq/zeromq4-1) c++ [libs](https://github.com/zeromq/libzmq). 
+
+Read the [manual](http://zguide.zeromq.org/page:all)!
+
+The vvvv socket nodes provided take full advantage of the simplistic modularity of the original design, but take away alot of functional choices to give you instead an easy yet sufficiently complete node interface: Pick two sockets and transmit binary payloads between them. Each socket has it's own subtleties, which can help you, depending on your requirements and design. And hey, there are only so many patterns you can do ;-)   
+
+Supported base protocols are InProc (similar to shared mem, but more like a postal service), TCP (the common default for its reliability across networks even under high load) and PGM (some industry thing for massive pubsub). Sadly IPC is [not yet](https://github.com/zeromq/netmq/issues/331) supported.
+
+Each Socket runs in its own thread, independent of the vvvv Mainloop. The similarity of sockets allows easy exchange of patterns during runtime. Have a look into the help patches (one for every socket) and spot the subtile differences, so you can master inter-instance and network communication.
+
+Talking ZeroMQ is supported and understood in more than 40+ languages, including python, java, php, erlang, and c. It allows future-proof IoT for various CPU architectures, and it allows you designing your network according to the means of your hardware, instead of designing around bloated industry-commissioned specifications. 
+Currently it might be a smart idea to rapidly prototype your network configuration with vvvv before moving on to more low-level devices. 
+
+[vvvv-message](xref:contribution/vvvv-message) has been interfaced as well, because it does away with a lot of hassle of converting to and binning correctly any <span class="pin">Raw</span> data, because that is what's going to be weird once you exchange actual data within different vvvv instances across cores or even the net.
+
+This pack needed quite some boiler plating to get there, but I am proud all nodes are  up to [woei](http://vvvv.org/users/woei) gold standard of bin-sizeing now. 
+
+1. License
+Because this is just a smart shim between NetMQ and the vvvv interface (both LGPL), this pack is LGPL too: any use is free of charge, changing source code is liberal. That said, if you use the actual VVVV, licensing fees do apply for commercial work. Same (plus attribution) if you use additional vvvv-Message nodes to your advantage.
+
+1. TL;DR
+ZeroMQ it is crazy fast, [supposedly](http://zeromq.org/area:faq#toc7) sometimes even faster than naive TCP. 
+Code is at [github](https://github.com/velcrome/vvvv-ZeroMQ).

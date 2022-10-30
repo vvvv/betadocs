@@ -1,0 +1,21 @@
+### YamlMime:ContributionComment
+---
+uid: "83169"
+user: "obernardoo"
+created: "22 May, 2012 - 20:09"
+body: |-
+  thanks for all!!!. 
+  have this problem when connected 
+  VideoIn (OpenCV)  => AsTexture(OpenCV) <red%20node>  => Preview(EX9.Texture)
+  in beta27.2
+  
+  render tty:
+  <div class="box">
+    00:02:07  -  : To help us track this error down, enable the ExceptionDialog via the 
+  menu or starting vvvv with /showexceptions.
+    00:02:07 ERR : Exception occured in TMPluginWrapperNode.Evaluate: Could not load file
+  or assembly 'Emgu.CV, Version=2.3.0.1416, Culture=neutral, PublicKeyToken=7281126722ab4438' 
+  or one of its dependencies. The system cannot find the file specified.
+  </div>
+  
+  in the previous version does not occur

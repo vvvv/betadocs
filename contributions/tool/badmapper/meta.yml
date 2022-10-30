@@ -1,0 +1,21 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/badmapper-meta"
+type: "tool"
+author: "joreg"
+date: "21 Nov, 2013"
+title: "badMapper"
+originalURL: "contribution/badmapper"
+category: "tool"
+credits: |-
+  [MadMapper](http://www.madmapper.com/), [DominikKoller](http://vvvv.org/users/DominikKoller)
+like_count: "22"
+imported: "true"
+teaser: |-
+  Inspired by [MadMapper](http://www.madmapper.com/) and [mapping-toolkit (alpha](xref:contribution/mapping-toolkit-%28alpha%29)) badMapper allows to select multiple rectangles from a SourceRenderer and distort those (via homography) in a DestinationRenderer.
+  
+  Provide a texture with your own content, point your projector to the surfaces you want to be mapped and go fullscreen on it with the *Destination* Renderer. Create/place/size selections in the *Source* and then drag their corresponding cornerpoints to their targetposition by directly operating in the *Destination Preview* Renderer. Selections can be tweaked pixelprecise via keyboard, vertices snap, mappings can be saved/loaded, ... which makes this a perfectly usable tool for simple scenarios. 
+  
+  Built in an ultra-modular fashion that allows it to be easily adapted to a DX11 version.
+  
+  Also available via [github](https://github.com/vvvv/badMapper).

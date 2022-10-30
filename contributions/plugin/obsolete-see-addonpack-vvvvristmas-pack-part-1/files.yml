@@ -1,0 +1,27 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/obsolete-see-addonpack-vvvvristmas-pack-part-1-files"
+url: "obsolete-see-addonpack-vvvvristmas-pack-part-1"
+category: "plugin"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "1"
+            filename: "vvvvRistmasPack-Folder.zip"
+            description: |-
+              Folder version, for advanced users.
+            
+            timestamp: "28 Dec, 2010 - 12:51"
+            download_count: "1"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "vvvvRistmasPack-Flat.zip"
+                    description: |-
+                      Flat version, recommended download
+                    
+                    timestamp: "28 Dec, 2010 - 12:51"
+                    download_count: "1"

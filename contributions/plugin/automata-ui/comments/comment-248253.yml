@@ -1,0 +1,16 @@
+### YamlMime:ContributionComment
+---
+uid: "248253"
+user: "u7angel"
+created: "12 Jan, 2018 - 13:19"
+body: |-
+  hey microdee
+  
+  what a coincidence, i was thinking about making AutomataUI open source this morning. in case you want to mess with it, tailor it to your needs, complain about my coding style...here it is
+  https://github.com/wirmachenbunt/AutomataUI
+  
+  Honestly, i sort of abandoned this project since i'm totally hooked with the interpole project. Therefore its only fair to make it public. it definitely needs some love.
+  
+  concerning, remotely triggering transitions, yes. one could make a node for that.
+  
+  and regarding the "frame thinking", yeah that's kinda a taste thing. i totally understand your point. for me automata is more a machine-like-thing rather than a fuzzy animation editor. i wanted it to be precise using frames rather than guessing time (i.e. frame-drops).

@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "236633"
+user: "mrboni"
+created: "08 Mar, 2017 - 21:00"
+body: |-
+  I'm having trouble using custom resource semantics (with a 3d buffer)
+  
+  Render semantics seem fine
+  
+  Patch here https://www.dropbox.com/s/dl3wgw5axhp119u/Vortex.zip?dl=1
+  
+  (look in psys Vortex - nothing is happening when addressing the 3d buffer values and applying them to the force variable)

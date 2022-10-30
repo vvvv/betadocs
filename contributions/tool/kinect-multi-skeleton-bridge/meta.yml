@@ -1,0 +1,41 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/kinect-multi-skeleton-bridge-meta"
+type: "tool"
+author: "hierro"
+date: "14 Dec, 2010"
+title: "Kinect Multi Skeleton Bridge"
+originalURL: "contribution/kinect-multi-skeleton-bridge"
+category: "tool"
+credits: |-
+  hierro
+  screamer
+  nando
+like_count: "18"
+imported: "true"
+teaser: |-
+  **Dismissed version, dll updated version here :**  [/sites/default/files/uploads/OpenNIGenericNode.zip](/sites/default/files/uploads/OpenNIGenericNode.zip)
+  
+  
+  What's included :
+  
+  1)NITrackerBridge.exe 
+  2)MultiSkeleton (Kinect) help.v4p
+  
+  What you need :
+  
+  - OpenNi framework
+  - PrimeSense sensor driver kinect mod
+  - NITE middleware 1.3
+  - vs2010 redist.
+  
+  look www.openni.org for downloads and forums
+  
+  Instructions : 
+  
+  - start NITrackerBridge.exe and MultiSkeleton (Kinect) help.v4p
+  - enjoy
+  
+  
+  
+  Note: This is just a quick hack to play, PrimeSense and OpenNi will release more "tools" and documentation to do that easier; wrapping the program into a vvvv plugin will be helpful too(less latency and direct control within vvvv).

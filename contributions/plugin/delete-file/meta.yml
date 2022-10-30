@@ -1,0 +1,15 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/delete-(file)-meta"
+type: "plugin"
+author: "bjoern"
+date: "22 Aug, 2012"
+title: "Delete (File)"
+originalURL: "contribution/delete-(file)"
+category: "plugin"
+like_count: "9"
+imported: "true"
+teaser: |-
+  * Deletes given files. 
+  * Nothing fancy, just a quick hack. 
+  * Be cautious with the help patch.

@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "75070"
+user: "Joanie_AntiVJ"
+created: "19 Jan, 2012 - 23:35"
+body: |-
+  Awesome work, took me a while to use it properly but performances are actually really good.
+  
+  I can play 4, 5 fullHD layers at 30fps, best codecs for me are WMV and AVCHD/mp4 at 8-10M/s bitrate. Mov/H264 also has very decent performances.
+  
+  Spotted a little bug: position (seconds) and frame number keep incrementing even when play = 0.
+  
+  Thanks devs !

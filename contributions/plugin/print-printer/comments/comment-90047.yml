@@ -1,0 +1,16 @@
+### YamlMime:ContributionComment
+---
+uid: "90047"
+user: "zeos"
+created: "22 Oct, 2012 - 13:06"
+body: |-
+  @h99
+  
+  The bgColor is now white. Thanks!
+  The pin to choose the printer is there, it is called **PrinterName**. 
+  
+  The **Print**node can work in combination with **Printer** node, to obtain the default printer from the system. 
+  
+  Thanks for the report! 
+  
+  Regards

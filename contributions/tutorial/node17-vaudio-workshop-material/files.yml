@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/node17-vaudio-workshop-material-files"
+url: "node17-vaudio-workshop-material"
+category: "tutorial"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "VAudio-WorkshopNODE17.zip"
+            description: |-
+              NODE17 Vaudio workshop material
+            
+            timestamp: "24 Aug, 2017 - 11:10"
+            download_count: "1"

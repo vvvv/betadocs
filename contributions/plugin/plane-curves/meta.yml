@@ -1,0 +1,21 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/plane-curves-meta"
+type: "plugin"
+author: "fibo"
+date: "24 Nov, 2010"
+title: "Plane Curves"
+originalURL: "contribution/plane-curves"
+category: "plugin"
+like_count: "13"
+imported: "true"
+teaser: |-
+  A curve is a continous function that outputs two coordinates.
+  
+  The easiest way to describe a continous curve is the following:
+  
+  take a pencil and a paper and draw without separate the pencil from the paper ... that is a continuous curve.
+  
+  UPDATE> this contribution was created some time ago, when VVVV used to scan the plugins/ folder. Nowadays, just unzip it, copy the PlaneCurves folder in your contribution/plugins folder and restart VVVV or rescan for external. Then if you open the _root_PlaneCurves.v4p patch you should see the "heart" curve, and all plugins will be in your nodelist.
+  
+  Enjoy... sta favvvva

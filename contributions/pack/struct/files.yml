@@ -1,0 +1,27 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/struct-files"
+url: "struct"
+category: "pack"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "1"
+            filename: "struct_pack_v2.1_vl_hotfix.7z"
+            description: |-
+              vl hot fix for beta_40+, removed support for vl types!
+            
+            timestamp: "21 May, 2021 - 10:05"
+            download_count: "1"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "struct_pack_v2.0.zip"
+                    description: |-
+                      v4 beta35.2+ intial public release
+                    
+                    timestamp: "22 Mar, 2019 - 17:31"
+                    download_count: "1"

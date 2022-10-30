@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "241276"
+user: "CeeYaa"
+created: "19 Jun, 2017 - 16:42"
+body: |-
+  A workaround for lazy people
+  I start c4d2vvvv with vvvv_45beta33.7 connect a writer to the outputPin of TIDY and save a new XML
+  so you have a TIDY xml for the new vvvv

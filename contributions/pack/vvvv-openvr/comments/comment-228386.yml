@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "228386"
+user: "tonfilm"
+created: "22 Sep, 2016 - 12:37"
+body: |-
+  you have to disable the sync of the renderer, every node that blocks the vvvv mainloop has to release its sync. so enable "Do Not Wait" on every DX11 Renderer (immediate on DX9 Renderer) and VideoTextures.

@@ -1,0 +1,15 @@
+### YamlMime:ContributionComment
+---
+uid: "269975"
+user: "hierro"
+created: "27 Nov, 2018 - 19:10"
+body: |-
+  It means its' mandatory to use selection in order to use colors binsize ?
+  
+  In my test, i'm not using any selection and behaviour, in a way, it's not correct, as you can see i'm passing colors spreaded, but everything is only using the first bin.
+  If, I use the selection it works, but I don't need any selection :)
+  
+  What i'm asking is if colors can be managed directly from CBD shader,as i was expecting to work.
+  Another solution I can apply, is to have a lerp inside shader loop and so manage a fadeToBlack with another incoming float buffer, not elegant but working perfectly.
+  
+  ![TestSpreadColors](https://vvvv.org/sites/default/files/imagecache/large/images/TestParticles.jpg)

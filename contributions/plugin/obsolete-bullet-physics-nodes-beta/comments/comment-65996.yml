@@ -1,0 +1,21 @@
+### YamlMime:ContributionComment
+---
+uid: "65996"
+user: "Lightmare"
+created: "30 Jun, 2011 - 11:49"
+body: |-
+  Hi Joanie
+  
+  have a look at the attached patch, it's not well documented but makes use of quite a few of the nodes, there's still some nodes I just haven't tried yet but hopefully this helps.
+  
+  ...I've failed at finding the attach file button so here's a dropbox link:
+  
+  http://dl.dropbox.com/u/502753/Bullet.v4p
+  
+  There's also this, which is pretty basic:
+  
+  [bullet-+-irrklang-demo](xref:contribution/bullet-+-irrklang-demo)
+  
+  All the best,
+  
+  Joseph

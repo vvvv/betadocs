@@ -1,0 +1,14 @@
+### YamlMime:ContributionComment
+---
+uid: "226415"
+user: "u7angel"
+created: "02 Sep, 2016 - 06:39"
+body: |-
+  @beyon and bjoern. it's all interesting to read. concerning hierachical state machine you can use multiple instances of the node in your patch. 
+  
+  regarding "guards" i quote something from the link
+  <div class="box">quote:
+  When you actually code an extended state machine, the guards become the same IFs and ELSEs that you wanted to eliminate by using the state machine in the first place. Too many of them, and you’ll find yourself back in square one ("spaghetti code"), where the guards effectively take over handling of all the relevant conditions in the system.
+  </div>
+  
+  not sure if this is a needed features. i'll probably keep it as "simple" as it is but thanks for the input.

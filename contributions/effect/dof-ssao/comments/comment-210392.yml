@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "210392"
+user: "Meierhans"
+created: "09 Nov, 2015 - 14:46"
+body: |-
+  I just discovered these little gems, amazing how fast, clean and easy they work. And they only need depth channel, great. Thank you for porting Antokhio, that is so useful!
+  
+  I got one question about the DOF autofocus: I like it, but it does adjust very quickly, nearly instantly, when a new object comes into center of view. Is there a way to adjust the speed of this? I studied to code of the shader but got lost.
+  
+  And another question: In case one would want to use both, would it make any sense speedwise - if possible - to merge them into one shader?

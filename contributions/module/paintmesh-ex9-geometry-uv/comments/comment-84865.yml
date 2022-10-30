@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "84865"
+user: "everyoneishappy"
+created: "26 Jun, 2012 - 22:57"
+body: |-
+  Thanks!  I tried and failed to patch this a couple of times over the last year with vertex buffer, this was much easier.  You might need to increase the size of the render pass if you need high accuracy though.

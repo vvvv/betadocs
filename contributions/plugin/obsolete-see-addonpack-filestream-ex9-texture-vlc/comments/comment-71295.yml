@@ -1,0 +1,20 @@
+### YamlMime:ContributionComment
+---
+uid: "71295"
+user: "ft"
+created: "31 Oct, 2011 - 11:08"
+body: |-
+  @robi_h
+  
+  As you can see it goes out of memory while creating TEXTURES, which probably means you are running out of graphics memory. No, it could be system memory also, since the used texture type also keeps a copy in system ram...
+  In order to have smooth playback, I create 2 textures per video, and I show 1 of them, while filling up the other texture. 
+  
+  So it should be quite easy to calculate how much video ram you will need in order to play all your videos, which is 
+    width x height x 4 bytes (=rgba) x 2 (=2 textures/per video)
+  per video file.
+  
+  Example for a 1024 x 768 video, you wil need 3 MB x 2 = 6 MB.
+  
+  But maybe there is a way to free up memory (by explicitely 'destroying' a texture), and you get the error because some memory stays allocated. I should check if that is possible... 
+  
+  Maybe you can use GPU-Z or something to find out whether your graphics card memory keeps filling up, and never goes down when a file is unloaded, or whether it's your system memory gets full? And let me know what happens?

@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "57373"
+user: "sapo"
+created: "20 Dec, 2010 - 01:18"
+body: |-
+  there is so many things that can be done with this system that i can't focus on what to do..
+  one thing.. i'm triing to get the degree of rotation of the bones but i'm not having much luck, i have been triing with decomposer linked to a single bone (position pins) but it outputs the 3 values, xyz rotation, with stange scales and going negative/positive.
+  So, anyone please got some clue on how to get the degree values(0-360) of those bones or the points making the bone? would be cool if the patch could provide this data already for evaluation of gestures and such.

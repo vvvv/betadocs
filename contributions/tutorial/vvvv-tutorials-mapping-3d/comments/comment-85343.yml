@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "85343"
+user: "elliotwoods"
+created: "06 Jul, 2012 - 21:35"
+body: |-
+  @newemka - did you make sure that Billboard was set to WithinNormalisedProjection ? (also i think there's a separate node for this. Either way, glad you found a solution that works for you!

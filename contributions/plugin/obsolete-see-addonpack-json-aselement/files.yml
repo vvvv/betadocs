@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/obsolete-see-addonpack-json-aselement-files"
+url: "obsolete-see-addonpack-json-aselement"
+category: "plugin"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "JSONAsElement.zip"
+            description: |-
+              Obsolete, is in addonpack since vvvv45beta30
+            
+            timestamp: "23 Feb, 2013 - 16:19"
+            download_count: "4"

@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "152129"
+user: "sebl"
+created: "18 Mar, 2014 - 20:46"
+body: |-
+  yes, if the node works, it supports multiple cams.
+  
+  does this [dll](https://www.dropbox.com/s/78shxxs8hah5wqp/VVVV.Nodes.OpenCV.CLEye.dll) work for you (on beta31.2 x86)?
+  
+  if not, you can compile it yourself. ask, if you need more info for that.

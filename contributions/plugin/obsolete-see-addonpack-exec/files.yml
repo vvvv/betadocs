@@ -1,0 +1,27 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/obsolete-see-addonpack-exec-files"
+url: "obsolete-see-addonpack-exec"
+category: "plugin"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "1"
+            filename: "WindowsExec.v0.2a.zip"
+            description: |-
+              v0.2a
+            
+            timestamp: "31 Oct, 2012 - 21:32"
+            download_count: "2"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "WindowsExec.v0.1a.zip"
+                    description: |-
+                      v0.1a
+                    
+                    timestamp: "31 Oct, 2012 - 19:11"
+                    download_count: "2"

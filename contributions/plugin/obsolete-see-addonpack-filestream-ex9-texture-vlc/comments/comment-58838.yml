@@ -1,0 +1,17 @@
+### YamlMime:ContributionComment
+---
+uid: "58838"
+user: "robe"
+created: "23 Jan, 2011 - 12:56"
+body: |-
+  As I create Vlc (EX9.texture) the node is red than VVVV crashes.
+  
+  I followed the instruction but when you write:
+  
+  "to the same directory as the nVlc dll's"
+  
+  you refer to the plug-in directory?
+  
+  (which in my case is "C:\vvvv_45beta25\plugins\Vlc")
+  
+  Thanks

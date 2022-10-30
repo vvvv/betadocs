@@ -1,0 +1,15 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/wood-shader-meta"
+type: "effect"
+author: "vux"
+date: "12 Jul, 2010"
+title: "Wood Shader"
+originalURL: "contribution/wood-shader"
+category: "effect"
+like_count: "2"
+imported: "true"
+teaser: |-
+  Wood material looking shader.
+  
+  From DirectX SDK.

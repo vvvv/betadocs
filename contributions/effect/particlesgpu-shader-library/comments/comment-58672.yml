@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "58672"
+user: "dottore"
+created: "20 Jan, 2011 - 15:59"
+body: |-
+  ahhaha guys, there's a lot of requests coming on here... :D
+  the problem is atm i have no time to customize particle Shaders for every one... that's why in these days i started to write a proper guide to this library and i hope will be ready in few days. in this way you will understand how everything works and will be able to modify and try new things without my help in every step. I thing it's better, it's also more rewarding for you.
+  keep updated!
+  
+  @sinus: i really don't know how is it possible.. try to reinstall vvvv and check if there's something missing (last directx,net 3.5,...). 
+  
+  Natan

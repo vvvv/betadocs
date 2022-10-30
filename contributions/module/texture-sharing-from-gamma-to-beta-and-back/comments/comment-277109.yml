@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "277109"
+user: "sunep"
+created: "16 Nov, 2020 - 16:29"
+body: |-
+  Could this also morph into a thing using spout.
+  Perhaps even bi-directional. 
+  Or are there performance reasons to use this approach over spout?

@@ -1,0 +1,26 @@
+### YamlMime:ContributionComment
+---
+uid: "250412"
+user: "SuperflysiNZ"
+created: "23 Mar, 2018 - 10:21"
+body: |-
+  I'm getting this error:
+  
+  Parsing input Pack
+  Input pack is dx11-vvvv
+  Input pack seems to be already existing as dx11
+  Do you want to overwrite? (Y or N)
+  y
+  Initializing dx11-vvvv
+  Temp folder created successfully:
+  D:\VVVV\vvvv_50alpha35.18_x64\.vpm
+  Initialization complete.
+  Installing dx11-vvvv
+  Compilation error:
+  (7,11): error CS0246: The type or namespace name 'Newtonsoft' could not be found (are you missing a using directive or an assembly reference?)
+  (28,24): error CS0103: The name 'JArray' does not exist in the current context
+  Press any key to exit...
+  Removing vpm temp folder.
+  Killing GUI
+  
+  I'm not sure what's wrong, I am running the latest alpha...

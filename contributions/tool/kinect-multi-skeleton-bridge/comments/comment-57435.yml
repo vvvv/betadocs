@@ -1,0 +1,17 @@
+### YamlMime:ContributionComment
+---
+uid: "57435"
+user: "screamer"
+created: "21 Dec, 2010 - 19:29"
+body: |-
+  a little big update. here it's a zip containing the new version (.exe and helppatch). Some of the new features are:
+  
+  - improved performance
+  - streaming all the data with a single osc tag
+  - positions are now integer (less bandwith)
+  - sending joints name, id, confidence, positions and rotations (not all used in the helppatch)
+  - a better self explanatory helppatch
+  - other stuffs that only hierro knows ;P
+  
+  ...is coming this night..
+  :)

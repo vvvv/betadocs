@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "95129"
+user: "synth"
+created: "23 Jan, 2013 - 03:44"
+body: |-
+  OK either it is hard to align the camera to the real world position of the Kinect or i am uber lame ... Anyway i was thinking last night is it possible to use some of the camera calibration techniques to align it ? 
+  I Ask because i can not do it on my own. 
+  If you are using the dept stream of the kinect to generate a point-cloud  , why not use the RGB srream for the camera calibration process. Just a thought , i might be way off in my dreams but it could be possible, thus making it easier for artist/users to adjust the system and use it for something creative.

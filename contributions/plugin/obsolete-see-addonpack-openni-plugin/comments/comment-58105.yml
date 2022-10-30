@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "58105"
+user: "catweasel"
+created: "06 Jan, 2011 - 19:48"
+body: |-
+  OPENNI-Win32-1.0.0.24-Unstable.exe has been replaced by 25, and I don't seem to have it working...
+  I get an Init OpenNI node error, in vvvv
+  I am running NiUserTracker.exe from the unstable 25 version...

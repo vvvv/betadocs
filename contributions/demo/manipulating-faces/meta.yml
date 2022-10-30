@@ -1,0 +1,21 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/manipulating-faces-meta"
+type: "demo"
+author: "joreg"
+date: "28 Jul, 2014"
+title: "Manipulating Faces"
+originalURL: "contribution/manipulating-faces"
+category: "demo"
+credits: |-
+  [woei](http://vvvv.org/users/woei), [joreg](http://vvvv.org/users/joreg)
+like_count: "11"
+imported: "true"
+teaser: |-
+  Besides its full body/skeleton tracking capabilities the Kinect also features a dedicated face tracking functionality. With it you can easily identify individual parts (eyes, nose, mouth) of a face and then manipulate, replace, extend those using texture- or geometry-based techniques.
+  
+  The download comes with 13 different demos on what you can do with the tracking data. 
+  
+  Note: 
+  * Requires b32.1 + addonpack + dx11 pack
+  * Those demos will not work with Kinect2 out of the box but should be fairly simple to adapt once the Kinect2 nodes also features face-tracking capabilities.

@@ -1,0 +1,90 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/vvvv.audio-pack-alpha-meta"
+type: "pack"
+author: "tonfilm"
+date: "25 Dec, 2013"
+title: "VVVV.Audio Pack Alpha"
+originalURL: "contribution/vvvv.audio-pack-alpha"
+category: "pack"
+credits: |-
+  Marc Heath for NAudio, Marc Jacobi for VST.NET, [beyon](http://vvvv.org/users/beyon) for midi file reader and other bits and pieces
+like_count: "34"
+imported: "true"
+teaser: |-
+  This is a vvvv audio engine.
+  
+  <div class="box">
+  Note:
+  **VST plugins are platform specific**: if you use the pack with a 32-bit vvvv you can only host 32-bit VST plugins and the 64-bit vvvv can only host 64-bit VSTs.
+  </div>
+  
+  Please report all bugs and feature requests here:
+  <https://github.com/tebjan/VVVV.Audio/issues/new>
+  
+  NEWS:
+  - LTC timecode support sponsored by [meso](http://meso.net) based on [elliotwoods](http://vvvv.org/users/elliotwoods) work
+  - 64-bit support based on [bjoern](http://vvvv.org/users/bjoern)s branch
+  - FileStream got a <span class="pin">Speed</span> pin, also by courtesy of [meso](https://vvvv.org/businesses/meso)
+  
+  There was no time to make proper help patches, but a few girlpower patches made it in the pack. I've also included the free sci-fi effects synth Altair 4b from [HGF-Synthesizers](http://hgf-synthesizer.com/nfg---pro-vsti-free.html) to demo the vst support.
+  
+  For now, the focus of the engine was not so much DSP programming but flexible signal routing for large scale installations and VST support.
+  The new FileStream node can playback audio from the following formats:
+  [Supported Media Formats in Media Foundation](http://msdn.microsoft.com/en-us/library/windows/desktop/dd757927(v=vs.85).aspx)
+  
+  Here are some more resources to check: [vvvv.audio-node15-workshop-patches](xref:contribution/vvvv.audio-node15-workshop-patches)
+  
+  The world of VST is so huge and even for free, you can get almost anything you could wish for. Maybe you should have a look at sites like this one:
+  
+  [bedroomproducersblog - Free VST Plugins by Category](http://bedroomproducersblog.com/free-vst-plugins/)
+  
+  ##  Discussion
+  
+  A dedicated forums thread is here: [vvvv.audio-discussion](https://discourse.vvvv.org/t/vvvv.audio-discussion)
+  
+  ##  Installation
+  
+  Copy the folder in the zip file into the vvvv folder (integrate if it exists). It works for both, 32 and 64-bit vvvv versions. See also: [using-addons](https://betadocs.vvvv.org/using-vvvv/patching/using-addons.html)
+  
+  <div class="box">
+  Note:
+  In **beta39** you must delete the VVVV.Audio.Core.dll/pdb files in the 2 folders
+   vvvv_beta_39_x64\lib\nugets\core
+   vvvv_beta_39_x64\lib\nugets\VL.CoreLib.2019.1.0-0959-g3a31ab0c51\lib\net472
+  These files are build artifacts from VL, the issue will be fixed with beta39.1, sorry for the inconvenience.
+  </div>
+  
+  You need to install [LoopBe](http://www.nerds.de/en/loopbe1.html) (tested with LoopBe1) and [Asio4All](http://www.asio4all.com/).
+  
+  If you encounter problems loading the Jacobi.Vst.Interop.dll (e.g. all VSTHost nodes have nil in/outputs) you need to install:
+  [Visual C++ Redistributable for Visual Studio](http://www.microsoft.com/en-us/download/details.aspx?id=30679)
+  
+  ## Learning:
+  
+  Here is an online workshop video which explains all the basic nodes and concepts, starting at 8m24s:
+  <div class="embed-responsive embed-responsive-16by9 mt-3 mb-4">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/I2nnyRkbllo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+  
+  And a little demo video comes along:
+  <div class="embed-responsive embed-responsive-16by9 mt-3 mb-4">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/VchIgx5jtns" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+  
+  And if you are interested in how to patch audio with VL, here you go:
+  <div class="embed-responsive embed-responsive-16by9 mt-3 mb-4">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/neQLttKMEgg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+  
+  ##  Change Log
+  
+  * version 13 comes with a VL example, open "VL Test.v4p" in /girlpower
+  [GitHub closed issues](https://github.com/tebjan/VVVV.Audio/issues?state=closed)
+  [GitHub commits](https://github.com/tebjan/VVVV.Audio/commits/master)
+  
+  ##  Known Bugs
+  
+  - VST Shells are not supported yet, but you can use shell2vst from Waves to extract the single plugins into dlls
+  - Buffer read/write behave strangely some times
+  - can click while patching

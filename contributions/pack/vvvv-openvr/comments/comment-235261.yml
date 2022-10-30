@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "235261"
+user: "mediadog"
+created: "12 Feb, 2017 - 21:20"
+body: |-
+  At least with my setup, this is not only a problem with this plugin.  I just tried "The Body VR", and if I set the rendering quality to high, the framerate drops, and I see the same exact double-imaging on movement.  So this seems to happen when the rendering framerate drops below the Vive display rate even with Vive apps.

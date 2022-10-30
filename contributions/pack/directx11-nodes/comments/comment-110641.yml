@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "110641"
+user: "catweasel"
+created: "02 Dec, 2013 - 17:02"
+body: |-
+  Metaballs is missing dragging and dropping vvvv.dx11.nodes.dll doesn't fix it...

@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "103390"
+user: "mediadog"
+created: "08 Jul, 2013 - 15:51"
+body: |-
+  Concerning the HID grab by vvvv: it appears the HID nodes do scan and get all HID devices (there are some messages logged on the console during startup).  I tried adding an HID Device node, setting the Device Type pin to "Tracker DK", and then the Enable pin to False, but it still was not seen by the Rift plugin.
+  
+  Looks like there needs to be some way to really release an HID device via the HID nodes, and then initialize the Rift.

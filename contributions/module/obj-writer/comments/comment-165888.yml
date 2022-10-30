@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "165888"
+user: "everyoneishappy"
+created: "28 Sep, 2014 - 02:31"
+body: |-
+  You might try putting a +1 on the indices, I don't use blender but I think some importers need you to count from 1 rather then 0.

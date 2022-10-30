@@ -1,0 +1,17 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/fake-cubemap-for-dx11-meta"
+type: "module"
+author: "microdee"
+date: "26 Jun, 2013"
+title: "Fake Cubemap for DX11"
+originalURL: "contribution/fake-cubemap-for-dx11"
+category: "module"
+credits: |-
+  [Tonfilm](http://vvvv.org/users/Tonfilm) http://vvvv.org/forum/infinite-ray-intersects-with-infinite-plane
+  [sebl](http://vvvv.org/users/sebl) http://vvvv.org/contribution/slitscan-ringbuffer-%28dx11%29
+like_count: "7"
+imported: "true"
+teaser: |-
+  I needed a proper and artifact-less way of creating spherical landscapes and i thought the best way to realize it is using cubemaps. unfortunately current DX11 implementation misses rendering to proper cube textures so i utilized volume textures for the same task.
+  It's pure hackery but seems to be working.

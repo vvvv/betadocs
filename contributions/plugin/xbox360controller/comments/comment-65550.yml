@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "65550"
+user: "sunep"
+created: "20 Jun, 2011 - 19:22"
+body: |-
+  I can't get this to work, am I missing something? just Xbox360Controller.dll in the zip. it does not appear in the node browser when placed in the plugins folder.
+  
+  I can get the old xbox360 plugin to work: [xbox-controller-plugin-help-request](https://discourse.vvvv.org/t/xbox-controller-plugin-help-request)
+  
+  One more thing, does this plugin aloow the use of more than one controller at a time?
+  
+  -sunp

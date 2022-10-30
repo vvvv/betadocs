@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "91378"
+user: "VVVValentin"
+created: "16 Nov, 2012 - 13:55"
+body: |-
+  I got a simple sevrver which streams from a webcam using mjpeg. I can get stream from web browser at http://192.168.1.126:86/broadcamjpg.html?src=1&speed=1 and http://192.168.1.126:86/broadcam.jpg?src=1&speed=1. But if I try to use this URL in VLC plugin I'm getting this error:
+  
+  <LoadImage%20Exception> URI formats are not supported.
+  
+  Is there a way to stream video from such a source?

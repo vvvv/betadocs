@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "49839"
+user: "catweasel"
+created: "13 Jul, 2010 - 15:58"
+body: |-
+  Great shaders Dottore! 
+  But i've got a problem with this one, works on my macbook pro, but on my desktop with a GTX470 the object is black, actually its the BG colour of the renderer, which just seems plain weird, anyone else have this?

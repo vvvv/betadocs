@@ -1,0 +1,12 @@
+### YamlMime:ContributionComment
+---
+uid: "87476"
+user: "circuitb"
+created: "22 Aug, 2012 - 14:33"
+body: |-
+  works here under beta28 with the
+  \vvvv_45beta28\lib\assets\images\meso_cubemap.dds  = DXT format
+  but not with
+  \vvvv_45beta28\lib\assets\images\color_cubemap.dds which is a X8R8G8B8 texture
+  
+  00:05:04 ERR : Exception occured in TMPluginWrapperNode.Evaluate: File format not supported by DDSFile

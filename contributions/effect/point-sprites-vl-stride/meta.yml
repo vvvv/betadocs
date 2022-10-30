@@ -1,0 +1,15 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/point-sprites-vlstride-meta"
+type: "effect"
+author: "catweasel"
+date: "22 Mar, 2021"
+title: "Point Sprites VL/Stride"
+originalURL: "contribution/point-sprites-vlstride"
+category: "effect"
+credits: |-
+  [Vux](http://vvvv.org/users/Vux) [Tonfilm](http://vvvv.org/users/Tonfilm) [Catweasel](http://vvvv.org/users/Catweasel)
+like_count: "6"
+imported: "true"
+teaser: |-
+  Port from dx11 examples.

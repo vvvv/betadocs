@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "67096"
+user: "u7angel"
+created: "26 Jul, 2011 - 16:03"
+body: |-
+  you need to run SensorKinect-Win-OpenSource32-5.0.1.msi coming with phlegmas release...only this made the drivers install on my machine, win 7 x64

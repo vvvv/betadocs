@@ -1,0 +1,35 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/bullet-physics-nodes-beta-meta"
+type: "plugin"
+author: "vux"
+date: "12 Jan, 2011"
+title: "[OBSOLETE] Bullet Physics Nodes Beta"
+originalURL: "contribution/bullet-physics-nodes-beta"
+category: "plugin"
+credits: |-
+  All bullet physics and bulletsharp devvvvs.
+like_count: "20"
+imported: "true"
+teaser: |-
+  Bullet physics nodes first release.
+  
+  Still beta, but fairly stable. Some breaking changes are to be expected in upcoming releases.
+  
+  Work on beta 25+ only (Latest version for beta26)
+  
+  Still on the todo list:
+  * Mesh system doesn't work for multi-screen yet. First thing which will be sorted.
+  * Review the mesh system to improve performance.
+  * Texturing options for some shapes (soft bodies and stuff like hulls).
+  * Missing some shape types.
+  * Add body 2 body contraints
+  * Vehicles
+  * Clustered soft bodies
+  * Fix any bug that comes around.
+  
+  In the mean time, have fun.
+  
+  Latest fixes/update:
+  -Soft body meshes have normals.
+  -Update Position/Rotation for Rigid bodies.

@@ -1,0 +1,21 @@
+### YamlMime:ContributionComment
+---
+uid: "65067"
+user: "deby"
+created: "10 Jun, 2011 - 19:55"
+body: |-
+  Hello woei,
+  the error appears here:
+  
+  float4 PS(vs2ps In): COLOR
+  {
+      **float4 col = tex2d(Samp, In.TexCd);**
+  	col = Contrast(col);
+  	col = Invert(col);
+  	col = Levels(col);
+  	col = Saturation(col);
+  	col = Tonecurve(col);
+  	return col;
+  }
+  the fxh files are in the same directory as the pixelshader.
+  I am totally beginner in programming pixelshader...

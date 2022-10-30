@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "75469"
+user: "dottore"
+created: "29 Jan, 2012 - 19:06"
+body: |-
+  @fibo: the fxaa module doesn't have a proper fxaa effect, it uses the one in the addonpack. make sure you have it there.

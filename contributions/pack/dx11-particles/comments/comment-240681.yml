@@ -1,0 +1,19 @@
+### YamlMime:ContributionComment
+---
+uid: "240681"
+user: "tmp"
+created: "02 Jun, 2017 - 14:18"
+body: |-
+  for all users who don't want to download the latest version via vpm or github:
+  I uploaded the latest version as zip to this contributions page.
+  
+  changelog highlights:
+  - big performance improvements (especially on startup)
+  - experimental chunk logic (import ascii/ply/obj pointclouds and generate chunks -> stream them with LOD. have a look at girlpower folder)
+  - cloneable templates for emitters/modifiers/selectors
+  - geometry emitter (have a look at girlpower)
+  - better vectorfield handling and debugging
+  - a lot of small bugfixes
+  
+  complete list here:
+  https://github.com/letmp/dx11-particles/commits/master

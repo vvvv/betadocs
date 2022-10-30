@@ -1,0 +1,15 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/spreads-tofrom-texture.-storage-playback-meta"
+type: "module"
+author: "eno"
+date: "08 Jun, 2011"
+title: "Spreads to/from Texture. Storage / Playback"
+originalURL: "contribution/spreads-tofrom-texture.-storage-playback"
+category: "module"
+like_count: "2"
+imported: "true"
+teaser: |-
+  These modules store values to a texture and play back from there in 24 bit resolution.
+   
+  Workaround for 8bit pipette. And if shaders dont do the job or seem too complicated.

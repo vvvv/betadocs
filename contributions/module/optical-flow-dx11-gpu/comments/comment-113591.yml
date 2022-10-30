@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "113591"
+user: "DiMiX"
+created: "05 Feb, 2014 - 11:52"
+body: |-
+  hi princemio,
+  I cant code, so my ideas are more theoretical
+  *The Shader calculates a certain offset in x and y for each pixel.*
+  If we map this offset to some color scheme which let us retrieve hue changing for direction, saturation changing for speed?
+  ![](https://vvvv.org/sites/default/files/imagecache/large/images/optiFlow.jpg)

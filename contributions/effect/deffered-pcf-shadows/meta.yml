@@ -1,0 +1,15 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/deffered-pcf-shadows-meta"
+type: "effect"
+author: "catweasel"
+date: "21 Nov, 2013"
+title: "Deffered PCF Shadows"
+originalURL: "contribution/deffered-pcf-shadows"
+category: "effect"
+credits: |-
+  [Catweasel](http://vvvv.org/users/Catweasel), nvidia, <span class="node">Tonfilm</span> for the comparison states, [flux](http://vvvv.org/users/flux) for the spot light, [microdee](http://vvvv.org/users/microdee) for the depth to world in a shader.
+like_count: "12"
+imported: "true"
+teaser: |-
+  Deffered PCF Shadows, its seems a pretty speedy, and fairly smooth shadow.

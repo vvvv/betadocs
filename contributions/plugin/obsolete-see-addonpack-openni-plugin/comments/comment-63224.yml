@@ -1,0 +1,25 @@
+### YamlMime:ContributionComment
+---
+uid: "63224"
+user: "weareallclowns"
+created: "04 May, 2011 - 17:34"
+body: |-
+  @robe, thx a bunch.
+  
+  Though I did not get a lot of the instructions,
+  I extracted the skeleton.zip into the plugins, and
+  I unzipped the generic.zip into the skeleton folder (now within plugins).
+  (was this right? ;)
+  
+  When I run the debug.v4p I get this:
+  EDIT: Image removed due to excessiveness.
+  
+  I might have just misunderstood everything, and am supposed to make the skeleton myself?
+  
+  Edit: Really I might just need a help file :)
+  
+  Edit: Okay, I found the help file root_enjoy.. but all I get is a black screen.
+  I installed everything in the order robe put up, what could the problem be?
+  (I'm using vvvv 25)
+  
+  Edit: I changed the samplesconfig.xml to what Sapo wrote earlier in the post, and I finally get to see myself in the debug.v4p, though the help file still shows a black screen for a bout a minute or two, before it crashes.

@@ -1,0 +1,12 @@
+### YamlMime:ContributionComment
+---
+uid: "59753"
+user: "catweasel"
+created: "11 Feb, 2011 - 16:58"
+body: |-
+  I've installed all these, NITE 1.3.0.18, OpenNI 1.0.0.25, SensorKinect 5.0.0, OpenNISkeleton_3
+  The nite and openni samples all run ok, but the vvvv plugin is saying Init OpenNI Node
+  
+  Running the NiUserTracker.exe, changes nothing, is this the right exe to run? does it still need the exe to run?
+  I've checked the xml's in the plugin data folder.
+  Any ideas?

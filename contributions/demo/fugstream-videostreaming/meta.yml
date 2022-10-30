@@ -1,0 +1,15 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/fugstream-videostreaming-meta"
+type: "demo"
+author: "joreg"
+date: "08 Jun, 2011"
+title: "FugStream VideoStreaming"
+originalURL: "contribution/fugstream-videostreaming"
+category: "demo"
+credits: |-
+  Alex May of http://www.bigfug.com for the freeframe streaming plugins
+like_count: "1"
+imported: "true"
+teaser: |-
+  see [VideoStreaming](xref:919b55cc-c056-4f8c-bab8-3a3b5782c9fc) for additional information.

@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "269978"
+user: "tmp"
+created: "28 Nov, 2018 - 08:20"
+body: |-
+  yes it makes sense in your application and I recommend to save it as a custom modifier.
+  
+  but I think it doesn't make sense as part of the pack, since it breaks the default binsize/selection behaviour (if I get it right).
+  
+  if you want, you can send me the custom modifier, so I can have a look at it. maybe it makes sense after all :) and if not, I could add it to the examples.

@@ -1,0 +1,15 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/metronom-(animation)-meta"
+type: "module"
+author: "dEp"
+date: "30 May, 2011"
+title: "Metronom (Animation)"
+originalURL: "contribution/metronom-(animation)"
+category: "module"
+credits: |-
+  [vvvv group](http://vvvv.org) for the original module
+like_count: "2"
+imported: "true"
+teaser: |-
+  The metronom module, with added period output

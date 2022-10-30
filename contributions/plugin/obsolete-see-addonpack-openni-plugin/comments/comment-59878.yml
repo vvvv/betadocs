@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "59878"
+user: "sapo"
+created: "15 Feb, 2011 - 01:01"
+body: |-
+  @hierro it would be nice but i don't know what i need, i was triing to catch patterns in the tty output for some situations like , kinect unplugged, driver not installed, openni not intalled, primesense not installed, bad xml file,corrupt xml file, missing xml file. i'm using a fresh pc to do that, and so far i got some of them , just for some, the ttyrender i want to read seems unreadable. i have no idea of what kind of messages you can output from openni, if you can let it spit out all it's possible verbose log messages with a switch on/off, that might do the job ;)

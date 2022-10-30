@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "264378"
+user: "ZvivZ"
+created: "03 Sep, 2018 - 00:10"
+body: |-
+  Cool effect.  I was scratching my head getting this to work with Kinect2, but it was much easier than I thought.  Make sure you have DX11 pack installed, then on the root Spectral Kinect patch make a Kinect2 Device node, connect the Runtime to a Kinect2 Skeleton, then connect the JointPositionXYZ to the Resample Skeleton input, and you're golden!  Make sure to delete or disable the old Skeleton from the old Kinect version.

@@ -1,0 +1,24 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/c4d2vvvv-files"
+url: "c4d2vvvv"
+category: "module"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "1"
+            filename: "C4D2VVVV 2.0.zip"
+            description: |-
+              v 2.0   -Added full animation support from camera, and xpresso script to export to xml
+            
+            timestamp: "26 Feb, 2013 - 16:03"
+            download_count: "2"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "C4D2VVVV.zip"
+                    timestamp: "20 Feb, 2013 - 23:21"
+                    download_count: "2"

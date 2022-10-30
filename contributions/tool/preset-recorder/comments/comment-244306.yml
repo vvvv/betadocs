@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "244306"
+user: "ofersmi"
+created: "29 Aug, 2017 - 08:15"
+body: |-
+  Hey there, 
+  This is all I have ever dreamed of, but I cant get it to work... I can save presets when making a new patch but when closing and opening the patch no presets are loaded... I get NIL out of all the selects so I reintegrated the AvoidNIL you had there before but now I can change any values in IOs!!!! What am I doing wrong??? Thanks

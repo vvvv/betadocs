@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "69476"
+user: "alg"
+created: "15 Sep, 2011 - 22:06"
+body: |-
+  I'm replaced all doubles by floats and it's compiled. Just search all double keywords and replace it by float keywords. So, you must get float4, float and etc.

@@ -1,0 +1,18 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/probenesov-player-meta"
+type: "tool"
+author: "Martin Zrcek"
+date: "27 Mar, 2013"
+title: "ProBenesov Player"
+originalURL: "contribution/probenesov-player"
+category: "tool"
+credits: |-
+  [Martin Zrcek](http://vvvv.org/users/Martin+Zrcek) VLC Player node
+like_count: "6"
+imported: "true"
+teaser: |-
+  From now on, use only Vvvv for playing films.
+  
+  p.s.: It's hard to load more files at once, so add them one by one, or make a GetSlice string thing.
+  p.p.s.: Made for <http://www.probenesov.cz> by <http://www.martinzrcek.cz>

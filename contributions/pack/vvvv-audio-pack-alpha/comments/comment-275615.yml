@@ -1,0 +1,12 @@
+### YamlMime:ContributionComment
+---
+uid: "275615"
+user: "WomirAig"
+created: "12 May, 2020 - 17:29"
+body: |-
+  hey,
+  
+  thx a lot(!) for this package! :)
+  
+  i was wondering how the audioIn works...
+  the default DShow9 AudioIn has a driver inputPin, where i can choose (for example) my virtual audio cable to stream spotify. is there a way to achieve something like this with vAudio?

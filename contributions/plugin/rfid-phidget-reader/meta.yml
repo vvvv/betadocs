@@ -1,0 +1,19 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/rfid-phidget-reader-meta"
+type: "plugin"
+author: "velcrome"
+date: "10 Mar, 2011"
+title: "RFID Phidget Reader"
+originalURL: "contribution/rfid-phidget-reader"
+category: "plugin"
+credits: |-
+  velcrome, intolight
+like_count: "4"
+imported: "true"
+teaser: |-
+  I updated my old PhidgetRFID plugin to comply with PluginInterface2. 
+  
+  Now it supports multiple Readers. As a bonus it has features to time-multiplex the antennas, so you can use the phidgets in close proximity without causing interferences in the electromagnetic fields. Also it behaves nicely with plug&play.
+  
+  Helpfile included.

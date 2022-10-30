@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "207595"
+user: "bjoern"
+created: "05 Oct, 2015 - 12:15"
+body: |-
+  Try replacing the *sixense.dll* with the x64 version that comes with the [SixenseUnityPlugin](https://www.assetstore.unity3d.com/en/#!/content/7953)

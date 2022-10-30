@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "180102"
+user: "readme"
+created: "22 Dec, 2014 - 13:23"
+body: |-
+  A little something concerning what xd_nitro asked for.
+  Seems like the Timings are system based (which is good, so it's tight), but I just had the issue that I had a little framedrop and the timings weren't in sync with what's on screen anymore.
+  Will fix the framedrop anyway (some time), but it would be cool to have the possibility to make the timings dependend on the frames/mainloop to catch those drops.

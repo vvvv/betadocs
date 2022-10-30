@@ -1,0 +1,12 @@
+### YamlMime:ContributionComment
+---
+uid: "186656"
+user: "obernardoo"
+created: "26 Feb, 2015 - 19:13"
+body: |-
+  Hi sagishi, 
+  
+  Very interesting, I opened with vvvv_45beta33.7_x86 (win7_64) and did not work when active node (Enable -> On), throw this error: "Could not load file or assembly 'System.Threading.Tasks.Dataflow' (...)".
+  We must place the file in a specific location? 
+  
+  Thank You!

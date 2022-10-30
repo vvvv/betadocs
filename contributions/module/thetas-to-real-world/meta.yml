@@ -1,0 +1,19 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/thetas-to-real-world-meta"
+type: "module"
+author: "andresc4"
+date: "10 Jan, 2017"
+title: "ThetaS to real world"
+originalURL: "contribution/thetas-to-real-world"
+category: "module"
+credits: |-
+  Super simple patch to preview real world measurements over 360 images
+  need to measure camera height, i
+like_count: "7"
+imported: "true"
+teaser: |-
+  Super simple patch to preview real world measurements over 360 images
+  need to measure camera height.
+  
+  I would like to add some reflections in the future :D

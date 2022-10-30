@@ -1,0 +1,16 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/oscudp-module-meta"
+type: "module"
+author: "eroldan0307"
+date: "04 Aug, 2011"
+title: "OscUdp Module"
+originalURL: "contribution/oscudp-module"
+category: "module"
+credits: |-
+  Eric Roldan
+  Meason Wiley
+like_count: "2"
+imported: "true"
+teaser: |-
+  I specifically made this to communicate with Reaktor via OSC.  But I suppose you can use it for whatever your heart desires!  Enjoy

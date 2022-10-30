@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "246903"
+user: "kopffarben"
+created: "07 Nov, 2017 - 17:33"
+body: |-
+  Hi Woei,
+  on github you write you do this in c++ because it must be unmanaged for SSE/AVX.
+  
+  Just for info you now this System.Numerics.Vectors?
+  It provides hardware-accelerated numeric types (SIMD), suitable for high-performance processing and graphics applications.

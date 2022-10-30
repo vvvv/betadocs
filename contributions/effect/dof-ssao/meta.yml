@@ -1,0 +1,23 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/dof-ssao-meta"
+type: "effect"
+author: "antokhio"
+date: "14 Aug, 2015"
+title: "DoF & SSAO"
+originalURL: "contribution/dof-ssao"
+category: "effect"
+credits: |-
+  Martins Upitis, ported by antokhio
+like_count: "15"
+imported: "true"
+teaser: |-
+  Mega thanks to Martins Upitis made available this samples online.
+  devlog-martinsh.blogspot.com
+  
+  ported and adopted by antokhio 
+  
+  make sure tfx labeled martins upitis in help patch v4 may take another SSAO for somereason 
+  
+  notes about DoF:
+  for manual focus to work make sure u are setting up Focus Distance (first pin on shader)

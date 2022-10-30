@@ -1,0 +1,13 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/automap-(value)-meta"
+type: "module"
+author: "inhart"
+date: "28 Mar, 2014"
+title: "Automap (Value)"
+originalURL: "contribution/automap-(value)"
+category: "module"
+like_count: "2"
+imported: "true"
+teaser: |-
+  automatically sets the input maximum and minimum on map node and returns maped value and the maximal and minimal values from input.

@@ -1,0 +1,15 @@
+### YamlMime:ContributionComment
+---
+uid: "52250"
+user: "m4d"
+created: "27 Aug, 2010 - 00:30"
+body: |-
+  <div class="box">quote:partikel:
+  i still had to change the texture format for the upper dxtexture to A32B32G32R32F
+  </div>
+  
+  oh, that must have slipped in during debugging.. :o 
+  fixed in v0.2b. also thanks for reporting!
+  
+  edit: this patch seems to be haunted by some evil curse.. -> updated to 0.2c
+  (maybe the curse has been hastiness after all..^^)

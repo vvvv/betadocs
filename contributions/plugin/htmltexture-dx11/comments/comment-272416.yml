@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "272416"
+user: "microdee"
+created: "07 Jun, 2019 - 15:30"
+body: |-
+  check out Vanadium: https://github.com/meso-unimpressed/Vanadium/releases
+  it's pre-release and it has no vpm package. overwrite only mp.* packs if you haven't updated them since 19th March.

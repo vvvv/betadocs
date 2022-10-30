@@ -1,0 +1,18 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/vvvv-task-killer-meta"
+type: "tool"
+author: "alg"
+date: "08 Jun, 2011"
+title: "VVVV task killer"
+originalURL: "contribution/vvvv-task-killer"
+category: "tool"
+credits: |-
+  I'm found bat file somewhere on VVVV forums and just created ahk script for it.
+like_count: "9"
+imported: "true"
+teaser: |-
+  Script kills VVVV process by **Ctrl+Alt+V** keystroke.
+  
+  ***How to install:***
+  Just unzip script folder to any dirrectory and add link to killVVVV.exe to your Startup folder. Then reboot or start killVVVV.exe manually.

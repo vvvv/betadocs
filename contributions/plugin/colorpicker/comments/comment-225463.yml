@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "225463"
+user: "ggml"
+created: "15 Aug, 2016 - 22:52"
+body: |-
+  /thanks for this
+  on patch reopen, (multiple) colorpicker windows remain white until you inspect the respective nodes

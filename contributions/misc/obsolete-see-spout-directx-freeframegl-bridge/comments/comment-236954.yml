@@ -1,0 +1,19 @@
+### YamlMime:ContributionComment
+---
+uid: "236954"
+user: "nnadavm"
+created: "18 Mar, 2017 - 19:29"
+body: |-
+  hi guys,
+  finally managed the bridge to work! thought this might be helpful to others-
+  
+  so after practically trying everything turns out it was just a problem in the NVIDIA control panel settings-
+  
+  under "3d settings" click "add"->vvvv->high performance nvidia...  and that fixed it!
+  
+  ![](https://vvvv.org/sites/default/files/imagecache/large/images/Capture_21.JPG) 
+  
+  
+  
+  
+  this patch is awesome thanks eilo!

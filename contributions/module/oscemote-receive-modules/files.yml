@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/oscemote-receive-modules-files"
+url: "oscemote-receive-modules"
+category: "module"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "OSCemoteReceive.zip"
+            timestamp: "15 Sep, 2011 - 14:39"
+            download_count: "1"

@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "228971"
+user: "DiMiX"
+created: "29 Sep, 2016 - 20:39"
+body: |-
+  my cam works with other image pack nodes: VideoIn (CV.Image VfW) and VideoIn (CV.Image DirectShow) But there are no specific uEye options like Pixelclock, Exposure, binning, AOI etc

@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "153409"
+user: "guest"
+created: "11 Apr, 2014 - 08:30"
+body: |-
+  i am trying to build it 64bit but there are errors:
+  
+  * The type or namespace name 'Cons' could not be found (are you missing a using directive or an assembly reference?)
+  
+  same for zipnode,unzipnode,setslice,deleteslice,pairwise
+  
+  what should i reference ?

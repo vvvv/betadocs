@@ -1,0 +1,22 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/node17-openvr-beginner-material-meta"
+type: "tutorial"
+author: "sebl"
+date: "01 Aug, 2017"
+title: "NODE17 - OpenVR beginner material"
+originalURL: "contribution/node17-openvr-beginner-material"
+category: "tutorial"
+credits: |-
+  mrvux for dx11, tonfilm for vvvv.openvr, microdee and evvvvil for Microdevil_Intersect, Kyle Mclean for InstanceNoodles
+like_count: "4"
+imported: "true"
+teaser: |-
+  This is a patchswitcher we developed for the [OpenVR beginner workshop](https://17.nodeforum.org/events/open-vr-beginner/). It can handle several patches and switch them in VR with a little point-and-click interface. We used that patch during the workshop to explain several setups and usecases.
+  
+  
+  Tested with b35.8 x64 with the following packs:
+  - dx11
+  - Microdevil_Intersect
+  - VVVV.OpenVR
+  - InstanceNoodles

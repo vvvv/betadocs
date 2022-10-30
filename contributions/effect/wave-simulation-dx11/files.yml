@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/wave-simulation-(dx11)-files"
+url: "wave-simulation-dx11"
+category: "effect"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "WaveSim.zip"
+            timestamp: "03 Feb, 2014 - 21:17"
+            download_count: "2"

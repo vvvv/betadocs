@@ -1,0 +1,15 @@
+### YamlMime:ContributionComment
+---
+uid: "60609"
+user: "hierro"
+created: "07 Mar, 2011 - 23:26"
+body: |-
+  Well, the first time i coded something was 3 projects ago, not so far, just wanted that fucking skeleton into vvvv :P
+  
+  Regarding to the hands tracking, actually u can use the handsGenerator with OpenNI.net or a sessionmanager using ManagedNite.dll, different solutions, and different results too, actuallt something is not very clear about second hands detection, matter of primary and secondary point.
+  
+  Sure that it will works properly with next release, i point u to the google openni forum , you can find several projects doing handstracking with kinect.
+  For the skeleton...u already have it.
+  
+  
+  PS.: grazie per il sito :D

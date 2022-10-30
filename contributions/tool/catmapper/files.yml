@@ -1,0 +1,27 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/catmapper-files"
+url: "catmapper"
+category: "tool"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "1"
+            filename: "CatMapper1.01.zip"
+            description: |-
+              Small bug fixes
+            
+            timestamp: "12 Jun, 2013 - 19:18"
+            download_count: "3"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "CatMapper.zip"
+                    description: |-
+                      3d Homography with Spatial Edge Blending.
+                    
+                    timestamp: "31 May, 2013 - 14:35"
+                    download_count: "1"

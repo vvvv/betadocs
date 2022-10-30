@@ -1,0 +1,39 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/bullet-physics-nodes-beta-files"
+url: "obsolete-bullet-physics-nodes-beta"
+category: "plugin"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "4"
+            filename: "Bullet-0.4.2.zip"
+            timestamp: "12 Jan, 2011 - 19:12"
+            download_count: "2"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "3"
+                    filename: "Bullet-0.5.1.zip"
+                    timestamp: "14 Jan, 2011 - 01:36"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "2"
+                    filename: "Bullet-0.5.3.zip"
+                    timestamp: "16 Jan, 2011 - 00:46"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "1"
+                    filename: "Bullet-0.5.6.zip"
+                    timestamp: "18 Jan, 2011 - 20:06"
+                    download_count: "7"
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "Bullet-0.5.7.zip"
+                    timestamp: "08 Nov, 2011 - 11:25"
+                    download_count: "5"

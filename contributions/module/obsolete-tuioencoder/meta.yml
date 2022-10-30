@@ -1,0 +1,16 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/obsolete-tuioencoder-meta"
+type: "module"
+author: "zeos"
+date: "07 May, 2012"
+title: "[OBSOLETE] TUIOEncoder"
+originalURL: "contribution/obsolete-tuioencoder"
+category: "module"
+credits: |-
+  2011 Zeos
+  LGPL License
+like_count: "8"
+imported: "true"
+teaser: |-
+  TUIOEncoder is node for packing X, Y and ID to valid tuio bundle message, ready for send over udp. Spreadable

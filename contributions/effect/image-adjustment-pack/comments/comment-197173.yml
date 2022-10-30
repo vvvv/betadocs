@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "197173"
+user: "blausand"
+created: "29 May, 2015 - 18:57"
+body: |-
+  @[deby](http://vvvv.org/users/deby): Why is your pixelshader called PS() but your pass calls GREY()?

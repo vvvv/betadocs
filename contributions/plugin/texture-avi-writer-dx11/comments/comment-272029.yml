@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "272029"
+user: "blausand"
+created: "11 May, 2019 - 01:50"
+body: |-
+  ...and still in 38.1 x64
+   Es wurde versucht, eine Datei mit einem falschen Format zu laden. (Ausnahme von HRESULT: 0x8007000B)
+  Any hints to current solutions?

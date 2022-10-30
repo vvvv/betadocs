@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/shift-rgb-files"
+url: "shift-rgb"
+category: "effect"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "ShiftRGB.zip"
+            timestamp: "07 Feb, 2011 - 10:35"
+            download_count: "5"

@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/delete-(file)-files"
+url: "delete-file"
+category: "plugin"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "FileDelete.zip"
+            description: |-
+              Delete (File)
+            
+            timestamp: "22 Aug, 2012 - 11:05"
+            download_count: "3"

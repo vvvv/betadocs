@@ -1,0 +1,12 @@
+### YamlMime:ContributionComment
+---
+uid: "53354"
+user: "sugokuGENKI"
+created: "25 Sep, 2010 - 10:57"
+body: |-
+  P.S. for calibration,
+  it's good to input a grid texture, set useProjection to 1, and not use anyting on tProjector.
+  That way, your grid will be projected directly in x,y onto your object, so you can calibrate.
+  
+  P.S. This shader generally presumes that all your projectors are in a line facing towards your target.
+  It doesn't deal with multiple projectors that inwards / outwards onto a scene.

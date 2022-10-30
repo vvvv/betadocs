@@ -1,0 +1,21 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/post-processing-normalize-color-files"
+url: "post-processing-normalize-color"
+category: "effect"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "1"
+            filename: "PPnormalize_1.1.zip"
+            timestamp: "18 May, 2011 - 11:29"
+            download_count: "2"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "PPnormalize.zip"
+                    timestamp: "17 May, 2011 - 18:41"
+                    download_count: "1"

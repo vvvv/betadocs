@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/simple-preset-maker-files"
+url: "simple-preset-maker"
+category: "module"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "SimplePreset.zip"
+            description: |-
+              initial version
+            
+            timestamp: "25 Feb, 2018 - 09:08"
+            download_count: "3"

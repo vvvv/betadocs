@@ -1,0 +1,16 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/value-moved-free-camera-meta"
+type: "module"
+author: "MultiNIL"
+date: "23 Jan, 2018"
+title: "Value-Moved-Free-Camera"
+originalURL: "contribution/value-moved-free-camera"
+category: "module"
+credits: |-
+  since i stuggled a few days ago to find an ego- shooter camera or a flying camera controlled by vvvv-values, i tried to solve it by myself and after a few hour of geometry brainfuck, i landed with this solution. this patch computes a for- and back-movement and a rotation into x-z axis and you can use this logic also for other axis. 
+  so if you looking for a free moving camera this may be helpfull
+like_count: "3"
+imported: "true"
+teaser: |-
+  calculates a back and forward movement and a rotation into x-z axis with a sinus waveshaper like a ego-shooter camera, a flying camera or free moving camera controlled by vvvv values

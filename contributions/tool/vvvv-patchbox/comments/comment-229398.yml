@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "229398"
+user: "velcrome"
+created: "05 Oct, 2016 - 22:44"
+body: |-
+  Yes, that's from xpath. I think there is a schema or something missing, not entirely sure. Does checking <span class="pin">Resolve Externals</span> help?

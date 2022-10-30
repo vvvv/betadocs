@@ -1,0 +1,31 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/midi-for-mpc-kontakt5-meta"
+type: "module"
+author: "roger.betin"
+date: "10 Dec, 2013"
+title: "MIDI for MPC & Kontakt5"
+originalURL: "contribution/midi-for-mpc-kontakt5"
+category: "module"
+credits: |-
+  Receive/Send MIDI - Test with an Akai MPC Studio (MIDI Input and a Kontakt5 application (MIDI Output)
+  
+  MIDI INPUT: The input Midi data can be received from an Akai MPC where the Midi Out Port must be set for example to Loop
+  MIDI PortB (Edit... Preferences..MIDI)
+  
+  The LoopMIDI is available at http://www.tobias-erichsen.de/software/loopmidi.html
+  
+  This software can be used to create virtual loopback MIDI
+  ports to interconnect applications on Windows that want to
+  open hardware-MIDI-ports for communication.
+  
+  MIDI OUTPUT: As the Kontakt5 VST Plugin does not work with vvvv VST plugin, you can here assigned the Midi Output Port to
+  the virtual LoopMIDI PortA, and set the same one into the Input
+  MIDI Options of Kontakt5 application. On this patch, the channel
+  In must be (or not) the same as the channel Out.  
+  
+  That's all.
+like_count: "2"
+imported: "true"
+teaser: |-
+  RxTxMIDI.v4p

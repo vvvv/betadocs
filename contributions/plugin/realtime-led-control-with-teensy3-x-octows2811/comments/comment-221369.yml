@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "221369"
+user: "velcrome"
+created: "20 Jun, 2016 - 20:14"
+body: |-
+  ![](https://vvvv.org/sites/default/files/imagecache/large/images/IMG_20160620_165437.jpg) 
+  
+  I decided against Artnet and made my own UPD based packet system. Each packet prepends a byte indicating the position of the "stripes' chunk" and a flag, if it should refresh all LED or not. The chunk design is prepared in a way, so OctoWS2811 can use a single fast memcopy, instead of going through SetRGB for each led (much more like [catweasels](http://vvvv.org/users/catweasels) first contrib on this page).
+  
+  Each chunk describes 8 stripes by 32 LED, and we commonly use 8 chunks for a total of 2048 LED per teensy. Eight teensies can be driven at 60Hz now. 
+  
+  Oh, the things we do for [http://www.fusion-festival.de/en/2016/home/]()...

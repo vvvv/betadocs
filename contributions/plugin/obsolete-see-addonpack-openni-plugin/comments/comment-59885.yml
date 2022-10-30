@@ -1,0 +1,14 @@
+### YamlMime:ContributionComment
+---
+uid: "59885"
+user: "catweasel"
+created: "15 Feb, 2011 - 11:36"
+body: |-
+  00:00:17 ERR :        Skeleton caused error in Evaluate: xn.XnStatusException: File not found!
+     at xn.WrapperUtils.CheckEnumeration(UInt32 status, EnumerationErrors errors)
+     at xn.Context.InitFromXml(String xmlFile)
+     at xn.Context..ctor(String xmlFile)
+     at VVVV.Nodes.OpenNISkeletonNode.initKinect()
+     at VVVV.Nodes.OpenNISkeletonNode.Evaluate(Int32 SpreadMax)
+  
+  I think maybe the error

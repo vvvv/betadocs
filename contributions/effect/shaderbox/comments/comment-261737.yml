@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "261737"
+user: "umanema"
+created: "14 Aug, 2018 - 06:59"
+body: |-
+  Thanks, man
+  
+  You can easily make it work in VR by adding shaderbox to the scene. Though some of the shaders are resource hogs and you have to keep an eye on fps.

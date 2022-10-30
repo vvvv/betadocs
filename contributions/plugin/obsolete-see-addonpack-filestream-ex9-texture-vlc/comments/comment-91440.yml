@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "91440"
+user: "ft"
+created: "17 Nov, 2012 - 16:52"
+body: |-
+  Hah, that's because when a filename ends with jpg or png I try to use some windows functions to load a still image instead of using LibVLC.
+  
+  Does it work from the normal VLC player? Could you change the URL so it doesn't end with jpg?

@@ -1,0 +1,27 @@
+### YamlMime:ContributionComment
+---
+uid: "205807"
+user: "velcrome"
+created: "16 Sep, 2015 - 21:07"
+body: |-
+  @microdee
+  
+  i think i'll settle for 
+  ```
+  
+  
+  ```\|?(\+|-|\*|\/|%|@|=|<|>|i)(\s?<-+>?<0-9>*\.?<0-9>*)+(.*)\|?$
+   
+        symbol                | value                   | remainder
+  ^
+  
+  edit: I expanded this to allow presetting up to four Values (so you can preset any 2d, 3d or 4d vector). Simply separate by comma or space. 
+  Also note that those are now symbols, so you can add any keyword as a placeholder if you want to have more nodes at your fingertips.
+  
+  i wonder, if we should have a special prefix to be able to call patch macros like that. i.e. column **" : "** could be a nice way to distinguish inline "Node Browser" or an intended comment from the much different "**:**make shit" aka The Mighty Inline Command-prompt to trigger a certain generator patch. 
+  
+  @[reaktant](http://vvvv.org/users/reaktant)
+  those are neat patches. I like!  
+  
+  @[bjoern](http://vvvv.org/users/bjoern)
+  sorry for trying to hijack ze column

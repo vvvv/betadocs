@@ -1,0 +1,15 @@
+### YamlMime:ContributionComment
+---
+uid: "66878"
+user: "candian"
+created: "21 Jul, 2011 - 18:23"
+body: |-
+  Hi,
+  
+  I had no problem installing this on a Windows 7 32-bit machine. The history is as follows: I installed the first hierro release, which worked quite good (only with beta45, though, I used beta23), then I removed it to install the Official SDK, which installed the drivers, and then I uninstalled it to install phlegma's release. All worked nice.
+  
+  However, I tried to install phlegma's release on a XP machine, and it failed. The Kinect doesn't even blink its green LED showing its connected. On another Win7, this time a 64, I installed phlegma's release directly. When I plugged in the Kinect, the OS downloaded the drivers from the net, and then it worked on VVVV.
+  
+  Does phlegma's release work only under Win7? The package contents are all we need to go or do we need to install the official drivers (or full SDK, for that matter)?
+  
+  Thanks!

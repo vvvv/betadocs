@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "235158"
+user: "elektromeier"
+created: "09 Feb, 2017 - 16:19"
+body: |-
+  499 reality, i had the same trying the vrdemo patch in girlpower. by deleting the renderer which renders the scene in vvvv, the stutter disappeared.

@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "57842"
+user: "jonferran"
+created: "31 Dec, 2010 - 10:16"
+body: |-
+  Okay fixed the fps with threading awesomeness.
+  
+  This one rocks
+  
+  http://vvvv.org/sites/default/files/user-files/OpenNISkeletonPluginThreaded.zip

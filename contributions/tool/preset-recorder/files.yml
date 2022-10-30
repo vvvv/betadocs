@@ -1,0 +1,36 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/preset-recorder-files"
+url: "preset-recorder"
+category: "tool"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "2"
+            filename: "setioplugin1.2.zip"
+            description: |-
+              Minor fix
+            
+            timestamp: "30 Aug, 2017 - 13:24"
+            download_count: "1"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "1"
+                    filename: "setioplugin1.1.zip"
+                    description: |-
+                      Update to make presets addressed correctly when first opening the help patch, and removing the name holding
+                    
+                    timestamp: "05 Oct, 2016 - 10:56"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "setioplugin.zip"
+                    description: |-
+                      a preset save and playback
+                    
+                    timestamp: "04 Oct, 2016 - 15:38"
+                    download_count: "1"

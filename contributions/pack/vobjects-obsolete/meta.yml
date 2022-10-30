@@ -1,0 +1,32 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/vobjects-obsolete-meta"
+type: "pack"
+author: "microdee"
+date: "21 Aug, 2014"
+title: "VObjects [OBSOLETE]"
+originalURL: "contribution/vobjects-obsolete"
+category: "pack"
+credits: |-
+  Velcrome for messages and ideas
+like_count: "11"
+imported: "true"
+teaser: |-
+  1.  OBSOLETE, ABANDONED, DON'T USE!
+  
+  All functionality is available in either mp.essentials or Velcrome's Messages
+  Rest is just for historical reference I guess:
+  
+  See workshop about VObjects here: https://www.youtube.com/watch?v=JKRxvT2Gjb0
+  
+  VObjects is a toolkit for vvvv to handle the base .NET object class. (Instead of being an immediate wrapper base type. That is gone now entirely)
+  
+  There are couple of helper classes which help you organize your objects. First is VObjectCollection which is basically a dictionary with some extra data.
+  
+  You can add any type to a VObjectCollection (even numbers or colors with current alpha vvvv). For quick grouping of values [vvvv-message](xref:contribution/vvvv-message) are recommended which you can also add to a VObjectCollection.
+  
+  If a class implements IVPathQueryable interface it allows for simple retrieval of nested objects by an XPath like syntax if nested containing objects are also implementing IVPathQueryable. Note it can reference an object at the end of the path hierarchy not implementing IVPathQueryable. Multiple objects can be queried by a Regex pattern or a single absolute reference can be used in quotes. Nested levels are separated by a user defined separator character, which is ¦ by default, the reason was that this character is the least likely to turn up in regex patterns. But if you don't use regex at all you can set a more common character like . or / etc.
+  
+  [Install vpm to use this link:](xref:contribution/vpm)
+  ##  <a href="vpms://raw.githubusercontent.com/microdee/VObjects/master/p.vpack">Get it with
+  vpm!</a>

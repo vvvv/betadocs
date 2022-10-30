@@ -1,0 +1,30 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/vvvv-telegram-files"
+url: "vvvv-telegram"
+category: "plugin"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "2"
+            filename: "vvvv-Telegram_v0.2.1.zip"
+            timestamp: "21 Apr, 2020 - 06:13"
+            download_count: "3"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "1"
+                    filename: "vvvv-Telegram_v0.2.zip"
+                    timestamp: "20 Apr, 2020 - 21:14"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "vvvv-Telegram_v0.1_anycpu.zip"
+                    description: |-
+                      initial upload
+                    
+                    timestamp: "11 Dec, 2016 - 21:46"
+                    download_count: "1"

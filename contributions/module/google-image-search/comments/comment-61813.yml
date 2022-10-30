@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "61813"
+user: "fibo"
+created: "01 Apr, 2011 - 20:49"
+body: |-
+  Nice result ... I friend of mine did a patch like that but as soon as google change the result page ( and they change pretty often ) your patch will break . Consider using some API, there are also Yahoo APIs for images .
+  
+  There is also a nice plugin by bo27 called Typewriter that can be useful for text input.

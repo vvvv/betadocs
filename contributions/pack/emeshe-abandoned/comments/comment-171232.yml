@@ -1,0 +1,17 @@
+### YamlMime:ContributionComment
+---
+uid: "171232"
+user: "microdee"
+created: "27 Oct, 2014 - 17:35"
+body: |-
+  @stix:
+  i know about both issues.
+  2: that is not the only strange part with point and spot lights but probably i won't bother with that until i completely rewrite the lighting system to something different than phong (i hope i will be able to implement some sort of fake BRDF method.
+  1: i'm not sure about the origin of that, maybe it has something to do with the post-process normal reconstruction. use unc's method so maybe you can trade the edge artifact for noise (the SSAO module).
+  
+  about transparency: it is nearly impossible inside a deferred pipeline to do practical transparency (mre.mdmod does not support it at all) what people usually do is they have a separate depth tested rendertarget for transparent objects which they blend over to the deferred pipeline after all the lighting, shadowing and whatnot. if you want to apply lighting on transparent objects too you have 2 options:
+  1: have separate instances of mre for each layer and blend the deferred results of the them together at some point in your post processing. this will give you nice results but pretty slow (see glass example of girlpower)
+  or
+  2: create separate mre rendertargets and merge their depth together so all mre targets will form a single set of channels so the lighting only calculated once but only the layer passed your merging logic will be affected by lighting. this is currently not available out of the box from contributions but it's on github: https://github.com/microdee/Emeshe
+  3: in worst case scenario if you don't know about how many layers you'll have and all those layers build up a complex opacity scene you have to solve the order independent transparency problem which is still a huge thing to implemebt into complex systems.
+  side note is that if you're building an interface over your 3D world i'd strongly recommend doing it in a separate rendertarget

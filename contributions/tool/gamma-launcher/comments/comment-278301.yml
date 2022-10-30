@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "278301"
+user: "Hadasi"
+created: "15 Apr, 2021 - 09:42"
+body: |-
+  Launching from here seems to effect permissions of vvvv. I launched and it seems some of my firewall settings were based upon the launcher rather than the version of vvvv I was launching. Otherwise all good.

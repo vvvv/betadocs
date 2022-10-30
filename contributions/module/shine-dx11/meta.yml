@@ -1,0 +1,21 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/shine-(dx11)-meta"
+type: "module"
+author: "AKa-visuals"
+date: "19 Oct, 2015"
+title: "Shine (DX11)"
+originalURL: "contribution/shine-(dx11)"
+category: "module"
+credits: |-
+  Nvidia GPU gems 3 http://http.developer.nvidia.com/GPUGems3/gpugems3_ch13.html
+like_count: "9"
+imported: "true"
+teaser: |-
+  This is my first approach to hlsl in dx11, its just a ported effect from GPU gems 3.
+  A good exercise to understand some basics of dx11 on shading programming.
+  I would like to update the shader with same parameters from the famous Shine effect from trapcode.
+  https://www.redgiant.com/products/trapcode-shine/
+  But still dont have the skills to do it, so i just share it for this nice community.
+  Any tip would be super.
+  Enjoy!

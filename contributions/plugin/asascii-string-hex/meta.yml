@@ -1,0 +1,15 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/asascii-(string-hex)-meta"
+type: "plugin"
+author: "dEp"
+date: "25 Dec, 2010"
+title: "AsAscii (String Hex)"
+originalURL: "contribution/asascii-(string-hex)"
+category: "plugin"
+like_count: "2"
+imported: "true"
+teaser: |-
+  Converts a string of hex digits into ASCII characters. Each pair of digits (byte) is taken to represent one character. Whitespace is ignored. 
+  
+  I made this for use with <span class="node">RS232 (Devices)</span>. Maybe it's useful to someone else as well.

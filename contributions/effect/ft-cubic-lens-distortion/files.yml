@@ -1,0 +1,36 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/ft-cubic-lens-distortion-files"
+url: "ft-cubic-lens-distortion"
+category: "effect"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "2"
+            filename: "ft_CubicLensDistortion_11.zip"
+            description: |-
+              DX11 Version
+            
+            timestamp: "12 Nov, 2015 - 01:16"
+            download_count: "2"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "1"
+                    filename: "ft_CubicLensDistortion_0.1.zip"
+                    description: |-
+                      Added an Inverse Distortion to the ps2 version
+                    
+                    timestamp: "11 Feb, 2011 - 13:57"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "ft_CubicLensDistortion.zip"
+                    description: |-
+                      initial version
+                    
+                    timestamp: "10 Feb, 2011 - 20:08"
+                    download_count: "1"

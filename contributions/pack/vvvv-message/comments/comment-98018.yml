@@ -1,0 +1,15 @@
+### YamlMime:ContributionComment
+---
+uid: "98018"
+user: "velcrome"
+created: "13 Mar, 2013 - 18:12"
+body: |-
+  the expected behaviour relies on correct binsizing. 
+  
+  this might sound weird at first, but if you have different spreadcounts in different messages, you will need to spread the bin size. 
+  
+  <div class="box">
+  why can't i upload a patch in contributions?
+  </div>
+  
+  ![](https://vvvv.org/sites/default/files/imagecache/large/images/Binning%20%28Message%29_2013.03.13-19.03.56_0.png)

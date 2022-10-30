@@ -1,0 +1,13 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/elprotzm443-meta"
+type: "module"
+author: "colorsound"
+date: "11 Dec, 2011"
+title: "ElproTZM443"
+originalURL: "contribution/elprotzm443"
+category: "module"
+like_count: "2"
+imported: "true"
+teaser: |-
+  Patch to control the video matrix Elpro TZM443 http://www.elprovideolabs.com/ via rs232 .

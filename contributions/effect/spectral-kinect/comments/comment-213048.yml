@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "213048"
+user: "joreg"
+created: "14 Dec, 2015 - 12:34"
+body: |-
+  @green: a pink node is a red node that is set to "hidden on lock". see: [The User Interface in Detail](xref:f63e83e8-88d2-4eeb-818f-5bfed4060a77) anyway it is just a red node that should tell you where it is looking for the missing node when you hover it with the mouse.

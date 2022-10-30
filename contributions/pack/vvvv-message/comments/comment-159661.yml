@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "159661"
+user: "velcrome"
+created: "16 Jul, 2014 - 10:11"
+body: |-
+  which version did you try, x64 or x86? the one that is for download on the top of the page? 
+  
+  if you used the latest version from github you will have to compile in a different ide than vvvv, because as of yet vvvv does not support native nuget management.
+  
+  anyway, thanks for hint with the csproj. if the pack is properly installed in /packs, it will automatically replace the nodes by their compiled counterpart in VVVV.Nodes.Messaging.dll, but will not reflect this autoreplace after saving the v4p, this needs to be done manually.

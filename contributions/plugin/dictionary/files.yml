@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/dictionary-files"
+url: "dictionary"
+category: "plugin"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "Dictionary.zip"
+            timestamp: "27 Feb, 2011 - 17:30"
+            download_count: "10"

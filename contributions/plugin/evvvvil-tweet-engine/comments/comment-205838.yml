@@ -1,0 +1,16 @@
+### YamlMime:ContributionComment
+---
+uid: "205838"
+user: "omykron"
+created: "17 Sep, 2015 - 01:06"
+body: |-
+  hey @evvvvil , I keep getting bad credential messages, both with dev and normal authorization, there's a new "Enable callback locking" button in the app details tab, tried enabling and disabling it but the same happens.  Tried with both vvvv_45beta34.1_x86 and _x64
+   
+  Not sure where to look for more information, When I open EvvvvilTweetEngine_example.v4p there's a nasty couldn't divide by zero there as soon as I open the patch (I've attached the tty Renderer output), but it doesn't appears when I open EvvvvilTweetEngine.v4p, I still get the Bad consumer key or secret, monsieur tete de bite.
+  
+  http://imgur.com/0TeB9gA
+  
+  
+  Should I get a mullet? :o
+  
+  update: Well, I should get half a mullet, tried it with vvvv45_beta33.7_x86 in win8.1 and worked GREAT, seems to fail in win10.

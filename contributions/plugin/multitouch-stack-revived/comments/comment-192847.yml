@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "192847"
+user: "io"
+created: "29 Apr, 2015 - 11:38"
+body: |-
+  Hi
+  I think that the "Selected" pin out is not working properly, it always set as active the last slice.
+  Simone

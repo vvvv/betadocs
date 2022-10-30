@@ -1,0 +1,31 @@
+---
+uid: "contribution/findrelated-(vvvv)"
+uid-meta: "contribution/findrelated-(vvvv)-meta"
+uid-files: "contribution/findrelated-(vvvv)-files"
+title: "FindRelated (VVVV)"
+contribution: "true"
+---
+
+once again a gimmick out of my vvvv workflow [trickkiste](https://dict.leo.org/englisch-deutsch/trickkiste)
+
+<div class="box">
+Note:
+ever had to find your way through somebody else's vvvv app, debug a **Send and Receive mayhem**, or refactor something really big? The project again **too big for the Finder** to handle?
+</div>
+
+then you will love this little helper
+
+1.  HowTo
+* selected nodes show up in the upper section of the GUI window
+* upon clicking one of those, related ones are displayed in the lower section
+* click on any of those and vvvv will set the focus on them (and open the parent patch if necessary)
+
+1.  What do i mean by related?
+* **Send** and **Receives** with the same identifier
+* **Joins** and **Splits** (within the same name and category, e.g. Vector 2D)
+* Join and Split (**Struct**) with the same declaration
+* **Message Formular** nodes with the same Configuration
+
+in case the node doesn't match any rule, it will return all instances of the same node
+
+and you can do some regexpr magic yourself to add additional matching rules

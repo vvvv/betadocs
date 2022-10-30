@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "226042"
+user: "bjoern"
+created: "31 Aug, 2016 - 16:37"
+body: |-
+  Thanks & Danke für die Blumen :)
+  
+  Did you use any library like [stateless](https://github.com/dotnet-state-machine/stateless/blob/master/README.md) for example or did you write the state machine from scratch? Anyway do you think it's feasible to extend the plugin to support [hierarchical state machines](https://en.wikipedia.org/wiki/UML_state_machine#UML_extensions_to_the_traditional_FSM_formalism)?

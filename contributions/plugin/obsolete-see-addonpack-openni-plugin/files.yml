@@ -1,0 +1,72 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/obsolete-see-addonpack-openni-plugin-files"
+url: "obsolete-see-addonpack-openni-plugin"
+category: "plugin"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "6"
+            filename: "OpenNISkeleton.zip"
+            description: |-
+              Dynamic plugin, multiskeleton&depth
+            
+            timestamp: "31 Mar, 2011 - 23:54"
+            download_count: "1"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "5"
+                    filename: "OpenNIGenericNode.zip"
+                    description: |-
+                      Compiled  Multifunction DLL, more pins :P
+                    
+                    timestamp: "05 Apr, 2011 - 14:41"
+                    download_count: "6"
+                - file:
+                    bit: "64"
+                    delta: "4"
+                    filename: "Kinect_OpenNI_Libary.zip"
+                    description: |-
+                      Compiles Libary Nodes for the Kinect
+                    
+                    timestamp: "17 Jun, 2011 - 12:06"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "3"
+                    filename: "Kinect_OpenNI_Libary_1.0.zip"
+                    description: |-
+                      Version 1.0 (beta25.1)
+                    
+                    timestamp: "29 Jul, 2011 - 11:05"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "2"
+                    filename: "Kinect_OpenNI_Libary_1.1.zip"
+                    description: |-
+                      Version 1.1 (beta26)
+                    
+                    timestamp: "07 Oct, 2011 - 10:09"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "1"
+                    filename: "Kinect_OpenNI_Library_1.2.zip"
+                    description: |-
+                      Version 1.2 (beta27)
+                    
+                    timestamp: "24 Dec, 2011 - 16:00"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "Kinect_OpenNI_Library_1.3.zip"
+                    description: |-
+                      Version 1.3 (beta27)
+                    
+                    timestamp: "13 Jan, 2012 - 15:47"
+                    download_count: "1"

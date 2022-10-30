@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "248178"
+user: "seltzdesign"
+created: "10 Jan, 2018 - 14:16"
+body: |-
+  Also in IOMagic.v4p there is a connection missing, which prevents being able to create anything other than IOBox (Value Advanced). This is the missing connection:
+  
+  ![](https://vvvv.org/sites/default/files/imagecache/large/images/IOmagic.JPG)

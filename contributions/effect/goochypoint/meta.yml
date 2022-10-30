@@ -1,0 +1,14 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/goochypoint-meta"
+type: "effect"
+author: "dottore"
+date: "22 Jun, 2010"
+title: "goochyPoint"
+originalURL: "contribution/goochypoint"
+category: "effect"
+like_count: "2"
+imported: "true"
+teaser: |-
+  Gooch shading w/glossy hilight in HLSL ps_2 pixel shader.
+  Textured and non-textued versions are supplied.

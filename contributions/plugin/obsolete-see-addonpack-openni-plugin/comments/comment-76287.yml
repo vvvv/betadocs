@@ -1,0 +1,10 @@
+### YamlMime:ContributionComment
+---
+uid: "76287"
+user: "joreg"
+created: "14 Feb, 2012 - 19:21"
+body: |-
+  strange, <span class="pin">Adapt to RGB View</span> should work as soon as an RGB node is connected to the same Kinect node as the Depth node. so if you open the helppatch and toggle <span class="pin">Adapt to RGB View</span> you should see the difference. 
+  
+  no gestures for open/close hand.
+  as i understand openni has its own data/video format. therefore it would be possible to write a reader/writer for those to use for simulation purposes.

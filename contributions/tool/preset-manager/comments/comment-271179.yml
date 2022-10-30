@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "271179"
+user: "tgd"
+created: "27 Feb, 2019 - 11:19"
+body: |-
+  Compared to [preset-recorder](xref:contribution/preset-recorder) it is quite heavy. But this seems due to all the convenience features like morph, osc and naming. Maybe it would be a good idea to modularize it a bit. Anyway a good example of extending the preset idea.

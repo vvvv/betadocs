@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/pretty-cubes-files"
+url: "pretty-cubes"
+category: "misc"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "027_cubos_coloridos(w osc.v4p"
+            description: |-
+              pretty basic music visualization v4 patch
+            
+            timestamp: "28 Jul, 2012 - 23:04"
+            download_count: "1"

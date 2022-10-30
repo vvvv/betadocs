@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "235258"
+user: "colorsound"
+created: "12 Feb, 2017 - 10:27"
+body: |-
+  Hi did you do the initiation resetting.  I think it could be also it took controllers in wrong order i need to change the transform from controllers from left right no general, otherwise the controllers transformation could have diferent index order each time you open the patch.  I need to fix that for next version
+  .  As workaround close steamvr and inverse put controllers phisicly in left right. Then turn on again.

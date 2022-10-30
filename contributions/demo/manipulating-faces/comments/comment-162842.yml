@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "162842"
+user: "mpenna"
+created: "20 Aug, 2014 - 14:57"
+body: |-
+  Nice demos indeed... thanks for sharing! I have some experience programming for the Kinect but on other platforms - vvvv is quite new to me. The "makeup" patch is one that really caught my eyes. I believe it's possible to try to use another face shot as reference image, right? But how to go about editing the face markers? The patch loads them from the "face.vpe" file, right? Do we have to edit this file by hand or is there some tool that can save these points to a file?

@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "59890"
+user: "sapo"
+created: "15 Feb, 2011 - 12:02"
+body: |-
+  i think it can't find the XML file, do you have the data folder in the kinect plugin folder? try eventually copy the data folder also in c:, or around.. usually it should pick it up somewhere :) i'm not still sure wich Data folder is readed, you should have this Data folder also in programs/openNI programs/primesense. try mess a bit with them and see if the error message goes away, or changes to something else.. 
+  
+  for istance , if tty will say something like: "can't create node of the requested type" you'll prolly need to edit the xml files to fix the licenses / resolution.
+  
+  good luck & keep me updated!

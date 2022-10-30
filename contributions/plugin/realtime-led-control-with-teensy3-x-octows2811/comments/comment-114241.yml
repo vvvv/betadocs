@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "114241"
+user: "velcrome"
+created: "17 Feb, 2014 - 16:36"
+body: |-
+  if a teensy operates on slave mode, it needs a connected master teensy on pin 12. only then it will push the pwm data, otherwise it will keep the last frame. this is to ensure framesync if you use multiple teensy in one big matrix.
+  
+  as for the strip length: try it, i dont know if it works. probably not. i always filled it up, just to be sure.

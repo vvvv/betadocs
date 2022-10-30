@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "63610"
+user: "alg"
+created: "12 May, 2011 - 09:19"
+body: |-
+  @kalle This is because you using old wrapper dll. With dll from newest OpenNI it's will not work- api was little changed.
+  
+  @hierro Can't find any info about calibration pose. I'm tested newest OpenNI- skeleton tracking works, but you need to use calibration pose.

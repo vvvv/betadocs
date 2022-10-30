@@ -1,0 +1,14 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/carpainttexcolor-meta"
+type: "effect"
+author: "dottore"
+date: "22 Jun, 2010"
+title: "carpaint_texColor"
+originalURL: "contribution/carpainttexcolor"
+category: "effect"
+like_count: "3"
+imported: "true"
+teaser: |-
+  Shading via multitexture. In this case, a texture is used to vary the underlying surface color based upon both the view angle and the angle at which light strikes the surface.
+  from Nvidia library.

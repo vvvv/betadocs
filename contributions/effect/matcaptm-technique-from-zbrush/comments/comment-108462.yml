@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "108462"
+user: "robe"
+created: "21 Oct, 2013 - 17:12"
+body: |-
+  I love this shader!
+  Also you can create your custom matcap texture realtime and achieve some kind of lighting:
+  ![sample](https://vvvv.org/sites/default/files/imagecache/large/images/MatCap_2013.10.21-19.07.46.png)

@@ -1,0 +1,31 @@
+### YamlMime:ContributionComment
+---
+uid: "203441"
+user: "tmp"
+created: "21 Aug, 2015 - 10:01"
+body: |-
+  1.  UPDATE
+  
+  ##  NEW
+  
+  * added forces pack (have a look at girlpower/forceExamples/ and help patches!)
+  * camera node has enabled pin and better default values
+  * better namings for visualization nodes (Constant, Sprite, Mesh)
+  * bang on success in calibration
+  * pointsmoothing is a separate module now and gives better results by using an advanced queue (was included in calibration module before)
+  * reader and writer for transforms (very useful to save/load calibrationdata)
+  * analysis nodes additionally output their data as buffers (so you can avoid expensive readbacks)
+  * added alot of enabled pins
+  * no distinction between PointcloudBuffer for Kinect1 and 2 anymore -> one node for both
+  * pointcloudbuffer can use raw images now (faster - kinect2 only)
+  
+  ##  FIXES
+  
+  * fixed alot of issues with nil inputs for group ids
+  * fixed framedrops triggered by kinect2 node
+  * fixed oversampling bug for pointcloudbuffer node
+  
+  There are some features that need the latest build of dx11!
+  For those of you that are not able to build it: https://dl.dropboxusercontent.com/u/51232449/dx11_x86_x64_2015-08.zip
+  
+  Have fun! Feedback appreciated! ;)

@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "264186"
+user: "mediadog"
+created: "31 Aug, 2018 - 02:31"
+body: |-
+  Something of a bug: If you give the Dealer node a Port of zero(0) when Enabled, you get a hard crash of vvvv, no exception dialog, just the Windoze "stopped working" message on win7 and 8, and nothing on Win 10.

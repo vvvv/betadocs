@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "249292"
+user: "everyoneishappy"
+created: "21 Feb, 2018 - 05:38"
+body: |-
+  @nilsfrid glad you like it :)
+  
+  @miik @guest indeed you can sometimes avoid the issue by changing the up vector, but there will still be angles that will cause the issue, you're just shifting where that occurs really (which is often enough to get by)

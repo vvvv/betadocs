@@ -1,0 +1,27 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/art-and-brainwaves-with-vvvv-files"
+url: "art-and-brainwaves-with-vvvv"
+category: "tutorial"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "1"
+            filename: "Brainwavvvves_b29_w7.zip"
+            description: |-
+              Art and Brainwaves with VVVV, patches for VVVV b29 and W7 OS
+            
+            timestamp: "24 Feb, 2013 - 19:41"
+            download_count: "2"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "Brainwavvvves_b27_xp.zip"
+                    description: |-
+                      Art and Brainwaves with VVVV, patches for VVVV b27 and Win XP OS
+                    
+                    timestamp: "24 Feb, 2013 - 20:21"
+                    download_count: "1"

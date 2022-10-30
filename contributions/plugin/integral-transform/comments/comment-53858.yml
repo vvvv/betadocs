@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "53858"
+user: "joreg"
+created: "05 Oct, 2010 - 11:46"
+body: |-
+  it is a temporary limitation that dynamic plugins like this only work from \plugins. you're right that it should better be in a local project directory. we are working on that.

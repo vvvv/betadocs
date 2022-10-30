@@ -1,0 +1,17 @@
+### YamlMime:ContributionComment
+---
+uid: "75658"
+user: "gregsn"
+created: "02 Feb, 2012 - 21:27"
+body: |-
+  @alg: we are indeed bad in documenting all features. and sometimes i hear of a keyboard shortcut or some other feature i never heard of. however this typically shouldn't be the case and we try hard to at least put everything you should know about into our detailed [Change-log](https://betadocs.vvvv.org/changelog/index.html). i can imagine that this is a hard read. vvvvery. but it is worth reading. you should develop some workflow how to get through that document. print it and mark interesting ideas or copy and paste it into a textfile, read some lines each day, delete them and come back. 
+  
+  so look under beta26 "changed nodes":
+  * s/r nodes: more than one sender can send values on a certain channel. receivers connect to the nearest in terms of the patch hierarchy
+  
+  whenever something is too cryptic start a thread. we will be happy to get into the details. 
+  
+  ah, and while reading that bastard:
+  whenever you discover a feature or a way of working that isn't documented but works well for you tell us on the forum or suggest a wiki page. the forum isn't a bug forum only ;)
+  
+  @dottore: sorry for occupying your thread...

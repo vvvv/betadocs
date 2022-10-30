@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "226540"
+user: "mediadog"
+created: "05 Sep, 2016 - 02:23"
+body: |-
+  Works with both 34.2 x86 and x64!  w00t!
+  
+  However, I do get a "vvvv.exe has stopped working" on exiting though; with x86 it happens with all three patches, on x64 the help patch exits OK but the two facet patches crash on exit.  So makes me think there is some memory splatter in there somewhere.
+  
+  But hey, I can try it out now!  Thanks @digitalwannabe!

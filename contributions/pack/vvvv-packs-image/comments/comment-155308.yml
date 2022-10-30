@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "155308"
+user: "velcrome"
+created: "12 May, 2014 - 16:46"
+body: |-
+  yeah, the upload in contribution has had some weird config for some time now. 
+  
+  more to the point, I think it would be better to have nuget for the feraltic and the dx11, because then it would be possible to create your own solution and still remain compatible with all of vux' work.

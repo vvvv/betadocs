@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "172120"
+user: "mfo"
+created: "01 Nov, 2014 - 17:40"
+body: |-
+  Nice to see TimelinerSA is being continued! It is a great powerful tool, I've been using in most of my projects.
+  
+  One thing I particularly liked about TimelinerSA is its full intergration in vvvv's interface, that you can even embed the timeline in your patch, no need for OSC "wiring". Is this being planned for NextGen too?
+  Another feature I use extensively is the ability to send in a time value, thus various timelines can be synced one another and with other repetitive events, even a straight-forward connection to other softwares is easily doable. I didn't see this feature in NextGen(?), would be really nice to have.
+  Last but not least, a feature I am painfully missing in the original TimelinerSA is the ability to copy/cut/paste. Would be amazing to have that.
+  
+  Anyways, thanks for your great work Joreg, thumbs up!

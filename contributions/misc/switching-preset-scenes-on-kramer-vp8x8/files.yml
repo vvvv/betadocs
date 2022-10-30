@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/switching-preset-scenes-on-kramer-vp8x8-files"
+url: "switching-preset-scenes-on-kramer-vp8x8"
+category: "misc"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "Kramer-VP8x8-Switch_Preset.v4p"
+            description: |-
+              Kramer VP8x8 preset switcher
+            
+            timestamp: "07 Mar, 2013 - 23:11"
+            download_count: "2"

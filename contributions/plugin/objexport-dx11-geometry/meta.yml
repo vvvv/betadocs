@@ -1,0 +1,27 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/objexport-(dx11.geometry)-meta"
+type: "plugin"
+author: "antokhio"
+date: "12 Nov, 2019"
+title: "OBJExport (DX11.Geometry)"
+originalURL: "contribution/objexport-(dx11.geometry)"
+category: "plugin"
+credits: |-
+  antokhio
+  [github](https://github.com/antokhio/VVVV.OBJ)
+like_count: "2"
+imported: "true"
+teaser: |-
+  ## 3d Export your generative geometry with subsets to any 3d modelling software.
+  
+  Comes in two flavors:
+  * OBJExport (DX11.Geometry) exports vertices, normals, texcoords, subsets, 
+  * Writer (OBJ Point) exports points color stored to normal
+  
+  Might not work if mesh has no vertices, normals, texcoords...
+  
+  Now supports mesh spreading by transform or texture transform by (unc)
+  
+  if you can't see your mesh in vvvv, put that in to packs/dx11/core 
+   [Link](https://github.com/antokhio/VVVV.OBJ/tree/master/packs/dx11/core)

@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "175310"
+user: "guest"
+created: "20 Nov, 2014 - 16:59"
+body: |-
+  Noobusdeer’s rebuild works fine for me, only downside is that it stops working with multiple Kinect nodes. For example, when open a (sub)patch with another Kinect node. It’s a pity, using multiple Kinect nodes can be quite handy sometimes.

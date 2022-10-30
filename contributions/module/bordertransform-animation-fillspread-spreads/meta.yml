@@ -1,0 +1,35 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/bordertransform-(animation)-fillspread-(spreads)-meta"
+type: "module"
+author: "tmp"
+date: "23 Apr, 2013"
+title: "BorderTransform (Animation) & FillSpread (Spreads)"
+originalURL: "contribution/bordertransform-(animation)-fillspread-(spreads)"
+category: "module"
+credits: |-
+  [tmp](http://vvvv.org/users/tmp)
+  robert@intolight.de
+like_count: "10"
+imported: "true"
+teaser: |-
+  This package includes 2 contributions:
+  **BorderTransform (Animation)** generates border animations around incoming transforms with the following settings:
+  - how many borders shall be generated *(1 to 4)*
+  - the starting point *(top left, bottom left, ... )*
+  - border length *(0 - 1)*
+  - border width *(0 - 1)*
+  
+  **FillSpread (Spreads)** generates and fills spreads in dependence of the incoming input. One small example:
+  Bin Size is 4
+  Input = 0.0 -> SpreadOut = 0.0/0.0/0.0/0.0
+  Input = 1.5 -> SpreadOut = 1.0/0.5/0.0/0.0
+  Input = 4.0 -> SpreadOut = 1.0/1.0/1.0/1.0
+  
+  There are some more useful settings:
+  - shift start & end points for each slice
+  - set from & to values
+  - set initial values 
+  
+  
+  Any comments and suggestions are appreciated!

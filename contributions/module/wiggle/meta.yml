@@ -1,0 +1,15 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/wiggle-meta"
+type: "module"
+author: "Urbankind"
+date: "27 May, 2012"
+title: "Wiggle"
+originalURL: "contribution/wiggle"
+category: "module"
+like_count: "3"
+imported: "true"
+teaser: |-
+  Hello folks, this is small piece of module which i find it very useful in building interfaces and random movements. Anyone from AE knows how much often we need wiggle ;)
+  
+  Wiggle Randomly moves the given object, really not that difficult...just a handy stuff.

@@ -1,0 +1,14 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/vertex-normal-displacement-meta"
+type: "effect"
+author: "korriander"
+date: "25 Nov, 2011"
+title: "Vertex Normal Displacement"
+originalURL: "contribution/vertex-normal-displacement"
+category: "effect"
+like_count: "10"
+imported: "true"
+teaser: |-
+  This effect allows you to displace the vertex positions in Normal direction with a controll texture.
+  To get smooth vertex blendings use a Geometrys with vertex resolution.

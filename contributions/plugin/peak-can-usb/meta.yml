@@ -1,0 +1,23 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/peak-can-usb-meta"
+type: "plugin"
+author: "ethermammoth"
+date: "29 Mar, 2013"
+title: "Peak CAN USB"
+originalURL: "contribution/peak-can-usb"
+category: "plugin"
+credits: |-
+  Credits go to the Peak Examples.
+like_count: "4"
+imported: "true"
+teaser: |-
+  Use with the Peak USB adapter ( http://www.peak-system.com ).
+  This can i.a. be used to communicate to most Cars on-board electronics.
+  
+  NB: There is a bug when connect is enabled on startup which causes vvvv to freeze. So use a OnOpen with some delay.
+  
+  The Init Buffer Pin Copies the current input to a temporary buffer. Use the the Send Pin to send the buffer messages. (The buffer is used for sending cyclic messages which need accurate timing)
+  For other messages just use the "Send Message every Milli.." Pin. Where 1 = Sending.
+  
+  I have some other variations of this plugin with e.g. direct use of RAW data etc. If you need any other give me a hint.

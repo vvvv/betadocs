@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "276648"
+user: "ravazquez"
+created: "11 Sep, 2020 - 17:00"
+body: |-
+  hi, I am trying to replicate this effect in gamma+Stride but I noticed that when I add Z movement (getting closer or further away from screen) things don't look quite right.
+  
+  In this patch if I move the Translate Camera's z value to move "into" the room, the objects in the back move away from me when they should move closer, when I move away from the room, the objects in the back come closer to me.
+  
+  Any idea why this is happening and how I might be able to correct it?
+  
+  Thanks.

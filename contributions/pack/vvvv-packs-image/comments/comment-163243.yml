@@ -1,0 +1,46 @@
+### YamlMime:ContributionComment
+---
+uid: "163243"
+user: "tekcor"
+created: "25 Aug, 2014 - 23:14"
+body: |-
+  I continue my troubleshooting log here
+  
+  Note it is not anymore about getting the PS3 Eye to work but about fixing an error that I get on a lot of Nodes as output of the Status pin.
+  
+  Appearently some users report it does not work on ATI cards.
+  
+  But that is not the issue that causes that error:
+  'The type initializer for 'Emgu.CV.CvInvoke' threw an exception.'
+  
+  The error appears as output on for exampe FileImage or the VideoIn (CL Eye).
+  
+  I tested it also a lot on a 32bit W7 system with an intel HD4400 chip and it didn't work, same error.
+  
+  The interesting thing is that it works on my personal notebook with exactely the same software and similar hardware
+  beta32.1_x86 with the imagepack from this page
+  intel hd4000
+  and this is a 64bit W7
+  
+  I realy don't see what could be the difference between the systems that can cause that error.
+  
+  If you have any idea, they are very welcome! 
+  
+  Edit:
+  
+  The solution was found it was an missing dll
+  
+  See more here
+  
+  https://github.com/elliotwoods/VVVV.Packs.Image/issues/58
+  
+  
+  Edit2:
+  
+  You can download the missing dll here 
+  http://www.symbioticcube.com/Downloads/nvcuda.dll
+  
+  put it in nodes/plugins/dependencies/opencv/x86/
+  
+  It should also fix anything that was previously accoutned to ATI cards.
+  Thanks to alg for that essential hint.

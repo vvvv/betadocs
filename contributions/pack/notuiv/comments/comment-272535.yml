@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "272535"
+user: "systray27"
+created: "11 Jun, 2019 - 22:01"
+body: |-
+  Hello,
+  same problems here with not VVVV not starting up anymore. Any leads on how to fix this? When I delete the factories folder VVVV indeed does start up. But Notui of course ain't working. Reported this on Github too, see there for details.

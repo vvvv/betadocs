@@ -1,0 +1,15 @@
+### YamlMime:ContributionComment
+---
+uid: "110368"
+user: "ink"
+created: "25 Nov, 2013 - 17:44"
+body: |-
+  hi, psylion
+  you can look inside the MidiMapSilder module, and know how it works.
+  and I use this module like this:
+  ![](https://vvvv.org/sites/default/files/imagecache/large/images/apc40-1.png) 
+  
+  see the <span class="pin">OutputIndex</span>? every module have a OutputIndex, and if you change the midi controller the <span class="pin">outputIndex</span> will be change.
+  and you can use <span class="pin">R</span> -MidiOutput and a <span class="pin">GetSilce</span>  set the index is the shown number from OutputIndex.
+  save
+  and when you reopen the patch it always works for same MIDI Controller(same works for almost every MIDI Controllers).

@@ -1,0 +1,17 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/artnet-arduino-set-v3.1-meta"
+type: "misc"
+author: "MSBERGER"
+date: "01 Aug, 2013"
+title: "ArtNet arduino set v3.1"
+originalURL: "contribution/artnet-arduino-set-v3.1"
+category: "misc"
+credits: |-
+  based on Artnet Receiver v2 / v3 by karistouf and David Von Schoorisse
+like_count: "2"
+imported: "true"
+teaser: |-
+  This is a modified version of ARTNET receiver sketch by karistouf and David von Schoorisse.
+  
+  Details as well as the latest version of the complete ArtNet arduino set can be found here [artnet-arduino-set-v3.1-0](xref:contribution/artnet-arduino-set-v3.1-0)

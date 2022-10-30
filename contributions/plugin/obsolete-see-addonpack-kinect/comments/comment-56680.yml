@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "56680"
+user: "marf"
+created: "05 Dec, 2010 - 13:41"
+body: |-
+  Have the same problems. Reopening existing patches is giving most time an error. Some time it works, but most time not :-( I guess, it's something in the initialization phase.

@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "108298"
+user: "everyoneishappy"
+created: "18 Oct, 2013 - 01:24"
+body: |-
+  Are you sure that it is (Vector)?  Maybe try dropping a Length(3d) and see if that works.  Don't know the context but if you just need a normalised vector length then that's the one.  I think some of the standard node file pointers are a bit funny with some of these patches, due to being patched in a super-mutant version of vvvv.

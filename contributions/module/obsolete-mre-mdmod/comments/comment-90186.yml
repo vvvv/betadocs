@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "90186"
+user: "elektromeier"
+created: "24 Oct, 2012 - 13:54"
+body: |-
+  disabling the motion blur& tonemapping module brings it back...
+  
+  also interesting, that after turning motion blur on again. the picture is there for a few seconds before it disapears again...

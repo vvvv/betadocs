@@ -1,0 +1,26 @@
+### YamlMime:ContributionComment
+---
+uid: "278213"
+user: "mediadog"
+created: "03 Apr, 2021 - 03:12"
+body: |-
+  Yeah red nodes here in beta_41_x64 on Win7 Enterprise x64.  Console sez:
+  
+  ```
+  00:00:10 ERR : Exception occurred during creation of plugin: The composition produced a single composition error. The root cause is provided below. Review the CompositionException.Errors property for more detailed information.
+  
+  1) Unable to find an entry point named 'EnableMouseInPointer' in DLL 'User32.dll'.
+  
+  Resulting in: An exception occurred while calling the 'OnImportsSatisfied' method on type 'VVVV.WMPointer.Nodes.PointerDeviceNode'.
+  
+  Resulting in: Cannot activate part 'VVVV.WMPointer.Nodes.PointerDeviceNode'.
+  Element: VVVV.WMPointer.Nodes.PointerDeviceNode -->  VVVV.WMPointer.Nodes.PointerDeviceNode -->  TypeCatalog (Types='VVVV.WMPointer.Nodes.PointerDeviceNode').
+  
+  Resulting in: Cannot get export 'VVVV.WMPointer.Nodes.PointerDeviceNode (ContractName="VVVV.PluginInterfaces.V1.IPluginBase")' from part 'VVVV.WMPointer.Nodes.PointerDeviceNode'.
+  Element: VVVV.WMPointer.Nodes.PointerDeviceNode (ContractName="VVVV.PluginInterfaces.V1.IPluginBase") -->  VVVV.WMPointer.Nodes.PointerDeviceNode -->  TypeCatalog (Types='VVVV.WMPointer.Nodes.PointerDeviceNode').
+  
+  Resulting in: Cannot set import 'VVVV.Hosting.IO.PluginContainer.PluginBase (ContractName="VVVV.PluginInterfaces.V1.IPluginBase")' on part 'VVVV.Hosting.IO.PluginContainer'.
+  Element: VVVV.Hosting.IO.PluginContainer.PluginBase (ContractName="VVVV.PluginInterfaces.V1.IPluginBase") -->  VVVV.Hosting.IO.PluginContainer
+  
+  
+  ```

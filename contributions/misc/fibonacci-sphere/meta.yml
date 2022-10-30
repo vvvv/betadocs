@@ -1,0 +1,15 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/fibonacci-sphere-meta"
+type: "misc"
+author: "catweasel"
+date: "19 Feb, 2019"
+title: "Fibonacci Sphere"
+originalURL: "contribution/fibonacci-sphere"
+category: "misc"
+credits: |-
+  catweasel , https://stackoverflow.com/questions/9600801/evenly-distributing-n-points-on-a-sphere
+like_count: "1"
+imported: "true"
+teaser: |-
+  Evenly (ish) distributed points on a sphere. VL to code 101

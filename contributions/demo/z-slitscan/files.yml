@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/z-slitscan-files"
+url: "z-slitscan"
+category: "demo"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "Z-SlitScan.v4p"
+            timestamp: "18 Feb, 2013 - 12:17"
+            download_count: "1"

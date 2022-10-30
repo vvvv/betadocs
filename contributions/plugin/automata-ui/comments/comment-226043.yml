@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "226043"
+user: "u7angel"
+created: "31 Aug, 2016 - 16:57"
+body: |-
+  @bjoern, no library involved apart from Newtonsoft.Json to save the graph as JSON (which i will dump with the next release). so yeah, from scratch i did.
+  
+  concerning hierachical state machine, i guess we need to discuss that in person to get a picture of the advantages/use cases and how they can be visualized.

@@ -1,0 +1,10 @@
+### YamlMime:ContributionComment
+---
+uid: "272935"
+user: "Aurel"
+created: "25 Jun, 2019 - 16:14"
+body: |-
+  Hi,
+  Is there a solution for texturing geometries with different textures or is it necessary to create a node for each geometry / texture pair?
+  
+  Aurelien

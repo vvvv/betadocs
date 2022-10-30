@@ -1,0 +1,19 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/saitek-p3200-rumble-pad-meta"
+type: "module"
+author: "lasal"
+date: "28 Dec, 2011"
+title: "Saitek P3200 Rumble Pad"
+originalURL: "contribution/saitek-p3200-rumble-pad"
+category: "module"
+credits: |-
+  Lasal, 2011
+like_count: "5"
+imported: "true"
+teaser: |-
+  Simple patch to use the HID game pad as a controller, 
+  there are 2 disabled controls LT and RT (no way to use it).
+  
+  HID_ReportOut module part of this document:
+  [hid nodes](https://betadocs.vvvv.org/topics/io/protocols/hid-nodes.html)

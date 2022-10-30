@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/texture-noise-3d-files"
+url: "texture-noise-3d"
+category: "effect"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "3dnoise.zip"
+            timestamp: "25 Aug, 2010 - 15:13"
+            download_count: "1"

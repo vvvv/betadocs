@@ -1,0 +1,23 @@
+### YamlMime:ContributionComment
+---
+uid: "74106"
+user: "Martin Zrcek"
+created: "29 Dec, 2011 - 07:41"
+body: |-
+  the part of rendering pipeline: 
+  in vertex shader:
+  get xyz position and multiply it by WVP matrix to move to clip space
+  get sprite size: Out.Size = particleSize / Out.Pos.w * viewportHeight/2;
+  --- 
+  graphic card does:
+  on each vertex place a picture of defined size:
+  FillMode = POINT;
+  PointScaleEnable = true;
+  PointSpriteEnable = true;
+  --- 
+  pixel shader:
+  get fragment color
+  --- 
+  
+  The thing is that I don't send triangles to rasterization (4 points + topology, too time consuming). Only points and let graphic card to place picture on each of them (1 point). Their size depends mainly on "Actual Backbuffer Height", which is distributed **from renderer to viewportHeight pin**. 
+  You can try to put huge images like 2048*2048 as a texture, or make an animation (textureSubdivision parameter), that's the good part. I saw this technique in some vvvv patch here, but don't really know where.

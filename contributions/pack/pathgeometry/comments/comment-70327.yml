@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "70327"
+user: "m4d"
+created: "10 Oct, 2011 - 19:18"
+body: |-
+  @sebl: i had the same problem and resolved it by putting a cli_cppuhelper.dll obtained from [rather dubious sources](http://www.4shared.com/get/uNTiksfA/cli_cppuhelper.html) (but scanned for virii with onlinescanner) into the PathGeometry\plugins\2D.GeometryChange\bin directory.
+  
+  also bigup to velcrome for this nice plug!

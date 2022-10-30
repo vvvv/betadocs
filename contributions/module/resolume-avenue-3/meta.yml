@@ -1,0 +1,14 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/resolume-avenue-3-meta"
+type: "module"
+author: "dEp"
+date: "21 Aug, 2011"
+title: "Resolume Avenue 3"
+originalURL: "contribution/resolume-avenue-3"
+category: "module"
+like_count: "2"
+imported: "true"
+teaser: |-
+  OSC module for R3
+  Work in progress - not all of [the interface](https://docs.google.com/Doc?id=dhjs2rsx_0g87srqfr&hl=en#Open_Sound_Control_OSC_7537606_9105523562905601) has been implemented yet!

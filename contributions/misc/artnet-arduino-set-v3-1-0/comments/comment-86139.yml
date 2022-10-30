@@ -1,0 +1,27 @@
+### YamlMime:ContributionComment
+---
+uid: "86139"
+user: "sonofsnow"
+created: "25 Jul, 2012 - 21:04"
+body: |-
+  ![](https://vvvv.org/sites/default/files/imagecache/large/images/basicmata-pinmapping.jpg) 
+  
+  Being new to the arduino world i have a couple of questions.
+  
+  1-When setting up the Artnet Node in vvvv to communicate with an arduino UNO
+    should I set it up with an ordinary spread of 512, and then for the
+    sender sketch, Artnet channel 13,12,11,10,9,8,6,5 and 3 would controll    
+    the output pins on the arduinoUNO board? 
+    
+  
+  2-And for the reciver Sketch the same has to be done but diffrent channel
+    to pin mapping?
+  
+  3-And for the diffrent types of inputs/outputs like digital,analog or PWM?
+    PWM and analog would be like a fader with value from 0 TO 1, but digital 
+    would be a toggle, value 0 OR 1?
+  
+  4- As im typing my questions I see that i really would love if someone 
+     could make a patch I could look at =)
+  
+  Tnx

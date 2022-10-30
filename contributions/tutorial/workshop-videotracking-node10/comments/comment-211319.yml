@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "211319"
+user: "nazikus"
+created: "23 Nov, 2015 - 15:08"
+body: |-
+  All of the examples presented contain <span class="pin">AsVideo (EX9.Texture)</span>, but I'm missing this node in my vvvv 45beta34.2. It contains only help patch only,  'lib\nodes\native\AsVideo (EX9.Texture) help.v4p'. And this help patch refers to missing AsVideo node as well.
+  
+  Googling I couldn't find any AsVideo nodes or similar problems. Any ideas how can I fix it?

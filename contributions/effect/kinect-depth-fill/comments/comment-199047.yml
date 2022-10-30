@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "199047"
+user: "antokhio"
+created: "18 Jun, 2015 - 17:17"
+body: |-
+  suspect a framedelay... not crashing but also not working on 850m 
+  code looks ok, neet to try the texture array framedelay instead

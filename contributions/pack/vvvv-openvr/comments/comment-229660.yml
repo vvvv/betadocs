@@ -1,0 +1,15 @@
+### YamlMime:ContributionComment
+---
+uid: "229660"
+user: "tonfilm"
+created: "11 Oct, 2016 - 15:10"
+body: |-
+  @lassemunk did you also install the DX11 pack from:
+  
+  [directx11-nodes-alpha](xref:contribution/directx11-nodes)
+  
+  this needs to be besides the VVVV.OpenVR pack.
+  
+  or double check whether you are starting the correct vvvv.exe, sometimes another vvvv instance is registered as the default for .v4p files. you can change this setting with the setup.exe besides vvvv.exe.
+  
+  also regarding the DK2, it requires 'direct mode' to be working but most laptops with two graphics cards can't do that...

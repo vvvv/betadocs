@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/triangulation-shader-files"
+url: "triangulation-shader"
+category: "effect"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "Triangulation_b28.zip"
+            timestamp: "24 Sep, 2012 - 12:26"
+            download_count: "2"

@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "80653"
+user: "u7angel"
+created: "04 Apr, 2012 - 09:49"
+body: |-
+  thank you, finally someone is using this ;)
+  
+  the function you are looking for is part of the firmata specification ? as far as i know, we added all possible functions. 
+  
+  edit: looks like firmata does not cover pullups. probably because its used accross different hardwaresetups and not all support pullups. since we want to stay compatible, we will not change the protocol.

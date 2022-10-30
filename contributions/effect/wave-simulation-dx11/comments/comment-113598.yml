@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "113598"
+user: "unc"
+created: "05 Feb, 2014 - 13:15"
+body: |-
+  that could be because of <span class="node">FrameDelay (DX11.Texture 2d)</span> (had something like that happen too), but should be working after vvvv restart

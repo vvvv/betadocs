@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "100753"
+user: "dEp"
+created: "10 May, 2013 - 11:22"
+body: |-
+  i've created the (vvvv root folder)\addonpack\lib\nodes\plugins\libvlc_searchpath.txt file and put the path to my VLC install in there, but the node is still red in 29.2. also i don't see any plugins\Vlc dir.

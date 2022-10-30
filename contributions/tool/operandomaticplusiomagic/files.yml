@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/operandomaticplusiomagic-files"
+url: "operandomaticplusiomagic"
+category: "tool"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "OperandomaticPlusIOMagic.zip"
+            description: |-
+              Tool to make your patching swifter!
+            
+            timestamp: "07 Oct, 2013 - 14:30"
+            download_count: "2"

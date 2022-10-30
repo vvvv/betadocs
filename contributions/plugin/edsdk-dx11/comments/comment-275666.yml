@@ -1,0 +1,12 @@
+### YamlMime:ContributionComment
+---
+uid: "275666"
+user: "Yoctopory"
+created: "21 May, 2020 - 12:51"
+body: |-
+  Sometimes, seemingly out of nowhere the EDSDK-patch freezes. 
+  Anyone know something about that?
+  
+  Also it seems like sometimes the camera is suddenly not detected by the PC anymore and doesn't react to commands anymore. 
+  
+  Any help is much appreciated.

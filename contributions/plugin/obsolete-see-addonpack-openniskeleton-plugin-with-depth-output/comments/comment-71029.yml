@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "71029"
+user: "mediadog"
+created: "25 Oct, 2011 - 03:05"
+body: |-
+  One other thing about those white lines/dots: I found that not all of them disappeared when I fixed the shader.  Turns out some distant points at the limit of the kinect range are actually reported as very close (< 300mm) so were showing up as white.  Not sure yet if the bug is in my code or OpenNI, but setting the minimum depth into KinectDepthGrey to 400 cleans them all up.  This is a safe minimum as the Kinect does not work that close.

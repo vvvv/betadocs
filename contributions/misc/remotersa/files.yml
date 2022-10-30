@@ -1,0 +1,36 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/remotersa-files"
+url: "remotersa"
+category: "misc"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "2"
+            filename: "RemoterSA_beta8.zip"
+            description: |-
+              can now start remote processes as admin
+            
+            timestamp: "29 Oct, 2018 - 14:32"
+            download_count: "2"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "1"
+                    filename: "RemoterSA_beta7.zip"
+                    description: |-
+                      now includes mirror.exe, couple of little fixes, works on Windows 10
+                    
+                    timestamp: "16 Oct, 2018 - 16:39"
+                    download_count: "2"
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "RemoterSA_beta6.zip"
+                    description: |-
+                      tested to work on Windows 7
+                    
+                    timestamp: "31 Mar, 2011 - 17:44"
+                    download_count: "1"

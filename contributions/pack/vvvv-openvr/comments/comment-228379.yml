@@ -1,0 +1,28 @@
+### YamlMime:ContributionComment
+---
+uid: "228379"
+user: "guest"
+created: "22 Sep, 2016 - 08:33"
+body: |-
+  Thanks tonfilm and supporters!
+  
+  The Poser node is CPU intensive (8000 ticks in debug mode). I can't get a perfect 90fps with the OpenVRdemo..
+  
+  When WaitForSync=0, Poser is 100 ticks, perfect 90 fps. 
+  But I can see the double lines in motion... 
+  The motion is perfect only with WaitForSync=1.
+  
+  Any idea for a workaround or other ways to decrease the Poser CPU consemption?
+  What is the role of WaitForSync?
+  thanks!
+  
+  
+  
+  VVVV 34.2 x64
+  dx11 (b33.7)
+  HTC Vive / Direct Mode / SteamVR
+  NVidia 980Ti
+  Windows 8.1
+  i7-4790K 4.00Ghz
+  RAM 16Go
+  64bits

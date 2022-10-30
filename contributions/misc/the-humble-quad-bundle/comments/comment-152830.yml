@@ -1,0 +1,44 @@
+### YamlMime:ContributionComment
+---
+uid: "152830"
+user: "bjoern"
+created: "02 Apr, 2014 - 11:00"
+body: |-
+  Nice.
+  
+  ¿FYI?
+  
+  tried to run it on OSX 10.9.2 / [MonoFramework-MRE-3.4.0](http://download.mono-project.com/archive/3.4.0/macos-10-x86/MonoFramework-MRE-3.4.0.macos10.xamarin.x86.pkg).
+  
+  running
+  
+  ```
+  mono 1_Pong.exe
+  ```
+  
+  just shows the Beachball.
+  
+  running
+  
+  ```
+  mono --aot 1_Pong.exe
+  ```
+  
+  returns the following error:
+  
+  ```
+  Mono Ahead of Time compiler - compiling assembly /Volumes/Data/Downloads/Release/1_Pong.exe
+  Code: 68758 Info: 842 Ex Info: 1743 Unwind Info: 80 Class Info: 309 PLT: 168 GOT Info: 3202 GOT: 1092 Offsets: 2408
+  Compiled: 272/272 (100%), No GOT slots: 172 (63%), Direct calls: 0 (0%)
+  Executing the native assembler: clang -c -x assembler -arch i386  -o /var/folders/2h/byvqtn3d41x_fmgy0xrnm0140000gn/T/mono_aot_4VmSUW.o /var/folders/2h/byvqtn3d41x_fmgy0xrnm0140000gn/T/mono_aot_4VmSUW
+  /var/folders/2h/byvqtn3d41x_fmgy0xrnm0140000gn/T/mono_aot_4VmSUW:8530:9: error: invalid escape sequence (unrecognized character)
+          .asciz "C:\Dev\vvvv\vvvv\vvvv50\MyVLProject"
+                 °
+  /var/folders/2h/byvqtn3d41x_fmgy0xrnm0140000gn/T/mono_aot_4VmSUW:8567:9: error: invalid escape sequence (unrecognized character)
+          .asciz "C:\Dev\vvvv\vvvv\vvvv50\MyVLProject"
+                 °
+  AOT of image 1_Pong.exe failed.
+  ```
+  
+  
+  Works on Windows 8.1 x64, Nvidia GT 750 M

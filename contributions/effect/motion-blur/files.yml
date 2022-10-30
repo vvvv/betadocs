@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/motion-blur-files"
+url: "motion-blur"
+category: "effect"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "Motion Blur.v4p"
+            timestamp: "03 Sep, 2010 - 16:58"
+            download_count: "1"

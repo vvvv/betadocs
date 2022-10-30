@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "64928"
+user: "unc"
+created: "08 Jun, 2011 - 22:17"
+body: |-
+  here is a trick to kill the vvvv process (worked under win7):
+  task manager was screwed, but i managed to switch to different account, and ran task manager from there

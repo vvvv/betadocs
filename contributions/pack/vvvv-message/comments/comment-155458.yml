@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "155458"
+user: "velcrome"
+created: "15 May, 2014 - 18:21"
+body: |-
+  i just downloaded a fresh beta32_x64 and the pack, it works fine for me. same for the x86 version.
+  
+  could you please start ```Demo (Message).v4p``` and share the tty renderers output, so I can look into your problem?

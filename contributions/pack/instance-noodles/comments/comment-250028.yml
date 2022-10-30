@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "250028"
+user: "Alexey"
+created: "11 Mar, 2018 - 21:05"
+body: |-
+  Everything is great, as always. But in the last update it looks like ColorBuffer does not exist for the LineBuffered module. There is a pin for a subpatch, but inside it is flying in the air and in the shader there is no information about that.
+  
+  ![](https://vvvv.org/sites/default/files/imagecache/large/images/Capture_44.PNG)

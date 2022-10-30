@@ -1,0 +1,12 @@
+### YamlMime:ContributionComment
+---
+uid: "219274"
+user: "mrboni"
+created: "14 Apr, 2016 - 22:15"
+body: |-
+  one wee question - the PN tesselator doensn't seem to work on the resulting face mesh for some reason.  Any idea why?
+  
+  (It works fine on a sphere geometry)
+  
+  
+  edit - also the tesselator displace makes all the polys separate - common vertices don't stay together

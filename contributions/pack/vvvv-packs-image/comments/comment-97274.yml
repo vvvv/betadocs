@@ -1,0 +1,10 @@
+### YamlMime:ContributionComment
+---
+uid: "97274"
+user: "keftaparty"
+created: "01 Mar, 2013 - 19:06"
+body: |-
+  Hi,
+  I don't manage to get the VideoIn(OpenCV)and VideoIn(OpenCVDirectShow) nodes working in dx9ex mode.
+  Am I doing something wrong ? Could someone confirm that it is or not working ?
+  Thanks

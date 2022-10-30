@@ -1,0 +1,24 @@
+### YamlMime:ContributionComment
+---
+uid: "75166"
+user: "mrboni"
+created: "23 Jan, 2012 - 01:06"
+body: |-
+  I'm getting a red kinect node and the following error using versions 1.2 and 1.3 on windows 7 - beta27. NI viewer fine.  Version 1.1 working in b26.
+  
+  Any ideas?
+  
+  
+  
+  
+  00:01:26 ERR : System.IO.FileLoadException: Could not load file or assembly 'file:///C:\Users\Administrator\Tims Mirrors\xtion\kinect\Kinect_OpenNI_Library_1.2\OpenNI_Kinect\Kinect.dll' or one of its dependencies. Operation is not supported. (Exception from HRESULT: 0x80131515)
+  File name: 'file:///C:\Users\Administrator\Tims Mirrors\xtion\kinect\Kinect_OpenNI_Library_1.2\OpenNI_Kinect\Kinect.dll' ---> System.NotSupportedException: An attempt was made to load an assembly from a network location which would have caused the assembly to be sandboxed in previous versions of the .NET Framework. This release of the .NET Framework does not enable CAS policy by default, so this load may be dangerous. If this load is not intended to sandbox the assembly, please enable the loadFromRemoteSources switch. See http://go.microsoft.com/fwlink/?LinkId=155569 for more information.
+     at System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+     at System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+     at System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, StackCrawlMark& stackMark, Boolean forIntrospection, Boolean suppressSecurityChecks)
+     at System.Reflection.RuntimeAssembly.InternalLoadFrom(String assemblyFile, Evidence securityEvidence, Byte<> hashValue, AssemblyHashAlgorithm hashAlgorithm, Boolean forIntrospection, Boolean suppressSecurityChecks, StackCrawlMark& stackMark)
+     at System.Reflection.Assembly.LoadFrom(String assemblyFile)
+     at VVVV.Hosting.Factories.DotNetPluginFactory.CreatePlugin(INodeInfo nodeInfo, IPluginHost2 pluginHost)
+     at VVVV.Hosting.Factories.DotNetPluginFactory.CreateNode(INodeInfo nodeInfo, IInternalPluginHost pluginHost)
+     at VVVV.Hosting.Factories.AbstractFileFactory`1.Create(INodeInfo nodeInfo, INode host)
+     at VVVV.Hosting.HDEHost.CreateNode(INode node)

@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "83179"
+user: "mediadog"
+created: "23 May, 2012 - 04:07"
+body: |-
+  Re: VideoIn (CLEye) help, the large IObox for the FPS is not actually connected to the videoin node so it will always show zero.  But when I hover over the fps pin or connect it, it is still zero.

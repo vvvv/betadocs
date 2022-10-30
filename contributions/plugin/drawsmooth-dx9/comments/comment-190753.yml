@@ -1,0 +1,10 @@
+### YamlMime:ContributionComment
+---
+uid: "190753"
+user: "zepi"
+created: "09 Apr, 2015 - 17:55"
+body: |-
+  Weird. I'm running the same V4-version + the same OS-versions here - > the pillow texture is visible, but no drawing.  No complaints in TTY.
+  (Win8.1, multiple versions 33.7 down to 32 - in 64 and 32 bit versions, Optimus hardware (!)) 
+  
+  My other machine (Win7/64, b33.7_x86 plus any other version) plays the help-patch as expected.

@@ -1,0 +1,16 @@
+### YamlMime:ContributionComment
+---
+uid: "98229"
+user: "patrick"
+created: "17 Mar, 2013 - 13:12"
+body: |-
+  Ahoi tf & gregsn,
+  
+  I'm fondly using FDG for a current thesis work, here's a wish list:
+  - clicking a node in the graph extends/shows subsequent links
+  - a spreadable third InputPin next to "From" and "To" to specify individual colours for the nodes in the graph
+  - setting the size of a node in the graph, relative to the number of subsequent links
+  
+  Any chance of an updated version?
+  
+  * patrick

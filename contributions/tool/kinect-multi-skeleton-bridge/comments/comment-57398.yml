@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "57398"
+user: "sagishi"
+created: "20 Dec, 2010 - 15:57"
+body: |-
+  great, hierro, that's good to hear.
+  
+  I hope, OpenNI also makes some smart assumptions about the joints' roll-rotations. Otherwise one would have to deal with lots of joint limits and stuff, to preserve realistic poses.

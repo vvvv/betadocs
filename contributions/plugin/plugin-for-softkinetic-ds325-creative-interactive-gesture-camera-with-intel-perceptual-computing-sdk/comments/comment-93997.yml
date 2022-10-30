@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "93997"
+user: "mediadog"
+created: "02 Jan, 2013 - 20:52"
+body: |-
+  SUCCESS!  This plugin does require the first SDK beta, not beta2.  After some thrashing, I found it here:
+  
+  http://registrationcenter-download.intel.com/akdlm/irc_nas/2808/IntelPerceptualComputingSDK-Beta.zip
+  
+  Uninstall the previous PCSDK, remove the PCSDK folders, install this, and it seems to work with 29 with no further thrashing.
+  
+  Wheeeeee!

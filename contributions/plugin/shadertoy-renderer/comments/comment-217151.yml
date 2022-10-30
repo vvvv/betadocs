@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "217151"
+user: "bjoern"
+created: "23 Feb, 2016 - 13:41"
+body: |-
+  [cg compiler driver](http://http.developer.nvidia.com/Cg/cgc.html) by nvidia supposedly does automated translation from GLSL to HLSL. Haven't tried it though.

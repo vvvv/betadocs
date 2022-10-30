@@ -1,0 +1,10 @@
+### YamlMime:ContributionComment
+---
+uid: "239208"
+user: "velcrome"
+created: "03 May, 2017 - 09:26"
+body: |-
+  @mfo
+  
+  Cannot confirm on a fresh beta35.5_x64 with vvvv-Message, installed with vpm. Unfortunately the log you provided does not show any hint of the reason this happens to you. 
+  Can you please start a new thread (or a github issue, as you wish) with a link to a full startup log? Please also leave details, like your pc specs, and do you use x64 too? Which dx11-vvvv (or any other packs) do you use?

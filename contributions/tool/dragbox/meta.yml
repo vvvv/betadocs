@@ -1,0 +1,16 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/dragbox-meta"
+type: "tool"
+author: "kld4"
+date: "10 Aug, 2015"
+title: "DragBox"
+originalURL: "contribution/dragbox"
+category: "tool"
+credits: |-
+  [kld4](http://vvvv.org/users/kld4)
+like_count: "5"
+imported: "true"
+teaser: |-
+  A window system to quickly create user interfaces.
+  **Drag** based nodes. **DX11** requires pack.

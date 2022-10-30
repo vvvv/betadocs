@@ -1,0 +1,27 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/basicmata-arduino-interface-files"
+url: "basicmata-arduino-interface"
+category: "module"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "1"
+            filename: "basicmata-v1.1.zip"
+            description: |-
+              added a little bugfix inside the vvvv module
+            
+            timestamp: "13 Nov, 2011 - 20:41"
+            download_count: "1"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "basicmata_v01.zip"
+                    description: |-
+                      outdated
+                    
+                    timestamp: "22 May, 2011 - 10:34"
+                    download_count: "2"
