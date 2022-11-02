@@ -1,7 +1,7 @@
 ---
-uid: module-overview
+uid: Module-overview
 contribution: true
 overview: true
 ---
 
-# module
+# Module

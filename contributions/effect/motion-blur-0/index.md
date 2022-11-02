@@ -16,7 +16,7 @@ comments:
   - uid: "85766"
   - uid: "85771"
 uid-files: "contribution/motion-blur-0-files"
-title: "Motion Blur"
+title: "Motion Blur 2"
 image: "MotionBlur (EX9 Texture Filter) help-DirectX Renderer_2012.07.17-03.50.41.png"
 contribution: "true"
 ---

@@ -1,24 +1,24 @@
-- name: demo
-  href: demo/toc.yml
-  topicHref: demo/index.md
-- name: effect
-  href: effect/toc.yml
-  topicHref: effect/index.md
-- name: misc
-  href: misc/toc.yml
-  topicHref: misc/index.md
-- name: module
-  href: module/toc.yml
-  topicHref: module/index.md
-- name: pack
+- name: Pack
   href: pack/toc.yml
   topicHref: pack/index.md
-- name: plugin
+- name: Plugin
   href: plugin/toc.yml
   topicHref: plugin/index.md
-- name: tool
+- name: Module
+  href: module/toc.yml
+  topicHref: module/index.md
+- name: Effect
+  href: effect/toc.yml
+  topicHref: effect/index.md
+- name: Tool
   href: tool/toc.yml
   topicHref: tool/index.md
-- name: tutorial
+- name: Demo
+  href: demo/toc.yml
+  topicHref: demo/index.md
+- name: Tutorial
   href: tutorial/toc.yml
   topicHref: tutorial/index.md
+- name: Misc
+  href: misc/toc.yml
+  topicHref: misc/index.md

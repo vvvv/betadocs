@@ -1,7 +1,7 @@
 ---
-uid: demo-overview
+uid: Demo-overview
 contribution: true
 overview: true
 ---
 
-# demo
+# Demo

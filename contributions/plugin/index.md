@@ -1,7 +1,7 @@
 ---
-uid: plugin-overview
+uid: Plugin-overview
 contribution: true
 overview: true
 ---
 
-# plugin
+# Plugin

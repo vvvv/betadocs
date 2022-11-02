@@ -6,7 +6,7 @@ comments:
   - uid: "104489"
   - uid: "104497"
 uid-files: "contribution/artnet-arduino-set-v3.1-files"
-title: "ArtNet arduino set v3.1"
+title: "[OBSOLETE] ArtNet arduino set v3.1"
 contribution: "true"
 ---
 

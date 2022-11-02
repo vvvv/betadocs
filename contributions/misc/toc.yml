@@ -3,8 +3,6 @@
 - name: "Akai APC Mini Controller"
   href: akai-apc-mini-controller\index.md
 - name: "ArtNet arduino set v3.1"
-  href: artnet-arduino-set-v3-1\index.md
-- name: "ArtNet arduino set v3.1"
   href: artnet-arduino-set-v3-1-0\index.md
 - name: "Basic Audio Video CrossFader"
   href: basic-audio-video-crossfader\index.md
