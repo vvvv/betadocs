@@ -10,16 +10,6 @@
 				<ul>
 					<li>
 						<a href="https://vvvv.org/home/activities">Home</a>
-						<ul>
-							<li><a href="https://vvvv.org/home/activities">Activities</a></li>
-							<li><a href="https://vvvv.org/home/userpage">Userpage</a></li>
-							<li><a href="https://vvvv.org/home/business">Business</a></li>
-							<li><a href="https://vvvv.org/home/settings">Settings</a></li>
-							<li><a href="https://vvvv.org/user/me/subscriptions/node">Subscriptions</a></li>
-							<li><a href="https://vvvv.org/home/likes">Likes</a></li>
-							<li><a href="https://vvvv.org/home/contributions">Contributions</a></li>
-							<li><a href="http://store.vvvv.org/account">My licenses</a></li>
-						</ul>
 					</li>
 					
 					<li {{^contribution}}class="active"{{/contribution}}>
@@ -46,7 +36,7 @@
 					</li>
 					
 					<li {{#contribution}}class="active"{{/contribution}}>
-						<a href="/_site/contributions/">Contributions</a>
+						<a href="/_site/contributions/staffpicks/">Contributions</a>
 						<ul>
 							<li><a href="https://vvvv.org/contributions">All</a></li>
 							<li><a href="https://vvvv.org/store">Store</a></li>
