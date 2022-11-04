@@ -4,25 +4,25 @@
   topicHref: store/index.md
 - name: Packs
   href: packs/toc.yml
-  topicHref: pack/index.md
+  topicHref: packs/index.md
 - name: Plugins
   href: plugins/toc.yml
-  topicHref: plugin/index.md
+  topicHref: plugins/index.md
 - name: Modules
   href: modules/toc.yml
-  topicHref: module/index.md
+  topicHref: modules/index.md
 - name: Effects
   href: effects/toc.yml
-  topicHref: effect/index.md
+  topicHref: effects/index.md
 - name: Tools
   href: tools/toc.yml
-  topicHref: tool/index.md
+  topicHref: tools/index.md
 - name: Demos
   href: demos/toc.yml
-  topicHref: demo/index.md
+  topicHref: demos/index.md
 - name: Tutorials
   href: tutorials/toc.yml
-  topicHref: tutorial/index.md
+  topicHref: tutorials/index.md
 - name: Misc
   href: misc/toc.yml
   topicHref: misc/index.md
