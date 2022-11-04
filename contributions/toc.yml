@@ -1,3 +1,7 @@
+- name: Staff Picks
+  topicHref: staffpicks/index.md
+- name: Store
+  topicHref: store/index.md
 - name: Pack
   href: pack/toc.yml
   topicHref: pack/index.md
