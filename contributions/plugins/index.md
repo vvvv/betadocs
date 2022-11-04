@@ -1,7 +1,7 @@
 ---
-uid: Misc-overview
+uid: Plugin-overview
 contribution: true
 overview: true
 ---
 
-# Misc
+# Plugin

@@ -1,7 +1,7 @@
 ---
-uid: Misc-overview
+uid: Tool-overview
 contribution: true
 overview: true
 ---
 
-# Misc
+# Tool
