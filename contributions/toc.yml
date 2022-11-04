@@ -1,24 +1,28 @@
+- name: Staff Picks
+  topicHref: staffpicks/index.md
+- name: Store
+  topicHref: store/index.md
 - name: Packs
   href: packs/toc.yml
-  topicHref: packs/index.md
+  topicHref: pack/index.md
 - name: Plugins
   href: plugins/toc.yml
-  topicHref: plugins/index.md
+  topicHref: plugin/index.md
 - name: Modules
   href: modules/toc.yml
-  topicHref: modules/index.md
+  topicHref: module/index.md
 - name: Effects
   href: effects/toc.yml
-  topicHref: effects/index.md
+  topicHref: effect/index.md
 - name: Tools
   href: tools/toc.yml
-  topicHref: tools/index.md
+  topicHref: tool/index.md
 - name: Demos
   href: demos/toc.yml
-  topicHref: demos/index.md
+  topicHref: demo/index.md
 - name: Tutorials
   href: tutorials/toc.yml
-  topicHref: tutorials/index.md
+  topicHref: tutorial/index.md
 - name: Misc
   href: misc/toc.yml
   topicHref: misc/index.md
