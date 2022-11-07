@@ -1,0 +1,16 @@
+### YamlMime:ContributionComment
+---
+uid: "233851"
+user: "id144"
+created: "31 Dec, 2016 - 19:35"
+body: |-
+  I made small modifications to the current Kinect2 DX11 nodes so they work with unplugged device and playback from Kinect Studio. I know some of you guys faced this issue before (@everyoneishappy, @princemio, @timpernagel)
+  
+  Switching between live stream and injected stream got more robust as a side-effect. Now there is no need to reset the Kinect2 node when connecting/disconnecting Kinect Studio.
+  
+  I've made a pull request toward DX11 master from Mr. Vux. Meanwhile download to nodes 
+  http://id144.org/uploads/VVVV.DX11.Nodes.Kinect2.dll 
+  (replace the .dll in your dx11 pack)
+  
+  or compile yourself from my forked repo
+  https://github.com/id144/dx11-vvvv/tree/master/Nodes/VVVV.DX11.Nodes.kinect2

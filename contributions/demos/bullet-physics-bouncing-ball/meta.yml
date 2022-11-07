@@ -1,0 +1,31 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/bullet-physics-bouncing-ball-meta"
+type: "demo"
+author: "robe"
+date: "22 Dec, 2012"
+title: "Bullet Physics - Bouncing Ball"
+originalURL: "contribution/bullet-physics-bouncing-ball"
+category: "demo"
+credits: |-
+  Mr. Vux = The Bullet Plugin.
+  Microdee = Soft Shadow for Point Light.
+  me (robe) = this very simple patch.
+like_count: "4"
+imported: "true"
+teaser: |-
+  <div class="box">
+  I know this is not a real contribution.. but..
+  Because everything I know is wrong I'll post here.
+  Maybe it could be usefull for someone.
+  </div>
+  
+  Since the first release of Bullet Plugin by Mr. Vux, I always wanted to mess around with this strong physics engine. Because is not so easy to use I'm starting really simple with this patch.
+  
+  If you're more skilled in Bullet application feel free to change the patch or make more advanced patch and share again here.
+  
+  There are no help files for the nodes of this beatiful plugin because most nodes are inter-dependent so this could be a good way to learn.
+  
+  To see the shadows you'll need
+  [soft-shadows-for-point-light](xref:contribution/soft-shadows-for-point-light)
+  If you can live without just disable them from the bottom of the patch

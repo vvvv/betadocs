@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "87630"
+user: "circuitb"
+created: "26 Aug, 2012 - 13:06"
+body: |-
+  yep could be cool to  manually flush the memory without restarting vvvv!
+  
+  also the plugin doesn't work with the sharedtexture /dx9ex switch

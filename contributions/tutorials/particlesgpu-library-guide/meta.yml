@@ -1,0 +1,19 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/particlesgpu-library-guide-meta"
+type: "tutorial"
+author: "dottore"
+date: "22 Jan, 2011"
+title: "ParticlesGPU Library Guide"
+originalURL: "contribution/particlesgpu-library-guide"
+category: "tutorial"
+like_count: "42"
+imported: "true"
+teaser: |-
+  Hello Everybody,
+  i spent some days in writing this guide so you will better understand ParticlesGPU and hope will be able to customize it as you want.
+  this is really a pre release of the guide, it's not finished. (my laptop's GPU is dead, so i can't procede anymore..)
+  As soon as possible i'll post a new release of the document.
+  
+  **You can download the ParticlesGPU library here:**
+  [particlesgpu-shader-library](xref:contribution/particlesgpu-shader-library)

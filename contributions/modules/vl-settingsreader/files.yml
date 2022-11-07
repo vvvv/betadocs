@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/vl.settingsreader-files"
+url: "vl-settingsreader"
+category: "module"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "VL.SettingsReader.zip"
+            description: |-
+              v 0.1
+            
+            timestamp: "11 Jun, 2021 - 22:12"
+            download_count: "1"

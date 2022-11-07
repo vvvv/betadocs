@@ -1,0 +1,13 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/soft-shadows-for-point-light-meta"
+type: "effect"
+author: "microdee"
+date: "06 Mar, 2012"
+title: "Soft Shadows for Point Light"
+originalURL: "contribution/soft-shadows-for-point-light"
+category: "effect"
+like_count: "17"
+imported: "true"
+teaser: |-
+  Soft shadows calculated from cubetexture depth so it works for point lights in every direction. It manages alpha channels too however <span class="node">AlphaTest (EX9.RenderState)</span> is required in that case. The softening technique is lame and simple as a rock so if anybody can do a better one please contribute it :P It's rendered separately so you just have to multiply the shadows on whatever scene you'd like to.

@@ -1,0 +1,10 @@
+### YamlMime:ContributionComment
+---
+uid: "164849"
+user: "reaktant"
+created: "12 Sep, 2014 - 20:55"
+body: |-
+  ok, good to know that it should work.
+  there seems to be a problem with my nvidia driver then.
+  the refresh rates dropdown in monitor settings shows an empty list and
+  hr. inspektor offers only 50, 59, 60 frames.

@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "210591"
+user: "lbolster"
+created: "11 Nov, 2015 - 21:42"
+body: |-
+  Nice job! but here all versions of the module throw me the same error: AsString(EX9.Texture) is in red. I tried in x86 beta 34.2 and x64 33.3, 33.7, 34.7, I do not find that node anywhere too.. any suggestions?

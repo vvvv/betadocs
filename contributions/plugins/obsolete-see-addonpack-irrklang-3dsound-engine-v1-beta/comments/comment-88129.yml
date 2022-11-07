@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "88129"
+user: "Lightmare"
+created: "05 Sep, 2012 - 16:25"
+body: |-
+  I'm looking at using this in some other projects but having a few problems getting it running on 28.1, IrrKlang isn't placing sounds correctly in the space. I think the problem's just happening because somehow the 'View Position XYZ' and 'View Direction XYZ' pins are only accepting a single vector as input. They should be using 3d vector inputs, Inspektor shows a single value even when sending a spread of 3.
+  
+  Does anyone with a bit more plugin know-how know how to fix this? I would be very grateful!

@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "98063"
+user: "alg"
+created: "14 Mar, 2013 - 12:18"
+body: |-
+  Hmm, never saw such behavior. This bug can be possible, because i tested this lib on dual-touch frame, so transformed only one object at once. Maybe this is the bug inside intersect geometry module.

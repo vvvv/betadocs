@@ -1,0 +1,17 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/heightmap-displacement-meta"
+type: "effect"
+author: "u7angel"
+date: "16 Jul, 2010"
+title: "Heightmap Displacement"
+originalURL: "contribution/heightmap-displacement"
+category: "effect"
+credits: |-
+  Desaxismundi /
+  "displace.fx" by Sanch
+like_count: "23"
+imported: "true"
+teaser: |-
+  deform a mesh by texture with normals and texturing
+  the new Version has a additional Phong Directional LightSource

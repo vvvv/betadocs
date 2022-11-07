@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "85286"
+user: "mediadog"
+created: "06 Jul, 2012 - 04:41"
+body: |-
+  I just noticed that in the help patch that the dots and the corresponding boxes usually do not have the same color, indicating mismatched IDs.
+  
+  And I also just saw a case where the ID list had a number twice (6, 1, 5, 6) - should that be possible?
+  
+  -edit-
+  
+  OK, so I'm guessing that in Members the IDs are +2 to make room for the affinity values 0 and 1, but the double 6 in the IDs still puzzles me.

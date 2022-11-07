@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "188442"
+user: "StiX"
+created: "12 Mar, 2015 - 09:41"
+body: |-
+  bump here, anybody got this working in direct access? anybody have idea woul would be needed?
+  
+  right now, when i run oculus in direct access, the tracking and accelerometer data works, as soon as i run it in extended mode, it does not work

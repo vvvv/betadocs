@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/dds-cubemap-stride-assets-files"
+url: "dds-cubemap-stride-assets"
+category: "misc"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "IBL.zip"
+            timestamp: "05 Mar, 2021 - 22:25"
+            download_count: "2"

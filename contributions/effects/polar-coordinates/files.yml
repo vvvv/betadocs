@@ -1,0 +1,45 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/polar-coordinates-files"
+url: "polar-coordinates"
+category: "effect"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "4"
+            filename: "PolarCoordinates (DX11).zip"
+            description: |-
+              Added TextureFX version
+            
+            timestamp: "26 Aug, 2017 - 17:08"
+            download_count: "1"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "3"
+                    filename: "PolarCoordinates (DX11).zip"
+                    description: |-
+                      DX11 Version,new help patch
+                    
+                    timestamp: "23 Mar, 2016 - 10:52"
+                    download_count: "4"
+                - file:
+                    bit: "64"
+                    delta: "2"
+                    filename: "polarCoordinates.zip"
+                    timestamp: "20 Dec, 2011 - 17:10"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "1"
+                    filename: "polarCoordinates.zip"
+                    timestamp: "07 Dec, 2011 - 16:34"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "polarCoordinates.zip"
+                    timestamp: "27 Sep, 2010 - 14:24"
+                    download_count: "1"

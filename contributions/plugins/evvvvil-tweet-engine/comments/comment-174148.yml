@@ -1,0 +1,144 @@
+### YamlMime:ContributionComment
+---
+uid: "174148"
+user: "evvvvil"
+created: "13 Nov, 2014 - 15:31"
+body: |-
+  Ah yes I can help, I had same problem: basically I couldn't get the task with lambda notation and parameters to work as well. So the trick is simply to have your parameters as global variables start a task with a function with no parameters, which then uses those global variables inside function instead of parameters...
+  
+  Actually well fuck it I might as well paste the whole code for everyone to see, this is a working c# multi-threaded plugin node with 3 input pins. First is a bang which when you bang it simply runs Dosomething function then another input pin which expects a spread of 2 numbers, you know x,y kinda thing parameters to dosomething, so like in comment above DoSomething(param1, param2... Finally last input pin is to cancel the current action running as it is multi-threaded we should be able to cancel. It also has a output pin showing result of DoSomething and another output pin giving your status message on the action.
+  
+  ![patrick](https://vvvv.org/sites/default/files/imagecache/large/images/dosomething.jpg) 
+  
+  ```
+  //bunch of usings, more that you need but pay attention to System.Threading, etc
+  using System;
+  using System.Net;
+  using System.Configuration;
+  using System.ComponentModel.Composition;
+  using VVVV.PluginInterfaces.V1;
+  using VVVV.PluginInterfaces.V2;
+  using VVVV.Utils.VColor;
+  using VVVV.Utils.VMath;
+  using VVVV.Core.Logging;
+  using System.Collections.Generic;
+  using System.Diagnostics;
+  using System.IO;
+  using System.Timers;
+  using System.Linq;
+  using System.Threading;
+  using System.Threading.Tasks;
+  using System.Runtime;
+  using System.Runtime.InteropServices;
+  
+  
+  namespace VVVV.Nodes
+  {
+  	<PluginInfo(Name%20=%20"DoSomethingNode",%20Help%20=%20"nada",%20Tags%20=%20"tags",%20Author="evvvvil")>
+  
+      public class DoSomethingNode : IPluginEvaluate
+  	{
+          <Input("Do%20Something",%20IsBang%20=%20true,%20IsSingle%20=%20true)>
+          public ISpread<bool> FInputDoSomething;
+  
+          <Input("Do%20Something%20Param%201%20&%202")>
+          public ISpread<int> FInputDoSomethingParam;
+          
+          <Input("Cancel%20Do%20Something",%20IsBang%20=%20true,%20IsSingle%20=%20true)>
+          public ISpread<bool> FInputCancel;
+  
+          <Output("Do%20Something%20Result")>
+          public ISpread<int> FOutputDoSomething;
+  
+          <Output("Do%20Something%20Status")>
+          public ISpread<string> FOutputStatus;
+   
+          //add connection to TTY renderer for debugging, like console
+          <Import()>
+          public ILogger FLogger;
+  
+          public CancellationTokenSource DoSomethingToken;
+          public Task DoSomethingTask;
+          public bool canceledTask;
+  
+          //define your dosomething(int param1... as global variables
+          //we will set them before calling the function, see "evaluate"
+          public int param1;
+          public int param2;
+  
+          public void DoSomething(){
+          canceledTask=false;
+          //totally doing something with param1 & param2 too like in a loop
+          int finalResult = 0;
+          for (int i = 0; i < 1000; i++)
+                  {
+                      finalResult += param1 * param2;
+  
+                      //this may or may not be necessary
+                      if (canceledTask)
+                      {
+                          break;
+                      }
+                  }
+          //pass final result or pass 0 if it's been canceled
+          if(!canceledTask){
+          FOutputDoSomething<0>=finalResult;
+          FOutputStatus<0> = "Nice one, result displayed.";
+          FLogger.Log(LogType.Debug, "Nice one, result displayed.");
+          }
+          else{
+          FOutputDoSomething<0>=0;
+          }
+          }
+          
+         
+          public void Evaluate(int SpreadMax)
+  		{
+              
+              if (FInputDoSomething<0>)
+              {
+                  if [DoSomethingTask != null && DoSomethingTask.Status == TaskStatus.Running](DoSomethingTask%20!=%20null%20&&%20DoSomethingTask.Status%20==%20TaskStatus.Running)
+                      {
+                          FOutputStatus<0> = "Action already running bro";
+                          FLogger.Log(LogType.Debug, "Action already running bro");
+                      }
+                      else
+                      {
+                          if(FInputDoSomethingParam.SliceCount==2){
+                          param1 = FInputDoSomethingParam<0>;
+                          param2 = FInputDoSomethingParam<1>;
+                          DoSomethingToken = new CancellationTokenSource();
+                          DoSomethingTask = new Task(DoSomething, DoSomethingToken.Token);
+                          DoSomethingTask.Start();
+                          }
+                          else{
+                          FOutputStatus<0> = "Bad number of parameters/slices in your spread";
+                          FLogger.Log(LogType.Debug, "Bad number of parameters/slices in your spread");
+                          }
+                      }
+              }
+  
+              
+  
+              if (FInputCancel<0>)
+              {
+                  bool boolo = false;
+                  if (DoSomethingTask != null && DoSomethingTask.Status == TaskStatus.Running)
+                  {
+                      DoSomethingToken.Cancel();
+                      canceledTask = true;
+                      boolo = true;
+                  }
+                  if (!boolo)
+                  {
+                      FOutputStatus<0> = "No action currently running, fuck face.";
+                      FLogger.Log(LogType.Debug, "No action currently running, fuck face.");
+                  }else{
+                      FOutputStatus<0> = "CANCELED! You are SO in control bro";
+                      FLogger.Log(LogType.Debug, "CANCELED! You are SO in control bro");
+                  }
+              }
+           }        
+      }   
+  }
+  ```

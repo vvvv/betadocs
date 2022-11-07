@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "266617"
+user: "Aurel"
+created: "13 Sep, 2018 - 14:35"
+body: |-
+  Thanks Anton,
+  It was due to the Version of 4V and the Cuda dll.
+  Do you know if there is a way to do in DX11 what is done in Step02_ReProjectionSetup by ProjectToScreen shader which calculate the projection on the Mesh surface...?
+  
+  A

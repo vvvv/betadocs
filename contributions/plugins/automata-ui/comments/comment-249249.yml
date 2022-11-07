@@ -1,0 +1,10 @@
+### YamlMime:ContributionComment
+---
+uid: "249249"
+user: "eps"
+created: "20 Feb, 2018 - 11:49"
+body: |-
+  @u7angel thanxx for the explanation (and patience ::)
+  
+  i haven't used triggertransition indeed (tried to set everything with input pins only and possibly without 'or')
+  will look at it this way

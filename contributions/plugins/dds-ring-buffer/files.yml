@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/dds-ring-buffer-files"
+url: "dds-ring-buffer"
+category: "plugin"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "EX9.TextureDDSBuffer.dll_.zip"
+            description: |-
+              DDS Ring Buffer v0.1
+            
+            timestamp: "22 Aug, 2012 - 11:46"
+            download_count: "1"

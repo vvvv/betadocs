@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "57417"
+user: "sapo"
+created: "21 Dec, 2010 - 07:10"
+body: |-
+  intresting stuff guys, nice to see it's not just me having happy times with rotations :)
+  great work sagishi, could you post a simple exampleonhow to extract the anlges maybe only for an arm? else i'll wait the updates from hierro and screeaamer.
+  now i stomped in another problem, if i store a #bundle blablabla in a iobox(string), i unlink it to keep the pose data within the patch and save it, the patch wont open anymore!!! From what i'v read on the forums i guess it's some problem about the strange characters saved in the patch xml. Yea, i could sample the data after the oscdecoders but it was more qick and convenient to do it at the source. can any of you reproduce this unwanted behiavour? should i post it in the forums as bug? cheerss :D

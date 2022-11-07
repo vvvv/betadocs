@@ -1,0 +1,17 @@
+### YamlMime:ContributionComment
+---
+uid: "164661"
+user: "elliotwoods"
+created: "10 Sep, 2014 - 15:30"
+body: |-
+  Apologies about the nvcuda.dll issues!
+  I had noticed this last month also, I wish I'd made a note somewhere at the time.
+  
+  Some notes at:
+  http://stackoverflow.com/questions/12594993/emgucv-nvcuda-dll-could-not-be-found
+  
+  (including my download link for the file incase another one is down).
+  
+  Might drop all CUDA support from image pack and go with non GPU flavour until Emgu goes 2.4.9, or we go for another OpenCV wrapper (without EmguCV).
+  
+  Elliot

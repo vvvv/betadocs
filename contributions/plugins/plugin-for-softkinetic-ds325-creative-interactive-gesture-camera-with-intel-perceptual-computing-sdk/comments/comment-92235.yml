@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "92235"
+user: "metrowave"
+created: "01 Dec, 2012 - 23:38"
+body: |-
+  I used it on vvvv_45beta28.1 and Win 7 64. Of course had to install the Intel SDK first. I had red node at first then I decided to re-install v4 and put above patch next to VVVV.exe that made it working without red node.

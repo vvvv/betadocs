@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/vl-opencv-pedestrian-tracker-demo-files"
+url: "vl-opencv-pedestrian-tracker-demo"
+category: "demo"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "PedestrianTracker_example_v1.zip"
+            description: |-
+              The example VL document along with a v4 patch to run it
+            
+            timestamp: "12 Dec, 2018 - 21:28"
+            download_count: "2"

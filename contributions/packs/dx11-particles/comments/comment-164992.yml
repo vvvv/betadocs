@@ -1,0 +1,10 @@
+### YamlMime:ContributionComment
+---
+uid: "164992"
+user: "tmp"
+created: "13 Sep, 2014 - 17:55"
+body: |-
+  reaktant this is an interesting point and indeed a good idea. there are for example alot of good helper modules (f.e. operandomatic,grid,...) that would be nice to have in a pack. 
+  
+  noir thanks for this hint. i created the projector(dx11) node some weeks ago and it is part of the dx11-girlpower package. (see https://github.com/mrvux/dx11-vvvv-girlpower) 
+  unfortunately the latest vvvv-dx11 zip file is not up to date so all you have to do is replace the existing girlpower folder with the one you can download on github.

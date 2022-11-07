@@ -1,0 +1,21 @@
+### YamlMime:ContributionComment
+---
+uid: "205784"
+user: "velcrome"
+created: "16 Sep, 2015 - 16:31"
+body: |-
+  Reserving first post for dev notice:
+  
+  Downloaders and potential users, don't let yourself be fooled by the following thread. This contrib will continue to strive to be safe to use. Discussion will occur about details, which is in your favour because code quality will increase eventually.
+  
+  To the devvvvs and listening devs:
+  
+  While coding this, I found some things that are unclear to me.
+  
+  * How can I get the current units/pixel number? I guess this depends on windows' dpi settings. Can this be added to the ScreenInfo plugin? (Could be useful for hi-jacked drm tv screens as well)
+  
+  * How can I get the actual node reference for a certain open patch? In this contrib resizing and moving a patch is done on the patch definition itself, but at times it might be wiser to do it on the instanced node instead.
+  
+  * How can I get the fully qualified path of a selected node (i.e. 12/3/9/214)?
+  
+  * When is the change of SetPatch (or from the plugin interface, for that matter) incorporated? Will it do so instantly, or will it buffer it till the next buildgraph event?

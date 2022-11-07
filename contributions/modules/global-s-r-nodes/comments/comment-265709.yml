@@ -1,0 +1,17 @@
+### YamlMime:ContributionComment
+---
+uid: "265709"
+user: "colorsound"
+created: "11 Sep, 2018 - 09:23"
+body: |-
+  @ravazquez  
+  
+  Great you are happy to update it. 
+  
+  -I think the more flexible the better so an autoupdate and manual seems good. 
+  
+  Other option is to have 2 versions the basic and the advance which have all specifi features, in case you only need to use the basic hundreds times for performance reason better to have basic and advance i,m just guessing. 
+  
+  But Before we get too complex ,lets start with the first scenario where you want to collect data from different patches in the same final spread in which global s r node will be handy, i leave an explanation here :
+  
+  https://discourse.vvvv.org/t/asset-checker-file/16304/3

@@ -1,0 +1,15 @@
+### YamlMime:ContributionComment
+---
+uid: "250734"
+user: "tobyk"
+created: "05 Apr, 2018 - 12:43"
+body: |-
+  Do you think there's a way to get DX11.particles to do a physical fluid simulation? 
+  
+  At the low end something like this 
+  https://www.youtube.com/watch?v=2WYc8zCyG-w
+  
+  At the high end... 
+  https://www.youtube.com/watch?v=RMEUuxU-Dso
+  
+  I know it's not trivial but want to see if I'm theoretically barking up the right tree. Do you think a custom modifier would be capable of this kind of dynamic behaviour?

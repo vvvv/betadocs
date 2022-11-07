@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "248960"
+user: "microdee"
+created: "13 Feb, 2018 - 11:36"
+body: |-
+  Yeah you can't set time from patch in my fork. afaiu SetTransition should do that. Also TriggerTransition doesn't differentiate between transition instances. So it behaves like the transition pins on the node which is a great behavior imo. From the looks of it if I touch the code ever again my fork and u7angel's original one will just go apart more.

@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "89379"
+user: "antokhio"
+created: "08 Oct, 2012 - 23:20"
+body: |-
+  it's possible do modif this so we have custom string instead of $1 $2 since
+  i need to rewrite file but string might be different like 4- launchpad replace with launchpad... something like that

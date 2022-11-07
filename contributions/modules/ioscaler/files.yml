@@ -1,0 +1,27 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/ioscaler-files"
+url: "ioscaler"
+category: "module"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "1"
+            filename: "IOScaler_v.1.1.zip"
+            description: |-
+              v.1.1
+            
+            timestamp: "07 Feb, 2013 - 15:33"
+            download_count: "9"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "IOScaler_v.1.0.zip"
+                    description: |-
+                      v.1.0
+                    
+                    timestamp: "07 Feb, 2013 - 07:47"
+                    download_count: "1"

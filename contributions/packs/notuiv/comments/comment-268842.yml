@@ -1,0 +1,10 @@
+### YamlMime:ContributionComment
+---
+uid: "268842"
+user: "stophl"
+created: "18 Oct, 2018 - 23:22"
+body: |-
+  Hm, deleted all (==two) *.dll.config files in md.core, but that didn't help. Actually I didn't find any in packs/Notuiv, there's only the nodes folder (and girlpower) and inside that there's the plugins folder, but no *.dll.config files in there..?
+  
+  I've tried to install Notuiv (via vpm) on two other systems now: one is win7, the other is a fresh installation of win10 with all win updates. I get the same error on all three systems. So either there's something broke these days because of win-updates / .NET 4.7.1+ or I've missed something pretty basic, which seems to be the more plausible explanation, I must admit. But what?
+  Btw, I used 7zip.

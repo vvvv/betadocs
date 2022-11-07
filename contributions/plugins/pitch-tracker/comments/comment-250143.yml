@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "250143"
+user: "ofersmi"
+created: "15 Mar, 2018 - 09:55"
+body: |-
+  Hello @dm121506
+  I see that the vaudio node is included but I cant find how to make this work in parallel to vaudio. once I have an audioengine node the pitch tracker turn red. Help please? 
+  
+  Thanks 
+  Ofer

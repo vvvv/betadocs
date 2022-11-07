@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "159887"
+user: "mediadog"
+created: "18 Jul, 2014 - 00:06"
+body: |-
+  Bad news, the older SDKs (before June) do not recognize the new Kinects - they are listed in the device manager as "XBox NUI sensor".  These are the SDKs that do not throw any errors with these nodes.
+  
+  So if you have a new (pre-order) sensor, no joy.  Looks like the SDKs that work with these nodes will only work with the developer preview Kinect2s.
+  
+  BUT WAIT!  Here's the really weird part: The XBox One Kinect I hacked with the USB3/12V cables, works just fine under any of the SDKs, including the new one!  So it WILL work with these nodes, and the April SDK.  But the ones you can buy right now won't.  Go figure!

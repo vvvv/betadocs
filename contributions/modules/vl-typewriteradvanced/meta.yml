@@ -1,0 +1,24 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/vl.typewriteradvanced-meta"
+type: "module"
+author: "tobyk"
+date: "30 May, 2018"
+title: "VL.TypewriterAdvanced"
+originalURL: "contribution/vl.typewriteradvanced"
+category: "module"
+credits: |-
+  original node by Woei. Thanks to Tonfilm for some help understanding the casts.
+like_count: "3"
+imported: "true"
+teaser: |-
+  Advanced version of VL Typewriter  
+  
+  features 
+  -Auto-Repeating backspace when key is held 
+  -Optional blacklist/whitelist character filter. Eg to make a typewriter that only types numbers/letters
+  -ALT-Ascii code input for typing special characters similar to other windows programs (eg ALT 0246 =  ö)
+  see http://www.nthuleen.com/teach/misc/typingumlauts.html
+  
+  Future
+  -Making it available as a nuget when I work out how to do that

@@ -1,0 +1,17 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/points2vector-(3d-vector)-meta"
+type: "module"
+author: "sunep"
+date: "01 Dec, 2011"
+title: "Points2Vector (3d vector)"
+originalURL: "contribution/points2vector-(3d-vector)"
+category: "module"
+credits: |-
+  Sunep
+like_count: "8"
+imported: "true"
+teaser: |-
+  A module to create a 3D version of Points2vector.
+  
+  includes a help patch

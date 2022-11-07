@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/vvvv-myo-files"
+url: "vvvv-myo"
+category: "plugin"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "vvvv-Myo_0.1_anycpu.zip"
+            description: |-
+              version 0.1 AnyCPU
+            
+            timestamp: "23 Oct, 2016 - 13:12"
+            download_count: "1"

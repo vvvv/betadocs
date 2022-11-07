@@ -1,0 +1,19 @@
+### YamlMime:ContributionComment
+---
+uid: "156762"
+user: "keftaparty"
+created: "11 Jun, 2014 - 16:40"
+body: |-
+  @[catweasel](http://vvvv.org/users/catweasel):
+  I've tried on my optimus laptop, and it works here.
+  
+  Are you using beta32 ?
+  
+  If yes, from beta32 dx9ex is the default, and I never managed to use Elliot's Blackmagic contrib in dx9ex mode ( see posts before ).
+  
+  To have it working with beta32 I had to start with dx9 flag at startup.
+  Also in the YUV2RGB I had to change format in the DX9texture to A8R8G8B8 .
+  
+  I hope this helps.
+  
+  Mehdi

@@ -1,0 +1,42 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/ciantparticles-16000000p-gpu-particle-system- -rotations-files"
+url: "ciantparticles-16000000p-gpu-particle-system-kinect"
+category: "plugin"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "3"
+            filename: "CiantParticles4.zip"
+            description: |-
+              big bug fix and more examples
+            
+            timestamp: "30 Dec, 2011 - 17:26"
+            download_count: "3"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "2"
+                    filename: "CiantParticles3.zip"
+                    description: |-
+                      Kinect added, some bugs added
+                    
+                    timestamp: "28 Dec, 2011 - 02:27"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "1"
+                    filename: "CiantParticles2.zip"
+                    description: |-
+                      Particles rotation, Torque and some bug fixes
+                    
+                    timestamp: "22 Dec, 2011 - 10:14"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "CiantParticles.zip"
+                    timestamp: "22 Dec, 2011 - 10:12"
+                    download_count: "1"

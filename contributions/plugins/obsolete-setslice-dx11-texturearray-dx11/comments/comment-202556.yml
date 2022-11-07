@@ -1,0 +1,10 @@
+### YamlMime:ContributionComment
+---
+uid: "202556"
+user: "joreg"
+created: "11 Aug, 2015 - 11:55"
+body: |-
+  as mentioned here: [vvvv45beta34](/blog/vvvv45beta34)
+  plugins may need a rebuild for b34. so everything that is not in the addonpack may be affected.
+  
+  also as sebl pointed out this node is now already part of the dx11-pack and therefore any bugreport concerning it should go here: https://github.com/mrvux/dx11-vvvv/issues

@@ -1,0 +1,19 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/vvvv-launcher-meta"
+type: "tool"
+author: "antokhio"
+date: "27 Aug, 2013"
+title: "VVVV Launcher"
+originalURL: "contribution/vvvv-launcher"
+category: "tool"
+credits: |-
+  antokhio, vux
+like_count: "6"
+imported: "true"
+teaser: |-
+  As it follows from:
+  [desktop-pin-to-run-last-version-of-vvvv-you-have-installed](https://discourse.vvvv.org/t/desktop-pin-to-run-last-version-of-vvvv-you-have-installed)
+  Executable to run last cracked vvvv.
+  
+  place it anywhere, always opens last cracked vvvv.exe

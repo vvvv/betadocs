@@ -1,0 +1,15 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/hdr-tone-mapping-technique-meta"
+type: "effect"
+author: "dottore"
+date: "08 Nov, 2010"
+title: "HDR Tone Mapping Technique"
+originalURL: "contribution/hdr-tone-mapping-technique"
+category: "effect"
+like_count: "13"
+imported: "true"
+teaser: |-
+  In 3D Computer Graphics, **high dynamic range rendering** (HDRR or HDR Rendering), also known as high dynamic range lighting, is the rendering of computer graphics scenes by using lighting calculations done in a larger dynamic range. This allows preservation of details that may be lost due to limiting contrast ratios. Video games and computer generated movies and special effects benefit from this as it creates more realistic scenes than with the more simplistic lighting models used.
+  
+  **Tone mapping** is a technique used to map colors from high dynamic range (in which lighting calculations are performed) to a lower dynamic range that matches the capabilities of the desired display device. Typically, the mapping is non-linear - it preserves enough range for dark colors and gradually limits the dynamic range for bright colors.

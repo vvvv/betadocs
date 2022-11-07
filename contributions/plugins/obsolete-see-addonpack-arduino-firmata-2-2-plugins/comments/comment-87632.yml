@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "87632"
+user: "tekcor"
+created: "26 Aug, 2012 - 15:58"
+body: |-
+  thanks works perfekt!
+  i'm trying to use multiplexers for more input pins. any experience here? i propably have to change firmata and the plugin a bit..

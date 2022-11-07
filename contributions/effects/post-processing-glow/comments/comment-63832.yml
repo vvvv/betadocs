@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "63832"
+user: "unc"
+created: "18 May, 2011 - 09:48"
+body: |-
+  added kind of a "minimal vertexshader", but I dont have any ati card to test it
+  hope it'll work

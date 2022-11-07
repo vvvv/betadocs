@@ -1,0 +1,21 @@
+### YamlMime:ContributionComment
+---
+uid: "218774"
+user: "synth"
+created: "31 Mar, 2016 - 22:12"
+body: |-
+  Heya, 
+  48 hours and numerous of compiles of a lot of things i came to the conclusion that i just suck at this. 
+  Did a lot of tests and it turned out DX11 Pack that is currently in the contributions is OK. 
+  Tried fixing red nodes wherever i can and i arrived to this:
+  Had to change Message pack to v2.0 instead of the latest V2.1 .
+  Most of the problems and red nodes are coming from VObjects. Tested the one in contributions but it seems to be 32bit only. Tested the one from the Git point pointed at by Microdee, the latest and the old one in contrib. Still red nodes all over.
+  Sometimes the .ddl files it is searching for are there but it simply wont load them. 
+  
+  As far as i can tel Image-pack for reading HDRs and so on is a no go on 64bit vvvv, and Emehse does not run on 32bit vvvv...
+  
+  I am confused ... Am i doing it wrong?
+  
+  I know i sound a bit whiney but compiling is not that easy for a noobie that is just toying around with stuff.
+  
+  Best regards!

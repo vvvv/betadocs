@@ -1,0 +1,29 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/z1.0-filters-meta"
+type: "effect"
+author: "Martin Zrcek"
+date: "20 Sep, 2012"
+title: "Z1.0 filters"
+originalURL: "contribution/z1.0-filters"
+category: "effect"
+like_count: "8"
+imported: "true"
+teaser: |-
+  There are some texture filters I used in my previous work:
+  
+  **filterBlurredContours:**
+  Draws an image from continuous lines.
+  
+  **filterContour:**
+  Finds a contour, or edges on a picture.
+  
+  **filterEdge:**
+  Just a high-pass filter.
+  
+  **filterOneSideLine:**
+  Draws a border line around white places on a picture.
+  
+  **filterSlowDown:**
+  surprisingly **very useful** effect
+  It's handy to slow down visual effect. It can make a motion blur, or it can slowly show your effect instead of to let it appear suddenly.

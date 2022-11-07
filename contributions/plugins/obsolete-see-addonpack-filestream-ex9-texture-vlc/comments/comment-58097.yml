@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "58097"
+user: "screamer"
+created: "06 Jan, 2011 - 18:25"
+body: |-
+  observing and debugging better the situation i found a strange thing. the i have a video of 2 seconds, and when i reach the end of video, the position is 2.1990 instead of 2 (same as duration). In frames, the framecount pin says 50, and the frame pin says 55.. could this thing related to the seek problem?

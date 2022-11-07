@@ -1,0 +1,17 @@
+### YamlMime:ContributionComment
+---
+uid: "111917"
+user: "u7angel"
+created: "27 Dec, 2013 - 13:35"
+body: |-
+  nice one ! very useful for GUI control on machines with no directx.
+  
+  feedback:
+  
+  - naming it group instead of cons would be more vvvv compliant
+  - add option to add scrollbars to renderer and textbox
+  - add default text/reset pin to textbox
+  
+  - and maybe make it a dynamic plugin hence other ppl can contribute to the code
+  
+  cheers

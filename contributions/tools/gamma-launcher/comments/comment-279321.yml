@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "279321"
+user: "sebescudie"
+created: "28 Sep, 2021 - 14:13"
+body: |-
+  @seltz : 2021.4 should bring us a GUI to tweak Gamma settings, so I'd rather wait for that :)
+  
+  @schlonzo : I get your point, but I want to keep gammalauncher's GUI as minimal as possible, and rolling a GUI for that seems like a lot of work for something you'd actually not change often (I think I never edited mine). But wait! You can quickly open GammaLauncher's parent folder pressing  
+  ```
+  CTRL + ,
+  ``` 
+  to quickly access the settings file, in case you put it in some deeply nested folder :) That's all i have to offer for now!

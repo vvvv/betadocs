@@ -1,0 +1,30 @@
+### YamlMime:ContributionComment
+---
+uid: "75635"
+user: "arash"
+created: "02 Feb, 2012 - 13:31"
+body: |-
+  Hey People :)
+  I installed openNi plugin and it was working fine...
+  I removed it to change the tilt using kinect 1.0 ! and installed OpenNi plugin again... But this time only depth texture is working,,, gesture node turns red as I connect the config node to it... user and skeleton nodes dont work....
+  I uninstalled open Ni and Prime Sense and everything and installed again, Clean up my registry , even removed VVVV and extracted  it again... Nothing :(
+  
+  would you please help?!!
+  I'm using W7 64 bit and I installed the drivers inside demonstrator Kinect_OpenNI_Libary_1.1!
+  
+  
+  Here's my log
+  
+  00:00:21     : Saved node info cache to Temp: C:\Users\Arash\AppData\Local\Temp\vvvv\node_info_2846650222.cache
+  00:00:32 ERR : Exception in OpenNI.Net: File not found!
+  Stacktrace:
+     at OpenNI.WrapperUtils.CheckEnumeration(Int32 status, EnumerationErrors errors)
+     at OpenNI.Context.InitFromXml(String xmlFile)
+     at OpenNI.Context..ctor(String xmlFile)
+     at VVVV.Nodes.Configuration.LoadContext(String FilePath)
+  00:01:08 ERR : Exception in OpenNI.Net: Can't create any node of the requested type!
+  Stacktrace:
+     at OpenNI.GestureGenerator.Create(Context context, Query query, EnumerationErrors errors)
+     at OpenNI.GestureGenerator..ctor(Context context)
+     at VVVV.Nodes.GestureOpenNI.Evaluate(Int32 SpreadMax)
+  00:01:08 ERR : Gesture caused error in Evaluate: Object reference not set to an instance of an object.

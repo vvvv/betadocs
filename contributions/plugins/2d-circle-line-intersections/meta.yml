@@ -1,0 +1,26 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/2d-circle-line-intersections-meta"
+type: "plugin"
+author: "lasal"
+date: "11 Jun, 2011"
+title: "2D circle & line Intersections"
+originalURL: "contribution/2d-circle-line-intersections"
+category: "plugin"
+credits: |-
+  Tonfilm, Lasal, Hadasi, Elias
+like_count: "7"
+imported: "true"
+teaser: |-
+  Some dynamic plugins to calculate intersections between finite lines and circles.
+  
+  there are 3 cases:
+  2 circles.
+  circle - finite line.
+  2 finite lines.
+  
+  It is also possible to transform the code for infinite line solutions.
+  
+  Update:
+  Added Spreadable versions of 2 lines, and 2 circles intersection (still buggy).
+  The Line Circle version is not yet spreadable.

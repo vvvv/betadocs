@@ -1,0 +1,29 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/bvh-(skeleton-bvh)-meta"
+type: "plugin"
+author: "mino"
+date: "27 May, 2012"
+title: "BVH (Skeleton BVH)"
+originalURL: "contribution/bvh-(skeleton-bvh)"
+category: "plugin"
+credits: |-
+  mino
+like_count: "9"
+imported: "true"
+teaser: |-
+  The Biovision Hierarchy (BVH) is one of the motion capture data file format.
+  BVH node outputs Skeleton data from .bvh file.
+  
+  about Biovision Hierarchy: [http://en.wikipedia.org/wiki/Biovision_Hierarchy](http://en.wikipedia.org/wiki/Biovision_Hierarchy)
+  
+  you can download .bvh on the web. for example [Free Motion capture  Data](http://motioncapturedata.com/category/bvh)
+  
+  this plugin inspired from: [http://www.perfume-global.com/](http://www.perfume-global.com/)
+  
+  ---
+  
+  ## Source
+  
+  source code available on github.
+  https://github.com/mino218/vvvvPlugins

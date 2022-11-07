@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "76308"
+user: "julian"
+created: "15 Feb, 2012 - 14:59"
+body: |-
+  got it working in alpha27 too and the nodes are now working with openni-win32-1.5.2.23-redist. 
+  but the 'autocalibration, no more pose needed' in skeleton-node won't work for me. i still need the start-pose to get a skeleton identified ...?

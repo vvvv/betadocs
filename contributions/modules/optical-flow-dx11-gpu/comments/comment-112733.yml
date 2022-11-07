@@ -1,0 +1,16 @@
+### YamlMime:ContributionComment
+---
+uid: "112733"
+user: "catweasel"
+created: "16 Jan, 2014 - 14:11"
+body: |-
+  Looks cool :)
+  You can loose the Mio bit on the module name if you like and then it keeps with the naming conventions, but you can add tags in the shader
+  //@author: vux
+  //@help: template for texture fx
+  //@tags: texture
+  //@credits: 
+  
+  for example, and in the patch with ctl+m
+  
+  Nice first contribution!

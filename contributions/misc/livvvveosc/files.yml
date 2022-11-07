@@ -1,0 +1,27 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/livvvveosc-files"
+url: "livvvveosc"
+category: "misc"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "1"
+            filename: "LivvvveOSC.zip"
+            description: |-
+              Version 1.1
+            
+            timestamp: "14 Dec, 2011 - 11:35"
+            download_count: "1"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "LivvvveOSC.zip"
+                    description: |-
+                      Version 1.0
+                    
+                    timestamp: "24 Jun, 2011 - 14:00"
+                    download_count: "6"

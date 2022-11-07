@@ -1,0 +1,14 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/ocean-shader-meta"
+type: "effect"
+author: "dottore"
+date: "22 Jun, 2010"
+title: "Ocean Shader"
+originalURL: "contribution/ocean-shader"
+category: "effect"
+like_count: "19"
+imported: "true"
+teaser: |-
+  Simple ocean shader with animated bump map and geometric waves.
+  Based partly on "Effective Water Simulation From Physical Models", GPU Gems

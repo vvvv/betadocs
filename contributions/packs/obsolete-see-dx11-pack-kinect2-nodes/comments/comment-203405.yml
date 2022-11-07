@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "203405"
+user: "joreg"
+created: "20 Aug, 2015 - 19:19"
+body: |-
+  @StiX regarding joint orientations please see: [skinned-skeleton-and-kinect](https://discourse.vvvv.org/t/skinned-skeleton-and-kinect)
+  
+  @panta_rhei, @LineKernel, @couchmonkey, @esnho regarding installation of this pack: i just fixed the pack structure and you can now simply: put the \kinect2 directory that is in the .zip in your \packs directory. that should do.

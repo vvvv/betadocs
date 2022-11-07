@@ -1,0 +1,10 @@
+### YamlMime:ContributionComment
+---
+uid: "152528"
+user: "sansui"
+created: "27 Mar, 2014 - 21:25"
+body: |-
+  [tmp](http://vvvv.org/users/tmp), can I ask a question?
+  why different 'day of week' order with Gregorian(Astronomy Split)?
+  today is friday, Greogorian has 6 in DayOfWeek output.
+  Time(time split) has 5 in DayOfWeek output.

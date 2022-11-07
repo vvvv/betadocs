@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/acid-glitch-shaders-files"
+url: "acid-glitch-shaders"
+category: "effect"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "glitchpack.zip"
+            description: |-
+              glitchpack+transitions
+            
+            timestamp: "20 Jan, 2015 - 10:10"
+            download_count: "1"

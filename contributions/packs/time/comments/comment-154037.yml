@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "154037"
+user: "tmp"
+created: "23 Apr, 2014 - 15:43"
+body: |-
+  hey joreg!
+  
+  i also stumbled about nodatime and decided not to use it, because i didn't want the time pack to be dependent of a foreign framework (that is not "finished" yet). but it indeed looks very interesting and offers many additional features that could be useful in vvvv.
+  
+  regarding to the roadmap ( http://nodatime.org/developer/roadmap.html ) and current limitations ( http://nodatime.org/1.2.x/userguide/limitations.html ) it seems to be a good idea to revisit nodatime when version 2.0 gets released and rewrite the timepack with the help of it.

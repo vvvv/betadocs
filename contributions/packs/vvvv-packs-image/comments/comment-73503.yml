@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "73503"
+user: "hierro"
+created: "17 Dec, 2011 - 13:01"
+body: |-
+  Hi Elliot, what i  tried is this  :
+  
+  Connect the Kinect texture to the ImageResize and change width/height values fastly, I was prototyping a crop node to catch hands ROI: randomly the resulting texture is black, just for a frame.
+  I also tried different methods for resize function and passed only width/height values divisible by 4, to make sampling easier, but result was the same.
+  Did try also to change texture allocation logic, but did not have success :)
+  
+  Let me know if you some  hints, hope to catch you on skype fora quick talk about it.

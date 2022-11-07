@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/wiki-helper-files"
+url: "wiki-helper"
+category: "module"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "WikiHelper.zip"
+            description: |-
+              WikiHelper_0.1
+            
+            timestamp: "29 Dec, 2013 - 18:36"
+            download_count: "3"

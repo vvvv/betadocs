@@ -1,0 +1,22 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/razer-hydra-meta"
+type: "plugin"
+author: "herbst"
+date: "30 May, 2013"
+title: "Razer Hydra"
+originalURL: "contribution/razer-hydra"
+category: "plugin"
+credits: |-
+  port from Unity3D to vvvv by herbst, Unity3D implementation by Razer/Sixense
+like_count: "6"
+imported: "true"
+teaser: |-
+  Yet another device which has a nice Unity3D API ported to vvvv.
+  May work with up to two devices and thus four controllers, but I weren't able to test that.
+  
+  "The Razer Hydra consists of two controllers and a base station. It uses a weak magnetic field to detect the absolute position and orientation of the controllers with a precision, as stated by its developers, of 1 mm and 1°; it has six degrees of freedom."
+  
+  ![Razer Hydra](https://vvvv.org/sites/default/files/imagecache/large/images/http://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Razer-Hydra-Motion-Controller.jpg/200px-Razer-Hydra-Motion-Controller.jpg) 
+  
+  <http://www.razerzone.com/de-de/gaming-controllers/razer-hydra>

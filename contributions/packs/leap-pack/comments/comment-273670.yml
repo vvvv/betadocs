@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "273670"
+user: "joreg"
+created: "30 Aug, 2019 - 13:10"
+body: |-
+  @microdee @Aurel: beta38.1 indeed only supports leap v2 but latest alphas 38.2 include new nodes: Leap (Devices Orion) that make use of the 4.0 (orion) sdk!

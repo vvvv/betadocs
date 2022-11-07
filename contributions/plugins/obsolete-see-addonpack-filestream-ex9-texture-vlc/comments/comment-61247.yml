@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "61247"
+user: "ft"
+created: "21 Mar, 2011 - 10:00"
+body: |-
+  No need to copy anything to vvvv folder.
+  
+  Just copy the vlc plugins folder (not 'all the files in the vlc plugins folder' but the folder itself) + the 2other dll's to (as stated) **the same directory as the nVlc dll's**
+  
+  which is
+  
+  Vlc0.3test\plugins\Vlc\bin\Dynamic or something.

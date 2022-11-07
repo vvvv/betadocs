@@ -1,0 +1,27 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/obsolete-see-addonpack-openniskeleton-plugin-with-depth-output-files"
+url: "obsolete-see-addonpack-openniskeleton-plugin-with-depth-output"
+category: "plugin"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "1"
+            filename: "OpenNISkeletonDepth 2.zip"
+            description: |-
+              Dynamic plugin for Kinect skeleton and depth data v2 with helpers
+            
+            timestamp: "22 Oct, 2011 - 03:01"
+            download_count: "1"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "OpenNISkeletonDepth.zip"
+                    description: |-
+                      Dynamic plugin for Kinect skeleton and depth data v1
+                    
+                    timestamp: "29 Sep, 2011 - 03:45"
+                    download_count: "6"

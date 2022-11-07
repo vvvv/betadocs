@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "233582"
+user: "tonfilm"
+created: "21 Dec, 2016 - 17:10"
+body: |-
+  @readme thanks for pointing that out. so the decision making goes as follows:
+  
+  * always use the vvvv built-in ArcLength at first.
+  * if that affects performance because you use very high spread counts use PathVectors
+  * if you need to bin size helper points and inputs then go fix the bug

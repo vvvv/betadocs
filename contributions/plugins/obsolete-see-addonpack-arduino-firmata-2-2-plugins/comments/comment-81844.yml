@@ -1,0 +1,20 @@
+### YamlMime:ContributionComment
+---
+uid: "81844"
+user: "motzi"
+created: "27 Apr, 2012 - 09:25"
+body: |-
+  okay, i figured out a way how to do it:
+  in the StandardFirmata code find this codeblock
+  
+  ```
+    case INPUT:
+      if (IS_PIN_DIGITAL(pin)) {
+        pinMode(PIN_TO_DIGITAL(pin), INPUT); // disable output driver
+        digitalWrite(PIN_TO_DIGITAL(pin), LOW); // disable internal pull-ups
+        pinConfig<pin> = INPUT;
+      }
+      break;
+  ```
+  
+  and change LOW to HIGH. that does the trick for all the pins. some further research nescessary for individual pin configuration

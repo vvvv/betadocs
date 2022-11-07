@@ -1,0 +1,10 @@
+### YamlMime:ContributionComment
+---
+uid: "274754"
+user: "tmp"
+created: "07 Jan, 2020 - 11:31"
+body: |-
+  @wwrighter
+  
+  I cannot confirm. Please open a thread for this problem and post your patch.
+  One hint that might solve your problem: You have to place the dx11.particles pack under vvvvdir/packs/

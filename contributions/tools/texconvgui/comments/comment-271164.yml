@@ -1,0 +1,15 @@
+### YamlMime:ContributionComment
+---
+uid: "271164"
+user: "rSyndrome"
+created: "26 Feb, 2019 - 14:50"
+body: |-
+  Hi there,
+  
+  Thanks for this useful tool!
+  
+  As far as I know texConv is the most convenient conversion tool atm to take advantage of the last BC formats, because :
+  - as you say nvtt still has no support of BC6H and BC7 formats
+  - Compressonator is unusable on my machine (Win7 with Windows kit 10 installed), as versions 3.0+ require DX12 and Vulkan, and v2.5/2.6 crash at the end of textures' generation...
+  
+  Could you share the code of this tool, or add a few improvements to it? The first one I see would be to automatically choose the right number of mipmaps if this number is set (by default) to 0. Indeed the generator fails to convert files if you set a higher number than it's possible to generate, which is quite annoying when you want to convert textures with various resolutions in the same folder.

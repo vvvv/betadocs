@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "100461"
+user: "gaz"
+created: "03 May, 2013 - 15:11"
+body: |-
+  VLC does not work in x64 bit version unless I am mistaken. The VLC files should be removed from the x64 Addon pack until it is supported.

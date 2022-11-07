@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "208605"
+user: "everyoneishappy"
+created: "12 Oct, 2015 - 10:23"
+body: |-
+  <div class="box">quote:matka:
+  Is there a possibility to get rid of diagonals in PipeFrame (DX11.GeomFX)?
+  </div>
+  
+  Added extra technique to it for next version.  Can't really add diagonal suppression as it's own module, as all of these expect and return triangles atm.

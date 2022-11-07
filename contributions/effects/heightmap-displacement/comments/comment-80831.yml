@@ -1,0 +1,14 @@
+### YamlMime:ContributionComment
+---
+uid: "80831"
+user: "readme"
+created: "08 Apr, 2012 - 16:36"
+body: |-
+  Normals were computed for Displacement along Y-Axis, but all helppatches displaced along Z-Axis. Also I changed the float4 normals' w-component to 0 ...
+  
+  I changed this line:
+  float4 N = float4(normalize(float3(dX, 1.0f/normalStrength, dY)), 1.0f);
+  
+  to
+  
+  float4 N = float4(normalize(float3(dX, dY, 1.0f/normalStrength)), 0);

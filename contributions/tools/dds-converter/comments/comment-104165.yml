@@ -1,0 +1,12 @@
+### YamlMime:ContributionComment
+---
+uid: "104165"
+user: "Foaster"
+created: "24 Jul, 2013 - 14:01"
+body: |-
+  @bjoern & keftaparty:
+  
+  <div class="box">quote:u7angel:
+  underlying nvcompress.exe doesn't like filenames/paths with spaces in it like "c:\Neuer Ordner", no DDS files will be written
+  </div>
+  meowbe this is the problem?

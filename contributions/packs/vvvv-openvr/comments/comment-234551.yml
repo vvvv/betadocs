@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "234551"
+user: "id144"
+created: "18 Jan, 2017 - 18:25"
+body: |-
+  @dominikKoller with Intersect (EX9.Geometry Quad) node it is easy to get the XY coordinates of where the controller is aimed at (and create a pointer that starts at the controller and ends at the intersection point with quad). It's then easy to map interface texture onto the quad and feed the interface with XY and controller interactions. Could be a HTMLTexture (DX11) and I guess that allows you to create interactive interface and read its state.

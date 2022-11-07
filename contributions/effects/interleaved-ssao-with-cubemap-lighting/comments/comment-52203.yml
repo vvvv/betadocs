@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "52203"
+user: "microdee"
+created: "25 Aug, 2010 - 15:49"
+body: |-
+  something isn't right for me with this. ssao_do_ssao.fx (in the module) renders nothing just black (so the output of ssao3 module is again just black) (in the help patch). i've tried it on an ati hd4850 and on an ati hd5470. so what could cause this?

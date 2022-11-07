@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/vvvv2blender(camera)-files"
+url: "vvvv2blender-camera"
+category: "tool"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "vvvv2blender.7z"
+            description: |-
+              vvvv2blender(Camera)
+            
+            timestamp: "19 Jul, 2017 - 22:24"
+            download_count: "1"

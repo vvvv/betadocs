@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "91860"
+user: "io"
+created: "26 Nov, 2012 - 00:04"
+body: |-
+  Not using the /dx9ex argument at startup seems to make it much better, still it is very jittery, I think I should try to create a Group in Catalyst ATI software, dunno if that may help or not..
+  Has anybody tried that?
+  Simone

@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "278293"
+user: "mediadog"
+created: "15 Apr, 2021 - 04:35"
+body: |-
+  Immediate crash with the help patches here too.  Beta 41 x64, Win10 and Win7.  No TTY messages, just a popup.  If I click debug, Visual Studio reports:
+  
+  System.TypeLoadException: 'Could not load type 'NativeMethods' from assembly 'VVVV.DX11.Nodes, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.'
+  
+  So DX11 library incompatibility?  I'm using 1.3.1.

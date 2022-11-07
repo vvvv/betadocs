@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/windowstouch-files"
+url: "windowstouch"
+category: "plugin"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "WindowsTouch.zip"
+            description: |-
+              receive windows touch
+            
+            timestamp: "26 Sep, 2013 - 15:39"
+            download_count: "9"

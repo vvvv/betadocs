@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "277128"
+user: "sebescudie"
+created: "19 Nov, 2020 - 10:18"
+body: |-
+  hey there!
+  
+  sebl also reported this issue that the dropdown does now work well if you have too many gamma versions, but we don't have a proper scrollbar thingy in elementa for now (working on it...). 
+  
+  solution I came up with for now is to have the dropdown menu scrollable when it's closed : simply hover it and use the scrollwheel to cycle through installed versions (kinda like beta enums). that was added in 3.3.0.
+  
+  regarding ordering, i'll definitely reverse that so that newer versions are on top, makes much sense indeed. also, note that when you re-open the launcher, it will be in the same state as when you left it, including the version displayed in the dropdown.

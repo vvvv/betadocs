@@ -1,0 +1,14 @@
+### YamlMime:ContributionComment
+---
+uid: "160222"
+user: "kalle"
+created: "21 Jul, 2014 - 19:20"
+body: |-
+  ahem,
+  fixe idee - writing without thinkin' deep:
+  instead of parsing pins, shouldn't it be possible parsing for filename extensions using wildcards?
+  
+  ~np~*.png~/np~
+  ~np~*.x ~/np~
+  
+  no need to know the nodename, id, bla?

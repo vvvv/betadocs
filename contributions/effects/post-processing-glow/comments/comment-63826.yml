@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "63826"
+user: "unc"
+created: "18 May, 2011 - 05:26"
+body: |-
+  Hmm I just got used to have no vertexshader and no techniques at all, and it worked on ati too:) 
+  vvvv requires atleast one technique, I guess it requires vertexshader being set to something aswell... Maybe "vertexshader=null;" would work.

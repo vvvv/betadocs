@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "235283"
+user: "featherfurl"
+created: "15 Feb, 2017 - 08:47"
+body: |-
+  Is anyone else having a problem where this plugin doesn't load as a Contribution? It's listed as a "plugin" on the site tags, so I've put the folder in with all my other plugin contribs but this one isn't being recognised by VVVV for some reason.
+  
+  Anything I can do to make sure it loads with VVVV?

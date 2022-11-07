@@ -1,0 +1,72 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/vvvv.openvr-files"
+url: "vvvv-openvr"
+category: "pack"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "6"
+            filename: "VVVV.OpenVR_AnyCPU_V8.zip"
+            description: |-
+              updated to OpenVR 1.8.19
+            
+            timestamp: "11 Dec, 2019 - 13:54"
+            download_count: "2"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "5"
+                    filename: "VVVV.OpenVR_AnyCPU_V7.zip"
+                    description: |-
+                      added tracker only support, updated to OpenVR 1.1.3b
+                    
+                    timestamp: "20 Dec, 2018 - 17:24"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "4"
+                    filename: "VVVV.OpenVR_AnyCPU_V6.zip"
+                    description: |-
+                      no major change, only recompiled against OpenVR 1.0.13
+                    
+                    timestamp: "26 Mar, 2018 - 16:11"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "3"
+                    filename: "VVVV.OpenVR_AnyCPU_V5.zip"
+                    description: |-
+                      Fixed a important bug when vvvv was in background. updated to OpenVR 1.0.5
+                    
+                    timestamp: "18 Jan, 2017 - 22:33"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "2"
+                    filename: "VVVV.OpenVR_AnyCPU_V3.zip"
+                    description: |-
+                      WaitGetPoses in MainLoop events, spreadable haptic pulse, color space pin for compositor
+                    
+                    timestamp: "03 Oct, 2016 - 03:19"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "1"
+                    filename: "VVVV.OpenVR_AnyCPU_V2.zip"
+                    description: |-
+                      added disable sync, trigger haptic pulse, near/far plane for camera
+                    
+                    timestamp: "16 Sep, 2016 - 12:45"
+                    download_count: "2"
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "VVVV.OpenVR_AnyCPU_V1.zip"
+                    description: |-
+                      initial version
+                    
+                    timestamp: "01 Aug, 2016 - 00:27"
+                    download_count: "1"

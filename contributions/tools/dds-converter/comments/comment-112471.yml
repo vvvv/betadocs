@@ -1,0 +1,17 @@
+### YamlMime:ContributionComment
+---
+uid: "112471"
+user: "milo"
+created: "10 Jan, 2014 - 11:48"
+body: |-
+  hi u7,
+  
+  first i want to say thank you for sharing that very useful little helper! 
+  
+  i´ve got an out of memory exception everytime i tried to convert a png sequence (rgba) to dxt5 (rgba). after a closer look at the memory consumption it seems that the garbage collection works not as it should. sometimes it just fills the ram up to 1.7gb which then kills the 32bit app.
+  
+  and i´ve got a feature request too: it would be great if the app would store the last selected folder location. if you want to convert more than one folder it is a pain to always select the folder location from computers root.
+  
+  cheers,
+  
+  i.

@@ -1,0 +1,13 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/growing-lines-from-svg-paths-meta"
+type: "module"
+author: "catweasel"
+date: "30 May, 2017"
+title: "Growing Lines from SVG paths"
+originalURL: "contribution/growing-lines-from-svg-paths"
+category: "module"
+like_count: "6"
+imported: "true"
+teaser: |-
+  A module to allow paths to be stroked with start and end points, 2d only

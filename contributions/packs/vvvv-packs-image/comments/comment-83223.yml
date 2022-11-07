@@ -1,0 +1,18 @@
+### YamlMime:ContributionComment
+---
+uid: "83223"
+user: "elliotwoods"
+created: "23 May, 2012 - 17:17"
+body: |-
+  @mediadog - this is an error in the spreads (somehow only arose now, not sure how)
+  
+  The spread of 6 parameters is making 6 camera instances (hence 100%ing your CPU).
+  
+  Am working on a fix tomorrow i hope!
+  
+  @DiMiX : 
+  CLEyeMulticam.dll comes with CLEye SDK (so if you do have that installed, then it'll work). Will include in next release
+  
+  Red nodes in StereoCalibrate help patch are subpatches with the wrong path in the help patch's xml (using absolute rather than relative). you can fix this yourself as the patches are in the distribution, or wait for hotfix.
+  
+  If nodes like Pipet are missing then the OpenCV dll must have a problem :(. unless it's using some strange paths again

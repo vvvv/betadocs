@@ -1,0 +1,24 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/pingpong-window-files"
+url: "pingpong-window"
+category: "demo"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "1"
+            filename: "pingpong.v4p"
+            description: |-
+              better
+            
+            timestamp: "12 Jun, 2014 - 14:01"
+            download_count: "1"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "pingpong.v4p"
+                    timestamp: "11 Jun, 2014 - 21:51"
+                    download_count: "37"

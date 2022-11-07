@@ -1,0 +1,18 @@
+### YamlMime:ContributionComment
+---
+uid: "96974"
+user: "gregsn"
+created: "25 Feb, 2013 - 12:52"
+body: |-
+  hey velcrome,
+  
+  yes, nice! this should really cover most cases!
+  this dynamic datatype system is flexible and there are only few things that you have to get right as a user:
+  * if you have different dynamic datatype ("messages"), remember which can be connected to which (but good naming of ioboxes should do the trick already)
+  * when changing the datatype "configuration" (seldom enough), remember to change it on every split and join
+  
+  so at least there are theoretically some advantages still for doing own datatypes. but having it the easy way is a really nice thing!
+  
+  i hope ppl still got something outof the workshop...
+  
+  oh and jacketwise: you're velcrome!

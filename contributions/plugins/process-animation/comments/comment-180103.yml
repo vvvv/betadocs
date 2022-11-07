@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "180103"
+user: "tonfilm"
+created: "22 Dec, 2014 - 13:43"
+body: |-
+  you can use the mainloop in increment time mode, this will bind all time dependent nodes to frames (if they are programmed correctly).

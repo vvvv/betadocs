@@ -1,0 +1,25 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/arduino-network-firmata-updated-meta"
+type: "plugin"
+author: "adybadi"
+date: "25 Jun, 2015"
+title: "Arduino Network Firmata - UPDATED"
+originalURL: "contribution/arduino-network-firmata-updated"
+category: "plugin"
+credits: |-
+  Credits go out to those who originally made the firmata pluging, and to those who made the CustomFirmata.
+  I need no credits for this, as all i did was to modify some existing things.
+  Basically, i just took the latest firmata plugin that vvvv had to offer, and made it work with "CustomFirmata", so u can use it via network.
+like_count: "4"
+imported: "true"
+teaser: |-
+  It works with WIZ5100-based ethernet-shield, Arduino Ethernet, ENC28J60 or Yun, but right now, the arduino code is set up for the ENC28J60  as i used it.
+  If u need it for a different board, just modify the arduino code for your needs in "CustomFirmata" accordingly.
+  Then set it up with your custom ip, mac or whatever.
+  I have personally tested it with ENC28J60 and it works like the regular firmata.
+  It might also not connect right away, but it will connect, so, patience.
+  Oh, btw the arduino connects to the PC running running the vvvv plugin, so leave the plugin enabled.
+  Keep in mind to have the same port in both devices(pc, arduino), and the corresponding ips inserted. 
+  Hope it work for you as it works for me.
+  PS: this is my first post, so don't really know if everything is forum-law-wise :D.

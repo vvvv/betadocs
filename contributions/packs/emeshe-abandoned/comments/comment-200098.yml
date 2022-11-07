@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "200098"
+user: "microdee"
+created: "23 Jul, 2015 - 13:08"
+body: |-
+  yeah UE4 actually has a much more complicated material system than emeshe. Emeshe is still far away from PBR but it works for me most of the time. I was subscribing to UE4 before they went open-source, and I already checked their shaders but there's about 1000-1500 files in a single folder without any sort of categorisation and the only clue was most of the time the file name. unfortunately I don't have the willpower to check them and study them all. Also UE4 generates shaders dynamically for their forward rendering and i have no idea how they deal with their deferred rendering.

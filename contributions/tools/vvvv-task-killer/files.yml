@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/vvvv-task-killer-files"
+url: "vvvv-task-killer"
+category: "tool"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "killVVVV.zip"
+            description: |-
+              First version
+            
+            timestamp: "08 Jun, 2011 - 13:09"
+            download_count: "2"

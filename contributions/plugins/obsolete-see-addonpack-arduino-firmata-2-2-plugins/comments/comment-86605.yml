@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "86605"
+user: "tom64"
+created: "07 Aug, 2012 - 11:15"
+body: |-
+  What a great plugin! Thank you!
+  The plugin works perfect on my notebook. Now I want to install it now on a PC at my University, but somehow it doesn’t work. There seems to be an established connection to the board, as the RX light is flashing if I change the values for a servo. But the TX light remains off, even if I bang reset.  Strangely, the Firmata_test.exe works fine on the new PC. However, vvvv is freshly installed (crack.exe indicates green). Is there something I have overseen? Thanks for any suggestion.

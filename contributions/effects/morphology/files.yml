@@ -1,0 +1,24 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/morphology-files"
+url: "morphology"
+category: "effect"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "1"
+            filename: "Morphology_tfx-DX11.zip"
+            description: |-
+              DX11 Version
+            
+            timestamp: "22 Feb, 2017 - 13:39"
+            download_count: "10"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "Morphology.zip"
+                    timestamp: "20 Apr, 2011 - 20:21"
+                    download_count: "1"

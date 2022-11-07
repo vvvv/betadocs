@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "62153"
+user: "sanch"
+created: "07 Apr, 2011 - 22:17"
+body: |-
+  one "hack" possible is to use 2 irrklang node using 2 different soundcard and play with position listener , direction , or object position ... should work
+  but not very elegant...

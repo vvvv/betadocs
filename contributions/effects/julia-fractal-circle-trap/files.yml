@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/julia-fractal-circle-trap-files"
+url: "julia-fractal-circle-trap"
+category: "effect"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "CircleTrap.zip"
+            timestamp: "12 Jul, 2010 - 11:26"
+            download_count: "6"

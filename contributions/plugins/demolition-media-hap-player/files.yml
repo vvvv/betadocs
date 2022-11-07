@@ -1,0 +1,60 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/demolition-media-hap-player-files"
+url: "demolition-media-hap-player"
+category: "plugin"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "2"
+            filename: "VVVV.DemolitionMedia.Hap_v4_x64.zip"
+            description: |-
+              Many fixes and improvements, Hap R, removed deprecated modular nodes
+            
+            timestamp: "09 Feb, 2022 - 17:30"
+            download_count: "1"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "1"
+                    filename: "VVVV.DemolitionMedia.Hap_v02_beta6_x64.zip"
+                    description: |-
+                      Multichannel sound, async open, reverse playback, other improvements
+                    
+                    timestamp: "24 Jul, 2020 - 12:18"
+                    download_count: "4"
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "VVVV.DemolitionMedia.Hap_v01_x64.zip"
+                    timestamp: "27 Jun, 2017 - 15:26"
+                    download_count: "1"
+    32bit:
+        latest:
+            bit: "32"
+            delta: "2"
+            filename: "VVVV.DemolitionMedia.Hap_v04.1_x86.zip"
+            description: |-
+              A fix for 32-bit process memory fragmentation problem
+            
+            timestamp: "10 Feb, 2022 - 18:07"
+            download_count: "1"
+        older:
+            files:
+                - file:
+                    bit: "32"
+                    delta: "1"
+                    filename: "VVVV.DemolitionMedia.Hap_v04_x86.zip"
+                    description: |-
+                      Many fixes and improvements, Hap R, removed deprecated modular nodes
+                    
+                    timestamp: "09 Feb, 2022 - 17:31"
+                    download_count: "1"
+                - file:
+                    bit: "32"
+                    delta: "0"
+                    filename: "VVVV.DemolitionMedia.Hap_v01_x86.zip"
+                    timestamp: "27 Aug, 2017 - 15:24"
+                    download_count: "1"

@@ -1,0 +1,19 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/doubleglyph-meta"
+type: "tool"
+author: "Martin Zrcek"
+date: "24 Sep, 2012"
+title: "DoubleGlyph"
+originalURL: "contribution/doubleglyph"
+category: "tool"
+credits: |-
+  CTU - Czech Technical University Prague <http://www.fel.cvut.cz>
+like_count: "4"
+imported: "true"
+teaser: |-
+  This program with Flash user interface lets you measure how big your parallax is. You can input screen size and expected cinema size. Then by mouse you find two same points on pictures from two cameras, mixed together in anaglyph, and you get final parallax.
+  
+  Second mode allows you to set borders on scene, where actors can move to be in maximal and minimal parallax.
+  
+  It takes picture from one or two cameras. (one camera is just for debugging as it is usually not enough in stereoscopy)

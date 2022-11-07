@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "73771"
+user: "Martin Zrcek"
+created: "22 Dec, 2011 - 10:42"
+body: |-
+  I just added rotations of particles according to direction of their movement, fixed the Torque force and some others. There are also 2 more help patches to show rotations.
+  ![you can enable rotations now](https://vvvv.org/sites/default/files/imagecache/large/images/ciantParticles02.png)

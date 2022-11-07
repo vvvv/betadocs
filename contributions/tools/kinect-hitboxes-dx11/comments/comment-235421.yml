@@ -1,0 +1,16 @@
+### YamlMime:ContributionComment
+---
+uid: "235421"
+user: "id144"
+created: "19 Feb, 2017 - 14:07"
+body: |-
+  hi @yochee!
+  thanks for the feedback :)
+  
+  yes, with kinect v1 aka 360 it is possible to use multiple devices, though you need to adjust the patch a it as the output of the kinect node is not spreadable.
+  
+  probably a faster way to do is to launch hitboxes on two machine, another option is to launch vvvv in two different instances with /allowmultiple command line parameter. each instance should use same table of hitbox coordinated but the transformation of the kinect position and the index should be different.  
+  
+  when using multiple kinects on a different machine, it's best to have them on two separate usb host controllers. i wonder how do multiple kinects perform if you disable color stream and connect  them to same usb 3.0 host controller.
+  
+  kinect v1 may overlap, there quality of depth map is decreased because they do jam each other, on the other hand, this does not generate false positives.

@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "199789"
+user: "letoast"
+created: "15 Jul, 2015 - 18:46"
+body: |-
+  Hmmmm. I have problems with pretty much all the patches. They all look so strange. There are no red nodes, but... I don't think it's supposed to look like this?
+  The name of the patch says "Box-Skulls-Shadows", but there are no shadows. And some of the other patches look horrible - all gray, only SSAO working...
+  ![](https://vvvv.org/sites/default/files/imagecache/large/images/emeshe.PNG)

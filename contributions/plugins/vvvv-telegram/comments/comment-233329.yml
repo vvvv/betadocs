@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "233329"
+user: "motzi"
+created: "13 Dec, 2016 - 13:25"
+body: |-
+  @[sebescudie](http://vvvv.org/users/sebescudie): thanks for the hint. but iirc putting this into a "nodes" folder is the way to go for a pack. i wanted to release this as plain old plugins that you can put into your [contributions plugin folder](https://betadocs.vvvv.org/using-vvvv/patching/using-addons.html) (the one you can reference in the root patch). in there it should just work (like "vvvvContributions\plugins\vvvv-Telegram\plugins...").
+  
+  would you think that the nodes would make more sense as a pack?

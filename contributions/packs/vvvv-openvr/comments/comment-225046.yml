@@ -1,0 +1,10 @@
+### YamlMime:ContributionComment
+---
+uid: "225046"
+user: "guest"
+created: "06 Aug, 2016 - 13:20"
+body: |-
+  @tonfilm
+  everything works fine in SteamVR/vvvv with oculus runtime 0.8 + latest Leapmotion Orion Version: 3.1.3+41910...
+  btw failed  with the newest v1.6.0 oculus runtime (even if gtx 780ti should work)
+  now of course the challenging part is to make vvvv patches that runs at 75/90 fps ;)

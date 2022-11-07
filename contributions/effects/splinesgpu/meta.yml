@@ -1,0 +1,33 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/splinesgpu-meta"
+type: "effect"
+author: "woei"
+date: "13 Oct, 2011"
+title: "SplinesGPU"
+originalURL: "contribution/splinesgpu"
+category: "effect"
+credits: |-
+  http://paulbourke.net
+like_count: "29"
+imported: "true"
+teaser: |-
+  given a set of 3d positions the shader interpolates to a higher resolution and calulates lines/curves/splines/ribbons with phong shading.
+  
+  
+  <div class="box">
+  **v.0.2**
+  * equal vs and ps version for ati cards
+  * fixed texture coordinates
+  * fixed thickness calculation for bezier
+  * spelling and some code beauty
+  
+  **v.0.1**
+  * linear interpolation
+  * cosine interpolation
+  * cubic interpolation
+  * b-spline (third degree)
+  * tcb-spline (hermite interpolation with tension continuity and bias control
+  * bezier (cubic)
+  * piecewise bezier (cubic)
+  </div>

@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "82564"
+user: "sapo"
+created: "10 May, 2012 - 00:37"
+body: |-
+  when running .cmd files an error pops up about not being able to find the file (vvvv.exe i suppose).
+  my vvvv folder is in some subfolder with a space in the name, if i move all in c: no problems. still triing to figure out what this beast does!
+  thanks for sharing ;)

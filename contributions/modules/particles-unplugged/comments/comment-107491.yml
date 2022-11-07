@@ -1,0 +1,14 @@
+### YamlMime:ContributionComment
+---
+uid: "107491"
+user: "catweasel"
+created: "03 Oct, 2013 - 14:49"
+body: |-
+  <https://mega.co.nz/#!bdYCxTaI!MgfYxCTVCex33JVR2q6CrxA0gOZB6WyIEuqmn7Iz-tE>
+  
+  OK, seems to work with a stride of 48, now why is that? There are 17 properties in the particle buffer, which would give a stride of 68, but the patch is set by default to 56, and only works for me with 48.
+  Is this Nvidia maxing out the stride?
+  Does anyone have this working as Martin posted it? Ati or Nvidia?
+  Does my patch work for anyone?
+  
+  BTW if you use the quad, the scale seems to be at 1, try 0.001 if your screen goes white!

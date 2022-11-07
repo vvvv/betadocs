@@ -1,0 +1,24 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/oscdevices-ableton-m4l-vvvv-tools-files"
+url: "oscdevices-ableton-m4l-vvvv-tools"
+category: "module"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "1"
+            filename: "OSCdevices by tekcor_1_1.zip"
+            description: |-
+              quickly added a module for Midi Over IP before I forget it
+            
+            timestamp: "10 Feb, 2014 - 13:47"
+            download_count: "2"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "OSCdevices by tekcor.zip"
+                    timestamp: "29 Nov, 2013 - 13:36"
+                    download_count: "1"

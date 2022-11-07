@@ -1,0 +1,35 @@
+### YamlMime:ContributionComment
+---
+uid: "83437"
+user: "mino"
+created: "29 May, 2012 - 05:50"
+body: |-
+  @circuitb
+  thanks! i found some report here:
+  [Why does System.Convert(“0”) throw a FormatException on some systems?](http://stackoverflow.com/questions/4461709/why-does-system-convert0-throw-a-formatexception-on-some-systems)
+  
+  and create two test dll to detect problem. could you try it?
+  
+  * BVH_InvariantInfo
+  
+     from
+  ```
+  translate.x = double.Parse(tokens<index++>);
+  ```
+     to
+  ```
+  translate.x = double.Parse(tokens<index++>, System.Globalization.NumberFormatInfo.InvariantInfo);
+  ```
+  
+  * BVH_replace0to0.0
+  
+     from
+  ```
+  translate.x = double.Parse(tokens<index++>);
+  ```
+     to
+  ```
+  string s = tokens<index++>;
+  if (s == "0") s = "0.0";
+  translate.x = double.Parse(s);
+  ```

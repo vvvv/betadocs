@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "228978"
+user: "guest"
+created: "29 Sep, 2016 - 22:00"
+body: |-
+  Hi Ton, and thanks for this contribution. Could you add a switch so that the changing the parameters won't won't set a new random seed? It would make it a little ewasier to follow what the changes do.
+  
+  Thanks

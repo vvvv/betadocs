@@ -1,0 +1,53 @@
+### YamlMime:ContributionComment
+---
+uid: "69276"
+user: "microdee"
+created: "10 Sep, 2011 - 02:42"
+body: |-
+  SOLVED
+  ok i put openni.net.dll every possible places and i still get this message every frame and all the nodes are red without pins as they were missing even if i drop the kinect.dll in a patch manually.
+  ```
+  00:00:52 ERR : System.IO.FileNotFoundException: Could not load file or assembly 'OpenNI.Net, Version=1.3.2.3, Culture=neutral, PublicKeyToken=6b43d0c6cf74ee7f' or one of its dependencies. The system cannot find the file specified.
+  File name: 'OpenNI.Net, Version=1.3.2.3, Culture=neutral, PublicKeyToken=6b43d0c6cf74ee7f'
+     at System.Signature._GetSignature(SignatureStruct& signature, Void* pCorSig, Int32 cCorSig, IntPtr fieldHandle, IntPtr methodHandle, IntPtr declaringTypeHandle)
+     at System.Signature.GetSignature(SignatureStruct& signature, Void* pCorSig, Int32 cCorSig, RuntimeFieldHandle fieldHandle, RuntimeMethodHandle methodHandle, RuntimeTypeHandle declaringTypeHandle)
+     at System.Signature..ctor(RuntimeFieldHandle fieldHandle, RuntimeTypeHandle declaringTypeHandle)
+     at System.Reflection.RtFieldInfo.get_FieldType()
+     at System.ComponentModel.Composition.ReflectionModel.ReflectionField.get_ReturnType()
+     at System.ComponentModel.Composition.AttributedModel.AttributedModelDiscovery.CreateMemberImportDefinition(MemberInfo member, ICompositionElement origin)
+     at System.ComponentModel.Composition.AttributedModel.AttributedPartCreationInfo.GetImportDefinitions()
+     at System.ComponentModel.Composition.AttributedModel.AttributedPartCreationInfo.DiscoverExportsAndImports()
+     at System.ComponentModel.Composition.AttributedModel.AttributedPartCreationInfo.GetExports()
+     at System.ComponentModel.Composition.ReflectionModel.ReflectionComposablePartDefinition.get_ExportDefinitions()
+     at System.ComponentModel.Composition.Hosting.TypeCatalog.CreateIndex()
+     at System.Lazy`1.CreateValue()
+     at System.Lazy`1.LazyInitValue()
+     at System.Lazy`1.get_Value()
+     at System.ComponentModel.Composition.Hosting.TypeCatalog.GetCandidateParts(ImportDefinition definition)
+     at System.ComponentModel.Composition.Hosting.TypeCatalog.GetExports(ImportDefinition definition)
+     at System.ComponentModel.Composition.Hosting.CatalogExportProvider.GetExportsCore(ImportDefinition definition, AtomicComposition atomicComposition)
+     at System.ComponentModel.Composition.Hosting.ExportProvider.TryGetExportsCore(ImportDefinition definition, AtomicComposition atomicComposition, IEnumerable`1& exports)
+     at System.ComponentModel.Composition.Hosting.ExportProvider.TryGetExports(ImportDefinition definition, AtomicComposition atomicComposition, IEnumerable`1& exports)
+     at System.ComponentModel.Composition.Hosting.AggregateExportProvider.GetExportsCore(ImportDefinition definition, AtomicComposition atomicComposition)
+     at System.ComponentModel.Composition.Hosting.ExportProvider.TryGetExportsCore(ImportDefinition definition, AtomicComposition atomicComposition, IEnumerable`1& exports)
+     at System.ComponentModel.Composition.Hosting.ExportProvider.TryGetExports(ImportDefinition definition, AtomicComposition atomicComposition, IEnumerable`1& exports)
+     at System.ComponentModel.Composition.Hosting.CompositionContainer.GetExportsCore(ImportDefinition definition, AtomicComposition atomicComposition)
+     at System.ComponentModel.Composition.Hosting.ExportProvider.TryGetExportsCore(ImportDefinition definition, AtomicComposition atomicComposition, IEnumerable`1& exports)
+     at System.ComponentModel.Composition.Hosting.ExportProvider.GetExports(ImportDefinition definition, AtomicComposition atomicComposition)
+     at System.ComponentModel.Composition.Hosting.ImportEngine.TryGetExports(ExportProvider provider, ComposablePart part, ImportDefinition definition, AtomicComposition atomicComposition)
+     at System.ComponentModel.Composition.Hosting.ImportEngine.TrySatisfyImportSubset(PartManager partManager, IEnumerable`1 imports, AtomicComposition atomicComposition)
+     at System.ComponentModel.Composition.Hosting.ImportEngine.TryPreviewImportsStateMachine(PartManager partManager, ComposablePart part, AtomicComposition atomicComposition)
+     at System.ComponentModel.Composition.Hosting.ImportEngine.PreviewImports(ComposablePart part, AtomicComposition atomicComposition)
+     at System.ComponentModel.Composition.Hosting.ComposablePartExportProvider.Compose(CompositionBatch batch)
+     at System.ComponentModel.Composition.Hosting.CompositionContainer.Compose(CompositionBatch batch)
+     at System.ComponentModel.Composition.AttributedModelServices.ComposeParts(CompositionContainer container, Object<> attributedParts)
+     at VVVV.Hosting.Factories.DotNetPluginFactory.CreatePlugin(INodeInfo nodeInfo, IPluginHost2 pluginHost)
+     at VVVV.Hosting.Factories.DotNetPluginFactory.CreateNode(INodeInfo nodeInfo, IInternalPluginHost pluginHost)
+     at VVVV.Hosting.Factories.AbstractFileFactory`1.Create(INodeInfo nodeInfo, INode host)
+     at VVVV.Hosting.HDEHost.CreateNode(INode node)
+  
+  WRN: Assembly binding logging is turned OFF.
+  To enable assembly bind failure logging, set the registry value <HKLM\Software\Microsoft\Fusion!EnableLog> (DWORD) to 1.
+  Note: There is some performance penalty associated with assembly bind failure logging.
+  To turn this feature off, remove the registry value <HKLM\Software\Microsoft\Fusion!EnableLog>.
+  ```

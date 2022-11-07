@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "63446"
+user: "weareallclowns"
+created: "09 May, 2011 - 20:23"
+body: |-
+  No.. no I did not. I guess I was just too excited to get this working. Though, the answer is not obvious to me. So this plug-in is able to detect a specific pose, generate a skeleton if pose is detected, and then able to track the user?
+  
+  You are referring to the discussion earlier in the post about custom pose calibration?
+  
+  (this is my first introduction the whole Kinect/openni stuff, so bare with me)

@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/obsolete-see-addonpack-httputility-(string)-files"
+url: "obsolete-see-addonpack-httputility-string"
+category: "plugin"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "StringHTTPUtility.zip"
+            description: |-
+              Implements some of the C# HttpUtility methods
+            
+            timestamp: "19 Apr, 2012 - 13:59"
+            download_count: "1"

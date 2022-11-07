@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "68400"
+user: "catweasel"
+created: "22 Aug, 2011 - 20:38"
+body: |-
+  has anyone tried multiple kinects yet? Does the plugin support them?
+  Also I noticed that the depth has 11bit accuracy but the texture is an 8 bit texture...
+  Is that possible at all?

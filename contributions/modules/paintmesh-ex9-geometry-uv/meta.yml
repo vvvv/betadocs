@@ -1,0 +1,17 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/paintmesh-(ex9.geometry-uv)-meta"
+type: "module"
+author: "everyoneishappy"
+date: "25 Jun, 2012"
+title: "PaintMesh (EX9.Geometry UV)"
+originalURL: "contribution/paintmesh-(ex9.geometry-uv)"
+category: "module"
+credits: |-
+  idea from http://www.cartelle.nl/deathpaint/study/ + UNC for too many things to mention (displacement map in this case)
+like_count: "12"
+imported: "true"
+teaser: |-
+  Simple module for looking up mesh UV from screen space.  The outputs are scaled for vvvv renderer rather then texture space, as this seemed easier to use.
+  
+  Built with 27.2 + Addons

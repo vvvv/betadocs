@@ -1,0 +1,18 @@
+### YamlMime:ContributionComment
+---
+uid: "100449"
+user: "Luper"
+created: "03 May, 2013 - 11:22"
+body: |-
+  hehehe "Nvidia wglDXInterop failed to initialize" on opening resolume!
+  
+  my gear:
+  asus n75s with win7x64, NVIDIA GeForce GT 555M (drivers update)
+  vvvv_45beta29.2_x86
+  resolume 4.1.3
+  
+  I'm not expert in graphic card, so I have 2 question:
+  1) going with dxdiag, I see that the projector is managed by the GT555M card, but the main monitor is managed by the internal Intel(R)HD graphics 3000...
+  Perhaps this is the problem?
+  
+  2) I'M about to buy a new graphic card for the Desktop comp (till now I'm trying only in the laptop). How can I check if the new card have the "NVidia Interop Functions"? It is enough to check for the CUDA Library?

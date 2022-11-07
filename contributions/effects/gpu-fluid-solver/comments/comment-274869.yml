@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "274869"
+user: "Noir"
+created: "31 Jan, 2020 - 19:03"
+body: |-
+  @idab I noticed this thing times ago...
+  It doesn't work because in the pixelshader the "InkTexture" is commented (AddDensity line 68)

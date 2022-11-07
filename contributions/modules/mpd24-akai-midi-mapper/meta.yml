@@ -1,0 +1,15 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/mpd24-akai-midi-mapper-meta"
+type: "module"
+author: "arius.esteban"
+date: "11 Jul, 2012"
+title: "MPD24 Akai midi mapper"
+originalURL: "contribution/mpd24-akai-midi-mapper"
+category: "module"
+credits: |-
+  Neuronvj & VJ Ink
+like_count: "3"
+imported: "true"
+teaser: |-
+  Is possible to Copy and paste each modules to map other midi controller.

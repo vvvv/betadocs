@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "112015"
+user: "tonfilm"
+created: "30 Dec, 2013 - 04:45"
+body: |-
+  @microdee, of course the proper midi event implementation will run in the audio thread... but that's more a 2014 thing, as it needs some extra thought because you also want midiplayers which run in the audio thread but get midi clips from the vvvv thread in the form of spreads.

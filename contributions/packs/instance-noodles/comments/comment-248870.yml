@@ -1,0 +1,14 @@
+### YamlMime:ContributionComment
+---
+uid: "248870"
+user: "guest"
+created: "09 Feb, 2018 - 00:07"
+body: |-
+  hello noodlers!
+  
+  trying to make a simple tunnel/spiral with the splineBuffered module
+  but can't find a way to eliminate the mesh twisting 
+  is there a trick to avoid that or is it by design in the gsfx?
+  
+  thanks
+  https://www.dropbox.com/s/bblsp0watv4pjm5/Spiral_SplineBuffered_twistbug%20%28DX11.Geometry%29%20help.v4p?dl=0

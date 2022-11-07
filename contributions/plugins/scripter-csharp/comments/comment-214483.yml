@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "214483"
+user: "woei"
+created: "11 Jan, 2016 - 16:45"
+body: |-
+  @mediadog:
+  my fault, never tried to create a fresh node from nodebrowser. duplication worked with the old version.
+  bug fixed now

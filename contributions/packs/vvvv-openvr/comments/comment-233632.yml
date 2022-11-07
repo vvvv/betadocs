@@ -1,0 +1,16 @@
+### YamlMime:ContributionComment
+---
+uid: "233632"
+user: "dominikKoller"
+created: "22 Dec, 2016 - 15:19"
+body: |-
+  Feature request:
+  
+  Inspired by Dat.Gui for WebVR:
+  ![title](https://vvvv.org/sites/default/files/imagecache/large/images/https://github.com/dataarts/dat.guiVR/raw/master/preview.gif)
+  
+  The option to 'expose' IOBoxes to VR, to have an interface similar to the one in Dat.Gui VR!
+  
+  https://github.com/dataarts/dat.guiVR
+  
+  (I'd actually love to do it myself if there's support!)

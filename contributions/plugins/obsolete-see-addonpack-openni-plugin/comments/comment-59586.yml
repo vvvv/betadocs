@@ -1,0 +1,33 @@
+### YamlMime:ContributionComment
+---
+uid: "59586"
+user: "manuel"
+created: "08 Feb, 2011 - 22:39"
+body: |-
+  hey
+  still struggling with this...
+  
+  this is the log I  have:
+  
+  \par 00:00:03 ERR : Corrupt link-message in Patch C:\\Users\\Manuel\\Desktop\\vvvv_45alpha25\\plugins\\OpenNISkeleton\\_root_OpenNISkeleton.v4p. srcViewPin or dstViewPin is nil!
+  \par 00:00:03 ERR : Corrupt link-message in Patch C:\\Users\\Manuel\\Desktop\\vvvv_45alpha25\\plugins\\OpenNISkeleton\\_root_OpenNISkeleton.v4p. srcViewPin or dstViewPin is nil!
+  \par 00:00:03 ERR : Corrupt link-message in Patch C:\\Users\\Manuel\\Desktop\\vvvv_45alpha25\\plugins\\OpenNISkeleton\\_root_OpenNISkeleton.v4p. srcViewPin or dstViewPin is nil!
+  \par 00:00:03 ERR : Corrupt link-message in Patch C:\\Users\\Manuel\\Desktop\\vvvv_45alpha25\\plugins\\OpenNISkeleton\\_root_OpenNISkeleton.v4p. srcViewPin or dstViewPin is nil!
+  \par 00:00:03 ERR : Corrupt link-message in Patch C:\\Users\\Manuel\\Desktop\\vvvv_45alpha25\\plugins\\OpenNISkeleton\\_root_OpenNISkeleton.v4p. srcViewPin or dstViewPin is nil!
+  
+  
+  
+  \par 00:00:08 ERR : \~\~\~\~\~\~\~Skeleton caused error in Evaluate: xn.XnStatusException: Xiron OS failed to connect to a network socket!
+  \par    en xn.WrapperUtils.CheckEnumeration(UInt32 status, EnumerationErrors errors)
+  \par    en xn.Context.InitFromXml(String xmlFile)
+  \par    en xn.Context..ctor(String xmlFile)
+  \par    en VVVV.Nodes.OpenNISkeletonNode.initKinect()
+  \par    en VVVV.Nodes.OpenNISkeletonNode.Evaluate(Int32 SpreadMax)
+  \par 00:00:08  *  : can't draw whole geometry at once: * preprocessing vertices of any kind of billboards or onesided particles is not yet supported. World is camera dependent.switching to slicewise rendering.
+  
+  
+  All The xml are changed with sapo data.
+  
+  I notice that if I remove the xml from the OpenNISkeleton folder, the same errors ocurr.
+  
+  any idea ??

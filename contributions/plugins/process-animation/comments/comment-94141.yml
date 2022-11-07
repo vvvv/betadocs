@@ -1,0 +1,10 @@
+### YamlMime:ContributionComment
+---
+uid: "94141"
+user: "DiMiX"
+created: "06 Jan, 2013 - 13:35"
+body: |-
+  Hi tonfilm,
+  let's say i want to have simple "Pause" at the end of Process 1
+  ![](https://vvvv.org/sites/default/files/imagecache/large/images/Procces%20OnEnd%20Action.JPG) 
+  As workaround i can patch Process 2 as "pause" with Action Time -1, but maybe there is more elegant solution instead of patching every OnEnd action as separate process

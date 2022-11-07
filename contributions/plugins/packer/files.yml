@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/packer-files"
+url: "packer"
+category: "plugin"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "Packer.zip"
+            description: |-
+              v.0.2
+            
+            timestamp: "12 Oct, 2012 - 19:49"
+            download_count: "1"

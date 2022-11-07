@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "219738"
+user: "joreg"
+created: "01 May, 2016 - 21:28"
+body: |-
+  hei miro, note that the Contour node also returns a <span class="pin">Contours BinSize</span> for each of the contours it detects. connecting that to the Line nodes <span class="pin">BinSize</span> gives a separate line around each characters element in your example. then also note the <span class="pin">Closed</span> on the Line to finish things up..

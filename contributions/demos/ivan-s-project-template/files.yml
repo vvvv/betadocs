@@ -1,0 +1,27 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/ivans-project-template-files"
+url: "ivan-s-project-template"
+category: "demo"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "1"
+            filename: "IvanTemplate_v02.zip"
+            description: |-
+              Same template with bug fixes and improvements
+            
+            timestamp: "14 Mar, 2019 - 12:52"
+            download_count: "1"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "IvanTemplate.zip"
+                    description: |-
+                      Template with comments and few examples
+                    
+                    timestamp: "24 Jun, 2018 - 12:43"
+                    download_count: "1"

@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "239744"
+user: "joreg"
+created: "22 May, 2017 - 12:18"
+body: |-
+  @guest: latest alpha comes with a limit of 40 spoutSenderNames. hope that doesn't interfere with any other software. are you using it only between vvvv instances or can you also test with other software?

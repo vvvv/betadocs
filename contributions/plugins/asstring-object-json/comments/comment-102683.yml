@@ -1,0 +1,16 @@
+### YamlMime:ContributionComment
+---
+uid: "102683"
+user: "kiilo"
+created: "23 Jun, 2013 - 16:42"
+body: |-
+  hey thanks - didn't see ists already there ... 
+  
+  ```
+  ...
+  _String<i> = o != null ? JsonConvert.SerializeObject(o, Formatting.Indented) : "";
+  ...
+  ```
+  
+  super, thanks
+  kiilo

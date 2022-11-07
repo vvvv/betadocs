@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "160313"
+user: "sebl"
+created: "23 Jul, 2014 - 09:39"
+body: |-
+  checkout the dx11-vvvv pacck and you're done. if the nodes don't work, compile it yourself (instructions are also on github alongside the sourcecode)

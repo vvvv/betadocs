@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "275023"
+user: "Yoctopory"
+created: "25 Feb, 2020 - 14:13"
+body: |-
+  I got it to run with an old Canon EOS 1200D.
+  However, the same patch **doesn't work with a new EOS 2000D.**
+  Error-Message: EDS_ERR_DEVICE_BUSY (0x2003)
+  
+  Anybody knows something about this? Does it not work with the new camera models anymore?

@@ -1,0 +1,15 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/isvalidemail-(string)-meta"
+type: "plugin"
+author: "bjoern"
+date: "14 Feb, 2012"
+title: "IsValidEmail (String)"
+originalURL: "contribution/isvalidemail-(string)"
+category: "plugin"
+credits: |-
+  http://msdn.microsoft.com/en-us/library/01escwtf.aspx
+like_count: "2"
+imported: "true"
+teaser: |-
+  Verifies that strings are in valid e-mail format.

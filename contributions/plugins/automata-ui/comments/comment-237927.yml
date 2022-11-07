@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "237927"
+user: "u7angel"
+created: "31 Mar, 2017 - 09:58"
+body: |-
+  hello sam, bezier transitions are in the making and will be delivered until the node festival
+  
+  can you provide a screenshot or a patch. would be interesting how complex your statemachine is.
+  
+  and remember, you can use spreaded and multiple automata nodes to cluster your logic.

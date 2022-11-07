@@ -1,0 +1,23 @@
+### YamlMime:ContributionComment
+---
+uid: "217994"
+user: "T.Kit"
+created: "16 Mar, 2016 - 19:11"
+body: |-
+  ![](https://vvvv.org/sites/default/files/imagecache/large/images/Kinect2%20%28Devices%20Microsoft%29%20help.png) 
+  
+  
+  Hi Guys,
+  
+  My problem is:
+  I have the nodes of Kinect2 in red without pins!
+  What I have:
+  I have windows 10, the kinect One is conneted to usb 3.0 of the pc, I use Vvvv 34.1x86, addonpack 34.1x86, I have put the packs folder in the some way of the addonpack (is close to licenses folder) with inside kinect2 folder (version b33.7 pack) and dx11 folder (version dx11 0.6.1.x86).
+  
+  Dx11 work on vvvv so it is ok.
+  in the menu appear all kinect2 nodes but when I choose one for example the first one (kinect: device microsoft) it is in red and without pins! with renderer TTY is write: Exception occured during creation of plugin "..\vvvv_45beta34.1x86\packs\kinect2\nodes\vvvv.dx11.nodes.kinect2.dll"
+  I tried with root to put the directory of the file, but don't work.
+  
+  Someone can help me, please?
+  
+  :(

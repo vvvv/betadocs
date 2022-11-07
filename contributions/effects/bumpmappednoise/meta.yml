@@ -1,0 +1,19 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/bumpmappednoise-meta"
+type: "effect"
+author: "Desaxismundi"
+date: "11 Mar, 2013"
+title: "BumpMappedNoise"
+originalURL: "contribution/bumpmappednoise"
+category: "effect"
+credits: |-
+  sanch, nvidia, KenPerlin
+like_count: "9"
+imported: "true"
+teaser: |-
+  Bump mapped version of 3dnoise.fx by Sanch.
+  [texture-noise-3d](xref:contribution/texture-noise-3d)
+  
+  Based on KenPerlin Improved Noise
+  http://mrl.nyu.edu/~perlin/noise/

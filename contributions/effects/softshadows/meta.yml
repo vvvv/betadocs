@@ -1,0 +1,17 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/softshadows-meta"
+type: "effect"
+author: "colorsound"
+date: "04 Apr, 2013"
+title: "SoftShadows"
+originalURL: "contribution/softshadows"
+category: "effect"
+credits: |-
+  flux,unc
+like_count: "9"
+imported: "true"
+teaser: |-
+  This is the DX11 version of the Softshadow from flux.
+  
+  It seems to work not perfect or maybe to hard to tweak,but there it is in case someone want to play with ;D.

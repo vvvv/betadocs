@@ -1,0 +1,27 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/simpletweener-files"
+url: "simpletweener"
+category: "plugin"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "1"
+            filename: "VVVV.Nodes_.SimpleTweener.zip"
+            description: |-
+              property.
+            
+            timestamp: "23 Jul, 2012 - 14:48"
+            download_count: "1"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "ValueSimpleTweener.zip"
+                    description: |-
+                      Fixed Started and Finished pins.
+                    
+                    timestamp: "04 Jul, 2011 - 09:03"
+                    download_count: "1"

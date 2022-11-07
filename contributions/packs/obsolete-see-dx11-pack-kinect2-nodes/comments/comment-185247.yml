@@ -1,0 +1,10 @@
+### YamlMime:ContributionComment
+---
+uid: "185247"
+user: "screamer"
+created: "12 Feb, 2015 - 01:37"
+body: |-
+  yes, i did :)
+  and the solution is quite simple, i've found it followinf the error i always had. And it's about some missing files needed for facetracking.
+  All you have to do is to take the nuidatabase folder (that should be something like "C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\bin\NuiDatabase" and you have to copy the entire folder to your kinect2 pack folder. 
+  And that's it, it works, and also very well ;)

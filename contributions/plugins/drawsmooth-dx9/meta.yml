@@ -1,0 +1,17 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/drawsmooth-(dx9)-meta"
+type: "plugin"
+author: "bo27"
+date: "24 May, 2012"
+title: "DrawSmooth (DX9)"
+originalURL: "contribution/drawsmooth-(dx9)"
+category: "plugin"
+credits: |-
+  bo27  concept+patch //
+  Yuri Dolgov  original code //
+  alg convert to .PluginInterfaces.V2
+like_count: "13"
+imported: "true"
+teaser: |-
+  Smooth and spreadble draw plugin adapted to beta27.2 and higher

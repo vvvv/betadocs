@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "56521"
+user: "beyon"
+created: "01 Dec, 2010 - 16:05"
+body: |-
+  Hmm this might be interesting as a starting point for my need of quick browsing through a bunch of highres images.
+  
+  Right now it doesn't seem to deal with different sizes of textures very well, I first tried loading a set of large images with date as filename but since that didn't work as a sequence I then tried another set of smaller size images and then the resulting texture output was the first large image with the smaller ones replacing the top of the image.
+  
+  I guess you don't recreate/resize the buffer when the filename pin changes?

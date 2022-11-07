@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "241374"
+user: "mburk"
+created: "23 Jun, 2017 - 07:13"
+body: |-
+  Hi hrovac,
+  simply replace the node with a Select(Node). This should be it!

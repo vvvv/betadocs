@@ -1,0 +1,23 @@
+### YamlMime:ContributionComment
+---
+uid: "101691"
+user: "leadedge2000"
+created: "01 Jun, 2013 - 08:19"
+body: |-
+  Hey everyone,
+  
+  I haven't use VVVV for a while but I thought I should post here to see who might be interested.
+  
+  My ultimate goal is to get communication between Max/Msp and other applications in Windows, to give a Syphon functionality. As a base for development I am using openFrameworks.
+  
+  I developed a memory sharing system between Max/Msp <-> openFrameworks and openFrameworks <-> FreeframeGL. It affects performance and is not ideal, but it does work in the absence of anything else.
+  
+  When I saw Elio's work I was very impressed and keen to try it. I have succeeded in getting communication between openFrameworks and Resolume via Eilo's FFGL plugin and some modifications to the dxconnector code to provide for a sender.
+  
+  I hope that if I can port this to a Max/Msp external or FreeFrame 1.0 plugin it will work. I have been working with Max 5 which does not support FFGL unless I can be enlightened by somebody using Max 6.
+  
+  I have looked at Wyphon but can't wrap my head around it.
+  
+  I wonder if Elio or anybody else might be working in a similar direction.
+  
+  Thanks to all...

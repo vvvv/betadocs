@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "255251"
+user: "readme"
+created: "12 Jun, 2018 - 22:07"
+body: |-
+  Maybe it's some Intel Iris issue, but seems like the depth texture is being cropped for me ...
+  ![](https://vvvv.org/sites/default/files/imagecache/large/images/2018-06-13%2000_05_02-Preview.png)

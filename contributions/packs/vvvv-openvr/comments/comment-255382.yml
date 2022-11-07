@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "255382"
+user: "io"
+created: "15 Jun, 2018 - 10:20"
+body: |-
+  Hallo, I have decomposed the renderer subpatch so that I can do some post processing which works fine. But I am a bit puzzled about how to go about when post processing involves using the View and Projection Matrix from the camera, for example volumetrics etc. Should we get just one eye? The average? Or what?
+  tx
+  S.

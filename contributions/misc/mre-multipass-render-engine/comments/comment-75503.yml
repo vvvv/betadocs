@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "75503"
+user: "m4d"
+created: "30 Jan, 2012 - 14:59"
+body: |-
+  <div class="box">quote:u7angel:
+  maybe this goes to the devs to fix the UV coordinates of sphere(ex9 geometry).
+  </div>
+  
+  i've actually wondered for quite some time if this is just some flaw in vvvv or the default dx9 primitive behaviour..

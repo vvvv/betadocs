@@ -1,0 +1,57 @@
+---
+uid: "contribution/microsoft-kinect-2.0-tools"
+uid-meta: "contribution/microsoft-kinect-2.0-tools-meta"
+comments: 
+ items: 
+  - uid: "234113"
+  - uid: "234137"
+  - uid: "234682"
+  - uid: "234683"
+  - uid: "235276"
+  - uid: "235339"
+uid-files: "contribution/microsoft-kinect-2.0-tools-files"
+title: "Microsoft Kinect 2.0 Tools"
+image: "kinect2_tools_preview.png"
+contribution: "true"
+---
+
+1.  Playback (Kinect2 Tools Microsoft)
+Create playback of sensor stream using Kinect for Windows Tools, aplications using Kinect2 will receive content of this playback
+
+*Extract and save the frames from the XEF files containg Kinect stream recording, use StepOnce when real-time saving is not possible.
+*Prototype kinect interactions without the need to physically interact, prerecord the interaction session and  replay it while developing
+*Experiment with Kinect without the device attached (get DX11 pack sources or compiled release from after 11 Jan 2017)
+*Workshop scenarios often do not allow everyone to have the device connected. Playback the recorded example session.
+
+1.  Record (Kinect2 Tools Microsoft) Alpha
+Create recording of sensor stream using Kinect Tools. 
+Known issues: 
+*While the recording is in progress, the node does not update it's outputs such as FileSize, Duration and BufferInUseSize. 
+
+
+##  Dependencies: 
+Kinect 2.0 SDK or runtime, DX11 Pack (optional)
+
+Kinect for Windows Runtime 2.0
+https://www.microsoft.com/en-us/download/details.aspx?id=44559
+
+Kinect for Windows SDK 2.0
+https://www.microsoft.com/en-us/download/details.aspx?id=44561
+
+DX11 Pack by @vux (compiled)
+[directx11-nodes-alpha](xref:contribution/directx11-nodes)
+
+Kinect 2.0 node untethered (if your DX11 pack is released before 11 Jan 2017)
+http://id144.org/uploads/VVVV.DX11.Nodes.Kinect2.dll
+
+Link to the sample XEF file. 14 seconds, 2GB is in the help patch of the Playback node. Contains dancers Liam Francis and Stephen Quildan from Rambert Dance Company.
+
+##  Source code:
+https://github.com/id144/VVVV-MicrosoftKinectTools2.0
+
+Created by Andrej Boleslavský [id144](http://vvvv.org/users/id144) as a research part of the project DUST
+in artistic collaboration with Mária Júdová, creative producer Carmen Salas, funded by Arts Council England
+http://vrdust.org.uk
+
+CC BY-SA-NC 4.0
+For commercial use please contact me at info@id144.org

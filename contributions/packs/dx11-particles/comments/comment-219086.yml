@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "219086"
+user: "velcrome"
+created: "11 Apr, 2016 - 09:16"
+body: |-
+  hey neoshaman,
+  
+  to make things short, it is possible to merge multiple kinects (connected to various machines) with pointcloud, but not necessarily with a boygroup.
+  
+  as you might know, a boygroup can only "distribute" parts of your output to multiple clients, but is not designed to "collect" data from clients at all. so boygrouping might be useful to actually configure kinects over network, but that's about it.
+  
+  to "collect" various pointclouds into a single one, you have to use a custom network patch. at intolight we successfully used ZeroMQ to that end.

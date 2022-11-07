@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "228627"
+user: "microdee"
+created: "25 Sep, 2016 - 19:07"
+body: |-
+  currently if you want more than phong shaded boxes, it won't be a smooth experience in vvvv now but it can be improved in the future with 2 things: waiting done at right time, and as vux suggested making a proper renderer for the compositor (instead of resource pointer readback as done currently which also consumes a lot of overhead)

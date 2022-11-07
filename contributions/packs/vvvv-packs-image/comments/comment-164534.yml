@@ -1,0 +1,12 @@
+### YamlMime:ContributionComment
+---
+uid: "164534"
+user: "jzzxh"
+created: "09 Sep, 2014 - 14:57"
+body: |-
+  Thanks, tekcor
+  
+  I encounter 'Emgu.CV.CvInvoke' problem with my "intel HD graphic 3000" graphic card , and i put the nvcuda.all, but when i used objectdetect node it will crash... any has this issue??
+  
+  
+  thanks all ^^

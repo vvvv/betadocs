@@ -1,0 +1,27 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/fantastick-plugin-files"
+url: "fantastick-plugin"
+category: "plugin"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "1"
+            filename: "vvvvFantastick.zip"
+            description: |-
+              Updated: 05.01.11 (everything works now, including JS examples)
+            
+            timestamp: "01 May, 2011 - 19:36"
+            download_count: "1"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "vvvvFantastick.zip"
+                    description: |-
+                      Updated: 05.02.11 (added command watch feature)
+                    
+                    timestamp: "02 May, 2011 - 23:02"
+                    download_count: "1"

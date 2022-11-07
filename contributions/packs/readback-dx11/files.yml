@@ -1,0 +1,36 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/readback-dx11-files"
+url: "readback-dx11"
+category: "pack"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "2"
+            filename: "WriterNodes.7z"
+            description: |-
+              update for vvvv b35.8 and dx11 > 1.0
+            
+            timestamp: "15 Oct, 2017 - 20:36"
+            download_count: "1"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "1"
+                    filename: "VVVV.Nodes_.DX11.ReadBack.zip"
+                    description: |-
+                      v4
+                    
+                    timestamp: "08 Sep, 2016 - 09:06"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "VVVV.Nodes_.DX11.ReadBack.zip"
+                    description: |-
+                      v1
+                    
+                    timestamp: "06 Sep, 2016 - 09:44"
+                    download_count: "1"

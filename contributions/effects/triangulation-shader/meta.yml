@@ -1,0 +1,15 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/triangulation-shader-meta"
+type: "effect"
+author: "Martin Zrcek"
+date: "24 Sep, 2012"
+title: "Triangulation shader"
+originalURL: "contribution/triangulation-shader"
+category: "effect"
+credits: |-
+  In cooperation with [gaz](http://vvvv.org/users/gaz), made for <www.uberact.com>
+like_count: "12"
+imported: "true"
+teaser: |-
+  This program gives your picture the triangulated effect you have ever dreamed of :) Just chose from three inputs for shapes: Random, mesh or text.

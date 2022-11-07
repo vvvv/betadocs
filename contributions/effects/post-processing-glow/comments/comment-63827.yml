@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "63827"
+user: "microdee"
+created: "18 May, 2011 - 05:45"
+body: |-
+  well i discovered that it's enough to add a proper vertex shader function and compile it but don't use its output. i haven't tried "vertexshader=null" though
+  and it looks better now (i guess as it's supposed to look) (file is updated at the same link)

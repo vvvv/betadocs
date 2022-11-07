@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "72903"
+user: "mediadog"
+created: "03 Dec, 2011 - 06:08"
+body: |-
+  Tried the PartsOfStrawman files, and all worked fine except the OnlyGeometry file, which exhibited the grey renderer and very slowwww vvvv interface response with low CPU and GPU use.  Hmmmm....

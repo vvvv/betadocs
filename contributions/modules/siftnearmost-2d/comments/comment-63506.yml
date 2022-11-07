@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "63506"
+user: "kalle"
+created: "10 May, 2011 - 11:59"
+body: |-
+  Beta25.1 corrupts a few Nodes when loading the Beta23-version.
+  
+  It changes  <span class="node">Transform (Transform 2d)</span> into <span class="node">Translate (Transform)</span>, but when you change back in Beta25.1 it funnily remembers the Scale pin's values.
+  
+  Also it changes <span class="node">Vector (2d Join)</span> into <span class="node">Vector (3d Join)</span> but only inside the modules; not within the helppatch.
+  
+  really strange.

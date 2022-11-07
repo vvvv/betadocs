@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "206280"
+user: "circuitb"
+created: "20 Sep, 2015 - 09:55"
+body: |-
+  wonderful contrib!!!
+  
+  just a note:
+  if you disconnect the Geometry from DisplacmentMapping (DX11.GeomFX).v4p
+  it crash...just add an AvoidNil (spreads) before the Max Elements pin

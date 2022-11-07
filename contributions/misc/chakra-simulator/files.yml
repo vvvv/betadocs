@@ -1,0 +1,24 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/chakra-simulator-files"
+url: "chakra-simulator"
+category: "misc"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "1"
+            filename: "Chakras_Simulator_02.v4p"
+            description: |-
+              heh, addeded more chakra :)
+            
+            timestamp: "23 Oct, 2015 - 12:34"
+            download_count: "15"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "Chakras_Simulator_01.v4p"
+                    timestamp: "22 Oct, 2015 - 13:42"
+                    download_count: "1"

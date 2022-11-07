@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "203472"
+user: "darrrr"
+created: "21 Aug, 2015 - 21:09"
+body: |-
+  what do you mean by adding c#-project rather than the dlls? I'm trying to use the websocket with vvvv.js but when I enable the websocket server in vvvv it crashes. i just draged the dll in. I'm not an advanced v4 user so sorry for asking if this is something one should know about...

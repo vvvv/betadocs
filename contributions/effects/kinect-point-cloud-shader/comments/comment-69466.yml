@@ -1,0 +1,15 @@
+### YamlMime:ContributionComment
+---
+uid: "69466"
+user: "colorsound"
+created: "15 Sep, 2011 - 17:36"
+body: |-
+  hi jonferran , thanks for sharing , i have the same problem as johansebastian i get red error on the shader in line 31 double4 DepthToWorld(int x, int y, double depthValue)   and line 204  PixelShader  = compile ps_2_a shift(); , 
+  
+  any hints ? 
+  
+  using Nvidia GeForce GTX580 : 
+  Fixed FunctionVertex Shader 1.0Vertex Shader 1.1Vertex Shader 2.0Vertex Shader 2.aVertex Shader 3.0Pixel Shader 1.0Pixel Shader 1.1Pixel Shader 1.2Pixel Shader 1.3Pixel Shader 1.4Pixel Shader 2.0Pixel Shader 2.aPixel Shader 2.bPixel Shader 3.0
+  
+  win7 64bit
+  vvvv26

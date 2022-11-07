@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "59437"
+user: "sapo"
+created: "05 Feb, 2011 - 01:07"
+body: |-
+  basically you have to get the OPENNI and NITE samples working, there is a lot of documentation online about that, you don't need to run any external app with the last versions of this plugin. http://vvvv.org/sites/all/modules/general/pubdlcnt/pubdlcnt.php?file=http://vvvv.org/sites/default/files/uploads/OpenNISkeleton_3.zip&nid=57736
+  Just copy the folder in your plugins folder and create a skeleton(openni) node in vvvv. if you have some specific problem check the discussion and/or ask ;)

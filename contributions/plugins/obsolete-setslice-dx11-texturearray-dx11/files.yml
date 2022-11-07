@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/obsolete-setslice-(dx11.texturearray)-(dx11)-files"
+url: "obsolete-setslice-dx11-texturearray-dx11"
+category: "plugin"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "SetSliceArray.zip"
+            timestamp: "07 Oct, 2013 - 16:15"
+            download_count: "3"

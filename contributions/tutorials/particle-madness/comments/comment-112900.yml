@@ -1,0 +1,14 @@
+### YamlMime:ContributionComment
+---
+uid: "112900"
+user: "levi"
+created: "21 Jan, 2014 - 12:07"
+body: |-
+  hi,
+  im trying to calculate time passed after emmition for each particle in the emmition CS
+  so if i go  ```
+  Output<index>.lifeT += dt;
+  ``` 
+  that gives me the lifetime of the particle, but for that index only.
+  how can this value continue calculating for all the particles?
+  maybe not asking this right, bit of a noob.

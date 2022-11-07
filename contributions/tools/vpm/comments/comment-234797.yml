@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "234797"
+user: "mrboni"
+created: "27 Jan, 2017 - 20:13"
+body: |-
+  I just tried vpm
+  
+  for some reason it's downloading to the wrong directory.  It's placed the .vpm and packs folder in the parent of the vvvv directory.  I registered the correct vvvversion

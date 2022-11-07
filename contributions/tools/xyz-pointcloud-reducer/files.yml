@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/xyz-pointcloud-reducer-files"
+url: "xyz-pointcloud-reducer"
+category: "tool"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "xyzpointcloudreducer.zip"
+            timestamp: "30 Dec, 2016 - 22:21"
+            download_count: "13"

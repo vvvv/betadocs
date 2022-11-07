@@ -1,0 +1,20 @@
+### YamlMime:ContributionComment
+---
+uid: "59190"
+user: "ft"
+created: "29 Jan, 2011 - 12:33"
+body: |-
+  @rene
+  I experimented some more, and as it seems VLC already supports looping (even with in and out points).
+  
+  What you could do for now (until there is a more user-friendly way) is add a few VLC specific options behind the filename. (There is a lot that can be discovered using vlc's help and vlc's website).
+  
+  So, in the filename pin, you can use:
+   video.avi | input-repeat=-1
+  or if you don't want to loop the entire file, but only from 5.5 to 10 seconds, you can even use:
+   video.avi | input-repeat=-1 | start-time=5.5 | stop-time=10.0
+  
+  @puig
+  I also got streaming working, an mms:// stream from the internet (for example <mms://95.211.98.3/TV-ShowTv>, allthough opening these takes a long time, so be patient), and also streaming FROM VLC player into VVVV works. What I did was stream a file without transcoding, and it was definitely something else than WMV, I don't see why only wmv would work. Maybe because transcoding takes up a lot of CPU power?
+  The other way around should be possible, but then I probably shouldn't decode to memory by default. Maybe I could check for some streaming option in the filename and make it possible to override this.
+  This is not my first concern, so I won't have it done by next week, but I think it should be doable.

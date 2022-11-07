@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "61266"
+user: "rogalag"
+created: "21 Mar, 2011 - 22:52"
+body: |-
+  As I remember Multiskeleton and KinectPointCloud both use "skeleton" plugin,but in fact in first example it is original Hierro plug, and under the same name "skeleton" plug by jonferran for KinectPointCloud. So vvvv use first installed plugin- in your case hierro's. I might be wrong, but try this: remove Multiskeleton, or zip it, than start KinectPointCloud. It should work.

@@ -1,0 +1,53 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/box2d-playground-meta"
+type: "demo"
+author: "tgd"
+date: "06 Aug, 2011"
+title: "box2d playground"
+originalURL: "contribution/box2d-playground"
+category: "demo"
+credits: |-
+  box2d.org and mr. vux for wrapping and help patches.
+like_count: "26"
+imported: "true"
+teaser: |-
+  I would like to share with you my ongoing v4 learning project.
+  It turned out to grow into something like a little box2d sandbox.
+  It is not that sophisticated and many box2d features are
+  still missing, so I prefere to call it playground.
+  
+  ####  Features:
+  
+  -Drawing basic shapes in three flavours (Box, Circle, Triangle).
+  -Dynamic/static shapes. Density, friction, restitution settings.
+  -Mouse interaction with objects.
+  -Chaining objects by distance or revolute joint.
+  -Deleting objects.
+  -Saving/Loading scenes.
+  
+  
+  There are still many places to improve and change,
+  but in the end I am pretty happy how it works for now
+  and hope you like it too and have some fun with it. 
+   
+   
+  
+  <div class="box">
+  **Changelog** 
+  
+  *Ver. 1.1*
+  -Subpatched all the mess. Should make more sense and be better readable now.
+  -Triangles are now made with woei´s mesh join, so each is a subset. 
+  -Many small changes and optimizations in several places.
+  -Added evaluation triggers for some parts that do not need to run all the time.
+  -Added revolute joints to create hinge like connections.
+  -Runs well in 45beta27.2 and AddOnPack
+  
+  
+  *Ver 1.0*
+  -Initial release.
+  -Runs well in 45beta25.1 and AddOnPack
+  
+  
+  </div>

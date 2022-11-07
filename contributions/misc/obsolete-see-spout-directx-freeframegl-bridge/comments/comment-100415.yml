@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "100415"
+user: "rogalag"
+created: "02 May, 2013 - 17:08"
+body: |-
+  The same error on my comp:**Nvidia wglDXInterop failed to initialize**
+  Nvidia drivers updated, 
+  Acer Aaspire i7, Nvidia GT540M, optimus technology, win7x64, VVVV 45 beta29.2x86 demo patch with /dx9ex,Resolume 4.1.3...anyone knows what may be wrong?

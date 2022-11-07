@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/picture-printer-files"
+url: "picture-printer"
+category: "plugin"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "PrintLSD.zip"
+            timestamp: "24 Aug, 2017 - 12:11"
+            download_count: "5"

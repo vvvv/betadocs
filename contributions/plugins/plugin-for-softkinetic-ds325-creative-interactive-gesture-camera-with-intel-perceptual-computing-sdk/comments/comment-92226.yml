@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "92226"
+user: "catweasel"
+created: "01 Dec, 2012 - 19:20"
+body: |-
+  Not having any joy here, the examples all work ok, but in v4 the light stays red and the plugin does put out any data, its not red, there are no error messages...
+  What v4 version are you all using?

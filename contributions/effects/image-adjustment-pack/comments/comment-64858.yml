@@ -1,0 +1,126 @@
+### YamlMime:ContributionComment
+---
+uid: "64858"
+user: "deby"
+created: "07 Jun, 2011 - 16:53"
+body: |-
+  Create contibution. Thanks!
+  I try to create an allinOne FX but with no result...
+  
+  An idea?
+  Thanks a lot 
+  
+  ```
+  //@author: woei
+  //@help: greyscale conversion function and saturation adjustment per channel
+  //@tags: greyscale, saturation, color correction, image adjustment, pixelshader
+  
+  // --------------------------------------------------------------------------------------------------
+  // PARAMETERS:
+  // --------------------------------------------------------------------------------------------------
+  
+  //transforms
+  float4x4 tW: WORLD;        //the models world matrix
+  float4x4 tV: VIEW;         //view matrix as set via Renderer (EX9)
+  float4x4 tP: PROJECTION;
+  float4x4 tWVP: WORLDVIEWPROJECTION;
+  
+  //texture
+  texture Tex <string uiname="Texture";>;
+  sampler Samp = sampler_state    //sampler for doing the texture-lookup
+  {
+      Texture   = (Tex);          //apply a texture to the sampler
+      MipFilter = Linear;         //sampler states
+      MinFilter = Linear;
+      MagFilter = Linear;
+  };
+  
+  //texture transformation marked with semantic TEXTUREMATRIX to achieve symmetric transformations
+  float4x4 tTex: TEXTUREMATRIX <string uiname="Texture Transform";>;
+  
+  #include "Contrast.fxh"
+  #include "Invert.fxh"
+  #include "Levels.fxh"
+  #include "Saturation.fxh"
+  #include "Tonecurve.fxh"
+  
+  //the data structure: "vertexshader to pixelshader"
+  //used as output data with the VS function
+  //and as input data with the PS function
+  struct vs2ps
+  {
+      float4 Pos  : POSITION;
+      float2 TexCd : TEXCOORD0;
+  };
+  
+  // --------------------------------------------------------------------------------------------------
+  // VERTEXSHADERS
+  // --------------------------------------------------------------------------------------------------
+  vs2ps VS(
+      float4 PosO  : POSITION,
+      float4 TexCd : TEXCOORD0)
+  {
+      //declare output struct
+      vs2ps Out;
+  
+      //transform position
+      Out.Pos = mul(PosO, tWVP);
+  
+      //transform texturecoordinates
+      Out.TexCd = mul(TexCd, tTex);
+  
+      return Out;
+  }
+  
+  // --------------------------------------------------------------------------------------------------
+  // PIXELSHADERS:
+  // --------------------------------------------------------------------------------------------------
+  float4 PS(vs2ps In): COLOR
+  {
+      float4 col = tex2d(Samp, In.TexCd);
+  	col = Contrast(col);
+  	col = Invert(col);
+  	col = Levels(col);
+  	col = Saturation(col);
+  	col = Tonecurve(col);
+  	return col;
+  }
+  
+  // --------------------------------------------------------------------------------------------------
+  // TECHNIQUES:
+  // --------------------------------------------------------------------------------------------------
+  
+  technique TFX
+  {
+      pass P0
+      {
+          VertexShader = compile vs_1_1 VS();
+          PixelShader  = compile ps_1_0 GREY();
+      }
+  }
+  
+  technique TFixedFunction
+  {
+      pass P0
+      {
+          //transforms
+          WorldTransform<0>   = (tW);
+          ViewTransform       = (tV);
+          ProjectionTransform = (tP);
+  
+          //texturing
+          Sampler<0> = (Samp);
+          TextureTransform<0> = (tTex);
+          TexCoordIndex<0> = 0;
+          TextureTransformFlags<0> = COUNT2;
+          //Wrap0 = U;  // useful when mesh is round like a sphere
+          
+          Lighting       = FALSE;
+  
+          //shaders
+          VertexShader = NULL;
+          PixelShader  = NULL;
+      }
+  }
+  
+  ```

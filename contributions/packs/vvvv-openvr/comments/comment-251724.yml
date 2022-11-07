@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "251724"
+user: "catweasel"
+created: "04 May, 2018 - 10:30"
+body: |-
+  Has anyone got the vive to work without headset? I've tweaked the settings file, but still can't get to run without errors :(
+  I've adjust the default file here C:\Program Files (x86)\Steam\steamapps\common\SteamVR\resources\settings
+  http://help.triadsemi.com/steamvr-tracking/steamvr-tracking-without-an-hmd
+  as dicussed in this link
+  Also in the file Tonfilm has mentioned above, but I get no tracking...
+  The node gives a HMD not connected error still. If I discconnect the headset USB steam says the controllers cant see the base stations (the app has  the HMD off, which is correct and still displays an error, but that is supposed to happen)
+  If anyone has had success, that would good to hear!

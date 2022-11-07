@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "70840"
+user: "microdee"
+created: "21 Oct, 2011 - 10:24"
+body: |-
+  oh intersect needed only for the help patch (in beta26 it has a different behavior (ray is already rotated in the node, in beta25 you have  to rotate it manually with a transform node)) if you install the texturefx folder of the beta26 addonpack to beta 25 the dof should work.
+  i have beta 26 and 25 side-by-side the default is 26 for me, so you can use both.

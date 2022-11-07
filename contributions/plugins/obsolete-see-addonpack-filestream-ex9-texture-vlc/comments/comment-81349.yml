@@ -1,0 +1,14 @@
+### YamlMime:ContributionComment
+---
+uid: "81349"
+user: "rosenfranz"
+created: "18 Apr, 2012 - 17:10"
+body: |-
+  Hello and thanks for this awesome plugin!
+  
+  I have a question concerning synchronized playback of several high resolution video files. That actually already was the question.
+  More precisely: 
+  Is there a way to play several looped 720p videos with the same amount of frames absolutely synchronized? I've done some testing and there's always a slightly varying frame difference. Sometimes more, sometimes less.
+  The difference even gets bigger with every run if I don't integrate a feedback loop that hits doseek as soon as one of the videos has reached the final frame.
+  
+  would be awesome if there's a way to fix this.

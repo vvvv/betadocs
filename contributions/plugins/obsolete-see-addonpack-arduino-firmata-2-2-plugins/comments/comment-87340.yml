@@ -1,0 +1,10 @@
+### YamlMime:ContributionComment
+---
+uid: "87340"
+user: "jens.a.e"
+created: "20 Aug, 2012 - 13:54"
+body: |-
+  hi tom64,
+  well, it has been some struggle to get the right encoding for the data, as vvvv does not really support *byte* as a value type. internally the plugin packs/unpacks the bytes as an ANSI string; but i can hardly imagine this causes the problem.
+  
+  could you test this behaviour with the rs-232 node alone?

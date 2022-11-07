@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "253945"
+user: "mburk"
+created: "24 May, 2018 - 09:34"
+body: |-
+  Hi, seems like the volumetrics isn't quite working for you. That's probably why the preview looks tinted..the blend node is just adding white. You could just not use the volumetrics and everything shoudld be fine. You can also try the newest version on github and see if that fixes it for you. Proper update to upload here is still in the making.. 
+  
+  https://github.com/michael-burk/SuperPhysical

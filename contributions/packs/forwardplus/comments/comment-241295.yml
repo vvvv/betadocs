@@ -1,0 +1,15 @@
+### YamlMime:ContributionComment
+---
+uid: "241295"
+user: "kopffarben"
+created: "20 Jun, 2017 - 09:24"
+body: |-
+  mmhh on my side all DynamicBuffer nodes are avaiable, even when i do an complete new installation of vvvv.
+  
+  Yes i write my one ons.
+  
+  See compiled version: https://github.com/kopffarben/ForwardPlus/tree/master/nodes/plugins
+  source: https://github.com/kopffarben/ForwardPlus/tree/master/src
+  
+  
+  @microdee i write an vpack file https://github.com/kopffarben/ForwardPlus/blob/master/p.vpack is this right?

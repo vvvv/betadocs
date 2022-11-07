@@ -1,0 +1,15 @@
+### YamlMime:ContributionComment
+---
+uid: "218927"
+user: "subplexus"
+created: "06 Apr, 2016 - 08:33"
+body: |-
+  awesome! love this!
+  
+  so im totally new to hlsl, and admittedly its all completely abstract to me. (Coming from Cinema4D world, i just assumed a shader was simply a method of dressing a shape in 3d space... )
+  
+  this stuff appears to be rocket science!
+  
+  as an example, i saw "sculpture III" and had my socks blown clean off. the scope here for procedural dirt/rust maps is astonishing. this said, im struggling to get the generated geometry into my scene, it appears to only be a 2d texture... 
+  
+  ... can i not add realtime shadows? dof? etc? control camera movement? is there even geometry generated..?

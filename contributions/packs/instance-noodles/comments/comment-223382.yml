@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "223382"
+user: "everyoneishappy"
+created: "23 Jul, 2016 - 05:28"
+body: |-
+  I had a look at adding zip/unzip nodes, seems like a good idea.  I think this should be via plugin though & to be honest I had a lot of trouble to get started with DX11 plugins.  If anyone can help me get sorted with some VS solution files to start with I'd be happy to take a crack at writing some though.

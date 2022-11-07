@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/osc-plugin-files"
+url: "osc-plugin"
+category: "plugin"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "VVVV.Nodes_.OSC_.zip"
+            timestamp: "29 Nov, 2011 - 10:05"
+            download_count: "1"

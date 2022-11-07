@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "203457"
+user: "afrob"
+created: "21 Aug, 2015 - 14:43"
+body: |-
+  Tried to create a demo patch (have to admit that I'm a complete noob patching in vvvv): http://download.raycomposer.de/vvvv/Flovvers.v4p
+  Recorded on laser with my phone: https://www.youtube.com/watch?v=2NkIqqvHxh4
+  Just create some spread with the position/color information, then trigger write frame - the laser will show it.

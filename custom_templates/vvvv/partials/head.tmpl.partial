@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>{{#title}}{{title}}{{/title}}{{^title}}{{>partials/title}}{{/title}} {{#_appTitle}}| {{_appTitle}} {{/_appTitle}}</title>
+  <title>{{#title}}{{title}}{{/title}}{{^title}}{{>partials/title}}{{/title}} {{^contribution}}{{#_appTitle}}| {{_appTitle}} {{/_appTitle}}{{/contribution}}{{#contribution}}{{#_contributionsTitle}}| {{_contributionsTitle}} {{/_contributionsTitle}}{{/contribution}}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="title" content="{{#title}}{{title}}{{/title}}{{^title}}{{>partials/title}}{{/title}} {{#_appTitle}}- {{_appTitle}} {{/_appTitle}}">
   <meta name="generator" content="docfx {{_docfxVersion}}">
@@ -14,6 +14,8 @@
   <link rel="stylesheet" href="{{_rel}}styles/site.css">
   <link rel="stylesheet" href="{{_rel}}styles/main.css">
   <link rel="stylesheet" href="{{_rel}}styles/vvvv-header.css">
+  {{#contribution}}<link rel="stylesheet" href="{{_rel}}styles/contribs.css">{{/contribution}}
+  {{#contribution}}<meta property="docfx:isContribution" content="true">{{/contribution}}
   <meta property="docfx:navrel" content="{{_navRel}}">
   <meta property="docfx:tocrel" content="{{_tocRel}}">
   {{#_noindex}}<meta name="searchOption" content="noindex">{{/_noindex}}

@@ -1,0 +1,12 @@
+### YamlMime:ContributionComment
+---
+uid: "235090"
+user: "io"
+created: "08 Feb, 2017 - 17:35"
+body: |-
+  Nodes are missing for the Patch in VR patch, is this supposed to be working now? Or what are you using to do some patching while wearing the vr set? I tried with the camera but it is too low res, maybe screenshooting?
+  tx
+  Simone
+  
+  EDIT: https://sourceforge.net/projects/screencapturer/files/ this one works at least so it is possible ot tweak the scene wearing the vrset.
+  I am really missing a zoom feature here for vvvv though...

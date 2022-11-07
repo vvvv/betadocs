@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "83162"
+user: "u7angel"
+created: "22 May, 2012 - 17:59"
+body: |-
+  i tried videoin directshow with my macbook pro built in cam, no luck. LED turns green but no image. 
+  
+  when i try vvvv videoin node, i always need to set the cam to YUV manually to get it working. i dont see this option in your version.

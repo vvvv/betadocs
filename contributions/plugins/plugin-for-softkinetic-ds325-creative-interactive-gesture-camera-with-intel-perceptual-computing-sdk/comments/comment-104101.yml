@@ -1,0 +1,16 @@
+### YamlMime:ContributionComment
+---
+uid: "104101"
+user: "NEON"
+created: "22 Jul, 2013 - 14:58"
+body: |-
+  Hello Guys,
+  
+  did you already manage it to use the face recognition in VVVV?
+  I got the Sample in the SDK working, but i am not sure, how you could implement that feature in VVVV. Any Ideas on that? I want to save different Persons (give them different IDs) and want to recognize them later.
+  
+  Great if somebody could help or even send a testpatch ...
+  
+  Thanks in advance
+  
+  NEON

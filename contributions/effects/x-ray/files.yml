@@ -1,0 +1,33 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/x-ray-files"
+url: "x-ray"
+category: "effect"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "2"
+            filename: "X_Ray.zip"
+            description: |-
+              with texture input
+            
+            timestamp: "20 Jun, 2018 - 14:45"
+            download_count: "3"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "1"
+                    filename: "X_Ray.7z"
+                    description: |-
+                      DX11 + DX9
+                    
+                    timestamp: "08 Feb, 2018 - 18:34"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "X_Ray.zip"
+                    timestamp: "01 Aug, 2010 - 14:55"
+                    download_count: "3"

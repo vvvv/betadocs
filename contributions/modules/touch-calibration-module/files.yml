@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/touch-calibration-module-files"
+url: "touch-calibration-module"
+category: "module"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "gui-touchcalibration.zip"
+            timestamp: "29 Sep, 2015 - 18:27"
+            download_count: "2"

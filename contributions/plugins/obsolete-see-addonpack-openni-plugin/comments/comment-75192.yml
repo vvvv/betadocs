@@ -1,0 +1,44 @@
+### YamlMime:ContributionComment
+---
+uid: "75192"
+user: "karistouf"
+created: "23 Jan, 2012 - 18:15"
+body: |-
+  hi joreg, first thxs for your replu on shoutbox
+  
+  ok i have kinnect contrib nstall in vvvvbeta27/contribs folder + alt r done.
+  
+  i can now see in node list the kinnect done
+  
+  i** have a problem: red nodes** and tty renderer feedback:
+  
+  ```
+  00:06:32 ERR : System.IO.FileLoadException: Impossible de charger le fichier ou l'assembly 'file:///C:\vvvv_45beta27\contribs\plugins\OpenNI_Kinect\OpenNIKinect.dll' ou une de ses dépendances. L'opération n'est pas prise en charge. (Exception de HRESULT : 0x80131515)
+  Nom de fichier : 'file:///C:\vvvv_45beta27\contribs\plugins\OpenNI_Kinect\OpenNIKinect.dll' ---> System.NotSupportedException: Tentative de chargement d'un assembly à partir d'un emplacement réseau qui aurait entraîné l'utilisation de l'assembly en mode Bac à sable (sandbox) dans les versions antérieures du .NET Framework. Cette version du .NET Framework n'activant pas la stratégie CAS par défaut, ce chargement peut être dangereux. Si ce chargement n'est pas destiné à utiliser l'assembly en mode Bac à sable (sandbox), activez le commutateur loadFromRemoteSources. Pour plus d'informations, consultez http://go.microsoft.com/fwlink/?LinkId=155569.
+     à System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+     à System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+     à System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, StackCrawlMark& stackMark, Boolean forIntrospection, Boolean suppressSecurityChecks)
+     à System.Reflection.RuntimeAssembly.InternalLoadFrom(String assemblyFile, Evidence securityEvidence, Byte<> hashValue, AssemblyHashAlgorithm hashAlgorithm, Boolean forIntrospection, Boolean suppressSecurityChecks, StackCrawlMark& stackMark)
+     à System.Reflection.Assembly.LoadFrom(String assemblyFile)
+     à VVVV.Hosting.Factories.DotNetPluginFactory.CreatePlugin(INodeInfo nodeInfo, IPluginHost2 pluginHost)
+     à VVVV.Hosting.Factories.DotNetPluginFactory.CreateNode(INodeInfo nodeInfo, IInternalPluginHost pluginHost)
+     à VVVV.Hosting.Factories.AbstractFileFactory`1.Create(INodeInfo nodeInfo, INode host)
+     à VVVV.Hosting.HDEHost.CreateNode(INode node)
+  
+  ```
+  
+  
+  I have tried to unzip with seven zip the vvvv plugin, without changing anything.
+  
+  beta27 is administrator rights
+  
+  showing installed:
+  openNi 1.5.2.23 w64b
+  windows driver package primesense(psdrv3) 02/16/2011 3.1.2.0
+  windows driver package primesense(psdrv3) 02/16/2011 3.1.3.1
+  PrimeSense NITE 1.5.2.21 w64b
+  PrimeSense Sensor KinnectMod 5.1.0.25 w64b
+  
+  :-( 
+  
+  any idea ???

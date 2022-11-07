@@ -1,0 +1,19 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/bulletphysics-tutorial-and-samples-meta"
+type: "tutorial"
+author: "microdee"
+date: "10 Apr, 2013"
+title: "BulletPhysics tutorial and samples"
+originalURL: "contribution/bulletphysics-tutorial-and-samples"
+category: "tutorial"
+credits: |-
+  [vux](http://vvvv.org/users/vux) for fixing a bug considering the Custom Objects in the bodies and shapes.
+like_count: "11"
+imported: "true"
+teaser: |-
+  vvvv 45beta30 IS RECOMMENDED
+  
+  Tutorial and sample patches demonstrating most of the features in bullet physics in vvvv. These are the finalized versions of the ones presented at NODE13 during the "Physics based interaction: Bullet" workshop.
+  
+  In the beta29.2 there's a bug with Custom Objects so if you want to play with that (those are used in the sample game for the health of the enemies and the age of the projectiles) use beta 30.

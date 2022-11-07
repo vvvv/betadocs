@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "100227"
+user: "sunep"
+created: "27 Apr, 2013 - 17:07"
+body: |-
+  the output has gesture name and a number. it seems like the number being output has a relation to how certain the recognizer is of it's choice.  is there any info on this somewhere?

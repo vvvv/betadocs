@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "214433"
+user: "mediadog"
+created: "11 Jan, 2016 - 03:24"
+body: |-
+  The example patch works, but when I try to add a new Scripter node I only get a white window that opens, and I cannot type in it or do anything.  This is with 34.2x86 on Win7 x64.  How is one to start a new node?

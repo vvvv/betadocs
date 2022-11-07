@@ -1,0 +1,12 @@
+### YamlMime:ContributionComment
+---
+uid: "234808"
+user: "guest"
+created: "28 Jan, 2017 - 16:07"
+body: |-
+  hello,
+  
+  i'm not sure how to split the forcebuffer & ForceIndexBuffer to match the split of the pointcloudBuffer and keep the right forces at the right place, it's possible to filter PC id's at the Visualization stage but it's far slower!
+  
+  any ideas?
+  thanks

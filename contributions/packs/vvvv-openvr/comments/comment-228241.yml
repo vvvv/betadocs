@@ -1,0 +1,19 @@
+### YamlMime:ContributionComment
+---
+uid: "228241"
+user: "lari.fari"
+created: "18 Sep, 2016 - 21:14"
+body: |-
+  hi all,
+  
+  first of all great thanks to tonfilm and all others for bringing this to vvvv.
+  
+  i am currently trying to move the controller's origin (or axis center) to another location in the controller, but no luck so far.
+  
+  i edited the .obj files origin in the steam/steamapps/.../vr_controller_vive_1_5 which is used in the ViveController node, but that obviously only changes the rendered model.
+  
+  i also looked at the json file in that folder but couldn't figure out if this is the right place.
+  
+  if anybody could give me directions on this it would help me a lot.
+  
+  cheers!

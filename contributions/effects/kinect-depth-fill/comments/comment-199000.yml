@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "199000"
+user: "Grandchild"
+created: "17 Jun, 2015 - 13:58"
+body: |-
+  @mrboni ah that's a pity... I have an AMD card, so I can't really test.
+  I'm not that experienced with shaders... It might be a bit many texture sample lookups (although 9 per pixel doesn't seem that overwhelming). And for loops and ifs don't seem that cool in shaders either. If anyone has pointers, I'd be glad to improve on the shader :)

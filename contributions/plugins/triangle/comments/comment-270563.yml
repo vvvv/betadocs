@@ -1,0 +1,10 @@
+### YamlMime:ContributionComment
+---
+uid: "270563"
+user: "digitalwannabe"
+created: "06 Jan, 2019 - 22:32"
+body: |-
+  @drehwurm: out of bounds is pretty generic as it can have lots of reasons - basically it says there is some array somewhere which is smaller than the index used trying to access it; also, from the error message only you can’t tell which array is making problems....
+  BUT „ran out of precision“ is interesting, as it’s a Triangle.Net specific error (which I found out via google), and it points to the actual problem, see here
+  https://github.com/eppz/Triangle.NET/blob/master/Triangle.NET/Triangle/Meshing/QualityMesher.cs
+  Can‘t see line numbers as I’m on my mobile but simply search for ran out of precision - it looks like the triangles you are trying to create are too small for floating point precision; try decreasing the quality of your desired mesh!

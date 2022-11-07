@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "160935"
+user: "joreg"
+created: "29 Jul, 2014 - 13:53"
+body: |-
+  @mino: i added requirements above. does that help?
+  
+  @esnho: in most samples you can easily use FaceData (Kinect Microsoft Fallback) to simulate the face.

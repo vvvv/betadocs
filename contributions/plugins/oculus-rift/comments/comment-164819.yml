@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "164819"
+user: "mrboni"
+created: "12 Sep, 2014 - 12:26"
+body: |-
+  I still don't get how you guys are correcting the distortion. I see that in the new SDK the distortion happens using a mesh rather than pixel shader as before, so there aren't any distortion coefficients.
+  
+  In the absence of that data from the SDK are you manually tweaking the DistKXYZW values?

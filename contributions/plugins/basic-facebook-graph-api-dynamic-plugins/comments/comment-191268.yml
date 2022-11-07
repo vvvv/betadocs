@@ -1,0 +1,10 @@
+### YamlMime:ContributionComment
+---
+uid: "191268"
+user: "tgd"
+created: "20 Apr, 2015 - 09:22"
+body: |-
+  Just checked the versioning and availability at https://developers.facebook.com/docs/apps/changelog
+  The plugins were written against the 1.0 version from 2010 and should "expire" in 10 days (30.04.2015), lol. What a timing. 
+  You mind to tell what is broken already or errors?
+  I still can not test it myself.

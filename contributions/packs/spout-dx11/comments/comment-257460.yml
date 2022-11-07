@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "257460"
+user: "toyshung"
+created: "11 Jul, 2018 - 07:39"
+body: |-
+  the sender node does not work for me. if I start the the receiver demo from spout my vvvv sender does not show up in the list. but the receiver does work. 
+  
+  does anybody has this problem too?

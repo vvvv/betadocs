@@ -1,0 +1,20 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/countdown-module-meta"
+type: "module"
+author: "rosenfranz"
+date: "11 Oct, 2012"
+title: "Countdown Module"
+originalURL: "contribution/countdown-module"
+category: "module"
+credits: |-
+  initial version: [sunep](http://vvvv.org/users/sunep)
+  refurbished version: [rosenfranz](http://vvvv.org/users/rosenfranz)
+like_count: "2"
+imported: "true"
+teaser: |-
+  This comes in handy for me every now and then so I thought I should share it.
+  I edited [sunep](http://vvvv.org/users/sunep)'s version where the conversion from hh:mm:ss to seconds and back didn't work correctly.
+  I fixed that, tidied up and altered the module a bit to my preferrence.
+  
+  Have fun with it and thanks [sunep](http://vvvv.org/users/sunep) for creating the initial version.

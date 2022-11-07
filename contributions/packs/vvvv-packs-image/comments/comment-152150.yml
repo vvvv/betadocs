@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "152150"
+user: "microdee"
+created: "19 Mar, 2014 - 12:00"
+body: |-
+  @motzi: i met a similar error, i could fix it by manually fiddling with packages.config files in the projects

@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "163868"
+user: "catweasel"
+created: "02 Sep, 2014 - 12:31"
+body: |-
+  Nvidia are apparently updating their drivers to fix the spout issue with optimus, sometime around mid sept, so lets hope they have, and all will be good from there!
+  I've also been in touch with the dev of TCPSyphon, and he is planning a spout receiver for syphon via TCP, which would be great, a x platform texture sharing!

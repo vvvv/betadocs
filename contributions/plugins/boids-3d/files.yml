@@ -1,0 +1,27 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/boids-3d-files"
+url: "boids-3d"
+category: "plugin"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "1"
+            filename: "_FlockingBehaviour(3D).zip"
+            description: |-
+              Version 1.1
+            
+            timestamp: "07 Nov, 2012 - 15:43"
+            download_count: "1"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "FlockingBehavior.zip"
+                    description: |-
+                      Version 1.0
+                    
+                    timestamp: "30 Nov, 2011 - 14:55"
+                    download_count: "1"

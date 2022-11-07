@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "222736"
+user: "everyoneishappy"
+created: "04 Jul, 2016 - 22:51"
+body: |-
+  I think at some point the default format for a temp renderer was changed.  I uploaded the patch again with it set to a floating point format- seems to work now.

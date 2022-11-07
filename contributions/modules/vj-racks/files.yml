@@ -1,0 +1,36 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/vj-racks-files"
+url: "vj-racks"
+category: "module"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "2"
+            filename: "Audio_TooL_V3.zip"
+            description: |-
+              VJ Racks 2 - Audio TooL V3. Audio analysis. Big Update
+            
+            timestamp: "12 Nov, 2013 - 21:15"
+            download_count: "1"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "1"
+                    filename: "Grid_video.zip"
+                    description: |-
+                      Vj Racks 3 - GridVIdeo v1. Video Launcher for quicktime movies. Includes FFmpeg Binaries for thumbs generator.
+                    
+                    timestamp: "11 Jul, 2013 - 18:11"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "BPM_tap.zip"
+                    description: |-
+                      Vj Racks 1 - BPM Tap. just tap BPM button
+                    
+                    timestamp: "13 Apr, 2013 - 04:55"
+                    download_count: "1"

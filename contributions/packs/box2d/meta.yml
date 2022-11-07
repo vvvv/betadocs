@@ -1,0 +1,32 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/box2d-meta"
+type: "pack"
+author: "vux"
+date: "05 Sep, 2017"
+title: "Box2D"
+originalURL: "contribution/box2d"
+category: "pack"
+credits: |-
+  Erin Catto : http://box2d.org/
+  Abstract Birds
+like_count: "13"
+imported: "true"
+teaser: |-
+  Here they are (again) Box2D nodes.
+  
+  Now available as a separate pack, with 32 and 64 bits version.
+  
+  Other changes from previous addonpack versions:
+  
+  GetBodyDetails, GetCircles and GetPolygons are now faster, and have less GC pressure
+  
+  Please note this is now installed as a standard pack.
+  
+  Works with either beta 33.7, or beta 35+ (does not work with beta 34 series).
+  
+  Please report issues here: 
+  https://github.com/mrvux/vvvv-Box2D/issues
+  
+  Source code here :
+  https://github.com/mrvux/vvvv-Box2D

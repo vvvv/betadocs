@@ -1,0 +1,20 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/vvvv-dependency-installer-meta"
+type: "misc"
+author: "u7angel"
+date: "04 Dec, 2018"
+title: "vvvv dependency installer"
+originalURL: "contribution/vvvv-dependency-installer"
+category: "misc"
+like_count: "10"
+imported: "true"
+teaser: |-
+  this is just a proof of concept script in order to install all vvvv dependencies automatically and add vvvv.exe to the Windows Defender Exceptions to improve startup time
+  
+  <div class="vimeo embed-responsive embed-responsive-16by9 mt-3 mb-4">
+      <iframe title="vimeo-player" src="https://player.vimeo.com/video/304381914" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+  </div>
+  
+  https://github.com/wirmachenbunt/vvvv_installer
+  (do you want to contribute ? yes please)

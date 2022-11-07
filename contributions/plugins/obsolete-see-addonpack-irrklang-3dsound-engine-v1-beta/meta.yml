@@ -1,0 +1,25 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/obsolete-see-addonpack-irrklang-3dsound-engine-v1-beta-meta"
+type: "plugin"
+author: "sanch"
+date: "25 Sep, 2010"
+title: "[OBSOLETE, see Addonpack]  IrrKlang 3DSound Engine V1 beta"
+originalURL: "contribution/obsolete-see-addonpack-irrklang-3dsound-engine-v1-beta"
+category: "plugin"
+credits: |-
+  http://www.ambiera.com/irrklang/
+  Coded by sanch with the help of the vvvvdev and mrvux
+like_count: "14"
+imported: "true"
+teaser: |-
+  irrKlang is a powerful high level API for playing back sound in 3D and 2D applications like games, scientific visualizations and multimedia applications. irrKlang is free for non commercial use. There is also an advanced version of irrKlang named 'irrKlang pro' which can be purchased for a small license fee and may be used in commercial products. 
+  
+  irrKlang has built-in support for 3D sound on all platforms and audio drivers. It was designed to be used in 3D games, so it is very efficient and does not use a lot of CPU time
+  
+  irrKlang is able to play short buffered sounds (e.g. gun shots) as well as huge, streamed sounds (e.g. a radio mp3) in 3D. A conversion to mono sounds is not necessary here, irrKlang is able to do this on the fly.
+  
+      *   Fast 3D audio on low end hardware: Because some low end audio hardware is not able to play 3D sounds without significant performance loss or some don't support 3d audio buffers at all, irrKlang has a high performance 3d sound buffer emulator built-in, causing a sound experience nearly as it was a real 3d sound buffer.
+      * Multiple rolloff models: irrKlang supports linear as well as logarithmic rolloff.
+  
+  All 3D sounds may of course be combined with the available sound effects such as echo and reverb

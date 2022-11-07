@@ -1,0 +1,15 @@
+### YamlMime:ContributionComment
+---
+uid: "235269"
+user: "mrboni"
+created: "13 Feb, 2017 - 16:57"
+body: |-
+  This isn't working for me - is it tested with latest beta and dx11?
+  
+  When I say 'not working', everything is functioning but the intersect / hittest results are wrong
+  
+  
+  - - - - - 
+  
+  
+  BTW - this ended up working once files were moved to the packs folder

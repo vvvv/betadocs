@@ -1,0 +1,18 @@
+### YamlMime:ContributionComment
+---
+uid: "76771"
+user: "dl-110"
+created: "22 Feb, 2012 - 14:20"
+body: |-
+  Hey folks,
+  
+  I installed the drivers like u7angel said but I can´t get the kinect to work under beta 27.1. The Driver Pin of the Kinect(Devices OpenNI) node says "Unable to connect to Device!" but I can receive a depth picture. Skeleton node and everything else refuse to work... The Kinect(Devices Microsoft) turns red after a few seconds...
+  
+  Here the list of the installed drivers:
+  **OpenNI 1.5.2.23 (32bit, stable, redist edition)**
+  **NITE 1.5.2.21 (32bit, stable, redist edition)**
+  **SensorKinect091 5.1.0.25 (32bit)**
+  
+  As I mentioned earlier I´m working with a MacBookPro with Bootcamp and Win 7 32 bit.
+  
+  Anyhow, I will move to this thread to [/forum-alpha/openni-for-alpha27.1](/forum-alpha/openni-for-alpha27.1) since I´m working under beta27.1 now.

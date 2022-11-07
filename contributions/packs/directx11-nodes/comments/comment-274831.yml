@@ -1,0 +1,19 @@
+### YamlMime:ContributionComment
+---
+uid: "274831"
+user: "microdee"
+created: "22 Jan, 2020 - 15:39"
+body: |-
+  @joreg thanks for your response, that was insightful
+  
+  my short reaction: my point was making DX11 the vanilla rendering path in VVVV and deprecating DX9 all-together (or at least tag it as legacy) a 1.5 decades old technology, the world moved on since by a landslide, twice even! A package manager will not solve that. Especially because the community already has one, VPM, and many creators are using it for their own packs, and many times I received the feedback "this should be included in the vvvv download" (which is btw under MIT so you do whatever you want, again without any permission, just saying... :P). Sure from hindsight it might have many bad design decisions, and a terrible codebase, but it works so far, and showing some official interest for it, I might jump back onto that band-wagon. But back to the point "you can download it via package manager" != "vanilla"!!!
+  
+  DX11 for vvvv implementation is under BSD license which implies: **You don't need Vux's permission to do whatever you want with it, including using it without credit/association in a closed source commercial application.**
+  
+  After this it's just a case of "yeah but we don't wanna" in which case, I don't even comprehend how you guys imagine making money with that attitude in the coming decade???
+  
+  Btw, I don't think so Vux needs any help or more grattitude, that'd be too little too late. He moved on, working for Epic now on ray-tracing in UE4, and vvvv is far-far beyond his focus already. That's why I'm also so loud with "DX11 needs to be vanilla" in the first place, because when that repo bit-rots away in the next decade, that's the end-of-life for old-school vvvv too.
+  
+  For the last 2 years I've been constantly writing these long ass, ranty comments (I also did for this one and figured I will just scrap it, what's the point anyway). It's not great. I'm not doing this because I enjoy shouting at people. But please do not consider this as "ah this soviet-eastern block asshole again is doing a tantrum". There are people who feel the same frustration as me, but instead of causing a fuss (oh god not the fuss, please not the fuss :P) they simply leave without a word, and consider vvvv as a finished episode in their life. You don't get any real feedback from that kind of behavior, until too late.
+  
+  **If I see early signs of shit going down, you can bet, I'll cause a big and loud fuss!**

@@ -1,0 +1,16 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/youtube-(upload)-meta"
+type: "plugin"
+author: "ethermammoth"
+date: "29 Mar, 2013"
+title: "YouTube (upload)"
+originalURL: "contribution/youtube-(upload)"
+category: "plugin"
+credits: |-
+  Credits go to the youtube documentation.
+like_count: "9"
+imported: "true"
+teaser: |-
+  Upload videos asynchronously to YouTube.
+  (only one file at a time implemented..)

@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "235042"
+user: "microdee"
+created: "06 Feb, 2017 - 11:39"
+body: |-
+  well yeah via scripting but you should prompt the user either during licence page or with a console question because it can break stuff for other packs. you can extract a download link from the download section and use that to download the vvvv in the C# script, then in the script just extract and copy + overwrite into the vvvv folder.
+  or if you want latest alpha just add the vvvv updater vpack from vpdb to the dependencies

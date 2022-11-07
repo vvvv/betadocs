@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "239288"
+user: "guest"
+created: "06 May, 2017 - 04:45"
+body: |-
+  @tmp
+  
+  Writing a custom selector is beyond my knowledge. But the “Filter DX11.Pointcloud Texture 2d” works with the trick of using a noise texture to filter out some particles randomly. Is there an equivalent filter in the current pack? 
+  
+  Also, with the Pointcloud pack, a seamless emission from every Kinect texture point is possible. But in the new pack, when setting the Mod input to 1, it emits only from some parts every few seconds. A seamless emission is only possible by increasing the mod input, which decreases the emission grid. Increasing the emitter size leads to some more particles, but for the cost of a massive framerate drop. Tests are done with the Kinect Setup patch.

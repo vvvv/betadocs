@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "166717"
+user: "tomasciccola"
+created: "02 Oct, 2014 - 16:57"
+body: |-
+  Niceeee...
+  I´ve trying to do some glitch stuff, non shader based and on DX9, using  AsRaw(texture)+AsString(Raw) and then something like a getspread with a randomspread interviening the raw data from the texture and finally a Dynamictexture(Raw). Kind of random results (which is cool), and some flickering that I couldn´t get rid of...

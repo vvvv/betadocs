@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "75754"
+user: "sur"
+created: "05 Feb, 2012 - 00:20"
+body: |-
+  this is great!
+  working well with beta27, except DOF (no red nodes, just all blurry/nothing in focus)
+  do you think you can put up an expanded tutorial 
+  on porting material shaders to work with MRE and shadows?
+  i read the pdf but still a little advanced for me....
+  
+  thnx!

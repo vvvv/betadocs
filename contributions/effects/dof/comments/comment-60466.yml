@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "60466"
+user: "john"
+created: "04 Mar, 2011 - 03:43"
+body: |-
+  I was just having probs with this  effect again as described in the top post ,curiously version 1.1 is not working for me but v1.0 works fine after the suggested change of pixel shader version.

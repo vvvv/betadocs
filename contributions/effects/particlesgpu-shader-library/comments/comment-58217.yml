@@ -1,0 +1,30 @@
+### YamlMime:ContributionComment
+---
+uid: "58217"
+user: "lasal"
+created: "09 Jan, 2011 - 22:14"
+body: |-
+  Hi Dottore, 
+  
+  i´ve tried it but maybe (for sure) i´m missing something, 
+  could you check the pixel shader code?
+  thanks again
+  
+  ```
+  -----------------------------------------
+  // PIXELSHADERS:
+  // --------------------------------------------------------------------------------------------------
+  float Alpha <float uimin=0.0; float uimax=1.0;> = 1;
+  float4 PS(vs2ps In): COLOR
+  {
+     // float4 col = PhongDirectional(In.NormV, In.ViewDirV, In.LightDirV)*Alpha;
+     float4 col = tex2D(Samp, In.Tex2Cd); 
+     col.rgb = PhongDirectional(In.NormV, In.ViewDirV, In.LightDirV);
+     col.a = Alpha;
+     return col ;
+      
+  
+     
+  }
+  
+  ```

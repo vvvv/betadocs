@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "89233"
+user: "chan"
+created: "05 Oct, 2012 - 02:40"
+body: |-
+  I am not sure what I am doing wrong, but all I see is the axis on renderer box. I don't know coding, so the above discussion doesn't help me. May you help? 
+  
+  It looks really cool, if I could get to work. Will the patch provide coordinates of the bvh points as the skeleton moves?
+  
+  I am working with 45beta28.1 including the addon pack.

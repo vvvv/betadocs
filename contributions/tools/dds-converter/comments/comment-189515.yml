@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "189515"
+user: "elliotwoods"
+created: "20 Mar, 2015 - 13:51"
+body: |-
+  feature suggestions:
+  
+  * Threading (CPU usage is really low even with CUDA disabled, this might especially help when there's lots of small files. or CUDA flag might just not be working?)
+  * Cancel / stop button (instead of having to halt in Task Manager)
+  * Remaining time

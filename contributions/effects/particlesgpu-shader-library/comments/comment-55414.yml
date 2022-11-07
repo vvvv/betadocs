@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "55414"
+user: "tonfilm"
+created: "10 Nov, 2010 - 19:09"
+body: |-
+  ati cards cannot access texture data in the vertex shader. in theory they could, but it would need some nasty settings, which vvvv doesnt do...

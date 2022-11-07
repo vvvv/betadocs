@@ -1,0 +1,16 @@
+### YamlMime:ContributionComment
+---
+uid: "114277"
+user: "Alec"
+created: "18 Feb, 2014 - 10:32"
+body: |-
+  Hey velcrome,
+  I tested your module with my 28x16 led matrix (56 leds x 8 Teensy pins) but only first 8 strips (4 Teensy pins) work. The other leds are off. 
+  
+  Working leds also flashing.
+  
+  [Catweasel](http://vvvv.org/users/Catweasel) module works fine with the same setup. Any suggestion?
+  
+  Please look at the simple attached patch.
+  
+  <https://dl.dropboxusercontent.com/u/44959049/Octo_test.zip>

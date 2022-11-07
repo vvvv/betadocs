@@ -1,0 +1,16 @@
+### YamlMime:ContributionComment
+---
+uid: "206947"
+user: "mediadog"
+created: "27 Sep, 2015 - 17:23"
+body: |-
+  Finally getting around to exploring this, but running into some problems and tons of red nodes in patches using a previous version and the current girlpower examples.
+  
+  First, the file above:
+  vvvv-Message_Release_x86.zip - 17.04.15 <14:56%20UTC>
+  
+  seems to be packed wrong, as it seems to have folders recursed such as nodes/core and nodes/nodes, and a different version of VVVV.Packs.Messaging.dll in the two core folders.  I got it to work by taking the bottom-most nodes and using those, but not sure I got the right version of VVVV.Packs.Messaging.dll.
+  
+  Then the girlpower examples, such as Durations gives red nodes for Message and AsMessage; looks like those have been renamed
+  
+  Looks very cool, anxious to experiment with it, thanks a ton!

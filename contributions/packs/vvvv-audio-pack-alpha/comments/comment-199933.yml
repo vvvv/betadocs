@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "199933"
+user: "tonfilm"
+created: "20 Jul, 2015 - 18:56"
+body: |-
+  hi mrboni, sorry for the long delay. the plugin you are trying to lead has no GUI defined by the developer. the UI which you see in your audio software is a generic UI provided by the DAW. most DAWs have this kind of fallback, but its not yet implemented in VAudio, see the known bugs section.
+  
+  so either you have some funding to implement this in VAudio or you can ask the developer whether he is planning to provide a UI for his plugins which do not have one yet... quite a few in the current ambiX pack.

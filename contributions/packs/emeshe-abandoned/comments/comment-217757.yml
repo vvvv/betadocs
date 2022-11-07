@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "217757"
+user: "microdee"
+created: "08 Mar, 2016 - 14:05"
+body: |-
+  oh yes there were a breaking change ditched primitive-objects and currently developing a typeless solution. this however broke everything which i haven't conformed yet to the new vobjects. use vobjects from this point: https://github.com/microdee/VObjects/tree/185d50dbb93e49f65ee3612c25f28b967c7fc2d4
+  also i think emeshe will go through a big overhaul in the near future, be prepared for emeshe 3 ;)

@@ -1,0 +1,10 @@
+### YamlMime:ContributionComment
+---
+uid: "249414"
+user: "andresc4"
+created: "26 Feb, 2018 - 20:04"
+body: |-
+  I just added a small fix for new vvvv vercion
+  for some reason SetSlice Raw report an error at a nill value
+  
+  It would be awesome to find track name/time![](https://vvvv.org/sites/default/files/imagecache/large/images/fix_0.png)

@@ -1,0 +1,15 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/milkydrop-meta"
+type: "effect"
+author: "ggml"
+date: "28 Jun, 2017"
+title: "MilkyDrop"
+originalURL: "contribution/milkydrop"
+category: "effect"
+credits: |-
+  unc, dreamrec
+like_count: "9"
+imported: "true"
+teaser: |-
+  effect chain, flows indefinitely after initial activation

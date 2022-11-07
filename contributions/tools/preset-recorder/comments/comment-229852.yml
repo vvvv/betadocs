@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "229852"
+user: "joreg"
+created: "15 Oct, 2016 - 14:21"
+body: |-
+  regarding the Kontrolleur app i guess it would need to be rebuilt with latest processing to run on recent androids. sources are here: https://github.com/vvvv/Kontrolleur
+  
+  still looking fine though on my nexus4 running android 5.1.1

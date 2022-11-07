@@ -1,0 +1,17 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/3d-position-ui-meta"
+type: "module"
+author: "Urbankind"
+date: "11 May, 2013"
+title: "3D position UI"
+originalURL: "contribution/3d-position-ui"
+category: "module"
+like_count: "7"
+imported: "true"
+teaser: |-
+  This is a small contribution to set the 3d position for a given object. Found it a bit difficult sliding the values in the IO box so made a simple UI to move object in 3d space for ease and to have better sense of moving things.
+  
+  Perhaps this could be done using less nodes to make it more compact, feel free to edit.
+  
+  Cheers!

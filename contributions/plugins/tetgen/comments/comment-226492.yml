@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "226492"
+user: "digitalwannabe"
+created: "03 Sep, 2016 - 13:09"
+body: |-
+  [plugins-calling-native-code-work-on-most-computers-on-some-they-dont](https://discourse.vvvv.org/t/plugins-calling-native-code-work-on-most-computers-on-some-they-dont)
+  
+  @tekcor @sinus @mediadog @anybody else having problems: if any of you can confirm that running the helppatch of [spoutcontrols](xref:contribution/spoutcontrols) and hit *write* will NOT create a folder *C:\ProgramData\Spout* and a txt file in it + you do get the same TTY error this could help a lot in tracking down what's wrong. Atm I believe that for some reason the path to the referenced dlls is not added (correctly) to your PATH environment variables....I'm working on finding a solution.

@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/enttec-dmx-usb-pro-mkii-module-files"
+url: "enttec-dmx-usb-pro-mkii-module"
+category: "module"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "DMXmkII (Devices Enttec USB Pro Mk2 Sender).v4p"
+            timestamp: "02 Feb, 2016 - 16:34"
+            download_count: "2"

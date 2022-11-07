@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "57405"
+user: "hierro"
+created: "20 Dec, 2010 - 17:53"
+body: |-
+  well, what i can say is that we are having pain in the ass to use those rotations into unity, maybe for a lack of experience on matrix and quaternion, and also cos unity is an unclear platform, anyway openNi has  a 3x3 matrix respect orientation, and we are assuming that rotation XYZ are on the first column of that matrix
+  
+  rotationX=matrix<0>
+  rotationY=matrix<3>
+  rotationZ=matrix<6>
+  
+  anyway is not working clean actually :)

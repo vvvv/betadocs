@@ -1,0 +1,13 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/dx11-sprite-sheet-text-meta"
+type: "module"
+author: "catweasel"
+date: "16 Feb, 2015"
+title: "DX11 Sprite Sheet Text"
+originalURL: "contribution/dx11-sprite-sheet-text"
+category: "module"
+like_count: "6"
+imported: "true"
+teaser: |-
+  Simple module to use sprite sheets for DX text, especially in interfaces where you might have a lot. Spreadable by line, single lines only

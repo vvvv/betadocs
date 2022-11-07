@@ -1,0 +1,25 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/tunnel-game-meta"
+type: "misc"
+author: "Martin Zrcek"
+date: "27 Mar, 2013"
+title: "Tunnel Game"
+originalURL: "contribution/tunnel-game"
+category: "misc"
+credits: |-
+  [Martin Zrcek](http://vvvv.org/users/Martin+Zrcek), CIANT Prague <http://www.ciant.cz/>
+like_count: "15"
+imported: "true"
+teaser: |-
+  You can control the aircraft, but you cannot hit the border. This is a kind of a game, made specially for stereoscopic awesomeness effect used with CIANT verticalizer.
+  
+  The good thing is to create cylinders along the path by taking LookAt transform matrix on a series of points on B-Spline and apply them in Vertex shader. It's simple and works great. Bump mapping is just for an effect. The long light should show 3rd dimension in stereo, to lead an eye.
+  
+  **BUG:** It takes some time to settle in, so first like 5 minutes you see only an aeroplane. But than, wait for it, a tunnel appears. The main purpose of this application was to make it in 2 days and it was, so don't say the code is not really clean and debugged :) I know.
+  
+  
+  btw, I need a job. Almost all the time nothing much to do. If you have something, tell me. 
+  
+  martin@probenesov.cz
+  <http://martinzrcek.cz/en/>

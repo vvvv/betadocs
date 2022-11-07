@@ -1,0 +1,26 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/dvbtglitch-or-simply-a-poor-mans-antenna-meta"
+type: "plugin"
+author: "princemio"
+date: "01 Oct, 2014"
+title: "DVBTGlitch - or simply a poor man's antenna"
+originalURL: "contribution/dvbtglitch-or-simply-a-poor-mans-antenna"
+category: "plugin"
+credits: |-
+  started with this one: https://www.shadertoy.com/view/Md2GDw
+  so credits to kusma.
+like_count: "15"
+imported: "true"
+teaser: |-
+  This Pixelshader simulates a digital glitch on the GPU.
+  It has 5 different distortions layed on top of each other and meltet randomly.
+  
+  I simply tweaked ,added some FX to enrich the picture in more different ways and for now - i enjoy the results and hope that it might be usefull to someone.
+  Playing around with glitches became a hobby to me. Maybe someone wants to join and help improving. 
+  
+  
+  
+  later homez
+  
+  mio

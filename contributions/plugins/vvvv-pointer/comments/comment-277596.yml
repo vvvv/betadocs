@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "277596"
+user: "david"
+created: "22 Jan, 2021 - 10:02"
+body: |-
+  super nice plugin. seems broken in latest beta though. 
+  update: works again. In some cases the combibation of VVVV.Pointer and other plugins from addonpack or other packs causes the plugin to throw errors and red nodes. haven't really found out which ones exaclty

@@ -1,0 +1,45 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/motion-blur-0-files"
+url: "motion-blur-0"
+category: "effect"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "3"
+            filename: "cmotionblur.zip"
+            description: |-
+              1.0 release version
+            
+            timestamp: "06 Feb, 2011 - 01:55"
+            download_count: "2"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "2"
+                    filename: "cmotionblur101.zip"
+                    description: |-
+                      1.01 fixed edges, perspective, cleaned up shader codes
+                    
+                    timestamp: "07 Feb, 2011 - 18:14"
+                    download_count: "3"
+                - file:
+                    bit: "64"
+                    delta: "1"
+                    filename: "MotionBlur.zip"
+                    description: |-
+                      2.01: now it fits in the texture filters, added/corrected a lot of things, added more control
+                    
+                    timestamp: "18 Sep, 2011 - 02:20"
+                    download_count: "2"
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "MotionBlur.zip"
+                    description: |-
+                      2.02b: fixed blurring in wrong directions, fixed strange grid problem in beta27.2
+                    
+                    timestamp: "17 Jul, 2012 - 15:58"
+                    download_count: "11"

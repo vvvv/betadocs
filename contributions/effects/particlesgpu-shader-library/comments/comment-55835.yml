@@ -1,0 +1,10 @@
+### YamlMime:ContributionComment
+---
+uid: "55835"
+user: "everyoneishappy"
+created: "20 Nov, 2010 - 14:07"
+body: |-
+  Looks great, thanks for posting those!
+  
+  I noticed that when I moved render window to second screen it freezes and I get a "range check error" come up in tty.
+  Moving it back to the first screen lets it start up again.  Not sure why?

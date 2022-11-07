@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "213149"
+user: "mino"
+created: "16 Dec, 2015 - 12:10"
+body: |-
+  @isdzaurov
+  is vvvv 32bit/64bit? metaio plugin works only in vvvv 32bit.
+  also if you have dlls in same dir of help patch, please delete them and try again.

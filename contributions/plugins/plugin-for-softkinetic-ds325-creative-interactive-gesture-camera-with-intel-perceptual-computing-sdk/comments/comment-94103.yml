@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "94103"
+user: "alpaykasal"
+created: "05 Jan, 2013 - 05:08"
+body: |-
+  Thanks... if it is the one linked in this thread, that is the one i tried. i hope you do have a different one. i'm not sure what to do next.
+  
+  i found on the intel forums that some ppl had trouble in the past unless they disabled their onboard webcam (i guess it will show up as id 0 to opencv)... it didn't help me.. but i am posting that solution here in case it can help someone else.

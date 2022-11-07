@@ -1,0 +1,14 @@
+### YamlMime:ContributionComment
+---
+uid: "198826"
+user: "mrboni"
+created: "11 Jun, 2015 - 10:13"
+body: |-
+  Didnt see anything in tty.  
+  
+  The plugin is in the audio chain, and the audio side of it is working. By pressing 'expose' I can access the first parameter (yaw rotation), but still no gui to let me access the others.  Is there another way I could get at the other parameters without having to move them on the gui?
+  
+  The plugin is here if you have a moment to test it? https://www.dropbox.com/s/gbi2nj1gvrkfp2w/ambix_rotator_o1.dll?dl=1
+  
+  
+  Thanks muchly

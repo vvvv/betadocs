@@ -1,0 +1,20 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/lastclock-0.3-(remake)-meta"
+type: "demo"
+author: "nzo.nzo"
+date: "29 Sep, 2011"
+title: "lastclock 0.3 (remake)"
+originalURL: "contribution/lastclock-0.3-(remake)"
+category: "demo"
+like_count: "10"
+imported: "true"
+teaser: |-
+  Last clock is an ambient display that paints a visual memory of the last 60 seconds, the last 60 minutes and the last 12 hours in an never-ending loop. 
+  
+  origninal de New Mediology 2011 
+  http://www.lastclock.newmediology.org/
+  Available for iPad. <lastclock.newmediology.org>
+  
+  http://vimeo.com/27975734
+  vvvv remake by nzo.nzo

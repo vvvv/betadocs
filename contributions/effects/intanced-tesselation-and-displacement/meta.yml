@@ -1,0 +1,22 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/intanced-tesselation-and-displacement-meta"
+type: "effect"
+author: "tekcor"
+date: "19 Nov, 2014"
+title: "Intanced Tesselation and Displacement"
+originalURL: "contribution/intanced-tesselation-and-displacement"
+category: "effect"
+credits: |-
+  credits: Vux, Unc, Colorsound, everyoneishappy
+like_count: "6"
+imported: "true"
+teaser: |-
+  This are some experiments about combining instancing with tesselation and displacement.
+  
+  Can be useful base for terrain or water and more. Although it would need some polishing, like connecting the tiles better.
+  
+  I might clean up the folder more and wanted to push it into the dx11 at one point.
+  
+  Maybe will add more examples as well.
+  Have also more pixelshader with instancing but need some sorting.

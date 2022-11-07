@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "232279"
+user: "vnm"
+created: "15 Nov, 2016 - 11:26"
+body: |-
+  Call DisposeTexture() in Initialise() method will fix some problems with red node.

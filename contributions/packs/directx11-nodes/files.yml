@@ -1,0 +1,264 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/directx11-nodes-files"
+url: "directx11-nodes"
+category: "pack"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "23"
+            filename: "vvvv-packs-dx11-1.3.1.x64.zip"
+            description: |-
+              Latest version, 1.3 (64 bits, 33.7+)
+            
+            timestamp: "02 Jun, 2018 - 15:11"
+            download_count: "3"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "22"
+                    filename: "vvvv-packs-dx11-1.3-x64.zip"
+                    description: |-
+                      1.3 (64 bits, 33.7+)
+                    
+                    timestamp: "21 May, 2018 - 14:28"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "21"
+                    filename: "vvvv-packs-dx11-1.2-x64.zip"
+                    description: |-
+                      1.2 (64 bits, 33.7+)
+                    
+                    timestamp: "17 Feb, 2018 - 14:51"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "20"
+                    filename: "vvvv-packs-dx11-1.1-x64.zip"
+                    description: |-
+                      1.1 (64 bits, 33.7+)
+                    
+                    timestamp: "24 Jun, 2017 - 23:39"
+                    download_count: "5"
+                - file:
+                    bit: "64"
+                    delta: "19"
+                    filename: "vvvv-packs-dx11-1.0.1-x86.zip"
+                    description: |-
+                      1.0.1 (32 bits, 33.7+)
+                    
+                    timestamp: "08 Feb, 2017 - 11:22"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "18"
+                    filename: "vvvv-packs-dx11-1.0.1-x64.zip"
+                    description: |-
+                      1.0.1 (64 bits, 33.7+)
+                    
+                    timestamp: "08 Feb, 2017 - 11:23"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "17"
+                    filename: "vvvv-packs-dx11-0.7.1-x86.zip"
+                    description: |-
+                      0.7.1 (32 bits, 33.7+)
+                    
+                    timestamp: "04 Sep, 2016 - 13:45"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "16"
+                    filename: "vvvv-packs-dx11-0.7.1-x64.zip"
+                    description: |-
+                      0.7.1 (64 bits, 33.7+)
+                    
+                    timestamp: "04 Sep, 2016 - 13:43"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "15"
+                    filename: "vvvv-packs-dx11-0.6.1-x86.zip"
+                    description: |-
+                      0.6.1 (32 bits, 33.7+)
+                    
+                    timestamp: "30 Dec, 2015 - 11:17"
+                    download_count: "3"
+                - file:
+                    bit: "64"
+                    delta: "14"
+                    filename: "vvvv-packs-dx11-0.6.1-x64.zip"
+                    description: |-
+                      0.6.1 (64 bits, 33.7+)
+                    
+                    timestamp: "30 Dec, 2015 - 11:00"
+                    download_count: "2"
+                - file:
+                    bit: "64"
+                    delta: "13"
+                    filename: "vvvv-packs-dx11-b33.7-x86.zip"
+                    description: |-
+                      b33.7 (32 bits)
+                    
+                    timestamp: "25 Apr, 2015 - 12:09"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "12"
+                    filename: "vvvv-packs-dx11-b33.7-x64.zip"
+                    description: |-
+                      b33.7 (64 bits)
+                    
+                    timestamp: "25 Apr, 2015 - 11:55"
+                    download_count: "2"
+                - file:
+                    bit: "64"
+                    delta: "11"
+                    filename: "vvvv-packs-dx11-b33x-x86.zip"
+                    description: |-
+                      b33 (32 bits)
+                    
+                    timestamp: "09 Oct, 2014 - 14:31"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "10"
+                    filename: "vvvv-packs-dx11-b33x-x64.zip"
+                    description: |-
+                      b33 (64 Bits)
+                    
+                    timestamp: "09 Oct, 2014 - 14:17"
+                    download_count: "2"
+                - file:
+                    bit: "64"
+                    delta: "9"
+                    filename: "vvvv-packs-dx11-b32-x86.zip"
+                    description: |-
+                      b32 (32 Bits)
+                    
+                    timestamp: "13 May, 2014 - 12:20"
+                    download_count: "10"
+                - file:
+                    bit: "64"
+                    delta: "8"
+                    filename: "vvvv-packs-dx11-b32-x64.zip"
+                    description: |-
+                      b32 (64 Bits)
+                    
+                    timestamp: "13 May, 2014 - 12:33"
+                    download_count: "4"
+                - file:
+                    bit: "64"
+                    delta: "7"
+                    filename: "vvvv-packs-dx11-b31.2-x86.zip"
+                    description: |-
+                      b31.2 (32bits)
+                    
+                    timestamp: "04 Dec, 2013 - 20:25"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "6"
+                    filename: "vvvv-packs-dx11-b31.2-x64.zip"
+                    description: |-
+                      Latest version (64 bits)
+                    
+                    timestamp: "05 Dec, 2013 - 08:57"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "5"
+                    filename: "vvvv-packs-dx11-b31-x86.zip"
+                    description: |-
+                      Beta 31 build (32 bits)
+                    
+                    timestamp: "05 Sep, 2013 - 12:28"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "4"
+                    filename: "vvvv-packs-dx11-b31-x64.zip"
+                    description: |-
+                      Latest build (64 bits)
+                    
+                    timestamp: "05 Sep, 2013 - 12:27"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "3"
+                    filename: "vvvv-packs-dx11-b30.2-x86.zip"
+                    description: |-
+                      Beta 30.2 build (32 bits)
+                    
+                    timestamp: "05 Jul, 2013 - 13:19"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "2"
+                    filename: "vvvv-packs-dx11-b30-x86.zip"
+                    description: |-
+                      32 bits version (beta 30)
+                    
+                    timestamp: "28 May, 2013 - 13:51"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "1"
+                    filename: "VVVV.Packs_.DX11-beta29.2-x86-novlc.zip"
+                    description: |-
+                      32 bits version without vlc plugin
+                    
+                    timestamp: "02 Apr, 2013 - 11:15"
+                    download_count: "2"
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "VVVV.Packs_.DX11-beta29.2-x64.zip"
+                    description: |-
+                      64 bits version
+                    
+                    timestamp: "02 Apr, 2013 - 11:21"
+                    download_count: "4"
+    32bit:
+        latest:
+            bit: "32"
+            delta: "3"
+            filename: "vvvv-packs-dx11-x86-1.3.1.zip"
+            description: |-
+              Latest version, 1.3.1 (32 bits, 33.7+)
+            
+            timestamp: "02 Jun, 2018 - 15:13"
+            download_count: "11"
+        older:
+            files:
+                - file:
+                    bit: "32"
+                    delta: "2"
+                    filename: "vvvv-packs-dx11-1.3-x86.zip"
+                    description: |-
+                      1.3 (32 bits, 33.7+)
+                    
+                    timestamp: "21 May, 2018 - 14:29"
+                    download_count: "1"
+                - file:
+                    bit: "32"
+                    delta: "1"
+                    filename: "vvvv-packs-dx11-1.2-x86.zip"
+                    description: |-
+                      1.2 (32 bits, 33.7+)
+                    
+                    timestamp: "17 Feb, 2018 - 15:10"
+                    download_count: "1"
+                - file:
+                    bit: "32"
+                    delta: "0"
+                    filename: "vvvv-packs-dx11-1.1-x86.zip"
+                    description: |-
+                      Version, 1.1 (32 bits, 33.7+)
+                    
+                    timestamp: "27 Jun, 2017 - 11:12"
+                    download_count: "1"

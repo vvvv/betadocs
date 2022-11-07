@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "95094"
+user: "motzi"
+created: "22 Jan, 2013 - 11:43"
+body: |-
+  i've got following issue with the ps3eye:
+  
+  when plugged directly into my macbook pro the <span class="node">VideoIn (CLEye)</span> works as expected. when using an usb extension cable (which acts like a hub) this node does not recognise the camera, but i can utilise it without any problems with <span class="node">VideoIn (DShow9)</span>. therefore i believe it has nothing to do with the datarate over the extension. 
+  
+  did anyone use the ps3eye with this plugin with an extension/hub successfully?

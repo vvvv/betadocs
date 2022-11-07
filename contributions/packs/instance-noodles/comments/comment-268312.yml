@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "268312"
+user: "everyoneishappy"
+created: "26 Sep, 2018 - 12:35"
+body: |-
+  @ZvivZ you need to feed it both a world and a normals texture.  You need to convert the world texture to normals with a pixel shader.  I think the shader for the normals is not included.  I'll try to update it with a help patch + shader soon

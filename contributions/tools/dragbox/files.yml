@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/dragbox-files"
+url: "dragbox"
+category: "tool"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "DragBox.7z"
+            timestamp: "10 Aug, 2015 - 09:33"
+            download_count: "1"

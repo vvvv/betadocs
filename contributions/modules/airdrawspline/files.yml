@@ -1,0 +1,36 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/airdrawspline-files"
+url: "airdrawspline"
+category: "module"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "2"
+            filename: "_AirDrawSpline_VR_v1.zip"
+            description: |-
+              Fix Controller Tranform Sorting. more cleanup. Tested with vvvv_50beta35_x64 and vvvv-packs-dx11-1.0.1-x64
+            
+            timestamp: "18 Feb, 2017 - 18:32"
+            download_count: "2"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "1"
+                    filename: "_AirDrawSpline_VR.zip"
+                    description: |-
+                      General Improvements and cleanup, add VR version with GUI
+                    
+                    timestamp: "23 Jan, 2017 - 20:16"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "_AirDrawSpline.zip"
+                    description: |-
+                      Draw splines in 3d space
+                    
+                    timestamp: "10 Jan, 2017 - 19:52"
+                    download_count: "2"

@@ -1,0 +1,10 @@
+### YamlMime:ContributionComment
+---
+uid: "271657"
+user: "Takuma"
+created: "06 Apr, 2019 - 05:33"
+body: |-
+  Anyone tried VideoOut(DeckLink EX9.Texture) on this?
+  I have Decklink 8K in my hand, and an 8K TV.
+  But can't make it output videos from vvvv.
+  EnumerateModes and VideoOut(Decklink ex9 sharedtexture) node is red.

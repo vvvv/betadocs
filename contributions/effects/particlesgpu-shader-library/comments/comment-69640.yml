@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "69640"
+user: "photropik"
+created: "20 Sep, 2011 - 16:37"
+body: |-
+  @Screamer; I fixed the second monitor output by opening all render windows, moving to second monitor, and then minimising back to patch. 
+  With changing 'double' to 'float' and changing 'point' to  'pointy' and the other naming fixes, everything now appears to work perfectly on an ATI 4850.
+  Fabulous stuff.
+  
+  Edit : The first way I tried to fix second head output was DX9Texture > AsVideo > VideoTexture. Worked, halved the frame rate.
+  
+  Edit 2 : No it doesn't :o/ At least I am having a good look at the actual shader code :oD

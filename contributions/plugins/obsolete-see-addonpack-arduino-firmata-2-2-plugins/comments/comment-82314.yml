@@ -1,0 +1,33 @@
+### YamlMime:ContributionComment
+---
+uid: "82314"
+user: "motzi"
+created: "06 May, 2012 - 23:21"
+body: |-
+  jens and chris - i'm sorry to be such a bugger, but i have the feeling that i'm being misunderstood ;)
+  
+  and i finally found the time to look into this and probably found a solution that makes me happy (and might help others as well). i post this here since i don't have a github account (yet).
+  
+  a detailed explanation of what i intended:
+  in the arduino sketches you enable the internal pullups of the pins by calling digitalWrite(PinNo,HIGH) - no matter whether or not it is configured as input or output. 
+  the same should be possible using the firmata protocol (without changing any specification) by sending the according firmata command to set the pin HIGH to the board (no matter if it's configured as in or output). 
+  
+  using your software this is not possible as it allows these commands only for pins configured as outputs. i would say that there's nothing wrong with allowing this also for the input pins (at least it's not wrong in plain arduino code) (and it also seems to work fine [here](http://nootropicdesign.com/toolduino/) in this firmata controller implementation)
+  
+  to get a prove that it should be possible i had a look at your code and did a small mod that brought the intended result. just allow the setting of the pins not only for outputs, but also the inputs - that is:
+  
+  in the VirmataEncoder change line 251 to
+  ```
+  output_port |= (byte)(([| (mode == PinMode.INPUT](mode%20==%20PinMode.OUTPUT)%20) ? 1:0)<<bit);
+  ```
+  
+  and in the SetPinStates function add the switch case 
+  ```
+  case PinMode.INPUT:
+  ```
+  at line 300 (just before or after the OUTPUT case).
+  
+  
+  this works great for me. quick testing showed the input pins behave like expected and can be reconfigured on the fly. 
+  
+  what do you think of this? is there some risk connected with it that i am not aware of?

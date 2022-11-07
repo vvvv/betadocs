@@ -1,0 +1,28 @@
+### YamlMime:ContributionComment
+---
+uid: "71020"
+user: "mediadog"
+created: "24 Oct, 2011 - 21:07"
+body: |-
+  Ayup, that is exactly it.  CalcHist() as I read it, goes through the depth map and totals up a histogram of the number of pixels at each depth.  Then it creates a brightness value for each of the depths with a non-zero count, so that the brightness is stepped by 1 / (number of non-zero depths).
+  
+  So if there are only four depths in the image, say 1000mm, 1100mm, 2000mm, and 2100mm, those would be represented as 1.0, .67, .33, and 0 in the final image, completely destroying the real depth relationship but making it easier to visually discern those 100mm steps.  And user-feedback appears to be the principle function of this output.
+  
+  So what I'm doing really should be added as an additional texture output of this plugin, but I'm still just experimenting (one of my mantras: avoid early optimization).  But how would I add a second texture output?  Can you point me to a template/example?
+  
+  Edit:  I just went back and looked at the CalcHist() code, and they are doing something a bit more sophisticated; they smooth the data a bit, then the brightness is actually related to the number of pixels at each depth:
+  
+  ```
+      for (int i = 1; i < this.histogram.Length; i++)
+      {
+          this.histogram<i> += this.histogram<i%20-%201>;
+      }
+  
+      if (points > 0)
+      {
+          for (int i = 1; i < this.histogram.Length; i++)
+          {
+              this.histogram<i> = (int)(256 * (1.0f - (this.histogram<i> / (float)points)));
+          }
+      }
+  ```

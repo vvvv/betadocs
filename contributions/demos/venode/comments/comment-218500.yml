@@ -1,0 +1,25 @@
+### YamlMime:ContributionComment
+---
+uid: "218500"
+user: "robe"
+created: "24 Mar, 2016 - 22:17"
+body: |-
+  <div class="box">quote:velcrome:
+  <...>and some familiarity with js.
+  </div>
+  
+  Ok, No familiarity at all, I'm sorry...
+  I would just take advantage of the new features:
+  
+  * new: communication completely via JSON
+  * new: consistent session & data storing in vvvv
+  * new: added message interval to avoid too many pushes (important for mobile devices)
+  * new: responsive weblayout (with skeleton)
+  * new: added more UI elements (colorpicker, 2dpad, bang & toggle button)
+  bugfix: call removeListener() only for disconnected client instead of removing all listeners
+  
+  Anyway..
+  Is it actually possible to use the 0.5 version?
+  What version of Message should I use?
+  
+  Cheers

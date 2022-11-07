@@ -1,0 +1,17 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/disolver-meta"
+type: "demo"
+author: "elektromeier"
+date: "18 Sep, 2015"
+title: "Disolver"
+originalURL: "contribution/disolver"
+category: "demo"
+credits: |-
+  thanks to [everyoneishappy](http://vvvv.org/users/everyoneishappy) for the delicious instance noodles!
+like_count: "9"
+imported: "true"
+teaser: |-
+  disolves images to a smoky particle system.
+  experimenting with the awesome instance noodle contribution.
+  needs dx11 and instance noodles pack installed.

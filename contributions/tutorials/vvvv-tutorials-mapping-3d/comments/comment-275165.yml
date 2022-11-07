@@ -1,0 +1,10 @@
+### YamlMime:ContributionComment
+---
+uid: "275165"
+user: "joreg"
+created: "08 Mar, 2020 - 23:53"
+body: |-
+  @ndrv this tutorial does 2 things: 
+  1) use reconstructme to create a 3d mesh from a scene
+  2) use CalibrateProjector 
+  regarding 2) VL.OpenCV today is the way to go. best start a forum thread if you have any questions regarding it.

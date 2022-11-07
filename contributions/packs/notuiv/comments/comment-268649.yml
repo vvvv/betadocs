@@ -1,0 +1,22 @@
+### YamlMime:ContributionComment
+---
+uid: "268649"
+user: "stophl"
+created: "10 Oct, 2018 - 15:25"
+body: |-
+  I tried installing Notuiv as suggested via vpm but getting one red node though (which is <span class="node">Context (Notui)</span> ). The exception dialog tells me:
+  
+  ------------------------------------------------------------------------------
+  System.IO.FileLoadException: Could not load file or assembly 'System.Interactive, Version=3.0.1000.0, Culture=neutral, PublicKeyToken=94bc3704cddfc263' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)
+  -------------------
+  System   : Windows 8 Home Edition, Version: 6.2, Build: 23F0, ""
+  Processor: Intel, Intel(R) Core(TM) i5-6200U CPU @ 2.30GHz, 2400 MHz MMX SSE SSE2 SSE3 SSSE3 64 bits DEP
+  Memory: 8049; free 3701
+  Display  : 1920x1080 pixels, 32 bpp
+  ------------------------------------------------------------------------------
+  
+  I don't wanna spam the comments with stacks and loaded modules, so the full log is here:
+  <https://apostrophstoph.de/stuph/vvvv.exe-exception-2018-10-10.log>
+  
+  After a little bit of searchengining I might have an idea of what's going on, but really no idea of what to do about it.
+  I installed and deleted 50beta37_x64 plus the whole vpm-Notui-routine several times and let ccleaner fix the registry in between, but things didn't change :(

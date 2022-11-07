@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/json-parser-files"
+url: "json-parser"
+category: "plugin"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "pluginJson.zip"
+            timestamp: "31 Aug, 2012 - 17:13"
+            download_count: "1"

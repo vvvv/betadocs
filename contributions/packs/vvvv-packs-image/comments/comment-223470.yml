@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "223470"
+user: "featherfurl"
+created: "25 Jul, 2016 - 04:01"
+body: |-
+  Shame about the lack of a VideoIn(DirectShow) node though. Anyone have ideas on what the most efficient workaround might be for getting a videostream through opencv/dx11/x64?

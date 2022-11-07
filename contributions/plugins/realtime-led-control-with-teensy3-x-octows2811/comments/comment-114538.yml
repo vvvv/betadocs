@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "114538"
+user: "velcrome"
+created: "24 Feb, 2014 - 19:04"
+body: |-
+  Did you change the LED count in the firmware too? 
+  
+  TeensyCount is not needed anymore because it is implied in the color slicecount. But you have to make sure LedCount per pin in the patch and the firmware match.

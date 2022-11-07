@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/mpd24-akai-midi-mapper-files"
+url: "mpd24-akai-midi-mapper"
+category: "module"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "MPD24-Midi-Controller.zip"
+            description: |-
+              10 modules for use MPD24 in VVVV
+            
+            timestamp: "12 Jul, 2012 - 00:10"
+            download_count: "1"

@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "70882"
+user: "mediadog"
+created: "22 Oct, 2011 - 03:24"
+body: |-
+  OK, new stuff posted.  Damned if I can figure out why the depth2grey shader is giving those white lines around the black areas.  If anyone that knows shaders better than I (almost anyone!) could have a peek I'd be very grateful:
+  
+  ![](https://vvvv.org/sites/default/files/imagecache/large/images/Capture-1.jpg)

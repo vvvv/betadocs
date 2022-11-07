@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "100491"
+user: "jens.a.e"
+created: "04 May, 2013 - 15:47"
+body: |-
+  r u using the encoder node directly or the Arduino node?
+  check the Inspector. there you can set the number of pins on your board.
+  the Arduino module itself limits this to 20 in sum.
+  
+  if u r using the module try the encoder/decoder directly. check the omodule on how they used.
+  
+  note to self: .... damn, i have to get those help patches done...

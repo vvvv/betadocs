@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "206543"
+user: "joreg"
+created: "22 Sep, 2015 - 21:52"
+body: |-
+  added a basic helppatch for HDFaceBuffer. still the tracked face is somewhat off which seems to be related to some missing coordinatemapping. it seems though that <span class="pin">BMinXYZ</span> and <span class="pin">BMaxXYZ</span> can probably be used to achieve that. any clues on how to use those @microdee @vux?

@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "87910"
+user: "mediadog"
+created: "03 Sep, 2012 - 03:03"
+body: |-
+  Fabulous.  Here's a quick test I did using Xtion/Kinect points as input with a cycling input color [on vimeo](http://vimeo.com/48716885).
+  
+  The motion, even at 512x512 and 300 iterations, is beautifully smooth.  Thanks SO much, I've wanted this in a shader for ages.

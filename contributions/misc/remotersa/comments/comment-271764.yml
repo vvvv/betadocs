@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "271764"
+user: "avaos"
+created: "15 Apr, 2019 - 17:16"
+body: |-
+  Thanks Joreg, Yes, there is something wrong with the zip, using 7zip I was able to unzip it and it works. never thought about that here.. 
+  
+  You can't use New when it's broken. And btw, I checkt which file is "corrupt": It's Remoter.dll, after changing this file only to the 7zip-version it worked.

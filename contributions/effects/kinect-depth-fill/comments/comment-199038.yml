@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "199038"
+user: "Grandchild"
+created: "18 Jun, 2015 - 11:19"
+body: |-
+  @tmp: yes i checked out your kinect pointcloud contribution after i put this up. amazing stuff, and it will definitely help me with a lot of things in the coming days. but yes your depth repair and smooth nodes work, but not quite in the same way. this effect here keeps old sample points around as long as needed, in order to try as hard as possible to fill the whole texture with non-zeros.
+  
+  after this you would still need a smoothing filter like yours... i'll see what i can come up with. i'll probably modify your approach (i.e. nodes) to have an effect more like mine.

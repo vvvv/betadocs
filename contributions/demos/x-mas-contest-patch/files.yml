@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/x-mas-contest-patch-files"
+url: "x-mas-contest-patch"
+category: "demo"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "PrototypingInterfaces.v4p"
+            description: |-
+              Initial version
+            
+            timestamp: "16 Dec, 2013 - 08:58"
+            download_count: "9"

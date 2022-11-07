@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "113594"
+user: "mrboni"
+created: "05 Feb, 2014 - 12:15"
+body: |-
+  Sometimes when I rebuild this into another patch, the waves stop working, until vvvv is restarted.
+  
+  I haven't managed to isolated the exact circumstances yet, but any idea what might cause that?

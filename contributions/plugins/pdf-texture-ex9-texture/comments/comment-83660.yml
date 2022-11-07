@@ -1,0 +1,17 @@
+### YamlMime:ContributionComment
+---
+uid: "83660"
+user: "h99"
+created: "03 Jun, 2012 - 15:08"
+body: |-
+  Hi,
+  may I ask why the .csproj doesn't point directly to %vvvv%\lib\core\etc instead of pointing to ..\..\..\lib\core\etc ?
+  I'm using 27.2 getting red PDFTexture node, though working fine.
+  
+  Thanks.
+  
+  
+  EDIT:
+  @circuitb
+  I still get those cmd windows popping out. Would you suggest something more? XP32 here.
+  * Sorry, works really fine. I had to do this into vvvv's editor.

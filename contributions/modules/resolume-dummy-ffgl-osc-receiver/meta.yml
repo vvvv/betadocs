@@ -1,0 +1,26 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/resolume-dummy-ffgl-osc-receiver-meta"
+type: "module"
+author: "parabola"
+date: "01 Oct, 2017"
+title: "Resolume Dummy FFGL OSC Receiver"
+originalURL: "contribution/resolume-dummy-ffgl-osc-receiver"
+category: "module"
+credits: |-
+  Louis d'Aboville | Leskos ( <https://github.com/Leskos> ) for making the DLLs
+like_count: "2"
+imported: "true"
+teaser: |-
+  To use with https://github.com/Leskos/FFGLDummyParams
+  
+  This is a simple wrapper for receiving the messages sent from the Dummy FFGL plugin for resolume. It provides you with just slider for using to send OSC to other aplications.
+  
+  You should use the FFGLDummyParams as the first effect on your Resolume composition, otherwise when the clip/layer loses focus, it stops sending values.
+  
+  Each osc sending adress in Resolume should look something like "/composition/video/effect1/param1/values "
+  The node provides you with a spread and with S nodes
+  
+  Special thanks to Louis d'Aboville | Leskos for making this Dummy FFGL
+  
+  PS: I tried using a spread instead of everything on its own. But I got messy results

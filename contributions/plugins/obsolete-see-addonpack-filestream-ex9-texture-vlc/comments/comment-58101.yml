@@ -1,0 +1,17 @@
+### YamlMime:ContributionComment
+---
+uid: "58101"
+user: "vux"
+created: "06 Jan, 2011 - 19:19"
+body: |-
+  @screamer: this one's not mine, i'm not using vlc for my decoder and it's not released yet :).
+  
+  @ft: works pretty well here, for a few problems on file switch (had one when i have 2 videos with the same file name as a spread for example). Saw you made the spread part working. Good work :)
+  
+  @ft + @sugokugenki : well spoke with elliot a bit about licensing.
+  
+  For the simple part, your plugin must be licensed under GPL, as you use GPL code. That obviously also means that anything done using your plugin must also be GPL.
+  
+  The second part bit of a pain, you can skype (jvulliet), or if you want I'll post it here. 
+  
+  Nice contrib!

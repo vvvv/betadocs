@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "280608"
+user: "bjoern"
+created: "09 Jul, 2022 - 17:10"
+body: |-
+  @redphoenix sorry for the late reply, re-implemented the tool from scratch. Please try if the errors are fixed in the new version. If you encounter any bugs please create an issue on [github](https://github.com/bj-rn/texconvgui) instead of posting here.

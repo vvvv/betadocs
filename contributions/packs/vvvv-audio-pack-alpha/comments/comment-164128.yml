@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "164128"
+user: "guest"
+created: "05 Sep, 2014 - 07:06"
+body: |-
+  x86 version of Beta32 comes back with red nodes. 
+  x86 Beta33 doesn't show any nodes at all.
+  x64 Beta33 throws up the following error message when I open "VSTSynth.v4p" from the girlpower folder:
+  ![](https://vvvv.org/sites/default/files/imagecache/large/images/VST%20Error.png) 
+  The VST node flickers between pink and grey, but the engine node is fine otherwise.

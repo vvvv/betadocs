@@ -1,0 +1,16 @@
+### YamlMime:ContributionComment
+---
+uid: "62256"
+user: "vjc4"
+created: "11 Apr, 2011 - 06:14"
+body: |-
+  yeah, i have the same problem, solved by turning the background off, if not it flikers a lot.
+  
+  It also crashed a few times , i though it was the skeleton pin, but with the skeleton off it was the same,,, well vvvv crash, not sure if it was the plug in.
+  
+  I also have the RGB image off, i solved by turning the pin off and on again.
+  
+  btw...
+  Is there any "easy" way to get distance of a line defined by 2 xy vectors and the angle of that line to another line definid in the same way ? or i just have to do some pitagoras ?
+  
+  i would like to get the inclination of a line defined by my hands to send it to a virtual joystic by osc/midi and play some NFS or plane simulator :)

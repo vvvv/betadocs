@@ -1,0 +1,22 @@
+### YamlMime:ContributionComment
+---
+uid: "222236"
+user: "Radiance"
+created: "28 Jun, 2016 - 02:39"
+body: |-
+  hey this was all working perfectly for me untill I recently upgraded, has anyone come across this as well? 
+  
+  I switched from windows 8.1 to windows 10 and from resolume 4 to resolume 5 now and it doesnt seem to work anymore. Cant seem to get the help node output into resolume either. 
+  
+  The DX Texture (RR) is showing up in the FFGL sources, its just not getting any input
+  
+  my system
+  
+  Win10_x64
+  Nvidia GTX 870M (driver updated)
+  Vvvv_45beta34.1_x86
+  Resolume Arena 5.0.0
+  
+  
+  thanks in advance
+  Rose

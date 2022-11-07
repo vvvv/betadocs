@@ -1,0 +1,16 @@
+### YamlMime:ContributionComment
+---
+uid: "49854"
+user: "dottore"
+created: "13 Jul, 2010 - 18:19"
+body: |-
+  Tnx catweasel,
+  i had a look inside the shader and i found that the pixel shader is compiled with 2.b shader model. look at the bottom in the hlsl code of the shader, in the techniques:
+  
+  PixelShader = compile ps_2_b mainPS();
+  
+  maybe your graphic card is not compatible with this shader model. try to replace with:
+  
+  PixelShader = compile ps_3_0 mainPS();
+  
+  let me know

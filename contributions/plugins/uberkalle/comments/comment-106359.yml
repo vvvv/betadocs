@@ -1,0 +1,10 @@
+### YamlMime:ContributionComment
+---
+uid: "106359"
+user: "woei"
+created: "13 Sep, 2013 - 15:45"
+body: |-
+  @robe: you could just connect a toggle to the update pin instead of the default bang. should do the trick. 
+  although you might not want to have the plugin crawl your whole project every frame to set the color. that's why there's an update pin.
+  
+  the link color is set implicitly by changing it to hiddenwhenlocked mode. didn't find a way to explicitly set the color.

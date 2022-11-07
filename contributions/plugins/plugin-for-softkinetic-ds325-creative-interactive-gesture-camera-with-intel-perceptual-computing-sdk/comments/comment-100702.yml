@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "100702"
+user: "metrowave"
+created: "08 May, 2013 - 23:47"
+body: |-
+  Thanks again herbst, everything works well for me using alpha29.3 except that the help patches work one at a time, meaning after closing one you have to quit vvvv before starting another one of DS325 help patches. 
+  
+  The voice recognition and the accelerometer effect are very good and interesting indeed. The face recognition also works. 
+  
+  @colorsound, just retry it but quit vvvv and restart between the patches, also the lights on DS325 is not always on the same way, but the unit works.

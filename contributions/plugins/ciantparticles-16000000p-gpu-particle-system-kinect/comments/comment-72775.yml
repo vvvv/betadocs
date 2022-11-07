@@ -1,0 +1,12 @@
+### YamlMime:ContributionComment
+---
+uid: "72775"
+user: "mrboni"
+created: "01 Dec, 2011 - 19:16"
+body: |-
+  Everything working except strawman.
+  
+  Black renderer and access violation error when renderer is on 2nd output head
+  
+  
+  nice tho

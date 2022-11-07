@@ -1,0 +1,15 @@
+### YamlMime:ContributionComment
+---
+uid: "75916"
+user: "gregsn"
+created: "07 Feb, 2012 - 20:08"
+body: |-
+  @dottore: played around to just make a proof of concept with two light sources and two "rooms". just to be sure if it all makes sense.
+  
+  i think for some future version it would be nice to have a separation between the light *subpatch* that controls the specific light and a light *module*, that has input pins light "Light Position" (...), does some calculations and then sends on the right channels. I also sketched how to separate between subpatches that render something and do that by using a module that does the magic s/r business. 
+  
+  That way users dont have to know of the channels themselves. But they do have to know how modules connect to each other. Got that wrong in my first attempts... it seems to be important that the VSM part is placed near each light, since it is light specific. So if you have a room with an own light you also need that VSM module at that spot. Maybe those two could be combined into one?
+  
+  Well. Just wanted to show you what i tried... Thanks again!! Wonderful stuff! Ah and playing with the colors of boxes (extreme oversaturation or extreme lightness) is really cool. Its like adding a light source. So nice. 
+  
+  http://www.datafilehost.com/download-9fbf9852.html

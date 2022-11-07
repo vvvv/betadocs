@@ -1,0 +1,16 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/fur-phong-directionnal-meta"
+type: "effect"
+author: "sanch"
+date: "26 Aug, 2010"
+title: "Fur Phong directionnal"
+originalURL: "contribution/fur-phong-directionnal"
+category: "effect"
+credits: |-
+  http://www.xbdev.net/directx3dx/specialX/Fur/index.php
+  sanch
+like_count: "10"
+imported: "true"
+teaser: |-
+  Fur phong directionnal shader , add hair to your mesh or use for your own purpose.

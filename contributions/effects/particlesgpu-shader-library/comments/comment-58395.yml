@@ -1,0 +1,14 @@
+### YamlMime:ContributionComment
+---
+uid: "58395"
+user: "lasal"
+created: "13 Jan, 2011 - 11:10"
+body: |-
+  Hi Dottore, 
+  
+  only a question,
+  in the 2d Dynamic field texture, is there any way to transform all the system? like in the new bicubic surface? or add to the shader a transform all pin?.
+  
+  i want to make a symetrie and the only posible solution that i´ve found is to make the transform in the camera.
+  
+  thanks again for your fantastic contribution.

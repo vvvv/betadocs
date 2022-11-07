@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/on-stage-and-go-files"
+url: "on-stage-and-go"
+category: "module"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "OnStageAndGo.zip"
+            description: |-
+              Live and preset for stage
+            
+            timestamp: "01 Mar, 2012 - 00:40"
+            download_count: "1"

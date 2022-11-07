@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "100612"
+user: "sansui"
+created: "07 May, 2013 - 14:46"
+body: |-
+  Is there a simple tutorials or example about Art-net vvvv?
+  I am trying to controll many LED strip with WS2801 chip.
+  In vvvv, DMX(ArtNet) node looks related.
+  I didn't understand your Arduino pde file perfectly.
+  could you give me any advice?

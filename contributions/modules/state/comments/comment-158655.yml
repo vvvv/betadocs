@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "158655"
+user: "princemio"
+created: "07 Jul, 2014 - 14:26"
+body: |-
+  Thats really helpfull, playing around with similar patches to manage different states of a game or a performance...
+  
+  i think it would be really helpfull to have 2 addidional bangs for...step forward or steb backward if you wanna sequentially sstep through the states in their order.
+  
+  a list of toggles as output that has the current state as on and the other as off would be also cool!
+  
+  again thx for sharing your work

@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "271939"
+user: "bjoern"
+created: "06 May, 2019 - 09:49"
+body: |-
+  @mrboni added exr support. Only tested it with some sample images. Maybe you could try and report back...

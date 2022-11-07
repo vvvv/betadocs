@@ -1,0 +1,27 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/image-adjustment-pack-meta"
+type: "effect"
+author: "woei"
+date: "28 Jan, 2011"
+title: "Image Adjustment Pack"
+originalURL: "contribution/image-adjustment-pack"
+category: "effect"
+like_count: "17"
+imported: "true"
+teaser: |-
+  pixelshader functions resource
+  
+  **v1 includes:**
+  * Invert
+  * Contrast
+  * Saturation: Greyscale & Saturation
+  * Levels
+  * Tonecurves
+  
+  * LumaMatte: Luma & Inverse Luma
+  * ColorMatte
+  
+  maybe a bunch of single effects, which are combining differnt functions can be avoided this way...
+  
+  feedback and tell me whats missing, plz

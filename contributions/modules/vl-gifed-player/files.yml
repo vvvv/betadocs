@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/vl.gifed.player-files"
+url: "vl-gifed-player"
+category: "module"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "VL.GIFed_Player_0.3.zip"
+            description: |-
+              Fixed Exception on load, Async load now works faster
+            
+            timestamp: "27 Apr, 2019 - 14:38"
+            download_count: "1"

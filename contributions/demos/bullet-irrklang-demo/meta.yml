@@ -1,0 +1,19 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/bullet- -irrklang-demo-meta"
+type: "demo"
+author: "Bitminster"
+date: "14 Jan, 2011"
+title: "Bullet + irrKlang demo"
+originalURL: "contribution/bullet- -irrklang-demo"
+category: "demo"
+credits: |-
+  vux - Bullet plugs
+  sanch - irrKlang plugs
+  
+  Erwin Coumans et al. - Bullet
+  Ambiera - irrKlang
+like_count: "3"
+imported: "true"
+teaser: |-
+  You need IrrKlang and Bullet plugins.

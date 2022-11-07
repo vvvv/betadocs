@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "112303"
+user: "m4d"
+created: "07 Jan, 2014 - 09:57"
+body: |-
+  k, after checking on another machine i found that it totally works without installing anything. (that's how HID is supposed to work anyway) the real problem seems to be the <span class="node">HID (Devices)</span> node which seems to be broken in current x64 builds.

@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "164097"
+user: "TidensBarn"
+created: "04 Sep, 2014 - 17:21"
+body: |-
+  Hi mrboni,
+  
+  just added a new update. Most of the info is outputed now. Some parameters seem to be completely missing in the new API, though. Maybe I'll manage to make the new direct-to-rift-mode work with vvvv, which would make retrieving these parameters obsolete anyway, I guess..

@@ -1,0 +1,17 @@
+### YamlMime:ContributionComment
+---
+uid: "62502"
+user: "ft"
+created: "17 Apr, 2011 - 09:50"
+body: |-
+  Hello, Mr Vux,
+  
+  I wanted to let you know about something I experienced while experimenting with the Bullet Physics nodes a week ago.
+  
+  I created an inert box to act as the ground surface. It was kind of pizza-box shaped, meaning it was rather flat. If I drop another object from a fairly high position, I would expect it to bounce back up, when it hits the box, but it would fall through it.
+  
+  Now it seems to me that for collision detection, you use the current position of an object, to see if it intersects with another object. The problem is - because the calculations are inherently discrete - that if an object has a high velocity, the next calculated position might be at the other side of the object. So I think one should check if the line between previous position and current position intersects with another object. If it does, the 2 objects collide.
+  
+  Anyway, that's what I suspect to be the reason of this unexpected behaviour.
+  
+  Cheers.

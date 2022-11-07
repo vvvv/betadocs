@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "239332"
+user: "guest"
+created: "07 May, 2017 - 09:20"
+body: |-
+  @tmp: Please help with some advise on the Kinect emission rate in the new dx11.particle version. I totally stuck when trying to emit from every Kinect pixel/point. As this worked fine in the old pointcloud version, it should be somehow possible with the current. Many thanks!

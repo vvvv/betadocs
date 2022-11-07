@@ -1,0 +1,22 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/uberkalle-meta"
+type: "plugin"
+author: "woei"
+date: "12 Sep, 2013"
+title: "UberKalle"
+originalURL: "contribution/uberkalle"
+category: "plugin"
+like_count: "8"
+imported: "true"
+teaser: |-
+  as discussed here [global-kalle-node](https://discourse.vvvv.org/t/global-kalle-node)
+  a plugin which sets the background color of all patches.
+  
+  with option to include 'native' nodes, meaning modules, texture fx, root.v4p and everything that is saved within the starting vvvv.exe folder
+  
+  ---
+  
+  * v1.1: fixes issues with native node includes
+  
+  ---

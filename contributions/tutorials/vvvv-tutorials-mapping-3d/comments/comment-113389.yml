@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "113389"
+user: "robe"
+created: "30 Jan, 2014 - 19:48"
+body: |-
+  Just do the calibration procedure from both projector and export both the matrices to plug them in view and projection of renderer..

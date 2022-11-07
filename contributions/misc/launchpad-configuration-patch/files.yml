@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/launchpad-configuration-patch-files"
+url: "launchpad-configuration-patch"
+category: "misc"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "launchpad_conf.zip"
+            timestamp: "27 Aug, 2011 - 20:47"
+            download_count: "1"

@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/interactive-globe-files"
+url: "interactive-globe"
+category: "demo"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "GlobeCountry.zip"
+            timestamp: "13 Dec, 2014 - 13:20"
+            download_count: "1"

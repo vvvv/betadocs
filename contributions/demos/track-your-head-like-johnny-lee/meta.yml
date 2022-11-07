@@ -1,0 +1,23 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/track-your-head-like-johnny-lee-meta"
+type: "demo"
+author: "u7angel"
+date: "19 Jun, 2012"
+title: "Track your Head like Johnny Lee"
+originalURL: "contribution/track-your-head-like-johnny-lee"
+category: "demo"
+credits: |-
+  Johnny Lee patched by peter power
+like_count: "12"
+imported: "true"
+teaser: |-
+  a copycat patch of Johnny Lee's Headtracking VR Demo.
+  
+  http://www.youtube.com/watch?v=Jd3-eiid-Uw
+  
+  Move your mouse to simulate your headtracking. This patch could be easily extended with some kinect headtracking or the new facetracker.
+  
+  i tried to help a student today and patched this to get an understanding of it. PerspectiveLookAtRect does all the work.
+  
+  I hope this might be of help for someone too.

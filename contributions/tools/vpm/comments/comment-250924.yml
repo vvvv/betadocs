@@ -1,0 +1,45 @@
+### YamlMime:ContributionComment
+---
+uid: "250924"
+user: "hrovac"
+created: "15 Apr, 2018 - 17:11"
+body: |-
+  im using 7zip, always.
+  
+  i was able to install one pack (vvvv-time)
+  all other i tried are producing error messages
+  for example:
+  
+  
+  
+  vpm at your service!
+  Found a VVVV in registry.
+  Parsing input Pack
+  Input pack is mp.fxh
+  Initializing mp.fxh
+  Temp folder created successfully:
+  X:\NODE\v4\vvvv_50beta36_x64\.vpm
+  Cloning git repository of mp.fxh
+  To: X:\NODE\v4\vvvv_50beta36_x64\.vpm\mp.fxh
+  Cloning: X:\NODE\v4\vvvv_50beta36_x64\.vpm\mp.fxh /
+  
+  Something went wrong:
+  user cancelled certificate check:
+     bei LibGit2Sharp.Core.Ensure.HandleError(Int32 result) in c:\projects\libgit2
+  sharp\LibGit2Sharp\Core\Ensure.cs:Zeile 136.
+     bei LibGit2Sharp.Core.Proxy.git_clone(String url, String workdir, GitCloneOpt
+  ions& opts) in c:\projects\libgit2sharp\LibGit2Sharp\Core\Proxy.cs:Zeile 355.
+     bei LibGit2Sharp.Repository.Clone(String sourceUrl, String workdirPath, Clone
+  Options options) in c:\projects\libgit2sharp\LibGit2Sharp\Repository.cs:Zeile 73
+  2.
+     bei vpm.VpmUtils.CloneGit(String srcrepo, String dstdir, Boolean submodules,
+  String branch) in C:\projects\vpm\src\vpm\utils.cs:Zeile 517.
+     bei vpm.VPack.CloneFromGit(Boolean submodules) in C:\projects\vpm\src\vpm\vpa
+  ck.cs:Zeile 213.
+     bei vpm.VPack..ctor(String name, String source, IEnumerable`1 aliases, XmlDoc
+  ument srcxml) in C:\projects\vpm\src\vpm\vpack.cs:Zeile 95.
+     bei vpm.Program.Main(String<> args) in C:\projects\vpm\src\vpm\Program.cs:Zei
+  le 114.
+  Removing vpm temp folder.
+  Killing GUI
+  Press any key to exit...

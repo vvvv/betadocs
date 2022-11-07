@@ -1,0 +1,19 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/cross-(2d)-advanced-meta"
+type: "plugin"
+author: "velcrome"
+date: "08 Jul, 2011"
+title: "Cross (2D) Advanced"
+originalURL: "contribution/cross-(2d)-advanced"
+category: "plugin"
+credits: |-
+  sebl
+like_count: "4"
+imported: "true"
+teaser: |-
+  I wouldn't really consider these 14 lines of code a contribution, but [sebl](http://vvvv.org/users/sebl) asked me to upload it anyhow.
+  
+  Helpfile is included, thanks to sebl 
+  
+  edit: little bit of cleanup and a description was set.

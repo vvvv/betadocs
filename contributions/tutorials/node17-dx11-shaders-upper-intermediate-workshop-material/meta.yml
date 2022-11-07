@@ -1,0 +1,24 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/node17-dx11-shaders-upper-intermediate-workshop-material-meta"
+type: "tutorial"
+author: "dottore"
+date: "20 Jul, 2017"
+title: "NODE17 - DX11 Shaders upper-intermediate workshop material"
+originalURL: "contribution/node17-dx11-shaders-upper-intermediate-workshop-material"
+category: "tutorial"
+credits: |-
+  [dottore](http://vvvv.org/users/dottore) and [antokhio](http://vvvv.org/users/antokhio)
+like_count: "4"
+imported: "true"
+teaser: |-
+  Patches and material from the NODE17 DX11 Shaders upper-intermediate workshop:
+  
+  <https://17.nodeforum.org/events/dx11-shaders-upper-intermediate/>
+  
+  You need:
+  vvvv_50beta35.8_x64
+  and
+  dx11 pack 1.1 x64
+  
+  ciao

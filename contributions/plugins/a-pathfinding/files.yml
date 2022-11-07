@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/a*-pathfinding-files"
+url: "a-pathfinding"
+category: "plugin"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "AStar.zip"
+            timestamp: "09 Feb, 2013 - 21:43"
+            download_count: "6"

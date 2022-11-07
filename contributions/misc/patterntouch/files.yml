@@ -1,0 +1,27 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/patterntouch-files"
+url: "patterntouch"
+category: "misc"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "1"
+            filename: "patterntouch.0.1.zip"
+            description: |-
+              Fixed multi user behaviour
+            
+            timestamp: "26 Mar, 2013 - 15:08"
+            download_count: "1"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "Pattern-Touch.zip"
+                    description: |-
+                      First public release
+                    
+                    timestamp: "17 Feb, 2013 - 23:51"
+                    download_count: "1"

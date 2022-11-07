@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "104098"
+user: "tgd"
+created: "22 Jul, 2013 - 12:54"
+body: |-
+  Not sure about this, since i do not have access to a facebook dev account anymore. so i can not test. Also think that token from graph api explorer page is not the right one to use, since it is a temporary one and also does not connect to a specific app.
+  Please follow the steps from HowToAccessToken.v4p

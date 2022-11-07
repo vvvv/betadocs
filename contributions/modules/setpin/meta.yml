@@ -1,0 +1,26 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/setpin-meta"
+type: "module"
+author: "zeos"
+date: "13 Nov, 2012"
+title: "SetPin"
+originalURL: "contribution/setpin"
+category: "module"
+credits: |-
+  (c) Zeos
+  license: LGPL v2
+like_count: "4"
+imported: "true"
+teaser: |-
+  Simple module that sets specific pin of a given node.
+  
+  There are two modules:
+  * SetPinByName - sets a pin of a node by given descriptive name
+  * SetPinByNodeID - sets a pin of a node by given node ID
+  
+  inlcudes two examples
+  
+  =======================================
+  have fun
+  //zeos

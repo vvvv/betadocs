@@ -1,0 +1,15 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/pixel-perfect-text-(ex9)-meta"
+type: "demo"
+author: "catweasel"
+date: "29 Aug, 2011"
+title: "Pixel perfect Text (EX9)"
+originalURL: "contribution/pixel-perfect-text-(ex9)"
+category: "demo"
+credits: |-
+  [elektromeier](http://vvvv.org/users/elektromeier) [catweasel](http://vvvv.org/users/catweasel)
+like_count: "14"
+imported: "true"
+teaser: |-
+  This is the good example about how to render correct sized, pixel perfect text even with word wrapping.

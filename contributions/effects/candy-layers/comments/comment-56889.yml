@@ -1,0 +1,15 @@
+### YamlMime:ContributionComment
+---
+uid: "56889"
+user: "ain"
+created: "09 Dec, 2010 - 13:57"
+body: |-
+  thanks bo )
+  
+  hi flateric,
+  i thought about transformation of the layers structure
+  and wanted to do it with transform, to suppot rotation also (when i tryed other shapes besides the sphere), but i can't use these matrices so easily yet...
+  
+  As rotation really doesn't make sense with a sphere, your solution is better,
+  so i'll update it as you suggested,
+  thank you *

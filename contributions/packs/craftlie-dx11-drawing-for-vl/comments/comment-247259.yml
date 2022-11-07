@@ -1,0 +1,20 @@
+### YamlMime:ContributionComment
+---
+uid: "247259"
+user: "Hadasi"
+created: "30 Nov, 2017 - 19:47"
+body: |-
+  Hi @tonfilm. 
+  
+  Text and sprites do not seem to render at the moment. Pretty much silent failure. 
+  From the TTY:
+  
+      00:12:33  *  : patch C:\Users\H\Desktop\vvvv_50alpha35.10_x64\packs\dx11\nodes\modules\PerfMeter (DX11.Debug).v4p has been converted from [/versions/vvvv45beta30.dtd](/versions/vvvv45beta30.dtd) to 50alpha35.10.
+      00:12:33  *  : couldn't connect pins of nodes Mouse (Devices Window) and WindowHandler (EditingFramework).v4p. 
+      00:12:33  *  : couldn't connect pins of nodes Group (DX11.Layer) and Renderer (DX11). 
+  
+  Using 4V Alpha 8e8da8760d (compiled 30/11/17  20:19)
+  
+  ![Missing Items](https://vvvv.org/sites/default/files/imagecache/large/images/01_Overview-Renderer_2017.11.30-20.36.30.png) 
+  
+  H

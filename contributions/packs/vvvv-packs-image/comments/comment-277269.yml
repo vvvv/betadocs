@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "277269"
+user: "Yo_yo"
+created: "05 Dec, 2020 - 14:57"
+body: |-
+  Hey, my AsImage node doesn't output a CvImageLink but a VLImage. Does anyone know how could I fix this?

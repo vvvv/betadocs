@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/sunset-files"
+url: "sunset"
+category: "plugin"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "Sunset_v1.zip"
+            description: |-
+              Sunset v1
+            
+            timestamp: "12 Jan, 2011 - 15:36"
+            download_count: "12"

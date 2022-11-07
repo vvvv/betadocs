@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "100504"
+user: "mauricios"
+created: "04 May, 2013 - 23:07"
+body: |-
+  I recently found out that this patch doesn't work while using vvvv moded to the DirectX to FFGL Bridge. 
+  
+  Can somebody help me out with this? I really like this textures.
+  
+  Im using nvidia GTS360M

@@ -1,0 +1,18 @@
+### YamlMime:ContributionComment
+---
+uid: "266216"
+user: "robotanton"
+created: "11 Sep, 2018 - 20:13"
+body: |-
+  Hey Aurel,
+  
+  I've just tried clean install of beta37 x86, DX11 pack, Image pack.
+  When I click Solve, the node turns red.
+  Then, when I copy the nvcuda.dll into the Image pack folder (see the detailed description above) and restart vvvv, everything works. Unfortunately the link to the .dll from the @teckor site doesn't work anymore.
+  
+  This is how the problem solves on my machine.
+  
+  Hope this helps a bit.
+  
+  Best,
+  Anton

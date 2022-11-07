@@ -1,0 +1,63 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/multiscreen-lvt-(dx11)-meta"
+type: "module"
+author: "lby"
+date: "05 Sep, 2016"
+title: "MultiScreen LVT (DX11)"
+originalURL: "contribution/multiscreen-lvt-(dx11)"
+category: "module"
+like_count: "16"
+imported: "true"
+teaser: |-
+  Enables you to render onto a screen matrix. Screens can overlap or may have spaces between them. Also with the softedge feature and homograph transform. The config will be saved in a XML file.
+  
+  
+  ####  System Hot keys
+  
+  m + up/down : Select menu ( Corner / Overlap ).
+  
+      m + 1/222/333333/4 : Switch the demo textures.
+  
+      m + q : Switch the display mode of overlap.
+  
+      m + s : Save the config file. !important.
+  
+      f + left/right : Change the UI font size.
+  
+  
+  ####  Corner Calibrating
+  
+  < / > : Select one corner.
+  
+      left / right / up / down : Move the corner point.
+  
+      left / right / up / down + shift : Move faster.
+  
+  
+  ####  Overlap Calibrating
+  
+  < / > : Select one overlap.
+  
+      left / right : Change the width of the overlap.
+  
+      up / down : Change the gamma of the overlap.
+  
+  
+  ####  Installation
+  
+  Place the extracted folder in the Packs folder
+      
+  ####  Notice
+  
+  * Thanks to [catweasel](http://vvvv.org/users/catweasel) for the great MultiscreenCat 
+  
+  * Thanks to Xucong for testing & feedback http://surrealred.com/
+  
+  * I don't know how to use the node Text(DX11) properly because it seems to display in a fixed font size. You can use hotkey "f + left / right" to change the font size if needed.  
+  
+  * Tested on vvvv 33.7 x86 & 34.2 x86.
+  
+  * Open the help patch to see how it works.
+  
+  * Hope you feel it useful.

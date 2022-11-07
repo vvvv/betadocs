@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "239277"
+user: "tmp"
+created: "05 May, 2017 - 16:27"
+body: |-
+  you could write a custom selector that takes a dynamicbuffer with 0 / 1 values as input.
+  this should be an easy task if you have a look at the existing selection nodes.

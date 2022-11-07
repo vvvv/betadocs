@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "235167"
+user: "mediadog"
+created: "09 Feb, 2017 - 17:38"
+body: |-
+  @499reality Another reason I think it is a vvvv -> OpenVR buffer or frame rate issue is that when I move near the edge of the space and the "fence" pops up, the fence (being rendered by OpenVR) moves smoothly but the vvvv imagery does the double-image stutter.

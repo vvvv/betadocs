@@ -1,0 +1,16 @@
+### YamlMime:ContributionComment
+---
+uid: "101875"
+user: "tekcor"
+created: "05 Jun, 2013 - 16:16"
+body: |-
+  yes cool. building a motion database from the kinect tracking is the way to go.
+  but to clear some confusion. 
+  Ignore the BindSkeleton and the CustomSkeleton and the Strider for now.
+  
+  This is a developement tree I am not finished with: 
+  In the custom skeleton there is a patch switcher that can load skeletons that were created in vvvv. In this case it loads a patched skeleton for a Half Life 2 Strider model that I found. It doesn't work so far, but this is another topic.
+  
+  for the Kinect mapping we look in version 0.3 I uploaded just a few minutes ago in the AnimatedCharacter->SkeletonAnimation->Animation->KinectJointMapping.
+  
+  cheerio

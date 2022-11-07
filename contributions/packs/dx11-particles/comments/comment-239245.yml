@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "239245"
+user: "guest"
+created: "04 May, 2017 - 10:03"
+body: |-
+  Hi tmp, 
+  adjusting the Mod "offset" doesn't change anything, even with different values on Mod "input". I tried a workaround by masking out the Kinect textures with noise, so that random pixels are black and not emitting. This works visually, but it seems that it doesn't affect the performance and the counted particles in relation to the max number. Even tried to mask out 80% on all Kinect textures, but the performance and particle dropout is similar to having no mask at all. So it seems that somehow invisible particles are around. Did a patch that illustrates the problem, but can't upload it here.

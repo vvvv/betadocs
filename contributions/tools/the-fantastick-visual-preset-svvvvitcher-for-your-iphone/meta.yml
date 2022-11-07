@@ -1,0 +1,40 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/the-fantastick-visual-preset-svvvvitcher-for-your-iphone-meta"
+type: "tool"
+author: "gilbi"
+date: "02 May, 2011"
+title: "The Fantastick Visual Preset Svvvvitcher for Your iPhone"
+originalURL: "contribution/the-fantastick-visual-preset-svvvvitcher-for-your-iphone"
+category: "tool"
+credits: |-
+  http://www.pinktwins.com/fantastick/
+like_count: "3"
+imported: "true"
+teaser: |-
+  05.02.11
+  - No longer requires WAMP
+  - Simplified installation.
+  - Smoother scrolling
+  - If you installed the first version, then move your presets folder back to the original location in SvvvvitcherV1/gui/presets
+  
+  From the README:
+  
+  Install & setup the Fantastick app on your iPhone
+  
+  extract the following to your SvvvvitcherV1/gui folder:
+  
+  - presets.v4p
+  - fanta_presets.v4p
+  - the entire plugins folder
+  
+  Run SvvvvitcherV1 and regenerate all your thumbnails (your old 64x64 px thumbnails will be replaced with 128x128 px thumbnails)
+  
+  open presets.v4p (ctrl+tab when in svvvvitcher)
+  
+  modify IO Boxes: 
+   - Host IP: IP address of your computer (NOT localhost)
+  
+  Run the Fantastick app
+  
+  Play!!

@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "61923"
+user: "everyoneishappy"
+created: "04 Apr, 2011 - 11:52"
+body: |-
+  @vjc4 you can also use this shader and feed it with the texture from Hierro's plugin. Make sure the background pin on the plugin is off, and you are done.
+  
+  [/sites/default/files/user-files/Heightfield2.zip](/sites/default/files/user-files/Heightfield2.zip)

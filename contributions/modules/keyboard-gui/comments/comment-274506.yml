@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "274506"
+user: "gegenlicht"
+created: "09 Dec, 2019 - 11:03"
+body: |-
+  Hey [idab](http://vvvv.org/users/idab)  [Bartuc](http://vvvv.org/users/Bartuc) i think ive fixed the problems with Key 8 & 9, it has something to do with askeycode so i hardfixed it with substitute(string)
+  
+  ![Conversion subpatch](https://vvvv.org/sites/default/files/imagecache/large/images/Conversion.PNG)

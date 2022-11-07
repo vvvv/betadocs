@@ -1,0 +1,10 @@
+### YamlMime:ContributionComment
+---
+uid: "81138"
+user: "screamer"
+created: "14 Apr, 2012 - 20:47"
+body: |-
+  @alg:
+  checked. the node exist, but the url that it gives is the same of the medium url, take a look at this patch:
+  
+  http://www.bcaa.it/originalurl.zip

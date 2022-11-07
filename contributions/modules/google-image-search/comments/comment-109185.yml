@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "109185"
+user: "psylion"
+created: "03 Nov, 2013 - 10:05"
+body: |-
+  Look like it is not working anymore...
+  I change the URL to not pointing to .au, but I don't understand the Strip and the DynamicTexture...
+  I can see the matching result from the HTTP but the process to create the display looks not working...

@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/polar-module-files"
+url: "polar-module"
+category: "module"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "module_polar.zip"
+            timestamp: "12 May, 2013 - 15:06"
+            download_count: "1"

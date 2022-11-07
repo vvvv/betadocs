@@ -1,0 +1,13 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/logitech-dual-action-gamepad-meta"
+type: "module"
+author: "dEp"
+date: "17 Sep, 2010"
+title: "Logitech Dual Action Gamepad"
+originalURL: "contribution/logitech-dual-action-gamepad"
+category: "module"
+like_count: "2"
+imported: "true"
+teaser: |-
+  Interface module for the Logitech Dual Action gamepad. Uses ((HID-(Devices):)) and ((HIDDecode-(Devices):)).

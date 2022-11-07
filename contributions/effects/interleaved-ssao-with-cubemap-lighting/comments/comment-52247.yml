@@ -1,0 +1,10 @@
+### YamlMime:ContributionComment
+---
+uid: "52247"
+user: "partikel"
+created: "26 Aug, 2010 - 22:32"
+body: |-
+  that was quick. it's working now...
+  i still had to change the texture format for the upper dxtexture to
+  A32B32G32R32F, the second entry from the bottom. only then the do_ssao renderer shows the correct depth mask.
+  thanks again, m4d!

@@ -1,0 +1,20 @@
+### YamlMime:ContributionComment
+---
+uid: "259451"
+user: "tobyk"
+created: "26 Jul, 2018 - 15:43"
+body: |-
+  @io I know your comment was a few months ago but in case an answer is still useful.
+  
+  You have to set a lifetime > 0 on the layer emitter. If you set it to 1 then it will read original positions from the layer every 1 second. 
+  
+  After that any other modifier can give the particles movement, eg the SelfRepulsion modifier. This is good for emitting trails of particles or making an object explode or slide away. 
+  
+  IF what you need is for the particles to always be stuck to the layer object than its a bit more complicated. 
+  One approach is you keep lifetime at 0 so they reemit in the new positions every frame. 
+  Then you could use a modifier in ADD mode to their POSITION property and you can create apparent movement. 
+  Eg if you use the VF3D Noise and VF3D ParticleModifer nodes from the fieldtrip pack and then run some animation (integration) through the noise the layer object particles will appear to move. 
+  
+  In terms of a solution where you emit the particle and then it persistently sticks to the layer object but you can add other behaviours this is difficult because theres no trivial solution to targeting the new positions on the layer object. You can use the RW Buffer nodes to create and target particles based on the particles emitted by the layer Emitter BUT the particle count changes every frame and the layer emitter has no way to keep the order of the particles consistent from frame to frame. So whilst the particles do target positions on the object its effectively random which position they will run to so the particle-object cannot keep its shape and turns into noise. 
+  
+  Last potential solution is if your source for the layer emitter has velocity calculated already (Eg its a SDF+noise generated from VF3D noise from fieldtrip pack) then you could use that same velocity source as a modifier.

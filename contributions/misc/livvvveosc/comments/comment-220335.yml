@@ -1,0 +1,15 @@
+### YamlMime:ContributionComment
+---
+uid: "220335"
+user: "dobyhal"
+created: "24 May, 2016 - 21:09"
+body: |-
+  hi, great and useful stuff ! thanks for all your efforts !
+  
+  lately i was trying to set the time signature for a whole ableton LIVE project. unfortunately this doesn't seem to be defined in the python code. 
+  
+  the "OSCAPI.txt" file says it's possible to set a CLIP's time signature with "/live/clip/signature" but what about the project's time signature ? would it be possible to add/change some lines of code to get there ? or is there some other trick to achieve this ?
+  
+  best
+  
+  oliver

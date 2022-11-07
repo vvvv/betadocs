@@ -1,0 +1,21 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/arduino-network-firmata-updated-files"
+url: "arduino-network-firmata-updated"
+category: "plugin"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "1"
+            filename: "ArduinoMegaFirmataNetwork-updated01-2016.zip"
+            timestamp: "29 Jan, 2016 - 12:43"
+            download_count: "1"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "ArduinoNetworkFirmata.zip"
+                    timestamp: "25 Jun, 2015 - 12:31"
+                    download_count: "1"

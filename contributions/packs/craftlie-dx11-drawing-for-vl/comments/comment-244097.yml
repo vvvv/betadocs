@@ -1,0 +1,12 @@
+### YamlMime:ContributionComment
+---
+uid: "244097"
+user: "tobyk"
+created: "27 Aug, 2017 - 15:15"
+body: |-
+  I've got a little workaround for craftlie that could be useful for other VL beginners used to the vvvv way of doing things. 
+  If you want to disable drawing a craftlie primitive you'll find they don't have enable pins and you can't put them in an IF region because they are stateful. This can be a bit of an inconvenience if you are using them in a larger IF region with other calculations.
+  
+  However you can put stateful nodes in a REPEAT region and disable by switching it to 0 repeats. They will not maintain state. 
+  
+  This is also a useful hack for making the patch neater any time you would nest a FOREACH region inside an IF region. You can combine them into a single REPEAT region and set the repeat to 0 when you want to disable it. NOTE that accumulators on REPEAT regions with 0 loops won't work as 'pass arounds' like they do with a disabled IF region. If you need this functionality you will have to manually pass any data around the region with a switch. Of course depending on your use case this may make it less neat than just having the nested regions in the first place...

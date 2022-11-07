@@ -1,0 +1,13 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/multi-light-shaders-meta"
+type: "effect"
+author: "tmp"
+date: "15 Jan, 2018"
+title: "Multi Light Shaders"
+originalURL: "contribution/multi-light-shaders"
+category: "effect"
+like_count: "8"
+imported: "true"
+teaser: |-
+  These Gouraud and Phong shaders accept multiple lights as input and can draw point and directional light in one pass. have fun ;)

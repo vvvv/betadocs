@@ -1,0 +1,14 @@
+### YamlMime:ContributionComment
+---
+uid: "199012"
+user: "Grandchild"
+created: "17 Jun, 2015 - 21:51"
+body: |-
+  @mrboni I built myself a 64bit version, and had to jump through some hoops to do it.
+  So a lot of nodes in this build are probably broken, I know the video-in nodes don't show up. But all the basic CV nodes seem to be okay (Homography, CalibrateProjector/-Camera, Features, etc.)
+  
+  Use with caution:
+  
+  <https://tubcloud.tu-berlin.de/public.php?service=files&t=10766688d0d06fa6a319613cd7ff456a>
+  
+  (this does include a 64bit nvcuda.dll I dug up from the net, of dubious origin. but we run all sorts of dubious dlls anyway, no? ;))

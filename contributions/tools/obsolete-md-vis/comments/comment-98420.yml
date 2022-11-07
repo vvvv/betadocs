@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "98420"
+user: "Curveau"
+created: "20 Mar, 2013 - 20:51"
+body: |-
+  Ok, my understanding of the latter of what you just said: is that that the md.vis internals need optimising ...... 
+  
+  I say this because when simply md.vis, and the above core modules, are open with the default noise patch, the CPU usage is quite high.

@@ -1,0 +1,17 @@
+### YamlMime:ContributionComment
+---
+uid: "57172"
+user: "theplastictoy"
+created: "15 Dec, 2010 - 12:44"
+body: |-
+  Trying this now.
+  
+  Always get the message "Calibration failed for user N".
+  
+  What I'm doing:
+  - Launch the modified NiUserTracker.exe in "C:\Program Files (x86)\OpenNI\Samples\Bin\Release\" folder.
+  - Launch vvvv and open "MultiSkeleton (Kinect) help.v4p".
+  
+  Any help, please?
+  
+  Thanks so much.

@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "98296"
+user: "manuel"
+created: "19 Mar, 2013 - 02:31"
+body: |-
+  Hey guys
+  
+  Im testing 1 blackmagic pci with 4 outputs (matrox th2go and an extra output) the captures great, but the framerate drops a lot if im in fullscreen with these 2 renderers (800x600+2400x600)
+  
+  Anyone tried a similar setup ?

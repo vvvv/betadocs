@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "183744"
+user: "joreg"
+created: "28 Jan, 2015 - 17:07"
+body: |-
+  @screamer that does not sound like the way to go. essentially you'd only have to create DX11 versions of those modules that are now there as DX9 modules only. then they can happily live sidebyside. see?

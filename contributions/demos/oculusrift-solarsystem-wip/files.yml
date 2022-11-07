@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/oculusriftsolarsystemwip-files"
+url: "oculusrift-solarsystem-wip"
+category: "demo"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "OculusRift_SolarSystem.zip"
+            description: |-
+              A quick Solar System for the OculusRift, WIP, with a bit of Lens Flare too
+            
+            timestamp: "05 Nov, 2013 - 14:56"
+            download_count: "1"

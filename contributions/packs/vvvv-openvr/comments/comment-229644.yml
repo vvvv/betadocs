@@ -1,0 +1,24 @@
+### YamlMime:ContributionComment
+---
+uid: "229644"
+user: "lassemunk"
+created: "10 Oct, 2016 - 10:54"
+body: |-
+  Hi everyone,
+  
+  I'm new to vvvv,so maybe this question is very obvious, for that I am sorry.
+  
+  I am trying to get my Rift DK2 to work, It works with the SteamVR calibration etc. - so far so good. 
+  
+  I am trying to use the example patches in the 
+  
+  VVVV\vvvv_45beta34.2_x64\packs\VVVV.OpenVR\girlpower\01_OpenVRDemo
+  
+  However, when I open the demo patch, I have several 'red' (unloaded) objects. 
+  
+  I read the Using Adddons page, and I have gotten the impression that placing the openVR folder inside packs should be suffienct for letting vvvv see the content in all subdirectories. 
+  
+  Is there a setting which let me direct vvvv to the sub directories of the OpenVR 'nodes' folder?
+  
+  thanks a lot! :)
+  Lasse

@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/giphy.com-tvplayer-files"
+url: "giphy-com-tvplayer"
+category: "module"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "giphyPlayer.v4p"
+            timestamp: "27 Mar, 2015 - 05:23"
+            download_count: "1"

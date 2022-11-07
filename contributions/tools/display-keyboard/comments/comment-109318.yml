@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "109318"
+user: "xd_nitro"
+created: "05 Nov, 2013 - 14:05"
+body: |-
+  i've seen errors like that before when filetexture is not finding the file. check file paths and locations.

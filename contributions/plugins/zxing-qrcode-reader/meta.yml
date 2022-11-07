@@ -1,0 +1,42 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/zxing-qrcode-reader-meta"
+type: "plugin"
+author: "kiilo"
+date: "13 Nov, 2013"
+title: "zxing QRcode reader"
+originalURL: "contribution/zxing-qrcode-reader"
+category: "plugin"
+credits: |-
+  1.  ZXing.Net
+  
+  A library which supports decoding and generating of barcodes (like QR Code, PDF 417, EAN, UPC, Aztec, Data Matrix, Codabar) within images.
+  
+  The project is a port of the java based barcode reader and generator library ZXing.
+  
+  http://code.google.com/p/zxing/
+  
+  It has been ported by hand with a lot of optimizations and improvements.
+  
+  The following barcodes are supported by the decoder:
+  UPC-A, UPC-E, EAN-8, EAN-13, Code 39, Code 93, Code 128, ITF, Codabar, MSI, RSS-14 (all variants), QR Code, Data Matrix, Aztec and PDF-417.
+  The encoder supports the following formats:
+  
+  
+  
+  <div class="box">
+  UPC-A, EAN-8, EAN-13, Code 39, Code 128, ITF, Codabar, Plessey, MSI, QR Code, PDF-417, Aztec, Data Matrix
+  </div>
+  
+  unpack zip in vvvv.exe folder and i hope it works for you zxing-help.v4p included
+  
+  Best
+  kiilo
+  
+  ![ZXing at work](https://vvvv.org/sites/default/files/imagecache/large/images/http://vvvv.org/sites/default/files/screenshot1385252357.png)
+like_count: "11"
+imported: "true"
+teaser: |-
+  1.  ZXing.Net 
+  
+  read QRcodes and various other formats from textures

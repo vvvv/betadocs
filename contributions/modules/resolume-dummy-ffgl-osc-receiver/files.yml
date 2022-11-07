@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/resolume-dummy-ffgl-osc-receiver-files"
+url: "resolume-dummy-ffgl-osc-receiver"
+category: "module"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "Resolume Dummy OSC receiver.zip"
+            description: |-
+              First and probably last version, feel free to improve it
+            
+            timestamp: "01 Oct, 2017 - 03:51"
+            download_count: "1"

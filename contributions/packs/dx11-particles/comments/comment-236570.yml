@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "236570"
+user: "sinus"
+created: "06 Mar, 2017 - 15:47"
+body: |-
+  thx for your fast reply! i am pretty sure, that i installed the proper architecture. girlpower does not work exept asymp geometry, but without colourfade. plugins work. modules all show the same symptoms. io boxes (string) need a long time to display content. then renderer goes black fullscreen for a second then. tty goes wild. system msg: nvidia driver disabled.
+  basically all the dynamic buffers make troubles. can do more analysis later. will post in issues. allthebest.

@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/varytec-easymove-led-files"
+url: "varytec-easymove-led"
+category: "module"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "Varytec Easymove LED.zip"
+            timestamp: "04 Dec, 2010 - 02:13"
+            download_count: "1"

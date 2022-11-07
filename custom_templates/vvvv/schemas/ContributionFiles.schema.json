@@ -1,0 +1,36 @@
+{
+    "$schema": "https://dotnet.github.io/docfx/schemas/v1.0/schema.json#",
+    "version": "1.0.0",
+    "id": "contribution-files",
+    "description": "The Schema for Contribution-Files",
+    "title": "ContributionFiles",
+    "type": "object",
+    "properties": {
+        "category": {
+            "type": "string"
+        },
+        "url": {
+            "type": "string"
+        },
+        "files": {
+            "type": "object",
+            "properties": {
+                "32bit": {
+                    "type": "object",
+                    "properties": {
+                        "latest": {
+                            "type": "object",
+                            "properties": {
+                                "description": {
+                                    "type": "string",
+                                    "contentType": "markdown"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "xrefProperties": [ "category", "url", "files" ]
+}

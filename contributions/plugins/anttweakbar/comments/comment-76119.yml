@@ -1,0 +1,16 @@
+### YamlMime:ContributionComment
+---
+uid: "76119"
+user: "joreg"
+created: "11 Feb, 2012 - 13:31"
+body: |-
+  just works for me. crazyshit...
+  
+  what i did:
+  * extracted \AntTweakBar_0.9 to ...\Desktop\contributions\plugins
+  * started beta27
+  * opened root (ctrl+r)
+  * added ...\Desktop\contributions to path
+  * created node TweakBar and checked its helppatch
+  
+  great work mino!

@@ -1,0 +1,17 @@
+### YamlMime:ContributionComment
+---
+uid: "174157"
+user: "carllx"
+created: "13 Nov, 2014 - 23:47"
+body: |-
+  I get a Error Message ,when I opened the Path,
+  ![](https://vvvv.org/sites/default/files/imagecache/large/images/QQ%E6%88%AA%E5%9B%BE20141114004624.png) 
+  
+  ![](https://vvvv.org/sites/default/files/imagecache/large/images/QQ%E6%88%AA%E5%9B%BE20141114003302.png) 
+  
+  Missing **microsoft.directx.dll** and **microsoft.directx.directinput.dll**.
+  And I 've reinstalled  **the latest DirectX SDK release for June 2010**,but no work.
+  
+  Win 8.1 64bit pro ( DirectX 11 )
+  vvvv vvvv_45beta33.3_x86
+  Nvidia GeForce GT 540M ( 2 GB / Sony )

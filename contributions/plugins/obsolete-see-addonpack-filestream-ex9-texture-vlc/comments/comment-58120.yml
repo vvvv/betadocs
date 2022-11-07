@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "58120"
+user: "u7angel"
+created: "07 Jan, 2011 - 07:24"
+body: |-
+  tested and loving it. obviously its slightly unstable. the help patch creates an instant vvvv exception but building up a patch from scratch does work. video file switching is very cool. finally some videoplaying not interupting vvvv.

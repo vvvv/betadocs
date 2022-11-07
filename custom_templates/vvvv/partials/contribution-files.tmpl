@@ -1,0 +1,18 @@
+<div>{{_contributionsURL}}</div>
+{{#files}}
+<h2 id="download">Download</h2>
+  <div class="files">
+    {{#32bit}}
+    <div class="architecture">
+      <h4 id="32bit">32bit</h4>
+      {{>partials/contribution-files}}
+    </div>
+    {{/32bit}}
+    {{#64bit}}
+    <div class="architecture">
+      <h4 id="64bit">64bit</h4>
+      {{>partials/contribution-files}}        
+    </div>
+    {{/64bit}}
+  </div>
+{{/files}}

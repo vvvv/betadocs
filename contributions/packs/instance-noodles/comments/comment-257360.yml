@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "257360"
+user: "io"
+created: "09 Jul, 2018 - 22:49"
+body: |-
+  Is it possible to get a displacement on the Displacement Mapping node that will move vertices along 1 axis in both directions? For example feeding a red/green vector texture, or using a texture as Strength?
+  tx
+  S.

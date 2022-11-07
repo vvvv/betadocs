@@ -1,0 +1,16 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/update-renderer-window-meta"
+type: "module"
+author: "manuel"
+date: "07 Feb, 2012"
+title: "update renderer window"
+originalURL: "contribution/update-renderer-window"
+category: "module"
+like_count: "3"
+imported: "true"
+teaser: |-
+  Simple approach to move/maximize the renderer window using window node.
+  may be usefull for custom interface. Also it doesn't freeze the rendering
+  
+  I know it's a mess, I'm going to clean it

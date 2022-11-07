@@ -1,0 +1,17 @@
+### YamlMime:ContributionComment
+---
+uid: "229689"
+user: "lassemunk"
+created: "12 Oct, 2016 - 08:56"
+body: |-
+  Hi Elliot,
+  
+  Is it possible to specify to save a singlechannel R16_UNorm .dds ? 
+  
+  When I specify the target format (R16_UNorm) of the renderer before it goes to the ReadBack writer (DX11.Texture2D Async), select format Dds for the writer, and make sure the filename is .dds; when I read the image sequence, the image is a 
+  
+  R16G16B16A16_UNorm file
+  
+  Thank you for the great work ! 
+  
+  Lasse :)

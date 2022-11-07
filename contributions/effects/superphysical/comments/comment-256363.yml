@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "256363"
+user: "Radion"
+created: "24 Jun, 2018 - 18:56"
+body: |-
+  My problems already start by opening fbx and collada files in the SuperPhysical help patch. The geometry always seems to be invisible. The only change happens in the background from file to file it gets brighter oder darker. (The geometry was created in blender and works fine with the dx9 geometry setup)

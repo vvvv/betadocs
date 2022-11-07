@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "262940"
+user: "timpernagel"
+created: "21 Aug, 2018 - 14:20"
+body: |-
+  @tgd Thanks! That did the trick. Was always wondering what this grouping is for. In my case (instantly disable all collisions) setting every shape to group -1 works perfect.

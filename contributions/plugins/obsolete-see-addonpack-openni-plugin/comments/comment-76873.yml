@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "76873"
+user: "joreg"
+created: "24 Feb, 2012 - 13:24"
+body: |-
+  @greatyup: your screenshot shows you're testing the kinect with the microsoft drivers. this thread is about the OpenNI drivers. please consider starting a new forum thread if you want to report problems with the microsoft drivers.
+  
+  @all: since the OpenNi plugins are now part of b27.1 addonpack i'd **consider this thread closed**. please start individual forum threads if you have individual kinect-troubles.

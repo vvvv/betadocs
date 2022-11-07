@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "114812"
+user: "tonfilm"
+created: "01 Mar, 2014 - 17:03"
+body: |-
+  @zeos: cannot reproduce this. please scan your vvvv folder for duplicate .dll files. maybe you have any .dll which is in the VVVV.Audio pack twice in your vvvv installation...

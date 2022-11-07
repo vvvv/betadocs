@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/hailstone-(value)-files"
+url: "hailstone-value"
+category: "module"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "Hailstone (Value).zip"
+            timestamp: "05 Jun, 2011 - 13:28"
+            download_count: "1"

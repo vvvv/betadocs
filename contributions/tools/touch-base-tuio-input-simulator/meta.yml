@@ -1,0 +1,48 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/touch-base-tuio-input-simulator-meta"
+type: "tool"
+author: "Gareth.Griffiths"
+date: "16 Mar, 2012"
+title: "Touch Base - Tuio input & Simulator"
+originalURL: "contribution/touch-base-tuio-input-simulator"
+category: "tool"
+like_count: "10"
+imported: "true"
+teaser: |-
+  1.  Touch Base
+  
+  ##  *For all your multitouch needs*
+  
+  Detailed tutorials to come. 
+  
+  This tool is designed for developing and deploying multitouch applications which use the TUIO protocol. 
+  
+  To start creating your own multitouch application head to the folder:
+  
+  Touch Base\Applications
+  
+  And then rename the *Multitouch Application Template* folder to the name of the application you will be developing. 
+  
+  
+  ![Touch Base](https://vvvv.org/sites/default/files/imagecache/large/images/http://www.uberact.com/wp-content/uploads/2012/03/touch-base.jpg) 
+  
+  
+  ##  Touch Simulator
+  
+  When the mouse is over the main renderer the XY pos is used to show where a touch point is. The touch point only becomes active when the left mouse button is hit. 
+  
+  The bottom section of the touch simulator is for manual input of touch positions.  
+  
+  
+  ##  Using a touch enabled device
+  
+  The "Tuio Transform" patch has the UDP node where the data from your touch device is received. Currently the UDP node is set to port 3333, which is a the standard port, if you are not receiving touch information, check the port number of your device and adjust the UDP node accordingly.
+  
+  To enable touch from your device to be sent to your application, turn off "Simulator".
+  
+  You'll also want to turn off "Touch Points" when not testing. 
+  
+  ###  Requirements
+  
+  Beta 27.1 & addonpack

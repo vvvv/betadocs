@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "270562"
+user: "drehwurm"
+created: "06 Jan, 2019 - 21:38"
+body: |-
+  @digitalwannabe
+  
+  I'm managing to crash my app with this exception. Can you explain, what's going on there? What bounds and what array is meant?
+  
+  ![](https://vvvv.org/sites/default/files/imagecache/large/images/triangle-crash.jpg)

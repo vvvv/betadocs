@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "223023"
+user: "pechart"
+created: "11 Jul, 2016 - 14:17"
+body: |-
+  Hmm, instant crash when opening the "root" sample file in 50a34.103. https://pl.vc/fp9yr Also FileImage and "AsTexture" inside "FileTexture (DX11 HDR)" are red. Tried installing "VVVV.Packs.Image" from <https://github.com/elliotwoods/VVVV.Packs.Image>, but still no luck.

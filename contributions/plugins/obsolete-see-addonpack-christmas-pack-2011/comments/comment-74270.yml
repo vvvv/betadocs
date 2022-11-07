@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "74270"
+user: "vux"
+created: "02 Jan, 2012 - 12:40"
+body: |-
+  @Alec @Antokhio
+  
+  Yes only depth/color is supported, but should be possible (despite fact have only one kinect right now at home, should quite work).
+  
+  Skeleton only possible in one kinect at a time so far (heard can be done if you run 2 processes in the same machine, havent tried tho).
+  
+  I'll check skelly bit today (btw all apart from mesh loader on github now).

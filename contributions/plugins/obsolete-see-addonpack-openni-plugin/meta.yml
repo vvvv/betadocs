@@ -1,0 +1,81 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/obsolete-see-addonpack-openni-plugin-meta"
+type: "plugin"
+author: "hierro"
+date: "29 Dec, 2010"
+title: "[OBSOLETE, see Addonpack] OpenNI Plugin"
+originalURL: "contribution/obsolete-see-addonpack-openni-plugin"
+category: "plugin"
+credits: |-
+  hierro
+  screamer
+  vux
+  phlegma
+  joreg
+like_count: "37"
+imported: "true"
+teaser: |-
+  Kinect_OpenNI_Libary:
+  
+  Based on the code from hierro i tried to build a bunch of nodes 
+  to handle the possibilities of primeSense chip and openNI libary.
+  Tested with Kinect and Asus Xtion. 
+  
+  In the package for the Kinect there are included:
+  * Helppatches for all nodes
+  * OpenNIKinect.dll which provide the Nodes:
+  1. Kinect (readind the config XML)
+  1. User (recognize users)
+  1. Skeleton (returns the joint position & orientation of each user)
+  1. Gesture (recognize hand gestures)
+  1. Hand (hand tracking)
+  1. RGB (renders the kinect rgb texture)
+  1. Depth (renders the depth texture)
+  
+  Sources are up on https://github.com/vvvv/vvvv-sdk/tree/OpenNI
+  
+  ## software requirements:
+  
+  - OpenNI Binaries (32bit)
+  - OpenNI Compliant Middleware Binaries (32bit)
+  which you can get from here: http://www.openni.org/Downloads/OpenNIModules.aspx
+  
+  now depending on hardware used get according drivers:
+  * **Asus Xtion**: OpenNI Compliant Hardware Binaries (32bit): from the same link above
+  * **Kinect**: SensorKinect binaries (32bit): from https://github.com/avin2/SensorKinect/tree/unstable/Bin 
+  
+  ## usage
+  
+  after having read about [nodes and paths](https://betadocs.vvvv.org/using-vvvv/patching/using-addons.html) you should already know that you best use any plugin-contribution by putting its directory in your \contributions directory under \plugins and make sure your \contributions directory is referenced in your root patch. so for this contribution the directory structure should look like:
+   \contributions\plugins\OpenNI_Kinect
+  
+  ## changelog:
+  
+  2012.1.13 (Version 1.3)
+  - tested with following drivers:
+  ** OpenNI 1.5.2.23 (32bit, stable, redist edition)
+  ** NITE 1.5.2.21 (32bit, stable, redist edition)
+  ** SensorKinect091 5.1.0.25 (32bit)
+  - no more .xml configuration required
+  - fixed pin-connection handling
+  - rewrote Skeleton node (now with autocalibration, no more pose needed)
+  - added dedicated node for Hand tracking (removed that functionality from Gesture node)
+  - known problem: crashes when recreating Kinect node several times
+  
+  2011.12.24 (Version 1.2)
+  - drivers for this release are available in the Version 1.1 download)
+  - update for beta27/.net4
+  - User node now returns texture with user 
+  - Depth node returns depth in histogram mode or as raw depth and FOV
+  - individual helppatches for all nodes
+  - RGB returns image optionally via sharedmem (to be used in directshow stream)
+  - new module ProjectiveToRealWorld (3d Kinect)
+  - new module Perspective (Transform Kinect)
+  
+  2011.07.10 (Version 1.1)
+  - add new default skeleton
+  - Reload pin on Configuration Node now works proper and reinit the openni plugins
+  - reset pin on Skeleton reloads the skeletons 
+  
+  ideas / bug reports / comments / introductions are welcome

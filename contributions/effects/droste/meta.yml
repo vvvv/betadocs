@@ -1,0 +1,18 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/droste-meta"
+type: "effect"
+author: "tonfilm"
+date: "07 Oct, 2010"
+title: "Droste"
+originalURL: "contribution/droste"
+category: "effect"
+credits: |-
+  M.C. Escher, Dag Ågren
+like_count: "18"
+imported: "true"
+teaser: |-
+  infinite zoom, please dont make too much cheesy screenshots with it..
+  
+  an attempt to port the great Droste effect to DX11.
+  *still some issue with the sampler settings and the texture filter*

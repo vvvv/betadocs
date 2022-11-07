@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "195410"
+user: "unc"
+created: "13 May, 2015 - 09:57"
+body: |-
+  very cool, thx for sharing!
+  
+  btw setting stride value to 28 (in buffer renderer) made it work on my nvidia card

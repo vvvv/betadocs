@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "57706"
+user: "catweasel"
+created: "28 Dec, 2010 - 14:29"
+body: |-
+  I just tried to write to the sequencer while not playing, ie to write to a paticular time, but this is not supported? Can still do this manually by writing the track file though, nice plugin(s)!
+  Thanks!

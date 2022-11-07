@@ -1,0 +1,21 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/vvvv-launcher-files"
+url: "vvvv-launcher"
+category: "tool"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "1"
+            filename: "VVVV.Launcher.zip"
+            timestamp: "27 Aug, 2013 - 02:12"
+            download_count: "1"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "VVVV.Launcher - source.zip"
+                    timestamp: "27 Aug, 2013 - 02:12"
+                    download_count: "1"

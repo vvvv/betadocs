@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "243026"
+user: "guest"
+created: "26 Jul, 2017 - 21:30"
+body: |-
+  @panki does you Macbook have a discrete graphics card? 
+  
+  Noodles heavily leverages DirectX 11 and your GPU for performance so I hope tis nothing to do with [Macbook Pros and their motherboards](http://www.macworld.co.uk/news/mac/macbook-pro-graphics-failures-addressed-by-apple-repair-programme-3497935/). 
+  
+  I had a similar issue instancing with an Intel internal gpu machine. It just didn't like instancing. Check if the DX11 girlpower for instancing works okay too.

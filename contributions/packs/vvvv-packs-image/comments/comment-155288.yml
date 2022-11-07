@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "155288"
+user: "guest"
+created: "12 May, 2014 - 10:41"
+body: |-
+  @princemio @sebl
+  when switching from x86 to x64 in the imagePack solution
+  only a small part of the nodes are available (15-20)
+  not sure  but perhaps some dependencies are 32 bits ? 
+  any other tips is welcome?

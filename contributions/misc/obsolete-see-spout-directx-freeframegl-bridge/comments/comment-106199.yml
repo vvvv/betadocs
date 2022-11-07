@@ -1,0 +1,39 @@
+### YamlMime:ContributionComment
+---
+uid: "106199"
+user: "yochee"
+created: "11 Sep, 2013 - 13:15"
+body: |-
+  No news from Elio for a loong time. Working hard or abandoned the project? 
+  
+  I don't know if this helps anybody: glCapsViewer is a OpenGL hardware capability database. It says my nvidia GT540m should support WGL_NV_DX_INTEROP when OpenGL 4.1/4.2/4.3 installed + WGL_NV_DX_interop2 when OpenGL 4.2/4.3 installed. But until now it didn't work. 
+  http://www.delphigl.de/glcapsviewer/listreports.php?listreportsbyextension=WGL_NV_DX_interop
+  
+  so i checked my open gl driver version with GPU Caps Viewer 1.16.0
+  http://www.geeks3d.com/20120412/gpu-caps-viewer-1-16-0-geforce-gtx-680-monitoring-opengl-opencl-cuda-utility/
+  
+  updated all intel (Intel HD Graphics 3000 seems to only support opengl 3.1 (problem?!)) and nvidia drivers (opengl version now is 4.2)
+  
+  ok... sooo
+  
+  once again 
+  
+  - downloaded a new version of vvvv (vvvv_45beta31_x86) (32bit because resolume runs in 32bit even though i have win7 64bit.)
+  
+  - in the nvidia preferences assingned vvvv.exe to run on nvidia graphics
+  
+  - created args.bat containing the following code:
+  
+  @echo off
+  vvvv.exe /dx9ex
+  
+  - RR_DXTexture.dll is in my resolume plugin folder 
+  
+  - the other two .v4p patch files are in my vvvv root folder (together with the args.bat)
+  
+  - I start args.bat -> start ShareTextureInfo (OpenGl, Interop) help.v4p -> start resolume -> then DX Texture (RR) Root resolume source plugin
+  
+  -result: Error message "NVidia wglDXInterop failed to initialize"
+  
+  
+  did i miss anything? It just won't work :(

@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "93991"
+user: "sanch"
+created: "02 Jan, 2013 - 17:26"
+body: |-
+  There could be different problem , but that's difficult to say , you could check if you have a javascript debugger to enable it and see if there is any error. I tested it only on the last ios on iphone/ipad it was working , so can't really tell for other device. It migh come from javascript who sometime miss some feature on some browser. I think enabling javascript debugger is a good start to see what's going on.

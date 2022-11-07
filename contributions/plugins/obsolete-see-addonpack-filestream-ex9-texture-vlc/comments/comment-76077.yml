@@ -1,0 +1,16 @@
+### YamlMime:ContributionComment
+---
+uid: "76077"
+user: "barbarerik"
+created: "10 Feb, 2012 - 21:02"
+body: |-
+  ok i went back to Beta26, vlc 1.1.11, vlc 0_3 / vlc 0_3_0
+  
+  Now Vlc crashes with message 
+  ERR <A0+> writerange failed
+  
+  i am trying to play wmv 2000x760pix
+  
+  any idea?
+  
+  thanks

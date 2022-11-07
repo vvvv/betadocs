@@ -1,0 +1,17 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/checker3d-meta"
+type: "effect"
+author: "dottore"
+date: "13 Jul, 2010"
+title: "Checker3d"
+originalURL: "contribution/checker3d"
+category: "effect"
+credits: |-
+  http://developer.nvidia.com/page/home.html
+like_count: "1"
+imported: "true"
+teaser: |-
+  3D Checkerboard effect, created by procedural texturing.
+  Texture is pre-calculated, using the HLSL virtual machine (VM).
+  As an "extra," the check pattern is also applied to the specular value, to make the variation between materials stronger.

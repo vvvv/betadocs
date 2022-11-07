@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "76507"
+user: "joreg"
+created: "21 Feb, 2012 - 00:46"
+body: |-
+  ok, then the question is: why b26?
+  chances are that with b27.1 and its addonpack (which includes the openni-nodes) it just works.

@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "109084"
+user: "kiki void"
+created: "01 Nov, 2013 - 05:50"
+body: |-
+  why “wglDXOpenDeviceNV ext is not supported by your gpu”when I start resolume4 .
+  in my  Args node Commandline already show vvvv.exe/dx9ex .
+  (GPU Nvidia geforce GT 650M   CPU i7)

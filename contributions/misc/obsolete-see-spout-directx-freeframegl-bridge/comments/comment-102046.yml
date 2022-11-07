@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "102046"
+user: "metrowave"
+created: "09 Jun, 2013 - 12:42"
+body: |-
+  Check the shared name again. Are you taking the name from the help patch it is vvvvToResolume/MainRenderer1, and vvvvToResolume/MainRenderer2 . there is no space between the backslash. Or you can just put your own name, then click the top-right inlet of the node: ShareTextureInfo to update it before you put the name in Resolume and update there. I think maybe the shared name syntax is your problem... it has to be exactly the same in both Resolume and vvvv patch (just copy and past it).

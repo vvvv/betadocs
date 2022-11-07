@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "154874"
+user: "microdee"
+created: "09 May, 2014 - 02:22"
+body: |-
+  that's because the batch file is referring to a good old version of vvvv, edit it in a text editor and replace it with your vvvv. well i don't know how it does or doesn't work with current version though.

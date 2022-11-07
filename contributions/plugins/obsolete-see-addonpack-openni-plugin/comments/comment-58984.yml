@@ -1,0 +1,15 @@
+### YamlMime:ContributionComment
+---
+uid: "58984"
+user: "ccc"
+created: "26 Jan, 2011 - 07:55"
+body: |-
+  ok working fine now
+  
+  uninstalled everything, ran regcleaner, reinstalled vvvv_25, ran -INSTALL- in vvvv folder, installed WinFormsViewer from http://vvvv.org/forum/45b25-not-really-working-here to get rid of EAccess violation error message 
+  
+  then installed
+  
+  NITE 1.3.0.18, OpenNI 1.0.0.25, SensorKinect 5.0.0, OpenNISkeleton_3
+  
+  thanks for making this nice plugin  : )

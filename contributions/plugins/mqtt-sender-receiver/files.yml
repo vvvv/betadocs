@@ -1,0 +1,27 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/mqtt-sender-receiver-files"
+url: "mqtt-sender-receiver"
+category: "plugin"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "1"
+            filename: "VVVV-MQTT.zip"
+            description: |-
+              Added the option to publish set messages to retained or not.
+            
+            timestamp: "26 Apr, 2015 - 13:50"
+            download_count: "1"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "VVVV-MQTT_beta0_1.zip"
+                    description: |-
+                      Beta 0.1 version of the Plugin. Fixed patch error.
+                    
+                    timestamp: "09 Nov, 2014 - 22:15"
+                    download_count: "1"

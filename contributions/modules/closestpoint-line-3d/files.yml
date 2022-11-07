@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/closestpoint-(line-3d)-files"
+url: "closestpoint-line-3d"
+category: "module"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "Line3dClosestPoint.zip"
+            timestamp: "27 Oct, 2016 - 16:16"
+            download_count: "3"

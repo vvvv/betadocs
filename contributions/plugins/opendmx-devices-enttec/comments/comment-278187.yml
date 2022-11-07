@@ -1,0 +1,12 @@
+### YamlMime:ContributionComment
+---
+uid: "278187"
+user: "yar"
+created: "02 Apr, 2021 - 12:25"
+body: |-
+  Hi
+  It's working perfect in beta, but I'm still cannot get correct result by pure serial.
+  Is this https://github.com/vvvv/VL.Devices.ENTTEC working differently?
+  Is there a way to implement it in gamma? I spotted that this plugin uses FTD2XX library and is this a thing?
+  
+  upd: I got the library from https://ftdichip.com/software-examples/code-examples/csharp-examples/ and realised what the difference

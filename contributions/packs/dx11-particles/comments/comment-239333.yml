@@ -1,0 +1,14 @@
+### YamlMime:ContributionComment
+---
+uid: "239333"
+user: "velcrome"
+created: "07 May, 2017 - 16:54"
+body: |-
+  hey guest,
+  
+  would you mind opening a new thread for your problem? this seems to be quite specific, tbh. and while you are at it, please upload any patches you have so far, so people have an easier handle on what you want to achieve, what you've tried and where exactly you failed. this contrib thread is a place for general discussion about the contrib.
+  
+  anyway, from my understanding, all particle clouds from the kinect emitters are supposed to be very shortlived (as in one frame only). so if you want to have a longer-living "dust" from the body, you should create a secondary particle system (best with a different name) and emit from (selected and filtered, if you may) particles of the first particle system.
+  the reason for this is plain: as of now it is impossible with the pack to have a clean and solid id continuity between points of any depth cam. and that is the same as with the old pack, really.
+  
+  hope that helps, otherwise please open a new thread

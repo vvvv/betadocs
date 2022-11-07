@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "207077"
+user: "sunep"
+created: "28 Sep, 2015 - 19:50"
+body: |-
+  here it seems like something is wrong with the path on some of the nodes![](https://vvvv.org/sites/default/files/imagecache/large/images/Pathgeometry.png) 
+  
+  EDIT: The red nodes expect it to be in \Plugins\blabla... but it should be: %VVVV%\packs\PathGeometry\nodes\plugins\blablabla....

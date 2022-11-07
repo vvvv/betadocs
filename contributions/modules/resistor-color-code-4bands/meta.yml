@@ -1,0 +1,15 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/resistor-color-code-(4bands)-meta"
+type: "module"
+author: "nissidis"
+date: "30 Jul, 2012"
+title: "Resistor Color Code (4bands)"
+originalURL: "contribution/resistor-color-code-(4bands)"
+category: "module"
+credits: |-
+  [nissidis](http://vvvv.org/users/nissidis)
+like_count: "4"
+imported: "true"
+teaser: |-
+  just a four bands resistors' calculator

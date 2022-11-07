@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "114219"
+user: "velcrome"
+created: "17 Feb, 2014 - 03:27"
+body: |-
+  you can <span class="node">pipet</span> colors and <span class="node">cons</span> them as much as you want, as long as you make sure you  fill each individual teensy board to a color slice count of 1024. 
+  
+  if you channel the filled color spread into my module, the precalced data will come out of it spreaded. use that as input of the <span class="node">RS232</span> and spread the COM-Port input as well.

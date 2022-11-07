@@ -1,0 +1,12 @@
+### YamlMime:ContributionComment
+---
+uid: "83318"
+user: "jens.a.e"
+created: "25 May, 2012 - 15:54"
+body: |-
+  Ah, yes, for example. i use the 74HC595 :) But i have to look, how exactly it is implemented, so it fits nicely into the usage of the plugin.
+  
+  
+  btw. i just finalized the fixes motzi introduced and came across the issue, that despite it works nicely there is some really minor downside, that you also have to invert the coresponding slices in the output spread. there is not really a nice solution to it - it would mean to have to have a connection from the encoder to the decoder otherwise. i proper solution would be a change in the firmata firmware, but this is out of the scope of the plugin as i want it tight to the firmata specs.
+  
+  i hope to finish up soon so you all can have a test round on it before i submit another pull request to ioreg.

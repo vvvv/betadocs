@@ -1,0 +1,16 @@
+### YamlMime:ContributionComment
+---
+uid: "104067"
+user: "The3rdIcon"
+created: "21 Jul, 2013 - 23:07"
+body: |-
+  I'm having some trouble with some of the patches not working.
+  
+  
+  
+  The ones which have given me issues are:
+  * 03_LoadVideo_VLC ( Know from the Addon pack with will not work)
+  * 03_FiltersForGeneratedContent
+  
+  
+  Does being on a 64 bit system create a problem?

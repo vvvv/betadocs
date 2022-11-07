@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "273021"
+user: "arash"
+created: "01 Jul, 2019 - 06:18"
+body: |-
+  It's a bit strange but moving the reader node when restarting the patch solves the disconnection problem. every node will be connected as they should be.

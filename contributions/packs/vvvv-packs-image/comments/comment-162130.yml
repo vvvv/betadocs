@@ -1,0 +1,12 @@
+### YamlMime:ContributionComment
+---
+uid: "162130"
+user: "ethermammoth"
+created: "12 Aug, 2014 - 12:09"
+body: |-
+  Does anyone have problems with freezing camera?
+  
+  we use 4 Logitech c920 on one PC, which seems to work. Somehow the cameras freeze at some point, all showing the last static image. Most of the times it runs fine for a couple of hours before this happens. 
+  
+  I disable / enable the cameras during runtime to save processing power. Could this be related? or maybe not enough usb resources? any way of debugging this, finding out where the error could happen?
+  (the strange thing beeing that it runs "fine" (at 20fps) for some hours before hanging)

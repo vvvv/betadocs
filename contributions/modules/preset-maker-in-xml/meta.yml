@@ -1,0 +1,19 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/preset-maker-in-.xml-meta"
+type: "module"
+author: "lasal"
+date: "05 Dec, 2011"
+title: "Preset maker in .XML"
+originalURL: "contribution/preset-maker-in-.xml"
+category: "module"
+credits: |-
+  Lasal
+like_count: "5"
+imported: "true"
+teaser: |-
+  This module stores presets in XML files, useful not only with MIDI controllers but in other scenarios.
+  It has immediate and pickup mode.
+  If you notice some buggy behaviour or a better way to do it, let me know.
+  
+  Lasal.

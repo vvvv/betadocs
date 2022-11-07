@@ -1,0 +1,25 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/midi-mapper-meta"
+type: "module"
+author: "ink"
+date: "06 Jun, 2012"
+title: "Midi Mapper"
+originalURL: "contribution/midi-mapper"
+category: "module"
+credits: |-
+  Ink from Neuronvj
+like_count: "5"
+imported: "true"
+teaser: |-
+  add a module to flash your apc40 button like this picture http://i1336.photobucket.com/albums/o656/vjink/71fce071jw1e5s9w354rug205006otxx_zpse8833397.gif?t=1371541141
+  
+  
+  First to toggle "start MIDI Map" then bang/slider/knob your APC,you should see the IO box works
+  
+  Copy and paste each modules to map different  midis
+  
+  note that: You must toggle off "start MIDI Map" to work right
+  This module works on almost every MIDI controllers.
+  
+  Enjoy.

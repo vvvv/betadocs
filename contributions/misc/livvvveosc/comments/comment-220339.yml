@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "220339"
+user: "velcrome"
+created: "25 May, 2016 - 09:39"
+body: |-
+  hey dobyhal,
+  
+  i cannot check right now, but i think this was possible with the new and improved LiveOSC toolkit shipping as girlpower in the next vvvv-Message pack, even without modifying py files.
+  
+  Look into the */live/time* command

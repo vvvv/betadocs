@@ -1,0 +1,14 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/attractor3d-meta"
+type: "effect"
+author: "fibo"
+date: "05 Aug, 2010"
+title: "Attractor3d"
+originalURL: "contribution/attractor3d"
+category: "effect"
+like_count: "17"
+imported: "true"
+teaser: |-
+  I stolen the code from the Attractor.fx in the girlpower folder and ported to 3d.
+  It is adapted to act on the vertices of a mesh.

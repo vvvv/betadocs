@@ -1,0 +1,10 @@
+### YamlMime:ContributionComment
+---
+uid: "242052"
+user: "guest"
+created: "10 Jul, 2017 - 14:16"
+body: |-
+  //replace with ip of server you want to connect to, comment out if using 'remote_host'
+  #define remote_ip IPAddress(1, 1, 1, 3)
+  
+  How to correctly setUp Ip server?? Do you have an a example??

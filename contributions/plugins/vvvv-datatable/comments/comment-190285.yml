@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "190285"
+user: "catweasel"
+created: "30 Mar, 2015 - 15:10"
+body: |-
+  Ah ok, that slice counting seems slightly un-intuitive, as I would have expected to have to set an index for it to do its magic on it, but now I know, all good, Thanks Woei
+  
+  as for your class(es) were not inside a namespace, I think I'll just leave that there before starting lesson 1 of c# again...

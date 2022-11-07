@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "251924"
+user: "mburk"
+created: "06 May, 2018 - 17:15"
+body: |-
+  @io the easiest way would probably be to use instance noodles, do all the geometry magic and then use "Merge Geometry" to create a single mesh out of it. Deferred version of superphysical that also has a module for instancing is coming up, but using instance noodles like that will probably also do the job.

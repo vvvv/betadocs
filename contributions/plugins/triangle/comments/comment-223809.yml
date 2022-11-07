@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "223809"
+user: "digitalwannabe"
+created: "30 Jul, 2016 - 16:50"
+body: |-
+  I do understand exposing the neighbors can be useful, but I wonder when you will need the edges, isn't all the info in indexed vertices (+markers for boundary edges) already? Asking this because www.vvvv.org/contribution/tetgen also supports neighbors + edges- didn't need them yet, but it would be easy to expose there too....
+  looking forward to your changes :)

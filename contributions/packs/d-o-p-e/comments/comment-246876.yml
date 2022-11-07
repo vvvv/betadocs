@@ -1,0 +1,10 @@
+### YamlMime:ContributionComment
+---
+uid: "246876"
+user: "digitalwannabe"
+created: "04 Nov, 2017 - 10:46"
+body: |-
+  @guest: as we're doing our first proper work with d.o.p.e. now I also experienced what you are describing and the problem seems to be auto layout in combination with the constant shader- the geometry composed in the IndexedGeometryBufferTriangleList subpatch has normals in it, also vertices are float3 and texcoords float2, but the constant shader does not use normals (which doesn't matter i suppose) and expects float4 for vertices and texcoords- as I understood the auto layout pin on the geometry shader is there to fix this, but it doesn't seem to work all the time. 
+  So to fix it permanently, either make your own copy of a constant shader and change the layout in there, or change the IndexedGeometryBufferTriangleList subpatch to match the layout of the shader you use!
+  
+  I will include an alternative version of IndexedGeometryBufferTriangleList inthe next release!

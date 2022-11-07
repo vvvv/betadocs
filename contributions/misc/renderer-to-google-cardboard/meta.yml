@@ -1,0 +1,23 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/renderer-to-google-cardboard-meta"
+type: "misc"
+author: "sapo"
+date: "27 Feb, 2015"
+title: "Renderer to Google Cardboard"
+originalURL: "contribution/renderer-to-google-cardboard"
+category: "misc"
+credits: |-
+  http://intugame.com/ wich makes a nice free app+server combo that streams your desktop to an android device.
+  Mr. Vux for the DX11 pack
+like_count: "11"
+imported: "true"
+teaser: |-
+  http://intugame.com/ makes a nice free app+server combo that streams your desktop to an android device, it 's enjoyable and with an acceptable lag for a soo cheap VR setup.
+  I belive it can be used with many Others VR headsets wich load an andoriod inside.
+  Here are a DX9 and DX11 patches i made to test it out.
+  Start the apps on the pc and the phone, connect them via WIFI or USB tethering, maximize the stereoscopic renderer, hide borders and enjoy vvvv depthnesss;) 
+  
+  Update: 
+  Added a version with headtracking support thru HyperIMU.
+  For a low latency video stream you can use http://limelight-stream.com/ (Requires you have gamestream capable NVIDIA card).

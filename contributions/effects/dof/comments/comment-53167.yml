@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "53167"
+user: "rosenfranz"
+created: "20 Sep, 2010 - 15:58"
+body: |-
+  this looks great!
+  Unfortunately i can't get it to work. When i open your help patch the big rendering window stays black except for the perfmeter. I only can see the color and depth pre-renderings. Tried it with 40beta23 and 45beta24. Same results.
+  Do you have an idea why that could be wrong?

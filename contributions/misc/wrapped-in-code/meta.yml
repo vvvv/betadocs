@@ -1,0 +1,37 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/wrapped-in-code-meta"
+type: "misc"
+author: "mburk"
+date: "12 May, 2015"
+title: "WRAPPED IN CODE"
+originalURL: "contribution/wrapped-in-code"
+category: "misc"
+credits: |-
+  [vux](http://vvvv.org/users/vux)
+like_count: "9"
+imported: "true"
+teaser: |-
+  **WRAPPED IN CODE**
+  
+  This is the patch, the entry installation of NODE15 was based on.
+  The cloth simulation runs in a single compute shader and is quite performant.
+  Texture based forces (similar to displacement) and multiple attractors are supported.
+  
+  Needs DX11 Pack.
+  
+  Limitations:
+  Since this is no perfect shader code, it behaves differently on different graphic cards. You will have to fiddle with the thread dispatching settings, to get a situation that will work for your specific hardware.
+  Also I have seen some weird behaviour on NVIDIA cards.
+  
+  I would be happy about any suggestions to improve this system.
+  
+  
+  Have fun!
+  
+  Github:
+  https://github.com/michael-burk/Cloth/tree/Simple
+  (Don't mind the other branches)
+  
+  
+  Wrapped In Code von Michael Burk ist lizenziert unter einer [Creative Commons Namensnennung - Nicht-kommerziell - Weitergabe unter gleichen Bedingungen 4.0 International Lizenz.](http://creativecommons.org/licenses/by-nc-sa/4.0/)

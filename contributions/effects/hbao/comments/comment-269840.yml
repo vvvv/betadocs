@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "269840"
+user: "seltzdesign"
+created: "22 Nov, 2018 - 15:48"
+body: |-
+  Just disconnected the depth map going to HBAO+ and it really didn't like that. vvvv ram usage shoots up to around 13gb (the max available of the 16gb in my machine). TTY showing HBAO+ "not set to an instance of an object" message. 
+  
+  Could you set it so if no depth map is connected it is just disabled internally? vvvv keeps crashing on me without the depth map, even after restart.
+  
+  This is on beta36.

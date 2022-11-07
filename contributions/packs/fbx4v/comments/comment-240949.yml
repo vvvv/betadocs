@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "240949"
+user: "microdee"
+created: "09 Jun, 2017 - 20:08"
+body: |-
+  @tonfilm: never managed to isolate the bug or come up with precise reproduction steps I can try it now. More specific symptom maybe in inspector all unconnected enums flash red at opening inspector, but that's it, it's a nasty one. I can try to reproduce it in an isolated patch maybe

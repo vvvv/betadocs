@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "110369"
+user: "ink"
+created: "25 Nov, 2013 - 17:51"
+body: |-
+  ![](https://vvvv.org/sites/default/files/imagecache/large/images/apc40-2.png) 
+  so, just these 2 nodes can works well, and open the <span class="pin">MidiMaper</span> module to see which slider/knobs was used.
+  same is midi button.just use <span class="pin">R</span> ButtonOutput

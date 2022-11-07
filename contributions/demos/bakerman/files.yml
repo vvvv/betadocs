@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/bakerman-files"
+url: "bakerman"
+category: "demo"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "bakerman.zip"
+            description: |-
+              bakerman
+            
+            timestamp: "11 Aug, 2011 - 14:02"
+            download_count: "1"

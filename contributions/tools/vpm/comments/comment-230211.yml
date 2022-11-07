@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "230211"
+user: "beyon"
+created: "20 Oct, 2016 - 08:35"
+body: |-
+  Interesting but still very much alpha it seems. Would really need to have some version info for packs.
+  
+  Seems you can have arbitrary c# code in a .vpack? Powerful but also seems a bit like handing over your keys to your house to the author from a security perspective but with curated package repo it might be ok.
+  
+  If you use the latest_alpha packs to install vvvv it seems like it will just copy new files over an existing vvvv directory with no cleaning up of files not used by a newer version?

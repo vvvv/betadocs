@@ -1,0 +1,10 @@
+### YamlMime:ContributionComment
+---
+uid: "65469"
+user: "phlegma"
+created: "19 Jun, 2011 - 08:57"
+body: |-
+  hi,
+  i uploaded a new version with a confidence in and output pin at the skeleton node. 
+  I also tested the libary with the camera xtion from asus <http://www.asus.de/Multimedia/Motion_Sensor/Xtion_PRO/>. 
+  And can say that it works without any problem.

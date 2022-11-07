@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "98564"
+user: "patrick"
+created: "22 Mar, 2013 - 21:51"
+body: |-
+  hika: Unzip and put it into C:\path\to\yourVVVVfolder\CONTRIBUTIONS\plugins, then make sure to add CONTRIBUTIONS in your root setup:
+  <div class="box">
+  Note:
+  Add paths to a folder for all downloaded contributions and another for all your own nodes.
+  </div>
+  
+  Elias/herbst: would be good to know when or if that happens (avoiding breaking patches w/ future versions).

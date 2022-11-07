@@ -1,0 +1,25 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/quick-animation-modules-meta"
+type: "module"
+author: "sapo"
+date: "28 Apr, 2011"
+title: "Quick Animation Modules"
+originalURL: "contribution/quick-animation-modules"
+category: "module"
+like_count: "8"
+imported: "true"
+teaser: |-
+  Some simple modules i'v made for me to avoid remaking always the same structures to quickly animate things in vvvv for various reasons.
+  
+  Fungen: to quickly create animation of values based on lfo and waveshaper with the possibility to set the number of loops and more.
+  
+  Banger: to generate random values and bangs in a random or non random interval.
+  
+  Gater: made to filter the input value under/below its tresholds with 2 different techniques and report if the input is under/below the tresholds.
+  
+  Check out the help patches for a visual explanation
+  
+  To install those modules copy the sapo folder from this zip to your vvvv/modules/ folder.
+  
+  it's my first contrib.. be kind! ;)

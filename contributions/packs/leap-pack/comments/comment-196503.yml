@@ -1,0 +1,10 @@
+### YamlMime:ContributionComment
+---
+uid: "196503"
+user: "solroo"
+created: "21 May, 2015 - 12:13"
+body: |-
+  Hi again microdee,
+  The idea is that you can get the tools directly from a frame. I created a dynamic plugin based on your code (I am to lazy to recompile your entire project).
+  
+  I attached my code, it is basically your Frame implementation, but it also exposes the Tools available on the Leap.frame. (note that the group is "Leap Tool" instead of "Leap" in order to have both available without conflicts). After, the tools are just pointables without a parent.

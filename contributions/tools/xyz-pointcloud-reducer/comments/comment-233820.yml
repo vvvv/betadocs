@@ -1,0 +1,16 @@
+### YamlMime:ContributionComment
+---
+uid: "233820"
+user: "id144"
+created: "29 Dec, 2016 - 21:26"
+body: |-
+  @beyon sure, it does round the values, same function as FormatValue node.
+  ```
+  1.199999 -13.575724 8.777314 158 98 75
+  ```
+  converted to:
+  ```
+  1.20 -13.58 8.78 158 98 75
+  ```
+  
+  @andresc4 Yes, FileTexture and shaders. Many DX9 particle systems actually used bitmaps/textures to store the values. This one for example [ciantparticles-16000000p-gpu-particle-system- -rotations.](xref:contribution/ciantparticles-16000000p-gpu-particle-system- -rotations.) In DX11 shader, you would use Load function instead of SampleLevel to read the values from texture. But that is for another contribution ;)

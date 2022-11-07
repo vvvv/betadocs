@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "104166"
+user: "bjoern"
+created: "24 Jul, 2013 - 14:14"
+body: |-
+  @ foaster: oha didn't refresh. yep that's the problem.
+  
+  so for now avoid spaces. maybe a future version could put the in-/out-filenames in quotes.

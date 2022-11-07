@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "211775"
+user: "Evan"
+created: "29 Nov, 2015 - 10:11"
+body: |-
+  Hi all!
+  The question of tracking multiple targets.
+  How to copy the sensor inside the configuration file (XML)?
+  Like this? But there is no success! @idab
+  ![multiple](https://vvvv.org/sites/default/files/imagecache/large/images/1_15.jpg)

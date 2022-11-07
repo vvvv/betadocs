@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "211890"
+user: "motzi"
+created: "30 Nov, 2015 - 19:49"
+body: |-
+  just for reference that might help others:
+  
+  i've had issues installing the pack. many of the patches did not work - either the gsfx files were not loaded or the renderer did not output anything for whatever reason (even though the fx files did load fine, no red nodes).
+  
+  i could get the whole thing running though after renaming the packs folder from "InstanceNoodles Alpha 0.2.1" just to "InstanceNoodles".

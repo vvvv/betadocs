@@ -1,0 +1,15 @@
+### YamlMime:ContributionComment
+---
+uid: "74128"
+user: "circuitb"
+created: "29 Dec, 2011 - 17:49"
+body: |-
+  @ sunep & bo27 
+  you can hide the popup
+  add this to the .cs
+  in
+  // render .png files for each page
+  after
+  exe.StartInfo.CreateNoWindow = true;
+  add
+  exe.StartInfo.WindowStyle = ProcessWindowStyle.Hidden;

@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "159845"
+user: "princemio"
+created: "17 Jul, 2014 - 12:17"
+body: |-
+  Really NICE!!! Dx11 is getting more and more interesting stuff to play with. I might have one suggestion. The map which is used to define boundaries is the same map which holds the particles. Hence the particle interaction with each other is the same as the particles interaction with the boundaries. Im not sure but do you think that a seperation of two different maps (particles and Boundaries) would make more sense. Think of oil or gas that holds together but pushes from the wall. Please correct me if im wrong.
+  
+  Anyway thank you very much!!!
+  
+  mio

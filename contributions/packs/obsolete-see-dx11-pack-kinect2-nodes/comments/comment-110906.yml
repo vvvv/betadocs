@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "110906"
+user: "velcrome"
+created: "06 Dec, 2013 - 16:10"
+body: |-
+  works good. 
+  
+  just to let you know: there was an arrayoutofbounds from the player node for some reason.

@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "110909"
+user: "elliotwoods"
+created: "06 Dec, 2013 - 17:05"
+body: |-
+  @ggml - did you read julian's comment above about changing the texture format?
+  another reason for white-out might be if you have the /dx9ex flag turned on

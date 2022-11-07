@@ -1,0 +1,14 @@
+### YamlMime:ContributionComment
+---
+uid: "78363"
+user: "Luper"
+created: "28 Feb, 2012 - 11:02"
+body: |-
+  Last version works great, but it isn't speadable! 
+  If I send two or more path (all legal) to the VLC node, only the first texture is visible, all the following are just shade of color
+  Does this only happen to me?
+  
+  I have Windows 7 home premium 64bit
+  vvvv 45beta27.1
+  VLC media player 2.0.0
+  n

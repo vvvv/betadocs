@@ -1,0 +1,47 @@
+### YamlMime:ContributionComment
+---
+uid: "104061"
+user: "sansui"
+created: "21 Jul, 2013 - 19:57"
+body: |-
+  I tried venode 0.3 now.
+  I found something wrong in nodejs.v4p. some node lines was disconnected.
+  ShellExecute node was red, and nodejs server doesn't execute.
+  and I had run nodejs server manually in cmd.exe window.
+  In browser localhost:8000, it shows same webpage with old venode version.
+  then I found vvvv send to browser signal successfully, but vvvv doesn't receive signal from browser.
+  
+  and I edited code in "server.js",
+  ```
+  client.send(buff, 0, buff.length, port, Host, function(err, bytes) 
+  	{
+          console.log("<%20client%20send%20> "+buff+" <port>"+port+ " <%20host%20> "+Host);
+  
+          if(err){
+              console.log("err ? "+err + "byte ? "+bytes);
+          }
+  
+  		client.close();
+  	});
+  
+  ```
+  
+  ![](https://vvvv.org/sites/default/files/imagecache/large/images/serverjs.png) 
+  
+  
+  and in console, message was emitted like this.
+  
+  <%20client%20send%20> update|slider:slider1:44|KzXTkvpZny86Fbzhv3W9 <%20port%20> 5003 <%20host%20> undefined
+  
+  ![](https://vvvv.org/sites/default/files/imagecache/large/images/undefined.png) 
+  
+  I found host variable is something wrong.
+  and edited like this,
+  //var V4Ip = process.argv<2>;
+  var V4Ip = "192.168.0.9"; //my localhost IP
+  
+  then, finally, it works, vvvv receives data well from browser.
+  
+  ![](https://vvvv.org/sites/default/files/imagecache/large/images/19216809.png) 
+  
+  ![](https://vvvv.org/sites/default/files/imagecache/large/images/nodejsv4p.png)

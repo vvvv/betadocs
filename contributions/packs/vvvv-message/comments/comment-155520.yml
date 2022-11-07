@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "155520"
+user: "velcrome"
+created: "16 May, 2014 - 15:20"
+body: |-
+  I found and fixed some errors and did some more restructuring. 
+  
+  Also you can use the Message datatype now as a nuget dependency, simply search for VVVV.Packs.Message on nuget.org

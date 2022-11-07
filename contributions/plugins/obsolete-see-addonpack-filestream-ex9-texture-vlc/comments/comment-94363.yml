@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "94363"
+user: "mediadog"
+created: "09 Jan, 2013 - 14:30"
+body: |-
+  While this is now in the addonpack for b29, I have not found correct instructions anywhere for the location of the libvlc_searchpath.txt file.
+  
+  If in b29 your "FileStream (EX9.Texture VLC)" node comes up red and you have VLC installed, you probably need to add the VLC path to:
+  
+  (vvvv root folder)\addonpack\lib\nodes\plugins\libvlc_searchpath.txt
+  
+  This should be added to the b29 installation instructions or at least the release notes.  Thanks!

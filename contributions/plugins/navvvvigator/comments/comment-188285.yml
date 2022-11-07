@@ -1,0 +1,14 @@
+### YamlMime:ContributionComment
+---
+uid: "188285"
+user: "woei"
+created: "10 Mar, 2015 - 16:26"
+body: |-
+  @[blausand](http://vvvv.org/users/blausand)
+  yes and no:
+  * vvvv source doesn't give you access to drawing the gui
+  * HDEHost gives you access to the current graph, so you could create a meaningful representation. don't know though, if you can use HDEHost as standalone, guess not.
+  * xml files don't contain all the info to recreate the gui (e.g. pins with default values are missing, thus will mess up the visual appearance.
+  * there's a xslt stylesheet to convert xml to svg.
+  
+  so the best shot would probably be a combination of all of those (which is quite some work and probably the reason nobody did it yet)

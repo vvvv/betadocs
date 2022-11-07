@@ -1,0 +1,22 @@
+### YamlMime:ContributionComment
+---
+uid: "245293"
+user: "yochee"
+created: "13 Sep, 2017 - 01:15"
+body: |-
+  hello :) I use
+  
+  Windows 8.1. 64bit
+  Microsoft Office 2016 
+  vvvv_50beta35.5_x64
+  excel reader is installed at E:\vvvv_50beta35.5_x64\packs\excel\nodes\plugins
+  
+  Excel import is running, even without pia.exe installed, but vvvv gets slow when toggeling read (=program freeze for about 2 seconds)
+  
+  now I checked the link in the help patch but have no clue what to do with the files:
+  - after downloading and running PIARedist.exe I got the o2010pia.msi ? now?
+  - Do I have to move the .dlls somewhere else?
+  
+  
+  
+  after parsing/reading the program runs smoothly and I also can change my data selection. great!

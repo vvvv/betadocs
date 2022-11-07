@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "234593"
+user: "joreg"
+created: "20 Jan, 2017 - 19:02"
+body: |-
+  for an example of how to patch something like this using VL, see
+   \girlpower\VL\Animation\MultiTouch
+  in latest [alpha downloads](https://vvvv.org/downloads/previews). will be included with beta>35

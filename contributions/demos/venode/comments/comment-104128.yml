@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "104128"
+user: "joreg"
+created: "23 Jul, 2013 - 00:09"
+body: |-
+  you sure you tried this combination with v0.3: 
+  * nodejs 0.10.12 
+  * vvvv b30.2 + addonpack
+  
+  if <span class="node">ShellExecute (Windows Advanced)</span> is red that sounds like you're missing the addonpack. 
+  
+  hardcoding your ip into the sourcecode should not be necessary. see the section in the patch where <span class="node">IP (Network)</span> returns your local IP. there may be a missmatch there...

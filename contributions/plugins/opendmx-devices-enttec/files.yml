@@ -1,0 +1,36 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/opendmx-(devices-enttec)-files"
+url: "opendmx-devices-enttec"
+category: "plugin"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "2"
+            filename: "Devices_EnttecOpenDMX_v02_x64.7z"
+            description: |-
+              x64
+            
+            timestamp: "06 Aug, 2015 - 09:40"
+            download_count: "1"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "1"
+                    filename: "Devices_EnttecOpenDMX_v02.7z"
+                    description: |-
+                      x86
+                    
+                    timestamp: "05 Aug, 2015 - 16:05"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "Devices_EnttecOpenDMX.7z"
+                    description: |-
+                      x86
+                    
+                    timestamp: "31 Jul, 2015 - 13:11"
+                    download_count: "1"

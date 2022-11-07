@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "75729"
+user: "cybear"
+created: "04 Feb, 2012 - 12:41"
+body: |-
+  You're right! Now it works without the four dlls... really strange! Your example works. In my project I use two VLCs and with high resolutions... (1920x1080 and 1024x768) and always after the third change the video freezes. If I use two VLC nodes vvvv crashes, if I want to change the patch with CreateNode on the second channel. Anyway I have both VLCs outside the CreateNode. I don't have these issues with beta26 and I still don't know (especially the crash) if it is related to the vlc plugin or it is vvvv. Or maybe something that I have to change?
+  
+  Just for information: I change the videofiles with the Filename pin. I don't use the NextFilename pin.
+  
+  Have a nice weekend ft! :)

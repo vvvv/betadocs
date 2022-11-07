@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "58212"
+user: "dottore"
+created: "09 Jan, 2011 - 21:20"
+body: |-
+  hi lasal,
+  actually it's really easy to add an image texture on the Bicubic resampled surface (is that you mean?):
+  in the shader just add a new texture+sampler.
+  then in the pixel shader multiply the color (from Phong function) with the tex2D(sampler of your texture, texCoord). 
+  you can use the same texcoord i'm using to sample the position texture.
+  
+  :)

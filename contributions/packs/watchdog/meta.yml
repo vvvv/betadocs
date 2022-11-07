@@ -1,0 +1,50 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/watchdog-0-meta"
+type: "pack"
+author: "Bartuc"
+date: "07 Mar, 2018"
+title: "Watchdog"
+originalURL: "contribution/watchdog-0"
+category: "pack"
+credits: |-
+  Batch scripting
+like_count: "3"
+imported: "true"
+teaser: |-
+  a little script for every vvvvuser, in case of crash of vvvv, or just for you mind. Useful when you aren't in front of your keyboard.
+  
+  It's working for one patch (not /allowmultiple for the moment)
+  
+  ###  First time
+  
+  You can execute batch file named **watchdog.bat**, and it will execute the patch named *Watchdog (Windows) help.v4p*, when your kill this patch, it will be executed again while the script is open.
+  
+  
+  ###  How to use
+  
+  Now, open watchdog.bat in your notepad. 
+  Modify the line **set patchvvvv=Watchdog (Windows) help.v4p** by your path in absolute. 
+  
+  ###  exemple
+  
+  before :
+  ```
+  set patchvvvv=Watchdog (Windows) help.v4p
+  ```
+  after :
+  ```
+  set patchvvvv=C:\vvvv50beta35.8_x64\patch\mypatch.vp4
+  ```
+  
+  Make a shurtcut of the script to execute your patch. 
+  **Be careful**, the node **Watchdog (Windows)** have to be in your patch. Or the script will kill Vvvv process every 30 seconds.
+  You can move the pack everywhere you want, but **watchdog.bat** and **Watchdog (Windows).v4p** have to be always together to work fine.
+  
+  
+  
+  
+  ### How it's works ?
+  
+  When you execute the script, it create/modify a file named "watchdog" to write 0. 
+  When Vvvv is executed, it write a positive value every second in this same file. The script read the file every 5 seconds and read the positive value and write 0 instead. When the script read 0 it's means Vvvv don't write into the file and means a crash.

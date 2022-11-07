@@ -1,0 +1,17 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/utf-8-encoder-(greek-polytonic-cyrillic-characters-)-meta"
+type: "plugin"
+author: "nissidis"
+date: "13 Dec, 2013"
+title: "UTF 8 Encoder (Greek Polytonic / Cyrillic characters )"
+originalURL: "contribution/utf-8-encoder-(greek-polytonic-cyrillic-characters-)"
+category: "plugin"
+credits: |-
+  [nissidis](http://vvvv.org/users/nissidis)
+like_count: "5"
+imported: "true"
+teaser: |-
+  Before some months I was working and playing around with MySQL via vvvv. My purpose was to use different parts from the Bible (greek polytonic version). It was realy a pain in the ass. So I ended up with one combination of different nodes (encoding and decoding) and with this plugin that I am providing here. Hopw it helps. Please try and improve if you like !
+  
+  cheers

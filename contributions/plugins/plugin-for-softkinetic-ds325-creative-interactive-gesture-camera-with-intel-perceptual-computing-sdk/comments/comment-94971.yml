@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "94971"
+user: "alpaykasal"
+created: "19 Jan, 2013 - 22:28"
+body: |-
+  Hey everyone, i found out my camera's firmware is definitely not backward compatible with beta1... so that may mean some of you will have trouble getting this vvvv patch up and running as you will be locked into beta2 as I am.
+  
+  with the help of Seth Gibson (Intel) and Justin Maurer (coworker at http://Supertou.ch ), we got an app written in Cinder that is based on beta2. it simply spits out OSC for X and Y data off of every finger. I am using it now. fun stuff. I will share it as a contribution soon, as soon as it is less primitive looking. I'll also make an effort to learn how to make it a node (it currently relies on a config file for things like host and udp port, etc)
+  
+  Stay tuned.
+  
+  ![Intel Perceptual Gesture Camera in VVVV](https://vvvv.org/sites/default/files/imagecache/large/images/vvvv_particles.jpg)

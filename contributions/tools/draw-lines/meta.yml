@@ -1,0 +1,16 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/draw-lines-meta"
+type: "tool"
+author: "catweasel"
+date: "13 Jun, 2011"
+title: "Draw Lines"
+originalURL: "contribution/draw-lines"
+category: "tool"
+credits: |-
+  catweasel
+like_count: "8"
+imported: "true"
+teaser: |-
+  I made this patch for the mapping workshop at node10, it allows you to add points to create and edit lines, also added is a quick hack to draw them on in a mapping stylee.
+  Any bright ideas to make the lines draw on at a constant speed (ie faster for longer lines) welcome

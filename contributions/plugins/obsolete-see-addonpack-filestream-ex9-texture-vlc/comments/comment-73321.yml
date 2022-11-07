@@ -1,0 +1,17 @@
+### YamlMime:ContributionComment
+---
+uid: "73321"
+user: "cybear"
+created: "14 Dec, 2011 - 12:01"
+body: |-
+  For using the VLC node you can also drag and drop the Vlc0_3.dll in vvvv.
+  Important is that no files are missing there. I have in the Vlc subfolder:
+  
+  plugins (273 files)
+  Declarations.dll
+  Implementation.dll
+  libvlc.dll
+  libvlccore.dll
+  LibVlcWrapper.dll
+  NLog.dll
+  Vlc0_3.dll

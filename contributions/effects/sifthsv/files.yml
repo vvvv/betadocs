@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/sifthsv-files"
+url: "sifthsv"
+category: "effect"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "SiftHSV.zip"
+            timestamp: "19 Apr, 2012 - 10:25"
+            download_count: "1"

@@ -1,0 +1,20 @@
+### YamlMime:ContributionComment
+---
+uid: "85388"
+user: "elliotwoods"
+created: "08 Jul, 2012 - 18:08"
+body: |-
+  I think it's also worth noting that there's irrecoverable latency involved in vertical sync, causing you to always have 1 frame latency from the output device.
+  
+  The ideal solution is where you can move a surface from GPU in PC A to a surface in GPU in PC B.
+  Almost like an SLI bridge between 2 computers
+  
+  There's 3 orders of magnitude therefore being presented:
+  
+  1. Capture through DirectShow (3-30 frames latency)
+  1. Capture direct through SDK inc. GPUDirect (0-1 frame latency)
+  1. Capture without output frame synchronisation / final presentation (0 frames latency)
+  
+  To improve 2, we could use 120Hz from the source (not compatible with BlackMagic Intensity, but more expensive solutions offer this).
+  
+  **edit** NB these latencies are all from framegrabber input to VVVV app. Further latency is encountered when you render this data, and when you present this data on a screen or projector

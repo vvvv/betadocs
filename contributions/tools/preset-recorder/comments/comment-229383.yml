@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "229383"
+user: "catweasel"
+created: "05 Oct, 2016 - 10:47"
+body: |-
+  Yeah not sure why I put that in there tbh, but I hadnt noticed it stopping you adding values...
+  Ah, its actually because the preset were created with the help patch not as first node ie node id =73, the paths are absolute, I'll update the test presets to actually work when you open it huh!

@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "239179"
+user: "manuel"
+created: "02 May, 2017 - 19:55"
+body: |-
+  Hey guys
+  
+  im getting some red nodes, coming from DX11.Extensions.dll
+  I try to load the DLL on the vvvv patch to see if find the correct path, but only loads the filepath. it doesn't open the dialog to select which node u want to use from that DLL
+  any hint?
+  
+  using win 10 64, vvvv 50beta35 clean with dx11 pack and dx11 particles

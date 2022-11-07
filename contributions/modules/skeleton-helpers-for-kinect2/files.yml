@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/skeleton-helpers-for-kinect2-files"
+url: "skeleton-helpers-for-kinect2"
+category: "module"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "Skeleton (Kinect Helper).zip"
+            timestamp: "18 Jun, 2015 - 16:04"
+            download_count: "7"

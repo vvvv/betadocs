@@ -1,0 +1,45 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/obsolete-see-addonpack-irrklang-3dsound-engine-v1-beta-files"
+url: "obsolete-see-addonpack-irrklang-3dsound-engine-v1-beta"
+category: "plugin"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "3"
+            filename: "Irrklang.zip"
+            description: |-
+              v1.0
+            
+            timestamp: "25 Sep, 2010 - 01:40"
+            download_count: "2"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "2"
+                    filename: "Irrklang.zip"
+                    description: |-
+                      v1.1  effects spreadable
+                    
+                    timestamp: "25 Sep, 2010 - 15:51"
+                    download_count: "2"
+                - file:
+                    bit: "64"
+                    delta: "1"
+                    filename: "Irrklang.zip"
+                    description: |-
+                      v1.101 only cleanup
+                    
+                    timestamp: "11 Nov, 2010 - 02:07"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "Irrklang.zip"
+                    description: |-
+                      v1.2   update for vvvvbeta25
+                    
+                    timestamp: "01 Feb, 2011 - 21:19"
+                    download_count: "1"

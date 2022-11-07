@@ -1,0 +1,26 @@
+### YamlMime:ContributionComment
+---
+uid: "56829"
+user: "flateric"
+created: "08 Dec, 2010 - 07:06"
+body: |-
+  Hey, like this shader very much.
+  
+  Found one little problem, if the object is in the center then we lose the layers, so couldn't use it initially with a skybox (Sphere+WithinView). Also stripes doesn't move on a static object. 
+  
+  Simple way to get around it (and nice feature) is just to add an offset for the Pixel Pos.
+  ```
+  float3 Offset;
+  ```
+  
+  Then in the pixel shader part, replace:
+  ```
+  float3 PP = In.PixPos;
+  ```
+  by 
+  ```
+  float3 PP = In.PixPos + Offset;
+  ```
+  Then you can change stripes without the need to move the object.
+  
+  Thanks for the contrib :)

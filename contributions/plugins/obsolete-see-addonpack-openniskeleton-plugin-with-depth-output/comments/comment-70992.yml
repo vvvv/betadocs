@@ -1,0 +1,12 @@
+### YamlMime:ContributionComment
+---
+uid: "70992"
+user: "joreg"
+created: "24 Oct, 2011 - 15:52"
+body: |-
+  <div class="box">quote:mediadog:
+  The depth map returned by OpenNI is actually a bitmap where each 16-bit pixel contains 13 bits of depth information as the distance in millimeters (roughly).
+  </div>
+  can you provide a resource (link) for that specification? i can only find info that says the depth sensors resolution is 11bit, [like here](http://mathnathan.com/2011/02/03/depthvsdistance/). probably the openni-api returns those 13bit but i cannot find information on that?!
+  
+  **edit:** and also what do you mean with (non-) AGC grayscale?

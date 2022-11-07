@@ -1,0 +1,12 @@
+### YamlMime:ContributionComment
+---
+uid: "243520"
+user: "u7angel"
+created: "13 Aug, 2017 - 14:05"
+body: |-
+  @princemio, that behaviour comes actually kind of for free. you can set the lock time for a state and just enable the transitions permanently (input pin set to 1) which goes from that state. hence after the state lock time the transition will automatically triggered. i was showing such use case in the node17 automata workshop. checkout the video.
+  
+  https://youtu.be/I8CmERSoyPc?t=4173
+  see the Done pin is set to enabled, therefore the done transitions activates once the "switchTopic" state finished its lock time.
+  
+  does this solve your problem ?

@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "152833"
+user: "tonfilm"
+created: "02 Apr, 2014 - 11:24"
+body: |-
+  @bjorn its a simple DirectX 2D renderer, which is very unlikely to work on OSX. but as gregsn explained in his answer to the blog post, the library is not an issue yet.

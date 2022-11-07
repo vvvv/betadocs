@@ -1,0 +1,63 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/vvvv.tutorials.mapping.3d-files"
+url: "vvvv-tutorials-mapping-3d"
+category: "tutorial"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "5"
+            filename: "ProjectorN (DX11).zip"
+            description: |-
+              Fixes: intersect had no depthbuffer, table load incorrect.
+            
+            timestamp: "02 Jul, 2014 - 17:42"
+            download_count: "1"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "4"
+                    filename: "ProjectorN_b31.2 (DX11).zip"
+                    description: |-
+                      DX11 Version of the modules and fx b31.2
+                    
+                    timestamp: "13 Dec, 2013 - 13:44"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "3"
+                    filename: "ProjectorN_b29 (DX11).zip"
+                    description: |-
+                      DX11 Version of the modules and fx
+                    
+                    timestamp: "17 Apr, 2013 - 11:18"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "2"
+                    filename: "VVVV.Tutorials.Mapping.3D.zip"
+                    description: |-
+                      VVVV.Tutorials.Mapping.3D (May 2012)
+                    
+                    timestamp: "21 May, 2012 - 16:02"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "1"
+                    filename: "VVVV.Tutorials.Mapping2-3D.zip"
+                    description: |-
+                      VVVV.Tutorials.Mapping.3D (June 2012)
+                    
+                    timestamp: "03 Jun, 2012 - 14:02"
+                    download_count: "6"
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "VVVV.Tutorials.Mapping2-3D.zip"
+                    description: |-
+                      VVVV.Tutorials.Mapping.3D (June 2012)
+                    
+                    timestamp: "03 Jun, 2012 - 14:38"
+                    download_count: "3"

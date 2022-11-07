@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "81540"
+user: "dl-110"
+created: "22 Apr, 2012 - 11:59"
+body: |-
+  Just tested the new plugin with a button, a LED and a servo motor (all running simultaneously) under vvvv beta 27.1 with an arduino UNO and the StandartFirmata of the Arduino IDE 1.0.
+  
+  Worked like a charm.
+  
+  Hopefully I´ll find some time later this week to check it under Parallels as well as under Bootcamp since I just had a native Windows laptop at hand.
+  
+  Great work guys and thanks for this all new ArduinoFirmata-Update!

@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "94206"
+user: "jens.a.e"
+created: "07 Jan, 2013 - 13:08"
+body: |-
+  they super quick-fix is to:
+  
+  Change the Encoding of the <span class="node">RS-232</span> inside the <span class="node">Arduino</span> Module to **Windows-1252**. It does the trick for now.
+  
+  Rohkost is coming!

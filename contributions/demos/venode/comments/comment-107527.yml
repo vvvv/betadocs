@@ -1,0 +1,17 @@
+### YamlMime:ContributionComment
+---
+uid: "107527"
+user: "tmp"
+created: "04 Oct, 2013 - 09:09"
+body: |-
+  hey!
+  
+  i have some trouble sending data from vvvv to the client via broadcast or directly.
+  
+  for that i open up several tabs and connect to the app. the vvvv data is received without problems and sliders are updated in all tabs.
+  
+  but when i close one session the remaining tabs dont update the sliders anymore. this happens when i use broadcast or the session ids.
+  after opening a new tab everything works fine again.
+  
+  do you know that bug? 
+  i tried it with nodejs v0.10.18 and v0.8.25 in combination with vvvv_45beta30.2_x86

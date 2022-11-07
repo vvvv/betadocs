@@ -1,0 +1,15 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/colorize(ex9.texture-filter)-meta"
+type: "effect"
+author: "lecloneur"
+date: "10 Jan, 2012"
+title: "Colorize(EX9.Texture Filter)"
+originalURL: "contribution/colorize(ex9.texture-filter)"
+category: "effect"
+credits: |-
+  http://www.geeks3d.com/20101123/shader-library-predators-thermal-vision-post-processing-filter-glsl/
+like_count: "1"
+imported: "true"
+teaser: |-
+  Colorize effect ported from GLSL. Based on thermal vision pixel shader.

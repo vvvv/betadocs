@@ -1,0 +1,42 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/osc-learn-for-svvvvitcherv1-files"
+url: "osc-learn-for-svvvvitcherv1"
+category: "misc"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "3"
+            filename: "TouchOSC Layout for Svvvvitcher.zip"
+            description: |-
+              Svvvvitcher layout for TouchOSC iPhone. Just replace osc_settings.txt in your gui folder and upload the layout to TouchOSC.
+            
+            timestamp: "03 Mar, 2011 - 04:30"
+            download_count: "3"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "2"
+                    filename: "SvvvvitcherV1_osc.zip"
+                    timestamp: "03 Mar, 2011 - 03:31"
+                    download_count: "5"
+                - file:
+                    bit: "64"
+                    delta: "1"
+                    filename: "SvvvvitcherV1_osc_R2_upgrade.zip"
+                    description: |-
+                      First download R1 then overwrite the sliders.v4p included in this .zip. Then install the new TouchOSC layout included in this zi
+                    
+                    timestamp: "11 Mar, 2011 - 21:12"
+                    download_count: "2"
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "SvvvvitcherV1_osc_R1.zip"
+                    description: |-
+                      Added OSC send, an updated iPhone layout is included.
+                    
+                    timestamp: "04 Mar, 2011 - 02:09"
+                    download_count: "1"

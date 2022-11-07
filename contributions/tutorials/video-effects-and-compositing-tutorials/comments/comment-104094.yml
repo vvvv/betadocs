@@ -1,0 +1,12 @@
+### YamlMime:ContributionComment
+---
+uid: "104094"
+user: "Foaster"
+created: "22 Jul, 2013 - 10:56"
+body: |-
+  @[The3rdIcon](http://vvvv.org/users/The3rdIcon):
+  The 64-Bit build is missing some nodes for example the VLC node used in the first example.
+  
+  [missing-in-64bit-builds](https://vvvv.org/documentation/missing-in-64bit-builds)
+  
+  Just download the 32 Bit build and addonpack and unpack them separately, you can switch installations anytime by starting the according crack.exe.

@@ -1,0 +1,21 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/force-directed-spring-electrical-graph-in-progress-meta"
+type: "demo"
+author: "john"
+date: "01 Sep, 2010"
+title: "force-directed / spring-electrical graph in progress"
+originalURL: "contribution/force-directed-spring-electrical-graph-in-progress"
+category: "demo"
+credits: |-
+  Here's the force-directed / spring-electrical graph in progress.
+  In this version certain nodes are constrained to certain layers.
+  not sure if the first upload of this to the forum worked
+  JOhn H[john](http://vvvv.org/users/john)
+like_count: "3"
+imported: "true"
+teaser: |-
+  Here's the force-directed / spring-electrical graph in progress.
+  In this version certain nodes are constrained to certain layers.
+  not sure if the first upload of this to the forum worked
+  JOhn H[john](http://vvvv.org/users/john)

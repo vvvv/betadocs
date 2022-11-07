@@ -1,0 +1,15 @@
+### YamlMime:ContributionComment
+---
+uid: "260577"
+user: "bo27"
+created: "04 Aug, 2018 - 10:13"
+body: |-
+  I'm still thinking about differences between qfsm and this great contribution.
+  
+  Excuse me for that, but there is one more thing next to undo/redo & copy/paste functions.
+  It's very handy while patching: print a graph and keep the paper in front of you. When you get an idea of changing a state, you can draw it first by a hand and make changes later. I'm actually always do so.   
+  
+  ![](https://vvvv.org/sites/default/files/imagecache/large/images/IMG_8764.JPG) 
+  
+  
+  Joreg mode is not bright enought for that :)))

@@ -1,0 +1,16 @@
+### YamlMime:ContributionComment
+---
+uid: "73493"
+user: "elliotwoods"
+created: "17 Dec, 2011 - 02:26"
+body: |-
+  @hierro - hopefully the chat on skype a few days back will resolve the above issues
+  was using the most recent version of OpenNI i could get my hands on (downloaded November)
+  
+  i get similar results with the dll. it appears the most stable way to link it is to have the dll's of all EmguCV projects in the same folder (i.e. generally dll's exist outside of the respective project folders). 
+  
+  fast changing input on width/height inputs?
+  likely you're camera isn't sending quick enough for you to do this every frame
+  i.e. if you change the width / height, it will invalidate the current data, reallocate the texture + internal image, and wait for the next frame on its input. if there's no image frame already arrived before the vvvv mainloop frame, then it'll likely be black that frame
+  
+  but you mean its black and stays black? if so, it's a bug then, and please add to github issues

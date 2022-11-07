@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "109905"
+user: "sebl"
+created: "14 Nov, 2013 - 16:00"
+body: |-
+  i saw that one, too. and tried somewhat fix it  https://github.com/sebllll/dx11-vvvv/commit/a8f0df8e83342e6bbc7dc5a62f69728ab956e51c
+  
+  should be related to this thread: [assharedtexture-renderer-temptarget](https://discourse.vvvv.org/t/assharedtexture-renderer-temptarget)

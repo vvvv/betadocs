@@ -1,0 +1,16 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/webgallery-meta"
+type: "module"
+author: "vnm"
+date: "20 Aug, 2019"
+title: "WebGallery"
+originalURL: "contribution/webgallery"
+category: "module"
+credits: |-
+  vnm
+like_count: "1"
+imported: "true"
+teaser: |-
+  Web gallery (images and videos) with sending files to email.
+  Live update, without page reload (uses websocket).

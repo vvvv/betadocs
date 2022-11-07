@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/modbus-tcp-exampletutorial-files"
+url: "modbus-tcp-example-tutorial"
+category: "tutorial"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "Modbus TCP in V4.v4p"
+            timestamp: "07 Nov, 2013 - 07:26"
+            download_count: "2"

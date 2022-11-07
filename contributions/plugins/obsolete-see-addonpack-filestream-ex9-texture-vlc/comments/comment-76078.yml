@@ -1,0 +1,10 @@
+### YamlMime:ContributionComment
+---
+uid: "76078"
+user: "ft"
+created: "10 Feb, 2012 - 21:44"
+body: |-
+  'writerange failed' sounds a bit like a 'not enough memory' problem.
+  
+  I don't know why it doesn't work for you guys in alpha27.1 though, it works over here.
+  Just out of curiosity for the alpha27.1 version, could you check what happens if you open up vvvv first, and then drag a patch onto vvvv, instead of opening a patch by double-clicking in explorer?

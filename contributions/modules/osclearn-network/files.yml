@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/osclearn-(network)-files"
+url: "osclearn-network"
+category: "module"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "OSCLearn (Network).v4p"
+            description: |-
+              initial revision
+            
+            timestamp: "08 Mar, 2011 - 16:18"
+            download_count: "1"

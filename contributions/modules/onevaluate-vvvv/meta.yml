@@ -1,0 +1,15 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/onevaluate-(vvvv)-meta"
+type: "module"
+author: "catweasel"
+date: "23 Feb, 2013"
+title: "OnEvaluate (VVVV)"
+originalURL: "contribution/onevaluate-(vvvv)"
+category: "module"
+credits: |-
+  [catweasel](http://vvvv.org/users/catweasel)
+like_count: "2"
+imported: "true"
+teaser: |-
+  Bangs when a patch has not been evaluating for a set length of time.

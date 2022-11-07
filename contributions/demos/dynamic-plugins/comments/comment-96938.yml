@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "96938"
+user: "velcrome"
+created: "24 Feb, 2013 - 21:50"
+body: |-
+  My most recent [dynamic-amount-of-input-pins-in-a-plugin-%28like-stallone%29?full=1#comment-96884" "plugin](https://discourse.vvvv.org/t/dynamic-amount-of-input-pins-in-a-plugin-%28like-stallone%29?full=1#comment-96884" "plugin) seems  related, but got pushed down by all the lovvvvely activity. 
+  
+  With it you can configure a Split and a Join to your needs in the Inspektor. 
+  
+  <div class="box">
+  Adding some service modules like Cons, Select, S+H, FrameDelay etc. would be easy, and you can patch (or rather pin-tweak) your own Objects without any code. And if you really want to do custom stuff, it is more like scripting because of the dynamic nature of the underlying data structure.
+  </div>

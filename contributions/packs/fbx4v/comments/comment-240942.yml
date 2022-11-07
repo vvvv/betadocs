@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "240942"
+user: "microdee"
+created: "09 Jun, 2017 - 16:27"
+body: |-
+  @sebescudie, @u7angel: vpm not installing FBX4V was caused by a logical error in the installation script, you don't have to update vpm. My bad, try it now!

@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "241633"
+user: "Lrinke"
+created: "29 Jun, 2017 - 14:07"
+body: |-
+  you just need an empty text file named "libvlc_searchpath.txt" in the same folder as the plugin.
+  if you installed vlc to a custom location, put your install path inside this doc.

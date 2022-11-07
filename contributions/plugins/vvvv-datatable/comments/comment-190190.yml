@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "190190"
+user: "catweasel"
+created: "27 Mar, 2015 - 18:41"
+body: |-
+  @woei I had a go at making a getTable by name rather than index, but can't get it to work in a dynamic plugin (are you missing a directive or an assembly reference) I've added a reference to the complied table dll  and Im using like a type not a namespace. Dont know how to fix either of these!
+  Seems like it should be easy?
+  Any chance of a hand?

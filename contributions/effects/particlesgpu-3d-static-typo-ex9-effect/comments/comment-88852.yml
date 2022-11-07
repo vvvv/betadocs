@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "88852"
+user: "patrick"
+created: "25 Sep, 2012 - 23:31"
+body: |-
+  b28.1:
+  When trying to export a font map using Writer (EX9. FontMap), I only get a 1kb sized (NameOfFont).MET file instead of a .PNG. Any suggestions why?

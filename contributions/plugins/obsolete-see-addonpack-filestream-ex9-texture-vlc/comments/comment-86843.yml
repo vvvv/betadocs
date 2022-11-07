@@ -1,0 +1,18 @@
+### YamlMime:ContributionComment
+---
+uid: "86843"
+user: "microdee"
+created: "11 Aug, 2012 - 17:00"
+body: |-
+  probably you already know about it just for the record: in alpha28 /dx9ex mode when the texture is created this is displayed in the log:
+  ```
+  00:02:05     : 
+  CreateTexture(Slice 0, Device 60680992)
+  <MemoryToTextureRenderer%20A0+> CreateDoubleTexture( device 60680992, 1024x768 ) called 
+  ERR <MemoryToTextureRenderer%20A0+> <CreateDoubleTexture%20Exception> D3DERR_INVALIDCALL: Invalid call (-2005530516)
+  ERR <MemoryToTextureRenderer%20A0+> CreateTexture(60680992 FAILED
+  <MemoryToTextureRenderer%20B0-> CreateDoubleTexture( device 60680992, 2x2 ) called 
+  ERR <MemoryToTextureRenderer%20B0-> <CreateDoubleTexture%20Exception> D3DERR_INVALIDCALL: Invalid call (-2005530516)
+  ERR <MemoryToTextureRenderer%20B0-> CreateTexture(60680992 FAILED
+  ```
+  and (as tty says) no texture is created. when there's no /dx9ex it works fine

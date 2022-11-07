@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "241073"
+user: "mediadog"
+created: "13 Jun, 2017 - 18:14"
+body: |-
+  @eno I get an instant crash with both help patches when banging Write with a35.7 x64 release candidate and the 17/05/31 build of DX11.  Haven't tried other combos.

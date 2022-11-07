@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "196805"
+user: "blausand"
+created: "25 May, 2015 - 18:25"
+body: |-
+  Ahh, cool. I always wanted to pimp the <span class="node">waveshaper-(value)</span> to contain the [penner equations](http://robertpenner.com/easing/) as well. Maybe vvvv.core should merge this.

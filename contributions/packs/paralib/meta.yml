@@ -1,0 +1,27 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/paralib-meta"
+type: "pack"
+author: "lasal"
+date: "29 Jun, 2017"
+title: "ParaLib"
+originalURL: "contribution/paralib"
+category: "pack"
+like_count: "15"
+imported: "true"
+teaser: |-
+  ####  Library for Algorithmic modelling and mesh unroll in vl and vvvv.
+  
+  -SourceCode
+  https://gitlab.com/lasalillo/paralib
+  -Credits: 
+  Joreg, Polyline library.
+  -License:
+  LGPL
+  -Last update: 
+  1.0.2.1 vvvv_50beta37, serialization fix
+  -Packs needed:
+  DX11 
+  Intanced Noodles (Flat Normals and .obj writer)
+  -Installation:
+  Copy it in packs folder.

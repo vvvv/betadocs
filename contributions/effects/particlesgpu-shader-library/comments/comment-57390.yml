@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "57390"
+user: "Bitminster"
+created: "20 Dec, 2010 - 11:41"
+body: |-
+  oh nice update, I've got an odd problem though. In the new 3d Transform patch if I have OVER 9000! cubes the scaling is wrong, for instance if they're at uniform scale in xyz, and I have OVER 9000! then the Pitch input starts to affect scaling. Any ideas? I'm guessing it's to do with texture formats?

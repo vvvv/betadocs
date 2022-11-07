@@ -1,0 +1,24 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/velvety-files"
+url: "velvety"
+category: "effect"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "1"
+            filename: "Velvety (DX11.Effect).zip"
+            description: |-
+              bug fix alpha
+            
+            timestamp: "13 Dec, 2016 - 15:57"
+            download_count: "1"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "Velvety shader.zip"
+                    timestamp: "13 Jul, 2010 - 19:48"
+                    download_count: "2"

@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "269008"
+user: "idab"
+created: "27 Oct, 2018 - 10:05"
+body: |-
+  My fault! I have to use 4352 port that is dedicated to PJLink. I was trying to use other ports. Now it works!

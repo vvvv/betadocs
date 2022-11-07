@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "240922"
+user: "tmp"
+created: "09 Jun, 2017 - 09:59"
+body: |-
+  the directory paths in ViveLighthouse and ViveController nodes should be accessible as pin since not everyone chooses the default directory for installation :)

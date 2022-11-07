@@ -1,0 +1,24 @@
+### YamlMime:ContributionComment
+---
+uid: "97859"
+user: "Curveau"
+created: "10 Mar, 2013 - 12:21"
+body: |-
+  Hi, 
+  
+  Thank you for a great looking contribution! 
+  
+  I'm just having an issue getting the Kinect examples to run. 
+  
+  The 'configuration' node error was fixed by dragging the kinect.dll onto _root.v4p - however am still showing a red node with 'users', 'rgb', 'depth', and 'text'. 
+  
+  I am really keen to get this up and running as see lots of great possibilities.  
+  
+  Maybe I should use an earlier version of VVVV(?)
+  
+  Any help would be much appreciated...... 
+  
+  Please see the screenshot for clarification: 
+  
+  
+  www.http://curveaudio.com/ima/Err.png

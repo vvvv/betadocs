@@ -1,0 +1,44 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/htmltexture-(dx11)-meta"
+type: "plugin"
+author: "gumilastik"
+date: "16 Jun, 2015"
+title: "HTMLTexture (DX11)"
+originalURL: "contribution/htmltexture-(dx11)"
+category: "plugin"
+credits: |-
+  [zelesha](http://vvvv.org/users/zelesha) for testing, Michael Antykov ( <http://videofabrika.com>) for sponsoring research
+like_count: "22"
+imported: "true"
+teaser: |-
+  Browser for DX11, based on ChromiumFX library. Perfectly fit for UI.
+  
+  Has x64 version, support WebGL, Flash (PepperFlash), DevTools. 
+  If you don't need PepperFlash, you may delete this folder and browser will use system installed Flash.
+  
+  ##  Components
+  
+  * CEF 3.2454.1323 / 3.2454.1317 (x64)
+  * PepperFlash 19.0.0.201
+  * LivePage 1.6.1 
+  
+  ###  Advantages
+  
+  * Use modern CEF version,
+  * JavaScript callbacks through global object (and its functions) or global function,
+  * LivePage extension,
+  * Popup and URL filters,
+  * Custom User-Agent string,
+  * Keyboard and mouse simulating through hidden pins
+  
+  ###  Warning & Restrictions
+  
+  Browser is very hungry for application memory (for that case using x64 version is required)
+  Some proprietary codecs (mp3, mp4, aac) not supported
+  
+  Submit bugs and requests to:
+  https://github.com/gumilastik/VVVV.HTMLTexture.DX11
+  
+  Latest Sources at:
+  https://github.com/tebjan/VVVV.HTMLTexture.DX11

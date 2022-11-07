@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "100763"
+user: "microdee"
+created: "10 May, 2013 - 13:30"
+body: |-
+  today a new bug introduced: as soon as i open the source "DX Texture (RR)" Resolume crashes. regardless of vvvv is there or it isn't gaah. it was working like charm 2 days ago. i've changed nothing :(
+  visual studio debugger says: "Unhandled exception at 0x0859DBCC (nvoglv32.dll) in Arena.exe: 0xC0000005: Access violation reading location 0xD3DBF00A." what can be done with it?

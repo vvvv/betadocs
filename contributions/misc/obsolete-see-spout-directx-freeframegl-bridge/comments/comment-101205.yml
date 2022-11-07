@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "101205"
+user: "mrboni"
+created: "21 May, 2013 - 10:16"
+body: |-
+  Do you think the 'Global Variable NvOptimusEnablement' mentioned here might help? - 
+  
+  http://developer.download.nvidia.com/devzone/devcenter/gamegraphics/files/OptimusRenderingPolicies.pdf

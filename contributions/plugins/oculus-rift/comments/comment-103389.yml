@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "103389"
+user: "mediadog"
+created: "08 Jul, 2013 - 15:32"
+body: |-
+  The original patch was just missing the eye perspective shifts (and the right eye orientation) - it had the image shift to compensate for the Rift display, but that's a 2D shift of the overall image.  The "camera" of the two generated eye renders need to be separated in local X position by the interocular (interpupillary) distance as well.  The wrong connections were in my first addition to add the perspective shift.
+  
+  I'm not suggesting I did it the right way in this "fix", but I do have "correct" (;^}) stereoscopic patches which work very well with my VR wall, and I'll add those in once I get them checked out.
+  
+  Your work here really is a great help, I was able to get up and running in a couple of hours.  Now I need to figure out how to make the Rift wireless!

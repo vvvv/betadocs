@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/texture-queue-fix-for-beta26-files"
+url: "texture-queue-fix-for-beta26"
+category: "module"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "texture queue.zip"
+            timestamp: "19 Aug, 2011 - 19:50"
+            download_count: "2"

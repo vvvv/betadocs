@@ -1,0 +1,16 @@
+### YamlMime:ContributionComment
+---
+uid: "218976"
+user: "milo"
+created: "07 Apr, 2016 - 15:38"
+body: |-
+  hi,
+  
+  sorry for being late on this. i updated the bitbucket links and marked iris_v0.1 and iris_v0.2 as public repositories. feel free to download and use them for your needs. they should work both with beta 27. i tried 34.2 but got some problems due to updated s-r nodes. 
+  as i wrote on top unfortunately iam not able to support this versions anymore. but at least it should not be that hard to get them running even with current vvvversions.
+  
+  and yes were still working on iris every day using it for big and small productions. but since topics and our needs changed a lot since 2012 iris<>vvvv concept has changed as well. so its not only a vvvv based thingy anymore but more a system consisting of multiple parts. iam sure that we have more details to show @ next node.
+  
+  best,
+  
+  i.

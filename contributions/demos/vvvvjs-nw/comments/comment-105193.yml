@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "105193"
+user: "fibo"
+created: "21 Aug, 2013 - 15:35"
+body: |-
+  @alg: I putted vvvvjs examples cause it was the simplest way to have something running quickly. It could be used to open local patches, or even to start a vvvvjs server without installing Node.js, just using the vvvvjs.exe; accessing hardware is a really nice idea !

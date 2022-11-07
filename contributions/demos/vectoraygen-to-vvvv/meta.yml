@@ -1,0 +1,25 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/vectoraygen-to-vvvv-meta"
+type: "demo"
+author: "u7angel"
+date: "11 Dec, 2018"
+title: "VectorayGen to vvvv"
+originalURL: "contribution/vectoraygen-to-vvvv"
+category: "demo"
+like_count: "12"
+imported: "true"
+teaser: |-
+  Interested in VectorayGen ? This is a tool to generate vector fields which then can be used with vvvv DX11.particles.
+  
+  Here is a demo project and a video on how to get started.
+  
+  <div class="vimeo embed-responsive embed-responsive-16by9 mt-3 mb-4">
+      <iframe title="vimeo-player" src="https://player.vimeo.com/video/305730126" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+  </div>
+  
+  What you need:
+  *[VectorayGen](https:\\jangafx.com/software/vectoraygen/)
+  *vvvv
+  *DX11 pack
+  *DX11.particles pack

@@ -1,0 +1,10 @@
+### YamlMime:ContributionComment
+---
+uid: "271149"
+user: "mburk"
+created: "26 Feb, 2019 - 10:10"
+body: |-
+  hey. there is no real solution to conveniently handle those situations. the best way would be to finish VL.GLTF implementation. I was working on an adapter, but have no time to pursue this atm. I usually don't work with complex hierarchies of importet assets, but would recommend to merge as much geometry as possible, for example with the instance noodles merge node.
+  right now material handling is done the oldschool way and works by usual spreading.
+  the deferred version already has the concept of material IDs, which are assigend to different meshes. check out the help patch and press "m" in the material preview to select a material. then press "m" and click a mesh on the renderer to assign it. this is only a proof of concept implementation atm.
+  to manage materials you can have multiple material nodes and cons them together, to not have total spreading chaos.

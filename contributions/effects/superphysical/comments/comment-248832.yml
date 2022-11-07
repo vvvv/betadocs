@@ -1,0 +1,10 @@
+### YamlMime:ContributionComment
+---
+uid: "248832"
+user: "andresc4"
+created: "07 Feb, 2018 - 13:43"
+body: |-
+  I have this problem that is not contribution related, but maybe you can help me out
+  Im would like to animate the light rotation as if they were a DMX moving head, but the rotation point of the light is not the light source
+  Its rotating from the X, what would be the best way to fix that ?
+  ![](https://vvvv.org/sites/default/files/imagecache/large/images/rotation.png)

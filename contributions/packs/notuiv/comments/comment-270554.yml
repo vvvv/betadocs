@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "270554"
+user: "microdee"
+created: "05 Jan, 2019 - 18:12"
+body: |-
+  in case "vvvv won't start", "vvvv crashes without error message" check the Event Viewer of Windows and in "Windows Logs/Application" see all errors. If one of them mentioning vvvv even better if its source column says ".NET Runtime" see if it says anything about Notui(v). then I can help

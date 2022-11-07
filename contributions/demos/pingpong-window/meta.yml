@@ -1,0 +1,13 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/pingpong-window-meta"
+type: "demo"
+author: "u7angel"
+date: "11 Jun, 2014"
+title: "pingpong window"
+originalURL: "contribution/pingpong-window"
+category: "demo"
+like_count: "2"
+imported: "true"
+teaser: |-
+  translating an openframeworks example into vvvv, just for fun

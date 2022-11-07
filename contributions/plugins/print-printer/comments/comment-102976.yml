@@ -1,0 +1,20 @@
+### YamlMime:ContributionComment
+---
+uid: "102976"
+user: "sansui"
+created: "27 Jun, 2013 - 18:41"
+body: |-
+  I was finding printing plugin for using Thermal Printer.
+  My Thermal Printer driver is well-installed in my windows 7.
+  Thermal Printer is working well in Notepad and Window Paint and so on.
+  In winows 7, It is recognized as a normal printer, and default printer.
+  but using this plugin in vvvv, only right black line is printed.
+  In Print HelpPatch, I also tried changing to various image texture, but result is only right black line, nothing different exist.
+  
+  another odd thing is,
+  In Print HelpPatch, AsString(EX9. Texture)'s File Format InputPin seems available only PNG.
+  if I select BMP, it doesn't print.
+  In console window, this message is shown "Can not load image data: The parameter is incorrect."
+  
+  I am using vvvv29beta30 x86, win7 x64 ultimate, mc374kh/a.
+  could you help me?

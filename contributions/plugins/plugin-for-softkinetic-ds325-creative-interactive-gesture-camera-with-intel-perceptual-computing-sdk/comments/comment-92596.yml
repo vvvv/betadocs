@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "92596"
+user: "metrowave"
+created: "08 Dec, 2012 - 00:26"
+body: |-
+  That's strange. It's hit and miss now, it was working well before but now works sometimes and other times not working. I've got the vvvv_45beta28.1 folder installed in c:/Program Files(86)/vvvv_45beta28.1
+  
+  I noticed it's working when I start vvvv.exe first and then click on one of the 02_PCSDK DS325.zip patches. it needs work but it's a good start.![](https://vvvv.org/sites/default/files/imagecache/large/images/GeoNode%20%28Devices%20DS325%29%20help_2012.12.08-00.15.09.png) 
+  
+  ![](https://vvvv.org/sites/default/files/imagecache/large/images/GeoNode%20%28Devices%20DS325%29%20help-DirectX%20Renderer_2012.12.08-00.16.00.png) 
+  
+  ![](https://vvvv.org/sites/default/files/imagecache/large/images/Image%20%28Devices%20DS325%29%20help_2012.12.08-00.19.44.png)

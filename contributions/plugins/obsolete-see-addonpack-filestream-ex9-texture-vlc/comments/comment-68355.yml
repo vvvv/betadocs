@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "68355"
+user: "ft"
+created: "21 Aug, 2011 - 14:52"
+body: |-
+  @r.arcaya: if you get 2x2 pixels, it means the plugin is still trying to figure out the video's dimensions. At this time, in order to find a video's properties, like width and height, you have to try to play the file first. Only when it reports 'the file is playing', you can retrieve the correct dimensions. If it stays at 2x2 pixels I suspect it couldn't open/play the stream. Maybe that is (I don't know anything about what the web interface can control), because the video is paused or something in the web interface, making it unable for LibVLC to 'play'.
+  
+  I hope this info is somewhat helpful in solving your problem...

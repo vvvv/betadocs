@@ -1,0 +1,17 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/pick-color-from-screen-meta"
+type: "module"
+author: "manuel"
+date: "21 Oct, 2014"
+title: "Pick Color from screen"
+originalURL: "contribution/pick-color-from-screen"
+category: "module"
+like_count: "6"
+imported: "true"
+teaser: |-
+  I made this module to just pick the color I see on wathever Im seeing on windows, directly to vvvv.
+  
+  Its faster than seeing the value on photoshop or wathever other method i used before.
+  
+  Press P to use pick color.

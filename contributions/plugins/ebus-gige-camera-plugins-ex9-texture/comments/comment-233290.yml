@@ -1,0 +1,19 @@
+### YamlMime:ContributionComment
+---
+uid: "233290"
+user: "julius_berlin"
+created: "12 Dec, 2016 - 10:35"
+body: |-
+  Hello Soriak !
+  thanks for this plugins !
+  I still have a problem.. 
+  all nodes are red (listdevices-videocapture-setfeature)
+  
+  tty window gives me:
+  Exception occurred during creation of plugin: Could not load file or assembly 'PvDotNet, Version=4.0.5.3150, Culture=neutral, PublicKeyToken=666697f16d0ae86b' or one of its dependencies. The system cannot find the file specified.
+  
+  I tried to put dll in project folder..in vvvv folder without any results...
+  
+  Would you have any idea about this issue ?
+  
+  thanks in advance !

@@ -1,0 +1,18 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/swapdim-(spreads-advanced)-meta"
+type: "module"
+author: "kalle"
+date: "15 Mar, 2011"
+title: "SwapDim (Spreads Advanced)"
+originalURL: "contribution/swapdim-(spreads-advanced)"
+category: "module"
+credits: |-
+  kalle
+like_count: "1"
+imported: "true"
+teaser: |-
+  has an additional Output: "Former Index" which makes it easier to find the right settings.
+  after that it can be replaced with the original SwapDim-node.
+  
+  just doubleclick the module's node and replace with SwapDim (Spreads).

@@ -1,0 +1,17 @@
+### YamlMime:ContributionComment
+---
+uid: "59908"
+user: "catweasel"
+created: "15 Feb, 2011 - 16:19"
+body: |-
+  I've gone through all the xml's, some had got a little jumbled fro0m many reinstalls and overlooking, however, still the node doesn;t work...
+  The modules.xml, in the plugin donwload, are from 64bit windows, so the file paths weren't right for win32, fixed those, checked all in openi and primesense all good, still issues :(
+  Also tried putting the xml in an io box, as the reader wasn't always reading on startup, I'll try win64 later maybe...
+  
+  
+  00:00:02 ERR :        Skeleton caused error in Evaluate: xn.XnStatusException: File not found!
+     at xn.WrapperUtils.CheckEnumeration(UInt32 status, EnumerationErrors errors)
+     at xn.Context.InitFromXml(String xmlFile)
+     at xn.Context..ctor(String xmlFile)
+     at VVVV.Nodes.OpenNISkeletonNode.initKinect()
+     at VVVV.Nodes.OpenNISkeletonNode.Evaluate(Int32 SpreadMax)

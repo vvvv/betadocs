@@ -1,0 +1,45 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/voronoi-with-winged-edge-information-files"
+url: "voronoi-with-winged-edge-information"
+category: "plugin"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "3"
+            filename: "ValueVoronoiComplex.zip"
+            description: |-
+              Reversed point order in CellVertices and changed default for Inset
+            
+            timestamp: "22 Feb, 2016 - 02:49"
+            download_count: "2"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "2"
+                    filename: "ValueVoronoiComplex.zip"
+                    description: |-
+                      Added indices to edges and vertices
+                    
+                    timestamp: "21 Feb, 2016 - 09:51"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "1"
+                    filename: "ValueVoronoiComplex.zip"
+                    description: |-
+                      Changed point spreads from double to Vector2D
+                    
+                    timestamp: "20 Feb, 2016 - 04:20"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "VoronoiDiagram.zip"
+                    description: |-
+                      Capitalized Voronoi in 2d.Voronoi, added an out pin to CellInfo to indicate the index of the cell's center in the original sprea
+                    
+                    timestamp: "18 Feb, 2016 - 15:40"
+                    download_count: "1"

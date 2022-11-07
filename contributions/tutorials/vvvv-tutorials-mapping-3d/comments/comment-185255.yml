@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "185255"
+user: "Erandu"
+created: "12 Feb, 2015 - 06:55"
+body: |-
+  @Mooney I am not sure about the keyboard since it works correctly on my side, but I found that the issue about setting points is related to missing links in the "ProjectorN (DX11)\Modules\dx11\Pipet (DX11)\Pipet (DX11).v4p" patch. The texture2d and DynamicBuffer nodes needs to be correctly connected to the CS_Pipet shader.

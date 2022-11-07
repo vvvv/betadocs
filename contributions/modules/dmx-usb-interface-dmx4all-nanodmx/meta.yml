@@ -1,0 +1,13 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/dmx-usb-interface-dmx4all-nanodmx-meta"
+type: "module"
+author: "MSBERGER"
+date: "22 Dec, 2012"
+title: "DMX USB-interface DMX4ALL NanoDMX"
+originalURL: "contribution/dmx-usb-interface-dmx4all-nanodmx"
+category: "module"
+like_count: "5"
+imported: "true"
+teaser: |-
+  little module to use the DMX4ALL NanoDMX

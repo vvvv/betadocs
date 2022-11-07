@@ -1,0 +1,18 @@
+### YamlMime:ContributionComment
+---
+uid: "275162"
+user: "ndrv"
+created: "08 Mar, 2020 - 19:02"
+body: |-
+  Nice work! I'm just wondering if this tutorial is still supposed to be the "tool to use" for 3d projection mapping in **vvvv_beta_39_x64**? I was following the tutorial and made the same observation as [nrsz](http://vvvv.org/users/nrsz). In addition there is an exception thrown saying:
+  
+  * 00:10:13 ERR : Exception occured in TMPluginWrapperNode.Evaluate
+  * 00:10:13 ERR : The type initializer for 'Emgu.CV.CvInvoke' threw an exception.
+  
+  But there are no permanent red nodes (only temporary).
+  
+  <div class="box">
+  So, basically my question is, if there is an up-to-date tool resemblig the functionality or a work-around getting the libraries running? I found the **Step01_CalibrateProjector** patch in the VL.OpenCV package, which looks quite great but maybe there are other tool or workflows.
+  </div>
+  
+  Thank you for your help!

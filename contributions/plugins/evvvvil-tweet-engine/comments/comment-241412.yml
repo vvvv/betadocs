@@ -1,0 +1,17 @@
+### YamlMime:ContributionComment
+---
+uid: "241412"
+user: "dominikKoller"
+created: "24 Jun, 2017 - 18:14"
+body: |-
+  Hey Evvvvil!
+  
+  Thanks for the great contrib.
+  
+  TweetSearch is working without problems for me. I'm having trouble with the TweetLogger and TweetAction.
+  
+  Trying to login as dev first works, when klicking Refresh Login Status it says Logged In, but trying again after a few seconds says Not logged in any more.
+  
+  TweetAction always sais Failed! Tweet was not published
+  
+  Any ideas how to debug?

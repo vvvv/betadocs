@@ -1,0 +1,30 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/vertex-noise-pack-meta"
+type: "effect"
+author: "Desaxismundi"
+date: "12 Dec, 2010"
+title: "Vertex Noise Pack"
+originalURL: "contribution/vertex-noise-pack"
+category: "effect"
+credits: |-
+  desaxismundi / http://developer.nvidia.com/page/home.html
+like_count: "24"
+imported: "true"
+teaser: |-
+  Different shading techniques applied to the original vBomb.fx code.
+  3D Perlin Noise on the vertex shader.
+  
+  (PS2.0 VS 3.0) | ATi users must go ps_3_0
+  
+  includes :
+  -bubble.fx
+  -TentaclePhongDirectional.fx
+  -vBomb.fx
+  -VertexNoise.fx
+  -VertexNoiseGoochy.fx
+  -VertexNoisePhongDirectional.fx
+  -VertexNoiseReflections.fx
+  -VertexNoiseVelvety.fx
+  
+  Tx to tonfilm and gregsn.

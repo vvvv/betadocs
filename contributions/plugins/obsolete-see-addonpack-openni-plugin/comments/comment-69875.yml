@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "69875"
+user: "mediadog"
+created: "27 Sep, 2011 - 15:40"
+body: |-
+  @liquid - Thanks for the pointer (slaps forehead)!
+  
+  @phlegma - I did a clean install of all SW using the Brekel installer included with the plugin on two different machines (XP and W7x64) and got the skeleton problem.  I'll check versions on the included install packs to see if Brekel did something different.
+  
+  I think I've got the depth stuff working properly, and will figure a way to work it in.  Should it be an input option to the Depth node that determines the type of texture output, or should there be another node for the 13-bit depth data?  (See my forum post for format.)

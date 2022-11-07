@@ -1,0 +1,16 @@
+### YamlMime:ContributionComment
+---
+uid: "85281"
+user: "elliotwoods"
+created: "05 Jul, 2012 - 22:03"
+body: |-
+  @zeos : i've been able to get 60fps QVGA and 30fps VGA
+  i use xtion pro live and kinect
+  
+  i think the issue is that perhaps you're using xtion pro (i.e. not the 'live' version) which has no rgb feed, and i haven't coded for that case sorry
+  i'll try and have a look next time i'm in that project, else hassle me more!
+  
+  @mrboni - as on Skype (and for others here) - each user is given a colour equal to their User ID (e.g. 1,2,3,4,etc)
+  since these colours are very dark, you won't see them in an AsTexture
+  
+  You can however use the = node to select a user from this image (which outputs 255 per pixel where that user id is present)

@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "279524"
+user: "mediadog"
+created: "12 Nov, 2021 - 18:02"
+body: |-
+  I'm getting red nodes for PreprocessorOptions (File), trying to use FillHoles.  Got latest version off GitHub.  This is with beta 42 and Win10 x64.  Should it be there or is it replaced with something else?  Thanks!
+  
+  -edit-
+  
+  Doh!  Never mind, I had just copied new version over old, using vpm fixed it.  (Though the help patch for PreprocessorOptions still has a red Disney node in it.)

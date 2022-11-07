@@ -1,0 +1,26 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/time-files"
+url: "time"
+category: "pack"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "vvvv-Time-x64.zip"
+            description: |-
+              v0.5.6
+            
+            timestamp: "07 Nov, 2017 - 08:26"
+            download_count: "1"
+    32bit:
+        latest:
+            bit: "32"
+            delta: "0"
+            filename: "vvvv-Time-x86.zip"
+            description: |-
+              v0.5.6
+            
+            timestamp: "07 Nov, 2017 - 08:26"
+            download_count: "1"

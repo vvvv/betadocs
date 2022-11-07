@@ -1,0 +1,33 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/mre-mdmod-files"
+url: "obsolete-mre-mdmod"
+category: "module"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "2"
+            filename: "mre.mdmod_.zip"
+            timestamp: "23 Oct, 2012 - 15:28"
+            download_count: "12"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "1"
+                    filename: "mremdmod101.zip"
+                    description: |-
+                      1.01: fixed phong shadows won't turn off automatically, tried to fix black screen problem
+                    
+                    timestamp: "23 Oct, 2012 - 21:50"
+                    download_count: "7"
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "mre.mdmod_.zip"
+                    description: |-
+                      1.1: added deferred lighting and shadows, smoothed light range
+                    
+                    timestamp: "24 Dec, 2012 - 03:09"
+                    download_count: "1"

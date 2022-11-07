@@ -1,0 +1,13 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/vl.nrt-for-stride-meta"
+type: "module"
+author: "catweasel"
+date: "02 Nov, 2021"
+title: "VL.NRT for stride"
+originalURL: "contribution/vl.nrt-for-stride"
+category: "module"
+like_count: "6"
+imported: "true"
+teaser: |-
+  Non Realtime rendering for Stride, increments file name on every save, saves in separate dated folders, next to your patch, forces RGBA8 with a shader.

@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "164129"
+user: "sonostrano"
+created: "05 Sep, 2014 - 08:37"
+body: |-
+  With which version of vvvv and OculusSDK is last plugin working? I'm using vvvv 32 and 0.4.2 oculus sdk and the OVRDevice node is always red
+  
+  EDIT: It's working now. I missed some visual studio libraries

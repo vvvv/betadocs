@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "65050"
+user: "woei"
+created: "10 Jun, 2011 - 14:46"
+body: |-
+  @deby: whats the error in the editor?
+  are the fxh files positioned beside the fx you are editing?
+  and you probably have to switch to shader model 2.0 at least. (technique -> pass p0 -> PixelShader...)

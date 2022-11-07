@@ -1,0 +1,20 @@
+### YamlMime:ContributionComment
+---
+uid: "239971"
+user: "neoshaman"
+created: "24 May, 2017 - 05:33"
+body: |-
+  Hello again, 
+  
+  your particles are avvvvesome, but somehow I still have some red nodes. I've tested almost all help files and figured out that six nodes are red:
+  
+  Constant(DX11.Particles.Effect) > ConstantGeometry 
+  DynamicModifier(DX11.Particles.Modifiers) > Modifier_Skeleton
+  Scale(DX11.Particles.Modifiers) > Modifier_Scale
+  Target(DX11.Particles.Modifiers RWStructuredBuffer) >Modifier_Target_RWStructuredBuffer
+  Point(DX11.Particles.Effect) > ConstantPoint
+  Emitter(DX11.Particles.Emitter Layer) > BufferUtils_UpdateCounterBuffer
+  
+  Do you know what to do?
+  
+  Cheers

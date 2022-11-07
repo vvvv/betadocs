@@ -1,0 +1,20 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/ableton-link-files"
+url: "ableton-link"
+category: "plugin"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "AbletonLink_v02_x64.zip"
+            timestamp: "05 Jul, 2017 - 17:30"
+            download_count: "1"
+    32bit:
+        latest:
+            bit: "32"
+            delta: "0"
+            filename: "AbletonLink_v02_x86.zip"
+            timestamp: "05 Jul, 2017 - 18:08"
+            download_count: "1"

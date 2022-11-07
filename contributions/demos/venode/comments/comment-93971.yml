@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "93971"
+user: "mediadog"
+created: "02 Jan, 2013 - 03:51"
+body: |-
+  Hey sanch!  I just tried it out with an Archos 43 Android tablet on mobile Firefox, and while the Firefox slider update is VERY slow and clunky, the receipt of the data into the patch has no perceptual delay; even when I rapidly move the sliders back and forth there is a very high update rate.  And if I had to pick one over the other, it's input responsiveness.
+  
+  This test and the application I'm thinking about is on a LAN, which helps of course.  I want to display a QR code over on the side of a large projection installation so people can create and control visual entities, and this looks like it will work great particularly because of the session ID.  I had been looking at socket.io directly, this saves a MASSIVE amount of work!
+  
+  I did get tripped up a bit when I tried the patch on my Win7x64 workstation, the first IP address was for the Bluetooth (0.0.0.0), and so it would send to client browsers but get no input from them.  Might want to add to your instructions above to check that CAR output or change the patch to discard 0.0.0.0 slices from the IP node.  Can't attach a file here or I would post the change but here's a pic.  Thanks again!
+  
+  ![](https://vvvv.org/sites/default/files/imagecache/large/images/Capture-1_0.jpg)

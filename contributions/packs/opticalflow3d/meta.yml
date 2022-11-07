@@ -1,0 +1,23 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/opticalflow3d-meta"
+type: "pack"
+author: "timpernagel"
+date: "01 Nov, 2018"
+title: "OpticalFlow3D"
+originalURL: "contribution/opticalflow3d"
+category: "pack"
+credits: |-
+  Mariano Jaimez, otosatram, Horn and Schunck, vux
+like_count: "13"
+imported: "true"
+teaser: |-
+  Based on the OF2D-contribution of [otosatram](http://vvvv.org/users/otosatram), this pack is adding also calculations for the Z-axis. Check out the help-patch for how to calibrate and setup the whole thing.
+  
+  Including an example, which shows how to use the OF3D together with the DX11.Particles-pack.
+  
+  Currently only supports Kinect2.
+  
+  **Installation**:
+  
+  Just drop it in the Pack-folder.

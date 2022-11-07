@@ -1,0 +1,10 @@
+### YamlMime:ContributionComment
+---
+uid: "259863"
+user: "daviddenker"
+created: "30 Jul, 2018 - 11:27"
+body: |-
+  Hi there,
+  I'm having a strange issue with the "AudioEngine (VAudio) <ASIO>)" node. If i select the "ASIO4ALL" driver VVVV completely crashes. I already tried to get some Information with the TTY Renderer without success. I just wanted to copy the project from one to another workstation(It's working there). I copied the entire VVVV-Folder including all packs etc. an installed all drivers including ASIO4ALL.
+  The driver ist accessible trough the systemsettings.
+  Do you have any idea what i could do, or who i could catch the error for further troubleshooting.

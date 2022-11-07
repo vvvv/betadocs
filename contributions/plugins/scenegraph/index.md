@@ -1,0 +1,110 @@
+---
+uid: "contribution/scenegraph"
+uid-meta: "contribution/scenegraph-meta"
+comments: 
+ items: 
+  - uid: "258845"
+  - uid: "258876"
+  - uid: "258877"
+  - uid: "258888"
+  - uid: "258890"
+  - uid: "258892"
+  - uid: "258893"
+  - uid: "268809"
+  - uid: "271585"
+  - uid: "271666"
+  - uid: "271670"
+  - uid: "271842"
+  - uid: "271845"
+  - uid: "271890"
+  - uid: "272053"
+  - uid: "273754"
+  - uid: "274634"
+  - uid: "274681"
+  - uid: "277988"
+uid-files: "contribution/scenegraph-files"
+title: "SceneGraph"
+image: "DemoSnap.PNG"
+contribution: "true"
+---
+
+convenient handling of complex 3d scenes (DX11 & EX9)
+
+* **easy transformation** handling: don't worry about cascaded transformation hierarchy in the back, even with **animations**
+* efficient **resource** handling: loads meshes and textures of the model only once
+* just connect color and texture pins to apply the **materials** saved with the model
+
+1.  Long
+### Why
+Ever got tired of binsized SetSlice, Sift, * (Transform) mayhem when using the collada/assimp nodes?
+This contribution aims to solve these issues.
+
+Collada and Assimp are both great at doing what they were intent to: loading 3d scenes. They just don't natively provide a vvvv-friendly way to actually make use of all the info they load. The mere spread outputs of transforms, meshes, textures, etc. obfuscate the hierachical relation, and forces you to juggle binsizes while keeping the differnt types in sync.
+
+so [decode.io](http://decode.io) and I put our heads together, thinking about a patcher-friendly way and came up with this.
+
+
+### How
+load the scene, apply some transforms and one 'Split' like node which outputs everything nicely for a shader.
+
+<div class="box">
+**1.** Load any 3d file format that Assimp can handle. (Thank vux for the assimp wrapper which is in use here to read the data.) The Scene also handles memory allocation of meshes and textures. They are uploaded once, even if used by many nodes.
+
+**2.** Convenience Node displaying a browsable SceneGraph tree with all the relational info in it's place.
+
+**3.** Apply transforms by specifying which part of the graph/tree should be affected. Accumulation and propagation to all children is automagically handled in the back.
+
+**4.** Model outputs all the drawing relevant data of the (sub)graph in nice little spreads to use connect directly to a shader without further ado. Each meshpart has its corresponding transfrom and material in place. For not textured parts a default white texture is inserted to avoid bin sizing. Check the config pins to configure the node to do just what you need (e.g. multiple textures, bouding box, bone tranforms...)</div>
+*(numbers correspond to the ones in the pic above in case you didn't notice)*
+
+
+###  techier details
+The Scene (=loader node) outputs the type **GraphNode** which is a reference copy of the whole scene hierarchy, namely SceneGraph. Transformation can be applied on any node (or group or spread of nodes) within that graph.
+in case you can draw everything at once with the same shader. you're done at this point.
+If not the Selector lets you move a 'pointer' in a GraphNode another descendant than the root, thereby you select just parts of the whole model for drawing and further transformation downstream.
+
+*(more implementation details on demand)*
+
+
+1.  License
+<div class="box">
+Note:
+Free for non-commercial use. 
+License required for commercial use: 
+model 'pay as you can', the least drop a note when using it
+</div>
+
+1.  Change Log
+###  v2.0
+*supported by [meso](https://meso.design) & [wirmachenbunt](https://wirmachenbunt.de)*
+####  new
+* **cached transformation** graph: transformations only evaluated on change (e.g. the one transform in directly after loading to get the model into vvvv scene space)
+* **color modification**: change colors of meshes independent of their stored material (useful for fade in or highlighting). simple and XPath version
+* **animations**: access and apply animations stored in the scene. in case of only one animation it's plug and play. just use the Animate node and change the time - keyframe data will automatically be applied in the correct parent-child relation to the model. simple and XPath versions of the node to apply only certain animations or only to specific parts of the model
+
+####  changes
+* slice sampling behaviour of transform nodes follow standard vvvv bin sizing model: transform slice is applied on the resulting nodes of the selector/query slice. (was transform spread to result spread before)
+
+####  fixes
+* checking and replacing some characters in the node names while importing to avoid errors with the backing xml representation
+* Scene wasn't handling loading a spread of files correctly
+* Selector: include self option was not affecting the result 
+---
+###  v1.1
+* fixed bug, where node names would prevent loading due to incompatibility with xml
+* fixed faulted loading with directly nested meshes
+---
+###  v1.0
+*supported by [decode.io](http://decode.io)*
+* initial release
+
+##  Future
+possible further development features
+* own assimp wrapper (would allow more recent assimp version)
+* more details on Light & Camera (requires the above)
+* glTF loading adapter (that would give materialdescription by PBR parameters)
+* resource (async) preloading
+
+###  Known Issues
+* toggling textures pins off will not destroy them in the EX9 version
+* Deleting the Model nodes will show an exception in the tty, don't worry

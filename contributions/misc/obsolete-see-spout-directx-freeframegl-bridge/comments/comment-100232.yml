@@ -1,0 +1,23 @@
+### YamlMime:ContributionComment
+---
+uid: "100232"
+user: "vjc4"
+created: "27 Apr, 2013 - 20:01"
+body: |-
+  @elio: microdee gave me the news about this, but i understand that you are the responsable of this, so 1 more time, THANK YOU!!!
+  
+  this was my 1st wish when i started vvvvjing almost 7 years ago! http://vjforums.com/showthread.php?t=20711
+  
+  The crash that i describer was with w7.64x and arena 4.0 , but i tested with 4.13 and it worked fine... i used for more than 6 hours yesterday and it was a pleasure :). I will test this new version again.
+  
+  1 more question,,, how hard would be to do it backwards... Resolume -> VVVV ?
+  im doing it in a horrible way... output resolume on another monitor and using screenshot node to get the texture... is there any other better way at the moment ?  1 more time, excellent work, this will open vvvv world to a lot of new vjs!
+  
+  
+  This is the 1st vercion that you uploaded
+  
+  ![vvvv resolume bridge](https://vvvv.org/sites/default/files/imagecache/large/images/1680.jpg) 
+  
+  3 x 1680x1050 to resulume, 1680x1050 output
+  i5,n670,4gb ram, seven 64, vvvv 29.2 x32
+  48fps

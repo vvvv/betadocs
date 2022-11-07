@@ -1,0 +1,10 @@
+### YamlMime:ContributionComment
+---
+uid: "233722"
+user: "id144"
+created: "28 Dec, 2016 - 04:29"
+body: |-
+  @andresc4 converting the pointcloud into dds and visualizing it is quite straight forward. later it would be cool to have some octree system to visualize even extra large (30M+) pointclouds.
+  
+  this tools was made for services that have limit on maximum file size and work only with text pointclouds. :) 
+  obviously, you want to compress the file when possible. 7z gave me the best results.

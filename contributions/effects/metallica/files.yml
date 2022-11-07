@@ -1,0 +1,24 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/metallica-files"
+url: "metallica"
+category: "effect"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "1"
+            filename: "MetallicaDX11.zip"
+            description: |-
+              unc´s update, no mips
+            
+            timestamp: "07 Dec, 2015 - 20:15"
+            download_count: "2"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "Metalica.7z"
+                    timestamp: "29 Nov, 2015 - 19:33"
+                    download_count: "1"

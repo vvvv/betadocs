@@ -1,0 +1,22 @@
+### YamlMime:ContributionComment
+---
+uid: "271186"
+user: "bjoern"
+created: "27 Feb, 2019 - 19:04"
+body: |-
+  <div class="box">quote:rSyndrome:
+  The first one I see would be to automatically choose the right number of mipmaps if this number is set (by default) to 0.
+  </div>
+  
+  
+  If by "right amount" you mean **all mipmaps** you can do this already. Just set *Mip Map Level* to 0.
+  
+  
+  
+  <div class="box">quote:Microsoft:
+   --m number: Number of mipmap levels to generate in the output texture. This setting only applies to DDS output, which defaults to 0 which is generate all mipmaps. Use -m 1 to remove mipmaps.
+  </div>
+  
+  
+  
+  I chose 1 as default because I use the thing to convert highres videos that are displayed 1:1 – it also decreases encoding time and filesize.

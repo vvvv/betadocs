@@ -1,0 +1,16 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/z-slitscan-meta"
+type: "demo"
+author: "arash"
+date: "18 Feb, 2013"
+title: "Z-SlitScan"
+originalURL: "contribution/z-slitscan"
+category: "demo"
+like_count: "2"
+imported: "true"
+teaser: |-
+  Just a simple slit-scan in Z!
+  https://vimeo.com/58782539
+  
+  Note: Toggle button for animation mode...

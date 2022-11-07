@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "92993"
+user: "metrowave"
+created: "14 Dec, 2012 - 20:22"
+body: |-
+  It's very strange that it runs sometimes here. One last suggestion. Un-register the vvvv using the crack file and re-register it then start the vvvv.exe first. Perhaps the order of this counts. But I don't see how, just a random try. 
+  
+  @herbst: help with this please it can be potentially a very good patch, especially that DS325 is USB only, hence portable.

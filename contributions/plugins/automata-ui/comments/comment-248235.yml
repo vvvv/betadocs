@@ -1,0 +1,14 @@
+### YamlMime:ContributionComment
+---
+uid: "248235"
+user: "microdee"
+created: "11 Jan, 2018 - 20:17"
+body: |-
+  yo, finally I got to use this thing. Great work! But there are some slight nuances I might add if I were you:
+  
+  * Frame independent timing for transitions (maybe as a config pin option)
+    maybe it's only my taste but I better like seconds or ms when I'm working with animations and transitions.
+  * Trigger transitions off node
+    In complex projects with lot's of different states and transitions it would be good to trigger transitions from different patches. I know this can lead to mayhem in the wrong hands but also would eliminate cobwebs or long ass unzipping on top of the AutomataUI node.
+  
+  that's it from the top of my head.

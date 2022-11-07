@@ -1,0 +1,14 @@
+### YamlMime:ContributionComment
+---
+uid: "272037"
+user: "schack"
+created: "12 May, 2019 - 09:04"
+body: |-
+  Moin moin,
+  
+  Since I can`t figure out how...is the a way to spread the Force Directed Graph. 
+  In order to get a stack of FDGs layer on top of each other with individual Input for "From" and "To"?
+  
+  I currently have an result like img1 - but like to have one like img2.
+  
+  Thanks.

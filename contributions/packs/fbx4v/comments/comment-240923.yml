@@ -1,0 +1,25 @@
+### YamlMime:ContributionComment
+---
+uid: "240923"
+user: "sebescudie"
+created: "09 Jun, 2017 - 10:02"
+body: |-
+  Yo md! Thanks for this release :)
+  
+  Seems there's something wrong during installation : all packs install successfully (mp.dx, mp.essentials, mp.fxh) but FBX4V isn't there. Prompt says :
+  
+  ```
+  Installing FBX4V
+  
+  Data :
+  
+  VVVV Architecture seems to be x64
+  Removing vpm temp folder
+  All good in theory.
+  Enjoy!
+  ```
+  
+  Also, VPM tells me that Message is already installed, but it doesn't seem to see I also already have dx11, and downloads it anyway.
+  
+  Any clue?
+  Thanks!

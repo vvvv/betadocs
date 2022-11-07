@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "233454"
+user: "id144"
+created: "16 Dec, 2016 - 18:57"
+body: |-
+  @vasilis it's a console application :). use it from command line with command line arguments.  i had a vvvv patch of this, but it was ugly and slow.

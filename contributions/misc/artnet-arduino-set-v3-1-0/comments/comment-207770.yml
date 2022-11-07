@@ -1,0 +1,21 @@
+### YamlMime:ContributionComment
+---
+uid: "207770"
+user: "miguel"
+created: "07 Oct, 2015 - 13:56"
+body: |-
+  Hello
+  I'm using Arduino Uno, but I could not turn ledpixel ws2812 using MADRIX,
+  I have my computer set up as these two videos for arnet:
+  https://www.youtube.com/watch?v=eKwgl7UFZzA
+  https://www.youtube.com/watch?v=Em6VX4d5Zeo
+  but nothing happens with pixels
+  
+  I'm using Arduino understand apprentice
+  1. charge only program of reciver v3.1
+  2. my pc sends the packet
+  3. Arduino receives according to the size of the buffer indicating.
+  I put a maximum of 531 buffer
+    4. package is removed and the signal is sent to the strip with fastLed
+  
+  I do not know if I'm right or wrong about something, they could orient

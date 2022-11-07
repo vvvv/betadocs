@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "270861"
+user: "idyll"
+created: "25 Jan, 2019 - 10:21"
+body: |-
+  hi @everyoneishappy, thanks for reply. I solved the issue afterwards, it was about the default settings of vvvv about gpu. Making default setting 'high performance NVIDIA..' fixed it.

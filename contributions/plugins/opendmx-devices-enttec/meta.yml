@@ -1,0 +1,18 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/opendmx-(devices-enttec)-meta"
+type: "plugin"
+author: "soriak"
+date: "31 Jul, 2015"
+title: "openDMX (Devices Enttec)"
+originalURL: "contribution/opendmx-(devices-enttec)"
+category: "plugin"
+credits: |-
+  enttec, soriak
+like_count: "4"
+imported: "true"
+teaser: |-
+  Simple plugin to send one DMX universe to Enttec openDMX USB and cheap selfmade DMX interfaces, that use a FTD USB adapter i.e. <http://stevenbreuls.com/2013/05/diy-usb-dmx-dongle-interface-for-under-10/>
+  
+  Make sure you install the drivers!
+  Further explanation in the helppatch!

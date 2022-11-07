@@ -1,0 +1,16 @@
+### YamlMime:ContributionComment
+---
+uid: "243297"
+user: "tonfilm"
+created: "07 Aug, 2017 - 19:57"
+body: |-
+  hello @tobyk 
+  
+  i don't know if that helps you, but if you want to call an operation of a type in a delegate, you either need to pass the instance (state) on which you want to call the operation into the delegate as an input or create an instance on the fly when the delegate gets called.
+  
+  most of the craftlie primitives are only available as process nodes (not individual Create/Update operations). that doesn't work together with a delegate out of the box... but you have two options:
+  
+  - make a data type that wraps the process node and call the individual operations of the wrapper type in the delegate
+  - copy the primitive you need from the CraftLie.vl document, paste it into your document, put it into another category or rename it and switch it from record to class to make the individual operations accessible
+  
+  reminder to self -> switch craftlie primitives from Record to Class

@@ -1,0 +1,15 @@
+### YamlMime:ContributionComment
+---
+uid: "87602"
+user: "elliotwoods"
+created: "25 Aug, 2012 - 13:58"
+body: |-
+  yes.
+  certainly possible.
+  it's not going to be very tidy for changing spread-count
+  accidentally feeding in a large spread is going to either:
+  a) be capped (i.e. hard cap on number of slices)
+  b) crash (you'll allocate too much cpu and gpu ram)
+  
+  is this something immediately useful?
+  i haven't got the source here anymore

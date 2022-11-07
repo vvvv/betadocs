@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/korg-nanokontrol2-files"
+url: "korg-nanokontrol2"
+category: "module"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "Korg NanoKontrol 2.zip"
+            timestamp: "04 Jun, 2019 - 14:30"
+            download_count: "1"

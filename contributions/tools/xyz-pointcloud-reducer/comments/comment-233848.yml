@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "233848"
+user: "beyon"
+created: "31 Dec, 2016 - 10:54"
+body: |-
+  @id44 I just looked at your example numbers in your original post which looked like proper rounding wasn't used.
+  
+  Also, I should have some dynamic plugins somewhere to convert plain-text point cloud files to texture inside vvvv if anyone is interested.

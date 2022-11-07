@@ -1,0 +1,18 @@
+### YamlMime:ContributionComment
+---
+uid: "82243"
+user: "jens.a.e"
+created: "05 May, 2012 - 11:57"
+body: |-
+  hi arduino lovers!
+  
+  phew, finally i remembered my password and can contribute to the discussion.....
+  
+  I am working on more fixes and making it compliant with the general vvvv plugin specifications so it can go into the upcoming b28 addonpack! So expect more features, but also some minor changes regarding the pin naming (shame on me, it wasn't consistent.....). The development tip code can be downloaded from https://github.com/jens-a-e/VVVVirmata
+  
+  if anyone could test the experimental I2C decoding would be great fun. It is better accessible in the current version. The encoder will follow asap. I unfortunately do not really have any I2C devices.....
+  
+  @motzi: Yes, karistouf had the right pointer, that is where it should be done. if I'd done it in the parser/plugin-code it would have made it static and actually would've broken the firmata protocol specs.
+  
+  
+  for all, it would be great, if you could post any issues to the github issue tracker, if you happen to have an account, otherwise feel free to do it here, i will try to stick to discussion :)

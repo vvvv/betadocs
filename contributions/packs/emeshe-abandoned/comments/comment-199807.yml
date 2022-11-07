@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "199807"
+user: "letoast"
+created: "16 Jul, 2015 - 15:02"
+body: |-
+  @microdee: Oh lord! Found out what was wrong! The nodes from the VObjects pack were referencing the x64 nodes instead of the x86 ones(probably because I'm running a x64 system). I just deleted the "x64" folder from "\packs\VObjects\nodes\plugins" and now everything is working fine!

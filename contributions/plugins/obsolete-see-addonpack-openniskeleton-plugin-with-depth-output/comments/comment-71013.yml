@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "71013"
+user: "mediadog"
+created: "24 Oct, 2011 - 19:42"
+body: |-
+  <div class="box">quote:joreg:
+  and also what do you mean with (non-) AGC grayscale?
+  </div>
+  
+  The "depth" image returned by the OpenNI plugin is actually scaled so 0 to 1 corresponds to the most distant pixel in the image to the closest.  As such, it is useless for doing any real depth work; if something moves closer, all the image data is scaled, sort of like when an AGC (Automatic Gain Control) darkens the overall picture when something in it gets brighter.
+  
+  The effect I included allows you to specify your desired depth range, and 1-0 then corresponds to that range no matter what, so you can use it for actual depth measurement (at least once I get those white lines out!).  Although using my funky format has higher res, this is more visually intuitive.

@@ -1,0 +1,19 @@
+### YamlMime:ContributionComment
+---
+uid: "83469"
+user: "bo27"
+created: "29 May, 2012 - 17:23"
+body: |-
+  @u7angel
+  
+  please find a source at alg's github page:
+  
+  https://github.com/smakhtin/DrawSmooth
+  
+  unf, we comletely removed mesh from it
+  mesh was super hungry for cpu and hadn't proper texture coords.
+  so it was mostly unusable.
+  
+  
+  @DiMiX, Noir, antokhio, m4d
+  thanks)))

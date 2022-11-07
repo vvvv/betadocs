@@ -1,0 +1,27 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/stablefluids-files"
+url: "stablefluids"
+category: "plugin"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "1"
+            filename: "StableFluids_v1.0_avx.zip"
+            description: |-
+              StableFluids_v1.0 x64 avx
+            
+            timestamp: "26 Oct, 2017 - 11:45"
+            download_count: "1"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "StableFluids_v1.0.zip"
+                    description: |-
+                      StableFluids_v1.0 x64 avx2
+                    
+                    timestamp: "25 Oct, 2017 - 10:55"
+                    download_count: "4"

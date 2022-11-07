@@ -1,0 +1,15 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/self-align-shader-dx11-meta"
+type: "effect"
+author: "u7angel"
+date: "26 Jun, 2018"
+title: "Self Align Shader DX11"
+originalURL: "contribution/self-align-shader-dx11"
+category: "effect"
+credits: |-
+  ported dx9 version from unknown author
+like_count: "8"
+imported: "true"
+teaser: |-
+  simple but effective shader, making your geometry automatically facing the camera without further calculation in patch

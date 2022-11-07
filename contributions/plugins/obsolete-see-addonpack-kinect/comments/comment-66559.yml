@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "66559"
+user: "robe"
+created: "13 Jul, 2011 - 21:12"
+body: |-
+  The depht must be black&white where white(=1) represent near and black(=0) far.
+  In this way you can do image processing better than with the color spectrum from Code Laboratories.
+  
+  Excuse my english
+  Bye

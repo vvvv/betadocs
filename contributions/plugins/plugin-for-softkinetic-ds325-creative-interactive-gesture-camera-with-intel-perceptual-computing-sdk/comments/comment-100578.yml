@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "100578"
+user: "herbst"
+created: "07 May, 2013 - 00:38"
+body: |-
+  Sorry for letting you all wait - didn't have access to such a camera for quite some time and finally bought one for myself. So, here are the changes to make the release version work. And I added voice recognition support!
+  
+  Please test, as I had to do quite some changes and didn't test very thoroughly.
+  
+  ![voice recognition](https://vvvv.org/sites/default/files/imagecache/large/images/vr.png)

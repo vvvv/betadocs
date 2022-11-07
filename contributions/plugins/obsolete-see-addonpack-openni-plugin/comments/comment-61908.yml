@@ -1,0 +1,20 @@
+### YamlMime:ContributionComment
+---
+uid: "61908"
+user: "vjc4"
+created: "04 Apr, 2011 - 02:43"
+body: |-
+  @screamer
+  
+  tnks for the help, the issue seems to be windows update,,, dont ask me why, im up to date now and it works just fine
+  
+  i want to share what im doing,,, i would like to create radiohead pointcloud effect, which nodes shoud i use to manipulate the levels contras brighnes ect of a texture ?
+  
+  i try adding a black box on this pointgrid to "block" the points on the background, but i will be rendered all over the dots,,, is there any way to create a box , and have it reendered with the poingcloud dots on the righ posicion ? ( blockig the dots that are behind the box and letting the other one in front )
+  
+  on this test patch im creating a pointcloud view with the user texture only, without an extrucion on the background, and im using hands posicions to manupulate a virtual camera posicion and the scale of the extrucion of the point grid
+  
+  http://img545.imageshack.us/f/kinect.jpg/
+  http://rapidshare.com/files/455786617/kinectc4.zip
+  
+  One more time, great job hierro vux and screamer !!!

@@ -1,0 +1,10 @@
+### YamlMime:ContributionComment
+---
+uid: "107078"
+user: "Martin Zrcek"
+created: "26 Sep, 2013 - 12:39"
+body: |-
+  So far, I just put there a "simple root" in older revisions to see if the problem is maybe in one part of the program.
+  Could you please try to open single nodes in Emit, Anim, Draw to see if at least some of them work?
+  
+  And thanks for trying this!

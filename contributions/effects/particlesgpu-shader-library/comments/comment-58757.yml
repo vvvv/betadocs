@@ -1,0 +1,10 @@
+### YamlMime:ContributionComment
+---
+uid: "58757"
+user: "kalle"
+created: "21 Jan, 2011 - 18:46"
+body: |-
+  <div class="box">quote:professore; a few posts ago: 
+  in general i saw that ParticlesGPU on multiscreen is problematic: seams there's no way to share a rendered texture between two different screens; so if we evaluate the position texture (in your case the Queue shader+renderer) on the first monitor, we can't send this texture to the second screen (where there's the final render).
+  Try to keep all the renderer in the same screen (moving the renderer windows), also if just one goes to fullscreen.
+  </div>

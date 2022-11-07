@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "280159"
+user: "lev"
+created: "01 Mar, 2022 - 13:07"
+body: |-
+  @schlonzo Updated nuget: https://www.nuget.org/packages/VL.HapPlayer/2.2.0
+  Works with VL 2021.4.6 / VL.Audio 1.0.3

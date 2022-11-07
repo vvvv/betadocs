@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/texture-controlled-fade-files"
+url: "texture-controlled-fade"
+category: "effect"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "TexCtrlFade.zip"
+            timestamp: "01 Aug, 2010 - 15:05"
+            download_count: "2"

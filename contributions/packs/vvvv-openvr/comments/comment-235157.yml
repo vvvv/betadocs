@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "235157"
+user: "499reality"
+created: "09 Feb, 2017 - 15:35"
+body: |-
+  HI tonfilm. Thanks for your reply
+  just made the try before to read your answer, downgraded to previous pack and relunch my patch and the issue is still there. but I did not have this behavior before (  i would obviously noticed this ). I tried to change the texture format to 16bit in the renderer but it made the "movement delay" effect worst than in 32bits.

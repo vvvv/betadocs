@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/penner-easing-functions-files"
+url: "penner-easing-functions"
+category: "plugin"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "AnimationPenner.7z"
+            description: |-
+              Just unpack this to your plugins directory. Help file inside.
+            
+            timestamp: "25 Apr, 2019 - 01:15"
+            download_count: "1"

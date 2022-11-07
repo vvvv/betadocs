@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "113366"
+user: "nrsz"
+created: "30 Jan, 2014 - 14:37"
+body: |-
+  hi everybody,
+  
+  thanks for the great work!
+  i have a question: i`ll map a room with 2 projectors that are facing each other (each one in the opposite corner of the room).
+  The 2 projectors are connected to two laptops (there is no dualhead possibility - greetings from india ;) - i plan to animate the light position and send it via osc to the 2nd laptop/beamer. Any idea how i can align the 3d coordinates of the 2 patches/projections?
+  
+  thank you very much!

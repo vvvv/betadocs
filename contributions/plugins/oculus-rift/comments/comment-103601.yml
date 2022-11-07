@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "103601"
+user: "herbst"
+created: "11 Jul, 2013 - 22:38"
+body: |-
+  I can also remember that disconnect thing happening, but as mediadog says it seemed to never happen again after some initial hickups.
+  
+  A temporary solution would be to S+H the last value you got and use that as an offset after reconnecting.
+  
+  @mediadog: the one in the /bin/Dynamic folder is the one used, the other might be older/not from the Unity port.
+  
+  For anyone who wants to update the plugin: just download the current version of the Unity SDK for Oculus, switch the dlls and the code... the modifications between the Unity and vvvv code are minor, basically I embedded the Unity one into vvvv.

@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "268370"
+user: "chk"
+created: "27 Sep, 2018 - 12:36"
+body: |-
+  any idea why restarting the client is not possible until restart of vvvv, when the connection is lost?

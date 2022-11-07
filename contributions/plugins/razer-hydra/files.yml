@@ -1,0 +1,21 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/razer-hydra-files"
+url: "razer-hydra"
+category: "plugin"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "1"
+            filename: "RazerHydra_x64.zip"
+            timestamp: "06 Oct, 2015 - 11:35"
+            download_count: "1"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "RazerHydra.zip"
+                    timestamp: "30 May, 2013 - 21:12"
+                    download_count: "1"

@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "84083"
+user: "circuitb"
+created: "12 Jun, 2012 - 16:53"
+body: |-
+  yep both OpenCV & OpenCV directshow works here (beta 27.2 & alpha 28)
+  but with this resolution thing at least with the IDS camera.

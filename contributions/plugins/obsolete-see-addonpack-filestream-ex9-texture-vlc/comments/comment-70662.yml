@@ -1,0 +1,15 @@
+### YamlMime:ContributionComment
+---
+uid: "70662"
+user: "Miguel Jara"
+created: "17 Oct, 2011 - 16:28"
+body: |-
+  TO INSTALL --
+   
+  Finally I got how to do it.
+  
+  After have all the files in the "Vlc0.3test" folder, just copy it inside he "plugins" folder that is inside the vvvv main folder. There are some "Template ..." folders, just for guide.
+  
+  Thanks for the plugin!!!
+  
+  M

@@ -1,0 +1,13 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/scaletomouse-meta"
+type: "plugin"
+author: "milo"
+date: "11 Jan, 2013"
+title: "ScaleToMouse"
+originalURL: "contribution/scaletomouse"
+category: "plugin"
+like_count: "5"
+imported: "true"
+teaser: |-
+  a scale relative to mouse position. useful for canvas interfaces.

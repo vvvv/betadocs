@@ -1,0 +1,34 @@
+### YamlMime:ContributionComment
+---
+uid: "222856"
+user: "elliotwoods"
+created: "08 Jul, 2016 - 02:35"
+body: |-
+  <div class="box">quote:username: woei
+  column names cannot have spaces, since their name will be used directly as xml node identifier. can handle that case more gracefully though
+  </div>
+  
+  I see, interesting.
+  I've changed my projects to use no spaces, but i think it'd be nice to have that support, and still comma separated lists would be more sensible (but now changing that would break old patches)
+   
+  <div class="box">quote:username: woei
+  repaint issue: indeed. seems even more noticeable now on win10 and highdpi. guess it would require quite a rework of event messaging...
+  checkbox out of bounds: definitely high dpi issue, just noticed myself here
+  </div>
+  OK 
+  
+  <div class="box">quote:username: woei
+  colors: see github
+  </div>
+  cheers!
+  what **were** you thinking?? ;)
+  
+  <div class="box">quote:username: woei
+  GetColumn (Dynamic): the issue with that node would be, that it could change output pin (type) every time you change the index... therefore not implemented
+  </div>
+  Why would that be a problem?
+  
+  <div class="box">quote:username: woei
+  GetRows: you mean something like GetTable (Dynamic) a pin per column outputting all available cells?
+  </div>
+  yes exactly. would be nice!

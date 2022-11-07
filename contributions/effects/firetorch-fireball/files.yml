@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/firetorch-fireball-files"
+url: "firetorch-fireball"
+category: "effect"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "FireTorchBall.zip"
+            timestamp: "04 Mar, 2013 - 20:47"
+            download_count: "2"

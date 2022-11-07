@@ -1,0 +1,15 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/process-(animation)-meta"
+type: "plugin"
+author: "tonfilm"
+date: "06 May, 2011"
+title: "Process (Animation)"
+originalURL: "contribution/process-(animation)"
+category: "plugin"
+like_count: "17"
+imported: "true"
+teaser: |-
+  This module is helpful for all tasks which require the notion of: "Do that, then that, then that.." and so on. Its often hard to patch something like this, and patches tend to get complicated if such "timing things" are involved, but its often needed in projects. This is no replacement for <span class="node">Timeliner (Animation)</span> or <span class="node">Automata (Animation)</span>, use them if it gets more complex, involvig conditional jumps from one state into another.
+  
+  now as a plugin with action progress output.

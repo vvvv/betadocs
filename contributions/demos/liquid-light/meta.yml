@@ -1,0 +1,15 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/liquid-light-meta"
+type: "demo"
+author: "lecloneur"
+date: "26 Aug, 2012"
+title: "Liquid Light"
+originalURL: "contribution/liquid-light"
+category: "demo"
+like_count: "14"
+imported: "true"
+teaser: |-
+  Here is Liquid Light, my latest production. It is based on [dottore](http://vvvv.org/users/dottore) particle with a variation of the TextureField shader made by [mrboni](http://vvvv.org/users/mrboni) (I found it on a thread) and of course, lots of [unc](http://vvvv.org/users/unc) shaders.
+  
+  Video here : https://vimeo.com/47904573

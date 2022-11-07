@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "250940"
+user: "u7angel"
+created: "17 Apr, 2018 - 12:14"
+body: |-
+  @tonfilm, one can setup the HTC driver to run on tracker only but the vvvv plugin insists on having the headset too. tried to grasp the plugin code to make a special case for "tracker only mode" but failed so far.
+  
+  i could send you the tracker to berlin if you fancy...

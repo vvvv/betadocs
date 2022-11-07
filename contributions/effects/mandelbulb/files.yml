@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/mandelbulb-files"
+url: "mandelbulb"
+category: "effect"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "Mandelbulb1.1.zip"
+            timestamp: "09 Jul, 2010 - 11:41"
+            download_count: "2"

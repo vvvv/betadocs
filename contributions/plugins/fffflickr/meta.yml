@@ -1,0 +1,13 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/fffflickr-meta"
+type: "plugin"
+author: "alg"
+date: "11 Apr, 2012"
+title: "FFFFlickr"
+originalURL: "contribution/fffflickr"
+category: "plugin"
+like_count: "10"
+imported: "true"
+teaser: |-
+  This is the set of basic nodes, that allow you to access a Flickr API. I added only one help file, that describes all functionality. Please, send me your feedback and suggestions, how this set of nodes can be extended.

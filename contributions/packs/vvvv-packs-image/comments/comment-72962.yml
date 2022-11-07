@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "72962"
+user: "hierro"
+created: "05 Dec, 2011 - 09:21"
+body: |-
+  Hi, hadsome testing, and compiled library with only a problem, the openni User module is giving error, everything is running fine, but just passing the mouse over user module it became red, and esecution time passes from o.5 to 350, any hint about it ? can be related to msvcrt.dll importing ? 
+  Using precompiled library  no problems, just sometime (still not sure about why),openni trace a "corrupted memory error", and driver need to be restored with a windows log off.

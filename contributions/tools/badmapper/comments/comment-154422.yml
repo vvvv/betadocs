@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "154422"
+user: "joreg"
+created: "01 May, 2014 - 14:01"
+body: |-
+  probably not missing but you're not running latest vvvv, see: [new-vector-swizzle-nodes-and-vector-joinsplit-up-to-5x-faster](/blog/new-vector-swizzle-nodes-and-vector-joinsplit-up-to-5x-faster)

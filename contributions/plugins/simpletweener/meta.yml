@@ -1,0 +1,17 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/simpletweener-meta"
+type: "plugin"
+author: "alg"
+date: "03 Jul, 2011"
+title: "SimpleTweener"
+originalURL: "contribution/simpletweener"
+category: "plugin"
+credits: |-
+  This plugin was developed in "Interactive Lab" during our last project.
+like_count: "7"
+imported: "true"
+teaser: |-
+  SimpleTweener is the tweening plugin that can help you to easily create tweens that's useful in interface programming. For more info check help patch.
+  
+  This is test version of the plugin. Any suggestions are welcome, sources at https://github.com/smakhtin/VVVV.Nodes.SimpleTweener .

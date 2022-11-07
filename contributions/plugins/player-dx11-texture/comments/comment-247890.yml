@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "247890"
+user: "woei"
+created: "20 Dec, 2017 - 14:06"
+body: |-
+  if your harddrive is too slow read the images, you won't be seeing anything with filetexture pooled either. in that case you won't run into a memoryleak with filetexture pooled. you will just have stuttering and probably black frames.
+  
+  if your harddrive matches the necessary bandwidth, there's no problem with player and last time i checked it was faster.
+  
+  producing an installation i'd assume one calculates the required performance of the hardware anyways

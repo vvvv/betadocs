@@ -1,0 +1,19 @@
+### YamlMime:ContributionComment
+---
+uid: "70841"
+user: "robi_h"
+created: "21 Oct, 2011 - 10:28"
+body: |-
+  Hello, really nice plugin. I try to play a video on 4 HD projectors. As i want to use as much res as possible I tried the plugin with different videos in resolutions between 2000*225 to 7200*810. At some point i get an "Out of Memory exeption"
+  CreateTexture(Slice 0, Device 60270176)
+  ERR <A0+> <CreateDoubleTexture%20Exception> E_OUTOFMEMORY: Ran out of memory (-2147024882).
+  
+  I understand that it is a lot of data the plugin has to handle, but VLC player is playing the same files really smooth and without problems. I`m just wondering if there is something i can do about it. Otherwise I will have to use filestream an spanmode, which i would like to avoid.
+  
+  I`m using SSD and 8gb RAM Eyefinity 5870 with 6 Outputs
+  
+  
+  BIG THANKS for the good work
+  
+  greetings from vienna 
+  robi_h

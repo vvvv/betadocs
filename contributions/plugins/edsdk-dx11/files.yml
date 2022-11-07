@@ -1,0 +1,27 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/edsdk-(dx11)-files"
+url: "edsdk-dx11"
+category: "plugin"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "1"
+            filename: "EDSDK-x86.zip"
+            description: |-
+              v1.0 (32 Bits)
+            
+            timestamp: "28 Dec, 2015 - 13:17"
+            download_count: "1"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "EDSDK-x64.zip"
+                    description: |-
+                      v1.0 (64 Bits)
+                    
+                    timestamp: "28 Dec, 2015 - 13:17"
+                    download_count: "1"

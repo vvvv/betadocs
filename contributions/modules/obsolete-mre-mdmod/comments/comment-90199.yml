@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "90199"
+user: "microdee"
+created: "24 Oct, 2012 - 16:02"
+body: |-
+  it looks like it discriminates ati cards. i don't have any idea what can cause this. a colleague of mine suspects that i use too many 16F and 32F textures. also that ToneMapping gives me some headaches. probably i'll put back the pipet version for "safe mode". but this shouldn't be the problem. anyone can confirm similar behaviour on radeon HD 6xxx or 7xxx?

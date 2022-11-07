@@ -1,0 +1,20 @@
+### YamlMime:ContributionComment
+---
+uid: "154731"
+user: "csmith16"
+created: "06 May, 2014 - 13:55"
+body: |-
+  Whoever replied to my post, thank you for the help!
+  
+  I've got 64 bit vvvv and DX11 pack in the right place.
+  
+  I've got the Kinect patch and its dll in: vvvv_45beta31.2_x64\contributions\plugins
+  
+  Just checked the services - Kinect Monitor is running in Automatic start-up (I assume that's OK).
+  
+  I ran the patch and only some of the Kinect2 Microsoft nodes are red now (see attached screenshot).
+  
+  ![](https://vvvv.org/sites/default/files/imagecache/large/images/Kinect%20Patch.PNG) 
+  
+  Any ideas?
+  Thanks again!

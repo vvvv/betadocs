@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "88442"
+user: "Hapboy"
+created: "13 Sep, 2012 - 07:46"
+body: |-
+  For what reasons servo and pwm mode dont work?
+  edit: now testing with UNO. Servo and PWM mode return false

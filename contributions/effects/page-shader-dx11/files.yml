@@ -1,0 +1,24 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/page-shader-(dx11)-files"
+url: "page-shader-dx11"
+category: "effect"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "1"
+            filename: "BookPage-DX11.zip"
+            description: |-
+              DX11 version + preload textures
+            
+            timestamp: "27 Aug, 2015 - 13:44"
+            download_count: "1"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "PageShader.zip"
+                    timestamp: "29 Aug, 2011 - 14:58"
+                    download_count: "4"

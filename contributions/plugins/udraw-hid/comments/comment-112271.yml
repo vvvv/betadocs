@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "112271"
+user: "seltzdesign"
+created: "06 Jan, 2014 - 16:34"
+body: |-
+  Finally got 2 uDraw tablets, but not having any luck to get them to work in vvvv. I am using the help file, but in Device Type it always just shows "Undefined" as the only option.
+  
+  The tablet works with the application from http://brandonw.net/udraw/. I have restarted and tried everything i know of with no luck. I can see in your screenshot it actually says "THQ uDraw Game Tablet for PS3" for device. In device manager of windows its just shown as "HID-compliant game controller" however. Did you install some sort of driver?
+  
+  Thank you!

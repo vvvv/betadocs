@@ -1,0 +1,12 @@
+### YamlMime:ContributionComment
+---
+uid: "246914"
+user: "woei"
+created: "08 Nov, 2017 - 12:46"
+body: |-
+  @kopffarben: yep, i know.
+  however numerics apply those instruction on vectors. which in this case is maximum 3. i do that on iteration which maxes to 8.
+  the cost of this algorithm is not really complicated arithmetics but just running a lot of loops over a lot of arrays. thus unmanaged outperformes .net quite a bit, since there is no boundschecking on array access.
+  cli would of course also optimize into simd instructions, but only for cases where you exactly loop from 0 to length-1 of the array. and that is nearly never the case here, due to special boundary conditions in the algorithm.
+  
+  i've also got the same implementation in c# with all the performance optimizations i could think of. still didn't get near the speed of c++

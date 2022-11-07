@@ -1,0 +1,19 @@
+### YamlMime:ContributionComment
+---
+uid: "232714"
+user: "CeeYaa"
+created: "01 Dec, 2016 - 20:37"
+body: |-
+  First: 
+  THX for this amazing Contribution and for the nice vveekend vvorkshop with microdee :-)
+  
+  Question
+  Triangle Pin(Segments, Unity) and BoundedBiharmonicWeights 
+  I have some issues with Bones and my Octopus
+  I got that I need to "Unity" the "Triangle" that "BoundedBiharmonicWeights" can do it'S magic but my Mesh looks weird. When I have more than 4Bones my Mesh get's crazy with Segments and Unity - if I switch of Segments it's ok but bones connect everything. 
+  
+  ![errorOctopus](https://vvvv.org/sites/default/files/imagecache/large/images/bonesError.PNG) 
+  
+  
+  I can fake it with Alpha but what I didn't get here?  
+  ![testOctopus](https://vvvv.org/sites/default/files/imagecache/large/images/testOctopus.gif)

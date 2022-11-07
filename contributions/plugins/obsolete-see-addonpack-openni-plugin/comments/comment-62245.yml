@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "62245"
+user: "mediadog"
+created: "10 Apr, 2011 - 17:57"
+body: |-
+  This plugin works, but loses me as soon as I stand still.  If I start moving, it picks me up again.
+  
+  The previous (OpenNISkeleton) works fine, as do all the Prime Sense samples.
+  
+  I've tried copying the "data" files over from OpenNISkeleton, but same results.
+  
+  Any ideas?  Thanks!

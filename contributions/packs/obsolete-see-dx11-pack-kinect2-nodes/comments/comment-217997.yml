@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "217997"
+user: "tonfilm"
+created: "16 Mar, 2016 - 20:23"
+body: |-
+  as the download page of the kinect2 nodes say, they only work in x64 builds. so you need to install vvvv x64 and the x64 packs.
+  
+  also you said "kinect One" is connected to the usb 3 port, is that correct? if so, you need to use the kinect 1 nodes...

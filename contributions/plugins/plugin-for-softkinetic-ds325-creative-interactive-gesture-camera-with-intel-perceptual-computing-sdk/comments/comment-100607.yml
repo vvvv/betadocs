@@ -1,0 +1,18 @@
+### YamlMime:ContributionComment
+---
+uid: "100607"
+user: "colorsound"
+created: "07 May, 2013 - 14:28"
+body: |-
+  hello thank you for the update. 
+  
+  I tried all the help patches, 
+  
+  i got working the voice recognition. At first it was showing strange letters but later started to work quite good with lots of words and phrases.
+  
+  The face patch it,s the only one that got the camera to turn on the green light.
+  In this one i saw some activity a square in the left corner of the renderer sort of responding from the face.
+  
+  The rest did not work. 
+  
+  I tested with last alpha 29.5

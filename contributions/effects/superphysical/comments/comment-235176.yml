@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "235176"
+user: "mburk"
+created: "09 Feb, 2017 - 19:32"
+body: |-
+  Should be working in 50beta35. The problem is DX11 1.0, because all Dynamic Buffers are set to "Dynamic" now. If you set them back to "Default" in the Inspector it shoud be working. There is a whole bunch in the light module.
+  Also, new version of Superphong will be out soon.

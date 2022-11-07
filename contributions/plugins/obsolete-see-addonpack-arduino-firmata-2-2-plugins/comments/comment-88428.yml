@@ -1,0 +1,14 @@
+### YamlMime:ContributionComment
+---
+uid: "88428"
+user: "Hapboy"
+created: "12 Sep, 2012 - 18:52"
+body: |-
+  Hi all.
+  
+  **arduino mega 2560** and **arduino mega 1280**
+  don`t work some outputs,
+  working from 8-13 in OUTPUT mode, PWM and SERVO don`t work.
+  In FirmataTest all working
+  
+  have ideas?

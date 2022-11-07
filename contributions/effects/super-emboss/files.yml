@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/super-emboss-files"
+url: "super-emboss"
+category: "effect"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "super_emboss.zip"
+            description: |-
+              basic shader for graphical effect
+            
+            timestamp: "04 Aug, 2010 - 20:00"
+            download_count: "1"

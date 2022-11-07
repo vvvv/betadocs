@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/trackpad-right-click-hack-for-bootcamp-files"
+url: "trackpad-right-click-hack-for-bootcamp"
+category: "module"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "Trackpad (Bootcamp).v4p"
+            description: |-
+              0.1 a Fix for shitty trackpads in Bootcamp
+            
+            timestamp: "07 Dec, 2011 - 13:41"
+            download_count: "1"

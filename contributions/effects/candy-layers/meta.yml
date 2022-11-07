@@ -1,0 +1,17 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/candy-layers-meta"
+type: "effect"
+author: "ain"
+date: "06 Dec, 2010"
+title: "Candy Layers"
+originalURL: "contribution/candy-layers"
+category: "effect"
+credits: |-
+  code based on wood shader by vux. 
+  many thanks to joreg and tonfilm for effects workshop at node10!
+like_count: "4"
+imported: "true"
+teaser: |-
+  Takes colors from 1D-texture and creates 3D layers of spherical shape (in world space) that go through the objects.
+  Any feedback or ideas how to improve are appreciated *~*

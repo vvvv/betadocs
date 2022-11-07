@@ -1,0 +1,22 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/raycomposer-ilda-dac-node-meta"
+type: "plugin"
+author: "afrob"
+date: "19 Aug, 2015"
+title: "RayComposer ILDA DAC Node"
+originalURL: "contribution/raycomposer-ilda-dac-node"
+category: "plugin"
+like_count: "6"
+imported: "true"
+teaser: |-
+  With this node you can use RayComposer Laser Show DAC devices in your vvvv patch.
+  See <http://www.raycomposer.de/en/ilda-dac-interfaces/raycomposer-usb/> for more information.
+  
+  RayComposer USB Device Features: ILDA Standard Projector Interface; 16 Bit position & 12 Bit color resolution; 6 color channels; sampling rate from 1 - 200000Hz; USB High Speed 480MBps; integrated DMX output and DMX input interfaces.
+  
+  On modern Windows OS the devices work out of the box without further driver installation. (For older OS down to Win XP a driver is available.)
+  
+  See the included help Patch "RayComposer (Devices) help.v4p" for usage hints.
+  
+  The node should work on both x86 and x64 versions of v4.

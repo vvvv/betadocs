@@ -1,0 +1,24 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/workshop-videotracking-node10-files"
+url: "workshop-videotracking-node10"
+category: "tutorial"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "1"
+            filename: "Tracking_techniques.zip"
+            description: |-
+              PDF and Patches(vvvv beta13)
+            
+            timestamp: "07 May, 2013 - 12:20"
+            download_count: "1"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "video_tracking_node10.pdf"
+                    timestamp: "05 Dec, 2010 - 17:15"
+                    download_count: "1"

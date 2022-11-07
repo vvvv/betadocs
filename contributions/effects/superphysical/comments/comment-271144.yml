@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "271144"
+user: "synth"
+created: "25 Feb, 2019 - 16:14"
+body: |-
+  Hey!
+  I am probably missing something, but do you have any advice regarding managing transforms on imported meshes with multiple subsets. It gets confusing really fast with massive spreads for the transforms. 
+  Also material management. I started working on something like a material manager that writes xml files but it is going to be a long way till (if) it ever gets done. Mostly due to my limited skills in vvvv. 
+  
+  Thanks!

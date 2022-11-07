@@ -1,0 +1,31 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/minimum-polygon-distance-meta"
+type: "plugin"
+author: "motzi"
+date: "10 Mar, 2014"
+title: "Minimum Polygon Distance"
+originalURL: "contribution/minimum-polygon-distance"
+category: "plugin"
+credits: |-
+  [Hormoz Pirzadeh](http://cgm.cs.mcgill.ca/~orm/mind2p.html)
+like_count: "3"
+imported: "true"
+teaser: |-
+  Get minimal distance of two or more arbitrary convex polygons.
+  Calculation using [Rotating Calipers](http://cgm.cs.mcgill.ca/~orm/mind2p.html).
+  
+  Should work with polygons of any edge point number.
+  
+  Please note that:
+  * Polygons have to be convex
+  * Corner points of polygons have to be ordered clockwise
+  * No collision detection is performed (i.e. overlapping polygons do not have a distance of zero. Probably could use <span class="node">HitTest (2d Polygon)</span>for that.
+  
+  
+  Outputs a distance matrix containing all distances between all input polygons. Also, the closest points between the polygons are supplied.
+  
+  
+  **Not heavily tested - use with caution!**
+  Any feedback or suggestions for improvement is welcome.
+  Work partly commissioned by [This.Play](/businesses/this.play)

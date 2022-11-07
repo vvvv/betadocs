@@ -1,0 +1,20 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/node10-data-visualization-meta"
+type: "demo"
+author: "sebl"
+date: "08 Jun, 2011"
+title: "NODE10 - Data Visualization"
+originalURL: "contribution/node10-data-visualization"
+category: "demo"
+credits: |-
+  the whole community and many others
+like_count: "10"
+imported: "true"
+teaser: |-
+  These are the files and sheets from the data visualization workshop held at NODE10.
+  
+  i didn't look through the files, so please report if something is not working as expected.
+  
+  ------
+  the logfile for the svvvvnlog was created with the OSX shell using: svn log -v --xml > logfile.log

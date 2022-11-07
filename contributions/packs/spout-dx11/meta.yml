@@ -1,0 +1,21 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/spout-dx11-meta"
+type: "pack"
+author: "joreg"
+date: "05 Sep, 2016"
+title: "Spout DX11"
+originalURL: "contribution/spout-dx11"
+category: "pack"
+like_count: "9"
+imported: "true"
+teaser: |-
+  ## Install
+  
+  Put next to dx11 pack in /packs directory so it looks like this:
+   /packs/dx11
+   /packs/dx11-Spout
+  
+  ## Use
+  
+  If it doesn't work for you try to reset (ALT+rightclick) the Spout (DX11.Texture Receiver) node. This is due to [fromsharedtexture-(dx11)-bug" "a problem with the FromSharedTexture (DX11.Texture 2d) node](https://discourse.vvvv.org/t/fromsharedtexture-(dx11)-bug" "a problem with the FromSharedTexture (DX11.Texture 2d) node).

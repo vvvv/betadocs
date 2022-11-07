@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "261053"
+user: "ggml"
+created: "07 Aug, 2018 - 11:53"
+body: |-
+  @mburk regarding the deferred branch, is the getslice(texturearray to array) somewhere to be found ? thanks

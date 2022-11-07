@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "210044"
+user: "AKa-visuals"
+created: "03 Nov, 2015 - 21:17"
+body: |-
+  @everyoneishappy  No red nodes,,, everything works except this behaviour in Deformer (DX11.GeomFX) & SurfaceDistortions (DX11.GeomFX), wobble didnt try,, think could be because of the graphic card. will test in other computer.
+  ![](https://vvvv.org/sites/default/files/imagecache/large/images/SurfaceDistortions%20%28DX11.GeomFX%29%20help-Renderer.png)

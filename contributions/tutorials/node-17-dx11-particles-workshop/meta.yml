@@ -1,0 +1,13 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/node-17-dx11.particles-workshop-meta"
+type: "tutorial"
+author: "tmp"
+date: "08 Nov, 2018"
+title: "Node 17 - DX11.Particles Workshop"
+originalURL: "contribution/node-17-dx11.particles-workshop"
+category: "tutorial"
+like_count: "2"
+imported: "true"
+teaser: |-
+  Material and example patches for Node 17 DX11.Particles workshop

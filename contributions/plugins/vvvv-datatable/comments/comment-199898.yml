@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "199898"
+user: "woei"
+created: "20 Jul, 2015 - 12:44"
+body: |-
+  it is already saving and reading xml files.
+  copy pasting xls should also work (depending on the separator)

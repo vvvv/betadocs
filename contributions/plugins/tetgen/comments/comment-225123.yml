@@ -1,0 +1,10 @@
+### YamlMime:ContributionComment
+---
+uid: "225123"
+user: "digitalwannabe"
+created: "08 Aug, 2016 - 03:27"
+body: |-
+  yes, tried x86 and x64 on different systems, however, not on windows 7....@tekcor @sinus are you on win7 too? can't see a reason why it shouldn't work on win7, but I don't see any other reason atm either :(
+  
+  It seems to be some mistake I've done with compiling, very likely as this is one of my first plugins I've precompiled which depends on another c++ library; maybe one of the devs can have a look, as far as I can tell I've followed all available instructions closely.....
+  anyway, to get around errors I might have done with precompiling please try downloading the plugin source folder (link above) and drop the csproj file in your patch. The according Tetgen2vvvv.dll(x64 or x86) should lie next to vvvv.exe (x64 or x86) for this to work.

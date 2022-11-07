@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/projection-mapping-node15-workshop-files"
+url: "projection-mapping-node15-workshop"
+category: "misc"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "projMapWorkshop.zip"
+            description: |-
+              All used files. Dependencies: vvvv45b>=33.7 x64, imagepack, badMapper (a contribution)
+            
+            timestamp: "01 Jun, 2015 - 16:56"
+            download_count: "13"

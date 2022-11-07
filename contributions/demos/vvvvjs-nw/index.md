@@ -1,0 +1,37 @@
+---
+uid: "contribution/vvvvjs-nw"
+uid-meta: "contribution/vvvvjs-nw-meta"
+comments: 
+ items: 
+  - uid: "105169"
+  - uid: "105171"
+  - uid: "105193"
+uid-files: "contribution/vvvvjs-nw-files"
+title: "vvvvjs-nw"
+contribution: "true"
+---
+
+I really like vvvv and Node.js, and vvvvjs is just in the middle of both.
+
+Tonight I'm going to share an experiment. I think that most of the users like vvvvjs but it is difficult to try it out, since not everybody has web development skills.
+
+Well, if I look far away, I can see a vvvvjs.exe that you put inside vvvv folder and is able to browse all girlpower patches ... maybe you can think I'm crazy .... YES I AM ! of course
+
+But take a look at this experiment. It was realized in less than two hours, using node-webkit (check it out, is very interesting) and vvvvjs.
+
+I just took vvvvjs examples folder and used node-webkit to create a vvvvjs.exe that everybody should be able to run and try some vvvvjs patches.
+
+Strictly speaking, 
+
+node-webkit = Chrome + Node.js 
+
+and 
+
+vvvvjs-nw = node-webkit + vvvvjs
+
+Technically, it could run on Mac and Linux too. It could evolve in a simple way to run a vvvvjs server.
+
+Let me know if you imagine any direction it is worth to go.
+
+Ciaooooooo
+

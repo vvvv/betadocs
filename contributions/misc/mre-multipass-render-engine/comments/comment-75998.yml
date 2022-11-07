@@ -1,0 +1,21 @@
+### YamlMime:ContributionComment
+---
+uid: "75998"
+user: "dottore"
+created: "09 Feb, 2012 - 14:11"
+body: |-
+  @gregsn:
+  The main requirement of this approach is that no geometry is lighted by multiple lights. Rooms are really separated (at lighting level at least; they could anyway share the same space).
+  So, if we happy with this, we definitively can organize the modules into lighting spaces.
+  LightingSpace module will contain:
+  -object modules
+  -light module (unified with vsm module)
+  
+  One consideration:
+  The environment module must not be placed into each Room(lightingSpace) because it's not light dependent and is also unique (in your version there are 2 overlapping backgrounds, you can see if zoom out with the camera).
+  It Should be a Environment moudule near the lightingspace modules, in the root patch.
+  
+  Agree on light patch cleanup (separation between position menagement and the rest...)
+  
+  
+  ...future improvements in multi-lights management will require a completely different approach, called deferred shading  <http://en.wikipedia.org/wiki/Deferred_shading>

@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/add-seconds-to-srt-subtitles-files"
+url: "add-seconds-to-srt-subtitles"
+category: "tool"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "fixsrt.zip"
+            timestamp: "31 May, 2011 - 15:25"
+            download_count: "1"

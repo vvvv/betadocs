@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "63115"
+user: "gilbi"
+created: "02 May, 2011 - 19:35"
+body: |-
+  @sanch, Did you see the other contribution I posted (Fantastick Plugin)? It has some basic examples. Also what do you mean by "it will be much better in plugin with a custom type for fantastick string" ? How do you imaging such a thing would work?
+  
+  Also I will definitely look into using the HTTP (Network Server) node. I didn't realize that node existed.
+  
+  @screamer, I don't understand the problem you are having, can you be more specific?

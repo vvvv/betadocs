@@ -1,0 +1,21 @@
+### YamlMime:ContributionComment
+---
+uid: "59340"
+user: "woei"
+created: "01 Feb, 2011 - 23:36"
+body: |-
+  actually you can do the spreading of keycolors yourself. thats why its a FXH.
+  
+  there simple functions wrapped in these fxh files. so if you for example need a shader to control saturation, contrast and then keying out the green, you don't need to copy paste everything together but just include the .fxh and call the functions like:
+  ```
+  #include "path/Saturation.fxh"
+  #include "path/Contrast.fxh"
+  #include "path/ColorMatte.fxh"```
+  and in the pixelshader
+  ```
+  float4 col=tex2d(Samp,In.TexCd)
+  col = Saturation(col); 
+  col = Contrast(col);
+  col.a=ColorMatte(col);
+  return col;```
+  hope is, that this could prevent a lot of similar shaders (f)lying around

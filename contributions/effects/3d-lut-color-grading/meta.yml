@@ -1,0 +1,15 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/3d-lut-color-grading-meta"
+type: "effect"
+author: "eno"
+date: "16 Aug, 2016"
+title: "3D LUT Color Grading"
+originalURL: "contribution/3d-lut-color-grading"
+category: "effect"
+credits: |-
+  Developed by [ NSYNK Gesellschaft für Kunst und Technik](https://vvvv.org/businesses/nsynk-gesellschaft-f%C3%BCr-kunst-und-technik%20), code by [unc](http://vvvv.org/users/unc)
+like_count: "9"
+imported: "true"
+teaser: |-
+  This is a dx11 TextureFX Shader that applies a 3D LUT to an input texture - and a parser that converts .cube files into 3D Textures.

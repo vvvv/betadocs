@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "90266"
+user: "bjoern"
+created: "25 Oct, 2012 - 15:31"
+body: |-
+  @Whitescreen
+  
+  try setting the texture format (inside the texture-fx-module) to ARGB – it's RGB right now (or vice versa?) fixed it for me.

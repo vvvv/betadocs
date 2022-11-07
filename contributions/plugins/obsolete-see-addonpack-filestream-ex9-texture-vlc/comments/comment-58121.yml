@@ -1,0 +1,23 @@
+### YamlMime:ContributionComment
+---
+uid: "58121"
+user: "ft"
+created: "07 Jan, 2011 - 09:08"
+body: |-
+  Thanks for ^pointing out some of the bugs.
+  
+  Even if I knew quite a few of them were there, the mere fact that other people describe it, made me understand some things I didn't understand before.
+  
+  For the bugs already discovered:
+  
+  * RELATIVE PATHS: KNOWN, but easy to solve by using a SystemFolder node -> TODO, but I'd like to get everything stable first
+  * SEEKING WHEN LOOP IS OFF doesn't work: KNOWN, should be quite an easy fix
+  * OPENING PATCH WITH PLAY OFF: found another strange behaviour. if i open the patch where was setted play to 0, the file seems to not playing when i witch play on. NEW: Maybe because "IsChanged" is not set on a spread when opening a patch, I don't know, if someone (devvvvs?) knows, please tell me.
+  * POSIITION is WRONG and NOT UPDATED EVERY FRAME: KNOWN, I use libvlc's get_position every frame to get the current position, so I guess this function just isn't very accurate. Frame number is calculated using fps and duration, so if position is wrong, frame number will be wrong. I suspect these to be bugs in LibVLC, because at this time LibVLC doesn't play the whole file, it starts a few frames (can be up to 50ms) late. Maybe I should count the decoded frames myself, but duration is dependent on what I get from LibVLC, so if that's wrong...
+  * UNSTABLE ON OPENING: KNOWN, one of the hardest problems. I think it's related to me starting other threads, before vvvv is fully started. I don't really know what goes wrong, so it's kind of hard to find out what to do about it.
+  * SOMETIMES FILES DON'T PLAY OR ONE SLICE STOPS WORKING: KNOWN, but I haven't found the exact situation yet when this happens. It might be  related to me disposing a texture that shouldn't have been disposed. From then on it's fucked up.
+  * LOOP IN AND OUTS (feature request): looping is implemented in a dumb way now, when LibVLC reports a status of 'ENDED' instead of 'PLAYING', I will play the file again. Stability is my first concern, but I understand you want this. Ideally I would like to be able to do a 'crossfaded' loop, where you can tell how many frames should be crossfaded.
+  * REPEATS THE FIRST FRAMES ON SWITCHING: I should check why that happens, it may be related to LibVLC not playing the first few ms of a file, if this behaviour is somewhat random, what I think is the first frame might change when I play it again... (I decode the first frame in the background before playing, so that when switching you instantly see the first frame, instead of having to wait until LibVLC has decoded the first frame).
+  
+  
+  Anyway, thanks for the reports. I will try to fix some of the bugs, and get an updated version ready.

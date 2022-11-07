@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "106902"
+user: "microdee"
+created: "22 Sep, 2013 - 17:51"
+body: |-
+  discovered an absence in DeferredProperties.fx which is StructuredBuffer<sDeferredBase> InstancedParams is completely left out. meaning there's no "per-fake-instance" transformation in shadow and other auxiliary passes. i will upload a hotfix later this week.

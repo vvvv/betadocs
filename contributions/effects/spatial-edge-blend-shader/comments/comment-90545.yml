@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "90545"
+user: "io"
+created: "31 Oct, 2012 - 11:12"
+body: |-
+  yay! There a commented out line which works for ATI :
+  
+  ```
+      //return factorbottom * factortop;
+  	
+      return pow(factortop * factorbottom, gammaRGB);
+  ```

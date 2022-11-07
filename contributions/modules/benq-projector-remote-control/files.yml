@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/benq-projector-remote-control-files"
+url: "benq-projector-remote-control"
+category: "module"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "BenQ_Generic (devices).zip"
+            description: |-
+              all factory commands
+            
+            timestamp: "27 Dec, 2011 - 12:39"
+            download_count: "1"

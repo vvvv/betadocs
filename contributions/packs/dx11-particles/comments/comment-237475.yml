@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "237475"
+user: "StiX"
+created: "28 Mar, 2017 - 23:21"
+body: |-
+  my question is ... so lets say i have one particle system made from sprites, from that particle system i want to select a part with intersection, and emit from that selection but in phongpoint (so i guess into different particle system?) is something like that even possible? I thought all the names in systems are good for that but probably not? RWstructuredbuffer also operates inside one system i guess
+  
+  /// AAAAh found filterbuffer in the conversation here, guess i would suggest to put it into selection category :3

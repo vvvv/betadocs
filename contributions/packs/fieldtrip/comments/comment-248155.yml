@@ -1,0 +1,12 @@
+### YamlMime:ContributionComment
+---
+uid: "248155"
+user: "sunep"
+created: "08 Jan, 2018 - 09:18"
+body: |-
+  Great contrib.
+  
+  there are some dependencies to a couple of other packs that are not mentioned in the installer, have found:
+  
+  DX11.Particles
+  mp.essentials (used for GridSplit in FG_05_Noise_Intro in girlpower)

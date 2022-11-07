@@ -1,0 +1,31 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/edsdk-(dx11)-meta"
+type: "plugin"
+author: "gumilastik"
+date: "28 Dec, 2015"
+title: "EDSDK (DX11)"
+originalURL: "contribution/edsdk-(dx11)"
+category: "plugin"
+credits: |-
+  [zelesha](http://vvvv.org/users/zelesha) for testing, [Michael Antykov](http://videofabrika.com) for sponsoring research, 
+  original library by [Johannes Bildstein](http://www.codeproject.com/Articles/688276/Canon-EDSDK-Tutorial-in-Csharp), icon by [Jonatan Castrodas](https://www.behance.net/midtone)
+like_count: "14"
+imported: "true"
+teaser: |-
+  List of supported models (EDSDK v3.2.1): 
+  
+  <https://www.didp.canon-europa.com/developer/didp/didp_cfg.nsf/webpages/ED-SDK+v3.2+Information>
+  
+  ##  Functions
+  
+  * Photo remote capture
+  * LiveView mode
+  * ISO, WB, focus settings
+  
+  ###  Restrictions
+  
+  Not spreadable
+  
+  Submit bugs and requests to:
+  https://github.com/gumilastik/VVVV.EDSDK

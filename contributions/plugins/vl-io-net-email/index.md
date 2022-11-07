@@ -1,0 +1,86 @@
+---
+uid: "contribution/vl.io.net.email"
+uid-meta: "contribution/vl.io.net.email-meta"
+comments: 
+ items: 
+  - uid: "274405"
+uid-files: "contribution/vl.io.net.email-files"
+title: "VL.IO.Net.Email"
+contribution: "true"
+---
+
+VL.IO.Net.Email is a VL set of nodes to do basic email tasks. 
+
+Included nodes are:
+
+* SendEmail
+* SendEmail (Spread) 
+* ListEmails
+
+The nodes can be used in gamma, beta and alpha.
+
+Both SendEmail nodes use the standard System.Net API and support only SMTP.
+
+ListEmails uses [MailKit and MimeKit](http://www.mimekit.net/) and currently supports only POP3.
+
+ListEmails assumes all attachments are image attachments and tries to parse their content as such.
+
+ListEmails supports embedded/inline image extraction.
+
+1.  Installation and Usage
+In order to use these nodes first download the zip file and unzip it in a place of your liking, then follow the instructions below depending on whether you are intending to use the nodes in alpha/beta or gamma.
+
+
+##  alpha/beta Instructions
+1. Navigate to VL.IO.Net.Email\vvvv\girlpower
+1. Open ListEmails (help).v4p
+1. You will be prompted with an error message, clik OK and Hide
+1. Right click on the red node ListEmails node, this will open the VL editor
+1. Middle click on the red ListEmails node
+1. On the top document menu, click on the document name (VL.IO.Net.Email.vl)
+1. Click on Dependencies -> .Net Nugets
+1. Right click and select install on MailKit and MimeKit, this will open two console windows
+1. Wait for the nuget installation in the console windows to finish and close the console windows
+
+At this point there should be no remaining red nodes.
+
+Back on your vvvv patch, Alt+Right-click on the SendEmails node to reload it and have the input and output pins in the expected order.
+
+
+##  gamma Instructions
+1. Navigate to VL.IO.Net.Email\help\Email tasks\General
+1. Open HowTo Send and Email using SMTP.vl
+1. Middle click on the SendEmail node
+1. On the top document menu, click on the document name (VL.IO.Net.Email.vl)
+1. Click on Dependencies -> .Net Nugets
+1. Right click and select install on MailKit and MimeKit, this will open two console windows
+1. Wait for the nuget installation in the console windows to finish and close the console windows
+
+The nodes should now function properly.
+
+1.  Contributing
+If you wish to see the source code or to extend the current functionality, please head to https://github.com/ravazquez/VL.IO.Net.Email to collaborate.
+
+It would be great for anyone to jump in and add IMAP support on ListEmails.
+
+If you find any issues please report them here or on the github page.
+
+
+Enjoy!
+
+1.  Change log
+**v 1.0:** 
+* Initial version
+**v 1.1:** 
+* Added embedded/inline image extraction support
+**v 1.2:** 
+* Fixed switch bug
+* Separated Attached and Embbeded Images
+* Added Ignore Case on filter pin
+
+1. UPDATE
+This is now available as a nuget, to get it go to vvvv gamma's quad menu/manage nugets/command-line and type:
+
+```
+nuget install VL.IO.Net.Email
+```

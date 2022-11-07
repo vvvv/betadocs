@@ -1,0 +1,21 @@
+### YamlMime:ContributionComment
+---
+uid: "274815"
+user: "joreg"
+created: "17 Jan, 2020 - 20:55"
+body: |-
+  @mfan @u7angel: the two reasons dx11 (and other packs) are not included with the core download:
+  - core only contains stuff that we can maintain
+  - it is important to allow independent release-cycles for libraries (you don't want to always wait for a beta release only to use an updated library). so generally core should stay rather slim.
+  
+  then of course true, installation of vvvv and its contributions has historically been.. a pain. that is why with b39 we finally added an installer to solve the first part. now, instead of adding more stuff to the installer (again tying it to vvvv releases), we're interested in improving the situation more generally. so we're exploring the idea of a primitive package downloader/unzipper that should heavily reduce that second pain of managing contributions. more on this soon...
+  
+  @microdee: language! this is not the way we're used to talking around here. but i hope the above answers.  
+  
+  @velcrome: re "never truly appreciated or even properly acknowledged" 
+  it is odd to hear that but if you feel so, it apparently wasn't enough. the mentions of king-of-code vux and his unprecedented contributions to vvvv have never come without a superlative. most notably we've never heard vux himself complain about a lack of appreciation for his work. we had our differences about code and maintenance but i don't believe ever regarding appreciation. in fact, last time we met two months ago at the december meetup he mentioned he wanted to do another release soon..
+  
+  re "devvvvs didn't hesitate to become gold sponsors of Virgile, they never seemed to even consider something similar for vux" 
+  we obviously talked to vux early on, before the initial dx11 release (and i believe even on stage at node13) as to how he would charge for it and his answer was along the lines (@vux correct me if i'm wrong) he didn't want to maintain it as a commercial library but instead stay more flexible by offering custom services around it (classic opensource business strategy). so instead of supporting him financially, we supported his development of dx11 by adapting the plugininterface for his needs, so that he was able to build his business on top of it. 
+  
+  note how with xenko the situation is quite different: xenko didn't know vvvv. it is an independent opensource project with no special interest in vvvv.

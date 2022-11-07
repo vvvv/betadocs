@@ -1,0 +1,10 @@
+### YamlMime:ContributionComment
+---
+uid: "52666"
+user: "m4d"
+created: "13 Sep, 2010 - 14:58"
+body: |-
+  aze, thx for pointing out! -> fixed in 0.3a
+  
+  unfortunately it is much more difficult to go any further in dx9 with this sort of deferred approach. crytek uses a similar method for close to medium distance and a proprietary technique called temporal AA for medium to far distance objects, but then they are crytek.. :D
+  as mentioned earlier: dx10 would really help here..

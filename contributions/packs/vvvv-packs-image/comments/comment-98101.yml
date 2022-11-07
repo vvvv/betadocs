@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "98101"
+user: "alg"
+created: "14 Mar, 2013 - 21:58"
+body: |-
+  I think id currently is just an index in a list. So when we adding new controus, they have bigger id's. Or i'm not right?

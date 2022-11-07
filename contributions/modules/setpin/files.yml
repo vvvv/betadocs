@@ -1,0 +1,27 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/setpin-files"
+url: "setpin"
+category: "module"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "1"
+            filename: "SetPin.v0.2a.zip"
+            description: |-
+              v 0.2a - better examples
+            
+            timestamp: "13 Nov, 2012 - 14:35"
+            download_count: "1"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "SetPin.zip"
+                    description: |-
+                      v 0.1a
+                    
+                    timestamp: "13 Nov, 2012 - 14:13"
+                    download_count: "3"

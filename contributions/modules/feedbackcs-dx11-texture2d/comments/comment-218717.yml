@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "218717"
+user: "mediadog"
+created: "30 Mar, 2016 - 16:46"
+body: |-
+  Is there some way to use a TextureTransform in this?  Since it is a compute shader, I'm not sure how to go about applying it in the code.  Or is there a better way to do DX11 feedback now?  Thanks!

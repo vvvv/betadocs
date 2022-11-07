@@ -1,0 +1,10 @@
+### YamlMime:ContributionComment
+---
+uid: "161839"
+user: "circuitb"
+created: "09 Aug, 2014 - 11:48"
+body: |-
+  the Face & Fusion have been updated with some major improvements
+  in the latest k4w SDK:  Build 1408.5000 
+  i also found this lib with a nice DVR feature
+  https://github.com/KinectEx/KinectEx

@@ -1,0 +1,12 @@
+### YamlMime:ContributionComment
+---
+uid: "241668"
+user: "Aurel"
+created: "30 Jun, 2017 - 10:42"
+body: |-
+  Hi, is there any plugin or codec needed ?
+  I can not open any mp4 or mov video...
+  TTY said :
+  
+  ERR : Exception occured in TMPluginWrapperNode.Evaluate
+  00:03:41 ERR : COM object that has been separated from its underlying RCW cannot be used.

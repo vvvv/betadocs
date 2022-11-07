@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "232928"
+user: "digitalwannabe"
+created: "05 Dec, 2016 - 14:07"
+body: |-
+  hey ceeyaa,
+  
+  first: thanks + your welcome ;)
+  
+  using alpha textures in complex situations definitely is a way to go, also has been suggested to me by the author of the original research; however, what you are trying to achieve should be possible without any alpha tricks. What exactly goes wrong here is hard to tell, there's no real limit to bones other than usability issues, so the number of bones should not matter here. Can you upload your patch so I can have a look?

@@ -1,0 +1,27 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/track-(vector3d)-files"
+url: "track-vector3d"
+category: "module"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "1"
+            filename: "Track (Vector3D).7z"
+            description: |-
+              Version 1.1
+            
+            timestamp: "27 Jun, 2014 - 16:26"
+            download_count: "1"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "Track (Vector3D).7z"
+                    description: |-
+                      Version 1.0 incl. Help Patches
+                    
+                    timestamp: "22 Jun, 2014 - 00:14"
+                    download_count: "1"

@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "165673"
+user: "rogalag"
+created: "25 Sep, 2014 - 10:20"
+body: |-
+  ![vvvv_to_reso](https://vvvv.org/sites/default/files/imagecache/large/images/resolumevvvv.jpg) 
+  
+  Hi all! 
+  DirectX-to-FFGL-Bridge with new Nvidia driver 344.11 ( global settings-High performance nvidia) is working well on Nvidia Optimus Acer Aspire i7, win7 with GT540M and Arena 4.1.3 demo. SPOUT still has some problems:
+  SpoutReceiver2 shows video from vvvv, sended by vvvv SpoutSender or FFGL-Bridge, but sometimes requires win7 rebooting. SpotuCam not working between vvvv and Resolume, usually crasches Reso. Spout Demo Sender 32bit works with SpoutReceiver or SpoutReceiver2 in Reso. You can mix DirectX-to-FFGL-Bridge with it as well.

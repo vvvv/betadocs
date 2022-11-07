@@ -1,0 +1,15 @@
+### YamlMime:ContributionComment
+---
+uid: "70626"
+user: "Miguel Jara"
+created: "17 Oct, 2011 - 01:53"
+body: |-
+  mmm...the most basic question...I tried to install the plug-in but I couldn't...I followed the instructions in the ft's (21/03/2011 - 12:00) post.
+  
+  I hav the Vlc0.3test folder and inside its plugins/vlc folder I copied the .dll and the plugins folder from the vlcplayer...ft said that it wasn't necessry to copy the vlc0.3test folder inside anywhere, I have it on my desktop, but I can't find the "vlc=" inside vvvv.
+  
+  I know it is too basic but I didn't find the answer in another place. 
+  
+  Thanks 
+  
+  MJ

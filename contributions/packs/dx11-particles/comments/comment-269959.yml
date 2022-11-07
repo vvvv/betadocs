@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "269959"
+user: "hierro"
+created: "26 Nov, 2018 - 16:56"
+body: |-
+  About ColorByDistance, can get working colors properly,let's say I have 4 positions, and 5 color for each of them, actuallty can't get it working properly in order to manage colorsets separately, did u try that ? Guess ColorBuffer should be indexed within loop.
+  
+  p.s.: In ColorByDistance help patch binsize pin is set to 13.

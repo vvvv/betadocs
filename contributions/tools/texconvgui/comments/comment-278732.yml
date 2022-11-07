@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "278732"
+user: "bjoern"
+created: "20 Jun, 2021 - 13:57"
+body: |-
+  <div class="box">quote:redphoenix:
+  One request: Would it be possible to change the file endings to be lowercase instead of uppercase?
+  </div>
+  Unfortunately that's the way Texconv writes the files. There is a lower case switch but it affects the whole file name not just the ending and in my opinion that's not really desirable. 
+  See also: https://github.com/microsoft/DirectXTex/issues/170
+  
+  So for now it would need a second renaming step, idk when I'll have the time to implement that.

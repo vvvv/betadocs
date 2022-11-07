@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "71479"
+user: "beyon"
+created: "04 Nov, 2011 - 15:47"
+body: |-
+  Perfect! I had just started patching something similar but now I don't have to finish that.
+  
+  I added speed up/down with PageUp and PageDown controlling a counter (0.25 to 10 with 0.25 increment) and then squaring the output of that.
+  
+  Might add far clip up/down keys to.
+  
+  The old standard camera controls sure was cumbersome.

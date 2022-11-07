@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/raycomposer-ilda-dac-node-files"
+url: "raycomposer-ilda-dac-node"
+category: "plugin"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "RayComposer Node.zip"
+            description: |-
+              Node & driver dll, works both on x86 and x64
+            
+            timestamp: "20 Aug, 2015 - 09:23"
+            download_count: "18"

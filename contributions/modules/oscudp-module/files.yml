@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/oscudp-module-files"
+url: "oscudp-module"
+category: "module"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "oscudp1.v4p"
+            description: |-
+              Sends and Recieves OSC messages
+            
+            timestamp: "04 Aug, 2011 - 12:40"
+            download_count: "1"

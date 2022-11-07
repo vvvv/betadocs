@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "75094"
+user: "circuitb"
+created: "20 Jan, 2012 - 13:55"
+body: |-
+  on some video's (dunno if it's codec related??) the position output pin doesn't work : INF
+  the frame and duration pins works but if your videos have different frame rates it could be difficult to calculate the position (Frames/fps)

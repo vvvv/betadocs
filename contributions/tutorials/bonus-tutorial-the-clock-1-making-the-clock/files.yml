@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/bonus-tutorial-the-clock-1-making-the-clock-files"
+url: "bonus-tutorial-the-clock-1-making-the-clock"
+category: "tutorial"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "Clock Project Part1.v4p"
+            description: |-
+              The clock I created during this tutorial
+            
+            timestamp: "20 Sep, 2013 - 12:23"
+            download_count: "2"

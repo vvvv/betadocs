@@ -1,0 +1,15 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/touch-calibration-module-meta"
+type: "module"
+author: "graphicuserinterface"
+date: "29 Sep, 2015"
+title: "touch calibration module"
+originalURL: "contribution/touch-calibration-module"
+category: "module"
+credits: |-
+  devvvvs
+like_count: "4"
+imported: "true"
+teaser: |-
+  simple and useful homography2d based calibration technique for distorted xy touch systems. renderer to fullscreen > follow comment on order for reference points > the queue stores them(only linear array edition for simplicity) later you can store it in an isolated iobox.  feedback is very welcome.

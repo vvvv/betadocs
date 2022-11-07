@@ -1,0 +1,14 @@
+### YamlMime:ContributionComment
+---
+uid: "101859"
+user: "vjc4"
+created: "05 Jun, 2013 - 13:29"
+body: |-
+  Exelent work, i love the idea of sending artnet and getting PWM out to control something! :)
+  I will try to include the servo library to do a small moving ligth :)
+  
+  Guys please check this out...
+  
+  http://www.deskontrol.net/blog/arduino-based-dmx-artnet-node/
+  
+  it a 4 universe from an arduino mega, but its slow if you use more 2 or more,,, the guy who made it will test it with arduino due, but he need to recompile the dmx library in order to do it, whell on this thread this is already done. so it would be great if you can get it touch to see if we can get 4 outputs from arduino due at 44hz, that will be crazy :)

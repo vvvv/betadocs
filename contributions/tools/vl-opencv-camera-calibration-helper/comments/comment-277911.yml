@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "277911"
+user: "ggml"
+created: "02 Mar, 2021 - 22:31"
+body: |-
+  would the calibration data apply to undistort ex9 ? 
+  is there a dx11 version of undistort available ?

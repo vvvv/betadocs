@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "86606"
+user: "circuitb"
+created: "07 Aug, 2012 - 11:18"
+body: |-
+  same here!
+  have to disable the main renderer for one frame when destroying an object

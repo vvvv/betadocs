@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/feedbackcs-(dx11.texture2d)-files"
+url: "feedbackcs-dx11-texture2d"
+category: "module"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "FeedbackCS.zip"
+            timestamp: "20 Oct, 2013 - 11:42"
+            download_count: "2"

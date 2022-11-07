@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "190438"
+user: "catweasel"
+created: "02 Apr, 2015 - 21:21"
+body: |-
+  So... I'm getTabling to get presets from an array of table, their in different tables as they can all have different and changing numbers of rows. However, it takes quite a bit of cpu every time I get a table, and it looks like 2 frames of slow rather than just 1, is there anyway of optimizing this, is a spread of tables not the best way? 
+  I was previously using xml and txt files, and they are far faster to load than reading from the table, which I presumed would be read from memory?
+  Managed to finally get a fork and got it to compile, can't figure out how to do it dynamic, maybe I'll get you at node... ;)
+  
+  Ok the slow down is the TableView node, even it it is not visible it seems to mess with the frame rate.

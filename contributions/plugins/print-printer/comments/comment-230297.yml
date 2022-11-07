@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "230297"
+user: "gegenlicht"
+created: "21 Oct, 2016 - 18:32"
+body: |-
+  While printing a "now printing" Window pops up. Its visible while in DX11 fullscreen.
+  
+  Does anyone know how to remove/hide it?

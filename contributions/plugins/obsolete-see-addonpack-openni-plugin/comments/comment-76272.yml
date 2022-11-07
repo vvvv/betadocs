@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "76272"
+user: "justnice"
+created: "14 Feb, 2012 - 14:13"
+body: |-
+  heres what it says when i tried doing what you suggested joreg
+  
+  There was an error during the execution of this program.
+  The application might become unstable and even useless.
+  It's recommended that you save your work and close this application.
+  
+  Could not load file or assembly 'OpenNI.Net, Version=1.5.2.23, Culture=neutral, PublicKeyToken=6b43d0c6cf74ee7f' or one of its dependencies. The system cannot find the file specified.

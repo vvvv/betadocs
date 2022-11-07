@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "199061"
+user: "Grandchild"
+created: "19 Jun, 2015 - 01:24"
+body: |-
+  re world-position:
+  
+  that would be truly cool. and i see two ways. one, recreate the world from depth with the help of <span class="node">RayTable</span>, and two, create a mesh from the "raw" depth and fill in the holes there, with a shader, and then creating the world from that (writing that shader is certainly over my head atm).
+  
+  the first method should be doable, actually i'll try it quickly...
+  
+  ... okay too tired. next week.

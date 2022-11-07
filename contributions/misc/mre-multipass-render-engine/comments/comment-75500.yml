@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "75500"
+user: "u7angel"
+created: "30 Jan, 2012 - 14:10"
+body: |-
+  @dottore. yeah i know the cause and referring to the forum its a known problem. the usual fix was adding Wrap0 = U; to the shader. which in case of your shader doesnt work. i'll try to make a sphere in cinema4D.
+  
+  maybe this goes to the devs to fix the UV coordinates of sphere(ex9 geometry).

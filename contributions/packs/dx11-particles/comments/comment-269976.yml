@@ -1,0 +1,36 @@
+### YamlMime:ContributionComment
+---
+uid: "269976"
+user: "hierro"
+created: "27 Nov, 2018 - 19:36"
+body: |-
+  I ended up with following code integration and it works as I need, using a fixed binSize for colors
+  
+  do you think it makes sense ? 
+  
+  
+  ```
+  
+  float phase_restricted = 1;	
+  	float colorIndex;
+  	
+  	for (uint i = 0; i < sizePos; ++i){
+  		float phase = saturate(length(ParticleBuffer<particleIndex>.position - PositionBuffer<i>) / RadiusBuffer<i%20%%20sizeRadius>);
+  		float phase_restricted_tmp = (1 - 1.0/bin.y) * phase;
+  		
+  		if (phase_restricted_tmp < phase_restricted){ 
+  			
+  			phase_restricted = phase_restricted_tmp;
+  			colorIndex=i;
+  		}
+  	}
+  	
+  	uint slice = (uint) floor(phase_restricted * bin.y);
+  	
+  	float4 colorCurrent = ColorBuffer<(bin.y%20*colorIndex)+bin.x%20+%20slice>;
+  	float4 colorNext = ColorBuffer<(bin.y%20*colorIndex)+bin.x%20+%20slice%20+%201>;
+  
+  ```
+  
+  
+  ![](https://vvvv.org/sites/default/files/imagecache/large/images/TestParticles_1.jpg)

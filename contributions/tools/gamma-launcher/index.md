@@ -1,0 +1,124 @@
+---
+uid: "contribution/gamma-launcher"
+uid-meta: "contribution/gamma-launcher-meta"
+comments: 
+ items: 
+  - uid: "274796"
+  - uid: "274797"
+  - uid: "274798"
+  - uid: "274799"
+  - uid: "274800"
+  - uid: "274801"
+  - uid: "274802"
+  - uid: "277118"
+  - uid: "277128"
+  - uid: "278301"
+  - uid: "278318"
+  - uid: "278482"
+  - uid: "278498"
+  - uid: "278516"
+  - uid: "279128"
+  - uid: "279285"
+  - uid: "279320"
+  - uid: "279321"
+  - uid: "280210"
+  - uid: "280211"
+title: "Gamma Launcher"
+image: "capture_1.png"
+contribution: "true"
+---
+
+hello all,
+
+*This is GammaLauncher, a simple application that allows to launch vvvv gamma instances with specific arguments from a simple GUI.*
+
+1.  Usage
+When the application first starts, it generates a *settings.xml* file in *%APPDATA\Local\GammaLauncher*. This file contains path to your gamma insatallations (should be C:\Program Files\vvvv), as well as your repositories folder, if you're using that feature. You can customize those paths if needed by editing the config file. To quickly locate this settings file, press <CTRL> + <,>.
+
+Then, simply pick the specific gamma version you wanna start from the dropdown menu, and tick the options you wanna use :
+
+* Allow multiple : allows to start more than one vvvv.exe at once
+* Use repositories : this will overwrite packages from vvvv's package folder with the ones in your repositories folder, if you specify one. This is only useful if you're building libraries for gamma.
+
+1.  Download
+**As the build exceeds max file size for upload, I could not upload it directly. So please read along..**
+
+Get the latest version [here](https://github.com/sebescudie/GammaLauncher/releases), or clone the [repo](https://github.com/sebescudie/gammalauncher) and build the app yourself. If want to build yourself, don't forget to copy the ico.ico file to your output dir, otherwise the app won't start.
+
+1.  Changelog
+**26/02/2022 : [4.1.1](https://github.com/sebescudie/GammaLauncher/releases/tag/4.1.1)**
+- Custom styles are now assigned to Create, resulting in less CPU usage when the app is focused. Thanks [bjoern](http://vvvv.org/users/bjoern) for the PR!
+- vvvv kill button now closes when interacted with
+
+**19/02/2022 : [4.1.0](https://github.com/sebescudie/GammaLauncher/releases/tag/4.1.0)**
+- When a version is uninstalled, a vvvversion rescan is triggered so that the dropdown is always up to date
+- Now has a cool icon by default
+
+**13/02/2022 : [4.0.1](https://github.com/sebescudie/GammaLauncher/releases/tag/4.0.1)**
+- The launcher now allows to uninstall gamma versions
+- New ALT + E shortcut that allows you to open the selected vvvversion's installation folder in the explorer
+
+**16/12/2021 : [4.0.0-beta01](https://github.com/sebescudie/GammaLauncher/releases/tag/4.0.0-beta01)**
+- You can now add multiple package repositories folders in your settings file!
+- The settings moved to the AppData folder, so that you don't have to replace it when upgrading the launcher. To quickly access it, focus the launcher and press *CTRL* + *,* : this will pop an explorer Window to the location of the settings file so you can quickly tweak'em
+
+**25/11/2021 : [3.6.0-beta02](https://github.com/sebescudie/GammaLauncher/releases/tag/3.6.0-beta02)**
+- Fixes the issue that made it impossible for the launcher to retrieve newer vvvv gamma builds. Cool thing is that the launcher should now also show stable builds! Thanks to [tonfilm](http://vvvv.org/users/tonfilm) for reporting!
+
+**28/04/2021 : [3.6.0-beta01](https://github.com/sebescudie/GammaLauncher/releases/tag/3.6.0-beta01)**
+- Massive CPU usage improvement : the app is now dormant when the window is not focused (thanks [gregsn](http://vvvv.org/users/gregsn)!)
+- You can now download and install gamma preview builds directly from the launcher! A burger menu on the top left shows the five latest available previews. Simply click one of them to download it (thanks [tonfilm](http://vvvv.org/users/tonfilm) and [robotanton](http://vvvv.org/users/robotanton) for helping with the TeamCity API!)
+- Pressing CTRL+R will check for new builds online
+- If you have the "Allow Multiple" option enabled, you can drag and drop a VL document on the launcher window, which will open it in a new gamma instance.
+- Download it [here](https://github.com/sebescudie/GammaLauncher/releases/tag/3.6.0-beta01).
+
+**25/10/2020 : 3.4.0**
+
+- Pressing CTRL+, when the app is focused now opens the app's folder, allowing you to quickly access your settings file
+
+**23/10/2020 : 3.3.0**
+
+- Dropdown mennu now discards installed vvvv beta versions, if they happen to be on the same folder as gamma
+- You can now interact with the dropdown menu by hovering it and using the mousewheel, kinda like vvvv beta enum IOBoxes
+
+**19/10/2020 : 3.2.0**
+
+
+- Application now remembers its previous state on startup : anything you pick (vvvversion, startup arguments) will show up again "as is" when you start the application next time
+- As a consequence, got rid of the PreferStable flag in the configuration. Did anybody care for this one?
+- And also as a consequence, fixed the annoying bug in which the started vvvversion would not match what the UI says
+- Updated to Elementa 4.0.4
+
+**29/08/2020 : 3.0**
+
+- Completely re-written using Model Runtime Editor pattern
+- Uses Elementa 4.0 preview
+- New command line arguments : *--nocache* and *--debug*
+- CTRL+R allows to rescan installed Gamma versions so you don't have to close and re-open the app if you wanna use a newly installed vvvvgamma
+- When minimized, the app goes to the system tray. From there, you can quickly perform the usual actions : show nugets, show package folders, start a new instance and kill vvvv. Achtung, closing vvvv from the system tray won't show a confirmation prompt, vvvv will instantly shut down
+
+**21/04/2020 : 2.0**
+
+- Uses Elementa 2.0
+- Renderer now uses DIPs instead of pixels
+- Repos quick-access button : opens your package-repositories folder
+- Nugets quick-access button : open gamma's nuget folder (equivalent to Quad Menu/Nugets/Show Installed). Prefers gamma over gamma-preview (but opens the latter if the first does not exist)
+- Kill vvvv quick button : kills all instances of vvvv (but displays a confirmation prompt before!
+
+**17/04/2020 : 1.2**
+
+- Dropdown menu now shows both preview and stable gamma releases
+
+**12/01/2020 : 1.1**
+- App now checks if repositories package path exists and shows popup if not (used to throw exception)
+- Toggles are now grey when unchecked, feels a bit less ambiguous
+
+**11/01/2020 : 1.0**
+- Initial release
+
+##  Contributing
+Please don't hesitate to report bugs, fork, or shout for suggestions if you vvvvish.
+
+cheerz!
+
+seb

@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "90304"
+user: "Urbankind"
+created: "26 Oct, 2012 - 18:06"
+body: |-
+  It works fine to see all PDF in one go like the help patch but when i use a getslice to switch PDF then texture kinda stuck with the previous cache, the reload pin is not helping... the texture updates only when i alt+rightclick(reset) the PDF texture node + some PDF doesn't show up at all.

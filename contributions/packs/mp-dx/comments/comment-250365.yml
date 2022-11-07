@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "250365"
+user: "bo27"
+created: "20 Mar, 2018 - 15:20"
+body: |-
+  @microdee yeah, thanks! something wrong with my windows defender. added an exception for the dll, but then do you have any ideas why it might not working? The patch is from FBX4V pack but it refers to DX11Utils,Native.dll from mp.dx 
+   
+  ![](https://vvvv.org/sites/default/files/imagecache/large/images/photo_2018-03-20_18-18-20.jpg) 
+  
+  I used vpm as recommended ;)

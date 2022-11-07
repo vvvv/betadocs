@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/dmx-usb-interface-dmx4all-nanodmx-files"
+url: "dmx-usb-interface-dmx4all-nanodmx"
+category: "module"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "DMX (Devices DMX4ALL FastMode Sender).v4p"
+            timestamp: "22 Dec, 2012 - 19:51"
+            download_count: "1"

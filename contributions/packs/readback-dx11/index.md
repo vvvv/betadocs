@@ -1,0 +1,66 @@
+---
+uid: "contribution/readback-dx11"
+uid-meta: "contribution/readback-dx11-meta"
+comments: 
+ items: 
+  - uid: "226743"
+  - uid: "226779"
+  - uid: "229654"
+  - uid: "229689"
+  - uid: "230160"
+  - uid: "238959"
+  - uid: "238969"
+  - uid: "240014"
+  - uid: "241073"
+  - uid: "273705"
+  - uid: "273706"
+  - uid: "278293"
+  - uid: "278300"
+uid-files: "contribution/readback-dx11-files"
+title: "ReadBack DX11"
+image: "Icon_0.PNG"
+contribution: "true"
+---
+
+1.  Description
+This pack contains 2 nodes:
+
+* Writer (DX11.Texture2D Parallel)
+* Writer (DX11.Texture2D Async)
+
+to accelerate workflows when you have to save many textures to disk quickly. This node generally supports all formats supported by the standard Writer node (e.g. recently 16bit PNG's), and uses the same functions internally.
+
+##  Parallel
+Accepts a spread of textures and saves them to disk in separate threads. The main thread blocks until all save operations are complete
+
+##  Async
+Accepts a spread of textures and saves them to disk in separate threads. The main thread is not used for saving, and is allowed to continue. Later when any save operation is completed, the node will output the result of that save operation on its output.
+
+Generally we restrict the queue size to ensure that we don't crash the GPU with too many save devices. Also adding more than 8-16 save devices doesn't offer any performance gains.
+
+1.  Notes
+In order for textures to be saved on threads other than the main thread, we must spawn a seperate DX11 Device for that thread and use texture sharing to copy this texture over to the background Device (note : for DX11, a Device is essentially a pool of memory on a GPU, each GPU is called an Adapter and an Adapter can run multiple Devices).
+
+1.  Source Code
+Source code is available at <https://github.com/elliotwoods/VVVV.Nodes.ReadBack>.
+
+1.  Thanks
+Thanks to schnellebuntebilde and sebl for their support in making these nodes.
+
+1.  Changelog
+*Temporary note... v3 and v2 have been taken down because of issues with DLL paths. Will re-upload when I've found a solution. Note that it may not be compatible with vux's latest dx11 pack for the time being.*
+
+##  v4
+* Added DLL's that are missing from vux's dx11 0.7.1 release
+
+##  v3
+* Compile against vux's latest dx11 pack 0.7.1
+* Re-arrange zip internal folder structure to match standard pack style
+
+##  v2
+* Add Zombie Survival Age config pin node to Async node.
+* Improve Async help patch
+
+Thank you!
+Elliot
+

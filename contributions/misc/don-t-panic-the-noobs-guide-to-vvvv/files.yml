@@ -1,0 +1,63 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/dont-panic-the-noobs-guide-to-vvvv-files"
+url: "don-t-panic-the-noobs-guide-to-vvvv"
+category: "misc"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "5"
+            filename: "dontpanic_45beta25_1.pdf"
+            description: |-
+              english, for onscreen use
+            
+            timestamp: "31 Jul, 2011 - 01:20"
+            download_count: "1"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "4"
+                    filename: "dontpanic_45beta25.pdf"
+                    description: |-
+                      for onscreen use
+                    
+                    timestamp: "11 Jan, 2011 - 20:03"
+                    download_count: "5"
+                - file:
+                    bit: "64"
+                    delta: "3"
+                    filename: "dontpanic_45beta25_1_FR.PDF"
+                    description: |-
+                      for onscreen use in french, but with some troubles with accent (translated by karistouf)
+                    
+                    timestamp: "25 Mar, 2011 - 13:03"
+                    download_count: "2"
+                - file:
+                    bit: "64"
+                    delta: "2"
+                    filename: "nientepanico_45beta25-ITA.pdf"
+                    description: |-
+                      for onscreen use in italian (translated by sapo)
+                    
+                    timestamp: "12 Jan, 2011 - 10:31"
+                    download_count: "5"
+                - file:
+                    bit: "64"
+                    delta: "1"
+                    filename: "dontpanic_45beta25_print_save_ink_toner.pdf"
+                    description: |-
+                      for doublesided print use to save ink and toner
+                    
+                    timestamp: "11 Jan, 2011 - 20:03"
+                    download_count: "3"
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "dontpanic_45beta25_print.pdf"
+                    description: |-
+                      for doublesided print use
+                    
+                    timestamp: "11 Jan, 2011 - 20:03"
+                    download_count: "6"

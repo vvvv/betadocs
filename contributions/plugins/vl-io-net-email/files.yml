@@ -1,0 +1,27 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/vl.io.net.email-files"
+url: "vl-io-net-email"
+category: "plugin"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "1"
+            filename: "VL.IO_.Net_.Email v1.2.zip"
+            description: |-
+              v 1.2
+            
+            timestamp: "01 Oct, 2019 - 14:01"
+            download_count: "1"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "VL.IO_.Net_.Email_.zip"
+                    description: |-
+                      v 1.1
+                    
+                    timestamp: "23 Sep, 2019 - 15:35"
+                    download_count: "1"

@@ -1,0 +1,72 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/badmapper-files"
+url: "badmapper"
+category: "tool"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "6"
+            filename: "badMapper_v3.3.zip"
+            description: |-
+              fixed legacy cursor nodes. tested with b35.7
+            
+            timestamp: "24 Jun, 2017 - 16:11"
+            download_count: "1"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "5"
+                    filename: "badMapper_v3.2.zip"
+                    description: |-
+                      fixed texture filtering for destination to Linear (was Point)
+                    
+                    timestamp: "21 May, 2016 - 14:55"
+                    download_count: "2"
+                - file:
+                    bit: "64"
+                    delta: "4"
+                    filename: "badMapper_v3.1.zip"
+                    description: |-
+                      minor cosmetics, no functional changes. tested with b34.2
+                    
+                    timestamp: "12 Apr, 2016 - 20:00"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "3"
+                    filename: "badMapper_v3.zip"
+                    description: |-
+                      Rework for b>32.1
+                    
+                    timestamp: "02 Sep, 2014 - 15:15"
+                    download_count: "6"
+                - file:
+                    bit: "64"
+                    delta: "2"
+                    filename: "badMapper_v2.zip"
+                    description: |-
+                      updated for b32
+                    
+                    timestamp: "09 May, 2014 - 15:11"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "1"
+                    filename: "badMapper_v2_dx11_hack.zip"
+                    description: |-
+                      made a quick hack for a DX11 version -- working but ugly!
+                    
+                    timestamp: "20 May, 2014 - 16:54"
+                    download_count: "3"
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "badMapper_v1.zip"
+                    description: |-
+                      initial release
+                    
+                    timestamp: "21 Nov, 2013 - 22:45"
+                    download_count: "1"

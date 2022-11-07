@@ -1,0 +1,14 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/persiantypography-meta"
+type: "misc"
+author: "miro"
+date: "06 Apr, 2016"
+title: "PersianTypography"
+originalURL: "contribution/persiantypography"
+category: "misc"
+like_count: "4"
+imported: "true"
+teaser: |-
+  Since <span class="node">TypoSpread</span> separates characters and encoding pin is not available anymore, I guess it would be helpful.
+  and thanks to[microdee](http://vvvv.org/users/microdee) for the inspiration!

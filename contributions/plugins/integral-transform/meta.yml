@@ -1,0 +1,18 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/integral-transform-meta"
+type: "plugin"
+author: "sanch"
+date: "02 Oct, 2010"
+title: "Integral Transform"
+originalURL: "contribution/integral-transform"
+category: "plugin"
+credits: |-
+  sanch , tonfilm
+like_count: "25"
+imported: "true"
+teaser: |-
+  This is an Integral Transform plugin ...
+  very simple but very powerfull for animation .
+  
+  Unzip and put the content of the zip into \plugins directory besides your patch.

@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "250967"
+user: "mc2568"
+created: "18 Apr, 2018 - 14:21"
+body: |-
+  I also got a red node, but I think it's more of a DX11 problem. The Shadertoy Renderer needs "IDX11ResourceProvider" but this was removed from DX11 versions 1.0.0 and later. After I downgraded to DX11 0.7.1, it worked.

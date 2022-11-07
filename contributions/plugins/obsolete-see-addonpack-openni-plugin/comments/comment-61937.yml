@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "61937"
+user: "hierro"
+created: "04 Apr, 2011 - 18:52"
+body: |-
+  Mask texture is intended to cut within a range user pixel mask.
+  About the pipet, open vvvv, double click and select pipet, then select node and press F1, the helppatch show you how to read pixels info using a texture, connecting openNi depth texture to it, you will be able to know the Z value.
+  Starting from that you have info to transform stuff, hope it helps :)

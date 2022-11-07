@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "57011"
+user: "RicardoCastelhano"
+created: "11 Dec, 2010 - 15:28"
+body: |-
+  I saw that Kinect <Device> patch has a <Device:?> value in the output node.
+  
+  The status has any value different from "Error" and "Starting" ? Mine doesnt change from "starting" ...
+  
+  Thks once again.

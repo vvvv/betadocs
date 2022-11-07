@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/asascii-(string-hex)-files"
+url: "asascii-string-hex"
+category: "plugin"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "AsAscii.zip"
+            timestamp: "25 Dec, 2010 - 14:13"
+            download_count: "1"

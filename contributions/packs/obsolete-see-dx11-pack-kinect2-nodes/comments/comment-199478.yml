@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "199478"
+user: "esnho"
+created: "04 Jul, 2015 - 21:40"
+body: |-
+  Are you using a 64bit VVVV version?
+  
+  And modify the root patch, hit Alt+R in VVVV, modify the patch and save it.
+  
+  You have to add the kinect2 folder path, watch this image.
+  
+  ![](https://vvvv.org/sites/default/files/imagecache/large/images/girlpowerKinect.JPG)

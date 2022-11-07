@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/dx11-particles-2d-field-texture-files"
+url: "dx11-particles-2d-field-texture"
+category: "effect"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "ParticleSystem_FieldTextureDx11 (emitters).zip"
+            description: |-
+              A 2d field texture particle system, with attractors and dispersal
+            
+            timestamp: "11 Oct, 2013 - 11:28"
+            download_count: "1"

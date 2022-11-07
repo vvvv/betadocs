@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "75907"
+user: "mrboni"
+created: "07 Feb, 2012 - 17:26"
+body: |-
+  Can someone explain the usage of the dofEqWeapon XY and dofEqFar XYZ in the DOF module?
+  
+  Can I use them to set the focal plane to a particular distance, and adjust the range of DOF?

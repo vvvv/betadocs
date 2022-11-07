@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "241072"
+user: "u7angel"
+created: "13 Jun, 2017 - 17:05"
+body: |-
+  just had a look again, got it working after an hour of vpm downloading ;)
+  
+  i wonder if it's possible to revise the node concerning performance hit. loading a scene and supplying a mesh is a simple task but kinda hefty on the cpu.
+  
+  ![](https://vvvv.org/sites/default/files/imagecache/large/images/mesh.JPG) 
+  
+  and i'd prefer simple girlpower demos, showcasing not how nice/slow something can be rendered but a concise example of the fbx plugin / features.

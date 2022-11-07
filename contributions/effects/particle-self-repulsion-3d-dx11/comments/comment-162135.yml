@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "162135"
+user: "sanch"
+created: "12 Aug, 2014 - 12:52"
+body: |-
+  Before marching cube , the best will be to implement radix sort for the particle colision detection , it will improve performance and allow higher particle count.
+  It's not related to nbody .
+  
+  some inspiration http://vimeo.com/94622661
+  https://www.youtube.com/watch?v=6WZZARzpckw

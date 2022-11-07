@@ -1,0 +1,18 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/boids-meta"
+type: "plugin"
+author: "milo"
+date: "19 Jun, 2011"
+title: "Boids"
+originalURL: "contribution/boids"
+category: "plugin"
+credits: |-
+  original code from Daniel Shiffmann. Ported to C#.
+like_count: "6"
+imported: "true"
+teaser: |-
+  A simple Boids(2D) Plugin. Things to be done:
+  
+  + 3D it
+  + implement predators, obstacles and food sources

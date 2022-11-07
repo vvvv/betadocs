@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "178128"
+user: "Mitrakas Dimitris"
+created: "10 Dec, 2014 - 17:31"
+body: |-
+  Hello,
+  
+  I need some help. I want to calibrate kinect with a projector so i use the "calibration (kinect setup)help.v4p".
+  
+  I follow the steps and everything seems to go fine. My problem is that i can't understand how i can apply the trasnformation on the joints positions of the "skeleton". I tried to use "applyTrasform" and inserted thw joints positions and the "transform out" from the "calibration" node, but it didn't work. Could someone help me?
+  
+  Thanks in advance.

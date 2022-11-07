@@ -1,0 +1,10 @@
+### YamlMime:ContributionComment
+---
+uid: "206592"
+user: "screamer"
+created: "23 Sep, 2015 - 11:39"
+body: |-
+  don't know why it's shifted, but it happens only with rgb.
+  Trying with ir or depth instead and it is perfectly aligned.
+  A walkaround that works perfectly for me is to add a translate after the perspective node, and translate the camera view of x: 0.053 and y: 0.004
+  in that way the face is perfectly aligned with the rgb image. I've tried to understand why that numbers, and tried to compute all the numbers i can together to achieve that numbers, but no luck, anyway it works perfectly ;) thanks again

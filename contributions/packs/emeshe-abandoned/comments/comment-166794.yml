@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "166794"
+user: "microdee"
+created: "02 Oct, 2014 - 22:44"
+body: |-
+  by compile i meant opening dx11-vvvv.sln in visual studio (express) set target arcitectures to your desires (x86/x64, note: in x64 you have to copy the x64 slimdx dll's from dependencies to feraltic/dependencies) and press the build button, copy the resulting dll's to your packs folder (visual studio already does the packs\dx11\things folder structure for you)
+  
+  also can you enable Exception Dialogs ("ExceptionDialogs ON | OFF" in the bottom-right middle click menu) and if it throws an error in a simple scenario (so not in an entire project) can you copy that here?

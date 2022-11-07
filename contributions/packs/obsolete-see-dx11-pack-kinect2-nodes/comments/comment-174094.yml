@@ -1,0 +1,16 @@
+### YamlMime:ContributionComment
+---
+uid: "174094"
+user: "nrsz"
+created: "12 Nov, 2014 - 21:52"
+body: |-
+  i installed the latest drivers & cuda toolkit - tried noobusdeer (thanks you!) and vux Microsoft.Kinect.dll, still the same: no skeleton, no hands.
+  
+  the kinect studio works fine, vvvv drops that:
+  
+  ```
+  00:00:40 ERR : Exception occured in TMPluginWrapperNode.Evaluate
+  00:00:40 ERR : Method not found: 'Microsoft.Kinect.CameraSpacePoint Microsoft.Kinect.Joint.get_Position()'.
+  ```
+  
+  any idea?

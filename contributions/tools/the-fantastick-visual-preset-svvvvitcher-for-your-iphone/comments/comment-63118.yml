@@ -1,0 +1,18 @@
+### YamlMime:ContributionComment
+---
+uid: "63118"
+user: "gilbi"
+created: "02 May, 2011 - 21:32"
+body: |-
+  sanch, Interesting idea but I would have to experiment more to figure out how that would be useful. If you look at the fanta_presets patch you'll see that all the drawing+logic is being pushed to the iPhone as a JS script. I think that offloading as much logic as possible to the i-device in this manner is the way to go.
+  
+  In that vein, I am thinking about creating a variable injection/template plugin. So if you have JS code like:
+  
+  ```
+  var mystr;
+  for (i=0; i < \$1; i++) {
+     mystr += \$2;
+  }
+  ```
+  
+  ... then there would be pins to replace $1 and $2

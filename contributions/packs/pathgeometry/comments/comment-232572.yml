@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "232572"
+user: "antokhio"
+created: "24 Nov, 2016 - 15:05"
+body: |-
+  adding cli_cppuhelper.dll to vvvv_45beta34.2_x64\lib\core also works

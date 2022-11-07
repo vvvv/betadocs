@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "271670"
+user: "woei"
+created: "08 Apr, 2019 - 16:37"
+body: |-
+  @LineKernel
+  hi, sorry. forgot to add install instructions. it's a regular pack, so installation is the same as for dx11 et al. just unzip inside vvvv then windows will integrate the content into the existing packs folder.
+  .../vvvv_50betaxx/packs/struct/... is how it should look like in the end.

@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "54133"
+user: "sanch"
+created: "14 Oct, 2010 - 09:34"
+body: |-
+  You have to put the content of the folder in:
+   vvvv_45beta24\plugins\Integral\ 
+  Depending how you unzip your folder youmight need to create the integral folder.
+  and the dll will be created automatiquely at start.
+  Note it's only compatible with beta24 and the plugin will not work outside the plugin folder.

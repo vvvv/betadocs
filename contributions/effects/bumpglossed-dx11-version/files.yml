@@ -1,0 +1,36 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/bumpglossed- -dx11-version-files"
+url: "bumpglossed-dx11-version"
+category: "effect"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "2"
+            filename: "BumpGlossed.zip"
+            description: |-
+              added Texture and Color transforms, a 4 lights version and a proper dx11 version.
+            
+            timestamp: "24 Feb, 2016 - 16:07"
+            download_count: "1"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "1"
+                    filename: "BumpGlossed.zip"
+                    description: |-
+                      added dx11 version, needs some work!
+                    
+                    timestamp: "16 Jan, 2014 - 22:45"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "BumpGlossed.zip"
+                    description: |-
+                      Added Normals,Tangents and Binormals to mesh. needed for normalmap component
+                    
+                    timestamp: "29 Sep, 2010 - 10:14"
+                    download_count: "1"

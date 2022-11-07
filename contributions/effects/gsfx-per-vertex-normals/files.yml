@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/gsfx-per-vertex-normals-files"
+url: "gsfx-per-vertex-normals"
+category: "effect"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "NormalsGSFX.zip"
+            description: |-
+              Geometry shader, calculate normals
+            
+            timestamp: "04 Jan, 2014 - 14:06"
+            download_count: "1"

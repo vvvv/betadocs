@@ -1,0 +1,15 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/dx11-particles-2d-field-texture-meta"
+type: "effect"
+author: "catweasel"
+date: "11 Oct, 2013"
+title: "DX11 Particles 2d Field Texture"
+originalURL: "contribution/dx11-particles-2d-field-texture"
+category: "effect"
+credits: |-
+  [catweasel](http://vvvv.org/users/catweasel)
+like_count: "2"
+imported: "true"
+teaser: |-
+  A 2d field texture particle system, with attractors and dispersal/avoidance.

@@ -1,0 +1,57 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/metaio-meta"
+type: "plugin"
+author: "mino"
+date: "27 Feb, 2015"
+title: "metaio"
+originalURL: "contribution/metaio"
+category: "plugin"
+credits: |-
+  mino, [Metaio GmbH](http://www.metaio.com), [DirectShowNET](http://directshownet.sourceforge.net/)
+like_count: "20"
+imported: "true"
+teaser: |-
+  plugin for high-quality AR solution using Metaio SDK.
+  
+  <div class="box">
+  Note:
+  metaio stopped all services at May 2015, because of apple acquired metaio. you cannot download sdk from web site no more and their web site will be closed soon.
+  if you already installed sdk, this plugin works fine but you cannot use this for any public projects.
+  </div>
+  
+  ### Features
+  
+  high speed and stable tracking by various way.
+  * ID Marker Tracking
+  * Picture Marker Tracking
+  * Image Tracking
+  * Instant(snapshot) Tracking
+  * 3D SLAM Tracking
+  * CAD based 3D Tracking
+  * Face Tracking
+  
+  ### Installation
+  
+  1. download & install latest Metaio SDK from [here](http://ar.metaio.com/download_sdk). (requires an account)
+  1. download this plugin and extract .zip file.
+  1. open Metaio SDK folder (ie: C:\metaio\Metaio SDK 6.0.2\_Windows\metaioSDK\vc100\x86_release\bin)
+  1. copy the three dll files to here.
+  1. run vvvv and open Root patch(Alt+R), then add Metaio SDK folder to vvvv path
+  1. open helppatch to check setup complete
+  
+  ---
+  
+  ### Change Log
+  
+  **2015.4.24 (v1.1)**
+  * add Property Page pin to VideoIn node
+  * support CAD Model tracking with Metaio node
+  * 2D instant tracking works with InstantTracking node
+  * add Success out pin to InstantTracking node
+  * new node
+  ** **AsSource**: use any texture as source for tracking. texture must be convert as raw data.
+  
+  ---
+  
+  requires beta33.x, tested 32bit only.

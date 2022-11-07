@@ -1,0 +1,28 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/particlesgpu3dstatictypo-(ex9.effect)-meta"
+type: "effect"
+author: "lasal"
+date: "18 Jul, 2012"
+title: "ParticlesGPU_3D_Static_Typo (EX9.Effect)"
+originalURL: "contribution/particlesgpu3dstatictypo-(ex9.effect)"
+category: "effect"
+credits: |-
+  Dottore, 
+  Lasal,
+  Woei.
+like_count: "7"
+imported: "true"
+teaser: |-
+  ### Just a way to read laaaaaarge text files on vvvv.
+  
+  .
+  #### The Text Metric texture is gereated using this,
+  
+  [modulesex9textmetrics](modulesex9textmetrics)
+  
+  #### If you want to know more about Particles on GPU.
+  
+  [particlesgpu-shader-library](xref:contribution/particlesgpu-shader-library)
+  
+  Thanks Dottore.

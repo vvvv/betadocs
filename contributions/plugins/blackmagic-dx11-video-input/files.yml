@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/blackmagic-dx11-video-input-files"
+url: "blackmagic-dx11-video-input"
+category: "plugin"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "BlackmagicDX11VideoIn.zip"
+            description: |-
+              x64
+            
+            timestamp: "25 May, 2016 - 15:36"
+            download_count: "1"

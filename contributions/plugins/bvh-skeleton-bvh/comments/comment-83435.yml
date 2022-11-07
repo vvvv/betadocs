@@ -1,0 +1,168 @@
+### YamlMime:ContributionComment
+---
+uid: "83435"
+user: "circuitb"
+created: "29 May, 2012 - 01:22"
+body: |-
+  ```
+  no red nodes so far but 2 exceptions msg:
+  
+  ------------------------------------------------------------------------------
+  Exception class: EClrException
+  Exception message: Input string was not in a correct format.
+  Exception address: 00000000
+  ------------------------------------------------------------------------------
+  System.FormatException: Input string was not in a correct format.
+     at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+     at VVVV.Nodes.BVHLoader.ParseJoint(Int32& index, List`1& tokens, BVHJoint parent)
+     at VVVV.Nodes.BVHLoader.ParseHierarchy(String data)
+     at VVVV.Nodes.BVHLoader.Load(String Filename)
+     at VVVV.Nodes.BVHNode.Evaluate(Int32 SpreadMax)
+  ------------------------------------------------------------------------------
+  Main thread ID = 3648
+  Exception thread ID = 3648
+  ------------------------------------------------------------------------------
+  Exception stack
+  Stack list, generated 29/05/2012 03:14:31
+  <005918D1>{vvvv.exe    } ClrUtils.ClrCheck (Line 1048, "ClrUtils.pas" + 2)
+  <0065052B>{vvvv.exe    } PluginNodes.TMPluginWrapperNode.EvaluateV2Plugin (Line 303, "PluginNodes.pas" + 1)
+  <0065031E>{vvvv.exe    } PluginNodes.TMPluginWrapperNode.Evaluate (Line 257, "PluginNodes.pas" + 24)
+  <00651C8D>{vvvv.exe    } PluginNodes.TMPluginWrapperNode.CalculateNodeAndOutputSliceCounts (Line 936, "PluginNodes.pas" + 8)
+  <00686CAF>{vvvv.exe    } Graph.TMBasicNode.Prepare (Line 1153, "Graph.pas" + 20)
+  <00688BEE>{vvvv.exe    } Graph.TMPin._Prepare (Line 2370, "Graph.pas" + 4)
+  <0068A3D7>{vvvv.exe    } Graph.TMPin.EarlyPrepare (Line 3202, "Graph.pas" + 26)
+  <00689ECD>{vvvv.exe    } Graph.TMPin.GetUserSliceCount (Line 2958, "Graph.pas" + 1)
+  <00622712>{vvvv.exe    } IONodes.TMNodeNode.CalculateNodeAndOutputSliceCounts (Line 1225, "IONodes.pas" + 11)
+  <00686CAF>{vvvv.exe    } Graph.TMBasicNode.Prepare (Line 1153, "Graph.pas" + 20)
+  <00688BEE>{vvvv.exe    } Graph.TMPin._Prepare (Line 2370, "Graph.pas" + 4)
+  <0068A3A4>{vvvv.exe    } Graph.TMPin.EarlyPrepare (Line 3197, "Graph.pas" + 21)
+  <00689ECD>{vvvv.exe    } Graph.TMPin.GetUserSliceCount (Line 2958, "Graph.pas" + 1)
+  <00689B27>{vvvv.exe    } Graph.TMPin.InfluenceNodeSliceCount (Line 2822, "Graph.pas" + 1)
+  <00651C78>{vvvv.exe    } PluginNodes.TMPluginWrapperNode.CalculateNodeAndOutputSliceCounts (Line 932, "PluginNodes.pas" + 4)
+  <00686CAF>{vvvv.exe    } Graph.TMBasicNode.Prepare (Line 1153, "Graph.pas" + 20)
+  <00688BEE>{vvvv.exe    } Graph.TMPin._Prepare (Line 2370, "Graph.pas" + 4)
+  <00688D58>{vvvv.exe    } Graph.TMPin._ValidateAllSlices (Line 2404, "Graph.pas" + 9)
+  <00686D68>{vvvv.exe    } Graph.TMBasicNode.ValidateAllOutputs (Line 1204, "Graph.pas" + 2)
+  <0065ACC1>{vvvv.exe    } PluginPins.TMSetMatrixNode_.CalculateNodeAndOutputSliceCounts (Line 1382, "PluginPins.pas" + 1)
+  <00686CAF>{vvvv.exe    } Graph.TMBasicNode.Prepare (Line 1153, "Graph.pas" + 20)
+  <00688BEE>{vvvv.exe    } Graph.TMPin._Prepare (Line 2370, "Graph.pas" + 4)
+  <0068A3D7>{vvvv.exe    } Graph.TMPin.EarlyPrepare (Line 3202, "Graph.pas" + 26)
+  <00689ECD>{vvvv.exe    } Graph.TMPin.GetUserSliceCount (Line 2958, "Graph.pas" + 1)
+  <00689B27>{vvvv.exe    } Graph.TMPin.InfluenceNodeSliceCount (Line 2822, "Graph.pas" + 1)
+  <0066FAAD>{vvvv.exe    } ex9TransformNodes.TMArbitraryTransform.CalculateNodeAndOutputSliceCounts (Line 1449, "ex9TransformNodes.pas" + 6)
+  <00686CAF>{vvvv.exe    } Graph.TMBasicNode.Prepare (Line 1153, "Graph.pas" + 20)
+  <00688BEE>{vvvv.exe    } Graph.TMPin._Prepare (Line 2370, "Graph.pas" + 4)
+  <0068A3D7>{vvvv.exe    } Graph.TMPin.EarlyPrepare (Line 3202, "Graph.pas" + 26)
+  <00689ECD>{vvvv.exe    } Graph.TMPin.GetUserSliceCount (Line 2958, "Graph.pas" + 1)
+  <00689B27>{vvvv.exe    } Graph.TMPin.InfluenceNodeSliceCount (Line 2822, "Graph.pas" + 1)
+  <00686C4E>{vvvv.exe    } Graph.TMBasicNode.CalculateNodeAndOutputSliceCounts (Line 1125, "Graph.pas" + 10)
+  <00686FBA>{vvvv.exe    } Graph.TMBasicNode.CalculateNodeAndOutputSliceCounts (Line 1287, "Graph.pas" + 0)
+  <0058FAA3>{vvvv.exe    } RenderNodes.TMLayerNode.CalculateNodeAndOutputSliceCounts (Line 71, "RenderNodes.pas" + 1)
+  <00686CAF>{vvvv.exe    } Graph.TMBasicNode.Prepare (Line 1153, "Graph.pas" + 20)
+  <00688BEE>{vvvv.exe    } Graph.TMPin._Prepare (Line 2370, "Graph.pas" + 4)
+  <0068A3A4>{vvvv.exe    } Graph.TMPin.EarlyPrepare (Line 3197, "Graph.pas" + 21)
+  <00688BE4>{vvvv.exe    } Graph.TMPin._Prepare (Line 2369, "Graph.pas" + 3)
+  <00688D58>{vvvv.exe    } Graph.TMPin._ValidateAllSlices (Line 2404, "Graph.pas" + 9)
+  <00686D30>{vvvv.exe    } Graph.TMBasicNode.ValidateAllInputs (Line 1182, "Graph.pas" + 2)
+  <006EE0D6>{vvvv.exe    } GroupNodes.TMGroupNode.EvaluateCB (Line 204, "GroupNodes.pas" + 5)
+  <00688C52>{vvvv.exe    } Graph.TMPin.Evaluate (Line 2383, "Graph.pas" + 3)
+  <00688DAE>{vvvv.exe    } Graph.TMPin._ValidateAllSlices (Line 2417, "Graph.pas" + 22)
+  <00688D93>{vvvv.exe    } Graph.TMPin._ValidateAllSlices (Line 2412, "Graph.pas" + 17)
+  <006491D3>{vvvv.exe    } RendererNodes.TMRendererNode.ValidateLayers (Line 552, "RendererNodes.pas" + 1)
+  <006E768E>{vvvv.exe    } ex9RendererNode.TMex9RendererNode.ValidateLayers (Line 957, "ex9RendererNode.pas" + 7)
+  <00648D84>{vvvv.exe    } RendererNodes.TMRendererNode.EvaluateCB (Line 419, "RendererNodes.pas" + 31)
+  <00688B2C>{vvvv.exe    } Graph.TMPin.SetSliceCount (Line 2329, "Graph.pas" + 15)
+  <00688C52>{vvvv.exe    } Graph.TMPin.Evaluate (Line 2383, "Graph.pas" + 3)
+  <00688DAE>{vvvv.exe    } Graph.TMPin._ValidateAllSlices (Line 2417, "Graph.pas" + 22)
+  <00686D68>{vvvv.exe    } Graph.TMBasicNode.ValidateAllOutputs (Line 1204, "Graph.pas" + 2)
+  <00648721>{vvvv.exe    } RendererNodes.TMRendererNode.PrepareGraph (Line 183, "RendererNodes.pas" + 1)
+  <0068718B>{vvvv.exe    } Graph.TMBasicNode.PrepareGraphCB (Line 1353, "Graph.pas" + 2)
+  <0069B909>{vvvv.exe    } Events.TMEvent.Call (Line 403, "Events.pas" + 11)
+  <00698D3F>{vvvv.exe    } MainLoop.TMMainLoop.DoTimer (Line 209, "MainLoop.pas" + 28)
+  <00508B92>{vvvv.exe    } IdleTimer.TMIdleTimer.AppIdle (Line 165, "IdleTimer.pas" + 46)
+  <00480B35>{vvvv.exe    } Forms.TApplication.Idle
+  <0047FFA7>{vvvv.exe    } Forms.TApplication.HandleMessage
+  <0048028F>{vvvv.exe    } Forms.TApplication.Run
+  <00882F5D>{vvvv.exe    } vvvv.vvvv (Line 24, "" + 7)
+  ------------------------------------------------------------------------------
+  Call stack for main thread
+  Stack list, generated 29/05/2012 03:14:31
+  <771C0BD2>{ntdll.dll   } ZwGetContextThread
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  ------------------------------------------------------------------------------
+  Exception class: EClrException
+  Exception message: Object reference not set to an instance of an object.
+  Exception address: 00000000
+  ------------------------------------------------------------------------------
+  System.NullReferenceException: Object reference not set to an instance of an object.
+     at VVVV.Nodes.GetJointTransform.Evaluate(Int32 SpreadMax)
+  ------------------------------------------------------------------------------
+  Main thread ID = 3648
+  Exception thread ID = 3648
+  ------------------------------------------------------------------------------
+  Exception stack
+  Stack list, generated 29/05/2012 03:17:37
+  <005918D1>{vvvv.exe    } ClrUtils.ClrCheck (Line 1048, "ClrUtils.pas" + 2)
+  <0065050F>{vvvv.exe    } PluginNodes.TMPluginWrapperNode.EvaluateV1Plugin (Line 298, "PluginNodes.pas" + 1)
+  <0065031E>{vvvv.exe    } PluginNodes.TMPluginWrapperNode.Evaluate (Line 257, "PluginNodes.pas" + 24)
+  <00689ECD>{vvvv.exe    } Graph.TMPin.GetUserSliceCount (Line 2958, "Graph.pas" + 1)
+  <00651C8D>{vvvv.exe    } PluginNodes.TMPluginWrapperNode.CalculateNodeAndOutputSliceCounts (Line 936, "PluginNodes.pas" + 8)
+  <00686CAF>{vvvv.exe    } Graph.TMBasicNode.Prepare (Line 1153, "Graph.pas" + 20)
+  <00688BEE>{vvvv.exe    } Graph.TMPin._Prepare (Line 2370, "Graph.pas" + 4)
+  <00688D58>{vvvv.exe    } Graph.TMPin._ValidateAllSlices (Line 2404, "Graph.pas" + 9)
+  <00686D68>{vvvv.exe    } Graph.TMBasicNode.ValidateAllOutputs (Line 1204, "Graph.pas" + 2)
+  <0065ACC1>{vvvv.exe    } PluginPins.TMSetMatrixNode_.CalculateNodeAndOutputSliceCounts (Line 1382, "PluginPins.pas" + 1)
+  <00686CAF>{vvvv.exe    } Graph.TMBasicNode.Prepare (Line 1153, "Graph.pas" + 20)
+  <00688BEE>{vvvv.exe    } Graph.TMPin._Prepare (Line 2370, "Graph.pas" + 4)
+  <0068A3D7>{vvvv.exe    } Graph.TMPin.EarlyPrepare (Line 3202, "Graph.pas" + 26)
+  <00689ECD>{vvvv.exe    } Graph.TMPin.GetUserSliceCount (Line 2958, "Graph.pas" + 1)
+  <00689B27>{vvvv.exe    } Graph.TMPin.InfluenceNodeSliceCount (Line 2822, "Graph.pas" + 1)
+  <0066FAAD>{vvvv.exe    } ex9TransformNodes.TMArbitraryTransform.CalculateNodeAndOutputSliceCounts (Line 1449, "ex9TransformNodes.pas" + 6)
+  <00686CAF>{vvvv.exe    } Graph.TMBasicNode.Prepare (Line 1153, "Graph.pas" + 20)
+  <00688BEE>{vvvv.exe    } Graph.TMPin._Prepare (Line 2370, "Graph.pas" + 4)
+  <0068A3D7>{vvvv.exe    } Graph.TMPin.EarlyPrepare (Line 3202, "Graph.pas" + 26)
+  <00689ECD>{vvvv.exe    } Graph.TMPin.GetUserSliceCount (Line 2958, "Graph.pas" + 1)
+  <00689B27>{vvvv.exe    } Graph.TMPin.InfluenceNodeSliceCount (Line 2822, "Graph.pas" + 1)
+  <00686C4E>{vvvv.exe    } Graph.TMBasicNode.CalculateNodeAndOutputSliceCounts (Line 1125, "Graph.pas" + 10)
+  <00686FBA>{vvvv.exe    } Graph.TMBasicNode.CalculateNodeAndOutputSliceCounts (Line 1287, "Graph.pas" + 0)
+  <0058FAA3>{vvvv.exe    } RenderNodes.TMLayerNode.CalculateNodeAndOutputSliceCounts (Line 71, "RenderNodes.pas" + 1)
+  <00686CAF>{vvvv.exe    } Graph.TMBasicNode.Prepare (Line 1153, "Graph.pas" + 20)
+  <00688BEE>{vvvv.exe    } Graph.TMPin._Prepare (Line 2370, "Graph.pas" + 4)
+  <0068A3A4>{vvvv.exe    } Graph.TMPin.EarlyPrepare (Line 3197, "Graph.pas" + 21)
+  <00688BE4>{vvvv.exe    } Graph.TMPin._Prepare (Line 2369, "Graph.pas" + 3)
+  <00688D58>{vvvv.exe    } Graph.TMPin._ValidateAllSlices (Line 2404, "Graph.pas" + 9)
+  <00686D30>{vvvv.exe    } Graph.TMBasicNode.ValidateAllInputs (Line 1182, "Graph.pas" + 2)
+  <006EE0D6>{vvvv.exe    } GroupNodes.TMGroupNode.EvaluateCB (Line 204, "GroupNodes.pas" + 5)
+  <00688C52>{vvvv.exe    } Graph.TMPin.Evaluate (Line 2383, "Graph.pas" + 3)
+  <00688DAE>{vvvv.exe    } Graph.TMPin._ValidateAllSlices (Line 2417, "Graph.pas" + 22)
+  <00688D93>{vvvv.exe    } Graph.TMPin._ValidateAllSlices (Line 2412, "Graph.pas" + 17)
+  <006491D3>{vvvv.exe    } RendererNodes.TMRendererNode.ValidateLayers (Line 552, "RendererNodes.pas" + 1)
+  <006E768E>{vvvv.exe    } ex9RendererNode.TMex9RendererNode.ValidateLayers (Line 957, "ex9RendererNode.pas" + 7)
+  <00648D84>{vvvv.exe    } RendererNodes.TMRendererNode.EvaluateCB (Line 419, "RendererNodes.pas" + 31)
+  <00688B2C>{vvvv.exe    } Graph.TMPin.SetSliceCount (Line 2329, "Graph.pas" + 15)
+  <00688C52>{vvvv.exe    } Graph.TMPin.Evaluate (Line 2383, "Graph.pas" + 3)
+  <00688DAE>{vvvv.exe    } Graph.TMPin._ValidateAllSlices (Line 2417, "Graph.pas" + 22)
+  <00686D68>{vvvv.exe    } Graph.TMBasicNode.ValidateAllOutputs (Line 1204, "Graph.pas" + 2)
+  <00648721>{vvvv.exe    } RendererNodes.TMRendererNode.PrepareGraph (Line 183, "RendererNodes.pas" + 1)
+  <0068718B>{vvvv.exe    } Graph.TMBasicNode.PrepareGraphCB (Line 1353, "Graph.pas" + 2)
+  <0069B909>{vvvv.exe    } Events.TMEvent.Call (Line 403, "Events.pas" + 11)
+  <00698D3F>{vvvv.exe    } MainLoop.TMMainLoop.DoTimer (Line 209, "MainLoop.pas" + 28)
+  <00508B92>{vvvv.exe    } IdleTimer.TMIdleTimer.AppIdle (Line 165, "IdleTimer.pas" + 46)
+  <00480B35>{vvvv.exe    } Forms.TApplication.Idle
+  <0047FFA7>{vvvv.exe    } Forms.TApplication.HandleMessage
+  <0048028F>{vvvv.exe    } Forms.TApplication.Run
+  <00882F5D>{vvvv.exe    } vvvv.vvvv (Line 24, "" + 7)
+  ------------------------------------------------------------------------------
+  Call stack for main thread
+  Stack list, generated 29/05/2012 03:17:37
+  <771C0BD2>{ntdll.dll   } ZwGetContextThread
+  ----------------------------------------------------------------------------
+  ```

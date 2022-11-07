@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "227922"
+user: "ravazquez"
+created: "15 Sep, 2016 - 22:20"
+body: |-
+  [matka](http://vvvv.org/users/matka), you can now download the file called "Reaction Diffusion DX11 - 3D Model Texture.zip" from the "other/older revisions" section in this same page.  It only works in DX11, at least for now.
+  
+  The ReactionDifussion node did not change.
+  
+  Credits for the shader go to [tonfilm](http://vvvv.org/users/tonfilm)
+  
+  Let me know how it goes.

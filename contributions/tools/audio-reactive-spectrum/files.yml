@@ -1,0 +1,24 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/audio-reactive-spectrum-files"
+url: "audio-reactive-spectrum"
+category: "tool"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "1"
+            filename: "AudioReactiveSpectrum_v02.zip"
+            timestamp: "11 Dec, 2013 - 13:51"
+            download_count: "1"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "AudioReactiveSpectrum_v02.zip"
+                    description: |-
+                      Audio Reactive Spectrum v02
+                    
+                    timestamp: "11 Dec, 2013 - 13:50"
+                    download_count: "5"

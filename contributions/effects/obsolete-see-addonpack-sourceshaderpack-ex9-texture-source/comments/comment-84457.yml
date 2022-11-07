@@ -1,0 +1,10 @@
+### YamlMime:ContributionComment
+---
+uid: "84457"
+user: "everyoneishappy"
+created: "19 Jun, 2012 - 19:00"
+body: |-
+  Thanks for putting all these up!
+  
+  @Robe
+  The FileTexture node loading NoiseVolume.dds needs to have it's TextureType pin set to 'Volume'.  Should work fine then.

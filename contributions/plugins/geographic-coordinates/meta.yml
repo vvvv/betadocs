@@ -1,0 +1,19 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/geographic-coordinates-meta"
+type: "plugin"
+author: "velcrome"
+date: "10 Apr, 2012"
+title: "Geographic Coordinates"
+originalURL: "contribution/geographic-coordinates"
+category: "plugin"
+credits: |-
+  Copyright 1997-1998 by Charles L. Taylor
+  http://home.hiwaay.net/~taylorc/toolbox/geography/geoutm.html
+  
+  Converted to C# by Henning M. Stephansen 2011
+  http://www.henning.ms
+like_count: "8"
+imported: "true"
+teaser: |-
+  Quick Plugin wrapper for transforming basic Geospatial Coordinates.

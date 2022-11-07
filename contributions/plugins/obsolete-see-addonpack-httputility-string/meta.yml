@@ -1,0 +1,24 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/obsolete-see-addonpack-httputility-(string)-meta"
+type: "plugin"
+author: "bjoern"
+date: "19 Apr, 2012"
+title: "[OBSOLETE, see Addonpack] HTTPUtility (String)"
+originalURL: "contribution/obsolete-see-addonpack-httputility-(string)"
+category: "plugin"
+credits: |-
+  [C# HttpUtility](http://msdn.microsoft.com/en-us/library/90d18ktz.aspx)
+like_count: "3"
+imported: "true"
+teaser: |-
+  Implements some of the C# HttpUtility methods. 
+  Namely:
+  * HtmlEncode
+  * HtmlDecode
+  * UrlEncode
+  * UrlEncodeUnicode
+  * UrlDecode
+  
+  For more information please refer to:
+  <http://msdn.microsoft.com/en-us/library/90d18ktz.aspx>

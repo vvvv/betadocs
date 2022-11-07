@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "59462"
+user: "microdee"
+created: "06 Feb, 2011 - 13:41"
+body: |-
+  yep it's partly based on that. however i was a bit surprised that the "for" cycle gave a syntax error in vvvv so i used this not really elegant method (i don't know much about it but this is a limitation of SM 3.0 or i overlooked something?)

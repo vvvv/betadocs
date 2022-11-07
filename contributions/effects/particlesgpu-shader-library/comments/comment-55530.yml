@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "55530"
+user: "dottore"
+created: "12 Nov, 2010 - 16:30"
+body: |-
+  @ ATI users: 
+  Download "PointSprites.fx" from the old vvvvebsite (http://legacy.vvvv.org/tiki-index.php?page=User+Shaders).
+  If not even this works, it means the Sprite function has a different sintax on ATI.

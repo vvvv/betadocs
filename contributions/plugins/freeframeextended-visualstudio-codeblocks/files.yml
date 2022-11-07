@@ -1,0 +1,27 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/freeframeextended-visualstudiocodeblocks-files"
+url: "freeframeextended-visualstudio-codeblocks"
+category: "plugin"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "1"
+            filename: "readme.pdf"
+            description: |-
+              install/readme
+            
+            timestamp: "30 May, 2011 - 15:07"
+            download_count: "3"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "freeFrameExtended.zip"
+                    description: |-
+                      source files
+                    
+                    timestamp: "30 May, 2011 - 15:07"
+                    download_count: "3"

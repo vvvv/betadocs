@@ -1,0 +1,19 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/shadow-maps-using-depthbuffer-meta"
+type: "demo"
+author: "elliotwoods"
+date: "31 Jul, 2012"
+title: "Shadow maps using depthbuffer"
+originalURL: "contribution/shadow-maps-using-depthbuffer"
+category: "demo"
+credits: |-
+  elliotwoods
+like_count: "9"
+imported: "true"
+teaser: |-
+  This patch and shader demonstrate how you can use a depth buffer as a shadow map to cast shadows from a light source.
+  
+  Note that this is meant more as a learning tool than for your final projects, as there's many aesthetic improvements that should be made before deploying as a virtual scene lighting tool.
+  
+  I've uploaded it here mostly to demonstrate the principle of how to perform this type of shadow mapping.

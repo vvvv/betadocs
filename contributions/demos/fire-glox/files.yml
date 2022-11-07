@@ -1,0 +1,24 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/fire-glox-files"
+url: "fire-glox"
+category: "demo"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "1"
+            filename: "Fire & Glox.zip"
+            description: |-
+              Added fire effect.
+            
+            timestamp: "12 Jul, 2012 - 10:41"
+            download_count: "1"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "Glox.zip"
+                    timestamp: "06 Jul, 2012 - 13:20"
+                    download_count: "2"

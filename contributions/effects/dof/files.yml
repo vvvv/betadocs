@@ -1,0 +1,27 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/dof-files"
+url: "dof"
+category: "effect"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "2"
+            filename: "DOF 1.0.zip"
+            timestamp: "10 Jul, 2010 - 13:26"
+            download_count: "47"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "1"
+                    filename: "DOF 1.1.zip"
+                    timestamp: "18 Jul, 2010 - 09:31"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "DOF 2.0.zip"
+                    timestamp: "11 Apr, 2011 - 01:44"
+                    download_count: "4"

@@ -1,0 +1,69 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/particlesgpu-shader-library-files"
+url: "particlesgpu-shader-library"
+category: "effect"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "6"
+            filename: "ParticlesGPU_Shader_Library 0.1.zip"
+            timestamp: "09 Nov, 2010 - 00:13"
+            download_count: "1"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "5"
+                    filename: "ParticlesGPU_Shader_Library 0.15.zip"
+                    description: |-
+                      added 3 behaviours (2d queue, 2d verlet, 3d transform)
+                    
+                    timestamp: "22 Nov, 2010 - 16:45"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "4"
+                    filename: "ParticlesGPU_Shader_Library 0.2.zip"
+                    description: |-
+                      added 6 behaviours.  Merry Xmas!
+                    
+                    timestamp: "25 Dec, 2010 - 01:23"
+                    download_count: "4"
+                - file:
+                    bit: "64"
+                    delta: "3"
+                    filename: "ParticlesGPU_Shader_Library 0.21.zip"
+                    description: |-
+                      surfaces with texture, alpha and transform working
+                    
+                    timestamp: "10 Jan, 2011 - 14:26"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "2"
+                    filename: "ParticlesGPU_Shader_Library 0.3.zip"
+                    description: |-
+                      3 new behaviours. new utility folder
+                    
+                    timestamp: "27 May, 2011 - 23:20"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "1"
+                    filename: "ParticlesGPU_Shader_Library 0.3.1.zip"
+                    description: |-
+                      works in beta 27
+                    
+                    timestamp: "19 Jan, 2012 - 14:57"
+                    download_count: "47"
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "ParticlesGPU_Shader_Library 0.3.2.zip"
+                    description: |-
+                      new behaviour: ParticlesGPU_3d_Spline_ScreenSize
+                    
+                    timestamp: "29 Jan, 2012 - 16:45"
+                    download_count: "1"

@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "65477"
+user: "ft"
+created: "19 Jun, 2011 - 11:43"
+body: |-
+  It's actually a known problem with any texture plugin. I hope it will be fixed for > beta25.1
+  
+  [queue-and-buffer-combined-with-texture-plugin-dont-work](https://discourse.vvvv.org/t/queue-and-buffer-combined-with-texture-plugin-dont-work)

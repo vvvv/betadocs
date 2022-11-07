@@ -1,0 +1,50 @@
+---
+uid: "contribution/vvvv.packs.projectorsimulation"
+uid-meta: "contribution/vvvv.packs.projectorsimulation-meta"
+comments: 
+ items: 
+  - uid: "105278"
+  - uid: "105289"
+  - uid: "106416"
+  - uid: "106536"
+  - uid: "106973"
+  - uid: "108721"
+  - uid: "155860"
+uid-files: "contribution/vvvv.packs.projectorsimulation-files"
+title: "VVVV.Packs.ProjectorSimulation"
+image: "main_1.png"
+contribution: "true"
+---
+
+1.  Installation
+Unzip the contents of the zip into your vvvv\packs folder (e.g aside DX11).
+
+<div class="box">
+Note:
+Requires addonpack (see </downloads> page)
+</div>
+
+1.  Usage
+Check 'Example 0 - Simple DX9' for example on usage
+
+If it doesn't work. let me know asap :)
+
+1.  Notes
+##  Depth testing threshold
+Depending on the scale of your scene, you may need to tweak the 'threshold' pin of the TestShadows node inside PreviewCoverage. A value of 0.01 seems to work well for scenes of about 1 to 10 units in size. E.g. if you measure your scene in mm's, or you're projecting onto a 100m wide building, you may need to increase this value to get useful results.
+
+##  16 Projector limit
+The shader code supports up to 16 projectors. If you need more, please look inside the PreviewCoverage module for notes.
+
+##  What actually is it doing?
+1. We define a spread of projectors as ViewProjection transforms (i.e. if you were to attach this transform to a renderer, it would give you a 1:1 rendering from the projector's perspective, hint: don't use AspectRatio node)
+1. We use these transforms to render a depth map of the scene from the perspective of each projector
+1. We then render the scene from an interactive inspection camera (the final renderer). In this render, we apply a shader to every object which the projectors should be seen to act upon. This shader performs calculations of:
+* Projector coverage (accounting for shadows, projector frustum shape)
+* Brightness per surface area (accounting for 1/r^2 falloff, normal of surface with respect to projector, user selected projector amplitude constant)
+* If we set the depth testing threshold very low (see note 'Depth testing threshold' above, we can also see the tearing of individual pixels
+
+1.  Changelog
+##  v2 27-08-2012
+* Fixed bug with Transform being reversed
+* Included Table example (which won't work until Table is in the addonpack)

@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "62641"
+user: "eno"
+created: "20 Apr, 2011 - 13:18"
+body: |-
+  Feature Requests: 
+  
+  An info output for the keyframes. I would like to be able to retrieve the time (and values?) of the adjacent keyframes, to calculate distance and maybe even create own interpolation types
+  
+  Navigation: Jump to next Keyframe
+  
+  A better visible time Grid

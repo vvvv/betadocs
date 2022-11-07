@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "244313"
+user: "catweasel"
+created: "30 Aug, 2017 - 13:26"
+body: |-
+  Just did a fix for you, so it only sends on changes, hope that helps

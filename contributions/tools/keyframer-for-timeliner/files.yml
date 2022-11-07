@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/keyframer-for-timeliner-files"
+url: "keyframer-for-timeliner"
+category: "tool"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "Keyframer.zip"
+            description: |-
+              first version of a keyframer for timeliner
+            
+            timestamp: "05 Mar, 2011 - 20:07"
+            download_count: "58"

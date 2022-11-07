@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "76317"
+user: "joreg"
+created: "15 Feb, 2012 - 20:47"
+body: |-
+  @julian: pose should not be needed. as soon as you're in good view of the kinect it should start calibrating and after a while return joint data...

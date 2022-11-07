@@ -1,0 +1,69 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/htmltexture-(dx11)-files"
+url: "htmltexture-dx11"
+category: "plugin"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "3"
+            filename: "HTMLTexture.DX11-x64.zip"
+            timestamp: "16 May, 2018 - 18:13"
+            download_count: "2"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "2"
+                    filename: "HTMLTexture.DX11-x64.zip"
+                    description: |-
+                      recompiled version for vvvv alpha > 35.9 and beta36
+                    
+                    timestamp: "29 Jan, 2018 - 20:17"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "1"
+                    filename: "HTMLTexture.DX11-x64.7z"
+                    description: |-
+                      v.1.11 (64 Bits) working with DX11  1.1
+                    
+                    timestamp: "10 Aug, 2017 - 08:06"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "HTMLTexture.DX11-x64.zip"
+                    description: |-
+                      v1.1 (64 Bits)
+                    
+                    timestamp: "12 Oct, 2015 - 12:17"
+                    download_count: "1"
+    32bit:
+        latest:
+            bit: "32"
+            delta: "2"
+            filename: "HTMLTexture.DX11-x86.zip"
+            timestamp: "16 May, 2018 - 18:15"
+            download_count: "3"
+        older:
+            files:
+                - file:
+                    bit: "32"
+                    delta: "1"
+                    filename: "HTMLTexture.DX11-x86.zip"
+                    description: |-
+                      recompiled version for vvvv alpha > 35.9 and beta36
+                    
+                    timestamp: "29 Jan, 2018 - 20:18"
+                    download_count: "2"
+                - file:
+                    bit: "32"
+                    delta: "0"
+                    filename: "HTMLTexture.DX11-x86.zip"
+                    description: |-
+                      v1.1 (32 Bits)
+                    
+                    timestamp: "29 Jan, 2018 - 20:26"
+                    download_count: "3"

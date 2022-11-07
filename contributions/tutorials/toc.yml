@@ -1,0 +1,78 @@
+- name: "Advanced Programming node10 workshop."
+  href: advanced-programming-node10-workshop\index.md
+- name: "Arduino to vvvv, a Paper Touch Interface"
+  href: arduino-to-vvvv-a-paper-touch-interface\index.md
+- name: "Art and Brainwaves with VVVV"
+  href: art-and-brainwaves-with-vvvv\index.md
+- name: "Basic VVVV"
+  href: basic-vvvv\index.md
+- name: "Bonus Tutorial: The Clock 1, Making The Clock"
+  href: bonus-tutorial-the-clock-1-making-the-clock\index.md
+- name: "Bonus Tutorial: The Clock 2, Add Textures"
+  href: bonus-tutorial-the-clock-2-add-textures\index.md
+- name: "Bonus Tutorial: The Clock 3, Add Shadows"
+  href: bonus-tutorial-the-clock-3-add-shadows\index.md
+- name: "BulletPhysics tutorial and samples"
+  href: bulletphysics-tutorial-and-samples\index.md
+- name: "code-snippets_List&AssignFrom"
+  href: code-snippets-list-assignfrom\index.md
+- name: "Developing Nodes and Libraries for VL - workshop material"
+  href: developing-nodes-and-libraries-for-vl-workshop-material\index.md
+- name: "Firmata, Arduino and VVVV, an introduction"
+  href: firmata-arduino-and-vvvv-an-introduction\index.md
+- name: "Folding & Cutting Paper with vvvv, Workshop at Node 13"
+  href: folding-cutting-paper-with-vvvv-workshop-at-node-13\index.md
+- name: "Interfacing reaktor & vvvv, Node15 Workshop"
+  href: interfacing-reaktor-vvvv-node15-workshop\index.md
+- name: "Know Your Spreads"
+  href: know-your-spreads\index.md
+- name: "Modbus TCP example/tutorial"
+  href: modbus-tcp-example-tutorial\index.md
+- name: "Model-Runtime-Editor design pattern"
+  href: model-runtime-editor-design-pattern\index.md
+- name: "Multiscreen&Boygrouping, Node15"
+  href: multiscreen-boygrouping-node15\index.md
+- name: "Node 15, Compute Shader workshop patches"
+  href: node-15-compute-shader-workshop-patches\index.md
+- name: "Node 17 - Advanced Shading workshop material"
+  href: node-17-advanced-shading-workshop-material\index.md
+- name: "Node 17 - Compute Shader workshop material"
+  href: node-17-compute-shader-workshop-material\index.md
+- name: "Node 17 - DX11.Particles Workshop"
+  href: node-17-dx11-particles-workshop\index.md
+- name: "node 17 - Structured Programs - workshop material"
+  href: node-17-structured-programs-workshop-material\index.md
+- name: "NODE17 - DX11 Shaders upper-intermediate workshop material"
+  href: node17-dx11-shaders-upper-intermediate-workshop-material\index.md
+- name: "NODE17 - OpenVR beginner material"
+  href: node17-openvr-beginner-material\index.md
+- name: "NODE17 - Transformations workshop material"
+  href: node17-transformations-workshop-material\index.md
+- name: "NODE17 - VAudio workshop material"
+  href: node17-vaudio-workshop-material\index.md
+- name: "Of Effects and Shaders"
+  href: of-effects-and-shaders\index.md
+- name: "Particle Madness"
+  href: particle-madness\index.md
+- name: "ParticlesGPU Library Guide"
+  href: particlesgpu-library-guide\index.md
+- name: "Patching and Boygrouping documentation images"
+  href: patching-and-boygrouping-documentation-images\index.md
+- name: "Physics (Box2d) Node10 workshop slides"
+  href: physics-box2d-node10-workshop-slides\index.md
+- name: "Rastertek DX11 V4 Tutorials"
+  href: rastertek-dx11-v4-tutorials\index.md
+- name: "Vectors & Transformations"
+  href: vectors-transformations\index.md
+- name: "Video Effects and Compositing Tutorials"
+  href: video-effects-and-compositing-tutorials\index.md
+- name: "VL Concepts & Patterns I + II Workshop  Material"
+  href: vl-concepts-patterns-i-ii-workshop-material\index.md
+- name: "vl for vvvv users - workshop material"
+  href: vl-for-vvvv-users-workshop-material\index.md
+- name: "vvvv as a language"
+  href: vvvv-as-a-language\index.md
+- name: "VVVV.Tutorials.Mapping.3D"
+  href: vvvv-tutorials-mapping-3d\index.md
+- name: "Workshop VideoTracking Node10"
+  href: workshop-videotracking-node10\index.md

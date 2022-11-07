@@ -1,0 +1,10 @@
+### YamlMime:ContributionComment
+---
+uid: "190485"
+user: "woei"
+created: "03 Apr, 2015 - 15:46"
+body: |-
+  hum,
+  cpu might be busy because i haven't cleaned/optimized event raising on table/datachange. it shouldn't be any frame late though... have to dive into that.
+  a spread of tables should be okey, as long as you don't have to load each from file. once loaded they are kept in memory by the central table node.
+  let's sit down at node!

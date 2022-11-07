@@ -1,0 +1,75 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/instance-noodles-files"
+url: "instance-noodles"
+category: "pack"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "7"
+            filename: "InstanceNoodles.zip"
+            description: |-
+              Node20 Update
+            
+            timestamp: "30 Sep, 2020 - 01:14"
+            download_count: "1"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "6"
+                    filename: "InstanceNoodles.zip"
+                    description: |-
+                      noodlesAlpha0.6 50beta38.1
+                    
+                    timestamp: "17 Jun, 2019 - 07:11"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "5"
+                    filename: "InstanceNoodles.zip"
+                    description: |-
+                      Alpha 0.5
+                    
+                    timestamp: "29 Jun, 2018 - 10:48"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "4"
+                    filename: "InstanceNoodles.zip"
+                    timestamp: "03 Jan, 2018 - 06:53"
+                    download_count: "9"
+                - file:
+                    bit: "64"
+                    delta: "3"
+                    filename: "InstanceNoodles.zip"
+                    timestamp: "23 Jul, 2016 - 05:21"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "2"
+                    filename: "InstanceNoodles Alpha 0.2.1.zip"
+                    description: |-
+                      Alpha 0.2.1 fix for deformer nodes not working on some machines
+                    
+                    timestamp: "01 Dec, 2015 - 01:20"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "1"
+                    filename: "InstanceNoodles_Alpha0.2.zip"
+                    description: |-
+                      Alpha 0.2
+                    
+                    timestamp: "01 Nov, 2015 - 03:14"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "InstanceNoodles.zip"
+                    description: |-
+                      Alpha 0.1
+                    
+                    timestamp: "07 Sep, 2015 - 06:19"
+                    download_count: "1"

@@ -1,0 +1,15 @@
+### YamlMime:ContributionComment
+---
+uid: "255243"
+user: "seltzdesign"
+created: "12 Jun, 2018 - 15:51"
+body: |-
+  I think I might have found a bug. If you add a Switch(Node) to the output just before the renderer in the help file and you switch to something else once, it will either crash vvvv or cause all render output to be black.
+  
+  If you add a preview to HBAO it doesnt happen.
+  
+  Seems like HBAO doesn't like being turned off ;)
+  
+  edit: here is the error message after the switch
+  
+  ![](https://vvvv.org/sites/default/files/imagecache/large/images/hbao_bug.JPG)

@@ -1,0 +1,16 @@
+### YamlMime:ContributionComment
+---
+uid: "268830"
+user: "schlonzo"
+created: "18 Oct, 2018 - 09:54"
+body: |-
+  unable to get it running :(
+  beta37 + dx11 1.3
+  
+  github release pack in packs folder - all nodes red
+  vpm throws error:
+  
+  Compilation error:
+  (7,15): error CS0246: The type or namespace name 'Newtonsoft' could not be found (are you missing a using directive or an assembly reference?)
+  (33,28): error CS0103: The name 'JObject' does not exist in the current context
+  Press any key to exit...

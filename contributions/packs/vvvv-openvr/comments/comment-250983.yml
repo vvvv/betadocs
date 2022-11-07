@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "250983"
+user: "tonfilm"
+created: "19 Apr, 2018 - 10:18"
+body: |-
+  @takuma you should be able to use the one in the Steam\Config folder. it should affect vvvv.
+  
+  <https://developer.valvesoftware.com/wiki/SteamVR/steamvr.vrsettings>
+  
+  @u7angel thanks for the offer, but we currently don't have a vive here, so no base stations to test it with. but i'll come back to you as soon as we have a setup.

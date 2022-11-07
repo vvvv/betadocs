@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "248442"
+user: "StiX"
+created: "22 Jan, 2018 - 17:01"
+body: |-
+  new behaviour arrived - i start vvvv with vr running (vive) - everything works
+  if i will turn controller off and on while vvvv vr is running, it stops receiving all buttons from the controller, dashboard works, tracking works, i can ping the controller, but vvvv does not get buttons, only after i restart vvvv AND vr as well, can someone confirm?

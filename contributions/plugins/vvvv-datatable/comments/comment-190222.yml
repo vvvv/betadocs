@@ -1,0 +1,19 @@
+### YamlMime:ContributionComment
+---
+uid: "190222"
+user: "woei"
+created: "28 Mar, 2015 - 18:32"
+body: |-
+  oi cat
+  * can give you a hand in integrating that into a dynamic plugin. referencing the dll + adding 
+  ```
+  using VVVV.Nodes.Table
+  ```
+  should do the trick though
+  
+  
+  * second issue
+  it's just spreads so you can set multiple rows of different tables.
+  e.g. you have two tables on the input of SetRow, it's the standard patching way you would have to handle vectors. first index coresponds to the first table, second to the second table, third index to first table... by just using the set pin for the slices you need, you can avoid changing all tables at once.
+  
+  note that the dynamic nodes do not support multiple table as input. (since i cannot safely assume that those tables share the same column names & types

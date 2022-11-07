@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "198822"
+user: "mino"
+created: "11 Jun, 2015 - 09:14"
+body: |-
+  @graphicuserinterface
+  after copied dlls to metaio sdk dir, delete dlls from download dir. then please open sample patch and see what happen.
+  
+  @bjoern
+  hey, thanks for useful url! keep watching.

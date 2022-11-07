@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "83127"
+user: "elliotwoods"
+created: "22 May, 2012 - 06:15"
+body: |-
+  @microdee - these are sneakily included in the latest OpenCV plugin pack (May 2012). 
+  Should be moved to a separate download in future.
+  Using your soft shadow contrib in the runtime example.

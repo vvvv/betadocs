@@ -1,0 +1,36 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/perf-meter-v2-files"
+url: "perf-meter-v2"
+category: "module"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "2"
+            filename: "PerfMeter (Debug).v4p"
+            description: |-
+              Added colour to the graph, should have been in the last one, except it didn't save...
+            
+            timestamp: "19 Oct, 2010 - 15:33"
+            download_count: "1"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "1"
+                    filename: "PerfMeter (Debug).v4p"
+                    description: |-
+                      Perfmeter has a bar graph of frame rate
+                    
+                    timestamp: "15 Oct, 2010 - 21:54"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "PerfMeter (Debug).v4p"
+                    description: |-
+                      Removed the GDI renderer that dropped the frame rate of the whole patch
+                    
+                    timestamp: "11 Aug, 2010 - 17:43"
+                    download_count: "1"

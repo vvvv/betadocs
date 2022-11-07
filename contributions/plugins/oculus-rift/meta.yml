@@ -1,0 +1,32 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/oculus-rift-meta"
+type: "plugin"
+author: "herbst"
+date: "29 May, 2013"
+title: "Oculus Rift"
+originalURL: "contribution/oculus-rift"
+category: "plugin"
+credits: |-
+  Ported from the Unity3D wrapper and shader by herbst.
+like_count: "11"
+imported: "true"
+teaser: |-
+  <div class="box">
+  Note:
+  These nodes might be outdated, use [VVVV.OpenVR](xref:contribution/vvvv.openvr) for VR related projects. 
+  </div>
+  
+  Here is an initial take on the Oculus SDK (sensor access + distortion shader). It's mostly ported from the Unity3D stuff.
+  
+  Note that there seems to be buggy behaviour in vvvv in regard to the HID device (Tracker DK) that the Oculus installs. If vvvv is running (has nothing to do with this patch, just open vvvv), no other application can access the Oculus. And, more importantly, vvvv will prevent itself from using it if just started.
+  
+  The current workaround seems to be:
+  * another application (e.g. PreventDeviceEnumeration.exe) has to open a connection to the Oculus,
+  * start vvvv and open the oculus patch,
+  * disable the OculusRift node,
+  * close the other application,
+  * enable the OculusRift node in the patch.
+  Could of course be done with a .bat file or something.
+  
+  A simple .exe (PreventDeviceEnumeration.exe) which just opens a connection to the device and streams the values is provided within this package, so you can block vvvv from doing it's dark, sinister and unfortunate magic.

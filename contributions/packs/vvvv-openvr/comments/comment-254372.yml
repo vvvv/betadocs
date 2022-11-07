@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "254372"
+user: "rogalag"
+created: "27 May, 2018 - 16:37"
+body: |-
+  @tonfilm: I understand that you have already tried Riftcat and that it is not working properly yet.
+  Anyway, it's good news that there is a chance ... I would like to use a few (4-6) Playstation move in my project, not necessarily as a Vive substitute. Data which I need is position, rotation and location in space. For now, I managed to pair them with Win7 PC and receive a stream of data via UDP. So far, I have not managed to translate received data to useful values.
+  I thought maybe it will be simpler and more elegant if I use OpenVR ...

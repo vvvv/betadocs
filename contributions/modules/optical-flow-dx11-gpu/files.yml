@@ -1,0 +1,24 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/optical-flow-dx11-gpu-files"
+url: "optical-flow-dx11-gpu"
+category: "module"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "1"
+            filename: "Optical Flow.7z"
+            description: |-
+              vers. 2 --- adapted to name conventions
+            
+            timestamp: "16 Jan, 2014 - 14:30"
+            download_count: "1"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "Optical Flow.7z"
+                    timestamp: "16 Jan, 2014 - 14:04"
+                    download_count: "1"

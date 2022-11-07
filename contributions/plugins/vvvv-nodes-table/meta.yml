@@ -1,0 +1,19 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/vvvv.nodes.table-meta"
+type: "plugin"
+author: "elliotwoods"
+date: "18 Mar, 2014"
+title: "VVVV.Nodes.Table"
+originalURL: "contribution/vvvv.nodes.table"
+category: "plugin"
+like_count: "5"
+imported: "true"
+teaser: |-
+  <div class="box">
+  Note:
+  An all new and revamped version is available here: [ VVVV.DataTable](xref:contribution/vvvv.datatable)
+  </div>
+  
+  If you know what this is, then this is a useful recent copy.
+  If you don't know, then it might be best to wait for this to go into addonpack.

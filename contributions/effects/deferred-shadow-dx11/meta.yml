@@ -1,0 +1,15 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/deferred-shadow-dx11-meta"
+type: "effect"
+author: "antokhio"
+date: "03 Oct, 2015"
+title: "Deferred Shadow DX11"
+originalURL: "contribution/deferred-shadow-dx11"
+category: "effect"
+credits: |-
+  unc & antokhio 2015
+like_count: "19"
+imported: "true"
+teaser: |-
+  Extend Vux Deferred Shadow DX11 Girlpower example.

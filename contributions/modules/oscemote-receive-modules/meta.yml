@@ -1,0 +1,20 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/oscemote-receive-modules-meta"
+type: "module"
+author: "robe"
+date: "15 Sep, 2011"
+title: "OSCemote Receive Modules"
+originalURL: "contribution/oscemote-receive-modules"
+category: "module"
+credits: |-
+  me (robe)
+  based on zepi e vjc4 setup on the forum somewhere
+like_count: "3"
+imported: "true"
+teaser: |-
+  Just some modules to receive data from OSCemote app on iPhone..
+  
+  <http://pixelverse.org/iphone/oscemote/>
+  
+  This is my very first contribution, so be patient...

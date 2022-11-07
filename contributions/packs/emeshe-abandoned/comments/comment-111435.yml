@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "111435"
+user: "yuri2k"
+created: "16 Dec, 2013 - 16:18"
+body: |-
+  Beautiful work. I'd really like to use this, but I'm getting a load of errors thrown in the TTY window, such as: "ERR : System.DivideByZeroException in VVVV.Utils: Attempted to divide by zero."
+  
+  Is this a bug, an installation problem, or none of the above? Happens in both beta31 and beta31.2...

@@ -1,0 +1,18 @@
+### YamlMime:ContributionComment
+---
+uid: "93799"
+user: "Westbam"
+created: "27 Dec, 2012 - 13:17"
+body: |-
+  Hoy smoke, missed this one, but this is a gamechanger for quick patching some GUI elements. 
+  
+  Thank you a million!!
+  
+  In full screen mode the keyboard shortcuts dont seem to work. (beta29). 
+  It seems like the Alpha value of the color is add at the end of the process, it 'jumps on'. but since I use coloralpha=false for my lights, I don't mind.
+  
+  Minor Wishlist: 
+  Use a texture (alpha enabled) as background.
+  Add a parameter to hide the colormode picker.
+  A way to scale the menu from within vvvv.
+  When disabled we still see the help and shortcuts menu.

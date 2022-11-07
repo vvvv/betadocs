@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "216891"
+user: "DiMiX"
+created: "20 Feb, 2016 - 17:30"
+body: |-
+  Hi woei,
+  thanks for contribution! very nice!
+  Is there a way to archive that deformed grid persists its changes?
+  Like with "normal" mesh to write changed position values in Buffer (Spreads) and over FrameDelay build new mesh. 
+  I don't get how I can insert new position values somewhere before Attractor (Cloth). We have Split but no Joint (Cloth) to modify VertexBuffer.
+  Thanks, Dimi
+  ![](https://vvvv.org/sites/default/files/imagecache/large/images/sh.jpg)

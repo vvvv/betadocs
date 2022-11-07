@@ -1,0 +1,22 @@
+### YamlMime:ContributionComment
+---
+uid: "230160"
+user: "elliotwoods"
+created: "20 Oct, 2016 - 01:30"
+body: |-
+  @lassemunk @sunep
+  thanks for figuring out about pack location!
+  
+  i noticed that vux's latest release is missing DirectXTex
+  so that's why I added it to my zip, but i needed to put those dll's into the dx11 folder location in order for them to work
+  hence you need to unzip this pack at vvvv.exe so that everything lands correctly
+  
+  @lassemunk - concerning R16_UNorm saving (e.g. depth map)
+  AFAIK, this should be supported correctly so i'm sad to hear it's broken
+  
+  i'm sorry but i don't have time to look into this right now
+  
+  the source is available at:
+  https://github.com/elliotwoods/VVVV.Nodes.ReadBack
+  in case you want to (know somebody to) have a go at fixing it.
+  otherwise please can you add an issue there

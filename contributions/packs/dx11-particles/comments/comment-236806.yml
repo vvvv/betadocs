@@ -1,0 +1,18 @@
+### YamlMime:ContributionComment
+---
+uid: "236806"
+user: "mrboni"
+created: "16 Mar, 2017 - 18:53"
+body: |-
+  @tmp - ooops, missed that.  Easily done using the dynamic modifiers!
+  
+  
+  Btw - awesome contribution :)
+  
+  
+  
+  Also -   What's the best way to draw splines following a particle's path?  I'm currently trying - 
+  
+  - attribute buffer (position out)  >  verlet (3d buffer)  >  spline buffered 
+  
+  but it's not quite right. Also I don't know how to set the spline count to only the number of alive particles..

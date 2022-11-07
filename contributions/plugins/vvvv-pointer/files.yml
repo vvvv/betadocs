@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/vvvv.pointer-files"
+url: "vvvv-pointer"
+category: "plugin"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "VVVV.Pointer_v1.0.zip"
+            description: |-
+              beta 39
+            
+            timestamp: "19 Jun, 2020 - 14:06"
+            download_count: "1"

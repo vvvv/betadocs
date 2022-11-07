@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "154793"
+user: "csmith16"
+created: "07 May, 2014 - 11:18"
+body: |-
+  Yep, I have kept the KinectTest patch and dll file together and tried opening them from the root of the vvvv folder, from a folder within the root and from the desktop as well.
+  
+  I will keep trying, but thank you for all your help!

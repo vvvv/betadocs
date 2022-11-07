@@ -1,0 +1,36 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/plugin-for-softkinetic-ds325-creative-interactive-gesture-camera-with-intel-perceptual--files"
+url: "plugin-for-softkinetic-ds325-creative-interactive-gesture-camera-with-intel-perceptual-computing-sdk"
+category: "plugin"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "2"
+            filename: "20130507_PCSDK Release 01.zip"
+            description: |-
+              release 1 version
+            
+            timestamp: "07 May, 2013 - 00:26"
+            download_count: "2"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "1"
+                    filename: "20130130_PCSDK Beta 2.zip"
+                    description: |-
+                      beta 2 version (deprecated)
+                    
+                    timestamp: "30 Jan, 2013 - 14:57"
+                    download_count: "4"
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "02_PCSDK DS325.zip"
+                    description: |-
+                      beta 1 version (deprecated)
+                    
+                    timestamp: "15 Nov, 2012 - 17:16"
+                    download_count: "1"

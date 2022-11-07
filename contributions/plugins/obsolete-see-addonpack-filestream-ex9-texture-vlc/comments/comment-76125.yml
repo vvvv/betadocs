@@ -1,0 +1,23 @@
+### YamlMime:ContributionComment
+---
+uid: "76125"
+user: "barbarerik"
+created: "11 Feb, 2012 - 15:08"
+body: |-
+  got alpha 27.1 - but did not addonpack (should i?)
+  have some error on start up... application unstable
+  
+  instal vlc 1.2 and Vlc0_5 for b27_1
+  
+  
+  i am trying to play just for testing
+  m4v, wmv - width 4000 or 3000
+  
+  i can switch between them in speed of light but in one minute whole vvvv fall down
+  
+  those are last msgs two different crash: 
+  
+  -Memory to texture eRenderer A0+ <evaluate> entering mutex failed ...
+  -Memory to texture eRenderer A0+ texture needs to be resize
+  
+  I have 2g sli video ram and those videos are 10sec cca 20mb

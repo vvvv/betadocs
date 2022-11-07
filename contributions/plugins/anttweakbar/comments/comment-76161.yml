@@ -1,0 +1,16 @@
+### YamlMime:ContributionComment
+---
+uid: "76161"
+user: "m4d"
+created: "12 Feb, 2012 - 16:06"
+body: |-
+  running here now! (beta 27, win7 x64) :)
+  
+  edit: on changing the renderer to second monitor it poofs with logging this to the console:
+  
+  ```
+  00:06:15     : I am from DestroyDeviceData
+  00:06:15  -  : AsDesktop: 1600 x 1200
+  00:06:15     : I am from CreateDeviceData
+  00:06:15     : I am from UpdateDeviceData
+  ```

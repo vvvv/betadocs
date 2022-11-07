@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "72586"
+user: "elliotwoods"
+created: "30 Nov, 2011 - 07:46"
+body: |-
+  @sunep - seperate plugin for OpenNI which works with EmguCV, but if you dont want to use OpenNI you don't need it

@@ -1,0 +1,14 @@
+### YamlMime:ContributionComment
+---
+uid: "152563"
+user: "sansui"
+created: "28 Mar, 2014 - 12:50"
+body: |-
+  [sanch](http://vvvv.org/users/sanch), hi
+  I used this plugin very usefully.
+  but, I have a trouble in parse of using JSON Array node.
+  {key1 : <{key2:value2},%20{key3:value3},%20{key4:value4}> }
+  this data could parse successfully.
+  but this data couldn't in case of just only json array except of key.
+  <{key2:value2},%20{key3:value3},%20{key4:value4}>
+  maybe, I think JSON Array node always need path value.

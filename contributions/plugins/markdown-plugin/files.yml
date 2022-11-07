@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/markdown-plugin-files"
+url: "markdown-plugin"
+category: "plugin"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "markdown.7z"
+            description: |-
+              1.0
+            
+            timestamp: "09 May, 2014 - 13:06"
+            download_count: "3"

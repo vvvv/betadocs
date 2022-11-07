@@ -1,0 +1,36 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/dualshock-2-sony-playstation-2-controller-files"
+url: "dualshock-2-sony-playstation-2-controller"
+category: "module"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "2"
+            filename: "siliconsoul.zip"
+            description: |-
+              module version with repaired path and changed helppatchname
+            
+            timestamp: "23 Jul, 2010 - 08:54"
+            download_count: "1"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "1"
+                    filename: "Sony PlayStation 2 Controller MO.zip"
+                    description: |-
+                      This is the module optimized version. Just drop the complete siliconsoul folder into the modules folder.
+                    
+                    timestamp: "22 Jul, 2010 - 13:10"
+                    download_count: "2"
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "Sony PlayStation 2 Controller.zip"
+                    description: |-
+                      For those who are curious and just want to have a look, download this.
+                    
+                    timestamp: "22 Jul, 2010 - 13:10"
+                    download_count: "2"

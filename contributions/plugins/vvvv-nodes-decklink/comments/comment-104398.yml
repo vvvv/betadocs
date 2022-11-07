@@ -1,0 +1,35 @@
+### YamlMime:ContributionComment
+---
+uid: "104398"
+user: "vjc4"
+created: "30 Jul, 2013 - 17:17"
+body: |-
+  My source video its a sony cx12 1080i connected by HDMI
+  
+  bmdMode HD1080p2997 works fine, videoimputflagdefault, no interlace, but i have 2 images 1 over the second one
+  like a 3d stream... so im cropping the top one
+  (the top one works 1/2 frame latter than the buton one ),,, this is with mainloop at 60fps
+  so im cropping the button one to get my 1080p video working fine,,, but it will be half resolution on Y axys
+  
+  the other mode that works its bmdModeHD1080i5994 but with a heavy heavy interlaced effect
+  funny thing,,, Media Express works just fine under the same setting 1080i59.94... no delay, no interlaced.
+  
+  this is my camera, but i will be using it with 50i cameras,,, 50p works just fine, but with the interlace i have thar issue
+  
+  on the other hand, i connected the hdmi out of my gx670 to the intensity pro...
+  and i was able to get the image on this mode Hd1080i6000 but with fliks and interlaced..
+  on 1080p30 i get the same as before, 2 streams one over eachother, and if i crop them, it works fine... but it doest look rigth....
+  all this is on vvvv
+  
+  On media Express 1080i60 it seems to works fine... but on 4v this doest work fine,,,
+  
+  workarround on this ?
+  
+  im plaing to convert the signal from the video mixer (sdi) to hdmi, put it in a kramer video unit, and reconvert it to any format that vvvv handles rigth
+  
+  what are the setting that you guys used ? 
+  
+  
+  Pd i made a simple test... my camera pointing at mi screen1, there i have lfo running and a mainloop countinf frames, with a mainloop on 30fps, on the screen2 its the output of the blackmagic,,, i recoreded everything with a go pro hero3 at 240fps to get this frame http://postimg.org/image/wyrh0lqnb/
+  
+  it seems 4 frames delay, 166ms,,, this is the minimun delay possible ?

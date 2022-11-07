@@ -1,0 +1,15 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/colorama-meta"
+type: "effect"
+author: "catweasel"
+date: "15 Dec, 2017"
+title: "Colorama"
+originalURL: "contribution/colorama"
+category: "effect"
+credits: |-
+  catweasel, tonfilm, woei
+like_count: "6"
+imported: "true"
+teaser: |-
+  One of the oldest fx in afterfx, and still useful, colourise an image with a spread of colours, and position those colours within the greyscale of an image, also includes a colour cycle input for those 90's amiga demoscene effects, and a gamma for the shape of the interpolation. Colour count clamps the gamma and position spread sizes, so if it looks weird, cheap if you have too many, too few, or the aren't increasing in value in the position.

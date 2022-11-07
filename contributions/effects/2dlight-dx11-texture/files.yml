@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/2dlight-(dx11.texture)-files"
+url: "2dlight-dx11-texture"
+category: "effect"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "2DLight (DX11.Texture).zip"
+            description: |-
+              v1.0
+            
+            timestamp: "24 Mar, 2017 - 16:35"
+            download_count: "2"

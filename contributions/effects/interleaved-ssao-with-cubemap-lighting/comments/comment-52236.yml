@@ -1,0 +1,10 @@
+### YamlMime:ContributionComment
+---
+uid: "52236"
+user: "m4d"
+created: "26 Aug, 2010 - 18:52"
+body: |-
+  hey, thanks for the feedback! i attached a fixed version which should run on ati cards. actually it's the exact same shader with the compile target set to vertexshader model 3.0. i have absolutely no idea why that is necessary, but it seems fair enough as long as it runs..
+  
+  edit: this also seems to work for other shaders which refuse to render on ati gpus.
+  edit2: sorry, i uploaded the wrong version 0.2 first. if you've already downloaded it, please update for ati compatibility ;)

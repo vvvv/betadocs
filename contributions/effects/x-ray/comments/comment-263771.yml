@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "263771"
+user: "pankao"
+created: "26 Aug, 2018 - 15:29"
+body: |-
+  Hey man thank for this!
+  Just cannot get the effect working when i istantiate it from scratch though - it works in your help patch, but even when i clone it (via CTRL+D) in the same patch, the Layout Output node says 0 and I cannot see the rendered geometry anymore..
+  Does anyone else have this issue?

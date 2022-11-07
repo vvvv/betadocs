@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "84344"
+user: "Desaxismundi"
+created: "17 Jun, 2012 - 14:03"
+body: |-
+  putting dll's inside C:\vvvv_45beta27.2\addonpack\lib\nodes\plugins should do it.

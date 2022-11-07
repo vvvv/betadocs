@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "91856"
+user: "microdee"
+created: "25 Nov, 2012 - 22:54"
+body: |-
+  that's blurperfector not getslice. looks like nowadays blurperfector acts very strangely if i recall well it was good in b27 or b27.1 addonpack copy that blurperfector to b28's addonpack, or if you're good without it simply turn it off. also the same technique is used in [mre-mdmod](xref:contribution/mre-mdmod) with some improvements and it was created in b28.1. there is a good blurperfector inside SSAO as well

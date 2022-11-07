@@ -1,0 +1,21 @@
+### YamlMime:ContributionComment
+---
+uid: "85400"
+user: "eno"
+created: "09 Jul, 2012 - 12:52"
+body: |-
+  Hi Elliot
+  I've tried to run the Blackmagic SDI card with your plugin with no success. The SDI card is not an intensity model, so it was likely that it wouldnt work ... Anyways here's the error message I get for it:
+  
+  ```
+  ERROR : Die COM-Klassenfactory für die Komponente mit CLSID {1F2E109A-8F4F-49E4-9203-135595CB6FA5} konnte aufgrund des folgenden Fehlers nicht abgerufen werden: 80040154 Klasse nicht registriert (Ausnahme von HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG)).
+  ```
+  
+  There's various SDKs from Datapath, DVS, Blackmagic ... that offer these GPUDirect functions in comjunction with the Quadro Cards. We have a sample setup from DVS running here and are looking into the details what it means to port that into a v4 plugin right now. So it would of course be interesting to see the performance gain in direct comparison to your solution ...
+  
+  Interesting with the GPUDirect is that you can also write back to the card and output SDI again. DVS says they have a minimal latency of 2 frames for in-process-out. 
+  (To get access to their SDK you have to regsiter on the site.)
+  
+  I'll try reach you on skype the next days, maybe we can work something out together. 
+  
+  Do you have an idea how much work it would be to add support for the Blackmagic SDI card? Or to port the approach to more professional cards like datapath or dvs?

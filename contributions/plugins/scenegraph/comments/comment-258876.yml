@@ -1,0 +1,17 @@
+### YamlMime:ContributionComment
+---
+uid: "258876"
+user: "readme"
+created: "20 Jul, 2018 - 10:15"
+body: |-
+  This is huge and provides a solution to a problem that's been a pain in vvvv, while environments like Unity offer way smoother and integrated asset handling/scene explorers.
+  
+  Exactly what I had in mind when writing this:
+  https://discourse.vvvv.org/t/thirdparty-extensions/16387
+  
+  Still, it doesn't solve the problem that these approaches don't ship with vvvv/don't integrate well as there's no proper interface to load those modules up but to manually place them in your patch.
+  
+  Anyway, I very much welcome this. Finally something that aims to provide high level user friendliness.
+  Just a couple of vvvv nuisances left in this regard. I will address this at the summer camp.
+  
+  Thank you!

@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "251729"
+user: "tonfilm"
+created: "04 May, 2018 - 16:07"
+body: |-
+  @catweasel @u7angle and @Takuma
+  
+  i've checked the repo and found the place that requires some change:
+  
+  [OpenVRManager.cs Line 48](https://github.com/tebjan/VVVV.OpenVR/blob/master/src/VVVV.OpenVR.Core/Core/OpenVRManager.cs#L48)
+  
+  if you have a vive and someone with basic c# skills you can hack it. otherwise you have to wait until we have a vive setup here in the office and i have to time to dig into it.

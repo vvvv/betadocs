@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "101388"
+user: "elio"
+created: "26 May, 2013 - 00:22"
+body: |-
+  NvOptimusEnablement ist just a weak switch (comes after the hardware switch on the notebook and the nvidia control panel whitelist) for forcing performance mode.
+  When I tried it, this switch did not switch me to performance mode. Perhaps it's because i have just a dll and cannot put the code into the extern "C" exported variable into the executable itself... maybe.
+  
+  I asked NVidia on the devtalk forum if Optimus has a problem with the GL/DX interop features, but they do not seem to respond. Does someone have a better connection to nvidia?
+  if it does not work, the less-easy-to-use cuda way would be the only chance.
+  
+  PS: The new Wyphon-based Freeframe-Plugins (texture import AND export!) will come soon. ft and me, we're on it.

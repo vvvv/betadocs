@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/windowhandler-(vvvv)-files"
+url: "windowhandler-vvvv"
+category: "plugin"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "WindowHandler_v1.0.zip"
+            timestamp: "25 Oct, 2017 - 23:54"
+            download_count: "1"

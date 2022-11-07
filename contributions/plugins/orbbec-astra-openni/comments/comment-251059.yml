@@ -1,0 +1,12 @@
+### YamlMime:ContributionComment
+---
+uid: "251059"
+user: "tmp"
+created: "23 Apr, 2018 - 18:59"
+body: |-
+  @nrsz:
+  there seems to be a new info regarding the problem with the rgb node:
+  https://3dclub.orbbec3d.com/t/astra-pro-rgb-stream-using-openni/1015/4
+  
+  @all:
+  I updated the dx11.particles pack. It now has a wrapper and an emitter node for the orbbec astra. See latest version on github.

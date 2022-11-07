@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "251999"
+user: "circuitb"
+created: "07 May, 2018 - 12:57"
+body: |-
+  great one Microdee!! thanks
+  side note : on windows 8.1 seems you need to install Microsoft .NET Framework 4.7.1 :<https://www.microsoft.com/en-US/download/details.aspx?id=56116>
+  otherwise you get a System.ValueTuple´3´ error probably related to this AllowFeedback thing since tty ask for a framedelay!

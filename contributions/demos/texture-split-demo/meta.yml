@@ -1,0 +1,17 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/texture-split-demo-meta"
+type: "demo"
+author: "gregsn"
+date: "13 Aug, 2012"
+title: "texture split demo"
+originalURL: "contribution/texture-split-demo"
+category: "demo"
+credits: |-
+  unc for his texture effects. download the addonpack!
+like_count: "4"
+imported: "true"
+teaser: |-
+  a small patch that identifies texels in a depth texture
+  
+  you need beta28 for that.

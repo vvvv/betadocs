@@ -1,0 +1,10 @@
+### YamlMime:ContributionComment
+---
+uid: "57950"
+user: "sugokuGENKI"
+created: "04 Jan, 2011 - 11:27"
+body: |-
+  the pipet will pipet a World XYZ position at a camera XY position.
+  So you feed in a Vector2D in camera space, and it'll return a Vector3D in world space.
+  
+  Currently, you have to render the whole XYZ data for it to work (i.e. call the RenderXYZ() function, which isn't called if the WorldXYZ texture pin isn't connected)

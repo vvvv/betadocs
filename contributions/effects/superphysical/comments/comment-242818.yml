@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "242818"
+user: "letoast"
+created: "19 Jul, 2017 - 15:29"
+body: |-
+  Oh lord, I never thought it would be that simple. I wanted to fix it so at first I started replacing variables one by one with constants to see what each one does. Then I was thinking that something might be wrong in the CookTorrance implementation, so I cross referenced an opengl implementation of it with yours, but I saw yours was ok and after that I kind of gave up... Didn't know it was the kD causing the problems, but going through all of the code out of nothing, just to remember what all of the variables stand for was also not something I was prepared to do :D
+  
+  As far as I understood it you just wanted to colorize the cubemap with the global reflection color?
+  
+  Thanks for the quick reply, though!

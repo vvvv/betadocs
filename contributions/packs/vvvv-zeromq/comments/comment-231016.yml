@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "231016"
+user: "velcrome"
+created: "03 Nov, 2016 - 21:52"
+body: |-
+  it cannot. zeromq at its core can only utilize tcp, ipc and pgm as transport protocol, to make it act reliable (which udp never is, but which you'll only see when your network is under pressure).
+  
+  for udp based osc, use the standard vvvv issued <span class="node">UDP (Network Client)</span> and have a look into [OSC](xref:5c4b731d-1e09-44ab-8bc9-8e4bae97bc75).

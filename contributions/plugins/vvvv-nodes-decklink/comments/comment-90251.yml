@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "90251"
+user: "io"
+created: "25 Oct, 2012 - 09:30"
+body: |-
+  ASUS P8P67 REV 3.0 ---> not working (asmedia chip)
+  ASUS P8P67 REV 3.1 ---> should work (nec chip)

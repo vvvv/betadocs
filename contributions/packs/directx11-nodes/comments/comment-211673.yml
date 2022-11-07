@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "211673"
+user: "mediadog"
+created: "28 Nov, 2015 - 01:39"
+body: |-
+  In the latest version (33.7) Text nodes are red on two systems that have never had Visual Studio installed on them, they are OK on systems that have.  This is with 33.7_x86 and 34.2_x86, in all cases setup.exe is all green.
+  
+  Running Dependency Walker on VVVV.DX11.Nodes.Text.dll shows two DLLs as missing:  MSVCP120D.DLL and MSVCR120D.DLL.  Note these are debug version of the C runtime libraries.
+  
+  Looks like this package is distributed as a debug build, and should not be?

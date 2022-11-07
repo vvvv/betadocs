@@ -1,0 +1,23 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/cube-tree-vl-meta"
+type: "demo"
+author: "tonfilm"
+date: "14 Apr, 2016"
+title: "Cube Tree VL"
+originalURL: "contribution/cube-tree-vl"
+category: "demo"
+credits: |-
+  joreg, gregsn
+like_count: "8"
+imported: "true"
+teaser: |-
+  Little demo of how to create tree structures with transformations in VL.
+  Also to click around und learn some VL concepts...
+  
+  Needs [vvvv alpha](https://vvvv.org/downloads/previews) with integrated VL to run.
+  
+  <div class="box">
+  Note:
+  This is now included in the VL integration pack and comes with the vvvv download. Have a look into the /girlpower folder.
+  </div>

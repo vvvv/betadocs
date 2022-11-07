@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "163860"
+user: "casinowilhelm"
+created: "01 Sep, 2014 - 22:45"
+body: |-
+  anyone managed to get vvvv and unity to share a spout? Is it possible right now? Tried benkuper's methods but no joy so far, best I've maanged is a white texture in the vvvv receiver. (but with the correct info in the receiver patch, so something is kind of working).
+  
+  I will try on a different pc tomorrow...

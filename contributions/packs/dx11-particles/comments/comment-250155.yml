@@ -1,0 +1,16 @@
+### YamlMime:ContributionComment
+---
+uid: "250155"
+user: "tmp"
+created: "16 Mar, 2018 - 12:56"
+body: |-
+  @ggml
+  
+  everything in this pack is a gpu job, since all calculations/modifications/selections are done with compute shaders. and yes. everything should work on intel gpu's. 
+  
+  @StiX
+  
+  Cannot confirm. Everything working as expected here. I updated the helppatch of that node in the repository. You can download it here: 
+  https://raw.githubusercontent.com/letmp/dx11-particles/master/packs/dx11.particles/nodes/modules/Modifiers/Age%20(DX11.Particles.Modifiers)%20help.v4p
+  
+  There you should see in the bottom right that the age modifier is working.

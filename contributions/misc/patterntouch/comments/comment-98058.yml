@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "98058"
+user: "Alec"
+created: "14 Mar, 2013 - 10:44"
+body: |-
+  Hey alg,
+  first of all thanks for sharing your work!
+  I tried your PatternTouchDebug patch and I found a strange behavior. When I scale or rotate 2 objects at the same time (e.g. using a multitouch with 4 hands), sometimes the transformations work only on 1 object. In this case the ID number on the bug object is -1. I tested the patch with a IR multitouch frame.

@@ -1,0 +1,36 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/shadertoy-renderer-files"
+url: "shadertoy-renderer"
+category: "plugin"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "3"
+            filename: "ShadertoyRenderer v0.3.zip"
+            description: |-
+              build on beta36 dx11
+            
+            timestamp: "21 Sep, 2018 - 15:39"
+            download_count: "1"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "2"
+                    filename: "ShadertoyRenderer v0.2 dx11.zip"
+                    timestamp: "13 Mar, 2016 - 07:15"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "1"
+                    filename: "ShadertoyRenderer v0.2 dx9.zip"
+                    timestamp: "13 Mar, 2016 - 06:31"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "ShadertoyRenderer v0.1.zip"
+                    timestamp: "20 Feb, 2016 - 23:33"
+                    download_count: "1"

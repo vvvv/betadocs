@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "253927"
+user: "readme"
+created: "23 May, 2018 - 20:07"
+body: |-
+  works for me as well, been experiencing some glitches when switching renderers, rewiring texture ressources, or having HBAO+ in a second patch like the help patch at the same time.
+  vvvv was freezing on me and hovering texture pins would introduce a 1-2 second lag until vvvv recovered and a tooltip was shown.
+  Will check tomorrow again to reproduce.
+  
+  Thank you!

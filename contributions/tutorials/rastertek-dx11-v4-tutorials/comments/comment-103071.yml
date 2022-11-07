@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "103071"
+user: "tekcor"
+created: "30 Jun, 2013 - 14:28"
+body: |-
+  hey this is amazing work. it helps me a lot. but one thing i noticed with the shadows are framedrops to 0 coming from the GPU once every 5-10 seconds. can someone confirm? GTX660M here.

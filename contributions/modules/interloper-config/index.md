@@ -1,0 +1,53 @@
+---
+uid: "contribution/interloper-config"
+uid-meta: "contribution/interloper-config-meta"
+uid-files: "contribution/interloper-config-files"
+title: "Interloper Config"
+contribution: "true"
+---
+
+Interloper is a set of tools for letting people who don't use vvvv configure your vvvv program without a UI. 
+It does this via using simple human readable text files and/or OSC commands. 
+It regularly scans for updates so you can make changes to the file in your favourite text editor, press save and shortly see those changes in vvvv. 
+
+It was originally intended for when you're working with technical people who either aren't vvvv coders or you don't want to expose the vvvv interface BUT you do want to give them access to some deep inner workings of your program. These 'interlopers' can make changes by editing the config file. 
+
+It's also handy if you will deploy several instances of your patches that need local configuration (EG IP addresses) and you have the patches under active development. You can safely update all patches on a given machine but leave the local config file in place so you don't overwrite local settings. 
+
+It comes with an extension that allows config values to be read and set by OSC. This is handy if your technical collaborators are familiar with MAX or Pure Data or Isadora or some other environment that talks OSC. They can build their own interface for controlling your program. 
+
+
+USAGE 
+See 'Interloper (file config) help.v4p' 
+NOTE Interloper relies on having only one master 'interloper (file config)' node existing globally in a vvvv instance. Opening this as a regular helppatch via F1 can cause red nodes (because to open a helppatch that means at least two of a node will exist - the original one and the one in the helppatch). Either open the helppatch directly in the interloper folder with no other patch running OR temporarily delete the 'interloper (file config)' node from your main patch. 
+
+OSC PROTOCOL 
+See the '_InterloperOSCExample.v4p' patch for setup
+Each function can be enabled/disabled individually
+ 
+Default receive port 12020 
+Default send port 12010 
+
+Both input and output parameters are always in the format /Interloper/<parameter name> with argument STRING = <parameter payload>
+
+Send /Interloper/ReadoutAll with argument STRING =<your IP address> to port 12020 
+And you will get a readout of all parameters returned to you at the specified IP on port 12010 
+
+When a parameter changes it will be sent to the IP addresses specified at the InterloperOSC node.
+NOTE that this auto report happens wether the parameter is changed locally (editing the text file) or changed via OSC. This can potentially cause a feedback loop if you make a receiving interface with the same logic (Eg it will also receive changes via osc and automatically send out an osc string on change.)
+Switch off the auto report functionality if this is a problem and instead manually ask for /ReadoutAll as required. 
+
+To set a parameter remotely send it as /Interloper/<Parameter name> with argument STRING = <Parameter Payload> 
+NOTE that this system is intended for setting configuration parameters occasionally. It's not intended for sending continuous values as it writes to disk every operation. And only reads from disk every few seconds. 
+
+Send /Interloper/RestoreDefault/ with no argument to restore to the specified default config 
+
+Readonly parameters can also be sent via OSC. These are just regular vvvv ioboxes that you want to broadcast the value of, they don't appear in the config files. 
+They will be in the format /Interloper/ReadOnly/<ParameterName> 
+
+
+
+REQUIREMENTS 
+Developed in vvvv50beta38.1 
+Requires Addonpack 
+Uses VL

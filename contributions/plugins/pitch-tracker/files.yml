@@ -1,0 +1,54 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/pitch-tracker-files"
+url: "pitch-tracker"
+category: "plugin"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "4"
+            filename: "pitch tracker.zip"
+            description: |-
+              Includes the new VAudio node. Thanks to tonfilm for the help.
+            
+            timestamp: "18 Oct, 2014 - 05:24"
+            download_count: "32"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "3"
+                    filename: "pitch-tracker.zip"
+                    description: |-
+                      Features now a detection bang. Thanks to velcrome for the suggestion.
+                    
+                    timestamp: "12 Oct, 2014 - 15:49"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "2"
+                    filename: "guitar tuner.v4p"
+                    description: |-
+                      Guitar tuner example with bang.
+                    
+                    timestamp: "12 Oct, 2014 - 15:49"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "1"
+                    filename: "pitch-tracker.zip"
+                    description: |-
+                      DEPRECATED. Pitch Tracker 19253 with NAudio 1.7.1.17
+                    
+                    timestamp: "11 Oct, 2014 - 17:48"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "guitar tuner.v4p"
+                    description: |-
+                      DEPRECATED. Guitar tuner example.
+                    
+                    timestamp: "11 Oct, 2014 - 21:40"
+                    download_count: "5"

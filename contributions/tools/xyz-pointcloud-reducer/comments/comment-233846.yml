@@ -1,0 +1,21 @@
+### YamlMime:ContributionComment
+---
+uid: "233846"
+user: "id144"
+created: "30 Dec, 2016 - 21:12"
+body: |-
+  ![](https://vvvv.org/sites/default/files/imagecache/large/images/screenshot1483131386.png) 
+  
+  @andresc4	
+  Made a small test with pointcloud data stored in DDS.  Loads and renders really fast and it's easy to control pointcount too!  
+  [particles-from-dds](/blog/particles-from-dds)
+  
+  For reconstructions I use RealityCapture, the sample is from project Forest which we made back in 2014.
+  
+  1. I've exported photogrametric reconstruction into .XYZ pointcloud
+  2. In my tool I've added export to two binary files (.raw) (xyz coordinates stored as Single, rgb as bytes)
+  3. Opened the binary files in Photoshop using RAW import
+  4. Saved as DDS
+  5. Loaded as textures and connected to a custom particle shader.
+  
+  For huge pointclouds it would be best to have LOD management, something like octree. (Potree for WebGL which you posted does have octree)

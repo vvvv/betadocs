@@ -1,0 +1,34 @@
+---
+uid: "contribution/project-templates"
+uid-meta: "contribution/project-templates-meta"
+comments: 
+ items: 
+  - uid: "216453"
+  - uid: "216565"
+  - uid: "216566"
+  - uid: "238686"
+  - uid: "239539"
+uid-files: "contribution/project-templates-files"
+title: "Project Templates"
+image: "thumbnail.jpg"
+contribution: "true"
+---
+
+This is a bit experimental contribution, it **needs a discussion**, but from my experience it's ultra important and not solved in vvvv at all.
+consisting of two parts:
+
+
+###  Project Templates
+First, using it speeds up your work. That is proved and well tested. 
+Second, you know the feeling, when you open your patch a month after you created it and have no clue, how a hell could it work? This should help, keeping structure pushes you to follow the most basic rules. In worst case it moves the mess from root patch two levels down :) **Fixed project structure** is actually very good in case you ever wanted to cooperate with somebody and even more beneficial to companies. Its all prepared and empty, just about to start patching.
+
+The idea behind is to have template projects prepared for typical use cases. We do similar things many times (like a touch-table). Lets just prepare a template for it. Forcing you to keep the structure goes with it like a by the way detail.
+
+
+###  StageCounter
+is an alternative to Automata for project stage-logics. The problem I have with Automata is that I usually end with a number of "all to all" goto connections. 
+
+StageCounter outputs one stage, represented by a number or a name, to control your project, inputs change to state from Send nodes. It's usually all you need, because information about transition is just in a change of stage from last frame. It works with Send and Receive nodes and is not spreadable, so you shouldn't go crazy with it. This one global variable is generally not vvvv way of doing things, I just found it very useful in this specific case where v4 guys often have problems. And its clean and ultra fast way to make programs with it. There is an example included. This time I'm very curious about your responses as now it is very useful for me, but should be more open to others.
+
+
+Both parts work together and help me to create projects much faster.

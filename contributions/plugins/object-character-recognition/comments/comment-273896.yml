@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "273896"
+user: "u7angel"
+created: "01 Oct, 2019 - 10:07"
+body: |-
+  @dEp , have you tried the 32bit version of vvvv ? not sure which lib version i used here. and it is really just a simple code example. just check it out. if it doesn‘t work, its most likely a library problem aka dependency.
+  
+  i would not spend to much time with this because the results are mediocre. makes more sense to look for a better solution.

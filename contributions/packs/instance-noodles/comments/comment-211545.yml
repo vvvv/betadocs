@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "211545"
+user: "everyoneishappy"
+created: "26 Nov, 2015 - 12:54"
+body: |-
+  @io are you feeding it an empty buffer at the start?
+  You can't use control point binsizing with that shader, you can make it but probably better off as a separate version.  If you have a look in the 'compute sources' girlpower you'll find one way of doing it (you'll still need to modify the hlsl quite a bit though).

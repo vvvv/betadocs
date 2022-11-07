@@ -1,0 +1,31 @@
+{
+    "$schema": "https://dotnet.github.io/docfx/schemas/v1.0/schema.json#",
+    "version": "1.0.0",
+    "id": "contribution-meta",
+    "description": "The Schema for Contributions-Meta",
+    "title": "ContributionMeta",
+    "type": "object",
+    "properties": {
+        "author": {
+            "type": "string"
+        },
+        "title": {
+            "type": "string"
+        },
+        "date": {
+            "type": "string"
+        },
+        "category": {
+            "type": "string"
+        },
+        "teaser": {
+            "type": "string",
+            "contentType": "markdown"
+        },
+        "credits": {
+            "type": "string",
+            "contentType": "markdown"
+        }
+    },
+    "xrefProperties": [ "teaser", "author", "title", "credits", "date", "category" ]
+}

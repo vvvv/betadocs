@@ -1,0 +1,16 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/mix-(transform)-meta"
+type: "plugin"
+author: "digitalwannabe"
+date: "13 May, 2014"
+title: "Mix (Transform)"
+originalURL: "contribution/mix-(transform)"
+category: "plugin"
+like_count: "5"
+imported: "true"
+teaser: |-
+  Mix 2 transforms. Including helpfile.
+  
+  
+  Most times you'd probably better mix values running into transforms than the transforms itself; however, I needed this in a situation where I only had the transforms left to work with; it turned out to be useful in some other cases too; also, it's fun for animations!

@@ -1,0 +1,19 @@
+### YamlMime:ContributionComment
+---
+uid: "58220"
+user: "lasal"
+created: "09 Jan, 2011 - 22:47"
+body: |-
+  Here i have the texture but it looks wrong...
+  
+  ```
+  float4 PS(vs2ps In): COLOR
+  {
+      float4 col = tex2D(Samp2, PhongDirectional(In.NormV, In.ViewDirV, In.LightDirV)*Alpha);
+   
+     return col ;
+      
+  
+     
+  }
+  ```

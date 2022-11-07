@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "268557"
+user: "mediadog"
+created: "05 Oct, 2018 - 02:05"
+body: |-
+  I also am seeing the send show up in the SpoutReceiver program, but when selected it is black.  This is with the Spout DX mode set to CPU.
+  
+  This is on an Intel GFX system, so SpoutReceiver will not work when mode is set to Texture GPU, complaining "Cannot create DX11/OpenGL interop" as soon as the vvvv source is selected, which the Spout docs say requires nVidia graphics.
+  
+  So it appears sending only works on nVidia - is that not the case?

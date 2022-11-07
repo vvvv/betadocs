@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "223952"
+user: "digitalwannabe"
+created: "02 Aug, 2016 - 12:58"
+body: |-
+  aha, that's interesting indeed, and supposedly easier in most common cases. I'd say they serve different needs too, LibTessss I guess is a lot faster and will be the better option (less inputs) for all cases when you need to mesh any 2d area, not really caring about how it's triangulated.....like you said for some shader applications more points on the edge or inside the mesh (+more information) will be useful though; as eg for shape-aware computations too, which is what I'm working on. plus: they're beautiful :)

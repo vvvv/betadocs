@@ -1,0 +1,60 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/directx11-nodes-meta"
+type: "pack"
+author: "vux"
+date: "02 Apr, 2013"
+title: "DirectX11 Nodes"
+originalURL: "contribution/directx11-nodes"
+category: "pack"
+credits: |-
+  dottore for testing, helping, m4d for all night support, testing...,devvvvs for fixing bugs and adding features, unc and lecloneur for porting texturefx
+  
+  many other I forget, ping me :)
+like_count: "63"
+imported: "true"
+teaser: |-
+  DirectX11 rendering for vvvv (update 1.3)
+  
+  See changes here: [directx11-1.3-update](/blog/directx11-1.3-update)
+  
+  1.3.1 :
+  * Adds a small bug fix in case two group or enabled layers are stacked (exception would prevent rest of the groups to process)
+  * Adds a small issue if texture FX is in a disabled patch, sometimes would not resume.
+  * TextureFX that can use "wantmips" now do so (Edge, Blur, BlurDirectional, BlurGlow, BlurPerfector, DistortFlow, DropShadow, UnsharpMask) . They are all faster in that scenario.
+  
+  General Changelog here : 
+  https://github.com/mrvux/dx11-vvvv/blob/master/CHANGELOG.md
+  
+  Requires vvvv beta33.7 or newer.
+  
+  Install Guide:
+  * Download relevant version
+  * Copy folder into vvvv directory, like you would do for addonpack or any other pack.
+  
+  Submit bugs:
+  https://github.com/mrvux/dx11-vvvv/issues
+  
+  Support development:
+  * Patreon : <http://www.patreon.com/mrvux>
+  * Private invoice (EU registered company) : contact me
+  
+  Many thanks to people who are currently supporting development :
+  
+  * Meso
+  * Wirmachenbunt
+  * Microdee
+  * Irwin Quemener - CloneProduction
+  * Intolight
+  * Ivan Kabalin
+  * Daniel Huber
+  * m4d
+  * Chris Plant
+  * Kyle McLean
+  * Andres
+  * Lev Panov
+  * Natan Sinigaglia
+  * Antokhio
+  * Andres
+  * Paul
+  * Jonas Häutle

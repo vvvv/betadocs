@@ -1,0 +1,45 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/vvvv.packs.projectorsimulation-files"
+url: "vvvv-packs-projectorsimulation"
+category: "module"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "3"
+            filename: "ProjectorSimulation_v2-b30.2.zip_.zip"
+            description: |-
+              VVVV.Packs.ProjectorSimulation v0.2 (b30.2 x86 + x64)
+            
+            timestamp: "27 Aug, 2013 - 08:32"
+            download_count: "1"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "2"
+                    filename: "ProjectorSimulation_v1-b30.2.zip"
+                    description: |-
+                      VVVV.Packs.ProjectorSimulation v0.1 (b30.2 x86 + x64)
+                    
+                    timestamp: "23 Aug, 2013 - 11:13"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "1"
+                    filename: "ProjectorSimulation.zip"
+                    description: |-
+                      VVVV.Packs.ProjectorSimulation v0.1
+                    
+                    timestamp: "23 Aug, 2013 - 07:09"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "ProjectorSimulation_v3-b22.zip"
+                    description: |-
+                      VVVV.Packs.ProjectorSimulation v0.3 (b22)
+                    
+                    timestamp: "22 May, 2014 - 15:23"
+                    download_count: "2"

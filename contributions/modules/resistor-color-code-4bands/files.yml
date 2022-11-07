@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/resistor-color-code-(4bands)-files"
+url: "resistor-color-code-4bands"
+category: "module"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "Resistor4Band.zip"
+            description: |-
+              a quick patch to check your resistors (updated)
+            
+            timestamp: "04 Dec, 2012 - 15:06"
+            download_count: "1"

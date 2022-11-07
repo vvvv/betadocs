@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "213469"
+user: "mediadog"
+created: "23 Dec, 2015 - 23:48"
+body: |-
+  Well seems the ContextAndImages node had just lost the CreationInfo pin, and once I put that back in it works.
+  
+  BUT - the framerate is roughly 1 depth image update every 2-4 seconds!  That's even with a single Xtion hooked up.  This is with 33.7_x86.
+  
+  Anyone using the OpenNI nodes now and seeing full speed?  Again this is with the Pro, not Live, so there is no RGB.

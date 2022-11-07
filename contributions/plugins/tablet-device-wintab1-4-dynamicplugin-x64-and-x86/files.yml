@@ -1,0 +1,24 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/tablet-(device-wintab1.4)-dynamicplugin-x64-and-x86-files"
+url: "tablet-device-wintab1-4-dynamicplugin-x64-and-x86"
+category: "plugin"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "1"
+            filename: "Tablet (Device Wintab1.4).zip"
+            description: |-
+              Exlusive Mode fixed, now work without focus
+            
+            timestamp: "20 May, 2014 - 14:12"
+            download_count: "1"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "Tablet (Device Wintab1.4).zip"
+                    timestamp: "07 May, 2014 - 15:03"
+                    download_count: "2"

@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "235336"
+user: "kalle"
+created: "16 Feb, 2017 - 16:45"
+body: |-
+  hiho
+  
+  since i discovered and disabled the <span class="pin">Post Present Handoff</span> on <span class="node">Compositor (OpenVR)</span> my HTCvive runs fine with 90fps and no more ghosting. even with the headmounted Leapmotion :)

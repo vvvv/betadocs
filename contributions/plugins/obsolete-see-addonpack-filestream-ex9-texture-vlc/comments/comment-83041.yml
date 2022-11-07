@@ -1,0 +1,12 @@
+### YamlMime:ContributionComment
+---
+uid: "83041"
+user: "DiMiX"
+created: "19 May, 2012 - 14:37"
+body: |-
+  Hi ft,
+  now i am on beta27.2 with latest plugin+ libvlc_searchpath.txt
+  my VLC is 2.0.1 
+  and I still have the same issue: 
+  if VLC is connected to TextureFX, after reopen - texture output is not correct until you break output link and reconnect it again.
+  cheers

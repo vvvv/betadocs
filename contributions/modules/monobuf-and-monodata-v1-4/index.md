@@ -1,0 +1,30 @@
+---
+uid: "contribution/monobuf-and-monodata-v1.4"
+uid-meta: "contribution/monobuf-and-monodata-v1.4-meta"
+comments: 
+ items: 
+  - uid: "62442"
+  - uid: "84023"
+  - uid: "84037"
+  - uid: "84259"
+  - uid: "84263"
+  - uid: "84350"
+uid-files: "contribution/monobuf-and-monodata-v1.4-files"
+title: "MonoBuf and MonoData v1.4"
+contribution: "true"
+---
+
+Update v1.4 (1.3 was buggy): Added ability to modify individual slices in MonoData.
+
+Update v1.2: Fixed lifetime working correctly with spreads/changing values.  Added "Pause" and "Clear" input pins, and "Inverse" output pin (goes from 0 to 1 through lifetime).  Also should always be guaranteed of getting a zero lifetime and value (and inverse of one) for one frame at the end of the life (for triggering things like MIDI note-off) before that slice is removed from the spread.
+
+Update v1.1: Now correctly handles spreads on the input pins.  Also added a "Mod" input pin to MonoData to optionally modify the stored data each frame - example in the help file.
+
+I needed the ability to dynamically create a spread of objects with a specifiable lifetime, and couldn't find exactly what I was looking for.  In my case I am creating visual objects from music data received via OSC, but this should work for particle systems and more as you can add as many arbitrary data spreads as you want.
+
+Just add a MonoBuf node, give it the desired lifetime (in seconds), and bang the create pin.  A new slice will be added, and when that slice's lifetime has expired, it will be automatically removed.  MonoBuf provides as output spreads of the remaining time-to-life in seconds and a normalized lifetime (1 to 0) of each slice.
+
+You can connect the "master" MonoBuf node to any number of MonoData nodes, and whatever data you want will be associated slice-wise in their output spread.
+
+Helpfile included; please post any questions/comments/good jokes.
+

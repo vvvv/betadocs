@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "223744"
+user: "microdee"
+created: "29 Jul, 2016 - 15:07"
+body: |-
+  cool! I've checked it out and I'm currently making it a little bit more modular and exposing more data. especially neighbors, edges and stuff like that
+  
+  here you go [triangledx11-renderer](/blog/triangledx11-renderer) ;)

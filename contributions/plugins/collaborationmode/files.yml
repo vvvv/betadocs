@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/collaborationmode-files"
+url: "collaborationmode"
+category: "plugin"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "CollaborationMode.zip"
+            description: |-
+              v1.3
+            
+            timestamp: "11 Oct, 2014 - 13:10"
+            download_count: "1"

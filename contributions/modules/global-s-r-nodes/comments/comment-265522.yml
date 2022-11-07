@@ -1,0 +1,19 @@
+### YamlMime:ContributionComment
+---
+uid: "265522"
+user: "ravazquez"
+created: "09 Sep, 2018 - 20:47"
+body: |-
+  hey colorsound: thanks for the kind words, glad to hear it is useful for you.
+  
+  Regarding your requests:
+  
+  - an "Add" bang pin is fairly easy to add, I will get it done soon and update you on it. My only question is, should this manual bang be now the only way to send data, or should I add another pin on the lines of "AutoUpdate" or something similar which let's you decide if you want the manual bang or the onChange behavior? Any thoughts?
+  
+  - having the nodes know which value in the spread has changed so only that value is updated is a bit more tricky since I do not really have any information on the execution order in which the S nodes are sending data.  An option from the top of my head would be to have an additional pin in which you can specify an index/name for the specific slice you want to write into, but this is effectively almost the same as having a separate Send node which writes only to that value. I need to give it some thought. An example of how/where you need it would be helpful to design the solution properly.
+  
+  - as for the dynamic input pins to choose where you are adding or removing data, sounds to me like you want direct write access to the inner data structure holding all the values. I could add a couple of more nodes like GetData/SetData which take in the name of the S/R and a spread of values, allowing you to set the inner structure's data manually, would this be handy? Here again an example of what you are trying to achieve would be best to think about an optimal solution.
+  
+  Let me know what your thoughts are.
+  
+  Cheers!

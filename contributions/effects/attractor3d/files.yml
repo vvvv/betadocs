@@ -1,0 +1,36 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/attractor3d-files"
+url: "attractor3d"
+category: "effect"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "2"
+            filename: "Attractor3d_0.3.zip"
+            description: |-
+              added spreddable attractor
+            
+            timestamp: "13 Nov, 2010 - 15:14"
+            download_count: "2"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "1"
+                    filename: "Attractor3d_0.2.zip"
+                    description: |-
+                      basic version + phong point attractor shader
+                    
+                    timestamp: "10 Oct, 2010 - 13:41"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "Attractor3d.zip"
+                    description: |-
+                      first basic version
+                    
+                    timestamp: "05 Aug, 2010 - 00:02"
+                    download_count: "1"

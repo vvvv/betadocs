@@ -1,0 +1,19 @@
+### YamlMime:ContributionComment
+---
+uid: "265467"
+user: "colorsound"
+created: "09 Sep, 2018 - 12:04"
+body: |-
+  @ravazquez , thank you for this contribution pretty useful. 
+  
+  i was looking and asking for something similar here https://discourse.vvvv.org/t/asset-checker-file/16304/2
+  
+  but in this case of the forum link the value should change and remain in same slice like normal s r nodes. so if i get a 0 it change to 0 and if i get a 1 it changes to 1 in same slice instead of adding a new slice in the spread. not sure if this behavior is posible too in your s r nodes ? 
+  
+  some more features requests ;D : 
+  
+  it seems now it adds values on a sort of internal onchange which is cool but a swith or something to add manually would be very helpful, could we add some manual add bang input pin for better control of it ? 
+  
+  and more powerfull and advance is to include an add and remove input pins choosing the slice input pin of the spread in which to add or remove. 
+  
+  great contrib ¡¡

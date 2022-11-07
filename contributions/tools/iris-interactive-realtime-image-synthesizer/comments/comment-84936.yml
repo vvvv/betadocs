@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "84936"
+user: "eno"
+created: "28 Jun, 2012 - 09:17"
+body: |-
+  Hey Chris,
+  I totally understand your concerns, and I think it's important to discuss these openly. The current form of the EULA  is very rough and needs refinement and certainly doesnt cover all copyright aspects. The line that you quoted refers to the framework itself, not to any of the modules that you write for it.
+  But if you decide to improve the library functionality (which you are welcome to do, its obviously open source), which is part of the framework, and your improvement is being integrated into the standard iris distribution at some point, you agree that we can continue to distribute and evetually sell iris including your contribution to the framework.
+  Ideally, iris comes with only a few example modules that show how to make new ones, and you dont have to touch the iris download at all. We claim property only for the framework, not for the content modules. And we encourage users to share their modules, but that can well happen outside of the iris download.
+  We would of course be super happy if you decided to work with iris, and we should work out an EULA that covers the needs of users and developers respectively. So please, feel free to also contribute to the agreement, and we work one out together.
+  Ditto, best regards,
+  Eno.

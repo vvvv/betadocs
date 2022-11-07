@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/spout-dx11-files"
+url: "spout-dx11"
+category: "pack"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "dx11-Spout.zip"
+            timestamp: "05 Sep, 2016 - 16:29"
+            download_count: "3"

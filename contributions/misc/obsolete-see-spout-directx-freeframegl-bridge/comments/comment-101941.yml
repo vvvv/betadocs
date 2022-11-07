@@ -1,0 +1,16 @@
+### YamlMime:ContributionComment
+---
+uid: "101941"
+user: "metrowave"
+created: "07 Jun, 2013 - 02:06"
+body: |-
+  @leonida: (or anyone having problem... it's really easy)
+  
+  make a new text file in vvvv directory, then in it type the following two lines:
+  
+  @echo off
+  vvvv.exe /dx9ex
+  
+  Save it, then change the extension from .txt to .bat, now double click this batch file to start vvvv (this is a batch file to start vvvv with /dx9ex command line option). In vvvv root open the patch: ShareTextureInfo(OpenGl,Interop)help.v4p, and look at first inlet of "ShareTextureInfo" node which is "name for sharing" and copy the name or name it something yourself (the current default name in that help patch is "vvvvToResolume/MainRenderer1". Copy this name to the shared name parameter in Resolume resources and click update. That's it it should work. 
+  
+  My graphic card is also NVIDIA Quadro FX 4800, and I tried this with vvvv_45beta30_x86, Win 7 x64 and Resolume 4.1.6.

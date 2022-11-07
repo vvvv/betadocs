@@ -1,0 +1,18 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/udraw-hid-meta"
+type: "plugin"
+author: "m4d"
+date: "08 Dec, 2013"
+title: "uDraw HID"
+originalURL: "contribution/udraw-hid"
+category: "plugin"
+credits: |-
+  [Brandon Wilson](http://brandonw.net/udraw/) for working out the protocol.
+  [West](http://vvvv.org/users/West) for sponsoring this node by sending me a uDraw. Thanks Buddy! :)
+like_count: "4"
+imported: "true"
+teaser: |-
+  This is a small convenience node to decode the HID input of a uDraw tablet. (PS3 Version)
+  
+  PS: extra points for the one who figures out the multitouch angle stuff. (see sourcecode)

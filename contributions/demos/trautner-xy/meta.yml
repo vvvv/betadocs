@@ -1,0 +1,15 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/trautner-xy-meta"
+type: "demo"
+author: "manuel"
+date: "29 Jul, 2010"
+title: "Trautner xy"
+originalURL: "contribution/trautner-xy"
+category: "demo"
+credits: |-
+  IIR from [kalle ](http://vvvv.org/users/kalle+)and [tonfilm](http://vvvv.org/users/tonfilm)
+like_count: "10"
+imported: "true"
+teaser: |-
+  Not sure if this gets as a module. so made it just as a demo on how to get xy position with trautner plugin.

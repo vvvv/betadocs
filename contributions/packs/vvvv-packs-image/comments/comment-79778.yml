@@ -1,0 +1,22 @@
+### YamlMime:ContributionComment
+---
+uid: "79778"
+user: "elliotwoods"
+created: "16 Mar, 2012 - 14:00"
+body: |-
+  hey all
+  sorry for the silence
+  
+  @robe - there are 2 VideoIn nodes (one is video for windows, the other is directshow)
+  have you tried with both. the vfw one doesn't support capture properties so may be better for you?
+  also (including a discussion right now on skype with colorsound) a dedicated ps3eye / opencv plugin is really the way to go (as you say)
+  need to merge that  earlier code (with texture out) into opencv version
+  
+  @circuitb
+  timestamp is currently for structured light
+  when you encode a frame it gets timestamped, and then when you recieve it you look for a matching timestamp
+  since with normal directshow cameras you have no idea what the delay of the camera is, you can manually adjust the timestamp offset with that videoin's timestamp pin
+  
+  
+  apologies about openni compatability
+  in future i'll mark which openni version the release was made (with download links to get the files)

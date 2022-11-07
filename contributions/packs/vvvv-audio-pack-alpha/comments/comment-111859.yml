@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "111859"
+user: "sunep"
+created: "25 Dec, 2013 - 23:33"
+body: |-
+  Midi yoke works as well as LoopBe actually at the same time. Midi yoke gives you 8 channels of midi as opposed to LoopBe's one channel in the free version. just be aware that you need to disable UAC when installing midi yoke and that it only works with 32bit vvvv.

@@ -1,0 +1,45 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/anttweakbar-files"
+url: "anttweakbar"
+category: "plugin"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "3"
+            filename: "AntTweakBar_1.0.zip"
+            description: |-
+              added new features, build for beta32
+            
+            timestamp: "08 Jun, 2014 - 15:07"
+            download_count: "1"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "2"
+                    filename: "AntTweakBar_0.92.zip"
+                    description: |-
+                      fixed error >beta28
+                    
+                    timestamp: "25 Dec, 2012 - 08:18"
+                    download_count: "2"
+                - file:
+                    bit: "64"
+                    delta: "1"
+                    filename: "AntTweakBar_0.91.zip"
+                    description: |-
+                      renderer re-size bug fixed and support full-screen mode
+                    
+                    timestamp: "14 Feb, 2012 - 10:27"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "AntTweakBar_0.9_fixed.zip"
+                    description: |-
+                      compile with Release mode
+                    
+                    timestamp: "12 Feb, 2012 - 06:35"
+                    download_count: "1"

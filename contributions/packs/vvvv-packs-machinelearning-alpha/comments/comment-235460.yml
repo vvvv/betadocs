@@ -1,0 +1,10 @@
+### YamlMime:ContributionComment
+---
+uid: "235460"
+user: "id144"
+created: "21 Feb, 2017 - 10:22"
+body: |-
+  @isdzaurov it is in x86 version
+  vvvv_50beta35_x86\packs\VVVV.Packs.MachineLearning\girlpower\face_recognition.v4p
+  
+  It is because FreeFrame FaceTracker lib used by the example is x86 only. I can imagine it's quite easy to replace it with Kinect HDFace and get much more compelling results.

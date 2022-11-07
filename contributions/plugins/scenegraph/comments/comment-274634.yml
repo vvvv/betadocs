@@ -1,0 +1,18 @@
+### YamlMime:ContributionComment
+---
+uid: "274634"
+user: "manuel"
+created: "19 Dec, 2019 - 18:57"
+body: |-
+  When I try to open any simplecar.fbx example, it doesnt work
+  
+  00:08:15     : cannot load C:\vvvv\vvvv_beta_39_x64\packs\SceneGraph\assets\simplecar.fbx
+  00:08:15 ERR : System.ArgumentException in System.Xml.Linq: '' is an invalid expanded name.
+  
+  Stacktrace:
+     at System.Xml.Linq.XName.Get(String expandedName)
+     at SceneGraph.Core.GraphTraversing.ToXElement(GraphNode node)
+     at SceneGraph.Core.GraphTraversing.ToXElement(GraphNode node)
+     at SceneGraph.Core.Scene`1.CreateGraph()
+     at SceneGraph.Adaptors.SceneAssimp.CreateGraph()
+     at VVVV.SceneGraph.LoaderSceneGraphNode.Evaluate(Int32 spreadMax)

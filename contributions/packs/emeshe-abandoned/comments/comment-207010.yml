@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "207010"
+user: "featherfurl"
+created: "28 Sep, 2015 - 07:25"
+body: |-
+  Hey, I found an issue with the "Camera (Transform Microdee)" node where a divide by zero bug was causing similar problems to what letoast was experiencing. Went in and fixed it so that the divide node couldn't receive zero anymore, and it seemed to fix things.
+  
+  Just a heads up.

@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/update-renderer-window-files"
+url: "update-renderer-window"
+category: "module"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "update window.zip"
+            description: |-
+              update window 0.1
+            
+            timestamp: "07 Feb, 2012 - 09:04"
+            download_count: "3"

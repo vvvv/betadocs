@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "250735"
+user: "StiX"
+created: "05 Apr, 2018 - 16:20"
+body: |-
+  you need to look into porting https://developer.nvidia.com/flex
+  touch designer has it so it should be possible for v4

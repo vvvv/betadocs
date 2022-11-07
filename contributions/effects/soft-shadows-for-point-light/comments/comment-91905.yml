@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "91905"
+user: "microdee"
+created: "26 Nov, 2012 - 22:42"
+body: |-
+  in mre.mdmod there is a main light selected which will cast shadows. the color is straightforward with this contribution simply add a constant color to the shadow pass and multiply it over your scene. it's not that simple in mre.mdmod as the shadows are calculated in the same pass as the scene. however the approach should be the same with mre as well just inside the shader.

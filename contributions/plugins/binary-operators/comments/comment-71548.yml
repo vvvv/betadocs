@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "71548"
+user: "West"
+created: "07 Nov, 2011 - 11:58"
+body: |-
+  Thank you for fast bit, this is more dynamic than the one I build from Radix nodes. Any clever way to build a reversed version?
+  
+  I had to put MSBandLSB.dll in the Bin directory to make this work, is the plugin folder not a better option?

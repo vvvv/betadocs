@@ -1,0 +1,10 @@
+### YamlMime:ContributionComment
+---
+uid: "181103"
+user: "Carlos Mononoke"
+created: "04 Jan, 2015 - 15:56"
+body: |-
+  hi i think inkscape svg file have no line object.
+  only path object.
+  i have done one draw with every tool and look on xml editor from inkscape and always are path except on rectangules that apear rect could be this posible or i am in a mistake?? thanks
+  ![xml editor](https://vvvv.org/sites/default/files/imagecache/large/images/pantallaink_0.png)

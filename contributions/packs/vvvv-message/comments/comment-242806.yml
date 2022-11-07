@@ -1,0 +1,10 @@
+### YamlMime:ContributionComment
+---
+uid: "242806"
+user: "mfo"
+created: "19 Jul, 2017 - 10:39"
+body: |-
+  @aivenhoe is probably right, I've downloaded the latest zip from GitHub (compiled against beta35.8) and it is working nicely. 
+  Great work @velcrome , this is a beautiful tool! 
+  
+  EDIT: Spoke too soon. Create and Split aren't working for me with new Formulars. Old patches do work, but changing or making new formulars doesn't.

@@ -1,0 +1,18 @@
+### YamlMime:ContributionComment
+---
+uid: "102034"
+user: "leonida"
+created: "09 Jun, 2013 - 00:48"
+body: |-
+  @metrowave : 
+  
+  I followed the instructions step by step, are very simple.
+  Start the bat file and after "ShareTextureInfo (OpenGL, Interop) help.v4p."
+  after using "ShareTextureInfo (OpenGL, Interop). V4P" See my name sharing that in the case of the example is: (vvvvToResolume / MainRenderer).
+  start Resolume 4.1.6, I select the plug-in "rr_dxTexture.dll," write the name of sharing and I click update, but nothing appears.
+  I have to copy vvvv_45beta30_x86 in C:?
+  how should I configure the preferences Resolume? ..
+  
+  could you be kind enough to explain to me the proper configuration of both vvvv and Resolume ..
+  
+  thanks

@@ -1,0 +1,22 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/gml-parser-meta"
+type: "module"
+author: "peter"
+date: "24 Sep, 2010"
+title: "GML Parser"
+originalURL: "contribution/gml-parser"
+category: "module"
+credits: |-
+  hrovac and tonfilm for answering topics with similar approach in the forum.
+like_count: "4"
+imported: "true"
+teaser: |-
+  ParseGML simply parses GML files and outputs the data.
+  Use HTTP (Network Get) or Reader to feed it with a .gml file.
+  
+  about GML:
+  http://graffitianalysis.com/gml/
+  
+  GML Database:
+  http://000000book.com

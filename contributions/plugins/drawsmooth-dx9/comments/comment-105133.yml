@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "105133"
+user: "alg"
+created: "20 Aug, 2013 - 19:56"
+body: |-
+  If someone can post issue with test case on GitHub, it will be fixed. Also, i think i didn't published the new version, with small empty space fix.
+  
+  Issue should include v4p file, or if it's crushing on default file, please send log from Renderer (TTY).

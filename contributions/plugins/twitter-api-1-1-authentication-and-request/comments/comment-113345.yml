@@ -1,0 +1,20 @@
+### YamlMime:ContributionComment
+---
+uid: "113345"
+user: "tekcor"
+created: "30 Jan, 2014 - 00:42"
+body: |-
+  hi soundreactor! 
+  
+  Thanks for the serious plugins. It seems like they changed a little bit the Access Token answer. I updated this and then it worked.
+  
+  But shouldn't tweets also work?
+  
+  https://dev.twitter.com/docs/api/1.1/post/statuses/update
+  
+  I cannot get it to work. Do you know what could be wrong?
+  
+  I uploaded the updated, working patch with the open question here [post-tweets-with-twitter-api](https://discourse.vvvv.org/t/post-tweets-with-twitter-api)
+  
+  
+  cheers

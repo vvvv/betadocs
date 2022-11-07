@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "99752"
+user: "antokhio"
+created: "17 Apr, 2013 - 18:35"
+body: |-
+  You have to be careful with this two pins. Thouse buggers can brake render.
+  **AA Quality always default (not sure it does something at all)
+  **AA Samples Per Pixel are only 0,2,4,8

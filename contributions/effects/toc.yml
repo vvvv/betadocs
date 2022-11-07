@@ -1,0 +1,292 @@
+- name: "2DLight (DX11.Texture)"
+  href: 2dlight-dx11-texture\index.md
+- name: "3D LUT Color Grading"
+  href: 3d-lut-color-grading\index.md
+- name: "3D Surfaces"
+  href: 3d-surfaces\index.md
+- name: "Acid glitch shaders"
+  href: acid-glitch-shaders\index.md
+- name: "Atmospheric Scattering"
+  href: atmospheric-scattering\index.md
+- name: "Attractor3d"
+  href: attractor3d\index.md
+- name: "Blend those pixels"
+  href: blend-those-pixels\index.md
+- name: "BlurGlowCat"
+  href: blurglowcat\index.md
+- name: "BumpGlossed + DX11 version"
+  href: bumpglossed-dx11-version\index.md
+- name: "BumpMappedNoise"
+  href: bumpmappednoise\index.md
+- name: "BUMPTECHS"
+  href: bumptechs\index.md
+- name: "Candy Layers"
+  href: candy-layers\index.md
+- name: "carpaint_texColor"
+  href: carpaint-texcolor\index.md
+- name: "CarPaint with Reflections"
+  href: carpaint-with-reflections\index.md
+- name: "Charcoal and Hatch"
+  href: charcoal-and-hatch\index.md
+- name: "Checker3d"
+  href: checker3d\index.md
+- name: "ClampFade"
+  href: clampfade\index.md
+- name: "Clock"
+  href: clock\index.md
+- name: "color wrap mixer"
+  href: color-wrap-mixer\index.md
+- name: "Colorama"
+  href: colorama\index.md
+- name: "Colorize(EX9.Texture Filter)"
+  href: colorize-ex9-texture-filter\index.md
+- name: "Contrast"
+  href: contrast\index.md
+- name: "CookTorranceMultiTexFresnel"
+  href: cooktorrancemultitexfresnel\index.md
+- name: "CRT Shader(DX11)"
+  href: crt-shader-dx11\index.md
+- name: "Datamosh (DX11)"
+  href: datamosh-dx11\index.md
+- name: "DeBayer (EX9.Texture Filter Bilinear)"
+  href: debayer-ex9-texture-filter-bilinear\index.md
+- name: "Deferred Shadow DX11"
+  href: deferred-shadow-dx11\index.md
+- name: "Deffered PCF Shadows"
+  href: deffered-pcf-shadows\index.md
+- name: "DeformShaderPack (EX9.Texture Filter)"
+  href: deformshaderpack-ex9-texture-filter\index.md
+- name: "Displacement Map"
+  href: displacement-map\index.md
+- name: "DOF"
+  href: dof\index.md
+- name: "DOF Filter"
+  href: dof-filter\index.md
+- name: "DoF & SSAO"
+  href: dof-ssao\index.md
+- name: "Droste"
+  href: droste\index.md
+- name: "DX11 Modules And Shaders Addition"
+  href: dx11-modules-and-shaders-addition\index.md
+- name: "DX11 Modules And Shaders Addition II"
+  href: dx11-modules-and-shaders-addition-ii\index.md
+- name: "DX11 Particles 2d Field Texture"
+  href: dx11-particles-2d-field-texture\index.md
+- name: "DX11 Vertex Noise & Attractor Explode"
+  href: dx11-vertex-noise-attractor-explode\index.md
+- name: "EdgeFuzz"
+  href: edgefuzz\index.md
+- name: "Elevation"
+  href: elevation\index.md
+- name: "FireTorch & FireBall"
+  href: firetorch-fireball\index.md
+- name: "FishSinus"
+  href: fishsinus\index.md
+- name: "Fog from Depthbuffer dx11"
+  href: fog-from-depthbuffer-dx11\index.md
+- name: "FromHell"
+  href: fromhell\index.md
+- name: "ft Cubic Lens Distortion"
+  href: ft-cubic-lens-distortion\index.md
+- name: "Fur Phong directionnal"
+  href: fur-phong-directionnal\index.md
+- name: "gDrip"
+  href: gdrip\index.md
+- name: "Glass (DX11.Effect)"
+  href: glass-dx11-effect\index.md
+- name: "Glow pass"
+  href: glow-pass\index.md
+- name: "goochyDirectional"
+  href: goochydirectional\index.md
+- name: "goochyPoint"
+  href: goochypoint\index.md
+- name: "GPU Fluid Solver"
+  href: gpu-fluid-solver\index.md
+- name: "Gradient Map"
+  href: gradient-map\index.md
+- name: "GSFX Per vertex normals"
+  href: gsfx-per-vertex-normals\index.md
+- name: "HBAO+"
+  href: hbao\index.md
+- name: "HDR Tone Mapping Technique"
+  href: hdr-tone-mapping-technique\index.md
+- name: "Heightmap Displacement"
+  href: heightmap-displacement\index.md
+- name: "HighPass (DX11.TextureFX)"
+  href: highpass-dx11-texturefx\index.md
+- name: "HueSaturation"
+  href: huesaturation\index.md
+- name: "Image Adjustment Pack"
+  href: image-adjustment-pack\index.md
+- name: "Intanced Tesselation and Displacement"
+  href: intanced-tesselation-and-displacement\index.md
+- name: "interleaved SSAO with cubemap lighting"
+  href: interleaved-ssao-with-cubemap-lighting\index.md
+- name: "Julia Fractal Axis Trap"
+  href: julia-fractal-axis-trap\index.md
+- name: "Julia Fractal Circle Trap"
+  href: julia-fractal-circle-trap\index.md
+- name: "Kinect Depth Fill"
+  href: kinect-depth-fill\index.md
+- name: "Kinect Point Cloud Shader"
+  href: kinect-point-cloud-shader\index.md
+- name: "KinoBokeh"
+  href: kinobokeh\index.md
+- name: "lambSkin"
+  href: lambskin\index.md
+- name: "LevelsRGB"
+  href: levelsrgb\index.md
+- name: "Line (GPU)"
+  href: line-gpu\index.md
+- name: "Mandelbulb"
+  href: mandelbulb\index.md
+- name: "MatCap™ technique from ZBrush"
+  href: matcaptm-technique-from-zbrush\index.md
+- name: "Metallica"
+  href: metallica\index.md
+- name: "MilkyDrop"
+  href: milkydrop\index.md
+- name: "Morph - Grid to Sphere and Torus"
+  href: morph-grid-to-sphere-and-torus\index.md
+- name: "Morphology"
+  href: morphology\index.md
+- name: "moscow_lava"
+  href: moscow-lava\index.md
+- name: "Motion Blur"
+  href: motion-blur\index.md
+- name: "Motion Blur 2"
+  href: motion-blur-0\index.md
+- name: "MrWiggle"
+  href: mrwiggle\index.md
+- name: "msmetallicflakes"
+  href: msmetallicflakes\index.md
+- name: "Multi Light Shaders"
+  href: multi-light-shaders\index.md
+- name: "Niukt"
+  href: niukt\index.md
+- name: "Ocean Shader"
+  href: ocean-shader\index.md
+- name: "Old TV post shader"
+  href: old-tv-post-shader\index.md
+- name: "Old User Shaders Page"
+  href: old-user-shaders-page\index.md
+- name: "OpticalFlow DX11 for real"
+  href: opticalflow-dx11-for-real\index.md
+- name: "Page Shader (DX11)"
+  href: page-shader-dx11\index.md
+- name: "Particle self repulsion 3d dx11"
+  href: particle-self-repulsion-3d-dx11\index.md
+- name: "Particle water"
+  href: particle-water\index.md
+- name: "ParticlesGPU_3D_Static_Typo (EX9.Effect)"
+  href: particlesgpu-3d-static-typo-ex9-effect\index.md
+- name: "ParticlesGPU Shader Library"
+  href: particlesgpu-shader-library\index.md
+- name: "PlasticDX9multipass"
+  href: plasticdx9multipass\index.md
+- name: "Point Sprites VL/Stride"
+  href: point-sprites-vl-stride\index.md
+- name: "pointsprites"
+  href: pointsprites\index.md
+- name: "Polar Coordinates"
+  href: polar-coordinates\index.md
+- name: "post-processing: Glow"
+  href: post-processing-glow\index.md
+- name: "post-processing: Normalize Color"
+  href: post-processing-normalize-color\index.md
+- name: "Procedural pixelshader cell noise color 3d"
+  href: procedural-pixelshader-cell-noise-color-3d\index.md
+- name: "pulse23"
+  href: pulse23\index.md
+- name: "QuadStripe (DX11.Layer)"
+  href: quadstripe-dx11-layer\index.md
+- name: "Reaction diffusion"
+  href: reaction-diffusion\index.md
+- name: "Reflections (DX11)"
+  href: reflections-dx11\index.md
+- name: "Ripple"
+  href: ripple\index.md
+- name: "Russian Christmas FX salad"
+  href: russian-christmas-fx-salad\index.md
+- name: "Self Align Shader DX11"
+  href: self-align-shader-dx11\index.md
+- name: "Shaderbox"
+  href: shaderbox\index.md
+- name: "shadertoys"
+  href: shadertoys\index.md
+- name: "Shift RGB"
+  href: shift-rgb\index.md
+- name: "Shine"
+  href: shine\index.md
+- name: "SiftHSV"
+  href: sifthsv\index.md
+- name: "Slitscan & Ringbuffer (DX11)"
+  href: slitscan-ringbuffer-dx11\index.md
+- name: "Smooth Per Vertex Normals"
+  href: smooth-per-vertex-normals\index.md
+- name: "Soft Shadows for Point Light"
+  href: soft-shadows-for-point-light\index.md
+- name: "Softedge Projection (DX11)"
+  href: softedge-projection-dx11\index.md
+- name: "SoftShadows"
+  href: softshadows\index.md
+- name: "Spatial Edge Blend shader"
+  href: spatial-edge-blend-shader\index.md
+- name: "Spectral Kinect"
+  href: spectral-kinect\index.md
+- name: "Sphere physic Dx11"
+  href: sphere-physic-dx11\index.md
+- name: "SplinesGPU"
+  href: splinesgpu\index.md
+- name: "SSAO"
+  href: ssao\index.md
+- name: "Starfield 3d GPU"
+  href: starfield-3d-gpu\index.md
+- name: "super emboss"
+  href: super-emboss\index.md
+- name: "SuperBlender, All In One Pass"
+  href: superblender-all-in-one-pass\index.md
+- name: "SuperPhysical"
+  href: superphysical\index.md
+- name: "Texture-Controlled-Blur"
+  href: texture-controlled-blur\index.md
+- name: "Texture-Controlled-Fade"
+  href: texture-controlled-fade\index.md
+- name: "Texture noise 3d"
+  href: texture-noise-3d\index.md
+- name: "ThinFilm"
+  href: thinfilm\index.md
+- name: "Tiled perlin noise generator"
+  href: tiled-perlin-noise-generator\index.md
+- name: "Topographic Phong Shader"
+  href: topographic-phong-shader\index.md
+- name: "Transition Pack#1"
+  href: transition-pack-1\index.md
+- name: "Transmittance"
+  href: transmittance\index.md
+- name: "Triangulation shader"
+  href: triangulation-shader\index.md
+- name: "Tunnels (EX9.Texture Filter)"
+  href: tunnels-ex9-texture-filter\index.md
+- name: "Vector Field TextureFX (DX11)"
+  href: vector-field-texturefx-dx11\index.md
+- name: "Velvety"
+  href: velvety\index.md
+- name: "Vertex Noise Pack"
+  href: vertex-noise-pack\index.md
+- name: "Vertex Normal Displacement"
+  href: vertex-normal-displacement\index.md
+- name: "voronoi tfx"
+  href: voronoi-tfx\index.md
+- name: "vvekend vvorkshops - raymarching basics"
+  href: vvekend-vvorkshops-raymarching-basics\index.md
+- name: "Wave Simulation (DX11)"
+  href: wave-simulation-dx11\index.md
+- name: "Wave Warp"
+  href: wave-warp\index.md
+- name: "Wood Shader"
+  href: wood-shader\index.md
+- name: "X-Ray"
+  href: x-ray\index.md
+- name: "Z1.0 filters"
+  href: z1-0-filters\index.md

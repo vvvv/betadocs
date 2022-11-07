@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "264394"
+user: "u7angel"
+created: "03 Sep, 2018 - 09:08"
+body: |-
+  looks interesting, but i don't really get the usecase. right now it looks like a queue node. why would i want to set a queue from random locations without a reference where the stuff is coming from. maybe you can provide a more practise based patch with comments. cheers

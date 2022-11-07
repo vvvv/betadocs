@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "66016"
+user: "catweasel"
+created: "30 Jun, 2011 - 20:14"
+body: |-
+  I've actually thought of something as good if not better than undo...
+  I'd like to be able to load and save sequences, an undo could be patched then, but also auto save, swapping projects, and if the saves are in an xml, keys could be created from vvvv, performances recorded and then edited...
+  All the power of vvvv combined with a timeline, then with image based shaders we could have a realtime video editor/after effects -> frame sync'd show controller.
+  As the standalone already saves in an external file, it must be half way there :P
+  What do you reckon Joreg?
+  
+  cat

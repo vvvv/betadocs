@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/sphere-physic-dx11-files"
+url: "sphere-physic-dx11"
+category: "effect"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "SpherePhysics.zip"
+            description: |-
+              simple physic simulation with sphere
+            
+            timestamp: "15 Aug, 2014 - 00:58"
+            download_count: "2"

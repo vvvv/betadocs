@@ -1,0 +1,10 @@
+### YamlMime:ContributionComment
+---
+uid: "65475"
+user: "circuitb"
+created: "19 Jun, 2011 - 11:02"
+body: |-
+  does anyone have some performance issue with the last release?
+  in windows 7 x64 task manager->performance tab
+  half of the cores (i7) have peak to 100%.. even if i close the OpenNi patch
+  i've to close vvvv to get  my cpu's back to normal

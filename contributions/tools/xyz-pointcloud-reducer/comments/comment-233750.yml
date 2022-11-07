@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "233750"
+user: "beyon"
+created: "28 Dec, 2016 - 16:16"
+body: |-
+  You should at least try to round the values instead of just truncating them, if you only use a few decimal digits the loss in accuracy could be rather significant depending on the data.

@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/node-15-compute-shader-workshop-patches-files"
+url: "node-15-compute-shader-workshop-patches"
+category: "tutorial"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "compute.zip"
+            timestamp: "24 Sep, 2015 - 12:43"
+            download_count: "1"

@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "76281"
+user: "bo27"
+created: "14 Feb, 2012 - 18:27"
+body: |-
+  hey bjoern, thank you for the contrib!
+  may i suggest 2 improovements?
+  1/ validate via root zones http://www.iana.org/domains/root/db/ (avoid locals, but only classic latin), 
+  since test@domainname.rus marked now as valid but it's not
+  test@domainname.ru is valid
+  2/ let more flexible names 
+  e.g. (_@domainname.com) now marked as not valid, but it is. i know, google not let to use signs, but some other services do, so _ and - sings should be welcome in the plug filters.

@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "224057"
+user: "ravazquez"
+created: "03 Aug, 2016 - 16:14"
+body: |-
+  An example of this behavior being used on a 3D texture can be seen [here.](/blog/diffusion-reaction-normal-bump-cook-torrence-brdf-pbr-wtf-ftw)
+  
+  Credits go to [tonfilm](http://vvvv.org/users/tonfilm) for porting the 2D algorithm to the 3D world.
+  
+  The shader credit for the nice 3D bump map effect I believe goes to [guest](http://vvvv.org/users/guest).
+  
+  Cheers!

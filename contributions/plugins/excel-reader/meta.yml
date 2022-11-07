@@ -1,0 +1,15 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/excel-reader-meta"
+type: "plugin"
+author: "vth1618"
+date: "23 Oct, 2015"
+title: "Excel Reader"
+originalURL: "contribution/excel-reader"
+category: "plugin"
+credits: |-
+  Use datas from an excel file in your patches
+like_count: "15"
+imported: "true"
+teaser: |-
+  Use datas from an excel file in your patches

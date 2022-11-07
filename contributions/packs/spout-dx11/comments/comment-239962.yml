@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "239962"
+user: "joreg"
+created: "23 May, 2017 - 10:45"
+body: |-
+  i'd be most interested in a test between vvvv with maxsender=40 (ie. latest alpha) and ue4/resolume with maxsender=10. to see if in that scenario they can still share those 10.

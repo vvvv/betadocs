@@ -1,0 +1,29 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/ebus-gige-camera-plugins-(ex9.texture)-meta"
+type: "plugin"
+author: "soriak"
+date: "28 Jan, 2015"
+title: "eBus GigE Camera Plugins (ex9.Texture)"
+originalURL: "contribution/ebus-gige-camera-plugins-(ex9.texture)"
+category: "plugin"
+credits: |-
+  robi_h, soriak
+like_count: "3"
+imported: "true"
+teaser: |-
+  comes as a package of three plugins and one helppatch: 
+  
+  - ListDevices 
+  - VideoCapture (ex9)
+  - SetFeature
+  
+  uses PvDotNet.dll of [Pleora's ebus SDK](http://www.pleora.com/our-products/ebus-sdk) - didn't quite understand if it actually supports all GenICam and gigE devices, but there's a chance...
+  
+  dll's should work as drag'n'drop into your project. Requires the eBus drivers to be installed!
+  
+  Still needs some cleaning and optimizing (on average one frame drops every three hours).
+  Tested with multiple Flir Thermal Cameras - one Capture Node for each Camera required though.
+  
+  developed at [StruktStudio](http://strukt.com)
+  source code will be put on [github](https://github.com/struktstudio) once we find time to clean it a little - some things seem overly complicated...

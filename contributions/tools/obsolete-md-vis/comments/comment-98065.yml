@@ -1,0 +1,23 @@
+### YamlMime:ContributionComment
+---
+uid: "98065"
+user: "Curveau"
+created: "14 Mar, 2013 - 12:19"
+body: |-
+  Hi there, 
+  
+  Thank you very much for your effort with this contribution microdee! 
+  
+  I'm just trying to run on Windows8 x64 - vvvv_45beta29.2_x86 
+  
+  
+  - I changed the .bat path files in both md.bot and md.mix
+  
+  - The patch would open only with no window
+  
+  - I then changed VVVV to start in Windows7 compatibility mode 
+  
+  - Now the VVVV gray splash square just freezes in the middle of the screen 
+  
+  
+  Any ideas?

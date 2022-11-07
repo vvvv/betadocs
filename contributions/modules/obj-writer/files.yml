@@ -1,0 +1,27 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/obj-writer-files"
+url: "obj-writer"
+category: "module"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "1"
+            filename: "obj writer.v4p"
+            description: |-
+              Updated version, should be more combatible. Tested with Meshlab and 3d print slicers
+            
+            timestamp: "29 Sep, 2014 - 12:18"
+            download_count: "2"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "obj writer.v4p"
+                    description: |-
+                      Utility to write meshes to OBJ format
+                    
+                    timestamp: "30 Oct, 2012 - 13:36"
+                    download_count: "1"

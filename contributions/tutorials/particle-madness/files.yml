@@ -1,0 +1,24 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/particle-madness-files"
+url: "particle-madness"
+category: "tutorial"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "1"
+            filename: "Particles Workshop.zip"
+            timestamp: "05 Mar, 2013 - 23:15"
+            download_count: "4"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "ParticleSystem_07withGourand and LitSphere(emitterCol, rndSize).zip"
+                    description: |-
+                      I've added a gourandDirectional and LitSphere shaders, Litsphere has no normals however
+                    
+                    timestamp: "16 Sep, 2013 - 15:49"
+                    download_count: "1"

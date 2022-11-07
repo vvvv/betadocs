@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "223833"
+user: "microdee"
+created: "31 Jul, 2016 - 13:56"
+body: |-
+  Neighbors are better at determining edges apparently then vertex boundary markers as "neighbor < 0 is: opposite edge is boundary". while vertex boundary markers doesn't tell you accurate edge information (like when 2 edges are lying on contour that is making all vertices to lie on contour in that case you can't find out which edges are boundary solely with vertex boundary markers)
+  
+  + neighbors can help find smooth normals for the extrusion bevels. For Tetgen neighbors might be used on physics to simulate soft bodies, or do stress simulations. My rule of thumb in this situations are even if I don't immediately know a use case for a data it worth exposing it because someone else might know a use case I have absolutely no knowledge about.
+  
+  Also you got competition ;) [libtessss-+-cv.image-contour](/blog/libtessss-+-cv.image-contour)

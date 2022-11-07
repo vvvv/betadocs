@@ -1,0 +1,21 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/cooktorrancemultitexfresnel-files"
+url: "cooktorrancemultitexfresnel"
+category: "effect"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "1"
+            filename: "CookTorranceMultiTextureFresnel (DX11.EffectShader).zip"
+            timestamp: "27 Aug, 2016 - 10:49"
+            download_count: "1"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "CookTorranceMultiTexFresnel.zip"
+                    timestamp: "22 Jun, 2010 - 16:22"
+                    download_count: "1"

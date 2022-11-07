@@ -1,0 +1,27 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/timestring-files"
+url: "timestring"
+category: "plugin"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "1"
+            filename: "TimeStringandDeciTime.zip"
+            description: |-
+              0.2
+            
+            timestamp: "09 Oct, 2012 - 11:41"
+            download_count: "1"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "TimeString.zip"
+                    description: |-
+                      initial version
+                    
+                    timestamp: "09 Oct, 2012 - 09:28"
+                    download_count: "1"

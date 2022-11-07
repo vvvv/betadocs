@@ -1,0 +1,22 @@
+### YamlMime:ContributionComment
+---
+uid: "220586"
+user: "UWG"
+created: "03 Jun, 2016 - 08:33"
+body: |-
+  Good Morning,
+  I have a question regarding the Oculus patch I found on this link
+  
+  https://vvvv.org/contribution/oculus-rift-dk2-0
+  
+  It works perfectly.
+  
+  I have to create a Journey in my Oculus experience, so I need to move my camera in different positions in Space.
+  
+  In the patch the point of view of Oculus it seems Fixed, I can watch around in the 3d environment only from the same point of view and I 'm not able to move it.
+  
+  Could you please help me to find a solution?
+  
+  Thank you
+  
+  Tom

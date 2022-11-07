@@ -1,0 +1,15 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/touch-damper-aka-id-based-animation-filter-meta"
+type: "module"
+author: "u7angel"
+date: "03 Sep, 2019"
+title: "Touch Damper aka Id-based-animation-filter"
+originalURL: "contribution/touch-damper-aka-id-based-animation-filter"
+category: "module"
+credits: |-
+  joreg
+like_count: "1"
+imported: "true"
+teaser: |-
+  this patch can reduce jitter in touch data with changing spreadcount. thanks to joreg for providing this neat solution.

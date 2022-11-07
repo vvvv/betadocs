@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "274054"
+user: "vnm"
+created: "23 Oct, 2019 - 17:14"
+body: |-
+  @nzo.nzo multidevice is tricky. 
+  In simple case, use some vvvv instances.
+  I have  multidevice plugin for live view, but it supports only live view and doesnt have any settings.

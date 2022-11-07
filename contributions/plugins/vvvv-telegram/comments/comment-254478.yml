@@ -1,0 +1,22 @@
+### YamlMime:ContributionComment
+---
+uid: "254478"
+user: "guest"
+created: "31 May, 2018 - 11:53"
+body: |-
+  just to let you know 
+  if a disconnection occur and you try to reconnect the BotClient
+  an error message popup and freeze the patch until you click continue
+  
+  
+  See the end of this message for details on invoking 
+  just-in-time (JIT) debugging instead of this dialog box.
+  
+  ************** Exception Text **************
+  System.Net.WebException: The remote name could not be resolved: 'api.telegram.org'
+     at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+     at System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+  
+  
+  anyway 
+  great contrib!!

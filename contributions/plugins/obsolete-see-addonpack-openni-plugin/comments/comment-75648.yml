@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "75648"
+user: "arash"
+created: "02 Feb, 2012 - 16:54"
+body: |-
+  Copying openNI.net.dll to the plug-in directory solved the prob!

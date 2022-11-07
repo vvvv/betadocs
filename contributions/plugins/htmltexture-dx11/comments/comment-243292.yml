@@ -1,0 +1,14 @@
+### YamlMime:ContributionComment
+---
+uid: "243292"
+user: "keftaparty"
+created: "07 Aug, 2017 - 13:43"
+body: |-
+  Hi , 
+  I tried...
+  I'm totally noob into compiling, but I would love to manage to do it.
+  I'm getting errors that some references are missing.
+  I think I need to add VVVV.core and DX11 references somewhere ( Nuget ? ) but I am not managing to make it.
+  Some help would be great.
+  Thanks
+  Mehdi

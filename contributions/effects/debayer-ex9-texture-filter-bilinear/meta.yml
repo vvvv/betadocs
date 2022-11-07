@@ -1,0 +1,13 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/debayer-(ex9.texture-filter-bilinear)-meta"
+type: "effect"
+author: "elektromeier"
+date: "14 May, 2014"
+title: "DeBayer (EX9.Texture Filter Bilinear)"
+originalURL: "contribution/debayer-(ex9.texture-filter-bilinear)"
+category: "effect"
+like_count: "4"
+imported: "true"
+teaser: |-
+  Please note that pixels around the borders of the image are not treated correctly for now. they dont have all neighbourpixels so the averaging should be treated differently.

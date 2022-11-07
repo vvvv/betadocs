@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "220384"
+user: "eno"
+created: "27 May, 2016 - 07:14"
+body: |-
+  Are you experiencing that? I never tried. The Colorspace conversion is happening on GPU for sure, so if you share after that, it probably impacts the performance. The Input stream is going 'only' thru CPU though, so maybe it works well; but hinetsly I don't know how devices are handled if there are several available ...

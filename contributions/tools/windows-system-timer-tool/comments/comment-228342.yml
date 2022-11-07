@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "228342"
+user: "tonfilm"
+created: "20 Sep, 2016 - 18:13"
+body: |-
+  @marcelxvi there might be another software running that checks the timer and sets it back to 0.5. so you need to disable all running software one after another to see which one is setting the timer to 0.5.
+  
+  what windows are you using?

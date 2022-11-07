@@ -1,0 +1,10 @@
+### YamlMime:ContributionComment
+---
+uid: "114904"
+user: "catweasel"
+created: "03 Mar, 2014 - 20:23"
+body: |-
+  https://www.dropbox.com/s/0w2ixipm0b7qyw6/AudioFilePlayback%2B.v4p
+  
+  Just the help patch from girlpower with added +
+  This is using my RME card, both asio4all and native dont work with it, beta31.2 and the latest Vaudio...

@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/camera-with-cinema4d-controls-files"
+url: "camera-with-cinema4d-controls"
+category: "module"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "Camera (Transform Cinema4d).v4p"
+            description: |-
+              Camera with Cinema4d Controls
+            
+            timestamp: "20 May, 2011 - 20:11"
+            download_count: "1"

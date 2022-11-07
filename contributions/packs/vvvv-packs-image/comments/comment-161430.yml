@@ -1,0 +1,29 @@
+### YamlMime:ContributionComment
+---
+uid: "161430"
+user: "guest"
+created: "04 Aug, 2014 - 13:35"
+body: |-
+  hi
+  get an half working  x64 image pack for beta 32.1
+  it was really painful to replace all the references cause the nuget thing doesn't work as excepted or i mess it up!
+  
+  please correct me if i'm wrong,
+  but some nodes are x86 only due to their dependencies:
+  
+  -VVVV.Nodes.DeckLink.dll (x64 sounds possible)
+  
+  -VVVV.Nodes.OpenCV.OpenNI.dll (no x64 at all and probably depreciated?)
+  
+  -VVVV.Nodes.OpenCV.VideoInput.dll => VideoInputSharp.dll (x86 only !!)
+  the Videoin (Cv.Image Directshow)doesn't work but vfw one works!
+  
+  -VVVV.Nodes.Table.dll (apparently moved to addonpack but not yet available)
+  
+  -VVVV.Nodes.OpenCV.FlyCapture.dll (x86 only?)
+  
+  -VVVV.Nodes.OpenCV.OptiTrack.dll (should work but...)
+  00:37:13  *  : Type 'VVVV.Nodes.OptiTrack.VideoInNode' not found in assembly 'VVVV.Nodes.OpenCV.OptiTrack, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'. Failed to create plugin node VideoIn (OptiTrack) (ID: 44).
+  
+  all the other nodes of the Image Pack works for me...
+  @elliot is there any plan for a x64 release?

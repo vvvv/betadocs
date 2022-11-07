@@ -1,0 +1,21 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/tunnels-(ex9.texture-filter)-meta"
+type: "effect"
+author: "lecloneur"
+date: "19 Jun, 2012"
+title: "Tunnels (EX9.Texture Filter)"
+originalURL: "contribution/tunnels-(ex9.texture-filter)"
+category: "effect"
+credits: |-
+  All credit to : Inigo Quilez, and big thanks to UNC for the help.
+like_count: "8"
+imported: "true"
+teaser: |-
+  Tunnels for my vvvv fellas :
+  
+  * TunnelSquare
+  * TunnelCylinder
+  * TunnelFly
+  
+  Will be part of the addon pack later.

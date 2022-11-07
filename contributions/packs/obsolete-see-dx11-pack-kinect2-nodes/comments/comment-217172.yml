@@ -1,0 +1,16 @@
+### YamlMime:ContributionComment
+---
+uid: "217172"
+user: "kennyallau"
+created: "23 Feb, 2016 - 20:09"
+body: |-
+  Hi everyone, a strange thing happened when I'm trying to use the Kinect node. I'm currently using Win 10 and the vvvv version is beta 33.2 x64 with the 64bit version of dx11 pack. Initially, everything worked fine so I proceeded to save the patch. But when I opened the patch again, all of the patches turned RED. I tried to place the Kinect2 node but this time it's red, same thing with the Preview node. So I closed vvvv, reopen it and recreate the patch, suddenly it worked again. 
+  
+  
+  So I experimented further: I closed the patch, but this time I opened vvvv first, then I open the saved file, viola! everything worked fine.
+  
+  But I'm just curious; despite the workaround, what might be causing the nodes to turn red when I opened the patch first instead of opening vvvv first?
+  
+  ![Kinect beuno](https://vvvv.org/sites/default/files/imagecache/large/images/kinect2_worked_0.jpg) 
+  
+  ![Kinect no beuno](https://vvvv.org/sites/default/files/imagecache/large/images/kinect2_nobeuno.jpg)

@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/kinect-point-cloud-shader-files"
+url: "kinect-point-cloud-shader"
+category: "effect"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "KinectSkeletonPointCloud.zip"
+            timestamp: "06 Feb, 2011 - 05:21"
+            download_count: "7"

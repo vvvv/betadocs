@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "273933"
+user: "manuel"
+created: "08 Oct, 2019 - 06:09"
+body: |-
+  Hi  @mburk , is planar reflection only working for the non Instanced version ?
+  
+  BTW, whats the difference between instanced IID and deferred? I mean, whats the better performance approach ?

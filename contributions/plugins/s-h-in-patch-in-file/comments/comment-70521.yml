@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "70521"
+user: "robi_h"
+created: "13 Oct, 2011 - 09:01"
+body: |-
+  i solved it with * before the node and / after, but this is not very efficent:-)

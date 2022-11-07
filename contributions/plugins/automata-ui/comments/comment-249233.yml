@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "249233"
+user: "u7angel"
+created: "19 Feb, 2018 - 10:21"
+body: |-
+  @eps, and i'm not sure what you mean with timeout ? you want to trigger a transition in a delayed fashion ? maybe its easier to talk about your problem if you say what you are actually trying to achieve.
+  
+  what is the purpose of timeout and A/B pingpong stuff ? 
+  what kind of interaction do you want to control ? 
+  how would you visualize this in a graphical statemachine ?

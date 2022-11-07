@@ -1,0 +1,28 @@
+### YamlMime:ContributionComment
+---
+uid: "58221"
+user: "dottore"
+created: "09 Jan, 2011 - 22:52"
+body: |-
+  your code is wrong:
+  -you create a float4 and assign to it the color from texture;
+  -but then you overwrite the rgb channels with the phong component. in this way there will be no blend between these and your texture.
+  this is the correct way:
+  
+  ```
+  
+  // PIXELSHADERS:
+  
+  float Alpha <float uimin=0.0; float uimax=1.0;> = 1;
+  float4 PS(vs2ps In): COLOR
+  {
+     float4 col = PhongDirectional(In.NormV, In.ViewDirV, In.LightDirV);
+     col *= tex2D(Samp, In.Tex2Cd); 
+     col.a *= Alpha;
+  
+     return col ;
+  }
+  ```
+  
+  make shure the sampler (samp) is the one from your texture.
+  and the texCoord are the same of the position texture.

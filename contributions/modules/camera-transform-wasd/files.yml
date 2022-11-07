@@ -1,0 +1,33 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/camera-(transform-wasd)-files"
+url: "camera-transform-wasd"
+category: "module"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "3"
+            filename: "Camera (Transform WASD)_2.1.zip"
+            timestamp: "07 Nov, 2015 - 23:40"
+            download_count: "2"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "2"
+                    filename: "Camera (Transform WASD)_2.0.zip"
+                    timestamp: "07 Nov, 2015 - 22:03"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "1"
+                    filename: "Camera (Transform WASD)_1.1.zip"
+                    timestamp: "18 Sep, 2011 - 22:06"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "Camera (Transform WASD).zip"
+                    timestamp: "17 Sep, 2011 - 16:58"
+                    download_count: "2"

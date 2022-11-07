@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "217210"
+user: "tonfilm"
+created: "25 Feb, 2016 - 00:14"
+body: |-
+  @mrboni you can now load VSTs that have no editor and VAudio will generate a generic one: 
+  ![](https://vvvv.org/sites/default/files/imagecache/large/images/screenshot1456359646.png)

@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/open-hardware-monitor-(async)-files"
+url: "open-hardware-monitor-async"
+category: "plugin"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "OpenHardwareMonitorVVV.7z"
+            description: |-
+              Download_v1
+            
+            timestamp: "31 May, 2013 - 10:05"
+            download_count: "67"

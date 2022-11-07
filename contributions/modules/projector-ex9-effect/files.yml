@@ -1,0 +1,33 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/projector-(ex9.effect)-files"
+url: "projector-ex9-effect"
+category: "module"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "2"
+            filename: "ProjectorTexture (DX11).zip"
+            description: |-
+              DX11 version
+            
+            timestamp: "04 Apr, 2013 - 10:32"
+            download_count: "1"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "1"
+                    filename: "Projector (EX9.Effect Beam).zip"
+                    description: |-
+                      updated version (reconnected decompose node + fixed texture paths)
+                    
+                    timestamp: "23 Mar, 2013 - 12:17"
+                    download_count: "3"
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "Projector (EX9.Effect Beam).zip"
+                    timestamp: "18 Mar, 2011 - 10:58"
+                    download_count: "1"

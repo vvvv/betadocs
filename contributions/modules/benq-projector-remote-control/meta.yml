@@ -1,0 +1,13 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/benq-projector-remote-control-meta"
+type: "module"
+author: "circuitb"
+date: "25 Dec, 2011"
+title: "BenQ projector remote control"
+originalURL: "contribution/benq-projector-remote-control"
+category: "module"
+like_count: "3"
+imported: "true"
+teaser: |-
+  remote control Benq projectors via RS232

@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "274851"
+user: "StiX"
+created: "28 Jan, 2020 - 12:26"
+body: |-
+  Including DX11 "new standard" shader into addons while not having DX11 is one of the strangest software development decisions I have seen. I do not think I used vvvv once last 6 years without using DX11, and having any version included is still better then having none. People who are advanced and need latest dx11 iteration use github anyway. 
+  
+  I do not see any reason to actually include DX9 apart from people in developing countries using vvvv on recycled PCs. 
+  
+  Every time I suggest vvvv in facebook groups focused on live content creation (even posting your showreel video), there is someone who chimes in how vvvv is pain to work with compared to competition, and I think decisions like these are big part of it. And I would even say it is too late to try "solve" any of this when xenko is on horizon, and I hope it will aim to fix issues like these.

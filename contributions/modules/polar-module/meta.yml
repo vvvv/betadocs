@@ -1,0 +1,15 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/polar-module-meta"
+type: "module"
+author: "graphicuserinterface"
+date: "12 May, 2013"
+title: "polar module"
+originalURL: "contribution/polar-module"
+category: "module"
+credits: |-
+  devvvvs for an incredible platform, 10x!
+like_count: "4"
+imported: "true"
+teaser: |-
+  im doing a servo array with two axes control, im working on the arduino code to enable all 48 pins to servos in mega. making a module was realy handy, hope it helps!

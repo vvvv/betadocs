@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/node17-dx11-shaders-upper-intermediate-workshop-material-files"
+url: "node17-dx11-shaders-upper-intermediate-workshop-material"
+category: "tutorial"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "DX11ShadersUpperIntermediate_WorkshopContents.zip"
+            timestamp: "20 Jul, 2017 - 17:00"
+            download_count: "1"

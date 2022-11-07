@@ -1,0 +1,12 @@
+### YamlMime:ContributionComment
+---
+uid: "273747"
+user: "tmp"
+created: "09 Sep, 2019 - 07:19"
+body: |-
+  I can confirm a small bug. 
+  You used tab and a lot of spaces before each of your custom attributes, which leads to a messy type/variable extraction.
+  
+  There a two solutions:
+  1) Exchange the spaces with a tab
+  2) Put a Clean (String) node between ExtractStruct and Register node

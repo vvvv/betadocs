@@ -1,0 +1,18 @@
+### YamlMime:ContributionComment
+---
+uid: "153685"
+user: "guest"
+created: "15 Apr, 2014 - 21:11"
+body: |-
+  hi,
+  
+  regarding pdfsharp:
+  the latest version 
+  Can create PDF files marked for PDF version 1.2 (Adobe Acrobat Reader 3) through 1.7 (Adobe Reader 8);
+  
+  Supports PDF versions 1.2 through 1.4 (including the transparency features introduced with Adobe Reader 5.0); these files can be read and written
+  
+  theres's a workaround with itextsharp to convert unreadables pdf's 
+  but it's is not free
+  
+  http://forum.pdfsharp.net/viewtopic.php?f=2&t=693

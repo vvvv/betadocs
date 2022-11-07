@@ -1,0 +1,18 @@
+### YamlMime:ContributionComment
+---
+uid: "108335"
+user: "ksp"
+created: "18 Oct, 2013 - 17:21"
+body: |-
+  thanks. tried that. they would prob work, but it don't know where the input came from. if someone could take a look for me it would be appreciated.
+  
+  the patch in question is: 
+  
+  - FindBoardsInWorld   (..\packs\Image\nodes\modules\Image\OpenNI\ )
+  
+  the nodes that were missing are(, and the paths referenced): 
+  
+  - Length (Vector)   (..addonpacklib\nodes\modules\Vector\ )
+  - WaitForCalm (Animation)   (..addonpacklib\nodes\modules\Animation\ )
+  
+  (..i already had WaitForCalm from something else)

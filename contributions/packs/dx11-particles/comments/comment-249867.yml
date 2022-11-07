@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "249867"
+user: "ggml"
+created: "07 Mar, 2018 - 16:25"
+body: |-
+  are the hitboxes a cpu or a gpu job? 
+  while no visual representation needed, are they expected to work on a minipc with intel gpu ?

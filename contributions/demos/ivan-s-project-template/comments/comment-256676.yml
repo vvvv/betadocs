@@ -1,0 +1,26 @@
+### YamlMime:ContributionComment
+---
+uid: "256676"
+user: "bo27"
+created: "28 Jun, 2018 - 08:49"
+body: |-
+  @u7angel Hi! Thanks for appreciation! I think every professional user / company has similar template and all together we have a chance to create "The Template"
+  
+  You made the great tool - it already has tools like <span class="node">GetState</span> and <span class="node">ResetToState</span> which were in our todo list for too long, but when I started with the new Automata I found two things:
+  1/ I'm too conservative about ctrl-z/ctrl-c/ctrl-v
+  2/ We actually use a different method of logic parsing into vvvv, so the new version isn't save much time for us. I'll try to explain: 
+  
+  We use a keyword to describe a state. Let's say "Game" is a key word. Next we create many substates like "Game-Idle", "Game-Pause", "Reset-Game" etc.
+  Please have a look at the pic I made for the example:
+  
+  ![](https://vvvv.org/sites/default/files/imagecache/large/images/bandicam%202018-06-27%2015-35-14-941.jpg) 
+  
+  Next we use <span class="node"> Sift (String)</span> with <span class="pin">Comparison</span> set to "ContainsAny" so all of the states will give us the single "State-Game" with single transition. 
+  Next we use <span class="node">=(String)</span> or <span class="node"> Sift (String)</span> with <span class="pin">Comparison</span> set to "MatchesAny" to define exact substates like "Game-Pause", "Reset-Game" etc. 
+  
+  Note to Reset-Game and Set-Game with 0 time transition. For vvvv they work like 1 frame bangs, but they are very different of <span class="node">TogEdge </span> and different of another in-out/change bangs, because they are solid defined states. So we can get as many bangs as needed, while staying in the same state "Game" with no extra <span class="node">AND</span> <span class="node">OR</span> <span class="node">NOT</span> patching.
+  
+  With this method we can make changes much easier and faster. Thing like
+  <div class="box">"You made the great job, but could you please add pop-up here and there? And could you please go from this section directly to that section whitout the menu we have in all other sections? And you must coomplete it by tomorrow, please!"
+  </div> 
+  now comes much-much easier and not a problem for us and a client anymore.

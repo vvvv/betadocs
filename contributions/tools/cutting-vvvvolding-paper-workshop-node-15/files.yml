@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/cutting-vvvvolding-paper-workshop-node-15-files"
+url: "cutting-vvvvolding-paper-workshop-node-15"
+category: "tool"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "Cutting & VVVVolding paper.zip"
+            description: |-
+              Version 1.1 (bug fixed)
+            
+            timestamp: "05 May, 2015 - 13:05"
+            download_count: "1"

@@ -1,0 +1,17 @@
+### YamlMime:ContributionComment
+---
+uid: "58303"
+user: "hrovac"
+created: "11 Jan, 2011 - 15:38"
+body: |-
+  helo,
+   thank you for the great contribution
+  wow!
+  
+  what is the difference between sprite3d and sprite2d?
+  a scale with eg xscale=0 connected to the sprite3d does the same like sprite2d? or am i missing sth?
+  the framerate is the same when using sprite2d
+  
+  that is not a critic just for better understanding when to use what..
+  and
+  if you already wrote this down in your mentioned .pdf ... ok i will wait for the documentation

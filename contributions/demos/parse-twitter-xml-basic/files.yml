@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/parse-twitter-xml-(basic)-files"
+url: "parse-twitter-xml-basic"
+category: "demo"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "twitter_XML.v4p"
+            timestamp: "29 Mar, 2011 - 22:44"
+            download_count: "2"

@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/dx11-modules-and-shaders-addition-files"
+url: "dx11-modules-and-shaders-addition"
+category: "effect"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "otherlibs.zip"
+            timestamp: "05 Apr, 2013 - 22:06"
+            download_count: "2"

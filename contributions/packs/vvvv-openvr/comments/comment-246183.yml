@@ -1,0 +1,18 @@
+### YamlMime:ContributionComment
+---
+uid: "246183"
+user: "unti"
+created: "11 Oct, 2017 - 14:36"
+body: |-
+  Hey all, this pack is just perfect. It works very nicely with 3d scenes and is easy and fun to use!
+  
+  I have a small problem using this pack:
+  The final texture that gets rendered to preview ( and I think HMD ) seems to be offset in x by a small amount. This amount stays constant and is exactly half of the eye distance calculated by using the eyeToHead output.
+  Splitting the Previewoutput of the Composer Node in two textures and layering them on top of each other shows the offset and makes it possible to get a perfect match by texturetransforming one of the images.
+  
+  As a temporary fix, I texturetransformed the images before composing them to the headset which seems to do the trick.
+  
+  I found this while building a mono- and stereoscopic 360 Imageviewer, while creating spheres exactly around both eyes. The spheres can be scaled without any change to this offset which seems to indicate they are in the right place.
+  
+  It would be great to hear from you. This might also be a bug but I don't know enough yet to suggest that.
+  Thank you ;)

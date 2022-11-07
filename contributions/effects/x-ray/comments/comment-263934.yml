@@ -1,0 +1,14 @@
+### YamlMime:ContributionComment
+---
+uid: "263934"
+user: "u7angel"
+created: "28 Aug, 2018 - 07:18"
+body: |-
+  i can not reproduce this, drag drop dx11 version as dx11 effect works in latest beta, ctrl-d works in latest beta. just tested both cases.
+  
+  so now i have to start with wild guesses..
+  
+  - incomplete vvvv installation - check setup.exe
+  - broken unzip , try unzipping with winrar or 7-zip
+  - system language can not cope with underscore ?
+  - some fancy chars in the hlsl shader code ?

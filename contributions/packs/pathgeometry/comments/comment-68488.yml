@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "68488"
+user: "liquid"
+created: "24 Aug, 2011 - 10:41"
+body: |-
+  i have to remove this line from 2D.GeometryChange.csproj  <Reference Include="cli_cppuhelper" /> and it works. thxs!

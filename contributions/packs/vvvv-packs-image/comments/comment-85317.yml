@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "85317"
+user: "mrboni"
+created: "06 Jul, 2012 - 16:06"
+body: |-
+  To confirm the user texture info - the texture is a single 16bit channel. So if dealing with the texture in a shader, the colour value of user 1 is 1/65535, user 2 is 2/65535 etc.
+  
+  You can use this to map each user's pixels to a different visible colour if you need, like the native openni user node does.
+  
+  If just using the cvimage, = (opencv) will take just the integer value of the user id. easy!

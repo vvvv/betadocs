@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "103396"
+user: "mediadog"
+created: "08 Jul, 2013 - 18:08"
+body: |-
+  I think you're right, because those images appear to be lacking eye shift as well.  If you freeze the video when there are objects very close, you can see there is no shift in them relative to the background between the right and left images - like there is when you look at your thumb in front of you and alternately blink your eyes, objects in the distance jump sideways.
+  
+  There are many things that make up depth perception, R/L parallax just being one - so there is still a sense of depth even without it due to shading and relative motion.  So when you freeze the motion the lack of parallax is more apparent.
+  
+  And interestingly, about 10% of the population doesn't register R/L shift at all, so it adds nothing to their depth perception.

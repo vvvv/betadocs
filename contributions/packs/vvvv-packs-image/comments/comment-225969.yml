@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "225969"
+user: "mediadog"
+created: "30 Aug, 2016 - 02:12"
+body: |-
+  Loving the x64 version!  BUT, the x64 camera and projector calibration nodes do not work properly: First use after loading they return sort-of-close results, and then on the second solve vvvv crashes.  Sometimes the first solve attempt crashes.
+  
+  I can take the exact same set of 3D and 2D points and node settings in the x86 version and it works perfectly - the correction is dead-on  (say 3px error vs. x64 70px error) and no crashes with repeated solutions.  And the vpm1 x86 gives the same results as the b33 x86 version.
+  
+  Any ideas?  Anyone have the x64 calibrations working?  Maybe mismatched compiler flags in the x64 build?

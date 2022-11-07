@@ -1,0 +1,29 @@
+### YamlMime:ContributionComment
+---
+uid: "75990"
+user: "vux"
+created: "09 Feb, 2012 - 10:49"
+body: |-
+  It depends what you want to do really, two cases (simple and less simple):
+  
+  1/You want to use several textures for a solid object and blend them
+  
+  * Option 1 : use textureFX blend (or do your own blend) on the textures in a previous pass and send the resulting texture as input to yout front pass shader.
+  * Option 2 : Copy the front shader and add extra texture pins, then blend inside (you can still use the alpha channel to mix colors like lerp(coltex1.rgb,coltex2.rgb,coltex2.a), alpha will still be ignored at the end)
+  
+  2/You want to render alpha objects as well as solid objects (like an alpha sphere on top of a solid scene
+  
+  That's more complicated, since alpha objects will also mess up some effects if you use them in the front pass, so normally they should be drawn on top of the scene after the depth of field).
+  So process should be like:
+  * Render solid objects (like now)
+  * SSAO->DOF
+  * Render transparent objects on top
+  * Tonemap and the rest.
+  
+  Please note to render transparent objects you will also need to use the position texture to implement your own depth test (since if a transparent object if behind a solid object you should not see it).
+  So transparent object pixel should be drawn like this:
+  * Get transparent depth (view space)
+  * If transparent depth >= position texture depth -> do not blend pixel
+  * If transparent depth < position texture depth -> mix you transparent object color with the one from the scene.
+  
+  Hope that helps :)

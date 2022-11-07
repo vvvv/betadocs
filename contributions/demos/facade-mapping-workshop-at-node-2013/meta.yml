@@ -1,0 +1,22 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/facade-mapping-workshop-at-node-2013-meta"
+type: "demo"
+author: "kleinkariert"
+date: "25 Mar, 2013"
+title: "facade mapping, workshop at node 2013"
+originalURL: "contribution/facade-mapping-workshop-at-node-2013"
+category: "demo"
+credits: |-
+  The concept is higly based on the 360° projection setup you will find here:
+  http://vvvv.org/documentation/how-to-project-on-3d-geometry
+like_count: "5"
+imported: "true"
+teaser: |-
+  This is all the material we used in the workshop which was based on this project: http://vimeo.com/59241974 
+  
+  I tried to clean up the example patch as good as possible and put some comments about what is actually happening. 
+  
+  Could use some generative content, so far it only uses example pictures.
+  
+  The Folder is a bit large, because I implemented the original Cinema4D file, which shows how to uv map your model from the view of the camera/ viewers position.

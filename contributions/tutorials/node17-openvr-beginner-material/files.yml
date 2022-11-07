@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/node17-openvr-beginner-material-files"
+url: "node17-openvr-beginner-material"
+category: "tutorial"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "ws-node17-openvr.7z"
+            timestamp: "01 Aug, 2017 - 13:20"
+            download_count: "1"

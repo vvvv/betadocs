@@ -1,0 +1,17 @@
+### YamlMime:ContributionComment
+---
+uid: "68870"
+user: "sebl"
+created: "30 Aug, 2011 - 11:25"
+body: |-
+  i get this error caused by a red <span class="node">change</span> on two different machines. both on winXP 32bit:
+  
+  ```
+  00:01:54  -  : Assembly of C:\vvvv\Contributions\PathGeometry\plugins\2D.GeometryChange\2D.GeometryChange.csproj is not up to date. Need to recompile ...
+  00:01:54  *  : Opening "C:\vvvv\Contributions\PathGeometry\plugins\2D.GeometryChange\2D.GeometryChange.csproj" caused exception: Compilation of C:\vvvv\Contributions\PathGeometry\plugins\2D.GeometryChange\2D.GeometryChange.csproj: CSProject failed. See errors below:
+  Metadata file 'cli_cppuhelper.dll' could not be found in :0
+  
+  00:01:54  -  : To help us track this error down, enable the ExceptionDialog by either pressing CTRL + F10 or starting vvvv with /showexceptions.
+  ```
+  
+  e: on beta 26 and 25.1

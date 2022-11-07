@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "102260"
+user: "catweasel"
+created: "12 Jun, 2013 - 19:17"
+body: |-
+  @Hadasi I delete the help patch for the renderer, simple fix, it was built for a stand alone app, so f1 was allowable!
+  Really I'd like to have a node to disable v4 shortcuts, so you can use copy and paste, and ctl z with out issues, currently keyboard control is iffy, you can pretty much only use keys without modifiers, or use atl+ctl, which is an arse too! But feel free to alter the key mappings ;)
+  Thanks for the feedback, fixed the issue ( Its a multiply by 0 rather than missing links, if you hadn't used your mouse wheel to zoom, it was broken)
+  Also fixed shadows not working on ATI too...
+  Try it again and see if that fixes it for you...

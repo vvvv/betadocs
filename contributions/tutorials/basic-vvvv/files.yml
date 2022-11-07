@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/basic-vvvv-files"
+url: "basic-vvvv"
+category: "tutorial"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "vvvv_basic_0.9.pdf"
+            timestamp: "26 Jul, 2015 - 06:17"
+            download_count: "1"

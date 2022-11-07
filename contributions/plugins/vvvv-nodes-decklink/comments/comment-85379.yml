@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "85379"
+user: "eno"
+created: "08 Jul, 2012 - 10:30"
+body: |-
+  There's ways with other 3rd party sdks and boards to transfer the textures peer-to-peer on the pci bus. Just working on that issue with a DVS board. I also have a Blackmagic SDI card here, so I will check if there's a remarkable difference to your aproach and report here.

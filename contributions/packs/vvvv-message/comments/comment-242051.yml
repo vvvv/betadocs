@@ -1,0 +1,10 @@
+### YamlMime:ContributionComment
+---
+uid: "242051"
+user: "aivenhoe"
+created: "10 Jul, 2017 - 12:55"
+body: |-
+  @mfo (and velcrome)
+  
+  i think i had the same problem: when I downloaded the pack from github (as zip), for some reasons the dll's in the folder >nodes>plugins are not included, thus the nodes were not there at all. 
+  It worked with vpm in the end.

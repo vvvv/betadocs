@@ -1,0 +1,10 @@
+### YamlMime:ContributionComment
+---
+uid: "241371"
+user: "hrovac"
+created: "23 Jun, 2017 - 06:23"
+body: |-
+  great thx!!
+  
+  small Thing:
+  i have to use an old Version (34.2) - and maybe that is why in the directionalLight-module is a red node(select transform is missing..) what needs to be connected to have it working? - it is connected to the ViewProjection Shadow.

@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "225121"
+user: "mediadog"
+created: "08 Aug, 2016 - 02:11"
+body: |-
+  Not working for me, tried everything you listed above, no red nodes but console message that it can't find TetGen2vvvv.dll.  This is with 34.2_x64 on Win7 Enterprise x64.
+  
+  Hmmm, depends.exe shows the file 3dTetrahedralize.dll as an x86 DLL, and gives the error "Modules with different CPU types were found".
+  
+  So are you sure you've tried it and it works on x64?

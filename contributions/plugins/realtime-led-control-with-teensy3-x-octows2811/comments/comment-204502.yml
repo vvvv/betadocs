@@ -1,0 +1,19 @@
+### YamlMime:ContributionComment
+---
+uid: "204502"
+user: "velcrome"
+created: "03 Sep, 2015 - 13:31"
+body: |-
+  hey friends, hey @Alec
+  
+  I finally found the time to fix the issues that were related to strip lengths other than 128. As a side product, it is all a single plugin now with a noticable performance gain.
+  
+  Please note, that I still don't see a need to follow Paul Stoffregens example to split strips into substrips that somehow have to follow an arbitrary interleaving system. Instead, just freely patch the spread of Pipet coordinates according to your physical layout.  
+  
+  This allows for arbitrary coordinate based color picking from a EX9 or DX11 renderer.
+  In my experience the Sync at pin12 ("SlaveMode") is not needed as long as your framerate is high enough.
+  
+  Set the Strip Length both in the VideoDisplay.ino file **and** the patch to the maximum physical strip length (if you have some 56er, some 108 and a single 128 -> pick 128) and the rows to 8 (always). This might sound wasteful, but at least it is safe, because any superfluous data through the teensy will be ignored by the strips themselves.
+  Make sure to fill up sufficient color slices in the input spread.
+  
+  Pro Tip: You can use the accompanied <span class="node">Splitter (Raw)</span> to package smartly for other protocols (like artnet's 510byte), or even cut out parts that you are sure you don't want to send (this and a <span class="node">+ (Raw Advanced)</span> would be a performant way to handle custom situations similar to the one from @alec).

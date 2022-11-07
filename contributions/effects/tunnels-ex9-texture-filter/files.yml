@@ -1,0 +1,24 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/tunnels-(ex9.texture-filter)-files"
+url: "tunnels-ex9-texture-filter"
+category: "effect"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "1"
+            filename: "Tunnels.zip"
+            description: |-
+              Now all in one with different technics.
+            
+            timestamp: "12 Jul, 2012 - 09:23"
+            download_count: "1"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "TunnelShaderPack (EX9.Texture Filter).zip"
+                    timestamp: "19 Jun, 2012 - 17:46"
+                    download_count: "1"

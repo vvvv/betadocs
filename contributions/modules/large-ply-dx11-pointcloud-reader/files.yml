@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/large-ply-dx11-pointcloud-reader-files"
+url: "large-ply-dx11-pointcloud-reader"
+category: "module"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "LargePlyFinal.zip"
+            description: |-
+              Clean patches with some example data
+            
+            timestamp: "06 Jul, 2017 - 16:09"
+            download_count: "1"

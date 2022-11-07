@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "233419"
+user: "soriak"
+created: "16 Dec, 2016 - 00:26"
+body: |-
+  hey julius,
+  
+  assuming you have the pleora ebus sdk installed, seems like it might be looking for a very specific version of the dll... 
+  "Version=4.0.5.3150" maybe you can contact pleora about it?! 
+  Im afraid I wont be able to help you debug it further than that, as I have no access to the source atm...

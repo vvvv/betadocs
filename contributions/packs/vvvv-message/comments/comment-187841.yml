@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "187841"
+user: "blausand"
+created: "08 Mar, 2015 - 14:56"
+body: |-
+  **One question about performance:**  
+  My message would have the complexity of let's say 5 spreads of 8 floats each and 5 spreads of 4 bools each. 
+  If a MIDI message changes a single value, in practise one of the spreads has to be sent and parsed for each MIDI message coming in, right? Unless i split the message into having 60 individual members. 
+  I can't imagine that latency will stay down either way? 
+  In comparison to *Eksposing*, isn't this a lot more string parsing behind the curtain?  
+  
+  Disclaimer: I'd be using about six different instances of such a message receiver with individual addresses.

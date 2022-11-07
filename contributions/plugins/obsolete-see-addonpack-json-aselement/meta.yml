@@ -1,0 +1,21 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/obsolete-see-addonpack-json-aselement-meta"
+type: "plugin"
+author: "herbst"
+date: "23 Feb, 2013"
+title: "[OBSOLETE, see Addonpack] JSON AsElement"
+originalURL: "contribution/obsolete-see-addonpack-json-aselement"
+category: "plugin"
+credits: |-
+  herbst
+like_count: "6"
+imported: "true"
+teaser: |-
+  **Note: is in addonpack since vvvv45beta30.**
+  
+  Converts a JSON string to XElement for use with all the nice XElement nodes. And is spreadable.
+  
+  Uses the standard .NET parser for JSON files. See <https://mutelight.org/using-the-little-known-built-in-net-json-parser> for implementation info (I did a nearly 1:1 copy of that).
+  
+  Oh, and when "success" pin is false, you can see what went wrong in the TTY Renderer.

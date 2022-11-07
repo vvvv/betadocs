@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "273661"
+user: "mrboni"
+created: "29 Aug, 2019 - 11:36"
+body: |-
+  Issues using latest alpha - (VL 0624)
+  
+  VL nodes are red - 'AsyncHelpers.Run method threw an exception.'

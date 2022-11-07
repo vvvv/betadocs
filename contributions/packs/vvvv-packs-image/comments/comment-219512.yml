@@ -1,0 +1,22 @@
+### YamlMime:ContributionComment
+---
+uid: "219512"
+user: "synth"
+created: "22 Apr, 2016 - 20:34"
+body: |-
+  So i managed somehow to recompile it for x64. 
+  Things that i was able to test are working but there might be broken nodes here and there. 
+  I need it for now mostly to read HDR images as i am playing a bit with Emeshe.
+  
+  On my first test when it is installed in /packs/ it kind of broke the Assimp modules, but after some adjustments seems to be OK.
+  
+  Best regards! 
+  
+  
+  [robe](http://vvvv.org/users/robe) please report if you find anything broken. 
+  
+  vvvv.Pack.Image.x64
+  <https://www.dropbox.com/s/bp3xknysbr4l9tu/VVVV.Packs.Image.zip?dl=0>
+  
+  
+  BTW please if i am braking any license rules please contact me and so i can remove it.

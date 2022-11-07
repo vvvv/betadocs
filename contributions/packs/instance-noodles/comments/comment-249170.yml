@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "249170"
+user: "everyoneishappy"
+created: "17 Feb, 2018 - 01:19"
+body: |-
+  @guest I didn't check your patch, but it's a known issue.  It's basically because it's using a single up-vector, so that can cause the resulting transform to flip in some cases.
+  
+  I heard (maybe from @Pedro?) that you can detect and correct for this.  Not sure of the matrix math for that though.  Happy to implement it if someone knows how that should work.

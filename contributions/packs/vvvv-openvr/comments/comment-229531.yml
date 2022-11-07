@@ -1,0 +1,35 @@
+### YamlMime:ContributionComment
+---
+uid: "229531"
+user: "guest"
+created: "08 Oct, 2016 - 10:26"
+body: |-
+  hello,
+  
+  with SteamVr autoupdate everything goes wrong!
+  my DK2 rig was working perfectly with vvvv.openvr V1 with early september steamVR version.
+  with the new update i try every combination between SteamVR, SteamVR beta, vvvv.openvr V1/V2/V3 with no luck, no more vvvv Rendering in the headset
+  i've this compositor error message in vvvv:
+  
+  <div class="box">
+  Unsupported texture format. Make sure texture uses RGBA, is not compressed and has no mipmaps.
+  </div>
+  
+  and SteamVr says:
+  <div class="box">
+  (unresponsive) vvvv.exe
+  </div>
+  
+  the vr_client_Steam log file says:
+  <div class="box">
+  Sat Oct 08 2016 11:53:17.502 - error VRInitError_Init_LowPowerWatchdogNotSupported when initing driver oculus_legacy from C:\Program Files (x86)\Steam\steamapps\common\SteamVR\drivers\oculus_legacy\bin\win32\driver_oculus_legacy.dll.
+  Sat Oct 08 2016 11:53:17.502 - Unable to init watchdog mode for driver oculus_legacy: VRInitError_Init_LowPowerWatchdogNotSupported
+  Sat Oct 08 2016 11:53:17.503 - error VRInitError_Init_LowPowerWatchdogNotSupported when initing driver null from C:\Program Files (x86)\Steam\steamapps\common\SteamVR\drivers\null\bin\win32\driver_null.dll.
+  Sat Oct 08 2016 11:53:17.503 - Unable to init watchdog mode for driver null: VRInitError_Init_LowPowerWatchdogNotSupported
+  Sat Oct 08 2016 11:53:17.503 - No drivers were capable of being watchdogs. Failing init.
+  
+  </div>
+  sounds like a SteamVr issue more than a vvvv one!
+  any ideas
+  
+  thanks

@@ -1,0 +1,39 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/faceshift-meta"
+type: "module"
+author: "KX"
+date: "31 Aug, 2012"
+title: "Faceshift"
+originalURL: "contribution/faceshift"
+category: "module"
+credits: |-
+  Thanks for dottore, unc, and Gabor http://mndl.hu/
+like_count: "9"
+imported: "true"
+teaser: |-
+  http://faceshift.com/
+  
+  Faceshift client for vvvv.
+  
+  Works:
+  tcp communication
+  gpu face morphing
+  lighting
+  texturing
+  
+  Don't work:
+  eyes
+  normals blending
+  face rotation 
+  
+  I convert face .obj files to .x files, and after create 128x128 pixel .dds texture for better performance.
+  
+  
+  ----------------------------------------------------
+  
+  
+  1.01--
+  
+  I just strart make a normals version, now is not has the best fps.
+  <https://vimeo.com/48634411>

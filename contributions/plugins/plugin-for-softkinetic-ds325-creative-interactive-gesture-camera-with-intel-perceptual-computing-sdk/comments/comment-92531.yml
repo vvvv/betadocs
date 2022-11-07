@@ -1,0 +1,15 @@
+### YamlMime:ContributionComment
+---
+uid: "92531"
+user: "mediadog"
+created: "07 Dec, 2012 - 02:09"
+body: |-
+  Thanks for the plugin, got my camera today!
+  
+  But sadly, no workey: Win7 x64, SDK installed, samples work fine, 28.1.  No red node, but "DS325 (Devices DS325) help.v4p" never shows enabled or info, and console gives:
+  
+  00:00:01 ERR : Exception occured in TMPluginWrapperNode.Evaluate: Access violation at address 6F651B27 in module 'libpxcupipeline.DLL'. Read of address 6679B3F0
+  
+  Reinstalling, moving things, made no difference.
+  
+  Thanks again!

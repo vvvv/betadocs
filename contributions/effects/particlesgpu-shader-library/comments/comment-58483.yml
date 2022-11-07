@@ -1,0 +1,42 @@
+### YamlMime:ContributionComment
+---
+uid: "58483"
+user: "lasal"
+created: "14 Jan, 2011 - 18:54"
+body: |-
+  I´ve got it!
+  
+  my vertex shader now looks like this,
+  thanks again, i owe you a beer ;)
+  
+  ```
+  vs2ps VS(
+      float4 Pos : POSITION,
+      float4 TexCd : TEXCOORD0,
+      float4 TexCdCol : TEXCOORD1)
+  {
+      //inititalize all fields of output struct with 0
+      vs2ps Out = (vs2ps)0;
+  
+      //get the position info from the Position-velocity texture:
+      float2 particlePosition = tex2Dlod(SampData, TexCd).rg;
+     
+      Pos = mul(Pos, tW);
+     
+     //now apply the position taken from the texture
+      Pos.xy += particlePosition;
+     
+      Out.Pos = mul(Pos, tVP);
+  
+      Pos = mul(Pos, tPost);   
+  
+      
+      //then apply the tVP
+      Out.Pos = mul(Pos, tVP);
+  
+  
+      Out.TexCdCol = mul(TexCdCol, tTexCol);
+  
+      return Out;
+  }
+  ```

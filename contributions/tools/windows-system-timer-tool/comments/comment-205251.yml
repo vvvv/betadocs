@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "205251"
+user: "vollie"
+created: "11 Sep, 2015 - 01:23"
+body: |-
+  had to use this in my .bat file to get running.
+  
+  start "" "C:\PathToTool\TimerTool.exe" -t 0.5 -minimized

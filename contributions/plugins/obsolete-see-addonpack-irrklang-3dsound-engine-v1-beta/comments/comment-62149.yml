@@ -1,0 +1,12 @@
+### YamlMime:ContributionComment
+---
+uid: "62149"
+user: "hierro"
+created: "07 Apr, 2011 - 18:02"
+body: |-
+  Actually autoselected driver is directsound8, tried to switch it manually but doenst work, thank u for pointing us on forum, from what i (fastly) searched :
+  
+  1) on mac is impossible to have e real 3d (but...is mac so :)
+  2) on windows it looks like there are not so much info and some users published the same problems, some workaround, maybe a solution tricking on driver settings, was not so clear finally.
+  
+  Anyway we switched audio activity on reaktor

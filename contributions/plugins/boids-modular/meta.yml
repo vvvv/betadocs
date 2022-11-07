@@ -1,0 +1,20 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/boids-modular-meta"
+type: "plugin"
+author: "catweasel"
+date: "04 Jul, 2012"
+title: "Boids Modular"
+originalURL: "contribution/boids-modular"
+category: "plugin"
+credits: |-
+  [catweasel](http://vvvv.org/users/catweasel), [woei](http://vvvv.org/users/woei), [tonfilm](http://vvvv.org/users/tonfilm), <http://www.kfish.org/boids/pseudocode.html>
+like_count: "6"
+imported: "true"
+teaser: |-
+  My first exploration into plugins, so not optimised I imagine! 
+  The plan is to try and make particle system modules as per a thread [vvvv-particles-library](https://discourse.vvvv.org/t/vvvv-particles-library) on the forums a while ago, so to do are avoid enemies, follow leaders etc.
+  Hopefully they may help others trying to learn c# too! 
+  Feel free to chip in FX if you come up with any!
+  
+  catweasel 07/12

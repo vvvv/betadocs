@@ -1,0 +1,27 @@
+### YamlMime:ContributionComment
+---
+uid: "78553"
+user: "robe"
+created: "29 Feb, 2012 - 09:57"
+body: |-
+  Hi Elliot,
+  
+  I'm testing the Video-In CV node extensively with both Optical Flow nodes.
+  (To drive the Dottore's GPU Particle)
+  
+  I'm using the Ps3eye and I need to access the property of the camera (turn off auto-exposure, setting the gain, etc..).
+  
+  I tried to do it in the Ps3eye Cleye-Test but the videoIn CV node reset the setting to defaults..
+  
+  Is there any workaround?
+  Thanks
+  
+  PS: These NEW Node type are very performant and revolutionary in VVVV.
+  With Vlc (or some videoplayer) included, we have a new world to explore at 60fps.
+  
+  Keep up this good work.
+  
+  PPS:I'm on beta26 because I want to use Your CV stuff.
+  
+  Cheers
+  robe

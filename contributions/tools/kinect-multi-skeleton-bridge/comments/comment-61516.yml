@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "61516"
+user: "zepi"
+created: "28 Mar, 2011 - 12:47"
+body: |-
+  hm, doesn't work for me...
+  I'm guessing something with Visual Studio...  running the "Redist.py" doesn't produce any exe's.

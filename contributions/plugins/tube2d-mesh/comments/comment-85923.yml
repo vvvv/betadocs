@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "85923"
+user: "ggml"
+created: "20 Jul, 2012 - 20:07"
+body: |-
+  mesh split is not working on this object, anyone know why ?
+  would be good to add texcoords from a grid

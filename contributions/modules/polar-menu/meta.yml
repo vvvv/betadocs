@@ -1,0 +1,21 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/polar-menu-meta"
+type: "module"
+author: "honix"
+date: "15 Oct, 2015"
+title: "Polar menu"
+originalURL: "contribution/polar-menu"
+category: "module"
+credits: |-
+  honix
+like_count: "5"
+imported: "true"
+teaser: |-
+  This is simple pie-menu GUI module that look like sc-fi movie.
+  
+  
+  Help inside.
+  
+  
+  Tested with vvvv_45beta34.1_x86 (dx9/dx11)

@@ -1,0 +1,35 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/vvvv.datatable-meta"
+type: "plugin"
+author: "tonfilm"
+date: "24 Nov, 2014"
+title: "VVVV.DataTable"
+originalURL: "contribution/vvvv.datatable"
+category: "plugin"
+credits: |-
+  m-box, elliot woods, woei, tonfilm
+like_count: "8"
+imported: "true"
+teaser: |-
+  Persistent data handling with GUI.
+  
+  Supports type boolean, int, float/double and string.
+  
+  Heavily based on VVVV.Nodes.TableBuffer by [elliotwoods](http://vvvv.org/users/elliotwoods)
+  
+  Mixed type support and GUI convenience sponsored by [m-box](http://www.m-box.de/).
+  
+  v1.2:
+  * set nodes set pin changed from bang to toggle
+  * insert nodes insert pin changed from bang to toggle
+  (bang type was preventing alteration in subsequent frames)
+  
+  v1.1:
+  * fixed wrong output slicecount on GetRow Dynamic
+  * culture info is set to invariant culture
+  * copy paste handles arbitrary decimal separator
+  
+  Source Code:
+  
+  <https://github.com/woeishi/VVVV.DataTable>

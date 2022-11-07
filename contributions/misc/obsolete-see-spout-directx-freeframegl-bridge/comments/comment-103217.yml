@@ -1,0 +1,17 @@
+### YamlMime:ContributionComment
+---
+uid: "103217"
+user: "elio"
+created: "03 Jul, 2013 - 11:50"
+body: |-
+  ##  Wyphon will come
+  
+  Currently ft and I, we're in an advanced state of developing Wyphon (Syphon for Windows) with OpenGL <-> DirectX support. For more details about the concept, please read on the dedicated wyphon site:
+  
+  http://wyphon.wordpress.com/
+  
+  We're planning to do a release in the next few month, perhaps earlier, perhaps later.
+  
+  At the moment we're working on a concept for synchronizing read/write access to textures in order to make the sharing flicker-free - so that it can be used for professional productions.
+  
+  Especially regarding vvvv-core, we'd appreciate some help, because we need to support locking of shared textures. Who of you guys could best help us?

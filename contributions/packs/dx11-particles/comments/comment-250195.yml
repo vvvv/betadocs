@@ -1,0 +1,15 @@
+### YamlMime:ContributionComment
+---
+uid: "250195"
+user: "StiX"
+created: "17 Mar, 2018 - 10:17"
+body: |-
+  bur why does it not affect their lifespan?
+  
+  the way i would expect age and lifespan modifiers work:
+  
+  if i have particle of lifespan of 1 and i set the age to 0.8 on every frame, they should never die
+  if i have particle of lifespan of 1 and set lifespan to 10, it should live 10 times longer
+  
+  right now if i set the age modifier to 0.8, the particles with lifespan of 1 still get emitted every second
+  and if i set lifespan to 1, particle never dies

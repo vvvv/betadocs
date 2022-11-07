@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/dynamic-drop-shadow-files"
+url: "dynamic-drop-shadow"
+category: "module"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "DropShadow.zip"
+            description: |-
+              initial version
+            
+            timestamp: "25 Oct, 2010 - 16:11"
+            download_count: "3"

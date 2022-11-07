@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "229638"
+user: "tonfilm"
+created: "10 Oct, 2016 - 01:33"
+body: |-
+  the new V3 also has a color space enumeration. not all RGB formats run with all color spaces. before V3 the default format was 16-bit float, but i changed that because of performance reasons to an 8-bit format. seems the new steamVR update does not like that particular one...

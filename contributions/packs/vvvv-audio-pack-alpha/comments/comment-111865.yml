@@ -1,0 +1,12 @@
+### YamlMime:ContributionComment
+---
+uid: "111865"
+user: "guest"
+created: "26 Dec, 2013 - 03:43"
+body: |-
+  @tonfilm: Unzip(audio) doesn't seem to work at the moment:
+  ![](https://vvvv.org/sites/default/files/imagecache/large/images/0_2013.12.26-01.39.04.png) 
+  
+  @sunep: There's also [this](http://www.tobias-erichsen.de/software/virtualmidi.html) which gives you a lot of flexibility, but you have to setup your virtual midi device at startup. It might interest tonfilm that it also has a C# SDK...
+  
+  Finally, I see that [Jackaudio](http://jackaudio.org/) works with this audio engine, and I'd like to configure a workflow for an audio signal to travel back and forth between vvvv and, say, Ableton Live. I've had problems running the most recent version of [Jack for windows](http://jackaudio.org/download) but it seems to be something wrong with my system; VAC is fickle too. I'll report back soon

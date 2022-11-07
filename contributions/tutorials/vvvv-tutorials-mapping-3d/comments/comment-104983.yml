@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "104983"
+user: "everyoneishappy"
+created: "16 Aug, 2013 - 06:03"
+body: |-
+  @ mrboni yes I ended up doing the same (also with calibrate camera).  It seemed to work for my purposes but I'm not sure if scaling the Z at -1 is 100% correct.  Also from memory I think I did that on the perspective transform.
+  
+  Would love to hear from Elliot about this, I thought he mentioned in his workshop at Node13 that some of the open CV stuff might be working with an Open Framewroks style matrix.

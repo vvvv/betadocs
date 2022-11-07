@@ -1,0 +1,12 @@
+### YamlMime:ContributionComment
+---
+uid: "58609"
+user: "vux"
+created: "18 Jan, 2011 - 20:08"
+body: |-
+  0.5.6 Update:
+  
+  * ApplyForce/Torque/Impulse now have autoactivate option (default true), so you can wake up sleeping bodies.
+  * Raycast now outputs Full body type, and output is now done by query index.
+  * UpdateBody now have Position/Set Position (for kinematic use)
+  * Heightfield is now scaled and centered correctly.

@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "213023"
+user: "io"
+created: "14 Dec, 2015 - 00:36"
+body: |-
+  Hallo a couple of question, one is in the forum, [pointcloud-layer-with-projector-node,](https://discourse.vvvv.org/t/pointcloud-layer-with-projector-node,) there seems to be a problem when using the Projector node with shift-y as camera.
+  The second one, I see IDs are disabled in Pointcloud Layer, is there any way to assign different IDs to different objects coming into Pointcloud Layer ?
+  These objects are defined by a buffered transform IID with Instance Noodle pack.
+  tx
+  Simone

@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "73950"
+user: "circuitb"
+created: "26 Dec, 2011 - 13:09"
+body: |-
+  seems pdf texture need a rebuild with the new beta27/.net!
+  the dependencies merging doesn't work...

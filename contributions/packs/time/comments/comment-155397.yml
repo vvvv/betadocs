@@ -1,0 +1,10 @@
+### YamlMime:ContributionComment
+---
+uid: "155397"
+user: "tmp"
+created: "14 May, 2014 - 15:09"
+body: |-
+  fyi:
+  
+  the core of the time pack is available via nuget now (vvvv.packs.time).
+  you can access many functions to handle conversion/arithmetic easily and make your nodes compatible with the time pack.

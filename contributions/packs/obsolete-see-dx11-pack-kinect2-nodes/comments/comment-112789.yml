@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "112789"
+user: "vux"
+created: "17 Jan, 2014 - 16:26"
+body: |-
+  About out of bounds it will be fixed in next release.
+  
+  I'll also add world as per old kinect.
+  
+  Depth is red because L16 format don't exist in dx11, it's R16 for single channel (I could have done a shader to change display to white of course).

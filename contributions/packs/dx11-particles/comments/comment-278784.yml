@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "278784"
+user: "tellelasmy"
+created: "05 Jul, 2021 - 11:12"
+body: |-
+  Hi, is there a way to blend transparent particles with opaque geometry?After a long time searching about depthbuffer and softparticles still nothing comes in handy

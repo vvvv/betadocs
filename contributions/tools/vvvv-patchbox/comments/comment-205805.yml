@@ -1,0 +1,17 @@
+### YamlMime:ContributionComment
+---
+uid: "205805"
+user: "reaktant"
+created: "16 Sep, 2015 - 20:36"
+body: |-
+  hey velcrome,
+  
+  have a look at [ioscaler](xref:contribution/ioscaler), maybe you want to include it.
+  
+  and here is a half working [snap-nodes-to-grid](xref:contribution/snap-nodes-to-grid).
+  not really fun to use so far.
+  
+  i also made a gui redrawer, but yours seems simpler.
+  
+  
+  cool idea to make this modular.

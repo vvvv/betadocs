@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/izpi-ibiltzen-raymarching-files"
+url: "izpi-ibiltzen-raymarching"
+category: "pack"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "IzpiIbiltzen.0.69.zip"
+            description: |-
+              The ultimate raymarcher for vvvv, broski
+            
+            timestamp: "08 Jul, 2017 - 22:34"
+            download_count: "1"

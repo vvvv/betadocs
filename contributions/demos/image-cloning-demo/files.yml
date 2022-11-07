@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/image-cloning-demo-files"
+url: "image-cloning-demo"
+category: "demo"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "ImageClone.zip"
+            timestamp: "10 Apr, 2014 - 18:43"
+            download_count: "3"

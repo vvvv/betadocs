@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "68419"
+user: "everyoneishappy"
+created: "23 Aug, 2011 - 05:35"
+body: |-
+  so any tips as to what would make this work with b26?  It seems like it's the 2d geometry change node that is breaking the others, but it will not even come up in the editor?
+  
+  Edit:
+  @velcrome
+  thanks for 1.2 update.

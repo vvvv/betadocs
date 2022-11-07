@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "270760"
+user: "mburk"
+created: "18 Jan, 2019 - 19:20"
+body: |-
+  Thanks for that [tonfilm](http://vvvv.org/users/tonfilm). I also merged the fix and also merged everything to the master branch on github.
+  This version also includes an implementation of ForwardPlus (by [kopffarben)](http://vvvv.org/users/kopffarben)). Have a look at the example. Speaking of which: At the moment there are only quite overloaded help patches. So if anyone feels like contributing some easy examples - please do so on github.

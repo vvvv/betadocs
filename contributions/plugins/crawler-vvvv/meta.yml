@@ -1,0 +1,23 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/crawler-(vvvv)-meta"
+type: "plugin"
+author: "woei"
+date: "21 Jul, 2014"
+title: "Crawler (VVVV)"
+originalURL: "contribution/crawler-(vvvv)"
+category: "plugin"
+like_count: "7"
+imported: "true"
+teaser: |-
+  very similar to <span class="node"> Finder (VVVV)</span>
+  
+  for all the messy patchers to find the patches (and other externals) you actually used in a project. 
+  
+  the plugin crawls through your vvvv project and outputs nodes that are used outputting nodename, filename (if available), nodetype and occurrence (count and parent patch)
+  
+  please report your findings.
+  more features still to come and very alphaish yet so i can't guarantee it doesn't break stuff
+  
+  happy crawling!
+  woei

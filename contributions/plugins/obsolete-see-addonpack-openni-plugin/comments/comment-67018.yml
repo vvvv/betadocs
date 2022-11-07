@@ -1,0 +1,18 @@
+### YamlMime:ContributionComment
+---
+uid: "67018"
+user: "u7angel"
+created: "25 Jul, 2011 - 14:26"
+body: |-
+  ok, checked
+  with phlegmas plugin, just depth and rgb node in patch i have ** 60% cpu** usage. and the plugin crashes sometimes
+  
+  with hierro's version i have 8 % when no user is detected, with user i have 16 %. on the negative side, the framerate slowes down sometimes, looks like 10fps and recovers after 20s and runs 30 again. looks like some threading issue.
+  
+  --------
+  
+  my specs: corei5-2500 3,3Ghz, 8GB Ram, Geforce570GTX
+  
+  i like hierro version, especially the masked output is very useful. just the slowdown is getting on my nerves. can't find any relation to interaction, user detection or anything else...just comes and goes. phlegmas framerates are stable. 
+  
+  any sourcecode available of both plugin versions ?

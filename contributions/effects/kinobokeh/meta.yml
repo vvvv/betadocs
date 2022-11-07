@@ -1,0 +1,16 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/kinobokeh-meta"
+type: "effect"
+author: "mburk"
+date: "10 Jun, 2018"
+title: "KinoBokeh"
+originalURL: "contribution/kinobokeh"
+category: "effect"
+credits: |-
+  Keijiro Takahashi
+like_count: "15"
+imported: "true"
+teaser: |-
+  This is a port of a depth of field post effect, developed for Unity by Keijiro Takahashi.
+  <https://github.com/keijiro/KinoBokeh>

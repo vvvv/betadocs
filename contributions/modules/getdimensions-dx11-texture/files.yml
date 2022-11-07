@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/getdimensions-(dx11.texture)-files"
+url: "getdimensions-dx11-texture"
+category: "module"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "GetDimensions (DX11.Texture).zip"
+            timestamp: "30 Apr, 2022 - 16:59"
+            download_count: "1"

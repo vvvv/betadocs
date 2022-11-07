@@ -1,0 +1,21 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/windowstouch-meta"
+type: "plugin"
+author: "u7angel"
+date: "26 Sep, 2013"
+title: "WindowsTouch"
+originalURL: "contribution/windowstouch"
+category: "plugin"
+credits: |-
+  vux / tiny bits by u7angel
+like_count: "22"
+imported: "true"
+teaser: |-
+  Here we go, a plugin to receive touch (multitouch) information from windows7/8 touch compatible devices. 
+  
+  This plugin was tested with various hardware and OS versions:3M,Surface Pro, Dell Touchmonitor, PQLabs Frame, Windows7 and Windows8
+  
+  Nasty Windows Feature: Normally palmrejection is on by windows default, resulting in no touchdata on towndown. you can turn it off now.
+  
+  Initially after getting stuck developing this plugin i talked to master vux who got around the problem with a hook, getting control of the renderer. Microsoft didn't make it easy ;)

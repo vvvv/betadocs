@@ -1,0 +1,19 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/saitek-cyborg-v.1-gamepad-meta"
+type: "module"
+author: "lasal"
+date: "19 Feb, 2012"
+title: "Saitek Cyborg V.1 Gamepad"
+originalURL: "contribution/saitek-cyborg-v.1-gamepad"
+category: "module"
+credits: |-
+  Lasal, 2012
+like_count: "3"
+imported: "true"
+teaser: |-
+  Module to use the Gamepad as a controller.
+  Fully implemented.
+  
+  HID_ReportOut module part of this document:
+  [hid nodes](https://betadocs.vvvv.org/topics/io/protocols/hid-nodes.html)

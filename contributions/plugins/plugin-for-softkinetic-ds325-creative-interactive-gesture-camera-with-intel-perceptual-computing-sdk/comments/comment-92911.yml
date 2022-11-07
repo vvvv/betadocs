@@ -1,0 +1,15 @@
+### YamlMime:ContributionComment
+---
+uid: "92911"
+user: "mediadog"
+created: "14 Dec, 2012 - 06:21"
+body: |-
+  Still no joy moving the DS325 folder.  I tried moving the SDK DLLs into the DS325 folder as well since they are in the same folders as the example .EXEs.
+  
+  I thought maybe this was a 32/64 bit issue, so I pulled out a laptop with Win7 x32, installed 28.1 and the x32 PCSDK, examples run fine, same behavior with the patches.
+  
+  The only difference I did notice when running vvvv.exe first is that it takes longer to fully initialize, as if it is initializing the hardware, but I still get the same fault.  When I run the patches directly, the camera can be unplugged and it acts the same (immediate fault).
+  
+  @herbst: I'd be happy to help debug this.  I've got an outrageous art project in mind this camera is perfect for, and I'd rather help get this working than make my own plugin.
+  
+  Thanks all!

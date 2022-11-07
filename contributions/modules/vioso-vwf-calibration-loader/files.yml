@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/vioso-vwf-calibration-loader-files"
+url: "vioso-vwf-calibration-loader"
+category: "module"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "loadVwf.zip"
+            timestamp: "26 Aug, 2016 - 06:36"
+            download_count: "1"

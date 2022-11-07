@@ -1,0 +1,33 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/windows-system-timer-tool-files"
+url: "windows-system-timer-tool"
+category: "tool"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "2"
+            filename: "TimerToolV3.zip"
+            description: |-
+              Version 3, minimize to tray and command line args
+            
+            timestamp: "24 Aug, 2015 - 14:46"
+            download_count: "1"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "1"
+                    filename: "TimerToolV2.zip"
+                    description: |-
+                      Version 2, can now set 0.5ms resolution
+                    
+                    timestamp: "25 Jan, 2014 - 16:46"
+                    download_count: "2"
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "TimerTool.zip"
+                    timestamp: "21 Jan, 2014 - 19:07"
+                    download_count: "1"

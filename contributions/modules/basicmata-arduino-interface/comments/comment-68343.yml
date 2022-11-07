@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "68343"
+user: "alg"
+created: "20 Aug, 2011 - 13:49"
+body: |-
+  Looks like hardware problem. Try to reconnect it, or connect to the different port. Also check Serial and Device properties in Arduino IDE.

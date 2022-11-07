@@ -1,0 +1,45 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/multihwnd-files"
+url: "multihwnd"
+category: "module"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "3"
+            filename: "multiHWND (Windows).zip"
+            description: |-
+              patch (v1.0) and helppatch
+            
+            timestamp: "15 Sep, 2010 - 18:25"
+            download_count: "2"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "2"
+                    filename: "multiHWND (Windows).zip"
+                    description: |-
+                      patch (v1.1) and helppatch
+                    
+                    timestamp: "15 Sep, 2010 - 18:21"
+                    download_count: "2"
+                - file:
+                    bit: "64"
+                    delta: "1"
+                    filename: "multiHWND (Windows).zip"
+                    description: |-
+                      patch (v1.2) and helppatch (for vvvv 45beta24)
+                    
+                    timestamp: "29 Sep, 2010 - 01:23"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "MultiHWND (Windows).zip"
+                    description: |-
+                      plugin & dynamic plugin (v2.0) and helppatch
+                    
+                    timestamp: "03 Jun, 2011 - 04:28"
+                    download_count: "1"

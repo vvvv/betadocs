@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "67109"
+user: "ft"
+created: "26 Jul, 2011 - 21:30"
+body: |-
+  @antokhio
+  
+  I'm still frustrated why patches with VLC node in it crash upon opening sometimes, but I don't know why that happens. In my experience, they don't crash if you open vvvv first, then open the patch, instead of double clicking the patch when vvvv is not running.
+  
+  When I was writing the plugin, I tested it with VLC versions that were current at that time, like 1.1.5, 1.1.6, 1.1.7. I don't see why 1.8 should give you trouble. Besides, VLC is already at 1.1.11 now. (but it will probably not work with versions >= 1.2)

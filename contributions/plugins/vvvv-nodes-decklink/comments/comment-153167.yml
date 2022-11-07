@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "153167"
+user: "joreg"
+created: "07 Apr, 2014 - 23:21"
+body: |-
+  r8g8b8 is not a good choice to specify in a patch thats ought to be portable as it seems only very few graphic cards support this format thats why many fail with this setting.

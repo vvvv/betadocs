@@ -1,0 +1,17 @@
+### YamlMime:ContributionComment
+---
+uid: "218528"
+user: "derber"
+created: "25 Mar, 2016 - 18:57"
+body: |-
+  Hey Velcrome, hey Catweasel.
+  There was a further development of FastLED library and now  it can be used in conjunction with Octows2811 for apparently faster communication:
+  <https://github.com/FastLED/FastLED/wiki/Parallel-Output#making-octows2811-faster-with-fastled>
+  The library includes an example code that makes use of it. 
+  Apart from it I also found another arduino sketch that is used to communicate with TouchDesigner.
+  Unfortunately I could not figure out what is needed to be changed in your plugin/patch in order to make it work.
+  Maybe you can have a quick look into it?
+  I am not sure if this is worthwhile but any performance gain is a good thing.
+  This is the link to the sketch I found. 
+  <https://www.dropbox.com/s/badm3dl4hg2ethn/ledPixelController_400.ino?dl=0>
+  Thanks for the help!

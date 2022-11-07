@@ -1,0 +1,27 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/dshow2vlc-meta"
+type: "module"
+author: "h99"
+date: "02 Jan, 2013"
+title: "DSHOW2VLC"
+originalURL: "contribution/dshow2vlc"
+category: "module"
+credits: |-
+  h99, but mostly VLC wiki
+like_count: "4"
+imported: "true"
+teaser: |-
+  Hi all.
+  
+  This module would be a tool to help us all using other streams than the videos lurking in our HDs, and also to debug <span class="node">Filestream (Ex9.Texture VLC)</span>.
+  
+  If everything is correct, the module can be useful to set a lot of params with a few clicks and/or digits, I suppose.
+  
+  I simply browsed to this page: http://wiki.videolan.org/VLC_command-line_help, had a look at MRL inside VLC, at <span class="node">Filestream (Ex9.Texture VLC)</span> helppatch and tried to translate all of those commandline params to something useful and simple to use in vvvv.
+  
+  Hope is useful, and surely any feedback is more than appreciated.
+  
+  Thank you all.
+  
+  P.S. Helppatch included.

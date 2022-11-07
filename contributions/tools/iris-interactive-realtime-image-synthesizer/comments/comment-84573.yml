@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "84573"
+user: "bilderbuchi"
+created: "21 Jun, 2012 - 18:54"
+body: |-
+  btw, since you're working under version control anyway, it makes sense to add "*~.xml" to your .gitignore file. ;-)

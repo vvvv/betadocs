@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "235260"
+user: "tonfilm"
+created: "12 Feb, 2017 - 21:20"
+body: |-
+  wow, totally forgot that this exists... no plans on that, but you can look into the C# file of the shortest path and see whether you can make your own implementations. which algorithms are you looking for?
+  it is possible to import it to VL of course. but it would need a deeper look...

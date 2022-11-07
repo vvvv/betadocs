@@ -1,0 +1,15 @@
+### YamlMime:ContributionComment
+---
+uid: "249142"
+user: "eps"
+created: "16 Feb, 2018 - 13:53"
+body: |-
+  tried to use any of these two forks for some small project 
+  and missed the very first functionality needed there:
+  ability to use both direct (two-ways, triggered manually) 
+  and ping-pong (triggered on timeout) transitions.
+  
+  also SetTransitionTime is missed in @microdee's fork (why?)
+  which means need to manually edit all those times for any design change.
+  which is pity, cause time-based approach looks way more reasonable
+  (frame-based one requires calculating transition time from current fps, ouch)

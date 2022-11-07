@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "159979"
+user: "sanch"
+created: "18 Jul, 2014 - 21:22"
+body: |-
+  i'm afraid i don't have time  to help atm , but i think trying to tweek optical flow param and blur the opticalflow output will help  , but not sure if there is blur for 32bit dx9 .

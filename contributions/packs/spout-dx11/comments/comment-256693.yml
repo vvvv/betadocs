@@ -1,0 +1,10 @@
+### YamlMime:ContributionComment
+---
+uid: "256693"
+user: "guest"
+created: "28 Jun, 2018 - 17:02"
+body: |-
+  After restarting, the vvvv Spout DX11 helppatch appears in the SpoutPanel. But it is listed there as DX9 and not received in Unity. I've tested the Demo SpoutSender and it displays as DX11 in the SpoutPanel and shows up on Unity correctly. Any ideas why the vvvv DX11 helppatch is interpreted as DX9?
+  ![](https://vvvv.org/sites/default/files/imagecache/large/images/spout%20-%20Copy.jpg) 
+  
+  Edit: ok, it's working now! Just missed to enter the sender name into the Unity receiver. The vvvv sendner is still indicated as DX9, but not sure if this will make any trouble.

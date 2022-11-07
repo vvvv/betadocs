@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "242823"
+user: "mburk"
+created: "20 Jul, 2017 - 09:52"
+body: |-
+  Yeah, sorry for sending you on a bughunt there.
+  Actually this fix works for now, but is not totally correct, as any reflections of a metal surface should be colored as the material is. So e.g. only blue is reflected. I will integrate this in the next version.

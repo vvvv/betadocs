@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "157464"
+user: "tekcor"
+created: "22 Jun, 2014 - 19:29"
+body: |-
+  Hey velcrome nice one this is very usefull. Will try to use it next time the dynamic spread + Unique ID problem comes up again. So far I worked in this case with a fixed spread size in this case and dynamically isert at certain slices the elements of the dynamic spread.

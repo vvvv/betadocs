@@ -1,0 +1,20 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/kuler-themes-meta"
+type: "misc"
+author: "geometrica"
+date: "29 Dec, 2012"
+title: "Kuler Themes"
+originalURL: "contribution/kuler-themes"
+category: "misc"
+credits: |-
+  phl ,puig and Geometrica Studio
+like_count: "8"
+imported: "true"
+teaser: |-
+  Just an update to retrieve Adobe Kuler Themes. 
+  I found this legacy thread,[kuler-update](https://discourse.vvvv.org/t/kuler-update) ,  and i decided to make it simpler and more useful. Fixed the Urls, improved the method to search or get feeds ,added a  save & load preset function, and retrieve of the theme title
+  All you´ll need is an adobe kuler key to make it work.
+  https://kuler.adobe.com/api/index.cfm?CFID=8529888&CFTOKEN=29017496
+  Very useful for color gradients or palettes creation.
+  Only Works with beta 29 (depend of asstring(raw) node)

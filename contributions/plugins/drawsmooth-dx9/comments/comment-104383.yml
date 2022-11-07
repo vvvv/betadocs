@@ -1,0 +1,12 @@
+### YamlMime:ContributionComment
+---
+uid: "104383"
+user: "motzi"
+created: "30 Jul, 2013 - 10:13"
+body: |-
+  i'm having problems getting this to run.
+  no red nodes or strange tty output whatsoever, but when trying to draw nothing happens.
+  
+  tried this with b27.2, 29.2 and 30.2 on win8
+  
+  thanks for any advice!

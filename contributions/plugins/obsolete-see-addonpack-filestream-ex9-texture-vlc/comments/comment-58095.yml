@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "58095"
+user: "screamer"
+created: "06 Jan, 2011 - 18:00"
+body: |-
+  vux, you are great, tryed now with a mkv encoded in h264 fullhd, really nice and smooth playing and reactive. but, i found a bug, or seems to be that. Simply it doesn't accept relative paths for the video. For example i have a file in the same location of the patch, so i want to tell him just the name of the file, without a path. but it doesn't load it. if i use the absolute path, for the same file in the same patch, it works like a sharm :)
+  anyway, great great addon :D

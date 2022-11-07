@@ -1,0 +1,12 @@
+### YamlMime:ContributionComment
+---
+uid: "78713"
+user: "markus4"
+created: "01 Mar, 2012 - 08:50"
+body: |-
+  You can play Youtube Clips in your vvvv patch by using this plugin.
+  Just copy the youtubelink like: http://www.youtube.com/watch?v=iaKehq6qsdY
+  open VLC Player, Media > open Location from Clipboard > Play
+  Then  Tools > Media Information > Copy the Link from Location and open it with VLC Plugin from vvvv
+  
+  Perhaps somebody knows a way to get the "location "without this step?

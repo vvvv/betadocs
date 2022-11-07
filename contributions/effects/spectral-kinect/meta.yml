@@ -1,0 +1,41 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/spectral-kinect-meta"
+type: "effect"
+author: "lecloneur"
+date: "01 Nov, 2012"
+title: "Spectral Kinect"
+originalURL: "contribution/spectral-kinect"
+category: "effect"
+like_count: "25"
+imported: "true"
+teaser: |-
+  Spectral Kinect is the result of heavy cooking with pixel shaders and particle system.
+  
+  The recipe :
+  
+  - Start by adding the [vux](http://vvvv.org/users/vux)'s Kinect Skeleton plugin.
+  - Add some Ciant Particles system by the mighty [Martin Zrcek](http://vvvv.org/users/Martin+Zrcek) and mix them together.
+  - Take some of [unc](http://vvvv.org/users/unc)'s texture FX(as usual), add them to the previous preparation and play with it.
+  
+  Finally mix everything with lots of late nights experimenting, tweaking and fun using your favorite Multipurpose Toolkit and that's it !
+  
+  You've got the Spectral Kinect !
+  
+  The idea : if there is someone in front of the Kinect (sadely only one...) the spray/ball will transform into the Spectral and you can control it with your Kinect. 
+  Then, if there is nobody, the Spectral will transform back into the spray/ball and move around.
+  
+  If you don't have a Kinect, you can toggle the default position to see how it looks anyway.
+  
+  Research steps can be seen here : http://www.flickr.com/photos/cloneproduction/sets/72157631903128574/
+  
+  Video is here : https://vimeo.com/52612788
+  
+  I'd like to thanks a lot, all those guys who makes plugin and effects, because without them, it wouldn't be possible to do that with vvvv.
+  
+  Big Up guys !
+  
+  Edit by Newemka: SPECTRAL KINECT working with Open NI
+  
+  Hello everyone, I've updated this patch to make it working with Open NI. The MS Kinect Skeleton Nodes gives more joints positions, with the OpenNi Skeleton nodes, wrists, ankles and waist position are missing. Then I had to re-order the Joints ID in the ResampleSkeleton module.
+  Thanks for the help of LeCloneur!

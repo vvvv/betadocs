@@ -1,0 +1,24 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/zalgo-(string)-files"
+url: "zalgo-string"
+category: "plugin"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "1"
+            filename: "Zalgo (String).zip"
+            description: |-
+              now spreadable
+            
+            timestamp: "27 Feb, 2013 - 10:49"
+            download_count: "1"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "Zalgo (String).zip"
+                    timestamp: "26 Feb, 2013 - 21:42"
+                    download_count: "3"

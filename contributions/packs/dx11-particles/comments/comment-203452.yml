@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "203452"
+user: "timpernagel"
+created: "21 Aug, 2015 - 12:42"
+body: |-
+  Guys, you really have to check out the forces-part of the pack. Is already a lot of fun and contributing of additional stuff highly appreciated. We have the next implementations on the list (verlet + constraints, boids, connectall, sorting, etc.). But if you have already something on your hard-drive, feel free to implement it in the pack and make a pull request. Lets build a(nother) powerful particle-libary!
+  
+  Ah, and don't miss the MultiEmitterWithGroupedForces.v4p-girlpower patch. Eventbased behaviour-switching!

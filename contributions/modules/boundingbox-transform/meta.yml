@@ -1,0 +1,15 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/boundingbox-(transform)-meta"
+type: "module"
+author: "tmp"
+date: "23 May, 2014"
+title: "BoundingBox (Transform)"
+originalURL: "contribution/boundingbox-(transform)"
+category: "module"
+credits: |-
+  [tmp](http://vvvv.org/users/tmp)
+like_count: "3"
+imported: "true"
+teaser: |-
+  I was surprised that there is no contribution or node for this task. Thats why I want to share this little helper with you ;)

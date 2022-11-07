@@ -1,0 +1,15 @@
+### YamlMime:ContributionComment
+---
+uid: "250744"
+user: "eno"
+created: "06 Apr, 2018 - 10:22"
+body: |-
+  Hey what's the status for this contribution?
+  
+  Does the helper process still consume a full core and is it possible to use previously baked data now, so there isn't the heavy import always happening?
+  
+  Would give it another try then.
+  
+  Cheers
+  
+  Eno

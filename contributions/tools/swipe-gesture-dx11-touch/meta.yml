@@ -1,0 +1,17 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/swipe-gesture-dx11-touch-meta"
+type: "tool"
+author: "vasilis"
+date: "02 Dec, 2015"
+title: "Swipe Gesture DX11-Touch"
+originalURL: "contribution/swipe-gesture-dx11-touch"
+category: "tool"
+credits: |-
+  [Gareth.Griffiths](http://vvvv.org/users/Gareth.Griffiths),[tonfilm](http://vvvv.org/users/tonfilm)
+like_count: "2"
+imported: "true"
+teaser: |-
+  This is a simple swipe gesture example that can be used in touch applications. Is mostly for beginners that want something fast and easy to implement in their projects.It can track swipe gesture either from left side to the right side or vice versa  Special thanks to Gareth.Griffiths for this contribution.
+  
+  Made with 45beta34.2_x86

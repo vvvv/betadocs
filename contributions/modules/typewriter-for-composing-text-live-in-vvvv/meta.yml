@@ -1,0 +1,16 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/typewriter-for-composing-text-live-in-vvvv-meta"
+type: "module"
+author: "sapo"
+date: "21 Dec, 2011"
+title: "Typewriter for composing text live in vvvv"
+originalURL: "contribution/typewriter-for-composing-text-live-in-vvvv"
+category: "module"
+like_count: "6"
+imported: "true"
+teaser: |-
+  This is a one night project, so don't expect too much, is a module able to type text into a string iobox without clicking it, i couldn't find any other way to do it. The closest thing i found is that the tty renderer shows what you type into it and it has a string output too, but it's not outputting what you type inside it. it outputs just what's gets written by vvvv or the ttywrite nodes.
+  
+  This module is made on a italian keyboard layout, so on different layouts all the special keys will be wrong, but you can reassign them and send me your list, i'll include it in the next release. if there will be one :)
+  i'm open to ideas/suggestions/helps to make it easier/better.

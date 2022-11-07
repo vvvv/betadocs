@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "74174"
+user: "Alec"
+created: "30 Dec, 2011 - 11:11"
+body: |-
+  I just played with the new kinect nodes: when starting the skeleton help patch the patch runs at full speed, but the skeleton returns the movements with several seconds of delay... 
+  
+  The other help patches run fine.

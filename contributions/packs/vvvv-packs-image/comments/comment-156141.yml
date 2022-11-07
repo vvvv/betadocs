@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "156141"
+user: "alg"
+created: "29 May, 2014 - 15:56"
+body: |-
+  @microdee really strange, AsTexture is working for me. If you enable exceptions, can you see any errors?

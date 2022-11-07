@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "153153"
+user: "joreg"
+created: "07 Apr, 2014 - 21:41"
+body: |-
+  @milo, eno, dottore, re win7: i also encountered the "System.Environment.get_CurrentManagedThreadId()" error recently. while under different circumstances, installing .net4.5 on that machine resolved the issue.

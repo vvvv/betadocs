@@ -1,0 +1,15 @@
+### YamlMime:ContributionComment
+---
+uid: "273875"
+user: "dottore"
+created: "26 Sep, 2019 - 12:29"
+body: |-
+  Hey yar, sorry for the late reply,
+  
+  you can definitely operate on single particles by implementing your own Component.
+  how you implement it depends on:
+  * which condition you want to change direction (eg. they enter in a defined area, or you trigger the condition by particle index, ...). you need to define the rule.
+  * how you want to change direction: by setting a new random velocity to the particle when the condition for that particle is true? by applying a force when the condition is true? ...
+  
+  Once you defined exactly how you want to operate you can create your component.
+  you can copy an existing one (like the Brownian) and implement in there the logic for the condition and the behaviour

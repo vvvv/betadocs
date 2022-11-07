@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "273913"
+user: "idab"
+created: "03 Oct, 2019 - 14:54"
+body: |-
+  Hi [Bartuc](http://vvvv.org/users/Bartuc)! I'm using your contribution but seems keys 8 and 9 has strange behaivour. Looking at Typewriter node of your help patch if I press 8 the last character is substitute and if I press 9 a lot of space character are insert before 9. Could you please have a look?
+  
+  Is it also possible to substitute Maj with Shift?
+  
+  Let me know! Thanks!

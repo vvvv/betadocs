@@ -1,0 +1,21 @@
+### YamlMime:ContributionComment
+---
+uid: "97490"
+user: "misak"
+created: "04 Mar, 2013 - 19:32"
+body: |-
+  just try change the
+  ```
+     VertexShader = compile vs_3_0 VS();
+     PixelShader  = compile ps_3_0 main();
+  
+  ```
+  to
+  
+  ```
+     VertexShader = compile vs_2_0 VS();
+     PixelShader  = compile ps_2_0 main();
+  ```
+  
+  then save .fx file 
+  and reopen patch

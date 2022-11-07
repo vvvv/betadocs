@@ -1,0 +1,34 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/rastertek-dx11-v4-tutorials-meta"
+type: "tutorial"
+author: "colorsound"
+date: "04 Apr, 2013"
+title: "Rastertek DX11 V4 Tutorials"
+originalURL: "contribution/rastertek-dx11-v4-tutorials"
+category: "tutorial"
+credits: |-
+  www.rastertek.com/tutdx11.html
+like_count: "25"
+imported: "true"
+teaser: |-
+  Those are some of the Rastertek DX11 Tutorials at www.rastertek.com/tutdx11.html
+  adapted to V4 DX11.
+  
+  File Includes : 
+  0_Template 17_MultitextureTutorial 
+  19_AlphaMappingTutorial 
+  20_BumpMappingTutorial 
+  21_SpecularMappingTutorial 
+  23_FogTutorial 
+  24_ClipPlaneTutorial 
+  25_TextureTranslationTutorial 
+  30_MultiplePointLightsTutorial 
+  32_GlassandIceTutorial 
+  33_FireTutorial 
+  35_DepthBuffer 
+  42_MultiShadow 
+  43_SoftShadows 
+  44_ProjectiveTexturing 
+  45_ProjectedLightMaps 
+  46_GlowTutorial

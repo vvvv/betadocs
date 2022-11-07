@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "91432"
+user: "bjoern"
+created: "17 Nov, 2012 - 09:34"
+body: |-
+  @ [io](http://vvvv.org/users/io) Try removing <span class="node">Info (EX9.Texture)</span> from YUY2RGB.

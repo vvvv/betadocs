@@ -1,0 +1,65 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/shadertoy-renderer-meta"
+type: "plugin"
+author: "mino"
+date: "21 Feb, 2016"
+title: "Shadertoy Renderer"
+originalURL: "contribution/shadertoy-renderer"
+category: "plugin"
+credits: |-
+  [shadertoy](https://www.shadertoy.com),[OpenTK](http://www.opentk.com)
+like_count: "17"
+imported: "true"
+teaser: |-
+  Rendering GLSL fragment shader with shadertoy syntax and output vvvv texture(dx11).
+  
+  ### shadertoy?
+  
+  shadertoy is the web application to coding and sharing glsl fragment shader (pixel shader) using WebGL by Beautypi.
+  if you not familiar with shadertoy, see [https://www.shadertoy.com](https://www.shadertoy.com).
+  
+  ### how to use
+  
+  just input shader code and play. shader input(uniforms) and main(void) function are managed in renderer node. you don't need write it.
+  other basic help, see [shadertoy howto](https://www.shadertoy.com/howto)
+  
+  ### input uniforms status
+  
+  * vec3 iResolution: ok
+  * float iTime: ok (rename from iGlobalTime from v0.3)
+  * float iTimeDelta: ok (from v0.2)
+  * float iFrame: ok (from v0.2)
+  * float iChannelTime<4>: no
+  * vec4 iMouse: ok (fixed v0.2)
+  * vec4 iDate: ok (from v0.2)
+  * float iSampleRate: no
+  * vec3 iChannelResolution<4>: no
+  * samplerXX iChanneli: ok. use iChannel0,iChannel1,iChannel2,iChannel3
+  
+  ### change log
+  
+  #### v0.3(22.09.2018)
+  
+  * remove dx9 support
+  * rename iGlobalTime to iTime
+  
+  #### v0.2(13.03.2016)
+  
+  * dx11 support
+  * add & fix input uniforms
+  * multiple renderer support
+  
+  ### work in progress
+  
+  * play even renderer hidden
+  * video input and movie as texture
+  
+  ### src
+  
+  https://github.com/minoru-ito/ShadertoyRenderer
+  
+  <div class="box">
+  Note:
+  no editor, Sound shader, VR shader.
+  </div>

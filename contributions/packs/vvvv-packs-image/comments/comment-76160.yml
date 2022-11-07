@@ -1,0 +1,33 @@
+### YamlMime:ContributionComment
+---
+uid: "76160"
+user: "guest"
+created: "12 Feb, 2012 - 15:39"
+body: |-
+  for me openni modules (context & list device = red nodes) with openni 1.5.2.23 
+  
+  ```
+  1) Méthode introuvable : 'Void OpenNI.License..ctor()'.
+  
+  Resulting in: An exception occurred while trying to create an instance of type 'VVVV.Nodes.OpenNI.ContextNode'.
+  
+  Resulting in: Cannot activate part 'VVVV.Nodes.OpenNI.ContextNode'.
+  Element: VVVV.Nodes.OpenNI.ContextNode -->  VVVV.Nodes.OpenNI.ContextNode -->  TypeCatalog (Types='VVVV.Nodes.OpenNI.ContextNode').
+  
+  Resulting in: Cannot get export 'VVVV.Nodes.OpenNI.ContextNode (ContractName="VVVV.PluginInterfaces.V1.IPluginBase")' from part 'VVVV.Nodes.OpenNI.ContextNode'.
+  Element: VVVV.Nodes.OpenNI.ContextNode (ContractName="VVVV.PluginInterfaces.V1.IPluginBase") -->  VVVV.Nodes.OpenNI.ContextNode -->  TypeCatalog (Types='VVVV.Nodes.OpenNI.ContextNode').
+  
+     à System.ComponentModel.Composition.Hosting.CompositionServices.GetExportedValueFromComposedPart(ImportEngine engine, ComposablePart part, ExportDefinition definition)
+     à System.ComponentModel.Composition.Hosting.CatalogExportProvider.GetExportedValue(CatalogPart part, ExportDefinition export, Boolean isSharedPart)
+     à System.ComponentModel.Composition.Hosting.CatalogExportProvider.CatalogExport.GetExportedValueCore()
+     à System.ComponentModel.Composition.Primitives.Export.get_Value()
+     à System.ComponentModel.Composition.ExportServices.GetCastedExportedValue<T>(Export export)
+     à System.ComponentModel.Composition.ExportServices.GetExportLifetimeContextFromExport<T>(Export export)
+     à System.ComponentModel.Composition.ExportServices.<>c**DisplayClass1c`1.<CreateStronglyTypedExportFactoryOfT>b**1b()
+     à System.ComponentModel.Composition.ExportFactory`1.CreateExport()
+     à VVVV.Hosting.Factories.DotNetPluginFactory.CreatePlugin(INodeInfo nodeInfo, IPluginHost2 pluginHost)
+     à VVVV.Hosting.Factories.DotNetPluginFactory.CreateNode(INodeInfo nodeInfo, IInternalPluginHost pluginHost)
+     à VVVV.Hosting.Factories.AbstractFileFactory`1.Create(INodeInfo nodeInfo, INode host)
+     à VVVV.Hosting.HDEHost.CreateNode(INode node)
+  
+  ```

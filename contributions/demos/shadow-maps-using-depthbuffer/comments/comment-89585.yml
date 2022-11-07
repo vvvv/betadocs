@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "89585"
+user: "nissidis"
+created: "11 Oct, 2012 - 18:28"
+body: |-
+  @Psykeview --> a 'hint' would be the device(EX.9) wich is rendering the INTZ texture (right side). Check there until you start seeing the teapots getting white/grey, this was the only practical way for me to understand what I was doing...

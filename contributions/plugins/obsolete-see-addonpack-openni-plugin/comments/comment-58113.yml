@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "58113"
+user: "hierro"
+created: "07 Jan, 2011 - 00:04"
+body: |-
+  @catweasel  here working too with 0.25, byt he way i had ot reinstall drivers after upgrade, at least u can try to replace the openNI.net.dll from you openNI bin folder to you plugin folder, but i doubt it will help

@@ -1,0 +1,19 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/pioneer-pro-dj-link-rekordbox-only-meta"
+type: "module"
+author: "RobertQue"
+date: "06 Jul, 2016"
+title: "Pioneer PRO DJ LINK - Rekordbox only"
+originalURL: "contribution/pioneer-pro-dj-link-rekordbox-only"
+category: "module"
+credits: |-
+  joreg, sunep
+like_count: "4"
+imported: "true"
+teaser: |-
+  Works only with tracks exported with Rekordbox! 
+  
+  Acquire Beat clock, Track BPM, Pitch % and playback BPM from up to 4 Pioneer players.
+  
+  In future i will append module for DJM900nxs to monitor volume faders.

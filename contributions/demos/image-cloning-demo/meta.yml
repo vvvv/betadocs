@@ -1,0 +1,21 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/image-cloning-demo-meta"
+type: "demo"
+author: "joreg"
+date: "10 Apr, 2014"
+title: "Image Cloning Demo"
+originalURL: "contribution/image-cloning-demo"
+category: "demo"
+credits: |-
+  Zeev Farbman et al., arturo
+like_count: "14"
+imported: "true"
+teaser: |-
+  This helps to smoothly insert one image into another. Not sure why it is called image cloning but here is the original paper this is based on:
+  http://www.cs.huji.ac.il/~danix/mvclone/
+  
+  The translation to hlsl started from this work by Arturo Castro:
+  https://github.com/arturoc/FaceSubstitution/tree/master/GPUCloning/bin/data
+  
+  Comes with a version for both DX9 and DX11.

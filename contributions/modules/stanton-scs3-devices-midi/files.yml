@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/stanton-scs3-(devices-midi)-files"
+url: "stanton-scs3-devices-midi"
+category: "module"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "StantonSCS3 (Devices MIDI).zip"
+            timestamp: "30 Mar, 2011 - 03:08"
+            download_count: "1"

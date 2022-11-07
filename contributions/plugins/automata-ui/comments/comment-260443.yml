@@ -1,0 +1,14 @@
+### YamlMime:ContributionComment
+---
+uid: "260443"
+user: "daviddenker"
+created: "03 Aug, 2018 - 12:20"
+body: |-
+  Hey Christian,
+  excellent work :-)
+  
+  A feature-request from my side, for one of the next updates, would be an undo redo function and an alert warning if I want to delete a state or transition.
+  If I hit the scrollwheelbutton accidentally over a state I lose the state, the connected transitions and my connections in the patch - would be cool to avoid that. ;-)
+  
+  Cheers
+  David

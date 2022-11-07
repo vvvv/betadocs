@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "214416"
+user: "nissidis"
+created: "10 Jan, 2016 - 14:48"
+body: |-
+  @zeos: thx for the info
+  
+  there is one more. When I start a custom made patch (with the ESDK node in it) and my camera is connected (via USB) the vvvv crashes. Does anybody else experienced that so far ?

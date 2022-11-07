@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "98090"
+user: "microdee"
+created: "14 Mar, 2013 - 17:50"
+body: |-
+  well i'm developing the version 1.1.2 which is based on wyphon and the interprocess send receive nodes but they are a little bit unstable yet. until then b28.1 is good enough or do you have any particular reason for using b29.2?
+  for freezing look at this thread [x86-stopped-working-on-windows-7-64-bit](https://discourse.vvvv.org/t/x86-stopped-working-on-windows-7-64-bit)

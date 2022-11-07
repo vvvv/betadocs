@@ -1,0 +1,23 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/pdf-texture-(ex9.texture)-meta"
+type: "plugin"
+author: "bo27"
+date: "14 May, 2011"
+title: "PDF Texture (EX9.Texture)"
+originalURL: "contribution/pdf-texture-(ex9.texture)"
+category: "plugin"
+credits: |-
+  patch by bo27 
+  plugin code by Sergey Orlov
+like_count: "19"
+imported: "true"
+teaser: |-
+  Used libraries and tools: [PdfSharp](http://www.pdfsharp.com) and [muPDF](http://mupdf.com/) Please read their licensie agreements.
+  
+  PDF files used for help-patch: [dont panic - the noobs guide to vvvv](xref:contribution/dont panic - the noobs guide to vvvv) by [roman_g](http://vvvv.org/users/roman_g) and [illustrated guide to vvvv for newbies in computer arts](xref:contribution/illustrated guide to vvvv for newbies in computer arts) by [bo27](http://vvvv.org/users/bo27)
+  
+  Libraries have some functional limitations (e.g. can not use layers from pdf file). But it's still better than nothing.
+  
+  for beta28.1
+  simply copy dll from beta28.1 to the dependencies folder,the static one seems not fully working atm?

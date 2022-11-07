@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "240827"
+user: "joreg"
+created: "06 Jun, 2017 - 10:37"
+body: |-
+  @artifak in order to do this you'll have to first "merge" the textures to one, by e.g. rendering them together in an extra renderpass and then using that combined result as input to the badMapper. hope that explains..

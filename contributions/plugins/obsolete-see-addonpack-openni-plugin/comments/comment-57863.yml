@@ -1,0 +1,486 @@
+### YamlMime:ContributionComment
+---
+uid: "57863"
+user: "sugokuGENKI"
+created: "31 Dec, 2010 - 21:10"
+body: |-
+  Here's what I'm using, it's not for skeletons, but some people may find it handy (in particular it outputs an XYZ float texture and aligns the depth image to RGB image)
+  ```
+  using System;
+  using System.IO;
+  using System.Collections.Generic;
+  using System.Linq;
+  using System.Text;
+  using VVVV.PluginInterfaces.V1;
+  using SlimDX.Direct3D9;
+  using System.Runtime.InteropServices;
+  using SlimDX;
+  using System.Drawing;
+  using System.Drawing.Imaging;
+  using System.Threading;
+  
+  using xn;
+  
+  namespace VVVV.Nodes.OpenNI
+  {
+  
+      public unsafe class OpenNInode : IPlugin, IDisposable, IPluginDXTexture
+      {
+  
+          #region Plugin Info
+          public static IPluginInfo PluginInfo
+          {
+              get
+              {
+                  IPluginInfo Info = new PluginInfo();
+                  Info.Name = "OpenNI";							//use CamelCaps and no spaces
+                  Info.Category = "EX9.Texture";						//try to use an existing one
+                  Info.Version = "";						//versions are optional. leave blank if not needed
+                  Info.Help = "Gets textures from OpenNI (generally for Kinect)";
+                  Info.Bugs = "";
+                  Info.Credits = "";								//give credits to thirdparty code used
+                  Info.Warnings = "";
+                  Info.Author = "sugokuGENKI";
+                  Info.Credits = "PrimeSense";
+  
+                  //leave below as is
+                  System.Diagnostics.StackTrace st = new System.Diagnostics.StackTrace(true);
+                  System.Diagnostics.StackFrame sf = st.GetFrame(0);
+                  System.Reflection.MethodBase method = sf.GetMethod();
+                  Info.Namespace = method.DeclaringType.Namespace;
+                  Info.Class = method.DeclaringType.Name;
+                  return Info;
+                  //leave above as is
+              }
+          }
+          #endregion
+  
+          #region Fields
+          private IPluginHost FHost;
+  
+          //inputs
+          private IStringIn FPinInConfig;
+          private IValueIn FPinInPipetXY;
+  
+          //outputs
+          private IDXTextureOut FPinOutTextureDepth16;
+          private IDXTextureOut FPinOutTextureXYZ;
+          private IDXTextureOut FPinOutTextureRGB;
+  
+          private IValueOut FPinOutRunning;
+          private IValueOut FPinOutPipetResultXYZ;
+  
+          private Dictionary<int, Texture> FTexturesD16 = new Dictionary<int, Texture>();
+          private Dictionary<int, Texture> FTexturesXYZ = new Dictionary<int, Texture>();
+          private Dictionary<int, Texture> FTexturesRGB = new Dictionary<int, Texture>();
+  
+          private bool FOutputEnabledD16 = false;
+          private bool FOutputEnabledXYZ = false;
+          private bool FOutputEnabledRGB = false;
+  
+          private IntPtr FDataDepth = new IntPtr();
+          private IntPtr FDataXYZ = new IntPtr();
+          private IntPtr FDataRGB = new IntPtr();
+  
+          //pipet
+          private List<int> FPipetRequests = new List<int>();
+          private bool FPipetRequestsReady = false; 
+          
+          private List<double<>> FPipetResults = new List<double<>>();
+          private bool FPipetResultsReady = false;
+          
+  
+          //OpenNI
+          private int FWidth = 640;
+          private int FHeight = 480;
+                 
+          private string FConfigString = "";
+  
+          private bool FRunning = false;
+          private Context context;
+          private DepthGenerator depth;
+          private ImageGenerator kinect_image;
+          private Thread readerThread;
+          private bool shouldRun = false;
+  
+          #endregion
+  
+          #region Auto Evaluate
+          public bool AutoEvaluate
+          {
+              get { return true; }
+          }
+          #endregion
+  
+          #region Set Plugin Host
+          public void SetPluginHost(IPluginHost Host)
+          {
+              //assign host
+              this.FHost = Host;
+  
+              //inputs
+              this.FHost.CreateStringInput("Config", TSliceMode.Single, TPinVisibility.True, out FPinInConfig);
+  
+              this.FHost.CreateValueInput("Pipet", 2, null, TSliceMode.Dynamic, TPinVisibility.True, out FPinInPipetXY);
+              FPinInPipetXY.SetSubType2D(0, 1, 0.001, 0, 0, false, false, false);
+  
+              //outputs
+              this.FHost.CreateTextureOutput("Depth 16", TSliceMode.Single, TPinVisibility.True, out this.FPinOutTextureDepth16);
+              this.FHost.CreateTextureOutput("XYZ", TSliceMode.Single, TPinVisibility.True, out this.FPinOutTextureXYZ);
+              this.FHost.CreateTextureOutput("RGB", TSliceMode.Single, TPinVisibility.True, out this.FPinOutTextureRGB);
+  
+              this.FHost.CreateValueOutput("Running", 1, null, TSliceMode.Single, TPinVisibility.True, out this.FPinOutRunning);
+              this.FPinOutRunning.SetSubType(0, 1, 1, 0, false, true, false);
+  
+              this.FHost.CreateValueOutput("Pipet result", 3, null, TSliceMode.Dynamic, TPinVisibility.True, out FPinOutPipetResultXYZ);
+              FPinOutPipetResultXYZ.SetSubType3D(-1, 1, 0.001, 0, 0, 0, false, false, false);
+  
+              Configurate(null);
+          }
+          #endregion
+  
+          #region Constructor
+          public OpenNInode()
+          {
+              FDataXYZ = Marshal.AllocCoTaskMem(FWidth * FHeight * 4 * 4);
+              float *data = (float*)FDataXYZ.ToPointer();
+  
+              for (int iX = 0; iX < FWidth; iX++)
+                  for (int iY = 0; iY < FHeight; iY++, data+=4)
+                      data<0> = 1.0f;
+  
+          }
+          ~OpenNInode()
+          {
+              Marshal.FreeCoTaskMem(FDataXYZ);
+          }
+          #endregion
+  
+          #region Configurate
+          public void Configurate(IPluginConfig Input)
+          {
+                          
+          }
+          #endregion
+  
+          #region Evaluate
+          public void Evaluate(int SpreadMax)
+          {
+              //check config string
+              if (FPinInConfig.PinIsChanged)
+              {
+                  FPinInConfig.GetString(0, out FConfigString);
+                  if (FConfigString != null)
+                      if (FConfigString.Length>0)
+                          start();
+              }
+  
+              //check texture connections
+              FOutputEnabledD16 = this.shouldRun && FRunning && FPinOutTextureDepth16.IsConnected;
+              FOutputEnabledXYZ = this.shouldRun && FRunning && FPinOutTextureXYZ.IsConnected;
+              FOutputEnabledRGB = this.shouldRun && FRunning && FPinOutTextureRGB.IsConnected;
+  
+              //check running
+              double Running = (FRunning ? 1 : 0);
+              FPinOutRunning.SetValue(0, Running);
+              
+              //get pipet results
+              if (FPipetResultsReady)
+              {
+                  lock (this)
+                  {
+                      int nPipets = FPipetResults.Count;
+                      FPinOutPipetResultXYZ.SliceCount = nPipets;
+  
+                      for (int i = 0; i < nPipets; i++)
+                          FPinOutPipetResultXYZ.SetValue3D(i, FPipetResults<i><0>, FPipetResults<i><1>, FPipetResults<i><2>);
+  
+                      FPipetResultsReady = false;
+                  }
+              }
+  
+              //send pipet requests
+              if (FPinInPipetXY.PinIsChanged)
+              {
+                  int idx, idy, id;
+                  double px, py;
+                  lock (this)
+                  {
+                      FPipetRequests.Clear();
+                      for (int i = 0; i < FPinInPipetXY.SliceCount; i++)
+                      {
+                          FPinInPipetXY.GetValue2D(i, out px, out py);
+                          if (px < 0) px = 0;
+                          if (px > 1) px = 1;
+                          if (py < 0) py = 0;
+                          if (py > 1) py = 1;
+  
+                          idx = System.Convert.ToInt32(px * System.Convert.ToDouble(FWidth - 1));
+                          idy = System.Convert.ToInt32(py * System.Convert.ToDouble(FHeight - 1));
+                          id = idy * FWidth + idx;
+  
+                          FPipetRequests.Add(id);
+                      }
+  
+                      FPipetRequestsReady = true;
+                      FPipetResultsReady = false;
+                  }
+              }
+          }
+          #endregion
+  
+          #region Dispose
+          public void Dispose()
+          {
+          }
+          #endregion
+  
+          public void GetTexture(IDXTextureOut ForPin, int OnDevice, out int tex)
+          {
+              tex = 0;
+              if (ForPin == this.FPinOutTextureDepth16)
+              {
+                  if (this.FTexturesD16.ContainsKey(OnDevice))
+                      tex = this.FTexturesD16<OnDevice>.ComPointer.ToInt32();
+              }
+  
+              if (ForPin == this.FPinOutTextureXYZ)
+              {
+                  if (this.FTexturesXYZ.ContainsKey(OnDevice))
+                      tex = this.FTexturesXYZ<OnDevice>.ComPointer.ToInt32();
+              }
+  
+              if (ForPin == this.FPinOutTextureRGB)
+              {
+                  if (this.FTexturesRGB.ContainsKey(OnDevice))
+                      tex = this.FTexturesRGB<OnDevice>.ComPointer.ToInt32();
+              }
+  
+          }
+  
+          public void DestroyResource(IPluginOut ForPin, int OnDevice, bool OnlyUnManaged)
+          {
+              if (this.FTexturesD16.ContainsKey(OnDevice))
+              {
+                  this.FTexturesD16<OnDevice>.Dispose();
+                  this.FTexturesD16.Remove(OnDevice);
+              }
+  
+              if (this.FTexturesXYZ.ContainsKey(OnDevice))
+              {
+                  this.FTexturesXYZ<OnDevice>.Dispose();
+                  this.FTexturesXYZ.Remove(OnDevice);
+              }
+  
+              if (this.FTexturesRGB.ContainsKey(OnDevice))
+              {
+                  this.FTexturesRGB<OnDevice>.Dispose();
+                  this.FTexturesRGB.Remove(OnDevice);
+              }
+          }
+  
+          public void UpdateResource(IPluginOut ForPin, int OnDevice)
+          {
+              if (!FRunning)
+                  return;
+  
+              SlimDX.Direct3D9.Device dev = SlimDX.Direct3D9.Device.FromPointer(new IntPtr(OnDevice));
+  
+              if (!this.FTexturesD16.ContainsKey(OnDevice))
+              {
+                  Texture txt = new Texture(dev, FWidth, FHeight, 1, Usage.None, Format.L16, Pool.Managed);
+                  this.FTexturesD16.Add(OnDevice, txt);
+              }
+  
+              if (!this.FTexturesXYZ.ContainsKey(OnDevice))
+              {
+                  Texture txt = new Texture(dev, FWidth, FHeight, 1, Usage.None, Format.A32B32G32R32F, Pool.Managed);
+                  this.FTexturesXYZ.Add(OnDevice, txt);
+              }
+  
+              if (!this.FTexturesRGB.ContainsKey(OnDevice))
+              {
+                  Texture txt = new Texture(dev, FWidth, FHeight, 1, Usage.None, Format.X8R8G8B8, Pool.Managed);
+                  this.FTexturesRGB.Add(OnDevice, txt);
+              }
+  
+              Texture tx = this.FTexturesD16<OnDevice>;
+              if (FOutputEnabledD16 && this.FDataDepth != null)
+              {
+                  Surface srf = tx.GetSurfaceLevel(0);
+                  DataRectangle rect = srf.LockRectangle(LockFlags.Discard);
+                  rect.Data.WriteRange(this.FDataDepth, FWidth * FHeight * 2);
+                  srf.UnlockRectangle();
+              }
+  
+              tx = this.FTexturesXYZ<OnDevice>;
+              if (FOutputEnabledXYZ && this.FDataXYZ != null)
+              {
+                  Surface srf = tx.GetSurfaceLevel(0);
+                  DataRectangle rect = srf.LockRectangle(LockFlags.Discard);
+                  rect.Data.WriteRange(this.FDataXYZ, FWidth * FHeight * 4 * 4);
+                  srf.UnlockRectangle();
+              }
+  
+              tx = this.FTexturesRGB<OnDevice>;
+              if (FOutputEnabledRGB && this.FDataRGB != null)
+              {
+                  Surface srf = tx.GetSurfaceLevel(0);
+                  DataRectangle rect = srf.LockRectangle(LockFlags.Discard);
+                  rect.Data.WriteRange(this.FDataRGB, FWidth * FHeight * 4);
+                  srf.UnlockRectangle();
+              }
+  
+          }
+  
+          private void start()
+          {
+              if (this.FRunning)
+                  stop() ;
+  
+              try
+              {
+                  this.context = new Context();
+                  this.context.RunXmlScript(FConfigString);
+  
+                  this.FRunning = true;
+  
+                  //allocate to begin with. this memory is wasted until app resets
+                  //better idea is to not render texture until data is ready
+                  this.FDataRGB = Marshal.AllocCoTaskMem(FWidth * FHeight * 4);
+                  this.FDataDepth = Marshal.AllocCoTaskMem(FWidth * FHeight * 2);
+  
+                  //set alpha values to 1
+                  byte* RGB32 = (byte*) FDataRGB.ToPointer();
+                  for (int i = 0; i < FWidth * FHeight; i++, RGB32 += 4)
+                      RGB32<0> = 255;
+                  
+              }
+              catch (XnStatusException e)
+              {
+                  FHost.Log(TLogType.Error, "OpenNI: " + e.Message);
+                  this.FRunning = false;
+              }
+  
+              if (FRunning)
+              {
+                  this.shouldRun = true;
+                  this.readerThread = new Thread(ReaderThread);
+                  this.readerThread.Start();
+              }
+          }
+  
+          private void stop()
+          {
+              if (this.shouldRun)
+              {
+                  this.shouldRun = false;
+                  this.readerThread.Join();
+              }
+          }
+  
+          private unsafe void ReaderThread()
+          {
+              this.depth = context.FindExistingNode(NodeType.Depth) as DepthGenerator;
+              this.kinect_image = context.FindExistingNode(NodeType.Image) as ImageGenerator;
+              this.kinect_image.SetPixelFormat(xn.PixelFormat.RGB24);
+  
+              if (this.depth.IsCapabilitySupported("AlternativeViewPoint"))
+                  this.depth.GetAlternativeViewPointCap().SetViewPoint(this.kinect_image);
+  
+              DepthMetaData depthMD = new DepthMetaData();
+  
+              this.depth.GetMetaData(depthMD);
+  
+              while (this.shouldRun)
+              {
+                  try
+                  {
+                      this.context.WaitOneUpdateAll(this.depth);
+                  }
+                  catch (XnStatusException e)
+                  {
+                      this.FHost.Log(TLogType.Error, "OpenNI: " + e.Message);
+                  }
+  
+                  this.depth.GetMetaData(depthMD);
+  
+                  lock (this)
+                  {
+                      if (FOutputEnabledD16 || FOutputEnabledXYZ)
+                          FDataDepth = this.depth.GetDepthMapPtr();
+                      if (FOutputEnabledXYZ)
+                          RenderXYZ();
+                      if (FOutputEnabledRGB)
+                      {
+                          byte* RGB24 = (byte*) this.kinect_image.GetImageMapPtr().ToPointer();
+                          byte* RGB32 = (byte*) FDataRGB.ToPointer();
+  
+                          for (int i = 0; i < FWidth * FHeight; i++, RGB24 += 3, RGB32 += 4)
+                          {
+                              RGB32<0> = RGB24<2>;
+                              RGB32<1> = RGB24<1>;
+                              RGB32<2> = RGB24<0>;
+                          }
+                      }
+                  }
+              }
+          }
+  
+          private unsafe void RenderXYZ()
+          {
+              float* DataXYZ = (float*) FDataXYZ.ToPointer();
+              UInt16* DataDepth = (UInt16*) FDataDepth.ToPointer();
+  
+              int currentid = 0;
+  
+              for (int iY = 0; iY < FHeight; iY++)
+                  for (int iX = 0; iX < FWidth; iX++, DataXYZ += 4, DataDepth++)
+                      DepthToWorld(iX, iY, DataDepth<0>, DataXYZ);
+  
+              //move pointer back to start
+              DataXYZ = (float*)FDataXYZ.ToPointer();
+  
+              //check pipet requests
+              if (FPipetRequestsReady)
+              {
+                  FPipetResults.Clear();
+                  for (int iPipet = 0; iPipet < FPipetRequests.Count; iPipet++)
+                  {
+                      FPipetResults.Add(new double<3>);
+                      FPipetResults<iPipet><0> = System.Convert.ToDouble(DataXYZ[FPipetRequests<iPipet>*4]);
+                      FPipetResults<iPipet><1> = System.Convert.ToDouble(DataXYZ[FPipetRequests<iPipet>*4+1]);
+                      FPipetResults<iPipet><2> = System.Convert.ToDouble(DataXYZ[FPipetRequests<iPipet>*4+2]);
+                  }
+  
+                  FPipetRequestsReady = false;
+                  FPipetResultsReady = true;
+              }
+          }
+  
+          const float fx_d = 1.0f / 5.9421434211923247e+02f;
+          const float fy_d = 1.0f / 5.9104053696870778e+02f;
+          const float cx_d = 3.3930780975300314e+02f;
+          const float cy_d = 2.4273913761751615e+02f;
+  
+          private unsafe void DepthToWorld(int x, int y, int depthValue, float *data)
+          {
+              //adapted from http://graphics.stanford.edu/~mdfisher/Kinect.html
+              
+              //presume we're in mm units
+              data<2> = System.Convert.ToSingle(depthValue) / 1000.0f;
+              
+              //data<3> = (System.Convert.ToSingle(x) - cx_d) * data<1> * fx_d;
+              data<0> = (System.Convert.ToSingle(x) - cx_d) * fx_d * data<2>;
+              //data<2> = (System.Convert.ToSingle(y) - cy_d) * data<1> * fy_d;
+              data<1> = -(System.Convert.ToSingle(y) - cy_d) * fy_d * data<2>;
+  
+              data<3> = (data<2> > 0.0f ? 1.0f : 0.0f);
+          }
+  
+  
+      }
+  
+  }
+  
+  ```

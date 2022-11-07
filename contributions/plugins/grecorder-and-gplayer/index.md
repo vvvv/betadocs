@@ -1,0 +1,23 @@
+---
+uid: "contribution/grecorder-and-gplayer"
+uid-meta: "contribution/grecorder-and-gplayer-meta"
+uid-files: "contribution/grecorder-and-gplayer-files"
+title: "gRecorder and gPlayer"
+image: "gRecorderPlayer.jpg"
+contribution: "true"
+---
+
+Will record any number or UDP, TCP, and OSC sources to a file which can then be played back.
+
+Patches:
+gRecorder - contains GRecorder plugin
+gPlayer - contains GPlayer plugin
+my_recorder_player - Example of using gRecorder+gPlayer with two UDP sources and one TCP source. This patch will not work unless you hook it up to your data sources. All of the hidden nodes are just there for example. 
+
+Note: The TCP source I used for this patch was FreeStyler Remote, an iPhone app for controlling the FreeStyler DMX lighting program (available for free at http://freestylerdmx.be/ ). If you install FreeStyler, set the destination port on your iPhone to 3333 and the receiving port in FreeStyler to 3332 (which is default).
+
+Plugins:
+GRecorder
+GPlayer
+
+Has not been extensively tested.

@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "239085"
+user: "mindthegap"
+created: "28 Apr, 2017 - 14:31"
+body: |-
+  I tried to compile for 64bit, failed at a library which I did not get linked.
+  Maybe someone has fun (or for money) to convert that into a dynamic x11 plugin.

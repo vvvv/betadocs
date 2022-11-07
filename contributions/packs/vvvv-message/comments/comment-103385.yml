@@ -1,0 +1,16 @@
+### YamlMime:ContributionComment
+---
+uid: "103385"
+user: "bilderbuchi"
+created: "08 Jul, 2013 - 14:07"
+body: |-
+  > Readme.md?
+  
+  Markdown file. easily readable plaintext with formatting for nice rendering, too. Although I have to admit I've never seen a markdown file with html-style tags, this kinda defeats the purpose ^^ (e.g. 
+  ```
+  <code>Select</code>
+  ```
+  vs. 
+  ```
+  `Select`
+  ```

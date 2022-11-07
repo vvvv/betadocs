@@ -1,0 +1,26 @@
+### YamlMime:ContributionComment
+---
+uid: "152890"
+user: "Jose Vaaliña"
+created: "03 Apr, 2014 - 01:08"
+body: |-
+  Hi,
+  Can't get it to work...
+  
+  Win 8.1
+  First SDK
+  vvvv_45beta31.2_x64
+  DX11 packs
+  - No red nodes, but nothing on render...
+  
+  Win 8.1
+  March SDK
+  vvvv_45beta31.2_x64
+  DX11 packs
+  - Red nodes :)
+  
+  I can get data from Kinectstatus but not from vvvv.
+  
+  I supose we have to wait until April SDK before a node update, right? :P
+  
+  Thanks!

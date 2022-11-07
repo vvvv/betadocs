@@ -1,0 +1,19 @@
+### YamlMime:ContributionComment
+---
+uid: "93488"
+user: "robe"
+created: "22 Dec, 2012 - 10:37"
+body: |-
+  Sorry...
+  
+  <div class="box">quote:about:
+  To see the shadows you'll need
+  [soft-shadows-for-point-light](xref:contribution/soft-shadows-for-point-light)
+  </div>
+  
+  Anyway Updated!
+  
+  I suggest to take the SoftShadowsPoint.fx in your personal contribution\effect folder.
+  
+  Any hints to rename SoftShadowPoint (_).v4p in something better?
+  What kind of module category could be?

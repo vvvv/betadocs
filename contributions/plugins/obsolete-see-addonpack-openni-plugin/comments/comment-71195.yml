@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "71195"
+user: "dl-110"
+created: "28 Oct, 2011 - 11:15"
+body: |-
+  Just figured out that the Kinect is listed under CL Devices in the Device Manager... maybe that´s because i´ve tested the kinect plugin written by vux (-> [kinect)](xref:contribution/kinect)) and now the driver is messing up the detection of the kinect with the OpenNI Plugin...
+  Which would be strange since i´ve deleted every single folder and even ran ccleaner...

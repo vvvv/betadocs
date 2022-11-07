@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "217935"
+user: "tonfilm"
+created: "14 Mar, 2016 - 18:24"
+body: |-
+  hi @mino awesome work! i had a quick peek inside the dll and saw that the DX11 version uses a fast blockwise copy of the pixels. for the DX9 version you can also use a blockwise copy method, we have some example code here:
+  
+  https://github.com/vvvv/vvvv-sdk/blob/develop/vvvv45/src/core/Utils3rdParty/SlimDX/TextureUtils.cs
+  
+  or do you plan to open source the code on github or so?

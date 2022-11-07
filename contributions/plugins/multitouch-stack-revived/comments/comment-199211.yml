@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "199211"
+user: "io"
+created: "24 Jun, 2015 - 13:49"
+body: |-
+  Hallo,
+  I am experiencing a weird and difficult to debug behavior, touches become unvailable or just a single touch is available at some point, it can happen from time to time or at application startup, I haven t been able to find a pattern to reproduce this problem. 
+  Anybody has experienced anyhting similar?
+  ELO 5500L display, Windows 8.1, vvvv 45beta33.7
+  
+  tx
+  Simone

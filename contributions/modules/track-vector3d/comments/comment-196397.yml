@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "196397"
+user: "mediadog"
+created: "19 May, 2015 - 18:05"
+body: |-
+  This is very useful, and would be even more so if there was a "Previous Slice" output so other associated data could be easily re-ordered.  I could not see how to easily modify this patch, so I am using another NearestPairs node after it to get the previous slice positions.  Or is it here somewhere and I'm missing it?  Thanks!

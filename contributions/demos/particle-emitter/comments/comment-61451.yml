@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "61451"
+user: "dl-110"
+created: "27 Mar, 2011 - 13:43"
+body: |-
+  hey sapo. maybe i´ll find some time within the next days so i can convert the patch to the 3rd dimension. don´t know if its going to work with the gridsegment node i´m currently using... and spheres... well spheres are possible but a bit heavy and i think the framerate would drop hard. we´ll see.
+  killing "old" bodies isn´t that simple, since there is only a small amount of bodies which are used over and over again... see explanation beneath the patch...

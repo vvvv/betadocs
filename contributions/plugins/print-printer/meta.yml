@@ -1,0 +1,53 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/print-printer-meta"
+type: "plugin"
+author: "zeos"
+date: "22 Oct, 2012"
+title: "Print & Printer"
+originalURL: "contribution/print-printer"
+category: "plugin"
+credits: |-
+  Zeos, license: LGPL
+like_count: "15"
+imported: "true"
+teaser: |-
+  ####  Print node
+  
+  prints a texture
+  
+  * Set printer by printer name pin
+  * x,y placement
+  * portrait/landscape
+  * set Color/grayscale
+  * Select Paper Size
+  * Scale to page (fit)
+  * Set print margins
+  * Using separate thread, does not block vvvv (via Tasks)
+  * Help patch
+  * Full source code
+  
+  Not spreadable (yet)
+  
+  ####  Printer node
+  
+  returns information about specific printer or all available printers,
+  if Printer Name is not supplied
+  Retrieves the following information about a printer:
+  
+  * Printer Name
+  * If it is valid (online/offline)
+  * Duplex mode available
+  * Is it the default printer
+  * Does it support color print
+  * Information about supported paper sizes (Name, Code, Dimensions)
+  * Help patch
+  * Non blocking 
+  * Full source code
+  
+  Takes some time to load all the info for each printer
+  
+  <div class="box">
+  Note: The plugins are using c# .net 4.0 Tasks magic to implement non-blocking behavior, *please test and report if it works for you*. I have no idea, why it does - but it works for me :>
+  
+  </div>

@@ -1,0 +1,14 @@
+### YamlMime:ContributionComment
+---
+uid: "94205"
+user: "jens.a.e"
+created: "07 Jan, 2013 - 12:57"
+body: |-
+  hey fellas,
+  
+  the plugin is buggy in the current main beta29 due to string conversion on the new rs-232 node. i am working on a fix which supports the new raw data type.
+  
+  feel free to post any question and feedback on the current addonpack version!
+  
+  
+  see u @node13!

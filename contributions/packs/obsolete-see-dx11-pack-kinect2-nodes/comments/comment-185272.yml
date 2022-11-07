@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "185272"
+user: "catweasel"
+created: "12 Feb, 2015 - 14:28"
+body: |-
+  Just got the face tracking working with copying the folder, thanks Screamer, any idea how to use the vertices from HD face, do I need to use the vertex data to morph the candide model, and is there a obj of that model?

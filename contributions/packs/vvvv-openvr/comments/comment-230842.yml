@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "230842"
+user: "tonfilm"
+created: "27 Oct, 2016 - 22:04"
+body: |-
+  @quaddro 
+  
+  for your fist question, there might be a solution but i have to check that... you can somewhere tell OpenVR that the application is a background application.
+  
+  the patch in vr patch is only displaying the XML of a patch, you cannot interact with it really... i might remove that.

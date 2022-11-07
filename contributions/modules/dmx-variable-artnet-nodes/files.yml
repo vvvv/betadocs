@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/dmx-variable-artnet-nodes-files"
+url: "dmx-variable-artnet-nodes"
+category: "module"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "DMX Variable Artnet Nodes.zip"
+            timestamp: "01 May, 2015 - 16:18"
+            download_count: "1"

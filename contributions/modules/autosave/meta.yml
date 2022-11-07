@@ -1,0 +1,15 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/autosave-meta"
+type: "module"
+author: "catweasel"
+date: "16 Feb, 2011"
+title: "AutoSave"
+originalURL: "contribution/autosave"
+category: "module"
+credits: |-
+  catweasel
+like_count: "4"
+imported: "true"
+teaser: |-
+  I made this as I could have done with it while using timeliner which has no undo, hence the save on every change switch.

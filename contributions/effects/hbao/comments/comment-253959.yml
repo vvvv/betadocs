@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "253959"
+user: "dennis"
+created: "24 May, 2018 - 15:45"
+body: |-
+  [seltzdesign](http://vvvv.org/users/seltzdesign), [AKa-visuals](http://vvvv.org/users/AKa-visuals): Could finally reproduce the problem, installing the Windows 10 SDK did the trick. (tick only the "Windows SDK for Desktop C++ x86/amd64" boxes, size is quite big) https://developer.microsoft.com/en-us/windows/downloads/windows-10-sdk
+  Hopefully it'll work now. Will fix this later.

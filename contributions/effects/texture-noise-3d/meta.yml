@@ -1,0 +1,16 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/texture-noise-3d-meta"
+type: "effect"
+author: "sanch"
+date: "25 Aug, 2010"
+title: "Texture noise 3d"
+originalURL: "contribution/texture-noise-3d"
+category: "effect"
+credits: |-
+  nvidia
+like_count: "10"
+imported: "true"
+teaser: |-
+  Finnally a simple 3d noise tillable pixelshader , with differrent noise type.
+  Might not work on ati card.

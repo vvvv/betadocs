@@ -1,0 +1,18 @@
+### YamlMime:ContributionComment
+---
+uid: "180320"
+user: "guest"
+created: "25 Dec, 2014 - 02:50"
+body: |-
+  64bit:
+  1. writing file but crashing vvvv on stop :(
+  
+  64/32bit:
+  2. writing proper image when running on intel HD 4000
+  3. writing scrambled image when running on nvidia card
+  
+  1000x1000@30fps
+  
+  Win8.1, vvvv_45beta33.3, nvidia GT 650m (mobile) latest driver
+  
+  PS: do i need http://ffmpeg.zeranoe.com/builds/ ? When yes, what should i do with it?

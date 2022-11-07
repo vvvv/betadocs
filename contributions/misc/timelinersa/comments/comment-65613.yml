@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "65613"
+user: "catweasel"
+created: "21 Jun, 2011 - 16:46"
+body: |-
+  I'd also like to be able to set patch values, maybe an update pin to reread the xml? Ideally I want to be able to set keys and new tracks either manually as now or via vvvv
+  +1 jump to next/previous keyframe too :)

@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "209370"
+user: "Martin Zrcek"
+created: "23 Oct, 2015 - 12:46"
+body: |-
+  Few tips: 1) Limit randomness by linking the same noise source (LFO in this case) to more effects. Then the effects cooperate in some way and it's interesting for viewer.
+  2) Always take care of AspectRatio. You can scale View Matrix if you want scale.
+  3) There are Antialiasing and other parameters on Renderer, mind them.

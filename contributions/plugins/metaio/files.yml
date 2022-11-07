@@ -1,0 +1,27 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/metaio-files"
+url: "metaio"
+category: "plugin"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "1"
+            filename: "metaio_1.1.zip"
+            description: |-
+              new features and node. build with metaio SDK 6.0.2.
+            
+            timestamp: "24 Apr, 2015 - 03:00"
+            download_count: "2"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "metaio_1.0.zip"
+                    description: |-
+                      1st release
+                    
+                    timestamp: "27 Feb, 2015 - 19:07"
+                    download_count: "1"

@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "199027"
+user: "tmp"
+created: "18 Jun, 2015 - 09:52"
+body: |-
+  Unfortunately crashes on my Nvidia GTX 680 too.
+  
+  In my [dx11.pointcloud](xref:contribution/dx11.pointcloud) pack there are btw implementations of depth repair and depth smoothing algorithms ( see http://www.codeproject.com/Articles/317974/KinectDepthSmoothing ).
+  
+  The nodes are called DepthRepair and DepthSmooth.

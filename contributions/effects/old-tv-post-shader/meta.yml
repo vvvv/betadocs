@@ -1,0 +1,17 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/old-tv-post-shader-meta"
+type: "effect"
+author: "m4d"
+date: "26 Aug, 2010"
+title: "Old TV post shader"
+originalURL: "contribution/old-tv-post-shader"
+category: "effect"
+credits: |-
+  [AMD/ATi](http://www.amd.com) since this is a straight port of a shader from the [rendermonkey](http://developer.amd.com/gpu/rendermonkey/Pages/default.aspx) example shader library.
+like_count: "12"
+imported: "true"
+teaser: |-
+  ported just for fun while i was trying to get my mind off some other frustrating shader experiments..
+  
+  also ati tested.. ;)

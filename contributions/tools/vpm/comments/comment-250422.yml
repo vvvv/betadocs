@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "250422"
+user: "microdee"
+created: "23 Mar, 2018 - 11:57"
+body: |-
+  unzip latest vpm with 7-zip. windows vanilla unzipper puts executables and dll's into sandboxed mode, so vpm can't load DLL's for the scripts (like the json.net dll's). I can only guarantee 7-zip to not flag files as sandboxed, other programs might do as well. (this is the same as with vvvv you shouldn't unzip it with the vanilla explorer.exe unzipper)

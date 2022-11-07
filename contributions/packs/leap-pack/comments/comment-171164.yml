@@ -1,0 +1,10 @@
+### YamlMime:ContributionComment
+---
+uid: "171164"
+user: "fatalex"
+created: "27 Oct, 2014 - 14:00"
+body: |-
+  Thanks a lot for this, looks like a big improvement on the previous implementation.
+  I've got the help patch working enough to understand how to use the leap nodes, so thats the main thing, but just out of curiosity, and because suppress diagonals looks like it would be useful, how to get the missing nodes from your github and where do i put them?
+  
+  thanks again

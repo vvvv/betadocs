@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "94145"
+user: "tonfilm"
+created: "06 Jan, 2013 - 16:31"
+body: |-
+  having 'pause' states in between is good thinking. that is actually the idea of the -1 actions, to stop the process and continue whenever another condition is met. to start the next action then, you press 'Next'.
+  
+  the more elegant solution would be to have another bool input which defines whether the next action will start automatically... maybe i will find the time after node13 to code it.

@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "81626"
+user: "ventolinmono"
+created: "23 Apr, 2012 - 23:37"
+body: |-
+  Whenever I open my patch the Quad with the Vlc texture is not there. I have to reconnect Texture Out. ¿Why? I want it to play on startup. I noticed the same happens with *vlc0.5test beta27.1.v4p*. The Quad is white, then when you increase the slice count it shows the video.
+  
+  Also doing 'n' i have to press twice because the next video displays with pause, unlike 'p' that plays all files continuously.
+  
+  Anyway very nice plugin, it should go in the addonpack.

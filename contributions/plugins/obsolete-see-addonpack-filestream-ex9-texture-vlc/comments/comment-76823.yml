@@ -1,0 +1,16 @@
+### YamlMime:ContributionComment
+---
+uid: "76823"
+user: "circuitb"
+created: "23 Feb, 2012 - 13:14"
+body: |-
+  made a quick  rtsp streaming test from an ip camera
+  it works but i've 2 secondes of latency!!!
+  same in vlc player btw and no buffer options in vlc2.0 preferences
+  
+  here is a list of vlc commands:
+  http://wiki.videolan.org/VLC_command-line_help
+  
+  i try the rtp_caching= , noaudio etc...
+  but no luck any ideas?
+  thanks

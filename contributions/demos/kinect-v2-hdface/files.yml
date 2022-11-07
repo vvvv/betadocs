@@ -1,0 +1,27 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/kinect-v2-hdface-files"
+url: "kinect-v2-hdface"
+category: "demo"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "1"
+            filename: "HDFaceBufferDemo.zip"
+            description: |-
+              demo for new HDFaceBuffer node
+            
+            timestamp: "22 Sep, 2015 - 21:48"
+            download_count: "2"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "KINECT_FACEHD_EXAMPLE.zip"
+                    description: |-
+                      kinect v2 face tracking example
+                    
+                    timestamp: "12 Feb, 2015 - 20:27"
+                    download_count: "2"

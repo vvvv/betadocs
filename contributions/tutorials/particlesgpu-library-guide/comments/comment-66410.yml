@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "66410"
+user: "valyard"
+created: "10 Jul, 2011 - 19:51"
+body: |-
+  > 8bit number = 128 possible numbers (taken from 0 to 1, working in rgb space).
+  You mean 256 numbers, right?

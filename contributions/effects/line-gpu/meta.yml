@@ -1,0 +1,19 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/line-(gpu)-meta"
+type: "effect"
+author: "tekcor"
+date: "13 Mar, 2013"
+title: "Line (GPU)"
+originalURL: "contribution/line-(gpu)"
+category: "effect"
+credits: |-
+  woei, dottore
+like_count: "13"
+imported: "true"
+teaser: |-
+  Easy to use, high performance Line (GPU) module.
+  
+  It simply takes From - To coordinates and RGBA values for the colors.
+  
+  Have fun.

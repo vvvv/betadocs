@@ -1,0 +1,17 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/netsniffer-meta"
+type: "plugin"
+author: "bo27"
+date: "10 Oct, 2011"
+title: "NetSniffer"
+originalURL: "contribution/netsniffer"
+category: "plugin"
+credits: |-
+  bo27 plugin code Yuri Dolgov
+like_count: "3"
+imported: "true"
+teaser: |-
+  NetSniffer is a simple network packets analyzer
+  
+  Related to following forum thread [how-to-analyz-internet-connection-speed-in-vvvv](https://discourse.vvvv.org/t/how-to-analyz-internet-connection-speed-in-vvvv)

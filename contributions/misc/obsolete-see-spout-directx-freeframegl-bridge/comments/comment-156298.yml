@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "156298"
+user: "matka"
+created: "02 Jun, 2014 - 12:51"
+body: |-
+  ok, so I've made it work, for the moment just external monitors, have to avoid intel graphics at all cost, until nvidia comes with proper drivers, cause its not fun to have these kind of issues on "last generation" gpus

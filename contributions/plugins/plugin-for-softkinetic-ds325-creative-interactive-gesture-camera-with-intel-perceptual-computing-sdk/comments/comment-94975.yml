@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "94975"
+user: "alpaykasal"
+created: "19 Jan, 2013 - 23:18"
+body: |-
+  my first goal is sound triggering... samples and synthesis... and I must say, this camera does not disappoint! the Kinect was never good for this because of the lag. it was ok for graphical onscreen stuff but when a drum sound drops a half second after I expect it to, it feels very very broken. the ds325's response rate is amazing! really good for music. though it gets really confused on id'ing the different fingers. it tracks them all really well but gets confused with which is which. I had hoped to use index finger to hit a hit-test area as a sound trigger, then maybe rotate 2 fingers to tweak the sound. sadly, it confuses the fingers too often for this to be useful.
+  
+  Still, I will take that fancy response rate and make something useful. so I am happy.
+  
+  I'll share this stuff sometime this week. on vvvv.org and git.

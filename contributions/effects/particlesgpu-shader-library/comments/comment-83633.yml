@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "83633"
+user: "io"
+created: "02 Jun, 2012 - 13:42"
+body: |-
+  Hi 
+  is it possible to spread the emitter ON/OFF ? Or do I need to create a single shader for each instance?
+  S>

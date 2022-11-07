@@ -1,0 +1,21 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/know-your-spreads-meta"
+type: "tutorial"
+author: "robotanton"
+date: "26 Mar, 2015"
+title: "Know Your Spreads"
+originalURL: "contribution/know-your-spreads"
+category: "tutorial"
+credits: |-
+  [joreg](http://vvvv.org/users/joreg), [gregsn](http://vvvv.org/users/gregsn)
+like_count: "4"
+imported: "true"
+teaser: |-
+  This is a collection of layered SVGs explaining how to deal with Spreads in vvvv.
+  
+  See it in action: [Know Your Spreads](https://betadocs.vvvv.org/using-vvvv/spreads/index.html).
+  
+  SVGs are made in: [Inkscape](https://inkscape.org).
+  
+  Anton

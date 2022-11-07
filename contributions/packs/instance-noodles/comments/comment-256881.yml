@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "256881"
+user: "everyoneishappy"
+created: "02 Jul, 2018 - 08:09"
+body: |-
+  @ddf those are images, not patches ;)
+  
+  I think you'll probably find that setting or changing the spreadcount will have the same effect.  At a guess I'd say that you might be setting the spreadcount before hooking them up to anything downstream, and maybe it's somehow not calculating binsizes internally since it's not needed at that point.

@@ -1,0 +1,27 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/project-templates-files"
+url: "project-templates"
+category: "misc"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "1"
+            filename: "ProjectTemplates.zip"
+            description: |-
+              small update - naming and dx11 window handle
+            
+            timestamp: "03 Feb, 2016 - 00:07"
+            download_count: "1"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "ProjectTemplates.zip"
+                    description: |-
+                      Blank, Stages, Example
+                    
+                    timestamp: "29 Jan, 2016 - 03:45"
+                    download_count: "1"

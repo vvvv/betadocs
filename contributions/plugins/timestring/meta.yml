@@ -1,0 +1,23 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/timestring-meta"
+type: "plugin"
+author: "sebl"
+date: "09 Oct, 2012"
+title: "TimeString"
+originalURL: "contribution/timestring"
+category: "plugin"
+credits: |-
+  msdn and all the patient people
+like_count: "1"
+imported: "true"
+teaser: |-
+  Gives you a Time String based on a given format.
+  
+  Formatting options are described [here](http://msdn.microsoft.com/en-us/library/az4se3k1.aspx).
+  
+  The folder contains a helppatch, that should™ open with F1.
+  
+  0.2:
+  added Ticks and Decimal Output 
+  added DeciTime that converts hours/minutes/seconds to a value suitable for calculations

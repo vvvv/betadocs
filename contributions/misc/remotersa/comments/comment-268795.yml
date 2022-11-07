@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "268795"
+user: "joreg"
+created: "16 Oct, 2018 - 20:04"
+body: |-
+  @synth: beta7 doesn't work for you?
+  
+  - GetMAC sometimes takes long, but i haven't seen it failing here...
+  - with "giving a command" you mean starting/killing a process? if this takes long, try with all firewalls off. this is a [known issue with pstools](https://serverfault.com/questions/751267/psexec-slow-to-connect-when-windows-firewall-enabled).
+  - the EXP brings up an explorer pointing the mirror-target share on that machine

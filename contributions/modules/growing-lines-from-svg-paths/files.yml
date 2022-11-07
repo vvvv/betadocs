@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/growing-lines-from-svg-paths-files"
+url: "growing-lines-from-svg-paths"
+category: "module"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "GrowLines.zip"
+            description: |-
+              Growing Lines from SVG paths using arclength
+            
+            timestamp: "30 May, 2017 - 06:28"
+            download_count: "1"

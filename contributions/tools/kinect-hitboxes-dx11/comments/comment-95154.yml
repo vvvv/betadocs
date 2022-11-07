@@ -1,0 +1,25 @@
+### YamlMime:ContributionComment
+---
+uid: "95154"
+user: "id144"
+created: "23 Jan, 2013 - 15:45"
+body: |-
+  hi synth, 
+  what do you mean by calibrating camera?
+  kinect virtual hit boxes is meant for site specific installation where you add interactivity to a defined space (virtual box) based presence of object (people, animal, etc.).
+   
+  it's meant as a replacement for traditional sensors such as infra or ultrasonic proximity sensors, passive infrared motion detectors, light gates etc. 
+   
+  back to your query about camera calibration - what you generally need to do is to rotate and move the point-cloud so the significant features of the real space are aligned with the 3d coordinates - floor is aligned to the XZ plane, wall to ZY etc. first you set the correct rotation of the point cloud, then the position...and you are ready to set up the "boxes" align them to the features of the physical space.
+  
+  see the sample projects using this tracking system
+  http://www.youtube.com/embed/UZTOmCChtGo
+  
+  some other project suggestions:
+  -games (such as bowling, app could evaluate how many pins were knocked)
+  -behavioral experiments (rat labyrinths etc.)
+  -lifted toilet lid detector (could save your relationship)
+  -intelligent room light (light on when you are in the room, off when you are in the bed, different light when you sit behind the desk)
+  -interactive visuals for parties ("put your hand up!")
+  -simple window shop interactions (detect present of visitor, add few interactive buttons)
+  -musical instruments (musical stairs, drawn musical interfaces, etc. )

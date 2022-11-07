@@ -1,0 +1,12 @@
+### YamlMime:ContributionComment
+---
+uid: "226779"
+user: "elliotwoods"
+created: "08 Sep, 2016 - 09:09"
+body: |-
+  some people might have had issues using this with vux's latest dx11 pack.
+  vux's pack seems to be missing some dll's used by the BlockWriter node (which are also used by these nodes), so i've included those in the v4 download zip (the directory layout should mean you can just drag the packs folder into your vvvv folder and everything will be in the right place)
+  
+  i've also flagged this with vux : https://github.com/mrvux/dx11-vvvv/issues/265
+  
+  i'll remove again later when either vux re-includes the dll's or has a new solution for handling this

@@ -1,0 +1,13 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/flatline-width-dynamic-width-as-mesh-meta"
+type: "module"
+author: "korriander"
+date: "27 Nov, 2010"
+title: "FlatLine width dynamic width as mesh"
+originalURL: "contribution/flatline-width-dynamic-width-as-mesh"
+category: "module"
+like_count: "4"
+imported: "true"
+teaser: |-
+  Simple module to generates a flat as mesh line with some interpolation possibilities in xyz. Includes a helpfile.

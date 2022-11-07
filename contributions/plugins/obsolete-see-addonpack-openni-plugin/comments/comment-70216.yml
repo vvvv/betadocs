@@ -1,0 +1,17 @@
+### YamlMime:ContributionComment
+---
+uid: "70216"
+user: "phlegma"
+created: "07 Oct, 2011 - 09:28"
+body: |-
+  hi there,
+  
+  i will upload a compiles version for the beta 26 within next week.
+  
+  @save skeleton problem 
+  I got the skeleton loading  issue with the shipped skeleton when i saved a new skeleton the user is loaded and tracked whithout any problems. can you check this issue and tell me your experience 
+  
+  @mediadog
+  i think we should implement a new node for the other type of the depth  texture.
+  did you integrate it to the svn code? 
+  i'm very intressted to have a talk about that with you. How can i contact you skype? email? iRC?

@@ -1,0 +1,37 @@
+### YamlMime:ContributionComment
+---
+uid: "233581"
+user: "velcrome"
+created: "21 Dec, 2016 - 16:12"
+body: |-
+  I would be a pretty lousy programmer, if vvvv-Message just solved my problems, after more than 3 years of on-off development ;)
+  
+  Roughly, I spend that time:
+  40% node finetuning for rapid patching
+  15% getting to grips with c# (yes, this has been a tremendous learning experience)
+  20% solid, independent core
+  20% project infrastructure, documentation
+  
+  If this were for my own problems only, I could have cut down on dev time. I might even have sticked to [poco](https://en.wikipedia.org/wiki/Plain_Old_CLR_Object), just because I can. 
+  But I believe, that this object oriented flow approach can help greatly with having some actual architecture in your projects. It can enhance productivity with vvvv at the top end, when stuff gets really complicated for a patching environment.
+  
+  That said, of course a lot of intolight project problems, or rather their solutions found their way into the pack, one way or the other. But that's natural, I guess. 
+  
+  In a nutshell, every serious patcher will eventually confront the problem of having a more "complex state", that needs to be made available to multiple modules, maybe even across multiple instances and machines. The standard way is to calculate that state somewhere singular, and send it (usually through multiple links, or even multiple S+R, or infamous hand-crafted serialisation modules) there, and put back together the pieces you need.
+  
+  With message, you can put your state data into a single object (or multiple, however you like), and noodle that thing around, through one link. You can send it over network and serialize it to disk in a standardized manner. 
+  You can partition the state-calculation into more than one module, that can act independent of, or interlinked with each other. 
+  
+  The elegance is plain: Everything is tangible in patch, and everything is geared for fast patching. The revolution is, that changes to a Message can affect Keeps that are connected only upstream, without having to use any FrameDelay (which I am sure gregsn would snarl at, hehe).
+  
+  There is an absolute minimum of stateful nodes (only 4.5 of them right now). The rest is stateless in regards to flow data, which makes the kit amazingly straightforward to use, as long as you keep in mind, that any change to a Message will be so across your entire patch.
+  The nodes themselves are usually a tad more high-level than you would expect, so you can do much more with less. 
+  The nodes of vvvv-Message know about the structure of the Message data (unlike a Zip and Unzip), and this knowledge is heavily utilized, so you don't have to constantly worry about it.
+  
+  ![example](https://vvvv.org/sites/default/files/imagecache/large/images/duration.JPG) 
+  
+  Here you see, how using Message will clear out half a dozen nodes, and make your patch more readable, while actually gaining possibilities (like making all data available to other modules, that can split out only the Fields of interest, or even edit it). 
+  
+  I guess you'll just have to try it yourself, and find some patterns (usually around the choice of a Keep), that suits your needs. That said, I am sure, this pack will provide you with moments of "Shit, how can this be so easy. This was soo hard all these years!". 
+  
+  Because towards making those moments happen I spend the remaining 5%.

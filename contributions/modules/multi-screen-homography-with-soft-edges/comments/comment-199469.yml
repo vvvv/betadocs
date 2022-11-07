@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "199469"
+user: "newemka"
+created: "04 Jul, 2015 - 14:16"
+body: |-
+  Is there a DX11 version somewhere?
+  
+  |edit| i've just manage to build a DX11 "dirty" solution by using MultiScreen (DX11) from (([dx11-modules-and-shaders-addition-ii)](xref:contribution/dx11-modules-and-shaders-addition-ii)))
+   
+  I hope I will have time to make it clean and release it one day. 
+  
+  |edit2| well after 2 hours trying to use my version, i had to consider using hard edges... my version is a nightmare to use

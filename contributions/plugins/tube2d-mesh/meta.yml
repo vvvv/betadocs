@@ -1,0 +1,20 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/tube2d(mesh)-meta"
+type: "plugin"
+author: "liquid"
+date: "18 May, 2012"
+title: "tube2d(Mesh)"
+originalURL: "contribution/tube2d(mesh)"
+category: "plugin"
+credits: |-
+  Originally created notlion
+  updated by liquid
+like_count: "3"
+imported: "true"
+teaser: |-
+  Credits to notlion
+  only quick update to the vvvv27.2
+  
+  VVVV plugin,drawing mesh lines.
+  Originally created by notlion,link is here https://github.com/notlion/vvvv-tube-2d

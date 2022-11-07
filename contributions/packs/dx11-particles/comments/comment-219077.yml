@@ -1,0 +1,21 @@
+### YamlMime:ContributionComment
+---
+uid: "219077"
+user: "neoshaman"
+created: "10 Apr, 2016 - 19:37"
+body: |-
+  Hello intolight team, and first of all thank you for this amazing work.
+  
+  I'm doing a new project in my university (merging pointclouds from multiple kinects and send it to Cinema4D), and now I'm searching for the right tools. 
+  I'm trying Processing, brekel and vvvv... so I'm wondering if it's theoretically possible to merge multiple kinects through bouygroup?
+  
+  Like in your "MultipleKinectSetup" example, just on different mashines...   
+  I'm new in vvvv, so I can't estimate if this is possible. 
+  
+  It would be great if you could give me some thoughts!!!
+  
+  
+  Best regards
+  neoshaman 
+  
+  edit: so it's for kinectV2

@@ -1,0 +1,17 @@
+### YamlMime:ContributionComment
+---
+uid: "74094"
+user: "jonferran"
+created: "29 Dec, 2011 - 01:38"
+body: |-
+  Hadasi,
+  
+  I had the same problem as you, and I seemed to have fixed it just now.
+  
+  Right click on all the .dll files that come with the pack, including the sanford ones, and click properties. You will notice a message that says:
+  
+  Security: This file came from another computer and might be blocked to help protect this computer
+  
+  Just click the button next to the message that says "Unblock" and you are good to go. You have to do it for all the files in nodes/plugins and the sanford .dlls individually, but after that the nodes shouldn't be red.
+  
+  Jon

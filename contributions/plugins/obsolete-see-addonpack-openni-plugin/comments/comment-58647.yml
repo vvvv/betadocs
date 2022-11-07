@@ -1,0 +1,34 @@
+### YamlMime:ContributionComment
+---
+uid: "58647"
+user: "robe"
+created: "20 Jan, 2011 - 00:36"
+body: |-
+  Hi VVVVolks!
+  
+  I'm trying to integrate Hands and Gesture recognition to this plug-in. (Or just create another plug-in that can handle this)
+  
+  I started with Sample-PointViewer.exe in the NITE\samples folder, but is written in cpp and it's hard for me to translate it to VVVV cs.
+  
+  Googling on the OpeniNi Group I found this thread:
+  
+  <http://groups.google.com/group/openni-dev/browse_thread/thread/9ce6c8a2e27ff22f%20>
+  
+  You can download the lastest version of this cs application from here:
+  
+  <http://dl.dropbox.com/u/1966569/kinect/kinect.rar>
+  
+  It's the 5th day I'm struggling with the code to understand what to put where, trying to translate it to match the VVVV OpenNiSkeleton Node structure, but no luck.
+  
+  If anyone can help me, thanks
+  
+  I started a forum thread about this where you can download the current status (error full) of the plug-in
+  
+  [opennihands-tryng-to-manage-hands-and-gesture-event](https://discourse.vvvv.org/t/opennihands-tryng-to-manage-hands-and-gesture-event)
+  
+  
+  
+  Cheers
+  Robe
+  
+  PS: Sorry for my poor english

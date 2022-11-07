@@ -1,0 +1,15 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/texture-controlled-fade-meta"
+type: "effect"
+author: "u7angel"
+date: "01 Aug, 2010"
+title: "Texture-Controlled-Fade"
+originalURL: "contribution/texture-controlled-fade"
+category: "effect"
+credits: |-
+  Kalle
+like_count: "3"
+imported: "true"
+teaser: |-
+  TexCtrlFade means "Texture Controlled Fade" fade between Source1 and Source2 with the ControlTexture. makes a simple multiFX-VideoMixer in a shader and with PS 1.0 it should even work on old machines!

@@ -1,0 +1,28 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/optical-flow-dx11-gpu-meta"
+type: "module"
+author: "princemio"
+date: "16 Jan, 2014"
+title: "Optical Flow DX11 GPU"
+originalURL: "contribution/optical-flow-dx11-gpu"
+category: "module"
+credits: |-
+  its simply copied from foo | andrew benson
+like_count: "11"
+imported: "true"
+teaser: |-
+  Optical flow solution on GPU.
+  
+  
+  
+  i have x and y both negative and positive in the r and g channel...hope this works for everyobne
+  
+  
+  
+  
+  
+  Im new to vvvv so please excuse me if i violated name or coding conventions...if so please point me in the right direction 
+  
+  
+  mio

@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "87305"
+user: "colorsound"
+created: "19 Aug, 2012 - 16:56"
+body: |-
+  Hi, thanks for the nice tut and solution Elliot. 
+  
+  i found a strange behaviour. I,m using beta 28 and works very well i had to repatch some staff and change the keyboard subpatch. 
+  
+  Chaging the patch to other folder you get all nodes working apart from calibrate camera. i found that if you have your project folder and a folder with the opencv in it an a folder with the patches inside seem to work again. it does not matter that you have the opencv already add in the vvvv root , not doing this it did not work for me. just in case you have similar problem. cheers

@@ -1,0 +1,16 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/probability-(value)-meta"
+type: "module"
+author: "iam404"
+date: "12 May, 2016"
+title: "Probability (Value)"
+originalURL: "contribution/probability-(value)"
+category: "module"
+like_count: "5"
+imported: "true"
+teaser: |-
+  Probability (Value) is a simple module that returns "1" with a user-defined probablity in %. Each time module recieves bang to the Execute pin it recalculates the result. Probability pin is spreadable.
+  
+  Author: VOLNA 
+  <http://volna-media.com>

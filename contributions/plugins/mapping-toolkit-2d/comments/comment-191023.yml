@@ -1,0 +1,21 @@
+### YamlMime:ContributionComment
+---
+uid: "191023"
+user: "ravazquez"
+created: "16 Apr, 2015 - 03:28"
+body: |-
+  Hello vvvvers!
+  
+  I have been playing with this and noticed that in order to get both the polygons and the lines to be drawn you have to manually create the polygon and then draw each individual line on top of the polygon again.
+  
+  Since doing this for a mid/large amount of polygons is a bit of a pain, I went ahead and created an application that will, based on an SVG file containing polygon elements, will automatically create all of the perimeter line elements for each polygon. (Real time saver)
+  
+  The app was created using .Net 4.0 and can be downloaded from a zip file here: <https://www.dropbox.com/s/tk6olwigx0wf0yy/The%20Simon.zip?dl=0>
+  
+  If anyone wants the source I can upload it to github.
+  
+  Just select the input SVG file, type in an output file name, and hit the "Create Lines" button.
+  
+  Enjoy!
+  
+  Note: If you are creating your SVG files in Illustrator, make sure to uncheck the "Responsive" option in the "Save As SVG" dialog so that width and height attributes are properly added to the header element, otherwise the toolkit will not load the file.

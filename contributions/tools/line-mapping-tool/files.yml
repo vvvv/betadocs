@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/line-mapping-tool-files"
+url: "line-mapping-tool"
+category: "tool"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "MappingTool.zip"
+            timestamp: "21 Aug, 2013 - 12:20"
+            download_count: "1"

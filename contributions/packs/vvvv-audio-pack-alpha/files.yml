@@ -1,0 +1,168 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/vvvv.audio-pack-alpha-files"
+url: "vvvv-audio-pack-alpha"
+category: "pack"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "17"
+            filename: "VVVV.Audio_AnyCPU_V18.zip"
+            description: |-
+              for beta39, read install section above!
+            
+            timestamp: "17 Jan, 2020 - 16:26"
+            download_count: "3"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "16"
+                    filename: "VVVV.Audio_AnyCPU_alpha_V17.zip"
+                    description: |-
+                      for beta37 and newer, improvements on buffer reader, updated VL template
+                    
+                    timestamp: "14 Nov, 2018 - 00:16"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "15"
+                    filename: "VVVV.Audio_AnyCPU_alpha_V15.zip"
+                    description: |-
+                      for beta36 and vvvv alpha, updated VL template
+                    
+                    timestamp: "23 Feb, 2018 - 21:41"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "14"
+                    filename: "VVVV.Audio_AnyCPU_alpha_V14.zip"
+                    description: |-
+                      recompiled for vvvv beta35.5 and 35.8, use V13 for previous vvvv
+                    
+                    timestamp: "21 Apr, 2017 - 02:52"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "13"
+                    filename: "VVVV.Audio_AnyCPU_alpha_V13.zip"
+                    description: |-
+                      added VL audio processing example, needs > beta35
+                    
+                    timestamp: "05 Feb, 2017 - 22:34"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "12"
+                    filename: "VVVV.Audio_AnyCPU_alpha_V12.zip"
+                    description: |-
+                      IFFT node, Gist node, re-added Granulator
+                    
+                    timestamp: "20 Sep, 2016 - 18:02"
+                    download_count: "2"
+                - file:
+                    bit: "64"
+                    delta: "11"
+                    filename: "VVVV.Audio_AnyCPU_alpha_V11.1.zip"
+                    description: |-
+                      can load VSTs that have no editor and one can manually expose parameters in InfoPanel
+                    
+                    timestamp: "25 Feb, 2016 - 20:26"
+                    download_count: "3"
+                - file:
+                    bit: "64"
+                    delta: "10"
+                    filename: "VVVV.Audio_AnyCPU_alpha_V10.zip"
+                    description: |-
+                      needs beta34 or higher, fixed FileStream node not playing
+                    
+                    timestamp: "18 Sep, 2015 - 16:00"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "9"
+                    filename: "VVVV.Audio_AnyCPU_alpha_V9.zip"
+                    description: |-
+                      still needs alpha build!
+                    
+                    timestamp: "06 May, 2015 - 11:05"
+                    download_count: "6"
+                - file:
+                    bit: "64"
+                    delta: "8"
+                    filename: "VVVV.Audio_AnyCPU_alpha_V8.zip"
+                    description: |-
+                      midi events, filters, oscillators, ADSR, needs vvvv alpha build!
+                    
+                    timestamp: "22 Apr, 2015 - 22:59"
+                    download_count: "2"
+                - file:
+                    bit: "64"
+                    delta: "7"
+                    filename: "VVVV.Audio_AnyCPU_alpha_V7.zip"
+                    description: |-
+                      updated to VST.NET 1.1, for vvvv >= beta33, works for both x86 and x64
+                    
+                    timestamp: "14 Sep, 2014 - 17:09"
+                    download_count: "2"
+                - file:
+                    bit: "64"
+                    delta: "6"
+                    filename: "VVVV.Audio_AnyCPU_alpha_V6.zip"
+                    description: |-
+                      for vvvv >= beta33, works for both x86 and x64
+                    
+                    timestamp: "08 Sep, 2014 - 11:02"
+                    download_count: "20"
+                - file:
+                    bit: "64"
+                    delta: "5"
+                    filename: "VVVV.Audio_AnyCPU_alpha_V5.zip"
+                    description: |-
+                      for vvvv >= beta33, works for both x86 and x64
+                    
+                    timestamp: "04 Sep, 2014 - 01:51"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "4"
+                    filename: "VVVV.Audio_x86_alpha_V4.zip"
+                    description: |-
+                      fixed operand nodes and filestream channel count
+                    
+                    timestamp: "04 Mar, 2014 - 16:11"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "3"
+                    filename: "VVVV.Audio_31.2_x86_alpha_V3.zip"
+                    description: |-
+                      added async wave form reader, use this with vvvv beta31.2
+                    
+                    timestamp: "28 Feb, 2014 - 14:23"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "2"
+                    filename: "VVVV.Audio_x86_alpha_V3.zip"
+                    description: |-
+                      added async wave form reader, use this with vvvv > beta31.2
+                    
+                    timestamp: "27 Feb, 2014 - 23:20"
+                    download_count: "3"
+                - file:
+                    bit: "64"
+                    delta: "1"
+                    filename: "VVVV.Audio_x86_alpha_V2.zip"
+                    description: |-
+                      version 2, fixed many bugs and memory leaks, vst midi out
+                    
+                    timestamp: "27 Feb, 2014 - 02:56"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "VVVV.Audio_x86_alpha.zip"
+                    timestamp: "25 Dec, 2013 - 00:39"
+                    download_count: "2"

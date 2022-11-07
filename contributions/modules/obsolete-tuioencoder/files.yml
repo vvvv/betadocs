@@ -1,0 +1,27 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/obsolete-tuioencoder-files"
+url: "obsolete-tuioencoder"
+category: "module"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "1"
+            filename: "TUIOEncoder.zip"
+            description: |-
+              TUIOEncoder node + help patch uses Raw data type now
+            
+            timestamp: "14 Jan, 2013 - 19:58"
+            download_count: "5"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "TUIOEncoder.zip"
+                    description: |-
+                      TUIOEncoder node + help patch
+                    
+                    timestamp: "07 May, 2012 - 12:00"
+                    download_count: "1"

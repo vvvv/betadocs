@@ -1,0 +1,14 @@
+### YamlMime:ContributionComment
+---
+uid: "211495"
+user: "io"
+created: "25 Nov, 2015 - 15:06"
+body: |-
+  Sorry it does work on 64bit but in my patch (both 32 and 64) I have to reselect it to make it work.
+  
+  It seems like that the Control Points Per Spline is not spreadable, is that possible?
+  
+  And, how to make it draw sharp edges on control points? The only way I ve found is to add a vertex before and after and very close to each incoming vertex but that is not optimal of course.
+  
+  tx
+  Simone

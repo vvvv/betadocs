@@ -1,0 +1,24 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/tvone-c2-750-rs232-controller-files"
+url: "tvone-c2-750-rs232-controller"
+category: "tool"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "1"
+            filename: "TVOne-c2-750_Controller_04.zip"
+            description: |-
+              messed up pins to cons that effected key Y softness.. fixed
+            
+            timestamp: "14 Jun, 2011 - 21:12"
+            download_count: "1"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "TVOne-c2-750_Controller.zip"
+                    timestamp: "13 Jun, 2011 - 02:55"
+                    download_count: "3"

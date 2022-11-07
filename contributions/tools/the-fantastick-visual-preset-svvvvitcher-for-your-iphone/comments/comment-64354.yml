@@ -1,0 +1,10 @@
+### YamlMime:ContributionComment
+---
+uid: "64354"
+user: "karistouf"
+created: "27 May, 2011 - 23:41"
+body: |-
+  @cat: see if your firwall is not doing things... 
+  other thing: FS is not refreshing really good itself if you change IP or network while FS is running in background. You will need to restart iOS.
+  
+  FS is now open source. Anybody wants to adapt it for android ?

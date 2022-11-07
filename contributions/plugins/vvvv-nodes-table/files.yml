@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/vvvv.nodes.table-files"
+url: "vvvv-nodes-table"
+category: "plugin"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "VVVV.Nodes_.Table_.zip"
+            description: |-
+              32bit alpha31.1
+            
+            timestamp: "18 Mar, 2014 - 12:03"
+            download_count: "6"

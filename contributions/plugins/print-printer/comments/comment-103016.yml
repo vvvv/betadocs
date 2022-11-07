@@ -1,0 +1,15 @@
+### YamlMime:ContributionComment
+---
+uid: "103016"
+user: "zeos"
+created: "28 Jun, 2013 - 12:26"
+body: |-
+  Hi Sansui,
+  
+  thanks for the feedback! Without the actual device I have no chance to test it. My guess is to change the printer settings, like paper size, dpi and so on.
+  
+  EDIT: Just tested with 45beta30.2x86 and it prints on regular laser printer.
+  The DXTexture -> AsString is set to BMP. What image format your device is supporting? What is the vendor/model of your device?
+  
+  regards
+  Zeos

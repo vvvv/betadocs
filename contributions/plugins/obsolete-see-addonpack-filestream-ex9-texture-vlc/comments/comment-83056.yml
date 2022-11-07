@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "83056"
+user: "DiMiX"
+created: "20 May, 2012 - 21:11"
+body: |-
+  thanks anton, i fixed it like that![](https://vvvv.org/sites/default/files/imagecache/large/images/VLC_0.JPG) 
+  edit:
+  to get correct output and Info the connection should be unlink( und relink) for every new texture:![](https://vvvv.org/sites/default/files/imagecache/large/images/VLC_3.JPG)

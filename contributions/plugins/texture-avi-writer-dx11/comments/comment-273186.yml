@@ -1,0 +1,16 @@
+### YamlMime:ContributionComment
+---
+uid: "273186"
+user: "blausand"
+created: "09 Jul, 2019 - 09:10"
+body: |-
+  Ha, indeed: **The 64bit version is hidden as "older version"** right here on this page.
+  Now that i found it, it's working as a charm!
+  
+  ####  ~~Three~~*Two and a half* reason why i prefer this node over third party solutions:
+  
+  1. <span class="node">Texture AVI Writer (DX11)</span> records alpha channel (Admittedly the currently chosen FFMPEG CoDec doesn't, but [gumilastik](http://vvvv.org/users/gumilastik) could empower us to change this in the future)
+  1. Any parameters in my vvvv patch can be added to the *filename.avi* automatically :)
+  1. Recording of animations can be started and ended with frame precision, making production of rhythmic clips easy.
+  
+  Thank you for your quick support once again, [joreg](http://vvvv.org/users/joreg)!

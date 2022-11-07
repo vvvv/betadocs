@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "84259"
+user: "mediadog"
+created: "15 Jun, 2012 - 15:02"
+body: |-
+  Thanks for the comments!  They reminded me I hadn't posted the updated versions.
+  
+  However, I just found a bug with the "Life Time" pin if you change the value while things are still "alive", or spread it with dissimilar values; I've just been using it with a constant lifetime and didn't catch it until now.  Will fix and update ASAP.

@@ -1,0 +1,10 @@
+### YamlMime:ContributionComment
+---
+uid: "92260"
+user: "Elias"
+created: "02 Dec, 2012 - 15:31"
+body: |-
+  @mino
+  feel free to ask if you have any questions how to get your work into the addonpack and therefor automatically being built by our build server.
+  
+  the error people report here comes from an interface renaming. the non generic ISpread interface was moved to VVVV.PluginInterfaces.V2.NonGeneric.ISpread as it conflicted with the generic ISpread in c++ if i remember right.

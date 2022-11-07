@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "61135"
+user: "newemka"
+created: "18 Mar, 2011 - 04:04"
+body: |-
+  Great work! seems very interesting. I've managed to use Multiskeleton(kinect). but not KinectskeletonPointCloud. I'm hunting the solution since a few hours... Shall i run the NiUserTracker.exe from multiskeleton? or maybe OpenNISkeleton.csproj ? but i can't run it, I should install Visual studio i guess. maybe someone could help me?

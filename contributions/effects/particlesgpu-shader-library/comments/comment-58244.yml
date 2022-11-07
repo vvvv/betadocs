@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "58244"
+user: "dottore"
+created: "10 Jan, 2011 - 14:31"
+body: |-
+  ParticlesGPU release 0.21
+  @catweasel: now transform works on surfaces
+  @lasal: surfaces have texture now. look into the code to see your error ;)

@@ -1,0 +1,19 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/korg-nano-kontrol-midi-mapper-meta"
+type: "module"
+author: "Westbam"
+date: "24 Aug, 2011"
+title: "Korg Nano Kontrol MIDI mapper"
+originalURL: "contribution/korg-nano-kontrol-midi-mapper"
+category: "module"
+credits: |-
+  West
+like_count: "7"
+imported: "true"
+teaser: |-
+  Easy to use patch to easy map all the 4 scenes for the Korg Nano Kontrol MIDI controller. You move a slider, click on the simulation and your controller is mapped correctly.
+  
+  Also includes a few ways to split the data, a readme, and a lot of other stuff to read. 
+  
+  ![](https://vvvv.org/sites/default/files/imagecache/large/images/nanokontolandsim.png)

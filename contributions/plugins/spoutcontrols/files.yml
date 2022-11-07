@@ -1,0 +1,36 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/spoutcontrols-files"
+url: "spoutcontrols"
+category: "plugin"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "2"
+            filename: "SystemSpoutControls.zip"
+            description: |-
+              v0.3 alpha, compiled with /MT, no x64
+            
+            timestamp: "04 Sep, 2016 - 18:09"
+            download_count: "2"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "1"
+                    filename: "SystemSpoutControls.zip"
+                    description: |-
+                      v0.2 alpha, fixed a small bug, still no x64
+                    
+                    timestamp: "31 Aug, 2016 - 22:19"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "SystemSpoutControls.zip"
+                    description: |-
+                      v0.1 alpha, 64bit not working
+                    
+                    timestamp: "31 Aug, 2016 - 00:28"
+                    download_count: "1"

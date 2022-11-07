@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/particlesgpu-library-guide-files"
+url: "particlesgpu-library-guide"
+category: "tutorial"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "ParticlesGPU Guide.zip"
+            timestamp: "22 Jan, 2011 - 10:34"
+            download_count: "1"

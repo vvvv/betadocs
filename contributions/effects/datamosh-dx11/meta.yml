@@ -1,0 +1,24 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/datamosh-(dx11)-meta"
+type: "effect"
+author: "nissidis"
+date: "21 Apr, 2015"
+title: "Datamosh (DX11)"
+originalURL: "contribution/datamosh-(dx11)"
+category: "effect"
+credits: |-
+  [nissidis](http://vvvv.org/users/nissidis), [Oliver Baudu](https://github.com/b01xy/glsl/blob/master/Customs/Datamoshing-II/datamosh-II.frag)
+like_count: "13"
+imported: "true"
+teaser: |-
+  This is NOT a real datamosh procedure. It simulates the real artifact side-effect without the need to re-compress or to edit the file with a hex-editor. 
+  So it looks like "datamoshing" and you may possibly achieve better results by combining it with other Texture Effects such as distortion / morphing / edge and others of the same context...
+  
+  The original effect was written in glsl by [Oliver Baudu](https://github.com/b01xy/glsl/blob/master/Customs/Datamoshing-II/datamosh-II.frag)
+  
+  just put a video file or mix up to two different video files using both slots (in that case you wont need the <span class="node">Framedelay</span> ).
+  
+  
+  
+  enjoy!

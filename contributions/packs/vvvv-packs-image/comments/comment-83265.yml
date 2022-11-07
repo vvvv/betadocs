@@ -1,0 +1,24 @@
+### YamlMime:ContributionComment
+---
+uid: "83265"
+user: "elliotwoods"
+created: "24 May, 2012 - 13:35"
+body: |-
+  OK
+  
+  been tracking down some bugs today.
+  
+  1.  1. Security issue with EmguCV dll's
+  
+  Reported by desaxismundi and others. Is caused by drag-dropping the files out of the zip package rather than unzipping using Extract all... (confirmed in some cases, desaxis is still having troubles)
+  
+  1.  2. Some node's throwing exceptions 
+  
+  This is in some parts due to differences in vvvv28 (e.g. cloning spreads). I found this bug in FindBoard node, moving to vvvv28 fixes this issue.
+  
+  Suggests releasing 'stable' versions against each major vvvv release
+  
+  <div class="box">
+  Note:
+  EDIT: See exception notes at top of this page.
+  </div>

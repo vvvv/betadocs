@@ -1,0 +1,38 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/mapping-toolkit-2d-meta"
+type: "plugin"
+author: "Joanie_AntiVJ"
+date: "27 Dec, 2014"
+title: "Mapping Toolkit 2D"
+originalURL: "contribution/mapping-toolkit-2d"
+category: "plugin"
+credits: |-
+  The mapping toolkit is a series of tools for creatives, to create visual content for projection mapping.
+  It’s comes as a pack of patches / modules  developed with vvvv.
+  
+  MAPPING TOOLKIT – 2D
+  A tool to animate vector files (svg format), and simply produce visual content in realtime.
+  Points, lines and polygon animations are available.
+like_count: "7"
+imported: "true"
+teaser: |-
+  **DOWNLOAD**
+  
+  <http://joanielemercier.com/mapping-toolkit-2d/>
+  
+  ----------------------------------
+  
+  **INSTALL**
+  
+  - install vvvv and its addon pack (vvvv 45beta33.3 32bits recommended)
+  - download MAPPING TOOLKIT 2D, unzip in the vvvv folder.
+  - run the app.
+  
+  ----------------------------------
+  
+  **TUTORIAL**
+  
+  - Select your svg file in the drop down list. Files are located in the content/ folder
+  - play with the sliders and buttons in the GUI window
+  - use the output for live projections, or use FRAPS to record the output.

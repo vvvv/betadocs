@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/intanced-tesselation-and-displacement-files"
+url: "intanced-tesselation-and-displacement"
+category: "effect"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "InstancedTesselationExamples.zip"
+            timestamp: "19 Nov, 2014 - 18:32"
+            download_count: "4"

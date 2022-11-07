@@ -1,0 +1,21 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/line-(gpu)-files"
+url: "line-gpu"
+category: "effect"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "1"
+            filename: "LineGPU.zip"
+            timestamp: "13 Mar, 2013 - 23:10"
+            download_count: "1"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "Resample (Curve From To).zip"
+                    timestamp: "14 Mar, 2013 - 12:00"
+                    download_count: "1"

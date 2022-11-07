@@ -1,0 +1,15 @@
+### YamlMime:ContributionComment
+---
+uid: "158820"
+user: "Gareth.Griffiths"
+created: "09 Jul, 2014 - 08:41"
+body: |-
+  Great suggestions [princemio](http://vvvv.org/users/princemio). 
+  
+  'CurrentState (State)' has been updated to have an "Idle State" list as well as the current "State".
+  
+  Two new modules have been added:
+  
+  1) 'Consecutive (State)' has two bang ioboxes for "Previous" and "Next" state. 
+  
+  2) 'StateList (State)' gives a complete list of states.

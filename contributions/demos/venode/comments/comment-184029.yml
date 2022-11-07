@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "184029"
+user: "joreg"
+created: "30 Jan, 2015 - 18:19"
+body: |-
+  @guest: tmp forgot to mention that with his venode0.5 you also need [vvvv-message](xref:contribution/vvvv-message) v1.33
+  
+  otherwise just try venode 0.3

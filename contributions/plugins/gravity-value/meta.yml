@@ -1,0 +1,19 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/gravity-(value)-meta"
+type: "plugin"
+author: "dominikKoller"
+date: "23 Oct, 2016"
+title: "Gravity (Value)"
+originalURL: "contribution/gravity-(value)"
+category: "plugin"
+credits: |-
+  dominikkoller
+like_count: "4"
+imported: "true"
+teaser: |-
+  Heyhey
+  
+  I've been looking for a node like this for a while - I'm sure it must exist somewhere in the addonpack, if so - what's it called?
+  
+  It just follows the input with a given force and friction.

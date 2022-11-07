@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/touch-calibration-files"
+url: "touch-calibration"
+category: "module"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "TouchCalibrator.zip"
+            timestamp: "14 Oct, 2014 - 15:03"
+            download_count: "1"

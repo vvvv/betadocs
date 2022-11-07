@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "68337"
+user: "mediadog"
+created: "20 Aug, 2011 - 04:01"
+body: |-
+  Sadly does not do the same thing as Queue.  See my comment (and workaround patch) in the getslice thread [beta-26-getslice-texture-no-workey](https://discourse.vvvv.org/t/beta-26-getslice-texture-no-workey)

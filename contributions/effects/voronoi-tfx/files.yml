@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/voronoi-tfx-files"
+url: "voronoi-tfx"
+category: "effect"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "Voronoi (DX11.TextureFX).zip"
+            timestamp: "11 Dec, 2015 - 16:41"
+            download_count: "1"

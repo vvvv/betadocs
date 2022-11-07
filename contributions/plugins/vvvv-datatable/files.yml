@@ -1,0 +1,36 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/vvvv.datatable-files"
+url: "vvvv-datatable"
+category: "plugin"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "2"
+            filename: "DataTable V1.2 AnyCPU.zip"
+            description: |-
+              DataTable V1.2 AnyCPU
+            
+            timestamp: "11 Oct, 2015 - 14:05"
+            download_count: "1"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "1"
+                    filename: "DataTable V1.1 AnyCPU.zip"
+                    description: |-
+                      DataTable V1.1 AnyCPU
+                    
+                    timestamp: "28 Mar, 2015 - 18:41"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "Datatable V1.zip"
+                    description: |-
+                      DataTable V1 AnyCPU
+                    
+                    timestamp: "24 Nov, 2014 - 15:52"
+                    download_count: "2"

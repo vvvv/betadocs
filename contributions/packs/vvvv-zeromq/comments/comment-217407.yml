@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "217407"
+user: "velcrome"
+created: "29 Feb, 2016 - 10:59"
+body: |-
+  never forget to set the <span class="pin">Bind</span> toggle in the sockets, so each endpoint is bound to exactly once!

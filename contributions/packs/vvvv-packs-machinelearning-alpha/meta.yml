@@ -1,0 +1,41 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/vvvv.packs.machinelearning-(alpha)-meta"
+type: "pack"
+author: "motzi"
+date: "24 Apr, 2015"
+title: "VVVV.Packs.MachineLearning (alpha)"
+originalURL: "contribution/vvvv.packs.machinelearning-(alpha)"
+category: "pack"
+credits: |-
+  [motzi](http://vvvv.org/users/motzi), César Souza, devvvvs, [woei](http://vvvv.org/users/woei)
+like_count: "12"
+imported: "true"
+teaser: |-
+  This is a first release of the MachineLearning pack, bringing several methods of the field to VVVV, mostly by wrapping functionality from the great [accord.net framework](http://accord-framework.net/) by César Souza.
+  
+  <div class="box">
+  Note:
+  This is a first release which is still lacking most of the documentation and has not been heavily tested. 
+  </div>
+  
+  There is some girlpower though.
+  Many of the features will be explained in the [upcoming workshop at NODE15](http://node15.vvvv.org/program/workshop/machine-learning-vvvv).
+  
+  More detailed info to come...
+  
+  ##  Features
+  
+  * Naive Bayes Classifier
+  * k-Nearest Neighbour Classifier
+  * Kernel Support Vector Machines
+  * Hidden Markov Models (and HMM classifiers)
+  * k-Means clustering
+  * Principal Component Analysis
+  * Kernel Discriminant Analysis
+  * Deep Belief Networks (experimental)
+  * ...
+  
+  ## Upcoming
+  
+  * source release

@@ -1,0 +1,28 @@
+### YamlMime:ContributionComment
+---
+uid: "100705"
+user: "elio"
+created: "09 May, 2013 - 02:06"
+body: |-
+  Last week has been so busy, I did not manage to answer. Sorry for that. Thanks for all the hints and debugging you did so far.
+  
+  @microdee: the AsString + SharedMemory may produce bugs. Until now, it's a messy workaround.
+  
+  @vux&others: Yes it's probably Intel's Optimus that's preventing all our mobile nvidia devices from working. Did someone already try to disable Optimus? (just as a proof).
+  
+  >>>>>>>
+  
+  A few hours ago I've been talking to ft in order to bring wyphon [/forum-alpha/something-like-syphon-on-windows-%28currently-called-wyphon%29](/forum-alpha/something-like-syphon-on-windows-%28currently-called-wyphon%29) and my bridge togehther. Here are our plans:
+  
+  Wyphon shall internally still work with directx textures.
+  But it will get some new helper functions. These allow for 
+  a) accessing the shared DX textures as OpenGL textures
+  b) for sharing an OpenGl Texture as a DirectX Texture
+  
+  This way we can communicate DX->DX, DX->GL, GL->DX, GL->GL. OpenGL applications shall also use an intermediate DX texture, that shouldn't be a performance problem.
+  
+  The Wyphon functions shall be integrated in two FreeframeGL plugins. One for importing textures, the other for exporting textures.
+  
+  And yes, GL->DX works, I just successfully did my proof of concept. Resolume made a Full HD stutter free output to VVVV!
+  
+  We'll let you know as soon as we have coded something clean & stable.

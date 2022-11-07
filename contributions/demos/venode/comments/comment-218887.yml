@@ -1,0 +1,15 @@
+### YamlMime:ContributionComment
+---
+uid: "218887"
+user: "mediadog"
+created: "04 Apr, 2016 - 17:35"
+body: |-
+  Okie doke, I put up a zip of my simple nodes.  They need the JSON Parse mentioned above, and you'll need to specify the path to the server.js file (lives in the venode0.5\server folder).
+  
+  There is a help patch showing how to use them, but basically you just put in one setup node, then as many variable nodes as you need to interface with venode.  One node takes care of sending and receiving changes.
+  
+  I have only used these nodes in a simple single client setting, and I imagine that due to the UDP nodes used within, that more than one variable send at a time may get lost.  But it's something to start with.
+  
+  The setup node takes care of banging the server start on load, and more importantly the server kill when you quit the patch.  If node.js does not start, it is likely because node.exe is still running and needs to be killed.
+  
+  Note: Be sure the ports used in these nodes match the port (and port+1) set in the server.js file you are using.

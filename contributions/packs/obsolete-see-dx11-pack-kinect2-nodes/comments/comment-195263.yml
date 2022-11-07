@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "195263"
+user: "panta_rhei"
+created: "12 May, 2015 - 10:09"
+body: |-
+  @LineKernel: it worked for me when I was copying the Kinect2 folder into the packs\dx11\nodes\plugins folder as we did it in the Kinect-Pointcloud workshop. Then the nodes appeared without using the helppatch "workaround".

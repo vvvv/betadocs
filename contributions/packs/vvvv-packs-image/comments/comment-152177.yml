@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "152177"
+user: "sebl"
+created: "19 Mar, 2014 - 20:44"
+body: |-
+  you can start with compiling the addonpack. that's very good [documented](https://betadocs.vvvv.org/devvvveloping/vvvv-sdk.html) and will usually work out of the box. after getting a bit familiar with a projects structure and references, you do the same with another solution and fix missing references or errors from the error-list in your IDE until it compiles.

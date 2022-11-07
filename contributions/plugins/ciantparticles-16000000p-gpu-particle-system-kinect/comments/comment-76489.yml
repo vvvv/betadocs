@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "76489"
+user: "ksp"
+created: "20 Feb, 2012 - 20:49"
+body: |-
+  i too am having problems with this.
+  i have got the demo "CiantParticles help04_Strawman OnlyGeometry.v4p" to work by changing the texture format of the DX9Texture to "X8R8G8B8" but can only get this patch to work and nothing else.

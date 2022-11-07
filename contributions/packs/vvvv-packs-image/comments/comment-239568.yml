@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "239568"
+user: "guest"
+created: "16 May, 2017 - 12:08"
+body: |-
+  Running the VPM "with dx11" doens't compile the AsImage(dx11) node on my computer. 
+  
+  I am using Visual Studio 2017 (I know, it sucks, but its lighter than 2015). IS this an isssue?
+  
+  I tried the direct download from the page and that didn't seem to work either.

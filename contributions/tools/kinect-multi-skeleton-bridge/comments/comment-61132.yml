@@ -1,0 +1,85 @@
+### YamlMime:ContributionComment
+---
+uid: "61132"
+user: "Leo_Aguiar"
+created: "18 Mar, 2011 - 02:00"
+body: |-
+  Hello vvvvers!
+  
+  Congratulations on this forum and this multipurpose tool. I'm still a beginner with programming and vvvv but ever since I saw skyence on motionographer and then watched the video tutorials by west I was hooked. The possibilities of making things with 4v have me dreaming a lot. :) I've watched a lot of videos on the vvvv vimeo group also. Great and inspiring stuff there too. I've been trying to consume as much information as possible on the tecnical side of computer graphics and the programming behind it (which in my noob view vvvv does really awesome stuff there while also letting you integrate different things). I'm looking forward to overcoming this huge learning curve that I have to conquer.
+  
+  I've read up on this kinect skeleton thread and have attempted to get the skeleton patch to work. I've followed the first instructions posted by **hierro**, **screamer** and **nando**.
+  
+  I have:
+  * vvvv_skeleton3.zip
+  * NITrackerBridge.exe
+  * MultiSkeleton(Kinect)help.v4p patch.
+   
+  I also downloaded the Driver from **hierro**'s post on 15/12 via the http://bcaa.it/appoggio/Driver.rar link. 
+  I then went on to the SensorKinect github site with the detailed instructions that **DieTapete** posted on 15/12.
+  
+  On the SensorKinect github site I followed the install notes.
+  I got:
+  * OpenNI-Bin-Win32-v1.0.0.25 (that's the latest unstable right?)
+  
+  Had to get:
+  * NSIS-2.46
+  * nsis-2.46-strlen_8192.zip (to be able to install OpenNI)
+  
+  From the nsis-2.46-strlen_8192.zip I unpacked the Stubs folder and makensis.exe file  into the NSIS directory and overwrote the files in there (as instructed in the Build Notes section).
+  
+  I'm not sure what the build notes are (I'm new to programming jargon) but I went ahead and installed the other applications specified under the windows requirements section. Those being:
+  * Visual Studio 2008/2010 (I got vs2010 Express v10.0.30319.1) 
+  * Python 2.6+/3.x (version 2.7 installed)
+  * PyWin32.
+  
+  For the OpenNI v1.x requirement the SensorKinect github link takes us to the OpenNI homepage so I searched their site for "OpenNI v1" . The search result is confusing to me and I am unsure what to install. The most best result I think was:
+  * OpenNI Alpha Build for Windows v1.0.0.23 
+  I downloaded it and installed it. (http://www.openni.org/downloadfiles/openni-binaries/stable/26-openni-alpha-build-for-windows-v1-0-0)
+  
+  I didn't install any of the optional requeriments.
+  
+  **THIS PART I DON'T UNDERSTAND:**
+  Building Sensor:
+  1) Go to the directory: "Platform\Win32\CreateRedist".
+  Run the script: "Redist.py".
+  This will compile and prepare the redist exe files that includes everything.
+  2) Install the exe you've just made which is located in Platform\Win32\CreateRedist\Final\Output\Sensor-Win32-5.x.x.x.exe
+  The installer will also automatically register all the modules into OpenNI via the NiReg utility.
+  		   
+  The visual studio solution is located in: Platform\Win32\Build\EngineWin32.sln.
+  		
+  Important: Please note that even though the directory is called Win32, you can also use it to compile it for 64-bit targets (AMD64/x64).
+  
+  
+  I tried to run the NiViewer sample to make sure depth & image streams are working and I got an error: "This application has requested the Runtime to terminate it in an unusual way. Contact support for more info." When I had version OpenNI-Bin-Win32-v1.0.0.25 installed this didn't happen.
+  
+  I'm really lost. I think I installed things not in the proper order.
+  
+  More info:
+  * I wasn't asked for a PrimeSense license at anytime.
+  
+  * Before I installed OpenNI v1.0.0.23 when I ran NiViewer I would get the same error as **u7angel**: "One or more of the following nodes could not be enumerated. Press any key to continue."
+  
+  * When I tried running NiUserTracker.exe in "C:\Program Files (x86)\OpenNI\Samples\Bin\Release\" folder (like **theplastictoy**'s post says) I got an error: Could not load file or assembly 'OpenNI.net, Version=1.0.0.25, Culture=neutral, PublicToken=6b43d0c6cf74ee7f' or one of its dependencies. The system could not find the specified file.
+  After installing OpenNI v1.0.023 I only get "This application has requested the Runtime to terminate it in an unusual way. Contact support for more info."
+  
+  * My C:\WINDOWS\Microsoft.NET\Framework directory has a v4.0.30319 folder. (I Googled "how to know what .net framework you have installed") (this refers to **sapo**'s post on 14/12/2010)
+  
+  * "If the driver is installed correctly you should see "Kinect Camera" and "Kinect Motor" under the "PrimeSensor" category in the device manager." (from the tips section in the KinectSensor github site) This is I have and it seems OK.
+  
+  * I'm working on a Windows XP, Professional Version 2002 SP3 system on a Intel Core 2 Duo, T8100 2.10Ghz, 3GB laptop.
+  
+  * MultiSkeleton node shows up red in the vvvv patch.
+  
+  * I have a vcredist_x86 file in my kinect skeleton folder where I have all the installers for everything. It installs a Visual C++ 2010 x86 Redistributable Maintenance. I can't remember where and why I have this. I think is has to do with **hierro**'s post on 15/12/2010 - 01:32.
+  
+  * Is the driver installer the dpinstx86 file?
+  
+  * My Kinect has a green blinking light. 
+  
+  What a mess! :) Any help?
+  
+  Thanks so much.
+  
+  Leo

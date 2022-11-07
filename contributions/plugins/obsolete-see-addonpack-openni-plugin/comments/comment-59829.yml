@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "59829"
+user: "sapo"
+created: "13 Feb, 2011 - 20:33"
+body: |-
+  mmm i'd rather make a forum thread or something like that instead of a pdf. 
+  but i'm triing to make a helppatch that will detect the installation status and display helpfull messages to ge the plugin up and running. i'm having problems to read some initial stuff from the tty renderer with find(string). it looks like the first messages arend outputted as string. if i'll solve it quickly i'll do this way else i'll write a doc, doc! ;)

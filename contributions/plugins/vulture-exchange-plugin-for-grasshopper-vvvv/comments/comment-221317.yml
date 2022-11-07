@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "221317"
+user: "jesterfjord"
+created: "19 Jun, 2016 - 17:52"
+body: |-
+  What versions of VVVV and Grasshopper does this require? I have GH 0.9.0076 and VVVV 45beta34.2 x64 and cannot get it to work in either. I have the four files from the Grasshopper folder copied into my GH library folder, and I've placed the two VVVV files into VVVV\packs\vulture
+  
+  Grasshopper gives me a red balloon, stating that the assembly cannot be found: "1. Solution exception:Could not load file or assembly 'vulture, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. The system cannot find the file specified."
+  
+  VVVV node, when pointing to the supplied test file, alternates between red node and grey every few seconds, with no output in either state.
+  
+  I have a feeling I've just placed something in the wrong folder, or pointed something to the wrong location, but I've exhausted all ideas.

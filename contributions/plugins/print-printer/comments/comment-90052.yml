@@ -1,0 +1,10 @@
+### YamlMime:ContributionComment
+---
+uid: "90052"
+user: "zeos"
+created: "22 Oct, 2012 - 14:13"
+body: |-
+  @h99: I assume that: 1) You know the name of the printer, or 2) you use the *Printer *node to find the default printer. Anyway, additional check is always good! Thanks for the feedback! I will put some validation and update the plugin. 
+  
+  edit: Now it checks, please, test. Thanks.
+  edit 2: Also, is there some input setting for the *Print* node that you would need/add or that's sufficient?

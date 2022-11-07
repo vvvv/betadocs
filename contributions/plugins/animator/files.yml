@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/animator-files"
+url: "animator"
+category: "plugin"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "AnimationAnimator_9.zip"
+            description: |-
+              v1.9
+            
+            timestamp: "16 Jun, 2015 - 14:23"
+            download_count: "1"

@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "219559"
+user: "synth"
+created: "25 Apr, 2016 - 09:06"
+body: |-
+  Back to VS then, it seems I am the only who got it working.
+  
+  It was compiled against the latest vvvv, DX11 and so on versions so minimum vvvv version is vvvv 45beta34.2 x64.

@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/trinamic-stepper-motor-motion-control-(tmcl)-files"
+url: "trinamic-stepper-motor-motion-control-tmcl"
+category: "module"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "Stepper Motor (Devices Trinamic).v4p"
+            timestamp: "27 Apr, 2017 - 11:13"
+            download_count: "1"

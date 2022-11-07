@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "98272"
+user: "Elias"
+created: "18 Mar, 2013 - 12:51"
+body: |-
+  why not add it to the existing xml nodes directly? https://github.com/vvvv/vvvv-sdk/tree/develop/vvvv45/src/nodes/plugins/XML

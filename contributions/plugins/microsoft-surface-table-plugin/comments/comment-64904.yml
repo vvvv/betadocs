@@ -1,0 +1,10 @@
+### YamlMime:ContributionComment
+---
+uid: "64904"
+user: "u7angel"
+created: "08 Jun, 2011 - 14:54"
+body: |-
+  very good :)
+  which plugins aren't working in 25.1 ?
+  
+  one idea, you could run two v4 versions at the same time and send the SurfaceInput data via OSC (localhost) from one instance to another. not very elegant though.

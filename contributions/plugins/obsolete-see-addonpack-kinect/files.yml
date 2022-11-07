@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/obsolete-see-addonpack-kinect-files"
+url: "obsolete-see-addonpack-kinect"
+category: "plugin"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "VVVV-Kinect-1.0.zip"
+            timestamp: "23 Nov, 2010 - 23:27"
+            download_count: "1"

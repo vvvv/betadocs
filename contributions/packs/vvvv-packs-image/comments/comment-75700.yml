@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "75700"
+user: "ft"
+created: "03 Feb, 2012 - 16:15"
+body: |-
+  I have read that from VLC 1.2, LibVLC will be LGPL 2.1 (http://www.gnu.org/licenses/lgpl-2.1.html). If I have understood correctly, this allows the 'client' to obtain and change the library's code, but a 'work that uses the library', can have its own license. (The 'client' should be able to replace the library with their own version.)
+  
+  Latest VLC version in Contributions is based on LibVLC 1.2 already.
+  
+  I was just wondering, how can I make a version of Vlc that can be distributed separately, and still could work together with these nodes. It would be cool if there would be some way to create a node that can 'transform' ordinary bitmaps or byte arrays coming from one node into the format useable by EmguCV nodes. That way, VLC is not 'locked' into the EmguCV project, and can be used by anyone, whether they want to use EmguCV or not. It would also allow other people to create 'output' nodes, without having to include all the EmguCV dll's and some of these dll's just to be able to output to the EmguCV nodes 'proprietary' format (they can if they want to of course).
+  
+  (Same thing for audio, I would like to be able to send audio to Vux's bass modules, without the need to make VLC a part of these modules. VLC can't be a part of both anyway.). It would be nice to keep it on its own (only 1 version to manage), and yet work together with as many other components as possible.

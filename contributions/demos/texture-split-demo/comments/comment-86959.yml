@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "86959"
+user: "gregsn"
+created: "14 Aug, 2012 - 16:21"
+body: |-
+  the clone is needed only when you 
+  * use the new depth texture format INTZ which basically gives you access to the depthbuffer
+  * AND you want to use a FrameDelay (EX9.Texture) or a Queue (EX9.Texture) or any module that uses one of those nodes (e.g. FrameDifference (EX9.Texture)) afterwards.
+  
+  depthbuffer textures can't be cloned internally. therefore we need another renderpass which renders the depth content onto a new texture with any userspecified "normal" texture format.

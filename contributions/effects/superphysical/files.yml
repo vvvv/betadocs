@@ -1,0 +1,90 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/superphysical-files"
+url: "superphysical"
+category: "effect"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "9"
+            filename: "SuperPhysical.zip"
+            description: |-
+              latest github branch, updated for beta40
+            
+            timestamp: "14 Jan, 2021 - 17:29"
+            download_count: "3"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "8"
+                    filename: "SuperPhysical.zip"
+                    description: |-
+                      latest github branch, updated for beta38.1
+                    
+                    timestamp: "18 Jan, 2019 - 18:21"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "7"
+                    filename: "SuperPhysical 2.01.zip"
+                    description: |-
+                      compatibility with alpha 35.18
+                    
+                    timestamp: "04 Feb, 2018 - 16:29"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "6"
+                    filename: "SuperPhysical 2.0.zip"
+                    timestamp: "28 Jan, 2018 - 22:04"
+                    download_count: "3"
+                - file:
+                    bit: "64"
+                    delta: "5"
+                    filename: "SuperPhysical 1.01.zip"
+                    description: |-
+                      bugfix release
+                    
+                    timestamp: "30 Jun, 2017 - 16:11"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "4"
+                    filename: "SuperPhysical.zip"
+                    timestamp: "22 Jun, 2017 - 16:18"
+                    download_count: "2"
+                - file:
+                    bit: "64"
+                    delta: "3"
+                    filename: "superphong_1.3.zip"
+                    description: |-
+                      Bugfixing / Refactoring Lights Module
+                    
+                    timestamp: "08 Apr, 2017 - 10:00"
+                    download_count: "2"
+                - file:
+                    bit: "64"
+                    delta: "2"
+                    filename: "superphong_1.2.zip"
+                    description: |-
+                      new model for light blending; noTile option
+                    
+                    timestamp: "28 Mar, 2017 - 20:52"
+                    download_count: "3"
+                - file:
+                    bit: "64"
+                    delta: "1"
+                    filename: "SuperPhong 1.1.zip"
+                    description: |-
+                      added VSM Shadows, fixed some spreading issues, fixed alpha
+                    
+                    timestamp: "17 Feb, 2017 - 16:59"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "superphong.zip"
+                    timestamp: "06 Nov, 2016 - 19:55"
+                    download_count: "2"

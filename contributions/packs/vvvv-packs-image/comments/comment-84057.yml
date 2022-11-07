@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "84057"
+user: "elliotwoods"
+created: "11 Jun, 2012 - 21:35"
+body: |-
+  cheers!
+  
+  noted VideoIn (OpenCV) is still not working properly right now but VideoIn (OpenCV DirectShow) is working well for me (couple of small changes). still more tidying up / testing to do on these
+  
+  thanks @ circuitb for the notice. so you do get VideoIn (OpenCV) working as well?
+  
+  alpha28 is necessary for the way that some of the nodes are handling spreads (e.g. calibration, contour)

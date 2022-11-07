@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/remote-android-files"
+url: "remote-android"
+category: "tool"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "RemoteAndroid.zip"
+            timestamp: "25 Dec, 2013 - 05:14"
+            download_count: "1"

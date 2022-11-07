@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/obsolete-see-addonpack-select-plugin-files"
+url: "obsolete-see-addonpack-select-plugin"
+category: "plugin"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "Select.zip"
+            timestamp: "19 Feb, 2011 - 15:32"
+            download_count: "1"

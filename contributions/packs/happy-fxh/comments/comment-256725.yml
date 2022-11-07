@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "256725"
+user: "everyoneishappy"
+created: "29 Jun, 2018 - 10:46"
+body: |-
+  -Added 2D & 3D vector control parameters to vector valued Bias & Gain functions
+  -Various bugfixes, including some inverted normals horror that was making problems elsewhere

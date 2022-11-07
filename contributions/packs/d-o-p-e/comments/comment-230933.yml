@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "230933"
+user: "microdee"
+created: "31 Oct, 2016 - 15:02"
+body: |-
+  I know I know, I can be annoying at this point but it would be nicer to manage the dependencies with vpm instead of manual copying (in this case the triangle, Tetgen, mix transform and an optional vpack file for girlpower dependencies)
+  I will try this out shortly

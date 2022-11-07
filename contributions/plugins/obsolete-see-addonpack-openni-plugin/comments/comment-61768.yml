@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "61768"
+user: "everyoneishappy"
+created: "01 Apr, 2011 - 06:22"
+body: |-
+  looks really fun!  
+  
+  just got it running on XP, and had the same issues as catweasel before it would work, to sum it again in case it helps someone:
+  
+  open the /data/modules.xml file that comes with the plugin and fix program files paths to XP style
+  
+  Make sure it is in VVVV's plugin folder and NOT the addon dir or a custom addon dir.

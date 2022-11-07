@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "242007"
+user: "microdee"
+created: "09 Jul, 2017 - 10:45"
+body: |-
+  if you're trying to load the csproj directly in vvvv then stop what you're doing, close vvvv, download visual studio, compile the downloaded repo then load the result of that into vvvv. pay attention to architecture in visual studio what you compile to (either x86 or x64)

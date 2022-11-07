@@ -1,0 +1,12 @@
+### YamlMime:ContributionComment
+---
+uid: "76177"
+user: "Luper"
+created: "13 Feb, 2012 - 08:13"
+body: |-
+  Hi! What's means
+  "From version 0.5 on, you need LibVLC 1.2"
+  it is VLC 1.2? If so, where I can download it? On www.videolan.org the last version is 1.1.11
+  
+  Actually I have the 1.1.11, and I'm using the vvvv_45beta27. The VLC(EX9.texture 0.3) works great (lots of crash when I try to spread it, BTW) but VLC(EX9.texture 0.5) doesn't play any video!
+  n

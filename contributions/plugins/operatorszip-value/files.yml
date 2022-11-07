@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/operatorszip-(value)-files"
+url: "operatorszip-value"
+category: "plugin"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "OperatorsZip.zip"
+            timestamp: "01 Oct, 2015 - 16:48"
+            download_count: "2"

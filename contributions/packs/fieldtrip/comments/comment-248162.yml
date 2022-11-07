@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "248162"
+user: "everyoneishappy"
+created: "09 Jan, 2018 - 02:18"
+body: |-
+  Thanks Sunep.
+  
+  The girlpower one is just an easy edit: https://github.com/everyoneishappy/FieldTrip/commit/7684567513dfb4f0143b5ff6f3abeb1aa03ded82
+  
+  The particles could arguably be added to the installer, but I'd probably just rather make note of it in the adapter node's help patch/description.  Makes sense?

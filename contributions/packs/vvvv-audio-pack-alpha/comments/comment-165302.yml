@@ -1,0 +1,20 @@
+### YamlMime:ContributionComment
+---
+uid: "165302"
+user: "hierro"
+created: "20 Sep, 2014 - 16:30"
+body: |-
+  Hi thank you for big job, i got same error already posted, using beta 33.1_x64 and v0.7 ,vvvv running as administrator on windows 8.
+  
+  ![Load error](https://vvvv.org/sites/default/files/imagecache/large/images/Cattura_1.PNG) 
+  
+  
+  I compiled also your source from github, same result, any hint ? :)
+  
+  
+  **P.s.: Working fine with beta 33.1_x86.**
+  
+  
+  Solved issue, Tebjan pointed me to something really simple, in x64 it should be used x64 VST :) I stepped into this assuming distributed Altair VST was any CPU.
+  
+  Again is a great pack indeed, it move forward VVVV creative possibilities, just don't send values less then 0 :D

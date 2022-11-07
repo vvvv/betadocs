@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "249390"
+user: "andresc4"
+created: "24 Feb, 2018 - 15:23"
+body: |-
+  Guys any Idea how to render volumetrics in VR?
+  Superphisical looks awesome, and also this other one [volumetric-spot-light-(deferred)](xref:contribution/volumetric-spot-light-(deferred))
+  but its a 2d texture added to the final render. how can I do that on VR?

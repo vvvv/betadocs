@@ -1,0 +1,14 @@
+### YamlMime:ContributionComment
+---
+uid: "100402"
+user: "vjc4"
+created: "02 May, 2013 - 13:18"
+body: |-
+  love the idea of moving the points with the keys
+  i would like to do the same with a 3x3 grid for more precise mapping
+  i will take this patch as a example
+  
+  i would like to add a feature to control the amount of blending
+  did you test it already with beamers ? if i put the 3 grids in blend,add it over exposed in the intersection area. Are you sure its well calculated?
+  
+  great patch anyway! thnks for sharing

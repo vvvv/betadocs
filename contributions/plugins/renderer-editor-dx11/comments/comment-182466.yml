@@ -1,0 +1,19 @@
+### YamlMime:ContributionComment
+---
+uid: "182466"
+user: "sebl"
+created: "17 Jan, 2015 - 17:27"
+body: |-
+  hm, unforunately i get only this error in TTY:
+   00:00:31 ERR : Exception caused by node during render :/73/57
+   00:00:31 ERR : System.MissingMethodException in 1072279917._dynamic_.1: Method not found: 'Void FeralTic.DX11.Resources.DX11SwapChain..ctor(FeralTic.DX11.DX11RenderContext, IntPtr, SlimDX.DXGI.Format, SlimDX.DXGI.SampleDescription, Int32)'.
+   
+   Stacktrace:
+      at VVVV.DX11.Nodes.DX11_EditorRendererNode.Update(IPluginIO pin, DX11RenderContext context)
+      at VVVV.DX11.Nodes.DX11_EditorRendererNode.Render(DX11RenderContext context)
+      at VVVV.DX11.Lib.RenderGraph.DX11DeviceRenderer.ProcessNode(DX11Node node) in c:\vvvv\dx11-vvvv\Core\VVVV.DX11.Lib\RenderGraph\DX11DeviceRenderer.cs:line 251
+   
+   00:00:31  -  : Stack Trace
+   00:00:31  -  :    at VVVV.DX11.Nodes.DX11_EditorRendererNode.Update(IPluginIO pin, DX11RenderContext context)
+      at VVVV.DX11.Nodes.DX11_EditorRendererNode.Render(DX11RenderContext context)
+      at VVVV.DX11.Lib.RenderGraph.DX11DeviceRenderer.ProcessNode(DX11Node node) in c:\vvvv\dx11-vvvv\Core\VVVV.DX11.Lib\RenderGraph\DX11DeviceRenderer.cs:line 251

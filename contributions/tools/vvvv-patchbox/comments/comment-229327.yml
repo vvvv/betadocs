@@ -1,0 +1,15 @@
+### YamlMime:ContributionComment
+---
+uid: "229327"
+user: "blausand"
+created: "03 Oct, 2016 - 18:44"
+body: |-
+  Yes, indeed some welcome shortcuts.
+  Due to its runtime footprint it seems worth some optimisation. Quite some of it i'd even wish to be native.
+  
+  Unfortunately, one thing makes it unusable for me: Some errors spam my TTY when i resize a node:
+  ```
+  00:30:41  *  : Verweis auf die nicht deklarierte Entität 'cr'. Zeile 1, Position 674.
+  00:31:26  *  : XPath : -1072898046 on line 132:116 >>> Verweis auf eine nicht definierte Entität 'cr'.
+  ```
+  I tried to track it down, but it seems to be deep in XPath, right?

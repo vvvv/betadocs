@@ -1,0 +1,17 @@
+### YamlMime:ContributionComment
+---
+uid: "61936"
+user: "vjc4"
+created: "04 Apr, 2011 - 18:44"
+body: |-
+  @hierro
+  on the skeleton i have 3 textures
+  user textre, rgb texture, mask texture
+  
+  user texture is the one that im using as a mask because if i set the "background" pin to 0 its tracks me the subject and keeps the depth information
+  
+  mask texture its only a solid color, and im not able to view any changes in the layer that im selecting, it seems to be a mask of the subject only and the color its full white, no z info here ( this with background = 1 ). With background 0 its the same, but its like a render box with the clear set to 0.
+  
+  can you show me an example ?
+  
+  and YES, that video that you made its what i want to do. Where do i need to start  with ? ( i have no idea how to use a pipet :( )

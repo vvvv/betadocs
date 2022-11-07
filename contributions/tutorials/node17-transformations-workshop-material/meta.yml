@@ -1,0 +1,15 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/node17-transformations-workshop-material-meta"
+type: "tutorial"
+author: "motzi"
+date: "15 Jul, 2017"
+title: "NODE17 - Transformations workshop material"
+originalURL: "contribution/node17-transformations-workshop-material"
+category: "tutorial"
+credits: |-
+  [motzi](http://vvvv.org/users/motzi), [Martin_Zrcek](http://vvvv.org/users/Martin_Zrcek), thanks to [tonfilm](http://vvvv.org/users/tonfilm) for valuable insights
+like_count: "3"
+imported: "true"
+teaser: |-
+  Updated patches and presentation from the [NODE17 Workshop on transformations](https://17.nodeforum.org/events/transformations/)

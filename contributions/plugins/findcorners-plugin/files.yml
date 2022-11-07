@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/findcorners-plugin-files"
+url: "findcorners-plugin"
+category: "plugin"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "findcorners1.0.zip"
+            description: |-
+              plugin corner detection
+            
+            timestamp: "24 Jul, 2011 - 14:21"
+            download_count: "2"

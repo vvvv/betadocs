@@ -1,0 +1,15 @@
+### YamlMime:ContributionComment
+---
+uid: "249244"
+user: "u7angel"
+created: "20 Feb, 2018 - 06:52"
+body: |-
+  @velcrome
+  thanks for the flower.
+  
+  in terms of number of transitions, if you already have a route in one direction, why not use that for every case. like using „or“ outside of automata.
+  not sure why you need an extra state here, sounds complicated.
+  
+  concerning the enums of transitions, thats just copy pasting microdees code, need to make the enum items unique. no big deal, will be fixed.
+  
+  edit: just realized there is more unfinished stuff in TriggerTransition, seems not spreadable in the way you would expect it to. will be fixed.

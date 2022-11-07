@@ -1,0 +1,24 @@
+### YamlMime:ContributionComment
+---
+uid: "164972"
+user: "velcrome"
+created: "13 Sep, 2014 - 14:57"
+body: |-
+  Glad you brought that up, because it might need some explaining to not seem unreasonable.
+  
+  intolight is a small studio and cannot approach open source in a similar way as, say intel (with opencv) or google (with go), etc. Besides our past references of our work, the only thing that will provide food into our mouths is our know-how, and hence our code. Many other studios probably agree, because a lot of brilliant vvvv patches never see the light of this website, just to protect this know-how from "being abused by other companies".
+  
+  However, in good vvvv spirit we want to share this knowledge with the community of vvvv and the Domies all over the world. But this does not mean that we are cool if someone else is earning money with our work and we go hungry all the while.
+  
+  So the default license is open to about everything related to Free Sharing, but it requires you to
+  - not earn money with it
+  - mention "intolight" as a base for your work
+  - give the same license to all published derivates of the software  
+  
+  I agree that this seems like a show stopper for some use cases (especially commercial ones), but mind you, this is only the default license. If you think, that your use case cannot be done within these boundaries, then simply contact the copyright holder at **license (at) intolight.de** and tell us about your project. 
+  
+  Don't worry, we will not stop you making money with the help of these patches, but we want either a slice of it or some in-kind appreciation. For a contribution to the kit we might offer you a non-transferable commercial license, for a flattr-donation you might not be required to mention us in your work, etc. 
+  
+  Also we want to reimburse people that have contributed with their work (vux, unc) from any revenue we generate by applying this license model.
+  
+  So yeah, the default license is made for all that want to learn, teach, research, entertain or make art just for the fun of it. If your endevour is beyond that scope, simply email us and tell us about idea. We don't bite and it is our declared goal to help both the fulldome and vvvv ecosystems to prosper and flourish.

@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/akai-lpd8-subpatch-files"
+url: "akai-lpd8-subpatch"
+category: "module"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "LPD8.zip"
+            timestamp: "28 Aug, 2011 - 13:13"
+            download_count: "10"

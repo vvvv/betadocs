@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "104859"
+user: "vux"
+created: "13 Aug, 2013 - 13:34"
+body: |-
+  Ah seems you use the 64 bits version for vvvv, but i guess you downloaded the 32 bits for dx11. Please note that 64 bits for 30.2 is coming soon, just need couple more sorting around.

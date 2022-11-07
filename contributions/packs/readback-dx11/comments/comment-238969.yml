@@ -1,0 +1,10 @@
+### YamlMime:ContributionComment
+---
+uid: "238969"
+user: "eno"
+created: "23 Apr, 2017 - 03:56"
+body: |-
+  I see a red spill at the borders of your text, where the underlying texture should be. 
+  So I guess that the rgb pixel information is there, it's just 'invisbible', because alpha is 0 in that area.
+  jpeg cant save alpha, that's why you see the colors in that format.
+  try different blend modes for your foreground layers, and maybe just for a check use setAlpha dx11 texture FX to make sure your alpha is 1 where it is needed.

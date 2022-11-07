@@ -1,0 +1,15 @@
+### YamlMime:ContributionComment
+---
+uid: "53398"
+user: "john"
+created: "27 Sep, 2010 - 04:04"
+body: |-
+  **the help patches are working now** after following the suggestion of frostpfote:
+  changing the version from 1 to 3 at the end of the code for 'DOF-combine.fx'
+  <div class="box">quote:frostpfote:
+  VertexShader = compile vs_3_0 VSDOF();
+  </div>
+  
+  Can someone explain the need for this change ?
+  Is it specific to my hardware ?
+  and why don't I have to change the version in some of the other fx used in this module ?

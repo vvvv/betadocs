@@ -1,0 +1,27 @@
+### YamlMime:ContributionComment
+---
+uid: "87371"
+user: "ethermammoth"
+created: "21 Aug, 2012 - 10:11"
+body: |-
+  changing the pixelshader version to 3 solved the errors for me:
+  
+  ```
+  technique ColorOffset
+  {
+      pass P0
+      {
+          VertexShader = compile vs_1_1 VS();
+          PixelShader  = compile ps_3_0 psRGBToHSV();
+      }
+  }
+  
+  technique Colorize
+  {
+      pass P0
+      {
+          VertexShader = compile vs_1_1 VS();
+          PixelShader  = compile ps_3_0 psColorize();
+      }
+  }
+  ```

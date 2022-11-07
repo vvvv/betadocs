@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "158995"
+user: "tmp"
+created: "10 Jul, 2014 - 14:56"
+body: |-
+  is there a way to play one audiofile with the filestream in parallel.
+  i am asking because i want to arbitrary trigger exactly one soundfile.

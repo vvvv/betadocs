@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/bumpmappednoise-files"
+url: "bumpmappednoise"
+category: "effect"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "BumpMappedNoise.zip"
+            timestamp: "11 Mar, 2013 - 14:13"
+            download_count: "1"

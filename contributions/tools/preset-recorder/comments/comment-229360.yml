@@ -1,0 +1,10 @@
+### YamlMime:ContributionComment
+---
+uid: "229360"
+user: "velcrome"
+created: "04 Oct, 2016 - 20:11"
+body: |-
+  Cool little thing! 
+  I had to scrap the AvoidNil/FrameDelay combo, so I could continue setting values after loading.
+  
+  Anyway, this should be in the addonpack, makes much more sense of Eksposing.

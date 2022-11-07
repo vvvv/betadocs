@@ -1,0 +1,25 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/pitch-tracker-meta"
+type: "plugin"
+author: "dm121506"
+date: "11 Oct, 2014"
+title: "Pitch Tracker"
+originalURL: "contribution/pitch-tracker"
+category: "plugin"
+credits: |-
+  [ dm121506](http://vvvv.org/users/dm121506%20)
+  [ BitFlipper@CodePlex](https://pitchtracker.codeplex.com/%20)
+  [ markheath@CodePlex](http://naudio.codeplex.com/%20)
+like_count: "7"
+imported: "true"
+teaser: |-
+  Calculates pitch, midi note, midi cents, octave and note for your primary audio input.
+  
+  Use case: Use your guitar for Rockband/Rocksmith type games in vvvv.
+  
+  This project was created in the "Modulare Medienprogrammierung" (modular media programming) class at the University of Applied Sciences St. Pölten.
+  
+  Future plans:
+  *) Selectable input
+  *) Source-agnostic (WAV file, microphone, ...)

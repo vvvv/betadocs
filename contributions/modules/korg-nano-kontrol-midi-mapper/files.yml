@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/korg-nano-kontrol-midi-mapper-files"
+url: "korg-nano-kontrol-midi-mapper"
+category: "module"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "KorgNanoKontMIDIMapper.zip"
+            description: |-
+              Pakage that can be used to MIDI map the Korg Nano Kontrol
+            
+            timestamp: "24 Aug, 2011 - 23:46"
+            download_count: "2"

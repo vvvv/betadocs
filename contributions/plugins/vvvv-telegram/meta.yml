@@ -1,0 +1,71 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/vvvv-telegram-meta"
+type: "plugin"
+author: "motzi"
+date: "11 Dec, 2016"
+title: "vvvv-Telegram"
+originalURL: "contribution/vvvv-telegram"
+category: "plugin"
+credits: |-
+  [Telegram Bot-Api](https://core.telegram.org/bots), [Telegram.Bot C# Api by Robin Müller et al.](https://github.com/TelegramBots/telegram.bot), vvvv plugins by [motzi](http://vvvv.org/users/motzi)
+like_count: "16"
+imported: "true"
+teaser: |-
+  With the rise of messenger apps it appears that chatbots are becoming (again) a user interface for almost anything.
+  
+  Now, thanks to the awesome [Bot-API](https://core.telegram.org/bots) which is offered by the cloud based [Telegram messenger service](https://telegram.org/) and the [Telegram.Bot C# API](https://github.com/TelegramBots/telegram.bot), you can now build your own Telegram chatbots within VVVV using these plugins.
+  
+  ###  Why should I care? 
+  
+  Well, messenger apps are super simple to use and offer quite easy options to capture and send/receive media. By building a chatbot within VVVV you can easily get data in and out from your patches using your mobile phone or whatever Telegram client you are using.
+  One can think of many applications where a chatbot could be of great use:
+  * A notification service (let your patches talk to you, send you photos, sounds, documents, ...)
+  * An advanced remote control (send data into your patch from wherever you are)
+  * An easy way to write text or upload media to your patches by anyone (i.e. take a photo in the Telegram client, press send, get the result almost immediately as a texture in your running patch).
+  * and many more...
+  
+  Nothing new, to be honest, but the simplicity of the interface of a chatbot is just striking.
+  
+  ### What does vvvv-Telegram offer? 
+  
+  * Nodes to send and receive messages for text, locations, venues, contacts, photos, stickers, videos, audio, voice-recordings and documents from VVVV to Telegram clients (and vice versa).
+  * Create custom keyboards (Reply and Inline keyboards)
+  * Receive callbacks from Inline Keyboards and send notifications
+  
+  #### Not there (yet):
+  
+  * Inline Bots
+  * private mode
+  * Game messages
+  * ...
+  
+  All web operations (connect, send, receive) happen asyncronously and most nodes are spreadable with regard to the BotClients.
+  
+  ### How to use
+  
+  * Get yourself a [Telegram client](https://telegram.org/) (e.g. app on your smartphone)
+  * Talk to the botfather to [create a telegram bot](https://core.telegram.org/bots#3-how-do-i-create-a-bot).
+  ** You will receive an API-Key that will allow your bot to connect to Telegram
+  * Use the API-Key on the <span class="node">BotClient</span> node to be able to connect
+  * Connect Send/Receive message nodes to the botclient for being able to talk to the bot.
+  
+  Have a look at the patches inside for more details.
+  
+  ### Sources
+  
+  https://github.com/mhusinsky/vvvv-Telegram
+  
+  ### Releases
+  
+  * v0.2.1: no changes, just the dll assembly version number got bumped to 0.2
+  * v0.2: Long overdue update. No big changes, it just works again. It now uses the latest Telegram.Bot libraries (version 15.5.1) that made some changes necessary. Plugin was tested with b37-b39, hope I did not miss any bugs.
+  * v0.1: Initial Release. Note: The Telegram.Bot.dll used for this contains a minor bugfix for venue messages that is not yet in the Telegram.Bot core ([pull request pending](https://github.com/TelegramBots/telegram.bot/pull/277)).
+  
+  ###  Important note:
+  
+  Telegram.Bot uses Newtonsoft.JSON in version 9 (vvvv-telegram 0.1) and version 11.0.2 (vvvv-telegram 0.2). As some other plugins/packs also use this library (e.g. vvvv-Message, vvvv-Time, ...) there might be dll conflicts resulting in exceptions during use. Be sure to scan your repositories and packs for this dll and remove the older versions. Sorry for this, [but it seems there is no other way...](https://discourse.vvvv.org/t/how-to-deal-with-different-versions-of-same-dll/14330)
+  
+  ### License
+  
+  CC-BY by [motzi](http://vvvv.org/users/motzi)(Matthias Husinsky). If you are using these plugins in an application of yours, be so kind and send me a photo or pointer to a description of your work. I'm just curious how you use this :)

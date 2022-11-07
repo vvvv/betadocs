@@ -1,0 +1,34 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/art-net-set-for-arduino-meta"
+type: "tool"
+author: "karistouf"
+date: "21 Apr, 2011"
+title: "art-net set for arduino"
+originalURL: "contribution/art-net-set-for-arduino"
+category: "tool"
+credits: |-
+  Karistouf
+like_count: "8"
+imported: "true"
+teaser: |-
+  Thoses sketchs for the arduino enables you to send it DMX in art-net. You can send 512 channels from VVVV thruth the DMX (art-net Sender) node.
+  
+  This works with Duemillanove and UNO, on Arduino 22 software.
+  
+  Contents:
+  
+  ***art-net receiver.pde** wich analyse if packets received are really art-net. see the universe, opcodes. Store in a buffer_dmx values. Up to you to do what you want with it.
+  
+  ***art-net receiver RAW.pde** doesn't analyse anything. Just store the incoming packet as if it was an art-net packet. Dangerous if you use it in non closed and very controlled network.
+  
+  ***art-net et tlc.pde** wich enable you to use a TLC5940NT to increase heavely number of output dimmable you can have on your UNO. 
+  TLC5940 has 14 output and is daisy chainable. Unfortunately, use of Ethernet Shield and TLC on a same arduino board is physically conflicting. 
+  For this a hack of the headers in the arduino core header, the ethernet library, and the TLC library. 
+  Wiring is changed from the usually wiring you may find around.
+  An html doc ( in french and english ) is included in the folder. 
+  This hack is  Tofe86 arduino's contribution on the topic of ethernet / TLC conflict.
+  
+  Just done a little test with my whitecat here: <div class="vimeo embed-responsive embed-responsive-16by9 mt-3 mb-4">
+      <iframe title="vimeo-player" src="https://player.vimeo.com/video/22679194" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+  </div>

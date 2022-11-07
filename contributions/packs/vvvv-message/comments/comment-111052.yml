@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "111052"
+user: "velcrome"
+created: "09 Dec, 2013 - 11:56"
+body: |-
+  hey chris,
+  
+  i'd rather not add it to the common addonpack. tbh i'd like to develop a solid pack out of it, because i consider it most useful only for advanced application development. most work is done in that direction, as you can see [here](https://github.com/velcrome/vvvv-Message)

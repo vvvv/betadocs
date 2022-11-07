@@ -1,0 +1,24 @@
+### YamlMime:ContributionComment
+---
+uid: "61731"
+user: "vjc4"
+created: "31 Mar, 2011 - 16:49"
+body: |-
+  Hey guis i just bough my kinect yesterday and im tring to figure it out how to make it work with vvvv
+  
+  i have seven 64b , n250 and vvvv 25
+  i already install OPENNI-Win32-1.0.0.24-Unstable.exe
+  windows didnt found the drivers, i was able to make it work after installing CL-NUI-Platform-1.0.0.1210.exe , 
+  CLNUIDeviceTest works, but on vvvv with all the nodes that i tested i got
+   a red node after the kinect node ... what is missing here ?
+  can you guys leave a step by step order for the drivers ?
+  i can restore the system with acronis to erase eveything and start from scratch
+  
+  ( i also tested leaving the .dll on the vvvv plugin folders, still the same )
+  
+  i thing that the issue is not vvvv, its the OnpenNI drivers, if i try to open the sample OpenNi / samples / open ni viewer i got this message
+  
+  "One or more of the following nodes could not be enumerated:
+  Press any key to continue . . ."
+  
+  any help/documentacion to start with will be apreciated! :)

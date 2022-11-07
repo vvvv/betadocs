@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "232252"
+user: "tonfilm"
+created: "14 Nov, 2016 - 16:27"
+body: |-
+  @andresc4
+  
+  the problem is that the specs are for desktop cards. unfortunately the mobile GTX cards have less then half of the computing performance than the desktop variants. so it's unlikely that any VR app will run smoothly on a 950M chip. my GTX 970M was barely able to drive the VR demos from valve... VR on laptops is currently no fun, also because most of them do not support direct mode, which is required for Oculus.

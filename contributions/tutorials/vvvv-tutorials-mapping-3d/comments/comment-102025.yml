@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "102025"
+user: "Urbankind"
+created: "08 Jun, 2013 - 21:16"
+body: |-
+  @ShmulikF: Its because of the keyboard subpatch is broken. Fix the keymatch and connect them to respective IO's within the same sub patch. It should work.

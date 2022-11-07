@@ -1,0 +1,27 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/twitter-api-1.1-authentication-and-request-meta"
+type: "plugin"
+author: "soundreactor"
+date: "31 May, 2013"
+title: "Twitter API 1.1 authentication and request"
+originalURL: "contribution/twitter-api-1.1-authentication-and-request"
+category: "plugin"
+credits: |-
+  https://dev.twitter.com/docs/auth/application-only-auth
+  by Soundreactor
+like_count: "5"
+imported: "true"
+teaser: |-
+  makes twitter api calls with modified headers in HTTP Post and Get
+  
+  1. create an app at: https://dev.twitter.com/apps
+  2. enter your consumer key and secret.
+  3. obtain bearer token via this plugin.
+  4. make your api request via this plugin.
+  
+  Notes:
+  -This version is non-async :( (i'll make it async as soon as possible)
+  
+  
+  have problems? look at the TTY or ask..

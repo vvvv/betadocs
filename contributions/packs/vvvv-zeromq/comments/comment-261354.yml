@@ -1,0 +1,16 @@
+### YamlMime:ContributionComment
+---
+uid: "261354"
+user: "catweasel"
+created: "10 Aug, 2018 - 13:19"
+body: |-
+  I've not tried using zeroMQ anywhere but in local host, I just tried to get it working to another pc, and I have issues with binding. 
+  Opened help pathes for subscriber and publisher, on localhost all good, when I change the IP to the other PC the node goes red and I get 
+  00:07:34 ERR : 
+  vvvv.ZeroMQ: Enable of PublisherSocket failed. NetMQ threw an internal exception with tcp://192.168.178.21:4444
+   Exception of type 'NetMQ.NetMQException' was thrown.
+  
+  00:07:34 ERR : Exception occured in TMPluginWrapperNode.Evaluate
+  00:07:34 ERR : Exception of type 'NetMQ.NetMQException' was thrown.
+  
+  Changing the port doesnt help. Any ideas?

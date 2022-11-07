@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "218614"
+user: "microdee"
+created: "28 Mar, 2016 - 18:55"
+body: |-
+  it should work with latest contrib dx11 but if it doesn't then:
+  
+  clone / zip download https://github.com/mrvux/dx11-vvvv, clone / zip download dx11 submodules (feraltic and girlpower), download VS 2013 https://go.microsoft.com/fwlink/?LinkId=532495&clcid=0x409 community, install it (it can take a while) open dx11 solution, set desired architecture (x86/x64) under Build -> Build Configuration, also set "Release" mode then Build -> Build Solution, in file explorer navigate to %dx11 source folder%\Deploy\Release\x64\packs and copy dx11 folder to your vvvv packs.

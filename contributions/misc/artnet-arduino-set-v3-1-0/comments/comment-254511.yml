@@ -1,0 +1,26 @@
+### YamlMime:ContributionComment
+---
+uid: "254511"
+user: "calm"
+created: "01 Jun, 2018 - 13:53"
+body: |-
+  Hi, karistouf!
+  
+  I want to control dmx devices via arduino and dmx. 
+  
+  The easiest thing is using Grove-DMX512, 3 commands ;) 
+  
+  ```
+  #include <DmxSimple.h>
+  DmxSimple.usePin(X);
+  DmxSimple.write(CH,VAL);
+  ```
+  
+  It works so far…
+  
+  But meanwhile 512 dmx channels are not enough, so I have to use artnet, but I have some problems with unterstanding the sketch "ARTNET_sender_10.ino" – I'm have no experience with artnet… :(
+  
+  Is there any documentation about sending cues for universe, channels and values?
+  What are the correspondences?
+  
+  Best regrads…

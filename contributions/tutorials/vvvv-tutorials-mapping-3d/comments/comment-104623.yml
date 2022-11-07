@@ -1,0 +1,14 @@
+### YamlMime:ContributionComment
+---
+uid: "104623"
+user: "mrboni"
+created: "07 Aug, 2013 - 01:47"
+body: |-
+  ok, it seems the view is inverted in the z direction somehow!
+  
+  have 'fixed' with a scale z of -1
+  
+  odd
+  
+  
+  another issue is vvvv freezing every couple of seconds while moving markers with the mouse.  seems to be something to do with the tables

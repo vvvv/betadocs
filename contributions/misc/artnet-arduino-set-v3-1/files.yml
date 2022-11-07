@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/artnet-arduino-set-v3.1-files"
+url: "artnet-arduino-set-v3-1"
+category: "misc"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "ARTNET_receiver_v3.1_130801.txt.zip"
+            timestamp: "01 Aug, 2013 - 20:55"
+            download_count: "1"

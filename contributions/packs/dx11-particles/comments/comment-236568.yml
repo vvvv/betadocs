@@ -1,0 +1,122 @@
+### YamlMime:ContributionComment
+---
+uid: "236568"
+user: "sinus"
+created: "06 Mar, 2017 - 14:03"
+body: |-
+  this great contrib makes my nvidia driver crash. beta35.2. x64 on win7 x64. please see report from tty. seems to be related to my system. all the other packs including particles pointclouds work fine. do i have to delete the latter? thank you.
+  
+  #### -Stacktrace
+  
+  bei SlimDX.Direct3D11.Buffer..ctor(Device device, BufferDescription description)
+     bei FeralTic.DX11.Resources.DX11RWStructuredBuffer..ctor(Device dev, Int32 elementcount, Int32 stride, eDX11BufferMode mode)
+     bei VVVV.DX11.Nodes.DX11BufferRendererNode.Update(DX11RenderContext context)
+     bei VVVV.DX11.Lib.RenderGraph.DX11DeviceRenderer.ProcessNode(DX11Node node)
+  00:02:20 ERR : Exception caused by node during update :/77/193/40
+  00:02:20 ERR : SlimDX.Direct3D11.Direct3D11Exception in SlimDX: DXGI_ERROR_DEVICE_REMOVED: Hardware device removed. (-2005270523)
+  
+  Stacktrace:
+     bei SlimDX.Result.Throw<T>(Object dataKey, Object dataValue)
+     bei SlimDX.Result.Record<T>(Int32 hr, Boolean failed, Object dataKey, Object dataValue)
+     bei SlimDX.Direct3D11.Buffer.Build(Device device, DataStream data, Int32 sizeInBytes, ResourceUsage usage, BindFlags bindFlags, CpuAccessFlags accessFlags, ResourceOptionFlags optionFlags, Int32 structureByteStride)
+     bei SlimDX.Direct3D11.Buffer..ctor(Device device, BufferDescription description)
+     bei FeralTic.DX11.Resources.DX11RWStructuredBuffer..ctor(Device dev, Int32 elementcount, Int32 stride, eDX11BufferMode mode)
+     bei VVVV.DX11.Nodes.DX11BufferRendererNode.Update(DX11RenderContext context)
+     bei VVVV.DX11.Lib.RenderGraph.DX11DeviceRenderer.ProcessNode(DX11Node node)
+  
+  00:02:20  -  : Stack Trace
+  00:02:20  -  :    bei SlimDX.Result.Throw<T>(Object dataKey, Object dataValue)
+     bei SlimDX.Result.Record<T>(Int32 hr, Boolean failed, Object dataKey, Object dataValue)
+     bei SlimDX.Direct3D11.Buffer.Build(Device device, DataStream data, Int32 sizeInBytes, ResourceUsage usage, BindFlags bindFlags, CpuAccessFlags accessFlags, ResourceOptionFlags optionFlags, Int32 structureByteStride)
+     bei SlimDX.Direct3D11.Buffer..ctor(Device device, BufferDescription description)
+     bei FeralTic.DX11.Resources.DX11RWStructuredBuffer..ctor(Device dev, Int32 elementcount, Int32 stride, eDX11BufferMode mode)
+     bei VVVV.DX11.Nodes.DX11BufferRendererNode.Update(DX11RenderContext context)
+     bei VVVV.DX11.Lib.RenderGraph.DX11DeviceRenderer.ProcessNode(DX11Node node)
+  00:02:20 ERR : Exception caused by node during update :/77/132
+  00:02:20 ERR : SlimDX.Direct3D11.Direct3D11Exception in SlimDX: DXGI_ERROR_DEVICE_REMOVED: Hardware device removed. (-2005270523)
+  
+  Stacktrace:
+     bei SlimDX.Result.Throw<T>(Object dataKey, Object dataValue)
+     bei SlimDX.Result.Record<T>(Int32 hr, Boolean failed, Object dataKey, Object dataValue)
+     bei SlimDX.Direct3D11.Effect..ctor(Device device, ShaderBytecode data)
+     bei FeralTic.DX11.DX11ShaderInstance..ctor(DX11RenderContext context, ShaderBytecode bytecode)
+     bei VVVV.DX11.Lib.Effects.DX11ShaderData.SetEffect(DX11Effect shader)
+     bei VVVV.DX11.Nodes.Layers.DX11ShaderNode.Update(DX11RenderContext context)
+     bei VVVV.DX11.Lib.RenderGraph.DX11DeviceRenderer.ProcessNode(DX11Node node)
+  
+  00:02:20  -  : Stack Trace
+  00:02:20  -  :    bei SlimDX.Result.Throw<T>(Object dataKey, Object dataValue)
+     bei SlimDX.Result.Record<T>(Int32 hr, Boolean failed, Object dataKey, Object dataValue)
+     bei SlimDX.Direct3D11.Effect..ctor(Device device, ShaderBytecode data)
+     bei FeralTic.DX11.DX11ShaderInstance..ctor(DX11RenderContext context, ShaderBytecode bytecode)
+     bei VVVV.DX11.Lib.Effects.DX11ShaderData.SetEffect(DX11Effect shader)
+     bei VVVV.DX11.Nodes.Layers.DX11ShaderNode.Update(DX11RenderContext context)
+     bei VVVV.DX11.Lib.RenderGraph.DX11DeviceRenderer.ProcessNode(DX11Node node)
+  00:02:20 ERR : Exception caused by node during update :/77/126/101
+  00:02:20 ERR : SlimDX.Direct3D11.Direct3D11Exception in SlimDX: DXGI_ERROR_DEVICE_REMOVED: Hardware device removed. (-2005270523)
+  
+  Stacktrace:
+     bei SlimDX.Result.Throw<T>(Object dataKey, Object dataValue)
+     bei SlimDX.Result.Record<T>(Int32 hr, Boolean failed, Object dataKey, Object dataValue)
+     bei SlimDX.Direct3D11.Effect..ctor(Device device, ShaderBytecode data)
+     bei FeralTic.DX11.DX11ShaderInstance..ctor(DX11RenderContext context, ShaderBytecode bytecode)
+     bei VVVV.DX11.Lib.Effects.DX11ShaderData.SetEffect(DX11Effect shader)
+     bei VVVV.DX11.Nodes.Layers.DX11ShaderNode.Update(DX11RenderContext context)
+     bei VVVV.DX11.Lib.RenderGraph.DX11DeviceRenderer.ProcessNode(DX11Node node)
+  
+  00:02:20  -  : Stack Trace
+  00:02:20  -  :    bei SlimDX.Result.Throw<T>(Object dataKey, Object dataValue)
+     bei SlimDX.Result.Record<T>(Int32 hr, Boolean failed, Object dataKey, Object dataValue)
+     bei SlimDX.Direct3D11.Effect..ctor(Device device, ShaderBytecode data)
+     bei FeralTic.DX11.DX11ShaderInstance..ctor(DX11RenderContext context, ShaderBytecode bytecode)
+     bei VVVV.DX11.Lib.Effects.DX11ShaderData.SetEffect(DX11Effect shader)
+     bei VVVV.DX11.Nodes.Layers.DX11ShaderNode.Update(DX11RenderContext context)
+     bei VVVV.DX11.Lib.RenderGraph.DX11DeviceRenderer.ProcessNode(DX11Node node)
+  00:02:20 ERR : Exception caused by node during render :/77/118/187
+  00:02:20 ERR : System.NullReferenceException in DX11.Extensions: Der Objektverweis wurde nicht auf eine Objektinstanz festgelegt.
+  
+  Stacktrace:
+     bei VVVV.DX11.Nodes.DX11MultiStructuredBufferRendererNode.Render(DX11RenderContext context)
+     bei VVVV.DX11.Lib.RenderGraph.DX11DeviceRenderer.ProcessNode(DX11Node node)
+  
+  00:02:20  -  : Stack Trace
+  00:02:20  -  :    bei VVVV.DX11.Nodes.DX11MultiStructuredBufferRendererNode.Render(DX11RenderContext context)
+     bei VVVV.DX11.Lib.RenderGraph.DX11DeviceRenderer.ProcessNode(DX11Node node)
+  00:02:20 ERR : Exception caused by node during update :/77/192/32
+  00:02:20 ERR : System.NullReferenceException in VVVV.DX11.Nodes: Der Objektverweis wurde nicht auf eine Objektinstanz festgelegt.
+  
+  Stacktrace:
+     bei VVVV.DX11.Nodes.Geometry.NullIndirectDrawerNode.Update(DX11RenderContext context)
+     bei VVVV.DX11.Lib.RenderGraph.DX11DeviceRenderer.ProcessNode(DX11Node node)
+  
+  00:02:20  -  : Stack Trace
+  00:02:20  -  :    bei VVVV.DX11.Nodes.Geometry.NullIndirectDrawerNode.Update(DX11RenderContext context)
+     bei VVVV.DX11.Lib.RenderGraph.DX11DeviceRenderer.ProcessNode(DX11Node node)
+  00:02:20 ERR : Exception caused by node during update :/77/134/7
+  00:02:20 ERR : SlimDX.Direct3D11.Direct3D11Exception in SlimDX: DXGI_ERROR_DEVICE_REMOVED: Hardware device removed. (-2005270523)
+  
+  Stacktrace:
+     bei SlimDX.Result.Throw<T>(Object dataKey, Object dataValue)
+     bei SlimDX.Result.Record<T>(Int32 hr, Boolean failed, Object dataKey, Object dataValue)
+     bei SlimDX.Direct3D11.Effect..ctor(Device device, ShaderBytecode data)
+     bei FeralTic.DX11.DX11ShaderInstance..ctor(DX11RenderContext context, ShaderBytecode bytecode)
+     bei VVVV.DX11.Lib.Effects.DX11ShaderData.SetEffect(DX11Effect shader)
+     bei VVVV.DX11.Nodes.DX11StringShaderNode.Update(DX11RenderContext context)
+     bei VVVV.DX11.Lib.RenderGraph.DX11DeviceRenderer.ProcessNode(DX11Node node)
+  
+  00:02:20  -  : Stack Trace
+  00:02:20  -  :    bei SlimDX.Result.Throw<T>(Object dataKey, Object dataValue)
+     bei SlimDX.Result.Record<T>(Int32 hr, Boolean failed, Object dataKey, Object dataValue)
+     bei SlimDX.Direct3D11.Effect..ctor(Device device, ShaderBytecode data)
+     bei FeralTic.DX11.DX11ShaderInstance..ctor(DX11RenderContext context, ShaderBytecode bytecode)
+     bei VVVV.DX11.Lib.Effects.DX11ShaderData.SetEffect(DX11Effect shader)
+     bei VVVV.DX11.Nodes.DX11StringShaderNode.Update(DX11RenderContext context)
+     bei VVVV.DX11.Lib.RenderGraph.DX11DeviceRenderer.ProcessNode(DX11Node node)
+  00:02:20 ERR : Exception caused by node during render :/77/134/7
+  00:02:20 ERR : System.NullReferenceException in DX11.Extensions: Der Objektverweis wurde nicht auf eine Objektinstanz festgelegt.
+  
+  Stacktrace:
+     bei VVVV.DX11.Nodes.DX11MultiStructuredBufferRendererNode.Render(DX11RenderContext context)
+     bei VVVV.DX11.Lib.RenderGraph.DX11DeviceRenderer.ProcessNode(DX11Node node)
+  
+  00:02:20  -  : Stack Trace

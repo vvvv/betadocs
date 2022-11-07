@@ -1,0 +1,23 @@
+### YamlMime:ContributionComment
+---
+uid: "55199"
+user: "m4d"
+created: "08 Nov, 2010 - 01:40"
+body: |-
+  awesome, buddy! :)
+  
+  @hrovac: try setting all compile targets to ps/vs 3.0 model by editing the appropriate lines in the shaders. e.g.:
+  
+  ```
+  VertexShader = compile vs_1_1 VS();
+  PixelShader  = compile ps_2_0 PS();
+  ```
+  
+  becomes 
+  
+  ```
+  VertexShader = compile vs_3_0 VS();
+  PixelShader  = compile ps_3_0 PS();
+  ```
+  
+  i have no ati here right now to try it on this shader, but this generally worked for me on most shaders.. (ati fx compiler is said to be more strict than nvidias)

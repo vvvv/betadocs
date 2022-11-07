@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "228964"
+user: "tonfilm"
+created: "29 Sep, 2016 - 17:24"
+body: |-
+  @sebl that's something different... the texture data has not to go back to the CPU in that case, it's only about sending the pointer to OpenVR.

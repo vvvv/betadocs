@@ -1,0 +1,10 @@
+### YamlMime:ContributionComment
+---
+uid: "197482"
+user: "couchmonkey"
+created: "02 Jun, 2015 - 15:59"
+body: |-
+  I'm very new to VVVV, so this might be a very basic question. How to install the those Nodes? I was able to test the patches from the kinec2 folder, but can't add the kinect2 nodes to new patches. Also some nodes don't have any pins
+  (..appear red first then turn grey).
+  
+  Would be glad if somebody could explain what I have to do. Thx!

@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "58096"
+user: "screamer"
+created: "06 Jan, 2011 - 18:09"
+body: |-
+  found another bug, probably. When the file reach the end (and the loop is not activated) the seek stops working. if i press seek and the seektime is any value nothing happens, it remains on the last frame. the only way to use the seek button another time is to set to on the loop function

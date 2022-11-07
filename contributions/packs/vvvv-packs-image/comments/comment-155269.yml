@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "155269"
+user: "guest"
+created: "11 May, 2014 - 23:18"
+body: |-
+  hi
+  converting a dx11 texture to CV.Image with AsImage (DX11)
+  result in a RGBA32F texture, but the findboard node ask for a RGB8 texture
+  to operate!?
+  is there a way to convert a CV.Image texture from RGBA32F to RGB8 ?
+  
+  thanks

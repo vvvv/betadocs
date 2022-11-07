@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "243395"
+user: "bjoern"
+created: "10 Aug, 2017 - 17:25"
+body: |-
+  I tried the plugin on several computers and it works with 50beta35.8 (x64) and Dx11 pack 1.1 (x64).
+  
+  The contribution itself is not in packs format so don't put it into your packs folder.
+  Just extract anywhere, open one of the demo-patches and make sure it is opened with the correct vvvv version.
+  Since there is basically only one HTML-Texture node but you are talking about "red nodes" (plural): Are you really sure you have the dx 11 pack (and maybe also the addonpack) installed?
+  
+  As for the compilation errors. This is most likely due to the fact that the referenced  version of the reactive nugets is no longer available. The nugets also have been completely renamed so nuget can't do an automatic package restore and/or update.

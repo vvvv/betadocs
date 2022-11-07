@@ -1,0 +1,21 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/martins-toolkit-meta"
+type: "tool"
+author: "Martin Zrcek"
+date: "16 Jan, 2016"
+title: "Martins Toolkit"
+originalURL: "contribution/martins-toolkit"
+category: "tool"
+credits: |-
+  [ethermammoth](http://vvvv.org/users/ethermammoth) for LogAll, [focus4](http://www.focus4.de/en) GmbH for my consistent financing :)
+like_count: "8"
+imported: "true"
+teaser: |-
+  **Enabled**- damps values to quickly blend quads - super usefull - this is the best :)
+  **Pillow**- as lightweight as a quad, can make a nice glow around, or shadow
+  **Print**- simple print method using IrfanView. (all print parameters stay from last print, so you can set them in external program)
+  **TreeSpread**- Like a LinearSpread, but values "split to 2" in phases.
+  **LogAll**- Printing all the vvvv memory and CPU info to a text file to debug.
+  **Attract**- like a damper, but framebased, open (see inside and adapt to your needs) and sometimes damper gives me unexpected results (example is in help patch)
+  **InputMorph** and **Damper** (Transform) - to morph and damp matrices by conversion to quaternions

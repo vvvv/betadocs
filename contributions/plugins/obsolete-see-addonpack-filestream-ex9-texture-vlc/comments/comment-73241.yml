@@ -1,0 +1,22 @@
+### YamlMime:ContributionComment
+---
+uid: "73241"
+user: "barbarerik"
+created: "13 Dec, 2011 - 00:15"
+body: |-
+  Could somebody pleas help me 
+  
+  i have put all dll's into VVVV\plugins\Vlc0.3test\plugins\
+  but vlc node seems doesn't exist.
+  I have try to move dlls to different folders and dir levels but nothing
+  If i open test patch and delete "Vlc0_3.dll" form plugin folder, vlc node in patch show its pins but in couple sec. vvvv crash
+  
+  i really duno what i am doing wrong
+  
+  thanks for help
+  
+  err. log
+  
+  00:00:02 ERR : Corrupt link-message in Patch D:\VVVV\plugins\Vlc0.3test\vlc0.3test.v4p. srcViewPin or dstViewPin is nil!
+  
+  thanks

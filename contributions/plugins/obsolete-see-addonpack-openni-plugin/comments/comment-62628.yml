@@ -1,0 +1,15 @@
+### YamlMime:ContributionComment
+---
+uid: "62628"
+user: "robe"
+created: "20 Apr, 2011 - 10:02"
+body: |-
+  @Karistouf
+  
+  * Install OpenNi
+  * Install Drivers Sensor/Kinect
+  * Plug the kinect and let *her* be recognized by windows
+  * Install NITE
+  * start some OpenNI samples
+  
+  <http://www.robesantoro.com/OpenNI.zip>

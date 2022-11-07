@@ -1,0 +1,23 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/abbreviation-points-meta"
+type: "module"
+author: "dl-110"
+date: "10 Jan, 2013"
+title: "Abbreviation Points"
+originalURL: "contribution/abbreviation-points"
+category: "module"
+credits: |-
+  Author: Markus Lorenz Schilling
+  VVVV: dl-110
+like_count: "5"
+imported: "true"
+teaser: |-
+  Trims incoming string to desired number of characters and ends the string with abbreviation points (or any other characters).
+  
+  Needed that function when I worked on a data visualization and thought it might be helpful for others as well. It is especially handy when you are working with strings of different lengths (such as URLs) and need to cut them short due to space limitations. Module should be fully spreadable.
+  
+  Eventually I´ll be able to develop another version which includes scrolling strings while hovering them with the mouse.
+  
+  Cheers,
+  Markus

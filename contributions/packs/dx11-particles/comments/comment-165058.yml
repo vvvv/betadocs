@@ -1,0 +1,10 @@
+### YamlMime:ContributionComment
+---
+uid: "165058"
+user: "tmp"
+created: "15 Sep, 2014 - 12:03"
+body: |-
+  I was asked today if the nodes also work with more than 1 kinect. Yes it works ;)
+  
+  All you have to do is to use the Cons (DX11.Texture 2d) node and merge the depth/rgb/rgbdepth output of each kinect instance.
+  You can then use the Validator (DX11.Layer) and GetSlice (DX11.Validator) nodes to filter the output layer of the Pointcloud node.

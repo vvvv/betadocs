@@ -1,0 +1,71 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/dx11.particles-meta"
+type: "pack"
+author: "tmp"
+date: "12 Sep, 2014"
+title: "DX11.Particles"
+originalURL: "contribution/dx11.particles"
+category: "pack"
+credits: |-
+  vux for dx11, antokhio / schnellebuntebilder / everyoneishappy for beta testing
+like_count: "48"
+imported: "true"
+teaser: |-
+  <div class="vimeo embed-responsive embed-responsive-16by9 mt-3 mb-4">
+      <iframe title="vimeo-player" src="https://player.vimeo.com/video/206586772" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+  </div>
+  
+  This pack is a collection of tools and techniques to handle a lot of particles on the GPU.
+  It also includes tools for dealing with depth cameras like Kinect 1 or 2.
+  
+  1.  features
+  
+  * clean and modular design
+  * emit, select, modify and visualize particles
+  * very easy customization of particle attributes
+  * many different types of emitters, modifiers and selectors
+  * kinect calibration for mapping realworld data to the virtual scene
+  * hittest/count, centroid, bounds, peak, ...
+  * includes many additional plugins for vvvv ( for example dynamic shaders(!) and MultiBufferRenderer)
+  
+  1.  releases
+  
+  * current version: 1.0.6
+  * changelog: https://github.com/letmp/dx11-particles/blob/master/CHANGELOG.md
+  
+  1.  getting started
+  
+  **You need:**
+  * latest version of vvvv
+  * latest version of [directx11-nodes](xref:contribution/directx11-nodes)
+  
+  **Installation:**
+  * The easiest way (to install the **latest version**) is to use [/contribution/VPM](/contribution/VPM). Use this link after you installed it: <vpms://raw.githubusercontent.com/vvvvpm/vpdb/master/tmp/dx11.particles/dx11.particles.1.0.0.vpack>
+  
+  * Second way (to install the **latest version**) is to download https://github.com/letmp/dx11-particles/archive/master.zip You have to unpack it and copy "dx11-particles-master\packs\dx11.particles" to your packs folder. Then you have to go to "your-vvvv-dir\packs\dx11.particles\nodes\plugins\" and delete all subdirectories that don't apply to the architecture you are using.
+  
+  * The third way (to install an **potentially outdated version**) is to download the zip file from this contribution page. Unpack the zip file and copy dx11-particles into your packs folder. Be sure to use correct architecture builds.
+  
+  After installation you can see all nodes of this pack by typing dx11.particles in your node browser. There are help patches for all included nodes that give small examples how to use them.
+  
+  1.  for developers
+  
+  You can fork the project here: https://github.com/letmp/dx11-particles
+  I really appreciate all of your help to let this pack grow. It is quite easy to build new modifiers and selectors. So if you have something that should be part of the pack just get in contact via robert@intolight.de or create a pull request via github.
+  
+  1.  bugs
+  
+  Please report any bugs here: https://github.com/letmp/dx11-particles/issues
+  
+  1.  license
+  
+  © Robert Willner, 2018
+  Author: robert.willner@gmail.com
+  
+  This software is distributed under the [CC Attribution-NonCommercial-ShareAlike 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) license.
+  If you want to use this pack for a commercial project, please contact robert.willner@gmail.com and tell me about your project or your goal.
+  
+  1.  >>> Please consider purchasing a license for commercial use! <<<
+  
+  See [/store](https://store.vvvv.org/)

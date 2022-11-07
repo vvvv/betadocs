@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "91381"
+user: "io"
+created: "16 Nov, 2012 - 14:47"
+body: |-
+  One more issue: it seems like it can t write to 2 heads at the same time, like one head is fine, the other the frame rate is extremely low.
+  DEBUG INFO : setting the /dda to the head which gives problems seems to fix it, still on the offending render I can see a huge spurge of rendering time (in debug mode) at consistent intervals.
+  S.

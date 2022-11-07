@@ -1,0 +1,20 @@
+### YamlMime:ContributionComment
+---
+uid: "84453"
+user: "robe"
+created: "19 Jun, 2012 - 18:18"
+body: |-
+  Hi lecloneur
+  thanks for these modules and shaders!
+  I have a problem with Electricity:
+  
+  ![Noise??](https://vvvv.org/sites/default/files/imagecache/large/images/Preview%20%28EX9.Texture%29-DirectX%20Renderer.png)
+  
+  I checked the old electricity shader and it's the same, vertex noise doesn't work...
+  
+  I'm on Nvidia Quadro 2000
+  
+  Does anybody know ho w to fix this?
+  
+  Tnx
+  Bye

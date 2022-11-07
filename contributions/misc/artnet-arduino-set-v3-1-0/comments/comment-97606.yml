@@ -1,0 +1,10 @@
+### YamlMime:ContributionComment
+---
+uid: "97606"
+user: "davasch"
+created: "06 Mar, 2013 - 15:18"
+body: |-
+  On the UDP library:
+  I've updated the code to make use of the new EthernetUdp library. This code code can be found on my Github account <https://github.com/dschoorisse/artnet>.
+  
+  Currently only the the sketch ARTNET_receiver_v2 is updated (to ARTNET_receiver_v3)

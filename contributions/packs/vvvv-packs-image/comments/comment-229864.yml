@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "229864"
+user: "dominikKoller"
+created: "15 Oct, 2016 - 23:13"
+body: |-
+  Also found: in 'DetectFeatures (CV.Image) help.v4p' the node ImageToProjection can't be found.
+  Using alpha 34.106 64bit

@@ -1,0 +1,37 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/vulture-exchange-plugin-for-grasshopper-vvvv-meta"
+type: "plugin"
+author: "wmc"
+date: "15 Apr, 2015"
+title: "VULTURE | Exchange Plugin for GRASSHOPPER & VVVV"
+originalURL: "contribution/vulture-exchange-plugin-for-grasshopper-vvvv"
+category: "plugin"
+credits: |-
+  readme, joreg, phlegma
+like_count: "8"
+imported: "true"
+teaser: |-
+  This plugin allows you to easily send geometry and other data from Grasshopper for McNeels Rhinoceros to vvvv in almost realtime. 
+  
+  * send Meshes
+  * send Points
+  * send Numbers (floats)
+  * send Text (strings)
+  * send Rhino Camera from ActiveViewport
+  
+  The data is stored and exchanged via an *.vltr file. So you can also use it via a network folder or send the file to somebody else.
+  
+  
+  ####  Contribute
+  
+  If you want to contribute just contact me!
+  You can find the code at:
+  https://github.com/wolfmoritzcramer/VVVVulture
+  
+  
+  ####  NODE 15
+  
+  This plugin will be part of the Grasshopper & vvvv Workshop at NODE15
+  Join here:
+  http://node15.vvvv.org/program/workshop/grasshopper-vvvv

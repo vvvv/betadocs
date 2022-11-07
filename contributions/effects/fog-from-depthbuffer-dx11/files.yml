@@ -1,0 +1,27 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/fog-from-depthbuffer-dx11-files"
+url: "fog-from-depthbuffer-dx11"
+category: "effect"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "1"
+            filename: "Fog Depthbuffer dx11 V2.zip"
+            description: |-
+              v2 now respects alpha channel of input texture and fog color
+            
+            timestamp: "04 Mar, 2016 - 21:32"
+            download_count: "2"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "Fog Depthbuffer dx11.zip"
+                    description: |-
+                      v1
+                    
+                    timestamp: "17 Jul, 2014 - 16:44"
+                    download_count: "1"

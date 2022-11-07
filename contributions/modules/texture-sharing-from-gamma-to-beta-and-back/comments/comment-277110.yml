@@ -1,0 +1,14 @@
+### YamlMime:ContributionComment
+---
+uid: "277110"
+user: "bjoern"
+created: "16 Nov, 2020 - 18:24"
+body: |-
+  To be honest I've never used spout thus far. So I can't speak on any (dis)advantages. Only thing that comes to mind: using this approach you don't have to rely on other software. 
+  
+  Bi-directional is already possible, just needs a small change in stride.
+  https://github.com/vvvv/VL.Stride/issues/338
+  
+  Edit: 
+  as of preview *2020.3.0-84+4d4371f5ae*  textures can also be shared from gamma to beta.
+  I added an example to the contribution.

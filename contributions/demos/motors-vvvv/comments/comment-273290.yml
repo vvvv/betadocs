@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "273290"
+user: "ggml"
+created: "25 Jul, 2019 - 02:00"
+body: |-
+  hi
+  in regard to steppermotors,
+  patch says its ment to be used with the 4988 driver (2 pins)
+  but the referenced ino code says its meant for direct control (4 pins)
+  what is the sollution here ?

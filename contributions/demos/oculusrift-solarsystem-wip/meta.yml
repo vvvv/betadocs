@@ -1,0 +1,21 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/oculusriftsolarsystemwip-meta"
+type: "demo"
+author: "catweasel"
+date: "05 Nov, 2013"
+title: "OculusRift_SolarSystem_WIP"
+originalURL: "contribution/oculusriftsolarsystemwip"
+category: "demo"
+credits: |-
+  [ivan rastr](http://vvvv.org/users/ivan+rastr) for the atmospheric scattering, [Teckor](http://vvvv.org/users/Teckor) for the solar system data 
+  Nasa for the textures!
+like_count: "2"
+imported: "true"
+teaser: |-
+  A quick Solar System for the OculusRift, WIP, with a bit of Lens Flare too (@Hadasi was that something you were after?)
+  Its been sitting on my drive since the end of August, so I thought I'd upload it in case its of use to someone...
+  
+  I already had a solar system I'd made for the Modified Toy Orchestra, the starting scene is below, can't find a picture of the solar fly through!
+  
+  ![MTO](http://graemerose.files.wordpress.com/2011/03/mto-crewe1.jpg?w=500&h=272)

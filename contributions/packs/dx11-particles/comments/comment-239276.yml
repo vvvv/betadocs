@@ -1,0 +1,10 @@
+### YamlMime:ContributionComment
+---
+uid: "239276"
+user: "guest"
+created: "05 May, 2017 - 16:15"
+body: |-
+  ![](https://vvvv.org/sites/default/files/imagecache/large/images/p%20grid.jpg) 
+  
+  @tmp
+  This screenshot illustrates the grid emission when setting the Mod input to 39. Guess every 39th pixel of the Kinect texture is used for emission. I’m wondering if there is a way to achieve a more irregular emission. For example emitting from every point, but rather than at every frame all together, in random intervals for each point. That would already cause a more natural distribution without too much load.

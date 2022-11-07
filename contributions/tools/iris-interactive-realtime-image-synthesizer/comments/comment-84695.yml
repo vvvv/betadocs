@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "84695"
+user: "eno"
+created: "23 Jun, 2012 - 19:33"
+body: |-
+  For the moment the structure of Generator-PostFX-Mix-PostFX is fixed. This means you have to load the thru Patch, if you're not using the PostFx Slot.
+  The next version will have a flexible patch structure.

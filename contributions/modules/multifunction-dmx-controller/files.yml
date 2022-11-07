@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/multifunction-dmx-controller-files"
+url: "multifunction-dmx-controller"
+category: "module"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "MultiFunctionController (Devices DMX).v4p"
+            timestamp: "18 Oct, 2010 - 15:19"
+            download_count: "1"

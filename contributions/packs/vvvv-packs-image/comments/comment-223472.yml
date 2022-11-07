@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "223472"
+user: "featherfurl"
+created: "25 Jul, 2016 - 05:17"
+body: |-
+  The VfW node works, but is there a way to set the framerate of the stream on that node? How much of a performance hit does the DX9toDX11 conversion process have, do you think?

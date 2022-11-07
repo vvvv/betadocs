@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/multi-screen-homography-with-soft-edges-files"
+url: "multi-screen-homography-with-soft-edges"
+category: "module"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "MultiscreenCat.zip"
+            description: |-
+              Multi-Screen Homography with Soft Edges
+            
+            timestamp: "01 May, 2013 - 16:51"
+            download_count: "10"

@@ -1,0 +1,17 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/logitechplaystation-buzzer-module-meta"
+type: "module"
+author: "motzi"
+date: "20 Jun, 2016"
+title: "Logitech/Playstation Buzzer Module"
+originalURL: "contribution/logitechplaystation-buzzer-module"
+category: "module"
+credits: |-
+  devvvvs, HID node
+like_count: "2"
+imported: "true"
+teaser: |-
+  Here's a little module to use the famous Logitech Buzz! input device for Sony Playstation (tested with the USB-version).
+  
+  Have fun ;)

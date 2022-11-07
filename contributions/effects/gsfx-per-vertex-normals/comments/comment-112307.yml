@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "112307"
+user: "woei"
+created: "07 Jan, 2014 - 10:20"
+body: |-
+  already tried unsuccessfully with adjacency. either no adjacency was passed (vertex indices > 2 were at origin) or with topology i'd get them, but then half the triangles were missing...

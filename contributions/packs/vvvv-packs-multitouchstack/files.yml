@@ -1,0 +1,45 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/vvvv.packs.multitouchstack-files"
+url: "vvvv-packs-multitouchstack"
+category: "pack"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "3"
+            filename: "VVVV.Nodes_.MultiTouchStack 20180215.zip"
+            description: |-
+              Tested with vvvv_50beta35.8_x64
+            
+            timestamp: "15 Feb, 2019 - 10:08"
+            download_count: "1"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "2"
+                    filename: "VVVV.Nodes_.MultiTouchStack 20190213G.zip"
+                    description: |-
+                      Tested with vvvv_50beta35.8_x64. Install in your packs folder
+                    
+                    timestamp: "13 Feb, 2019 - 07:17"
+                    download_count: "2"
+                - file:
+                    bit: "64"
+                    delta: "1"
+                    filename: "VVVV.Nodes_.MultiTouchStack 20170306 (AnyCPU).zip"
+                    description: |-
+                      Tested with vvvv_50beta35.1_x64
+                    
+                    timestamp: "06 Mar, 2017 - 05:53"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "VVVV.Nodes_.MultiTouchStack 20170301 (AnyCPU).zip"
+                    description: |-
+                      Tested with vvvv_50beta35.1_x64
+                    
+                    timestamp: "01 Mar, 2017 - 14:06"
+                    download_count: "1"

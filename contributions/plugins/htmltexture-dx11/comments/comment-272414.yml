@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "272414"
+user: "systray27"
+created: "07 Jun, 2019 - 13:53"
+body: |-
+  Hey there, same here. HTMLTexture stays as a red node. Any updates? :(
+  EDIT: Disabling the evaluate pin turns it grey again, but nothing to see in the renderer using the UI sample helppatch. TTY renderer also show's
+  ```
+  00:00:32 ERR : Exception occured in TMPluginWrapperNode.Evaluate
+  00:00:32 ERR : Attempted to divide by zero.
+  ``` 
+  Using beta 38.1 with x64.

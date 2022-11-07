@@ -1,0 +1,13 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/softedge-projection-(dx11)-meta"
+type: "effect"
+author: "tmp"
+date: "18 May, 2015"
+title: "Softedge Projection (DX11)"
+originalURL: "contribution/softedge-projection-(dx11)"
+category: "effect"
+like_count: "9"
+imported: "true"
+teaser: |-
+  With this contribution you can project on geometries and create softedge masks for overlapping images.

@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/nfc-reader-(pn532-controller)-files"
+url: "nfc-reader-pn532-controller"
+category: "plugin"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "NFC PN532 go2nfc.7z"
+            description: |-
+              dynamic for easy changes
+            
+            timestamp: "28 Jan, 2015 - 17:01"
+            download_count: "2"

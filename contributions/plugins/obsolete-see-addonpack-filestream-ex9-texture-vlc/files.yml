@@ -1,0 +1,126 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/obsolete-see-addonpack-filestream-(ex9.texture-vlc)-files"
+url: "obsolete-see-addonpack-filestream-ex9-texture-vlc"
+category: "plugin"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "12"
+            filename: "0.5EX9.TextureVlc.zip"
+            description: |-
+              Previous version sucks, sorry. (replace dll in Vlc05test.zip) Should work on beta28 (with&without /dx9ex).
+            
+            timestamp: "15 Aug, 2012 - 07:35"
+            download_count: "1"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "11"
+                    filename: "0.5EX9.TextureVlc.zip"
+                    description: |-
+                      (replace dll from Vlc05test.zip with this one) Should work on beta28 (with&without /dx9ex). Added simple looping.
+                    
+                    timestamp: "12 Aug, 2012 - 10:44"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "10"
+                    filename: "Vlc0_5.zip"
+                    description: |-
+                      (replace dll from Vlc05test.zip with this one) Fix for a bug that started showing since alpha28
+                    
+                    timestamp: "05 Aug, 2012 - 18:53"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "9"
+                    filename: "Vlc0.3test.zip"
+                    description: |-
+                      [2011-01-08] an example file and the plugin (for vvvv45 beta25 or higher)
+                    
+                    timestamp: "08 Jan, 2011 - 16:41"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "8"
+                    filename: "Vlc0.3test.zip"
+                    description: |-
+                      [2011-03-07] a revised example file and the revised plugin (for vvvv45 beta25.1 or higher)
+                    
+                    timestamp: "07 Mar, 2011 - 11:08"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "7"
+                    filename: "Vlc0.3test.zip"
+                    description: |-
+                      [2011-03-13] plugin without fullscreen bug (for vvvv45 beta25.1 or higher)
+                    
+                    timestamp: "13 Mar, 2011 - 19:49"
+                    download_count: "2"
+                - file:
+                    bit: "64"
+                    delta: "6"
+                    filename: "Vlc0_3 (dll only).zip"
+                    description: |-
+                      [2011-08-13] (replace dll from Vlc0.3test.zip with this one) fix issue where audio kept playing after closing patch
+                    
+                    timestamp: "13 Aug, 2011 - 18:20"
+                    download_count: "2"
+                - file:
+                    bit: "64"
+                    delta: "5"
+                    filename: "Vlc0_3.zip"
+                    description: |-
+                      [2011-08-23] (replace dll from Vlc0.3test.zip with this one) this one should work on beta26!
+                    
+                    timestamp: "22 Aug, 2011 - 21:59"
+                    download_count: "2"
+                - file:
+                    bit: "64"
+                    delta: "4"
+                    filename: "Vlc0_3.zip"
+                    description: |-
+                      [2011-12-19] (replace dll from Vlc0.3test.zip with this one) Fix for DVB streams
+                    
+                    timestamp: "19 Dec, 2011 - 14:34"
+                    download_count: "3"
+                - file:
+                    bit: "64"
+                    delta: "3"
+                    filename: "vlc05test beta27.zip"
+                    description: |-
+                      [2012-02-03] example + plugin for beta27 | USE LibVLC 2.0.x !!!
+                    
+                    timestamp: "03 Feb, 2012 - 12:05"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "2"
+                    filename: "vlc05test beta27 20120219.zip"
+                    description: |-
+                      [2012-02-19] example + plugin for beta27 | USE LibVLC 2.0.x !!!
+                    
+                    timestamp: "19 Feb, 2012 - 14:16"
+                    download_count: "4"
+                - file:
+                    bit: "64"
+                    delta: "1"
+                    filename: "vlc05test beta27.1 20120222.zip"
+                    description: |-
+                      [2012-02-19] example + plugin for beta27.1 | USE LibVLC 2.0.x !!!
+                    
+                    timestamp: "22 Feb, 2012 - 19:35"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "vlc05test beta27.1 20120307.zip"
+                    description: |-
+                      [2012-03-07] example + plugin for beta27.1 | USE LibVLC 2.0.x !!! | should automatically use VLC if installed
+                    
+                    timestamp: "07 Mar, 2012 - 17:35"
+                    download_count: "5"

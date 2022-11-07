@@ -1,0 +1,17 @@
+### YamlMime:ContributionComment
+---
+uid: "101729"
+user: "ft"
+created: "02 Jun, 2013 - 12:45"
+body: |-
+  @leadedge2000:
+  
+  What Elio is working on will be built upon Wyphon.
+  
+  Elio made sure the shared textures (which are Direct3D textures) can be opened by an OpenGL application (on supported hardware), and put this into a handy FFGL plugin. 
+  
+  In the process he added some functionality to Wyphon's WyphonUtils, that should make it easier for anyone else to implement what he has done in their own application (if they don't want or are able to use the FFGL plugins he wrote).
+  
+  Wyphon is basically the communication protocol for sending the necessary info about shared textures between applications.
+  
+  I am sure he'll keep you posted on what's happening.

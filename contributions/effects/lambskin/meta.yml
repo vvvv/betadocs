@@ -1,0 +1,15 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/lambskin-meta"
+type: "effect"
+author: "dottore"
+date: "22 Jun, 2010"
+title: "lambSkin"
+originalURL: "contribution/lambskin"
+category: "effect"
+like_count: "5"
+imported: "true"
+teaser: |-
+  A lambertian-like surface with light "bleed-through" -- appropriate for soft translucent materials like skin. The "subColor" represents the tinting acquired by light diffused below the surface.
+  Set the "rollOff" angle to the cosine of the angle used for additional lighting "wraparound" -- the diffuse effect propogates based on the angle of LightDirection versus SurfaceNormal.
+  Versions are provided for shading in pixel or vertex shaders, textured or untextured.

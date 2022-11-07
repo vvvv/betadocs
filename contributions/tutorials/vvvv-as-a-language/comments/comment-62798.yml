@@ -1,0 +1,16 @@
+### YamlMime:ContributionComment
+---
+uid: "62798"
+user: "u7angel"
+created: "24 Apr, 2011 - 20:54"
+body: |-
+  i missed your talk, thank you for the pdf
+  
+  the most interesting page is flow control.
+  <div class="box">quote:gregsn:
+  You might want to react only once on an event. So no loop at all.
+  A patch that gets evaluated only under certain circumstances...
+  
+  </div>
+  
+  absolutely yes, because at the moment, vvvv projects are sort of limited in terms of complexity. only with tricks of getpatch/setpatch its possible to dynamically load things later. sending NIL isn't a solution either.

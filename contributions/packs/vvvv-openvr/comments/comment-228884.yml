@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "228884"
+user: "tonfilm"
+created: "28 Sep, 2016 - 17:14"
+body: |-
+  @microdee ok, do you know in theory how to avoid resource pointer read back, or should i contact @vux for more details?
+  
+  mainloop events is in the making...

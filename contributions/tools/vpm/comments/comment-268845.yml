@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "268845"
+user: "tobyk"
+created: "19 Oct, 2018 - 10:02"
+body: |-
+  I've got a problem with VPM not getting further than 'Initialization complete'. 
+  It happens with any pack, including packs without dependencies. 
+  I'm on a new machine, new vvvv install 50beta37x64. Latest VPM version. 
+  VPM was extracted with 7zip. The registering process seemed to work ok. 
+  The .vpm folder gets created in the vvvv_50beta37_x64 directory and gets populated with pack subfolders.
+  
+  Regular git clone works

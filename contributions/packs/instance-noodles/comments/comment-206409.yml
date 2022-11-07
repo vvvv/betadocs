@@ -1,0 +1,21 @@
+### YamlMime:ContributionComment
+---
+uid: "206409"
+user: "circuitb"
+created: "21 Sep, 2015 - 11:35"
+body: |-
+  @everyoneishappy
+  
+  for me the crash also occur on my laptop... 
+  so gtx780ti or gtx970m
+  
+  the bug occur when you don't have a Geometry input feeding this chain
+   
+  1/ IID (instancer module)  
+  2/ Gsfx without IID output like the VertexNoise (DX11.GeomFX) or DisplacmentMapping (DX11.GeomFX)
+  3/a final Gsfx pass with IID input like TriFrame or PipeWire
+  
+  please see patch and report
+  https://www.dropbox.com/s/tco0vrucnhel2fz/IIDcrash.v4p?dl=0
+  
+  thanks

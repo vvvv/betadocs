@@ -1,0 +1,18 @@
+### YamlMime:ContributionComment
+---
+uid: "76286"
+user: "colorsound"
+created: "14 Feb, 2012 - 18:58"
+body: |-
+  hi , i tested with last alpha and it works , for those that have problems installing right version i installed those and work for me  http://simple-openni.googlecode.com/files/SimpleOpenNI-0.24-win32.zip 
+  
+  the Adapt to RGB View in the Depth did not seem to do anything in my side at least in histogram mode , i tried with the rgb connected to the kinect one and set to enable also connected to renderer and enable disable nodes .
+  
+  is there any gesture for hand open and hand close ? 
+  
+  btw any chance to have kinect simulator so you can load videos ? 
+  
+  it will be great for preparing setups , simulation comparing real tracking with videos for games ...  
+  i found this http://brandynwhite.com/fakenect-openkinect-driver-simulator-experime 
+  
+  cheers

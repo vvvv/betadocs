@@ -1,0 +1,105 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/automata-ui-files"
+url: "automata-ui"
+category: "plugin"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "10"
+            filename: "AutomataUI 1.9.45.zip"
+            description: |-
+              lazy update UI
+            
+            timestamp: "18 Feb, 2020 - 19:36"
+            download_count: "1"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "9"
+                    filename: "AutomataUI 1.9 pack.zip"
+                    description: |-
+                      Region Edition
+                    
+                    timestamp: "05 Jul, 2018 - 11:12"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "8"
+                    filename: "AutomataUI 1.8.3 pack.zip"
+                    description: |-
+                      Help Patch Edition
+                    
+                    timestamp: "13 Apr, 2018 - 11:09"
+                    download_count: "3"
+                - file:
+                    bit: "64"
+                    delta: "7"
+                    filename: "AutomataUI 1.7.26.zip"
+                    description: |-
+                      bug fix release
+                    
+                    timestamp: "20 Feb, 2018 - 15:14"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "6"
+                    filename: "AutomataUI 1.7.22.zip"
+                    description: |-
+                      new trigger transition node based on microdees fork
+                    
+                    timestamp: "14 Feb, 2018 - 16:02"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "5"
+                    filename: "AutomataUI 1.7.19.zip"
+                    description: |-
+                      new SetTransitionTime node
+                    
+                    timestamp: "24 Jan, 2018 - 12:12"
+                    download_count: "3"
+                - file:
+                    bit: "64"
+                    delta: "4"
+                    filename: "AutomataUI 1.7 OSV.zip"
+                    description: |-
+                      Open Source Version
+                    
+                    timestamp: "15 Jan, 2018 - 10:18"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "3"
+                    filename: "AutomataUI 1.7.zip"
+                    description: |-
+                      bezier edition
+                    
+                    timestamp: "16 Jun, 2017 - 13:10"
+                    download_count: "15"
+                - file:
+                    bit: "64"
+                    delta: "2"
+                    filename: "AUTOMATAUI 1.11.zip"
+                    description: |-
+                      fixed minor bug in transition timing output
+                    
+                    timestamp: "15 Nov, 2016 - 13:44"
+                    download_count: "2"
+                - file:
+                    bit: "64"
+                    delta: "1"
+                    filename: "AUTOMATA UI 1.1.zip"
+                    description: |-
+                      spreadable edition
+                    
+                    timestamp: "14 Nov, 2016 - 17:21"
+                    download_count: "2"
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "AUTOMATA UI 1.0.zip"
+                    timestamp: "31 Aug, 2016 - 09:05"
+                    download_count: "1"

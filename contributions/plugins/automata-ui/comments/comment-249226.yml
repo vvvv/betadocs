@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "249226"
+user: "velcrome"
+created: "18 Feb, 2018 - 20:05"
+body: |-
+  Just started using it, and it is pretty great! Took a fraction of the time compared to good old qfsm. And the patch looks really organized, thanks to the class-like behaviour of the Automata manager datatype. Since I still used it old school, I didn't care about frames or seconds (pure logic transcendence time). 
+  
+  But what I missed was adding more than one connection between two nodes going into the same direction, so either one of two conditions can trigger the transition. I worked around it with in-between states, and I guess that could be a workaround for ping pong just the same.
+  
+  Enums looked a little weird, there were numbered redundancies. But always picking the first one did what I needed. So it seems only cosmetic.
+  
+  So again, thanks for your work!

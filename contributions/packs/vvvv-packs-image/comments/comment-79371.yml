@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "79371"
+user: "circuitb"
+created: "08 Mar, 2012 - 16:47"
+body: |-
+  @elliot
+  could you shade some lights on the timestamp pin (videoin node)?
+  
+  @robe:
+  yep the show settings and capture property  depends on your hardware
+  in the current release it's for standard webcams
+  for specific cams like ps3eye or ids uEye an Enum list in the captureProperty node could do the job!

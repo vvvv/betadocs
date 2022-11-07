@@ -1,0 +1,40 @@
+---
+uid: "contribution/orbbec-astra-openni"
+uid-meta: "contribution/orbbec-astra-openni-meta"
+comments: 
+ items: 
+  - uid: "248599"
+  - uid: "249833"
+  - uid: "250051"
+  - uid: "250993"
+  - uid: "251059"
+  - uid: "255897"
+  - uid: "277959"
+  - uid: "279274"
+uid-files: "contribution/orbbec-astra-openni-files"
+title: "Orbbec Astra OpenNI"
+image: "0-Preview_2018.01.25-14.25.23.png"
+contribution: "true"
+---
+
+Experimental release. Requires DX11 Pack, tested with DX11.Particles.
+Due to licensing restricitons the primesense nite2 skeleton detection library is not allowed to work with astra devices, so there will be no legal skeleton node for this device.
+
+
+1.  Included nodes:
+* Depth
+* RGB
+* RGB Depth
+* World
+
+
+
+1.  Installation
+1) Extract the contribution's **openni** folder into the **dx11 pack plugin folder** (...\packs\dx11\nodes\plugins)
+2) Download the Orbbec Astra **driver** (<https://orbbec3d.com/develop/>)
+3) Install Orbbec sensor driver (tested with v4.3.0.4)
+4) Extract the **OpenNI-Windows-x64-2.3** folder into your Orbbec driver installation dir
+5) Copy the **OpenNI2.dll** from within the **OpenNI-Windows-x64-2.3\Redist** folder to **...\packs\dx11\nodes\plugins\openni**
+6) Edit the **OpenNI.ini** within the contribution's **openni** folder and change the **Repository** path to **.../YourOrbecDriverInstallationFolder/OpenNI-Windows-x64-2.3/Redist/OpenNI2/Drivers**. Don't forget to use slashes instead of blackslashes)
+
+free for private use, for commercial license please contact ea@this-play.com

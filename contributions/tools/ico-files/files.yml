@@ -1,0 +1,24 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/ico-files-files"
+url: "ico-files"
+category: "tool"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "1"
+            filename: "icons_v2.zip"
+            description: |-
+              icons for 33.7, 34 and 34.1 with x86 and x64 versions
+            
+            timestamp: "19 Sep, 2015 - 09:00"
+            download_count: "1"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "icons.zip"
+                    timestamp: "22 Jul, 2014 - 09:45"
+                    download_count: "2"

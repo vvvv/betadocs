@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "190197"
+user: "catweasel"
+created: "27 Mar, 2015 - 21:35"
+body: |-
+  Ok scratch that its easy enough to do with sifts and selects.
+  My next question is how to set multiple lines in 1 table, if you have 1 table spreading the index works, but with multiple tables they get set amongst the tables, adding an offset doesn't seem to work, for example 2 tables, index all evens both tables have rows added.

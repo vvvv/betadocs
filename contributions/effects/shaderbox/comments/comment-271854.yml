@@ -1,0 +1,12 @@
+### YamlMime:ContributionComment
+---
+uid: "271854"
+user: "umanema"
+created: "25 Apr, 2019 - 09:46"
+body: |-
+  Hey avilahuerta,
+  
+  Sorry for the late answer. Basically buffers on Shadertoy are multiple passes, which means that you first render texture in a BufferA and pass it further to next buffer or a final shader part. I'm not aware if vvvv's hlsl implementation still does not support multiple passes. Probably not.
+  
+  There is a basic workaround [Multiple Passes](xref:39838eb2-c610-47d7-ad8f-79c7bdb2cda4)
+  Just split the whole shader to several parts according to number of buffers and pass texture from one shader to another.

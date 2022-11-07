@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "236553"
+user: "StiX"
+created: "04 Mar, 2017 - 20:22"
+body: |-
+  filterworld with kinect 2 seems to be doing nothing, emitter shows kinect image when connected directly, but shows nothing but pulsating help cube when connected to filterworld

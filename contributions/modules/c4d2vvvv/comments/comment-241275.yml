@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "241275"
+user: "joreg"
+created: "19 Jun, 2017 - 15:22"
+body: |-
+  @Aurel the actual problem here is that the .xml file the patch is loading is corrupt. so ideally this would be fixed, because then the Tidy (XML) node wouldn't be necessary at all. here it is only used to workaround the initial problem of the corrupt file.. maybe @geometrica an help?

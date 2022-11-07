@@ -1,0 +1,21 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/pathvectors-(3d)-meta"
+type: "plugin"
+author: "herbst"
+date: "01 Sep, 2013"
+title: "PathVectors (3d)"
+originalURL: "contribution/pathvectors-(3d)"
+category: "plugin"
+credits: |-
+  by herbst, idea from ArcLength (john, frank, gregsn, joreg), funding from Uberact
+like_count: "17"
+imported: "true"
+teaser: |-
+  Some of you might know the [ArcLength](xref:contribution/arclength(3d-generic)) module. It's very nice because it's able to place points at specified distances along a spline.
+  
+  Unfortunately, it's not spreadable (some of the nodes needed for this don't have general purpose, use- and meaningful spreadable implementations).
+  
+  Thus here I present to you PathVectors (3d), rewritten as plugin, spreadable, binsizeable and fast.
+  
+  You basically input a spread of splines and a spread of percentages at which to place new points. See the help patch for different usecases.

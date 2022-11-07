@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "277125"
+user: "ravazquez"
+created: "18 Nov, 2020 - 15:37"
+body: |-
+  New version up, the old one was somewhat broken. 
+  
+  Fixed a couple of bugs that were associated with Azure Kinect specific scenarios.
+  
+  Added VideoIn to make things easier.
+  
+  Cheers!

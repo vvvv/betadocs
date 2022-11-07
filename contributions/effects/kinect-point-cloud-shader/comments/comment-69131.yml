@@ -1,0 +1,18 @@
+### YamlMime:ContributionComment
+---
+uid: "69131"
+user: "johansebastian"
+created: "06 Sep, 2011 - 08:17"
+body: |-
+  I would like to get this working.. however there are 3 nodes which are somewhat red in the middle, and grey along top/bottom:
+  onlyColorWorldXYZ, Ord2Enum, and another copy of onlyColorWorldXYZ. 
+  At first they were bright red, but after hovering over them and seeing where it wanted to find the files, I copied them into the appropriate dirs.
+  Reopened jonKinectPointCloud (which btw I put that file into the main vvv dir, not sure if thats the right place to put it).
+  
+  Can someone direct me in the right direction? I have been wanting to add my Kinect to my VJ shows ever since I bought the thing a few months ago. I searched all over the net to find an app that would let me do some effects with it (like this one) and found vvvv. So far I really like the vvvv concept.
+  
+  Edit:
+  When I view the source code for onlyColoredWorldXYZ.fx it shows an error at the bottom of the window:
+  DepthToWorld: ps_2_a does not support doubles
+  
+  WTF ??

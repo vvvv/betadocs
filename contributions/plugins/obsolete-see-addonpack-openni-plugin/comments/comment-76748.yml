@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "76748"
+user: "ethermammoth"
+created: "22 Feb, 2012 - 10:50"
+body: |-
+  Hi, thanks for the great work.
+  I've been trying to figure out the rotation from the skeleton node and am a little lost. Are there any examples or could somebody provide one?
+  What i wanted to do is to align a mesh to e.g. the head, with the correct rotation. Now i cant seem to figure how to use the x, y, z vectors provided for the orientation to rotate my mesh in the correct way.

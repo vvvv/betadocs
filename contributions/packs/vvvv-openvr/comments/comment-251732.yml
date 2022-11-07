@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "251732"
+user: "tonfilm"
+created: "04 May, 2018 - 17:21"
+body: |-
+  @catweasel glad to hear that, you can place the repository directly in the vvvv/packs folder or use a [symbolic link](http://schinagl.priv.at/nt/hardlinkshellext/linkshellextension.html) if you develop on it. hit me up in the vvvv chat if you need assistance.

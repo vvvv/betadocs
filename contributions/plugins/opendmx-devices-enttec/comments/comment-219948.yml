@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "219948"
+user: "soriak"
+created: "09 May, 2016 - 22:26"
+body: |-
+  I'm afraid I don't speak russian and have no idea if it would work with this plugin. The thing to keep in mind is that this plugin is expecting a ftdi usb adapter. If the controller that you posted utilizes such a chip for rs485 conversion, then the chances are high that it works! But again, I have no idea about that specific controller...

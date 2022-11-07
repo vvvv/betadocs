@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "233643"
+user: "seltzdesign"
+created: "22 Dec, 2016 - 21:31"
+body: |-
+  @microdee,thank you,  I think I will check out the UE4 plugin. I've been using UE4 a bit and its pretty fun. UE4 also has integration with fabric engine, so if I could harness the combined power of Fabric (super fast 3D operations), vvvv (interoperability) and UE4 (rendering), that would be pretty awesome.
+  
+  In the meantime I found some nice DX11 DOF and SSAO in the contributions, that I finally got working after some tinkering. Combined with Superphong it looks pretty good in 4K on a 55" LCD and super smooth with a few hundred instances.

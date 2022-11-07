@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "211874"
+user: "io"
+created: "30 Nov, 2015 - 15:07"
+body: |-
+  Bump pin defaults to 0 but is set to minimum 1.

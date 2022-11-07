@@ -1,0 +1,13 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/offset-(2d)-meta"
+type: "module"
+author: "elektromeier"
+date: "09 Mar, 2011"
+title: "Offset (2D)"
+originalURL: "contribution/offset-(2d)"
+category: "module"
+like_count: "6"
+imported: "true"
+teaser: |-
+  compues the offset of a contour

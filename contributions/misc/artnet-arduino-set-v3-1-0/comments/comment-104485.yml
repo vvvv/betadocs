@@ -1,0 +1,24 @@
+### YamlMime:ContributionComment
+---
+uid: "104485"
+user: "MSBERGER"
+created: "01 Aug, 2013 - 20:59"
+body: |-
+  Ha !
+  
+  ... found the problem.
+  
+  The performance killer was setting all buffer sizes to ""UDP_TX_PACKET_MAX_SIZE" (don´t know how big this is). I reduced this to 768 (more than big enough for the max packet size of artnet) and now performance even "feels" better than in the v2 version.
+  ... i hope reducing/fixing the buffer size to 768 does not cause other problems ... but for me it is working fine.
+  Testers, feedback, improvements of course are very welcome.
+  
+  The modified sketch that i named v3.1. can be downloaded here:[artnet-arduino-set-v3.1](xref:contribution/artnet-arduino-set-v3.1)
+  
+  Besides the buffer size i changed some more (minor) things, that made sense to me !?
+  Here a little "Change Log" for my version v3.1:
+  - performance gain by shrinking buffer sizes from "UDP_TX_PACKET_MAX_SIZE" to 768
+  - implementation of selction / filtering SubnetID and UniverseID (was already prepared by karistouf)
+  - channel count starts at 0 instead of 1 (the digital and vvvv way)
+  - artnet start_address+n is now mapped to "arduino-channel" 0+n (was also start_address+n bevore), now it is similar to lighting fixtures
+  
+  Markus

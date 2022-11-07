@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/midi-file-reader-files"
+url: "midi-file-reader"
+category: "demo"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "vvvv.midi-read.zip"
+            description: |-
+              Midi file reader plugin and demo
+            
+            timestamp: "05 Dec, 2013 - 13:00"
+            download_count: "2"

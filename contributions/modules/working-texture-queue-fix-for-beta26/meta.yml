@@ -1,0 +1,17 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/working-texture-queue-fix-for-beta26-meta"
+type: "module"
+author: "mediadog"
+date: "20 Aug, 2011"
+title: "Working texture Queue fix for beta26"
+originalURL: "contribution/working-texture-queue-fix-for-beta26"
+category: "module"
+like_count: "2"
+imported: "true"
+teaser: |-
+  OK, using a value queue to manage the slice indices and a second Buffer makes this now work like a real Queue.  At least it works for my use of Queue, which is as a delay for texture feedback.
+  
+  New module attached.
+  
+  I left the first Buffer and Buffer Indices outputs just for flexibility.

@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/post-mortem-mirror-face-tracking-mapping-files"
+url: "post-mortem-mirror-face-tracking-mapping"
+category: "demo"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "post mortem mirror.zip"
+            description: |-
+              POST MORTEM MIRROR (Face tracking version of POST MORTEM by Jannis Kilian Kreft)
+            
+            timestamp: "12 Dec, 2012 - 16:11"
+            download_count: "2"

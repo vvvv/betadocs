@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "273524"
+user: "mburk"
+created: "15 Aug, 2019 - 10:31"
+body: |-
+  hi tgd.
+  the problem seems to be how the render state node in the planar reflections module overrides the render state upstream. just add your blend in the module like that:
+  ![](https://vvvv.org/sites/default/files/imagecache/large/images/Anmerkung%202019-08-15%20123055.png)

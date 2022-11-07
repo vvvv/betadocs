@@ -1,0 +1,55 @@
+### YamlMime:ContributionComment
+---
+uid: "86433"
+user: "robi_h"
+created: "01 Aug, 2012 - 14:17"
+body: |-
+  hey david, very cool and clever!!!
+  
+  I modified your shader a litte just to tidy things up. Instead of writing the values for the circular spread i compute them.
+  
+  ```
+  const float PI = 3.14159265;
+  	const int samples = 12;
+  	float2 pNew ={0,0};
+  	float2 d_1n ={0,0};
+  	for (int i =0; i<samples ;i++){
+  		pNew.x = cos([1.0f/samples)*i*2*PI](1.0f/samples)*i*2*PI)*0.5*radius;
+  		pNew.y = sin([1.0f/samples)*i*2*PI](1.0f/samples)*i*2*PI)*0.5*radius;
+  		d_1n +=  pNew  * tex2Dlod(SampFields, mul(float4(posQueue.x+pNew.x ,posQueue.y+pNew.y,0,0), FieldsTransform)+ 0.5).b;
+  	}
+  ```
+  instead of 
+  ```
+  float2 p1 = ( float2(0.5000 ,  0.0000)*radius);
+  float2 p2 = ( float2(0.4330 ,  0.2500)*radius);
+  float2 p3 = ( float2(0.2500 ,  0.4330)*radius);
+  float2 p4 = ( float2(0.0000 ,  0.5000)*radius);
+  float2 p5 = ( float2(-0.2500 ,  0.4330)*radius);
+  float2 p6 = ( float2(-0.4330 ,  0.2500)*radius);
+  float2 p7 = ( float2(-0.5000 ,  0.0000)*radius);
+  float2 p8 = ( float2(-0.4330 ,  -0.2500)*radius);
+  float2 p9 = ( float2(-0.2500 ,  -0.4330)*radius);
+  float2 p10 = ( float2(0.0000 ,  -0.5000)*radius);
+  float2 p11 = ( float2(0.2500 ,  -0.4330)*radius);
+  float2 p12 = ( float2(0.4330 ,  -0.2500)*radius);
+  	
+  	////// add  brightness of all point arround particle position an multiply with direction from circular spread
+  	////  
+  	float2 d_1n  =  p1  * tex2Dlod(SampFields, mul(float4(posQueue.x+p1.x ,posQueue.y+p1.y,0,0), FieldsTransform)+ 0.5).b;
+  	       d_1n +=  p2  * tex2Dlod(SampFields, mul(float4(posQueue.x+p2.x ,posQueue.y+p2.y,0,0), FieldsTransform)+ 0.5).b;
+             d_1n +=  p3  * tex2Dlod(SampFields, mul(float4(posQueue.x+p3.x ,posQueue.y+p3.y,0,0), FieldsTransform)+ 0.5).b;
+             d_1n +=  p4  * tex2Dlod(SampFields, mul(float4(posQueue.x+p4.x ,posQueue.y+p4.y,0,0), FieldsTransform)+ 0.5).b;
+  	       d_1n +=  p5  * tex2Dlod(SampFields, mul(float4(posQueue.x+p5.x ,posQueue.y+p5.y,0,0), FieldsTransform)+ 0.5).b;
+             d_1n +=  p6  * tex2Dlod(SampFields, mul(float4(posQueue.x+p6.x ,posQueue.y+p6.y,0,0), FieldsTransform)+ 0.5).b;
+             d_1n +=  p7  * tex2Dlod(SampFields, mul(float4(posQueue.x+p7.x ,posQueue.y+p7.y,0,0), FieldsTransform)+ 0.5).b;
+  	       d_1n +=  p8  * tex2Dlod(SampFields, mul(float4(posQueue.x+p8.x ,posQueue.y+p8.y,0,0), FieldsTransform)+ 0.5).b;
+             d_1n +=  p9  * tex2Dlod(SampFields, mul(float4(posQueue.x+p9.x ,posQueue.y+p9.y,0,0), FieldsTransform)+ 0.5).b;
+             d_1n +=  p10  *tex2Dlod(SampFields, mul(float4(posQueue.x+p10.x ,posQueue.y+p10.y,0,0), FieldsTransform)+ 0.5).b;
+             d_1n +=  p11  *tex2Dlod(SampFields, mul(float4(posQueue.x+p11.x ,posQueue.y+p11.y,0,0), FieldsTransform)+ 0.5).b;
+             d_1n +=  p12  *tex2Dlod(SampFields, mul(float4(posQueue.x+p12.x ,posQueue.y+p12.y,0,0), FieldsTransform)+ 0.5).b;
+  
+   ```
+  
+  Or is it more performant to write the values directly and save the calculations?
+  greetings from Vienna Robi

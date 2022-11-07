@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "58978"
+user: "sapo"
+created: "26 Jan, 2011 - 02:25"
+body: |-
+  as i know, you need both the modded kinect driver, the last unstable openni, the last NITE, and eventually you'll need also to add the license details in the xml file in the /data folder of the vvvv plugin

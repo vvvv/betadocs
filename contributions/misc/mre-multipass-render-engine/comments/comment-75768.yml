@@ -1,0 +1,23 @@
+### YamlMime:ContributionComment
+---
+uid: "75768"
+user: "dottore"
+created: "05 Feb, 2012 - 13:02"
+body: |-
+  @all: thanks a lot, we really are pleased by your responce.
+  
+  @gregsn: i know there're quite a lot of connections and patch is kind of messy already with simple scene.
+  That's why i'm working on a new version with more modules and s/r nodes.
+  Hope to find a more confortable setting.
+  thanks again for your appreciation  :)
+  
+  @sur: mmm...strange your DOF doesn't work... did you tried with a clean beta27 with addonpack? what's your graphic card?
+  If you find the pdf cryptical, you could search for some tutorial on basic hlsl shaders, to better understand their structure. there's plenty of them, just google it.
+  As i said in the pdf, the only difference between common shaders and MRE ones is the MultiRenderTarget (MRT) part. search also for it  ;)
+  let me know if you want to know more specific things...
+  
+  ciao
+  
+  NOTE FOR EVERYONE:
+  MRE NEEDS ADDONPACK IN ORDER TO WORK CORRECTLY IN EACH PART
+  let me add this to the contrib description...

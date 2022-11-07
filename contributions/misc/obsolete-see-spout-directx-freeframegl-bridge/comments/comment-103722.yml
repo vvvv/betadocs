@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "103722"
+user: "pazi"
+created: "15 Jul, 2013 - 09:23"
+body: |-
+  wglDXOpenDeviceNV ext is not supported by your GPU
+  
+  in my case..... ?( Radeon FirePro M8900 FireGl Mobility Pro Graphic on Dell Precision M6600

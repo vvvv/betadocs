@@ -1,0 +1,24 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/sharpy-dmx-files"
+url: "sharpy-dmx"
+category: "module"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "1"
+            filename: "Sharpy_1.1.zip"
+            description: |-
+              v.1.1
+            
+            timestamp: "13 Dec, 2015 - 06:11"
+            download_count: "1"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "Sharpy_1.0.zip"
+                    timestamp: "12 Dec, 2015 - 19:58"
+                    download_count: "1"

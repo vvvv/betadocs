@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "63119"
+user: "sanch"
+created: "02 May, 2011 - 22:14"
+body: |-
+  Ok i think your way is interresting as well , it's probably much smoother on the device , and the patch stay simple.
+  
+  I guess the way with node will be usefull for people like me 10 years ago when i didn't know about code , and most of the time people use fantastick for interface , this means you just need to update position or color of a couple of quad , and this is still quite fast.

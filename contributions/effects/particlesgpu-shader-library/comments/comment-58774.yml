@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "58774"
+user: "dottore"
+created: "22 Jan, 2011 - 10:09"
+body: |-
+  @screamer: the only thing comes in my mind is to duplicate the particlesGPU system for each monitor you need. this means duplicate the whole patch containing all the shader cycles and the final renders and to place these duplicated patches one for each screen you need (also with the relative render window). 
+  It's not at all the optimized way (and if your particle system it's already heavy in single screen, the whole renderes could be really slow...)but you can try if it works. it would be a clear clue.

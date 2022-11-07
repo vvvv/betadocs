@@ -1,0 +1,17 @@
+### YamlMime:ContributionComment
+---
+uid: "83374"
+user: "circuitb"
+created: "27 May, 2012 - 14:14"
+body: |-
+  hi mino 
+  with beta 27.2 i get this error:
+  
+  00:06:03 ERR : Exception occured in TMPluginWrapperNode.Evaluate: Input string was not in a correct format.
+  00:06:03  -  : To help us track this error down, enable the ExceptionDialog via the menu or starting vvvv with /showexceptions.
+  00:06:03 ERR : Exception occured in TMPluginWrapperNode.Evaluate: Object reference not set to an instance of an object.
+  00:06:03  -  : To help us track this error down, enable the ExceptionDialog via the menu or starting vvvv with /showexceptions.
+  
+  frame time and Frames = 0
+  any ideas?
+  beta28?

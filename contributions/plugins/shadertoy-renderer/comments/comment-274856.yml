@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "274856"
+user: "jib"
+created: "29 Jan, 2020 - 10:37"
+body: |-
+  hi mino, I'm trying to use it with this code https://www.shadertoy.com/view/ltyGRV
+  with vvvv beta36, DX11. but I got this error log :
+  ```
+  fragment shader:
+  0(32) : warning C7532: global function texture requires "#version 130" or later
+  ```
+  any suggestion how to solve it ? thanks!

@@ -1,0 +1,10 @@
+### YamlMime:ContributionComment
+---
+uid: "64610"
+user: "Micheli"
+created: "03 Jun, 2011 - 12:02"
+body: |-
+  Hi
+  This I have already done. I put the SurfaceInput.dll in the vvvv/bin or in the plugins. When I open the helpfile there is only: Two Vector, Transform, Quad and Renderer Nodes. Should there not be a SurfaceInput. If I search for such a Node there isn't one in the list. 
+  I use the vvvv40beta22, a version from this time of Surface 1.0 and which uses SlimDX9.
+  Thanks for help!

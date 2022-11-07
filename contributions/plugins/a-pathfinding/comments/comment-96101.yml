@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "96101"
+user: "velcrome"
+created: "10 Feb, 2013 - 20:08"
+body: |-
+  There is another, more advanced version of this, that supplies Paths asynchronously. Think of it as a Pathfinding-Service that works parallel to your main vvvv thread. 
+  
+  So ask me if you have a need for super-complicated-maps or crazy-amount-of-agents.

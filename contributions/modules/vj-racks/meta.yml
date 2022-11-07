@@ -1,0 +1,26 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/vj-racks-meta"
+type: "module"
+author: "geometrica"
+date: "13 Apr, 2013"
+title: "VJ Racks"
+originalURL: "contribution/vj-racks"
+category: "module"
+credits: |-
+  Geometrica Studio , Zeos ,FFMpeg4vvvv.
+like_count: "19"
+imported: "true"
+teaser: |-
+  This series of patches forms part of a video mixer project im working on, 
+  i tried to create them to easily integrate in any project, all modules have a    minimal GUI,and are optimized for performance, hope people find it useful.
+  
+  -GridVideo : Allow to select Quicktime movies with vj style in the folder you choose.It includes a ffmpeg powered thumbnail generator to make things easier.
+  -BPM Tap : Simple Tapper.
+  -Audio Tool : Complete audio analysis with Hysteresis tool and range selector.Awesome response at the speed of sound.
+  
+  at the moment there are several modules planned for release soon:
+  
+  -LFO.
+  -Spreader.
+  -Layer system.

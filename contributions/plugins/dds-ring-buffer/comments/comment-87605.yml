@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "87605"
+user: "circuitb"
+created: "25 Aug, 2012 - 16:15"
+body: |-
+  no not really in a hurry  just testing  best ways to read image sequences
+  for something like  5 sequences of 200 frames ...
+  i  duplicate the dds ring buffer node 
+  everything is fine with a  smooth playback!
+  
+  but be careful with the buffercount value
+  vvvv dedicated memory get bigger and bigger each time you change this value (increase or decrease)... when it reaches the memory limit DDS nodes turns red and you need to restart vvvv to clear the allocated memory.

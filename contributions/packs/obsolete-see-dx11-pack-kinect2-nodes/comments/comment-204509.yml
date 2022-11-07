@@ -1,0 +1,10 @@
+### YamlMime:ContributionComment
+---
+uid: "204509"
+user: "ggml"
+created: "03 Sep, 2015 - 14:42"
+body: |-
+  rgb and depth nodes are still red/pinless-grey here, with the 33.7 version
+  is there still a need for older sdks ?
+  
+  _edit solved, was using 32bit ver

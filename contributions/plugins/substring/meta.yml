@@ -1,0 +1,15 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/substring-meta"
+type: "plugin"
+author: "nissidis"
+date: "03 Aug, 2012"
+title: "Substring"
+originalURL: "contribution/substring"
+category: "plugin"
+credits: |-
+  
+like_count: "6"
+imported: "true"
+teaser: |-
+  I think that this was missing, a simple spreadable substring patch.

@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "59150"
+user: "screamer"
+created: "28 Jan, 2011 - 13:53"
+body: |-
+  hi, i write here because this seems the much similar contribution to what i'll want to do. so probably dottore is the best one to tell me if it's possible (i tried for a day, then abandoned for my poor ability in hlsl). 
+  there's a fantastic fluidsolver (navier stokes) in the amd/ati collection (just a sample in rendermonkey). But the problem is that this shader is a complex multipass shader, with something like 50passes. Should be fantastic to split this passes in a patch with multiple shaders (something similar to the gpu transform approach i think). 
+  anyway rendermonkey can be downloaded here: http://developer.amd.com/archive/gpu/rendermonkey/pages/default.aspx#download
+  
+  bye :)

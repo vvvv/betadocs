@@ -1,0 +1,15 @@
+### YamlMime:ContributionComment
+---
+uid: "85455"
+user: "elliotwoods"
+created: "10 Jul, 2012 - 21:33"
+body: |-
+  @keftaparty - i tried to think today about why you might be having troubles, and i can't think of anything yet.
+  
+  To double check, it definitely works in BlackMagic Media Express with the same settings?
+  
+  Also please try this:
+  * Make the correct video settings in the help patch
+  * Save the help patch
+  * Close the help patch
+  * Reopen the help patch

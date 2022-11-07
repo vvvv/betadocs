@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "262955"
+user: "tgd"
+created: "21 Aug, 2018 - 20:47"
+body: |-
+  Yeah some details are not covered by the help patches. See also the official manual. Although targeting c++ programmers, it has some useful explaning parts: https://box2d.org/manual.pdf

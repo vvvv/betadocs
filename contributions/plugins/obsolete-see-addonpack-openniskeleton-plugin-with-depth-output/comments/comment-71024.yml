@@ -1,0 +1,19 @@
+### YamlMime:ContributionComment
+---
+uid: "71024"
+user: "elektromeier"
+created: "24 Oct, 2011 - 23:27"
+body: |-
+  @ mediadog
+  
+  the white lines apear between black values & non black values. it is because you turned on texture filtering. if you set it from linear to point, they should disapear...
+  
+  ```
+  sampler Samp = sampler_state    //sampler for doing the texture-lookup
+  {
+      Texture   = (Tex);          //apply a texture to the sampler
+      MipFilter = POINT;         //sampler states
+      MinFilter = POINT;
+      MagFilter = POINT;
+  };
+  ```

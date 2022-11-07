@@ -1,0 +1,20 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/vectors-transformations-meta"
+type: "tutorial"
+author: "gregsn"
+date: "18 Mar, 2013"
+title: "Vectors & Transformations"
+originalURL: "contribution/vectors-transformations"
+category: "tutorial"
+credits: |-
+  tonfilm, gregsn, robotanton
+like_count: "7"
+imported: "true"
+teaser: |-
+  Transformations and vector math are the basic building block of any animation in 2d and 3d. 
+  You need them to position individual graphical elements in space but also for cameras looking at them and viewports within the renderer. 
+  We have a look on vector operations and how to build virtual cameras, billboards, multiscreen applications, and pixelbased rendering.
+  
+  Second revision: 
+  workshop material from Anton Mezhiborskiy and Sebastian Gregor @ NODE 15.

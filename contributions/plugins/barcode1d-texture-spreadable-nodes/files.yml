@@ -1,0 +1,27 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/barcode1d-(texture)-spreadable-nodes-files"
+url: "barcode1d-texture-spreadable-nodes"
+category: "plugin"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "1"
+            filename: "Barcode1d.7z"
+            description: |-
+              v2.0
+            
+            timestamp: "07 Mar, 2019 - 12:32"
+            download_count: "1"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "Barcode1d.zip"
+                    description: |-
+                      v1.0
+                    
+                    timestamp: "11 Jul, 2018 - 04:23"
+                    download_count: "1"

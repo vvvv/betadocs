@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "233326"
+user: "sebescudie"
+created: "13 Dec, 2016 - 10:20"
+body: |-
+  awesommmmmme contrib, opens a lot of possibilities, thanks motzi !
+  
+  Just one thing : the \plugins folder should be placed inside a \nodes folder, otherwise nodes won't show up in the nodebrowser :)

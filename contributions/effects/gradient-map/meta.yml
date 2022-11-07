@@ -1,0 +1,14 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/gradient-map-meta"
+type: "effect"
+author: "dEp"
+date: "27 Jun, 2011"
+title: "Gradient Map"
+originalURL: "contribution/gradient-map"
+category: "effect"
+like_count: "5"
+imported: "true"
+teaser: |-
+  Simple luminosity mapping to a linear gradient. Alpha channels are multiplied.
+  One of my fave effects from old techno video mixes :)

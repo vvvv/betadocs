@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "100505"
+user: "dEp"
+created: "05 May, 2013 - 04:11"
+body: |-
+  great!
+  i get red nodes in b28, but not with b29.2. however, the streaming does not work. the <span class="pin">State</span> says ok and i have set the share name in resolume. i've also tried the update buttons.
+  i have an nvidia 9500M GS. is there a way to find out if it supports NV_DX_interop?

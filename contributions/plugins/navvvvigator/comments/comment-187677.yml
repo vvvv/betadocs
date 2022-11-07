@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "187677"
+user: "blausand"
+created: "06 Mar, 2015 - 10:17"
+body: |-
+  [woei](http://vvvv.org/users/woei), you seem the right candidate to help setting up a **diff-renderer** for .v4p files. I am thinking of just cloning the GUI-part of the vvvv source into a (standalone?) divvvv.exe, **painting deleted/moved/changed/unchanged/new nodes and links of two file versions in different colors**.  
+  
+  First Question would be: Are the necessary parts of the vvvv source accessible for such a project?

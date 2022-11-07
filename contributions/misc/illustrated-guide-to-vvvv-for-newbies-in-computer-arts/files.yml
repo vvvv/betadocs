@@ -1,0 +1,36 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/illustrated-guide-to-vvvv-for-newbies-in-computer-arts-files"
+url: "illustrated-guide-to-vvvv-for-newbies-in-computer-arts"
+category: "misc"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "2"
+            filename: "vvvv illustrated beta_RUS.pdf"
+            description: |-
+              Russian version
+            
+            timestamp: "09 Jan, 2011 - 19:19"
+            download_count: "1"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "1"
+                    filename: "vvvv illustrated beta_ENG.pdf"
+                    description: |-
+                      English version
+                    
+                    timestamp: "22 Feb, 2011 - 11:12"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "vvvv_ linearspread_french.pdf"
+                    description: |-
+                      French version
+                    
+                    timestamp: "28 Oct, 2013 - 21:08"
+                    download_count: "1"

@@ -1,0 +1,17 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/json-parser-meta"
+type: "plugin"
+author: "sanch"
+date: "31 Aug, 2012"
+title: "JSON parser"
+originalURL: "contribution/json-parser"
+category: "plugin"
+credits: |-
+  http://james.newtonking.com/projects/json-net.aspx
+  
+  http://sanchtv.com
+like_count: "12"
+imported: "true"
+teaser: |-
+  simple json parser plugin with json.net

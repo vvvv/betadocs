@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "59770"
+user: "sapo"
+created: "11 Feb, 2011 - 23:48"
+body: |-
+  if you use the last version (Skeleton3 posted above)you don't need to run any external program, just create a openni node.
+  can you check also with a ttyrender for some error message?

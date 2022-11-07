@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "99030"
+user: "patrick"
+created: "03 Apr, 2013 - 09:46"
+body: |-
+  FD (Graph) seems to have an issue with large data sets, see [ForceDirected (Graph) problems w/ large graphs](https://discourse.vvvv.org/t/ForceDirected (Graph) problems w/ large graphs).

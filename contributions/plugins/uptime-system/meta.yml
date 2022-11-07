@@ -1,0 +1,15 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/uptime-(system)-meta"
+type: "plugin"
+author: "mrboni"
+date: "04 Mar, 2013"
+title: "UpTime (System)"
+originalURL: "contribution/uptime-(system)"
+category: "plugin"
+credits: |-
+  <http://msdn.microsoft.com/en-us/library/system.environment.tickcount.aspx>
+like_count: "1"
+imported: "true"
+teaser: |-
+  *Limitation* Note that after 24.9 days the up time value will cycle back round to zero...

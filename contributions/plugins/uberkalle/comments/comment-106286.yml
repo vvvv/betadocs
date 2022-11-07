@@ -1,0 +1,19 @@
+### YamlMime:ContributionComment
+---
+uid: "106286"
+user: "robe"
+created: "12 Sep, 2013 - 18:52"
+body: |-
+  Thanks Woei.. Really appreciated.
+  
+  Just a little question... It is possible to avoid the update pin, so every new patch has the color of the root.v4p (where I placed your node)?
+  
+  *Nothing fancy, just set the value @80 to have a darker background for my eyes.*
+  *(For me 80 is the limit under which the node color and the link interfere with eachother.) *
+  
+  Tryed to delete the IF and obviously strange thighs happened.
+  
+  Can you also access links color?
+  (like CTRL+H does)
+  
+  Thanks bye

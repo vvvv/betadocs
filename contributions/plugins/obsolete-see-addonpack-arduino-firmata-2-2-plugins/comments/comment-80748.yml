@@ -1,0 +1,15 @@
+### YamlMime:ContributionComment
+---
+uid: "80748"
+user: "motzi"
+created: "06 Apr, 2012 - 13:46"
+body: |-
+  i admit not being very much into the firmata code, but from reading the standard firmata arduino sketch (the version coming with arduino 1.0) on line 276 it should be possible to enable the pullup (ie. writing HIGH) to a digital pin configured as INPUT. 
+  ```
+  // only write to OUTPUT and INPUT (enables pullup)
+  // do not touch pins in PWM, ANALOG, SERVO or other modes
+  ```
+  i don't think that changing the protocol is nescessary.
+  
+  
+  @karisouf: merci beaucoup for the tip. anyways, i'd rather prefer to be able to do this dynamically via the vvvv-patch.

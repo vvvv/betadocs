@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "100243"
+user: "Takuma"
+created: "28 Apr, 2013 - 05:15"
+body: |-
+  Hi elio, yes i've checked the texture format is A8R8G8B8. Even the help patch doesn't work. 
+  I use resolume 4.1.2 running on bootcamp - windows7 MBP Retina Mid2012, vvvv version 45beta29.2_x64. Also tried upgrading to resolume 4.1.5 but didn't work. 
+  I run vvvv shortcut with /dx9ex at the end of properties>shortcut>target. Hope it's not bootcamp prob.

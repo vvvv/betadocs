@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "239742"
+user: "catweasel"
+created: "22 May, 2017 - 10:54"
+body: |-
+  @guest, try using a create node rather than a delete, it should re-create the node in place, avoiding the undo...
+  But a fix would be good, a reset pin if nothing else!

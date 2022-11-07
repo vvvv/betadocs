@@ -1,0 +1,25 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/obsolete-setslice-(dx11.texturearray)-(dx11)-meta"
+type: "plugin"
+author: "vux"
+date: "07 Oct, 2013"
+title: "[OBSOLETE] SetSlice (DX11.TextureArray) (dx11)"
+originalURL: "contribution/obsolete-setslice-(dx11.texturearray)-(dx11)"
+category: "plugin"
+like_count: "10"
+imported: "true"
+teaser: |-
+  Simple plugin that allows you to store a texture into a Texture2DArray, that you can then retrieve in shader.
+  
+  Different usages for it:
+  * RingBuffer
+  * Queue Texture
+  * Simple operations from previous frame
+  * Multi texturing with batched geometry
+  * Random morphing
+  * Custom animations
+  
+  ....
+  
+  Source code included, so you can see how simple it is to write custom plugins for DX11 (without having to look at the big github codebase).

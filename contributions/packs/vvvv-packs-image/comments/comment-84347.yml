@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "84347"
+user: "zeos"
+created: "17 Jun, 2012 - 14:44"
+body: |-
+  Thanks Desaxismundi, but same error... 
+  
+  <div class="box">
+  00:03:37 ERR : Exception occured in TMPluginWrapperNode.Evaluate: Could not load file or assembly 'Emgu.CV, Version=2.3.0.1416, Culture=neutral, PublicKeyToken=7281126722ab4438' or one of its dependencies. The system cannot find the file specified.
+  </div>
+  
+  Strange...

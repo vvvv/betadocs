@@ -1,0 +1,21 @@
+### YamlMime:ContributionComment
+---
+uid: "85383"
+user: "elliotwoods"
+created: "08 Jul, 2012 - 15:27"
+body: |-
+  ok. here it is:
+  <http://developer.nvidia.com/nvidia-gpudirect%E2%84%A2-video>
+  
+  BlackMagic are a partner on it, however...
+  
+  <div class="box">quote:
+  GPUDirect for Video is supported on Quadro 4000, 5000, and 6000 graphics cards as well as the Tesla C2075 and M2070Q running Microsoft Windows 7 and Linux. Support for additional operating systems will be added in future releases.  
+  </div>
+  
+  Which basically ties it's usage to proprietary, funded projects (which, since you're using SDI, probably is suitable for your usage).
+  
+  Furthermore, it appears to only marginally affect latency and CPU usage (whilst using the same 2-copy PCIe buffer usage) since the data has to be shipped via CPU RAM anyway. So if you've got enough cores, then just dispatching the management of this process to another thread will give you almost equivalent performance (minus the development cost and expensive hardware).
+  
+  I presume you'll gain something on the order of 0.1->1ms latency.
+  However! Since DX9 is single threaded, this latency will also affect your scene render time in VVVV.

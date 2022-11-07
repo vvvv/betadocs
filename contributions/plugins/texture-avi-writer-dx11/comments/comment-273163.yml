@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "273163"
+user: "joreg"
+created: "07 Jul, 2019 - 23:48"
+body: |-
+  @andresc4 @blausand this error clearly points at a mix-up in architecures, ie x86 vs. x64. that could mean: make sure that when using vvvv x64 you also have ffmpeg for x64

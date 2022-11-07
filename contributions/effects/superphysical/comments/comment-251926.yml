@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "251926"
+user: "io"
+created: "06 May, 2018 - 17:50"
+body: |-
+  Yes, ok I was taking the wrong approach (trying to work with the transformation input to the shader), of course it is way easier to multiply the geometry and then feed it, thanks.

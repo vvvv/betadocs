@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "71018"
+user: "joreg"
+created: "24 Oct, 2011 - 20:31"
+body: |-
+  hm, i don't get that AGC behaviour. there is one thing though i don't get in all those openni examples in the contributions: the CalcHist() stuff. can you explain what it is supposed to do? could that be related to the AGC behaviour?

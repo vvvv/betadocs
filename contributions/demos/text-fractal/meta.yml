@@ -1,0 +1,15 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/text-fractal-meta"
+type: "demo"
+author: "tonfilm"
+date: "07 Oct, 2011"
+title: "Text Fractal"
+originalURL: "contribution/text-fractal"
+category: "demo"
+like_count: "10"
+imported: "true"
+teaser: |-
+  The core of this patch is a little subpatch called find_nearest. it takes a number of positions and scalings and a new position and aspect. from that it checks if the position isn't inside a rectangle and then calculates a new rectangle on that position which touches the nearest rectangle and has the given aspect.
+  
+  there is also a 3d version of it, that took me years to find, but the visual output isn't as cool as i expected. but write me if you need it.

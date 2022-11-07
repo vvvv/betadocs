@@ -1,0 +1,25 @@
+### YamlMime:ContributionComment
+---
+uid: "96907"
+user: "mediadog"
+created: "24 Feb, 2013 - 15:53"
+body: |-
+  <div class="box">quote:sansui:
+   It works fine in local. But, I want to get hosting in Node.js hosting Service. so, If vvvv computer and Node.js server computer are different, how can I fix?
+  </div>
+  
+  I am totally guessing here (I haven't tried it), but take the right half of the demo patch, that starts the server, and instead of sending it the IP address of the local machine (from the IP node), give it the IP address of the other (client) vvvv machine (should be able to give the system name).
+  
+  Run the left half of the demo code on the client machine, except give the IP address of the server to the UDB send node instead of localhost.
+  
+  Also, at the top of the .\server\server.js file is the following:
+  
+  ```
+  var HttpPort = 8000;
+  var V4PortReceive = 5000;
+  var V4PortSend = 5001;
+  var V4Ip = process.argv<2>;
+  var ServerFolder = './ServerRoot';
+  ```
+  
+  so you can change the port numbers and document root if you want.  Good luck!

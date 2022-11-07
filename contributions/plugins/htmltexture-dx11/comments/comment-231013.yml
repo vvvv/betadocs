@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "231013"
+user: "guest"
+created: "03 Nov, 2016 - 18:05"
+body: |-
+  no easy way for this.
+  You will need to execute some custom javascript to bind eventhandlers to the inputs.
+  Then you can get info about clicked inputs at the result pin or console (TTY Renderer).

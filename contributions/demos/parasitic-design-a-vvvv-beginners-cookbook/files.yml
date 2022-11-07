@@ -1,0 +1,90 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/parasitic-design-a-vvvv-beginners-cookbook-files"
+url: "parasitic-design-a-vvvv-beginners-cookbook"
+category: "demo"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "8"
+            filename: "Parasitic Design v9.zip"
+            description: |-
+              updated to beta36
+            
+            timestamp: "18 Apr, 2018 - 18:08"
+            download_count: "1"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "7"
+                    filename: "Parasitic Design v8.zip"
+                    description: |-
+                      now includes M3 examples
+                    
+                    timestamp: "31 Dec, 2012 - 16:18"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "6"
+                    filename: "Parasitic Design v7.zip"
+                    description: |-
+                      added M2 examples
+                    
+                    timestamp: "29 Oct, 2012 - 01:34"
+                    download_count: "2"
+                - file:
+                    bit: "64"
+                    delta: "5"
+                    filename: "Parasitic Design v6.zip"
+                    description: |-
+                      added M1 examples
+                    
+                    timestamp: "09 Oct, 2012 - 23:35"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "4"
+                    filename: "Parasitic Design v5.zip"
+                    description: |-
+                      added P4 examples
+                    
+                    timestamp: "17 Sep, 2012 - 21:21"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "3"
+                    filename: "Parasitic Design v4.zip"
+                    description: |-
+                      added P3 examples
+                    
+                    timestamp: "29 Aug, 2012 - 15:32"
+                    download_count: "2"
+                - file:
+                    bit: "64"
+                    delta: "2"
+                    filename: "Parasitic Design v3.zip"
+                    description: |-
+                      added P2 examples
+                    
+                    timestamp: "20 Aug, 2012 - 20:33"
+                    download_count: "3"
+                - file:
+                    bit: "64"
+                    delta: "1"
+                    filename: "Parasitic Design v2.zip"
+                    description: |-
+                      fixed P_1_2_2
+                    
+                    timestamp: "14 Aug, 2012 - 19:13"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "Parasitic Design v1.zip"
+                    description: |-
+                      initial version
+                    
+                    timestamp: "14 Aug, 2012 - 14:13"
+                    download_count: "1"

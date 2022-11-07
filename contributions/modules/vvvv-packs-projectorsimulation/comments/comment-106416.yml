@@ -1,0 +1,15 @@
+### YamlMime:ContributionComment
+---
+uid: "106416"
+user: "youngjae"
+created: "14 Sep, 2013 - 21:25"
+body: |-
+  ![](https://vvvv.org/sites/default/files/imagecache/large/images/render_1859.jpg) 
+  
+  thnx elliot, this is really great. i looked into the depth render subpatch and blended the depth texture with some of my own visuals.
+  
+  I know i am doing it the faky way because i know you are using the depthrender in order to factor in the distance to brightness relationship. but I couldnt see any other way to actually project dx9 textures, like the old projected texture contribution. hence everything is in blau.
+  
+  the 3d model is something made with rhion + grasshopper, as a side note.
+  
+  any hints at how i can modify it so that i can also bring in dx9 textures ? only because I want to actually redesign some elements you see in this facade applciation to work better with projections...

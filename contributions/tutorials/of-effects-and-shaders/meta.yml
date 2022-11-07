@@ -1,0 +1,15 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/of-effects-and-shaders-meta"
+type: "tutorial"
+author: "joreg"
+date: "19 Dec, 2010"
+title: "Of Effects and Shaders"
+originalURL: "contribution/of-effects-and-shaders"
+category: "tutorial"
+credits: |-
+  [joreg](http://vvvv.org/users/joreg) for the pixelstuff, [tonfilm](http://vvvv.org/users/tonfilm) for the vertexstuff
+like_count: "8"
+imported: "true"
+teaser: |-
+  The patches and effects in this download are the material accompanying the  tutorial: [Of Effects and Shaders](xref:1f40bd64-bc93-4263-98c8-50616b9f5c5c). Go and read there to get the whole picture.

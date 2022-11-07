@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "101872"
+user: "evvvvil"
+created: "05 Jun, 2013 - 15:53"
+body: |-
+  Yo tekcor,
+  
+  Word man, thankx for your reply. I will add you on skype around 7pm tonight and I be on this too. I am trying to make sense of everything in your module, forgive me only been using VVVV for 2 years... Your module is great though, don't get me wrong, SO COOL. BUT a few things: Don't I have to somehow redesign the Strider custom skeleton thingy (to fit with openNI skeleton)... I must say it starts making sense when I go into your JointMapper node, I am guessing that is what you mean by kinectJointMapping module, but then hasn't your skeleton got 4 extra bones? shall I kill those as the list of openNI bones wouldn't include wrist or ankle... I get what you are saying about joint orientation on kinect openNI not working on end joints, that's true and very valid point. But aren't all bones returning an orientation regardless of whether it is end joint or not? From the skeleton openNI node I seem to get an orientation for all joints out of it (X axis orientation, Y orientation, Z axis orientation)... Let's talk tonight man, I am keen on finding a working workflow to do motion capture using the kinect in VVVV on a collada model. And I mean a REAL workflow which works from A to Z, from how to rig the model in Max/Maya etc to how to export it in Collada (which setting) and the actual VVVV patch linking correctly the kinect OpenNI Skeleton to the collada model's skeleton. We all want to do this, I wanna do a video tutorial explain the whole process as soon as we have a found a fully working workflow... PEACE MAN!

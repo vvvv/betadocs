@@ -1,0 +1,17 @@
+### YamlMime:ContributionComment
+---
+uid: "261845"
+user: "darnhalm"
+created: "15 Aug, 2018 - 08:59"
+body: |-
+  I tried to run this patch with such versions:
+  
+  vvvv_50beta36_x64
+  vvvv_50beta36_x86
+  vvvv_45beta34.1
+  
+  I tried to run on 3 different computers.
+  
+  I get the same error.
+  
+  is there a solution to this problem?

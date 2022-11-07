@@ -1,0 +1,18 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/velvety-meta"
+type: "effect"
+author: "dottore"
+date: "13 Jul, 2010"
+title: "Velvety"
+originalURL: "contribution/velvety"
+category: "effect"
+credits: |-
+  http://developer.nvidia.com/page/home.html
+like_count: "8"
+imported: "true"
+teaser: |-
+  A simple combination of vertex and pixel shaders with velvety edge effects.
+  Great for any model that needs that "feeling of softness."
+  
+  Added cleaned and simplified dx11 version, with two techniques available for Velvety effect: per pixels and per vertex.

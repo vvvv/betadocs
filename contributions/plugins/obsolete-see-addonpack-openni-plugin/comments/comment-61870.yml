@@ -1,0 +1,29 @@
+### YamlMime:ContributionComment
+---
+uid: "61870"
+user: "ft"
+created: "03 Apr, 2011 - 09:58"
+body: |-
+  Hey, got it working here. Great!
+  
+  I did change 
+  
+  ```
+          <Input("Config%20File",%20DefaultString%20=%20"plugins/OpenNISkeleton/Data/SamplesConfig.xml",%20StringType=StringType.Filename%20)>
+          IDiffSpread<string> FPinInConfig; 
+  ```
+  
+  and
+  
+  ```
+          public void initKinect()
+          {
+  
+              kinectStarted = true;
+  
+              FMessage<0> = "Init OpenNI Node";
+  
+              this.context = new Context( FPinInConfig<0> );
+  ```
+  
+  though, such that you don't need a reader. This way you can easily select your own config file. That worked better for me.

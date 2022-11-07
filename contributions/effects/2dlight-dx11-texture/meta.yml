@@ -1,0 +1,23 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/2dlight-(dx11.texture)-meta"
+type: "effect"
+author: "timpernagel"
+date: "24 Mar, 2017"
+title: "2DLight (DX11.Texture)"
+originalURL: "contribution/2dlight-(dx11.texture)"
+category: "effect"
+credits: |-
+  Matt DesLauriers, [timpernagel](http://vvvv.org/users/timpernagel), [mburk](http://vvvv.org/users/mburk)
+like_count: "9"
+imported: "true"
+teaser: |-
+  A module to generate a light/shadow-texture based on a 2D texture-input.
+  
+  Ported from a super well documented OpenGL version by Matt DesLauriers:
+  <https://github.com/mattdesl/lwjgl-basics/wiki/2D-Pixel-Perfect-Shadows>
+  
+  Check out the link for deeper information about the used techniques.
+  
+  
+  Make sure to use it with the latest DX11-pack and have fun!

@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "208750"
+user: "idab"
+created: "14 Oct, 2015 - 10:13"
+body: |-
+  @[velcrome](http://vvvv.org/users/velcrome): thanks, superuseful! 
+  Here MagicIO string and enum don't work. These 2 commands create always IO value nodes. Using b34.1x64.

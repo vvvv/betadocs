@@ -1,0 +1,16 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/motion-blur-meta"
+type: "effect"
+author: "dottore"
+date: "03 Sep, 2010"
+title: "Motion Blur"
+originalURL: "contribution/motion-blur"
+category: "effect"
+credits: |-
+  tonfilm
+like_count: "6"
+imported: "true"
+teaser: |-
+  Nothing special, just a simple way to have motion blur: 
+  apply the render of the last frame to a semi-transparent quad that cover the entire frame.

@@ -1,0 +1,15 @@
+### YamlMime:ContributionComment
+---
+uid: "82675"
+user: "everyoneishappy"
+created: "11 May, 2012 - 10:54"
+body: |-
+  have not had much of a chance to play with it but looks awesome!
+  
+  @Sapo is your vvvv install in Program Files (x86)?
+  
+  You may need to put some quotes around it- try editing the cmd file to something like:
+  
+  @ECHO OFF
+  start C:\Video\Patches\nsynk-iris-ff70ccab2127\patches\audioanalysis\audio_analysis\audio_analysis.exe
+  start C:\"Program Files (x86)"\vvvv_45beta27.1\vvvv.exe /o C:\Video\Patches\nsynk-iris-ff70ccab2127\patches\_Interface_root2.v4p /masterinterface 1

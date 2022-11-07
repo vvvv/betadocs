@@ -1,0 +1,19 @@
+### YamlMime:ContributionComment
+---
+uid: "220130"
+user: "elliotwoods"
+created: "16 May, 2016 - 04:39"
+body: |-
+  another important thing is to make sure that the filenames match up between the 2 (i used absolute paths)
+  
+  note that the grasshopper plugin always adds a .vltr (even if the filename you give it already has that extension)
+  
+  look out for the file that it's creating, and make sure to select that file on the vvvv side
+  
+  it's pretty trivial to recode for dx11 on the vvvv side
+  
+  another note : can be pretty slow with anything more complex
+  
+  be great if there was a background thread on the grasshopper side with a lower update rate to write out the vertices, and also if something like IPC (e.g. via zmq) was implemented rather than via disk (which can be slow even when using RAM cached disks)
+  
+  elliot

@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "196976"
+user: "mediadog"
+created: "27 May, 2015 - 20:13"
+body: |-
+  Still broken in 33.7; is there any way to do a DX11 texture queue that works?

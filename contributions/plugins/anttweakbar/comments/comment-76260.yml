@@ -1,0 +1,16 @@
+### YamlMime:ContributionComment
+---
+uid: "76260"
+user: "mino"
+created: "14 Feb, 2012 - 10:44"
+body: |-
+  uploaded v0.91.
+  support full-screen mode and fixed renderer re-size bug.
+  
+  @m4d
+  great! also I forgot commentout some log messages (I am from...). now hide them.
+  
+  @u7angel
+  thanks, please try new version.
+  
+  now, prepare for share code;-)

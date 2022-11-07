@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "58432"
+user: "vux"
+created: "14 Jan, 2011 - 01:37"
+body: |-
+  Removed 0.5.0, replaced by 0.5.1
+  Contact details back again, bulletsharp was disposing bodies without my consent :)

@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "94104"
+user: "RoyCui"
+created: "05 Jan, 2013 - 06:02"
+body: |-
+  @johansebastian I had met the same problem,and finally soleved it.You can try as the following steps:
+  1.Push the right button of your mouse on the onlyColoredWorldXYZ node,and then you'll find that a code editor is open.
+  2.Edit the codes in this window,change all the word "double" into "float".After all have finished,Ctrl + S to save the codes,and you'll definitely find that the red nodes will be back the gray ones!
+  
+  Hope this can help you^_^

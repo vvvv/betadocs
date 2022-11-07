@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "89056"
+user: "Psykeview"
+created: "30 Sep, 2012 - 10:11"
+body: |-
+  it seems that the plugin used to crash when you apply a ex9texturefilter when turn on and off the enabled pin repeatly, for example if  you want to make an strobe with the invert filter or enable disable hscb texture filter, vvvv crash.

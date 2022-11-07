@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "75512"
+user: "Yojik"
+created: "30 Jan, 2012 - 19:06"
+body: |-
+  Hm, i have the same problem: red nodes (RGB and Depth) without messages about missing dll. And grey Skeleton node becomes red when i come into kinect visible area( [orbbec-astra-openni](xref:contribution/orbbec-astra-openni) ) works well.
+  
+  heelp!) i need somebody help!)

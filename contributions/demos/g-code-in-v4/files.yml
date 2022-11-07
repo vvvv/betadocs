@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/g-code-in-v4-files"
+url: "g-code-in-v4"
+category: "demo"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "G-Code_WorkshopMaterial.zip"
+            description: |-
+              Example-patches with r232 interface
+            
+            timestamp: "07 May, 2015 - 15:31"
+            download_count: "2"

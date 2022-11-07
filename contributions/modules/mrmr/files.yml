@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/mrmr-files"
+url: "mrmr"
+category: "module"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "Mrmr (Network String).zip"
+            timestamp: "27 Apr, 2011 - 12:55"
+            download_count: "1"

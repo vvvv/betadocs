@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "73688"
+user: "circuitb"
+created: "20 Dec, 2011 - 17:26"
+body: |-
+  hey elliot just have a quick try with the new structuredLights nodes:
+  encode, decode and cameraSpace status out pin is blank and  renderer's are black!
+  
+  the new astexture works better but i've some random black frames (hierro patch) fps still flicks 15 / 16 / 22 /502 /
+  ueye GigE @ 1024x768

@@ -1,0 +1,10 @@
+### YamlMime:ContributionComment
+---
+uid: "183756"
+user: "screamer"
+created: "28 Jan, 2015 - 19:32"
+body: |-
+  @joreg: yes, i agree, and in fact, after confirming to myself that quite all is working in dx11, i'm going to delete all the dx9 part and polishing the dx11 part a bit, just to have both versions working indipendently.
+  you can say that the one i posted is only the first rough conversion, but seems to work in the most substantial parts.
+  
+  i've found a problem in dx11 about ActiveWindow not giving the correct handle (i've written a forum post with an example attached, and you can find it here: [activewindow(windows)-dosent-give-the-right-windows-handle-with-dx11-render](https://discourse.vvvv.org/t/activewindow(windows)-dosent-give-the-right-windows-handle-with-dx11-render)

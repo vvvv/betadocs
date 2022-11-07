@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "236434"
+user: "mrboni"
+created: "27 Feb, 2017 - 18:11"
+body: |-
+  When spreading the ray input, only one intersection point is output per triangle - ie if multiple rays intersect the same triangle only the first hit is output.
+  
+  Any idea why? the gsfx looks like it should keep appending points to the output but it seems only the first one makes it

@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "88326"
+user: "ft"
+created: "10 Sep, 2012 - 18:36"
+body: |-
+  Changing the slicecount has always been unstable. So try to keep the spreadcount constant for now (better to have a few empty filenames than changing the slicecount).
+  
+  Sorry for that. I think this will finally be fixed in the next version.

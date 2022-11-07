@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "271494"
+user: "eps"
+created: "27 Mar, 2019 - 23:41"
+body: |-
+  [Stix](http://vvvv.org/users/Stix)
+  like this?
+   struct PS_IN {
+     bool front : SV_IsFrontFace;
+     ...
+   float4 PS(PS_IN In):SV_Target {
+     float4 color = In.front ? tex0 : tex1;

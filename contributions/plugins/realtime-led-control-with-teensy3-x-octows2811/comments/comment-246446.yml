@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "246446"
+user: "catweasel"
+created: "18 Oct, 2017 - 13:01"
+body: |-
+  I've found that by using a shared texture and then pipeting that in a 2nd instance of vvvv, you get much better performance, I use the dx11 one of course :)
+  While we are show and telling, http://www.colour-burst.com/2015/11/frequency-response-1/ this was 20 universe with 4 teensy, I've now started using a version of the BlackLED https://github.com/vertigo-dk/BlackLED but using FastLED instead of octows, and I  can get 8 universes from one board. Not as many as the vertigo-dk guys :(

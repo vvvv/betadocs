@@ -1,0 +1,24 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/timelinersa-nextgeneration-files"
+url: "timelinersa-nextgeneration"
+category: "misc"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "1"
+            filename: "TimelinerSA_NG_beta2.zip"
+            description: |-
+              now with easeIN/OUT for keyframes, see manual...
+            
+            timestamp: "23 Sep, 2014 - 15:19"
+            download_count: "1"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "TimelinerSA_NG_beta1.zip"
+                    timestamp: "08 Jul, 2014 - 21:24"
+                    download_count: "1"

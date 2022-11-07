@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "78733"
+user: "silver.smith"
+created: "01 Mar, 2012 - 13:43"
+body: |-
+  How stable vlc-plugin is? 
+  I'm building an installation with 4 screens and at least two layers of video. So far the plugin has been the best solution, much better than filestream/videotexture or making animation from single images (my videos are short 2-3 sec clips).
+  Because the installation will be running several hours daily for a month, I'd like to hear others experiences. I'm using the latest version of both vvvv and vlc plugin and the computer will be running on win 7.

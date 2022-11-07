@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/directx-freeframegl-bridge-files"
+url: "obsolete-see-spout-directx-freeframegl-bridge"
+category: "misc"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "DirectX-to-FFGL-Bridge.zip"
+            description: |-
+              FFGL Plugin + VVVV sharing node V1.1
+            
+            timestamp: "26 Apr, 2013 - 17:49"
+            download_count: "1"

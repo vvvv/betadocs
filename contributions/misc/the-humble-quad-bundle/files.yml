@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/the-humble-quad-bundle-files"
+url: "the-humble-quad-bundle"
+category: "misc"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "HumbleQuadBundleV2.zip"
+            description: |-
+              fixed titlebar
+            
+            timestamp: "01 Apr, 2014 - 21:52"
+            download_count: "2"

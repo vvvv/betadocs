@@ -1,0 +1,16 @@
+### YamlMime:ContributionComment
+---
+uid: "199213"
+user: "u7angel"
+created: "24 Jun, 2015 - 14:20"
+body: |-
+  @io
+  is this related to this plugin ? 
+  
+  can you check two things:
+  
+  01. can you reproduce this with just the touch nodes in your patch
+  
+  02. does this happen with [windowstouch](xref:contribution/windowstouch) too ?
+  
+  we had problems with the touch nodes made by devs while the "old" windowstouch plugin always worked. if so, its probably worth starting a forum thread

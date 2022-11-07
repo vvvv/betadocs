@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "62154"
+user: "microdee"
+created: "08 Apr, 2011 - 05:52"
+body: |-
+  if i want to play a dvd with "dvdsimple://X:\ etc." in a simple patch with a quad and a renderer the log shows that the texture is created and nothing else then it's playing smoothly.
+  i have a bigger patch with a whole 3d scene, post-effects and other eye-candy stuff where i want to play movies from any dvd with the above method. when i connect the texture-out in the bigger patch (or hover the mouse above the texture-out pin) the log says "+++++++ creating renderer pair 0 +++++++" and then vvvv freezes down.
+  this message wasn't displayed in the first small testing patch. what does it mean anyway?

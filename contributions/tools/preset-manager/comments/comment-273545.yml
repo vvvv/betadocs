@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "273545"
+user: "systray27"
+created: "20 Aug, 2019 - 22:05"
+body: |-
+  Hi, I can't get this to work. I'm using the helppatch and it won't save or overwrite any xml files. Loading works fine. Can anybody confirm? Using beta 38
+  EDIT: It does work, but not properly for me unfortunately. When loading IOboxes start exchanging values, e.g. not entering the nodes they should. For example instead of a directory path in a filetexture iobox I get my UDP-port...

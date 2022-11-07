@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "203782"
+user: "virtuos"
+created: "27 Aug, 2015 - 10:20"
+body: |-
+  hey idwyr!
+  
+  nice work, i really like the cloud conversion and would like to use it.
+  does the camera needs to be within the shader or can it be outsourced as well?
+  since i am not as good in hlsl yet, i was wondering if you or anyone in this community would be able to take out the camera so the shader can be used with a camera (transform softimage) attached to the renderer. my attempts weren't too successful yet. i'll keep trying. thx

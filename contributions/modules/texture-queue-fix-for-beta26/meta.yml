@@ -1,0 +1,13 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/texture-queue-fix-for-beta26-meta"
+type: "module"
+author: "gregsn"
+date: "19 Aug, 2011"
+title: "Texture Queue fix for beta26"
+originalURL: "contribution/texture-queue-fix-for-beta26"
+category: "module"
+like_count: "1"
+imported: "true"
+teaser: |-
+  a small module using the Buffer (EX9.Texture) node

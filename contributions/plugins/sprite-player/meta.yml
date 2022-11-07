@@ -1,0 +1,14 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/sprite-player-meta"
+type: "plugin"
+date: "24 Apr, 2018"
+title: "Sprite Player"
+originalURL: "contribution/sprite-player"
+category: "plugin"
+like_count: "12"
+imported: "true"
+teaser: |-
+  Simple Texture Transform node for sprite sheet animations. The node could be useful for micro animations.
+  
+  You can use https://aescripts.com/sheetah-spritesheet-tools/ (not mine) to create sprite sheets out of after effects animations.

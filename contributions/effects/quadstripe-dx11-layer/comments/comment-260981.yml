@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "260981"
+user: "antokhio"
+created: "06 Aug, 2018 - 11:18"
+body: |-
+  LineStripWithAdjacency is't most user friendly type of line, if you want line closed, you have to give it extra vertices, look on that patch:
+  
+   https://www.dropbox.com/s/gkcivtdxfaltaqe/QuadStripe%20%28DX11.Layer%29%20closed%20help.v4p?dl=0

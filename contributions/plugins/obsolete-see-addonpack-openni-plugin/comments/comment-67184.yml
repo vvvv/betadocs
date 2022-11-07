@@ -1,0 +1,17 @@
+### YamlMime:ContributionComment
+---
+uid: "67184"
+user: "phlegma"
+created: "28 Jul, 2011 - 10:34"
+body: |-
+  @candian 
+  had a strange behavior by installing the drivers today. this was my workaround
+  
+  If the automatic Kinect Driver installation fail
+      -> Got to the Dive Manager an uninstall all three kinect drivers (Audio/Kamera/Motor)
+      -> Scan for Hardwarechanges
+      -> no they should show up with a exclamation mark or question mark
+      -> Go to update drivers
+      -> Browse my computer for driver software 
+      -> Browse to path \PrimeSense\SensorKinect\Driver\x86
+      -> Next

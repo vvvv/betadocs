@@ -1,0 +1,17 @@
+### YamlMime:ContributionComment
+---
+uid: "62670"
+user: "karistouf"
+created: "21 Apr, 2011 - 07:13"
+body: |-
+  yes sapo you need Ethernet shield !
+  <http://www.arduino.cc/en/Main/ArduinoEthernetShield%20>
+  
+  It works with Arduino 22 ( and surely 21) version. Tested on UNO and Deumillanove.
+  
+  You upload sketch as usual with USB. Then you can take your arduino on battery or transformator far away. 
+  Plug it to RJ45 connected to your computer and send artnet ( you need to edit adress in art-net sender node).
+  
+  You can test directly the art-net recever with a LED on a PWM pin. 
+  At the end of this script you have a place to write your routing of DMX data to analog or digital PIN
+  The TLC thing is more complicated ;-)

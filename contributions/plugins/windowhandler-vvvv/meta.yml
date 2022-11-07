@@ -1,0 +1,48 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/windowhandler-(vvvv)-meta"
+type: "plugin"
+author: "woei"
+date: "26 Oct, 2017"
+title: "WindowHandler (VVVV)"
+originalURL: "contribution/windowhandler-(vvvv)"
+category: "plugin"
+like_count: "10"
+imported: "true"
+teaser: |-
+  **find, move, resize and arrange vvvv windows, and show them in the taskbar**
+  
+  yet another long overdue release out of my vvvv helpers
+  
+  1.  features
+  
+  * gui window listing all currently opened vvvv windows
+  * list can be **filtered by types** (patch, renderer, gui and editors)
+  * **toggle** the ones you fancy to show up in the **taskbar**
+  * move selected ones via **keyboard shortcuts** (e.g. '1' to bring lost ones back to the primary screen)
+  * **pixelprecise** setting **position** and/or **size**, inner or outer size (e.g. you want a renderer to be exactly FullHD)
+  * **tile** selected ones over the current screen
+  * all gui elements have nice **tooltips** with usage hints
+  
+  1.  details
+  
+  on selection there are following shortcuts:
+  * 'F' to **focus**
+  * '1'...'9' to move to that **screen number** (retains size and relative position)
+  * arrow keys to **snap** to left/top/right/bottom of current screen
+  they will only be active if the GUI window was the last one to have focus. so it shouldn't be intrusive with actual application shortcuts or other vvvv interaction
+  
+  when using the Set button and the number boxes for pixel precise settings leaving a box empty keeps that property untouched
+  
+  tiling only works for windows which show up in the taskbar
+  
+  ###  quirks
+  
+  <div class="box">
+  Note:
+  the **taskbar toggle is not persistant**. once you close/hide a window shown in the taskbar and reopen you'll have to set it again. would require some native vvvv rework to have that.
+  
+  HDE host gives me **no** info about the **VL editor**, so no chance to handle that one.
+  </div>
+  
+  you're welcome

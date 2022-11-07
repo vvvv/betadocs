@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "273734"
+user: "neuston"
+created: "05 Sep, 2019 - 10:15"
+body: |-
+  I have added custom attributes (in struct Particle) at my emitter, but the COMPOSITESTRUCT output of SetupShader is not updated, and my system does not work. Anything I have missed?

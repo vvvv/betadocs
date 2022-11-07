@@ -1,0 +1,27 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/contrast-files"
+url: "contrast"
+category: "effect"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "1"
+            filename: "Contrast (EX9.Effect) old.zip"
+            description: |-
+              older version of the contrast shader without color input that might be more compatible
+            
+            timestamp: "17 Oct, 2010 - 22:05"
+            download_count: "1"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "Contrast (EX9.Effect) rev1.zip"
+                    description: |-
+                      Contrast shader
+                    
+                    timestamp: "17 Oct, 2010 - 09:23"
+                    download_count: "1"

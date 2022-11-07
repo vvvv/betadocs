@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "165754"
+user: "colorsound"
+created: "27 Sep, 2014 - 10:11"
+body: |-
+  @manolito yes it works with 33.1 too, basically the problem is the VVVV.Nodes.OpenCV plugins version , it seems last imagepack has diferent behaviour.
+  
+  i could clean and upload the patch with the  plugins that work in my side,but not now if you are in a hurry contact me on skype. cheers ;D

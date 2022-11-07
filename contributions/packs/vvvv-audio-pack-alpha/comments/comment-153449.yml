@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "153449"
+user: "tonfilm"
+created: "11 Apr, 2014 - 19:46"
+body: |-
+  the nodes are defined in VVVV.Nodes namespace and are in the assembly VVVV.Nodes.dll which is located in the lib/nodes/plugins folder of the vvvv distribution.

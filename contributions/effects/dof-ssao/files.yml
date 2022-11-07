@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/dof-ssao-files"
+url: "dof-ssao"
+category: "effect"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "DoF&SSAO.zip"
+            timestamp: "14 Aug, 2015 - 12:05"
+            download_count: "1"

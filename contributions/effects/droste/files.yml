@@ -1,0 +1,33 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/droste-files"
+url: "droste"
+category: "effect"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "2"
+            filename: "drosteDX11.zip"
+            description: |-
+              DX11 port test
+            
+            timestamp: "01 Sep, 2015 - 17:57"
+            download_count: "3"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "1"
+                    filename: "droste2.zip"
+                    description: |-
+                      fixed some paths, added mirror switch
+                    
+                    timestamp: "22 Feb, 2015 - 04:32"
+                    download_count: "2"
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "droste.zip"
+                    timestamp: "07 Oct, 2010 - 23:29"
+                    download_count: "2"

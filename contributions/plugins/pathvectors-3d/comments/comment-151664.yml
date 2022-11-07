@@ -1,0 +1,10 @@
+### YamlMime:ContributionComment
+---
+uid: "151664"
+user: "readme"
+created: "11 Mar, 2014 - 14:02"
+body: |-
+  Found a bug, which only seems to appear if Helper Points AND Inputs are being bin sized.
+  The sorting is off, see attached screenshot.
+  
+  ![](https://vvvv.org/sites/default/files/imagecache/large/images/PathVectorBug.png)

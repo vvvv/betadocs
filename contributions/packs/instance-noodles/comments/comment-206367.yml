@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "206367"
+user: "everyoneishappy"
+created: "21 Sep, 2015 - 02:21"
+body: |-
+  @circuitb thanks for the tip.  I'd been using a max node to prevent a 0 being sent, but a nil would indeed pass through that.  I don't get it here, but it might be a card behavior difference.  Do you have that same behavior with all of the DX11.GeomFX in this pack?  will put the fix in all of them if so.

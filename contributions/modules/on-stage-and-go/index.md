@@ -1,0 +1,45 @@
+---
+uid: "contribution/on-stage-and-go"
+uid-meta: "contribution/on-stage-and-go-meta"
+comments: 
+ items: 
+  - uid: "78960"
+  - uid: "78995"
+  - uid: "79066"
+  - uid: "79076"
+  - uid: "80007"
+  - uid: "80016"
+  - uid: "80044"
+uid-files: "contribution/on-stage-and-go-files"
+title: "On Stage and GO!"
+image: "im.jpg"
+contribution: "true"
+---
+
+*Google english below*
+
+Salut à tous,
+
+Voici une serie de sous-patch pour gérer une régie de spectacle.
+Vous pouvez lançer chaque scène qui appelle chacune le preset correspondant lequel fait varier les paramètres de chacun des sous-programmes. 
+Dans l'exemple, les sous-programmes sont trés simples voire inintéressants mais ils permettent de faire comprendre le principe.
+Vous pouvez éditer votre conduite avec un tableur type "excel" , ainsi que les presets avec "wordpad", par exemple.
+Vous pouvez également choisir le mode d'édition pour créer vos propres presets dans le sous-patch "video".
+
+J'ai également developpé une fonction d'autogo qui lance automatiquement les différentes scènes avec ou sans delay.
+Je suis curieux de vos retours, de vos impressions.
+
+********************************************__
+
+
+Hi,
+
+Here is a series of sub-patch to manage a show on stage.
+You can start each scene that calls each preset which varies the corresponding parameters of each sub-patch.
+In the example, the sub-patch are very simple or uninteresting, but they allow to understand the principle.
+You can edit your live with a spreadsheet like "excel", and the presets with "wordpad", for example.
+You can also choose the edit mode to create your own preset in the sub-patch "video".
+
+I also developed the "autogo" function that changes automatically between the different scenes with or without delay.
+
+I'm curious on your feedback, your impressions.

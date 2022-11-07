@@ -1,0 +1,36 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/interleaved-ssao-with-cubemap-lighting-files"
+url: "interleaved-ssao-with-cubemap-lighting"
+category: "effect"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "2"
+            filename: "SSAO3.zip"
+            description: |-
+              initial release - does not run on ati cards
+            
+            timestamp: "01 Aug, 2010 - 17:21"
+            download_count: "1"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "1"
+                    filename: "SSAO3_0.2c.zip"
+                    description: |-
+                      fixed an error which user partikel pointed out
+                    
+                    timestamp: "27 Aug, 2010 - 15:39"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "SSAO3_0.3a.zip"
+                    description: |-
+                      updated version with edgeblur filter to compensate for missing hardware AA
+                    
+                    timestamp: "13 Sep, 2010 - 14:57"
+                    download_count: "3"

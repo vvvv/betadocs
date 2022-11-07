@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "86956"
+user: "everyoneishappy"
+created: "14 Aug, 2012 - 15:24"
+body: |-
+  Thanks for the demo.  Could you explain why the clone is needed?  Does the texture need to be reformatted before another shader can use it?
+  
+  Would love to be able to make realtime object buffers with this...

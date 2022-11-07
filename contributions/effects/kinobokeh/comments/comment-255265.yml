@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "255265"
+user: "mburk"
+created: "13 Jun, 2018 - 10:05"
+body: |-
+  @readme the renderer temp target has anti aliasing activated, which is probably causing a problem with the depth buffer. disabling it should fix it.

@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "152702"
+user: "matka"
+created: "30 Mar, 2014 - 18:47"
+body: |-
+  ...well, I've spent all afternon with that and still no solution, seems obvious its some conflict nvidia vs intel graphics, It worked when I dissabled intel HD Graphics 4600, but my laptop monitor runs on intel so it seems nvidia needs that on, don't ask me why. I'm giving up for today, if anybody has a solution, please share

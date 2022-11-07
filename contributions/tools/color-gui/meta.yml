@@ -1,0 +1,15 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/color-(gui)-meta"
+type: "tool"
+author: "esnho"
+date: "11 Dec, 2014"
+title: "Color (GUI)"
+originalURL: "contribution/color-(gui)"
+category: "tool"
+credits: |-
+  esnho
+like_count: "2"
+imported: "true"
+teaser: |-
+  This is a DX9 color interface, it works like the VVVV color node, is spreadable and is easy to convert it in a DX11 interface.

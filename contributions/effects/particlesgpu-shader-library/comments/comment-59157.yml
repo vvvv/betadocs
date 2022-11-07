@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "59157"
+user: "dottore"
+created: "28 Jan, 2011 - 14:42"
+body: |-
+  hi screamer, you should start a new post in the forum about this idea. i spent some thoughts at node10 about a shader version of fluid solver. as you mentioned, it would take many passes...  vux told me he's working on some GPGPU navier stroke solver in cuda, that would be really nice and easier...
+  Make a post with all your ideas and online sources, we can have a look at it

@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "89632"
+user: "zeos"
+created: "12 Oct, 2012 - 19:21"
+body: |-
+  hmm, should be fixed now. The path to the ICSharpCode.SharpZipLib.dll was strange. Download, try again and write back. 10x

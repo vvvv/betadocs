@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "277983"
+user: "ggml"
+created: "12 Mar, 2021 - 23:09"
+body: |-
+  hi, u7angel
+  the shader seems to be missing undistort.fxh

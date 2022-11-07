@@ -1,0 +1,15 @@
+### YamlMime:ContributionComment
+---
+uid: "235161"
+user: "mediadog"
+created: "09 Feb, 2017 - 17:00"
+body: |-
+  @499reality I have always seen the same thing, but only when actually moving.  If I just rotate my head everything is smooth.
+  
+  I suspect that with just rotation the update is happening in the OpenVR software (it can just slide the texture while doing the next render), but a move means that whole new textures from vvvv are needed.
+  
+  Are you sure you weren't seeing the smooth pan before and now seeing the rougher images during movement?  If you just turn your head is it smooth?
+  
+  I think movement double image does indicate there is a double-buffer problem in there somewhere though.
+  
+  Also, what GPU are you using?

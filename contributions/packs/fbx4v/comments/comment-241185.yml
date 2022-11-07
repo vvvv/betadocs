@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "241185"
+user: "microdee"
+created: "16 Jun, 2017 - 13:39"
+body: |-
+  there is no exporting unfortunately. exporting geometry from vvvv done perfectly via obj. I can't see use cases for anything more complex. In the future though I'm planning material data editing including assigning shaders to materials and assigning textures to properties and maybe editing names, but it's a long term plan.

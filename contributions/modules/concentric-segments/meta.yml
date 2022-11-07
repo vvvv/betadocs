@@ -1,0 +1,13 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/concentric-segments-meta"
+type: "module"
+author: "motzi"
+date: "30 Oct, 2011"
+title: "Concentric Segments"
+originalURL: "contribution/concentric-segments"
+category: "module"
+like_count: "5"
+imported: "true"
+teaser: |-
+  A little shortcut module to create concentric <span class="node">Segment (DX9)</span> of equal (adjustable) thickness. Takes care of provided color spreads so that one of the segments will only have one color.

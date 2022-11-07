@@ -1,0 +1,27 @@
+### YamlMime:ContributionComment
+---
+uid: "84889"
+user: "m4d"
+created: "27 Jun, 2012 - 13:24"
+body: |-
+  Nothing wrong with that part of the license. Sorry for not making myself clear. It's more the part about contributing to it which seemed a bit of a downer to me.
+  
+  ```
+  All contributions to the framework by a third party become property of nsynk, and the contributor agrees to the commercial distribution of his contribution by nsynk.
+  ```
+  
+  While i absolutely understand that you have to clear the framework from third party rights interfering with sales/clients there still remain some questionmarks for me. 
+  
+  A simple example: Imagine someone would build a really nice DMX module for iris and contributes it.
+  
+  *Would that author be allowed to contribute a generic (not adapted for iris) version on vvvv.org?
+  *Would other people be allowed to use that contribution in their non-iris projects? (as it's technically part of the framework which is nsynk's property)
+  
+  I really don't want to look like a nitpicky person here, but i'm in the process of choosing a new performance framework for my next projects and i want to make extrasure that i don't have to switch again in a few months. I have a half-finished own framework which is more like svvvvitcher with a bit of md.vis, but it's nowhere near as well rounded/complete as iris.
+  
+  So i don't wanna bash or discredit iris in any way. (quite the opposite. actually i've been waiting to get my hands on it since seeing your coccoon club postmortem @node10) I'm rather just thinking loudly about pros and cons of adopting iris as our studios main player framework.
+  
+  Sorry, this comment became way too long, but i felt i had to make my position more clear to avoid misunderstandings. If we continue this discussion we might just open a thread to keep this contributionpage tidy.. ;)
+  
+  best regards!
+  chris/m4d

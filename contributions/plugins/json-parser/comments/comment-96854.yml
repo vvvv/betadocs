@@ -1,0 +1,10 @@
+### YamlMime:ContributionComment
+---
+uid: "96854"
+user: "herbst"
+created: "23 Feb, 2013 - 16:28"
+body: |-
+  As alternative to that, fully spreadable:
+  (([json-aselement](xref:contribution/json-aselement),)) which parses JSON directly to XElement using the .NET builtin parser.
+  
+  Of course, with XElement you still have the headache of caring about binsizes and stuff further down the expanding-lots-of-single-things-into-lots-of-spreaded-things road.

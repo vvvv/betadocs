@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "102012"
+user: "metrowave"
+created: "08 Jun, 2013 - 14:18"
+body: |-
+  @arius.esteban: Hardly any latency... this is the best way between vvvv and other apps so far, thanks to elio.
+  
+  @leonida: you are doing something wrong. follow the instructions step by step. It's really not that hard. After starting vvvv through the .bat file, only open the help patch: ShareTextureInfo(OpenGl,Interop)help.v4p , the answer is in this help patch, look at the shared name and use it in Resolume, then hit update..

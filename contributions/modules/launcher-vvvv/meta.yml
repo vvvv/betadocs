@@ -1,0 +1,18 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/launcher-(vvvv)-meta"
+type: "module"
+author: "sunep"
+date: "29 Oct, 2014"
+title: "Launcher (VVVV)"
+originalURL: "contribution/launcher-(vvvv)"
+category: "module"
+credits: |-
+  [sunep](http://vvvv.org/users/sunep)
+like_count: "1"
+imported: "true"
+teaser: |-
+  Launcher (VVVV) will launch a patch after a set delay, after which it can quit itself.
+  For installs where shutdown procedure is not nice and you would like to have a clean restart, it can reboot every other time it is launched.
+  
+  Usage, place in the startup folder and have it start automatically along with windows.

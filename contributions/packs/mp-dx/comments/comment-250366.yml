@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "250366"
+user: "microdee"
+created: "20 Mar, 2018 - 17:14"
+body: |-
+  FBX4V is currently under hold for a moment until I update my modules to the new enum system. sorry about inconveniences. I have so much shit to sort out + work that I don't know when I will get to FBX4V. I'll open-source it shortly as well.
+  Also at the time I was lazy to create the DX11 resources inside the plugin, but a C++ only node for FBX4V meshes is on my bucket list.

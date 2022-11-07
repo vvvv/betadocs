@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "225045"
+user: "tonfilm"
+created: "06 Aug, 2016 - 12:20"
+body: |-
+  @guest you need to calibrate oculus with SteamVR, if that's all fine vvvv will detect it. and i also think its better to use latest oculus runtime, if your graphics card is supported.

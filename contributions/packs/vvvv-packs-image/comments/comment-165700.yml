@@ -1,0 +1,14 @@
+### YamlMime:ContributionComment
+---
+uid: "165700"
+user: "joreg"
+created: "25 Sep, 2014 - 18:46"
+body: |-
+  @Noir did try this?
+  
+  <div class="box">quote:tekcor:
+  You can download the missing dll here
+  http://www.symbioticcube.com/Downloads/nvcuda.dll
+  
+  put it in nodes/plugins/dependencies/opencv/x86/
+  </div>

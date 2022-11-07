@@ -1,0 +1,17 @@
+### YamlMime:ContributionComment
+---
+uid: "218627"
+user: "subplexus"
+created: "29 Mar, 2016 - 08:52"
+body: |-
+  guys, this all appears great, but ive been trying to get this to work for days..!
+  
+  ive built a pretty rudimentary render engine using dx9 including ssao and dof, but ideally i kinda need all your lovely bells and whistles! :)
+  
+  when i run this there appears to be various calls to various nodes that i dont appear to have. i have downloaded the vobjects suggested recently by microdee, but i'm still struggling to locate the microdee camera, amongst other things! i'm guessing in my case however the camera is the key ingredient that will actually begin to show me some kind of result..?
+  
+  my file structure is shown in the attached picture. any help is greatly appreciated!
+  
+  ![](https://vvvv.org/sites/default/files/imagecache/large/images/Capture_34.PNG) 
+  
+  thanks guys!

@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "248177"
+user: "seltzdesign"
+created: "10 Jan, 2018 - 13:38"
+body: |-
+  Quick fix for Hide(VVVV).v4p. Now it brings back the window even if you let go of Alt before Space or just tap Space quickly:
+  
+  ![](https://vvvv.org/sites/default/files/imagecache/large/images/hide_0.JPG) 
+  
+  Also would be nice to have a S+H(Patch) node, so it doesn't resize the wrong window if you click on it while holding Alt+Space.
+  
+  <https://www.dropbox.com/s/dzhrbvc0mpk5y57/Hide%20%28VVVV%29.v4p?dl=0>

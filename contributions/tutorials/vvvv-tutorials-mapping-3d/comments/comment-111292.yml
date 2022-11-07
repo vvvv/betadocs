@@ -1,0 +1,15 @@
+### YamlMime:ContributionComment
+---
+uid: "111292"
+user: "chriss0212"
+created: "13 Dec, 2013 - 11:06"
+body: |-
+  hi colorsound
+  
+  i try to use your directx11 version but have problems with the input element node (red) vvvv.dx11.nodes.dll is missing but it is there...all other nodes seems to be ok. maybe wrong version?
+  
+  with an older version of eliot it seems, that i have also the inverted z problem. somebody who can help WHERE i have to corrct that?
+  
+  thx and greetz
+  
+  christian

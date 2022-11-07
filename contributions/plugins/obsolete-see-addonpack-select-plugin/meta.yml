@@ -1,0 +1,13 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/obsolete-see-addonpack-select-plugin-meta"
+type: "plugin"
+author: "woei"
+date: "19 Feb, 2011"
+title: "[OBSOLETE, see Addonpack] Select plugin"
+originalURL: "contribution/obsolete-see-addonpack-select-plugin"
+category: "plugin"
+like_count: "4"
+imported: "true"
+teaser: |-
+  bugfix for Select (String Advanced), Select (Color Advanced), Select (Enumerations) and Select (Transform) in addonpack 25.1_01

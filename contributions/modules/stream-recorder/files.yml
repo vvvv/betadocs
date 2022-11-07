@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/stream-recorder-files"
+url: "stream-recorder"
+category: "module"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "Stream Recorder V1.zip"
+            timestamp: "21 Oct, 2014 - 02:59"
+            download_count: "3"

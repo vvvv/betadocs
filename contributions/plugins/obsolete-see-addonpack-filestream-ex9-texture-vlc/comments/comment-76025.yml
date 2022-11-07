@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "76025"
+user: "barbarerik"
+created: "09 Feb, 2012 - 23:35"
+body: |-
+  Hi i have vvvv beta27, vlc 1.2
+  and geting this err:
+  
+  ERR <Evaluate%20Exception> (MemoryToTextureRenderer.Evaluate) Field not found: 'VVVV.PluginInterfaces.V2.EX9.DXResourcePluginBase`1.FDeviceData'.
+  <MemoryToTextureRenderer%20B1+> Entering MUTEX FAILED and it  took 29.0016 milliseconds.
+  
+  video doesnt play, just sound but very crackling and crashing

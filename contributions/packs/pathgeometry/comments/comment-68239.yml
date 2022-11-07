@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "68239"
+user: "tonfilm"
+created: "18 Aug, 2011 - 13:43"
+body: |-
+  btw.. the queue node could be done using the generic template from the AddonsCore.. this is just 3 lines of code and guarantees full specification compatibility as well as future feature updates: [Queue.cs](http://vvvv.svn.sourceforge.net/viewvc/vvvv/AddonsCore/trunk/Nodes/_SpreadOperations/Queue.cs?revision=6181&view=markup)
+  
+  in fact you could implement all of the nodes in the SpreadOperations assembly (Buffer, RingBuffer, Cons, Zip...) by just 3 lines..

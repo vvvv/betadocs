@@ -1,0 +1,15 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/korg-nano-kontrol-2-module-meta"
+type: "module"
+author: "graphicuserinterface"
+date: "16 Dec, 2012"
+title: "Korg Nano Kontrol 2 module"
+originalURL: "contribution/korg-nano-kontrol-2-module"
+category: "module"
+credits: |-
+  who ever made the core midi modules!
+like_count: "7"
+imported: "true"
+teaser: |-
+  simple Korg Nano Kontrol 2 module, sends only with nice names, hope it helps somebody :)

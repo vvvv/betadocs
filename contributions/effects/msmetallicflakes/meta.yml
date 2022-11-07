@@ -1,0 +1,16 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/msmetallicflakes-meta"
+type: "effect"
+author: "dottore"
+date: "22 Jun, 2010"
+title: "msmetallicflakes"
+originalURL: "contribution/msmetallicflakes"
+category: "effect"
+like_count: "3"
+imported: "true"
+teaser: |-
+  Metallic Flakes Shader.
+  The metallic surface consists of 2 layers -
+  1. a polished layer of wax on top (contributes a smooth specular reflection and an environment mapped reflection with a Fresnel term);
+  2. a blue metallic layer with a sprinkling of gold metallic flakes underneath

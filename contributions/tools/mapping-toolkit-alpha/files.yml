@@ -1,0 +1,24 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/mapping-toolkit-(alpha)-files"
+url: "mapping-toolkit-alpha"
+category: "tool"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "1"
+            filename: "MAPPING TOOLKIT feb2013.zip"
+            description: |-
+              Update: Gpu lines (woei), cleaner Warping patch (lecloneur).
+            
+            timestamp: "02 Mar, 2013 - 11:48"
+            download_count: "1"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "MAPPING TOOLKIT NODE13.zip"
+                    timestamp: "16 Feb, 2013 - 18:30"
+                    download_count: "3"

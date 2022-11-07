@@ -1,0 +1,15 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/shellexecute-patch-to-stream-with-vlc-meta"
+type: "demo"
+author: "puig"
+date: "28 Jan, 2011"
+title: "shellexecute patch to stream with VLC"
+originalURL: "contribution/shellexecute-patch-to-stream-with-vlc"
+category: "demo"
+credits: |-
+  puig
+like_count: "2"
+imported: "true"
+teaser: |-
+  very simple example patch to stream using shellExecute and VLC

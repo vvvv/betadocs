@@ -1,0 +1,15 @@
+### YamlMime:ContributionComment
+---
+uid: "160052"
+user: "StiX"
+created: "19 Jul, 2014 - 21:48"
+body: |-
+  hi!
+  
+  is there possibility to make that depth texture work more like in older kinect? this red thing is killing me :3 doesnt work with stuff like dx11 hitbox detection from andrej boleslavsky etc.
+  
+  ooor any advice how to make it work
+  
+  [kinect-hitboxes-dx11](xref:contribution/kinect-hitboxes-dx11)
+  
+  and any news on development of this? i have here 4 new kinects waiting to get working :/

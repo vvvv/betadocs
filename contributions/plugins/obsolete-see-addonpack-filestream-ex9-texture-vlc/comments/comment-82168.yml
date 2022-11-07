@@ -1,0 +1,10 @@
+### YamlMime:ContributionComment
+---
+uid: "82168"
+user: "ventolinmono"
+created: "03 May, 2012 - 18:27"
+body: |-
+  @[DiMiX](http://vvvv.org/users/DiMiX)
+  Make sure your version of VVVV corresponds to the version of your VLC plugin. I was running <span class="node">vlc05test beta27.1 20120307</span> on 45beta27. Now doing it on 45beta27.1 and it works (noob myself).
+  
+  Also reinstalled VLC 2.0.1 deleting player preferences and cache.

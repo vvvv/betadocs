@@ -1,0 +1,14 @@
+### YamlMime:ContributionComment
+---
+uid: "253606"
+user: "Jas"
+created: "21 May, 2018 - 13:44"
+body: |-
+  Hello! 
+  
+  I'm new to the vvvv community, so pardon my ignorance, should it present itself in this post. 
+  
+  So i've been fiddling with vvvv and this audiopack in particular for the past few days. I'm currently working on a project, and my objective is to create an interactive experience. The sound ambience and design is integrated with a larger portion of said project. In it's current stage, i'm looking to design a multitude of sounds in vvvv, and from then apply various effects and filters that suits to my needs, thus creating stream of audio of some sort that is used by the rest of the patch in a malleable and interactive way, all in realtime -- that is to say that i'd like to avoid resorting to simply use an edited sound and playback it on the patch. What i'm going for is to synthesize something completely new and in doing so creating an interconnected, seamless interactivity.
+  
+  Can such thing be done through the means of this pack or in any other way, for that matter? 
+  Thanks in advance, i appreciate any help i can get that revolves around this idea.

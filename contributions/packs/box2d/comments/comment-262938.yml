@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "262938"
+user: "tgd"
+created: "21 Aug, 2018 - 13:23"
+body: |-
+  @timpernagel: The shape definition nodes all have a group index pin. You can change it with UpdateShape.

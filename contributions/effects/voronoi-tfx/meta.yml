@@ -1,0 +1,21 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/voronoi-tfx-meta"
+type: "effect"
+author: "antokhio"
+date: "11 Dec, 2015"
+title: "voronoi tfx"
+originalURL: "contribution/voronoi-tfx"
+category: "effect"
+credits: |-
+  struss
+like_count: "6"
+imported: "true"
+teaser: |-
+  thanks struss 
+  https://www.shadertoy.com/view/lss3WS
+  
+  u can change smoothstep for line thickness
+  ported to play around have fun
+  
+  cheers!

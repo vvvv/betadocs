@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "200080"
+user: "herbst"
+created: "23 Jul, 2015 - 09:28"
+body: |-
+  Another feature request: Resizing to the next lower power of 2 instead of the next higher. E.g. choosing between "should 3840x1280 go to 4096x2048 or 2048x1024".

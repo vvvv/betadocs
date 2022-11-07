@@ -1,0 +1,24 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/particlesgpu3dstatictypo-(ex9.effect)-files"
+url: "particlesgpu-3d-static-typo-ex9-effect"
+category: "effect"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "1"
+            filename: "ParticlesGPU_3D_Static_Typo_v1.1.zip"
+            description: |-
+              saving one control texture / texture lookup
+            
+            timestamp: "19 Jul, 2012 - 09:30"
+            download_count: "2"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "ParticlesGPU_3D_Static_Typo.zip"
+                    timestamp: "18 Jul, 2012 - 19:59"
+                    download_count: "1"

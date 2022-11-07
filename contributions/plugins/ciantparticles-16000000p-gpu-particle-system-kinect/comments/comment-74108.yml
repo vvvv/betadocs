@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "74108"
+user: "Martin Zrcek"
+created: "29 Dec, 2011 - 09:53"
+body: |-
+  p.s. Just multiply the particleSize or viewportHeight if you change FOV. (get FOV from Camera) The result should be exactly the same, I guess.

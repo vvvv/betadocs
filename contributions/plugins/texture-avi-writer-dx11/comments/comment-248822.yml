@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "248822"
+user: "andresc4"
+created: "06 Feb, 2018 - 15:00"
+body: |-
+  Same problem on 35.12x64
+  
+  An attempt was made to load a program with an incorrect format. (Exception from HRESULT: 0x8007000B)

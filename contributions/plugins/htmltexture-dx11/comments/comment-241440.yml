@@ -1,0 +1,45 @@
+### YamlMime:ContributionComment
+---
+uid: "241440"
+user: "keftaparty"
+created: "26 Jun, 2017 - 09:12"
+body: |-
+  @microdee
+  
+  I can't get it working with the last beta ( 50beta35.8 )  and dx11 ( 1.1 )pack.
+  I've downloaded the contrib from github as zip.
+  
+  The node is red, TTY says :
+  
+  00:00:50  *  : Node HTMLTexture (DX11.Texture URL) (C:\vvvv\vvvv_50beta35.8_x64\plugins\URLDX11.TextureHTMLTexture\URLDX11.TextureHTMLTexture.csproj) is missing.
+  00:00:50  *  : patch C:\vvvv\vvvv_50beta35.8_x64\lib\nodes\modules\String\AsColor (String).v4p has been converted from [/versions/vvvv45alpha30.1.dtd](/versions/vvvv45alpha30.1.dtd) to 50beta35.8.
+  00:00:50  *  : couldn't connect pins of nodes IOBox (String) and HTMLTexture (DX11.Texture URL). 
+  00:00:50  *  : couldn't connect pins of nodes IOBox (String) and HTMLTexture (DX11.Texture URL). 
+  00:00:50  *  : couldn't connect pins of nodes IOBox (Value Advanced) and HTMLTexture (DX11.Texture URL). 
+  00:00:50  *  : couldn't connect pins of nodes FrameDelay (Value) and HTMLTexture (DX11.Texture URL). 
+  00:00:50  *  : couldn't connect pins of nodes HTMLTexture (DX11.Texture URL) and Unzip (String). 
+  00:00:50  *  : couldn't connect pins of nodes FrameDelay (Value) and HTMLTexture (DX11.Texture URL). 
+  00:00:50  *  : couldn't connect pins of nodes MakePath (String) and HTMLTexture (DX11.Texture URL). 
+  00:00:50  *  : couldn't connect pins of nodes IOBox (Value Advanced) and HTMLTexture (DX11.Texture URL). 
+  00:00:50  *  : couldn't connect pins of nodes Vector (2d Split) and HTMLTexture (DX11.Texture URL). 
+  00:00:50  *  : couldn't connect pins of nodes Vector (2d Split) and HTMLTexture (DX11.Texture URL). 
+  00:00:50  *  : couldn't connect pins of nodes HTMLTexture (DX11.Texture URL) and TogEdge (Animation). 
+  00:00:50  *  : couldn't connect pins of nodes Mouse (Devices Window) and HTMLTexture (DX11.Texture URL). 
+  00:00:50  *  : couldn't connect pins of nodes IOBox (String) and HTMLTexture (DX11.Texture URL). 
+  00:00:50  *  : couldn't connect pins of nodes HTMLTexture (DX11.Texture URL) and FullscreenQuad (DX11.Layer). 
+  00:00:51 ERR : Exception caused by node during render :/74/1/3
+  00:00:51 ERR : System.DivideByZeroException in VVVV.DX11.Nodes: Tentative de division par zéro.
+  
+  Stacktrace:
+     à VVVV.DX11.Nodes.DX11RendererNode.Render(DX11RenderContext context)
+     à VVVV.DX11.Lib.RenderGraph.DX11DeviceRenderer.ProcessNode(DX11Node node)
+  
+  00:00:51  -  : Stack Trace
+  00:00:51  -  :    à VVVV.DX11.Nodes.DX11RendererNode.Render(DX11RenderContext context)
+     à VVVV.DX11.Lib.RenderGraph.DX11DeviceRenderer.ProcessNode(DX11Node node)
+  
+  I would like to get it working, let me know if you have any tip !
+  
+  Thank you
+  
+  Mehdi

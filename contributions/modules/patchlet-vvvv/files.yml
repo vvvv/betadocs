@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/patchlet-(vvvv)-files"
+url: "patchlet-vvvv"
+category: "module"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "Patchlet (VVVV).zip"
+            description: |-
+              Paste your favourite snippets
+            
+            timestamp: "25 Mar, 2012 - 02:51"
+            download_count: "2"

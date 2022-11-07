@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "237957"
+user: "u7angel"
+created: "31 Mar, 2017 - 15:22"
+body: |-
+  i meant you can use several automata UI nodes , interacting (triggering) each other. hence you don't have a big graph within one automata but distributed to more than one graph. 
+  
+  i bet the logic can be split into parts/tasks, right ? you don't need to see all at once.
+  
+  and one hint, you can try to create abstract logic, rather than putting content into your logic. so instead of having states like topic01, topic02, topic03 ... you just have one state named topic. and then handle the selection outside of the statemachine.

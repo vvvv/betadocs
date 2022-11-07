@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "268306"
+user: "sunep"
+created: "26 Sep, 2018 - 09:20"
+body: |-
+  @joreg I guess what I would like is to be able to create a more user friendly UI for it, so people starting and stopping an exhibition can't press the wrong button.
+  
+  I have on a couple of occasions created some fullscreen renderers with start Exhibition and stop exhibition. and it would be nice to have the functionality of remoter, but shield a non-tech end user from the way too many options.
+  
+  Maybe I am thinking about this in the wrong way

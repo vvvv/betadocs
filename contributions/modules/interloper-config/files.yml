@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/interloper-config-files"
+url: "interloper-config"
+category: "module"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "InterloperConfig.zip"
+            timestamp: "13 Oct, 2017 - 11:41"
+            download_count: "2"

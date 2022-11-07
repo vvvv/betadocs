@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "251147"
+user: "Johannes Merkt"
+created: "25 Apr, 2018 - 14:05"
+body: |-
+  Thanks for this great Shader!
+  
+  Unfortunatly I have a Problem with it. Every Light Source casts a black dot on the my objects. 
+  
+  ![Sphere](https://vvvv.org/sites/default/files/imagecache/large/images/sphere.png)
+  
+  It always occures in the center of the light spot. How can I fix this?

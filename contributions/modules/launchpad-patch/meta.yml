@@ -1,0 +1,15 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/launchpad-patch-meta"
+type: "module"
+author: "karistouf"
+date: "14 Jan, 2011"
+title: "launchpad patch"
+originalURL: "contribution/launchpad-patch"
+category: "module"
+credits: |-
+  karistouf
+like_count: "1"
+imported: "true"
+teaser: |-
+  well... just needing now to record on close and reload onopen the setted values. Help would be great ;-)

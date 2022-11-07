@@ -1,0 +1,16 @@
+### YamlMime:ContributionComment
+---
+uid: "65529"
+user: "PVC"
+created: "20 Jun, 2011 - 13:35"
+body: |-
+  Hi vvvvs,
+  I'm allready working on a plugin for 3d Flocking behavior, based on Craig Rainolds contribution.
+  
+  -> http://vimeo.com/25348020
+  
+  This beta version allready works with Flocking (3 Rules of Flocking and a Target Modus) and Predators. I also want to implement multible Flocks, Landing and some 3d spartial Grid sorting (...because of peromance like dottore said). I think i will contribute it soon. 
+  
+  When the 3d version is working, it should be easy to downgrade to 2d.
+  
+  greetz

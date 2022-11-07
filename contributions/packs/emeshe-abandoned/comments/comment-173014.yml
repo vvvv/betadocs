@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "173014"
+user: "StiX"
+created: "06 Nov, 2014 - 16:14"
+body: |-
+  another question, why is diffuse phong without specular turned up dependent on camera view? It creates a kind of specular light effect, it could be managed by some tweaking of attenuation but it is present nevertheless

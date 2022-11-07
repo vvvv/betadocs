@@ -1,0 +1,66 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/dx11.particles-files"
+url: "dx11-particles"
+category: "pack"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "2"
+            filename: "dx11.particles_1.0.6_x64.zip"
+            description: |-
+              v1.0.6
+            
+            timestamp: "28 Sep, 2018 - 11:46"
+            download_count: "5"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "1"
+                    filename: "dx11.particles_1.0.5_x64.zip"
+                    description: |-
+                      v1.0.5
+                    
+                    timestamp: "28 Mar, 2018 - 15:00"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "dx11.particles_1.0.4_x64.zip"
+                    description: |-
+                      v1.0.4
+                    
+                    timestamp: "31 Jan, 2018 - 17:27"
+                    download_count: "1"
+    32bit:
+        latest:
+            bit: "32"
+            delta: "2"
+            filename: "dx11.particles_1.0.6_x86.zip"
+            description: |-
+              v1.0.6
+            
+            timestamp: "28 Sep, 2018 - 11:46"
+            download_count: "115"
+        older:
+            files:
+                - file:
+                    bit: "32"
+                    delta: "1"
+                    filename: "dx11.particles_1.0.5_x86.zip"
+                    description: |-
+                      v1.0.5
+                    
+                    timestamp: "28 Mar, 2018 - 15:00"
+                    download_count: "1"
+                - file:
+                    bit: "32"
+                    delta: "0"
+                    filename: "dx11.particles_1.0.4_x86.zip"
+                    description: |-
+                      v1.0.4
+                    
+                    timestamp: "31 Jan, 2018 - 17:27"
+                    download_count: "1"

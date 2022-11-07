@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/udraw-hid-files"
+url: "udraw-hid"
+category: "plugin"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "uDraw_HID.zip"
+            description: |-
+              initial release
+            
+            timestamp: "08 Dec, 2013 - 22:56"
+            download_count: "1"

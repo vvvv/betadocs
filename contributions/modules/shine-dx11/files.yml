@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/shine-(dx11)-files"
+url: "shine-dx11"
+category: "module"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "Shine.zip"
+            description: |-
+              Shine (DX11.textureFX)
+            
+            timestamp: "19 Oct, 2015 - 20:08"
+            download_count: "1"

@@ -1,0 +1,15 @@
+### YamlMime:ContributionComment
+---
+uid: "272064"
+user: "schack"
+created: "14 May, 2019 - 08:33"
+body: |-
+  Moin moin,
+  
+  @martontokes: Is it possible that you did not place the unzipped CSVvvv folder in your \packs folder?!
+  
+  
+  
+  @JoshClose: At first big thanks!
+  
+  I currently have the Problem that the links between the Reader an every other note are disconnected every time i relaunch vvvv and I have to reconnect them by hand. Is ther an way to improve or workaround? Thanks!

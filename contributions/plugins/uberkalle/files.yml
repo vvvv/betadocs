@@ -1,0 +1,21 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/uberkalle-files"
+url: "uberkalle"
+category: "plugin"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "1"
+            filename: "UberKalle_v1.1.zip"
+            timestamp: "18 Feb, 2015 - 12:14"
+            download_count: "5"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "UberKalle.zip"
+                    timestamp: "12 Sep, 2013 - 17:01"
+                    download_count: "2"

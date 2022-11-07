@@ -1,0 +1,10 @@
+### YamlMime:ContributionComment
+---
+uid: "67726"
+user: "tgd"
+created: "10 Aug, 2011 - 10:25"
+body: |-
+  thanks guys. I have tried to make fluid but run into few issues. Biggest one seems performance, at least on my PC is not so good. I have tried MetaballsSpreaded [/tiki-download_file.php?fileId=1609](/tiki-download_file.php?fileId=1609) with about 400 circles. With that much elements it begins to look kind of fluidish, but the framrate goes down quickly. It is not easy to find right settings of the Metaballs to look right too. Second issue is scaling the Metaballs to different aspect ratios of the screen. Have to dig it bit more. The circles do best when having zero friction and about 0,5 restitution. will post the fluidtest next days. seems doable somehow. cheers 
+  
+  
+  ![title](https://vvvv.org/sites/default/files/imagecache/large/images/sub_Screen_Output-DirectX%20Renderer_2011.08.10-00.56.42.png)

@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/vvvvjs-nw-files"
+url: "vvvvjs-nw"
+category: "demo"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "vvvvjs-nw-0.1.zip"
+            description: |-
+              first experiment
+            
+            timestamp: "20 Aug, 2013 - 21:14"
+            download_count: "1"

@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "269919"
+user: "colorsound"
+created: "24 Nov, 2018 - 19:23"
+body: |-
+  Hi , just to inform that https://docs.opencv.org/3.4/d7/d7b/classcv_1_1BackgroundSubtractorMOG2.html
+  BackgroundSubtractorMOG2 is in OpenCV vl already and could be an alternative to this great plug for adaptative background suppresion.

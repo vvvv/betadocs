@@ -1,0 +1,10 @@
+### YamlMime:ContributionComment
+---
+uid: "85072"
+user: "elliotwoods"
+created: "01 Jul, 2012 - 16:04"
+body: |-
+  @newemka : 
+  paste the following for an example of putting a quad fullscreen in the background of a 3d render (note Billboard and ZWriteEnable set to false)
+  
+  <https://gist.github.com/3028828>

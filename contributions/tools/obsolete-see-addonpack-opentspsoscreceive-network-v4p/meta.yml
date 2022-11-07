@@ -1,0 +1,38 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/obsolete-see-addonpack-opentspsoscreceive-(network).v4p-meta"
+type: "tool"
+author: "LineKernel"
+date: "27 Jul, 2010"
+title: "[OBSOLETE, see Addonpack]  OpenTSPSOscReceive (Network).v4p"
+originalURL: "contribution/obsolete-see-addonpack-opentspsoscreceive-(network).v4p"
+category: "tool"
+credits: |-
+  Brett Renfer ( http://lab.rockwellgroup.com
+  // http://www.robotconscience.com )
+  
+  Joreg  ( http://vvvv.org/users/joreg )
+  
+  LineKernel (  http://LineKernel.net )
+like_count: "1"
+imported: "true"
+teaser: |-
+  Decode the blobs tracking data from TSPS through Osc
+  TSPS is a cross-platform Toolkit for Sensing People
+  in Spaces.
+  
+  http://opentsps.com/
+  by 
+  http://lab.rockwellgroup.com/
+  
+  all info :
+   http://www.openframeworks.cc/forum/viewtopic.php?f=8&t=4285
+  [is-my-osc-bundle-suposed-to-look-like-this](https://discourse.vvvv.org/t/is-my-osc-bundle-suposed-to-look-like-this)
+  
+  Credit:
+  Brett Renfer ( http://lab.rockwellgroup.com
+  // http://www.robotconscience.com )
+  
+  Joreg  ( [joreg](http://vvvv.org/users/joreg) )
+  
+  LineKernel (  http://LineKernel.net )

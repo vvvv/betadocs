@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "81439"
+user: "bjoern"
+created: "19 Apr, 2012 - 23:03"
+body: |-
+  I have to generate an URL from user input, this input can contain special characters e.g. ä/ö/ü  (like in München) or spaces. For the URL to be valid those have to be [URL encoded](http://en.wikipedia.org/wiki/URL-Encoding).

@@ -1,0 +1,16 @@
+### YamlMime:ContributionComment
+---
+uid: "153791"
+user: "mrboni"
+created: "18 Apr, 2014 - 00:16"
+body: |-
+  Just set up Kinect 2.  Installed new sdk (March update). All samples and kinect studio are working.
+  
+  vvvv plugin nodes are red though
+  
+  error:
+  
+  00:00:09 ERR : Exception occured during creation of plugin: Could not load type 'Microsoft.Kinect.KinectStatus' from assembly 'Microsoft.Kinect, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'
+  
+  
+  any ideas?  maybe the sdk update has broken the plugins?

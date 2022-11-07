@@ -1,0 +1,117 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/vvvv-message-files"
+url: "vvvv-message"
+category: "pack"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "11"
+            filename: "Foo.zip"
+            description: |-
+              Do not download here anymore, download with vpm or on the Github link provided!!!
+            
+            timestamp: "21 Dec, 2016 - 00:40"
+            download_count: "3"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "10"
+                    filename: "vvvv-Message_x64.7z"
+                    description: |-
+                      V 2.1 x64
+                    
+                    timestamp: "28 Sep, 2015 - 14:13"
+                    download_count: "3"
+                - file:
+                    bit: "64"
+                    delta: "9"
+                    filename: "vvvv-Message_x86.7z"
+                    description: |-
+                      V 2.1 x86
+                    
+                    timestamp: "28 Sep, 2015 - 14:13"
+                    download_count: "2"
+                - file:
+                    bit: "64"
+                    delta: "8"
+                    filename: "vvvv-Message_x64.7z"
+                    description: |-
+                      V 2.52 x64 (preview)
+                    
+                    timestamp: "10 Apr, 2016 - 12:08"
+                    download_count: "2"
+                - file:
+                    bit: "64"
+                    delta: "7"
+                    filename: "vvvv-Message_x86.7z"
+                    description: |-
+                      V 2.52 x86 (preview)
+                    
+                    timestamp: "10 Apr, 2016 - 12:08"
+                    download_count: "2"
+                - file:
+                    bit: "64"
+                    delta: "6"
+                    filename: "vvvv-Message_Release_x64.zip"
+                    description: |-
+                      V 2.0 x64
+                    
+                    timestamp: "17 Apr, 2015 - 12:57"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "5"
+                    filename: "vvvv-Message_Release_x86.zip"
+                    description: |-
+                      V 2.0 x86
+                    
+                    timestamp: "17 Apr, 2015 - 12:56"
+                    download_count: "3"
+                - file:
+                    bit: "64"
+                    delta: "4"
+                    filename: "vvvv-Message_x86.7z"
+                    description: |-
+                      V 1.33
+                    
+                    timestamp: "16 May, 2014 - 15:18"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "3"
+                    filename: "vvvv-Message_x64.7z"
+                    description: |-
+                      V 1.33
+                    
+                    timestamp: "16 May, 2014 - 15:18"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "2"
+                    filename: "vvvv_Message.Zip"
+                    description: |-
+                      V 1.2
+                    
+                    timestamp: "02 Jul, 2013 - 14:24"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "1"
+                    filename: "vvvv-Message.zip"
+                    description: |-
+                      V 1.1
+                    
+                    timestamp: "19 Jun, 2013 - 14:05"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "vvvv-Message.zip"
+                    description: |-
+                      V 1.0
+                    
+                    timestamp: "08 Mar, 2013 - 17:34"
+                    download_count: "2"

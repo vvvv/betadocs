@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "273189"
+user: "joreg"
+created: "09 Jul, 2019 - 09:23"
+body: |-
+  @blausand and thanks for pointing this out. i've now "fixed" this so both 32 and 64 bit downloads show up side by side.

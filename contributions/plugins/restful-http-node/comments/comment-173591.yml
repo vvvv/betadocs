@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "173591"
+user: "velcrome"
+created: "09 Nov, 2014 - 21:19"
+body: |-
+  Nice one, thanks for sharing. 
+  
+  Btw, you can pull all vvvv related packages with nuget too, no need to link your harddrive vvvv installation anymore.
+  
+  PS: Had a quick look at your github and saw that you also have a MQTT duet going on github!

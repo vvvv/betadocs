@@ -1,0 +1,16 @@
+### YamlMime:ContributionComment
+---
+uid: "58426"
+user: "vux"
+created: "13 Jan, 2011 - 23:36"
+body: |-
+  New release with the following:
+  -Custom string output in rigid body details fixed (was not outputting).
+  -SpreadMax calculation in rigid convex hull was wrong.
+  -Rigid Shapes now have custom string.
+  -New node: GetRigidShapeDetails.
+  -Collision Objects can now have a second arbitrary object as custom pin (must implement ICloneable).
+  -CreateRigidBody/UpdateRigidBody now features Allow Sleep/Is Active option
+  -CreateBody also features Static/Kinematic flag.
+  -CreateRigidBody (Persist version) was not cleaning list on world reset.
+  -GetContactDetails is temporarily removed as there's a potential crash using it, will be added back soon.

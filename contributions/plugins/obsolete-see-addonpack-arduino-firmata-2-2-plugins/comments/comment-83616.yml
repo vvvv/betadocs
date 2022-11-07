@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "83616"
+user: "patrick"
+created: "01 Jun, 2012 - 16:22"
+body: |-
+  In that case, the 595 is the easier and cost effective route to go. Good to know! Forgot to mention that aforementioned trials with soft PWM weren't done with Arduino Firmata 2.2 but BasicMata, I assume speeds would not suffice on an Arduino in any case for soft PWM on digital pins (as of  <http://arduino.cc/en/Tutorial/SecretsOfArduinoPWM> and especially  <http://www.arduino.cc/playground/Main/PWMallPins> due to the overhead made by communicating between Arduino and Master Device (ie. PC) thus rendering soft PWM not flicker/jitter free. I hope to be proven wrong tho … but that goes well beyond Arduino Firmata :-]

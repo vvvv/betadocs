@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "268325"
+user: "joreg"
+created: "26 Sep, 2018 - 14:23"
+body: |-
+  hm.. the thing is, Remoter itself is already merely a UI on top of some existing utilities. so if you want another UI for the same functionality you'd basically create a complete alternative.

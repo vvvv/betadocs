@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "157664"
+user: "Gareth.Griffiths"
+created: "26 Jun, 2014 - 22:25"
+body: |-
+  Force closing in latest Beta.
+  
+  Looks like it can't handle an empty string.

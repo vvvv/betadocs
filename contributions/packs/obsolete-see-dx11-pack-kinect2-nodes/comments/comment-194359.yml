@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "194359"
+user: "LineKernel"
+created: "08 May, 2015 - 23:10"
+body: |-
+  Quick recap for the next guy looking for infos , 
+  
+  you have to install the content of your zip in a folder named "packs" at the root of your vvvv folder 
+  you will also need the dx11 pack to be installed in the same place 
+  [directx11-nodes-alpha](xref:contribution/directx11-nodes)
+  
+  i still have a problem tho , i cant get the kinect2 node to appear by starting it from vvvv i have to start the help file from the kinect2 folder :(

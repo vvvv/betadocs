@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "86969"
+user: "everyoneishappy"
+created: "14 Aug, 2012 - 20:36"
+body: |-
+  ah good to know thanks.  
+  
+  I was briefly confused that it did not seem to work with a texture fx node without an extra render pass first, but this was just due the texture type being inherited in the module structure(ie it will try to make a depth buffer again from a quad with the first one).

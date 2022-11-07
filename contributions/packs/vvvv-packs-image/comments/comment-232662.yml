@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "232662"
+user: "mediadog"
+created: "29 Nov, 2016 - 15:04"
+body: |-
+  @dominikKoller I have not been able to get the x64 camera/projector calibrations to work at all (see my 30/08/16 comment).  As a work around I use the x86 version to do the solution, save the transform, and then load it in x64.  Works OK for fixed position setup, but not for dynamic of course.  I suspect it is an x64 build issue.

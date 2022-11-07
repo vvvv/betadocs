@@ -1,0 +1,22 @@
+### YamlMime:ContributionComment
+---
+uid: "107924"
+user: "robe"
+created: "10 Oct, 2013 - 17:29"
+body: |-
+  thank you @[everyoneishappy](http://vvvv.org/users/everyoneishappy)!
+  You made me happy with your shader.. Anyway the code editor gives me an error, but is working like a charm..
+  
+  So, go to Elliot gitub and compile the last VVVV.Packs.Images
+  The patch "Decode (Image.StructuredLight) help" in nodes\plugins should look like this (somewhat):
+  
+  ![](https://vvvv.org/sites/default/files/imagecache/large/images/Decode%20%28Image.StructuredLight%29%20help_2013.10.10-19.22.57_0.png) 
+  
+  Then use AsTexture (OpenCV DX11 bla bla) to plug into your shader.
+  It works.
+  
+  As someone on the forum sayd, EliotWoods will release the new contribution soon.
+  So stay tuned. I'm going to fund him.. ..He also bought the licence for EmguCV, so..
+  
+  I added you on skype.
+  Bye!

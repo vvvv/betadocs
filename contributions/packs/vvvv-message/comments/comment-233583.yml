@@ -1,0 +1,12 @@
+### YamlMime:ContributionComment
+---
+uid: "233583"
+user: "readme"
+created: "21 Dec, 2016 - 17:23"
+body: |-
+  Yes, totally elegant solution.
+  But when not using networking/osc and I only needed some custom datatypes to save myself from wiring loads of links through many levels of patches, woei's Struct seemed much simpler with less node overhead.
+  
+  I guess Message offers way more convenience and features that may be needed at times, but I sadly just didn't have the patience to wrap my mind around of it works, as it seemed to need way more nodes for a simple setup (Keep volatile Messages vs. permanent Structs).
+  
+  So, looking forward to learn more about this, pretty sure it solves other problems I have at times.

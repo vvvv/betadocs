@@ -1,0 +1,15 @@
+### YamlMime:ContributionComment
+---
+uid: "243354"
+user: "princemio"
+created: "09 Aug, 2017 - 12:14"
+body: |-
+  really super nice contribution! One question: is it also possible to implement non interactive states - like clicking from menu to submenu - will triggeer sequentiall three animation states between menu and submenu for animation purposes? let me know - it might be already possible and i just dont see it.
+  
+  or for instance a submenu state that once its clicked - automatically goes back to its previous state after locked time expired. so again it would be a framebased state change
+  
+  thank you again for the contribution! super nice
+  
+  best
+  
+  mio

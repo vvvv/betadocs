@@ -1,0 +1,12 @@
+### YamlMime:ContributionComment
+---
+uid: "228167"
+user: "u7angel"
+created: "18 Sep, 2016 - 17:41"
+body: |-
+  @parabola. i will make a tutorial video. october/november
+  
+  there are different use cases. 
+  i usually use one central automata, controlling my whole vvvv project. telling each subpatch in which state (aka scene) i am and disable or enable subpatches/nodes according to the active state.
+  
+  in application that means you send the current state string and everywhere else you check the string with =(string) aka "does this string equal the one which i'm waiting for here" hence enable/disable the connected nodes.

@@ -1,0 +1,18 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/developing-nodes-and-libraries-for-vl-workshop-material-meta"
+type: "tutorial"
+author: "joreg"
+date: "09 Jul, 2017"
+title: "Developing Nodes and Libraries for VL - workshop material"
+originalURL: "contribution/developing-nodes-and-libraries-for-vl-workshop-material"
+category: "tutorial"
+like_count: "2"
+imported: "true"
+teaser: |-
+  These are the patches we created in the [Developing Nodes and Libraries](https://17.nodeforum.org/events/developing-for-vl/) workshop during NODE17. 
+  
+  <div class="box">
+  Note:
+  Needs latest x68 [alpha](https://vvvv.org/downloads/previews) to work.
+  </div>

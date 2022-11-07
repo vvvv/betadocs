@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "152553"
+user: "alg"
+created: "28 Mar, 2014 - 08:53"
+body: |-
+  For everyone, who can't build Imagepack - i'm created nuget dependencies for all binary packages, that was shipped with it. Here you can pull my fork - https://github.com/smakhtin/VVVV.Packs.Image/tree/pack. You need to clone it to the packs folder inside vvvv sdk (vvvv-sdk\vvvv45\packs). After this, to restore all dependencies execute **nuget restore** from the imagepack solution folder. I think you will experience problems with dx11 projects, that currently also become dependencies. To solve this, you can try clone my fork of dx11 nodes to the packs folder (packs\dx11) https://github.com/smakhtin/dx11-vvvv/tree/pack, alongside with already cloned imagepack.
+  
+  I'm already made a pull request, so all this dependency fixing will be in main imagepack repo. About DX11 dependencies, i'm still need to fix native code support inside core vvvv packages, after this i will make a pull request.

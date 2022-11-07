@@ -1,0 +1,28 @@
+---
+uid: "contribution/vvvvatcher"
+uid-meta: "contribution/vvvvatcher-meta"
+comments: 
+ items: 
+  - uid: "104403"
+  - uid: "111260"
+  - uid: "111309"
+uid-files: "contribution/vvvvatcher-files"
+title: "VVVVatcher"
+image: "perfectanimalshots32.jpg"
+contribution: "true"
+---
+
+[RemoterSA](https://betadocs.vvvv.org/using-vvvv/boygrouping/remotersa.html) had too much features for my simple purpose. This lightweight Python27 script can just replace your .bat file. It will monitor the vvvv.exe process all the time and if it crashes it restarts your patch in partially light-speed.
+
+Requires:
+Python27
+
+<http://code.google.com/p/psutil/>
+
+How to use it?
+
+You just have to open the .py file with a text editor and write the path of the vvvv.exe to start and the path to the .v4p you want to open. Don't forget to use the python specific double backslash path (eg: C:\\Folder\\tada)
+
+Coming Soon:
+-Support for multiple vvvv instances
+-Standalone Executable

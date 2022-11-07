@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "84592"
+user: "mediadog"
+created: "22 Jun, 2012 - 05:45"
+body: |-
+  Check out   <http://vimeo.com/33088117> - the vid is 2D, but I use two renderers/PerspectiveLookAtRect offset by eye spacing to generate the stereo views and project it in full 3D.  With the 9' wide rear projection, it is truly uncanny.

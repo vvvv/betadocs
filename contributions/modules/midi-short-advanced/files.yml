@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/midi-short-advanced-files"
+url: "midi-short-advanced"
+category: "module"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "MidiShortAdv (MIDI Device).v4p"
+            description: |-
+              Module
+            
+            timestamp: "18 Jan, 2012 - 14:37"
+            download_count: "1"

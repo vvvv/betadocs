@@ -1,0 +1,12 @@
+### YamlMime:ContributionComment
+---
+uid: "73368"
+user: "ft"
+created: "15 Dec, 2011 - 15:47"
+body: |-
+  Don't mess in your VVVV directory
+  
+  The plugin should work out of the box:
+   * extract everything to a new subdirectory in My Documents or where ever your keep your vvvv projects
+   * (overwrite the dll with the most recent download)
+   * copy libvlc.dll, libvlccore.dll AND the whole 'plugins' folder (NOT THE INDIVIDUAL FILES, THE FOLDER) from your VLC installation folder **to the same folder where you can find the Vlc0_3.dll**. This should be **plugins\Vlc**. This means you would have some dlls in there AND ANOTHER FOLDER CALLED "PLUGINS" (the folder you copied from VLC).

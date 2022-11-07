@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "238709"
+user: "velcrome"
+created: "16 Apr, 2017 - 22:08"
+body: |-
+  problem confirmed with a fresh install.
+  
+  I guess they are now replaced by ScaleByLifetime and ColorByLifetime, but without a [diffff.xml](/blog/patch-conversions-pack-versioning) this change breaks patches (including help patches)

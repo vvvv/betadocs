@@ -1,0 +1,17 @@
+### YamlMime:ContributionComment
+---
+uid: "76100"
+user: "mino"
+created: "11 Feb, 2012 - 02:00"
+body: |-
+  thanks,
+  that message means couldn't load native AntTweakBar.dll. please check security settings.
+  at [christmas-pack-2011](xref:contribution/christmas-pack-2011) contribution comment,
+  
+  <div class="box">quote:jonferran:
+  Right click on all the .dll files that come with the pack, including the sanford ones, and click properties. You will notice a message that says:
+  
+  Security: This file came from another computer and might be blocked to help protect this computer
+  
+  Just click the button next to the message that says "Unblock" and you are good to go. You have to do it for all the files in nodes/plugins and the sanford .dlls individually, but after that the nodes shouldn't be red.
+  </div>

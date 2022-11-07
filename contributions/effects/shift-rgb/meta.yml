@@ -1,0 +1,13 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/shift-rgb-meta"
+type: "effect"
+author: "dEp"
+date: "07 Feb, 2011"
+title: "Shift RGB"
+originalURL: "contribution/shift-rgb"
+category: "effect"
+like_count: "14"
+imported: "true"
+teaser: |-
+  Allows you to shift RGB color channels along an axis.

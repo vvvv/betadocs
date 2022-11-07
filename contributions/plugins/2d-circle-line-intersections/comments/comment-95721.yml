@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "95721"
+user: "alg"
+created: "03 Feb, 2013 - 20:58"
+body: |-
+  I checked it - works good and looks like for line with line intersection you can use spreads of values. Which plugin needs spread support?

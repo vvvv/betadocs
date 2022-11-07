@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "249189"
+user: "eps"
+created: "17 Feb, 2018 - 18:33"
+body: |-
+  @u7angel lucky you ::] in the world of constant fps 
+  
+  as for triggering, i mean quite simple behaviour:
+  1) two states A/B with pingpong behaviour,
+  2) two dedicated buttons A/B switching to corresponding state immediately.
+  i.e. if i'm in A, <calling%20A> does nothing, <calling%20B> goes B, <waiting> goes B on timeout; same for B. 
+  how to do that in your system?

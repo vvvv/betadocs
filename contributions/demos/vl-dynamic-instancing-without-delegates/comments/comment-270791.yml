@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "270791"
+user: "microdee"
+created: "22 Jan, 2019 - 10:26"
+body: |-
+  Is there a limitation of why Activator.CreateInstance wouldn't work in vl? at least it should work in script region https://docs.microsoft.com/en-us/dotnet/api/system.activator.createinstance?view=netframework-4.7.2
+  
+  also for more reflection goodies check out fasterflect https://github.com/buunguyen/fasterflect ;)

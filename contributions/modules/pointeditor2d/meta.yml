@@ -1,0 +1,13 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/pointeditor2d-meta"
+type: "module"
+author: "henrik"
+date: "23 Sep, 2010"
+title: "PointEditor2D"
+originalURL: "contribution/pointeditor2d"
+category: "module"
+like_count: "2"
+imported: "true"
+teaser: |-
+  Edit vertices of a mesh via mouse and keyboard within the ex9 renderer.

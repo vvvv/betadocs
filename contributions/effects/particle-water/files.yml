@@ -1,0 +1,24 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/particle-water-files"
+url: "particle-water"
+category: "effect"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "1"
+            filename: "ParticleSelfCollide.zip"
+            description: |-
+              dx11 version
+            
+            timestamp: "16 Jul, 2014 - 14:24"
+            download_count: "1"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "ParticlesGPU_2d_Dynamic_FieldTexture.zip"
+                    timestamp: "29 May, 2012 - 00:02"
+                    download_count: "2"

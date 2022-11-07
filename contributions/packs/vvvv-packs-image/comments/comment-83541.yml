@@ -1,0 +1,12 @@
+### YamlMime:ContributionComment
+---
+uid: "83541"
+user: "liquid"
+created: "31 May, 2012 - 03:39"
+body: |-
+  thxs for the update. just did testing with 27.2&alpha 28
+  ok,the videoInput(DirectShow)seems now working just fine with my beta27.2,got normal 30 fps(how come the older one up to 60?),however the VideoIn (OpenCV) still not working with both27.2&alpha28,no given images at all.
+  
+  VideoIn(CLEye) perfectly running up to 60fps on both version.
+  with alpha28 the videoInput can shutdown properly,beta27.2 still the same.
+  cheers!

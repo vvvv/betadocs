@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "52665"
+user: "aze"
+created: "13 Sep, 2010 - 14:30"
+body: |-
+  difference is subtle but it's here and the perf is same, thanks guys! (radeon users will have to use vs3 in ssao_edge_blur.fx for it to work)

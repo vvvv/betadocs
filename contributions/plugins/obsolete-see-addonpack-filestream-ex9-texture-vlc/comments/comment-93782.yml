@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "93782"
+user: "joreg"
+created: "27 Dec, 2012 - 03:37"
+body: |-
+  in order to avoid confusion i'd like to close/hide this contribution since [ft](http://vvvv.org/users/ft) put the plugin into the addonpack. so the latest working version will always be in the addonpack from now on and all stuff on here is legacy.
+  
+  would be nice though if ft or anyone familiar with the matter could improve the helppatch a bit. it should include all essential information that is available on this page and describe a few things in words which i have the feeling the current helppatch is missing. anyone?

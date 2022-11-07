@@ -1,0 +1,18 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/mrwiggle-meta"
+type: "effect"
+author: "dottore"
+date: "13 Jul, 2010"
+title: "MrWiggle"
+originalURL: "contribution/mrwiggle"
+category: "effect"
+credits: |-
+  http://developer.nvidia.com/object/sdk-9.html
+like_count: "14"
+imported: "true"
+teaser: |-
+  Simple sinusoidal vertex animation on a phong-shaded surface.
+  The highlight is done in VERTEX shading -- not as a texture.
+  Textured/Untextured versions are supplied.
+  Do not let your kids play with this shader, you will not get your computer back for a while.

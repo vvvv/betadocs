@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "152382"
+user: "motzi"
+created: "24 Mar, 2014 - 21:16"
+body: |-
+  @sebl and microdee:
+  thanks for your comments. i finally got it working and the quirk was somewhere else. after a complete restart with the vvvv-sdk and some relinking it turned out to be allright.

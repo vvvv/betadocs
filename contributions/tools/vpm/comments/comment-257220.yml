@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "257220"
+user: "microdee"
+created: "06 Jul, 2018 - 23:15"
+body: |-
+  quote
+  
+  1.  **Extract anywhere with 7-zip. Extracting with the windows/file explorer vanilla unzipper will put vpm in sandboxed mode and it can't load modules for scripts in sandboxed mode. 7-zip ignores this.**
+  
+  unquote
+  
+  but I digress, indeed I could have wrote a special handler for this specific error which gives user more info immediately what's wrong. buut vpm is open source, anybody bored can add that ;)

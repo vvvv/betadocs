@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "206922"
+user: "everyoneishappy"
+created: "27 Sep, 2015 - 01:43"
+body: |-
+  @stix
+  ![](https://vvvv.org/sites/default/files/imagecache/large/images/Splines.JPG) 
+  
+  
+  * Spline count works here, did you try with the help patch?  Be sure to take loop off if you are not making loop paths.
+  * The radius buffer is lets you set thickness per spline.  May add a per segment mode later as well. 
+  * Do you mean to texture with gradient or?  in that case just use gradient (dx11.texturefx)

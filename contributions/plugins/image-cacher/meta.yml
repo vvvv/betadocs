@@ -1,0 +1,26 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/image-cacher-meta"
+type: "plugin"
+author: "elliotwoods"
+date: "01 Dec, 2010"
+title: "Image Cacher"
+originalURL: "contribution/image-cacher"
+category: "plugin"
+credits: |-
+  vux (for texture output method, and for helping me with issues I had coding this).
+like_count: "4"
+imported: "true"
+teaser: |-
+  Image cacher that loads a sequence of images into RAM.
+  Choose a file at the start of your sequence, and all the images in the sequence will be loaded into RAM (best watch your available RAM!)
+  
+  Then you can select an index out of the sequence to be loaded as a texture.
+  
+  Ideal for loading animation elements from Flash/other packages whilst avoiding the Flash Renderer and FileStream.
+  
+  Maybe you've got other uses for it as well..
+  
+  Big issue: not spreadable for now.
+  
+  elliot

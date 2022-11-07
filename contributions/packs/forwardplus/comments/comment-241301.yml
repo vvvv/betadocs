@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "241301"
+user: "microdee"
+created: "20 Jun, 2017 - 11:59"
+body: |-
+  Nice! I will check it out again. You can omit the dx11 dependency as mp.dx already has it. Otherwise it will be good, put a vpm link on the contrib page and I'll put it on vpdb

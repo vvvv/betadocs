@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "111493"
+user: "microdee"
+created: "17 Dec, 2013 - 15:24"
+body: |-
+  yep that is the ugly framedelayed texture probably in DeferredBase or any other places i used it. until i won't upload an update just replace it with the official framedelay. or just disable exceptions. apparently i forgot to avoid a zero or a nil somewhere. you can dig it up in FrameDelay (DX11.Texture2D Ugly)

@@ -1,0 +1,10 @@
+### YamlMime:ContributionComment
+---
+uid: "164530"
+user: "sonostrano"
+created: "09 Sep, 2014 - 12:53"
+body: |-
+  So last plugin (TidenBarn's) is working for me, but I've got a strange behaviour.
+  If face forward and then rotate the head up, down, left and right; all camera rotations are correct. 
+  But if I turn my head 90° right (or left) and then look up or down, camera rotation is all wrong.
+  Why is this happen? Please help

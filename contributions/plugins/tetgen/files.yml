@@ -1,0 +1,54 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/tetgen-files"
+url: "tetgen"
+category: "plugin"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "4"
+            filename: "3dTetrahedralize_b34.2_AnyCPU_v1.04.zip"
+            description: |-
+              v1.04: performance improvements
+            
+            timestamp: "31 Jan, 2017 - 00:01"
+            download_count: "1"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "3"
+                    filename: "3dTetrahedralize_b34.2_AnyCPU_v1.03.zip"
+                    description: |-
+                      now supports vertex markers, face markers, neighbors, region attributes
+                    
+                    timestamp: "13 Oct, 2016 - 15:40"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "2"
+                    filename: "3dTetrahedralize_b34.2_AnyCPU.zip"
+                    description: |-
+                      v1.02 compiled with /MT
+                    
+                    timestamp: "04 Sep, 2016 - 18:14"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "1"
+                    filename: "3dTetrahedralize_b34.2_AnyCPU.zip"
+                    description: |-
+                      v1.01
+                    
+                    timestamp: "02 Aug, 2016 - 14:06"
+                    download_count: "2"
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "3dTetrahedralize_b34.2_AnyCPU.zip"
+                    description: |-
+                      v1.0
+                    
+                    timestamp: "23 Jul, 2016 - 01:10"
+                    download_count: "2"

@@ -1,0 +1,12 @@
+### YamlMime:ContributionComment
+---
+uid: "236564"
+user: "hierro"
+created: "05 Mar, 2017 - 15:49"
+body: |-
+  Thank you for nice contributions and reaaallly appreciate help patchs :)
+  Is there a way to obtain a copy of a kinect emitter partciles that can be modified, let's say to produce a continuos trail ?
+  
+  Actually from the helppatch is applied a Z force, it looks like it reset positions moving all particles away, without replaving them, how does it works ? 
+  
+  Thank you in advance.

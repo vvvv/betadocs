@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "90524"
+user: "joreg"
+created: "31 Oct, 2012 - 01:25"
+body: |-
+  indeed, thanks for the notice. v2 now working for betas>=28.1
+  
+  @urban: when it works a new directory named dir_CONV with the converted files is placed next to the specified dir.

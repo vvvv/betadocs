@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "65045"
+user: "phlegma"
+created: "10 Jun, 2011 - 14:15"
+body: |-
+  crashes will come. press the reload button;)
+  I will have a look at the confidence property at the beginning next week. Perhaps we can have a talk about this on skype after the weekend. 
+  I use threads and backgroundworker for resource critical operation like loading a skeleton or reading image data. the rest is handled with events and callbacks.

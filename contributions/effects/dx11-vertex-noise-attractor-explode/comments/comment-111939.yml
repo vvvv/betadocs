@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "111939"
+user: "hierro"
+created: "28 Dec, 2013 - 00:57"
+body: |-
+  funky stuff :), im using it with MRE and i noticed that it leads to memory leak, i mean if i fileter geometries with noies&attractor, memory usage keeps on growing, if i just by pass it, everything stay calm, still didnt get what is the issue related.

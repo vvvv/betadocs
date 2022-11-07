@@ -1,0 +1,16 @@
+### YamlMime:ContributionComment
+---
+uid: "81829"
+user: "DiMiX"
+created: "26 Apr, 2012 - 21:18"
+body: |-
+  Hi ft
+  yes maybe it's the same ventolinmono problem i have
+  would you pls check:
+  vlc0_5> one of the FX Texture module (Blur, Edge, Emboss etc.)> Preview FX Texture
+  save the patch, open again.
+  texture output of VLC is not correct (on my pc) 
+  delete the link between VLC and FX, reconnect again- everything works again.
+  can you reproduce?
+  ![](https://vvvv.org/sites/default/files/imagecache/large/images/correct.JPG) 
+  ![](https://vvvv.org/sites/default/files/imagecache/large/images/false_0.JPG)

@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "229797"
+user: "u7angel"
+created: "14 Oct, 2016 - 20:18"
+body: |-
+  how cool is this, i was about to start working on something like the "writeIO" plugin. did this exist before or is this made by joreg for you, catweasel ?
+  
+  edit: ok it's in the patch. thanks joreg.
+  
+  one question, what is the fastest way to identify the address of an iobox apart from making a plugin for that.

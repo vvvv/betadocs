@@ -1,0 +1,15 @@
+### YamlMime:ContributionComment
+---
+uid: "105122"
+user: "bo27"
+created: "20 Aug, 2013 - 13:15"
+body: |-
+  gentlemen, there is wrong dependencies in the plugin. thats why for some it works, but for other - it isn't.
+  we have no resources to fix it now/soon
+  sorry for that.
+  
+  please use sources from algs github page to fix it by youself https://github.com/smakhtin/DrawSmooth
+  
+  or ask alg if he will find time for this
+  
+  thank you for understanding and patience

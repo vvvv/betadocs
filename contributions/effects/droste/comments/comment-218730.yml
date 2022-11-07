@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "218730"
+user: "tonfilm"
+created: "31 Mar, 2016 - 11:22"
+body: |-
+  @featherfurl and @circuitb the subfolder for dx11 shaders should be called /dx11 not /effects

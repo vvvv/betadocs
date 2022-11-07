@@ -1,0 +1,172 @@
+.contribution h2{
+  font-size: 2em;
+  margin-top: 1em;
+}
+
+.contribution h1{
+  font-weight: bold;
+  font-size: 2.2em;
+  margin-bottom: auto;
+}
+
+.contribution
+{
+  line-height: 1.5em;
+}
+
+.contribution .info{
+  width: 100%;
+  padding-top: 1em;
+}
+
+.contribution .info table
+{
+  border: none;
+  background-color: #fff;
+}
+
+.contribution .info td
+{
+  border: none;
+  padding: 0.1em 0.5em;
+}
+
+.contribution .info tr
+{
+  background-color: inherit;
+}
+
+
+.contribution .table-striped tr:nth-of-type(2n+1){
+  background-color: inherit;
+}
+
+.contribution td.key
+{
+  color: #777;
+  width: 6.5em;
+}
+
+.files{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.files .architecture{
+  flex: 1;
+}
+
+.files .architecture h4{
+  margin-top: 0.5em;
+}
+
+.file{
+  padding: 0.5em 0em 1em;
+}
+
+.file .timestamp, .file .description{
+  color: #666;
+  font-size: 0.9em;
+  line-height: 1.3em;
+}
+
+.file .filename
+{
+  margin-bottom: 0.5em;
+}
+
+/*  Collapsible Older Versions*/
+.files .collapsible {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 50%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  padding: 0.5em;
+}
+
+.files .collapsible::after {
+  content: '\002B';
+  color: #333;
+  font-weight: bold;
+  float: right;
+  margin-left: 1em;
+}
+
+.files .active, .collapsible:hover {
+  background-color: #ccc;
+}
+
+.files .older {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+  width: 90%;
+}
+
+/* Comments */
+
+.comments{
+  margin-top: 1em;
+}
+
+.comment{
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+  padding: 0.5em 0 1em;
+  border-block-end: 1px solid #ddd;
+  line-height: 1.7em;
+}
+
+.comment .avatar{
+    box-sizing: border-box;
+    display: flex;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    margin: 0;
+    background-color: #eee;
+    flex: 0 0 2.5rem
+}
+
+.comment .header
+{
+  display: flex;
+  gap: 1em;
+  flex-wrap: wrap;
+}
+
+.comment .header .comment-user
+{
+  font-weight: 700;
+}
+
+.comment .header .created
+{
+  color: rgb(153, 153, 153);
+  font-size: 0.9em;
+}
+
+.comment .body
+{
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+
+.comment .body p
+{
+  margin-bottom: 20px;
+  line-height: 1.5;  
+}
+
+.contribution .image
+{
+  margin: 1em 0em 2em;
+}

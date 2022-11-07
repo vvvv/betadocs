@@ -1,0 +1,21 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/mirror-(value)-meta"
+type: "plugin"
+author: "digitalwannabe"
+date: "12 May, 2014"
+title: "Mirror (Value)"
+originalURL: "contribution/mirror-(value)"
+category: "plugin"
+credits: |-
+  lichterloh, bildwerk
+like_count: "3"
+imported: "true"
+teaser: |-
+  Multiplies the Input Spread with (-1/1); resulting Slice Count is twice the Input Slice Count. 
+  With Bin Sizes and Reverse option. 
+  Including helpfile.
+  
+  Very easy function; I use a module version of this frequently in all kinds of cases, so I've decided to do a plugin and share it. Suggestions on the code very welcome, not a pro in written code ;)
+  
+  update: bug discovered in newest beta32.1 + performance improvement by leo bildwerk; helppatch updated

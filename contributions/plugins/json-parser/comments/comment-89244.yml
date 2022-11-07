@@ -1,0 +1,35 @@
+### YamlMime:ContributionComment
+---
+uid: "89244"
+user: "sebl"
+created: "05 Oct, 2012 - 08:51"
+body: |-
+  nice plugin, but wouldn't this make it "really" spreadable:
+  
+  ```
+  <PluginInfo(Name%20=%20"JsonParser",%20Category%20=%20"JSON",%20Help%20=%20"parse%20json%20string",%20Tags%20=%20"")>
+  public class JsonParser : IPluginEvaluate
+  {
+  	#region fields & pins
+  	<Input("JSON",%20DefaultString%20=%20"hello")>
+  	IDiffSpread<string> FInput;
+  	
+  	<Output("Output%20json")>
+  	ISpread<JObject> FJOutput;
+  	
+  	<Import()>
+  	ILogger FLogger;
+  	#endregion fields & pins
+  	//called when data for any output pin is requested
+  	
+  	public void Evaluate(int SpreadMax)
+  	{
+  		FJOutput.SliceCount = SpreadMax;
+  		
+  		if(FInput.IsChanged )
+  		{
+  			FJOutput<0> = JObject.Parse(FInput<0>);
+  		}
+  	}
+  }
+  ```

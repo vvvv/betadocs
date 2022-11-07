@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "242038"
+user: "mburk"
+created: "10 Jul, 2017 - 09:46"
+body: |-
+  Well, you can use them for the image based lighting, yes. I would recommend using this tool <https://github.com/dariomanesku/cmftStudio> for creating Radiance and Irradiance cube maps. See the IBL example for usage scenario.

@@ -1,0 +1,37 @@
+### YamlMime:ContributionComment
+---
+uid: "193699"
+user: "mediadog"
+created: "04 May, 2015 - 20:03"
+body: |-
+  With the new b33.7-x85 vs. b33x-86 pack, I am getting about half the framerate, and frequent system crashes and stacktraces when I have renderers on outputs of two graphics cards (GTX780s).  With 33x, I get roughly 70fps, and 33.7 I get about 32fps.  But the worst part is the hard system crashes, which can happen in minutes to hours, but almost always within 12-24 hours.  While I usually get a crash, sometimes vvvv just starts getting stacktraces:
+  ```
+   ERR : Exception caused by node during render :/1000/73/77/0/51
+   ERR : SlimDX.DXGI.DXGIException in SlimDX: DXGI_ERROR_DEVICE_REMOVED: Hardware device removed. (-2005270523)
+   
+   Stacktrace:
+      at SlimDX.Result.Throw<T>(Object dataKey, Object dataValue)
+      at SlimDX.Result.Record<T>(Int32 hr, Boolean failed, Object dataKey, Object dataValue)
+      at SlimDX.DXGI.SwapChain..ctor(Factory factory, ComObject device, SwapChainDescription description)
+      at FeralTic.DX11.Resources.DX11SwapChain..ctor(DX11RenderContext context, IntPtr handle, Format format, SampleDescription sampledesc, Int32 rate, Int32 bufferCount)
+      at VVVV.DX11.Nodes.DX11RendererNode.Update(IPluginIO pin, DX11RenderContext context)
+      at VVVV.DX11.Nodes.DX11RendererNode.Render(DX11RenderContext context)
+      at VVVV.DX11.Lib.RenderGraph.DX11DeviceRenderer.ProcessNode(DX11Node node)
+   
+    -  : Stack Trace
+    -  :    at SlimDX.Result.Throw<T>(Object dataKey, Object dataValue)
+      at SlimDX.Result.Record<T>(Int32 hr, Boolean failed, Object dataKey, Object dataValue)
+      at SlimDX.DXGI.SwapChain..ctor(Factory factory, ComObject device, SwapChainDescription description)
+      at FeralTic.DX11.Resources.DX11SwapChain..ctor(DX11RenderContext context, IntPtr handle, Format format, SampleDescription sampledesc, Int32 rate, Int32 bufferCount)
+      at VVVV.DX11.Nodes.DX11RendererNode.Update(IPluginIO pin, DX11RenderContext context)
+      at VVVV.DX11.Nodes.DX11RendererNode.Render(DX11RenderContext context)
+      at VVVV.DX11.Lib.RenderGraph.DX11DeviceRenderer.ProcessNode(DX11Node node)
+  ```
+  
+  This is happening in a patch that is sending one layer to six renderers, three on each graphics card, using the ViewPort node to map the displays.  The above happens for each of all six renderer nodes, not just the second card.
+  
+  I have updated nVidia drivers, and tried SLI on, off, and activate all displays with no change.  By just changing the DX11 pack back to 33x, I do not see the problem (but then see spurious black textures from DX9->DX11 video).
+  
+  If needed I can try to isolate the problem into a patch, but as it can take hours to see the problem it may take a bit.
+  
+  This is a total and literal show-stopper - any help greatly appreciated!

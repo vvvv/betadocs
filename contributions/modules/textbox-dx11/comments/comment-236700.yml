@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "236700"
+user: "microdee"
+created: "12 Mar, 2017 - 22:31"
+body: |-
+  look at [TextBlock (DX11) in mp.dx](https://github.com/microdee/mp.dx/blob/master/nodes/modules/essentials/TextBlock%20(DX11).v4p), it has similar stuff for quite some time now albeit it is not really advertised so well what's inside it.

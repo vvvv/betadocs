@@ -1,0 +1,14 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/novation-launchpad-pro-led-control-meta"
+type: "module"
+author: "lasal"
+date: "01 Feb, 2016"
+title: "Novation LaunchPad Pro LED Control"
+originalURL: "contribution/novation-launchpad-pro-led-control"
+category: "module"
+like_count: "5"
+imported: "true"
+teaser: |-
+  Some SysEx modules to take control over the Midi device Novation LaunchPad Pro.
+  https://global.novationmusic.com/launch/launchpad-pro

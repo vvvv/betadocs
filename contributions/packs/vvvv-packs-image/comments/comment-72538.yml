@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "72538"
+user: "u7angel"
+created: "29 Nov, 2011 - 10:53"
+body: |-
+  i have not tested everything but i can already say, the performance is great. my internal macbook cam wasn't really usable with vvvv. with EmguCV, its just as it should be. checking some filter nodes doesnt even kick off the fan.

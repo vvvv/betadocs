@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/edgefuzz-files"
+url: "edgefuzz"
+category: "effect"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "EdgeFuzz.zip"
+            timestamp: "22 Jun, 2010 - 14:03"
+            download_count: "1"

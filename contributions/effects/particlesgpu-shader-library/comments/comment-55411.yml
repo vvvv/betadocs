@@ -1,0 +1,10 @@
+### YamlMime:ContributionComment
+---
+uid: "55411"
+user: "dottore"
+created: "10 Nov, 2010 - 17:52"
+body: |-
+  too bad...
+  strange, i compiled both VS and PS with model 3.0, but seems the problem is not this for sprites...
+  did you tried to set a lower number of particles? like 64 instead 512 (the default value in 2d sprite patch)
+  ... i don't have any ATI card here, keep on with this updates, hope we'll fix it at the end.

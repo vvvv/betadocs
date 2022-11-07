@@ -1,0 +1,10 @@
+### YamlMime:ContributionComment
+---
+uid: "255141"
+user: "StiX"
+created: "10 Jun, 2018 - 10:10"
+body: |-
+  I am getting exception even after installing microsoft sdk
+  
+  00:00:24 ERR : Exception occured in TMPluginWrapperNode.Evaluate
+  00:00:24 ERR : Unable to load DLL 'HBAOPlus-bridge-vvvv.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)

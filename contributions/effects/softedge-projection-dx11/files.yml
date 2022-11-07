@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/softedge-projection-(dx11)-files"
+url: "softedge-projection-dx11"
+category: "effect"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "Softedge (DX11).zip"
+            timestamp: "18 May, 2015 - 08:10"
+            download_count: "1"

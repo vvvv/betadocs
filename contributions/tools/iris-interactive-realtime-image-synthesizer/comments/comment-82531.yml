@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "82531"
+user: "circuitb"
+created: "09 May, 2012 - 14:57"
+body: |-
+  just a quick note:
+  library location path issue if  iris folder is located in a subfolder called patches => substitute string

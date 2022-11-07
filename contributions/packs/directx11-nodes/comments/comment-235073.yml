@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "235073"
+user: "microdee"
+created: "07 Feb, 2017 - 14:47"
+body: |-
+  vl breaks 3D text. probably because of dll version collision.

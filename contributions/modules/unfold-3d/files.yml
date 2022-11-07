@@ -1,0 +1,36 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/unfold-(3d)-files"
+url: "unfold-3d"
+category: "module"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "2"
+            filename: "Unfold (3d).zip"
+            description: |-
+              Ver. 2.0
+            
+            timestamp: "23 Mar, 2013 - 15:26"
+            download_count: "2"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "1"
+                    filename: "Unfold (3d).zip"
+                    description: |-
+                      Ver. 1.0
+                    
+                    timestamp: "21 Jan, 2013 - 22:56"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "Unfold (3d).zip"
+                    description: |-
+                      Ver. 1.1
+                    
+                    timestamp: "22 Jan, 2013 - 20:43"
+                    download_count: "1"

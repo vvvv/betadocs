@@ -1,0 +1,32 @@
+### YamlMime:ContributionComment
+---
+uid: "58420"
+user: "dottore"
+created: "13 Jan, 2011 - 20:53"
+body: |-
+  yes you can easily add a transform to the shader. i could do it for you but it's better that you learn how to do it.  ;)
+  you have to declare a floa4x4 in the variables declaration part (the first part of the code) and call it as you want.
+  like..  
+  ```
+  float4x4 tPost <string uiname="Post Transform";>;
+  
+  ```
+  then in the vertex shader you must apply your input matrix transform to the vertices, after the particlesGPU transforms and just before passing the vertices to the pixel shader; 
+  vertex position come out from the vertex shader were there's the "Out." :
+  ```
+  Out.Pos = mul(Pos, tVP);
+  ```
+  this means  mul(Pos, tVP)   is the last transformation before pixel shader  (infact this transformation deform the vertex position using the viewProjection matrix, preparing them to fit into the 2d screen space)
+  you just have to play before this last operation.
+  "mul" is the function that allows you to transform vertices by a transform matrix:
+  position = (position, transform); 
+  so..
+  
+  ```
+  Pos = mul(Pos, tPost);   
+  // and then:
+  Out.Pos = mul(Pos, tVP);
+  ```
+  
+  good luck!
+  :)

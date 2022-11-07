@@ -1,0 +1,40 @@
+### YamlMime:ContributionComment
+---
+uid: "88168"
+user: "catweasel"
+created: "06 Sep, 2012 - 17:02"
+body: |-
+  I can't get this to work, I'm using beta28.1, tried it in addons/plugins, my contributions/plugins and running out the folder it comes in.
+  VLC is installed in default location, I've also copied the files to the plugin folder.
+  The plugin loads has all the pins but is red
+  Any suggestions?
+  
+  Edit: Ah! Its not friendly with beta 28 yet...
+  
+  TTY gives
+  
+  00:03:33 ERR : System.ComponentModel.Composition.CompositionException: The composition produced a single composition error. The root cause is provided below. Review the CompositionException.Errors property for more detailed information.
+  
+  1) Attempted to divide by zero.
+  
+  Resulting in: An exception occurred while trying to create an instance of type 'VVVV.Nodes.C0_5EX9_TextureVlcNode'.
+  
+  Resulting in: Cannot activate part 'VVVV.Nodes.C0_5EX9_TextureVlcNode'.
+  Element: VVVV.Nodes.C0_5EX9_TextureVlcNode -->  VVVV.Nodes.C0_5EX9_TextureVlcNode -->  TypeCatalog (Types='VVVV.Nodes.C0_5EX9_TextureVlcNode').
+  
+  Resulting in: Cannot get export 'VVVV.Nodes.C0_5EX9_TextureVlcNode (ContractName="VVVV.PluginInterfaces.V1.IPluginBase")' from part 'VVVV.Nodes.C0_5EX9_TextureVlcNode'.
+  Element: VVVV.Nodes.C0_5EX9_TextureVlcNode (ContractName="VVVV.PluginInterfaces.V1.IPluginBase") -->  VVVV.Nodes.C0_5EX9_TextureVlcNode -->  TypeCatalog (Types='VVVV.Nodes.C0_5EX9_TextureVlcNode').
+  
+  Resulting in: Cannot set import 'VVVV.Hosting.Factories.PluginContainer.PluginBase (ContractName="VVVV.PluginInterfaces.V1.IPluginBase")' on part 'VVVV.Hosting.Factories.PluginContainer'.
+  Element: VVVV.Hosting.Factories.PluginContainer.PluginBase (ContractName="VVVV.PluginInterfaces.V1.IPluginBase") -->  VVVV.Hosting.Factories.PluginContainer
+  
+     at System.ComponentModel.Composition.CompositionResult.ThrowOnErrors(AtomicComposition atomicComposition)
+     at System.ComponentModel.Composition.CompositionResult.ThrowOnErrors()
+     at System.ComponentModel.Composition.Hosting.ComposablePartExportProvider.Compose(CompositionBatch batch)
+     at System.ComponentModel.Composition.Hosting.CompositionContainer.Compose(CompositionBatch batch)
+     at System.ComponentModel.Composition.AttributedModelServices.ComposeParts(CompositionContainer container, Object<> attributedParts)
+     at VVVV.Hosting.Factories.PluginContainer..ctor(IInternalPluginHost pluginHost, IORegistry ioRegistry, CompositionContainer parentContainer, Type pluginType, INodeInfo nodeInfo)
+     at VVVV.Hosting.Factories.DotNetPluginFactory.CreatePlugin(INodeInfo nodeInfo, IPluginHost2 pluginHost)
+     at VVVV.Hosting.Factories.DotNetPluginFactory.CreateNode(INodeInfo nodeInfo, IInternalPluginHost pluginHost)
+     at VVVV.Hosting.Factories.AbstractFileFactory`1.Create(INodeInfo nodeInfo, INode host)
+     at VVVV.Hosting.HDEHost.CreateNode(INode node)

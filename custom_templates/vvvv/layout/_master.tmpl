@@ -38,7 +38,43 @@
           <div class="col-lg-9">
           {{/_disableAffix}}
             <article class="content wrap pt-2 pb-2" id="_content" data-uid="{{uid}}">
-              {{!body}}
+              {{#contribution}}
+                <div class="contribution">
+                  {{#overview}}
+                    {{! body}}
+                  {{/overview}}
+                  {{^overview}}
+                    <h1>{{title}}</h1>
+                    <xref uid="{{uid-meta}}" template="partials/contribution-meta.tmpl"/>
+
+                    <xref uid="{{uid-files}}" template="partials/contribution-files.tmpl"/>
+                    
+                    <h2 id="description">Description</h2>
+
+                    {{#image}}
+                      <div class="image">
+                        <img src="{{image}}"/>
+                      </div>
+                    {{/image}}
+                    
+                    {{! body}}
+                    
+                    {{#comments}}
+                      <h2 id="comments">Comments</h2>
+                      <strong>Comments are no longer accepted.<br>
+                      Please create a new topic in the <a href="https://discourse.vvvv.org/c/vvvv-beta/33" target="_blank">vvvv beta forum</a> to discuss this contribution.</strong>
+                      <div class="comments">
+                        {{#items}}
+                          <xref uid="{{uid}}" template="partials/contribution-single-comment.tmpl"/>
+                        {{/items}}
+                      </div>  
+                    {{/comments}}
+                  {{/overview}}
+                </div>
+              {{/contribution}}
+              {{^contribution}}
+                {{!body}}
+              {{/contribution}}
             </article>
           </div>
           {{^_disableAffix}}

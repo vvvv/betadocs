@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "192309"
+user: "guest"
+created: "25 Apr, 2015 - 08:11"
+body: |-
+  The LFO is missing, and from the FMsynthesis Girlpower patch. The Oscillators patch is pretty confusing, with broken links and only works when it loads up. I guess this has something to do with the ADSR node.
+  
+  Ideally to understand what each does I think it would be easier if they were demonstrated in separate patches. At the moment I don't understand how to use them, but I'll experiment. Quite excited though.
+  
+  H

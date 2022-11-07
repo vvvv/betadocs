@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/websocket-(network-server)-files"
+url: "websocket-network-server"
+category: "plugin"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "websocket_0_1.zip"
+            timestamp: "26 Feb, 2015 - 13:55"
+            download_count: "1"

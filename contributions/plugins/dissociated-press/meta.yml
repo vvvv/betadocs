@@ -1,0 +1,20 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/dissociated-press-meta"
+type: "plugin"
+author: "eps"
+date: "15 Apr, 2016"
+title: "Dissociated Press"
+originalURL: "contribution/dissociated-press"
+category: "plugin"
+credits: |-
+  <https://en.wikipedia.org/wiki/Dissociated_press>
+like_count: "9"
+imported: "true"
+teaser: |-
+  NB: updated! (i.e. done properly, not looking up all files every frame)
+  ---
+  famous oldschool algorithm to remix texts, based on Markov chain technique.
+  finds similar patterns and glue them together seamlessly (more or less).
+  works with alphabetic languages or other sequences of symbols. 
+  frequent usage may become pretty addictive behaviour ::]

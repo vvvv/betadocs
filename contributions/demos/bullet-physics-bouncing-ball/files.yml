@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/bullet-physics-bouncing-ball-files"
+url: "bullet-physics-bouncing-ball"
+category: "demo"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "Bullet_00.zip"
+            description: |-
+              Bullet Physics - Bouncing Ball
+            
+            timestamp: "22 Dec, 2012 - 10:31"
+            download_count: "1"

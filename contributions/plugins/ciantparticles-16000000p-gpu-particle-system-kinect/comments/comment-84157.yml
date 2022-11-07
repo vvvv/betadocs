@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "84157"
+user: "Martin Zrcek"
+created: "13 Jun, 2012 - 15:40"
+body: |-
+  Glad to hear you still know about this contribution. I'm preparing a big update with new functions. But it still needs some big corrections.
+  
+  About the Kinect Implement: This part is really marginal. You can use actual OpenNI SDK or Vux's Microsoft's SDK to get depth and rgb texture. It's only a picture. The rest in the patch is just a linear interpolation of points, not important.

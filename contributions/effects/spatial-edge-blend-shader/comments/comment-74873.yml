@@ -1,0 +1,14 @@
+### YamlMime:ContributionComment
+---
+uid: "74873"
+user: "woei"
+created: "15 Jan, 2012 - 18:03"
+body: |-
+  correcting line 57 from```
+  #include "Bicubic.fxh"
+  ```
+  to
+  ```
+  #include <effects\Bicubic.fxh>
+  ```
+  will reference the vvvv included .fxh file and thus throw no error

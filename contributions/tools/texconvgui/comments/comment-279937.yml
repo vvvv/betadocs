@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "279937"
+user: "bjoern"
+created: "30 Jan, 2022 - 12:46"
+body: |-
+  I've been using it quite often lately and cannot confirm that behaviour. 
+  You could check windows eventviewer for more info on what's causing the crash.

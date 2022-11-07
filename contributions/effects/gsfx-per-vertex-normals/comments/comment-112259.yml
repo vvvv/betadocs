@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "112259"
+user: "microdee"
+created: "06 Jan, 2014 - 13:25"
+body: |-
+  @colorsound: i'm thinking on the topic i already have a draft idea of a compute shader. the basic problem with smooth normals that you have to know which triangles share the same vertices.

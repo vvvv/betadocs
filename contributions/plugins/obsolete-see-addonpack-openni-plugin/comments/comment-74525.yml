@@ -1,0 +1,20 @@
+### YamlMime:ContributionComment
+---
+uid: "74525"
+user: "Milenkij"
+created: "07 Jan, 2012 - 11:13"
+body: |-
+  Today reinstall all drivers. Skeleton work, but before 10-15 seconds hang up, but patch and pc work, hang up only render (picture "freeze").
+  
+  vvvv 45beta27
+  Kinect_OpenNI_Library_1.2.zip
+  
+  nite-win32-1.5.2.21-redist.msi
+  openni-win32-1.5.2.23-redist.msi
+  SensorKinect091-Bin-Win32-v5.1.0.25.msi
+  
+  P.S. Maybe any body knows in what there can be a problem?
+  
+  
+  I try install unstable drivers nite-openni and kinect driver from master directory from git. 
+  But picture freeze after ~3 minut

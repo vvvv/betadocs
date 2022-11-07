@@ -1,0 +1,38 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/aiir-(animation).v4p-meta"
+type: "module"
+author: "kalle"
+date: "21 Jul, 2014"
+title: "AIIR (Animation).v4p"
+originalURL: "contribution/aiir-(animation).v4p"
+category: "module"
+credits: |-
+  credits to tonfilm for the original inspiration!
+like_count: "8"
+imported: "true"
+teaser: |-
+  ####  AIIR (Animation).v4p - an Adaptive Infinite Impulse Response Filter
+  
+  simplified and short:
+  .
+  a IIR Filter with dynamic delay ratio.
+  
+  the delay ratio depends on the Input's Frame Velocity.
+  
+  means:
+  small framedifference --> strong filtering
+  large framediffence --> almost no filtering.
+  
+  this way 
+  noise is filtered smoothly
+  but peaks can pass almost unfiltered.
+  
+  
+  credits to tonfilm for the original inspiration!
+  back then in 2007 i *\*\*HAD\*\** to put this into  a module. 
+  
+  <div class="box">
+  see http://legacy.vvvv.org/tiki-index.php?page=kalle.Modules.Animation
+  see http://en.wikipedia.org/wiki/Infinite_impulse_response
+  </div>

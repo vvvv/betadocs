@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "85403"
+user: "elliotwoods"
+created: "09 Jul, 2012 - 14:11"
+body: |-
+  @eno - ah ok
+  I presumed that the SDI version would work also with this plugin
+  
+  So it's complaining that a COM class isn't registered.
+  This might be because the dll's the SDK needs aren't registered.
+  
+  anyway yes, let's Skype, i'm elliotwoods on that

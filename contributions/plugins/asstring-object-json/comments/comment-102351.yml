@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "102351"
+user: "bjoern"
+created: "14 Jun, 2013 - 17:28"
+body: |-
+  Wasn't sure because it depends on that library. Should also be possible to do the serialization with standard .NET methods, but I came across this only after I uploaded the plugin and it looked a bit cumbersome in comparison.
+  
+  <http://msdn.microsoft.com/en-us/library/bb412179(v=vs.100).aspx>

@@ -1,0 +1,10 @@
+### YamlMime:ContributionComment
+---
+uid: "53363"
+user: "frostpfote"
+created: "25 Sep, 2010 - 14:39"
+body: |-
+  great work!
+  
+  i just tried it on my ati 4950 and had to change the vertex shader-version to 3_0 to get it to work. happens all the time, always gets things working.
+  VertexShader = compile vs_3_0 VSDOF();

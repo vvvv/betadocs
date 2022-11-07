@@ -1,0 +1,19 @@
+### YamlMime:ContributionComment
+---
+uid: "91373"
+user: "herbst"
+created: "16 Nov, 2012 - 09:48"
+body: |-
+  @microdee: the difference is the close interaction, and its quite stable for hand/finger position and orientation. (Actually, depending on how good the Leap works, this might of course be kind of redundant).
+  Oh, and you get head tracking with "landmark detection" (eye and mouth corners).
+  
+  I attached some images. What you see there is
+  * infrared image (you get RGB, depth, noisy infrared and "label", which is a hand and head mask)
+  * hand openness (between 0 and 1)
+  * fingertip positions
+  * hand position, palm normal, and pointing direction
+  
+  Works best in a standard desktop environment. Works, but not as good when camera isn't in front of you (e.g. above or somewhere else).
+  
+  ![hand open](image_hand_opened.jpg?1353058792)
+  ![hand closed](image_hand_closed.jpg?1353058799)

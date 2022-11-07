@@ -1,0 +1,25 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/leap-pack-meta"
+type: "pack"
+author: "microdee"
+date: "21 Aug, 2014"
+title: "Leap Pack"
+originalURL: "contribution/leap-pack"
+category: "pack"
+like_count: "8"
+imported: "true"
+teaser: |-
+  These nodes use the 2.1 and newer sdk of Leap with nearly all features it can have in an alternative approach to the current Leap implementation.
+  
+  Installation: put it in the packs folder
+  Instructions: start girlpower.v4p
+  
+  new:
+  - both for x86 and x64
+  - now frames can be managed individually
+  - which means you can retrieve earlier frames too
+  - which also means you can serialize it
+  - which again means you can save it to disc or send it over udp/tcp/sharedmemory/etc.
+  - saving to disc part: now there's a Record/Player module pair
+  - and finally: raw images! (which however doesn't get serialized :( )

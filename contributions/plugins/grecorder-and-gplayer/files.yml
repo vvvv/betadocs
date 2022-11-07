@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/grecorder-and-gplayer-files"
+url: "grecorder-and-gplayer"
+category: "plugin"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "gRecorderPlayer.zip"
+            timestamp: "28 May, 2011 - 22:55"
+            download_count: "1"

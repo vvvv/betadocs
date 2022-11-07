@@ -1,0 +1,36 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/dshow2vlc-files"
+url: "dshow2vlc"
+category: "module"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "2"
+            filename: "DSHOW2VLC.3.zip"
+            description: |-
+              Now easier to exclude video or audio stream, added a Send button, useful to set each new\modified parameter in one go.
+            
+            timestamp: "14 Jan, 2013 - 15:31"
+            download_count: "5"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "1"
+                    filename: "DSHOW2VLC.2.zip"
+                    description: |-
+                      Fixed typo in dshow-size and dshow-config args
+                    
+                    timestamp: "11 Jan, 2013 - 12:28"
+                    download_count: "2"
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "DSHOW2VLC.zip"
+                    description: |-
+                      DSHOW2VLC
+                    
+                    timestamp: "02 Jan, 2013 - 04:51"
+                    download_count: "6"

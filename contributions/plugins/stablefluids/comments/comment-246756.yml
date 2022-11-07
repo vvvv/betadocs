@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "246756"
+user: "woei"
+created: "26 Oct, 2017 - 11:30"
+body: |-
+  ah, might be incompatible with avx2 extensions. let me check, if i can compile with avx only

@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "65122"
+user: "bilderbuchi"
+created: "12 Jun, 2011 - 15:32"
+body: |-
+  A question: What parts of this has landed in the addonpack? I have installed current vvvv and addonpack, and some nodes are already there before adding the christmas pack, e.g. MulitFlipFlop (Animation Advanced), so I'd get duplicate node entries.
+  Is there a version which removed the duplicates, or did I do something wrong?

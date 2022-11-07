@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "58837"
+user: "robe"
+created: "23 Jan, 2011 - 12:34"
+body: |-
+  @bo27
+  
+  As I just learned from Kalle you have to declare also the (category) of the node to create the correct link
+  
+  Kalle (VVVV) = <span class="node">Kalle (VVVV)</span>
+  
+  :-9

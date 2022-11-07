@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "101123"
+user: "ft"
+created: "18 May, 2013 - 20:48"
+body: |-
+  @gaz: I haven't checked out the latest alpha builds, but if you want it to work, you should at least have a 64-bit version of VLC player installed (experimental build can be found on VLC website), and point to its location in libvlc_searchpath.txt
+  
+  @dEP: that file should exist already, if you created I guess you're not looking in the right place

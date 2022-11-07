@@ -1,0 +1,19 @@
+### YamlMime:ContributionComment
+---
+uid: "190282"
+user: "woei"
+created: "30 Mar, 2015 - 14:16"
+body: |-
+  * your class(es) were not inside a namespace
+  ```
+  namespace VVVV.Nodes.Tables
+  {
+    ... pluginclasses
+  }
+  ```
+  works for me
+  
+  * since you have only one slice on the insert bang, the plugin resamples that for every incoming table. try setting on slicecount 2 and see.
+  for each table on the input a bin of values, the index and the set boolean are used.
+  
+  check?

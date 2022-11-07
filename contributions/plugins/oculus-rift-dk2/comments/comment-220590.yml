@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "220590"
+user: "tonfilm"
+created: "03 Jun, 2016 - 11:32"
+body: |-
+  @UWG
+  
+  use <span class="node">* (Transform)</span> to apply additional view transformations to the eye transformation in the Oculus node, just before it is passed into the <span class="pin">View</span> of the renderer... also take care that order matters, you have to find out whether you want to multiply your camera movement before or after the eye.

@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "62758"
+user: "kinectDude"
+created: "23 Apr, 2011 - 14:59"
+body: |-
+  I had very bad flickering using the CL NUI 1.0.0.1210 driver and then switched to the 1.0.0.1121 driver and it works perfectly now.

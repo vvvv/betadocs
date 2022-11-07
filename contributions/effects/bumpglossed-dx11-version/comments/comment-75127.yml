@@ -1,0 +1,12 @@
+### YamlMime:ContributionComment
+---
+uid: "75127"
+user: "everyoneishappy"
+created: "21 Jan, 2012 - 16:20"
+body: |-
+  <div class="box">quote:catweasel:
+  The Cube environment is upside down as well ;)
+  setting the texcube to -reflVect.y -reflVect.z seems to fix that...
+  </div>
+  
+  Hmmm.  I was trying to fix this just now- this is in the shader code yes?  Can anyone tell me which line?

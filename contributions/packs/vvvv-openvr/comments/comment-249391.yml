@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "249391"
+user: "tonfilm"
+created: "24 Feb, 2018 - 15:45"
+body: |-
+  @andresc4 you need to apply that to each eye's camera/render output, make a copy of the Renderer (OpenVR) and plug in the fx there. and best start a forums thread for such questions.

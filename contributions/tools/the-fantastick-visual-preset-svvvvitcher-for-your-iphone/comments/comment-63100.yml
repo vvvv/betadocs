@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "63100"
+user: "sanch"
+created: "02 May, 2011 - 13:31"
+body: |-
+  Nice , will be great if you have time to do differrent plugin , like a simple quad / segment / mesh ... to draw in the iphone .
+  I did patch that , but it will be much better in plugin with a custom type for fantastick string. 
+  I know vvvv can act as an http server , it might be possible to load texture from vvvv directly ? not sure ...

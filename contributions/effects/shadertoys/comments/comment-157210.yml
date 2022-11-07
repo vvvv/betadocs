@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "157210"
+user: "sebl"
+created: "17 Jun, 2014 - 12:21"
+body: |-
+  hey mio, i didn't recognize framerate drops. which shader? did you query/timestamp the shader to find out how much time it needs?
+  
+  maybe you're talking about an issue that is now solved with b32.1 and latest dx11.

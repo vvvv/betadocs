@@ -1,0 +1,12 @@
+### YamlMime:ContributionComment
+---
+uid: "218912"
+user: "catweasel"
+created: "05 Apr, 2016 - 16:34"
+body: |-
+  https://plus.google.com/113584412645063854274/posts/gdGKXDkyyhd
+  
+  Heres a sketch for 4 outputs via art net using fastLED, I've recently got 7 working with octoWS via art net, using the example in the teensy WS examples.
+  I'll try and work out if I can get more universe from fastLED soon hopefully.
+  I use the DMX(artnet) node and set the IP to the controller you want to control (this means changing it per teensy if your using multiples) you need 1 per universe.
+  1 Universe will control 170pixels

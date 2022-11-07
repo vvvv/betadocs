@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "241976"
+user: "featherfurl"
+created: "08 Jul, 2017 - 06:51"
+body: |-
+  Player(DX11.Texture) doesn't seem to work in b35.8. Works fine in b35.5, but when I load things in b35.8 I get a red node. Doesn't seem to be an issue with not being able to find the contribution, as all my others load in fine. Anyone else have the same issue?

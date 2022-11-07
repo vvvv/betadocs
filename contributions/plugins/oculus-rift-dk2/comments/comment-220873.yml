@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "220873"
+user: "mediadog"
+created: "11 Jun, 2016 - 18:28"
+body: |-
+  @UWG If you look in the Oculus patch, there is a "ViewAdjustXYZ" output pin that is the output of the Oculus camera tracker.  Just add your XYZ position to that ahead of the Translate node.
+  
+  You can do the same thing with the OrientationXYZW output pin ahead of the Rotate (Quaternion Vector) node if you want to modify the user's orientation.  Just don't do either of these much dynamically unless they have a bucket handy!

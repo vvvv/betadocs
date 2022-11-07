@@ -1,0 +1,17 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/dof-filter-meta"
+type: "effect"
+author: "microdee"
+date: "19 Oct, 2011"
+title: "DOF Filter"
+originalURL: "contribution/dof-filter"
+category: "effect"
+credits: |-
+  [kalle](http://vvvv.org/users/kalle): texture controlled advanced blur effect (TexCtrlBlurAdv.fx)
+like_count: "12"
+imported: "true"
+teaser: |-
+  yet another DOF. it's a bit simpler than the already existing ones but a bit nicer (blur techniques are made by [kalle)](http://vvvv.org/users/kalle)) and slower. more info in the help patch.
+  addonpack is required for this.
+  so i hope you like it!:) if you see some potential improvements or ideas what i haven't discovered yet on any part of this feel free to write it down.

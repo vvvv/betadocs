@@ -1,0 +1,25 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/framebuf-dynamic-background-subtraction-meta"
+type: "plugin"
+author: "u7angel"
+date: "24 Jun, 2013"
+title: "Framebuf - Dynamic Background Subtraction"
+originalURL: "contribution/framebuf-dynamic-background-subtraction"
+category: "plugin"
+credits: |-
+  gnox
+like_count: "5"
+imported: "true"
+teaser: |-
+  a goodie from the past: this is a freeframe plugin i used to optimize video-tracking and filter static background.
+  
+  just got it working with beta30 again. in order to do so you need to:
+  
+  - copy framebuf.dll to vvvv_45beta30_x86\lib\nodes\freeframes
+  - copy the contents(opencv stuff) of system.zip to C:\Windows\system
+  - start vvvv and check helpfile
+  
+  beware, it might not work with resolution higher than 640x480
+  
+  if you want to make an opencv 2.0 version or something better, the zip contains the code

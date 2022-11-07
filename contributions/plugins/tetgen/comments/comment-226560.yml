@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "226560"
+user: "digitalwannabe"
+created: "05 Sep, 2016 - 10:13"
+body: |-
+  Hm ok, thanks for the info! Will try to see what's wrong....biggest problem will again be reproducing it, as I had no crashes yet, also not on the system which didn't work before. Anybody else having a crash on shutdown?
+  
+  Workaround for now would be saving the computed data into a file and load this in your production patch- as in most cases TetGen won't work in realtime you shouldn't need the node in your final patch. I also intend to do read/write nodes at some point, might take a while until I can work on that though.....

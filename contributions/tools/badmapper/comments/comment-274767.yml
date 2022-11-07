@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "274767"
+user: "joreg"
+created: "09 Jan, 2020 - 01:19"
+body: |-
+  @urbachd you don't need the dx11 pack for badMapper. only the addonpack that since b39 is by default installed by the installer.

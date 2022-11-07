@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/microsoft-kinect-2.0-tools-files"
+url: "microsoft-kinect-2-0-tools"
+category: "plugin"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "VVVV.KinectTools.zip"
+            description: |-
+              Kinect2 Tools
+            
+            timestamp: "12 Jan, 2017 - 02:27"
+            download_count: "1"

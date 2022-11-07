@@ -1,0 +1,14 @@
+### YamlMime:ContributionComment
+---
+uid: "58943"
+user: "ccc"
+created: "25 Jan, 2011 - 18:57"
+body: |-
+  using OpenNI-Bin-Win32-v1.0.0.25.exe, i just get an unconnected red node for OpenNISkeleton
+  
+  the openNI sample files all work, anything i might have missed?
+  
+  tried vvvv 24.1 and 25, win7/64
+  
+  
+  thanks

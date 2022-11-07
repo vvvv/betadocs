@@ -1,0 +1,14 @@
+### YamlMime:ContributionComment
+---
+uid: "207537"
+user: "esnho"
+created: "04 Oct, 2015 - 16:50"
+body: |-
+  Very nice!
+  To understand it I've cleaned a bit the patch, here it is ;)
+  
+  I've also changed the dissolving kind, instead to black particles dissolve to transparency.
+  
+  <http://lucamoroni.com/Disolver.7z>
+  
+  Thank you very much.

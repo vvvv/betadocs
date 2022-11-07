@@ -1,0 +1,15 @@
+### YamlMime:ContributionComment
+---
+uid: "93675"
+user: "h99"
+created: "26 Dec, 2012 - 18:08"
+body: |-
+  Hello, I'm trying to pipet webcam, but vvvv crashes|freezes; playing in VLC everything seems fine (just playing webcam, didn't tried anything else)
+  
+  vlc 2.0.4
+  beta28.1/29
+  xp 32 bit
+  
+  I would provide more info, but really don't know how, or what. If any test should be done, please ask.
+  
+  Thank you.

@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "57421"
+user: "hierro"
+created: "21 Dec, 2010 - 12:02"
+body: |-
+  From what we noticed openNI doesn't consider rolling limits, cos it's the raw motion values extraction, by the way, that can be done later to respect every 3d model carachteristics, will release a new sample today, still testing some issues on unity...

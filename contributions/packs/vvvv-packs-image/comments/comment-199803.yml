@@ -1,0 +1,15 @@
+### YamlMime:ContributionComment
+---
+uid: "199803"
+user: "mediadog"
+created: "16 Jul, 2015 - 14:07"
+body: |-
+  I am unable to get the OpenNI nodes to work, specifically for two Xtions, but not even for one Xtion.  I tried to set up for two as seen in this blog post, but the ContextAndImages node is missing an input pin (middle one) that takes the device info:
+  
+  [2-*-xtion-live-(multiple-devices-openni)](/blog/2-*-xtion-live-(multiple-devices-openni))
+  
+  ListDevices sees both devices fine.  I am using Xtion Pros, not Lives here; is that why even one does not work?  This is with 33.7_x86 and the latest version of this pack.
+  
+  I have a LOT of Primesense/Xtion cameras I would love to use for multi-cam, but have had to use Kinect V1s with the MS Kinect nodes instead.  Yuck - power bricks.
+  
+  Thanks!

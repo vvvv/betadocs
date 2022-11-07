@@ -1,0 +1,24 @@
+### YamlMime:ContributionComment
+---
+uid: "104340"
+user: "d0this"
+created: "29 Jul, 2013 - 13:54"
+body: |-
+  Cheers,
+  
+  pretty handy contribution, using it a lot.
+  But when using, i was thinking about the necessity of the connections at all.
+  
+  Why not declare Message to the new S+R Nodes...!?
+  
+  Message(Join) as a generic Datatype, that can handle everything and Message(Split) just as an reciever. So instead of the "Message-Input" of Message(Split), there could be just the Adress of some Message.
+  
+  And with Message-Type there is a way of sorting adresses.
+  For Example when Message(Join) is type Event and Message(Split) also, Message split would only show up Messages of Type Event.
+  
+  Would be The End of all the S+R hassle and patching would be much more <3!
+  
+  Just some thoughts...
+  
+  Ahoi
+  d0t

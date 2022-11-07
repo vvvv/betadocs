@@ -1,0 +1,17 @@
+### YamlMime:ContributionComment
+---
+uid: "153414"
+user: "benkuper"
+created: "11 Apr, 2014 - 10:13"
+body: |-
+  Hi everybody,
+  i'm working on the Wyphon plugin for Unity <>FFGL /Resolume, and i'm blocked with the FFGL ImportWyphon Plugin that is handling shared textures with DX9Ex device, i need to compile a full DX11 version in order to be able to share Unity's textures to Resolume.
+  
+  @elio : if you're still here, is it possible to talk with you about that ? my skype is ben_kuper and mail : bkuperberg@gmail.com
+  
+  Thank you
+  
+  EDIT : i got Wyphon fully working between Unity and Resolume in both direction !
+  I have recompiled elio's FFGL plugin to be DX11 only, so there are less contraints on texture formats.
+  
+  I will post videos & sources as soon as i cleaned up the project.

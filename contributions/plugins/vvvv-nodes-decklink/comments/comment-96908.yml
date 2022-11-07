@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "96908"
+user: "elliotwoods"
+created: "24 Feb, 2013 - 15:54"
+body: |-
+  hey all!
+  
+  i can't really do any development on this right now as i don't have a blackmagic device in a working machine (thanks to Lumacoustics, i have an Intensity Pro PCIe, but my desktop is broken. My laptop is USB3 but i don't have a USB BlackMagic to test with).
+  
+  @keftaparty - i tried to get it running in dx9ex but it failed. i'll have a chat to vux/others next time i try and implement this to see what i'm doing wrong.
+  
+  @io - Mehdi Toutain-Lope has been emailing me about this issue (2 heads off 1 node). I can see where the issue is in the code, it's just something stupid/simple to fix. But I can't test right now :(!

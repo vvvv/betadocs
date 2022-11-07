@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "83458"
+user: "mino"
+created: "29 May, 2012 - 14:40"
+body: |-
+  @circuitb
+  thanks for report again. it seems InvariantInfo will clear this error.
+  now uploaded BVH_1.1, which all Parse() method using InvariantInfo option. I hope you can see skeleton walking...
+  
+  if still not working, let's talk with irc or skype.

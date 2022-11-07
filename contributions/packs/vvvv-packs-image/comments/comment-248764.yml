@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "248764"
+user: "nzo.nzo"
+created: "02 Feb, 2018 - 10:24"
+body: |-
+  Does anyone know how to calculate the depth from image obtained with Space (CV.StructuredLight)? 
+  The goal is to get a 3d point cloud.

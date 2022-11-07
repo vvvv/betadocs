@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "87638"
+user: "tekcor"
+created: "26 Aug, 2012 - 19:31"
+body: |-
+  ah okey it also works by simply using the firmata and controlling the multiplexer with vvvv. i just dont know what's the fastest frequency i can use for sending binary code over 4 pins to the arduino.. 16MHz? maybe not because of the firmata?

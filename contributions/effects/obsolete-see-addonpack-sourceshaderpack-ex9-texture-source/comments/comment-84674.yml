@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "84674"
+user: "DiMiX"
+created: "23 Jun, 2012 - 10:46"
+body: |-
+  hi clone 
+  i'm not vjing, just interested to find the way to use v4 for interactive dance performances.you know the data from background subtraction is quite limited (texture) source and mostly requires specific treatment. i mean my stuff its not for everybody use, as your shaders . but on the side i use some small modules which could make the using TextureFX pack easier, especially for newbies. my main problems is that i'm not using unc's shaders from addon/lib. and by porting to another place v4 sporadically replaces the shaders using addon/lib. and then everything getting messy. but if you want i can try to repatch and send you to test, if you think is working and valuable, we can post. otherwise i dont want to produce user-confusing webshe..
+  cheers, dimi

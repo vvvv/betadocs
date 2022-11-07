@@ -1,0 +1,24 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/reaction-diffusion-files"
+url: "reaction-diffusion"
+category: "effect"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "1"
+            filename: "reaction_diffusion.7z"
+            description: |-
+              ported to DX11 + added some coloring options
+            
+            timestamp: "30 Jun, 2014 - 16:28"
+            download_count: "1"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "rd.zip"
+                    timestamp: "25 Aug, 2010 - 20:47"
+                    download_count: "6"

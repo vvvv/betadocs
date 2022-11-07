@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/ssao-files"
+url: "ssao"
+category: "effect"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "vvvv_SSAO.zip"
+            description: |-
+              inital version
+            
+            timestamp: "03 Jul, 2010 - 00:27"
+            download_count: "1"

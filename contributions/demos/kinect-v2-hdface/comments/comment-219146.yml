@@ -1,0 +1,12 @@
+### YamlMime:ContributionComment
+---
+uid: "219146"
+user: "mrboni"
+created: "12 Apr, 2016 - 15:43"
+body: |-
+  I'm trying to make a geomFX to output a dx11 gemometry from the buffer data from the HDFaceBuffer node, but it doesn't work - a shader will complain there is no POSIITON and TEXCOORD in the geometry, which doesn't make sense.
+  
+  Any idea?
+  
+  
+  Patch here https://www.dropbox.com/s/s28arp8i88b9agv/HDFaceBuffer%20geomFX.zip?dl=1

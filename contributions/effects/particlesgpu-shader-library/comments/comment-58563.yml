@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "58563"
+user: "lasal"
+created: "17 Jan, 2011 - 19:25"
+body: |-
+  I have the same behavior in most of the particles help files (not in the surface one) 
+  
+  Saving the render window in the other monitor works, but not in the 3d particles field, it doesn´t work for me in dualview mode  :(
+  
+  nvidia geforce gtx 260m, xp32.

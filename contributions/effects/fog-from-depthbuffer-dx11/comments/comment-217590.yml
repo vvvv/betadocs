@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "217590"
+user: "robe"
+created: "04 Mar, 2016 - 22:18"
+body: |-
+  @tonfilm
+  Thanks a ton, but the trick of the ColorChannel mapper doesn't really work in my case.
+  
+  I need to write the Fog only on my meshes and not on the background of the renderer..
+  .. If you remember in DX9.. It was so easy when the FOG was a Renderstate..

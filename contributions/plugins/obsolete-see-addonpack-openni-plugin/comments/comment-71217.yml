@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "71217"
+user: "elektromeier"
+created: "28 Oct, 2011 - 19:28"
+body: |-
+  i just discovered that there are more joint types available on skeletons joints pin.
+  
+  Like "Hand Wrist" or "Hand Fingertips".
+  
+  But if i select one of those, the plugin gets red and throws an exception.
+  
+  i guess this stuff its not implemented yet in openni?  would be great to see if a hand is open or closed...

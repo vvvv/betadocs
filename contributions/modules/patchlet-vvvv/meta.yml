@@ -1,0 +1,45 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/patchlet-(vvvv)-meta"
+type: "module"
+author: "kalle"
+date: "25 Mar, 2012"
+title: "Patchlet (VVVV)"
+originalURL: "contribution/patchlet-(vvvv)"
+category: "module"
+credits: |-
+  [bjoern](http://vvvv.org/users/bjoern)  for <span class="node">Clipboard (Windows String Set)</span>
+  
+  [vux](http://vvvv.org/users/vux) for <span class="node">OpenFileDialog (File)</span>
+like_count: "7"
+imported: "true"
+teaser: |-
+  <div class="box">
+  Note:
+  save your favourite patchlets as patches in a specific folder.
+  this new module calls a filedialog which loads *the content* of the selected patch into the clipboard.
+  now just CTRL+V into any other patch.
+  </div>
+  
+  
+  ----
+  
+  <div class="box">
+  Start helppatch
+  •  press F12
+  •  select any Patch from filedialog
+  •  click "Open" 
+  •  press CTRL+V to paste the contents of that patch anywhere you want.
+  </div>
+  
+  <div class="box">
+  recommended usage:
+  
+  put
+  • Patchlet (VVVV).v4p
+  • \patchlets
+  into your current vvvv-folder (right next to vvvv.exe and root.v4p)
+  
+  integrate into your root.v4p using your favourite shortcut
+  
+  </div>

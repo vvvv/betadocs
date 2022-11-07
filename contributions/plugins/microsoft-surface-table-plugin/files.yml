@@ -1,0 +1,27 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/microsoft-surface-(table)-plugin-files"
+url: "microsoft-surface-table-plugin"
+category: "plugin"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "1"
+            filename: "SurfaceInput-master.zip"
+            description: |-
+              SDK 2.0 Update by bjoern
+            
+            timestamp: "17 Jun, 2013 - 15:57"
+            download_count: "2"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "SurfacePluginVersion1.0.Zip"
+                    description: |-
+                      Surface Input Plugin Version 1.0
+                    
+                    timestamp: "03 May, 2011 - 17:06"
+                    download_count: "75"

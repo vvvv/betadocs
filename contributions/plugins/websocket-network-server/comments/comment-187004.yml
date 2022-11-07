@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "187004"
+user: "sagishi"
+created: "28 Feb, 2015 - 18:18"
+body: |-
+  obernardoo: to be honest it's the first piece of c# plugin in years, so i don't know the usual pitfalls. For me it works either if I place it in a project diretory, or drag the DLL into the patch. Maybe someone more savvvvy can help?
+  
+  microdee: if I had known about your much more sophisticated approach, I wouldn't have thrown this together :)

@@ -1,0 +1,14 @@
+### YamlMime:ContributionComment
+---
+uid: "271909"
+user: "mrboni"
+created: "04 May, 2019 - 08:58"
+body: |-
+  Have people had much luck with BC6 and BC7 formats from this?  The BC6 variants crash v4 as soon as the texture is in the render pipeline (filetexture will load it initially, but the crash occurs if you try to render it)
+  
+  A half HD BC7Unorm image takes around 20s to load. 
+  
+  BC7Typeless crashes texconvgui on conversion
+  
+  
+  I'm using not the most recent alpha 38.2 x64 with most recent dx11 pack

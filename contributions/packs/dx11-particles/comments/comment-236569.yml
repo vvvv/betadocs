@@ -1,0 +1,12 @@
+### YamlMime:ContributionComment
+---
+uid: "236569"
+user: "tmp"
+created: "06 Mar, 2017 - 14:37"
+body: |-
+  can you upload an example patch that throws this error?
+  or do you have these errors for all help patches?
+  did you download the correct architecture?
+  
+  if you still have problems please use this page and provide as much details as possible:
+  https://github.com/letmp/dx11-particles/issues

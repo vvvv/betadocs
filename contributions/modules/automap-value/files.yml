@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/automap-(value)-files"
+url: "automap-value"
+category: "module"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "Automap (Value).v4p"
+            description: |-
+              automatically sets the input maximum and minimum on map node and returns maped value and the maximal and minimal values from inp
+            
+            timestamp: "28 Mar, 2014 - 18:06"
+            download_count: "1"

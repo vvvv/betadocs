@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "85771"
+user: "microdee"
+created: "17 Jul, 2012 - 15:48"
+body: |-
+  sorry i've done this in alpha28 and it was working there on b27.2 very weird stuff happens i confirmed black screen and alt + right click on <span class="node">Grid (EX9.Geometry)</span> inside the <span class="node">Blend (EX9.Texture Mixer)</span> fixed the problem. so now i've "extracted" blend.fx and it works without alt+rightclicking on grid

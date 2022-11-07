@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "88183"
+user: "catweasel"
+created: "07 Sep, 2012 - 08:52"
+body: |-
+  In Beta27, if I leave it stepping through a bunch of files (spread count steady at 3 or 4) eventually v4 freezes and crashes. Anyone experience this?

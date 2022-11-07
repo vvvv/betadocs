@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "103344"
+user: "mediadog"
+created: "06 Jul, 2013 - 23:00"
+body: |-
+  Hey Herbst!  Thanks again for this, and particularly the USB workaround.  I've found that on WinXP it works without it; it seems to be a Win7 problem.
+  
+  FINALLY got my Rift!  And found there is an error in your patch: the right renderer has nothing connected to the View pin and so does not rotate.
+  
+  I can see no depth in the blocks - as if the perspective shift is not occurring.  I'll poke around on it...
+  
+  Also, the demo program in the 0.2.3 SDK has lower tracking latency than this plugin - is there a way to make this use the more recent libs?  Thanks!

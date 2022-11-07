@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "274109"
+user: "Takuma"
+created: "30 Oct, 2019 - 03:16"
+body: |-
+  Just as a report, if you're having issue using DX11 particle with Beta Preview, create packs file under vvvv_beta_38.2-4240_preview_x64 (whatever version you have), instead of putting in to the new packs directory.

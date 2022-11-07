@@ -1,0 +1,12 @@
+### YamlMime:ContributionComment
+---
+uid: "227829"
+user: "u7angel"
+created: "13 Sep, 2016 - 09:35"
+body: |-
+  minor bug in combination with latest alpha. the json from the helpfile won't load. 
+  
+  temporary fix:
+  just reset the node by Alt+right clicking, that's it...create your graph as usual and save it.
+  
+  will be fixed in next release.

@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "223471"
+user: "microdee"
+created: "25 Jul, 2016 - 04:29"
+body: |-
+  check VideoIn (CV.Image VfW), that's working under x64. If you want all the options of DirectShow though then easiest is VideoIn (DShow9) -> VideoTexture (EX9.Texture ...) wait for frame = 0 -> DX9ToDX11 (DX11.Texture2D OffscreenWindow) obtain from [mp.dx](xref:contribution/md.ecosystem.mp) -> AsImage (DX11.Texture2D) you have it.

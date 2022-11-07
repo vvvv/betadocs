@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/soft-shadows-for-point-light-files"
+url: "soft-shadows-for-point-light"
+category: "effect"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "SoftShadowsPoint.zip"
+            timestamp: "06 Mar, 2012 - 00:12"
+            download_count: "1"

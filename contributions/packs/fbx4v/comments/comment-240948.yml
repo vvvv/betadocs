@@ -1,0 +1,12 @@
+### YamlMime:ContributionComment
+---
+uid: "240948"
+user: "tonfilm"
+created: "09 Jun, 2017 - 19:11"
+body: |-
+  hello @microdee you said 
+  <div class="box">
+  Something went horribly wrong in that version apparently as Renderer (DX11 MRT) stopped initializing correctly since beta 35.5 and latest alpha. There is something dodgy with enums in general anyways nowadays.
+  </div>
+  
+  can you be more specific? is there any patch that shows the problem? would be suuuuper helpful as we just have a release candidate out that should help us all to get rid of any of these buggers...

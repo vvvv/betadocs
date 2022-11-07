@@ -1,0 +1,16 @@
+### YamlMime:ContributionComment
+---
+uid: "78714"
+user: "robe"
+created: "01 Mar, 2012 - 09:13"
+body: |-
+  Hi Desaxismundi,
+  Seems that the CaptureProperty node doesn't work with the Ps3eye:
+  - The Property window is unclickable (The checkers and the slider are gray)
+  - The Property List (Gain, exposure, white balance) doesn't affect the image.
+  
+  **Anyone can confirm this?**
+  
+  It works very well with another webcam that I have here to test. (Philips)
+  
+  Thanks

@@ -1,0 +1,33 @@
+### YamlMime:ContributionComment
+---
+uid: "236454"
+user: "seltzdesign"
+created: "28 Feb, 2017 - 15:11"
+body: |-
+  Hello velcrome!
+  
+  I have for the last few weeks been getting to grips with your message pack and really loving it. I am using it for an elaborate preset loading and saving mechanism of about 140 different parameters, each with about 10 attributes.
+  
+  To be able to load older presets even if I add new things, I need a way to edit the existing messages and overwrite the attributes of all the messages with existing topics. Edit(Message) does the trick, but I cannot specify topics there, so it just edits the values in the order they came in. I need something like Edit, but being able to specify which topics to change.
+  
+  Say I set up using ConfigKeep 3 messages:
+  
+  topic:Speed,
+  property:Speed,
+  value:1
+  
+  topic:Lightness,
+  property:Lightness,
+  value:0.5
+  
+  topic:Saturation,
+  property:Saturation,
+  value:0.1
+  
+  Now I have a preset I want to load, which contains those messages as well. I can just read the preset (from .json file), split and use edit with Force to inject the new values.
+  
+  But how can I edit those 3 messages if the preset I am loading only contains 2 of those and in a different order? I assumed I could just use ConfigKeep again but Force it, but that doesn't seem to work as expected - it only changes the messages coming out of ConfigKeep, but not the messages of the same topic and formular globally!? To be able to get to the topic I actually have another field called property, which uses the same string as the topic.
+  
+  I need something like EditByTopic, where I can input a bunch of messages like Edit, but then have an input for Topic and any of the fields I choose like ConfigKeep and it sets the values for the messages with the existing topics.
+  
+  I hope this makes some sense. Best, Armin.

@@ -1,0 +1,25 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/particlesgpu-shader-library-meta"
+type: "effect"
+author: "dottore"
+date: "08 Nov, 2010"
+title: "ParticlesGPU Shader Library"
+originalURL: "contribution/particlesgpu-shader-library"
+category: "effect"
+credits: |-
+  -Michael Mehling, who teached me many hlsl indispensable functions (holy tex2Dlod) while we were at Node08.
+  
+  -Viktor Vicsek, who let me discover GPU Sprites function.
+  
+  -Tonfilm, for many usefull HLSL transform functions taken from his ShaderTransform.
+like_count: "65"
+imported: "true"
+teaser: |-
+  This Shader Library comes from a research i did in these 2 years on possibilities offered by GPU.
+  You will find classic particle systems via GPU but this is not the end, it's just the beginning: with a similar approach you are able to create many algorithms, shapes, behaviours...not just "particles".
+  
+  Look into the Readme File for change log.
+  
+  **Here you find a sort of guide to the basic elements of this ParticlesGPU approach:**
+  [particlesgpu-library-guide](xref:contribution/particlesgpu-library-guide)

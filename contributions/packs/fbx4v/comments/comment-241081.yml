@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "241081"
+user: "microdee"
+created: "14 Jun, 2017 - 02:07"
+body: |-
+  @u7angel: good find! I know about performance, when I find time and motivation I will convert the whole module to a plugin. The high cycle count comes from the fact that it has quite some nodes inside which increases graph preparing time even when 80% of those nodes are not evaluating just on the frame when static data is ready. That Mesh node though is not working, and that's a honest mistake by me not removing it. Hotfix is coming. Nobody noticed that in Beta though including me forgeting about it. Only SkeletalMesh module exposes the complete and animated geometry. Even when dealing with static meshes just turn off processing.
+  A subjective comment on your phrasing: loading and supplying a geometry for the widest variety of possible systems is not a simple task. especially when it have to be supplied from FBX SDK where you have to deal with 5 separate matrices to get an inverse binding transform just for a single example out of many. if that would have been the case FBX4V would have been released in 2016 autumn and it wouldn't be closed source :P
+  Girlpower patch wise: that's exactly what's happening actually. Showing off and explaining specific features/use cases with meaningful data. girlpower.v4p for character animation, oldman.v4p for blendshape manipulation, city.v4p for animated rigid transforms and large scenes (camera movement), sponza.v4p for materials, which also contains a major mispatching so it will be provided in that hotfix. All of them indicating clearly which part is necessary for FBX4V and which is for showing off. I'm actually thinking about how to break it down better while maintaining functionality.

@@ -1,0 +1,22 @@
+### YamlMime:ContributionComment
+---
+uid: "57774"
+user: "Meierhans"
+created: "29 Dec, 2010 - 20:35"
+body: |-
+  Thanks for the plug. Sadly I get the same behaviour as Sapo reported. On beta24 it does not show up, on 25 it does, but freezes GUI and crashes after a few seconds. This is what I get:
+  
+  Problemereignisname:	CLR20r3
+    Problemsignatur 01:	vvvv.exe
+    Problemsignatur 02:	4.5.25.0
+    Problemsignatur 03:	4d14e5d8
+    Problemsignatur 04:	OpenNI.net
+    Problemsignatur 05:	1.0.0.24
+    Problemsignatur 06:	4d1780a0
+    Problemsignatur 07:	31
+    Problemsignatur 08:	0
+    Problemsignatur 09:	System.EntryPointNotFound
+    Betriebsystemversion:	6.0.6002.2.2.0.768.3
+    Gebietsschema-ID:	1031
+  
+  Mayebe wrong/incompatible driver installed?

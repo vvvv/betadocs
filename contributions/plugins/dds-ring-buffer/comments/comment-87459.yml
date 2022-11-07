@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "87459"
+user: "flux"
+created: "22 Aug, 2012 - 13:54"
+body: |-
+  Nice, unfortunately it doesn't work on my machine. (Renderer stays black, node gets red when changing the value on the index pin)... any idea why?

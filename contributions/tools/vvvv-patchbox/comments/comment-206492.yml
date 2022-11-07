@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "206492"
+user: "velcrome"
+created: "22 Sep, 2015 - 09:17"
+body: |-
+  There seems to have been a change in the Zip nodes, the 34.x are much more forgiving with null-elements and nil.
+  Anyway, I made it work in both versions. Have fun.

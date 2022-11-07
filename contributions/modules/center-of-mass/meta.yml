@@ -1,0 +1,14 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/center-of-mass.-meta"
+type: "module"
+author: "lasal"
+date: "09 Sep, 2014"
+title: "Center of Mass."
+originalURL: "contribution/center-of-mass."
+category: "module"
+like_count: "6"
+imported: "true"
+teaser: |-
+  Simple module to calculate the center of mass given a 3d points array.
+  http://en.wikipedia.org/wiki/Centroid#By_geometric_decomposition

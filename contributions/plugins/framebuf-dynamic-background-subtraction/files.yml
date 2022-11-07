@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/framebuf-dynamic-background-subtraction-files"
+url: "framebuf-dynamic-background-subtraction"
+category: "plugin"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "framebuf_1.0b.zip"
+            timestamp: "24 Jun, 2013 - 22:05"
+            download_count: "1"

@@ -1,0 +1,69 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/anttweakbar-meta"
+type: "plugin"
+author: "mino"
+date: "10 Feb, 2012"
+title: "AntTweakBar"
+originalURL: "contribution/anttweakbar"
+category: "plugin"
+credits: |-
+  mino, The AntTweakBar library: [Philippe Decaudin](http://anttweakbar.sourceforge.net/doc/tools:anttweakbar:license), and [this forum](http://www.gamedev.net/topic/649211-anttweakbar-for-c/) for reference C# code.
+like_count: "20"
+imported: "true"
+teaser: |-
+  It's finally here! New GUI plugin for vvvv is introduced.
+  
+  [AntTweakBar](http://anttweakbar.sourceforge.net/doc/) is a simple and easy-to-use GUI library for 3D graphic applications.
+  You can add/remove variables and create group few steps.
+  
+  NOTE:
+  This plugin is under development. any requests and bug reports welcome. 
+  
+  ### Hints
+  
+  * no more limitation of the number of variables
+  * variables saves until delete TweakBar node
+  * can use only for one renderer
+  
+  ### Known Issues
+  
+  * keyboard input with long press is not support yet
+  
+  ### Future Deployment
+  
+  * support more parameters for tweakbar and variables
+  
+  ---
+  
+  ### Change Log
+  
+  **2012.2.14 (v0.91)**
+  * support full-screen mode
+  * fixed renderer re-size bug
+  * no more output NIL if disconnect and connect layer out again
+  
+  **2012.12.25 (v0.92)**
+  * fixed fixed error when using with >beta28
+  
+  **2014.6.9 (v1.0)**
+  * re-write plugin with 100% C#
+  * support save & load tweakbar
+  * new variable Types
+  ** **Button**: like a Bang
+  ** **Enumerations**: like an Enum
+  * new nodes
+  ** **Event**: control Mouse, Keyboard, Window Size change (remove these pins from TweakBar node)
+  ** **GetEnum**: get Enum index and string from TweakBar
+  ** **Writer**: save tweakbar status & variables as text file
+  ** **SetVariable**: set variables & update GUI from patch
+  * support across multi-monitor when /dx9
+  * no more limitation of number of variables
+  * TweakBar node outputs Transform Out. it is useful for custom background with Quad
+  * improve keyboard input
+  ---
+  
+  ## Source
+  
+  source code available on github. (ver1.0 will coming soon!)
+  https://github.com/mino218/vvvvPlugins

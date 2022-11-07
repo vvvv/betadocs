@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "90643"
+user: "io"
+created: "01 Nov, 2012 - 22:19"
+body: |-
+  Now, the next step would be a dynamic gamma correction. 
+  Not sure but you should be able to input 4 RGB parameters, for RGB and probably for full white, that would be a projector/lamp color footprint. Based on this footprint a gamma correction should be calculated for every pixel that is shared among more than one viewport.
+  S.

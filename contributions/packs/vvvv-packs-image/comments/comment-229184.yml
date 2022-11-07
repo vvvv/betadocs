@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "229184"
+user: "mediadog"
+created: "01 Oct, 2016 - 18:50"
+body: |-
+  Concerning OpenNI support in x64, OpenNI 1.5 and 2.2 x64 libs can be downloaded here:
+  
+  http://www.lips-hci.com/products/sdk/
+  
+  I am using them with a dynamic plugin and the x64 libs are plug-and-play with the x86 versions, just had to change the .csproj file to point to them.

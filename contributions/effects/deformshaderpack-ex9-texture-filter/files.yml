@@ -1,0 +1,24 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/deformshaderpack-(ex9.texture-filter)-files"
+url: "deformshaderpack-ex9-texture-filter"
+category: "effect"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "1"
+            filename: "DeformShaderPack (EX9.Texture Filter).zip"
+            description: |-
+              Added new effect
+            
+            timestamp: "17 Jun, 2012 - 03:28"
+            download_count: "1"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "Pinch_&_Magnify(EX9.Texture Filter).zip"
+                    timestamp: "15 Jan, 2012 - 07:16"
+                    download_count: "1"

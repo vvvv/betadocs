@@ -1,0 +1,12 @@
+### YamlMime:ContributionComment
+---
+uid: "279819"
+user: "mediadog"
+created: "06 Jan, 2022 - 05:20"
+body: |-
+  The MIDI assemble nodes (MidiNote, MidiRaw, MidiController) are all throwing exceptions in beta_42_x64 at each MIDI event that should be sent:
+  
+  00:00:15 ERR : Exception occured in TMPluginWrapperNode.Evaluate
+  00:00:15 ERR : Method not found: 'Void Sanford.Multimedia.Midi.ShortMessageEventArgs..ctor(Byte, Byte, Byte)'.
+  
+  This does not happen in 38.1 - not sure about the betas between that and 42.  This is on Win10 Pro 21H1 x64.

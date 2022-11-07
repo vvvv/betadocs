@@ -1,0 +1,18 @@
+### YamlMime:ContributionComment
+---
+uid: "205573"
+user: "screamer"
+created: "14 Sep, 2015 - 11:13"
+body: |-
+  ![](https://vvvv.org/sites/default/files/imagecache/large/images/Cattura_4.PNG) 
+  
+  So, i've understood how the hdfacebuffer works. To work it needs that you connect the "user index" pin from skeleton node, to "Tracking id" pin on hdfacebuffer node.
+  In that way, you can see the values of hdfacebuffer moving, so the head is readed.
+  But here is where i'm stopped. Because don't know how to use the buffers sent out from hdfacebuffer,
+  that are:
+  
+  - face vertices
+  - face uv
+  - geometry
+  
+  the values from here are all what we need to create the mesh of the head, but who know how? hope that vux, or someone else with this knowledge can help us understand ;)

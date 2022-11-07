@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "111501"
+user: "seltzdesign"
+created: "17 Dec, 2013 - 17:14"
+body: |-
+  @graphicuserinterface and @microdee:
+  
+  apparently its a small bug in the DX11 for 64bit release according to @vux. I didn't even realize there was an update for it. Just installed it and it runs without red nodes now using the latest update from 4th december 2013 :)
+  
+  It was really hard to find that DX11 contribution again btw. Tag filtering doesn't work at all when you search. Here is hoping for a better vvvv website one day..
+  
+  So here is the link again: [directx11-nodes-alpha](xref:contribution/directx11-nodes)

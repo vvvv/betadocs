@@ -1,0 +1,40 @@
+### YamlMime:ContributionComment
+---
+uid: "250916"
+user: "hrovac"
+created: "15 Apr, 2018 - 10:26"
+body: |-
+  Hi Microdee,
+  
+  this tools sounds interesting,
+  i downloaded and installed it
+  then i started to download the 1st pack - my pc freezed - restart . again . freezed
+  
+  okay
+  i downloaded a fresh vanilla beta36 with addonpack
+  trying to install dx11pack via vpm doesnt work again :(
+  i have this error messages:
+   
+  <div class="box">quote:vpm:
+  vpm at your service!
+  Found a VVVV in registry.
+  Parsing input Pack
+  Input pack is dx11-vvvv
+  Initializing dx11-vvvv
+  Temp folder created successfully:
+  X:\NODE\v4\vvvv_50beta36_x64\.vpm
+  Initialization complete.
+  Installing dx11-vvvv
+  Compilation error:
+  (7,11): error CS0246: The type or namespace name 'Newtonsoft' could not be found
+   (are you missing a using directive or an assembly reference?)
+  (28,24): error CS0103: The name 'JArray' does not exist in the current context
+  Press any key to exit...
+  Removing vpm temp folder.
+  Killing GUI
+  </div>
+  
+  can you pls help me out on this?
+  
+  thx,
+  alex

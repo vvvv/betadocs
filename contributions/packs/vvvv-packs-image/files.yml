@@ -1,0 +1,124 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/vvvv.packs.image-files"
+url: "vvvv-packs-image"
+category: "pack"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "11"
+            filename: "VVVV.Packs_.Image_.zip"
+            description: |-
+              updated for beta 35.8 x64 and dx11 > 1.0 source: https://github.com/sebllll/VVVV.Packs.Image/tree/beta35
+            
+            timestamp: "12 Sep, 2017 - 09:52"
+            download_count: "1"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "10"
+                    filename: "ImagePack_x64.7z"
+                    description: |-
+                      latest compiled x64 version from https://github.com/sebllll/VVVV.Packs.Image/tree/sebl_beta43.2
+                    
+                    timestamp: "25 Nov, 2016 - 22:39"
+                    download_count: "11"
+                - file:
+                    bit: "64"
+                    delta: "9"
+                    filename: "CVImagePack_vpm1_x64.7z"
+                    description: |-
+                      freshest maintenance build from sebl's build. used with vpm
+                    
+                    timestamp: "24 Jul, 2016 - 22:20"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "8"
+                    filename: "CVImagePack_vpm1_x86.7z"
+                    description: |-
+                      freshest maintenance build from sebl's build. used with vpm
+                    
+                    timestamp: "24 Jul, 2016 - 22:17"
+                    download_count: "2"
+                - file:
+                    bit: "64"
+                    delta: "7"
+                    filename: "vvvv.packs_.image_b33-x86.zip"
+                    description: |-
+                      fresh build for beta33
+                    
+                    timestamp: "02 Sep, 2014 - 19:27"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "6"
+                    filename: "vvvv.packs_.image_b32-x86.zip"
+                    description: |-
+                      Test build for beta32
+                    
+                    timestamp: "29 May, 2014 - 15:57"
+                    download_count: "5"
+                - file:
+                    bit: "64"
+                    delta: "5"
+                    filename: "vvvv.packs_.image-b31-x86.zip"
+                    description: |-
+                      adapted to work with b31
+                    
+                    timestamp: "13 Sep, 2013 - 20:16"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "4"
+                    filename: "imagepack_45alpha29.3_x86.zip"
+                    description: |-
+                      VVVV.Packs.OpenCV
+                    
+                    timestamp: "25 Feb, 2013 - 22:32"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "3"
+                    filename: "VVVV.Nodes_.OpenCV.zip"
+                    timestamp: "30 May, 2012 - 22:42"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "2"
+                    filename: "VVVV.Nodes_.OpenCV.zip"
+                    description: |-
+                      OpenCV + OpenNI + VideoInput (DirectShow) + FreeImage (Feb 2012)
+                    
+                    timestamp: "03 Feb, 2012 - 17:07"
+                    download_count: "2"
+                - file:
+                    bit: "64"
+                    delta: "1"
+                    filename: "Engu.CV_.vlc0_.3test.zip"
+                    description: |-
+                      Vlc node using CVImageLink type (check readme.txt for instructions!!!)
+                    
+                    timestamp: "01 Dec, 2011 - 13:46"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "VVVV.Nodes_.OpenCV.zip"
+                    description: |-
+                      OpenCV + OpenNI + VideoInput (DirectShow) + FreeImage (May 2012)
+                    
+                    timestamp: "21 May, 2012 - 15:53"
+                    download_count: "1"
+    32bit:
+        latest:
+            bit: "32"
+            delta: "0"
+            filename: "VVVV.Packs_.Image_.zip"
+            description: |-
+              updated for beta 35.8 x86 and dx11 > 1.0 source: https://github.com/sebllll/VVVV.Packs.Image/tree/beta35
+            
+            timestamp: "12 Sep, 2017 - 12:41"
+            download_count: "1"

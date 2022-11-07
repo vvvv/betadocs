@@ -1,0 +1,54 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/spatial-edge-blend-shader-files"
+url: "spatial-edge-blend-shader"
+category: "effect"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "4"
+            filename: "_SpatialEdgeBlendPolar_ViewPort_TArray.zip"
+            description: |-
+              Manual Slicing by T,B,L,R,Polar Version,Independent blend width per side,new help patches,Spanmode&DualMode versions
+            
+            timestamp: "23 Mar, 2016 - 10:54"
+            download_count: "1"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "3"
+                    filename: "SpatialEdgeBlend (DX11).zip"
+                    description: |-
+                      DX11 Version
+                    
+                    timestamp: "04 Apr, 2013 - 10:06"
+                    download_count: "3"
+                - file:
+                    bit: "64"
+                    delta: "2"
+                    filename: "SpatialEdgeBlend (EX9.Effect).zip"
+                    description: |-
+                      some bugfixes, tidying up code , updated help patch
+                    
+                    timestamp: "08 Aug, 2012 - 10:54"
+                    download_count: "2"
+                - file:
+                    bit: "64"
+                    delta: "1"
+                    filename: "SpatialEdgeBlend.zip"
+                    description: |-
+                      fixed for beta27
+                    
+                    timestamp: "15 Jan, 2012 - 22:19"
+                    download_count: "1"
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "SpatialEdgeBlend.zip"
+                    description: |-
+                      Shader file and help patch
+                    
+                    timestamp: "25 Sep, 2010 - 10:45"
+                    download_count: "2"

@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "75740"
+user: "velcrome"
+created: "04 Feb, 2012 - 16:31"
+body: |-
+  there might be a problem with createnode. some people reported the issue goes away when the patch that gets changed is in window mode.

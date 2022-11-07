@@ -1,0 +1,8 @@
+### YamlMime:ContributionComment
+---
+uid: "57705"
+user: "catweasel"
+created: "28 Dec, 2010 - 14:11"
+body: |-
+  Cool stuff :D
+  Been playing with the surfaces, is there any way to have the transform input transform the object, it just seems to affect the lighting of the surface at ther moment, is that a limitation of doing it in shader?

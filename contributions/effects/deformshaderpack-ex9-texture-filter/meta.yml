@@ -1,0 +1,17 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/deformshaderpack-(ex9.texture-filter)-meta"
+type: "effect"
+author: "lecloneur"
+date: "15 Jan, 2012"
+title: "DeformShaderPack (EX9.Texture Filter)"
+originalURL: "contribution/deformshaderpack-(ex9.texture-filter)"
+category: "effect"
+like_count: "5"
+imported: "true"
+teaser: |-
+  Different shader to deform a texture.
+  *Pinch
+  *Magnify
+  *Frost
+  *Muffy (from Digital Slaves, now as a texture filter)

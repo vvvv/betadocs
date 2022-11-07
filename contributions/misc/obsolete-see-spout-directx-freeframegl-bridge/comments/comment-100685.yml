@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "100685"
+user: "microdee"
+created: "08 May, 2013 - 18:07"
+body: |-
+  ok i discovered some nasty things at first it was working for a while then i changed the input texture (which had the same length and format) resolume didn't receive anything anymore. in the module i discovered that the character encoding of the AsStrings are set to utf-16 and for some reason the output of the shared memory is not the same as the input was (more preciesely sometimes it's nothing after i force update)
+  second that the sharedmemory node set to 100 bytes is that alright? i mean what is sent over is only 8 bytes
+  and 3rd for the devvvvs SharedMemory (Raw) node feature request :D

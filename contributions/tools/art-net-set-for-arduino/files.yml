@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/art-net-set-for-arduino-files"
+url: "art-net-set-for-arduino"
+category: "tool"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "art-net for arduino.zip"
+            description: |-
+              a set of sketch for art-net reception in arduino
+            
+            timestamp: "21 Apr, 2011 - 00:39"
+            download_count: "1"

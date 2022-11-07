@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "274937"
+user: "tgd"
+created: "07 Feb, 2020 - 19:33"
+body: |-
+  Just a note to maintainer:
+  There is a stray .gitignore file in ..\nodes\plugins\
+  Makes git omit the DLLs and XMLs..

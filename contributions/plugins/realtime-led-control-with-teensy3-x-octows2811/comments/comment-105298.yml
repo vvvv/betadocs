@@ -1,0 +1,14 @@
+### YamlMime:ContributionComment
+---
+uid: "105298"
+user: "catweasel"
+created: "23 Aug, 2013 - 13:19"
+body: |-
+  Hi Velcrome, I did think about plugins for it, but had a load of things all to do concurrently last month, so never did!
+  https://github.com/scanlime/fadecandy this has also been released which is another project based on the OCto library, it uses less leds per output but gives better color and fades, I havent tried it much yet. I've been trying to get it to compile on my rPi to no avail, 1 Pi could control multiple teenys so could work out cheaper than lots of ethernet ports, I did try a bit of udp into teensy, but the buffers get overloaded, I think the udp library is a little iffy from what I could google (arduino's)
+  I'll check out your plugins though, cool stuff :D
+  
+  http://www.flickr.com/search/?q=paradox%20fellfoot
+  
+  heres some pictures of my LED's at a tiny festival my friend runs...
+  Hung off nails *blush* it is no budget ;)

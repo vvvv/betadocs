@@ -1,0 +1,14 @@
+### YamlMime:ContributionComment
+---
+uid: "68015"
+user: "stephan_grosse8"
+created: "17 Aug, 2011 - 15:32"
+body: |-
+  Hello,
+  
+  i tired to upload the basisMata.pde to the arduinoUNO. i tried to upload with arduino-0022 and arduino-0020.But both give me an error message after uploading:avrdude: stk500_getsync(): not in sync: resp=0x00
+  avrdude: stk500_disable(): protocol error, expect=0x14, resp=0x51
+  
+  What IDE of the arduino softeare you used to upload the code ?
+  greetings
+  Stephan

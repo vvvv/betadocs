@@ -1,0 +1,9 @@
+### YamlMime:ContributionComment
+---
+uid: "63511"
+user: "woei"
+created: "10 May, 2011 - 13:13"
+body: |-
+  @kalle: the xml of the beta23 version looks a little bit arbitrary... <span class="node">Vector (2d Join) </span> nodes have a <span class="pin">Z</span> and <span class="node">Transform (2d) </span> <span class="pin">X</span> <span class="pin">Y</span> in addition to <span class="pin">TranslateX</span> and <span class="pin">TranslateY</span>
+  also the nodename is <span class="node">Vector (2d Join)</span> while the systemname is <span class="node">Vector (3d Join) </span>
+  cleaning everything to how it is supposed to be, it opens up perfectly in 25.1

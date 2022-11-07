@@ -1,0 +1,12 @@
+### YamlMime:ContributionComment
+---
+uid: "178370"
+user: "Noir"
+created: "11 Dec, 2014 - 20:52"
+body: |-
+  Tested with win 8.1
+  Beta 33.3
+  
+  Workaround:
+  Open custom PowerMate application and set the possible actions in vvvv
+  It works like charm on my side

@@ -1,0 +1,32 @@
+### YamlMime:ContributionComment
+---
+uid: "88116"
+user: "selavivivi"
+created: "05 Sep, 2012 - 14:22"
+body: |-
+  Thanks for sharing... iris is working (not unstable/useless) but the TTY renderer goes crazy writting "Excepcion occured in the TMPlugingWrapperNode. Evaluate: intento de dividir por cero" and so on and so on...
+  I saved the log file begins like this but is too long
+  <=====================================================
+  = 05/09/2012 15:32:23                                                        
+  ==========================================================
+  There was an error during the execution of this program.
+  The application might become unstable and even useless.
+  It's recommended that you save your work and close this application.
+  
+  Intento de dividir por cero.
+  
+  ------------------------------------------------------------------------------
+  Exception log with detailed tech info. Generated on 05/09/2012 15:32:04.
+  You may send it to the application vendor, helping him to understand what had happened.
+   Application title: Iris
+   Application file: I:\vvvv\vvvv_45beta28\vvvv.exe
+  ------------------------------------------------------------------------------
+  Exception class: EClrException
+  Exception message: Intento de dividir por cero.
+  Exception address: 00000000
+  ------------------------------------------------------------------------------
+  System.DivideByZeroException: Intento de dividir por cero.
+     en VVVV.Utils.VMath.VMath.Zmod(Int32 z, Int32 d)
+     en VVVV.PluginInterfaces.V2.Spread`1.get_Item(Int32 index)
+     en VVVV.Nodes.StringDictionaryNode.Evaluate(Int32 SpreadMax)
+     en VVVV.Hosting.Factories.PluginContainer.VVVV.PluginInterfaces.V1.IPlugin.Evaluate(Int32 spreadMax)>

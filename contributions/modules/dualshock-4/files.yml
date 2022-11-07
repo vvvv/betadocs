@@ -1,0 +1,13 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/dualshock-4-files"
+url: "dualshock-4"
+category: "module"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "DualShock4.v4p"
+            timestamp: "26 Feb, 2014 - 14:34"
+            download_count: "2"

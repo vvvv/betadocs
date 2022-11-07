@@ -1,0 +1,48 @@
+### YamlMime:ContributionComment
+---
+uid: "107896"
+user: "everyoneishappy"
+created: "10 Oct, 2013 - 09:59"
+body: |-
+  @robe
+  That sounds neat.  Would love to see the finished patch if you get it up and running.
+  
+  I had a dx9 shader that I think is what you are asking for, here is a quick port to dx11 tfx.  
+  
+  Edit: can't upload here because it's a contribution thread but the code is very short:
+  ****
+  **SampleByTexture.tfx**
+  ```
+  Texture2D texture2d : PREVIOUS;
+  Texture2D uvTex ;
+  
+  SamplerState linearSampler : IMMUTABLE
+  {
+      Filter = MIN_MAG_MIP_LINEAR;
+      AddressU = Wrap;
+      AddressV = Wrap;
+  };
+  
+  struct psInput
+  {
+  	float4 p : SV_Position;
+  	float2 uv : TEXCOORD0;
+  };
+  
+  
+  float4 PS(psInput input) : SV_Target
+  {
+  	float4 tUV = uvTex.Sample(linearSampler,input.uv);
+  	float4 c = texture2d.Sample(linearSampler,tUV);
+  	return c;
+  }
+  
+  technique10 Process
+  {
+  	pass P0
+  	{
+  		SetPixelShader(CompileShader(ps_4_0,PS()));
+  	}
+  }
+  
+  ```

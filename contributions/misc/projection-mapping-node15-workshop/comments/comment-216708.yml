@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "216708"
+user: "dominikKoller"
+created: "15 Feb, 2016 - 23:27"
+body: |-
+  heyhey
+  
+  vasilis, thanks for pointing out - the [vvvv.packs.image](xref:contribution/vvvv.packs.image) does not work on some gpus, due to a missing file nvcuda.dll
+  
+  Go to the imagepack contribution, it's mentioned in the discussion there! Also you can find the download of nvcuda.dll

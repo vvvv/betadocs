@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "239730"
+user: "mediadog"
+created: "21 May, 2017 - 20:07"
+body: |-
+  Ah, found something that works for me for multiple rays.  In MicrodevilIntersect (DX11.Gemoetry).v4p, the input mesh count is being used as the Element Count into the Renderer.  Changing that to the count of rayposXYZ 3D vectors gives me good hits.
+  
+  In other words, drop in a Count (3d) with the input hooked to the rayposXYZ input IO box, and its output hooked to the Renderer Element Count input pin.
+  
+  Have not tested if this works as Pedro would expect for multiple meshes (I'm only using one) and when First Only is false; I expect there may be more issues (should it be mesh count * ray count?).  But at least now I can come out of Pedro's dungeon for a while longer...

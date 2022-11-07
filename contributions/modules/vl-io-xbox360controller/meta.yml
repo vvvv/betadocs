@@ -1,0 +1,31 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/vl.io.xbox360controller-meta"
+type: "module"
+author: "domj"
+date: "21 Apr, 2019"
+title: "VL.IO.Xbox360Controller"
+originalURL: "contribution/vl.io.xbox360controller"
+category: "module"
+credits: |-
+  Uses SharpDX.XInput, dependency automatically installed via nuget
+like_count: "3"
+imported: "true"
+teaser: |-
+  This package adds nodes allowing you to use an Xbox 360 Controller in VL easily.
+  
+  Similar pin layout as this plugin for vvvv [xbox360controller](xref:contribution/xbox360controller) but adds a Is Connected output and also there are 3 versions of the node available:
+  1. Standard - Outputs all controller inputs as either floats or booleans
+  2. Vector - Standard with thumbsticks as Vector2 values
+  3. State - Outputs a single Record object
+  
+  1. Install using nuget in the commandline:
+  ```
+  nuget install VL.IO.Xbox360Controller
+  ```
+  2. Add dependency to VL.IO.Xbox360Controller via the node browser
+  3. Find nodes in IO.Xbox360Controller
+  
+  A demo patch is included in examples folder in the nuget install location
+  
+  Enjoy

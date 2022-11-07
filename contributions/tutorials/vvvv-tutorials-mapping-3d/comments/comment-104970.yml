@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "104970"
+user: "elresidente"
+created: "15 Aug, 2013 - 15:29"
+body: |-
+  <div class="box">quote:username:mrboni
+  ok, it seems the view is inverted in the z direction somehow!
+  
+  have 'fixed' with a scale z of -1
+  </div>
+  
+  I fixed this in the may 2012 version with 30.2 by changing the coordinates pin of the CalibrateCamera node inside of CalibrateProjector from "vvvv" to "OpenCV".

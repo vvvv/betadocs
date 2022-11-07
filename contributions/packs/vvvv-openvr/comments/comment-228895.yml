@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "228895"
+user: "sebl"
+created: "28 Sep, 2016 - 18:18"
+body: |-
+  @tonfilm maybe you can do the readback similar to here (https://github.com/elliotwoods/VVVV.Nodes.ReadBack) not sure this is the ideal way for reading back only 1 pointer, but at least it's threaded.

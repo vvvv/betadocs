@@ -1,0 +1,15 @@
+### YamlMime:ContributionMeta
+---
+uid: "contribution/kinect-v2-hdface-meta"
+type: "demo"
+author: "screamer"
+date: "12 Feb, 2015"
+title: "Kinect v2 HDFACE"
+originalURL: "contribution/kinect-v2-hdface"
+category: "demo"
+credits: |-
+  for work this patch needs dx11 a kinect2 packs installed, and to make it work, take the nuidatabase folder (that should be something like "C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\bin\NuiDatabase" and you have to copy the entire folder to your kinect2 pack folder
+like_count: "4"
+imported: "true"
+teaser: |-
+  Oh, and if you press spacebar you can save the actual face, and use it as a texture for the facemodel (so for example you can give your face to someone)

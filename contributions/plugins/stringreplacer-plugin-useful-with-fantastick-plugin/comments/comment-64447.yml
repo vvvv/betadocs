@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "64447"
+user: "gilbi"
+created: "31 May, 2011 - 15:13"
+body: |-
+  Thanks Kalle, that will be useful in the future. This plugin is a lot faster than Substitute when you use the Enabled pin, but obviously making a module wrapping Substitute with an Enabled pin would be very easy.

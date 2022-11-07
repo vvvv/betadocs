@@ -1,0 +1,11 @@
+### YamlMime:ContributionComment
+---
+uid: "168070"
+user: "anonym_hk"
+created: "09 Oct, 2014 - 11:38"
+body: |-
+  Hi, Just stumbled on Bad Mapper.
+  It is assumed that the polygons have four vertices. What if I want a polygon with more or less vertices for masking?
+  I changed bin size for polygons in the sub folder patches. But then I started to get weird shaped textures. No wonder :)
+  How do I do it?
+  Thanks, Bad Mapper is cool.

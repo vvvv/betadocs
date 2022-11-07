@@ -1,0 +1,16 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/simplecloth-files"
+url: "simplecloth"
+category: "plugin"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "0"
+            filename: "SimpleCloth_v1.0.zip"
+            description: |-
+              dynamic plugin for you ultimative hacking pleasure
+            
+            timestamp: "19 Nov, 2015 - 00:20"
+            download_count: "1"

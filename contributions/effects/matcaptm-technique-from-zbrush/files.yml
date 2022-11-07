@@ -1,0 +1,24 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/matcap™-technique-from-zbrush-files"
+url: "matcaptm-technique-from-zbrush"
+category: "effect"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "1"
+            filename: "MatCapDx11.zip"
+            description: |-
+              Dx11 Version (only)
+            
+            timestamp: "06 Oct, 2016 - 13:58"
+            download_count: "1"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "MatCapZBrush.zip"
+                    timestamp: "25 Mar, 2013 - 12:06"
+                    download_count: "1"

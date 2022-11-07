@@ -1,0 +1,7 @@
+### YamlMime:ContributionComment
+---
+uid: "249183"
+user: "microdee"
+created: "17 Feb, 2018 - 12:51"
+body: |-
+  then let's say your fps is not constant 60 but varies between 100 and 75, or you switch from 60 fps to 144 because you've got a fancy high speed monitor. if I want to have events delayed by specific frames I use a frame based monoflop to deal with that

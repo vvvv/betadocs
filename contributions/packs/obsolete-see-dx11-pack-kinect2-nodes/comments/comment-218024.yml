@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "218024"
+user: "T.Kit"
+created: "17 Mar, 2016 - 09:45"
+body: |-
+  Ok! I have use the x64 version for Vvvv beta34 and packs: dx11 0.6.1 and kinect2 b33.7 pack.
+  
+  Now, some nodes from kinect2 are ok. but the nodes: Kinect2, Hand, Gesture are in red and without pins, instead Skeleton, Face nodes are in red with pins.
+  
+  What can I do? :((
+  
+  Thanks a lot.

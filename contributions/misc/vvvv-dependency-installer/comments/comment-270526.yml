@@ -1,0 +1,13 @@
+### YamlMime:ContributionComment
+---
+uid: "270526"
+user: "u7angel"
+created: "03 Jan, 2019 - 05:08"
+body: |-
+  @andresc4
+  yeah, you might not be able to execute custom powershell scripts. you need to enable the following
+  
+  Start Windows PowerShell with the "Run as Administrator" option. Only members of the Administrators group on the computer can change the execution policy.
+  Enable running unsigned scripts by entering:
+  
+  set-executionpolicy remotesigned

@@ -1,0 +1,24 @@
+### YamlMime:ContributionFiles
+---
+uid: "contribution/mre-multipass-render-engine-files"
+url: "mre-multipass-render-engine"
+category: "misc"
+files:
+    64bit:
+        latest:
+            bit: "64"
+            delta: "1"
+            filename: "MRE - Multipass Render Engine 1.0.zip"
+            timestamp: "28 Jan, 2012 - 23:48"
+            download_count: "5"
+        older:
+            files:
+                - file:
+                    bit: "64"
+                    delta: "0"
+                    filename: "MRE - Multipass Render Engine 1.1.zip"
+                    description: |-
+                      Modularized and sperimental Point Shadows
+                    
+                    timestamp: "06 Feb, 2012 - 02:55"
+                    download_count: "2"
