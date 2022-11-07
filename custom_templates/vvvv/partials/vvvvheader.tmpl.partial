@@ -36,7 +36,7 @@
 					</li>
 					
 					<li {{#contribution}}class="active"{{/contribution}}>
-						<a href="/_site/contributions/staffpicks/">Contributions</a>
+						<a href="/contributions/staffpicks/">Contributions</a>
 						<ul>
 							<li><a href="https://vvvv.org/contributions">All</a></li>
 							<li><a href="https://vvvv.org/store">Store</a></li>
