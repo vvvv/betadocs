@@ -177,11 +177,11 @@ Hardware accelerated HAP video player
   
 **DX11 Imagesequence Player**  
 Ultra-HighEnd video playback performance for vvvv / dx11.  
-</store>(/store)  
+[Store](xref:store)  
   
 **DX11 BlackmagicDesign Decklink VideoIn**  
 a professional videocapture soltion safe to use across all scenarios  
-</store>(/store)  
+[Store](xref:store) 
   
   
   
@@ -210,7 +210,7 @@ Simple GUI for MS Texconv using DirectXTex to convert image stacks. Can do BC6 a
 
   
 **VVVV.Packs.Image**  
-OpenCV for vvvv. Note that there is a newer <OpenCV%20implementation%20for%20VL>(/blog/vl.opencv-release-candidate).  
+OpenCV for vvvv. Note that there is a newer [OpenCV implementation for VL](https://visualprogramming.net/blog/2019/vl.opencv-release-candidate).  
 [vvvv.packs.image](xref:contribution/vvvv.packs.image)  
   
 **Optical Flow DX11 GPU**  
@@ -258,7 +258,7 @@ stabilize blobs, handle ghost blobs and smooth the incoming data
   
 **OptiTrack Motiontracking**  
 Nodeset to read data about markers, rigid bodys and tracking statistics from an OptiTrack Motive server.  
-</store>(/store)  
+[Store](xref:store)
   
 **Track (Vector3D)**  
 helps to restore a certain spread order from a unordered list of coordinates.  
@@ -273,7 +273,7 @@ A visual finite state machine editor
   
 **Content Management System**  
 if you have a large project, with lot's of information, texts and media, you might want to manage that in a less painful way than using folders and XML files.  
-</store>(/store)  
+[Store](xref:store)
   
 **vvvv-Patchbox**  
 This toolset gives you some additional capabilities to patch with great speed.  
