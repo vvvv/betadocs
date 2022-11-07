@@ -111,6 +111,10 @@
 
 /* Comments */
 
+.comments{
+  margin-top: 1em;
+}
+
 .comment{
   display: flex;
   flex-direction: row;
