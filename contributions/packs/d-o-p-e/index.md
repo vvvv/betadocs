@@ -22,7 +22,7 @@ comments:
   - uid: "271646"
   - uid: "271755"
 uid-files: "contribution/d.o.p.e.-files"
-title: "d.o.p.e."
+title: "d.o.p.e. [dope]"
 image: "_30.10.2016-04.07.17.gif"
 contribution: "true"
 ---
@@ -39,8 +39,10 @@ contribution: "true"
   
    
    
-###  Shape-aware blend weight computation for 2D/3D meshes
-###  Features:
+###  Shape-aware blend weight computation for 2D/3D meshes
+
+###  Features:
+
 - Input can be either triangulated 2D meshes or 3D volumetric meshes
 - Supported control handles: single points, connected bones and cages (of arbitrary topology)
 - Control handles can be translated, scaled and rotated
@@ -64,19 +66,22 @@ d.o.p.e. is based on research and code from the Interactive Geometry Lab @ ETH Z
 
    
 
-###  Source Code:
+###  Source Code:
+
 [https://github.com/digitalwannabe/d.o.p.e.](https://github.com/digitalwannabe/d.o.p.e.)
 
  
    
-###  Licenses:
+###  Licenses:
+
 All my code is MIT where possible; always happy about credit to digitalWannabe/lichterloh
 All code from libigl is MPL2
 
 
   
 
-###  ToDo:
+###  ToDo:
+
 - Pseudo edges; from the original research: linear transform helpers for point handles, which infer point rotations from their translations
 - DX9 version of linear blend skinning shader
 - Solution for normals
@@ -90,7 +95,8 @@ All code from libigl is MPL2
           
      
 
-###  Changelog:
+###  Changelog:
+
 v1.2 :
 - added support for instancing (incl. hack for noodles), see 3D girlpower folder
 - updated triangle/tetgen
@@ -107,7 +113,8 @@ v1.0 :
    
    
 
-###  known bugs:
+###  known bugs:
+
 - the linear blend skinning shader shows an error on startup, not sure why yet....only applies to alpha versions....
 
     

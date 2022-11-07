@@ -6,9 +6,9 @@
   href: craftlie-dx11-drawing-for-vl\index.md
 - name: "CSVvvv"
   href: csvvvv\index.md
-- name: "d.o.p.e."
+- name: "d.o.p.e. [dope]"
   href: d-o-p-e\index.md
-- name: "DirectX11 Nodes"
+- name: "DirectX11 Nodes [DX11]"
   href: directx11-nodes\index.md
 - name: "DX11.Particles"
   href: dx11-particles\index.md
@@ -64,7 +64,7 @@
   href: vvvv-message\index.md
 - name: "VVVV.OpenVR"
   href: vvvv-openvr\index.md
-- name: "VVVV.Packs.Image"
+- name: "VVVV.Packs.Image [OpenCV]"
   href: vvvv-packs-image\index.md
 - name: "VVVV.Packs.MachineLearning (alpha)"
   href: vvvv-packs-machinelearning-alpha\index.md

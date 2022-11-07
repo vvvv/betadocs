@@ -216,15 +216,18 @@ comments:
   - uid: "277269"
   - uid: "277354"
 uid-files: "contribution/vvvv.packs.image-files"
-title: "VVVV.Packs.Image"
+title: "VVVV.Packs.Image [OpenCV]"
 image: "Multi Camera.png"
 contribution: "true"
 ---
 
-1.  Installation
+1.  Installation
+
 Get it with [vpm](xref:contribution/vpm)
-##  <a href="vpms://raw.githubusercontent.com/vvvvpm/vpdb/master/elliotwoods/CVImagePack/contrib.vpm1.vpack">With DX11</a>
-###  <a href="vpms://raw.githubusercontent.com/vvvvpm/vpdb/master/elliotwoods/CVImagePack/contrib.vpm1.nodx11.vpack">Without DX11</a>
+##  <a href="vpms://raw.githubusercontent.com/vvvvpm/vpdb/master/elliotwoods/CVImagePack/contrib.vpm1.vpack">With DX11</a>
+
+###  <a href="vpms://raw.githubusercontent.com/vvvvpm/vpdb/master/elliotwoods/CVImagePack/contrib.vpm1.nodx11.vpack">Without DX11</a>
+
 (missing DX11 pack might cause problems)
 
 OR
@@ -232,7 +235,8 @@ OR
 1. create a \packs folder next to \girlpower (in case you don't have it yet)
 1. unzip so that the \Image folder lands in the \packs folder (i.e. just next to \DX11 if you also have the dx11 pack)
  
-1.  Features
+1.  Features
+
 * Threaded image processing
 * OpenCV functionality (e.g. image processing, tracking, calibration)
 * DirectShow capture
@@ -243,7 +247,8 @@ OR
 * Structured Light (experimental)
 * CLEye (i.e. PlayStation eye) is currently disabled but can be back v. soon
 
-1.  Finding bugs
+1.  Finding bugs
+
 Please file bug reports using the [ GitHub issue tracker](https://github.com/elliotwoods/VVVV.Packs.Image/issues%20)
 
 I know it's easier just to post below, but it's a real mess down there! With the GitHub tracker, it's much easier to keep track of the status of any bugs.
@@ -251,8 +256,10 @@ I know it's easier just to post below, but it's a real mess down there! With the
 Thank you!
 Elliot
 
-1.  Changelog
-##  July 25 2016
+1.  Changelog
+
+##  July 25 2016
+
 Forked and built from https://github.com/sebllll/VVVV.Packs.Image/tree/sebl_beta43.2 for both x86 and x64. Unfortunately **OpenNI** and **FlyCapture** nodes **didn't survive**. I didn't have the proper OpenNI.Net libraries (and you have proper kinect nodes and AsImage (DX11.Texture2D) anyway) and visual studio couldn't target .NET Framework 4.5 in FlyCapture project for some reason.
 
 What's missing from x64 build:
@@ -262,29 +269,34 @@ What's missing from x64 build:
 * EDSDK (didn't have x64 libraries)
 * uEye? (might work though, IDS only provides x86 or AnyCPU .NET library, nodes are there I don't have camera though)
 
-##  September 13 2013
+##  September 13 2013
+
 * just took the last version, added some missing stuff, some helpatches, fixed some namings and made simplified installation instructions
 
-##  February 25 2013
+##  February 25 2013
+
 * Reformat to VVVV.Packs.Image
 * Release build for beta29
 * A glut of internal clean up
 * Lots of fixes all over the place
 * Lots of new nodes
 
-##  May 30 2012
+##  May 30 2012
+
 * CaptureProperty for CLEye (splits properties into seperate node, fixes BinSize bug)
 * StereoCalibrate paths fixed in patch
 * Added missing ValueChessBoardSpread
 * Removed redundant dll's
 * Tested with vvvv alpha 28
 
-##  May 2012
+##  May 2012
+
 * CLEye for native PS3Eye support (multiple cameras supported + full camera properties)
 * StereoCalibrate node added
 * CalibrateProjector update
 
-1.  Description
+1.  Description
+
 Pre-release binary build of OpenCV nodes for VVVV
 Source hosted at:
 https://github.com/elliotwoods/VVVV.Packs.Image
@@ -293,7 +305,8 @@ Still in testing.
 No warranty of course.
 Approaching stable release.
 
-1.  License
+1.  License
+
 MIT license where possible
 BSD license for core OpenCV code
 GPL license otherwise (due to EmguCV) unless somebody buys an EmguCV license which would allow all of us to use these nodes without GPL restrictions.
