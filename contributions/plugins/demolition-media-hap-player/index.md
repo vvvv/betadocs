@@ -25,7 +25,7 @@ contribution: "true"
 ##  Features
 
 * Hardware accelerated (Nvidia/ATI/Intel graphics cards)
-* Hap formats: Hap, Hap Q, Hap Alpha, Hap Q Alpha, **(new) Hap R**
+* Hap formats: Hap, Hap Q, Hap Alpha, Hap Q Alpha, **(new) Hap R**, **(new) Hap HDR - see Patreon link below**
 * Containers: mov (preferred), avi
 * No external codecs installation needed
 * DirectX 11 video texture output
