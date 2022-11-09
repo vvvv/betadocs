@@ -22,9 +22,10 @@ image: "Screenshot (5).png"
 contribution: "true"
 ---
 
-##  Features
+##  Features
+
 * Hardware accelerated (Nvidia/ATI/Intel graphics cards)
-* Hap formats: Hap, Hap Q, Hap Alpha, Hap Q Alpha, **(new) Hap R**
+* Hap formats: Hap, Hap Q, Hap Alpha, Hap Q Alpha, **(new) Hap R**, **(new) Hap HDR - see Patreon link below**
 * Containers: mov (preferred), avi
 * No external codecs installation needed
 * DirectX 11 video texture output
@@ -36,23 +37,29 @@ contribution: "true"
 * VAudio-enabled (**multichannel sound supported**)
 * 64-bit and 32-bit
 
-##  License 
+##  License 
+
+**Update:** you can now get the latest Hap Player version via Patreon: https://www.patreon.com/hap_player or boosty: https://boosty.to/hap_player
+
 Free for non-commercial use.
-**License needed for commercial use.**
+**License needed for commercial use (if not using Patreon/boosty). **
 Companies: 200€ per project per machine
 Individual: 100€ per project per machine
 Discount for multiple licenses applies 
 [Purchase via e-mail](mailto:lev.panov@gmail.com)
 
-##  Requirements: 
+##  Requirements: 
+
 1. vvvv >= 45beta35.8
 1. dx11 pack >= 1.3.1
 1. VAudio pack for audio output (currently built against v18)
 
-##  Installation
+##  Installation
+
 Unzip and copy "packs" folder to your vvvv root folder
 
-##  How to encode videos
+##  How to encode videos
+
 To play videos you would need to re-encode them to Hap first
 [Encoding tips (pdf)](https://www.dropbox.com/s/u2wiccg9ru1tx41/Hap%20Encoding%20Tips.pdf?dl=1) [Additional](https://gist.github.com/dlublin/e4585b872dd136ae88b2aa51a6a89aac)
 
@@ -60,11 +67,13 @@ To play videos you would need to re-encode them to Hap first
 
 **(NEW) A faster/better quality commercial Hap encoder available now: [Jokyo Hap Encoder](https://jokyohapencoder.com)**
 
-##  VL support
-https://www.nuget.org/packages/VL.HapPlayer (same licensing as in beta)
+##  VL support
+
+Get the latest VL nugets via Patreon: https://www.patreon.com/hap_player or boosty: https://boosty.to/hap_player
 
 
-##  FAQ
+##  FAQ
+
 * Q: How to achieve the maximum performance out of the player?
 * A: Try encoding without 2nd stage compression. You can save CPU time with that, at the cost of higher data-rate (it also depends on the content) -- your SSD should be fast! Add "-compressor none" to the FFmpeg arguments. I've managed to play 10k@50fps with this approach on my laptop.
 * Q: I want to drive the playback with the frame index/LFO/external clock/sync playback on several machines
@@ -77,7 +86,8 @@ https://www.nuget.org/packages/VL.HapPlayer (same licensing as in beta)
 * A: You're in a bad situation. Try 64-bit plugin version, or upgrade to a newer Windows version (8.1 is enough)
 
 
-##  Changelog
+##  Changelog
+
 2022-02-08
 1. Fixed a very rare crash related to native textures usage
 2. Other fixes and improvements 
@@ -102,7 +112,8 @@ https://www.nuget.org/packages/VL.HapPlayer (same licensing as in beta)
 1. (NEW) **A better frame-precise playback control is available now for commercial projects (contact via [e-mail](mailto:lev.panov@gmail.com))**
 
 
-###  2017-06-20
+###  2017-06-20
+
 1. Experimental support of non-multiple of 2 video resolutions
 1. Accurate computation of the current frame index
 1. The image queue size was increased to 10 frames/100Mb, which gives slightly better performance in some cases
