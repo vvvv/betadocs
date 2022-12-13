@@ -27,7 +27,7 @@
 
 .video-wall h1
 {
-    font-size: 1.3em;
+    font-size: 1.3em !important;
     font-weight: bold;
     margin-top: 0;
     color: #666;
