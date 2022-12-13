@@ -28,7 +28,7 @@ Osc is actually supported , but you must must host the interface inside a server
 Works on 32 and 64 bit and vvvv beta 34.
 Here is an introduction tutorial to start, sorry about my poor english:
 <div class="embed-responsive embed-responsive-16by9 mt-3 mb-4">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/navJhw3W4vA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="560" height="315" data-src="https://www.youtube.com/embed/navJhw3W4vA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 Although my skills on javascript programming were null, it was a nice exercise and learning period, open my mind to lot of possibilities based in html apps integrated with visual programming.
 So expect some bugs, and not the most "clean" way of patching, but already really satisfy with the result, and it works like a charm.

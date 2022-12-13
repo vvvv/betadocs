@@ -91,7 +91,8 @@ image: "automata1.9.png"
 contribution: "true"
 ---
 
-1.  Hello Automata UI !
+1.  Hello Automata UI !
+
 this is a visual finite state machine editor with built in finite state machine.
 
 You want bulletproof logic ? You better use the automata node! Well, that's what [bjoern" "bjoern](http://vvvv.org/users/bjoern%22+%22bjoern) told me a couple of years ago. And he was right. If your patch becomes more and more complex, more and more bugs turn up due monoflop, delay, flipflop and framedelay madness. It's much easier with a statemachine.   
@@ -113,7 +114,7 @@ And let's not forget, Automata UI is inspired by http://qfsm.sourceforge.net/.
 
 we (wirmachenbunt studio) use the plugin in all recent projects and it made our vvvv patcher life a lot more pleasant. hence we hope it can help you too.
 
-<div class="embed-responsive embed-responsive-16by9 mt-3 mb-4">
+<div<iframe width="560" height="315" data-src="https://www.youtube">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/I8CmERSoyPc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
@@ -126,7 +127,7 @@ we (wirmachenbunt studio) use the plugin in all recent projects and it made our 
 *Dialogs appear close to mouse
 
 <div class="vimeo embed-responsive embed-responsive-16by9 mt-3 mb-4">
-    <iframe title="vimeo-player" src="https://player.vimeo.com/video/278362310" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+    <iframe title="vimeo-player" data-src="https://player.vimeo.com/video/278362310" width="640" height="360" frameborder="0" allowfullscreen></iframe>
 </div>
 
 1.8.3

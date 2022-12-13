@@ -36,6 +36,6 @@ An html doc ( in french and english ) is included in the folder.
 This hack is  Tofe86 arduino's contribution on the topic of ethernet / TLC conflict.
 
 Just done a little test with my whitecat here: <div class="vimeo embed-responsive embed-responsive-16by9 mt-3 mb-4">
-    <iframe title="vimeo-player" src="https://player.vimeo.com/video/22679194" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+    <iframe title="vimeo-player" data-src="https://player.vimeo.com/video/22679194" width="640" height="360" frameborder="0" allowfullscreen></iframe>
 </div>
 

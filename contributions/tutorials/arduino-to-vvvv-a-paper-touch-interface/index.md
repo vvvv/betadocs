@@ -20,5 +20,5 @@ We will create a capacitive sensor for Arduino, using a pencil and a piece of pa
 The hardware is easy, and the code is not hard so lets start!!
 
 <div class="embed-responsive embed-responsive-16by9 mt-3 mb-4">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/LnpQgfTomNs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="560" height="315" data-src="https://www.youtube.com/embed/LnpQgfTomNs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>

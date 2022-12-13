@@ -16,7 +16,7 @@ Finally get to made the cleanup of this patch and update to last beta(I still us
 This is basically how we made this projection mapping:
 
 <div class="vimeo embed-responsive embed-responsive-16by9 mt-3 mb-4">
-    <iframe title="vimeo-player" src="https://player.vimeo.com/video/53543016" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+    <iframe title="vimeo-player" data-src="https://player.vimeo.com/video/53543016" width="640" height="360" frameborder="0" allowfullscreen></iframe>
 </div>
 
 
@@ -32,6 +32,6 @@ EDIT: Here's the video made from dogrush studio, if you want to try it with the 
 
 
 <div class="vimeo embed-responsive embed-responsive-16by9 mt-3 mb-4">
-    <iframe title="vimeo-player" src="https://player.vimeo.com/video/71241408" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+    <iframe title="vimeo-player" data-src="https://player.vimeo.com/video/71241408" width="640" height="360" frameborder="0" allowfullscreen></iframe>
 </div>
 

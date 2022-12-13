@@ -155,13 +155,14 @@ contribution: "true"
 ---
 
 <div class="vimeo embed-responsive embed-responsive-16by9 mt-3 mb-4">
-    <iframe title="vimeo-player" src="https://player.vimeo.com/video/206586772" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+    <iframe title="vimeo-player" data-src="https://player.vimeo.com/video/206586772" width="640" height="360" frameborder="0" allowfullscreen></iframe>
 </div>
 
 This pack is a collection of tools and techniques to handle a lot of particles on the GPU.
 It also includes tools for dealing with depth cameras like Kinect 1 or 2.
 
-1.  features
+1.  features
+
 * clean and modular design
 * emit, select, modify and visualize particles
 * very easy customization of particle attributes
@@ -170,11 +171,13 @@ It also includes tools for dealing with depth cameras like Kinect 1 or 2.
 * hittest/count, centroid, bounds, peak, ...
 * includes many additional plugins for vvvv ( for example dynamic shaders(!) and MultiBufferRenderer)
 
-1.  releases
+1.  releases
+
 * current version: 1.0.6
 * changelog: https://github.com/letmp/dx11-particles/blob/master/CHANGELOG.md
 
-1.  getting started
+1.  getting started
+
 **You need:**
 * latest version of vvvv
 * latest version of [directx11-nodes](xref:contribution/directx11-nodes)
@@ -188,19 +191,23 @@ It also includes tools for dealing with depth cameras like Kinect 1 or 2.
 
 After installation you can see all nodes of this pack by typing dx11.particles in your node browser. There are help patches for all included nodes that give small examples how to use them.
 
-1.  for developers
+1.  for developers
+
 You can fork the project here: https://github.com/letmp/dx11-particles
 I really appreciate all of your help to let this pack grow. It is quite easy to build new modifiers and selectors. So if you have something that should be part of the pack just get in contact via robert@intolight.de or create a pull request via github.
 
-1.  bugs
+1.  bugs
+
 Please report any bugs here: https://github.com/letmp/dx11-particles/issues
 
-1.  license
+1.  license
+
 © Robert Willner, 2018
 Author: robert.willner@gmail.com
 
 This software is distributed under the [CC Attribution-NonCommercial-ShareAlike 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) license.
 If you want to use this pack for a commercial project, please contact robert.willner@gmail.com and tell me about your project or your goal.
 
-1.  >>> Please consider purchasing a license for commercial use! <<<
+1.  >>> Please consider purchasing a license for commercial use! <<<
+
 See [/store](https://store.vvvv.org/)

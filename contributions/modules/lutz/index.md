@@ -23,7 +23,7 @@ This is a lightweigth implementation of a very common technique from the video g
 And this is how it works
 
 <div class="vimeo embed-responsive embed-responsive-16by9 mt-3 mb-4">
-    <iframe title="vimeo-player" src="https://player.vimeo.com/video/223044237" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+    <iframe title="vimeo-player" data-src="https://player.vimeo.com/video/223044237" width="640" height="360" frameborder="0" allowfullscreen></iframe>
 </div>
 
 

@@ -19,5 +19,5 @@ The Trick is to give your renderer some transparency, using a setalpha (color) a
 Also be sure to set the backbuffer width and height to the correct size, otherwise you image might look ugly.
 
 <div class="embed-responsive embed-responsive-16by9 mt-3 mb-4">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/3Rg8ZKg8wcI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="560" height="315" data-src="https://www.youtube.com/embed/3Rg8ZKg8wcI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>

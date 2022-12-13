@@ -32,12 +32,14 @@ contribution: "true"
 ---
 
 <div class="vimeo embed-responsive embed-responsive-16by9 mt-3 mb-4">
-    <iframe title="vimeo-player" src="https://player.vimeo.com/video/268043752/d05f02a82a" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+    <iframe title="vimeo-player" data-src="https://player.vimeo.com/video/268043752/d05f02a82a" width="640" height="360" frameborder="0" allowfullscreen></iframe>
 </div>
-1.  ₪iv
+1.  ₪iv
+
 Notui is a UI behavior package written entirely in C# providing a robust skeleton for your UI elements. The intention here was to keep VVVV's vast drawing capabilities while eliminating the cobweb of doom usually present while patching UI logic. The result is a mostly dataflow friendly system which separates structure, stateful-logic and rendering. Note also that Notui is a C# library first and Notuiv is its VVVV implementation. This again means all the features of Notui theoretically can be accessed in VL and simply fetched from Nuget.org. This also means that you can patch your own element types and behavior delegates in VL. This is untested yet though.
 
-##  tl;dr, <a href="vpms://raw.githubusercontent.com/vvvvpm/vpdb/master/MESO/Notuiv/github.latest.vpack">get it with vpm</a>
+##  tl;dr, <a href="vpms://raw.githubusercontent.com/vvvvpm/vpdb/master/MESO/Notuiv/github.latest.vpack">get it with vpm</a>
+
 [But get vpm first](https://github.com/vvvvpm/vpm/releases/latest)
 if you hate vpm though you have github releases: https://github.com/meso-unimpressed/Notuiv/releases :P
 
@@ -50,7 +52,8 @@ Notui is available through Nuget for Visual Studio (Code) and VL.
 PM> Install-Package Notui
 ```
 
-##  Example:
+##  Example:
+
 ![title](https://vvvv.org/sites/default/files/imagecache/large/images/https://media.giphy.com/media/AicKsuWDSdUapo8cl0/giphy.gif)
 
 The above thing is a girlpower patch demoing a simple application structure with Notuiv inside. This is the patch behind it:
@@ -63,7 +66,8 @@ And expanded:
 
 As you can see it's relatively simple to set up this 2 draggable windows with stateful content and animated declarative transitions patched 100% in VVVV with Notuiv.
 
-##  Features
+##  Features
+
 * **Separate semantics describing UI structure and its stateful realization**
 ** Element Prototypes and their Instances
 * **Elements are nestable**
@@ -109,7 +113,8 @@ As you can see it's relatively simple to set up this 2 draggable windows with st
 
 *where it makes sense.
 
-##  Roadmap:
+##  Roadmap:
+
 * **next minor version**
 ** Hittesting arbitrary DX11 geometry
 ** (De)Serialization of element instances via XML or MessagePack
@@ -122,7 +127,8 @@ As you can see it's relatively simple to set up this 2 draggable windows with st
 
 ![title](https://vvvv.org/sites/default/files/imagecache/large/images/https://media.giphy.com/media/C9x8btCog0XwnrZ05g/giphy.gif) 
 
-##  Repos:
+##  Repos:
+
 https://github.com/meso-unimpressed/Notui
 https://github.com/meso-unimpressed/Notuiv
 
@@ -132,5 +138,6 @@ The name comes from the fact that this library only handles structural definitio
 
 **Disclaimer on the logo:** Notui have nothing to do with Israel's new shequel. That symbol just looks great and resembles an 'n' and a 'u' interlocked, throw in an 'i' and you'll get Notui \o/. But if anybody feels offended by this for any serious reason (like if an Israeli person really feel like their national currency symbol is being abused by random UI libraries for simply aesthetic reasons which has nothing to do with it, or with Israel) I'll immediately change it.
 
-###  Made in [MESO](https://meso.design)
+###  Made in [MESO](https://meso.design)
+
 ![title](https://vvvv.org/sites/default/files/imagecache/large/images/https://media.giphy.com/media/1eExH5lNIClZPq9fY8/giphy.gif) 

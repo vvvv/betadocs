@@ -121,10 +121,12 @@ The world of VST is so huge and even for free, you can get almost anything you c
 
 [bedroomproducersblog - Free VST Plugins by Category](http://bedroomproducersblog.com/free-vst-plugins/)
 
-##  Discussion
+##  Discussion
+
 A dedicated forums thread is here: [vvvv.audio-discussion](https://discourse.vvvv.org/t/vvvv.audio-discussion)
 
-##  Installation
+##  Installation
+
 Copy the folder in the zip file into the vvvv folder (integrate if it exists). It works for both, 32 and 64-bit vvvv versions. See also: [using-addons](https://betadocs.vvvv.org/using-vvvv/patching/using-addons.html)
 
 <div class="box">
@@ -140,28 +142,31 @@ You need to install [LoopBe](http://www.nerds.de/en/loopbe1.html) (tested with L
 If you encounter problems loading the Jacobi.Vst.Interop.dll (e.g. all VSTHost nodes have nil in/outputs) you need to install:
 [Visual C++ Redistributable for Visual Studio](http://www.microsoft.com/en-us/download/details.aspx?id=30679)
 
-## Learning:
+## Learning:
+
 Here is an online workshop video which explains all the basic nodes and concepts, starting at 8m24s:
 <div class="embed-responsive embed-responsive-16by9 mt-3 mb-4">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/I2nnyRkbllo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="560" height="315" data-src="https://www.youtube.com/embed/I2nnyRkbllo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 And a little demo video comes along:
 <div class="embed-responsive embed-responsive-16by9 mt-3 mb-4">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/VchIgx5jtns" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="560" height="315" data-src="https://www.youtube.com/embed/VchIgx5jtns" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 And if you are interested in how to patch audio with VL, here you go:
 <div class="embed-responsive embed-responsive-16by9 mt-3 mb-4">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/neQLttKMEgg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="560" height="315" data-src="https://www.youtube.com/embed/neQLttKMEgg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-##  Change Log
+##  Change Log
+
 * version 13 comes with a VL example, open "VL Test.v4p" in /girlpower
 [GitHub closed issues](https://github.com/tebjan/VVVV.Audio/issues?state=closed)
 [GitHub commits](https://github.com/tebjan/VVVV.Audio/commits/master)
 
-##  Known Bugs
+##  Known Bugs
+
 - VST Shells are not supported yet, but you can use shell2vst from Waves to extract the single plugins into dlls
 - Buffer read/write behave strangely some times
 - can click while patching

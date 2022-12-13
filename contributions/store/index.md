@@ -99,5 +99,5 @@ Then you probably fancy a content management system like this. Get a coffee or t
 [Buy License](mailto:info@wirmachenbunt.de) for commercial use.
 
 <div class="vimeo embed-responsive embed-responsive-16by9 mt-3 mb-4">
-    <iframe title="vimeo-player" src="https://player.vimeo.com/video/248325677" width="320" frameborder="0" allowfullscreen></iframe>
+    <iframe title="vimeo-player" data-src="https://player.vimeo.com/video/248325677" width="320" frameborder="0" allowfullscreen></iframe>
 </div>

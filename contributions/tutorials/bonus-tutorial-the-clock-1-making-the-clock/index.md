@@ -14,5 +14,5 @@ I will show how to make a clock and the clock hands, make them rotate using some
 It might not look the best, but we handle a lot off different datatypes and nodes, and it is really an awesome project to follow and learn some off the basics off the powerfull vvvv software.
 
 <div class="embed-responsive embed-responsive-16by9 mt-3 mb-4">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/3H0BZiCsKIc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="560" height="315" data-src="https://www.youtube.com/embed/3H0BZiCsKIc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>

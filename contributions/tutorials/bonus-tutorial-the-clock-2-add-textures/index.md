@@ -14,5 +14,5 @@ The textures we are going to use are cut out from a picture of an alarm clock, f
 Re-using the maths we did in Part 1 we will rebuild our clock from scratch. And please wait for part 3, because than we will add a little drop shadow to the clock hands.  
 
 <div class="embed-responsive embed-responsive-16by9 mt-3 mb-4">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/ORpVWyq1ToM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="560" height="315" data-src="https://www.youtube.com/embed/ORpVWyq1ToM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
