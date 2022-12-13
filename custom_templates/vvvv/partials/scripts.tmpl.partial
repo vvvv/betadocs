@@ -8,3 +8,4 @@
 <script type="text/javascript" src="{{_rel}}styles/externalJS.js"></script>
 <script type="text/javascript" src="{{_rel}}styles/docfx.js"></script>
 <script type="text/javascript" src="{{_rel}}styles/contribs.js"></script>
+<script type="text/javascript" src="{{_rel}}styles/gdpr-video.js"></script>
