@@ -40,15 +40,14 @@
     document.addEventListener("DOMContentLoaded", function () {
       
       const videosEnabled = localStorage.getItem('videosEnabled');
-      const frames = document.getElementsByTagName('iframe');
-
-      console.log (frames);
 
       if (videosEnabled == "true")
-      {    
+      {
+          var frames = document.getElementsByTagName('iframe');
+
           for (const f of frames)
           {
-            if ("data-src" in f.dataset) {
+            if ("src" in f.dataset) {
               f.src=f.dataset.src;
               f.removeAttribute('data-src');
             }
