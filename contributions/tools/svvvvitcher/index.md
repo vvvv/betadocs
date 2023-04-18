@@ -15,13 +15,16 @@ image: "_root_MAIN-gui_2009.05.22-04.52.59.jpg"
 contribution: "true"
 ---
 
-## why?
+## why?
+
 after three attempts to make a nice vj tool, i came to the conclusion, that the most powerful thing is to switch patches. because a patch can do just anything, it can contain videos, pictures, 3d models, generative stuff etc.. and... there are just thousands around. every vvvv patcher has lots of try outs, small ideas and whatever on his harddrive. wouldn't it just nice to drop them all into a folder and mix them on a vj set? sure it is!
 <!--break-->
-## what?
+## what?
+
 when makeing a patch audio reactive, you would usually use some audio analysis nodes, connecte them to some pins in your patch and add a few controllers for realtime modifications. and this is what svvvvitcher simply does, it provides a framework around your patches with audio analysis values and realtime controllers.
 
-## how?
+## how?
+
 the only thing you have to do to add a patch to the svvvvitcher, is adding 5 IOBoxes, 3 inputs and two outputs:
 
 * Control, input for the realtime controllers
@@ -33,7 +36,8 @@ the only thing you have to do to add a patch to the svvvvitcher, is adding 5 IOB
 
 then of course, you have to connect the IOboxes in your patch and add a <span class="node">DX9Texture (EX9.Texture) </span> node to render the output texture. After this you need to give the modified patch a name starting with "_root_" (this is necessary, to allow patches to load subpatches) and drop it sowmwhere into the 'Patches' folder of the Svvvvitcher. the svvvvitcher scans this folder for patches with that naming.
 
-## features
+## features
+
 * 2 patch channels
 * 20 blend modes, order can be flipped
 * up to 45 patches
@@ -45,11 +49,14 @@ then of course, you have to connect the IOboxes in your patch and add a <span cl
 
 a disadvantage is that vvvv has a short freeze when patches are switched, depending on the size of the patch. but in a vj set of many hours.. who really cares?
 
-## requirements
+## requirements
+
 in order to run svvvvitcher you need to have the addonpack and .NET 2.0 installed, as stated at the [downloads](https://vvvv.org/downloads) page.
 
-## comments
+## comments
+
 a forum thread for svvvvitcher is [here](http://vvvv.org/tiki-view_forum_thread.php?comments_parentId=26904&topics_threshold=0&topics_offset=0&topics_sort_mode=lastPost_desc&topics_find=&forumId=11).
 
-## tools for svvvvitcher
-Bank Svvvvitcher: A simple tool for reorder presets banks: [bankSvvvitcher.rar (12.81 Kb)](http://vvvv.org/tiki-download_file.php?fileId=1997) (by [drakko" "drakko](http://vvvv.org/users/drakko%22+%22drakko) and r.arcaya)
+## tools for svvvvitcher
+
+Bank Svvvvitcher: A simple tool for reorder presets banks: [bankSvvvitcher.rar (12.81 Kb)](http://vvvv.org/tiki-download_file.php?fileId=1997) (by [drakko](http://vvvv.org/users/drakko%22+%22drakko) and r.arcaya)
