@@ -19,6 +19,11 @@
       }
     ],
     "dest": "_site",
+    "sitemap":{
+      "baseUrl": "https://beta.vvvv.org/",
+      "priority": 0.1,
+      "changefreq": "never"
+    },
     "globalMetadataFiles": [],
     "fileMetadataFiles": [],
     "template": [
@@ -26,17 +31,17 @@
     "custom_templates/fxstrap",
     "custom_templates/vvvv"
     ],
-    "postProcessors": [ "ExtractSearchIndex" ],
 	  "globalMetadata": {
       "_appTitle": "vvvv beta documentation",
       "_contributionsTitle": "vvvv beta contributions",
       "_appFooter": "Brought to you by vvvv.org",
-      "_enableSearch": true,
+      "_enableSearch": false,
       "_enableNewTab": false,
       "_appLogoPath": "/img/icons/logo.svg",
       "_appFaviconPath": "/img/icons/favicon.ico",
       "_disableContribution": false,
       "_disableAffix": false,
+      "_disableBreadcrumb": false,
       "_gitContribute": {
         "repo": "https://github.com/vvvv/betadocs.git",
         "branch": "master"

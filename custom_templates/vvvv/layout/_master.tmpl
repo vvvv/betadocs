@@ -3,7 +3,7 @@
 {{!include(/^fonts/.*/)}}
 {{!include(favicon.ico)}}
 {{!include(logo.svg)}}
-{{!include(search-stopwords.json)}}
+
 <!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
@@ -16,11 +16,6 @@
         {{>partials/navbar}}
         {{/_disableNavbar}}
       </header>
-      {{#_enableSearch}}
-      <div class="container body-content">
-        {{>partials/searchResults}}
-      </div>
-      {{/_enableSearch}}
       <div role="main" class="container body-content hide-when-search">
       <div class="row">
       {{^_disableToc}}
@@ -38,6 +33,10 @@
           <div class="col-lg-9">
           {{/_disableAffix}}
             <article class="content wrap pt-2 pb-2" id="_content" data-uid="{{uid}}">
+              {{^_disableBreadcrumb}}
+              {{>partials/breadcrumb}}
+              {{/_disableBreadcrumb}}
+              
               {{#contribution}}
                 <div class="contribution">
                   {{#overview}}
