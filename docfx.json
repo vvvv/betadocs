@@ -41,7 +41,7 @@
       "_appFaviconPath": "/img/icons/favicon.ico",
       "_disableContribution": false,
       "_disableAffix": false,
-      "_disableBreadcrumb": false,
+      "_disableBreadcrumb": true,
       "_gitContribute": {
         "repo": "https://github.com/vvvv/betadocs.git",
         "branch": "master"
