@@ -19,6 +19,11 @@
       }
     ],
     "dest": "_site",
+    "sitemap":{
+      "baseUrl": "https://beta.vvvv.org/",
+      "priority": 0.1,
+      "changefreq": "never"
+    },
     "globalMetadataFiles": [],
     "fileMetadataFiles": [],
     "template": [
