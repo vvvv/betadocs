@@ -107,7 +107,7 @@ comments:
   - uid: "274831"
   - uid: "274851"
 uid-files: "contribution/directx11-nodes-files"
-title: "DirectX11 Nodes [dx11]"
+title: "DirectX11 Nodes / DX11"
 image: "DX_org_2012.12.16-13.36.40.png"
 contribution: "true"
 ---

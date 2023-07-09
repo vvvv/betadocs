@@ -9,3 +9,6 @@
 <script type="text/javascript" src="{{_rel}}styles/docfx.js"></script>
 <script type="text/javascript" src="{{_rel}}styles/contribs.js"></script>
 <script type="text/javascript" src="{{_rel}}styles/gdpr-video.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@docsearch/js@3"></script>
+<script type="text/javascript"> docsearch({ appId: '3O542V4LS4', apiKey: 'fee5526b5961a7140d0dc6c919baca2d', indexName: 'beta-vvvv', container: '#docsearch', debug: 'false'});</script>
+

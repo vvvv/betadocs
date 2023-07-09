@@ -8,9 +8,7 @@
       </button>
 
       <div class="collapse navbar-collapse navbar-right" id="navbar">
-        <form class="form-inline my-2 my-lg-0" role="search" id="search">
-            <input type="text" class="form-control mr-sm-2 docsSearch" id="search-query" placeholder="Search" autocomplete="off">
-        </form>
+        <div id="docsearch" class="ds-search"></div>
       </div>
     </nav>
   </div>
