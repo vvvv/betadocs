@@ -4,12 +4,6 @@
 --docsearch-container-background: rgba(33, 33, 33, 0.8);
 }
 
-.ds-search
-{
-    /* float: right; */
-    margin-top: 1rem;
-}
-
 .DocSearch-Container
 {
     z-index: 1030;  /* Higher than stickybar */
