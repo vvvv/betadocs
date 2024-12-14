@@ -1,15 +1,15 @@
 <div class="container-fluid bg-vvvvblack">
 	<div class="container">
 		<div class="vvvv_header">
-			<div class="vvvv_header_image" style="background-image:url(https://vvvv.org/sites/default/files/imagecache/header_image/screenshot1586636220.png);">
+			<div class="vvvv_header_image" style="background-image:url(https://legacy.vvvv.org/sites/default/files/imagecache/header_image/screenshot1586636220.png);">
 					<a href="http://vvvv.org">
-						<img src="https://vvvv.org/sites/all/themes/vvvv/css/img/logo.png">
+						<img src="https://legacy.vvvv.org/sites/all/themes/vvvv/css/img/logo.png">
 					</a>
 			</div>
 			<div class="vvvv_header_menu">
 				<ul>
 					<li>
-						<a href="https://vvvv.org/home/activities">Home</a>
+						<a href="https://legacy.vvvv.org/home/activities">Home</a>
 					</li>
 					
 					<li {{^contribution}}class="active"{{/contribution}}>
@@ -17,37 +17,37 @@
 					</li>
 					
 					<li>
-						<a href="https://discourse.vvvv.org">Forum</a>
+						<a href="https://forum.vvvv.org">Forum</a>
 					</li>
 					
 					<li>
-						<a href="https://visualprogramming.net/blog">Blog</a>
+						<a href="https://vvvv.org/blog">Blog</a>
 					</li>
 
 					<li>
-					<a href="https://vvvv.org/users">Users</a>
+					<a href="https://legacy.vvvv.org/users">Users</a>
 						<ul>
-							<li><a href="https://vvvv.org/users/map">Map</a></li>
-							<li><a href="https://vvvv.org/users/list">Userlist</a></li>
-							<li><a href="https://vvvv.org/users/businesses">Businesses</a></li>
-							<li><a href="https://vvvv.org/documentation/userpages?open=true">Userpages</a></li>
-							<li><a href="https://vvvv.org/users/connections">Connections</a></li>
+							<li><a href="https://legacy.vvvv.org/users/map">Map</a></li>
+							<li><a href="https://legacy.vvvv.org/users/list">Userlist</a></li>
+							<li><a href="https://legacy.vvvv.org/users/businesses">Businesses</a></li>
+							<li><a href="https://legacy.vvvv.org/documentation/userpages?open=true">Userpages</a></li>
+							<li><a href="https://legacy.vvvv.org/users/connections">Connections</a></li>
 						</ul>
 					</li>
 					
 					<li {{#contribution}}class="active"{{/contribution}}>
 						<a href="/contributions/staffpicks/">Contributions</a>
 						<ul>
-							<li><a href="https://vvvv.org/contributions">All</a></li>
-							<li><a href="https://vvvv.org/store">Store</a></li>
+							<li><a href="https://legacy.vvvv.org/contributions">All</a></li>
+							<li><a href="https://legacy.vvvv.org/store">Store</a></li>
 						</ul>
 					</li>
 
 					<li>
-					<a href="https://vvvv.org/downloads">Downloads</a>
+					<a href="https://legacy.vvvv.org/downloads">Downloads</a>
 					<ul>
-							<li><a href="https://vvvv.org/downloads">vvvv beta</a></li>
-							<li><a href="https://vvvv.org/downloads/previews">vvvv beta previews</a></li>
+							<li><a href="https://legacy.vvvv.org/downloads">vvvv beta</a></li>
+							<li><a href="https://legacy.vvvv.org/downloads/previews">vvvv beta previews</a></li>
 						</ul>
 					</li>
 
